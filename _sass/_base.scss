@@ -43,7 +43,9 @@ h1, h2, h3, h4 {
   background-size: 100% auto;
   background-position: 0 0;
 
-  height: 2000px;
+  @include media-query($mobile) {
+    background-image: none;
+  }
 }
 
 
@@ -53,13 +55,17 @@ h1, h2, h3, h4 {
 
 .header {
   display: block;
-  width: 1160px;
+  width: 100%;
+  max-width: 1160px;
   height: auto;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
   position: relative;
 
+  @include media-query($mobile) {
+    height: 88px;
+  }
 
   &--row {
       display: -webkit-box;
@@ -74,12 +80,140 @@ h1, h2, h3, h4 {
       justify-content: flex-start;
       -webkit-justify-content: flex-start;
       padding-top: 65px;
+
+      @include media-query($mobile) {
+        padding-top: 20px;
+      }
   }
 }
 
 .menu--primary {
   display: block;
   margin-left: auto;
+
+
+  &.menu-open {
+    background: $white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 0;
+    width: calc(100% - 20px);
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    .sec-overlay {
+
+      border-bottom: 1px solid #e1e1e1;
+
+      h4 {
+        display: block;
+      }
+      .menu-item {
+        color: $dark;
+        padding: 30px 20px 30px 30px;
+      
+        .menu-icon {
+
+          &:before {
+            background: $dark;
+            transform: rotate(45deg);
+            top: 6px;
+          }
+          &:after {
+            background: $dark;
+            transform: rotate(-45deg);
+            top: 6px;
+          }
+        }
+      }
+    }
+    ul {
+      display: block;
+    }
+
+    .menu--secondary {
+      display: block;
+      position: relative;
+
+      ul li {
+        width: auto;
+        display: inline-block;
+      }
+    }
+  }
+
+  .sec-overlay {
+    display: none;
+
+    @include media-query($mobile) {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+    
+      align-items: flex-start;
+      -webkit-align-items: flex-start;
+      padding: 0;
+    }
+
+    h4 {
+      font-family: 'latoblack', sans-serif;
+      font-weight: normal;
+      font-size: 12px;
+      letter-spacing: 2px;
+      color: $dark;
+      text-transform: uppercase;
+      padding: 30px 30px 30px 20px;
+      box-sizing: border-box;
+
+      display: none;
+    }
+
+    .menu-item {
+      font-family: 'latoblack', sans-serif;
+      font-weight: normal;
+      font-size: 12px;
+      letter-spacing: 2px;
+      color: $white;
+      text-transform: uppercase;
+      text-decoration: none;
+      margin-left: auto;
+      padding: 20px 10px 30px 30px;
+      box-sizing: border-box;
+
+      .menu-icon {
+        display: inline-block;
+        position: relative;
+        width: 30px;
+        height: 12px;
+        margin-left: 8px;
+
+        &:before {
+          display: block;
+          content: '';
+          width: 30px;
+          height: 2px;
+          border-radius: 1px;
+          background: $white;
+          position: absolute;
+          top: 2px;
+        }
+        &:after {
+          display: block;
+          content: '';
+          width: 30px;
+          height: 2px;
+          border-radius: 1px;
+          background: $white;
+          position: absolute;
+          top: 10px;
+        }
+      }
+    }
+  }
 
   ul {
     display: -webkit-box;
@@ -96,9 +230,22 @@ h1, h2, h3, h4 {
 
     list-style: none;
 
+    @include media-query($mobile) {
+      margin-top: 20px;
+      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+      display: none;
+    }
+
     li {
 
       margin-left: 30px;
+
+      @include media-query($mobile) {
+        margin-left: 0;
+        display: block;
+        width: 100%;
+      }
 
       a {
         font-family: 'latoblack', sans-serif;
@@ -123,6 +270,18 @@ h1, h2, h3, h4 {
           fill: $white;
 
           @include transition-ease;
+
+          @include media-query($mobile) {
+            fill: $dark;
+          }
+        }
+
+        @include media-query($mobile) {
+          display: block;
+          color: $dark;
+          padding: 10px 0 10px 20px;
+          box-sizing: border-box;
+          font-size: 14px;
         }
       }
     }
@@ -140,6 +299,10 @@ h1, h2, h3, h4 {
   padding: 0 20px;
   box-sizing: border-box;
 
+  @include media-query($mobile) {
+    display: none;
+  }
+
   ul {
     display: -webkit-box;
     display: -moz-box;
@@ -154,6 +317,7 @@ h1, h2, h3, h4 {
     -webkit-flex-direction: row;
 
     li {
+      margin-left: 0;
 
       a {
         display: block;
@@ -205,6 +369,12 @@ h1, h2, h3, h4 {
   height: 110px;
 
   text-indent: -9999px;
+
+  @include media-query($mobile) {
+    background: url('../assets/cs3sthlm-logo-basic.svg') no-repeat;
+    width: 60px;
+    height: 50px;
+  }
 }
 
 
@@ -232,10 +402,18 @@ h1, h2, h3, h4 {
   padding: 0 20px 120px;;
   box-sizing: border-box;
   margin: 0 auto;
+
+  @include media-query($mobile) {
+    padding: 0 20px 60px;
+  }
 }
 
 .introduction {
   margin: 130px auto 0;
+
+  @include media-query($mobile) {
+    margin: 60px auto 0;
+  }
 
   .feed-news {
     display: inline-block;
@@ -255,7 +433,13 @@ h1, h2, h3, h4 {
       letter-spacing: 1px;
       text-transform: uppercase;
       margin-right: 10px;
+
+      @include media-query($mobile) {
+        max-width: 15%;
+        margin-right: 2.5%;
+      }
     }
+
     p {
       display: inline-block;
       font-family: 'latoregular', sans-serif;
@@ -263,6 +447,13 @@ h1, h2, h3, h4 {
       font-size: 11px;
       color: $white;
       letter-spacing: 0.045em;
+
+      @include media-query($mobile) {
+        max-width: 82.5%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
     }
   }
 
@@ -280,6 +471,10 @@ h1, h2, h3, h4 {
       .highlighted {
         color: $yellow;
         margin-right: 12px;
+      }
+
+      @include media-query($mobile) {
+        font-size: 36px;
       }
     }
   }
@@ -320,18 +515,43 @@ h1, h2, h3, h4 {
         margin-left: 0;
       }
     }
+
+    @include media-query($mobile) {
+      .btn {
+        width: calc(45% + 7px);
+        margin-left: 0;
+
+        &:last-of-type {
+          margin-left: 20px;
+        }
+      }
+
+      .btn-yellow {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    }
   }
 }
 
 
 .about {
   margin: 130px auto 0;
+
+  @include media-query($mobile) {
+    margin: 60px auto 0;
+    padding: 0 0 60px;
+  }
 }
 .speakers {
   margin: 130px auto 0;
 }
 
 .sec-head {
+
+  @include media-query($mobile) {
+    padding: 0 20px;
+  }
 
   h4 {
     font-family: 'latoblack', sans-serif;
@@ -360,6 +580,14 @@ h1, h2, h3, h4 {
       position: absolute;
       bottom: -60px;
     }
+
+    @include media-query($mobile) {
+      margin-bottom: 40px;
+
+      &:after {
+        bottom: -20px;
+      }
+    }
   }
 
   p {
@@ -371,6 +599,10 @@ h1, h2, h3, h4 {
     font-family: 'latolight', sans-serif;
     font-weight: normal;
     font-size: 18px;
+
+    @include media-query($mobile) {
+      margin-left: 0;
+    }
   }
 }
 
@@ -390,17 +622,21 @@ h1, h2, h3, h4 {
 }
 
 .sec-columns {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
+  display: block;
 
-  align-items: flex-start;
-  -webkit-align-items: flex-start;
+  .sec-columns-inner {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
 
-  flex-direction: row;
-  -webkit-flex-direction: row;
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+
+    flex-direction: row;
+    -webkit-flex-direction: row;
+  }
 
   .column-item {
     display: block;
@@ -445,6 +681,15 @@ h1, h2, h3, h4 {
       }
     }
   }
+
+  @include media-query($mobile) {
+
+    .sec-columns-inner {
+      display: block;
+      width: 300%;
+      overflow: scroll;
+    }
+  }
 }
 
 .sec-group-details {
@@ -452,7 +697,7 @@ h1, h2, h3, h4 {
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  display: flex;
+  display: none;
 
   align-items: center;
   -webkit-align-items: center;
@@ -600,6 +845,12 @@ h1, h2, h3, h4 {
 
       &:last-of-type {
         margin-right: 0;
+      }
+
+      @include media-query($mobile) {
+        width: 50%;
+        max-width: 50%;
+        margin: 0 0 20px;
       }
 
       li {
