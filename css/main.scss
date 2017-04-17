@@ -1,33 +1,70 @@
 ---
-# cs3sthlm by Simon
+# cs3sthlm - by Simon Gustafsson
 ---
-@charset "utf-8";
+/*
+*  html5 doctor css reset | http://html5doctor.com/html-5-reset-stylesheet
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,
+strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,
+details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;
+font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
 
-// Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+/**
+  VARIABLES */
 
-$spacing-unit:     30px;
+$alpha-100: 1;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+/* Primary */
+$yellow:            rgb(239, 125, 0);
+$blue:              rgb(38, 96, 164);
+$red:               rgb(145,47,64);
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$white:             rgb(255,255,255);
+$dark:				      rgb(3, 1, 0);
+
+$blue-dark:         rgb(43, 47, 54);
+
+
+@mixin transition-ease {
+  transition: 0.24s all ease-in-out;
+  -moz-transition: 0.24s all ease-in-out;
+  -webkit-transtiion: 0.24s all ease-in-out;
+  -o-transition: 0.24s all ease-in-out;
+}
 
 // Width of the content area
 $content-width:    800px;
 
-$on-palm:          600px;
-$on-laptop:        800px;
+$mobile:       768px;
+$default:      1280px;
+$large:        1440px;
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
 
 @import 
+	"fonts",
 	"base",
 	"layout",
 	"animation"
 ;
+
+
+
+
