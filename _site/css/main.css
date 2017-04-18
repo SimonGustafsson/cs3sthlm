@@ -514,12 +514,13 @@ h1, h2, h3, h4 {
       margin-left: 0; }
   @media screen and (max-width: 768px) {
     .introduction .btn-group-intro .btn {
-      width: calc(45% + 7px);
-      margin-left: 0; }
+      width: 47.5%;
+      margin-left: 0;
+      padding: 10px 14px; }
       .introduction .btn-group-intro .btn:last-of-type {
         margin-top: 20px; }
       .introduction .btn-group-intro .btn:nth-child(2) {
-        margin-left: 20px; }
+        margin-left: 4%; }
     .introduction .btn-group-intro .btn-yellow {
       width: 100%;
       margin-bottom: 20px; } }
@@ -779,6 +780,12 @@ h1, h2, h3, h4 {
   color: white; }
   .btn-blue:hover {
     color: #030100; }
+
+.btn-intro-more {
+  display: none; }
+  @media screen and (max-width: 768px) {
+    .btn-intro-more {
+      display: inline-block; } }
 
 /**
   FOOTER */

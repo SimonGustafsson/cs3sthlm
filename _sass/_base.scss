@@ -523,14 +523,15 @@ h1, h2, h3, h4 {
 
     @include media-query($mobile) {
       .btn {
-        width: calc(45% + 7px);
+        width: 47.5%;
         margin-left: 0;
+        padding: 10px 14px;
 
         &:last-of-type {
           margin-top: 20px;
         }
         &:nth-child(2) {
-          margin-left: 20px;
+          margin-left: 4%;
         }
       }
 
@@ -882,6 +883,14 @@ h1, h2, h3, h4 {
 
   &:hover {
     color: $dark;
+  }
+}
+
+.btn-intro-more {
+  display: none;
+
+  @include media-query($mobile) {
+    display: inline-block;
   }
 }
 
