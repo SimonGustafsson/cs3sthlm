@@ -444,7 +444,7 @@ h1, h2, h3, h4 {
     border-radius: 20px;
     padding: 1px 14px 4px;
     box-sizing: border-box;
-    margin-bottom: 20px; }
+    margin-top: 40px; }
     .introduction .feed-news .feed-category {
       display: inline-block;
       font-family: 'latoblack', sans-serif;
@@ -645,7 +645,7 @@ h1, h2, h3, h4 {
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  display: none;
+  display: flex;
   align-items: center;
   -webkit-align-items: center;
   justify-content: center;
@@ -662,6 +662,8 @@ h1, h2, h3, h4 {
     margin-right: -60px; }
     .sec-group-details.right-details .sec-group-details-content {
       margin-right: 20px; }
+  .sec-group-details img {
+    width: 100%; }
   .sec-group-details-content {
     display: block; }
     .sec-group-details-content h3 {

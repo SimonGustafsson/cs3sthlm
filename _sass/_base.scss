@@ -422,7 +422,7 @@ h1, h2, h3, h4 {
     border-radius: 20px;
     padding: 1px 14px 4px;
     box-sizing: border-box;
-    margin-bottom: 20px;
+    margin-top: 40px;
 
     .feed-category {
       display: inline-block;
@@ -703,7 +703,7 @@ h1, h2, h3, h4 {
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  display: none;
+  display: flex;
 
   align-items: center;
   -webkit-align-items: center;
@@ -730,6 +730,10 @@ h1, h2, h3, h4 {
     .sec-group-details-content {
       margin-right: 20px;
     }
+  }
+
+  img {
+    width: 100%;
   }
 
   &-content {
