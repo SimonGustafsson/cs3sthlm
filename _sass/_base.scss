@@ -899,6 +899,8 @@ h1, h2, h3, h4 {
   }
 }
 
+@include media-query($mobile) {
+
 .swiper-container {
   width: 100%;
   height: 100%;
@@ -1089,4 +1091,6 @@ button.swiper-pagination-bullet {
 }
 .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
   margin: 0 5px;
+}
+
 }
