@@ -425,6 +425,10 @@ h1, h2, h3, h4 {
     box-sizing: border-box;
     margin-top: 40px;
 
+    @include media-query($mobile) {
+      margin-top: 20px;
+    }
+
     .feed-category {
       display: inline-block;
       font-family: 'latoblack', sans-serif;
@@ -523,6 +527,9 @@ h1, h2, h3, h4 {
         margin-left: 0;
 
         &:last-of-type {
+          margin-top: 20px;
+        }
+        &:nth-child(2) {
           margin-left: 20px;
         }
       }
@@ -621,6 +628,10 @@ h1, h2, h3, h4 {
     clear: both;
     visibility: hidden;
   }
+
+  @include media-query($mobile) {
+    margin-top: 60px;
+  }
 }
 
 .sec-columns {
@@ -715,12 +726,38 @@ h1, h2, h3, h4 {
   width: 100%;
   max-width: 800px;
 
+  @include media-query($mobile) {
+    height: 275px;
+    position: relative;
+
+    &:after {
+        display: block;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: rgba($dark, .5);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 5;
+      }
+  }
+
   &.left-details {
     margin-left: -60px;
     margin-bottom: 60px;
 
     .sec-group-details-content {
       margin-left: 20px;
+    }
+
+    @include media-query($mobile) {
+      margin-left: 0;
+      margin-bottom: 20px;
+
+      .sec-group-details-content {
+        margin-left: 0;
+      }
     }
   }
 
@@ -731,14 +768,36 @@ h1, h2, h3, h4 {
     .sec-group-details-content {
       margin-right: 20px;
     }
+
+    @include media-query($mobile) {
+      margin-right: 0;
+
+      .sec-group-details-content {
+        margin-right: 0;
+      }
+    }
   }
 
   img {
+    display: block;
     width: 100%;
+
+    @include media-query($mobile) {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
   }
 
   &-content {
     display: block;
+
+    @include media-query($mobile) {
+      z-index: 10;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
 
     h3 {
       display: block;

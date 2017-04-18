@@ -446,6 +446,9 @@ h1, h2, h3, h4 {
     padding: 1px 14px 4px;
     box-sizing: border-box;
     margin-top: 40px; }
+    @media screen and (max-width: 768px) {
+      .introduction .feed-news {
+        margin-top: 20px; } }
     .introduction .feed-news .feed-category {
       display: inline-block;
       font-family: 'latoblack', sans-serif;
@@ -514,6 +517,8 @@ h1, h2, h3, h4 {
       width: calc(45% + 7px);
       margin-left: 0; }
       .introduction .btn-group-intro .btn:last-of-type {
+        margin-top: 20px; }
+      .introduction .btn-group-intro .btn:nth-child(2) {
         margin-left: 20px; }
     .introduction .btn-group-intro .btn-yellow {
       width: 100%;
@@ -583,6 +588,9 @@ h1, h2, h3, h4 {
     height: 0;
     clear: both;
     visibility: hidden; }
+  @media screen and (max-width: 768px) {
+    .sec-content {
+      margin-top: 60px; } }
 
 .sec-columns {
   display: block; }
@@ -653,20 +661,57 @@ h1, h2, h3, h4 {
   -webkit-justify-content: center;
   width: 100%;
   max-width: 800px; }
+  @media screen and (max-width: 768px) {
+    .sec-group-details {
+      height: 275px;
+      position: relative; }
+      .sec-group-details:after {
+        display: block;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: rgba(3, 1, 0, 0.5);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 5; } }
   .sec-group-details.left-details {
     margin-left: -60px;
     margin-bottom: 60px; }
     .sec-group-details.left-details .sec-group-details-content {
       margin-left: 20px; }
+    @media screen and (max-width: 768px) {
+      .sec-group-details.left-details {
+        margin-left: 0;
+        margin-bottom: 20px; }
+        .sec-group-details.left-details .sec-group-details-content {
+          margin-left: 0; } }
   .sec-group-details.right-details {
     float: right;
     margin-right: -60px; }
     .sec-group-details.right-details .sec-group-details-content {
       margin-right: 20px; }
+    @media screen and (max-width: 768px) {
+      .sec-group-details.right-details {
+        margin-right: 0; }
+        .sec-group-details.right-details .sec-group-details-content {
+          margin-right: 0; } }
   .sec-group-details img {
+    display: block;
     width: 100%; }
+    @media screen and (max-width: 768px) {
+      .sec-group-details img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1; } }
   .sec-group-details-content {
     display: block; }
+    @media screen and (max-width: 768px) {
+      .sec-group-details-content {
+        z-index: 10;
+        padding: 0 20px;
+        box-sizing: border-box; } }
     .sec-group-details-content h3 {
       display: block;
       font-family: 'latoblack', sans-serif;
