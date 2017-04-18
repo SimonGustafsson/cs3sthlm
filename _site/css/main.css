@@ -401,7 +401,8 @@ h1, h2, h3, h4 {
   BRAND */
 .brand {
   display: block;
-  background: url("../assets/cs3sthlm-logo.svg") no-repeat;
+  background: url("../assets/cs3sthlm-logo.png") no-repeat;
+  background-size: 100%;
   width: 99px;
   height: 110px;
   text-indent: -9999px; }
