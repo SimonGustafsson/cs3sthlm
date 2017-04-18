@@ -767,6 +767,11 @@ h1, h2, h3, h4 {
 
     .sec-group-details-content {
       margin-right: 20px;
+      text-align: right;
+
+      h3:after {
+        right: 0;
+      }
     }
 
     @include media-query($mobile) {
@@ -774,6 +779,11 @@ h1, h2, h3, h4 {
 
       .sec-group-details-content {
         margin-right: 0;
+        text-align: left;
+
+        h3:after {
+          left: 0;
+        }
       }
     }
   }

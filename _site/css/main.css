@@ -690,12 +690,18 @@ h1, h2, h3, h4 {
     float: right;
     margin-right: -60px; }
     .sec-group-details.right-details .sec-group-details-content {
-      margin-right: 20px; }
+      margin-right: 20px;
+      text-align: right; }
+      .sec-group-details.right-details .sec-group-details-content h3:after {
+        right: 0; }
     @media screen and (max-width: 768px) {
       .sec-group-details.right-details {
         margin-right: 0; }
         .sec-group-details.right-details .sec-group-details-content {
-          margin-right: 0; } }
+          margin-right: 0;
+          text-align: left; }
+          .sec-group-details.right-details .sec-group-details-content h3:after {
+            left: 0; } }
   .sec-group-details img {
     display: block;
     width: 100%; }
