@@ -123,10 +123,10 @@ input, select {
 /**
   GENERAL */
 html {
+  display: block;
   height: 100%; }
 
 html, body {
-  display: block;
   width: 100%; }
 
 body {
@@ -139,7 +139,14 @@ body {
   min-height: 100%;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
   text-rendering: optimizeLegibility !important;
-  -webkit-font-smoothing: antialiased !important; }
+  -webkit-font-smoothing: antialiased !important;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-flex-direction: column; }
 
 h1, h2, h3, h4 {
   font-family: 'latoblack', Arial, sans-serif; }
@@ -147,13 +154,6 @@ h1, h2, h3, h4 {
 /**
   HOME */
 .home {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: column;
-  -webkit-flex-direction: column;
   background: #030100 url("../assets/cs3sthlm-banner.jpg") no-repeat;
   background-size: 100% auto;
   background-position: 0 0; }
@@ -201,7 +201,8 @@ h1, h2, h3, h4 {
     width: calc(100% - 20px);
     position: absolute;
     top: 10px;
-    left: 10px; }
+    left: 10px;
+    z-index: 100; }
     .menu--primary.menu-open .sec-overlay {
       border-bottom: 1px solid #e1e1e1; }
       .menu--primary.menu-open .sec-overlay h4 {
@@ -418,7 +419,11 @@ h1, h2, h3, h4 {
   display: block;
   width: 100%;
   box-sizing: border-box;
-  flex: 1; }
+  flex: 1;
+  padding-top: 130px; }
+  @media screen and (max-width: 768px) {
+    .wrap {
+      padding-top: 60px; } }
 
 /**
   CONTENT */
@@ -431,13 +436,13 @@ h1, h2, h3, h4 {
   margin: 0 auto; }
   @media screen and (max-width: 768px) {
     .content {
-      padding: 0 20px 60px; } }
+      padding: 0 0 60px; } }
 
 .introduction {
-  margin: 130px auto 0; }
+  margin: 0 auto; }
   @media screen and (max-width: 768px) {
     .introduction {
-      margin: 60px auto 0; } }
+      padding: 0 20px; } }
   .introduction .feed-news {
     display: inline-block;
     width: auto;
@@ -559,7 +564,7 @@ h1, h2, h3, h4 {
     content: '';
     width: 40px;
     height: 1px;
-    background: #e1e1e1;
+    background: rgba(255, 255, 255, 0.5);
     position: absolute;
     bottom: -60px; }
   @media screen and (max-width: 768px) {
@@ -578,6 +583,64 @@ h1, h2, h3, h4 {
   @media screen and (max-width: 768px) {
     .sec-head p {
       margin-left: 0; } }
+.sec-head .group-block {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: flex-start;
+  -webkit-align-items: flex-start;
+  width: calc(100% - 190px);
+  margin-left: 190px; }
+  @media screen and (max-width: 768px) {
+    .sec-head .group-block {
+      width: 100%;
+      margin-left: 0;
+      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap; } }
+  .sec-head .group-block p {
+    margin-left: 0;
+    max-width: 360px; }
+  .sec-head .group-block h3 {
+    display: block;
+    font-family: 'latoblack', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative; }
+  .sec-head .group-block .img-block {
+    display: block;
+    margin-left: auto; }
+    @media screen and (max-width: 768px) {
+      .sec-head .group-block .img-block {
+        margin-left: 0;
+        margin-top: 40px; } }
+    .sec-head .group-block .img-block img {
+      width: 420px;
+      border-radius: 2px; }
+      @media screen and (max-width: 768px) {
+        .sec-head .group-block .img-block img {
+          width: calc(100% + 40px);
+          border-radius: 0;
+          margin-left: -20px; } }
+    .sec-head .group-block .img-block h3 {
+      margin-left: 60px;
+      margin-top: 20px; }
+      @media screen and (max-width: 768px) {
+        .sec-head .group-block .img-block h3 {
+          margin-left: 0; } }
+    .sec-head .group-block .img-block ul {
+      margin-left: 60px;
+      list-style: none; }
+      @media screen and (max-width: 768px) {
+        .sec-head .group-block .img-block ul {
+          margin-left: 0; } }
+      .sec-head .group-block .img-block ul li {
+        font-family: 'latolight', sans-serif;
+        font-weight: normal;
+        font-size: 16px; }
 
 .sec-content {
   display: block;
@@ -638,7 +701,7 @@ h1, h2, h3, h4 {
         content: '';
         width: 40px;
         height: 1px;
-        background: #e1e1e1;
+        background: rgba(255, 255, 255, 0.5);
         position: absolute;
         bottom: -11px; }
     .sec-columns .column-item p {
@@ -649,6 +712,42 @@ h1, h2, h3, h4 {
       margin-bottom: 20px; }
       .sec-columns .column-item p:last-of-type {
         margin-bottom: 0; }
+  .sec-columns .subline {
+    font-family: 'latoblack', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    margin-bottom: 40px; }
+    @media screen and (max-width: 768px) {
+      .sec-columns .subline {
+        padding-left: 20px;
+        box-sizing: border-box; } }
+  .sec-columns .column-block-item {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    margin-top: 40px; }
+    .sec-columns .column-block-item h5 {
+      display: block;
+      width: 50%;
+      font-family: 'latoblack', sans-serif;
+      font-weight: normal;
+      font-size: 15px;
+      color: #ef7d00; }
+    .sec-columns .column-block-item .distance-details {
+      margin-left: auto;
+      margin-right: 20px;
+      font-family: 'latoregular', sans-serif;
+      font-weight: normal;
+      font-size: 15px; }
 
 .sec-group-details {
   display: -webkit-box;
@@ -733,7 +832,7 @@ h1, h2, h3, h4 {
         content: '';
         width: 40px;
         height: 1px;
-        background: #e1e1e1;
+        background: rgba(255, 255, 255, 0.5);
         position: absolute;
         bottom: -11px; }
     .sec-group-details-content p {
@@ -758,6 +857,7 @@ h1, h2, h3, h4 {
   font-family: 'latoblack', sans-serif;
   font-weight: normal;
   letter-spacing: 2px;
+  box-shadow: 0 2px 4px rgba(3, 1, 0, 0.1);
   transition: 0.24s all ease-in-out;
   -moz-transition: 0.24s all ease-in-out;
   -webkit-transtiion: 0.24s all ease-in-out;
