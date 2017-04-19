@@ -262,12 +262,12 @@ h1, h2, h3, h4 {
         &:hover {
           color: $yellow;
 
-          #search {
+          #search, #arrow-down {
             fill: $yellow;
           }
         }
 
-        #search {
+        #search, #arrow-down {
           fill: $white;
 
           @include transition-ease;
@@ -283,6 +283,95 @@ h1, h2, h3, h4 {
           padding: 10px 0 10px 20px;
           box-sizing: border-box;
           font-size: 14px;
+        }
+      }
+    }
+
+    .submenu-prim {
+      display: block;
+      position: relative;
+
+      a {
+        position: relative;
+        z-index: 30;
+      }
+
+      &:hover {
+
+        .submenu {
+          display: block;
+        }
+      }
+
+      .icon-arrow-down {
+        display: inline-block;
+        margin-left: 10px;
+
+        > svg {
+          width: auto;
+          height: 8px;
+        }
+      }
+
+      .submenu {
+        display: none;
+        position: absolute;
+        top: 30px;
+        right: 0;
+        background: $blue-dark;
+        box-sizing: border-box;
+        border-radius: 2px;
+        z-index: 20;
+        margin: 0;
+
+        @include media-query($mobile) {
+          display: block;
+          position: relative;
+          top: 0;
+          background: rgba($dark, .1);
+        }
+
+        &:after {
+          display: block;
+          content: '';
+          height: 210px;
+          width: calc(100% + 20px);
+          background: rgba($white, .0);
+
+          position: absolute;
+          top: -30px;
+          left: -10px;
+          z-index: -1;
+
+          @include media-query($mobile) {
+            display: none;
+          }
+        }
+
+        li {
+          display: block;
+          box-sizing: border-box;
+          border-bottom: 1px solid $dark;
+          margin-left: 0;
+
+          @include media-query($mobile) { 
+            border-bottom: 1px solid rgba($dark, .2);
+          }
+
+          &:last-of-type {
+            border-bottom: none;
+          }
+
+          a {
+            display: block;
+            padding: 12px 20px;
+            box-sizing: border-box;
+
+            @include media-query($mobile) {
+              font-size: 12px;
+              padding-left: 30px;
+            }
+          }
         }
       }
     }
@@ -358,6 +447,11 @@ h1, h2, h3, h4 {
   display: block;
   height: 10px;
   width: auto;
+}
+.icon {
+  display: block;
+  height: 10px;
+  width: 10px;
 }
 
 /**
@@ -621,6 +715,22 @@ h1, h2, h3, h4 {
     }
   }
 
+  .block-head {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+
+    .btn {
+      margin-left: auto;
+      margin-top: 25px;
+    }
+  }
+
   .group-block {
     display: -webkit-box;
     display: -moz-box;
@@ -654,6 +764,40 @@ h1, h2, h3, h4 {
       text-transform: uppercase;
       letter-spacing: 2px;
       position: relative;
+    }
+
+    .block-item {
+      display: block;
+      margin-left: auto;
+
+      p {
+        margin-bottom: 20px;
+      }
+
+      h3 {
+        position: relative;
+        margin-bottom: 30px;
+
+        &:after {
+          display: block;
+          content: '';
+          width: 40px;
+          height: 1px;
+          background: rgba($white, .5);
+          position: absolute;
+          bottom: -11px;
+        }
+      }
+
+      ul {
+        list-style: none;
+
+        li {
+          font-family: 'latolight', sans-serif;
+          font-weight: normal;
+          font-size: 18px;
+        }
+      }
     }
 
     .img-block {

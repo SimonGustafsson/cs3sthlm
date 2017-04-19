@@ -1,6 +1,7 @@
 
 $('.menu-item').on('click', function(){
-      $('.menu--primary').toggleClass('menu-open');
+    $('.menu--primary').toggleClass('menu-open');
+    $('.menu--item').html($('.menu--item').html() == 'close' ? 'menu' : 'close');
 });
 
  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
