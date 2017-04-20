@@ -660,6 +660,26 @@ h1, h2, h3, h4 {
   .sec-head .block-head .btn {
     margin-left: auto;
     margin-top: 25px; }
+.sec-head .single-block {
+  display: block;
+  width: calc(100% - 190px);
+  margin-left: 190px; }
+  .sec-head .single-block p {
+    margin-left: 0;
+    margin-bottom: 20px;
+    max-width: 360px; }
+  .sec-head .single-block .btn {
+    margin-bottom: 40px; }
+  .sec-head .single-block ul {
+    display: block;
+    list-style: dotted;
+    margin-bottom: 10px; }
+    .sec-head .single-block ul li {
+      font-family: 'latolight', sans-serif;
+      font-weight: normal;
+      font-size: 18px;
+      margin-bottom: 10px;
+      margin-left: 20px; }
 .sec-head .group-block {
   display: -webkit-box;
   display: -moz-box;
