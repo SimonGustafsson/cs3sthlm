@@ -6,35 +6,46 @@
 </description>
     <link>/cs3sthlm/cs3sthlm/</link>
     <atom:link href="/cs3sthlm/cs3sthlm/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 20 Apr 2017 18:09:52 +0200</pubDate>
-    <lastBuildDate>Thu, 20 Apr 2017 18:09:52 +0200</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 21:28:58 +0200</pubDate>
+    <lastBuildDate>Thu, 20 Apr 2017 21:28:58 +0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>Cyber Security Summit 4SICS Relaunches as CS3STHLM</title>
+        <description>&lt;p&gt;Due to a conflict of interest regarding the name SICS between the summit 4SICS and Swedish Institute of Computer Science, Omnisiens announces the fourth summit to be arranged under the new name CS3 STHLM. Three CS stand for Cyber Security, Control Systems and Critical Structures, and STHLM is an official acronym for Stockholm. CS3 STHLM takes place in Stockholm this October 24-26.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;Top level cyber security experts from all over the world will gather again in the old concert venue Nalen in Stockholm for the internationally acclaimed summit. Owners of arranging company Omnisiens, Swedish cyber security experts Erik Johansson and Robert Malmgren, state:&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;-”We changed the name because we had to, but we are convinced our target group will find us, and that it won’t be such a big deal. Ticket sales are up and running, and we look forward to presenting yet another exciting mix of speakers and topics.”
+Interest for the summit is expected to escalate while awareness of hacker attacks and vulnerabilities in IoT (Internet of Things), rises.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;Tickets are on sale with an early bird price until June 30.&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;facts-cs3sthlm&quot;&gt;FACTS CS3STHLM&lt;/h3&gt;
 
+&lt;p&gt;CS3STHLM is hosted by Omnisiens, owned by Swedish Cyber Security Experts Robert Malmgren; voted number one IT security specialist in Sweden in trade magazine Computer Sweden and Erik Johansson, PhD; Security Researcher, Advisor, and Contractor working at the intersection of Information Technology (IT) and Operational Technology (OT)&lt;/p&gt;
+
+&lt;p&gt;Key note speakers previous years:
+2014 Stefan Lüders, Head of Computer Security at CERN
+2015 Kim Zetter, editor at Wired Magazine and author of the book Countdown to Zero Day 2016 Robert M Lee, SCADA expert who was one of the investigators of the attack on Ukraine&lt;/p&gt;
+
+&lt;p&gt;Selected topics from previous years, among ca 12-20 per year:
+In depth analysis of the attacks against Ukraine with Robert M Lee from Dragos and Anton Cherepanov together with Robert Lipovsky from anti virus company ESET who presented a thorough walk through of what is known about the virus ”Black Energy”, which was used against power companies in Ukraine.&lt;/p&gt;
+
+&lt;p&gt;Internet of Things; John Matherly, creator of Shodan, called the world’s most dangerous search engine leads a discussion of escalation of IoT with a number of the world’s leading experts on the subject.&lt;/p&gt;
+
+&lt;p&gt;Hackable pacemakers discussed by scientists Marie Moe and Eireann Leverett, they present weaknesses and possible threats against Moe’s own pacemaker. A kind of threat that led Dick Cheney, previous Vice President of The US, to discountct his pacemaker from the Internet to avoid being targeted by hackers.&lt;/p&gt;
+
+&lt;p&gt;The summit’s moderator is since the start Anne Marie Eklund Löwinder, AMEL, Head of Security at IIS, The Internet Foundation in Sweden, and one of seven crypto officers in the world with a key to the Internet root zone.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 13 Apr 2017 11:21:51 +0200</pubDate>
-        <link>/cs3sthlm/cs3sthlm/jekyll/update/2017/04/13/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">/cs3sthlm/cs3sthlm/jekyll/update/2017/04/13/welcome-to-jekyll.html</guid>
+        <pubDate>Tue, 18 Apr 2017 12:00:00 +0200</pubDate>
+        <link>/cs3sthlm/cs3sthlm/press/2017/04/18/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html</link>
+        <guid isPermaLink="true">/cs3sthlm/cs3sthlm/press/2017/04/18/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html</guid>
         
         
-        <category>jekyll</category>
-        
-        <category>update</category>
+        <category>press</category>
         
       </item>
     

@@ -730,6 +730,21 @@ h1, h2, h3, h4 {
     .btn {
       margin-left: auto;
       margin-top: 25px;
+
+      @include media-query($mobile) {
+        margin-left: 0;
+        margin-bottom: 20px;
+      }
+    }
+
+    @include media-query($mobile) {
+
+      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+
+      h2 {
+        width: 100%;
+      }
     }
   }
 
@@ -747,6 +762,16 @@ h1, h2, h3, h4 {
       margin-left: 0;
       margin-bottom: 20px;
       max-width: 550px;
+
+      a {
+        color: $white;
+
+        @include transition-ease;
+
+        &:hover {
+          color: $yellow;
+        }
+      }
     }
 
     .btn {
@@ -765,7 +790,15 @@ h1, h2, h3, h4 {
           margin-bottom: 10px;
           margin-left: 20px;
         }
+    }
+    .clean-list {
+      list-style: none;
+
+      li {
+        margin-left: 0;
+        margin-bottom: 0;
       }
+    }
   }
 
   .group-block {
@@ -806,6 +839,11 @@ h1, h2, h3, h4 {
     .block-item {
       display: block;
       margin-left: auto;
+
+      @include media-query($mobile) {
+        margin-left: 0;
+        margin-bottom: 40px;
+      }
 
       p {
         margin-bottom: 20px;
@@ -1435,21 +1473,84 @@ h1, h2, h3, h4 {
 
   &:hover {
 
-    #external-link {
+    #external-link, #download {
       fill: $yellow;
     }
   }
 
-  .external-icon {
+  .external-icon, .download-icon {
     display: inline-block;
     width: 11px;
     height: 11px;
     margin-left: 10px;
   }
 
-  #external-link {
+  #external-link, #download {
     fill: $white;
     @include transition-ease;
+  }
+}
+
+
+/**
+  ARTICLES */
+
+.post {
+  display: block;
+  width: 70%;
+  margin: 0;
+
+  @include media-query($mobile) {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20px;
+  }
+
+  .post-header {
+    display: block;
+    margin-bottom: 40px;
+
+    .post-title {
+      font-size: 48px;
+      color: $yellow;
+
+      @include media-query($mobile) {
+        font-size: 24px;
+      }
+    }
+  }
+
+  .post-content {
+    display: block;
+
+    p {
+      display: block;
+      max-width: 650px;
+      margin-bottom: 20px;
+      font-family: 'latoregular', sans-serif;
+      font-size: 18px;
+
+      &:first-of-type {
+        font-family: 'latobold', sans-serif;
+        font-size: 24px;
+
+        @include media-query($mobile) {
+          font-size: 21px;
+        }
+      }
+    }
+
+    blockquote p {
+      font-family: 'latoregular', sans-serif;
+      font-style: italic;
+      font-size: 18px;
+
+      &:first-of-type {
+        font-family: 'latoregular', sans-serif;
+        font-style: italic;
+        font-size: 18px;
+      }
+    }
   }
 }
 
