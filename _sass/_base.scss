@@ -315,6 +315,7 @@ h1, h2, h3, h4 {
 
       .submenu {
         display: none;
+        width: 178px;
         position: absolute;
         top: 30px;
         right: 0;
@@ -329,6 +330,7 @@ h1, h2, h3, h4 {
           position: relative;
           top: 0;
           background: rgba($dark, .1);
+          width: 100%;
         }
 
         &:after {
@@ -736,10 +738,15 @@ h1, h2, h3, h4 {
     width: calc(100% - 190px);
     margin-left: 190px;
 
+    @include media-query($mobile) {
+      width: 100%;
+      margin-left: 0;
+    }
+
     p {
       margin-left: 0;
       margin-bottom: 20px;
-      max-width: 360px;
+      max-width: 550px;
     }
 
     .btn {
@@ -1405,6 +1412,28 @@ h1, h2, h3, h4 {
 
   @include media-query($mobile) {
     display: inline-block;
+  }
+}
+
+.btn-icon {
+
+  &:hover {
+
+    #external-link {
+      fill: $yellow;
+    }
+  }
+
+  .external-icon {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    margin-left: 10px;
+  }
+
+  #external-link {
+    fill: $white;
+    @include transition-ease;
   }
 }
 
