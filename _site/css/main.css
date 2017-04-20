@@ -1370,6 +1370,17 @@ h1, h2, h3, h4 {
       @media screen and (max-width: 768px) {
         .post .post-header .post-title {
           font-size: 24px; } }
+    .post .post-header .post-meta-pdf {
+      display: inline-block;
+      float: right;
+      padding-right: 120px;
+      color: white;
+      transition: 0.24s all ease-in-out;
+      -moz-transition: 0.24s all ease-in-out;
+      -webkit-transtiion: 0.24s all ease-in-out;
+      -o-transition: 0.24s all ease-in-out; }
+      .post .post-header .post-meta-pdf:hover {
+        color: #ef7d00; }
   .post .post-content {
     display: block; }
     .post .post-content p {
@@ -1392,6 +1403,19 @@ h1, h2, h3, h4 {
         font-family: 'latoregular', sans-serif;
         font-style: italic;
         font-size: 18px; }
+  .post .post-contact-details {
+    display: block;
+    padding-top: 40px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, 0.25); }
+    .post .post-contact-details p {
+      font-size: 15px; }
+    .post .post-contact-details ul {
+      display: block;
+      list-style: none;
+      margin: 10px 0;
+      font-size: 15px; }
 
 /**
   FOOTER */

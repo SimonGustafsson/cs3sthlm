@@ -1677,6 +1677,19 @@ h1, h2, h3, h4 {
         font-size: 24px;
       }
     }
+
+    .post-meta-pdf {
+      display: inline-block;
+      float: right;
+      padding-right: 120px;
+      color: $white;
+
+      @include transition-ease;
+
+      &:hover {
+        color: $yellow;
+      }
+    }
   }
 
   .post-content {
@@ -1709,6 +1722,24 @@ h1, h2, h3, h4 {
         font-style: italic;
         font-size: 18px;
       }
+    }
+  }
+
+  .post-contact-details {
+    display: block;
+    padding-top: 40px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba($white, .25);
+
+    p {
+      font-size: 15px;
+    }
+    ul {
+      display: block;
+      list-style: none;
+      margin: 10px 0;
+      font-size: 15px;
     }
   }
 }

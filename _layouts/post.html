@@ -5,12 +5,23 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-  	<p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
+  	<p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time><a href="{{ site.url }}/assets/press/{{ page.pdf }}" target="_blank" class="post-meta-pdf">Swedish PDF</a></p>
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
   </header>
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
+  </div>
+
+  <div class="post-contact-details">
+  	<p>For more info contact:</p>
+  	<ul>
+  		<li>Maria Engstrom Ostby</li>
+  		<li>Press Officer</li>
+  		<li>press@cs3sthlm.se</li>
+  		<li>+46(0)70 512 42 93</li>
+  	</ul>
+  	<p>www.cs3sthlm.se</p>
   </div>
 
 </article>
