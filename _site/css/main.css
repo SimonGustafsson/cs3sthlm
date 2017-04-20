@@ -355,7 +355,7 @@ h1, h2, h3, h4 {
           height: 8px; }
       .menu--primary ul .submenu-prim .submenu {
         display: none;
-        width: auto;
+        width: 170px;
         position: absolute;
         top: 30px;
         right: 0;
@@ -1170,6 +1170,126 @@ h1, h2, h3, h4 {
       background: url("../assets/omnisiens-logo.svg") no-repeat;
       background-size: 100%;
       margin-left: 10px; }
+
+.advisory-cards {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: stretch;
+  -webkit-align-items: stretch;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  box-sizing: border-box;
+  padding-top: 60px; }
+  @media screen and (max-width: 768px) {
+    .advisory-cards {
+      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap; } }
+  .advisory-cards .card-item {
+    display: block;
+    width: 32.15%;
+    max-width: 360px;
+    background: rgba(43, 47, 54, 0.5);
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 0 0 60px;
+    position: relative; }
+    @media screen and (max-width: 768px) {
+      .advisory-cards .card-item {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 0 60px;
+        margin-bottom: 40px; } }
+    .advisory-cards .card-item .speaker-image {
+      display: block;
+      width: 100%; }
+      .advisory-cards .card-item .speaker-image img {
+        display: block;
+        width: 100%;
+        border-radius: 2px 2px 0 0; }
+    .advisory-cards .card-item h2 {
+      display: block;
+      padding: 20px;
+      box-sizing: border-box;
+      color: white;
+      font-size: 18px; }
+    .advisory-cards .card-item h3 {
+      display: block;
+      padding: 0 20px;
+      box-sizing: border-box;
+      font-size: 13px; }
+    .advisory-cards .card-item .card-item-work {
+      font-family: 'latoregular', sans-serif;
+      font-size: 13px;
+      display: block;
+      padding: 10px 20px 0;
+      margin-top: 10px;
+      box-sizing: border-box;
+      position: relative; }
+      .advisory-cards .card-item .card-item-work:before {
+        display: block;
+        content: '';
+        background: rgba(255, 255, 255, 0.25);
+        width: 20px;
+        height: 1px;
+        position: absolute;
+        top: 0; }
+    .advisory-cards .card-item .card-item-location {
+      font-family: 'latoblack', sans-serif;
+      font-size: 11px;
+      display: block;
+      padding: 0 20px 20px;
+      margin-top: 20px;
+      box-sizing: border-box;
+      position: absolute;
+      bottom: 0; }
+
+@media screen and (max-width: 768px) {
+  .workshop--list-group {
+    padding: 0 20px;
+    box-sizing: border-box; } }
+.workshop--list-group .subpar-headline {
+  font-family: 'latoregular', sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+.workshop--list-group .workshop--list-item {
+  display: block;
+  padding: 10px 0 0;
+  margin: 10px 0 0;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(255, 255, 255, 0.25); }
+.workshop--list-group .workshop--list-link {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  -webkit-align-items: center;
+  color: white;
+  text-decoration: none;
+  transition: 0.24s all ease-in-out;
+  -moz-transition: 0.24s all ease-in-out;
+  -webkit-transtiion: 0.24s all ease-in-out;
+  -o-transition: 0.24s all ease-in-out; }
+  @media screen and (max-width: 768px) {
+    .workshop--list-group .workshop--list-link {
+      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap; } }
+  .workshop--list-group .workshop--list-link:hover {
+    color: #ef7d00; }
+  .workshop--list-group .workshop--list-link .workshop--meta {
+    display: block;
+    margin-right: 20px; }
+  .workshop--list-group .workshop--list-link .workshop--meta-sub {
+    display: block;
+    font-size: 15px;
+    text-transform: uppercase; }
+  .workshop--list-group .workshop--list-link .workshop--list-title {
+    font-size: 18px; }
 
 /**
   BUTTONS */

@@ -1,0 +1,17 @@
+- name: Kristina Blomqvist
+  from: Sweden
+  role: Program Manager - Program for Security in ICS
+  work: MSB - Swedish Civil Contingencies Agency
+  image: kristina-blom.jpg
+
+- name: Anne-Marie Eklund Löwinder
+  from: Sweden
+  role: Chief Information Security Officer
+  work: IIS, The Internet Foundation In Sweden
+  image: amel.jpg
+
+- name: Margrete Raaum
+  from: Norway
+  role: CEO of the Norwegian Energy Sector CERT
+  work: President of Forum of Incident Response and Security Teams (FIRST)
+  image: margo.jpg
