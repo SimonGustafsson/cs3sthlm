@@ -1,0 +1,36 @@
+---
+layout: default
+title: History
+---
+
+<section class="content">
+
+  <div class="sec-head">
+    <h4>History</h4>
+    <h2>Our Past Events</h2>
+  </div>
+
+  <div class="sec-cards">
+
+  	{% for card in site.data.history %}
+	<div class="card-item">
+		<h2>{{ card.year }}</h2>
+		<h3>{{ card.location }}</h3>
+		<span class="card-item-date">{{ card.date }}</span>
+
+		<ul>
+			<li><span>{{ card.nr-topics }}</span>Topics</li>
+			<li><span>{{ card.nr-speakers }}</span>Speakers</li>
+			<li><span>{{ card.nr-workshops }}</span>Workshops</li>
+			<li><span>{{ card.nr-attendees }}</span>Attendees</li>
+		</ul>
+
+		<a href="{{ card.youtube }}" class="card-item-link">View presentations at YouTube</a>
+
+		<span class="card-item-subline">Organized by<span class="omnisiens-logo"></span></span>
+	</div>
+	{% endfor %}
+
+  </div>
+
+</section>
