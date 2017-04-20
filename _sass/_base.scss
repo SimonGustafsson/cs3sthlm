@@ -315,7 +315,7 @@ h1, h2, h3, h4 {
 
       .submenu {
         display: none;
-        width: 178px;
+        width: auto;
         position: absolute;
         top: 30px;
         right: 0;
@@ -1006,7 +1006,7 @@ h1, h2, h3, h4 {
   
     h5 {
       display: block;
-      width: 50%;
+      width: 60%;
       font-family: 'latoblack', sans-serif;
       font-weight: normal;
       font-size: 15px;
@@ -1095,6 +1095,10 @@ h1, h2, h3, h4 {
       &:hover {
         color: $yellow;
         background: rgba($blue-dark, .5);
+
+        span {
+          color: $yellow;
+        }
       }
 
       h3 {
@@ -1109,6 +1113,18 @@ h1, h2, h3, h4 {
       p {
         font-family: 'latolight', sans-serif;
         font-size: 18px;
+      }
+      span {
+        display: inline-block;
+        font-family: 'latoblack', sans-serif;
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-top: 20px;
+        text-decoration: underline;
+        color: rgba($white, .75);
+
+        @include transition-ease;
       }
     }
   }
