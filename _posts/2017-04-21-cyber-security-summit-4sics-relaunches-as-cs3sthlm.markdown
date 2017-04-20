@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cyber Security Summit 4SICS Relaunches as CS3STHLM"
-date:   2017-04-18 12:00:00 +0200
+date:   2017-04-21 12:00:00 +0200
 categories: press
 pdf: press-01-21-04-2017.pdf
 ---
@@ -20,8 +20,9 @@ Tickets are on sale with an early bird price until June 30.
 CS3STHLM is hosted by Omnisiens, owned by Swedish Cyber Security Experts Robert Malmgren; voted number one IT security specialist in Sweden in trade magazine Computer Sweden and Erik Johansson, PhD; Security Researcher, Advisor, and Contractor working at the intersection of Information Technology (IT) and Operational Technology (OT)
 
 Key note speakers previous years:
-2014 Stefan Lüders, Head of Computer Security at CERN
-2015 Kim Zetter, editor at Wired Magazine and author of the book Countdown to Zero Day 2016 Robert M Lee, SCADA expert who was one of the investigators of the attack on Ukraine
+* 2014 Stefan Lüders, Head of Computer Security at CERN
+* 2015 Kim Zetter, editor at Wired Magazine and author of the book Countdown to Zero Day
+* 2016 Robert M Lee, SCADA expert who was one of the investigators of the attack on Ukraine
 
 Selected topics from previous years, among ca 12-20 per year:
 In depth analysis of the attacks against Ukraine with Robert M Lee from Dragos and Anton Cherepanov together with Robert Lipovsky from anti virus company ESET who presented a thorough walk through of what is known about the virus ”Black Energy”, which was used against power companies in Ukraine.

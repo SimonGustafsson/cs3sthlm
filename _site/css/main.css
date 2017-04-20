@@ -472,8 +472,8 @@ h1, h2, h3, h4 {
   display: block;
   background: url("../assets/cs3sthlm-logo.png") no-repeat;
   background-size: 100%;
-  width: 99px;
-  height: 110px;
+  width: 109px;
+  height: 121px;
   text-indent: -9999px; }
   @media screen and (max-width: 768px) {
     .brand {
@@ -522,6 +522,8 @@ h1, h2, h3, h4 {
     @media screen and (max-width: 768px) {
       .introduction .feed-news {
         margin-top: 20px; } }
+    .introduction .feed-news a:hover p {
+      color: #ef7d00; }
     .introduction .feed-news .feed-category {
       display: inline-block;
       font-family: 'latoblack', sans-serif;
@@ -541,7 +543,11 @@ h1, h2, h3, h4 {
       font-weight: normal;
       font-size: 11px;
       color: white;
-      letter-spacing: 0.045em; }
+      letter-spacing: 0.045em;
+      transition: 0.24s all ease-in-out;
+      -moz-transition: 0.24s all ease-in-out;
+      -webkit-transtiion: 0.24s all ease-in-out;
+      -o-transition: 0.24s all ease-in-out; }
       @media screen and (max-width: 768px) {
         .introduction .feed-news p {
           max-width: 82.5%;
@@ -738,11 +744,15 @@ h1, h2, h3, h4 {
     position: relative; }
   .sec-head .group-block .block-item {
     display: block;
-    margin-left: auto; }
+    margin-left: auto;
+    max-width: 50%; }
     @media screen and (max-width: 768px) {
       .sec-head .group-block .block-item {
         margin-left: 0;
-        margin-bottom: 40px; } }
+        margin-bottom: 40px;
+        max-width: 100%; } }
+    .sec-head .group-block .block-item.block-item-right ul {
+      margin-bottom: 40px; }
     .sec-head .group-block .block-item p {
       margin-bottom: 20px; }
     .sec-head .group-block .block-item h3 {
@@ -756,6 +766,11 @@ h1, h2, h3, h4 {
         background: rgba(255, 255, 255, 0.5);
         position: absolute;
         bottom: -11px; }
+    .sec-head .group-block .block-item .block-list-disc {
+      list-style: disc; }
+      .sec-head .group-block .block-item .block-list-disc li {
+        margin-bottom: 10px;
+        margin-left: 20px; }
     .sec-head .group-block .block-item ul {
       list-style: none; }
       .sec-head .group-block .block-item ul li {
@@ -1395,6 +1410,12 @@ h1, h2, h3, h4 {
         @media screen and (max-width: 768px) {
           .post .post-content p:first-of-type {
             font-size: 21px; } }
+    .post .post-content ul {
+      display: block;
+      margin-bottom: 20px; }
+      .post .post-content ul li {
+        margin-left: 20px;
+        margin-bottom: 10px; }
     .post .post-content blockquote p {
       font-family: 'latoregular', sans-serif;
       font-style: italic;

@@ -463,8 +463,8 @@ h1, h2, h3, h4 {
   display: block;
   background: url('../assets/cs3sthlm-logo.png') no-repeat;
   background-size: 100%;
-  width: 99px;
-  height: 110px;
+  width: 109px;
+  height: 121px;
 
   text-indent: -9999px;
 
@@ -531,6 +531,14 @@ h1, h2, h3, h4 {
       margin-top: 20px;
     }
 
+    a {
+
+      &:hover {
+
+        p { color: $yellow; }
+      }
+    }
+
     .feed-category {
       display: inline-block;
       font-family: 'latoblack', sans-serif;
@@ -554,6 +562,8 @@ h1, h2, h3, h4 {
       font-size: 11px;
       color: $white;
       letter-spacing: 0.045em;
+
+      @include transition-ease;
 
       @include media-query($mobile) {
         max-width: 82.5%;
@@ -839,10 +849,19 @@ h1, h2, h3, h4 {
     .block-item {
       display: block;
       margin-left: auto;
+      max-width: 50%;
 
       @include media-query($mobile) {
         margin-left: 0;
         margin-bottom: 40px;
+        max-width: 100%;
+      }
+
+      &.block-item-right {
+
+        ul {
+          margin-bottom: 40px;
+        }
       }
 
       p {
@@ -861,6 +880,15 @@ h1, h2, h3, h4 {
           background: rgba($white, .5);
           position: absolute;
           bottom: -11px;
+        }
+      }
+
+      .block-list-disc {
+        list-style: disc;
+
+        li {
+          margin-bottom: 10px;
+          margin-left: 20px;
         }
       }
 
@@ -1709,6 +1737,16 @@ h1, h2, h3, h4 {
         @include media-query($mobile) {
           font-size: 21px;
         }
+      }
+    }
+
+    ul {
+      display: block;
+      margin-bottom: 20px;
+
+      li {
+        margin-left: 20px;
+        margin-bottom: 10px;
       }
     }
 

@@ -22,9 +22,11 @@ title: Home
     </div>
   </div>
 
+  {% for post in site.posts limit:1 %}
   <div class="feed-news">
-    <span class="feed-category category-press">Press</span><p>Djupanalys av IT-Attackerna som mörklade delar av Ukraina..</p>
+    <a href="{{ site.url }}/{{ post.url }}"><span class="feed-category category-press">{{ post.categories }}</span><p>{{ post.title }}</p></a>
   </div>
+  {% endfor %}
 
 </section>
 
