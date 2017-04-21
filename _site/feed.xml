@@ -3,10 +3,10 @@
   <channel>
     <title>CS3STHLM</title>
     <description>CS3STHLM - Stockholm international summit on cyber-security in SCADA and Industrial Control Systems. CS3STHLM is an annual summit that gather the most important ICS/SCADA cyber security stakeholders across critical industries (i.e. energy, oil &amp; gas, water, transportation and smartgrid etc)</description>
-    <link>/cs3sthlm/cs3sthlm/</link>
-    <atom:link href="/cs3sthlm/cs3sthlm/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 21 Apr 2017 11:47:20 +0200</pubDate>
-    <lastBuildDate>Fri, 21 Apr 2017 11:47:20 +0200</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 21 Apr 2017 12:52:31 +0200</pubDate>
+    <lastBuildDate>Fri, 21 Apr 2017 12:52:31 +0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -43,8 +43,8 @@ In depth analysis of the attacks against Ukraine with Robert M Lee from Dragos a
 &lt;p&gt;The summit’s moderator is since the start Anne Marie Eklund Löwinder, AMEL, Head of Security at IIS, The Internet Foundation in Sweden, and one of seven crypto officers in the world with a key to the Internet root zone.&lt;/p&gt;
 </description>
         <pubDate>Fri, 21 Apr 2017 06:00:00 +0200</pubDate>
-        <link>/cs3sthlm/cs3sthlm/press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html</link>
-        <guid isPermaLink="true">/cs3sthlm/cs3sthlm/press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html</guid>
+        <link>/press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html</link>
+        <guid isPermaLink="true">/press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html</guid>
         
         
         <category>press</category>
