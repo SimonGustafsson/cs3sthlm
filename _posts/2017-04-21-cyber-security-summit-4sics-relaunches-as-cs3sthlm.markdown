@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cyber Security Summit 4SICS Relaunches as CS3STHLM"
-date:   2017-04-21 12:00:00 +0200
+date:   2017-04-21 06:00:00 +0200
 categories: press
 pdf: press-01-21-04-2017.pdf
 ---
