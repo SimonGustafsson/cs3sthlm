@@ -5,7 +5,7 @@
   nr-speakers: 16
   nr-workshops: 4
   nr-attendees: 120
-  youtube: link goes here
+  youtube: https://www.youtube.com/playlist?list=PLK9u2M6_KckSNzskYFsDNPPf3h6V1y8ps
 
 - year: 2015
   location: Nalen, Stockholm
@@ -14,7 +14,7 @@
   nr-speakers: 20
   nr-workshops: 6
   nr-attendees: '200+'
-  youtube: link goes here
+  youtube: https://www.youtube.com/playlist?list=PLK9u2M6_KckQYRg2nKSvoNivx-DWDCmYS
 
 - year: 2016
   location: Nalen, Stockholm
@@ -23,4 +23,4 @@
   nr-speakers: 26
   nr-workshops: 3
   nr-attendees: '220+'
-  youtube: link goes here
+  youtube: https://www.youtube.com/playlist?list=PLK9u2M6_KckQpC1iABet3hEY57yuv02Kw

@@ -572,7 +572,7 @@ h1, h2, h3, h4 {
     display: block;
     margin: 12px 0 30px; }
     .introduction .subject-row h2 {
-      font-family: 'latolight', sans-serif;
+      font-family: 'latoregular', sans-serif;
       font-weight: normal;
       font-size: 24px;
       color: white; }
@@ -651,9 +651,10 @@ h1, h2, h3, h4 {
   width: 100%;
   max-width: 560px;
   margin-left: 190px;
-  font-family: 'latolight', sans-serif;
+  font-family: 'latoregular', sans-serif;
   font-weight: normal;
-  font-size: 18px; }
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.75); }
   @media screen and (max-width: 768px) {
     .sec-head p {
       margin-left: 0; } }
@@ -705,11 +706,12 @@ h1, h2, h3, h4 {
     list-style: dotted;
     margin-bottom: 10px; }
     .sec-head .single-block ul li {
-      font-family: 'latolight', sans-serif;
+      font-family: 'latoregular', sans-serif;
       font-weight: normal;
       font-size: 18px;
       margin-bottom: 10px;
-      margin-left: 20px; }
+      margin-left: 20px;
+      color: rgba(255, 255, 255, 0.75); }
   .sec-head .single-block .clean-list {
     list-style: none; }
     .sec-head .single-block .clean-list li {
@@ -774,9 +776,10 @@ h1, h2, h3, h4 {
     .sec-head .group-block .block-item ul {
       list-style: none; }
       .sec-head .group-block .block-item ul li {
-        font-family: 'latolight', sans-serif;
+        font-family: 'latoregular', sans-serif;
         font-weight: normal;
-        font-size: 18px; }
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.75); }
   .sec-head .group-block .img-block {
     display: block;
     margin-left: auto; }
@@ -805,9 +808,10 @@ h1, h2, h3, h4 {
         .sec-head .group-block .img-block ul {
           margin-left: 0; } }
       .sec-head .group-block .img-block ul li {
-        font-family: 'latolight', sans-serif;
+        font-family: 'latoregular', sans-serif;
         font-weight: normal;
-        font-size: 16px; }
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.75); }
 
 .sec-content {
   display: block;
@@ -873,10 +877,11 @@ h1, h2, h3, h4 {
         bottom: -11px; }
     .sec-columns .column-item p {
       display: block;
-      font-family: 'latolight', sans-serif;
+      font-family: 'latoregular', sans-serif;
       font-weight: normal;
       font-size: 16px;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      color: rgba(255, 255, 255, 0.75); }
       .sec-columns .column-item p:last-of-type {
         margin-bottom: 0; }
   .sec-columns .subline {
@@ -986,8 +991,9 @@ h1, h2, h3, h4 {
       font-size: 18px;
       margin: 0; }
     .sec-blocks .sec-blocks-row .block-item p {
-      font-family: 'latolight', sans-serif;
-      font-size: 18px; }
+      font-family: 'latoregular', sans-serif;
+      font-size: 18px;
+      color: rgba(255, 255, 255, 0.75); }
     .sec-blocks .sec-blocks-row .block-item span {
       display: inline-block;
       font-family: 'latoblack', sans-serif;
@@ -1091,10 +1097,11 @@ h1, h2, h3, h4 {
         bottom: -11px; }
     .sec-group-details-content p {
       display: block;
-      font-family: 'latolight', sans-serif;
+      font-family: 'latoregular', sans-serif;
       font-weight: normal;
       font-size: 16px;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      color: rgba(255, 255, 255, 0.75); }
 
 .sec-cards {
   display: -webkit-box;
@@ -1132,8 +1139,9 @@ h1, h2, h3, h4 {
     .sec-cards .card-item h3 {
       font-size: 24px; }
     .sec-cards .card-item .card-item-date {
-      font-family: 'latolight', sans-serif;
-      font-size: 24px; }
+      font-family: 'latoregular', sans-serif;
+      font-size: 24px;
+      color: rgba(255, 255, 255, 0.75); }
     .sec-cards .card-item ul {
       display: block;
       list-style: none;
@@ -1142,8 +1150,9 @@ h1, h2, h3, h4 {
       padding: 10px 0 0;
       margin: 10px 0 0; }
       .sec-cards .card-item ul li {
-        font-family: 'latolight', sans-serif;
-        font-size: 24px; }
+        font-family: 'latoregular', sans-serif;
+        font-size: 24px;
+        color: rgba(255, 255, 255, 0.75); }
         .sec-cards .card-item ul li span {
           color: #ef7d00;
           margin-right: 8px; }

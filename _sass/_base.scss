@@ -601,7 +601,7 @@ h1, h2, h3, h4 {
     margin: 12px 0 30px;
 
     h2 {
-      font-family: 'latolight', sans-serif;
+      font-family: 'latoregular', sans-serif;
       font-weight: normal;
       font-size: 24px;
       color: $white;
@@ -718,9 +718,10 @@ h1, h2, h3, h4 {
     max-width: 560px;
     margin-left: 190px;
 
-    font-family: 'latolight', sans-serif;
+    font-family: 'latoregular', sans-serif;
     font-weight: normal;
     font-size: 18px;
+    color: rgba($white, .75);
 
     @include media-query($mobile) {
       margin-left: 0;
@@ -794,11 +795,12 @@ h1, h2, h3, h4 {
       margin-bottom: 10px;
 
         li {
-          font-family: 'latolight', sans-serif;
+          font-family: 'latoregular', sans-serif;
           font-weight: normal;
           font-size: 18px;
           margin-bottom: 10px;
           margin-left: 20px;
+          color: rgba($white, .75);
         }
     }
     .clean-list {
@@ -896,9 +898,10 @@ h1, h2, h3, h4 {
         list-style: none;
 
         li {
-          font-family: 'latolight', sans-serif;
+          font-family: 'latoregular', sans-serif;
           font-weight: normal;
           font-size: 18px;
+          color: rgba($white, .75);
         }
       }
     }
@@ -939,9 +942,10 @@ h1, h2, h3, h4 {
         }
 
         li {
-          font-family: 'latolight', sans-serif;
+          font-family: 'latoregular', sans-serif;
           font-weight: normal;
           font-size: 16px;
+          color: rgba($white, .75);
         }
       }
     }
@@ -1031,10 +1035,11 @@ h1, h2, h3, h4 {
 
     p {
       display: block;
-      font-family: 'latolight', sans-serif;
+      font-family: 'latoregular', sans-serif;
       font-weight: normal;
       font-size: 16px;
       margin-bottom: 20px;
+      color: rgba($white, .75);
 
       &:last-of-type {
         margin-bottom: 0;
@@ -1177,8 +1182,9 @@ h1, h2, h3, h4 {
         margin: 0;
       }
       p {
-        font-family: 'latolight', sans-serif;
+        font-family: 'latoregular', sans-serif;
         font-size: 18px;
+        color: rgba($white, .75);
       }
       span {
         display: inline-block;
@@ -1319,10 +1325,11 @@ h1, h2, h3, h4 {
 
     p {
       display: block;
-      font-family: 'latolight', sans-serif;
+      font-family: 'latoregular', sans-serif;
       font-weight: normal;
       font-size: 16px;
       margin-bottom: 20px;
+      color: rgba($white, .75);
     }
   }
 }
@@ -1372,8 +1379,9 @@ h1, h2, h3, h4 {
       font-size: 24px;
     }
     .card-item-date {
-      font-family: 'latolight', sans-serif;
+      font-family: 'latoregular', sans-serif;
       font-size: 24px;
+      color: rgba($white, .75);
     }
 
     ul {
@@ -1385,8 +1393,9 @@ h1, h2, h3, h4 {
       margin: 10px 0 0;
 
       li {
-        font-family: 'latolight', sans-serif;
+        font-family: 'latoregular', sans-serif;
         font-size: 24px;
+        color: rgba($white, .75);
 
         span {
           color: $yellow;
