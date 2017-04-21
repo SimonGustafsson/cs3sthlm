@@ -24,7 +24,7 @@ title: Home
 
   {% for post in site.posts limit:1 %}
   <div class="feed-news">
-    <a href="{{ site.url }}/{{ post.url }}"><span class="feed-category category-press">{{ post.categories }}</span><p>{{ post.title }}</p></a>
+    <a href="{{ site.url }}{{ post.url }}"><span class="feed-category category-press">{{ post.categories }}</span><p>{{ post.title }}</p></a>
   </div>
   {% endfor %}
 
