@@ -524,6 +524,28 @@ h1, h2, h3, h4 {
         margin-top: 20px; } }
     .introduction .feed-news a:hover p {
       color: #ef7d00; }
+    .introduction .feed-news a:hover .read-more-icon {
+      border-color: #ef7d00; }
+    .introduction .feed-news .read-more-icon {
+      display: inline-block;
+      background: none;
+      width: 6px;
+      height: 6px;
+      transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      border-right: 1.5px solid white;
+      border-top: 1.5px solid white;
+      border-radius: 0px;
+      border-left: none;
+      border-bottom: none;
+      box-sizing: border-box;
+      margin-left: 8px;
+      margin-bottom: 1px;
+      transition: 0.24s all ease-in-out;
+      -moz-transition: 0.24s all ease-in-out;
+      -webkit-transtiion: 0.24s all ease-in-out;
+      -o-transition: 0.24s all ease-in-out; }
     .introduction .feed-news .feed-category {
       display: inline-block;
       font-family: 'latoblack', sans-serif;

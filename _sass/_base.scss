@@ -536,7 +536,31 @@ h1, h2, h3, h4 {
       &:hover {
 
         p { color: $yellow; }
+
+        .read-more-icon {
+          border-color: $yellow;
+        }
       }
+    }
+
+    .read-more-icon {
+      display: inline-block;
+      background: none;
+      width: 6px;
+      height: 6px;
+      transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      border-right: 1.5px solid white;
+      border-top: 1.5px solid white;
+      border-radius: 0px;
+      border-left: none;
+      border-bottom: none;
+      box-sizing: border-box;
+      margin-left: 8px;
+      margin-bottom: 1px;
+
+      @include transition-ease;
     }
 
     .feed-category {
