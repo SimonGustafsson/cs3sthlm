@@ -590,7 +590,7 @@ h1, h2, h3, h4 {
       @include transition-ease;
 
       @include media-query($mobile) {
-        max-width: 82.5%;
+        max-width: 80.5%;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
@@ -729,6 +729,7 @@ h1, h2, h3, h4 {
 
     @include media-query($mobile) {
       margin-bottom: 40px;
+      line-height: 1.25;
 
       &:after {
         bottom: -20px;
@@ -745,7 +746,7 @@ h1, h2, h3, h4 {
     font-family: 'latoregular', sans-serif;
     font-weight: normal;
     font-size: 18px;
-    color: rgba($white, .75);
+    color: rgba($white, .85);
 
     @include media-query($mobile) {
       margin-left: 0;
@@ -824,7 +825,7 @@ h1, h2, h3, h4 {
           font-size: 18px;
           margin-bottom: 10px;
           margin-left: 20px;
-          color: rgba($white, .75);
+          color: rgba($white, .85);
         }
     }
     .clean-list {
@@ -925,7 +926,7 @@ h1, h2, h3, h4 {
           font-family: 'latoregular', sans-serif;
           font-weight: normal;
           font-size: 18px;
-          color: rgba($white, .75);
+          color: rgba($white, .85);
         }
       }
     }
@@ -969,7 +970,7 @@ h1, h2, h3, h4 {
           font-family: 'latoregular', sans-serif;
           font-weight: normal;
           font-size: 16px;
-          color: rgba($white, .75);
+          color: rgba($white, .85);
         }
       }
     }
@@ -1063,7 +1064,7 @@ h1, h2, h3, h4 {
       font-weight: normal;
       font-size: 16px;
       margin-bottom: 20px;
-      color: rgba($white, .75);
+      color: rgba($white, .85);
 
       &:last-of-type {
         margin-bottom: 0;
@@ -1208,7 +1209,7 @@ h1, h2, h3, h4 {
       p {
         font-family: 'latoregular', sans-serif;
         font-size: 18px;
-        color: rgba($white, .75);
+        color: rgba($white, .85);
       }
       span {
         display: inline-block;
@@ -1218,7 +1219,7 @@ h1, h2, h3, h4 {
         letter-spacing: 2px;
         margin-top: 20px;
         text-decoration: underline;
-        color: rgba($white, .75);
+        color: rgba($white, .85);
 
         @include transition-ease;
       }
@@ -1308,6 +1309,7 @@ h1, h2, h3, h4 {
   img {
     display: block;
     width: 100%;
+    max-width: 420px;
 
     @include media-query($mobile) {
       position: absolute;
@@ -1353,7 +1355,7 @@ h1, h2, h3, h4 {
       font-weight: normal;
       font-size: 16px;
       margin-bottom: 20px;
-      color: rgba($white, .75);
+      color: rgba($white, .85);
     }
   }
 }
@@ -1405,7 +1407,7 @@ h1, h2, h3, h4 {
     .card-item-date {
       font-family: 'latoregular', sans-serif;
       font-size: 24px;
-      color: rgba($white, .75);
+      color: rgba($white, .85);
     }
 
     ul {
@@ -1419,7 +1421,7 @@ h1, h2, h3, h4 {
       li {
         font-family: 'latoregular', sans-serif;
         font-size: 24px;
-        color: rgba($white, .75);
+        color: rgba($white, .85);
 
         span {
           color: $yellow;
@@ -1730,12 +1732,23 @@ h1, h2, h3, h4 {
     display: block;
     margin-bottom: 40px;
 
+    @include media-query($mobile) {
+      margin-bottom: 20px;
+    }
+
     .post-title {
       font-size: 48px;
       color: $yellow;
 
       @include media-query($mobile) {
         font-size: 24px;
+      }
+    }
+
+    .post-meta {
+
+      @include media-query($mobile) {
+        margin-bottom: 10px;
       }
     }
 
@@ -1746,6 +1759,10 @@ h1, h2, h3, h4 {
       color: $white;
 
       @include transition-ease;
+
+      @include media-query($mobile) {
+        padding-right: 0;
+      }
 
       &:hover {
         color: $yellow;
@@ -1762,10 +1779,12 @@ h1, h2, h3, h4 {
       margin-bottom: 20px;
       font-family: 'latoregular', sans-serif;
       font-size: 18px;
+      color: rgba($white, 0.85);
 
       &:first-of-type {
         font-family: 'latobold', sans-serif;
-        font-size: 24px;
+        font-size: 21px;
+        color: rgba($white, 1);
 
         @include media-query($mobile) {
           font-size: 21px;
@@ -1780,6 +1799,7 @@ h1, h2, h3, h4 {
       li {
         margin-left: 20px;
         margin-bottom: 10px;
+        color: rgba($white, 0.85);
       }
     }
 
