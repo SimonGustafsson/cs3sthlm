@@ -1420,7 +1420,9 @@ h1, h2, h3, h4 {
       color: #ef7d00; }
       @media screen and (max-width: 768px) {
         .post .post-header .post-title {
-          font-size: 24px; } }
+          font-size: 32px;
+          line-height: 1.25;
+          letter-spacing: -.5px; } }
     @media screen and (max-width: 768px) {
       .post .post-header .post-meta {
         margin-bottom: 10px; } }
@@ -1453,7 +1455,10 @@ h1, h2, h3, h4 {
         color: white; }
         @media screen and (max-width: 768px) {
           .post .post-content p:first-of-type {
-            font-size: 21px; } }
+            font-size: 18px; } }
+      @media screen and (max-width: 768px) {
+        .post .post-content p {
+          margin-bottom: 24px; } }
     .post .post-content ul {
       display: block;
       margin-bottom: 20px; }

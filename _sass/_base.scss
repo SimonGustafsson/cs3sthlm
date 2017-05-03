@@ -1741,7 +1741,9 @@ h1, h2, h3, h4 {
       color: $yellow;
 
       @include media-query($mobile) {
-        font-size: 24px;
+        font-size: 32px;
+        line-height: 1.25;
+        letter-spacing: -.5px;
       }
     }
 
@@ -1787,8 +1789,12 @@ h1, h2, h3, h4 {
         color: rgba($white, 1);
 
         @include media-query($mobile) {
-          font-size: 21px;
+          font-size: 18px;
         }
+      }
+
+      @include media-query($mobile) {
+        margin-bottom: 24px;
       }
     }
 
