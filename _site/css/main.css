@@ -369,7 +369,7 @@ h1, h2, h3, h4 {
             display: block;
             position: relative;
             top: 0;
-            background: rgba(3, 1, 0, 0.1);
+            background: none;
             width: 100%; } }
         .menu--primary ul .submenu-prim .submenu:after {
           display: block;
@@ -391,7 +391,7 @@ h1, h2, h3, h4 {
           margin-left: 0; }
           @media screen and (max-width: 768px) {
             .menu--primary ul .submenu-prim .submenu li {
-              border-bottom: 1px solid rgba(3, 1, 0, 0.2); } }
+              border-bottom: none; } }
           .menu--primary ul .submenu-prim .submenu li:last-of-type {
             border-bottom: none; }
           .menu--primary ul .submenu-prim .submenu li a {
@@ -401,7 +401,17 @@ h1, h2, h3, h4 {
             @media screen and (max-width: 768px) {
               .menu--primary ul .submenu-prim .submenu li a {
                 font-size: 12px;
-                padding-left: 30px; } }
+                padding-left: 40px;
+                position: relative; }
+                .menu--primary ul .submenu-prim .submenu li a:before {
+                  display: block;
+                  content: '';
+                  width: 8px;
+                  height: 1px;
+                  background: #2b2f36;
+                  position: absolute;
+                  left: 20px;
+                  top: 50%; } }
 
 .menu--secondary {
   display: block;

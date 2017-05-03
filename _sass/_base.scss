@@ -329,7 +329,7 @@ h1, h2, h3, h4 {
           display: block;
           position: relative;
           top: 0;
-          background: rgba($dark, .1);
+          background: none;
           width: 100%;
         }
 
@@ -357,7 +357,7 @@ h1, h2, h3, h4 {
           margin-left: 0;
 
           @include media-query($mobile) { 
-            border-bottom: 1px solid rgba($dark, .2);
+            border-bottom: none;
           }
 
           &:last-of-type {
@@ -371,7 +371,19 @@ h1, h2, h3, h4 {
 
             @include media-query($mobile) {
               font-size: 12px;
-              padding-left: 30px;
+              padding-left: 40px;
+              position: relative;
+
+              &:before {
+                display: block;
+                content: '';
+                width: 8px;
+                height: 1px;
+                background: $blue-dark;
+                position: absolute;
+                left: 20px;
+                top: 50%;
+              }
             }
           }
         }
