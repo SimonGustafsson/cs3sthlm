@@ -17,14 +17,14 @@ title: Home
 
     <div class="btn-group btn-group-intro">
       <a href="mailto:info@cs3sthlm.se?subject=Interested to become part of CS3STHLM" class="btn btn-blue">Keep Me Posted!</a>
-      <a href="#" class="btn btn-primary btn-intro-more">Learn More</a>
+      <a href="{{ site.baseurl }}/assets/cs3sthlm-outline.pdf" class="btn btn-primary btn-intro-more">Learn More</a>
       <a href="https://tickets.4sics.se/sales/" target="_blank" class="btn btn-yellow">Buy Tickets</a>
     </div>
   </div>
 
   {% for post in site.posts limit:1 %}
   <div class="feed-news">
-    <a href="{{ site.url }}{{ post.url }}"><span class="feed-category category-press">{{ post.categories }}</span><p>{{ post.title }}</p><span class="read-more-icon"></span></a>
+    <a href="{{ site.baseurl }}{{ post.url }}"><span class="feed-category category-press">{{ post.categories }}</span><p>{{ post.title }}</p><span class="read-more-icon"></span></a>
   </div>
   {% endfor %}
 
@@ -75,13 +75,13 @@ title: Home
   <div class="sec-content">
 
     <div class="sec-group-details left-details">
-      <img src="{{ site.url }}/assets/photos/nalen.png" alt="img details">
+      <img src="{{ site.baseurl }}/assets/photos/nalen.png" alt="img details">
       <div class="sec-group-details-content">
         <h3>Nalen, Stockholm</h3>
 
         <p>Once more will CS3STHLM be held in the historic venue known as “Nalen” – a house built in 1888 originally called the “National Palace” - and situated in the central part of Stockholm.</p>
 
-        <a href="{{ site.url }}/practical-details" class="btn btn-primary">Practical Details</a>
+        <a href="{{ site.baseurl }}/practical-details" class="btn btn-primary">Practical Details</a>
       </div>
     </div>
 
@@ -91,9 +91,9 @@ title: Home
 
         <p>Besides all great talks you will find a lot of technical in-depths tutorials, workshop and challenges in the ICS security lab & demo area.</p>
 
-        <a href="{{ site.url }}/call-for-content/" class="btn btn-primary">View Workshops</a>
+        <a href="{{ site.baseurl }}/call-for-content/" class="btn btn-primary">View Workshops</a>
       </div>
-      <img src="{{ site.url }}/assets/photos/geek-lounge.png" alt="img details">
+      <img src="{{ site.baseurl }}/assets/photos/geek-lounge.png" alt="img details">
     </div>
 
   </div>

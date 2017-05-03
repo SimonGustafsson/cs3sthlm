@@ -7,6 +7,7 @@ $('.menu-item').on('click', function(){
  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
         var swiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',
-        paginationClickable: true
+        paginationClickable: true,
+        paginationType: "fraction",
     });
     }
