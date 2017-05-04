@@ -67,6 +67,10 @@ h1, h2, h3, h4 {
     height: 88px;
   }
 
+  @include media-query-min($large) {
+    max-width: 1380px;
+  }
+
   &--row {
       display: -webkit-box;
       display: -moz-box;
@@ -521,6 +525,10 @@ h1, h2, h3, h4 {
   @include media-query($mobile) {
     padding: 0 0 60px;
   }
+
+  @include media-query-min($large) {
+    max-width: 1380px;
+  }
 }
 
 .introduction {
@@ -589,6 +597,10 @@ h1, h2, h3, h4 {
         max-width: 15%;
         margin-right: 2.5%;
       }
+
+      @include media-query-min($large) {
+        font-size: 13px;
+      }
     }
 
     p {
@@ -606,6 +618,10 @@ h1, h2, h3, h4 {
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
+      }
+
+      @include media-query-min($large) {
+        font-size: 13px;
       }
     }
   }
@@ -629,6 +645,9 @@ h1, h2, h3, h4 {
       @include media-query($mobile) {
         font-size: 36px;
       }
+      @include media-query-min($large) {
+        font-size: 60px;
+      }
     }
   }
 
@@ -641,6 +660,11 @@ h1, h2, h3, h4 {
       font-weight: normal;
       font-size: 24px;
       color: $white;
+
+      @include media-query-min($large) {
+        font-size: 29px;
+        line-height: 1.24;
+      }
 
       span {
         display: block;
@@ -656,6 +680,11 @@ h1, h2, h3, h4 {
       letter-spacing: 2px;
       text-transform: uppercase;
       margin-top: 4px;
+
+      @include media-query-min($large) {
+        font-size: 15px;
+        margin-top: 8px;
+      }
     }
   }
 
@@ -719,6 +748,11 @@ h1, h2, h3, h4 {
     letter-spacing: 8px;
     text-transform: uppercase;
     margin-bottom: 10px;
+
+    @include media-query-min($large) {
+      font-size: 14px;
+      letter-spacing: 10px;
+    }
   }
 
   h2 {
@@ -728,6 +762,10 @@ h1, h2, h3, h4 {
     color: $yellow;
     margin-bottom: 50px;
     position: relative;
+
+    @include media-query-min($large) {
+      font-size: 60px;
+    } 
 
     &:after {
       display: block;
@@ -762,6 +800,12 @@ h1, h2, h3, h4 {
 
     @include media-query($mobile) {
       margin-left: 0;
+    }
+
+    @include media-query-min($large) {
+      max-width: 660px;
+      margin-left: 227px;
+      font-size: 23px;
     }
   }
 
@@ -870,6 +914,11 @@ h1, h2, h3, h4 {
       -webkit-flex-wrap: wrap;
     }
 
+    @include media-query-min($large) {
+      width: calc(100% - 227px);
+      margin-left: 227px;
+    }
+
     p {
       margin-left: 0;
       max-width: 360px;
@@ -896,6 +945,21 @@ h1, h2, h3, h4 {
         max-width: 100%;
       }
 
+      @include media-query-min($large) {
+
+        max-width: 38%;
+        margin-left: 0;
+
+        &:first-of-type {
+          max-width: calc(62% - 22px);
+          margin-right: 22px;
+        }
+
+        p {
+          max-width: 100%;
+        }
+      }
+
       &.block-item-right {
 
         ul {
@@ -919,6 +983,14 @@ h1, h2, h3, h4 {
           background: rgba($white, .5);
           position: absolute;
           bottom: -11px;
+        }
+
+        @include media-query-min($large) {
+          margin-bottom: 14px;
+
+          &:after {
+            bottom: -5px;
+          }
         }
       }
 
@@ -1049,6 +1121,10 @@ h1, h2, h3, h4 {
       box-sizing: border-box;
     }
 
+    @include media-query-min($large) {
+      max-width: 434px;
+    }
+
     h3 {
       display: block;
       font-family: 'latoblack', sans-serif;
@@ -1058,6 +1134,10 @@ h1, h2, h3, h4 {
       letter-spacing: 2px;
       position: relative;
       margin-bottom: 22px;
+
+      @include media-query-min($large) {
+        font-size: 16px;
+      }
 
       &:after {
         display: block;
@@ -1077,6 +1157,10 @@ h1, h2, h3, h4 {
       font-size: 16px;
       margin-bottom: 20px;
       color: rgba($white, .85);
+
+      @include media-query-min($large) {
+        font-size: 18px;
+      }
 
       &:last-of-type {
         margin-bottom: 0;
@@ -1272,6 +1356,10 @@ h1, h2, h3, h4 {
       }
   }
 
+  @include media-query-min($large) {
+    max-width: 946px;
+  }
+
   &.left-details {
     margin-left: -60px;
     margin-bottom: 60px;
@@ -1286,6 +1374,13 @@ h1, h2, h3, h4 {
 
       .sec-group-details-content {
         margin-left: 0;
+      }
+    }
+
+    @include media-query-min($large) {
+
+      .sec-group-details-content {
+        margin-left: 22px;
       }
     }
   }
@@ -1316,6 +1411,13 @@ h1, h2, h3, h4 {
         }
       }
     }
+
+    @include media-query-min($large) {
+
+      .sec-group-details-content {
+        margin-right: 22px;
+      }
+    }
   }
 
   img {
@@ -1328,6 +1430,10 @@ h1, h2, h3, h4 {
       top: 0;
       left: 0;
       z-index: 1;
+    }
+
+    @include media-query-min($large) {
+      max-width: 492px;
     }
   }
 
@@ -1350,6 +1456,10 @@ h1, h2, h3, h4 {
       position: relative;
       margin-bottom: 22px;
 
+      @include media-query-min($large) {
+        font-size: 16px;
+      }
+
       &:after {
         display: block;
         content: '';
@@ -1368,6 +1478,10 @@ h1, h2, h3, h4 {
       font-size: 16px;
       margin-bottom: 20px;
       color: rgba($white, .85);
+
+      @include media-query-min($large) {
+        font-size: 18px; 
+      }
     }
   }
 }
@@ -1669,6 +1783,10 @@ h1, h2, h3, h4 {
   box-shadow: 0 2px 4px rgba($dark, .1);
 
   @include transition-ease;
+
+  @include media-query-min($large) {
+    font-size: 12px;
+  }
 }
 .btn-primary {
   background: $blue-dark;
@@ -1740,6 +1858,10 @@ h1, h2, h3, h4 {
     padding: 0 20px;
   }
 
+  @include media-query-min($large) {
+    width: 60%;
+  }
+
   .post-header {
     display: block;
     margin-bottom: 40px;
@@ -1756,6 +1878,11 @@ h1, h2, h3, h4 {
         font-size: 32px;
         line-height: 1.25;
         letter-spacing: -.5px;
+      }
+
+      @include media-query-min($large) {
+        font-size: 60px;
+        line-height: 1.25;
       }
     }
 
@@ -1775,6 +1902,9 @@ h1, h2, h3, h4 {
       @include transition-ease;
 
       @include media-query($mobile) {
+        padding-right: 0;
+      }
+      @include media-query-min($large) {
         padding-right: 0;
       }
 
@@ -1803,10 +1933,19 @@ h1, h2, h3, h4 {
         @include media-query($mobile) {
           font-size: 18px;
         }
+        @include media-query-min($large) {
+          font-size: 23px;
+          margin-bottom: 24px;
+        }
       }
 
       @include media-query($mobile) {
         margin-bottom: 24px;
+      }
+
+      @include media-query-min($large) {
+        max-width: 100%;
+        font-size: 23px;
       }
     }
 
@@ -1818,6 +1957,10 @@ h1, h2, h3, h4 {
         margin-left: 20px;
         margin-bottom: 10px;
         color: rgba($white, 0.85);
+
+        @include media-query-min($large) {
+          font-size: 23px;
+        }
       }
     }
 
@@ -1826,10 +1969,8 @@ h1, h2, h3, h4 {
       font-style: italic;
       font-size: 18px;
 
-      &:first-of-type {
-        font-family: 'latoregular', sans-serif;
-        font-style: italic;
-        font-size: 18px;
+      @include media-query-min($large) {
+        font-size: 23px;
       }
     }
   }
@@ -1878,11 +2019,15 @@ h1, h2, h3, h4 {
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
 
-    width: 100%;
-    max-width: 1160px;
-    padding: 0 20px 40px;
-    box-sizing: border-box;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 1160px;
+  padding: 0 20px 40px;
+  box-sizing: border-box;
+  margin: 0 auto;
+
+  @include media-query-min($large) {
+    max-width: 1380px;
+  }
 
     ul {
       display: block;
@@ -1899,6 +2044,12 @@ h1, h2, h3, h4 {
         width: 50%;
         max-width: 50%;
         margin: 0 0 20px;
+      }
+
+      @include media-query-min($large) {
+        width: 205px;
+        max-width: 205px;
+        margin-right: 22px;
       }
 
       li {
