@@ -28,3 +28,4 @@ theme:
 
 gems:
   - jekyll-sitemap
+  - jekyll-seo-tag
