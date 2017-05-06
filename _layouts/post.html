@@ -2,6 +2,11 @@
 layout: default
 ---
 <section class="content">
+
+<div class="sec-head sec-head-single-post">
+    <h4>{% if page.categories contains "press" %}Press{% endif %}{% if page.categories contains "news" %}News{% endif %}</h4>
+</div>
+
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">

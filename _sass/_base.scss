@@ -740,6 +740,24 @@ h1, h2, h3, h4 {
     padding: 0 20px;
   }
 
+  &.sec-head-single-post {
+
+    h4 {
+      position: relative;
+      margin-bottom: 40px;
+      
+      &:after {
+        display: block;
+        content: '';
+        width: 40px;
+        height: 1px;
+        background: rgba($white, .5);
+        position: absolute;
+        bottom: -20px;
+      }
+    }
+  }
+
   h4 {
     font-family: 'latoblack', sans-serif;
     font-weight: normal;
@@ -1958,6 +1976,15 @@ h1, h2, h3, h4 {
         }
       }
 
+      a {
+        color: $yellow;
+        @include transition-ease;
+
+        &:hover {
+          color: $white;
+        }
+      }
+
       @include media-query($mobile) {
         margin-bottom: 24px;
       }
@@ -1966,6 +1993,10 @@ h1, h2, h3, h4 {
         max-width: 100%;
         font-size: 23px;
       }
+    }
+
+    h3, h4 {
+      margin-bottom: 20px;
     }
 
     ul {

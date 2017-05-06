@@ -673,6 +673,17 @@ h1, h2, h3, h4 {
 @media screen and (max-width: 768px) {
   .sec-head {
     padding: 0 20px; } }
+.sec-head.sec-head-single-post h4 {
+  position: relative;
+  margin-bottom: 40px; }
+  .sec-head.sec-head-single-post h4:after {
+    display: block;
+    content: '';
+    width: 40px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    bottom: -20px; }
 .sec-head h4 {
   font-family: 'latoblack', sans-serif;
   font-weight: normal;
@@ -1575,6 +1586,14 @@ h1, h2, h3, h4 {
             max-width: 100%; }
             .post .post-content p img:nth-child(2) {
               margin-left: 0; } }
+      .post .post-content p a {
+        color: #ef7d00;
+        transition: 0.24s all ease-in-out;
+        -moz-transition: 0.24s all ease-in-out;
+        -webkit-transtiion: 0.24s all ease-in-out;
+        -o-transition: 0.24s all ease-in-out; }
+        .post .post-content p a:hover {
+          color: white; }
       @media screen and (max-width: 768px) {
         .post .post-content p {
           margin-bottom: 24px; } }
@@ -1582,6 +1601,8 @@ h1, h2, h3, h4 {
         .post .post-content p {
           max-width: 100%;
           font-size: 23px; } }
+    .post .post-content h3, .post .post-content h4 {
+      margin-bottom: 20px; }
     .post .post-content ul {
       display: block;
       margin-bottom: 20px; }
