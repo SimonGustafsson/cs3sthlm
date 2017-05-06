@@ -5,7 +5,7 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-  	<p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time><a href="{{ site.url }}/assets/press/{{ page.pdf }}" target="_blank" class="post-meta-pdf">Swedish PDF</a></p>
+  	<p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.pdf != null %}<a href="{{ site.url }}/assets/press/{{ page.pdf }}" target="_blank" class="post-meta-pdf">Swedish PDF</a>{% endif %}</p>
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
   </header>
 
@@ -13,6 +13,7 @@ layout: default
     {{ content }}
   </div>
 
+  {% if page.categories contains "press" %}
   <div class="post-contact-details">
   	<p>For more info contact:</p>
   	<ul>
@@ -23,6 +24,7 @@ layout: default
   	</ul>
   	<p>www.cs3sthlm.se</p>
   </div>
+  {% endif %}
 
 </article>
 </section>
