@@ -1841,6 +1841,14 @@ h1, h2, h3, h4 {
 
 .btn-icon {
 
+  &.btn-yellow {
+    &:hover {
+      #external-link, #download {
+        fill: $dark;
+      }
+    }
+  }
+
   &:hover {
 
     #external-link, #download {

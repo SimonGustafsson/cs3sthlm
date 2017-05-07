@@ -1488,6 +1488,8 @@ h1, h2, h3, h4 {
     .btn-intro-more {
       display: inline-block; } }
 
+.btn-icon.btn-yellow:hover #external-link, .btn-icon.btn-yellow:hover #download {
+  fill: #030100; }
 .btn-icon:hover #external-link, .btn-icon:hover #download {
   fill: #ef7d00; }
 .btn-icon .external-icon, .btn-icon .download-icon {
