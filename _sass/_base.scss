@@ -1919,16 +1919,44 @@ h1, h2, h3, h4 {
     }
 
     .post-meta {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+    
+      align-items: center;
+      -webkit-align-items: center;    
+      width: 100%;
+      max-width: 650px;
+
+      margin-bottom: 20px;
+
+      &:after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+      }
 
       @include media-query($mobile) {
         margin-bottom: 10px;
+      }
+
+      @include media-query-min($large) {
+        max-width: 100%;
+      }
+
+      .btn {
+        margin-left: auto;
       }
     }
 
     .post-meta-pdf {
       display: inline-block;
-      float: right;
-      padding-right: 120px;
+      margin-left: auto;
+      padding-right: 0;
       color: $white;
 
       @include transition-ease;

@@ -1541,13 +1541,35 @@ h1, h2, h3, h4 {
         .post .post-header .post-title {
           font-size: 60px;
           line-height: 1.25; } }
-    @media screen and (max-width: 768px) {
-      .post .post-header .post-meta {
-        margin-bottom: 10px; } }
+    .post .post-header .post-meta {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      align-items: center;
+      -webkit-align-items: center;
+      width: 100%;
+      max-width: 650px;
+      margin-bottom: 20px; }
+      .post .post-header .post-meta:after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+      @media screen and (max-width: 768px) {
+        .post .post-header .post-meta {
+          margin-bottom: 10px; } }
+      @media screen and (min-width: 1680px) {
+        .post .post-header .post-meta {
+          max-width: 100%; } }
+      .post .post-header .post-meta .btn {
+        margin-left: auto; }
     .post .post-header .post-meta-pdf {
       display: inline-block;
-      float: right;
-      padding-right: 120px;
+      margin-left: auto;
+      padding-right: 0;
       color: white;
       transition: 0.24s all ease-in-out;
       -moz-transition: 0.24s all ease-in-out;
