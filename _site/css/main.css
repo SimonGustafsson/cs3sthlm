@@ -683,12 +683,18 @@ h1, h2, h3, h4 {
   @media screen and (max-width: 768px) {
     .sec-head .col-ml-1 {
       margin-left: 0; } }
+  @media screen and (min-width: 1680px) {
+    .sec-head .col-ml-1 {
+      margin-left: 227px; } }
 .sec-head .col-ms-1 {
   margin-left: 20px; }
   @media screen and (max-width: 768px) {
     .sec-head .col-ms-1 {
       margin-left: 0;
       margin-top: 30px; } }
+  @media screen and (min-width: 1680px) {
+    .sec-head .col-ms-1 {
+      margin-left: 22px; } }
 .sec-head .col-6-6 {
   display: -webkit-box;
   display: -moz-box;
@@ -710,11 +716,17 @@ h1, h2, h3, h4 {
     .sec-head .col-3-6 {
       width: 100%;
       padding-right: 0; } }
+  @media screen and (min-width: 1680px) {
+    .sec-head .col-3-6 {
+      width: 659px; } }
 .sec-head .col-2-6 {
   width: 360px; }
   @media screen and (max-width: 768px) {
     .sec-head .col-2-6 {
       width: 100%; } }
+  @media screen and (min-width: 1680px) {
+    .sec-head .col-2-6 {
+      width: 432px; } }
 .sec-head.sec-head-single-post h4 {
   position: relative;
   margin-bottom: 40px; }
@@ -795,7 +807,6 @@ h1, h2, h3, h4 {
   @media screen and (min-width: 1680px) {
     .sec-head p {
       max-width: 660px;
-      margin-left: 227px;
       font-size: 23px; } }
   .sec-head p a {
     color: white;

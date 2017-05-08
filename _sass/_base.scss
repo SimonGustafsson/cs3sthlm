@@ -752,6 +752,10 @@ h1, h2, h3, h4 {
     @include media-query($mobile) {
       margin-left: 0;
     }
+
+    @include media-query-min($large) {
+      margin-left: 227px;
+    }
   }
   .col-ms-1 {
     margin-left: 20px;
@@ -759,6 +763,10 @@ h1, h2, h3, h4 {
     @include media-query($mobile) {
       margin-left: 0;
       margin-top: 30px;
+    }
+
+    @include media-query-min($large) {
+      margin-left: 22px;
     }
   }
 
@@ -788,12 +796,20 @@ h1, h2, h3, h4 {
       width: 100%;
       padding-right: 0;
     }
+
+    @include media-query-min($large) {
+      width: 659px;
+    }
   }
   .col-2-6 {
     width: 360px;
 
     @include media-query($mobile) {
       width: 100%;
+    }
+
+    @include media-query-min($large) {
+      width: 432px;
     }
   }
 
@@ -902,7 +918,6 @@ h1, h2, h3, h4 {
 
     @include media-query-min($large) {
       max-width: 660px;
-      margin-left: 227px;
       font-size: 23px;
     }
 
