@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CFP - DON'T MISS OUR DEADLINE"
-date:   2017-05-06 06:00:00 +0200
+date:   2017-05-08 06:00:00 +0200
 categories: news
 pdf: CFP-CS3-STHLM-2017.pdf
 ---
