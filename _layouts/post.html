@@ -10,7 +10,7 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-  	<p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.pdf != null %}<a href="{{ site.url }}/assets/press/{{ page.pdf }}" target="_blank" class="post-meta-pdf">{% if page.categories contains "press" %}Swedish PDF{% endif %}{% if page.categories contains "news" %}Download PDF{% endif %}</a>{% endif %}</p>
+  	<p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.pdf != null %}<a href="{{ site.url }}/assets/pdf/{{ page.pdf }}" target="_blank" class="post-meta-pdf">{% if page.categories contains "press" %}Swedish PDF{% endif %}{% if page.categories contains "news" %}Download PDF{% endif %}</a>{% endif %}</p>
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
   </header>
 
