@@ -537,7 +537,8 @@ h1, h2, h3, h4 {
     margin-top: 40px; }
     @media screen and (max-width: 768px) {
       .introduction .feed-news {
-        margin-top: 20px; } }
+        margin-top: 20px;
+        width: 100%; } }
     .introduction .feed-news a:hover p {
       color: #ef7d00; }
     .introduction .feed-news a:hover .read-more-icon {
@@ -562,6 +563,10 @@ h1, h2, h3, h4 {
       -moz-transition: 0.24s all ease-in-out;
       -webkit-transtiion: 0.24s all ease-in-out;
       -o-transition: 0.24s all ease-in-out; }
+      @media screen and (max-width: 768px) {
+        .introduction .feed-news .read-more-icon {
+          float: right;
+          margin-top: 10px; } }
     .introduction .feed-news .feed-category {
       display: inline-block;
       font-family: 'latoblack', sans-serif;
