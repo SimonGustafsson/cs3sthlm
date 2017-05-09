@@ -1040,7 +1040,6 @@ h1, h2, h3, h4 {
   display: block;
 
   @include media-query($mobile) {
-    background: $blue-dark;
     padding: 30px 0;
     box-sizing: border-box;
     margin-top: 60px;
@@ -1058,6 +1057,13 @@ h1, h2, h3, h4 {
 
     flex-direction: row;
     -webkit-flex-direction: row;
+
+    @include media-query($mobile) {
+      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
   }
 
   .column-item {
@@ -1073,12 +1079,91 @@ h1, h2, h3, h4 {
     @include media-query($mobile) {
       max-width: 100%;
       margin-right: 0;
-      padding: 0 20px 30px;
+      padding: 0;
       box-sizing: border-box;
+      position: relative;
+      border-bottom: 1px solid rgba($white, .25);
+      margin-bottom: 15px;
     }
 
     @include media-query-min($large) {
       max-width: 434px;
+    }
+
+    input {
+      display: none;
+    }
+
+    label {
+      display: none;
+      font-family: 'latoblack', sans-serif;
+      font-weight: normal;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      position: relative;
+      margin-bottom: 15px;
+
+      @include media-query($mobile) {
+        display: block;
+      }
+    }
+
+    input:checked + label {
+      color: $yellow;
+    }
+
+    input:checked ~ .column-content {
+      display: block;
+      height: auto;
+    }
+
+    input:checked ~ .column-icon-plus {
+
+      &:after {
+        display: none;
+      }
+    }
+
+    .column-icon-plus {
+      display: none;
+      content: '';
+      width: 11px;
+      height: 11px;
+      position: absolute;
+      top: 4px;
+      right: 0;
+
+      @include media-query($mobile) {
+        display: block;
+      }
+
+      &:before {
+        display: block;
+        content: '';
+        width: 11px;
+        height: 1px;
+        background: $white;
+        margin-top: 5px;
+      }
+      &:after {
+        display: block;
+        content: '';
+        width: 1px;
+        height: 11px;
+        background: $white;
+        margin-left: 5px;
+        margin-top: -6px;
+      }
+    }
+
+    .column-content {
+      display: block;
+      
+      @include media-query($mobile) {
+        height: 0;
+        overflow: hidden;
+      }
     }
 
     h3 {
@@ -1090,6 +1175,14 @@ h1, h2, h3, h4 {
       letter-spacing: 2px;
       position: relative;
       margin-bottom: 22px;
+
+      @include media-query($mobile) {
+        display: none;
+
+        &:after {
+          display: none;
+        }
+      }
 
       @include media-query-min($large) {
         font-size: 16px;
@@ -1151,6 +1244,11 @@ h1, h2, h3, h4 {
     -webkit-flex-wrap: wrap;
     
     margin-top: 40px;
+
+    @include media-query($mobile) {
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
   
     h5 {
       display: block;
@@ -1166,6 +1264,10 @@ h1, h2, h3, h4 {
       font-family: 'latoregular', sans-serif;
       font-weight: normal;
       font-size: 15px;
+
+      @include media-query($mobile) {
+        margin-right: 0;
+      }
     }
   }
 }
