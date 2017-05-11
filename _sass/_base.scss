@@ -433,24 +433,30 @@ h1, h2, h3, h4 {
         font-weight: normal;
         font-size: 9px;
         letter-spacing: 2px;
-        color: $dark;
+        color: $white;
         text-decoration: none;
         text-transform: uppercase;
         padding: 14px 10px;
         box-sizing: border-box;
+        text-shadow: 0 1px 3px rgba(174, 91, 0, .8);
 
         @include transition-ease;
 
+        @include media-query($mobile) {
+          font-size: 12px;
+        }
+
         &:hover {
-          color: $white;
+          color: $dark;
 
           #facebook, #twitter, #instagram {
-            fill: $white;
+            fill: $dark;
           }
         }
 
         #facebook, #twitter, #instagram {
-          fill: $dark;
+          fill: $white;
+          box-shadow: 0 1px 3px rgba(174, 91, 0, .8);
           @include transition-ease;
         }
       }
@@ -953,6 +959,7 @@ h1, h2, h3, h4 {
 
   .btn {
     margin-bottom: 40px;
+    margin-top: 20px;
   }
 
   ul {
@@ -996,6 +1003,7 @@ h1, h2, h3, h4 {
     display: block;
     width: 420px;
     border-radius: 2px;
+    margin-bottom: 20px;
 
     @include media-query($mobile) {
       width: calc(100% + 12%);
@@ -1588,7 +1596,7 @@ h1, h2, h3, h4 {
     display: block;
     width: 32.15%;
     max-width: 360px;
-    background: rgba($blue-dark, .5);
+    background: $blue-dark;
     box-sizing: border-box;
     border-radius: 2px;
     padding: 40px 20px;
@@ -1905,7 +1913,6 @@ h1, h2, h3, h4 {
 .btn-primary {
   background: $blue-dark;
   color: $white;
-
   text-shadow: 0 1px 3px rgba(32, 35, 40, .4);
 
   &:hover {
@@ -1915,8 +1922,7 @@ h1, h2, h3, h4 {
 .btn-yellow {
   background: $yellow;
   color: $white;
-
-  text-shadow: 0 1px 3px rgba(174, 91, 0, .4);
+  text-shadow: 0 1px 3px rgba(174, 91, 0, .8);
 
   &:hover {
     color: $dark;
@@ -1925,6 +1931,7 @@ h1, h2, h3, h4 {
 .btn-blue {
   background: $blue;
   color: $white;
+  text-shadow: 0 1px 3px rgba(32, 35, 40, .4);
 
   &:hover {
     color: $dark;
