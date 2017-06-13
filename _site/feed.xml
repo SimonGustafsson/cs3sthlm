@@ -5,9 +5,38 @@
     <description>CS3STHLM - Stockholm international summit on cyber-security in SCADA and Industrial Control Systems. CS3STHLM is an annual summit that gather the most important ICS/SCADA cyber security stakeholders across critical industries (i.e. energy, oil &amp; gas, water, transportation and smartgrid etc)</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 11 May 2017 15:02:44 +0200</pubDate>
-    <lastBuildDate>Thu, 11 May 2017 15:02:44 +0200</lastBuildDate>
+    <pubDate>Tue, 13 Jun 2017 16:51:03 +0200</pubDate>
+    <lastBuildDate>Tue, 13 Jun 2017 16:51:03 +0200</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Malware that can knock out power grid discoverd</title>
+        <description>&lt;p&gt;Researchers from Slovakian Anti Virus company ESET have publicized information on malware especially targeted for automation in power grids. The malware is tied to an attack in Ukraine 2016. ESET have worked alongside researchers from another company, Dragos, to analyze the code. Investigators from ESET and Dragos will come to Cyber Security Summit CS3STHLM in Stockholm in October to present and discuss their findings.&lt;/p&gt;
+
+&lt;p&gt;Robert Lipovski, one of the researchers at ESET, states in Washington Post: “The potential impact of malware like this is huge. It’s not restricted to Ukraine. The industrial hardware that the malware communicates with is used in critical infrastructure worldwide.”&lt;/p&gt;
+
+&lt;p&gt;This malware is called the most dangerous code since Stuxnet, malware discovered in 2010 aimed specifically towards Iran’s nuclear program.&lt;/p&gt;
+
+&lt;p&gt;Robert Malmgren, owner and co-founder of CS3STHLM: -” The fact that this malware can be used and re-used in critical infrastructure everywhere makes it an enormous threat to non protected Industrial Control Systems.”&lt;/p&gt;
+
+&lt;p&gt;CS3STHLM takes place at Nalen in Stockholm October 24-26.&lt;/p&gt;
+
+&lt;p&gt;www.cs3sthlm.se&lt;/p&gt;
+
+&lt;p&gt;For more information regarding the malware, please contact&lt;/p&gt;
+
+&lt;p&gt;Robert Malmgren&lt;/p&gt;
+
+&lt;p&gt;Phone: +46 708 33 03 78&lt;/p&gt;
+</description>
+        <pubDate>Tue, 13 Jun 2017 06:00:00 +0200</pubDate>
+        <link>/press/2017/06/13/malware-that-can-knock-out-power.html</link>
+        <guid isPermaLink="true">/press/2017/06/13/malware-that-can-knock-out-power.html</guid>
+        
+        
+        <category>press</category>
+        
+      </item>
     
       <item>
         <title>CFP - DON'T MISS OUR DEADLINE</title>
