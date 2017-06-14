@@ -1788,8 +1788,21 @@ h1, h2, h3, h4 {
     -o-transition: 0.24s all ease-in-out; }
     .post-download-drop li:hover {
       color: #ef7d00; }
-    .post-download-drop li span {
-      text-decoration: underline; }
+      .post-download-drop li:hover .download-tag .icon #arrow-down {
+        fill: #ef7d00; }
+    .post-download-drop li .download-tag {
+      display: inline-block; }
+      .post-download-drop li .download-tag .icon {
+        display: block;
+        float: right;
+        margin-left: 8px;
+        margin-top: -2px; }
+        .post-download-drop li .download-tag .icon #arrow-down {
+          fill: white;
+          transition: 0.24s all ease-in-out;
+          -moz-transition: 0.24s all ease-in-out;
+          -webkit-transtiion: 0.24s all ease-in-out;
+          -o-transition: 0.24s all ease-in-out; }
   .post-download-drop .inside-download-drop {
     display: none;
     position: absolute;
