@@ -10,7 +10,7 @@ Due to a conflict of interest regarding the name SICS between the summit 4SICS a
 
 Top level cyber security experts from all over the world will gather again in the old concert venue Nalen in Stockholm for the internationally acclaimed summit. Owners of arranging company Omnisiens, Swedish cyber security experts Erik Johansson and Robert Malmgren, state:
 
-> -”We changed the name because we had to, but we are convinced our target group will find us, and that it won’t be such a big deal. Ticket sales are up and running, and we look forward to presenting yet another exciting mix of speakers and topics.”
+>-”We changed the name because we had to, but we are convinced our target group will find us, and that it won’t be such a big deal. Ticket sales are up and running, and we look forward to presenting yet another exciting mix of speakers and topics.”
 
 Interest for the summit is expected to escalate while awareness of hacker attacks and vulnerabilities in IoT (Internet of Things), rises.
 
