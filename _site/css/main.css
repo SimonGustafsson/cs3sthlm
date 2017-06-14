@@ -459,7 +459,8 @@ h1, h2, h3, h4 {
         -o-transition: 0.24s all ease-in-out; }
         @media screen and (max-width: 768px) {
           .menu--secondary ul li a {
-            font-size: 12px; } }
+            font-size: 12px;
+            padding: 14px 8px; } }
         .menu--secondary ul li a:hover {
           color: #030100; }
           .menu--secondary ul li a:hover #facebook, .menu--secondary ul li a:hover #twitter, .menu--secondary ul li a:hover #instagram {
@@ -609,6 +610,7 @@ h1, h2, h3, h4 {
       font-family: 'latoregular', sans-serif;
       font-weight: normal;
       font-size: 11px;
+      text-transform: uppercase;
       color: white;
       letter-spacing: 0.045em;
       transition: 0.24s all ease-in-out;
@@ -1769,6 +1771,67 @@ h1, h2, h3, h4 {
       list-style: none;
       margin: 10px 0;
       font-size: 15px; }
+      .post .post-contact-details ul a {
+        color: #ef7d00; }
+
+.post-download-drop {
+  margin-left: auto;
+  display: block;
+  position: relative;
+  list-style: none; }
+  .post-download-drop li:hover .inside-download-drop, .post-download-drop li:target .inside-download-drop {
+    display: block; }
+  .post-download-drop li {
+    transition: 0.24s all ease-in-out;
+    -moz-transition: 0.24s all ease-in-out;
+    -webkit-transtiion: 0.24s all ease-in-out;
+    -o-transition: 0.24s all ease-in-out; }
+    .post-download-drop li:hover {
+      color: #ef7d00; }
+    .post-download-drop li span {
+      text-decoration: underline; }
+  .post-download-drop .inside-download-drop {
+    display: none;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    list-style: none;
+    background: #2b2f36;
+    box-sizing: border-box;
+    border-radius: 2px;
+    z-index: 20;
+    margin: 0; }
+    .post-download-drop .inside-download-drop:after {
+      display: block;
+      content: '';
+      height: 140px;
+      width: calc(100% + 20px);
+      background: rgba(255, 255, 255, 0);
+      position: absolute;
+      top: -30px;
+      left: -10px;
+      z-index: -1; }
+    .post-download-drop .inside-download-drop li {
+      display: block;
+      box-sizing: border-box;
+      border-bottom: 1px solid black; }
+      .post-download-drop .inside-download-drop li a {
+        display: block;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        color: white;
+        font-family: 'latoblack', sans-serif;
+        font-weight: normal;
+        font-size: 11px;
+        letter-spacing: 2px;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.24s all ease-in-out;
+        -moz-transition: 0.24s all ease-in-out;
+        -webkit-transtiion: 0.24s all ease-in-out;
+        -o-transition: 0.24s all ease-in-out; }
+        .post-download-drop .inside-download-drop li a:hover {
+          color: #ef7d00; }
 
 /**
   NEWS - MAIN */

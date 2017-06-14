@@ -4,6 +4,19 @@ $('.menu-item').on('click', function(){
     $('.menu--item').html($('.menu--item').html() == 'close' ? 'menu' : 'close');
 });
 
+$(document).ready( function(){
+
+    $('.post-download-drop').click( function(event){
+        event.stopPropagation();
+        $('.inside-download-drop').toggle();
+    });
+
+    $(document).click( function(){
+        $('.inside-download-drop').hide();
+    });
+
+});
+
  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
         var swiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',

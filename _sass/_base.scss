@@ -444,6 +444,7 @@ h1, h2, h3, h4 {
 
         @include media-query($mobile) {
           font-size: 12px;
+          padding: 14px 8px;
         }
 
         &:hover {
@@ -639,6 +640,7 @@ h1, h2, h3, h4 {
       font-family: 'latoregular', sans-serif;
       font-weight: normal;
       font-size: 11px;
+      text-transform: uppercase;
       color: $white;
       letter-spacing: 0.045em;
 
@@ -2212,6 +2214,86 @@ h1, h2, h3, h4 {
       list-style: none;
       margin: 10px 0;
       font-size: 15px;
+
+      a {
+        color: $yellow;
+      }
+    }
+  }
+}
+
+.post-download-drop {
+  margin-left: auto;
+  display: block;
+  position: relative;
+  list-style: none;
+
+  li:hover .inside-download-drop, li:target .inside-download-drop {
+    display: block;
+  }
+
+  li {
+
+    @include transition-ease;
+
+    &:hover {
+      color: $yellow;
+    }
+
+    span {
+      text-decoration: underline;
+    }
+  }
+
+
+  .inside-download-drop {
+    display: none;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    list-style: none;
+
+    background: #2b2f36;
+    box-sizing: border-box;
+    border-radius: 2px;
+    z-index: 20;
+    margin: 0;
+
+    &:after {
+      display: block;
+      content: '';
+      height: 140px;
+      width: calc(100% + 20px);
+      background: rgba($white, 0);
+      position: absolute;
+      top: -30px;
+      left: -10px;
+      z-index: -1;
+    }
+
+    li {
+      display: block;
+      box-sizing: border-box;
+      border-bottom: 1px solid black;
+
+      a {
+        display: block;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        color: $white;
+        font-family: 'latoblack', sans-serif;
+        font-weight: normal;
+        font-size: 11px;
+        letter-spacing: 2px;
+        text-decoration: none;
+        text-transform: uppercase;
+
+        @include transition-ease;
+
+        &:hover {
+          color: $yellow;
+        }
+      }
     }
   }
 }
