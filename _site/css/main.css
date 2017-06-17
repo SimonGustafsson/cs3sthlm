@@ -1743,6 +1743,7 @@ h1, h2, h3, h4 {
       margin-bottom: 20px; }
     .post .post-content ul {
       display: block;
+      max-width: 650px;
       margin-bottom: 20px; }
       .post .post-content ul li {
         margin-left: 20px;
