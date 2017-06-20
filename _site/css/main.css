@@ -358,7 +358,7 @@ h1, h2, h3, h4 {
           height: 8px; }
       .menu--primary ul .submenu-prim .submenu {
         display: none;
-        width: 170px;
+        width: auto;
         position: absolute;
         top: 30px;
         right: 0;
@@ -366,7 +366,8 @@ h1, h2, h3, h4 {
         box-sizing: border-box;
         border-radius: 2px;
         z-index: 20;
-        margin: 0; }
+        margin: 0;
+        white-space: nowrap; }
         @media screen and (max-width: 768px) {
           .menu--primary ul .submenu-prim .submenu {
             display: block;
@@ -1469,6 +1470,8 @@ h1, h2, h3, h4 {
   margin: 10px 0 0;
   box-sizing: border-box;
   border-top: 1px solid rgba(255, 255, 255, 0.25); }
+  .workshop--list-group .workshop--list-item.workshop--list-item-extended .workshop--meta {
+    min-width: 210px; }
 .workshop--list-group .workshop--list-link {
   display: -webkit-box;
   display: -moz-box;
@@ -1489,7 +1492,7 @@ h1, h2, h3, h4 {
       -webkit-flex-wrap: wrap; } }
   .workshop--list-group .workshop--list-link:hover {
     color: #ef7d00; }
-    .workshop--list-group .workshop--list-link:hover .workshop--meta-category.category-news, .workshop--list-group .workshop--list-link:hover .workshop--meta-category.category-press {
+    .workshop--list-group .workshop--list-link:hover .workshop--meta-category.category-news, .workshop--list-group .workshop--list-link:hover .workshop--meta-category.category-press, .workshop--list-group .workshop--list-link:hover .workshop--meta-author, .workshop--list-group .workshop--list-link:hover .workshop--meta-time {
       color: #ef7d00; }
   .workshop--list-group .workshop--list-link .workshop--meta {
     display: -webkit-box;
@@ -1504,7 +1507,15 @@ h1, h2, h3, h4 {
     height: 27px; }
   .workshop--list-group .workshop--list-link .workshop--meta-date {
     min-width: 105px; }
-  .workshop--list-group .workshop--list-link .workshop--meta-date, .workshop--list-group .workshop--list-link .workshop--meta-category {
+  .workshop--list-group .workshop--list-link .workshop--meta-time {
+    min-width: 50px; }
+  .workshop--list-group .workshop--list-link .workshop--meta-time, .workshop--list-group .workshop--list-link .workshop--meta-author {
+    color: rgba(255, 255, 255, 0.8);
+    transition: 0.24s all ease-in-out;
+    -moz-transition: 0.24s all ease-in-out;
+    -webkit-transtiion: 0.24s all ease-in-out;
+    -o-transition: 0.24s all ease-in-out; }
+  .workshop--list-group .workshop--list-link .workshop--meta-date, .workshop--list-group .workshop--list-link .workshop--meta-category, .workshop--list-group .workshop--list-link .workshop--meta-author, .workshop--list-group .workshop--list-link .workshop--meta-time {
     display: inline-block;
     font-family: 'latoblack', sans-serif;
     font-weight: normal;
@@ -1512,17 +1523,17 @@ h1, h2, h3, h4 {
     text-transform: uppercase;
     letter-spacing: 2px; }
     @media screen and (min-width: 1680px) {
-      .workshop--list-group .workshop--list-link .workshop--meta-date, .workshop--list-group .workshop--list-link .workshop--meta-category {
+      .workshop--list-group .workshop--list-link .workshop--meta-date, .workshop--list-group .workshop--list-link .workshop--meta-category, .workshop--list-group .workshop--list-link .workshop--meta-author, .workshop--list-group .workshop--list-link .workshop--meta-time {
         font-size: 14px; } }
-  .workshop--list-group .workshop--list-link .workshop--meta-category {
+  .workshop--list-group .workshop--list-link .workshop--meta-category, .workshop--list-group .workshop--list-link .workshop--meta-author {
     margin-left: 15px; }
-    .workshop--list-group .workshop--list-link .workshop--meta-category.category-news {
+    .workshop--list-group .workshop--list-link .workshop--meta-category.category-news, .workshop--list-group .workshop--list-link .workshop--meta-author.category-news {
       color: #2176ae;
       transition: 0.24s all ease-in-out;
       -moz-transition: 0.24s all ease-in-out;
       -webkit-transtiion: 0.24s all ease-in-out;
       -o-transition: 0.24s all ease-in-out; }
-    .workshop--list-group .workshop--list-link .workshop--meta-category.category-press {
+    .workshop--list-group .workshop--list-link .workshop--meta-category.category-press, .workshop--list-group .workshop--list-link .workshop--meta-author.category-press {
       color: #c43b5b;
       transition: 0.24s all ease-in-out;
       -moz-transition: 0.24s all ease-in-out;
@@ -1654,18 +1665,18 @@ h1, h2, h3, h4 {
         height: 0;
         clear: both;
         visibility: hidden; }
-      .post .post-header .post-meta .post-date, .post .post-header .post-meta .post-category {
+      .post .post-header .post-meta .post-date, .post .post-header .post-meta .post-category, .post .post-header .post-meta .post-time, .post .post-header .post-meta .post-author {
         display: block;
         font-family: 'latoblack', sans-serif;
         font-weight: normal;
         font-size: 14px;
         text-transform: uppercase;
         letter-spacing: 2px; }
-        .post .post-header .post-meta .post-date.category-news, .post .post-header .post-meta .post-category.category-news {
+        .post .post-header .post-meta .post-date.category-news, .post .post-header .post-meta .post-category.category-news, .post .post-header .post-meta .post-time.category-news, .post .post-header .post-meta .post-author.category-news {
           color: #2176ae; }
-        .post .post-header .post-meta .post-date.category-press, .post .post-header .post-meta .post-category.category-press {
+        .post .post-header .post-meta .post-date.category-press, .post .post-header .post-meta .post-category.category-press, .post .post-header .post-meta .post-time.category-press, .post .post-header .post-meta .post-author.category-press {
           color: #c43b5b; }
-      .post .post-header .post-meta .post-category {
+      .post .post-header .post-meta .post-category, .post .post-header .post-meta .post-author {
         margin-left: 15px; }
       @media screen and (max-width: 768px) {
         .post .post-header .post-meta {

@@ -319,7 +319,7 @@ h1, h2, h3, h4 {
 
       .submenu {
         display: none;
-        width: 170px;
+        width: auto;
         position: absolute;
         top: 30px;
         right: 0;
@@ -328,6 +328,7 @@ h1, h2, h3, h4 {
         border-radius: 2px;
         z-index: 20;
         margin: 0;
+        white-space: nowrap;
 
         @include media-query($mobile) {
           display: block;
@@ -1806,6 +1807,10 @@ h1, h2, h3, h4 {
     margin: 10px 0 0;
     box-sizing: border-box;
     border-top: 1px solid rgba($white, .25);
+
+    &.workshop--list-item-extended .workshop--meta {
+      min-width: 210px;
+    }
   }
 
   .workshop--list-link {
@@ -1831,7 +1836,7 @@ h1, h2, h3, h4 {
     &:hover {
       color: $yellow;
 
-      .workshop--meta-category.category-news, .workshop--meta-category.category-press  {
+      .workshop--meta-category.category-news, .workshop--meta-category.category-press, .workshop--meta-author, .workshop--meta-time {
         color: $yellow;
       }
     }
@@ -1853,7 +1858,17 @@ h1, h2, h3, h4 {
     .workshop--meta-date {
       min-width: 105px;
     }
-    .workshop--meta-date, .workshop--meta-category {
+    .workshop--meta-time {
+      min-width: 50px;
+    }
+
+    .workshop--meta-time, .workshop--meta-author {
+      color: rgba($white, .8);
+
+      @include transition-ease;
+    }
+
+    .workshop--meta-date, .workshop--meta-category, .workshop--meta-author, .workshop--meta-time {
       display: inline-block;
       font-family: 'latoblack', sans-serif;
       font-weight: normal;
@@ -1865,7 +1880,7 @@ h1, h2, h3, h4 {
         font-size: 14px;
       }
     }
-    .workshop--meta-category {
+    .workshop--meta-category, .workshop--meta-author {
       margin-left: 15px;
 
       &.category-news {
@@ -2053,7 +2068,7 @@ h1, h2, h3, h4 {
         visibility: hidden;
       }
 
-      .post-date, .post-category {
+      .post-date, .post-category, .post-time, .post-author {
         display: block;
         font-family: 'latoblack', sans-serif;
         font-weight: normal;
@@ -2068,7 +2083,7 @@ h1, h2, h3, h4 {
           color: $red-news;
         }
       }
-      .post-category {
+      .post-category, .post-author {
         margin-left: 15px;
       }
 

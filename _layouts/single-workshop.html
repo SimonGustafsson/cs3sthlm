@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<section class="content">
+
+<div class="sec-head sec-head-single-post">
+    <h4>Workshop</h4>
+</div>
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+  	<div class="post-meta">
+      <span class="post-time">{{ page.time }}</span>
+      <span class="post-author">{{ page.author }}</span>
+    </div>
+    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+</article>
+</section>
