@@ -13,7 +13,7 @@
   from: US
   role: Network Defender
   work: Dragos Inc
-  image: joe-slowik.jpg
+  image: joe-slowik.png
   url:
   co-presenter:
   conf-role: Speaker
@@ -23,7 +23,7 @@
   from: US
   role: Software Engineer
   work: Automatak
-  image: crain.jpg
+  image: adam-crain.png
   conf-role: Speaker
 
 - id: 4
@@ -31,7 +31,7 @@
   from: Denmark
   role: IT Security Consultant
   work: 
-  image: mikael-vingaard.jpg
+  image: mikael-vingaard.png
   conf-role: Workshop
 
 - id: 5
@@ -39,5 +39,5 @@
   from: Norway
   role: IT Security Consultant
   work: 
-  image: lars-erik-smevold.jpg
+  image: lars-erik-smevold.png
   conf-role: Speaker
