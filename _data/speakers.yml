@@ -1,0 +1,43 @@
+- id: 1
+  name: Jenny Radcliffe
+  from: Great Britain
+  role: Social Engineering Expert
+  work:
+  image: jenny-radcliffe.png
+  url:
+  co-presenter:
+  conf-role: Speaker
+
+- id: 2
+  name: Joe Slowik
+  from: US
+  role: Network Defender
+  work: Dragos Inc
+  image: joe-slowik.jpg
+  url:
+  co-presenter:
+  conf-role: Speaker
+
+- id: 3
+  name: Adam Crain
+  from: US
+  role: Software Engineer
+  work: Automatak
+  image: crain.jpg
+  conf-role: Speaker
+
+- id: 4
+  name: Mikael Vingaard
+  from: Denmark
+  role: IT Security Consultant
+  work: 
+  image: mikael-vingaard.jpg
+  conf-role: Workshop
+
+- id: 5
+  name: Lars Erik Smevold
+  from: Norway
+  role: IT Security Consultant
+  work: 
+  image: lars-erik-smevold.jpg
+  conf-role: Speaker

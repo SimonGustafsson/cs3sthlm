@@ -1786,6 +1786,8 @@ h1, h2, h3, h4 {
   }
 }
 
+/**
+  WORKSHOP - LIST */
 
 .workshop--list-group {
 
@@ -1900,6 +1902,137 @@ h1, h2, h3, h4 {
     }
   }
 
+}
+
+/**
+  SPEAKER LIST */
+
+.speaker--list {
+
+  &-group {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+  
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+
+    width: 100%;
+
+    @include media-query($mobile) {
+      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+    }
+  }
+
+  &-item {
+    display: block;
+    width: 100%;
+    max-width: 224px;
+
+    @include media-query($mobile) {
+      width: 50%;
+      max-width: 50%;
+    }
+
+    @include media-query-min($large) {
+      max-width: 268px;
+    }
+
+    .speaker-block {
+      display: block;
+      height: 284px;
+      min-height: 284px;
+      overflow: hidden;
+      position: relative;
+
+      @include media-query-min($large) {
+        height: 340px;
+        min-height: 340px;
+      }
+
+      @include media-query($mobile) {
+        height: 281px;
+        min-height: 281px;
+      }
+
+      &:before {
+        display: block;
+        content: '';
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 20;
+        background: -webkit-linear-gradient(transparent, rgba($dark, .7)) left repeat;
+        background: linear-gradient(transparent, rgba($dark, .7)) left repeat;
+
+        @include media-query($mobile) {
+          height: 60%;
+        }
+      }
+
+      &-data {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        z-index: 30;
+
+        h4 {
+          font-family: 'latoregular', sans-serif;
+          font-size: 11px;
+          font-weight: 400;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          color: rgba($white, .7);
+
+          @include media-query($mobile) {
+            font-size: 11px;
+          }
+        }
+        h3 {
+          font-family: 'latoregular', sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 1;
+
+          @include media-query($mobile) {
+            font-size: 14px; 
+          }
+        }
+        h2 {
+          font-family: 'latoblack', sans-serif;
+          font-size: 18px;
+          font-weight: 800;
+          letter-spacing: 0;
+
+          @include media-query($mobile) {
+            font-size: 18px;
+            font-size: 4.2vw;
+          }
+          @include media-query-min($large) {
+            font-size: 21px;
+          }
+        }
+      }
+
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
 }
 
 

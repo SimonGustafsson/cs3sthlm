@@ -1,0 +1,41 @@
+---
+layout: default
+title: Speakers
+permalink: "/program/speakers/"
+---
+
+<section class="content">
+
+  <div class="sec-head">
+    <h4>Speakers & Trainers</h4>
+    <h2>World Class Content</h2>
+
+    <div class="col-6-6">
+        <div class="col-3-6 col-ml-1">
+    	   <p>CS3STHLM – the Stockholm international summit on Cyber Security in SCADA and Industrial Control Systems - is an annual summit that gather the most important stakeholders across critical processes and industries. CS3STHLM has been organized since 2014, and has quickly become the premier ICS Security Summit in Northern Europe!</p>
+        </div>
+    </div>
+  </div>
+
+</section>
+
+<section class="content">
+
+	<div class="speaker--list-group">
+		{% assign sorted_speakers = site.data.speakers | sort:'name' %}
+		{% for speaker in sorted_speakers %}
+		<div class="speaker--list-item">
+			<div class="speaker-block">
+				<img src="{{ site.baseurl }}/assets/speakers/{{ speaker.image }}">
+				<div class="speaker-block-data">
+					<h4>{{ speaker.conf-role }}</h4>
+					<h2>{{ speaker.name }}</h2>
+					<!--<h3>{{ speaker.role }}</h3>-->
+				</div>
+			</div>
+			<div class="speaker-block-details"></div>
+		</div>
+		{% endfor %}
+	</div>
+
+</section>
