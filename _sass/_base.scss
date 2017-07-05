@@ -1923,6 +1923,7 @@ h1, h2, h3, h4 {
     -webkit-justify-content: flex-start;
 
     width: 100%;
+    position: relative;
 
     @include media-query($mobile) {
       flex-wrap: wrap;
@@ -1934,6 +1935,29 @@ h1, h2, h3, h4 {
     display: block;
     width: 100%;
     max-width: 224px;
+
+    &.view-details {
+      margin-bottom: 200px;
+
+      &:before {
+        display: block;
+        content: '';
+        background: rgba($dark, .5);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        z-index: 40;
+        pointer-events: none;
+      }
+      .speaker-block {
+        z-index: 50;
+      }
+      .speaker-block-details {
+        display: block;
+        z-index: 50;
+      }
+    }
 
     @include media-query($mobile) {
       width: 50%;
@@ -2031,6 +2055,15 @@ h1, h2, h3, h4 {
         width: 100%;
         height: auto;
       }
+    }
+
+    .speaker-block-details {
+      display: none;
+      background: $blue-dark;
+      width: 100%;
+      height: 200px;
+      position: absolute;
+      left: 0;
     }
   }
 }

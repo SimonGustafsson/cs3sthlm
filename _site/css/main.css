@@ -1556,7 +1556,8 @@ h1, h2, h3, h4 {
   -webkit-align-items: flex-start;
   justify-content: flex-start;
   -webkit-justify-content: flex-start;
-  width: 100%; }
+  width: 100%;
+  position: relative; }
   @media screen and (max-width: 768px) {
     .speaker--list-group {
       flex-wrap: wrap;
@@ -1565,6 +1566,23 @@ h1, h2, h3, h4 {
   display: block;
   width: 100%;
   max-width: 224px; }
+  .speaker--list-item.view-details {
+    margin-bottom: 200px; }
+    .speaker--list-item.view-details:before {
+      display: block;
+      content: '';
+      background: rgba(3, 1, 0, 0.5);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      z-index: 40;
+      pointer-events: none; }
+    .speaker--list-item.view-details .speaker-block {
+      z-index: 50; }
+    .speaker--list-item.view-details .speaker-block-details {
+      display: block;
+      z-index: 50; }
   @media screen and (max-width: 768px) {
     .speaker--list-item {
       width: 50%;
@@ -1643,6 +1661,13 @@ h1, h2, h3, h4 {
       display: block;
       width: 100%;
       height: auto; }
+  .speaker--list-item .speaker-block-details {
+    display: none;
+    background: #2b2f36;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    left: 0; }
 
 /**
   BUTTONS */

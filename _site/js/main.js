@@ -4,6 +4,10 @@ $('.menu-item').on('click', function(){
     $('.menu--item').html($('.menu--item').html() == 'close' ? 'menu' : 'close');
 });
 
+$(".speaker--list-item").on('click', function(){
+    $(this).toggleClass('view-details').siblings().removeClass('view-details');
+ })
+
 $(document).ready( function(){
 
     $('.post-download-drop').click( function(event){
