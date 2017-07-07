@@ -1,6 +1,6 @@
 - id: 1
   name: Jenny Radcliffe
-  from: Great Britain
+  from: GB
   role: Social Engineering Expert
   work:
   image: jenny.png
@@ -28,7 +28,7 @@
 
 - id: 4
   name: Mikael Vingaard
-  from: Denmark
+  from: DK
   role: IT Security Consultant
   work: 
   image: mikael.png
@@ -36,7 +36,7 @@
 
 - id: 5
   name: Lars Erik Smevold
-  from: Norway
+  from: "NO"
   role: IT Security Consultant
   work: 
   image: lars-erik.png
@@ -44,7 +44,7 @@
 
 - id: 6
   name: Erik Hjelmvik
-  from: Sweden
+  from: SE
   role:
   work: 
   image: erik.png
@@ -52,7 +52,7 @@
 
 - id: 7
   name: Jon Røgeberg
-  from: Norway
+  from: "NO"
   role: Manager
   work: mnemonic IRT
   image: jon.png
@@ -60,7 +60,7 @@
 
 - id: 8
   name: Martin Eian
-  from: Norway
+  from: "NO"
   role: Senior Security Analyst
   work: mnemonic IRT
   image: martin.png
