@@ -1,5 +1,12 @@
 - id: 1
   level: organizer
+  company: OMNISIENS
+  logo: omnisiens.svg
+  url: https://omnisiens.se
+  bio: We are a company that host summits and conferences - our mission is to work with knowledge transfer.
+
+- id: 2
+  level: organizer
   company: FIRST
   logo: first.svg
   url: https://first.org
