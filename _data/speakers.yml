@@ -51,7 +51,7 @@
   conf-role: Workshop
 
 - id: 7
-  name: Jon Rogeberg
+  name: Jon Røgeberg
   from: Norway
   role: Manager
   work: mnemonic IRT
@@ -64,4 +64,12 @@
   role: Senior Security Analyst
   work: mnemonic IRT
   image: martin.png
+  conf-role: Speaker
+
+- id: 9
+  name: Melissa Crawford
+  from: US
+  role: Global Consultant
+  work: Siemens
+  image: melissa.png
   conf-role: Speaker
