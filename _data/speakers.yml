@@ -41,3 +41,27 @@
   work: 
   image: lars-erik-smevold.png
   conf-role: Speaker
+
+- id: 6
+  name: Erik Hjelmvik
+  from: Sweden
+  role:
+  work: 
+  image: erik-hjelmvik.png
+  conf-role: Workshop
+
+- id: 7
+  name: Jon Rogeberg
+  from: Norway
+  role: Manager
+  work: mnemonic IRT
+  image: jon-rogeberg.png
+  conf-role: Speaker
+
+- id: 8
+  name: Martin Eian
+  from: Norway
+  role: Senior Security Analyst
+  work: mnemonic IRT
+  image: martin-eian.png
+  conf-role: Speaker

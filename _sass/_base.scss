@@ -1922,6 +1922,12 @@ h1, h2, h3, h4 {
     justify-content: flex-start;
     -webkit-justify-content: flex-start;
 
+    flex-direction: row;
+    -webkit-flex-direction: row;
+
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+
     width: 100%;
     position: relative;
 
@@ -1933,8 +1939,9 @@ h1, h2, h3, h4 {
 
   &-item {
     display: block;
-    width: 100%;
+    width: 224px;
     max-width: 224px;
+    margin-bottom: 40px;
 
     &.view-details {
       margin-bottom: 200px;
@@ -1962,27 +1969,29 @@ h1, h2, h3, h4 {
     @include media-query($mobile) {
       width: 50%;
       max-width: 50%;
+      margin-bottom: 0;
     }
 
     @include media-query-min($large) {
+      width: 268px;
       max-width: 268px;
     }
 
     .speaker-block {
       display: block;
-      height: 284px;
-      min-height: 284px;
+      height: 336px;
+      min-height: 336px;
       overflow: hidden;
       position: relative;
 
       @include media-query-min($large) {
-        height: 340px;
-        min-height: 340px;
+        height: 402px;
+        min-height: 402px;
       }
 
       @include media-query($mobile) {
-        height: 281px;
-        min-height: 281px;
+        height: 310px;
+        min-height: 310px;
       }
 
       &:before {
