@@ -3,7 +3,7 @@
   from: Great Britain
   role: Social Engineering Expert
   work:
-  image: jenny-radcliffe.png
+  image: jenny.png
   url:
   co-presenter:
   conf-role: Speaker
@@ -13,7 +13,7 @@
   from: US
   role: Network Defender
   work: Dragos Inc
-  image: joe-slowik.png
+  image: joe.png
   url:
   co-presenter:
   conf-role: Speaker
@@ -23,7 +23,7 @@
   from: US
   role: Software Engineer
   work: Automatak
-  image: adam-crain.png
+  image: adam.png
   conf-role: Speaker
 
 - id: 4
@@ -31,7 +31,7 @@
   from: Denmark
   role: IT Security Consultant
   work: 
-  image: mikael-vingaard.png
+  image: mikael.png
   conf-role: Workshop
 
 - id: 5
@@ -39,7 +39,7 @@
   from: Norway
   role: IT Security Consultant
   work: 
-  image: lars-erik-smevold.png
+  image: lars-erik.png
   conf-role: Speaker
 
 - id: 6
@@ -47,7 +47,7 @@
   from: Sweden
   role:
   work: 
-  image: erik-hjelmvik.png
+  image: erik.png
   conf-role: Workshop
 
 - id: 7
@@ -55,7 +55,7 @@
   from: Norway
   role: Manager
   work: mnemonic IRT
-  image: jon-rogeberg.png
+  image: jon.png
   conf-role: Speaker
 
 - id: 8
@@ -63,5 +63,5 @@
   from: Norway
   role: Senior Security Analyst
   work: mnemonic IRT
-  image: martin-eian.png
+  image: martin.png
   conf-role: Speaker
