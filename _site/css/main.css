@@ -1884,7 +1884,9 @@ h1, h2, h3, h4 {
         .post .post-content p {
           max-width: 100%;
           font-size: 23px; } }
-    .post .post-content h3, .post .post-content h4 {
+    .post .post-content h3 {
+      font-size: 21px;
+      color: #ef7d00;
       margin-bottom: 20px; }
     .post .post-content ul {
       display: block;
@@ -1894,6 +1896,8 @@ h1, h2, h3, h4 {
         margin-left: 20px;
         margin-bottom: 10px;
         color: rgba(255, 255, 255, 0.85); }
+        .post .post-content ul li ul {
+          margin-top: 8px; }
         @media screen and (min-width: 1680px) {
           .post .post-content ul li {
             font-size: 23px; } }
