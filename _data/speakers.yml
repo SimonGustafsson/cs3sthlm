@@ -73,3 +73,13 @@
   work: Siemens
   image: melissa.png
   conf-role: Speaker
+
+- id: 10
+  name: Dieter Sarrazyn
+  from: BE
+  role: Security Expert
+  work: Secudea bvba
+  image: dieter.png
+  conf-role: Speaker
+
+
