@@ -1706,6 +1706,10 @@ h1, h2, h3, h4 {
     -webkit-flex-direction: row;
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap; }
+    @media screen and (max-width: 768px) {
+      .partner--list {
+        padding: 0 20px;
+        box-sizing: border-box; } }
     .partner--list h3 {
       display: block;
       width: 100%;
@@ -1727,9 +1731,17 @@ h1, h2, h3, h4 {
     -webkit-justify-content: center;
     width: 360px;
     min-width: 360px; }
+    @media screen and (max-width: 768px) {
+      .partner--item {
+        width: 100%;
+        min-width: 100%;
+        margin-bottom: 20px; } }
     .partner--item:nth-child(3) {
       margin-right: auto;
       margin-left: 20px; }
+      @media screen and (max-width: 768px) {
+        .partner--item:nth-child(3) {
+          margin-left: auto; } }
     .partner--item a {
       display: block;
       width: 100%;

@@ -2117,6 +2117,11 @@ h1, h2, h3, h4 {
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
 
+    @include media-query($mobile) {
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+
     h3 {
       display: block;
       width: 100%;
@@ -2147,9 +2152,19 @@ h1, h2, h3, h4 {
     width: 360px;
     min-width: 360px;
 
+    @include media-query($mobile) {
+      width: 100%;
+      min-width: 100%;
+      margin-bottom: 20px;
+    }
+
     &:nth-child(3) {
       margin-right: auto;
       margin-left: 20px;
+
+      @include media-query($mobile) {
+        margin-left: auto;
+      }
     }
 
     a {
