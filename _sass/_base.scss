@@ -612,7 +612,7 @@ h1, h2, h3, h4 {
       display: inline-block;
       font-family: 'latoblack', sans-serif;
       font-weight: normal;
-      font-size: 11px;
+      font-size: 12px;
       letter-spacing: 1px;
       text-transform: uppercase;
       margin-right: 10px;
@@ -640,7 +640,7 @@ h1, h2, h3, h4 {
       display: inline-block;
       font-family: 'latoregular', sans-serif;
       font-weight: normal;
-      font-size: 11px;
+      font-size: 12px;
       text-transform: uppercase;
       color: $white;
       letter-spacing: 0.045em;
@@ -764,7 +764,6 @@ h1, h2, h3, h4 {
   }
 }
 .speakers {
-  display: none;
   margin: 130px auto 0;
 }
 
@@ -884,7 +883,11 @@ h1, h2, h3, h4 {
 
     @include media-query-min($large) {
       font-size: 60px;
-    } 
+    }
+
+    &.sub-headline:after {
+      bottom: -20px;
+    }
 
     &:after {
       display: block;
