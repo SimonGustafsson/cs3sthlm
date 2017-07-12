@@ -1038,6 +1038,13 @@ h1, h2, h3, h4 {
       }
     }
 
+    .speaker-row {
+
+      @include media-query($mobile) {
+        display: none;
+      }
+    }
+
     @include media-query($mobile) {
 
       flex-wrap: wrap;
@@ -1950,6 +1957,14 @@ h1, h2, h3, h4 {
     max-width: 224px;
     margin-bottom: 40px;
 
+    &-special {
+      display: none;
+
+      @include media-query($mobile) {
+        display: block;
+      }
+    }
+
     &.view-details {
       margin-bottom: 200px;
 
@@ -2073,6 +2088,16 @@ h1, h2, h3, h4 {
           @include media-query-min($large) {
             font-size: 21px;
           }
+        }
+
+        .special {
+          font-family: 'latoblack', sans-serif;
+          font-size: 8vw;
+          font-weight: 800;
+          line-height: 1.25;
+          text-transform: uppercase;
+          text-decoration: none;
+          color: $white;
         }
       }
 

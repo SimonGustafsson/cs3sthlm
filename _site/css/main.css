@@ -892,6 +892,9 @@ h1, h2, h3, h4 {
         margin-left: 0;
         margin-bottom: 20px; } }
   @media screen and (max-width: 768px) {
+    .sec-head .block-head .speaker-row {
+      display: none; } }
+  @media screen and (max-width: 768px) {
     .sec-head .block-head {
       flex-wrap: wrap;
       -webkit-flex-wrap: wrap; }
@@ -1575,6 +1578,11 @@ h1, h2, h3, h4 {
   width: 224px;
   max-width: 224px;
   margin-bottom: 40px; }
+  .speaker--list-item-special {
+    display: none; }
+    @media screen and (max-width: 768px) {
+      .speaker--list-item-special {
+        display: block; } }
   .speaker--list-item.view-details {
     margin-bottom: 200px; }
     .speaker--list-item.view-details:before {
@@ -1676,6 +1684,14 @@ h1, h2, h3, h4 {
         @media screen and (min-width: 1680px) {
           .speaker--list-item .speaker-block-data h2 {
             font-size: 21px; } }
+      .speaker--list-item .speaker-block-data .special {
+        font-family: 'latoblack', sans-serif;
+        font-size: 8vw;
+        font-weight: 800;
+        line-height: 1.25;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: white; }
     .speaker--list-item .speaker-block img {
       display: block;
       width: 100%;
