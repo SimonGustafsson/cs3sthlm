@@ -22,11 +22,15 @@ title: Home
     </div>
   </div>
 
-  {% for post in site.posts limit:1 %}
   <div class="feed-news">
-    <a href="{{ site.baseurl }}{{ post.url }}"><span class="feed-category category-{{ post.categories | join: ' ' }}">{{ post.categories }}</span><p>{{ post.title }}</p><span class="read-more-icon"></span></a>
+    <ul>
+      {% for post in site.posts limit:5 %}
+      <li>
+        <a href="{{ site.baseurl }}{{ post.url }}"><span class="feed-category category-{{ post.categories | join: ' ' }}">{{ post.categories }}</span><p>{{ post.title }}</p><span class="read-more-icon"></span></a>
+      </li>
+      {% endfor %}
+    </ul>
   </div>
-  {% endfor %}
 
 </section>
 

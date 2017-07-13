@@ -27,4 +27,8 @@ $(document).ready( function(){
         paginationClickable: true,
         paginationType: "fraction",
     });
-    }
+};
+
+$(function() {
+    $('.feed-news').vTicker();
+});
