@@ -50,5 +50,15 @@ layout: default
   </div>
   {% endif %}
 
+  <div class="news-pagination">
+    {% if page.previous.url %}
+      <span class="previous-post"><a href="{{ site.baseurl }}{{ page.previous.url }}">{{ page.previous.title }}</a></span>
+    {% endif %}
+
+    {% if page.next.url %}
+      <span class="next-post"><a href="{{ site.baseurl }}{{ page.next.url }}">{{ page.next.title }}</a></span>
+    {% endif %}
+  </div>
+
 </article>
 </section>

@@ -1873,6 +1873,7 @@ h1, h2, h3, h4 {
 .post {
   display: block;
   width: 70%;
+  max-width: 650px;
   margin: 0; }
   @media screen and (max-width: 768px) {
     .post {
@@ -2120,6 +2121,57 @@ h1, h2, h3, h4 {
         -o-transition: 0.24s all ease-in-out; }
         .post-download-drop .inside-download-drop li a:hover {
           color: #ef7d00; }
+
+/** 
+  NEWS - PAGINATION */
+.news-pagination {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: flex-start;
+  -webkit-align-items: flex-start;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  margin-top: 40px;
+  padding-top: 40px;
+  box-sizing: border-box; }
+  .news-pagination .previous-post, .news-pagination .next-post {
+    font-family: 'latoregular', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase; }
+    .news-pagination .previous-post a, .news-pagination .next-post a {
+      color: rgba(255, 255, 255, 0.8);
+      text-decoration: none;
+      transition: 0.24s all ease-in-out;
+      -moz-transition: 0.24s all ease-in-out;
+      -webkit-transtiion: 0.24s all ease-in-out;
+      -o-transition: 0.24s all ease-in-out; }
+      .news-pagination .previous-post a:hover, .news-pagination .next-post a:hover {
+        color: #ef7d00; }
+    .news-pagination .previous-post:before, .news-pagination .next-post:before {
+      display: block;
+      width: 100%;
+      font-size: 11px;
+      font-weight: normal;
+      font-family: 'latoblack', sans-serif;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: white;
+      margin-bottom: 5px; }
+  .news-pagination .previous-post:before {
+    content: 'Previous Post'; }
+  .news-pagination .next-post:before {
+    content: 'Next Post';
+    text-align: right; }
+  .news-pagination .next-post {
+    text-align: right; }
 
 /**
   NEWS - MAIN */
