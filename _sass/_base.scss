@@ -1950,7 +1950,126 @@ h1, h2, h3, h4 {
       font-size: 18px;
     }
   }
+}
 
+/**
+  WORKSHOP - BLOCK GROUP */
+
+.workshop--block-group {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  align-items: flex-start;
+  -webkit-align-items: flex-start;
+
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+
+  flex-direction: row;
+  -webkit-flex-direction: row;
+
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  width: 100%;
+
+  @include media-query($mobile) {
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  .subpar-headline {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: 'latoregular', sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .workshop--block-item {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+  
+    flex-direction: row;
+    -webkit-flex-direction: row;
+
+    background: $blue-dark;
+    box-sizing: border-box;
+    width: 550px;
+    border-radius: 2px;
+    text-decoration: none;
+
+    @include transition-ease;
+
+    &:hover {
+      background: rgba($blue-dark, .8);
+    }
+
+    @include media-query($mobile) {
+      margin-bottom: 20px;
+      width: 100%;
+    }
+
+    img {
+      display: block;
+      width: 170px;
+      max-width: 170px;
+      border-radius: 2px 0 0 2px;
+      box-sizing: border-box;
+
+      @include media-query($mobile) {
+        display: none;
+      }
+    }
+
+    .workshop--block-content {
+      display: block;
+      padding: 20px;
+      box-sizing: border-box;
+
+      p {
+        color: rgba($white, .8);
+      }
+    }
+
+    .workshop--block-title {
+      display: block;
+      width: 100%;
+      font-family: 'latoblack', sans-serif;
+      font-size: 18px;
+      font-weight: normal;
+      color: $white;
+    }
+
+    .workshop--meta {
+      display: block;
+      margin-top: 5px;
+      font-family: 'latoblack', sans-serif;
+      font-size: 12px;
+      font-weight: normal;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: rgba($white, .8);
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+      border-bottom: 1px solid rgba($white, .1);
+
+      &-time {
+        margin-right: 10px;
+      }
+    }
+  }
 }
 
 /**

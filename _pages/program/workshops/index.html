@@ -8,7 +8,10 @@ permalink: "/program/workshops/"
 
   <div class="sec-head">
     <h4>Workshops & Trainings</h4>
-    <h2>World Class Content</h2>
+    <div class="block-head">
+      <h2>World Class Content</h2>
+      <a href="{{ site.baseurl }}/program/speakers/" target="_blank" class="btn btn-primary">View Speakers</a>
+    </div>
 
     <div class="col-6-6">
         <div class="col-3-6 col-ml-1">
@@ -31,21 +34,23 @@ permalink: "/program/workshops/"
 
 <section class="content">
 
-<div class="workshop--list-group">
+  <div class="workshop--block-group">
     <h3 class="subpar-headline">2017 CS3STHLM - <span class="highlight">All Workshops & Trainings</span></h3>
     {% for page in site.pages %}
     {% if page.id ==  'workshop' %}
-    <div class="workshop--list-item workshop--list-item-extended">
-        <a href="{{ page.url | prepend: site.baseurl }}" class="workshop--list-link">
+    <a href="{{ page.url | prepend: site.baseurl }}" class="workshop--block-item">
+      <img src="{{ site.baseurl }}/assets/speakers/{{ page.image }}">
+      <div class="workshop--block-content">
+        <h2 class="workshop--block-title">{{ page.title }}</h2>
         <div class="workshop--meta">
-            <span class="workshop--meta-time">{{ page.time }}</span>
-            <span class="workshop--meta-author">{{ page.author }}</span>
+          <span class="workshop--meta-time">{{ page.time }}</span>
+          <span class="workshop--meta-author">{{ page.author }}</span>
         </div>
-        <h2 class="workshop--list-title">{{ page.title }}</h2>
-        </a>
-    </div>
-   	{% endif %}
+        <p>{{ page.content | strip_html | truncatewords: 38 }}</p>
+      </div>
+    </a>
+    {% endif %}
     {% endfor %}
-</div>
+  </div>
 
 </section>

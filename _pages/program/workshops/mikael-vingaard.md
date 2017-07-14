@@ -5,6 +5,7 @@ author: Mikael Vingaard
 time: 1 Day
 id: workshop
 permalink: "/program/workshops/mikael-vingaard/"
+image: mikael.png
 ---
 
 This 1-day workshop would start with a short general introduction to ICS/SCADA & Honeypots.
