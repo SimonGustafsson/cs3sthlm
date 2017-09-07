@@ -167,7 +167,7 @@
   conf-role: Speaker
   bio: Patrick DeSantis is a security researcher with Cisco Talos and focuses his efforts on discovery and exploitation of vulnerabilities in technologies that have an impact on the physical world, such as Industrial Control Systems (ICS), Supervisory Control and Data Acquisition (SCADA), Internet of Things (IoT), and anything else that looks like it's asking to be hacked. Patrick's background includes work in both the public and private sectors, as well as a pile of information security certifications and a few college degrees.
   presentation: "From Box to Backdoor: Using Old School Tools and Techniques to Discover Backdoors in Modern Devices"
-  permalink:
+  permalink: program/presentations/patrick-desantis/
 
 - id: 15
   name: Anton Cherepanov
