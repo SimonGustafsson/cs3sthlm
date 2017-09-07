@@ -16,7 +16,7 @@ permalink: "/partners/"
 	<p>This will be our 4th summit and we are on the lookout for partners who wants to take an active part in the event.</p>
 
 	<p>Examples of partnership opportunities:
-	<ul>
+	<ul class="block-list-disc">
 		<li>Tutorial/workshop on company products</li>
 		<li>Hosting of welcome reception, lunch or gala dinner</li>
 		<li>Private rooms for meetings/showcases</li>
@@ -42,6 +42,19 @@ permalink: "/partners/"
 		<h3>Organizing Partners</h3>
 		{% for partner in site.data.partners %}
 		{% if partner.level == "organizer" %}
+			<div class="partner--item">
+				<a href="{{ partner.url }}" target="_blank">
+					<img src="{{ site.baseurl }}/assets/partners/{{ partner.logo }}" alt="{{ partner.company }}">
+				</a>
+			</div>
+		{% endif %}
+		{% endfor %}
+		</div>
+
+		<div class="partner--list">
+		<h3>Educational Partners</h3>
+		{% for partner in site.data.partners %}
+		{% if partner.level == "educational-partner" %}
 			<div class="partner--item">
 				<a href="{{ partner.url }}" target="_blank">
 					<img src="{{ site.baseurl }}/assets/partners/{{ partner.logo }}" alt="{{ partner.company }}">

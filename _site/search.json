@@ -1,0 +1,269 @@
+[
+  
+    {
+      "title"    : "CS3STHLM Newsletter June 13th",
+      "url"      : "/news/2017/06/13/cs3sthlm-newsletter-june.html",
+      "date"     : "2017-06-13 06:00:00 +0200",
+      "path"     : "/news/2017/06/13/cs3sthlm-newsletter-june.html"
+    } ,
+  
+    {
+      "title"    : "Malware that can knock out power grids discovered",
+      "url"      : "/press/2017/06/13/malware-that-can-knock-out-power.html",
+      "date"     : "2017-06-13 06:00:00 +0200",
+      "path"     : "/press/2017/06/13/malware-that-can-knock-out-power.html"
+    } ,
+  
+    {
+      "title"    : "CFP - DON&#39;T MISS OUR DEADLINE",
+      "url"      : "/news/2017/05/08/cfp-dont-miss-our-deadline.html",
+      "date"     : "2017-05-08 06:00:00 +0200",
+      "path"     : "/news/2017/05/08/cfp-dont-miss-our-deadline.html"
+    } ,
+  
+    {
+      "title"    : "Cyber Security Summit 4SICS Relaunches as CS3STHLM",
+      "url"      : "/press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html",
+      "date"     : "2017-04-21 06:00:00 +0200",
+      "path"     : "/press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html"
+    } 
+  
+  ,
+  
+   {
+     
+        "title"    : "404",
+        "url"      : "/404.html",
+        "path"     : "/404.html"
+     
+   } ,
+  
+   {
+     
+        "title"    : "S in IOT is for Security",
+        "url"      : "/program/presentations/akriti-srivastava/",
+        "path"     : "/program/presentations/akriti-srivastava/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Configurable Code-Reuse Attacks Mitigation for COTS Programmable Logic Controller Binaries",
+        "url"      : "/program/presentations/ali-abbasi/",
+        "path"     : "/program/presentations/ali-abbasi/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Industroyer: biggest threat to industrial control systems since Stuxnet",
+        "url"      : "/program/presentations/anton-cherepanov-and-robert-lipovsky/",
+        "path"     : "/program/presentations/anton-cherepanov-and-robert-lipovsky/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "DIY insider threat detection/prevention within ICS enviroments",
+        "url"      : "/program/presentations/dieter-sarrazyn/",
+        "path"     : "/program/presentations/dieter-sarrazyn/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Network Forensics Training",
+        "url"      : "/program/workshops/erik-hjelmvik/",
+        "path"     : "/program/workshops/erik-hjelmvik/"
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+        "title"    : "Advisory",
+        "url"      : "/about/advisory/",
+        "path"     : "/about/advisory/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Practical Details",
+        "url"      : "/practical-details/",
+        "path"     : "/practical-details/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Press",
+        "url"      : "/press/",
+        "path"     : "/press/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "News",
+        "url"      : "/news/",
+        "path"     : "/news/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Partners",
+        "url"      : "/partners/",
+        "path"     : "/partners/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Contact",
+        "url"      : "/contact/",
+        "path"     : "/contact/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Call for Proposals",
+        "url"      : "/call-for-proposals/",
+        "path"     : "/call-for-proposals/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Presentations",
+        "url"      : "/program/presentations/",
+        "path"     : "/program/presentations/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Program",
+        "url"      : "/program/",
+        "path"     : "/program/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Home",
+        "url"      : "/",
+        "path"     : ""
+     
+   } ,
+  
+   {
+     
+        "title"    : "Agenda",
+        "url"      : "/agenda/",
+        "path"     : "/agenda/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "About",
+        "url"      : "/about/",
+        "path"     : "/about/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Speakers",
+        "url"      : "/program/speakers/",
+        "path"     : "/program/speakers/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "History",
+        "url"      : "/about/history/",
+        "path"     : "/about/history/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Workshops",
+        "url"      : "/program/workshops/",
+        "path"     : "/program/workshops/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Strategic Network Defense in ICS Environments",
+        "url"      : "/program/presentations/joe-slowik/",
+        "path"     : "/program/presentations/joe-slowik/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "APT Case Study",
+        "url"      : "/program/presentations/jon-røgeberg-and-martin-eian/",
+        "path"     : "/program/presentations/jon-røgeberg-and-martin-eian/"
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+        "title"    : "ICS Program Development for Multi-national Corporations",
+        "url"      : "/program/presentations/melissa-crawford/",
+        "path"     : "/program/presentations/melissa-crawford/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Practical SCADA/ICS Honeypots",
+        "url"      : "/program/workshops/mikael-vingaard/",
+        "path"     : "/program/workshops/mikael-vingaard/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "From Box to Backdoor: Using Old School Tools and Techniques to Discover Backdoors in Modern Devices",
+        "url"      : "/program/presentations/patrick-desantis/",
+        "path"     : "/program/presentations/patrick-desantis/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Search",
+        "url"      : "/search/",
+        "path"     : "/search/"
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+   } 
+  
+]

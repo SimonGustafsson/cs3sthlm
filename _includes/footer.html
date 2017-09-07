@@ -12,6 +12,7 @@
     	<li>Speakers & Workshops</li>
     	<li><a href="{{ site.baseurl }}/program/speakers">View Speakers</a></li>
         <li><a href="{{ site.baseurl }}/program/workshops">View Workshops</a></li>
+        <li><a href="{{ site.baseurl }}/program/presentations">View Presentations</a></li>
     </ul>
 
     <ul>
@@ -47,5 +48,10 @@
 
 <script src="{{ site.baseurl }}/js/jquery-2.1.1.js"></script>
 <script src="{{ site.baseurl }}/js/swiper.min.js"></script>
+{% if page.id == "home" %}
 <script src="{{ site.baseurl }}/js/ticker.js"></script>
+{% endif %}
+{% if page.id == "search" %}
+<script src="{{ site.baseurl }}/js/search.js"></script>
+{% endif %}
 <script src="{{ site.baseurl }}/js/main.js"></script>

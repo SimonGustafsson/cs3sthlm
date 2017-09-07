@@ -1,0 +1,213 @@
+
+#day-one
+#main
+- id: 25
+  time: 08.00 - 09.00
+  text: Registration
+  speaker:
+
+- id: 25
+  time: "09.00"
+  text: Pre-summit Workshops/Tutorials
+  speaker-list:
+    - <li>ICS Active Defence - Robert M. Lee</li>
+    - <li>Shodan Hacking - John Matherly</li>
+    - <li>Introduction to the IEC 62443 Standard - Arjan Meijer</li>
+
+- id: 25
+  time: "17.00"
+  text: End of pre-summit Workshops/Tutorials
+
+- id: 25
+  time: "18.00"
+  text: Registration and Networking Reception Bar
+
+- id: 25
+  time: 
+  text: Evening Presentations by 4SICS Premium Partners
+
+- id: 25
+  time: "19.15"
+  text: KIPS (Kaspersky Interactive Protection Simulation)
+
+- id: 25
+  time: "22.00"
+  text: End of Networking Reception
+
+#forum
+
+
+
+#day-two
+#main
+
+#forum
+
+
+#day-three
+#main
+
+- id: d3-main
+  time: 08.00 - 09.00
+  role:
+  headline: Doors Open Registration
+  speaker:
+
+- id: d3-main
+  time: "09.00"
+  role:
+  headline: Opening of CS3STHLM Summit 2017
+  speaker:
+
+- id: d3-main
+  time:
+  role: Keynote
+  headline: DIY insider threat detection/prevention within ICS enviroments
+  speaker: Dieter Sarrazyn
+  permalink: dieter-sarrazyn
+
+- id: d3-main
+  time:
+  role:
+  headline: Coffee Break
+  speaker:
+
+- id: d3-main
+  time:
+  role:
+  headline: ICS Program Development for Multi-national Corporations
+  speaker: Melissa Crawford
+  permalink: melissa-crawford
+
+- id: d3-main
+  time:
+  role:
+  headline: APT Case Study
+  speaker: Jon Røgeberg & Martin Eian
+  permalink: jon-røgeberg-and-martin-eian
+
+- id: d3-main
+  time:
+  role:
+  headline: Lunch Break
+  speaker:
+
+- id: d3-main
+  time:
+  role:
+  headline: Strategic Network Defence in ICS Enviornments
+  speaker: Joe Slowik
+  permalink: joe-slowik
+
+- id: d3-main
+  time:
+  role:
+  headline: Embodied Vulnerabilities - How to find, fix, and think about them
+  speaker: Marie Moe & Eireann Leverett
+
+- id: d3-main
+  time:
+  role:
+  headline: Coffee Break
+  speaker:
+
+- id: d3-main
+  time:
+  role:
+  headline: Rise of the Machine
+  speaker: John Matherly
+
+- id: d3-main
+  time:
+  role:
+  headline: Lightweight Protocol! Serious Equipment! Critical Implications!
+  speaker: Lucas Lundgren
+  permalink:
+
+- id: d3-main
+  time:
+  role:
+  headline: End of day one sessions - Break
+  speaker:
+
+- id: d3-main
+  time: "18.30"
+  role:
+  headline: Dinner
+  speaker:
+
+- id: d3-main
+  time:
+  role: Dinner Speaker
+  headline: Voyage to Space
+  speaker: Christer Fuglesang
+
+- id: d3-main
+  time:
+  role:
+  headline: End of Evening Session
+  speaker:
+
+#forum
+
+- id: d3-forum
+  time:
+  role:
+  headline: Lunch Break
+  speaker:
+
+- id: d3-forum
+  time:
+  role:
+  headline: Cybersecurity in Europe - the NIS Directive and the role of Operators of Essential Services
+  speaker: Rosella Mattioli & Paraskevi Kasse
+
+- id: d3-forum
+  time:
+  role:
+  headline: Too Many Cooks Spoil the Broth?
+  speaker: Isabel Skierka & Jan-PEter Kleinhans
+
+
+- id: d3-forum
+  time:
+  role: Panel Discussion
+  headline: Panel about regulations, NIS-directive etc
+  speaker:
+
+- id: d3-forum
+  time:
+  role:
+  headline: Coffee Break
+  speaker:
+
+- id: d3-forum
+  time:
+  role:
+  headline: ENISA Open Session
+  speaker:
+
+- id: d3-forum
+  time: "15.30"
+  role:
+  headline: Overview ENISA studies and effort in ICS SCADA
+  speaker:
+
+- id: d3-forum
+  time: "16.00"
+  role:
+  headline: Overview ENISA studies and effort in smart infrastructure and IoT
+  speaker:
+
+- id: d3-forum
+  time: "16.45"
+  role:
+  headline: "Open Panel: IoT and ICS SCADA, industry 4.0 and industrial IoT and smart industry, what are the scenarios?"
+  speaker:
+
+
+
+#day-four
+#main
+
+#forum

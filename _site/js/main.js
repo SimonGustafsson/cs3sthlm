@@ -4,9 +4,23 @@ $('.menu-item').on('click', function(){
     $('.menu--item').html($('.menu--item').html() == 'close' ? 'menu' : 'close');
 });
 
-//$(".speaker--list-item").on('click', function(){
-//    $(this).toggleClass('view-details').siblings().removeClass('view-details');
-// })
+$('.search-btn').on('click', function(){
+    $('#search-container').toggleClass('search-open');
+});
+
+$('.search-btn-close').on('click', function(){
+    $('#search-container').toggleClass('search-open');
+});
+
+$(".speaker-block").on('click', function(){
+    $(this).parent().toggleClass('view-details').siblings().removeClass('view-details');
+    $('body').toggleClass('overlay-active');
+});
+
+$(".modal-close").on('click', function(){
+    $(this).parent().parent().toggleClass('view-details').siblings().removeClass('view-details');
+    $('body').toggleClass('overlay-active');
+});
 
 $(document).ready( function(){
 
@@ -31,4 +45,15 @@ $(document).ready( function(){
 
 $(function() {
     $('.feed-news').vTicker();
+});
+
+SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+    searchResultTemplate: '<li><span>{path}</span><a href="{url}">{title}</a></li>',
+    noResultsText: '<li><a href="#!">No results found.</a></li>',
+    limit: 20,
+    fuzzy: false,
+    exclude: ['Welcome']
 });

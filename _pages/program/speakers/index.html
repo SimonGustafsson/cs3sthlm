@@ -7,10 +7,16 @@ permalink: "/program/speakers/"
 <section class="content">
 
   <div class="sec-head">
-    <h4>Speakers & Trainers</h4>
+  	<div class="block-head">
+  		<h4>Speakers & Trainers</h4>
+  		{% include breadcrumbs.html %}
+  	</div>
     <div class="block-head">
     	<h2>World Class Content</h2>
-    	<a href="{{ site.baseurl }}/program/workshops/" class="btn btn-primary">View Workshops</a>
+    	<div class="btn-group">
+    		<a href="{{ site.baseurl }}/program/presentations/" class="btn btn-primary"><span>View</span> Presentations</a>
+    		<a href="{{ site.baseurl }}/program/workshops/" class="btn btn-primary"><span>View</span> Workshops</a>
+    	</div>
     </div>
 
     <div class="col-6-6">
@@ -31,12 +37,45 @@ permalink: "/program/speakers/"
 			<div class="speaker-block">
 				<img src="{{ site.baseurl }}/assets/speakers/{{ speaker.image }}">
 				<div class="speaker-block-data">
-					<h4>{{ speaker.conf-role }}<span>{{ speaker.from }}</span></h4>
+					<h4>{{ speaker.conf-role }}<span>{{ speaker.from-short }}</span></h4>
 					<h2>{{ speaker.name }}</h2>
-					<!--<h3>{{ speaker.role }}</h3>-->
 				</div>
 			</div>
-			<div class="speaker-block-details"></div>
+			<div class="speaker-block-details">
+				<div class="speaker-block--header">
+					<h4>{{ speaker.conf-role }}</h4>
+					<h2>{{ speaker.name }}</h2>
+					<h3>{{ speaker.role }}</h3>
+				</div>
+				<div class="speaker-block--content">
+					<div class="col-1-6">
+						<ul>
+							<li>{{ speaker.work }}</li>
+							<li>{{ speaker.from-long }}</li>
+						</ul>
+					</div>
+
+					<div class="col-3-6">
+						<p>{{ speaker.bio }}</p>
+					</div>
+
+					{% if speaker.presentation != null %}
+					<div class="col-2-6">
+						<h4 class="headline">Presentation</h4>
+						<a href="{{ site.baseurl }}/{{ speaker.permalink }}">{{ speaker.presentation }}</a>
+					</div>
+					{% endif %}
+
+					{% if speaker.workshop != null %}
+					<div class="col-2-6">
+						<h4 class="headline">Workshop</h4>
+						<a href="{{ site.baseurl }}/{{ speaker.permalink }}">{{ speaker.workshop }}</a>
+					</div>
+					{% endif %}
+				</div>
+
+				<a href="#!" class="modal-close">Close<span></span></a>
+			</div>
 		</div>
 		{% endfor %}
 	</div>

@@ -4,6 +4,7 @@ title:  "Cyber Security Summit 4SICS Relaunches as CS3STHLM"
 date:   2017-04-21 06:00:00 +0200
 categories: press
 pdf: press-01-21-04-2017.pdf
+author: Maria Engstrom Ostby
 ---
 
 Due to a conflict of interest regarding the name SICS between the summit 4SICS and Swedish Institute of Computer Science, Omnisiens announces the fourth summit to be arranged under the new name CS3 STHLM. Three CS stand for Cyber Security, Control Systems and Critical Structures, and STHLM is an official acronym for Stockholm. CS3 STHLM takes place in Stockholm this October 24-26.

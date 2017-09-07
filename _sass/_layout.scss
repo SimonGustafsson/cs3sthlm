@@ -1,0 +1,292 @@
+/**
+	AGENDA LIST */
+
+.agenda--block {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	align-items: flex-start;
+	-webkit-align-items: flex-start;
+
+	justify-content: flex-start;
+	-webkit-justify-content: flex-start;
+
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+
+.agenda--header {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	align-items: flex-start;
+	-webkit-align-items: flex-start;
+
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	width: 100%;
+
+	@include media-query($mobile) {
+		position: relative;
+		height: 80px;
+	}
+
+	&-item {
+		display: block;
+		width: 25%;
+		padding: 12px 20px;
+		box-sizing: border-box;
+		background: $blue-darken;
+
+		&:first-of-type {
+			border-radius: 2px 0 0 2px;
+		}
+		&:last-of-type {
+			border-radius: 0 2px 2px 0;
+		}
+
+		@include media-query($mobile) {
+			width: 25%;
+			text-align: center;
+
+			&:first-of-type, &:last-of-type {
+				border-radius: 0;
+			}
+		}
+
+		&.active-item {
+			background: $yellow;
+
+			h3 {
+				display: block;
+				color: $blue-darken;
+
+				@include media-query($mobile) {
+					color: $gray;
+
+					.day-name {
+						display: inline-block;
+					}
+				}
+			}
+		}
+
+		span, h3 {
+			font-family: 'latoblack', sans-serif;
+			font-weight: normal;
+			text-transform: uppercase;
+		}
+
+		span {
+			display: block;
+			font-size: 10px;
+			letter-spacing: 2px;
+			color: rgba($white, .8);
+		}
+
+		h3 {
+			font-size: 18px;
+			letter-spacing: 1px;
+			line-height: 1.4;
+			color: $gray;
+
+			.day-name {
+				display: none;
+				font-size: 12px;
+				letter-spacing: 2px;
+				line-height: 1;
+				color: $gray;
+				margin-right: 3px;
+			}
+
+			@include media-query($mobile) {
+				display: none;
+
+				position: absolute;
+				left: 0;
+				top: 39px;
+				width: 100%;
+				background: $blue-dark;
+				padding: 14px 20px;
+				box-sizing: border-box;
+				font-size: 12px;
+				letter-spacing: 2px;
+				line-height: 1;
+				text-align: left;
+			}
+		}
+	}
+}
+
+.agenda--content {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	align-items: flex-start;
+	-webkit-align-items: flex-start;
+
+	justify-content: flex-start;
+	-webkit-justify-content: flex-start;
+
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+
+	
+	&-main, &-forum {
+		display: block;
+		padding-top: 20px;
+		box-sizing: border-box;
+	}
+
+	&-forum {
+		margin-left: 20px;
+
+		@include media-query($mobile) {
+			display: none;
+		}
+	}
+}
+
+.agenda--btn-group {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	align-items: flex-start;
+	-webkit-align-items: flex-start;
+
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+
+	width: 100%;
+	margin-top: 20px;
+
+	.btn-agenda {
+		width: 170px;
+		color: $blue-darken;
+		border-radius: 2px;
+		margin: 0 20px 0 0;
+		font-size: 12px;
+
+		&:nth-child(2) {
+			margin: auto;
+		}
+
+		@include media-query($mobile) {
+			margin-left: 20px;
+			font-size: 10px;
+
+			&-active {
+				opacity: 1;
+			}
+			&-inactive {
+				opacity: .5;
+			}
+		}
+	}
+}
+
+.agenda--list {
+
+	display: block;
+	width: 550px;
+	list-style: none;
+
+	@include media-query($mobile) {
+		width: 100%;
+	}
+
+	li {
+		display: block;
+		padding: 20px 0;
+		box-sizing: border-box;
+		border-bottom: 1px solid $blue-darken;
+
+		@include media-query($mobile) {
+			padding: 20px;
+		}
+
+
+		&.list-link {
+			padding: 0;
+		}
+
+		a {
+			display: block;
+			padding: 20px 0;
+			box-sizing: border-box;
+			text-decoration: none;
+			position: relative;
+
+			&:hover {
+				background: $blue-darken;
+
+				&:before {
+					display: block;
+				}
+			}
+
+			&:before {
+				display: none;
+				content: '';
+				background: $blue-darken;
+				width: 20px;
+				height: calc(100% + 2px);
+				position: absolute;
+				top: -1px;
+				left: -20px;
+			}
+
+			@include media-query($mobile) {
+				padding: 20px;
+			}
+		}
+
+		span {
+			display: block;
+		}
+	}
+
+	&-time, &-role, &-speaker {
+		font-family: 'latoregular', sans-serif;
+		font-size: 16px;
+		font-weight: normal;
+		letter-spacing: 1px;
+	}
+
+	&-headline {
+		font-family: 'latoblack', sans-serif;
+		font-size: 16px;
+		font-weight: normal;
+		letter-spacing: 1px;
+		color: $white;
+
+		&.headline-break {
+			color: $blue;
+		}
+	}
+
+	&-role {
+		color: $yellow;
+	}
+
+	&-speaker {
+		color: $gray;
+	}
+
+	&-time {
+
+	}
+
+}

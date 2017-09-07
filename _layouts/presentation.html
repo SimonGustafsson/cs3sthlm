@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<section class="content">
+
+<div class="sec-head sec-head-single-post">
+    <div class="block-head">
+      <h4>Presentations</h4>
+      {% include breadcrumbs.html %}
+    </div>
+</div>
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <aside class="sidebar box-right">
+    <h4>All Presentations</h4>
+
+    <ul>
+    {% assign sorted_presentations = site.pages | sort: 'author' %}
+    {% for page in sorted_presentations %}
+    {% if page.id ==  'presentation' %}
+      <li><a href="{{ page.url | prepend: site.baseurl }}">
+          <span class="p-title">{{ page.title }}</span>
+          <span class="p-author">{{ page.author }}</span>
+      </a></li>
+    {% endif %}
+    {% endfor %}
+    </ul>
+    
+  </aside>
+
+  <aside class="sidebar box-left">
+    <ul>
+      <li><h4>Author</h4><span class="post-author">{{ page.author }}</span></li>
+      {% for item in page.profile %}
+      <li><img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}"></li>
+      {% endfor %}
+    </ul>
+  </aside>
+
+  <div class="post-content" itemprop="articleBody">
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+    </header>
+
+    {{ content }}
+  </div>
+
+</article>
+</section>

@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Home
+id: home
 ---
 
 <section class="introduction content">
@@ -127,7 +128,9 @@ title: Home
     <h4>Speakers & Trainers</h4>
     <div class="block-head">
       <h2 class="sub-headline">World Class</h2>
-      <a href="{{ site.baseurl }}/program/speakers/" class="btn btn-primary speaker-row">View Speakers</a>
+      <div class="btn-group">
+        <a href="{{ site.baseurl }}/program/speakers/" class="btn btn-primary speaker-row">View Speakers</a>
+      </div>
     </div>
   </div>
 
@@ -138,12 +141,37 @@ title: Home
       <div class="speaker-block">
         <img src="{{ site.baseurl }}/assets/speakers/{{ speaker.image }}">
         <div class="speaker-block-data">
-          <h4>{{ speaker.conf-role }}<span>{{ speaker.from }}</span></h4>
+          <h4>{{ speaker.conf-role }}<span>{{ speaker.from-short }}</span></h4>
           <h2>{{ speaker.name }}</h2>
-          <!--<h3>{{ speaker.role }}</h3>-->
         </div>
       </div>
-      <div class="speaker-block-details"></div>
+      <div class="speaker-block-details">
+        <div class="speaker-block--header">
+          <h4>{{ speaker.conf-role }}</h4>
+          <h2>{{ speaker.name }}</h2>
+          <h3>{{ speaker.role }}</h3>
+        </div>
+        <div class="speaker-block--content">
+          <div class="col-1-6">
+            <ul>
+              <li>{{ speaker.work }}</li>
+              <li>{{ speaker.from-long }}</li>
+            </ul>
+          </div>
+
+          <div class="col-3-6">
+            <p>{{ speaker.bio }}</p>
+          </div>
+
+          <div class="col-2-6">
+            {% if speaker.presentation != null %}<h4 class="headline">Presentation</h4>
+            <a href="{{ site.baseurl }}/{{ speaker.permalink }}">{{ speaker.presentation }}</a>{% endif %}
+            {% if speaker.workshop != null %}<h4 class="headline">Workshop</h4>
+            <a href="{{ site.baseurl }}/{{ speaker.permalink }}">{{ speaker.workshop }}</a>{% endif %}
+          </div>
+        </div>
+        <a href="#!" class="modal-close">Close<span></span></a>
+      </div>
     </div>
     {% endfor %}
     <div class="speaker--list-item speaker--list-item-special">

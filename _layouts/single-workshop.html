@@ -4,20 +4,45 @@ layout: default
 <section class="content">
 
 <div class="sec-head sec-head-single-post">
-    <h4>Workshop</h4>
+    <div class="block-head">
+      <h4>Workshop</h4>
+      {% include breadcrumbs.html %}
+    </div>
 </div>
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-  	<div class="post-meta">
-      <span class="post-time">{{ page.time }}</span>
-      <span class="post-author">{{ page.author }}</span>
-    </div>
-    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-  </header>
+  <aside class="sidebar box-right">
+    <h4>All Workshops & Training</h4>
+
+    <ul>
+    {% assign sorted_workshops = site.pages | sort: 'url' %}
+    {% for page in sorted_workshops %}
+    {% if page.id ==  'workshop' %}
+      <li><a href="{{ page.url | prepend: site.baseurl }}">
+          <span class="p-title">{{ page.title }}</span>
+          <span class="p-time">{{ page.time }}</span>
+          <span class="p-author">{{ page.author }}</span>
+      </a></li>
+    {% endif %}
+    {% endfor %}
+    </ul>
+    
+  </aside>
+
+  <aside class="sidebar box-left">
+    <ul>
+      <li><h4>Duration</h4><span class="post-time">{{ page.time }}</span></li>
+      <li><h4>Taught By</h4><span class="post-author">{{ page.author }}</span></li>
+      <li><img src="{{ site.baseurl }}/assets/speakers/{{ page.image }}"></li>
+    </ul>
+  </aside>
 
   <div class="post-content" itemprop="articleBody">
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+    </header>
+
     {{ content }}
   </div>
 

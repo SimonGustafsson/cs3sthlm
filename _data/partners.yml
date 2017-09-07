@@ -7,7 +7,37 @@
 
 - id: 2
   level: organizer
+  company: ROMAB
+  logo: romab.png
+  url: https://romab.com
+  bio: We are a small consulting firm. This means that we have to work a little harder to be seen in the competition. Our vision is that the world needs a better, safer and more qualitative IT system. Through our passion for technology and IT we make every effort extra to reach, if ever so slightly closer, the vision.
+
+- id: 3
+  level: organizer
+  company: sysctl
+  logo: sysctl.png
+  url: https://sysctl.se
+  bio: sysctl is a research and development company in Stockholm, Sweden developing security and cybersecurity products.
+
+- id: 4
+  level: organizer
   company: FIRST
   logo: first.svg
   url: https://first.org
   bio: FIRST is the premier organization and recognized global leader in incident response. Membership in FIRST enables incident response teams to more effectively respond to security incidents reactive as well as proactive.
+
+- id: 5
+  level: organizer
+  company: Management Doctors
+  logo: md.png
+  url: http://managementdoctors.se
+  bio: Management Doctors is an independent Swedish consulting firm that works primarily with critical information and control systems.
+
+- id: 6
+  level: educational-partner
+  company: Hudson Cybertec
+  logo: hudson-cybertec.png
+  url: http://hudsoncybertec.com
+  bio: Hudson Cybertec is a cyber security solution provider, globally involved with cyber security projects for industrial automation and control systems. The company has full focus on cyber security in the Industrial Automation & Control Systems (IACS) domain. They are intimately involved with the development of the IEC 62443 standard and is globally recognized as Subject Matter Expert (SME).
+
+

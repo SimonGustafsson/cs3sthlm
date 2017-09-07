@@ -26,7 +26,7 @@ permalink: "/news/"
                 </header>
 
                 <section class="featured-post-content">
-                    <h2>{{ post.title }}</h2>
+                    <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
 
                     <p>{{ post.content | strip_html | truncatewords: 35 }}</p>
                 </section>
@@ -49,7 +49,7 @@ permalink: "/news/"
                 </header>
 
                 <section class="featured-post-content">
-                    <h2>{{ post.title }}</h2>
+                    <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
 
                     <p>{{ post.content | strip_html | truncatewords: 35 }}</p>
                 </section>

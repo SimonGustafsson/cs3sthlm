@@ -1,85 +1,219 @@
 - id: 1
   name: Jenny Radcliffe
-  from: GB
+  from-short: GB
+  from-long: Great Britain
   role: Social Engineering Expert
   work:
   image: jenny.png
   url:
   co-presenter:
   conf-role: Speaker
+  bio:
+  presentation:
 
 - id: 2
   name: Joe Slowik
-  from: US
+  from-short: US
+  from-long: United States
   role: Network Defender
   work: Dragos Inc
   image: joe.png
   url:
   co-presenter:
   conf-role: Speaker
+  bio: Joe Slowik has extensive network security and computer network operations experience spanning the military, intelligence, and nuclear communities. Joe served as an Information Warfare Officer in the US Navy from 2009 to 2014, where he brought cybersecurity and network operations experience to places as varied as the mountains of Afghanistan to the Pacific Ocean. Following his military service, Joe moved to Los Alamos National Laboratory (LANL), working as a threat and malware analyst and leading the incident response team. While at LANL, Joe led efforts to completely revise threat hunting and intelligence operations to make network security more agile and responsive to the threat environment, such as tracking network infrastructure creation and malware development by nation state actors of interest. Joe joined Dragos Inc in April 2017 to focus his research and efforts on the ICS threat landscape, where he now applies his passion for defense to the critical infrastructure and industrial control ecosystem.
+  presentation: Strategic Network Defense in ICS Environments
+  permalink: program/presentations/joe-slowik/
 
 - id: 3
   name: Adam Crain
-  from: US
+  from-short: US
+  from-long: United States
   role: Software Engineer
   work: Automatak
   image: adam.png
   conf-role: Speaker
+  bio:
+  presentation:
 
 - id: 4
   name: Mikael Vingaard
-  from: DK
+  from-short: DK
+  from-long: Denmark
   role: IT Security Consultant
   work: 
   image: mikael.png
   conf-role: Workshop
+  bio:
+  presentation:
+  workshop: Practical SCADA/ICS Honeypots
+  permalink: program/workshops/mikael-vingaard/
 
 - id: 5
   name: Lars Erik Smevold
-  from: "NO"
-  role: IT Security Consultant
+  from-short: "NO"
+  from-long: Norway
+  role: Security Analyst
   work: 
   image: lars-erik.png
   conf-role: Speaker
+  bio:
+  presentation:
 
 - id: 6
   name: Erik Hjelmvik
-  from: SE
+  from-short: SE
+  from-long: Sweden
   role:
   work: 
   image: erik.png
   conf-role: Workshop
+  bio:
+  presentation:
+  workshop: Network Forensics Training
+  permalink: program/workshops/erik-hjelmvik/
 
 - id: 7
   name: Jon Røgeberg
-  from: "NO"
+  from-short: "NO"
+  from-long: Norway
   role: Manager
   work: mnemonic IRT
   image: jon.png
   conf-role: Speaker
+  bio: Jon Røgeberg works as the Manager for mnemonic’s Threat Intelligence group. He is also the Operational Manager of mnemonic IRT and responsible for Forensics in mnemonic. He has 10 years’ experience with Incident Response ranging from virus outbreaks, opportunistic crime, targeted crime and advanced targeted attacks.
+  presentation: APT Case Study
+  permalink: program/presentations/jon-røgeberg-and-martin-eian/
 
 - id: 8
   name: Martin Eian
-  from: "NO"
+  from-short: "NO"
+  from-long: Norway
   role: Senior Security Analyst
   work: mnemonic IRT
   image: martin.png
   conf-role: Speaker
+  bio: Dr. Martin Eian works as a Senior Security Analyst in mnemonic's Threat Intelligence group, and he is the Project Manager for the research project "Semi-Automated Cyber Threat Intelligence". He has more than 15 years of work experience in IT security, IT operations, and information security research roles. He is also a member of the Europol EC3 Advisory Group on Internet Security. He holds a PhD in Telematics/Information Security from the Norwegian University of Science and Technology (NTNU).
+  presentation: APT Case Study
+  permalink: program/presentations/jon-røgeberg-and-martin-eian/
 
 - id: 9
   name: Melissa Crawford
-  from: US
+  from-short: US
+  from-long: United States
   role: Global Consultant
   work: Siemens
   image: melissa.png
   conf-role: Speaker
+  bio:
+  presentation: ICS Program Development for Multi-national Corporations
+  permalink: program/presentations/melissa-crawford/
 
 - id: 10
   name: Dieter Sarrazyn
-  from: BE
+  from-short: BE
+  from-long: Belgium
   role: Security Expert
   work: Secudea bvba
   image: dieter.png
   conf-role: Speaker
+  bio: Dieter is a security expert who systematically aims to find vulnerabilities and weaknesses within IT and OT information systems for hackers to exploit. He has built his career in industrial environments and has gained excellent knowledge on strategic, tactical and operational level regarding security related subjects. He works extensively on industrial control system security including more than 8 years in a large electricity generation company. He deploys this expertise primarily in an Operational Technology (OT) environment, performing SCADA security assessments and securing SCADA environments. These activities are always part of a larger program, aimed at reducing business risks.
+  presentation: DIY insider threat detection/prevention within ICS enviroments
+  permalink: program/presentations/dieter-sarrazyn/
 
+- id: 11
+  name: Akriti Srivastava
+  from-short: IN
+  from-long: India
+  role: Security Researcher
+  work: Adobe Systems
+  image: temp-profile.png
+  conf-role: Speaker
+  bio: Akriti is a security researcher working with Adobe Systems, blogger, web application security, APIs security, IOT security and Network security enthusiast. Involved in multiple responsible disclosure of critical vulnerabilities and listed in various hall of fame including Google, developed various CTFs on Web Services and IOT for multiple conferences.
+  presentation: S in IOT is for Security
+  permalink: program/presentations/akriti-srivastava/
 
+- id: 12
+  name: Oleksii Yasynskyi
+  from-short: UA
+  from-long: Ukraine
+  role: Cybersecurity Expert
+  work: ISSP Labs
+  image: oleksii.png
+  conf-role: Speaker
+  bio: Oleksii is Cybersecurity expert with more than 20 years hands-on experience in the field. Oleksii participated in many complex technological projects, headed Security Operations Centre and acted as CISO in Enterprise-scale companies. Within a team of ISSP Labs experts, he made a deep research of cyber-attacks against critical infrastructure of Ukraine. Due to his hard work and high level of competence, it was possible to study each step of the attacks in detail, determine the specifics of the attack and develop a range of behavioral patterns to identify targeted attacks, similar to the ones that occurred in Ukrainian cyberspace in the past few years. Regarding this topic, Oleksii published a number of articles and case studies.
+  presentation: "Cyberattacks Against Critical Infrastructure in Ukraine: Taxonomy, Consequences, Lessons Learned"
+  permalink:
+
+- id: 13
+  name: Roman Sologub
+  from-short: UA
+  from-long: Ukraine
+  role: General Manager & CEO
+  work: ISSP Group
+  image: roman-two.png
+  conf-role: Speaker
+  bio: Oleksii is Cybersecurity expert with more than 20 years hands-on experience in the field. Oleksii participated in many complex technological projects, headed Security Operations Centre and acted as CISO in Enterprise-scale companies. Within a team of ISSP Labs experts, he made a deep research of cyber-attacks against critical infrastructure of Ukraine. Due to his hard work and high level of competence, it was possible to study each step of the attacks in detail, determine the specifics of the attack and develop a range of behavioral patterns to identify targeted attacks, similar to the ones that occurred in Ukrainian cyberspace in the past few years. Regarding this topic, Oleksii published a number of articles and case studies.
+  presentation: "Cyberattacks Against Critical Infrastructure in Ukraine: Taxonomy, Consequences, Lessons Learned"
+  permalink:
+
+- id: 14
+  name: Patrick DeSantis
+  from-short: US
+  from-long: USA
+  role: Senior Security Researcher Engineer
+  work: Cisco Talos
+  image: patrick-desantis.png
+  conf-role: Speaker
+  bio: Patrick DeSantis is a security researcher with Cisco Talos and focuses his efforts on discovery and exploitation of vulnerabilities in technologies that have an impact on the physical world, such as Industrial Control Systems (ICS), Supervisory Control and Data Acquisition (SCADA), Internet of Things (IoT), and anything else that looks like it's asking to be hacked. Patrick's background includes work in both the public and private sectors, as well as a pile of information security certifications and a few college degrees.
+  presentation: "From Box to Backdoor: Using Old School Tools and Techniques to Discover Backdoors in Modern Devices"
+  permalink:
+
+- id: 15
+  name: Anton Cherepanov
+  from-short: SK
+  from-long: Slovakia
+  role: Senior Malware Researcher
+  work: ESET
+  image: anton-cherepanov.png
+  conf-role: Speaker
+  bio: Anton Cherepanov currently working at ESET as a malware researcher, his responsibilities include the analysis of complex threats. His research was presented on numerous conferences, including Virus Bulletin, CARO Workshop, PHDays, and ZeroNights. His interests focus on IT security, reverse engineering and malware analysis automation.
+  presentation: "Industroyer: biggest threat to industrial control systems since Stuxnet"
+  permalink: program/presentations/anton-cherepanov-and-robert-lipovsky/
+
+- id: 16
+  name: Robert Lipovský
+  from-short: SK
+  from-long: Slovakia
+  role: Senior Malware Researcher
+  work: ESET
+  image: robert-lipovsky.png
+  conf-role: Speaker
+  bio: Robert Lipovsky is Senior Malware Researcher in ESET’s Security Research Laboratory, working for ESET since 2007. He is responsible for malware intelligence and research and leads the Malware Research team in Bratislava. He is a regular speaker at security conferences, including Virus Bulletin, EICAR, and CARO. He runs a reverse engineering course at the Slovak University of Technology, his alma mater and the Comenius University. When not bound to a keyboard, he enjoys sports, playing guitar and flying an airplane.
+  presentation: "Industroyer: biggest threat to industrial control systems since Stuxnet"
+  permalink: program/presentations/anton-cherepanov-and-robert-lipovsky/
+
+- id: 17
+  name: Ali Abbasi
+  from-short: 
+  from-long: 
+  role:
+  work: 
+  image: temp-profile.png
+  conf-role: Speaker
+  bio: 
+  presentation: Configurable Code-Reuse Attacks Mitigation for COTS Programmable Logic Controller Binaries
+  permalink: program/presentations/ali-abbasi/
+
+- id: 18
+  name: Michael Theuerzeit
+  from-short: NL
+  from-long: Netherlands
+  role: Cyber Security Consultant
+  work: Hudson Cybertec
+  image: michael-theuerzeit.png
+  conf-role: Workshop
+  bio: Michael is a seasoned consultant, specialized in Cyber Security for the Operational Technology (OT). For Cyber Security Solution Provider Hudson Cybertec, he is actively engaged in Industrial Automation and Control Systems (IACS) security projects worldwide. His focus is on cyber security for critical Infrastructure sectors like Nuclear, Oil & Gas, Water and Food. He worked with some of the largest companies operating in critical infrastructure sectors, as well as with government and government agencies, enterprises and EPC contractors. He is also an experienced lecturer and Subject Matter Expert for IEC 62443 and an accomplished speaker at international security events, conferences and seminars.
+  presentation:
+  workshop: IEC62442
+  permalink:

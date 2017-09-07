@@ -3,3 +3,36 @@ layout: default
 title: Presentations
 permalink: "/program/presentations/"
 ---
+
+<section class="content">
+
+  <div class="sec-head">
+    <div class="block-head">
+      <h4>Presentations</h4>
+      {% include breadcrumbs.html %}
+    </div>
+    <div class="block-head">
+      <h2>World Class</h2>
+      <div class="btn-group">
+        <a href="{{ site.baseurl }}/program/speakers/" class="btn btn-primary"><span>View</span> Speakers</a>
+        <a href="{{ site.baseurl }}/program/workshops/" class="btn btn-primary"><span>View</span> Workshops</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="presentation--list">
+
+      <ul>
+      {% assign sorted_presentations = site.pages | sort: 'author' %}
+      {% for page in sorted_presentations %}
+      {% if page.id ==  'presentation' %}
+        <li><a href="{{ page.url | prepend: site.baseurl }}">
+            <span class="p-title">{{ page.title }}</span>
+            <span class="p-author">{{ page.author }}</span>
+        </a></li>
+      {% endif %}
+      {% endfor %}
+      </ul>
+    </div>
+
+</section>

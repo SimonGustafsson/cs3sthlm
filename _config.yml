@@ -28,6 +28,7 @@ theme:
 
 include: ['_pages']
 
+
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag

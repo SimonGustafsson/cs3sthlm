@@ -7,10 +7,16 @@ permalink: "/program/workshops/"
 <section class="content">
 
   <div class="sec-head">
-    <h4>Workshops & Trainings</h4>
+    <div class="block-head">
+      <h4>Workshops & Trainings</h4>
+      {% include breadcrumbs.html %}
+    </div>
     <div class="block-head">
       <h2>World Class Content</h2>
-      <a href="{{ site.baseurl }}/program/speakers/" class="btn btn-primary">View Speakers</a>
+      <div class="btn-group">
+        <a href="{{ site.baseurl }}/program/speakers/" class="btn btn-primary"><span>View</span> Speakers</a>
+        <a href="{{ site.baseurl }}/program/presentations/" class="btn btn-primary"><span>View</span> Presentations</a>
+      </div>
     </div>
 
     <div class="col-6-6">
