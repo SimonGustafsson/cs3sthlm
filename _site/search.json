@@ -92,9 +92,9 @@
   
    {
      
-        "title"    : "Advisory",
-        "url"      : "/about/advisory/",
-        "path"     : "/about/advisory/"
+        "title"    : "Presentations",
+        "url"      : "/program/presentations/",
+        "path"     : "/program/presentations/"
      
    } ,
   
@@ -103,22 +103,6 @@
         "title"    : "Press",
         "url"      : "/press/",
         "path"     : "/press/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Partners",
-        "url"      : "/partners/",
-        "path"     : "/partners/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Practical Details",
-        "url"      : "/practical-details/",
-        "path"     : "/practical-details/"
      
    } ,
   
@@ -148,30 +132,6 @@
   
    {
      
-        "title"    : "Presentations",
-        "url"      : "/program/presentations/",
-        "path"     : "/program/presentations/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Program",
-        "url"      : "/program/",
-        "path"     : "/program/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Home",
-        "url"      : "/",
-        "path"     : ""
-     
-   } ,
-  
-   {
-     
         "title"    : "Agenda",
         "url"      : "/agenda/",
         "path"     : "/agenda/"
@@ -188,9 +148,33 @@
   
    {
      
-        "title"    : "Speakers",
-        "url"      : "/program/speakers/",
-        "path"     : "/program/speakers/"
+        "title"    : "Practical Details",
+        "url"      : "/practical-details/",
+        "path"     : "/practical-details/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Workshops",
+        "url"      : "/program/workshops/",
+        "path"     : "/program/workshops/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Home",
+        "url"      : "/",
+        "path"     : ""
+     
+   } ,
+  
+   {
+     
+        "title"    : "Partners",
+        "url"      : "/partners/",
+        "path"     : "/partners/"
      
    } ,
   
@@ -204,9 +188,25 @@
   
    {
      
-        "title"    : "Workshops",
-        "url"      : "/program/workshops/",
-        "path"     : "/program/workshops/"
+        "title"    : "Program",
+        "url"      : "/program/",
+        "path"     : "/program/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Speakers",
+        "url"      : "/program/speakers/",
+        "path"     : "/program/speakers/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Advisory",
+        "url"      : "/about/advisory/",
+        "path"     : "/about/advisory/"
      
    } ,
   
@@ -223,6 +223,14 @@
         "title"    : "APT Case Study",
         "url"      : "/program/presentations/jon-røgeberg-and-martin-eian/",
         "path"     : "/program/presentations/jon-røgeberg-and-martin-eian/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Pandora´s Box",
+        "url"      : "/program/presentations/lars-erik-smevold/",
+        "path"     : "/program/presentations/lars-erik-smevold/"
      
    } ,
   

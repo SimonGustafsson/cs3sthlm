@@ -39,7 +39,7 @@
   from-short: DK
   from-long: Denmark
   role: IT Security Consultant
-  work: EnergiNet.dk
+  work: EnergiNet
   image: mikael.png
   conf-role: Workshop
   bio:
@@ -55,15 +55,15 @@
   image: lars-erik.png
   conf-role: Speaker
   bio: Lars Erik Smevold is a senior security analyst in KraftCERT. KraftCERT is the Norwegian energy sector and ICS CERT - a non profit incident response team. The focus for KraftCERT is to together with the companies, protect, detect and recover from incidents that may harm production or distribution of power or water. Lars Erik has many years of experience in the industry from the automation, telco business, and later from security in the energy sector - including the building of security operations center (SOC). In his spare time he enjoys experimenting in his lab.
-  presentation: Pandora´s box
-  permalink: program/presentations/pandoras-box/
+  presentation: Pandora´s Box
+  permalink: program/presentations/lars-erik-smevold/
 
 - id: 6
   name: Erik Hjelmvik
   from-short: SE
   from-long: Sweden
   role: Network Analyst
-  work: Netresec
+  work: NETRESEC
   image: erik.png
   conf-role: Workshop
   bio: Erik is the creator of NetworkMiner and an experienced incident handler who has specialized in the field of network forensics.
@@ -207,7 +207,7 @@
   from-short: NL
   from-long: Netherlands
   role: Cyber Security Consultant
-  work: Hudson Cybertec
+  work: HudsonCyberTech
   image: michael-theuerzeit.png
   conf-role: Workshop
   bio: Michael is a seasoned consultant, specialized in Cyber Security for the Operational Technology (OT). For Cyber Security Solution Provider Hudson Cybertec, he is actively engaged in Industrial Automation and Control Systems (IACS) security projects worldwide. His focus is on cyber security for critical Infrastructure sectors like Nuclear, Oil & Gas, Water and Food. He worked with some of the largest companies operating in critical infrastructure sectors, as well as with government and government agencies, enterprises and EPC contractors. He is also an experienced lecturer and Subject Matter Expert for IEC 62443 and an accomplished speaker at international security events, conferences and seminars.
