@@ -1,5 +1,5 @@
 ---
-title: S in IOT is for Security
+title: S in IoT is for Security
 permalink: "/program/presentations/akriti-srivastava/"
 layout: presentation
 author: Akriti Srivastava

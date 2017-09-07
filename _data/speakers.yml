@@ -124,10 +124,10 @@
   from-long: India
   role: Security Researcher
   work: Adobe Systems
-  image: temp-profile.png
+  image: akriti-srivastava.png
   conf-role: Speaker
   bio: Akriti is a security researcher working with Adobe Systems, blogger, web application security, APIs security, IOT security and Network security enthusiast. Involved in multiple responsible disclosure of critical vulnerabilities and listed in various hall of fame including Google, developed various CTFs on Web Services and IOT for multiple conferences.
-  presentation: S in IOT is for Security
+  presentation: S in IoT is for Security
   permalink: program/presentations/akriti-srivastava/
 
 - id: 12
