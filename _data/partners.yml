@@ -40,4 +40,11 @@
   url: http://hudsoncybertec.com
   bio: Hudson Cybertec is a cyber security solution provider, globally involved with cyber security projects for industrial automation and control systems. The company has full focus on cyber security in the Industrial Automation & Control Systems (IACS) domain. They are intimately involved with the development of the IEC 62443 standard and is globally recognized as Subject Matter Expert (SME).
 
+- id: 7
+  level: partner
+  company: Advenica
+  logo: advenica.svg
+  url: https://www.advenica.com/en
+  bio: 
+
 

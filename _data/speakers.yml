@@ -5,11 +5,10 @@
   role: Social Engineering Expert
   work:
   image: jenny.png
-  url:
-  co-presenter:
   conf-role: Speaker
   bio:
   presentation:
+  permalink:
 
 - id: 2
   name: Joe Slowik
@@ -18,8 +17,6 @@
   role: Network Defender
   work: Dragos Inc
   image: joe.png
-  url:
-  co-presenter:
   conf-role: Speaker
   bio: Joe Slowik has extensive network security and computer network operations experience spanning the military, intelligence, and nuclear communities. Joe served as an Information Warfare Officer in the US Navy from 2009 to 2014, where he brought cybersecurity and network operations experience to places as varied as the mountains of Afghanistan to the Pacific Ocean. Following his military service, Joe moved to Los Alamos National Laboratory (LANL), working as a threat and malware analyst and leading the incident response team. While at LANL, Joe led efforts to completely revise threat hunting and intelligence operations to make network security more agile and responsive to the threat environment, such as tracking network infrastructure creation and malware development by nation state actors of interest. Joe joined Dragos Inc in April 2017 to focus his research and efforts on the ICS threat landscape, where he now applies his passion for defense to the critical infrastructure and industrial control ecosystem.
   presentation: Strategic Network Defense in ICS Environments
@@ -33,19 +30,19 @@
   work: Automatak
   image: adam.png
   conf-role: Speaker
-  bio:
-  presentation:
+  bio: Adam is a software engineer, security researcher, and open source advocate. In 2012, he started his own venture, Automatak, to improve the adoption of robust open source software (OSS) in the utility space. He is the principal author of opendnp3, an implementation of IEEE 1815 (DNP3). Since April 2013, vulnerabilities have been identified in products sold by more than twenty vendors. Adam works with vendors, utilities, government agencies, standards bodies, and industry organizations to identify and solve systemic issues.
+  presentation: Secure SCADA Protocol for the 21st Century (SSP21)
+  permalink: program/presentations/adam-crain/
 
 - id: 4
   name: Mikael Vingaard
   from-short: DK
   from-long: Denmark
   role: IT Security Consultant
-  work: 
+  work: EnergiNet.dk
   image: mikael.png
   conf-role: Workshop
   bio:
-  presentation:
   workshop: Practical SCADA/ICS Honeypots
   permalink: program/workshops/mikael-vingaard/
 
@@ -53,23 +50,23 @@
   name: Lars Erik Smevold
   from-short: "NO"
   from-long: Norway
-  role: Security Analyst
-  work: 
+  role: Senior Security Analyst
+  work: KraftCERT
   image: lars-erik.png
   conf-role: Speaker
-  bio:
-  presentation:
+  bio: Lars Erik Smevold is a senior security analyst in KraftCERT. KraftCERT is the Norwegian energy sector and ICS CERT - a non profit incident response team. The focus for KraftCERT is to together with the companies, protect, detect and recover from incidents that may harm production or distribution of power or water. Lars Erik has many years of experience in the industry from the automation, telco business, and later from security in the energy sector - including the building of security operations center (SOC). In his spare time he enjoys experimenting in his lab.
+  presentation: Pandora´s box
+  permalink: program/presentations/pandoras-box/
 
 - id: 6
   name: Erik Hjelmvik
   from-short: SE
   from-long: Sweden
-  role:
-  work: 
+  role: Network Analyst
+  work: Netresec
   image: erik.png
   conf-role: Workshop
-  bio:
-  presentation:
+  bio: Erik is the creator of NetworkMiner and an experienced incident handler who has specialized in the field of network forensics.
   workshop: Network Forensics Training
   permalink: program/workshops/erik-hjelmvik/
 
@@ -105,7 +102,7 @@
   work: Siemens
   image: melissa.png
   conf-role: Speaker
-  bio:
+  bio: After earning the B.S. in Nuclear Engineering from the University of Florida, Melissa started 8 years ago working with Siemens on the design and security of Instrumentation & Control projects for nuclear power plants around the world. She has since taken this detailed knowledge of the I&C systems into her role as Global Consultant for cybersecurity of the industrial control systems at the headquarters for Siemens Plant Security Services, specializing in development of cybersecurity strategies for multinational corporations and remote incident handling.
   presentation: ICS Program Development for Multi-national Corporations
   permalink: program/presentations/melissa-crawford/
 
@@ -214,6 +211,5 @@
   image: michael-theuerzeit.png
   conf-role: Workshop
   bio: Michael is a seasoned consultant, specialized in Cyber Security for the Operational Technology (OT). For Cyber Security Solution Provider Hudson Cybertec, he is actively engaged in Industrial Automation and Control Systems (IACS) security projects worldwide. His focus is on cyber security for critical Infrastructure sectors like Nuclear, Oil & Gas, Water and Food. He worked with some of the largest companies operating in critical infrastructure sectors, as well as with government and government agencies, enterprises and EPC contractors. He is also an experienced lecturer and Subject Matter Expert for IEC 62443 and an accomplished speaker at international security events, conferences and seminars.
-  presentation:
-  workshop: IEC62442
-  permalink:
+  workshop: "Cyber Security for Industrial Automation and Control Systems: An introduction of the IEC 62443 standard"
+  permalink: program/workshops/michael-theuerzeit/

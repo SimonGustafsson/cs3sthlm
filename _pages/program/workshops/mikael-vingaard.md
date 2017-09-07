@@ -1,5 +1,6 @@
 ---
 title: Practical SCADA/ICS Honeypots
+short-title: Practical SCADA/ICS Honeypots
 layout: single-workshop
 author: Mikael Vingaard
 time: 1 Day

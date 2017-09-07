@@ -2325,6 +2325,7 @@ h1, h2, h3, h4 {
     width: 550px;
     border-radius: 2px;
     text-decoration: none;
+    margin-bottom: 20px;
 
     @include transition-ease;
 
@@ -3026,9 +3027,9 @@ h1, h2, h3, h4 {
       img {
         display: block;
         margin: 0 auto;
+        max-height: 160px;
         height: auto;
-        width: 320px;
-        max-width: 320px;
+        max-width: 100%;
       }
     }
   }

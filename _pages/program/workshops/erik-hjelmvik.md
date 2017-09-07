@@ -1,5 +1,6 @@
 ---
 title: Network Forensics Training
+short-title: Network Forensics Training
 layout: single-workshop
 author: Erik Hjelmvik
 time: 2 Day

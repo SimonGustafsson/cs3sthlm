@@ -1849,6 +1849,7 @@ h1, h2, h3, h4 {
     width: 550px;
     border-radius: 2px;
     text-decoration: none;
+    margin-bottom: 20px;
     transition: 0.24s all ease-in-out;
     -moz-transition: 0.24s all ease-in-out;
     -webkit-transtiion: 0.24s all ease-in-out;
@@ -2381,9 +2382,9 @@ h1, h2, h3, h4 {
       .partner--item a img {
         display: block;
         margin: 0 auto;
+        max-height: 160px;
         height: auto;
-        width: 320px;
-        max-width: 320px; }
+        max-width: 100%; }
 
 /**
   BUTTONS */

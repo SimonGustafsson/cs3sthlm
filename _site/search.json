@@ -40,6 +40,14 @@
   
    {
      
+        "title"    : "Secure SCADA Protocol for the 21st Century (SSP21)",
+        "url"      : "/program/presentations/adam-crain/",
+        "path"     : "/program/presentations/adam-crain/"
+     
+   } ,
+  
+   {
+     
         "title"    : "S in IOT is for Security",
         "url"      : "/program/presentations/akriti-srivastava/",
         "path"     : "/program/presentations/akriti-srivastava/"
@@ -92,14 +100,6 @@
   
    {
      
-        "title"    : "Practical Details",
-        "url"      : "/practical-details/",
-        "path"     : "/practical-details/"
-     
-   } ,
-  
-   {
-     
         "title"    : "Press",
         "url"      : "/press/",
         "path"     : "/press/"
@@ -108,17 +108,25 @@
   
    {
      
-        "title"    : "News",
-        "url"      : "/news/",
-        "path"     : "/news/"
+        "title"    : "Partners",
+        "url"      : "/partners/",
+        "path"     : "/partners/"
      
    } ,
   
    {
      
-        "title"    : "Partners",
-        "url"      : "/partners/",
-        "path"     : "/partners/"
+        "title"    : "Practical Details",
+        "url"      : "/practical-details/",
+        "path"     : "/practical-details/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "News",
+        "url"      : "/news/",
+        "path"     : "/news/"
      
    } ,
   
@@ -227,6 +235,14 @@
         "title"    : "ICS Program Development for Multi-national Corporations",
         "url"      : "/program/presentations/melissa-crawford/",
         "path"     : "/program/presentations/melissa-crawford/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Cyber Security for Industrial Automation and Control Systems: An introduction of the IEC 62443 standard",
+        "url"      : "/program/workshops/michael-theuerzeit/",
+        "path"     : "/program/workshops/michael-theuerzeit/"
      
    } ,
   

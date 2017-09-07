@@ -39,6 +39,19 @@ permalink: "/partners/"
 	<div class="col-1">
 
 		<div class="partner--list">
+		<h3>Partner</h3>
+		{% for partner in site.data.partners %}
+		{% if partner.level == "partner" %}
+			<div class="partner--item">
+				<a href="{{ partner.url }}" target="_blank">
+					<img src="{{ site.baseurl }}/assets/partners/{{ partner.logo }}" alt="{{ partner.company }}">
+				</a>
+			</div>
+		{% endif %}
+		{% endfor %}
+		</div>
+
+		<div class="partner--list">
 		<h3>Organizing Partners</h3>
 		{% for partner in site.data.partners %}
 		{% if partner.level == "organizer" %}
