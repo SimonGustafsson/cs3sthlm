@@ -7,6 +7,7 @@ time: 2 Day
 id: workshop
 permalink: "/program/workshops/erik-hjelmvik/"
 image: erik.png
+company: NETRESEC
 ---
 
 Our two-day Network Forensics class consists of a mix of theory and hands-on labs, where students will learn to analyze Full Packet Capture (FPC) files. The scenarios in the labs are primarily focused at network forensics for incident response, but are also relevant for law enforcement/internal security etc. where the network traffic of a suspect or insider is being monitored.

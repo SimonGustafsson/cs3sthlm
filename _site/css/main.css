@@ -2510,11 +2510,11 @@ h1, h2, h3, h4 {
             font-size: 18px; } }
         .box-left ul li span > a:hover {
           color: #ef7d00; }
-  .box-left .post-time, .box-left .post-author {
+  .box-left .post-time, .box-left .post-author, .box-left .post-company {
     font-family: 'latobold', sans-serif;
     font-size: 16px; }
     @media screen and (min-width: 1680px) {
-      .box-left .post-time, .box-left .post-author {
+      .box-left .post-time, .box-left .post-author, .box-left .post-company {
         font-size: 21px; } }
   .box-left img {
     width: auto;
