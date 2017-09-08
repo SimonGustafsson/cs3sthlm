@@ -2527,7 +2527,8 @@ h1, h2, h3, h4 {
         display: none; } }
 
 .box-right {
-  width: 360px; }
+  width: 360px;
+  margin-left: 20px; }
   @media screen and (min-width: 1680px) {
     .box-right {
       width: 432px; } }
