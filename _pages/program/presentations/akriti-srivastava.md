@@ -4,7 +4,7 @@ permalink: "/program/presentations/akriti-srivastava/"
 layout: presentation
 author: Akriti Srivastava
 profile:
- - image: temp-profile.png
+ - image: akriti-srivastava.png
 id: presentation
 ---
 This paper unveils some of the reasons for and the types of security concerns associated with Internet of Things, and some recommendations that device manufacturers should keep in mind while manufacturing IoT enabled devices and designing IoT interfaces.
