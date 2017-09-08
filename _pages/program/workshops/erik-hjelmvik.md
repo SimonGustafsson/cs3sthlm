@@ -3,7 +3,7 @@ title: Network Forensics Training
 short-title: Network Forensics Training
 layout: single-workshop
 author: Erik Hjelmvik
-time: 2 Day
+time: 23-24 October
 id: workshop
 permalink: "/program/workshops/erik-hjelmvik/"
 image: erik.png
