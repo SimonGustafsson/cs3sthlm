@@ -38,11 +38,11 @@
   name: Mikael Vingaard
   from-short: DK
   from-long: Denmark
-  role: IT Security Consultant
+  role: "Preparedness coordinator, IT"
   work: EnergiNet
   image: mikael.png
   conf-role: Workshop
-  bio:
+  bio: Mikael Vingaard leverages his 15+ years of IT-security experience to build practicalinformation security with a real-life perspective. Mikael works as IT-Security Consultant at EnergiNet.dk, the Danish national transmission system operator. In his spare time, Mikael runs several research projects, build on Open Source softwareto make a positive difference to secure critical infrastructure environments.
   workshop: Practical SCADA/ICS Honeypots
   permalink: program/workshops/mikael-vingaard/
 

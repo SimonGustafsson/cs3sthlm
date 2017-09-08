@@ -12,6 +12,23 @@ layout: default
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
+  <aside class="sidebar box-left">
+    <ul>
+      <li><h4>Duration</h4><span class="post-time">{{ page.time }}</span></li>
+      <li><h4>Taught By</h4><span class="post-author">{{ page.author }}</span></li>
+      <li><h4>Company</h4><span class="post-company">{{ page.company }}</span></li>
+      <li><img src="{{ site.baseurl }}/assets/speakers/{{ page.image }}"></li>
+    </ul>
+  </aside>
+
+  <div class="post-content" itemprop="articleBody">
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+    </header>
+
+    {{ content }}
+  </div>
+
   <aside class="sidebar box-right">
     <h4>All Workshops & Training</h4>
 
@@ -29,23 +46,6 @@ layout: default
     </ul>
     
   </aside>
-
-  <aside class="sidebar box-left">
-    <ul>
-      <li><h4>Duration</h4><span class="post-time">{{ page.time }}</span></li>
-      <li><h4>Taught By</h4><span class="post-author">{{ page.author }}</span></li>
-      <li><h4>Company</h4><span class="post-company">{{ page.company }}</span></li>
-      <li><img src="{{ site.baseurl }}/assets/speakers/{{ page.image }}"></li>
-    </ul>
-  </aside>
-
-  <div class="post-content" itemprop="articleBody">
-    <header class="post-header">
-      <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-    </header>
-
-    {{ content }}
-  </div>
 
 </article>
 </section>
