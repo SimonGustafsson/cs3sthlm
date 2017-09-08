@@ -2527,9 +2527,6 @@ h1, h2, h3, h4 {
         display: none; } }
 
 .box-right {
-  position: absolute;
-  top: 0;
-  right: 0;
   width: 360px; }
   @media screen and (min-width: 1680px) {
     .box-right {

@@ -12,23 +12,6 @@ layout: default
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <aside class="sidebar box-right">
-    <h4>All Presentations</h4>
-
-    <ul>
-    {% assign sorted_presentations = site.pages | sort: 'author' %}
-    {% for page in sorted_presentations %}
-    {% if page.id ==  'presentation' %}
-      <li><a href="{{ page.url | prepend: site.baseurl }}">
-          <span class="p-title">{{ page.title }}</span>
-          <span class="p-author">{{ page.author }}</span>
-      </a></li>
-    {% endif %}
-    {% endfor %}
-    </ul>
-    
-  </aside>
-
   <aside class="sidebar box-left">
     <ul>
       <li><h4>Author</h4><span class="post-author">{{ page.author }}</span></li>
@@ -45,6 +28,23 @@ layout: default
 
     {{ content }}
   </div>
+
+  <aside class="sidebar box-right">
+    <h4>All Presentations</h4>
+
+    <ul>
+    {% assign sorted_presentations = site.pages | sort: 'author' %}
+    {% for page in sorted_presentations %}
+    {% if page.id ==  'presentation' %}
+      <li><a href="{{ page.url | prepend: site.baseurl }}">
+          <span class="p-title">{{ page.title }}</span>
+          <span class="p-author">{{ page.author }}</span>
+      </a></li>
+    {% endif %}
+    {% endfor %}
+    </ul>
+    
+  </aside>
 
 </article>
 </section>

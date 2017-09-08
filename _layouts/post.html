@@ -9,25 +9,6 @@ layout: default
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <aside class="sidebar box-right">
-    <h4>Latest News</h4>
-
-    <ul>
-    {% for post in site.categories.news limit:10 %}
-      <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-    {% endfor %}
-    </ul>
-
-    <h4>Latest Press</h4>
-
-    <ul>
-    {% for post in site.categories.press limit:10 %}
-      <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-    {% endfor %}
-    </ul>
-
-  </aside>
-
   <aside class="sidebar box-left">
     <ul>
       <li><h4>Published</h4><span class="post-time">{{ page.date | date: "%-d %b %-Y" }}</span></li>
@@ -83,6 +64,25 @@ layout: default
     {% endif %}
     </div>
   </div>
+
+  <aside class="sidebar box-right">
+    <h4>Latest News</h4>
+
+    <ul>
+    {% for post in site.categories.news limit:10 %}
+      <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+    {% endfor %}
+    </ul>
+
+    <h4>Latest Press</h4>
+
+    <ul>
+    {% for post in site.categories.press limit:10 %}
+      <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+    {% endfor %}
+    </ul>
+
+  </aside>
 
 </article>
 </section>

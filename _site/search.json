@@ -92,9 +92,9 @@
   
    {
      
-        "title"    : "Presentations",
-        "url"      : "/program/presentations/",
-        "path"     : "/program/presentations/"
+        "title"    : "About",
+        "url"      : "/about/",
+        "path"     : "/about/"
      
    } ,
   
@@ -140,17 +140,25 @@
   
    {
      
-        "title"    : "About",
-        "url"      : "/about/",
-        "path"     : "/about/"
+        "title"    : "Practical Details",
+        "url"      : "/practical-details/",
+        "path"     : "/practical-details/"
      
    } ,
   
    {
      
-        "title"    : "Practical Details",
-        "url"      : "/practical-details/",
-        "path"     : "/practical-details/"
+        "title"    : "Speakers",
+        "url"      : "/program/speakers/",
+        "path"     : "/program/speakers/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Advisory",
+        "url"      : "/about/advisory/",
+        "path"     : "/about/advisory/"
      
    } ,
   
@@ -196,17 +204,9 @@
   
    {
      
-        "title"    : "Speakers",
-        "url"      : "/program/speakers/",
-        "path"     : "/program/speakers/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Advisory",
-        "url"      : "/about/advisory/",
-        "path"     : "/about/advisory/"
+        "title"    : "Presentations",
+        "url"      : "/program/presentations/",
+        "path"     : "/program/presentations/"
      
    } ,
   
@@ -259,6 +259,14 @@
         "title"    : "Practical SCADA/ICS Honeypots",
         "url"      : "/program/workshops/mikael-vingaard/",
         "path"     : "/program/workshops/mikael-vingaard/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Cyberattacks Against Critical Infrastructure in Ukraine: Taxonomy, Consequences, Lessons Learned",
+        "url"      : "/program/presentations/oleksii-yasynskyi-and-roman-sologub/",
+        "path"     : "/program/presentations/oleksii-yasynskyi-and-roman-sologub/"
      
    } ,
   

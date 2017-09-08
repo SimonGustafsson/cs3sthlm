@@ -3224,9 +3224,6 @@ h1, h2, h3, h4 {
   }
 }
 .box-right {
-  position: absolute;
-  top: 0;
-  right: 0;
   width: 360px;
 
   @include media-query-min($large) {
