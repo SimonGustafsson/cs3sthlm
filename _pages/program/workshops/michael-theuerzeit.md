@@ -7,7 +7,7 @@ time: 24 October
 id: workshop
 permalink: "/program/workshops/michael-theuerzeit/"
 image: michael-theuerzeit.png
-company: Hudson CyberTec
+company: Hudson Cybertec
 ---
 
 The IEC 62443 is the worldwide standard for security of Industrial Automation & Control Systems, or Operational Technology (OT). The standard offers your organization grip on the improvement of the digital security of these environments. During the workshop the following topics will be covered:
