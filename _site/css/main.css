@@ -1104,7 +1104,7 @@ h1, h2, h3, h4 {
         font-size: 23px; } }
 .sec-head .block-list-disc {
   list-style: disc;
-  font-size: 'latoregular', sans-serif;
+  font-family: 'latoregular', sans-serif;
   font-size: 18px;
   color: rgba(255, 255, 255, 0.85); }
   @media screen and (min-width: 1680px) {
@@ -2235,6 +2235,9 @@ h1, h2, h3, h4 {
     width: 170px;
     padding-left: 20px;
     box-sizing: border-box; }
+    @media screen and (max-width: 768px) {
+      .speaker-block--content .col-1-6 {
+        width: 100%; } }
     @media screen and (min-width: 1680px) {
       .speaker-block--content .col-1-6 {
         width: 205px; } }
@@ -2261,7 +2264,7 @@ h1, h2, h3, h4 {
         width: 659px; } }
   .speaker-block--content ul {
     list-style: none;
-    font-size: 'latoregular', sans-serif;
+    font-family: 'latoregular', sans-serif;
     font-size: 16px;
     color: rgba(255, 255, 255, 0.8); }
     @media screen and (min-width: 1680px) {

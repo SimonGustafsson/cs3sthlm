@@ -1326,7 +1326,7 @@ h1, h2, h3, h4 {
 
   .block-list-disc {
       list-style: disc;
-      font-size: 'latoregular', sans-serif;
+      font-family: 'latoregular', sans-serif;
       font-size: 18px;
       color: rgba($white, .85);
 
@@ -2832,6 +2832,10 @@ h1, h2, h3, h4 {
       padding-left: 20px;
       box-sizing: border-box;
 
+      @include media-query($mobile) {
+        width: 100%;
+      }
+
       @include media-query-min($large) {
         width: 205px;
       }
@@ -2866,7 +2870,7 @@ h1, h2, h3, h4 {
 
     ul {
       list-style: none;
-      font-size: 'latoregular', sans-serif;
+      font-family: 'latoregular', sans-serif;
       font-size: 16px;
       color: rgba($white, .8);
 

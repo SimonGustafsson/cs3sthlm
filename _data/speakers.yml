@@ -194,9 +194,9 @@
   name: Ali Abbasi
   from-short: 
   from-long: 
-  role:
-  work: 
-  image: temp-profile.png
+  role: Ph.D. candidate
+  work: University of Twente, Netherlands
+  image: ali-abbasi.png
   conf-role: Speaker
   bio: Ali Abbasi is a Ph.D. candidate in Distributed and Embedded System Security group at the University of Twente, The Netherlands and visiting Ph.D. researcher at the Chair of Systems Security of Ruhr-University Bochum, Germany. His research interest involves embedded systems security mostly related to Industrial Control Systems, Critical Infrastructure Security, and Real-Time Operating Systems security. He received his master degree in Computer Science from Tsinghua University, Beijing, China in 2013. He was working there on Programmable Logic Controller (PLC) security in Network Security Lab, Microprocessor and SoC Technology R&D Center with the National 863 High-tech Program grant from Ministry of Industry and Information Technology of China. He is currently doing his research at the Chair of Systems Security of Ruhr-University Bochum regarding designing binary-level protection mechanisms to battle against the sophisticated memory corruption and code-reuse attacks against PLCs and other critical real-time embedded systems.
   presentation: Configurable Code-Reuse Attacks Mitigation for COTS Programmable Logic Controller Binaries
@@ -219,7 +219,7 @@
   from-short: DE
   from-long: Germany
   role: "Dipl. Phys."
-  work: BSI
+  work: "German Federal Office for Information Security (BSI)"
   image: jens-wiesner.png
   conf-role: Speaker
   bio: Jens Wiesner heads the section “Cyber Security in Industrial Control Systems” in the German Federal Office for Information Security (BSI). He and his team focus on non-standard IT-systems known as OT/ICS/SCADA as well as life-critical systems used in safety or medical domain. They advise other sections of BSI as well as external working groups, manufacturers, integrators and operators of OT especially in critical infrastructures.
