@@ -92,9 +92,9 @@
   
    {
      
-        "title"    : "About",
-        "url"      : "/about/",
-        "path"     : "/about/"
+        "title"    : "Advisory",
+        "url"      : "/about/advisory/",
+        "path"     : "/about/advisory/"
      
    } ,
   
@@ -108,9 +108,25 @@
   
    {
      
+        "title"    : "Partners",
+        "url"      : "/partners/",
+        "path"     : "/partners/"
+     
+   } ,
+  
+   {
+     
         "title"    : "News",
         "url"      : "/news/",
         "path"     : "/news/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Practical Details",
+        "url"      : "/practical-details/",
+        "path"     : "/practical-details/"
      
    } ,
   
@@ -132,33 +148,9 @@
   
    {
      
-        "title"    : "Agenda",
-        "url"      : "/agenda/",
-        "path"     : "/agenda/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Practical Details",
-        "url"      : "/practical-details/",
-        "path"     : "/practical-details/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Speakers",
-        "url"      : "/program/speakers/",
-        "path"     : "/program/speakers/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Advisory",
-        "url"      : "/about/advisory/",
-        "path"     : "/about/advisory/"
+        "title"    : "Presentations",
+        "url"      : "/program/presentations/",
+        "path"     : "/program/presentations/"
      
    } ,
   
@@ -172,6 +164,14 @@
   
    {
      
+        "title"    : "Agenda",
+        "url"      : "/agenda/",
+        "path"     : "/agenda/"
+     
+   } ,
+  
+   {
+     
         "title"    : "Home",
         "url"      : "/",
         "path"     : ""
@@ -180,9 +180,9 @@
   
    {
      
-        "title"    : "Partners",
-        "url"      : "/partners/",
-        "path"     : "/partners/"
+        "title"    : "About",
+        "url"      : "/about/",
+        "path"     : "/about/"
      
    } ,
   
@@ -204,9 +204,17 @@
   
    {
      
-        "title"    : "Presentations",
-        "url"      : "/program/presentations/",
-        "path"     : "/program/presentations/"
+        "title"    : "Speakers",
+        "url"      : "/program/speakers/",
+        "path"     : "/program/speakers/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Security for Safety: Fortifying the last line of defense",
+        "url"      : "/program/presentations/jens-wiesner/",
+        "path"     : "/program/presentations/jens-wiesner/"
      
    } ,
   

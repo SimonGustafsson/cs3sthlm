@@ -213,3 +213,16 @@
   bio: Michael is a seasoned consultant, specialized in Cyber Security for the Operational Technology (OT). For Cyber Security Solution Provider Hudson Cybertec, he is actively engaged in Industrial Automation and Control Systems (IACS) security projects worldwide. His focus is on cyber security for critical Infrastructure sectors like Nuclear, Oil & Gas, Water and Food. He worked with some of the largest companies operating in critical infrastructure sectors, as well as with government and government agencies, enterprises and EPC contractors. He is also an experienced lecturer and Subject Matter Expert for IEC 62443 and an accomplished speaker at international security events, conferences and seminars.
   workshop: "Cyber Security for Industrial Automation and Control Systems: An introduction of the IEC 62443 standard"
   permalink: program/workshops/michael-theuerzeit/
+
+- id: 19
+  name: Jens Wiesner
+  from-short: DE
+  from-long: Germany
+  role: "Dipl. Phys."
+  work: BSI
+  image: jens-wiesner.png
+  conf-role: Speaker
+  bio: Jens Wiesner heads the section “Cyber Security in Industrial Control Systems” in the German Federal Office for Information Security (BSI). He and his team focus on non-standard IT-systems known as OT/ICS/SCADA as well as life-critical systems used in safety or medical domain. They advise other sections of BSI as well as external working groups, manufacturers, integrators and operators of OT especially in critical infrastructures.
+  presentation: "Security for Safety: Fortifying the last line of defense"
+  permalink: program/presentations/jens-wiesner/
+
