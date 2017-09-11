@@ -4,7 +4,7 @@ permalink: "/program/presentations/ali-abbasi/"
 layout: presentation
 author: Ali Abbasi
 profile:
- - image: temp-profile.png
+ - image: ali-abbasi.png
 id: presentation
 ---
 
