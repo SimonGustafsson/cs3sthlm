@@ -3229,6 +3229,7 @@ h1, h2, h3, h4 {
 
   @include media-query-min($large) {
     width: 432px;
+    margin-left: 22px;
   }
 
   @include media-query($mobile) {
@@ -4007,6 +4008,10 @@ h1, h2, h3, h4 {
 
           @include transition-ease;
 
+          @include media-query-min($large) {
+            font-size: 13px;
+          }
+
           &:hover {
             color: $yellow;
           }
@@ -4022,6 +4027,10 @@ h1, h2, h3, h4 {
       font-size: 11px;
       color: rgba($white, .8);
       letter-spacing: 1px;
+
+      @include media-query-min($large) {
+        font-size: 13px;
+      }
     }
   }
 }

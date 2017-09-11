@@ -2531,7 +2531,8 @@ h1, h2, h3, h4 {
   margin-left: 20px; }
   @media screen and (min-width: 1680px) {
     .box-right {
-      width: 432px; } }
+      width: 432px;
+      margin-left: 22px; } }
   @media screen and (max-width: 768px) {
     .box-right {
       display: none; } }
@@ -3106,6 +3107,9 @@ h1, h2, h3, h4 {
         -moz-transition: 0.24s all ease-in-out;
         -webkit-transtiion: 0.24s all ease-in-out;
         -o-transition: 0.24s all ease-in-out; }
+        @media screen and (min-width: 1680px) {
+          .footer-inner ul li a {
+            font-size: 13px; } }
         .footer-inner ul li a:hover {
           color: #ef7d00; }
     .footer-inner .typemark {
@@ -3117,6 +3121,9 @@ h1, h2, h3, h4 {
       font-size: 11px;
       color: rgba(255, 255, 255, 0.8);
       letter-spacing: 1px; }
+      @media screen and (min-width: 1680px) {
+        .footer-inner .typemark {
+          font-size: 13px; } }
 
 @media screen and (max-width: 768px) {
   .swiper-container {
