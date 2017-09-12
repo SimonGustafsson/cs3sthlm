@@ -1321,6 +1321,44 @@ h1, h2, h3, h4 {
       @include media-query-min($large) {
         font-size: 23px;
       }
+
+      ul {
+        margin-top: 4px;
+        margin-left: 20px;
+        list-style: disc;
+      }
+
+      a {
+        display: block;
+        margin-bottom: 14px;
+        text-decoration: none;
+        color: $white;
+
+        @include transition-ease;
+
+        &:hover {
+          color: $yellow;
+
+          .list-author {
+            color: $yellow;
+          }
+        }
+
+        .list-title {
+          display: block;
+        }
+        .list-author {
+          display: block;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          font-family: 'latobold', sans-serif;
+          font-weight: normal;
+          font-size: 12px;
+          color: rgba($white, .5);
+
+          @include transition-ease;
+        }
+      }
     }
   }
 
@@ -1343,6 +1381,7 @@ h1, h2, h3, h4 {
     
     h3 {
       margin-bottom: 20px;
+      color: $yellow;
     }
     .clean-list {
       margin-bottom: 40px;

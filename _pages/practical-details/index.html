@@ -32,14 +32,40 @@ permalink: "/practical-details/"
 
       <div class="col-2-6 col-ms-1">
         <div class="s-agenda">
-          <!--<h3>Monday October 23th</h3>
+          <h3>Monday October 23th</h3>
           <ul class="clean-list">
-            <li>Tutorials and workshop 9am-5am</li>
-          </ul>-->
+            <li>Tutorial and workshop 9am-5am
+              <ul>
+              {% for page in site.pages %}
+              {% if page.author ==  'Erik Hjelmvik' %}
+              <li>
+                <a href="{{ page.url | prepend: site.baseurl }}">
+                  <span class="list-title">{{ page.short-title }}</span>
+                  <span class="list-author">{{ page.author }}</span>
+                </a>
+              </li>
+              {% endif %}
+              {% endfor %}
+              </ul>
+              </li>
+          </ul>
 
           <h3>Tuesday October 24th</h3>
           <ul class="clean-list">
-            <li>Tutorials and workshop 9am-5am</li>
+            <li>Tutorials and workshop 9am-5am
+              <ul>
+              {% for page in site.pages %}
+              {% if page.id ==  'workshop' %}
+              <li>
+                <a href="{{ page.url | prepend: site.baseurl }}">
+                  <span class="list-title">{{ page.short-title }}</span>
+                  <span class="list-author">{{ page.author }}</span>
+                </a>
+              </li>
+              {% endif %}
+              {% endfor %}
+              </ul>
+              </li>
             <li>Welcome reception from 6pm</li>
           </ul>
 
