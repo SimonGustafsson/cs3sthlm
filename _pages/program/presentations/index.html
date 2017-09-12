@@ -27,8 +27,13 @@ permalink: "/program/presentations/"
       {% for page in sorted_presentations %}
       {% if page.id ==  'presentation' %}
         <li><a href="{{ page.url | prepend: site.baseurl }}">
-            <span class="p-title">{{ page.title }}</span>
-            <span class="p-author">{{ page.author }}</span>
+            {% for item in page.profile %}
+            <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}">
+            {% endfor %}
+            <div class="presentation--list-meta">
+              <span class="p-title">{{ page.title }}</span>
+              <span class="p-author">{{ page.author }}</span>
+            </div>
         </a></li>
       {% endif %}
       {% endfor %}

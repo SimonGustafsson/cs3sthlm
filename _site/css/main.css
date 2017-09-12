@@ -1885,12 +1885,12 @@ h1, h2, h3, h4 {
     .workshop--block-group .workshop--block-item .workshop--meta {
       display: block;
       margin-top: 5px;
-      font-family: 'latoblack', sans-serif;
+      font-family: 'latobold', sans-serif;
       font-size: 12px;
       font-weight: normal;
       letter-spacing: 2px;
       text-transform: uppercase;
-      color: rgba(255, 255, 255, 0.8);
+      color: rgba(255, 255, 255, 0.5);
       padding-bottom: 10px;
       margin-bottom: 10px;
       box-sizing: border-box;
@@ -3006,15 +3006,49 @@ h1, h2, h3, h4 {
       padding: 0 20px;
       box-sizing: border-box;
       margin-top: 0; } }
+  .presentation--list-meta {
+    margin-left: 20px; }
+    @media screen and (max-width: 768px) {
+      .presentation--list-meta {
+        margin-left: 0; } }
   .presentation--list ul {
     text-align: left;
     list-style: none;
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2px;
+    column-gap: 20px; }
+    @media screen and (max-width: 768px) {
+      .presentation--list ul {
+        -moz-column-count: 1;
+        -moz-column-gap: 0px;
+        -webkit-column-count: 1;
+        -webkit-column-gap: 0px;
+        column-count: 1;
+        column-gap: 0px; } }
     .presentation--list ul:last-of-type {
       margin-bottom: 0; }
     .presentation--list ul li {
-      margin-top: 12px; }
+      width: 550px;
+      margin-bottom: 24px; }
+      .presentation--list ul li:last-of-type {
+        margin-bottom: 0; }
+      @media screen and (max-width: 768px) {
+        .presentation--list ul li {
+          width: 100%; } }
     .presentation--list ul a {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      align-items: center;
+      -webkit-align-items: center;
+      justify-content: flex-start;
+      -webkit-justify-content: flex-start;
       font-family: 'latobold', sans-serif;
       font-size: 16px;
       color: white;
@@ -3030,6 +3064,18 @@ h1, h2, h3, h4 {
         color: #ef7d00; }
         .presentation--list ul a:hover .p-time, .presentation--list ul a:hover .p-author {
           color: #ef7d00; }
+    .presentation--list ul img {
+      display: inline-block;
+      max-height: 70px;
+      border-radius: 2px; }
+      .presentation--list ul img:nth-child(2) {
+        margin-left: 8px; }
+      @media screen and (max-width: 768px) {
+        .presentation--list ul img {
+          display: none; } }
+      @media screen and (min-width: 1680px) {
+        .presentation--list ul img {
+          max-height: 90px; } }
     .presentation--list ul .p-title {
       display: block; }
     .presentation--list ul .p-time, .presentation--list ul .p-author {
