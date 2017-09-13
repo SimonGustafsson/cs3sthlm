@@ -3588,6 +3588,15 @@ h1, h2, h3, h4 {
         font-size: 18px;
         color: rgba($white, 0.85);
 
+        a {
+          color: $yellow;
+          @include transition-ease;
+  
+          &:hover {
+            color: $white;
+          }
+        }
+
         ul {
           margin-top: 8px;
         }

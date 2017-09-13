@@ -2798,6 +2798,14 @@ h1, h2, h3, h4 {
         margin-bottom: 10px;
         font-size: 18px;
         color: rgba(255, 255, 255, 0.85); }
+        .post .post-content ul li a {
+          color: #ef7d00;
+          transition: 0.24s all ease-in-out;
+          -moz-transition: 0.24s all ease-in-out;
+          -webkit-transtiion: 0.24s all ease-in-out;
+          -o-transition: 0.24s all ease-in-out; }
+          .post .post-content ul li a:hover {
+            color: white; }
         .post .post-content ul li ul {
           margin-top: 8px; }
         @media screen and (min-width: 1680px) {
