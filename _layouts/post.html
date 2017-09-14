@@ -25,8 +25,8 @@ layout: default
       <li>
         <h4>Post Attachments</h4>
           {% for file in page.pdf %}
-            {% if file.english != null %}<span><a href="{{ site.url }}/assets/pdf/{{ file.english }}" target="_blank">English</a></span>{% endif %}
-            {% if file.swedish != null %}<span><a href="{{ site.url }}/assets/pdf/{{ file.swedish }}" target="_blank">Swedish</a></span>{% endif %}
+            {% if file.english != null %}<span><a href="{{ site.url }}/assets/pdf/{{ file.english }}" target="_blank">English PDF</a></span>{% endif %}
+            {% if file.swedish != null %}<span><a href="{{ site.url }}/assets/pdf/{{ file.swedish }}" target="_blank">Swedish PDF</a></span>{% endif %}
           {% endfor %}
       </li>
       {% endif %}

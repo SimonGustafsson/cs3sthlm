@@ -3,6 +3,8 @@ title: DIY insider threat detection/prevention within ICS enviroments
 permalink: "/program/presentations/dieter-sarrazyn/"
 layout: presentation
 author: Dieter Sarrazyn
+role: Security Expert
+work: Secudea bvba
 profile:
  - image: dieter.png
 id: presentation

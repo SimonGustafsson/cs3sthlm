@@ -3,6 +3,8 @@ title: "Industroyer: biggest threat to industrial control systems since Stuxnet"
 permalink: "/program/presentations/anton-cherepanov-and-robert-lipovsky/"
 layout: presentation
 author: Anton Cherepanov & Robert Lipovský
+role: Senior Malware Researcher
+work: ESET
 profile:
  - image: anton-cherepanov.png
  - image: robert-lipovsky.png

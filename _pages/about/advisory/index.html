@@ -23,10 +23,12 @@ permalink: "/about/advisory/"
   	{% for card in site.data.advisory %}
 	<div class="card-item">
 		<figure class="speaker-image"><img src="{{ site.baseurl }}/assets/advisory/{{ card.image }}"></figure>
-		<h2>{{ card.name }}</h2>
-		<h3>{{ card.role }}</h3>
-		<span class="card-item-work">{{ card.work }}</span>
-		<span class="card-item-location">{{ card.from }}</span>
+		<div class="card-item-data">
+      <h2>{{ card.name }}</h2>
+  		<h3>{{ card.role }}</h3>
+  		<span class="card-item-work">{{ card.work }}</span>
+  		<span class="card-item-location">{{ card.from }}</span>
+    </div>
 	</div>
 	{% endfor %}
 

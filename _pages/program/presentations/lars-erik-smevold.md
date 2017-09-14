@@ -3,6 +3,8 @@ title: Pandora´s Box
 permalink: "/program/presentations/lars-erik-smevold/"
 layout: presentation
 author: Lars Erik Smevold
+role: Senior Security Analyst
+work: KraftCERT
 profile:
  - image: lars-erik.png
 id: presentation

@@ -3,6 +3,8 @@ title: "From Box to Backdoor: Using Old School Tools and Techniques to Discover 
 permalink: "/program/presentations/patrick-desantis/"
 layout: presentation
 author: Patrick DeSantis
+role: Senior Security Researcher Engineer
+work: Cisco Talos
 profile:
  - image: patrick-desantis.png
 id: presentation

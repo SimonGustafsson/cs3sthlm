@@ -3,6 +3,10 @@ title: APT Case Study
 permalink: "/program/presentations/jon-røgeberg-and-martin-eian/"
 layout: presentation
 author: Jon Røgeberg & Martin Eian
+role: 
+ - Manager
+ - Senior Security Analyst
+work: mnemonic IRT
 profile:
  - image: jon.png
  - image: martin.png

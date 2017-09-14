@@ -823,7 +823,7 @@ h1, h2, h3, h4 {
   display: block;
   width: 100%;
   max-width: 1160px;
-  padding: 0 20px 120px;;
+  padding: 0 20px 100px;;
   box-sizing: border-box;
   margin: 0 auto;
 
@@ -1859,7 +1859,7 @@ h1, h2, h3, h4 {
 
     @include media-query($mobile) {
       margin-left: 0;
-      margin-bottom: 20px;
+      margin-bottom: 0;
 
       .sec-group-details-content {
         margin-left: 0;
@@ -2131,6 +2131,10 @@ h1, h2, h3, h4 {
       margin-bottom: 40px;
     }
 
+    &-data {
+      display: block;
+    }
+
     .speaker-image {
       display: block;
       width: 100%;
@@ -2153,11 +2157,11 @@ h1, h2, h3, h4 {
       display: block;
       padding: 0 20px;
       box-sizing: border-box;
-      font-size: 13px;
+      font-size: 14px;
     }
     .card-item-work {
       font-family: 'latoregular', sans-serif;
-      font-size: 13px;
+      font-size: 16px;
       display: block;
       padding: 10px 20px 0;
       margin-top: 10px;
@@ -2176,7 +2180,7 @@ h1, h2, h3, h4 {
     }
     .card-item-location {
       font-family: 'latoblack', sans-serif;
-      font-size: 11px;
+      font-size: 14px;
       display: block;
       padding: 0 20px 20px;
       margin-top: 20px;
@@ -2639,7 +2643,7 @@ h1, h2, h3, h4 {
         @include transition-ease;
 
         h4 {
-          font-family: 'latoregular', sans-serif;
+          font-family: 'latobold', sans-serif;
           font-size: 11px;
           font-weight: 400;
           letter-spacing: 2px;
@@ -2809,7 +2813,7 @@ h1, h2, h3, h4 {
     }
 
     h4 {
-      font-family: 'latoregular', sans-serif;
+      font-family: 'latobold', sans-serif;
       font-size: 11px;
       font-weight: 400;
       letter-spacing: 2px;
@@ -3169,6 +3173,18 @@ h1, h2, h3, h4 {
   }
 }
 
+.btn-ticket {
+  min-width: 205px;
+  margin: 40px 0 0 190px;
+
+  @include media-query($mobile) {
+    margin: 20px 25vw 0 25vw;
+  }
+  @include media-query-min($large) {
+    margin-left: 227px;
+  }
+}
+
 /**
   SIDEBAR - SINGLE POST */
 
@@ -3176,7 +3192,7 @@ h1, h2, h3, h4 {
 
   h4 {
     font-family: 'latoblack', sans-serif;
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: 1px;
     color: rgba($white, .5);
     text-transform: uppercase;
@@ -3216,6 +3232,12 @@ h1, h2, h3, h4 {
     
       justify-content: space-between;
       -webkit-justify-content: space-between;
+
+      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+      padding-left: 74px;
+      box-sizing: border-box;
+      position: relative;
     }
     
     li {
@@ -3223,6 +3245,20 @@ h1, h2, h3, h4 {
 
       &:last-of-type {
         margin-bottom: 0;
+      }
+
+      @include media-query($mobile) {
+        margin-bottom: 6px;
+        width: 50%;
+
+        &:first-of-type {
+          width: 100%;
+        }
+        &:last-of-type {
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
       }
 
       span > a {
@@ -3262,10 +3298,12 @@ h1, h2, h3, h4 {
       max-width: 165px;
     }
     @include media-query($mobile) {
-      display: none;
+      max-width: 55px;
     }
   }
 }
+
+
 .box-right {
   width: 360px;
   margin-left: 20px;
@@ -3276,11 +3314,39 @@ h1, h2, h3, h4 {
   }
 
   @include media-query($mobile) {
+    display: block;
+    position: relative;
+    margin-left: 0;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    box-sizing: border-box;
+    order: -1;
+    border-bottom: 1px solid rgba($white, .5);
+  }
+
+  input {
     display: none;
+  }
+
+  label {
+    display: none;
+    font-family: 'latoblack', sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: rgba($white, .5);
+    text-transform: uppercase;
+
+    @include media-query($mobile) {
+      display: block;
+    }
   }
 
   h4 {
     text-align: left;
+
+    @include media-query($mobile) {
+      display: none;
+    }
   }
 
   ul {
@@ -3290,6 +3356,11 @@ h1, h2, h3, h4 {
 
     &:last-of-type {
       margin-bottom: 0;
+    }
+
+    @include media-query($mobile) {
+      height: 0;
+      overflow: hidden;
     }
 
     li {
@@ -3314,6 +3385,46 @@ h1, h2, h3, h4 {
           color: $yellow;
         }
       }
+    }
+  }
+
+  input:checked ~ ul {
+    height: auto;
+  }
+  input:checked ~ .icon-plus:after {
+    display: none;
+  }
+
+  .icon-plus {
+    display: none;
+    content: '';
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    top: 4px;
+    right: 0;
+    
+    @include media-query($mobile) {
+      display: block;
+    }
+
+    &:before {
+      display: block;
+      content: '';
+      width: 11px;
+      height: 1px;
+      background: rgba($white, .5);
+      margin-top: 5px;
+    }
+    
+    &:after {
+      display: block;
+      content: '';
+      width: 1px;
+      height: 11px;
+      background: rgba($white, .5);
+      margin-left: 5px;
+      margin-top: -6px;
     }
   }
 

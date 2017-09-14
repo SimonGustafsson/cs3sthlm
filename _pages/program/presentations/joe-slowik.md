@@ -3,6 +3,8 @@ title: Strategic Network Defense in ICS Environments
 permalink: "/program/presentations/joe-slowik/"
 layout: presentation
 author: Joe Slowik
+role: Network Defender
+work: Dragos Inc
 profile:
  - image: joe.png
 id: presentation

@@ -3,6 +3,8 @@ title: Configurable Code-Reuse Attacks Mitigation for COTS Programmable Logic Co
 permalink: "/program/presentations/ali-abbasi/"
 layout: presentation
 author: Ali Abbasi
+role: Ph.D. candidate
+work: University of Twente, Netherlands
 profile:
  - image: ali-abbasi.png
 id: presentation

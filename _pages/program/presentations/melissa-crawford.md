@@ -3,6 +3,8 @@ title: ICS Program Development for Multi-national Corporations
 permalink: "/program/presentations/melissa-crawford/"
 layout: presentation
 author: Melissa Crawford
+role: Global Consultant
+work: Siemens
 profile:
  - image: melissa.png
 id: presentation

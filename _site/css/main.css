@@ -737,7 +737,7 @@ h1, h2, h3, h4 {
   display: block;
   width: 100%;
   max-width: 1160px;
-  padding: 0 20px 120px;
+  padding: 0 20px 100px;
   box-sizing: border-box;
   margin: 0 auto; }
   @media screen and (max-width: 768px) {
@@ -1501,7 +1501,7 @@ h1, h2, h3, h4 {
     @media screen and (max-width: 768px) {
       .sec-group-details.left-details {
         margin-left: 0;
-        margin-bottom: 20px; }
+        margin-bottom: 0; }
         .sec-group-details.left-details .sec-group-details-content {
           margin-left: 0; } }
     @media screen and (min-width: 1680px) {
@@ -1701,6 +1701,8 @@ h1, h2, h3, h4 {
         max-width: 100%;
         padding: 0 0 60px;
         margin-bottom: 40px; } }
+    .advisory-cards .card-item-data {
+      display: block; }
     .advisory-cards .card-item .speaker-image {
       display: block;
       width: 100%; }
@@ -1718,10 +1720,10 @@ h1, h2, h3, h4 {
       display: block;
       padding: 0 20px;
       box-sizing: border-box;
-      font-size: 13px; }
+      font-size: 14px; }
     .advisory-cards .card-item .card-item-work {
       font-family: 'latoregular', sans-serif;
-      font-size: 13px;
+      font-size: 16px;
       display: block;
       padding: 10px 20px 0;
       margin-top: 10px;
@@ -1737,7 +1739,7 @@ h1, h2, h3, h4 {
         top: 0; }
     .advisory-cards .card-item .card-item-location {
       font-family: 'latoblack', sans-serif;
-      font-size: 11px;
+      font-size: 14px;
       display: block;
       padding: 0 20px 20px;
       margin-top: 20px;
@@ -2084,7 +2086,7 @@ h1, h2, h3, h4 {
       -webkit-transtiion: 0.24s all ease-in-out;
       -o-transition: 0.24s all ease-in-out; }
       .speaker--list-item .speaker-block-data h4 {
-        font-family: 'latoregular', sans-serif;
+        font-family: 'latobold', sans-serif;
         font-size: 11px;
         font-weight: 400;
         letter-spacing: 2px;
@@ -2219,7 +2221,7 @@ h1, h2, h3, h4 {
     .speaker-block--header {
       padding: 40px 20px 20px; } }
   .speaker-block--header h4 {
-    font-family: 'latoregular', sans-serif;
+    font-family: 'latobold', sans-serif;
     font-size: 11px;
     font-weight: 400;
     letter-spacing: 2px;
@@ -2488,11 +2490,21 @@ h1, h2, h3, h4 {
   -webkit-transtiion: 0.24s all ease-in-out;
   -o-transition: 0.24s all ease-in-out; }
 
+.btn-ticket {
+  min-width: 205px;
+  margin: 40px 0 0 190px; }
+  @media screen and (max-width: 768px) {
+    .btn-ticket {
+      margin: 20px 25vw 0 25vw; } }
+  @media screen and (min-width: 1680px) {
+    .btn-ticket {
+      margin-left: 227px; } }
+
 /**
   SIDEBAR - SINGLE POST */
 .sidebar h4 {
   font-family: 'latoblack', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 1px;
   color: rgba(255, 255, 255, 0.5);
   text-transform: uppercase; }
@@ -2524,11 +2536,26 @@ h1, h2, h3, h4 {
         align-items: flex-start;
         -webkit-align-items: flex-start;
         justify-content: space-between;
-        -webkit-justify-content: space-between; } }
+        -webkit-justify-content: space-between;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        padding-left: 74px;
+        box-sizing: border-box;
+        position: relative; } }
     .box-left ul li {
       margin-bottom: 20px; }
       .box-left ul li:last-of-type {
         margin-bottom: 0; }
+      @media screen and (max-width: 768px) {
+        .box-left ul li {
+          margin-bottom: 6px;
+          width: 50%; }
+          .box-left ul li:first-of-type {
+            width: 100%; }
+          .box-left ul li:last-of-type {
+            position: absolute;
+            top: 0;
+            left: 0; } }
       .box-left ul li span > a {
         display: block;
         font-family: 'latobold', sans-serif;
@@ -2559,7 +2586,7 @@ h1, h2, h3, h4 {
         max-width: 165px; } }
     @media screen and (max-width: 768px) {
       .box-left img {
-        display: none; } }
+        max-width: 55px; } }
 
 .box-right {
   width: 360px;
@@ -2570,15 +2597,41 @@ h1, h2, h3, h4 {
       margin-left: 22px; } }
   @media screen and (max-width: 768px) {
     .box-right {
-      display: none; } }
+      display: block;
+      position: relative;
+      margin-left: 0;
+      margin-bottom: 20px;
+      padding-bottom: 12px;
+      box-sizing: border-box;
+      order: -1;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.5); } }
+  .box-right input {
+    display: none; }
+  .box-right label {
+    display: none;
+    font-family: 'latoblack', sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase; }
+    @media screen and (max-width: 768px) {
+      .box-right label {
+        display: block; } }
   .box-right h4 {
     text-align: left; }
+    @media screen and (max-width: 768px) {
+      .box-right h4 {
+        display: none; } }
   .box-right ul {
     text-align: left;
     list-style: none;
     margin-bottom: 40px; }
     .box-right ul:last-of-type {
       margin-bottom: 0; }
+    @media screen and (max-width: 768px) {
+      .box-right ul {
+        height: 0;
+        overflow: hidden; } }
     .box-right ul li {
       margin-top: 12px; }
     .box-right ul a {
@@ -2597,6 +2650,36 @@ h1, h2, h3, h4 {
         color: #ef7d00; }
         .box-right ul a:hover .p-time, .box-right ul a:hover .p-author {
           color: #ef7d00; }
+  .box-right input:checked ~ ul {
+    height: auto; }
+  .box-right input:checked ~ .icon-plus:after {
+    display: none; }
+  .box-right .icon-plus {
+    display: none;
+    content: '';
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    top: 4px;
+    right: 0; }
+    @media screen and (max-width: 768px) {
+      .box-right .icon-plus {
+        display: block; } }
+    .box-right .icon-plus:before {
+      display: block;
+      content: '';
+      width: 11px;
+      height: 1px;
+      background: rgba(255, 255, 255, 0.5);
+      margin-top: 5px; }
+    .box-right .icon-plus:after {
+      display: block;
+      content: '';
+      width: 1px;
+      height: 11px;
+      background: rgba(255, 255, 255, 0.5);
+      margin-left: 5px;
+      margin-top: -6px; }
   .box-right .p-title {
     display: block; }
   .box-right .p-time, .box-right .p-author {

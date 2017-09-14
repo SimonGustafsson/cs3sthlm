@@ -3,6 +3,8 @@ title: Secure SCADA Protocol for the 21st Century (SSP21)
 permalink: "/program/presentations/adam-crain/"
 layout: presentation
 author: Adam Crain
+role: Software Engineer
+work: Automatak
 profile:
  - image: adam.png
 id: presentation
