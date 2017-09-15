@@ -2,11 +2,11 @@
 title: "Security for Safety: Fortifying the last line of defense"
 permalink: "/program/presentations/jens-wiesner/"
 layout: presentation
-author: Jens Wiesner
-role: "Dipl. Phys."
-work: "German Federal Office for Information Security (BSI)"
-profile:
- - image: jens-wiesner.png
+speaker: 
+ - name: Jens Wiesner
+   role: "Dipl. Phys."
+   work: "German Federal Office for Information Security (BSI)"
+   image: jens-wiesner.png
 id: presentation
 ---
 

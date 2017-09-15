@@ -1,12 +1,12 @@
 ---
 title: Practical SCADA/ICS Honeypots
 short-title: Practical SCADA/ICS Honeypots
-layout: single-workshop
+layout: workshop
 author: Mikael Vingaard
 time: 24 October
 id: workshop
 permalink: "/program/workshops/mikael-vingaard/"
-image: mikael.png
+image: mikael-vingaard.png
 company: EnergiNet
 ---
 

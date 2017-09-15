@@ -1,12 +1,12 @@
 ---
 title: Network Forensics Training
 short-title: Network Forensics Training
-layout: single-workshop
+layout: workshop
 author: Erik Hjelmvik
 time: 23-24 October
 id: workshop
 permalink: "/program/workshops/erik-hjelmvik/"
-image: erik.png
+image: erik-hjelmvik.png
 company: NETRESEC
 ---
 

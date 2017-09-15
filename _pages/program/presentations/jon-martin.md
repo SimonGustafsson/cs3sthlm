@@ -2,14 +2,15 @@
 title: APT Case Study
 permalink: "/program/presentations/jon-røgeberg-and-martin-eian/"
 layout: presentation
-author: Jon Røgeberg & Martin Eian
-role: 
- - Manager
- - Senior Security Analyst
-work: mnemonic IRT
-profile:
- - image: jon.png
- - image: martin.png
+speaker: 
+ - name: Jon Røgeberg
+   role: Manager
+   work: mnemonic IRT
+   image: jon-røgeberg.png
+ - name: Martin Eian
+   role: Senior Security Analyst
+   work: mnemonic IRT
+   image: martin-eian.png
 id: presentation
 ---
 During a prolonged incident response contract with a customer, mnemonic was able to study an APT actor closely over a time span of six months.

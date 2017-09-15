@@ -21,23 +21,24 @@ permalink: "/program/presentations/"
   </div>
 
   <div class="presentation--list">
-
       <ul>
       {% assign sorted_presentations = site.pages | sort: 'author' %}
       {% for page in sorted_presentations %}
       {% if page.id ==  'presentation' %}
         <li><a href="{{ page.url | prepend: site.baseurl }}">
-            {% for item in page.profile %}
+            {% for item in page.speaker %}
             <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}">
             {% endfor %}
             <div class="presentation--list-meta">
               <span class="p-title">{{ page.title }}</span>
-              <span class="p-author">{{ page.author }}</span>
+              {% for item in page.speaker %}
+              <span class="p-author">{{ item.name }}</span>
+              {% endfor %}
             </div>
         </a></li>
       {% endif %}
       {% endfor %}
       </ul>
-    </div>
+  </div>
 
 </section>

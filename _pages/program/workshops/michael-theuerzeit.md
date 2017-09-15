@@ -1,7 +1,7 @@
 ---
 title: "Cyber Security for Industrial Automation and Control Systems: An introduction of the IEC 62443 standard"
 short-title: "An introduction of the IEC 62443"
-layout: single-workshop
+layout: workshop
 author: Michael Theuerzeit
 time: 24 October
 id: workshop

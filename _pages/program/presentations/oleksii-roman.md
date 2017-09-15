@@ -2,15 +2,14 @@
 title: "Cyberattacks Against Critical Infrastructure in Ukraine: Taxonomy, Consequences, Lessons Learned"
 permalink: "/program/presentations/oleksii-yasynskyi-and-roman-sologub/"
 layout: presentation
-author: Oleksii Yasynskyi & Roman Sologub
-role:
- - Cybersecurity Expert
- - General Manager & CEO
-work:
- - ISSP Labs
- - ISSP Group
-profile:
- - image: oleksii.png
- - image: roman-two.png
+speaker: 
+ - name: Oleksii Yasynskyi
+   role: Cybersecurity Expert
+   work: ISSP Labs
+   image: oleksii-yasynskyi.png
+ - name: Roman Sologub
+   role: General Manager & CEO
+   work: ISSP Group
+   image: roman-sologub.png
 id: presentation
 ---

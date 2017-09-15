@@ -2,11 +2,11 @@
 title: "From Box to Backdoor: Using Old School Tools and Techniques to Discover Backdoors in Modern Devices"
 permalink: "/program/presentations/patrick-desantis/"
 layout: presentation
-author: Patrick DeSantis
-role: Senior Security Researcher Engineer
-work: Cisco Talos
-profile:
- - image: patrick-desantis.png
+speaker: 
+ - name: Patrick DeSantis
+   role: Senior Security Researcher Engineer
+   work: Cisco Talos
+   image: patrick-desantis.png
 id: presentation
 ---
 Stringing together the exploitation of several seemingly uninteresting vulnerabilities can be a fun challenge for security researchers, penetration testers, and malicious attackers.

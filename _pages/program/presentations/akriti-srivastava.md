@@ -2,13 +2,14 @@
 title: S in IoT is for Security
 permalink: "/program/presentations/akriti-srivastava/"
 layout: presentation
-author: Akriti Srivastava
-role: Security Researcher
-work: Adobe Systems
-profile:
- - image: akriti-srivastava.png
+speaker: 
+ - name: Akriti Srivastava
+   role: Security Researcher
+   work: Adobe Systems
+   image: akriti-srivastava.png
 id: presentation
 ---
+
 This paper unveils some of the reasons for and the types of security concerns associated with Internet of Things, and some recommendations that device manufacturers should keep in mind while manufacturing IoT enabled devices and designing IoT interfaces.
 
 Highlights of presentation are:
