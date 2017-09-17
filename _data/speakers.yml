@@ -226,3 +226,15 @@
   presentation: "Security for Safety: Fortifying the last line of defense"
   permalink: program/presentations/jens-wiesner/
 
+- id: 20
+  name: Dan Demeter
+  from-short: RO
+  from-long: Romania
+  role: Security Researcher
+  work: Kaspersky Labs
+  image: dan-demeter.png
+  conf-role: Speaker
+  bio: Dan graduated from Imperial College London and holds a Master of Engineering in Software Engineering. He joined Kaspersky Lab in 2014 where his work focuses on developing threat intelligence systems, processing big data and creating new technologies to fight advanced persistent threats.
+  presentation: Back to the IoT Future
+  permalink: program/presentations/dan-demeter/
+

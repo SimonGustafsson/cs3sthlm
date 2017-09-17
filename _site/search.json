@@ -86,6 +86,14 @@
   
    {
      
+        "title"    : "Back to the IoT Future",
+        "url"      : "/program/presentations/dan-demeter/",
+        "path"     : "/program/presentations/dan-demeter/"
+     
+   } ,
+  
+   {
+     
         "title"    : "DIY insider threat detection/prevention within ICS enviroments",
         "url"      : "/program/presentations/dieter-sarrazyn/",
         "path"     : "/program/presentations/dieter-sarrazyn/"
@@ -114,9 +122,9 @@
   
    {
      
-        "title"    : "Press",
-        "url"      : "/press/",
-        "path"     : "/press/"
+        "title"    : "Practical Details",
+        "url"      : "/practical-details/",
+        "path"     : "/practical-details/"
      
    } ,
   
@@ -130,17 +138,17 @@
   
    {
      
-        "title"    : "News",
-        "url"      : "/news/",
-        "path"     : "/news/"
+        "title"    : "Press",
+        "url"      : "/press/",
+        "path"     : "/press/"
      
    } ,
   
    {
      
-        "title"    : "Practical Details",
-        "url"      : "/practical-details/",
-        "path"     : "/practical-details/"
+        "title"    : "News",
+        "url"      : "/news/",
+        "path"     : "/news/"
      
    } ,
   

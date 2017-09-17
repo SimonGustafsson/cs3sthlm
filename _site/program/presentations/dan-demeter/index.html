@@ -6,24 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>CS3STHLM | DIY insider threat detection/prevention within ICS enviroments</title>
+  <title>CS3STHLM | Back to the IoT Future</title>
   <meta name="description" content="CS3STHLM - Stockholm international summit on cyber-security in SCADA and Industrial Control Systems. CS3STHLM is an annual summit that gather the most import...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="/program/presentations/dieter-sarrazyn/">
+  <link rel="canonical" href="/program/presentations/dan-demeter/">
   <link rel="alternate" type="application/rss+xml" title="CS3STHLM" href="/feed.xml">
   <link rel="icon" type="image/png" href="assets/favicon-32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="assets/favicon-16x16.png" sizes="16x16" />
 
   <!-- Begin Jekyll SEO tag v2.2.2 -->
-<title>DIY insider threat detection/prevention within ICS enviroments | CS3STHLM</title>
-<meta property="og:title" content="DIY insider threat detection/prevention within ICS enviroments" />
+<title>Back to the IoT Future | CS3STHLM</title>
+<meta property="og:title" content="Back to the IoT Future" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="CS3STHLM - Stockholm international summit on cyber-security in SCADA and Industrial Control Systems. CS3STHLM is an annual summit that gather the most important ICS/SCADA cyber security stakeholders across critical industries (i.e. energy, oil &amp; gas, water, transportation and smartgrid etc)" />
 <meta property="og:description" content="CS3STHLM - Stockholm international summit on cyber-security in SCADA and Industrial Control Systems. CS3STHLM is an annual summit that gather the most important ICS/SCADA cyber security stakeholders across critical industries (i.e. energy, oil &amp; gas, water, transportation and smartgrid etc)" />
 <meta property="og:site_name" content="CS3STHLM" />
 <script type="application/ld+json">
-{"@context":"http://schema.org","@type":"WebPage","headline":"DIY insider threat detection/prevention within ICS enviroments","description":"CS3STHLM - Stockholm international summit on cyber-security in SCADA and Industrial Control Systems. CS3STHLM is an annual summit that gather the most important ICS/SCADA cyber security stakeholders across critical industries (i.e. energy, oil &amp; gas, water, transportation and smartgrid etc)","url":"/program/presentations/dieter-sarrazyn/"}</script>
+{"@context":"http://schema.org","@type":"WebPage","headline":"Back to the IoT Future","description":"CS3STHLM - Stockholm international summit on cyber-security in SCADA and Industrial Control Systems. CS3STHLM is an annual summit that gather the most important ICS/SCADA cyber security stakeholders across critical industries (i.e. energy, oil &amp; gas, water, transportation and smartgrid etc)","url":"/program/presentations/dan-demeter/"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -96,7 +96,7 @@
   	
 	
 	
-  		<li>Dieter sarrazyn</li>
+  		<li>Dan demeter</li>
   	
 	
 </ul>
@@ -108,24 +108,24 @@
   <aside class="sidebar box-left">
     
     <ul>
-      <li><h4>Author</h4><span class="post-author">Dieter Sarrazyn</span></li>
-      <li><h4>Role</h4><span class="post-author">Security Expert</span></li>
-      <li><h4>Work</h4><span class="post-author">Secudea bvba</span></li>
-      <li><img src="/assets/speakers/dieter-sarrazyn.png"></li>
+      <li><h4>Author</h4><span class="post-author">Dan Demeter</span></li>
+      <li><h4>Role</h4><span class="post-author">Security Researcher</span></li>
+      <li><h4>Work</h4><span class="post-author">Kaspersky Labs</span></li>
+      <li><img src="/assets/speakers/dan-demeter.png"></li>
     </ul>
     
   </aside>
 
   <div class="post-content" itemprop="articleBody">
     <header class="post-header">
-      <h1 class="post-title" itemprop="name headline">DIY insider threat detection/prevention within ICS enviroments</h1>
+      <h1 class="post-title" itemprop="name headline">Back to the IoT Future</h1>
     </header>
 
-    <p>This presentation aims at helping people setting up an internal “insider threat detection/prevention” program without looking at the big/expensive products out there. This presentation mainly shows how (sometimes simple) things and tricks can be used to tackle the insider threat within ICS environments. Before digging into the possible things to be done, a small recapitulation on what an insider is, is given. The DIY is meant to be done without (heavy) use of large and sometimes expensive toolsets and covers aspects like baselining environment and users. And what interesting set of information should be taken into account to increase detection ratio of insider threats (physical, network, system and user level). Preventing insider threats is influenced by network zoning, hardening, physical walkthroughs etc…</p>
+    <p>Introducing the honeypot project, which will be an open source project, allowing anyone to run a small honeypot in their network. The idea of this project is to let anyone clone the git repo and then setup his own IoT honeypot anywhere using Docker virtualization platform. The project will be announced for the first time at your conference, as I’m still polishing right now.</p>
 
-<p>Free tooling such as arp detection, scanners, the FOSS project will be included in the presentation to indicate where these can be effectively used for threat detection/prevention.</p>
+<p>Showing the latest attacks captured by the honeypots that are deployed mostly in Romania, in residential networks. The main assumption is that attackers are actually avoiding honeypots running in main VPS providers ASNs / IP ranges and are actually targeting residential networks. So I did just that: installed honeypots in 5 big Romanian ISPs. They account for more than 80% of all RO residential networks. The moment we installed these honeypots, we started seeing attacks. They were not just a few, so I will discuss about trends: for example how attackers are reacting to publicly released new 0day exploits by improving the attack methods. I will present a comprehensive view and the current attack trends at global scale ( data provided by honeypots installed all around the world) and at a country level (data provided by the honeypots installed in Romanian residential networks).</p>
 
-<p>All this will be with ICS environments and the inherent problems theirin in mind. A pragmatic approach will be shown perform insider threat detection/prevention within ICS without having to spend big money on it (except for time necessary to do/setup things).</p>
+<p>Once we collected network attacks I started checking the payload or bash commands the attackers were sending. This allowed me to fetch some fresh/interesting samples (this part was not presented at SAS due to time constraints). I will talk about these samples as well.</p>
 
   </div>
 
