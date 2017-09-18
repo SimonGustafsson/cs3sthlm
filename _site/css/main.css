@@ -3230,7 +3230,10 @@ h1, h2, h3, h4 {
       margin-bottom: 0; }
     .presentation--list ul li {
       width: 550px;
-      margin-bottom: 24px; }
+      margin-bottom: 24px;
+      break-inside: avoid;
+      -webkit-column-break-inside: avoid;
+      page-break-inside: avoid; }
       .presentation--list ul li:last-of-type {
         margin-bottom: 0; }
       @media screen and (max-width: 768px) {

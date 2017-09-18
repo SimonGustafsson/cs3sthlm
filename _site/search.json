@@ -114,17 +114,9 @@
   
    {
      
-        "title"    : "Advisory",
-        "url"      : "/about/advisory/",
-        "path"     : "/about/advisory/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Practical Details",
-        "url"      : "/practical-details/",
-        "path"     : "/practical-details/"
+        "title"    : "About",
+        "url"      : "/about/",
+        "path"     : "/about/"
      
    } ,
   
@@ -133,14 +125,6 @@
         "title"    : "Partners",
         "url"      : "/partners/",
         "path"     : "/partners/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Press",
-        "url"      : "/press/",
-        "path"     : "/press/"
      
    } ,
   
@@ -170,9 +154,17 @@
   
    {
      
-        "title"    : "Presentations",
-        "url"      : "/program/presentations/",
-        "path"     : "/program/presentations/"
+        "title"    : "Agenda",
+        "url"      : "/agenda/",
+        "path"     : "/agenda/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Press",
+        "url"      : "/press/",
+        "path"     : "/press/"
      
    } ,
   
@@ -186,9 +178,17 @@
   
    {
      
-        "title"    : "Agenda",
-        "url"      : "/agenda/",
-        "path"     : "/agenda/"
+        "title"    : "Advisory",
+        "url"      : "/about/advisory/",
+        "path"     : "/about/advisory/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Speakers",
+        "url"      : "/program/speakers/",
+        "path"     : "/program/speakers/"
      
    } ,
   
@@ -202,9 +202,9 @@
   
    {
      
-        "title"    : "About",
-        "url"      : "/about/",
-        "path"     : "/about/"
+        "title"    : "Practical Details",
+        "url"      : "/practical-details/",
+        "path"     : "/practical-details/"
      
    } ,
   
@@ -226,9 +226,9 @@
   
    {
      
-        "title"    : "Speakers",
-        "url"      : "/program/speakers/",
-        "path"     : "/program/speakers/"
+        "title"    : "Presentations",
+        "url"      : "/program/presentations/",
+        "path"     : "/program/presentations/"
      
    } ,
   
@@ -237,6 +237,14 @@
         "title"    : "Security for Safety: Fortifying the last line of defense",
         "url"      : "/program/presentations/jens-wiesner/",
         "path"     : "/program/presentations/jens-wiesner/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Pro-Kremlin trolls, fake news and propagandists as opinion influencers - and how to counter them",
+        "url"      : "/program/presentations/jessikka-aro/",
+        "path"     : "/program/presentations/jessikka-aro/"
      
    } ,
   
