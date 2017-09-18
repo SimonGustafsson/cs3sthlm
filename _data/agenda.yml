@@ -1,45 +1,53 @@
 
 #day-one
 #main
-- id: 25
+
+- id: d1-main
   time: 08.00 - 09.00
-  text: Registration
+  role:
+  headline: Doors Open Registration
   speaker:
 
-- id: 25
-  time: "09.00"
-  text: Pre-summit Workshops/Tutorials
-  speaker-list:
-    - <li>ICS Active Defence - Robert M. Lee</li>
-    - <li>Shodan Hacking - John Matherly</li>
-    - <li>Introduction to the IEC 62443 Standard - Arjan Meijer</li>
-
-- id: 25
-  time: "17.00"
-  text: End of pre-summit Workshops/Tutorials
-
-- id: 25
-  time: "18.00"
-  text: Registration and Networking Reception Bar
-
-- id: 25
-  time: 
-  text: Evening Presentations by 4SICS Premium Partners
-
-- id: 25
-  time: "19.15"
-  text: KIPS (Kaspersky Interactive Protection Simulation)
-
-- id: 25
-  time: "22.00"
-  text: End of Networking Reception
+- id: d1-main
+  time: 09.00 - 17.00
+  role: Workshop
+  headline: Network Forensics Training
+  speaker: Erik Hjelmvik
+  permalink: program/workshops/erik-hjelmvik/
 
 #forum
 
-
-
 #day-two
 #main
+
+- id: d2-main
+  time: 08.00 - 09.00
+  role:
+  headline: Doors Open Registration
+  speaker:
+
+- id: d2-main
+  time: 09.00 - 17.00
+  role: Workshop
+  headline: Network Forensics Training
+  speaker: Erik Hjelmvik
+  permalink: program/workshops/erik-hjelmvik/
+
+- id: d2-main
+  time: 09.00 - 17.00
+  role: Workshop
+  headline: An introduction of the IEC 62443
+  speaker: Michael Theuerzeit
+  permalink: program/workshops/michael-theuerzeit/
+
+
+- id: d2-main
+  time: 09.00 - 17.00
+  role: Workshop
+  headline: Practical SCADA/ICS Honeypots
+  speaker: Mikael Vingaard
+  permalink: program/workshops/mikael-vingaard/
+
 
 #forum
 

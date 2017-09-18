@@ -74,7 +74,10 @@ h1, h2, h3, h4 {
   @include media-query($mobile) {
     height: 88px;
   }
-
+  @include media-query($ipad) {
+    max-width: 100%;
+    padding: 0 40px;
+  }
   @include media-query-min($large) {
     max-width: 1380px;
   }
@@ -811,6 +814,9 @@ h1, h2, h3, h4 {
   @include media-query($mobile) {
     padding-top: 60px;
   }
+  @include media-query($ipad) {
+    padding-top: 100px;
+  }
 }
 
 
@@ -830,7 +836,10 @@ h1, h2, h3, h4 {
   @include media-query($mobile) {
     padding: 0 0 60px;
   }
-
+  @include media-query($ipad) {
+    padding: 0 40px;
+    max-width: 100%;
+  }
   @include media-query-min($large) {
     max-width: 1380px;
   }
@@ -1426,6 +1435,9 @@ h1, h2, h3, h4 {
     
       .btn:last-of-type {
         margin-left: 20px;
+      }
+      .btn:first-of-type {
+        margin-left: 0;
       }
     }
 
@@ -2681,6 +2693,11 @@ h1, h2, h3, h4 {
       margin-bottom: 0;
     }
 
+    @include media-query($ipad) {
+      width: 20%;
+      max-width: 20%;
+    }
+
     @include media-query-min($large) {
       width: 268px;
       max-width: 268px;
@@ -2697,7 +2714,10 @@ h1, h2, h3, h4 {
         height: 402px;
         min-height: 402px;
       }
-
+      @include media-query($ipad) {
+        height: 226px;
+        min-height: 226px;
+      }
       @include media-query($mobile) {
         height: 310px;
         min-height: 310px;
@@ -2734,6 +2754,10 @@ h1, h2, h3, h4 {
 
         @include transition-ease;
 
+        @include media-query($ipad) {
+          padding: 14px;
+        }
+
         h4 {
           font-family: 'latobold', sans-serif;
           font-size: 11px;
@@ -2755,6 +2779,9 @@ h1, h2, h3, h4 {
           @include media-query($mobile) {
             font-size: 11px;
           }
+          @include media-query($ipad) {
+            font-size: 9px;
+          }
         }
         h3 {
           font-family: 'latoregular', sans-serif;
@@ -2775,6 +2802,9 @@ h1, h2, h3, h4 {
           @include media-query($mobile) {
             font-size: 18px;
             font-size: 4.2vw;
+          }
+          @include media-query($ipad) {
+            font-size: 12px;
           }
           @include media-query-min($large) {
             font-size: 21px;
@@ -2822,6 +2852,9 @@ h1, h2, h3, h4 {
         top: 0;
         left: 0;
         overflow: scroll;
+      }
+      @include media-query($ipad) {
+        width: 754px;
       }
 
       @include media-query-min($large) {
@@ -4494,6 +4527,10 @@ h1, h2, h3, h4 {
   box-sizing: border-box;
   margin: 0 auto;
 
+  @include media-query($ipad) {
+    padding: 0 40px 40px; 
+  }
+
   @include media-query-min($large) {
     max-width: 1380px;
   }
@@ -4513,6 +4550,12 @@ h1, h2, h3, h4 {
         width: 50%;
         max-width: 50%;
         margin: 0 0 20px;
+      }
+
+      @include media-query($ipad) {
+        width: calc(25% - 20px);
+        max-width: calc(25% - 20px);
+        margin-bottom: 20px;
       }
 
       @include media-query-min($large) {

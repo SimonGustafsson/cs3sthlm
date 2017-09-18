@@ -57,13 +57,13 @@ $content-width:    800px;
 $mobile:       768px;
 $default:      1280px;
 $large:        1680px;
+$ipad:         834px;
 
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
     }
 }
-
 @mixin media-query-min($device) {
   @media screen and (min-width: $device) {
       @content;

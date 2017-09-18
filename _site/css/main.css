@@ -179,6 +179,10 @@ h1, h2, h3, h4 {
   @media screen and (max-width: 768px) {
     .header {
       height: 88px; } }
+  @media screen and (max-width: 834px) {
+    .header {
+      max-width: 100%;
+      padding: 0 40px; } }
   @media screen and (min-width: 1680px) {
     .header {
       max-width: 1380px; } }
@@ -730,6 +734,9 @@ h1, h2, h3, h4 {
   @media screen and (max-width: 768px) {
     .wrap {
       padding-top: 60px; } }
+  @media screen and (max-width: 834px) {
+    .wrap {
+      padding-top: 100px; } }
 
 /**
   CONTENT */
@@ -743,6 +750,10 @@ h1, h2, h3, h4 {
   @media screen and (max-width: 768px) {
     .content {
       padding: 0 0 60px; } }
+  @media screen and (max-width: 834px) {
+    .content {
+      padding: 0 40px;
+      max-width: 100%; } }
   @media screen and (min-width: 1680px) {
     .content {
       max-width: 1380px; } }
@@ -1177,6 +1188,8 @@ h1, h2, h3, h4 {
         width: 100%; } }
     .sec-head .block-head .btn-group .btn:last-of-type {
       margin-left: 20px; }
+    .sec-head .block-head .btn-group .btn:first-of-type {
+      margin-left: 0; }
   @media screen and (max-width: 768px) {
     .sec-head .block-head .speaker-row {
       display: none; } }
@@ -2101,6 +2114,10 @@ h1, h2, h3, h4 {
       width: 50%;
       max-width: 50%;
       margin-bottom: 0; } }
+  @media screen and (max-width: 834px) {
+    .speaker--list-item {
+      width: 20%;
+      max-width: 20%; } }
   @media screen and (min-width: 1680px) {
     .speaker--list-item {
       width: 268px;
@@ -2115,6 +2132,10 @@ h1, h2, h3, h4 {
       .speaker--list-item .speaker-block {
         height: 402px;
         min-height: 402px; } }
+    @media screen and (max-width: 834px) {
+      .speaker--list-item .speaker-block {
+        height: 226px;
+        min-height: 226px; } }
     @media screen and (max-width: 768px) {
       .speaker--list-item .speaker-block {
         height: 310px;
@@ -2150,6 +2171,9 @@ h1, h2, h3, h4 {
       -moz-transition: 0.24s all ease-in-out;
       -webkit-transtiion: 0.24s all ease-in-out;
       -o-transition: 0.24s all ease-in-out; }
+      @media screen and (max-width: 834px) {
+        .speaker--list-item .speaker-block-data {
+          padding: 14px; } }
       .speaker--list-item .speaker-block-data h4 {
         font-family: 'latobold', sans-serif;
         font-size: 11px;
@@ -2168,6 +2192,9 @@ h1, h2, h3, h4 {
         @media screen and (max-width: 768px) {
           .speaker--list-item .speaker-block-data h4 {
             font-size: 11px; } }
+        @media screen and (max-width: 834px) {
+          .speaker--list-item .speaker-block-data h4 {
+            font-size: 9px; } }
       .speaker--list-item .speaker-block-data h3 {
         font-family: 'latoregular', sans-serif;
         font-size: 16px;
@@ -2185,6 +2212,9 @@ h1, h2, h3, h4 {
           .speaker--list-item .speaker-block-data h2 {
             font-size: 18px;
             font-size: 4.2vw; } }
+        @media screen and (max-width: 834px) {
+          .speaker--list-item .speaker-block-data h2 {
+            font-size: 12px; } }
         @media screen and (min-width: 1680px) {
           .speaker--list-item .speaker-block-data h2 {
             font-size: 21px; } }
@@ -2221,6 +2251,9 @@ h1, h2, h3, h4 {
         top: 0;
         left: 0;
         overflow: scroll; } }
+    @media screen and (max-width: 834px) {
+      .speaker--list-item .speaker-block-details {
+        width: 754px; } }
     @media screen and (min-width: 1680px) {
       .speaker--list-item .speaker-block-details {
         width: 1340px; } }
@@ -3449,6 +3482,9 @@ h1, h2, h3, h4 {
     padding: 0 20px 40px;
     box-sizing: border-box;
     margin: 0 auto; }
+    @media screen and (max-width: 834px) {
+      .footer-inner {
+        padding: 0 40px 40px; } }
     @media screen and (min-width: 1680px) {
       .footer-inner {
         max-width: 1380px; } }
@@ -3465,6 +3501,11 @@ h1, h2, h3, h4 {
           width: 50%;
           max-width: 50%;
           margin: 0 0 20px; } }
+      @media screen and (max-width: 834px) {
+        .footer-inner ul {
+          width: calc(25% - 20px);
+          max-width: calc(25% - 20px);
+          margin-bottom: 20px; } }
       @media screen and (min-width: 1680px) {
         .footer-inner ul {
           width: 205px;
@@ -3716,7 +3757,11 @@ h1, h2, h3, h4 {
   justify-content: flex-start;
   -webkit-justify-content: flex-start;
   flex-wrap: wrap;
-  -webkit-flex-wrap: wrap; }
+  -webkit-flex-wrap: wrap;
+  margin-top: 40px; }
+  @media screen and (max-width: 768px) {
+    .agenda--block {
+      margin-top: 0; } }
 
 .agenda--header {
   display: -webkit-box;
@@ -3739,6 +3784,9 @@ h1, h2, h3, h4 {
     padding: 12px 20px;
     box-sizing: border-box;
     background: #1c1e22; }
+    .agenda--header-item:hover {
+      cursor: pointer;
+      background: rgba(43, 47, 54, 0.75); }
     .agenda--header-item:first-of-type {
       border-radius: 2px 0 0 2px; }
     .agenda--header-item:last-of-type {
@@ -3796,26 +3844,40 @@ h1, h2, h3, h4 {
           text-align: left; } }
 
 .agenda--content {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
   align-items: flex-start;
   -webkit-align-items: flex-start;
   justify-content: flex-start;
   -webkit-justify-content: flex-start;
   flex-wrap: wrap;
-  -webkit-flex-wrap: wrap; }
+  -webkit-flex-wrap: wrap;
+  display: none; }
+  .agenda--content-open {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex; }
+    @media screen and (max-width: 768px) {
+      .agenda--content-open {
+        width: 100%; } }
   .agenda--content-main, .agenda--content-forum {
     display: block;
     padding-top: 20px;
     box-sizing: border-box; }
+    @media screen and (max-width: 768px) {
+      .agenda--content-main, .agenda--content-forum {
+        display: none; } }
+    @media screen and (max-width: 768px) {
+      .agenda--content-main.agenda--content-open, .agenda--content-forum.agenda--content-open {
+        display: block; } }
+    @media screen and (max-width: 768px) {
+      .agenda--content-main, .agenda--content-forum {
+        width: 100%; } }
   .agenda--content-forum {
     margin-left: 20px; }
     @media screen and (max-width: 768px) {
       .agenda--content-forum {
-        display: none; } }
+        margin-left: 0; } }
 
 .agenda--btn-group {
   display: -webkit-box;
@@ -3840,16 +3902,18 @@ h1, h2, h3, h4 {
     @media screen and (max-width: 768px) {
       .agenda--btn-group .btn-agenda {
         margin-left: 20px;
-        font-size: 10px; }
+        font-size: 10px;
+        opacity: .5; }
         .agenda--btn-group .btn-agenda-active {
-          opacity: 1; }
-        .agenda--btn-group .btn-agenda-inactive {
-          opacity: .5; } }
+          opacity: 1; } }
 
 .agenda--list {
   display: block;
   width: 550px;
   list-style: none; }
+  @media screen and (min-width: 1680px) {
+    .agenda--list {
+      width: 660px; } }
   @media screen and (max-width: 768px) {
     .agenda--list {
       width: 100%; } }
@@ -3903,4 +3967,6 @@ h1, h2, h3, h4 {
   .agenda--list-role {
     color: #ef7d00; }
   .agenda--list-speaker {
+    color: #a6a7a9; }
+  .agenda--list-time {
     color: #a6a7a9; }

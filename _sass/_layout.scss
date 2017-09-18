@@ -16,6 +16,12 @@
 
 	flex-wrap: wrap;
 	-webkit-flex-wrap: wrap;
+
+	margin-top: 40px;
+
+	@include media-query($mobile) {
+		margin-top: 0;
+	}
 }
 
 .agenda--header {
@@ -43,6 +49,11 @@
 		padding: 12px 20px;
 		box-sizing: border-box;
 		background: $blue-darken;
+
+		&:hover {
+			cursor: pointer;
+			background: rgba($blue-dark, .75);
+		}
 
 		&:first-of-type {
 			border-radius: 2px 0 0 2px;
@@ -125,12 +136,6 @@
 }
 
 .agenda--content {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-
 	align-items: flex-start;
 	-webkit-align-items: flex-start;
 
@@ -140,18 +145,48 @@
 	flex-wrap: wrap;
 	-webkit-flex-wrap: wrap;
 
+	display: none;
+
+	&-open {
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+
+
+		@include media-query($mobile) {
+			width: 100%;
+		}
+	}
+
 	
 	&-main, &-forum {
 		display: block;
 		padding-top: 20px;
 		box-sizing: border-box;
+
+		@include media-query($mobile) {
+			display: none;
+		}
+
+		&.agenda--content-open {
+			
+			@include media-query($mobile) {
+				display: block;
+			}
+		}
+
+		@include media-query($mobile) {
+			width: 100%;
+		}
 	}
 
 	&-forum {
 		margin-left: 20px;
 
 		@include media-query($mobile) {
-			display: none;
+			margin-left: 0;
 		}
 	}
 }
@@ -186,12 +221,10 @@
 		@include media-query($mobile) {
 			margin-left: 20px;
 			font-size: 10px;
+			opacity: .5;
 
 			&-active {
 				opacity: 1;
-			}
-			&-inactive {
-				opacity: .5;
 			}
 		}
 	}
@@ -202,6 +235,10 @@
 	display: block;
 	width: 550px;
 	list-style: none;
+
+	@include media-query-min($large) {
+		width: 660px;
+	}
 
 	@include media-query($mobile) {
 		width: 100%;
@@ -286,7 +323,7 @@
 	}
 
 	&-time {
-
+		color: $gray;
 	}
 
 }
