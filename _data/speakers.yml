@@ -249,3 +249,15 @@
   bio: Jessikka Aro is an awarded investigative reporter with Finnish Broadcasting Company's social media project Yle Kioski. Aro specializes in Russia, extremism and information warfare. In 2014 she became the target of serious and still ongoing international propaganda and hate speech campaign after reporting about pro-Kremlin social media trolls. Currently Aro writes an investigative book about Kremlin's information warfare and trains reporters and general public to recognize and counter online disinformation. Aro is also lobbying for better legislation to counter hybrid threats and protect citizens from state-sponsored online security threats.
   presentation: "Pro-Kremlin trolls, fake news and propagandists as opinion influencers - and how to counter them"
   permalink: program/presentations/jessikka-aro/
+
+- id: 22
+  name: Anne-Marie Eklund Löwinder
+  from-short: SE
+  from-long: Sweden
+  role: Chief Information Security Officer
+  work: IIS, The Internet Foundation In Sweden
+  image: amel.png
+  conf-role: Moderator
+  bio: She is the Chief Information Security Officer at IIS, The Internet Foundation In Sweden. She also serves on the boards of internet-related organisations including the Council of European National Top Level Domain Registries (CENTR) and the Swedish Law and Informatics Research Institute. Eklund Löwinder has been appointed Trusted Community Representative by the Internet Corporation for Assigned Names and Numbers (ICANN). She is one of seven people who control the DNSSEC key generation for the internet root zone.
+  presentation:
+  permalink:

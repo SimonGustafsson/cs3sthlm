@@ -2991,6 +2991,7 @@ h1, h2, h3, h4 {
     }
     .col-3-6 {
       width: 550px;
+      margin-right: auto;
 
       @include media-query($mobile) {
         width: 100%;

@@ -2352,7 +2352,8 @@ h1, h2, h3, h4 {
       .speaker-block--content .col-2-6 {
         width: 432px; } }
   .speaker-block--content .col-3-6 {
-    width: 550px; }
+    width: 550px;
+    margin-right: auto; }
     @media screen and (max-width: 768px) {
       .speaker-block--content .col-3-6 {
         width: 100%;
