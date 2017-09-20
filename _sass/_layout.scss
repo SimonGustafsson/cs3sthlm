@@ -239,7 +239,6 @@
 	@include media-query-min($large) {
 		width: 660px;
 	}
-
 	@include media-query($mobile) {
 		width: 100%;
 	}
