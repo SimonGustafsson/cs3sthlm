@@ -185,7 +185,8 @@ h1, h2, h3, h4 {
       padding: 0 40px; } }
   @media screen and (max-width: 768px) {
     .header {
-      height: 88px; } }
+      height: 88px;
+      padding: 0 20px; } }
   .header--row {
     display: -webkit-box;
     display: -moz-box;
