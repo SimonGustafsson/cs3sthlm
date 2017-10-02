@@ -960,6 +960,19 @@ h1, h2, h3, h4 {
 @media screen and (max-width: 768px) {
   .sec-head {
     padding: 0 20px; } }
+.sec-head .col-6 {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: flex-start;
+  -webkit-align-items: flex-start;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  width: 100%; }
 .sec-head .col-ml-1 {
   margin-left: 190px; }
   @media screen and (min-width: 1680px) {
@@ -3424,6 +3437,9 @@ h1, h2, h3, h4 {
     @media screen and (min-width: 1680px) {
       .sec-program .col-6 .presentation--list ul li {
         width: 100%; } }
+.sec-program .col-6-6 {
+  display: block;
+  width: 100%; }
 .sec-program .col-4-6 {
   display: block;
   width: 740px; }
@@ -3444,6 +3460,35 @@ h1, h2, h3, h4 {
   @media screen and (max-width: 768px) {
     .sec-program .col-4-6.speaker-block-group {
       margin-top: 20px; } }
+.sec-program .col-3-6 {
+  display: block;
+  width: 550px; }
+  @media screen and (min-width: 1680px) {
+    .sec-program .col-3-6 {
+      width: 660px; } }
+  @media screen and (max-width: 1170px) {
+    .sec-program .col-3-6 {
+      width: 100%; } }
+  @media screen and (max-width: 768px) {
+    .sec-program .col-3-6 {
+      width: 100%;
+      padding: 0 20px;
+      box-sizing: border-box; } }
+  .sec-program .col-3-6 img {
+    width: 100%;
+    vertical-align: top; }
+  .sec-program .col-3-6 img:nth-child(2) {
+    margin-top: 20px; }
+    @media screen and (max-width: 768px) {
+      .sec-program .col-3-6 img:nth-child(2) {
+        margin-bottom: 20px; } }
+  .sec-program .col-3-6 p {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 20px; }
+    @media screen and (min-width: 1680px) {
+      .sec-program .col-3-6 p {
+        font-size: 23px; } }
 .sec-program .col-2-6 {
   display: block;
   width: 360px; }
@@ -3513,7 +3558,8 @@ h1, h2, h3, h4 {
   color: #ef7d00;
   text-transform: uppercase;
   position: relative;
-  margin-bottom: 22px; }
+  margin-bottom: 33px;
+  width: 100%; }
   @media screen and (min-width: 1680px) {
     .sec-program .headline {
       font-size: 16px; } }
@@ -3524,7 +3570,52 @@ h1, h2, h3, h4 {
     height: 1px;
     background: rgba(255, 255, 255, 0.5);
     position: absolute;
-    bottom: -11px; }
+    bottom: -17px; }
+.sec-program .lab-list {
+  text-align: left;
+  list-style: none;
+  margin-bottom: 40px;
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2px;
+  column-gap: 20px; }
+  @media screen and (max-width: 768px) {
+    .sec-program .lab-list {
+      -moz-column-count: 1;
+      -moz-column-gap: 0px;
+      -webkit-column-count: 1;
+      -webkit-column-gap: 0px;
+      column-count: 1;
+      column-gap: 0px;
+      padding: 20px;
+      box-sizing: border-box; } }
+  .sec-program .lab-list:last-of-type {
+    margin-bottom: 0; }
+  .sec-program .lab-list li {
+    width: 550px;
+    margin-bottom: 24px;
+    break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid; }
+    .sec-program .lab-list li:last-of-type {
+      margin-bottom: 0; }
+    @media screen and (min-width: 1680px) {
+      .sec-program .lab-list li {
+        width: 660px; } }
+    @media screen and (max-width: 1170px) {
+      .sec-program .lab-list li {
+        width: 100%; } }
+    @media screen and (max-width: 768px) {
+      .sec-program .lab-list li {
+        width: 100%; } }
+    .sec-program .lab-list li p {
+      font-size: 18px;
+      color: rgba(255, 255, 255, 0.85); }
+      @media screen and (min-width: 1680px) {
+        .sec-program .lab-list li p {
+          font-size: 23px; } }
 
 /**
   FOOTER */
@@ -3555,6 +3646,9 @@ h1, h2, h3, h4 {
     @media screen and (max-width: 1170px) {
       .footer-inner {
         padding: 0 40px 40px; } }
+    @media screen and (max-width: 768px) {
+      .footer-inner {
+        padding: 0 20px 40px; } }
     .footer-inner ul {
       display: block;
       width: 170px;

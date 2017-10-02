@@ -122,9 +122,9 @@
   
    {
      
-        "title"    : "Partners",
-        "url"      : "/partners/",
-        "path"     : "/partners/"
+        "title"    : "Press",
+        "url"      : "/press/",
+        "path"     : "/press/"
      
    } ,
   
@@ -133,6 +133,14 @@
         "title"    : "News",
         "url"      : "/news/",
         "path"     : "/news/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Lab",
+        "url"      : "/lab/",
+        "path"     : "/lab/"
      
    } ,
   
@@ -162,9 +170,9 @@
   
    {
      
-        "title"    : "Press",
-        "url"      : "/press/",
-        "path"     : "/press/"
+        "title"    : "Practical Details",
+        "url"      : "/practical-details/",
+        "path"     : "/practical-details/"
      
    } ,
   
@@ -202,9 +210,9 @@
   
    {
      
-        "title"    : "Practical Details",
-        "url"      : "/practical-details/",
-        "path"     : "/practical-details/"
+        "title"    : "Partners",
+        "url"      : "/partners/",
+        "path"     : "/partners/"
      
    } ,
   

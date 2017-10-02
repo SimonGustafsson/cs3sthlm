@@ -49,10 +49,13 @@
 <loc>/about/</loc>
 </url>
 <url>
-<loc>/partners/</loc>
+<loc>/press/</loc>
 </url>
 <url>
 <loc>/news/</loc>
+</url>
+<url>
+<loc>/lab/</loc>
 </url>
 <url>
 <loc>/contact/</loc>
@@ -64,7 +67,7 @@
 <loc>/agenda/</loc>
 </url>
 <url>
-<loc>/press/</loc>
+<loc>/practical-details/</loc>
 </url>
 <url>
 <loc>/program/workshops/</loc>
@@ -79,7 +82,7 @@
 <loc>/</loc>
 </url>
 <url>
-<loc>/practical-details/</loc>
+<loc>/partners/</loc>
 </url>
 <url>
 <loc>/about/history/</loc>
