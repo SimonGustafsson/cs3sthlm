@@ -2528,7 +2528,8 @@ h1, h2, h3, h4 {
     -webkit-flex-direction: row;
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
-    margin-bottom: 80px; }
+    margin-bottom: 80px;
+    width: 100%; }
     .partner--list:last-of-type {
       margin-bottom: 0; }
     @media screen and (max-width: 768px) {
@@ -2561,11 +2562,17 @@ h1, h2, h3, h4 {
     margin-bottom: 20px; }
     .partner--item:nth-child(3n+4) {
       margin-right: 0; }
+    @media screen and (min-width: 1680px) {
+      .partner--item {
+        width: 432px;
+        min-width: 432px; } }
     @media screen and (max-width: 768px) {
       .partner--item {
         width: 100%;
         min-width: 100%;
         margin-bottom: 20px; } }
+    .partner--item-text {
+      margin-right: 0; }
     .partner--item a {
       display: block;
       width: 100%;
@@ -2573,6 +2580,8 @@ h1, h2, h3, h4 {
       box-sizing: border-box;
       background: white;
       border-radius: 4px;
+      text-decoration: none;
+      color: #2b2f36;
       transition: 0.24s all ease-in-out;
       -moz-transition: 0.24s all ease-in-out;
       -webkit-transtiion: 0.24s all ease-in-out;
@@ -2586,6 +2595,11 @@ h1, h2, h3, h4 {
         max-height: 160px;
         height: auto;
         max-width: 100%; }
+      .partner--item a span {
+        font-family: 'latoblack', sans-serif;
+        font-size: 23px;
+        text-align: center;
+        display: block; }
 
 /**
   BUTTONS */
@@ -3460,6 +3474,16 @@ h1, h2, h3, h4 {
   @media screen and (max-width: 768px) {
     .sec-program .col-4-6.speaker-block-group {
       margin-top: 20px; } }
+  .sec-program .col-4-6 p {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 20px; }
+    .sec-program .col-4-6 p span {
+      font-family: 'latoblack', sans-serif;
+      margin-right: 5px; }
+    @media screen and (min-width: 1680px) {
+      .sec-program .col-4-6 p {
+        font-size: 23px; } }
 .sec-program .col-3-6 {
   display: block;
   width: 550px; }
@@ -3486,6 +3510,9 @@ h1, h2, h3, h4 {
     font-size: 18px;
     color: rgba(255, 255, 255, 0.85);
     margin-bottom: 20px; }
+    .sec-program .col-3-6 p span {
+      font-family: 'latoblack', sans-serif;
+      margin-right: 5px; }
     @media screen and (min-width: 1680px) {
       .sec-program .col-3-6 p {
         font-size: 23px; } }

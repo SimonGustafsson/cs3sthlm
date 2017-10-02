@@ -3183,6 +3183,7 @@ h1, h2, h3, h4 {
     -webkit-flex-wrap: wrap;
 
     margin-bottom: 80px;
+    width: 100%;
 
     &:last-of-type {
       margin-bottom: 0;
@@ -3226,14 +3227,24 @@ h1, h2, h3, h4 {
     margin-right: 20px;
     margin-bottom: 20px;
 
+
     &:nth-child(3n+4) {
       margin-right: 0;
+    }
+
+    @include media-query-min($large) {
+      width: 432px;
+      min-width: 432px;
     }
 
     @include media-query($mobile) {
       width: 100%;
       min-width: 100%;
       margin-bottom: 20px;
+    }
+
+    &-text {
+      margin-right: 0;
     }
 
     a {
@@ -3243,6 +3254,8 @@ h1, h2, h3, h4 {
       box-sizing: border-box;
       background: $white;
       border-radius: 4px;
+      text-decoration: none;
+      color: $blue-dark;
 
       @include transition-ease;
       
@@ -3257,6 +3270,13 @@ h1, h2, h3, h4 {
         max-height: 160px;
         height: auto;
         max-width: 100%;
+      }
+
+      span {
+        font-family: 'latoblack', sans-serif;
+        font-size: 23px;
+        text-align: center;
+        display: block;
       }
     }
   }
@@ -4452,6 +4472,20 @@ h1, h2, h3, h4 {
         margin-top: 20px;
       }
     }
+    p {
+      font-size: 18px;
+      color: rgba($white, .85);
+      margin-bottom: 20px;
+
+      span {
+        font-family: 'latoblack', sans-serif;
+        margin-right: 5px;
+      }
+
+      @include media-query-min($large) {
+        font-size: 23px;
+      }
+    }
   }
 
   .col-3-6 {
@@ -4488,6 +4522,10 @@ h1, h2, h3, h4 {
       color: rgba($white, .85);
       margin-bottom: 20px;
 
+      span {
+        font-family: 'latoblack', sans-serif;
+        margin-right: 5px;
+      }
 
       @include media-query-min($large) {
         font-size: 23px;
