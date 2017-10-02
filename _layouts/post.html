@@ -17,7 +17,7 @@ layout: default
       {% if page.download != null %}
       <li>
         <h4>Post Attachments</h4>
-          <span><a href="{{ site.url }}/assets/pdf/{{ page.download }}" target="_blank">{% if page.categories contains "news" %}Download PDF{% endif %}</a></span>
+          <span><a href="{{ site.baseurl }}/assets/pdf/{{ page.download }}" target="_blank">{% if page.categories contains "news" %}Download PDF{% endif %}</a></span>
       </li>
       {% endif %}
       
@@ -25,8 +25,8 @@ layout: default
       <li>
         <h4>Post Attachments</h4>
           {% for file in page.pdf %}
-            {% if file.english != null %}<span><a href="{{ site.url }}/assets/pdf/{{ file.english }}" target="_blank">English PDF</a></span>{% endif %}
-            {% if file.swedish != null %}<span><a href="{{ site.url }}/assets/pdf/{{ file.swedish }}" target="_blank">Swedish PDF</a></span>{% endif %}
+            {% if file.english != null %}<span><a href="{{ site.baseurl }}/assets/pdf/{{ file.english }}" target="_blank">English PDF</a></span>{% endif %}
+            {% if file.swedish != null %}<span><a href="{{ site.baseurl }}/assets/pdf/{{ file.swedish }}" target="_blank">Swedish PDF</a></span>{% endif %}
           {% endfor %}
       </li>
       {% endif %}
