@@ -138,9 +138,9 @@
   
    {
      
-        "title"    : "Lab",
-        "url"      : "/lab/",
-        "path"     : "/lab/"
+        "title"    : "ICS Lab",
+        "url"      : "/ics-lab/",
+        "path"     : "/ics-lab/"
      
    } ,
   

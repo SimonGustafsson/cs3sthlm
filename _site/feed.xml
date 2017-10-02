@@ -3,10 +3,10 @@
   <channel>
     <title>CS3STHLM</title>
     <description>CS3STHLM - Stockholm international summit on cyber-security in SCADA and Industrial Control Systems. CS3STHLM is an annual summit that gather the most important ICS/SCADA cyber security stakeholders across critical industries (i.e. energy, oil &amp; gas, water, transportation and smartgrid etc)</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 02 Oct 2017 13:13:59 +0200</pubDate>
-    <lastBuildDate>Mon, 02 Oct 2017 13:13:59 +0200</lastBuildDate>
+    <link>http://0.0.0.0:4000/</link>
+    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 02 Oct 2017 13:24:50 +0200</pubDate>
+    <lastBuildDate>Mon, 02 Oct 2017 13:24:50 +0200</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -26,8 +26,8 @@
 &lt;p&gt;CS3STHLM is an international summit that focus entirely on cyber security protection of SCADA/ICS and critical infrastructure. CS3STHLM attracts about 250-300 people from around the world to meet, network and gain knowledge. CS3STHLM takes place October 23-26 at the venue Nalen in central Stockholm.&lt;/p&gt;
 </description>
         <pubDate>Thu, 14 Sep 2017 06:00:00 +0200</pubDate>
-        <link>/press/2017/09/14/advenica-announces-new-collaboration-with-cs3sthlm.html</link>
-        <guid isPermaLink="true">/press/2017/09/14/advenica-announces-new-collaboration-with-cs3sthlm.html</guid>
+        <link>http://0.0.0.0:4000/press/2017/09/14/advenica-announces-new-collaboration-with-cs3sthlm.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/press/2017/09/14/advenica-announces-new-collaboration-with-cs3sthlm.html</guid>
         
         
         <category>press</category>
@@ -89,8 +89,8 @@ standard (1 day) &lt;/a&gt;&lt;/li&gt;
 &lt;p&gt;To get a taste of what the summit is, you can find old presentations from 2015 and 2016 on &lt;a href=&quot;https://www.youtube.com/channel/UCkD15o_9eJxUc9eeHtWSQ6Q&quot;&gt;youtube/cs3sthlm&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 13 Sep 2017 06:00:00 +0200</pubDate>
-        <link>/news/2017/09/13/cs3sthlm-newsletter-september.html</link>
-        <guid isPermaLink="true">/news/2017/09/13/cs3sthlm-newsletter-september.html</guid>
+        <link>http://0.0.0.0:4000/news/2017/09/13/cs3sthlm-newsletter-september.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/news/2017/09/13/cs3sthlm-newsletter-september.html</guid>
         
         
         <category>news</category>
@@ -165,8 +165,8 @@ Until the next news letter,&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/news/cyber.jpg&quot; alt=&quot;Marble One&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 13 Jun 2017 06:00:00 +0200</pubDate>
-        <link>/news/2017/06/13/cs3sthlm-newsletter-june.html</link>
-        <guid isPermaLink="true">/news/2017/06/13/cs3sthlm-newsletter-june.html</guid>
+        <link>http://0.0.0.0:4000/news/2017/06/13/cs3sthlm-newsletter-june.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/news/2017/06/13/cs3sthlm-newsletter-june.html</guid>
         
         
         <category>news</category>
@@ -200,8 +200,8 @@ Until the next news letter,&lt;/p&gt;
 &lt;p&gt;Phone: +46 708 33 03 78&lt;/p&gt;
 </description>
         <pubDate>Tue, 13 Jun 2017 06:00:00 +0200</pubDate>
-        <link>/press/2017/06/13/malware-that-can-knock-out-power.html</link>
-        <guid isPermaLink="true">/press/2017/06/13/malware-that-can-knock-out-power.html</guid>
+        <link>http://0.0.0.0:4000/press/2017/06/13/malware-that-can-knock-out-power.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/press/2017/06/13/malware-that-can-knock-out-power.html</guid>
         
         
         <category>press</category>
@@ -219,8 +219,8 @@ Until the next news letter,&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/news/marble-one.jpg&quot; alt=&quot;Marble One&quot; /&gt; &lt;img src=&quot;/assets/news/marble-two.jpg&quot; alt=&quot;Marble Two&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 08 May 2017 06:00:00 +0200</pubDate>
-        <link>/news/2017/05/08/cfp-dont-miss-our-deadline.html</link>
-        <guid isPermaLink="true">/news/2017/05/08/cfp-dont-miss-our-deadline.html</guid>
+        <link>http://0.0.0.0:4000/news/2017/05/08/cfp-dont-miss-our-deadline.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/news/2017/05/08/cfp-dont-miss-our-deadline.html</guid>
         
         
         <category>news</category>
@@ -262,8 +262,8 @@ In depth analysis of the attacks against Ukraine with Robert M Lee from Dragos a
 &lt;p&gt;The summit’s moderator is since the start Anne Marie Eklund Löwinder, AMEL, Head of Security at IIS, The Internet Foundation in Sweden, and one of seven crypto officers in the world with a key to the Internet root zone.&lt;/p&gt;
 </description>
         <pubDate>Fri, 21 Apr 2017 06:00:00 +0200</pubDate>
-        <link>/press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html</link>
-        <guid isPermaLink="true">/press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html</guid>
+        <link>http://0.0.0.0:4000/press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html</guid>
         
         
         <category>press</category>
