@@ -3454,6 +3454,10 @@ h1, h2, h3, h4 {
 .sec-program .col-6-6 {
   display: block;
   width: 100%; }
+  @media screen and (max-width: 768px) {
+    .sec-program .col-6-6 {
+      padding: 0 20px;
+      box-sizing: border-box; } }
 .sec-program .col-4-6 {
   display: block;
   width: 740px; }
