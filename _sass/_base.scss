@@ -4563,6 +4563,20 @@ h1, h2, h3, h4 {
       }
     }
   }
+  .col-ml-1 {
+    margin-left: 190px;
+
+    @include media-query-min($large) {
+      margin-left: 227px;
+    }
+    @include media-query($small) {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+    @include media-query($mobile) {
+      margin-left: 0;
+    }
+  }
 
   .workshop-program-group {
     
@@ -4647,6 +4661,24 @@ h1, h2, h3, h4 {
     }
   }
 
+  p a {
+    color: $yellow;
+    text-decoration: none;
+
+    @include transition-ease;
+
+    &:hover {
+      color: $white;
+    }
+  }
+
+  .contact-logo {
+    display: block;
+    width: 240px;
+    max-width: 240px;
+    margin-bottom: 20px;
+  }
+
   .lab-list {
     text-align: left;
     list-style: none;
@@ -4700,6 +4732,59 @@ h1, h2, h3, h4 {
 
         @include media-query-min($large) {
           font-size: 23px;
+        }
+      }
+    }
+  }
+  .clean-list {
+    list-style: none;
+    margin-bottom: 20px;
+
+    li {
+      margin-left: 0;
+      margin-bottom: 0;
+      font-size: 18px;
+      color: rgba($white, .85);
+
+      @include media-query-min($large) {
+        font-size: 23px;
+      }
+
+      ul {
+        margin-top: 4px;
+        margin-left: 20px;
+        list-style: disc;
+      }
+
+      a {
+        display: block;
+        margin-bottom: 14px;
+        text-decoration: none;
+        color: $white;
+
+        @include transition-ease;
+
+        &:hover {
+          color: $yellow;
+
+          .list-author {
+            color: $yellow;
+          }
+        }
+
+        .list-title {
+          display: block;
+        }
+        .list-author {
+          display: block;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          font-family: 'latobold', sans-serif;
+          font-weight: normal;
+          font-size: 12px;
+          color: rgba($white, .5);
+
+          @include transition-ease;
         }
       }
     }
