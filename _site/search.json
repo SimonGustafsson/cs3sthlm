@@ -344,4 +344,182 @@
      
    } 
   
+  ,
+  
+   {
+     
+        "title"    : "Jenny Radcliffe",
+        "url"      : "/",
+        "path"     : ""
+     
+   } ,
+  
+   {
+     
+        "title"    : "Joe Slowik",
+        "url"      : "/program/presentations/joe-slowik/",
+        "path"     : "program/presentations/joe-slowik/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Adam Crain",
+        "url"      : "/program/presentations/adam-crain/",
+        "path"     : "program/presentations/adam-crain/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Mikael Vingaard",
+        "url"      : "/program/workshops/mikael-vingaard/",
+        "path"     : "program/workshops/mikael-vingaard/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Lars Erik Smevold",
+        "url"      : "/program/presentations/lars-erik-smevold/",
+        "path"     : "program/presentations/lars-erik-smevold/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Erik Hjelmvik",
+        "url"      : "/program/workshops/erik-hjelmvik/",
+        "path"     : "program/workshops/erik-hjelmvik/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Jon Røgeberg",
+        "url"      : "/program/presentations/jon-røgeberg-and-martin-eian/",
+        "path"     : "program/presentations/jon-røgeberg-and-martin-eian/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Martin Eian",
+        "url"      : "/program/presentations/jon-røgeberg-and-martin-eian/",
+        "path"     : "program/presentations/jon-røgeberg-and-martin-eian/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Melissa Crawford",
+        "url"      : "/program/presentations/melissa-crawford/",
+        "path"     : "program/presentations/melissa-crawford/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Dieter Sarrazyn",
+        "url"      : "/program/presentations/dieter-sarrazyn/",
+        "path"     : "program/presentations/dieter-sarrazyn/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Akriti Srivastava",
+        "url"      : "/program/presentations/akriti-srivastava/",
+        "path"     : "program/presentations/akriti-srivastava/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Oleksii Yasynskyi",
+        "url"      : "/program/presentations/oleksii-yasynskyi-and-roman-sologub/",
+        "path"     : "program/presentations/oleksii-yasynskyi-and-roman-sologub/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Roman Sologub",
+        "url"      : "/program/presentations/oleksii-yasynskyi-and-roman-sologub/",
+        "path"     : "program/presentations/oleksii-yasynskyi-and-roman-sologub/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Patrick DeSantis",
+        "url"      : "/program/presentations/patrick-desantis/",
+        "path"     : "program/presentations/patrick-desantis/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Anton Cherepanov",
+        "url"      : "/program/presentations/anton-cherepanov-and-robert-lipovsky/",
+        "path"     : "program/presentations/anton-cherepanov-and-robert-lipovsky/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Robert Lipovský",
+        "url"      : "/program/presentations/anton-cherepanov-and-robert-lipovsky/",
+        "path"     : "program/presentations/anton-cherepanov-and-robert-lipovsky/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Ali Abbasi",
+        "url"      : "/program/presentations/ali-abbasi/",
+        "path"     : "program/presentations/ali-abbasi/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Michael Theuerzeit",
+        "url"      : "/program/workshops/michael-theuerzeit/",
+        "path"     : "program/workshops/michael-theuerzeit/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Jens Wiesner",
+        "url"      : "/program/presentations/jens-wiesner/",
+        "path"     : "program/presentations/jens-wiesner/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Dan Demeter",
+        "url"      : "/program/presentations/dan-demeter/",
+        "path"     : "program/presentations/dan-demeter/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Jessikka Aro",
+        "url"      : "/program/presentations/jessikka-aro/",
+        "path"     : "program/presentations/jessikka-aro/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Anne-Marie Eklund Löwinder",
+        "url"      : "/",
+        "path"     : ""
+     
+   } 
+  
 ]

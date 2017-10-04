@@ -20,4 +20,14 @@ layout: null
      {% endif %}
    } {% unless forloop.last %},{% endunless %}
   {% endfor %}
+  ,
+  {% for speaker in site.data.speakers %}
+   {
+     {% if speaker.name != nil %}
+        "title"    : "{{ speaker.name | escape }}",
+        "url"      : "{{ site.baseurl }}/{{ speaker.permalink }}",
+        "path"     : "{{ speaker.permalink }}"
+     {% endif %}
+   } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
 ]
