@@ -2514,6 +2514,8 @@ h1, h2, h3, h4 {
       .speaker-block--content .headline {
         font-size: 16px; } }
   .speaker-block--content a {
+    display: block;
+    margin-bottom: 12px;
     color: #ef7d00;
     text-decoration: none;
     transition: 0.24s all ease-in-out;

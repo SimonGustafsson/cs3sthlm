@@ -109,41 +109,9 @@
   
    {
      
-        "title"    : "ENISA&#39;s trainings",
-        "url"      : "/program/presentations/enisa-five/",
-        "path"     : "/program/presentations/enisa-five/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Cyber security posture of the Transport sector (Air, Road, Rail, Maritime)",
-        "url"      : "/program/presentations/enisa-four/",
-        "path"     : "/program/presentations/enisa-four/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "The NIS Directive: transposition, implications for the Operators of Essential Services",
-        "url"      : "/program/presentations/enisa-one/",
-        "path"     : "/program/presentations/enisa-one/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Baseline security requirements for IoT",
-        "url"      : "/program/presentations/enisa-three/",
-        "path"     : "/program/presentations/enisa-three/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Cyber attacks against ICS/SCADA systems",
-        "url"      : "/program/presentations/enisa-two/",
-        "path"     : "/program/presentations/enisa-two/"
+        "title"    : "ENISA Trainings for Cyber Security Specialists",
+        "url"      : "/program/presentations/enisa-trainings/",
+        "path"     : "/program/presentations/enisa-trainings/"
      
    } ,
   
@@ -161,17 +129,9 @@
   
    {
      
-        "title"    : "Advisory",
-        "url"      : "/about/advisory/",
-        "path"     : "/about/advisory/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Practical Details",
-        "url"      : "/practical-details/",
-        "path"     : "/practical-details/"
+        "title"    : "About",
+        "url"      : "/about/",
+        "path"     : "/about/"
      
    } ,
   
@@ -217,25 +177,17 @@
   
    {
      
+        "title"    : "Agenda",
+        "url"      : "/agenda/",
+        "path"     : "/agenda/"
+     
+   } ,
+  
+   {
+     
         "title"    : "Press",
         "url"      : "/press/",
         "path"     : "/press/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Presentations",
-        "url"      : "/program/presentations/",
-        "path"     : "/program/presentations/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "About",
-        "url"      : "/about/",
-        "path"     : "/about/"
      
    } ,
   
@@ -249,25 +201,17 @@
   
    {
      
+        "title"    : "Advisory",
+        "url"      : "/about/advisory/",
+        "path"     : "/about/advisory/"
+     
+   } ,
+  
+   {
+     
         "title"    : "Workshops",
         "url"      : "/program/workshops/",
         "path"     : "/program/workshops/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Agenda",
-        "url"      : "/agenda/",
-        "path"     : "/agenda/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Home",
-        "url"      : "/",
-        "path"     : ""
      
    } ,
   
@@ -281,9 +225,41 @@
   
    {
      
+        "title"    : "Home",
+        "url"      : "/",
+        "path"     : ""
+     
+   } ,
+  
+   {
+     
+        "title"    : "Practical Details",
+        "url"      : "/practical-details/",
+        "path"     : "/practical-details/"
+     
+   } ,
+  
+   {
+     
         "title"    : "History",
         "url"      : "/about/history/",
         "path"     : "/about/history/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Presentations",
+        "url"      : "/program/presentations/",
+        "path"     : "/program/presentations/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "IoT in Europe: what could possibly go wrong and how you can fix",
+        "url"      : "/program/presentations/iot-in-europe/",
+        "path"     : "/program/presentations/iot-in-europe/"
      
    } ,
   
@@ -357,6 +333,14 @@
   
    {
      
+        "title"    : "Network and Information Security Directive: the road aheadcritical infrastructure",
+        "url"      : "/program/presentations/network-and-information/",
+        "path"     : "/program/presentations/network-and-information/"
+     
+   } ,
+  
+   {
+     
         "title"    : "Cyberattacks Against Critical Infrastructure in Ukraine: Taxonomy, Consequences, Lessons Learned",
         "url"      : "/program/presentations/oleksii-yasynskyi-and-roman-sologub/",
         "path"     : "/program/presentations/oleksii-yasynskyi-and-roman-sologub/"
@@ -373,6 +357,14 @@
   
    {
      
+        "title"    : "Protecting European transport infrastructures: threat models",
+        "url"      : "/program/presentations/protecting-european-transports/",
+        "path"     : "/program/presentations/protecting-european-transports/"
+     
+   } ,
+  
+   {
+     
         "title"    : "Search",
         "url"      : "/search/",
         "path"     : "/search/"
@@ -380,6 +372,14 @@
    } ,
   
    {
+     
+   } ,
+  
+   {
+     
+        "title"    : "Threat modelling and security measures for ICS/SCADA systems in critical infrastructure",
+        "url"      : "/program/presentations/threat-modelling-and-security/",
+        "path"     : "/program/presentations/threat-modelling-and-security/"
      
    } ,
   
@@ -571,41 +571,17 @@
   
    {
      
-        "title"    : "ENISA",
-        "url"      : "/program/presentations/enisa-one/",
-        "path"     : "program/presentations/enisa-one/"
+        "title"    : "Rossella Mattioli",
+        "url"      : "/program/presentations/rossella-mattioli/",
+        "path"     : "program/presentations/rossella-mattioli/"
      
    } ,
   
    {
      
-        "title"    : "ENISA",
-        "url"      : "/program/presentations/enisa-two/",
-        "path"     : "program/presentations/enisa-two/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "ENISA",
-        "url"      : "/program/presentations/enisa-three/",
-        "path"     : "program/presentations/enisa-three/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "ENISA",
-        "url"      : "/program/presentations/enisa-four/",
-        "path"     : "program/presentations/enisa-four/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "ENISA",
-        "url"      : "/program/presentations/enisa-five/",
-        "path"     : "program/presentations/enisa-five/"
+        "title"    : "Paraskevi Kasse",
+        "url"      : "/program/presentations/paraskevi-kasse/",
+        "path"     : "program/presentations/paraskevi-kasse/"
      
    } 
   

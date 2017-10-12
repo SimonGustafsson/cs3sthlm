@@ -263,62 +263,37 @@
   permalink:
 
 - id: 23
-  name: ENISA
-  from-short:
-  from-long:
-  role:
-  work:
-  image: temp-profile.png
+  name: Rossella Mattioli
+  from-short: EU
+  from-long: Europe
+  role: Officer in Network and Information Security
+  work: ENISA
+  image: rossella-mattioli.png
   conf-role: Speaker
-  bio: Coming soon.
-  presentation: "The NIS Directive: transposition, implications for the Operators of Essential Services"
-  permalink: program/presentations/enisa-one/
+  bio: Rossella Mattioli joined ENISA, the European Union Agency for Network and Information Security, in 2013 and has over 10 years of experience in the IT industry. Her work focuses on promoting cyber security for Critical Infrastructures, IoT and transport infrastructures in Europe. Along the thematic reports and community engagement, she coordinates also ENISA’s expert groups related to Internet infrastructure, IoT, ICS/SCADA, Intelligent public transport and smart car cybersecurity. She holds a MSc in Engineering with main specialization in Cybersecurity at Tallinn University of Technology and she is a Certified Information Systems Security Professional.
+  presentation:
+  multi:
+    - title: ENISA Trainings for Cyber Security Specialists
+      permalink: program/presentations/enisa-trainings/
+    - title: "Protecting European transport infrastructures: threat models"
+      permalink: program/presentations/protecting-european-transports/
+    - title: "IoT in Europe: what could possibly go wrong and how you can fix"
+      permalink: program/presentations/iot-in-europe/
+  permalink: program/presentations/rossella-mattioli/
 
 - id: 24
-  name: ENISA
-  from-short:
-  from-long:
-  role:
-  work:
-  image: temp-profile.png
+  name: Paraskevi Kasse
+  from-short: EU
+  from-long: Europe
+  role: Network and Information Security Officer
+  work: ENISA
+  image: paraskevi-kasse.png
   conf-role: Speaker
-  bio: Coming soon.
-  presentation: Cyber attacks against ICS/SCADA systems
-  permalink: program/presentations/enisa-two/
-
-- id: 25
-  name: ENISA
-  from-short:
-  from-long:
-  role:
-  work:
-  image: temp-profile.png
-  conf-role: Speaker
-  bio: Coming soon.
-  presentation: Baseline security requirements for IoT
-  permalink: program/presentations/enisa-three/
-
-- id: 26
-  name: ENISA
-  from-short:
-  from-long:
-  role:
-  work:
-  image: temp-profile.png
-  conf-role: Speaker
-  bio: Coming soon.
-  presentation: "Cyber security posture of the Transport sector (Air, Road, Rail, Maritime)"
-  permalink: program/presentations/enisa-four/
-
-- id: 27
-  name: ENISA
-  from-short:
-  from-long:
-  role:
-  work:
-  image: temp-profile.png
-  conf-role: Speaker
-  bio: Coming soon.
-  presentation: ENISA's trainings
-  permalink: program/presentations/enisa-five/
-
+  bio: Her work in ENISA focuses on enhancing the cybersecurity posture of utilities in Energy sector (Electricity, Oil and Gas). Furthermore, she is dealing with security aspects of ICS/SCADA systems and cybersecurity aspects related to energy sector in the European NIS Directive. Paraskevi has been awarded a diploma in computer engineering and informatics, she holds a Msc in Information Science and Technology. Prior to joining ENISA, she worked as a security expert for 7 years at the Hellenic National CERT.
+  presentation:
+  multi: 
+    - title: "Network and Information Security Directive: the road ahead"
+      permalink: program/presentations/network-and-information/
+    - title: Threat modelling and security measures for ICS/SCADA systems in critical infrastructure
+      permalink: program/presentations/threat-modelling-and-security/
+  permalink: program/presentations/paraskevi-kasse/
