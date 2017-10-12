@@ -109,6 +109,46 @@
   
    {
      
+        "title"    : "ENISA&#39;s trainings",
+        "url"      : "/program/presentations/enisa-five/",
+        "path"     : "/program/presentations/enisa-five/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Cyber security posture of the Transport sector (Air, Road, Rail, Maritime)",
+        "url"      : "/program/presentations/enisa-four/",
+        "path"     : "/program/presentations/enisa-four/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "The NIS Directive: transposition, implications for the Operators of Essential Services",
+        "url"      : "/program/presentations/enisa-one/",
+        "path"     : "/program/presentations/enisa-one/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Baseline security requirements for IoT",
+        "url"      : "/program/presentations/enisa-three/",
+        "path"     : "/program/presentations/enisa-three/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Cyber attacks against ICS/SCADA systems",
+        "url"      : "/program/presentations/enisa-two/",
+        "path"     : "/program/presentations/enisa-two/"
+     
+   } ,
+  
+   {
+     
         "title"    : "Network Forensics Training",
         "url"      : "/program/workshops/erik-hjelmvik/",
         "path"     : "/program/workshops/erik-hjelmvik/"
@@ -121,17 +161,25 @@
   
    {
      
-        "title"    : "About",
-        "url"      : "/about/",
-        "path"     : "/about/"
+        "title"    : "Advisory",
+        "url"      : "/about/advisory/",
+        "path"     : "/about/advisory/"
      
    } ,
   
    {
      
-        "title"    : "Press",
-        "url"      : "/press/",
-        "path"     : "/press/"
+        "title"    : "Practical Details",
+        "url"      : "/practical-details/",
+        "path"     : "/practical-details/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Partners",
+        "url"      : "/partners/",
+        "path"     : "/partners/"
      
    } ,
   
@@ -169,65 +217,25 @@
   
    {
      
-        "title"    : "Agenda",
-        "url"      : "/agenda/",
-        "path"     : "/agenda/"
+        "title"    : "Press",
+        "url"      : "/press/",
+        "path"     : "/press/"
      
    } ,
   
    {
      
-        "title"    : "Practical Details",
-        "url"      : "/practical-details/",
-        "path"     : "/practical-details/"
+        "title"    : "Presentations",
+        "url"      : "/program/presentations/",
+        "path"     : "/program/presentations/"
      
    } ,
   
    {
      
-        "title"    : "Workshops",
-        "url"      : "/program/workshops/",
-        "path"     : "/program/workshops/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Advisory",
-        "url"      : "/about/advisory/",
-        "path"     : "/about/advisory/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Speakers",
-        "url"      : "/program/speakers/",
-        "path"     : "/program/speakers/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Home",
-        "url"      : "/",
-        "path"     : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "Partners",
-        "url"      : "/partners/",
-        "path"     : "/partners/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "History",
-        "url"      : "/about/history/",
-        "path"     : "/about/history/"
+        "title"    : "About",
+        "url"      : "/about/",
+        "path"     : "/about/"
      
    } ,
   
@@ -241,9 +249,41 @@
   
    {
      
-        "title"    : "Presentations",
-        "url"      : "/program/presentations/",
-        "path"     : "/program/presentations/"
+        "title"    : "Workshops",
+        "url"      : "/program/workshops/",
+        "path"     : "/program/workshops/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Agenda",
+        "url"      : "/agenda/",
+        "path"     : "/agenda/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Home",
+        "url"      : "/",
+        "path"     : ""
+     
+   } ,
+  
+   {
+     
+        "title"    : "Speakers",
+        "url"      : "/program/speakers/",
+        "path"     : "/program/speakers/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "History",
+        "url"      : "/about/history/",
+        "path"     : "/about/history/"
      
    } ,
   
@@ -526,6 +566,46 @@
         "title"    : "Anne-Marie Eklund Löwinder",
         "url"      : "/",
         "path"     : ""
+     
+   } ,
+  
+   {
+     
+        "title"    : "ENISA",
+        "url"      : "/program/presentations/enisa-one/",
+        "path"     : "program/presentations/enisa-one/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "ENISA",
+        "url"      : "/program/presentations/enisa-two/",
+        "path"     : "program/presentations/enisa-two/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "ENISA",
+        "url"      : "/program/presentations/enisa-three/",
+        "path"     : "program/presentations/enisa-three/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "ENISA",
+        "url"      : "/program/presentations/enisa-four/",
+        "path"     : "program/presentations/enisa-four/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "ENISA",
+        "url"      : "/program/presentations/enisa-five/",
+        "path"     : "program/presentations/enisa-five/"
      
    } 
   

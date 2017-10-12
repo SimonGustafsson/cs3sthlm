@@ -261,3 +261,64 @@
   bio: She is the Chief Information Security Officer at IIS, The Internet Foundation In Sweden. She also serves on the boards of internet-related organisations including the Council of European National Top Level Domain Registries (CENTR) and the Swedish Law and Informatics Research Institute. Eklund Löwinder has been appointed Trusted Community Representative by the Internet Corporation for Assigned Names and Numbers (ICANN). She is one of seven people who control the DNSSEC key generation for the internet root zone.
   presentation:
   permalink:
+
+- id: 23
+  name: ENISA
+  from-short:
+  from-long:
+  role:
+  work:
+  image: temp-profile.png
+  conf-role: Speaker
+  bio: Coming soon.
+  presentation: "The NIS Directive: transposition, implications for the Operators of Essential Services"
+  permalink: program/presentations/enisa-one/
+
+- id: 24
+  name: ENISA
+  from-short:
+  from-long:
+  role:
+  work:
+  image: temp-profile.png
+  conf-role: Speaker
+  bio: Coming soon.
+  presentation: Cyber attacks against ICS/SCADA systems
+  permalink: program/presentations/enisa-two/
+
+- id: 25
+  name: ENISA
+  from-short:
+  from-long:
+  role:
+  work:
+  image: temp-profile.png
+  conf-role: Speaker
+  bio: Coming soon.
+  presentation: Baseline security requirements for IoT
+  permalink: program/presentations/enisa-three/
+
+- id: 26
+  name: ENISA
+  from-short:
+  from-long:
+  role:
+  work:
+  image: temp-profile.png
+  conf-role: Speaker
+  bio: Coming soon.
+  presentation: "Cyber security posture of the Transport sector (Air, Road, Rail, Maritime)"
+  permalink: program/presentations/enisa-four/
+
+- id: 27
+  name: ENISA
+  from-short:
+  from-long:
+  role:
+  work:
+  image: temp-profile.png
+  conf-role: Speaker
+  bio: Coming soon.
+  presentation: ENISA's trainings
+  permalink: program/presentations/enisa-five/
+

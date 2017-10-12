@@ -2620,6 +2620,7 @@ h1, h2, h3, h4 {
     width: 224px;
     max-width: 224px;
     margin-bottom: 40px;
+    overflow: hidden;
 
     &-special {
       display: none;
@@ -2631,6 +2632,7 @@ h1, h2, h3, h4 {
 
     &.view-details {
       margin-bottom: 40px;
+      overflow: visible;
 
       @include media-query($mobile) {
         margin-bottom: 0;
@@ -2649,6 +2651,15 @@ h1, h2, h3, h4 {
       }
       .speaker-block {
         z-index: 50;
+
+        &:hover {
+          img {
+            transform: scale(1);
+          }
+        }
+        img {
+          transform: scale(1);
+        }
 
         &:before {
           opacity: 0;
@@ -2760,6 +2771,8 @@ h1, h2, h3, h4 {
       overflow: hidden;
       position: relative;
 
+      @include transition-ease;
+
       @include media-query-min($large) {
         height: 402px;
         min-height: 402px;
@@ -2789,6 +2802,14 @@ h1, h2, h3, h4 {
 
         @include media-query($mobile) {
           height: 60%;
+        }
+      }
+
+      &:hover {
+        cursor: pointer;
+
+        img {
+          transform: scale(1.1);
         }
       }
 
@@ -2875,6 +2896,8 @@ h1, h2, h3, h4 {
         display: block;
         width: 100%;
         height: auto;
+
+        @include transition-ease;
       }
     }
 

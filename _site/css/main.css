@@ -2079,14 +2079,16 @@ h1, h2, h3, h4 {
   display: block;
   width: 224px;
   max-width: 224px;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  overflow: hidden; }
   .speaker--list-item-special {
     display: none; }
     @media screen and (max-width: 768px) {
       .speaker--list-item-special {
         display: block; } }
   .speaker--list-item.view-details {
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+    overflow: visible; }
     @media screen and (max-width: 768px) {
       .speaker--list-item.view-details {
         margin-bottom: 0; } }
@@ -2102,6 +2104,10 @@ h1, h2, h3, h4 {
       pointer-events: none; }
     .speaker--list-item.view-details .speaker-block {
       z-index: 50; }
+      .speaker--list-item.view-details .speaker-block:hover img {
+        transform: scale(1); }
+      .speaker--list-item.view-details .speaker-block img {
+        transform: scale(1); }
       .speaker--list-item.view-details .speaker-block:before {
         opacity: 0; }
       .speaker--list-item.view-details .speaker-block .speaker-block-data {
@@ -2182,7 +2188,11 @@ h1, h2, h3, h4 {
     height: 336px;
     min-height: 336px;
     overflow: hidden;
-    position: relative; }
+    position: relative;
+    transition: 0.24s all ease-in-out;
+    -moz-transition: 0.24s all ease-in-out;
+    -webkit-transtiion: 0.24s all ease-in-out;
+    -o-transition: 0.24s all ease-in-out; }
     @media screen and (min-width: 1680px) {
       .speaker--list-item .speaker-block {
         height: 402px;
@@ -2213,6 +2223,10 @@ h1, h2, h3, h4 {
       @media screen and (max-width: 768px) {
         .speaker--list-item .speaker-block:before {
           height: 60%; } }
+    .speaker--list-item .speaker-block:hover {
+      cursor: pointer; }
+      .speaker--list-item .speaker-block:hover img {
+        transform: scale(1.1); }
     .speaker--list-item .speaker-block-data {
       display: block;
       position: absolute;
@@ -2284,7 +2298,11 @@ h1, h2, h3, h4 {
     .speaker--list-item .speaker-block img {
       display: block;
       width: 100%;
-      height: auto; }
+      height: auto;
+      transition: 0.24s all ease-in-out;
+      -moz-transition: 0.24s all ease-in-out;
+      -webkit-transtiion: 0.24s all ease-in-out;
+      -o-transition: 0.24s all ease-in-out; }
   .speaker--list-item .speaker-block-details {
     display: none;
     background: #2b2f36;
