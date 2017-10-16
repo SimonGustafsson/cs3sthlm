@@ -3178,6 +3178,19 @@ h1, h2, h3, h4 {
         text-decoration: underline;
       }
     }
+    .speaker-permalink {
+      display: inline-block;
+      margin: 20px 0 0;
+
+      &:before {
+        display: block;
+        content: '';
+        width: 20px;
+        height: 1px;
+        background: rgba($white, .5);
+        margin-bottom: 4px;
+      }
+    }
   }
 }
 

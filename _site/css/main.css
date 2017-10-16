@@ -2528,6 +2528,16 @@ h1, h2, h3, h4 {
     .speaker-block--content a:hover {
       color: white;
       text-decoration: underline; }
+  .speaker-block--content .speaker-permalink {
+    display: inline-block;
+    margin: 20px 0 0; }
+    .speaker-block--content .speaker-permalink:before {
+      display: block;
+      content: '';
+      width: 20px;
+      height: 1px;
+      background: rgba(255, 255, 255, 0.5);
+      margin-bottom: 4px; }
 
 /**
   PARTNER LIST */

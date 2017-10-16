@@ -62,7 +62,7 @@ permalink: "/program/speakers/"
 					{% if speaker.presentation != null %}
 					<div class="col-2-6">
 						<h4 class="headline">Presentation</h4>
-						<a href="{{ site.baseurl }}/{{ speaker.permalink }}">{{ speaker.presentation }}</a>
+						<a href="{{ site.baseurl }}/{{ speaker.permalink }}" class="speaker-permalink">{{ speaker.presentation }}</a>
 					</div>
 					{% endif %}
 
@@ -70,7 +70,7 @@ permalink: "/program/speakers/"
 					<div class="col-2-6">
 						<h4 class="headline">Presentation</h4>
 						{% for item in speaker.multi %}
-						<a href="{{ site.baseurl }}/{{ item.permalink }}">{{ item.title }}</a>
+						<a href="{{ site.baseurl }}/{{ item.permalink }}" class="speaker-permalink">{{ item.title }}</a>
 						{% endfor %}
 					</div>
 					{% endif %}
@@ -78,7 +78,7 @@ permalink: "/program/speakers/"
 					{% if speaker.workshop != null %}
 					<div class="col-2-6">
 						<h4 class="headline">Workshop</h4>
-						<a href="{{ site.baseurl }}/{{ speaker.permalink }}">{{ speaker.workshop }}</a>
+						<a href="{{ site.baseurl }}/{{ speaker.permalink }}" class="speaker-permalink">{{ speaker.workshop }}</a>
 					</div>
 					{% endif %}
 				</div>

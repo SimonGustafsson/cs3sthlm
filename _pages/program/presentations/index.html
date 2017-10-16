@@ -22,7 +22,7 @@ permalink: "/program/presentations/"
 
   <div class="presentation--list">
       <ul>
-      {% assign sorted_presentations = site.pages | sort: 'author' %}
+      {% assign sorted_presentations = site.pages | sort: 'url' %}
       {% for page in sorted_presentations %}
       {% if page.id ==  'presentation' %}
         <li><a href="{{ page.url | prepend: site.baseurl }}">
