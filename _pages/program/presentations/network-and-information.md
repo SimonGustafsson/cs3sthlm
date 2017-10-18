@@ -1,5 +1,5 @@
 ---
-title: "Network and Information Security Directive: the road aheadcritical infrastructure"
+title: "Network and Information Security Directive: the road ahead"
 permalink: "/program/presentations/network-and-information/"
 layout: presentation
 speaker: 
