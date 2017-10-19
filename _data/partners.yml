@@ -8,14 +8,14 @@
 - id: 2
   level: organizer
   company: ROMAB
-  logo: romab.png
+  logo: romab.svg
   url: https://romab.com
   bio: We are a small consulting firm. This means that we have to work a little harder to be seen in the competition. Our vision is that the world needs a better, safer and more qualitative IT system. Through our passion for technology and IT we make every effort extra to reach, if ever so slightly closer, the vision.
 
 - id: 3
   level: organizer
   company: sysctl
-  logo: sysctl.png
+  logo: sysctl.svg
   url: https://sysctl.se
   bio: sysctl is a research and development company in Stockholm, Sweden developing security and cybersecurity products.
 
@@ -47,4 +47,9 @@
   url: https://www.advenica.com/en
   bio: 
 
-
+- id: 7
+  level: partner
+  company: ATEA
+  logo: atea.svg
+  url: https://www.atea.se
+  bio: 
