@@ -1,5 +1,5 @@
 ---
-title: "Protecting European transport infrastructures: threat models"
+title: "Protecting European transport infrastructures: threat models and security measures"
 permalink: "/program/presentations/protecting-european-transports/"
 layout: presentation
 speaker: 

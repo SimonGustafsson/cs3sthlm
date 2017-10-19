@@ -1,5 +1,5 @@
 ---
-title: "IoT in Europe: what could possibly go wrong and how you can fix"
+title: "IoT in Europe: what could possibly go wrong and how you can fix it"
 permalink: "/program/presentations/iot-in-europe/"
 layout: presentation
 speaker: 

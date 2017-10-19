@@ -1,5 +1,5 @@
 ---
-title: Threat modelling and security measures for ICS/SCADA systems in critical infrastructure
+title: Threat modelling and security measures for ICS/SCADA
 permalink: "/program/presentations/threat-modelling-and-security/"
 layout: presentation
 speaker: 

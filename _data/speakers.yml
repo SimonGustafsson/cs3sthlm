@@ -275,9 +275,9 @@
   multi:
     - title: ENISA Trainings for Cyber Security Specialists
       permalink: program/presentations/enisa-trainings/
-    - title: "Protecting European transport infrastructures: threat models"
+    - title: "Protecting European transport infrastructures: threat models and security measures"
       permalink: program/presentations/protecting-european-transports/
-    - title: "IoT in Europe: what could possibly go wrong and how you can fix"
+    - title: "IoT in Europe: what could possibly go wrong and how you can fix it"
       permalink: program/presentations/iot-in-europe/
   permalink: program/presentations/rossella-mattioli/
 
@@ -294,6 +294,6 @@
   multi: 
     - title: "Network and Information Security Directive: the road ahead"
       permalink: program/presentations/network-and-information/
-    - title: Threat modelling and security measures for ICS/SCADA systems in critical infrastructure
+    - title: Threat modelling and security measures for ICS/SCADA
       permalink: program/presentations/threat-modelling-and-security/
   permalink: program/presentations/paraskevi-kasse/
