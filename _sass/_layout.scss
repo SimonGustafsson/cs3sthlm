@@ -270,16 +270,22 @@
 			text-decoration: none;
 			position: relative;
 
+			@include transition-ease;
+
 			&:hover {
 				background: $blue-darken;
 
 				&:before {
-					display: block;
+					opacity: 1;
+				}
+
+				.agenda--list-details {
+					right: 20px;
 				}
 			}
 
 			&:before {
-				display: none;
+				display: block;
 				content: '';
 				background: $blue-darken;
 				width: 20px;
@@ -287,10 +293,13 @@
 				position: absolute;
 				top: -1px;
 				left: -20px;
+				opacity: 0;
+
+				@include transition-ease;
 			}
 
 			@include media-query($mobile) {
-				padding: 20px;
+				padding: 14px 20px;
 			}
 		}
 
@@ -328,6 +337,23 @@
 
 	&-time {
 		color: $gray;
+	}
+	&-details {
+		position: absolute;
+		bottom: 14px;
+		right: 0;
+		letter-spacing: 2px;
+		font-family: 'latoregular', sans-serif;
+		font-size: 16px;
+		color: $gray;
+
+		@include transition-ease;
+
+		@include media-query($mobile) {
+			right: 20px;
+			top: 14px;
+			bottom: 0;
+		}
 	}
 
 }

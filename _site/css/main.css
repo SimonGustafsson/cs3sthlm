@@ -4248,23 +4248,34 @@ h1, h2, h3, h4 {
       padding: 14px 0;
       box-sizing: border-box;
       text-decoration: none;
-      position: relative; }
+      position: relative;
+      transition: 0.24s all ease-in-out;
+      -moz-transition: 0.24s all ease-in-out;
+      -webkit-transtiion: 0.24s all ease-in-out;
+      -o-transition: 0.24s all ease-in-out; }
       .agenda--list li a:hover {
         background: #1c1e22; }
         .agenda--list li a:hover:before {
-          display: block; }
+          opacity: 1; }
+        .agenda--list li a:hover .agenda--list-details {
+          right: 20px; }
       .agenda--list li a:before {
-        display: none;
+        display: block;
         content: '';
         background: #1c1e22;
         width: 20px;
         height: calc(100% + 2px);
         position: absolute;
         top: -1px;
-        left: -20px; }
+        left: -20px;
+        opacity: 0;
+        transition: 0.24s all ease-in-out;
+        -moz-transition: 0.24s all ease-in-out;
+        -webkit-transtiion: 0.24s all ease-in-out;
+        -o-transition: 0.24s all ease-in-out; }
       @media screen and (max-width: 768px) {
         .agenda--list li a {
-          padding: 20px; } }
+          padding: 14px 20px; } }
     .agenda--list li span {
       display: block; }
   .agenda--list-time, .agenda--list-role, .agenda--list-speaker {
@@ -4286,3 +4297,20 @@ h1, h2, h3, h4 {
     color: #a6a7a9; }
   .agenda--list-time {
     color: #a6a7a9; }
+  .agenda--list-details {
+    position: absolute;
+    bottom: 14px;
+    right: 0;
+    letter-spacing: 2px;
+    font-family: 'latoregular', sans-serif;
+    font-size: 16px;
+    color: #a6a7a9;
+    transition: 0.24s all ease-in-out;
+    -moz-transition: 0.24s all ease-in-out;
+    -webkit-transtiion: 0.24s all ease-in-out;
+    -o-transition: 0.24s all ease-in-out; }
+    @media screen and (max-width: 768px) {
+      .agenda--list-details {
+        right: 20px;
+        top: 14px;
+        bottom: 0; } }
