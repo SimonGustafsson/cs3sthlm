@@ -1591,6 +1591,7 @@ h1, h2, h3, h4 {
     input:checked ~ .column-content {
       display: block;
       height: auto;
+      max-height: 600px;
     }
 
     input:checked ~ .column-icon-plus {
@@ -1634,9 +1635,11 @@ h1, h2, h3, h4 {
 
     .column-content {
       display: block;
+      transition: max-height .24s ease-in-out;
       
       @include media-query($mobile) {
-        height: 0;
+        height: auto;
+        max-height: 0;
         overflow: hidden;
       }
     }

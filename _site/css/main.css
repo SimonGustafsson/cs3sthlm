@@ -1306,7 +1306,8 @@ h1, h2, h3, h4 {
       color: #ef7d00; }
     .sec-columns .column-item input:checked ~ .column-content {
       display: block;
-      height: auto; }
+      height: auto;
+      max-height: 600px; }
     .sec-columns .column-item input:checked ~ .column-icon-plus:after {
       display: none; }
     .sec-columns .column-item .column-icon-plus {
@@ -1336,10 +1337,12 @@ h1, h2, h3, h4 {
         margin-left: 5px;
         margin-top: -6px; }
     .sec-columns .column-item .column-content {
-      display: block; }
+      display: block;
+      transition: max-height .24s ease-in-out; }
       @media screen and (max-width: 768px) {
         .sec-columns .column-item .column-content {
-          height: 0;
+          height: auto;
+          max-height: 0;
           overflow: hidden; } }
     .sec-columns .column-item h3 {
       display: block;
