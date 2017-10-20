@@ -3,51 +3,110 @@
 #main
 
 - id: d1-main
-  time: 08.00 - 09.00
-  role:
-  headline: Doors Open Registration
-  speaker:
+  time: "08:00"
+  headline: Registration Open at Nalen
 
 - id: d1-main
-  time: 09.00 - 17.00
+  time: 09:00 - 17:00
   role: Workshop
   headline: Network Forensics Training
   speaker: Erik Hjelmvik
   permalink: program/workshops/erik-hjelmvik/
+  work: NETRESEC
 
+- id: d1-main
+  time: "10:30"
+  headline: Coffee Break
+
+- id: d1-main
+  time: "12:00"
+  headline: Lunch Break
+
+- id: d1-main
+  time: "15:00"
+  headline: Coffee Break
+
+- id: d1-main
+  time: "ETC: 17:00"
+  headline: End of Tutorials
 #forum
 
 #day-two
 #main
 
 - id: d2-main
-  time: 08.00 - 09.00
-  role:
-  headline: Doors Open Registration
-  speaker:
+  time: "08:00"
+  headline: Registration Open at Nalen
 
 - id: d2-main
-  time: 09.00 - 17.00
+  time: 09:00 - 17:00
   role: Workshop
   headline: Network Forensics Training
   speaker: Erik Hjelmvik
   permalink: program/workshops/erik-hjelmvik/
+  work: NETRESEC
 
 - id: d2-main
-  time: 09.00 - 17.00
+  time: 09:00 - 17:00
   role: Workshop
   headline: An introduction of the IEC 62443
   speaker: Michael Theuerzeit
   permalink: program/workshops/michael-theuerzeit/
-
+  work: Hudson Cybertec
 
 - id: d2-main
-  time: 09.00 - 17.00
+  time: 09:00 - 17:00
   role: Workshop
   headline: Practical SCADA/ICS Honeypots
   speaker: Mikael Vingaard
   permalink: program/workshops/mikael-vingaard/
+  work: EnergiNet
 
+- id: d2-main
+  time: "10:30"
+  headline: Coffee Break
+
+- id: d2-main
+  time: "12:00"
+  headline: Lunch Break
+
+- id: d2-main
+  time: "15:00"
+  headline: Coffee Break
+
+- id: d2-main
+  time: 15:00 - 18:00
+  role: Stacken - Geeklounge
+  headline: CS3STHLM ICS/IoT lab opening in Geeklounge
+
+- id: d2-main
+  time: 15:00 - 18:00
+  role: Stacken - Geeklounge
+  headline: OPEN BAR CS3STHLM Geeklounge hosted by Advenica
+
+- id: d2-main
+  time: "ETC: 17:00"
+  headline: End of Tutorials
+
+- id: d2-main
+  time: 18:00 - 22:00
+  role:
+  headline: Welcome Reception
+
+- id: d2-main
+  time: "19:00"
+  role: Speaker
+  headline: ENISA Trainings for Cyber Security Specialists
+  speaker: Rossella Mattioli
+  permalink: program/presentations/enisa-trainings/
+  work: ENISA
+
+- id: d2-main
+  time: "19:30"
+  role: Speaker
+  headline: Effective Threat Mitigation Strategies
+  speaker: Jonas Dellenvall
+  work: CTO Advenica
 
 #forum
 
@@ -56,166 +115,249 @@
 #main
 
 - id: d3-main
-  time: 08.00 - 09.00
+  time: 08:00 - 09:00
   role:
-  headline: Doors Open Registration
+  headline: Registration Open at Nalen
   speaker:
 
 - id: d3-main
-  time: "09.00"
+  time: "09:00"
   role:
-  headline: Opening of CS3STHLM Summit 2017
-  speaker:
+  headline: Welcome + Keynote
+  speaker: Erik Johansson & Robert Malmgren
+  moderator-roll: Moderator
+  moderator: Anne-Marie Eklund Löwinder
 
 - id: d3-main
-  time:
-  role: Keynote
-  headline: DIY insider threat detection/prevention within ICS enviroments
-  speaker: Dieter Sarrazyn
-  permalink: dieter-sarrazyn
+  time: "09:30"
+  role: Speaker
+  headline: Back to the IoT Future
+  speaker: Dan Demeter
+  permalink: program/presentations/dan-demeter/
+  work: Kaspersky Labs
 
 - id: d3-main
-  time:
-  role:
   headline: Coffee Break
-  speaker:
 
 - id: d3-main
-  time:
-  role:
-  headline: ICS Program Development for Multi-national Corporations
-  speaker: Melissa Crawford
-  permalink: melissa-crawford
+  time: "09:30"
+  role: Speaker
+  headline: "IoT in Europe: What could possibly go wrong and how you can fix it"
+  speaker: Rossella Mattioli
+  permalink: program/presentations/iot-in-europe/
+  work: ENISA
 
 - id: d3-main
-  time:
-  role:
+  headline: Lunch Break
+
+- id: d3-main
+  time: "13:00"
+  role: Speaker
+  headline: "Pro-Kremlin trolls, fake news and propagandists as opinion influencers - and how to counter them"
+  speaker: Jessikka Aro
+  permalink: program/presentations/jessikka-aro/
+  work: Yle Kioski
+
+- id: d3-main
+  time: "13:30"
+  role: Speaker
   headline: APT Case Study
   speaker: Jon Røgeberg & Martin Eian
-  permalink: jon-røgeberg-and-martin-eian
+  permalink: program/presentations/jon-røgeberg-and-martin-eian/
+  work: mnemonic IRT
 
 - id: d3-main
-  time:
-  role:
-  headline: Lunch Break
-  speaker:
+  time: "14:00"
+  role: Speaker
+  headline: Pandora´s Box
+  speaker: Lars Erik Smevold
+  permalink: program/presentations/lars-erik-smevold/
+  work: KraftCERT
 
 - id: d3-main
-  time:
-  role:
-  headline: Strategic Network Defence in ICS Enviornments
-  speaker: Joe Slowik
-  permalink: joe-slowik
-
-- id: d3-main
-  time:
-  role:
-  headline: Embodied Vulnerabilities - How to find, fix, and think about them
-  speaker: Marie Moe & Eireann Leverett
-
-- id: d3-main
-  time:
-  role:
+  role: Swedish Fika
   headline: Coffee Break
-  speaker:
 
 - id: d3-main
-  time:
+  time: "15:30"
+  role: Speaker
+  headline: "Network and Information Security Directive: the road ahead"
+  speaker: Paraskevi Kasse
+  permalink: program/presentations/network-and-information/
+  work: ENISA
+
+- id: d3-main
+  time: "16:00"
+  role: Speaker
+  headline: ICS Program Development for Multi-national Corporations
+  speaker: Melissa Crawford
+  permalink: program/presentations/melissa-crawford/
+  work: Siemens
+
+- id: d3-main
+  time: "16:30"
+  role: Speaker
+  headline: "Protecting European transport infrastructures: threat models and security measures"
+  speaker: Rossella Mattioli
+  permalink: program/presentations/protecting-european-transports/
+  work: ENISA
+
+- id: d3-main
+  time: "18:30"
   role:
-  headline: Rise of the Machine
-  speaker: John Matherly
+  headline: CS3STHLM Hallway pre-dinner mingel
 
 - id: d3-main
-  time:
+  time: "19:00"
   role:
-  headline: Lightweight Protocol! Serious Equipment! Critical Implications!
-  speaker: Lucas Lundgren
-  permalink:
+  headline: CS3STHLM Conference dinner
 
 - id: d3-main
-  time:
-  role:
-  headline: End of day one sessions - Break
-  speaker:
-
-- id: d3-main
-  time: "18.30"
-  role:
-  headline: Dinner
-  speaker:
-
-- id: d3-main
-  time:
+  time: "20:00"
   role: Dinner Speaker
-  headline: Voyage to Space
-  speaker: Christer Fuglesang
+  headline: Adventures in Social Engineering - Tales of A "People Hacker"
+  speaker: Jenny Radcliffe
+  permalink: program/presentations/jenny-radcliffe/
 
-- id: d3-main
-  time:
-  role:
-  headline: End of Evening Session
-  speaker:
 
 #forum
 
 - id: d3-forum
-  time:
-  role:
-  headline: Lunch Break
+  time: "12:30"
+  role: Harlem Stage
+  headline: Lunch Session
   speaker:
 
 - id: d3-forum
-  time:
-  role:
-  headline: Cybersecurity in Europe - the NIS Directive and the role of Operators of Essential Services
-  speaker: Rosella Mattioli & Paraskevi Kasse
-
-- id: d3-forum
-  time:
-  role:
-  headline: Too Many Cooks Spoil the Broth?
-  speaker: Isabel Skierka & Jan-PEter Kleinhans
-
-
-- id: d3-forum
-  time:
-  role: Panel Discussion
-  headline: Panel about regulations, NIS-directive etc
+  time: "15:00"
+  role: Harlem Stage
+  headline: Coffee Session
   speaker:
 
 - id: d3-forum
-  time:
-  role:
-  headline: Coffee Break
+  time: 17:00 - 18:30
+  role: Geeklounge (Stacken)
+  headline: Demonstration of ICS/IoT Lab
   speaker:
 
 - id: d3-forum
-  time:
-  role:
-  headline: ENISA Open Session
+  time: 17:00 - 18:30
+  role: Geeklounge (Stacken)
+  headline: Lightning Talks
   speaker:
 
 - id: d3-forum
-  time: "15.30"
-  role:
-  headline: Overview ENISA studies and effort in ICS SCADA
+  time: 17:00 - 18:30
+  role: Geeklounge (Stacken)
+  headline: OPEN BAR CS3STHLM Geeklounge hosted by Advenica
   speaker:
-
-- id: d3-forum
-  time: "16.00"
-  role:
-  headline: Overview ENISA studies and effort in smart infrastructure and IoT
-  speaker:
-
-- id: d3-forum
-  time: "16.45"
-  role:
-  headline: "Open Panel: IoT and ICS SCADA, industry 4.0 and industrial IoT and smart industry, what are the scenarios?"
-  speaker:
-
 
 
 #day-four
 #main
+- id: d4-main
+  time: "09:00"
+  role: Speaker
+  headline: Threat modelling and security measures for ICS/SCADA
+  speaker: Paraskevi Kasse
+  permalink: program/presentations/threat-modelling-and-security/
+  work: ENISA
+
+- id: d4-main
+  time: "09:30"
+  role: Speaker
+  headline: "Cyberattacks Against Critical Infrastructure in Ukraine: Taxonomy, Consequences, Lessons Learned"
+  speaker: Roman Sologub & Oleksii Yasynskyi
+  permalink: program/presentations/oleksii-yasynskyi-and-roman-sologub/
+  work: ISSP Group
+
+- id: d4-main
+  headline: Coffee Break
+
+- id: d4-main
+  time: "10:30"
+  role: Speaker
+  headline: "Industroyer: biggest threat to industrial control systems since Stuxnet"
+  speaker: Anton Cherepanov & Robert Lipovský
+  permalink: program/presentations/anton-cherepanov-and-robert-lipovsky/
+  work: ESET
+
+- id: d4-main
+  time: "11:00"
+  role: Panel Discussion
+  headline: Cyber Warfare and Large Scale Cyber Criminality
+
+- id: d4-main
+  headline: Lunch Break
+
+- id: d4-main
+  time: "13:00"
+  role: Speaker
+  headline: Configurable Code-Reuse Attacks Mitigation for COTS Programmable Logic Controller Binaries
+  speaker: Ali Abbasi
+  permalink: program/presentations/ali-abbasi/
+  work: University of Twente
+
+- id: d4-main
+  time: "13:30"
+  role: Speaker
+  headline: "From Box to Backdoor: Using Old School Tools and Techniques to Discover Backdoors in Modern Devices"
+  speaker: Patrick DeSantis
+  permalink: program/presentations/patrick-desantis/
+  work: Cisco Talos
+
+- id: d4-main
+  time: "14:00"
+  role: Speaker
+  headline: "Security for Safety: Fortifying the last line of defense"
+  speaker: Jens Wiesner
+  permalink: program/presentations/jens-wiesner/
+  work: BSI
+
+- id: d4-main
+  role: Hallway Track
+  headline: Coffee Break
+
+
+- id: d4-main
+  time: "15:00"
+  role: Speaker
+  headline: Strategic Network Defense in ICS Environments
+  speaker: Joe Slowik
+  permalink: program/presentations/joe-slowik/
+  work: Dragos Inc
+
+- id: d4-main
+  time: "15:30"
+  role: Speaker
+  headline: DIY insider threat detection/prevention within ICS enviroments
+  speaker: Dieter Sarrazyn
+  permalink: program/presentations/dieter-sarrazyn/
+  work: Secudea bvba
+
+- id: d4-main
+  time: "16:00"
+  role: Speaker
+  headline: Secure SCADA Protocol for the 21st Century (SSP21)
+  speaker: Adam Crain
+  permalink: program/presentations/adam-crain/
+  work: Automatak
+
+- id: d4-main
+  role: Closing Session
+  headline: Conference Closing
 
 #forum
+- id: d4-forum
+  time: "12:30"
+  role: Harlem Stage
+  headline: Lunch Session
+
+- id: d4-forum
+  time: Afternoon
+  role: Geeklounge (Stacken)
+  headline: "ICS/IoT Lab Activities summary: statistics, highlights and discoveries"
+
+
+
+

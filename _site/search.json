@@ -193,17 +193,17 @@
   
    {
      
-        "title"    : "Program",
-        "url"      : "/program/",
-        "path"     : "/program/"
+        "title"    : "Presentations",
+        "url"      : "/program/presentations/",
+        "path"     : "/program/presentations/"
      
    } ,
   
    {
      
-        "title"    : "Advisory",
-        "url"      : "/about/advisory/",
-        "path"     : "/about/advisory/"
+        "title"    : "History",
+        "url"      : "/about/history/",
+        "path"     : "/about/history/"
      
    } ,
   
@@ -212,6 +212,14 @@
         "title"    : "Workshops",
         "url"      : "/program/workshops/",
         "path"     : "/program/workshops/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Program",
+        "url"      : "/program/",
+        "path"     : "/program/"
      
    } ,
   
@@ -241,17 +249,9 @@
   
    {
      
-        "title"    : "History",
-        "url"      : "/about/history/",
-        "path"     : "/about/history/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Presentations",
-        "url"      : "/program/presentations/",
-        "path"     : "/program/presentations/"
+        "title"    : "Advisory",
+        "url"      : "/about/advisory/",
+        "path"     : "/about/advisory/"
      
    } ,
   
@@ -260,6 +260,14 @@
         "title"    : "IoT in Europe: what could possibly go wrong and how you can fix it",
         "url"      : "/program/presentations/iot-in-europe/",
         "path"     : "/program/presentations/iot-in-europe/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Adventures in Social Engineering - Tales of A &quot;People Hacker&quot;",
+        "url"      : "/program/presentations/jenny-radcliffe/",
+        "path"     : "/program/presentations/jenny-radcliffe/"
      
    } ,
   
