@@ -27,7 +27,7 @@
   headline: Coffee Break
 
 - id: d1-main
-  time: "ETC: 17:00"
+  time: "ca: 17:00"
   headline: End of Tutorials
 #forum
 
@@ -77,20 +77,16 @@
 - id: d2-main
   time: 15:00 - 18:00
   role: Stacken - Geeklounge
-  headline: CS3STHLM ICS/IoT lab opening in Geeklounge
+  headline: CS3STHLM ICS/IoT lab opening in Geeklounge - OPEN BAR
+  extra: CS3STHLM Geeklounge hosted by Advenica
 
 - id: d2-main
-  time: 15:00 - 18:00
-  role: Stacken - Geeklounge
-  headline: OPEN BAR CS3STHLM Geeklounge hosted by Advenica
-
-- id: d2-main
-  time: "ETC: 17:00"
+  time: "ca: 17:00"
   headline: End of Tutorials
 
 - id: d2-main
   time: 18:00 - 22:00
-  role:
+  role: Main Hall
   headline: Welcome Reception
 
 - id: d2-main
@@ -140,7 +136,15 @@
   headline: Coffee Break
 
 - id: d3-main
-  time: "09:30"
+  time: "10:30"
+  role: Speaker
+  headline: S in IoT is for Security
+  speaker: Akriti Srivastava
+  permalink: program/presentations/akriti-srivastava/
+  work: Adobe Systems
+
+- id: d3-main
+  time: "ca: 11:15"
   role: Speaker
   headline: "IoT in Europe: What could possibly go wrong and how you can fix it"
   speaker: Rossella Mattioli
@@ -237,20 +241,8 @@
 - id: d3-forum
   time: 17:00 - 18:30
   role: Geeklounge (Stacken)
-  headline: Demonstration of ICS/IoT Lab
-  speaker:
-
-- id: d3-forum
-  time: 17:00 - 18:30
-  role: Geeklounge (Stacken)
-  headline: Lightning Talks
-  speaker:
-
-- id: d3-forum
-  time: 17:00 - 18:30
-  role: Geeklounge (Stacken)
-  headline: OPEN BAR CS3STHLM Geeklounge hosted by Advenica
-  speaker:
+  headline: Demonstration of ICS/IoT Lab, Lightning Talks - OPEN BAR 
+  extra: CS3STHLM Geeklounge hosted by Advenica
 
 
 #day-four
@@ -356,7 +348,8 @@
 - id: d4-forum
   time: Afternoon
   role: Geeklounge (Stacken)
-  headline: "ICS/IoT Lab Activities summary: statistics, highlights and discoveries"
+  headline: "CS3STHLM ICS/IoT Lab Activities summary: statistics, highlights and discoveries"
+  extra: CS3STHLM Geeklounge hosted by Advenica
 
 
 
