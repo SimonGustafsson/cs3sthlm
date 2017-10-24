@@ -81,6 +81,20 @@ $('#d3-forum-btn').on('click', function(){
     $('#d3-main-btn').removeClass('btn-agenda-active');
 });
 
+$('#d4-main-btn').on('click', function(){
+    $('#d4-forum-content').removeClass('agenda--content-open');
+    $('#d4-main-content').addClass('agenda--content-open');
+    $('#d4-main-btn').addClass('btn-agenda-active');
+    $('#d4-forum-btn').removeClass('btn-agenda-active');
+});
+
+$('#d4-forum-btn').on('click', function(){
+    $('#d4-main-content').removeClass('agenda--content-open');
+    $('#d4-forum-content').addClass('agenda--content-open');
+    $('#d4-forum-btn').addClass('btn-agenda-active');
+    $('#d4-main-btn').removeClass('btn-agenda-active');
+});
+
 $(document).ready( function(){
 
     $('.post-download-drop').click( function(event){
