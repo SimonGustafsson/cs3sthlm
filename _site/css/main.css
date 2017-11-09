@@ -158,12 +158,26 @@ h1, h2, h3, h4 {
 /**
   HOME */
 .home {
-  background: #030100 url("../assets/cs3sthlm-banner.jpg") no-repeat;
-  background-size: 100% auto;
-  background-position: 0 0; }
+  background: #030100 url("../assets/cs3sthlm-background.png") no-repeat;
+  background-size: auto 100%;
+  background-position: center center; }
   @media screen and (max-width: 768px) {
     .home {
       background-image: none; } }
+
+/**
+  NOTICE */
+.notice-bar {
+  display: block;
+  width: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  padding: 12px 0;
+  margin-bottom: 40px;
+  color: rgba(255, 255, 255, 0.85); }
+  .notice-bar h3 {
+    color: #ef7d00; }
 
 /**
   HEADER */
@@ -348,6 +362,7 @@ h1, h2, h3, h4 {
         color: white;
         text-decoration: none;
         text-transform: uppercase;
+        text-shadow: 0 1px 3px #030100;
         transition: 0.24s all ease-in-out;
         -moz-transition: 0.24s all ease-in-out;
         -webkit-transtiion: 0.24s all ease-in-out;
@@ -1457,6 +1472,8 @@ h1, h2, h3, h4 {
   -webkit-align-items: center;
   justify-content: space-between;
   -webkit-justify-content: space-between;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
   margin-top: 40px; }
   @media screen and (max-width: 768px) {
     .sec-blocks .sec-blocks-row {
@@ -1472,6 +1489,7 @@ h1, h2, h3, h4 {
     padding: 30px 40px;
     text-decoration: none;
     color: white;
+    margin-bottom: 20px;
     transition: 0.24s all ease-in-out;
     -moz-transition: 0.24s all ease-in-out;
     -webkit-transtiion: 0.24s all ease-in-out;
@@ -1636,6 +1654,8 @@ h1, h2, h3, h4 {
   -webkit-align-items: flex-start;
   justify-content: space-between;
   -webkit-justify-content: space-between;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
   box-sizing: border-box;
   padding-top: 60px; }
   @media screen and (max-width: 768px) {
@@ -1649,7 +1669,8 @@ h1, h2, h3, h4 {
     background: #2b2f36;
     box-sizing: border-box;
     border-radius: 2px;
-    padding: 40px 20px; }
+    padding: 40px 20px;
+    margin-bottom: 20px; }
     @media screen and (max-width: 768px) {
       .sec-cards .card-item {
         width: 100%;
@@ -3771,6 +3792,89 @@ h1, h2, h3, h4 {
         -moz-transition: 0.24s all ease-in-out;
         -webkit-transtiion: 0.24s all ease-in-out;
         -o-transition: 0.24s all ease-in-out; }
+
+/**
+  THANK YOU + Gallery */
+.ty-box {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  margin-bottom: 60px; }
+  .ty-box img {
+    display: block;
+    max-width: 280px; }
+    .ty-box img.end--logo {
+      max-width: 120px;
+      margin-top: 80px; }
+  .ty-box h2 {
+    display: block;
+    margin-top: 20px;
+    font-family: 'latoblack', sans-serif;
+    font-size: 56px; }
+  .ty-box h3 {
+    display: block;
+    margin-top: 20px;
+    font-family: 'latoregular', sans-serif;
+    font-size: 26px; }
+
+.ty-content {
+  display: block;
+  position: relative; }
+  .ty-content p {
+    display: block;
+    width: 550px;
+    margin-bottom: 20px;
+    font-size: 18px; }
+    .ty-content p i {
+      color: #ef7d00; }
+  .ty-content img {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0; }
+  .ty-content .medium-image {
+    display: block;
+    width: 550px; }
+
+.gallery {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: flex-start;
+  -webkit-align-items: flex-start;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  width: 100%;
+  margin-top: 80px; }
+  .gallery figure {
+    display: block;
+    margin-bottom: 20px; }
+    .gallery figure img {
+      vertical-align: top; }
+  .gallery .image-column {
+    width: 550px; }
+    .gallery .image-column img:last-of-type {
+      margin-top: 20px; }
+  .gallery .large-image {
+    width: 1120px; }
+  .gallery .medium-image {
+    width: 550px; }
+  .gallery .small-image {
+    width: 360px; }
 
 /**
   FOOTER */

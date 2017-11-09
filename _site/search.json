@@ -129,9 +129,9 @@
   
    {
      
-        "title"    : "About",
-        "url"      : "/about/",
-        "path"     : "/about/"
+        "title"    : "Presentations",
+        "url"      : "/program/presentations/",
+        "path"     : "/program/presentations/"
      
    } ,
   
@@ -177,33 +177,17 @@
   
    {
      
-        "title"    : "Agenda",
-        "url"      : "/agenda/",
-        "path"     : "/agenda/"
+        "title"    : "About",
+        "url"      : "/about/",
+        "path"     : "/about/"
      
    } ,
   
    {
      
-        "title"    : "Press",
-        "url"      : "/press/",
-        "path"     : "/press/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Presentations",
-        "url"      : "/program/presentations/",
-        "path"     : "/program/presentations/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "History",
-        "url"      : "/about/history/",
-        "path"     : "/about/history/"
+        "title"    : "Practical Details",
+        "url"      : "/practical-details/",
+        "path"     : "/practical-details/"
      
    } ,
   
@@ -217,9 +201,25 @@
   
    {
      
+        "title"    : "History",
+        "url"      : "/about/history/",
+        "path"     : "/about/history/"
+     
+   } ,
+  
+   {
+     
         "title"    : "Program",
         "url"      : "/program/",
         "path"     : "/program/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Thank You",
+        "url"      : "/thank-you/",
+        "path"     : "/thank-you/"
      
    } ,
   
@@ -241,9 +241,9 @@
   
    {
      
-        "title"    : "Practical Details",
-        "url"      : "/practical-details/",
-        "path"     : "/practical-details/"
+        "title"    : "Press",
+        "url"      : "/press/",
+        "path"     : "/press/"
      
    } ,
   

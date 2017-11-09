@@ -29,8 +29,12 @@ permalink: "/about/history/"
 			<li><span>{{ card.nr-attendees }}</span>Attendees</li>
 		</ul>
 
+		{% if card.youtube != null %}
 		<a href="{{ card.youtube }}" target="_blank" class="card-item-link">View presentations at YouTube</a>
-
+		{% endif %}
+		{% if card.youtube-details != null %}
+		<span class="card-item-link">{{ card.youtube-details }}</span>
+		{% endif %}
 		<span class="card-item-subline">Organized by<a href="https://omnisiens.se" target="_blank"><span class="omnisiens-logo"></span></a></span>
 	</div>
 	{% endfor %}
