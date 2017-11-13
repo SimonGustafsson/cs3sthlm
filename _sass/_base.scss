@@ -48,7 +48,7 @@ h1, h2, h3, h4 {
 
 .home {
   background: $dark url('../assets/cs3sthlm-background.png') no-repeat;
-  background-size: auto 100%;
+  background-size: 100% auto;
   background-position: center center;
 
   @include media-query($mobile) {
@@ -884,7 +884,7 @@ h1, h2, h3, h4 {
     margin: 25px 0 0 -5px;
 
     @include media-query($mobile) {
-      margin-top: 0;
+      margin-top: 20px;
     }
 
     ul {
@@ -1109,6 +1109,10 @@ h1, h2, h3, h4 {
         &:last-of-type {
           margin-top: 20px;
         }
+        &:first-of-type {
+          margin-top: 0;
+        }
+
         &:nth-child(2) {
           margin-left: 4%;
         }
@@ -1117,6 +1121,10 @@ h1, h2, h3, h4 {
       .btn-yellow {
         width: 100%;
         margin-bottom: 20px;
+      }
+      .btn-thank-you {
+        width: 47.5%;
+        margin-bottom: 0;
       }
     }
   }
@@ -4915,6 +4923,10 @@ h1, h2, h3, h4 {
     display: block;
     max-width: 280px;
 
+    @include media-query($mobile) {
+      max-width: 140px;
+    }
+
     &.end--logo {
       max-width: 120px;
       margin-top: 80px;
@@ -4926,6 +4938,10 @@ h1, h2, h3, h4 {
     margin-top: 20px;
     font-family: 'latoblack', sans-serif;
     font-size: 56px;
+
+    @include media-query($mobile) {
+      font-size: 38px;
+    }
   }
   h3 {
     display: block;
@@ -4945,6 +4961,12 @@ h1, h2, h3, h4 {
     margin-bottom: 20px;
     font-size: 18px;
 
+    @include media-query($mobile) {
+      width: 100%;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+
     i {
       color: $yellow;
     }
@@ -4955,10 +4977,19 @@ h1, h2, h3, h4 {
     position: absolute;
     top: 0;
     right: 0;
+
+    @include media-query($mobile) {
+      position: relative;
+      margin-bottom: 20px;
+    }
   }
   .medium-image {
     display: block;
     width: 550px;
+
+    @include media-query($mobile) {
+      width: 100%;
+    }
   }
 }
 
@@ -4983,9 +5014,17 @@ h1, h2, h3, h4 {
   width: 100%;
   margin-top: 80px;
 
+  @include media-query($mobile) {
+    margin-top: 20px;
+  }
+
   figure {
     display: block;
     margin-bottom: 20px;
+
+    @include media-query($mobile) {
+      margin-bottom: 10px;
+    }
 
     img {
       vertical-align: top;
@@ -4995,19 +5034,47 @@ h1, h2, h3, h4 {
   .image-column {
     width: 550px;
 
+    @include media-query($mobile) {
+      width: 50%;
+
+      .medium-image {
+        width: 100%;
+      }
+    }
+
     img:last-of-type {
       margin-top: 20px;
+
+      @include media-query($mobile) {
+        margin-top: 10px;
+      }
     }
+  }
+
+  .large-image img, .medium-image img, .small-image img {
+    width: 100%;
   }
 
   .large-image {
     width: 1120px;
+
+    @include media-query($mobile) {
+      width: 100%;
+    }
   }
   .medium-image {
     width: 550px;
+
+    @include media-query($mobile) {
+      width: 50%;
+    }
   }
   .small-image {
     width: 360px;
+
+    @include media-query($mobile) {
+      width: 33.3333%;
+    }
   }
 }
 
