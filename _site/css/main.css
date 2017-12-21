@@ -3091,6 +3091,9 @@ h1, h2, h3, h4 {
             max-width: 100%; }
             .post .post-content p img:nth-child(2) {
               margin-left: 0; } }
+      .post .post-content p .full-width-image {
+        width: 100%;
+        max-width: 100%; }
       .post .post-content p a {
         color: #ef7d00;
         transition: 0.24s all ease-in-out;

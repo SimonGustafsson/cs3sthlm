@@ -63,4 +63,4 @@ Until the next news letter,
 
 Best wishes from the whole CS3STHLM team
 
-![Marble One]({{ site.baseurl }}/assets/news/cyber.jpg)
+![Cyber]({{ site.baseurl }}/assets/news/cyber.jpg){:class="full-width-image"}
