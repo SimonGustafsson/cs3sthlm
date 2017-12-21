@@ -2705,6 +2705,13 @@ h1, h2, h3, h4 {
   .btn-blue:hover {
     color: #030100; }
 
+.btn-red {
+  background: #912f40;
+  color: white;
+  text-shadow: 0 1px 3px rgba(32, 35, 40, 0.4); }
+  .btn-red:hover {
+    color: #030100; }
+
 .btn-intro-more {
   display: none; }
   @media screen and (max-width: 768px) {

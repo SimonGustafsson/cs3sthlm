@@ -29,6 +29,5 @@ theme:
 include: ['_pages']
 
 
-gems:
+plugins:
   - jekyll-sitemap
-  - jekyll-seo-tag

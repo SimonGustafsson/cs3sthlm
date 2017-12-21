@@ -4,17 +4,17 @@ layout: null
 [
   {% for post in site.posts %}
     {
-      "title"    : "{{ post.title | escape }}",
+      "title"    : "{{ post.title }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
       "date"     : "{{ post.date }}",
-      "path"     : "{{ post.url | escape }}"
+      "path"     : "{{ post.url }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
   ,
   {% for page in site.pages %}
    {
      {% if page.title != nil %}
-        "title"    : "{{ page.title | escape }}",
+        "title"    : "{{ page.title }}",
         "url"      : "{{ site.baseurl }}{{ page.url }}",
         "path"     : "{{ page.permalink }}"
      {% endif %}
@@ -24,7 +24,7 @@ layout: null
   {% for speaker in site.data.speakers %}
    {
      {% if speaker.name != nil %}
-        "title"    : "{{ speaker.name | escape }}",
+        "title"    : "{{ speaker.name }}",
         "url"      : "{{ site.baseurl }}/{{ speaker.permalink }}",
         "path"     : "{{ speaker.permalink }}"
      {% endif %}

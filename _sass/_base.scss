@@ -3411,6 +3411,15 @@ h1, h2, h3, h4 {
     color: $dark;
   }
 }
+.btn-red {
+  background: $red;
+  color: $white;
+  text-shadow: 0 1px 3px rgba(32, 35, 40, .4);
+
+  &:hover {
+    color: $dark;
+  }
+}
 
 .btn-intro-more {
   display: none;

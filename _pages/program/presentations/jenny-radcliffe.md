@@ -1,5 +1,5 @@
 ---
-title: Adventures in Social Engineering - Tales of A "People Hacker"
+title: Adventures in Social Engineering - Tales of A People Hacker
 permalink: "/program/presentations/jenny-radcliffe/"
 layout: presentation
 speaker: 
