@@ -5,12 +5,12 @@
     <description>CS3STHLM - Stockholm international summit on cyber-security in SCADA and Industrial Control Systems. CS3STHLM is an annual summit that gather the most important ICS/SCADA cyber security stakeholders across critical industries (i.e. energy, oil &amp; gas, water, transportation and smartgrid etc)</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 21 Dec 2017 10:35:01 +0100</pubDate>
-    <lastBuildDate>Thu, 21 Dec 2017 10:35:01 +0100</lastBuildDate>
+    <pubDate>Thu, 21 Dec 2017 11:14:25 +0100</pubDate>
+    <lastBuildDate>Thu, 21 Dec 2017 11:14:25 +0100</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
-        <title>CS3STHLM Newsletter December 13th</title>
+        <title>CS3STHLM Newsletter</title>
         <description>&lt;p&gt;2017 was indeed a remarkable year, and some of the cyber security related things that happened will surely be remembered.&lt;/p&gt;
 
 &lt;p&gt;Among them was the Wannacry malware hospitals, industrial companies and other important infrastructure. Things that also hit the front pages were outbreak that blindly struck against the analysis of Industroyer/CRASHOVERRIDE (ICS malware attacking Ukraine grid operator) and recently the TRITON/TRISIS/Hatman (attack tool against safety system). In Sweden, IT security incidents led to the resignation of two ministers from the government, and a journalists use of Shodan led to that one of Swedens largest news room had a series of reports on what is Internet accessible, when they found heating/hydropower/windpower/elevators and more, sitting on the Internet for anyone to access.&lt;/p&gt;
@@ -90,7 +90,7 @@
       </item>
     
       <item>
-        <title>CS3STHLM Newsletter September 13th</title>
+        <title>CS3STHLM Newsletter</title>
         <description>&lt;p&gt;The CS3STHLM summit is just a bit over a month away. Today we have speakers from many corners of the earth, and we have already attendees from most continents!  &lt;/p&gt;
 
 &lt;p&gt;We will be at the beutiful venue Nalen in central Stockholm again.  &lt;/p&gt;
@@ -153,7 +153,7 @@ standard (1 day) &lt;/a&gt;&lt;/li&gt;
       </item>
     
       <item>
-        <title>CS3STHLM Newsletter June 13th</title>
+        <title>CS3STHLM Newsletter</title>
         <description>&lt;p&gt;Outline of this short newsletter&lt;/p&gt;
 
 &lt;ul&gt;
