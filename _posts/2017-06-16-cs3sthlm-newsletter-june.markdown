@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  CS3STHLM Newsletter
+title:  CS3STHLM Newsletter June
 date:   2017-06-13 06:00:00 +0200
 categories: news
 author: Robert Malmgren
