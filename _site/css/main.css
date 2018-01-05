@@ -945,27 +945,42 @@ h1, h2, h3, h4 {
         .introduction .subject-row h3 {
           font-size: 15px;
           margin-top: 8px; } }
-  .introduction .btn-group-intro .btn {
-    margin-left: 30px; }
-    .introduction .btn-group-intro .btn:first-of-type {
-      margin-left: 0; }
-  @media screen and (max-width: 768px) {
+  .introduction .btn-group-intro {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap; }
     .introduction .btn-group-intro .btn {
-      width: 47.5%;
-      margin-left: 0;
-      padding: 10px 14px; }
-      .introduction .btn-group-intro .btn:last-of-type {
-        margin-top: 20px; }
+      margin-left: 30px; }
       .introduction .btn-group-intro .btn:first-of-type {
-        margin-top: 0; }
-      .introduction .btn-group-intro .btn:nth-child(2) {
-        margin-left: 4%; }
-    .introduction .btn-group-intro .btn-yellow {
-      width: 100%;
-      margin-bottom: 20px; }
-    .introduction .btn-group-intro .btn-thank-you {
-      width: 47.5%;
-      margin-bottom: 0; } }
+        margin-left: 0; }
+    @media screen and (max-width: 768px) {
+      .introduction .btn-group-intro .btn {
+        width: 47.5%;
+        margin-left: 0;
+        padding: 10px 14px; }
+        .introduction .btn-group-intro .btn:first-of-type {
+          margin-top: 0; }
+        .introduction .btn-group-intro .btn:nth-child(3) {
+          margin-left: 4%; }
+        .introduction .btn-group-intro .btn:nth-child(2) {
+          margin-top: 20px; }
+      .introduction .btn-group-intro .btn-yellow {
+        width: 100%;
+        margin-bottom: 20px;
+        order: 3; }
+      .introduction .btn-group-intro .btn-thank-you {
+        width: 47.5%;
+        margin-bottom: 0; }
+      .introduction .btn-group-intro .btn-red {
+        order: 2; } }
 
 .about {
   margin: 130px auto 0; }

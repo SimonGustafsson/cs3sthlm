@@ -1091,6 +1091,20 @@ h1, h2, h3, h4 {
   }
 
   .btn-group-intro {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+  
+    flex-direction: row;
+    -webkit-flex-direction: row;
+
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
 
     .btn {
       margin-left: 30px;
@@ -1106,25 +1120,28 @@ h1, h2, h3, h4 {
         margin-left: 0;
         padding: 10px 14px;
 
-        &:last-of-type {
-          margin-top: 20px;
-        }
         &:first-of-type {
           margin-top: 0;
         }
-
-        &:nth-child(2) {
+        &:nth-child(3) {
           margin-left: 4%;
+        }
+        &:nth-child(2) {
+          margin-top: 20px;
         }
       }
 
       .btn-yellow {
         width: 100%;
         margin-bottom: 20px;
+        order: 3;
       }
       .btn-thank-you {
         width: 47.5%;
         margin-bottom: 0;
+      }
+      .btn-red {
+        order: 2;
       }
     }
   }
