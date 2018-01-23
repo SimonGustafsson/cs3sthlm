@@ -176,6 +176,9 @@ h1, h2, h3, h4 {
   padding: 12px 0;
   margin-bottom: 40px;
   color: rgba(255, 255, 255, 0.85); }
+  @media screen and (max-width: 768px) {
+    .notice-bar {
+      padding: 12px 5%; } }
   .notice-bar h3 {
     color: #ef7d00; }
 
@@ -386,7 +389,8 @@ h1, h2, h3, h4 {
             color: #030100;
             padding: 10px 0 10px 20px;
             box-sizing: border-box;
-            font-size: 14px; } }
+            font-size: 14px;
+            text-shadow: none; } }
     .menu--primary ul .submenu-prim {
       display: block;
       position: relative; }
@@ -1789,7 +1793,7 @@ h1, h2, h3, h4 {
         width: 100%;
         max-width: 100%;
         padding: 0 0 60px;
-        margin-bottom: 40px; } }
+        margin-bottom: 0; } }
     .advisory-cards .card-item-data {
       display: block; }
     .advisory-cards .card-item .speaker-image {
@@ -1799,6 +1803,9 @@ h1, h2, h3, h4 {
         display: block;
         width: 100%;
         border-radius: 2px 2px 0 0; }
+        @media screen and (max-width: 768px) {
+          .advisory-cards .card-item .speaker-image img {
+            border-radius: 0; } }
     .advisory-cards .card-item h2 {
       display: block;
       padding: 20px;
@@ -2800,9 +2807,17 @@ h1, h2, h3, h4 {
         -webkit-justify-content: space-between;
         flex-wrap: wrap;
         -webkit-flex-wrap: wrap;
-        padding-left: 74px;
         box-sizing: border-box;
         position: relative; } }
+    @media screen and (max-width: 768px) {
+      .box-left ul.meta-data--presentation {
+        padding-left: 74px; }
+        .box-left ul.meta-data--presentation li:first-of-type {
+          width: 100%; }
+        .box-left ul.meta-data--presentation li:last-of-type {
+          position: absolute;
+          top: 0;
+          left: 0; } }
     .box-left ul li {
       margin-bottom: 20px; }
       .box-left ul li:last-of-type {
@@ -2810,13 +2825,7 @@ h1, h2, h3, h4 {
       @media screen and (max-width: 768px) {
         .box-left ul li {
           margin-bottom: 6px;
-          width: 50%; }
-          .box-left ul li:first-of-type {
-            width: 100%; }
-          .box-left ul li:last-of-type {
-            position: absolute;
-            top: 0;
-            left: 0; } }
+          width: 50%; } }
       .box-left ul li span > a {
         display: block;
         font-family: 'latobold', sans-serif;

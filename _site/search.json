@@ -136,9 +136,41 @@
   
    {
      
-        "title"    : "Presentations",
-        "url"      : "/program/presentations/",
-        "path"     : "/program/presentations/"
+        "title"    : "News",
+        "url"      : "/news/",
+        "path"     : "/news/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Partners",
+        "url"      : "/partners/",
+        "path"     : "/partners/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Workshops",
+        "url"      : "/program/workshops/",
+        "path"     : "/program/workshops/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Home",
+        "url"      : "/",
+        "path"     : ""
+     
+   } ,
+  
+   {
+     
+        "title"    : "Speakers",
+        "url"      : "/program/speakers/",
+        "path"     : "/program/speakers/"
      
    } ,
   
@@ -152,25 +184,49 @@
   
    {
      
+        "title"    : "Program",
+        "url"      : "/program/",
+        "path"     : "/program/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Presentations",
+        "url"      : "/program/presentations/",
+        "path"     : "/program/presentations/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Press",
+        "url"      : "/press/",
+        "path"     : "/press/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Thank You",
+        "url"      : "/thank-you/",
+        "path"     : "/thank-you/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Practical Details",
+        "url"      : "/practical-details/",
+        "path"     : "/practical-details/"
+     
+   } ,
+  
+   {
+     
         "title"    : "History",
         "url"      : "/about/history/",
         "path"     : "/about/history/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "About",
-        "url"      : "/about/",
-        "path"     : "/about/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Call for Proposals",
-        "url"      : "/call-for-proposals/",
-        "path"     : "/call-for-proposals/"
      
    } ,
   
@@ -192,73 +248,17 @@
   
    {
      
-        "title"    : "News",
-        "url"      : "/news/",
-        "path"     : "/news/"
+        "title"    : "About",
+        "url"      : "/about/",
+        "path"     : "/about/"
      
    } ,
   
    {
      
-        "title"    : "Partners",
-        "url"      : "/partners/",
-        "path"     : "/partners/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Practical Details",
-        "url"      : "/practical-details/",
-        "path"     : "/practical-details/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Press",
-        "url"      : "/press/",
-        "path"     : "/press/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Speakers",
-        "url"      : "/program/speakers/",
-        "path"     : "/program/speakers/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Workshops",
-        "url"      : "/program/workshops/",
-        "path"     : "/program/workshops/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Program",
-        "url"      : "/program/",
-        "path"     : "/program/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Thank You",
-        "url"      : "/thank-you/",
-        "path"     : "/thank-you/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Home",
-        "url"      : "/",
-        "path"     : ""
+        "title"    : "Call for Proposals",
+        "url"      : "/call-for-proposals/",
+        "path"     : "/call-for-proposals/"
      
    } ,
   

@@ -71,6 +71,10 @@ h1, h2, h3, h4 {
 
   color: rgba($white, .85);
 
+  @include media-query($mobile) {
+    padding: 12px 5%;
+  }
+
   h3 {
     color: $yellow;
   }
@@ -351,6 +355,7 @@ h1, h2, h3, h4 {
           padding: 10px 0 10px 20px;
           box-sizing: border-box;
           font-size: 14px;
+          text-shadow: none;
         }
       }
     }
@@ -2228,7 +2233,7 @@ h1, h2, h3, h4 {
       width: 100%;
       max-width: 100%;
       padding: 0 0 60px;
-      margin-bottom: 40px;
+      margin-bottom: 0;
     }
 
     &-data {
@@ -2243,6 +2248,10 @@ h1, h2, h3, h4 {
         display: block;
         width: 100%;
         border-radius: 2px 2px 0 0;
+
+        @include media-query($mobile) {
+          border-radius: 0;
+        }
       }
     }
 
@@ -3542,9 +3551,29 @@ h1, h2, h3, h4 {
 
       flex-wrap: wrap;
       -webkit-flex-wrap: wrap;
-      padding-left: 74px;
       box-sizing: border-box;
       position: relative;
+    }
+
+    &.meta-data- {
+
+      @include media-query($mobile) {
+        &-presentation {
+          padding-left: 74px;
+
+          li {
+
+            &:first-of-type {
+              width: 100%;
+            }
+            &:last-of-type {
+              position: absolute;
+              top: 0;
+              left: 0;
+            }
+          }
+        }
+      }
     }
     
     li {
@@ -3557,15 +3586,6 @@ h1, h2, h3, h4 {
       @include media-query($mobile) {
         margin-bottom: 6px;
         width: 50%;
-
-        &:first-of-type {
-          width: 100%;
-        }
-        &:last-of-type {
-          position: absolute;
-          top: 0;
-          left: 0;
-        }
       }
 
       span > a {
