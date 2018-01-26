@@ -151,6 +151,10 @@ body {
 h1, h2, h3, h4 {
   font-family: 'latoblack', Arial, sans-serif; }
 
+.highlight-white {
+  font-weight: normal;
+  color: white; }
+
 @media screen and (max-width: 768px) {
   .overlay-active {
     overflow: hidden; } }

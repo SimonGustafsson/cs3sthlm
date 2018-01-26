@@ -1,9 +1,9 @@
 ---
-title: Network Forensics Training
-short-title: Network Forensics Training
+title: Network Forens<b class="highlight-white">ICS</b> Training
+short-title: Network Forens<b class="highlight-white">ICS</b> Training
 layout: workshop
 author: Erik Hjelmvik
-time: 23-24 October
+time: 22-23 October
 id: workshop
 permalink: "/program/workshops/erik-hjelmvik/"
 image: erik-hjelmvik.png
@@ -16,6 +16,9 @@ Our two-day Network Forensics class consists of a mix of theory and hands-on lab
 * Theory: Ethernet signaling
 * Hardware: Network TAPs and Monitor ports / SPAN ports
 * Sniffers: Recommendations for high-performance packet interception
+* Analyze Modbus TCP traffic
+* Forensics of IEC 60870-5-104 network traffic
+* Investigate telnet sessions
 * PCAP analysis: Extracting evidence and indicators of compromise using open source tools
 * Defeating Big Data: Techniques for working with large data sets
 * Whitelists: Learn how to detect 0-day exploit attacks without using IDS signatures
@@ -30,6 +33,7 @@ Our two-day Network Forensics class consists of a mix of theory and hands-on lab
   * Super fast flow transcript (aka Follow TCP/UDP stream)
   * Filter PCAP files and export frames to other tools
   * Keyword search
+  * Create inventory of ICS devices from PCAP
 * Challenge Day 2
 
 #### The Scenario
@@ -37,7 +41,6 @@ Our two-day Network Forensics class consists of a mix of theory and hands-on lab
 The scenario used in the class involves a new progressive Bank, which provides exchange services for Bitcoin and Litecoin. We've set up clients and a server for this bank using REAL physical machines and a REAL internet connection. All traffic on the network is captured to PCAP files by a SecurityOnion sensor. In the scenario this bank gets into lots of trouble with hackers and malware, such as:
 
 * Defacement of the Bank's web server (see zone-h mirror)
-* Man-on-the-Side (MOTS) attack (much like NSA/GCHQ's QUANTUM INSERT)
 * Backdoor infection through trojanized software
 * Spear phishing
 * Use of a popular RAT (njRAT) to access the victims machine and exfiltrate the wallet.dat files for Bitcoin and Litecoin
@@ -45,7 +48,6 @@ The scenario used in the class involves a new progressive Bank, which provides e
 
 Class attendees will learn to analyze captured network traffic from these events in order to:
 * Investigate web server compromises and defacements
-* Detect Man-on-the-Side attacks
 * Identify covert backdoors
 * Reassemble incoming emails and attachments
 * Detect and decode RAT/backdoor traffic
