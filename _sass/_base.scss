@@ -1144,7 +1144,7 @@ h1, h2, h3, h4 {
       .btn-yellow {
         width: 100%;
         margin-bottom: 20px;
-        order: 3;
+        order: 4;
       }
       .btn-thank-you {
         width: 47.5%;
@@ -1152,6 +1152,11 @@ h1, h2, h3, h4 {
       }
       .btn-red {
         order: 2;
+      }
+      .btn-green {
+        order: 3;
+        width: 100%;
+        margin-top: 20px;
       }
     }
   }
@@ -3444,6 +3449,15 @@ h1, h2, h3, h4 {
 }
 .btn-red {
   background: $red;
+  color: $white;
+  text-shadow: 0 1px 3px rgba(32, 35, 40, .4);
+
+  &:hover {
+    color: $dark;
+  }
+}
+.btn-green {
+  background: $green;
   color: $white;
   text-shadow: 0 1px 3px rgba(32, 35, 40, .4);
 

@@ -6,7 +6,7 @@ permalink: "/partners/"
 
 <section class="content">
 
-	<span class="notice-bar"><h3>Be aware</h3>The following information is tied to the past CS3STHLM Summit.</span>
+	<span class="notice-bar"><h3>Disclaimer</h3>The following information is tied to the past CS3STHLM Summit.</span>
 
   <div class="sec-head">
     <h4>Partners</h4>
@@ -15,7 +15,7 @@ permalink: "/partners/"
     </div>
 	
 	<div class="col-3-6 col-ml-1">
-	<p>This will be our 4th summit and we are on the lookout for partners who wants to take an active part in the event.</p>
+	<p>This will be our 5th summit and we are on the lookout for partners who wants to take an active part in the event.</p>
 
 	<p>Examples of partnership opportunities:
 	<ul class="block-list-disc">
@@ -42,7 +42,8 @@ permalink: "/partners/"
 
 		<div class="partner--list">
 		<h3>Partners</h3>
-		{% for partner in site.data.partners %}
+		{% assign sorted_partners = site.data.partners | sort: 'company' %}
+		{% for partner in sorted_partners %}
 		{% if partner.level == "partner" %}
 			<div class="partner--item">
 				<a href="{{ partner.url }}" target="_blank">
@@ -54,9 +55,10 @@ permalink: "/partners/"
 		</div>
 
 		<div class="partner--list">
-		<h3>Organizing Partners</h3>
-		{% for partner in site.data.partners %}
-		{% if partner.level == "organizer" %}
+		<h3>Community Partners</h3>
+		{% assign sorted_partners = site.data.partners | sort: 'company' %}
+		{% for partner in sorted_partners %}
+		{% if partner.level == "community-partner" %}
 			<div class="partner--item">
 				<a href="{{ partner.url }}" target="_blank">
 					<img src="{{ site.baseurl }}/assets/partners/{{ partner.logo }}" alt="{{ partner.company }}">
@@ -67,9 +69,10 @@ permalink: "/partners/"
 		</div>
 
 		<div class="partner--list">
-		<h3>Educational Partners</h3>
-		{% for partner in site.data.partners %}
-		{% if partner.level == "educational-partner" %}
+		<h3>Organizing Partners</h3>
+		{% assign sorted_partners = site.data.partners | sort: 'company' %}
+		{% for partner in sorted_partners %}
+		{% if partner.level == "organizer" %}
 			<div class="partner--item">
 				<a href="{{ partner.url }}" target="_blank">
 					<img src="{{ site.baseurl }}/assets/partners/{{ partner.logo }}" alt="{{ partner.company }}">
@@ -77,7 +80,7 @@ permalink: "/partners/"
 			</div>
 		{% endif %}
 		{% endfor %}
-		</div>	
+		</div>
 
 	</div>
 

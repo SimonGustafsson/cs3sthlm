@@ -983,12 +983,16 @@ h1, h2, h3, h4 {
       .introduction .btn-group-intro .btn-yellow {
         width: 100%;
         margin-bottom: 20px;
-        order: 3; }
+        order: 4; }
       .introduction .btn-group-intro .btn-thank-you {
         width: 47.5%;
         margin-bottom: 0; }
       .introduction .btn-group-intro .btn-red {
-        order: 2; } }
+        order: 2; }
+      .introduction .btn-group-intro .btn-green {
+        order: 3;
+        width: 100%;
+        margin-top: 20px; } }
 
 .about {
   margin: 130px auto 0; }
@@ -2736,6 +2740,13 @@ h1, h2, h3, h4 {
   color: white;
   text-shadow: 0 1px 3px rgba(32, 35, 40, 0.4); }
   .btn-red:hover {
+    color: #030100; }
+
+.btn-green {
+  background: #00ae5d;
+  color: white;
+  text-shadow: 0 1px 3px rgba(32, 35, 40, 0.4); }
+  .btn-green:hover {
     color: #030100; }
 
 .btn-intro-more {

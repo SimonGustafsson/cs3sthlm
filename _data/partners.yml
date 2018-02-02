@@ -34,22 +34,99 @@
   bio: Management Doctors is an independent Swedish consulting firm that works primarily with critical information and control systems.
 
 - id: 6
-  level: educational-partner
+  level: community-partner
+  company: ABB
+  logo: abb.png
+  url: https://new.abb.com/se
+  bio:
+
+- id: 7
+  level: community-partner
   company: Hudson Cybertec
   logo: hudson-cybertec.png
   url: http://hudsoncybertec.com
   bio: Hudson Cybertec is a cyber security solution provider, globally involved with cyber security projects for industrial automation and control systems. The company has full focus on cyber security in the Industrial Automation & Control Systems (IACS) domain. They are intimately involved with the development of the IEC 62443 standard and is globally recognized as Subject Matter Expert (SME).
 
-- id: 7
+- id: 8
   level: partner
   company: Advenica
   logo: advenica.svg
   url: https://www.advenica.com/en
   bio: 
 
-- id: 7
+- id: 9
   level: partner
   company: ATEA
   logo: atea.svg
   url: https://www.atea.se
+  bio:
+
+- id: 10
+  level: organizer
+  company: KraftCERT
+  logo: kraftcert.png
+  url: https://www.kraftcert.no
+  bio:
+
+- id: 11
+  level: community-partner
+  company: Siemens
+  logo: siemens.png
+  url: https://www.siemens.com/
+  bio:
+
+- id: 12
+  level: partner
+  company: Foreseeti
+  logo: foreseeti.svg
+  url: https://www.foreseeti.com
   bio: 
+
+- id: 13
+  level: partner
+  company: Fortinet
+  logo: fortinet.png
+  url: https://www.fortinet.com
+  bio: 
+
+- id: 14
+  level: partner
+  company: Honeywell
+  logo: honeywell.svg
+  url: https://www.honeywell.com
+  bio: 
+
+- id: 15
+  level: partner
+  company: Westermo
+  logo: westermo.png
+  url: https://www.westermo.se
+  bio: 
+
+- id: 16
+  level: partner
+  company: Savecore
+  logo: savecore.png 
+  url: https://savecore.se
+  bio: 
+
+- id: 17
+  level: partner
+  company: Kaspersky
+  logo: kaspersky.png
+  url: https://www.kaspersky.com
+  bio:
+
+- id: 18
+  level: partner
+  company: Sectra
+  logo: sectra.svg
+  url: https://www.sectra.com
+  bio:
+
+- id: 19
+  level: partner
+  company: Check Point
+  logo: checkpoint.png
+  url: https://www.checkpoint.com
+  bio:
