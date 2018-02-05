@@ -3484,10 +3484,11 @@ h1, h2, h3, h4 {
     }
   }
 
-  &:hover {
-
-    #external-link, #download {
-      fill: $yellow;
+  &.btn-green {
+    &:hover {
+      #external-link, #download {
+        fill: $dark;
+      }
     }
   }
 

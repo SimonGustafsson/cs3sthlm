@@ -56,7 +56,7 @@ permalink: "/partners/"
 
 		<div class="partner--list">
 		<h3>Community Partners</h3>
-		{% assign sorted_partners = site.data.partners | sort: 'company' %}
+		{% assign sorted_partners = site.data.partners | sort: 'company' %}
 		{% for partner in sorted_partners %}
 		{% if partner.level == "community-partner" %}
 			<div class="partner--item">

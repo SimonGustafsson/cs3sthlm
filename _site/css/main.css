@@ -2757,8 +2757,8 @@ h1, h2, h3, h4 {
 
 .btn-icon.btn-yellow:hover #external-link, .btn-icon.btn-yellow:hover #download {
   fill: #030100; }
-.btn-icon:hover #external-link, .btn-icon:hover #download {
-  fill: #ef7d00; }
+.btn-icon.btn-green:hover #external-link, .btn-icon.btn-green:hover #download {
+  fill: #030100; }
 .btn-icon .external-icon, .btn-icon .download-icon {
   display: inline-block;
   width: 11px;
