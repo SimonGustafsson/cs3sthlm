@@ -1,7 +1,7 @@
 ---
 layout: null
 ---
-[{% for speaker in site.data.speakers %}
+{"speakerList":[{% for speaker in site.data.speakers %}
 	{
 		"id"		: "{{ speaker.id }}",
 		"name"		: "{{ speaker.name }}",
@@ -10,4 +10,4 @@ layout: null
 		"work"		: "{{ speaker.work }}",
 		"image"		: "https://cs3sthlm.se/assets/speakers/{{ speaker.image }}"
 	},
-{% endfor %}]
+{% endfor %}]}
