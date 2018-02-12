@@ -8,6 +8,6 @@ layout: null
 		"country"	: "{{ speaker.from-long }}",
 		"role"		: "{{ speaker.role }}",
 		"work"		: "{{ speaker.work }}",
-		"image"		: "{{ speaker.image }}"
+		"image"		: "https://cs3sthlm.se/assets/speakers/{{ speaker.image }}"
 	},
 {% endfor %}]
