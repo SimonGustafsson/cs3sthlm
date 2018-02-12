@@ -4,7 +4,8 @@
 		"name"		: "Jenny Radcliffe",
 		"country"	: "Great Britain",
 		"role"		: "Social Engineering Expert",
-		"work"		: ""
+		"work"		: "",
+		"image"		: "jenny-radcliffe.png"
 	},
 
 	{
@@ -12,7 +13,8 @@
 		"name"		: "Joe Slowik",
 		"country"	: "United States",
 		"role"		: "Network Defender",
-		"work"		: "Dragos Inc"
+		"work"		: "Dragos Inc",
+		"image"		: "joe-slowik.png"
 	},
 
 	{
@@ -20,7 +22,8 @@
 		"name"		: "Adam Crain",
 		"country"	: "United States",
 		"role"		: "Software Engineer",
-		"work"		: "Automatak"
+		"work"		: "Automatak",
+		"image"		: "adam-crain.png"
 	},
 
 	{
@@ -28,7 +31,8 @@
 		"name"		: "Mikael Vingaard",
 		"country"	: "Denmark",
 		"role"		: "Preparedness coordinator, IT",
-		"work"		: "EnergiNet"
+		"work"		: "EnergiNet",
+		"image"		: "mikael-vingaard.png"
 	},
 
 	{
@@ -36,7 +40,8 @@
 		"name"		: "Lars Erik Smevold",
 		"country"	: "Norway",
 		"role"		: "Senior Security Analyst",
-		"work"		: "KraftCERT"
+		"work"		: "KraftCERT",
+		"image"		: "lars-erik-smevold.png"
 	},
 
 	{
@@ -44,7 +49,8 @@
 		"name"		: "Erik Hjelmvik",
 		"country"	: "Sweden",
 		"role"		: "Network Analyst",
-		"work"		: "NETRESEC"
+		"work"		: "NETRESEC",
+		"image"		: "erik-hjelmvik.png"
 	},
 
 	{
@@ -52,7 +58,8 @@
 		"name"		: "Jon Røgeberg",
 		"country"	: "Norway",
 		"role"		: "Manager",
-		"work"		: "mnemonic IRT"
+		"work"		: "mnemonic IRT",
+		"image"		: "jon-røgeberg.png"
 	},
 
 	{
@@ -60,7 +67,8 @@
 		"name"		: "Martin Eian",
 		"country"	: "Norway",
 		"role"		: "Senior Security Analyst",
-		"work"		: "mnemonic IRT"
+		"work"		: "mnemonic IRT",
+		"image"		: "martin-eian.png"
 	},
 
 	{
@@ -68,7 +76,8 @@
 		"name"		: "Melissa Crawford",
 		"country"	: "United States",
 		"role"		: "Global Consultant",
-		"work"		: "Siemens"
+		"work"		: "Siemens",
+		"image"		: "melissa-crawford.png"
 	},
 
 	{
@@ -76,7 +85,8 @@
 		"name"		: "Dieter Sarrazyn",
 		"country"	: "Belgium",
 		"role"		: "Security Expert",
-		"work"		: "Secudea bvba"
+		"work"		: "Secudea bvba",
+		"image"		: "dieter-sarrazyn.png"
 	},
 
 	{
@@ -84,7 +94,8 @@
 		"name"		: "Akriti Srivastava",
 		"country"	: "India",
 		"role"		: "Security Researcher",
-		"work"		: "Adobe Systems"
+		"work"		: "Adobe Systems",
+		"image"		: "akriti-srivastava.png"
 	},
 
 	{
@@ -92,7 +103,8 @@
 		"name"		: "Oleksii Yasynskyi",
 		"country"	: "Ukraine",
 		"role"		: "Cybersecurity Expert",
-		"work"		: "ISSP Labs"
+		"work"		: "ISSP Labs",
+		"image"		: "oleksii-yasynskyi.png"
 	},
 
 	{
@@ -100,7 +112,8 @@
 		"name"		: "Roman Sologub",
 		"country"	: "Ukraine",
 		"role"		: "General Manager & CEO",
-		"work"		: "ISSP Group"
+		"work"		: "ISSP Group",
+		"image"		: "roman-sologub.png"
 	},
 
 	{
@@ -108,7 +121,8 @@
 		"name"		: "Patrick DeSantis",
 		"country"	: "USA",
 		"role"		: "Senior Security Researcher Engineer",
-		"work"		: "Cisco Talos"
+		"work"		: "Cisco Talos",
+		"image"		: "patrick-desantis.png"
 	},
 
 	{
@@ -116,7 +130,8 @@
 		"name"		: "Anton Cherepanov",
 		"country"	: "Slovakia",
 		"role"		: "Senior Malware Researcher",
-		"work"		: "ESET"
+		"work"		: "ESET",
+		"image"		: "anton-cherepanov.png"
 	},
 
 	{
@@ -124,7 +139,8 @@
 		"name"		: "Robert Lipovský",
 		"country"	: "Slovakia",
 		"role"		: "Senior Malware Researcher",
-		"work"		: "ESET"
+		"work"		: "ESET",
+		"image"		: "robert-lipovsky.png"
 	},
 
 	{
@@ -132,7 +148,8 @@
 		"name"		: "Ali Abbasi",
 		"country"	: "Iran",
 		"role"		: "Ph.D. candidate",
-		"work"		: "University of Twente, Netherlands"
+		"work"		: "University of Twente, Netherlands",
+		"image"		: "ali-abbasi.png"
 	},
 
 	{
@@ -140,7 +157,8 @@
 		"name"		: "Michael Theuerzeit",
 		"country"	: "Netherlands",
 		"role"		: "Cyber Security Consultant",
-		"work"		: "Hudson Cybertec"
+		"work"		: "Hudson Cybertec",
+		"image"		: "michael-theuerzeit.png"
 	},
 
 	{
@@ -148,7 +166,8 @@
 		"name"		: "Jens Wiesner",
 		"country"	: "Germany",
 		"role"		: "Dipl. Phys.",
-		"work"		: "German Federal Office for Information Security (BSI)"
+		"work"		: "German Federal Office for Information Security (BSI)",
+		"image"		: "jens-wiesner.png"
 	},
 
 	{
@@ -156,7 +175,8 @@
 		"name"		: "Dan Demeter",
 		"country"	: "Romania",
 		"role"		: "Security Researcher",
-		"work"		: "Kaspersky Labs"
+		"work"		: "Kaspersky Labs",
+		"image"		: "dan-demeter.png"
 	},
 
 	{
@@ -164,7 +184,8 @@
 		"name"		: "Jessikka Aro",
 		"country"	: "Finland",
 		"role"		: "Investigative Reporter",
-		"work"		: "Yle Kioski"
+		"work"		: "Yle Kioski",
+		"image"		: "jessikka-aro.png"
 	},
 
 	{
@@ -172,7 +193,8 @@
 		"name"		: "Anne-Marie Eklund Löwinder",
 		"country"	: "Sweden",
 		"role"		: "Chief Information Security Officer",
-		"work"		: "IIS, The Internet Foundation In Sweden"
+		"work"		: "IIS, The Internet Foundation In Sweden",
+		"image"		: "amel.png"
 	},
 
 	{
@@ -180,7 +202,8 @@
 		"name"		: "Rossella Mattioli",
 		"country"	: "Europe",
 		"role"		: "Officer in Network and Information Security",
-		"work"		: "ENISA"
+		"work"		: "ENISA",
+		"image"		: "rossella-mattioli.png"
 	},
 
 	{
@@ -188,6 +211,7 @@
 		"name"		: "Paraskevi Kasse",
 		"country"	: "Europe",
 		"role"		: "Network and Information Security Officer",
-		"work"		: "ENISA"
+		"work"		: "ENISA",
+		"image"		: "paraskevi-kasse.png"
 	},
 ]

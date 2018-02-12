@@ -7,6 +7,7 @@ layout: null
 		"name"		: "{{ speaker.name }}",
 		"country"	: "{{ speaker.from-long }}",
 		"role"		: "{{ speaker.role }}",
-		"work"		: "{{ speaker.work }}"
+		"work"		: "{{ speaker.work }}",
+		"image"		: "{{ speaker.image }}"
 	},
 {% endfor %}]
