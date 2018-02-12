@@ -214,4 +214,8 @@
 		"work"		: "ENISA",
 		"image"		: "https://cs3sthlm.se/assets/speakers/paraskevi-kasse.png"
 	},
+
+	{"_COMMENT":"THIS IS PLACED HERE JUST TO EGNORE TRAILING COMMA AT THE END OF LAST OBJECT",
+   	"_COMMENT":"THIS OBJECT MUST IGNORE WHILE PARSING"
+  	}
 ]}
