@@ -1,0 +1,12 @@
+---
+layout: null
+---
+[{% for speaker in site.data.speakers %}
+	{
+		"id"		: "{{ speaker.id }}",
+		"name"		: "{{ speaker.name }}",
+		"country"	: "{{ speaker.from-long }}",
+		"role"		: "{{ speaker.role }}",
+		"work"		: "{{ speaker.work }}"
+	},
+{% endfor %}]

@@ -1,0 +1,193 @@
+[
+	{
+		"id"		: "1",
+		"name"		: "Jenny Radcliffe",
+		"country"	: "Great Britain",
+		"role"		: "Social Engineering Expert",
+		"work"		: ""
+	},
+
+	{
+		"id"		: "2",
+		"name"		: "Joe Slowik",
+		"country"	: "United States",
+		"role"		: "Network Defender",
+		"work"		: "Dragos Inc"
+	},
+
+	{
+		"id"		: "3",
+		"name"		: "Adam Crain",
+		"country"	: "United States",
+		"role"		: "Software Engineer",
+		"work"		: "Automatak"
+	},
+
+	{
+		"id"		: "4",
+		"name"		: "Mikael Vingaard",
+		"country"	: "Denmark",
+		"role"		: "Preparedness coordinator, IT",
+		"work"		: "EnergiNet"
+	},
+
+	{
+		"id"		: "5",
+		"name"		: "Lars Erik Smevold",
+		"country"	: "Norway",
+		"role"		: "Senior Security Analyst",
+		"work"		: "KraftCERT"
+	},
+
+	{
+		"id"		: "6",
+		"name"		: "Erik Hjelmvik",
+		"country"	: "Sweden",
+		"role"		: "Network Analyst",
+		"work"		: "NETRESEC"
+	},
+
+	{
+		"id"		: "7",
+		"name"		: "Jon Røgeberg",
+		"country"	: "Norway",
+		"role"		: "Manager",
+		"work"		: "mnemonic IRT"
+	},
+
+	{
+		"id"		: "8",
+		"name"		: "Martin Eian",
+		"country"	: "Norway",
+		"role"		: "Senior Security Analyst",
+		"work"		: "mnemonic IRT"
+	},
+
+	{
+		"id"		: "9",
+		"name"		: "Melissa Crawford",
+		"country"	: "United States",
+		"role"		: "Global Consultant",
+		"work"		: "Siemens"
+	},
+
+	{
+		"id"		: "10",
+		"name"		: "Dieter Sarrazyn",
+		"country"	: "Belgium",
+		"role"		: "Security Expert",
+		"work"		: "Secudea bvba"
+	},
+
+	{
+		"id"		: "11",
+		"name"		: "Akriti Srivastava",
+		"country"	: "India",
+		"role"		: "Security Researcher",
+		"work"		: "Adobe Systems"
+	},
+
+	{
+		"id"		: "12",
+		"name"		: "Oleksii Yasynskyi",
+		"country"	: "Ukraine",
+		"role"		: "Cybersecurity Expert",
+		"work"		: "ISSP Labs"
+	},
+
+	{
+		"id"		: "12",
+		"name"		: "Roman Sologub",
+		"country"	: "Ukraine",
+		"role"		: "General Manager & CEO",
+		"work"		: "ISSP Group"
+	},
+
+	{
+		"id"		: "14",
+		"name"		: "Patrick DeSantis",
+		"country"	: "USA",
+		"role"		: "Senior Security Researcher Engineer",
+		"work"		: "Cisco Talos"
+	},
+
+	{
+		"id"		: "15",
+		"name"		: "Anton Cherepanov",
+		"country"	: "Slovakia",
+		"role"		: "Senior Malware Researcher",
+		"work"		: "ESET"
+	},
+
+	{
+		"id"		: "15",
+		"name"		: "Robert Lipovský",
+		"country"	: "Slovakia",
+		"role"		: "Senior Malware Researcher",
+		"work"		: "ESET"
+	},
+
+	{
+		"id"		: "17",
+		"name"		: "Ali Abbasi",
+		"country"	: "Iran",
+		"role"		: "Ph.D. candidate",
+		"work"		: "University of Twente, Netherlands"
+	},
+
+	{
+		"id"		: "18",
+		"name"		: "Michael Theuerzeit",
+		"country"	: "Netherlands",
+		"role"		: "Cyber Security Consultant",
+		"work"		: "Hudson Cybertec"
+	},
+
+	{
+		"id"		: "19",
+		"name"		: "Jens Wiesner",
+		"country"	: "Germany",
+		"role"		: "Dipl. Phys.",
+		"work"		: "German Federal Office for Information Security (BSI)"
+	},
+
+	{
+		"id"		: "20",
+		"name"		: "Dan Demeter",
+		"country"	: "Romania",
+		"role"		: "Security Researcher",
+		"work"		: "Kaspersky Labs"
+	},
+
+	{
+		"id"		: "21",
+		"name"		: "Jessikka Aro",
+		"country"	: "Finland",
+		"role"		: "Investigative Reporter",
+		"work"		: "Yle Kioski"
+	},
+
+	{
+		"id"		: "22",
+		"name"		: "Anne-Marie Eklund Löwinder",
+		"country"	: "Sweden",
+		"role"		: "Chief Information Security Officer",
+		"work"		: "IIS, The Internet Foundation In Sweden"
+	},
+
+	{
+		"id"		: "23",
+		"name"		: "Rossella Mattioli",
+		"country"	: "Europe",
+		"role"		: "Officer in Network and Information Security",
+		"work"		: "ENISA"
+	},
+
+	{
+		"id"		: "24",
+		"name"		: "Paraskevi Kasse",
+		"country"	: "Europe",
+		"role"		: "Network and Information Security Officer",
+		"work"		: "ENISA"
+	},
+]
