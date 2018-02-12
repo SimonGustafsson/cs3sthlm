@@ -5,7 +5,7 @@
 		"country"	: "Great Britain",
 		"role"		: "Social Engineering Expert",
 		"work"		: "",
-		"image"		: "jenny-radcliffe.png"
+		"image"		: "https://cs3sthlm.se/assets/speakers/jenny-radcliffe.png"
 	},
 
 	{
@@ -14,7 +14,7 @@
 		"country"	: "United States",
 		"role"		: "Network Defender",
 		"work"		: "Dragos Inc",
-		"image"		: "joe-slowik.png"
+		"image"		: "https://cs3sthlm.se/assets/speakers/joe-slowik.png"
 	},
 
 	{
@@ -23,7 +23,7 @@
 		"country"	: "United States",
 		"role"		: "Software Engineer",
 		"work"		: "Automatak",
-		"image"		: "adam-crain.png"
+		"image"		: "https://cs3sthlm.se/assets/speakers/adam-crain.png"
 	},
 
 	{
@@ -32,7 +32,7 @@
 		"country"	: "Denmark",
 		"role"		: "Preparedness coordinator, IT",
 		"work"		: "EnergiNet",
-		"image"		: "mikael-vingaard.png"
+		"image"		: "https://cs3sthlm.se/assets/speakers/mikael-vingaard.png"
 	},
 
 	{
@@ -41,7 +41,7 @@
 		"country"	: "Norway",
 		"role"		: "Senior Security Analyst",
 		"work"		: "KraftCERT",
-		"image"		: "lars-erik-smevold.png"
+		"image"		: "https://cs3sthlm.se/assets/speakers/lars-erik-smevold.png"
 	},
 
 	{
@@ -50,7 +50,7 @@
 		"country"	: "Sweden",
 		"role"		: "Network Analyst",
 		"work"		: "NETRESEC",
-		"image"		: "erik-hjelmvik.png"
+		"image"		: "https://cs3sthlm.se/assets/speakers/erik-hjelmvik.png"
 	},
 
 	{
@@ -59,7 +59,7 @@
 		"country"	: "Norway",
 		"role"		: "Manager",
 		"work"		: "mnemonic IRT",
-		"image"		: "jon-røgeberg.png"
+		"image"		: "https://cs3sthlm.se/assets/speakers/jon-røgeberg.png"
 	},
 
 	{
@@ -68,7 +68,7 @@
 		"country"	: "Norway",
 		"role"		: "Senior Security Analyst",
 		"work"		: "mnemonic IRT",
-		"image"		: "martin-eian.png"
+		"image"		: "https://cs3sthlm.se/assets/speakers/martin-eian.png"
 	},
 
 	{
@@ -77,7 +77,7 @@
 		"country"	: "United States",
 		"role"		: "Global Consultant",
 		"work"		: "Siemens",
-		"image"		: "melissa-crawford.png"
+		"image"		: "https://cs3sthlm.se/assets/speakers/melissa-crawford.png"
 	},
 
 	{
@@ -86,7 +86,7 @@
 		"country"	: "Belgium",
 		"role"		: "Security Expert",
 		"work"		: "Secudea bvba",
-		"image"		: "dieter-sarrazyn.png"
+		"image"		: "https://cs3sthlm.se/assets/speakers/dieter-sarrazyn.png"
 	},
 
 	{
@@ -95,7 +95,7 @@
 		"country"	: "India",
 		"role"		: "Security Researcher",
 		"work"		: "Adobe Systems",
-		"image"		: "akriti-srivastava.png"
+		"image"		: "https://cs3sthlm.se/assets/speakers/akriti-srivastava.png"
 	},
 
 	{
@@ -104,7 +104,7 @@
 		"country"	: "Ukraine",
 		"role"		: "Cybersecurity Expert",
 		"work"		: "ISSP Labs",
-		"image"		: "oleksii-yasynskyi.png"
+		"image"		: "https://cs3sthlm.se/assets/speakers/oleksii-yasynskyi.png"
 	},
 
 	{
@@ -113,7 +113,7 @@
 		"country"	: "Ukraine",
 		"role"		: "General Manager & CEO",
 		"work"		: "ISSP Group",
-		"image"		: "roman-sologub.png"
+		"image"		: "https://cs3sthlm.se/assets/speakers/roman-sologub.png"
 	},
 
 	{
@@ -122,7 +122,7 @@
 		"country"	: "USA",
 		"role"		: "Senior Security Researcher Engineer",
 		"work"		: "Cisco Talos",
-		"image"		: "patrick-desantis.png"
+		"image"		: "https://cs3sthlm.se/assets/speakers/patrick-desantis.png"
 	},
 
 	{
@@ -131,7 +131,7 @@
 		"country"	: "Slovakia",
 		"role"		: "Senior Malware Researcher",
 		"work"		: "ESET",
-		"image"		: "anton-cherepanov.png"
+		"image"		: "https://cs3sthlm.se/assets/speakers/anton-cherepanov.png"
 	},
 
 	{
@@ -140,7 +140,7 @@
 		"country"	: "Slovakia",
 		"role"		: "Senior Malware Researcher",
 		"work"		: "ESET",
-		"image"		: "robert-lipovsky.png"
+		"image"		: "https://cs3sthlm.se/assets/speakers/robert-lipovsky.png"
 	},
 
 	{
@@ -149,7 +149,7 @@
 		"country"	: "Iran",
 		"role"		: "Ph.D. candidate",
 		"work"		: "University of Twente, Netherlands",
-		"image"		: "ali-abbasi.png"
+		"image"		: "https://cs3sthlm.se/assets/speakers/ali-abbasi.png"
 	},
 
 	{
@@ -158,7 +158,7 @@
 		"country"	: "Netherlands",
 		"role"		: "Cyber Security Consultant",
 		"work"		: "Hudson Cybertec",
-		"image"		: "michael-theuerzeit.png"
+		"image"		: "https://cs3sthlm.se/assets/speakers/michael-theuerzeit.png"
 	},
 
 	{
@@ -167,7 +167,7 @@
 		"country"	: "Germany",
 		"role"		: "Dipl. Phys.",
 		"work"		: "German Federal Office for Information Security (BSI)",
-		"image"		: "jens-wiesner.png"
+		"image"		: "https://cs3sthlm.se/assets/speakers/jens-wiesner.png"
 	},
 
 	{
@@ -176,7 +176,7 @@
 		"country"	: "Romania",
 		"role"		: "Security Researcher",
 		"work"		: "Kaspersky Labs",
-		"image"		: "dan-demeter.png"
+		"image"		: "https://cs3sthlm.se/assets/speakers/dan-demeter.png"
 	},
 
 	{
@@ -185,7 +185,7 @@
 		"country"	: "Finland",
 		"role"		: "Investigative Reporter",
 		"work"		: "Yle Kioski",
-		"image"		: "jessikka-aro.png"
+		"image"		: "https://cs3sthlm.se/assets/speakers/jessikka-aro.png"
 	},
 
 	{
@@ -194,7 +194,7 @@
 		"country"	: "Sweden",
 		"role"		: "Chief Information Security Officer",
 		"work"		: "IIS, The Internet Foundation In Sweden",
-		"image"		: "amel.png"
+		"image"		: "https://cs3sthlm.se/assets/speakers/amel.png"
 	},
 
 	{
@@ -203,7 +203,7 @@
 		"country"	: "Europe",
 		"role"		: "Officer in Network and Information Security",
 		"work"		: "ENISA",
-		"image"		: "rossella-mattioli.png"
+		"image"		: "https://cs3sthlm.se/assets/speakers/rossella-mattioli.png"
 	},
 
 	{
@@ -212,6 +212,6 @@
 		"country"	: "Europe",
 		"role"		: "Network and Information Security Officer",
 		"work"		: "ENISA",
-		"image"		: "paraskevi-kasse.png"
+		"image"		: "https://cs3sthlm.se/assets/speakers/paraskevi-kasse.png"
 	},
 ]
