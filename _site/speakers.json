@@ -1,4 +1,4 @@
-[
+{"status":1, "speakerList":[
 	{
 		"id"		: "1",
 		"name"		: "Jenny Radcliffe",
@@ -214,4 +214,4 @@
 		"work"		: "ENISA",
 		"image"		: "paraskevi-kasse.png"
 	}
-]
+]}
