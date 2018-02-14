@@ -9,9 +9,6 @@ layout: null
 		"role"		: "{{ speaker.role }}",
 		"work"		: "{{ speaker.work }}",
 		"image"		: "https://cs3sthlm.se/assets/speakers/{{ speaker.image }}"
-	},
+	}{% unless forloop.last %},{% endunless %}
 {% endfor %}
-	{"_COMMENT":"THIS IS PLACED HERE JUST TO EGNORE TRAILING COMMA AT THE END OF LAST OBJECT",
-   	"_COMMENT":"THIS OBJECT MUST IGNORE WHILE PARSING"
-  	}
 ]}

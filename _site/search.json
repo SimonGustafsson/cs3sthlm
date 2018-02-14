@@ -136,6 +136,14 @@
   
    {
      
+        "title"    : "News",
+        "url"      : "/news/",
+        "path"     : "/news/"
+     
+   } ,
+  
+   {
+     
         "title"    : "Partners",
         "url"      : "/partners/",
         "path"     : "/partners/"
@@ -160,6 +168,14 @@
   
    {
      
+        "title"    : "Program",
+        "url"      : "/program/",
+        "path"     : "/program/"
+     
+   } ,
+  
+   {
+     
         "title"    : "Presentations",
         "url"      : "/program/presentations/",
         "path"     : "/program/presentations/"
@@ -168,9 +184,9 @@
   
    {
      
-        "title"    : "News",
-        "url"      : "/news/",
-        "path"     : "/news/"
+        "title"    : "Home",
+        "url"      : "/",
+        "path"     : ""
      
    } ,
   
@@ -243,22 +259,6 @@
         "title"    : "Call for Participation",
         "url"      : "/call-for-proposals/",
         "path"     : "/call-for-proposals/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Program",
-        "url"      : "/program/",
-        "path"     : "/program/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Home",
-        "url"      : "/",
-        "path"     : ""
      
    } ,
   
@@ -351,6 +351,10 @@
         "title"    : "Network and Information Security Directive: the road ahead",
         "url"      : "/program/presentations/network-and-information/",
         "path"     : "/program/presentations/network-and-information/"
+     
+   } ,
+  
+   {
      
    } ,
   
