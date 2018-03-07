@@ -1,7 +1,7 @@
 ---
 layout: null
 ---
-{"speakerList":[{% for item in site.data.agenda %}
+{"agendaList":[{% for item in site.data.agenda %}
 	{
 		"id"		: "{{ item.id }}",
 		"day"		: "{{ item.day }}",
