@@ -1,0 +1,16 @@
+---
+layout: null
+---
+{"speakerList":[{% for item in site.data.agenda %}
+	{
+		"id"		: "{{ item.id }}",
+		"day"		: "{{ item.day }}",
+		"time"		: "{{ item.time }}",
+		"role"		: "{{ item.role }}",
+		"headline"	: "{{ item.headline }}",
+		"speaker"	: "{{ item.speaker }}",
+		"work"		: "{{ item.work }}",
+		"extra"		: "{{ item.extra }}"
+	}{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]}

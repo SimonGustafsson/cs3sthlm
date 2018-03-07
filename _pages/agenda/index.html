@@ -46,7 +46,7 @@ published: false
 		<div class="agenda--content-main agenda--content-open">
 			<ul class="agenda--list d1-main">
 			{% for item in site.data.agenda %}
-			{% if item.id == "d1-main" %}
+			{% if item.day == "d1-main" %}
 				<li {% if item.permalink != null %}class="list-link"{% endif %}>
 					{% if item.permalink != null %}
 					<a href="{{ site.baseurl }}/{{ item.permalink }}">
@@ -82,7 +82,7 @@ published: false
 		<div class="agenda--content-main agenda--content-open">
 			<ul class="agenda--list d2-main">
 			{% for item in site.data.agenda %}
-			{% if item.id == "d2-main" %}
+			{% if item.day == "d2-main" %}
 				<li {% if item.permalink != null %}class="list-link"{% endif %}>
 					{% if item.permalink != null %}
 					<a href="{{ site.baseurl }}/{{ item.permalink }}">
@@ -124,7 +124,7 @@ published: false
 		<div class="agenda--content-main agenda--content-open" id="d3-main-content">
 			<ul class="agenda--list d3-main">
 			{% for item in site.data.agenda %}
-			{% if item.id == "d3-main" %}
+			{% if item.day == "d3-main" %}
 				<li {% if item.permalink != null %}class="list-link"{% endif %}>
 					{% if item.permalink != null %}
 					<a href="{{ site.baseurl }}/{{ item.permalink }}">
@@ -159,7 +159,7 @@ published: false
 		<div class="agenda--content-forum" id="d3-forum-content">
 			<ul class="agenda--list d3-forum">
 			{% for item in site.data.agenda %}
-			{% if item.id == "d3-forum" %}
+			{% if item.day == "d3-forum" %}
 				<li {% if item.permalink != null %}class="list-link"{% endif %}>
 					{% if item.permalink != null %}
 					<a href="{{ site.baseurl }}/{{ item.permalink }}">
@@ -201,7 +201,7 @@ published: false
 		<div class="agenda--content-main agenda--content-open" id="d4-main-content">
 			<ul class="agenda--list d4-main">
 			{% for item in site.data.agenda %}
-			{% if item.id == "d4-main" %}
+			{% if item.day == "d4-main" %}
 				<li {% if item.permalink != null %}class="list-link"{% endif %}>
 					{% if item.permalink != null %}
 					<a href="{{ site.baseurl }}/{{ item.permalink }}">
@@ -234,7 +234,7 @@ published: false
 		<div class="agenda--content-forum" id="d4-forum-content">
 			<ul class="agenda--list d4-forum">
 			{% for item in site.data.agenda %}
-			{% if item.id == "d4-forum" %}
+			{% if item.day == "d4-forum" %}
 				<li {% if item.permalink != null %}class="list-link"{% endif %}>
 					{% if item.permalink != null %}
 					<a href="{{ site.baseurl }}/{{ item.permalink }}">

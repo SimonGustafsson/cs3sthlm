@@ -76,6 +76,10 @@
   
    {
      
+   } ,
+  
+   {
+     
         "title"    : "S in IoT is for Security",
         "url"      : "/program/presentations/akriti-srivastava/",
         "path"     : "/program/presentations/akriti-srivastava/"
@@ -136,22 +140,6 @@
   
    {
      
-        "title"    : "News",
-        "url"      : "/news/",
-        "path"     : "/news/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Partners",
-        "url"      : "/partners/",
-        "path"     : "/partners/"
-     
-   } ,
-  
-   {
-     
         "title"    : "Workshops",
         "url"      : "/program/workshops/",
         "path"     : "/program/workshops/"
@@ -168,14 +156,6 @@
   
    {
      
-        "title"    : "Program",
-        "url"      : "/program/",
-        "path"     : "/program/"
-     
-   } ,
-  
-   {
-     
         "title"    : "Presentations",
         "url"      : "/program/presentations/",
         "path"     : "/program/presentations/"
@@ -184,9 +164,9 @@
   
    {
      
-        "title"    : "Home",
-        "url"      : "/",
-        "path"     : ""
+        "title"    : "News",
+        "url"      : "/news/",
+        "path"     : "/news/"
      
    } ,
   
@@ -259,6 +239,30 @@
         "title"    : "Call for Participation",
         "url"      : "/call-for-proposals/",
         "path"     : "/call-for-proposals/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Partners",
+        "url"      : "/partners/",
+        "path"     : "/partners/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Program",
+        "url"      : "/program/",
+        "path"     : "/program/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Home",
+        "url"      : "/",
+        "path"     : ""
      
    } ,
   
