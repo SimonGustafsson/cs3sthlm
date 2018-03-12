@@ -3,7 +3,7 @@ layout: null
 ---
 {"newsList":[{% for post in site.posts %}
     {
-      "title"    : "{{ post.title | smartify | jsonify }}",
+      "title"    : "{{ post.title }}",
       "date"     : "{{ post.date }}",
       "content"	 : "{{ post.content | jsonify | strip_html }}"
     } {% unless forloop.last %},{% endunless %}

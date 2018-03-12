@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "CS3STHLM Presents ICS- and IoT Lab together with Norwegian Energy CERT"
-date:   2017-10-04 06:00:00 +0200
+title: CS3STHLM Presents ICS- and IoT Lab together with Norwegian Energy CERT
+date: 2017-10-04 06:00:00 +0200
 categories: press
 pdf: 
  - english: press-04-04-10-2017-en.pdf

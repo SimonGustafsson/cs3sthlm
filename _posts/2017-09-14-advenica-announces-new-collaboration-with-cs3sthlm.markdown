@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Advenica announces new collaboration with CS3STHLM"
-date:   2017-09-14 06:00:00 +0200
+title: Advenica announces new collaboration with CS3STHLM
+date: 2017-09-14 06:00:00 +0200
 categories: press
 pdf: 
  - english: press-03-14-09-2017.pdf

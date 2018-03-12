@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  CS3STHLM Newsletter December
-date:   2017-12-20 06:00:00 +0200
+title: CS3STHLM Newsletter December
+date: 2017-12-20 06:00:00 +0200
 categories: news
 author: Robert Malmgren
 ---
