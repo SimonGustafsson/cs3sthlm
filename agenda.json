@@ -7,7 +7,7 @@ layout: null
 		"day"		: "{{ item.day }}",
 		"time"		: "{{ item.time }}",
 		"role"		: "{{ item.role }}",
-		"headline"	: "{{ item.headline }}",
+		"headline"	: "{{ item.headline | strip_html }}",
 		"speaker"	: "{{ item.speaker }}",
 		"work"		: "{{ item.work }}",
 		"extra"		: "{{ item.extra }}"

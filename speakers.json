@@ -8,7 +8,10 @@ layout: null
 		"country"	: "{{ speaker.from-long }}",
 		"role"		: "{{ speaker.role }}",
 		"work"		: "{{ speaker.work }}",
-		"image"		: "https://cs3sthlm.se/assets/speakers/{{ speaker.image }}"
+		"image"		: "https://cs3sthlm.se/assets/speakers/{{ speaker.image }}",
+		"bio"		: "{{ speaker.bio }}",
+		"presentation" : "{{ speaker.presentation }}",
+		"workshop"	: "{{ speaker.workshop }}"
 	}{% unless forloop.last %},{% endunless %}
 {% endfor %}
 ]}
