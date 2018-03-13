@@ -1,41 +1,49 @@
 {"newsList":[
     {
       "title": "CS3STHLM Newsletter December",
+      "categories": "news",
       "date": "20 Dec 2017"
     } ,
   
     {
       "title": "CS3STHLM Presents ICS- and IoT Lab together with Norwegian Energy CERT",
+      "categories": "press",
       "date": "04 Oct 2017"
     } ,
   
     {
       "title": "Advenica announces new collaboration with CS3STHLM",
+      "categories": "press",
       "date": "14 Sep 2017"
     } ,
   
     {
       "title": "CS3STHLM Newsletter September",
+      "categories": "news",
       "date": "13 Sep 2017"
     } ,
   
     {
       "title": "CS3STHLM Newsletter June",
+      "categories": "news",
       "date": "13 Jun 2017"
     } ,
   
     {
       "title": "Malware that can knock out power grids discovered",
+      "categories": "press",
       "date": "13 Jun 2017"
     } ,
   
     {
       "title": "CFP - DON'T MISS OUR DEADLINE",
+      "categories": "news",
       "date": "08 May 2017"
     } ,
   
     {
       "title": "Cyber Security Summit 4SICS Relaunches as CS3STHLM",
+      "categories": "press",
       "date": "21 Apr 2017"
     } 
   
