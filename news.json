@@ -4,6 +4,7 @@ layout: null
 {"newsList":[{% for post in site.posts %}
     {
       "title": "{{ post.title }}",
+      "author": "{{ post.author }}",
       "category": "{{ post.categories }}",
       "date": "{{ post.date | date_to_string }}",
       "content": {{ post.content | strip_html | strip_newlines | jsonify }}
