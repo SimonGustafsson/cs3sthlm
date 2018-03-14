@@ -5,13 +5,11 @@ date: 2017-09-13 06:00:00 +0200
 categories: news
 author: Robert Malmgren
 ---
-
 The CS3STHLM summit is just a bit over a month away. Today we have speakers from many corners of the earth, and we have already attendees from most continents!  
 
 We will be at the beutiful venue Nalen in central Stockholm again.  
 
 #### Speakers and presentations 
-
 We will have presentations on various topics, including:  
 * how security impact safety
 * how to sucessfully roll out cyber security policies at multinational corporations  
@@ -30,7 +28,6 @@ View info on presentations here - [/presentations](https://cs3sthlm.se/program/
 #### Workshops 
 
 We are fortunate to have three excellent pre-conference trainings/tutorials:  
-
 * [Network Forensics (2 day) ](https://cs3sthlm.se/program/workshops/erik-hjelmvik/)
 * [Practical SCADA/ICS Honeypots (1 day) ](https://cs3sthlm.se/program/workshops/mikael-vingaard/)
 * [Cyber Security for Industrial Automation and Control Systems: An introduction of the IEC 62443 
@@ -42,7 +39,7 @@ Tickets for all different workshops are available now. Please remember that one 
 
 This year we will have a larger and more professional ICS security lab in place. Besides the number of equipment available, we will also help interested attendees to better play with it at their level of knowledge. Beginners will find help to do basic probeing and pokeing at exotic devices. Intermediates will be able to do more advanced experiments with bugs. Experts will be able to participate in winning prices if they submit newly found vulnerabilities to the CERT representatives at the conference.
 
- This year we will also introduce an IoT security lab where people can play around with SOHO equipment, lightbulbs with IP addresses, embedded devices, etc.  
+This year we will also introduce an IoT security lab where people can play around with SOHO equipment, lightbulbs with IP addresses, embedded devices, etc.  
 
 #### Practical things 
 
