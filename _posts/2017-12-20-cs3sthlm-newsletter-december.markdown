@@ -15,8 +15,6 @@ Next year we will be back for the fifth time and the dates are October 22nd-25th
 
 Another holiday gift is that we already have opened the ticket sale for 2018 with a special Earliest Bird discount of 30 % on the two-day conference ticket. Link: [www.cs3sthlm.se](https://www.cs3sthlm.se/) and the discounted ticket is available until January 12th.
 
- A very happy holiday season - from all of us, to all of you! 
+A very happy holiday season - from all of us, to all of you! 
 
- The CS3STHLM crew
- 
-
+The CS3STHLM crew
