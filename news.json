@@ -7,7 +7,7 @@ layout: null
       "author": "{{ post.author }}",
       "category": "{{ post.categories }}",
       "date": "{{ post.date | date_to_string }}",
-      "content_html": {{ post.content | strip_html | strip_newlines | jsonify }}
+      "content_html": {{ post.content | strip_newlines | jsonify }}
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]}
