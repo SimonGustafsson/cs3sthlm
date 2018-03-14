@@ -5,8 +5,8 @@
     <description>CS3STHLM - Stockholm international summit on cyber-security in SCADA and Industrial Control Systems. CS3STHLM is an annual summit that gather the most important ICS/SCADA cyber security stakeholders across critical industries (i.e. energy, oil &amp; gas, water, transportation and smartgrid etc)</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 14 Mar 2018 13:03:49 +0100</pubDate>
-    <lastBuildDate>Wed, 14 Mar 2018 13:03:49 +0100</lastBuildDate>
+    <pubDate>Wed, 14 Mar 2018 13:14:54 +0100</pubDate>
+    <lastBuildDate>Wed, 14 Mar 2018 13:14:54 +0100</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -21,9 +21,8 @@
 
 &lt;p&gt;Another holiday gift is that we already have opened the ticket sale for 2018 with a special Earliest Bird discount of 30 % on the two-day conference ticket. Link: &lt;a href=&quot;https://www.cs3sthlm.se/&quot;&gt;www.cs3sthlm.se&lt;/a&gt; and the discounted ticket is available until January 12th.&lt;/p&gt;
 
-&lt;p&gt;A very happy holiday season - from all of us, to all of you! &lt;/p&gt;
-
-&lt;p&gt;The CS3STHLM crew&lt;/p&gt;
+&lt;p&gt;A very happy holiday season - from all of us, to all of you! 
+The CS3STHLM crew&lt;/p&gt;
 </description>
         <pubDate>Wed, 20 Dec 2017 05:00:00 +0100</pubDate>
         <link>/news/2017/12/20/cs3sthlm-newsletter-december.html</link>
@@ -95,7 +94,6 @@
 &lt;p&gt;We will be at the beutiful venue Nalen in central Stockholm again.  &lt;/p&gt;
 
 &lt;h4 id=&quot;speakers-and-presentations&quot;&gt;Speakers and presentations &lt;/h4&gt;
-
 &lt;p&gt;We will have presentations on various topics, including:  &lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;how security impact safety&lt;/li&gt;
@@ -116,7 +114,6 @@
 &lt;h4 id=&quot;workshops&quot;&gt;Workshops &lt;/h4&gt;
 
 &lt;p&gt;We are fortunate to have three excellent pre-conference trainings/tutorials:  &lt;/p&gt;
-
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://cs3sthlm.se/program/workshops/erik-hjelmvik/&quot;&gt;Network Forensics (2 day) &lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://cs3sthlm.se/program/workshops/mikael-vingaard/&quot;&gt;Practical SCADA/ICS Honeypots (1 day) &lt;/a&gt;&lt;/li&gt;
@@ -130,7 +127,7 @@ standard (1 day) &lt;/a&gt;&lt;/li&gt;
 
 &lt;p&gt;This year we will have a larger and more professional ICS security lab in place. Besides the number of equipment available, we will also help interested attendees to better play with it at their level of knowledge. Beginners will find help to do basic probeing and pokeing at exotic devices. Intermediates will be able to do more advanced experiments with bugs. Experts will be able to participate in winning prices if they submit newly found vulnerabilities to the CERT representatives at the conference.&lt;/p&gt;
 
-&lt;p&gt; This year we will also introduce an IoT security lab where people can play around with SOHO equipment, lightbulbs with IP addresses, embedded devices, etc.  &lt;/p&gt;
+&lt;p&gt;This year we will also introduce an IoT security lab where people can play around with SOHO equipment, lightbulbs with IP addresses, embedded devices, etc.  &lt;/p&gt;
 
 &lt;h4 id=&quot;practical-things&quot;&gt;Practical things &lt;/h4&gt;
 

@@ -8,14 +8,13 @@ pdf:
  - swedish: press-04-04-10-2017-sv.pdf
 author: Maria Engstrom Ostby
 ---
-
 In the light of growing vulnerabilities, this year's top summit on Cyber Security in Industrial Control Systems and Critical Infrastructure will give delegates possibilities to partake in real-time simulations and challenges in an updated and bigger ICS lab. The lab is hosted by ROMAB, Norwegian Energy CERT and equipment provided by the Norwegian National Security Authority, NSM. The summit takes place in Stockholm October 24-26.
 
- This year the lab is declared to be bigger, better and more interesting than ever before with added ICS and ICS communication equipment to the lab. New equipment has resulted in a simulation of communication in industrial control systems with some ICS specific protocols including OPC communication being in progress. It is also extended with a part that is for IoT security. The Internet of things, (IoT), is the network of physical devices, vehicles, and other items embedded with electronics, software, sensors, actuators, and network connectivity which enable these objects to collect and exchange data.
+This year the lab is declared to be bigger, better and more interesting than ever before with added ICS and ICS communication equipment to the lab. New equipment has resulted in a simulation of communication in industrial control systems with some ICS specific protocols including OPC communication being in progress. It is also extended with a part that is for IoT security. The Internet of things, (IoT), is the network of physical devices, vehicles, and other items embedded with electronics, software, sensors, actuators, and network connectivity which enable these objects to collect and exchange data.
 
- Margrete Raaum from Norwegian Energy CERT:
+Margrete Raaum from Norwegian Energy CERT:
 
- >-”Nothing gives as valuable cyber security learning as real hands-on work. Teaming up with ROMAB to create a dynamic and realistic learning environment is exciting, and we hope this will benefit ICS security engineers all over Scandinavia and beyond”
+>-”Nothing gives as valuable cyber security learning as real hands-on work. Teaming up with ROMAB to create a dynamic and realistic learning environment is exciting, and we hope this will benefit ICS security engineers all over Scandinavia and beyond”
 
 This year there is a much larger team involved in setting up, running the lab, or have special tasks involving the lab during the conference. The team members include Lars-Erik Smevold of KraftCERT (NO) who will be in charge of the lab, Nicklas Keijser (SE), who is an expert on SCADA/ICS development, Robert Malmgren (SE) of ROMAB, Erik Hjelmvik (SE) of NETRESEC and Mikael Vingaard (DK).
 
