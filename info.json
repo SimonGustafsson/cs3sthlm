@@ -1,0 +1,15 @@
+---
+layout: null
+---
+{"findyourway":[{% for item in site.data.info  %}
+    {% if item.type == "findyourway" %}
+    {
+      "id": "{{ item.id }}",
+      "type": "{{ item.type }}",
+      "group": "{{ item.group }}",
+      "title": "{{ item.title }}",
+      "range": "{{ item.range }}",
+      "description": "{{ item.description }}"
+    }{% endif %} {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]}
