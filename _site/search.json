@@ -140,9 +140,9 @@
   
    {
      
-        "title"    : "Workshops",
-        "url"      : "/program/workshops/",
-        "path"     : "/program/workshops/"
+        "title"    : "Partners",
+        "url"      : "/partners/",
+        "path"     : "/partners/"
      
    } ,
   
@@ -164,9 +164,9 @@
   
    {
      
-        "title"    : "News",
-        "url"      : "/news/",
-        "path"     : "/news/"
+        "title"    : "Workshops",
+        "url"      : "/program/workshops/",
+        "path"     : "/program/workshops/"
      
    } ,
   
@@ -244,9 +244,9 @@
   
    {
      
-        "title"    : "Partners",
-        "url"      : "/partners/",
-        "path"     : "/partners/"
+        "title"    : "News",
+        "url"      : "/news/",
+        "path"     : "/news/"
      
    } ,
   
@@ -263,6 +263,10 @@
         "title"    : "Home",
         "url"      : "/",
         "path"     : ""
+     
+   } ,
+  
+   {
      
    } ,
   
