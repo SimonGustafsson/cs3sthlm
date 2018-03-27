@@ -10,24 +10,29 @@
 - id: 2
   day: d1-main
   time: 09:00 - 17:00
+  type: workshop
   role: Workshop
   headline: Network Forensics Training
   speaker: Erik Hjelmvik
   permalink: program/workshops/erik-hjelmvik/
   work: NETRESEC
+  place: Harlem
 
 - id: 3
   day: d1-main
+  type: break
   time: "10:30"
   headline: Coffee Break
 
 - id: 4
   day: d1-main
+  type: break
   time: "12:00"
   headline: Lunch Break
 
 - id: 5
   day: d1-main
+  type: break
   time: "15:00"
   headline: Coffee Break
 
