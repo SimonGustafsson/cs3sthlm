@@ -58,7 +58,7 @@
 		"bio"		: "Mikael Vingaard leverages his 15+ years of IT-security experience to build practicalinformation security with a real-life perspective. Mikael works as IT-Security Consultant at EnergiNet.dk, the Danish national transmission system operator. In his spare time, Mikael runs several research projects, build on Open Source softwareto make a positive difference to secure critical infrastructure environments.",
 		"presentation" : "",
 		"workshop"	: "Practical SCADA/ICS Honeypots",
-		"description"	: "",
+		"description"	: "This 1-day workshop would start with a short general introduction to ICS/SCADA & Honeypots.During the day, the students will be guided in the different phases in planning, deploying and analyzing the collected data from a honeypot. During the day, we will deploy live honeypots on the internet and see how attackers would start to probe our honeypots. Furthermore, we will also attack the deployed honeypots ourselves; using SCADA pen testing tools and similar software.",
 		"place"		: "Cabaret",
 		"time"		: "09:00 - 17:00"
 	},
@@ -90,7 +90,7 @@
 		"bio"		: "Erik is the creator of NetworkMiner and an experienced incident handler who has specialized in the field of network forensics.",
 		"presentation" : "",
 		"workshop"	: "Network Forensics Training",
-		"description"	: "",
+		"description"	: "Our two-day Network Forensics class consists of a mix of theory and hands-on labs, where students will learn to analyze Full Packet Capture (FPC) files. The scenarios in the labs are primarily focused at network forensics for incident response, but are also relevant for law enforcement/internal security etc. where the network traffic of a suspect or insider is being monitored.",
 		"place"		: "Harlem",
 		"time"		: "09:00 - 17:00"
 	},
@@ -282,7 +282,7 @@
 		"bio"		: "Michael is a seasoned consultant, specialized in Cyber Security for the Operational Technology (OT). For Cyber Security Solution Provider Hudson Cybertec, he is actively engaged in Industrial Automation and Control Systems (IACS) security projects worldwide. His focus is on cyber security for critical Infrastructure sectors like Nuclear, Oil & Gas, Water and Food. He worked with some of the largest companies operating in critical infrastructure sectors, as well as with government and government agencies, enterprises and EPC contractors. He is also an experienced lecturer and Subject Matter Expert for IEC 62443 and an accomplished speaker at international security events, conferences and seminars.",
 		"presentation" : "",
 		"workshop"	: "Cyber Security for Industrial Automation and Control Systems: An introduction of the IEC 62443 standard",
-		"description"	: "",
+		"description"	: "The IEC 62443 is the worldwide standard for security of Industrial Automation & Control Systems, or Operational Technology (OT). The standard offers your organization grip on the improvement of the digital security of these environments. During the workshop the following topics will be covered:",
 		"place"		: "Cabaret",
 		"time"		: "09:00 - 17:00"
 	},
