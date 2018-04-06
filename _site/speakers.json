@@ -1,7 +1,7 @@
 {"speakerList":[
 	{
 		"id"		: "1",
-		"type"		: "presentation",
+		"conf-role"		: "presentation",
 		"name"		: "Jenny Radcliffe",
 		"country"	: "Great Britain",
 		"role"		: "Social Engineering Expert",
@@ -15,7 +15,7 @@
 
 	{
 		"id"		: "2",
-		"type"		: "presentation",
+		"conf-role"		: "presentation",
 		"name"		: "Joe Slowik",
 		"country"	: "United States",
 		"role"		: "Network Defender",
@@ -29,7 +29,7 @@
 
 	{
 		"id"		: "3",
-		"type"		: "presentation",
+		"conf-role"		: "presentation",
 		"name"		: "Adam Crain",
 		"country"	: "United States",
 		"role"		: "Software Engineer",
@@ -43,7 +43,7 @@
 
 	{
 		"id"		: "4",
-		"type"		: "workshop",
+		"conf-role"		: "workshop",
 		"name"		: "Mikael Vingaard",
 		"country"	: "Denmark",
 		"role"		: "Preparedness coordinator, IT",
@@ -57,7 +57,7 @@
 
 	{
 		"id"		: "5",
-		"type"		: "presentation",
+		"conf-role"		: "presentation",
 		"name"		: "Lars Erik Smevold",
 		"country"	: "Norway",
 		"role"		: "Senior Security Analyst",
@@ -71,7 +71,7 @@
 
 	{
 		"id"		: "6",
-		"type"		: "workshop",
+		"conf-role"		: "workshop",
 		"name"		: "Erik Hjelmvik",
 		"country"	: "Sweden",
 		"role"		: "Network Analyst",
@@ -85,7 +85,7 @@
 
 	{
 		"id"		: "7",
-		"type"		: "presentation",
+		"conf-role"		: "presentation",
 		"name"		: "Jon Røgeberg",
 		"country"	: "Norway",
 		"role"		: "Manager",
@@ -99,7 +99,7 @@
 
 	{
 		"id"		: "8",
-		"type"		: "presentation",
+		"conf-role"		: "presentation",
 		"name"		: "Martin Eian",
 		"country"	: "Norway",
 		"role"		: "Senior Security Analyst",
@@ -113,7 +113,7 @@
 
 	{
 		"id"		: "9",
-		"type"		: "presentation",
+		"conf-role"		: "presentation",
 		"name"		: "Melissa Crawford",
 		"country"	: "United States",
 		"role"		: "Global Consultant",
@@ -127,7 +127,7 @@
 
 	{
 		"id"		: "10",
-		"type"		: "presentation",
+		"conf-role"		: "presentation",
 		"name"		: "Dieter Sarrazyn",
 		"country"	: "Belgium",
 		"role"		: "Security Expert",
@@ -141,7 +141,7 @@
 
 	{
 		"id"		: "11",
-		"type"		: "presentation",
+		"conf-role"		: "presentation",
 		"name"		: "Akriti Srivastava",
 		"country"	: "India",
 		"role"		: "Security Researcher",
@@ -155,7 +155,7 @@
 
 	{
 		"id"		: "12",
-		"type"		: "presentation",
+		"conf-role"		: "presentation",
 		"name"		: "Oleksii Yasynskyi",
 		"country"	: "Ukraine",
 		"role"		: "Cybersecurity Expert",
@@ -169,7 +169,7 @@
 
 	{
 		"id"		: "12",
-		"type"		: "presentation",
+		"conf-role"		: "presentation",
 		"name"		: "Roman Sologub",
 		"country"	: "Ukraine",
 		"role"		: "General Manager & CEO",
@@ -183,7 +183,7 @@
 
 	{
 		"id"		: "14",
-		"type"		: "presentation",
+		"conf-role"		: "presentation",
 		"name"		: "Patrick DeSantis",
 		"country"	: "USA",
 		"role"		: "Senior Security Researcher Engineer",
@@ -197,7 +197,7 @@
 
 	{
 		"id"		: "15",
-		"type"		: "presentation",
+		"conf-role"		: "presentation",
 		"name"		: "Anton Cherepanov",
 		"country"	: "Slovakia",
 		"role"		: "Senior Malware Researcher",
@@ -211,7 +211,7 @@
 
 	{
 		"id"		: "15",
-		"type"		: "presentation",
+		"conf-role"		: "presentation",
 		"name"		: "Robert Lipovský",
 		"country"	: "Slovakia",
 		"role"		: "Senior Malware Researcher",
@@ -225,7 +225,7 @@
 
 	{
 		"id"		: "17",
-		"type"		: "presentation",
+		"conf-role"		: "presentation",
 		"name"		: "Ali Abbasi",
 		"country"	: "Iran",
 		"role"		: "Ph.D. candidate",
@@ -239,7 +239,7 @@
 
 	{
 		"id"		: "18",
-		"type"		: "workshop",
+		"conf-role"		: "workshop",
 		"name"		: "Michael Theuerzeit",
 		"country"	: "Netherlands",
 		"role"		: "Cyber Security Consultant",
@@ -253,7 +253,7 @@
 
 	{
 		"id"		: "19",
-		"type"		: "presentation",
+		"conf-role"		: "presentation",
 		"name"		: "Jens Wiesner",
 		"country"	: "Germany",
 		"role"		: "Dipl. Phys.",
@@ -267,7 +267,7 @@
 
 	{
 		"id"		: "20",
-		"type"		: "presentation",
+		"conf-role"		: "presentation",
 		"name"		: "Dan Demeter",
 		"country"	: "Romania",
 		"role"		: "Security Researcher",
@@ -281,7 +281,7 @@
 
 	{
 		"id"		: "21",
-		"type"		: "presentation",
+		"conf-role"		: "presentation",
 		"name"		: "Jessikka Aro",
 		"country"	: "Finland",
 		"role"		: "Investigative Reporter",
@@ -295,7 +295,7 @@
 
 	{
 		"id"		: "22",
-		"type"		: "moderator",
+		"conf-role"		: "moderator",
 		"name"		: "Anne-Marie Eklund Löwinder",
 		"country"	: "Sweden",
 		"role"		: "Chief Information Security Officer",
@@ -309,7 +309,7 @@
 
 	{
 		"id"		: "23",
-		"type"		: "presentation",
+		"conf-role"		: "presentation",
 		"name"		: "Rossella Mattioli",
 		"country"	: "Europe",
 		"role"		: "Officer in Network and Information Security",
@@ -323,7 +323,7 @@
 
 	{
 		"id"		: "24",
-		"type"		: "presentation",
+		"conf-role"		: "presentation",
 		"name"		: "Paraskevi Kasse",
 		"country"	: "Europe",
 		"role"		: "Network and Information Security Officer",
