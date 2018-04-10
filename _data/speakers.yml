@@ -1,4 +1,5 @@
 - id: 1
+  type: presentation
   name: Jenny Radcliffe
   from-short: GB
   from-long: Great Britain
@@ -9,8 +10,10 @@
   bio: Jenny Radcliffe – aka “The People Hacker” – is an expert in Social Engineering (the human element of security), negotiations, non-verbal communication and deception, using her skills to help clients from corporations and law enforcement, to poker players, politicians and the security industry protect themselves from malicious social engineering attacks.
   presentation: Adventures in Social Engineering - Tales of A People Hacker
   permalink:
+  description:
 
 - id: 2
+  type: presentation
   name: Joe Slowik
   from-short: US
   from-long: United States
@@ -21,8 +24,13 @@
   bio: Joe Slowik has extensive network security and computer network operations experience spanning the military, intelligence, and nuclear communities. Joe served as an Information Warfare Officer in the US Navy from 2009 to 2014, where he brought cybersecurity and network operations experience to places as varied as the mountains of Afghanistan to the Pacific Ocean. Following his military service, Joe moved to Los Alamos National Laboratory (LANL), working as a threat and malware analyst and leading the incident response team. While at LANL, Joe led efforts to completely revise threat hunting and intelligence operations to make network security more agile and responsive to the threat environment, such as tracking network infrastructure creation and malware development by nation state actors of interest. Joe joined Dragos Inc in April 2017 to focus his research and efforts on the ICS threat landscape, where he now applies his passion for defense to the critical infrastructure and industrial control ecosystem.
   presentation: Strategic Network Defense in ICS Environments
   permalink: program/presentations/joe-slowik/
+  description: |
+    Adopting a critical examination of ICS infrastructure and communication channels provides defenders with a means to prioritize and focus network protection.
+
+    By identifying network 'key terrain' and focusing operations on these critical path nodes, defenders can significantly reduce freedom of movement for adversaries and reduce the time from initial compromise to detection. Ultimately, by 'knowing the network' and having an understanding of attacker methodology, ICS network defenders can take the initiative in a cyber breach or attack scenario away from the attacker and empower critical infrastructure defense. To illustrate these concepts, the above will be discussed in light of two recent threats to the ICS environment: the wormable, ETERNALBLUE-employing ransomware WannaCry; and the electric grid-targeting malware CrashOverride/Industroyer.
 
 - id: 3
+  type: presentation
   name: Adam Crain
   from-short: US
   from-long: United States
@@ -33,8 +41,34 @@
   bio: Adam is a software engineer, security researcher, and open source advocate. In 2012, he started his own venture, Automatak, to improve the adoption of robust open source software (OSS) in the utility space. He is the principal author of opendnp3, an implementation of IEEE 1815 (DNP3). Since April 2013, vulnerabilities have been identified in products sold by more than twenty vendors. Adam works with vendors, utilities, government agencies, standards bodies, and industry organizations to identify and solve systemic issues.
   presentation: Secure SCADA Protocol for the 21st Century (SSP21)
   permalink: program/presentations/adam-crain/
+  place: Main Stage
+  date: 25 October
+  time: "16:00"
+  description: |
+    Most SCADA protocols have no security, but will continue to be used in ICS for many years to come. The recent “Industroyer” malware has underscored this lack of endpoint security in most industrial networks. Defense-in-depth must now include components cryptographically proving their identity to their network peers to increase difficulty for attackers, especially automated malware.
+    
+    SSP21 is an open source development effort to create a modern secure encapsulation layer specifically for industrial control system protocols.  SSP21 is intended to fill a technology gap where existing technologies like TLS are not applicable, namely for serial communication channels and endpoints with limited bandwidth and/or processing capabilities.
+    
+    Our specification includes a production-ready reference implementation that has been developed iteratively alongside the specification.  We see this iterative process of design, implementation, and testing as crucial to creation of good standards. The reference implementation also include a proxy 
+    
+    This presentation will cover the following topics:
+    - SSP21 modes of operation (pre-shared public key vs PKI)
+    - Improvements vs TLS/x509 in ICS
+    - Key differences between SSP21 and past efforts to create secure SCADA protocols/wrappers
+    - Details of the SSP21 secure encapsulation layer
+      - Modern cryptographic primitives
+      - Authenticated ECDH key agreement
+      - Time-protected authenticated sessions
+      - The “industrial certificate format (ICF)”
+    - Key management in SSP21 systems, including revocation schemes
+    - Results from laboratory testing at San Diego Gas & Electric
+    - SSP21 public release status
+    - Progress with industry partners and vendors
+
+    SSP21 is sponsored by California Energy Systems for the 21st Century (CES21).
 
 - id: 4
+  type: workshop
   name: Mikael Vingaard
   from-short: DK
   from-long: Denmark
@@ -45,8 +79,16 @@
   bio: Mikael Vingaard leverages his 15+ years of IT-security experience to build practicalinformation security with a real-life perspective. Mikael works as IT-Security Consultant at EnergiNet.dk, the Danish national transmission system operator. In his spare time, Mikael runs several research projects, build on Open Source softwareto make a positive difference to secure critical infrastructure environments.
   workshop: Practical SCADA/ICS Honeypots
   permalink: program/workshops/mikael-vingaard/
+  place: Cabaret
+  date: 23 October
+  time: 09:00 - 17:00
+  description: |
+    This 1-day workshop would start with a short general introduction to ICS/SCADA & Honeypots.
+    During the day, the students will be guided in the different phases in planning, deploying and analyzing the collected data from a honeypot. During the day, we will deploy live honeypots on the internet and see how attackers would start to probe our honeypots. Furthermore, we will also attack the deployed honeypots ourselves; using SCADA pen testing tools and similar software.
+
 
 - id: 5
+  type: presentation
   name: Lars Erik Smevold
   from-short: "NO"
   from-long: Norway
@@ -57,8 +99,10 @@
   bio: Lars Erik Smevold is a senior security analyst in KraftCERT. KraftCERT is the Norwegian energy sector and ICS CERT - a non profit incident response team. The focus for KraftCERT is to together with the companies, protect, detect and recover from incidents that may harm production or distribution of power or water. Lars Erik has many years of experience in the industry from the automation, telco business, and later from security in the energy sector - including the building of security operations center (SOC). In his spare time he enjoys experimenting in his lab.
   presentation: Pandora´s Box
   permalink: program/presentations/lars-erik-smevold/
+  description:
 
 - id: 6
+  type: workshop
   name: Erik Hjelmvik
   from-short: SE
   from-long: Sweden
@@ -69,8 +113,14 @@
   bio: Erik is the creator of NetworkMiner and an experienced incident handler who has specialized in the field of network forensics.
   workshop: Network Forensics Training
   permalink: program/workshops/erik-hjelmvik/
+  place: Harlem
+  date: 22-23 October
+  time: 09:00 - 17:00
+  description: |
+    Our two-day Network Forensics class consists of a mix of theory and hands-on labs, where students will learn to analyze Full Packet Capture (FPC) files. The scenarios in the labs are primarily focused at network forensics for incident response, but are also relevant for law enforcement/internal security etc. where the network traffic of a suspect or insider is being monitored.
 
 - id: 7
+  type: presentation
   name: Jon Røgeberg
   from-short: "NO"
   from-long: Norway
@@ -81,8 +131,10 @@
   bio: Jon Røgeberg works as the Manager for mnemonic’s Threat Intelligence group. He is also the Operational Manager of mnemonic IRT and responsible for Forensics in mnemonic. He has 10 years’ experience with Incident Response ranging from virus outbreaks, opportunistic crime, targeted crime and advanced targeted attacks.
   presentation: APT Case Study
   permalink: program/presentations/jon-røgeberg-and-martin-eian/
+  description:
 
 - id: 8
+  type: presentation
   name: Martin Eian
   from-short: "NO"
   from-long: Norway
@@ -93,8 +145,10 @@
   bio: Dr. Martin Eian works as a Senior Security Analyst in mnemonic's Threat Intelligence group, and he is the Project Manager for the research project Semi-Automated Cyber Threat Intelligence. He has more than 15 years of work experience in IT security, IT operations, and information security research roles. He is also a member of the Europol EC3 Advisory Group on Internet Security. He holds a PhD in Telematics/Information Security from the Norwegian University of Science and Technology (NTNU).
   presentation: APT Case Study
   permalink: program/presentations/jon-røgeberg-and-martin-eian/
+  description:
 
 - id: 9
+  type: presentation
   name: Melissa Crawford
   from-short: US
   from-long: United States
@@ -105,8 +159,10 @@
   bio: After earning the B.S. in Nuclear Engineering from the University of Florida, Melissa started 8 years ago working with Siemens on the design and security of Instrumentation & Control projects for nuclear power plants around the world. She has since taken this detailed knowledge of the I&C systems into her role as Global Consultant for cybersecurity of the industrial control systems at the headquarters for Siemens Plant Security Services, specializing in development of cybersecurity strategies for multinational corporations and remote incident handling.
   presentation: ICS Program Development for Multi-national Corporations
   permalink: program/presentations/melissa-crawford/
+  description:
 
 - id: 10
+  type: presentation
   name: Dieter Sarrazyn
   from-short: BE
   from-long: Belgium
@@ -117,8 +173,10 @@
   bio: Dieter is a security expert who systematically aims to find vulnerabilities and weaknesses within IT and OT information systems for hackers to exploit. He has built his career in industrial environments and has gained excellent knowledge on strategic, tactical and operational level regarding security related subjects. He works extensively on industrial control system security including more than 8 years in a large electricity generation company. He deploys this expertise primarily in an Operational Technology (OT) environment, performing SCADA security assessments and securing SCADA environments. These activities are always part of a larger program, aimed at reducing business risks.
   presentation: DIY insider threat detection/prevention within ICS enviroments
   permalink: program/presentations/dieter-sarrazyn/
+  description:
 
 - id: 11
+  type: presentation
   name: Akriti Srivastava
   from-short: IN
   from-long: India
@@ -129,8 +187,10 @@
   bio: Akriti is a security researcher working with Adobe Systems, blogger, web application security, APIs security, IOT security and Network security enthusiast. Involved in multiple responsible disclosure of critical vulnerabilities and listed in various hall of fame including Google, developed various CTFs on Web Services and IOT for multiple conferences.
   presentation: S in IoT is for Security
   permalink: program/presentations/akriti-srivastava/
+  description:
 
 - id: 12
+  type: presentation
   name: Oleksii Yasynskyi
   from-short: UA
   from-long: Ukraine
@@ -141,8 +201,10 @@
   bio: Oleksii is Cybersecurity expert with more than 20 years hands-on experience in the field. Oleksii participated in many complex technological projects, headed Security Operations Centre and acted as CISO in Enterprise-scale companies. Within a team of ISSP Labs experts, he made a deep research of cyber-attacks against critical infrastructure of Ukraine. Due to his hard work and high level of competence, it was possible to study each step of the attacks in detail, determine the specifics of the attack and develop a range of behavioral patterns to identify targeted attacks, similar to the ones that occurred in Ukrainian cyberspace in the past few years. Regarding this topic, Oleksii published a number of articles and case studies.
   presentation: "Cyberattacks Against Critical Infrastructure in Ukraine: Taxonomy, Consequences, Lessons Learned"
   permalink: program/presentations/oleksii-yasynskyi-and-roman-sologub/
+  description:
 
 - id: 12
+  type: presentation
   name: Roman Sologub
   from-short: UA
   from-long: Ukraine
@@ -153,8 +215,10 @@
   bio: Oleksii is Cybersecurity expert with more than 20 years hands-on experience in the field. Oleksii participated in many complex technological projects, headed Security Operations Centre and acted as CISO in Enterprise-scale companies. Within a team of ISSP Labs experts, he made a deep research of cyber-attacks against critical infrastructure of Ukraine. Due to his hard work and high level of competence, it was possible to study each step of the attacks in detail, determine the specifics of the attack and develop a range of behavioral patterns to identify targeted attacks, similar to the ones that occurred in Ukrainian cyberspace in the past few years. Regarding this topic, Oleksii published a number of articles and case studies.
   presentation: "Cyberattacks Against Critical Infrastructure in Ukraine: Taxonomy, Consequences, Lessons Learned"
   permalink: program/presentations/oleksii-yasynskyi-and-roman-sologub/
+  description:
 
 - id: 14
+  type: presentation
   name: Patrick DeSantis
   from-short: US
   from-long: USA
@@ -165,8 +229,10 @@
   bio: Patrick DeSantis is a security researcher with Cisco Talos and focuses his efforts on discovery and exploitation of vulnerabilities in technologies that have an impact on the physical world, such as Industrial Control Systems (ICS), Supervisory Control and Data Acquisition (SCADA), Internet of Things (IoT), and anything else that looks like it's asking to be hacked. Patrick's background includes work in both the public and private sectors, as well as a pile of information security certifications and a few college degrees.
   presentation: "From Box to Backdoor: Using Old School Tools and Techniques to Discover Backdoors in Modern Devices"
   permalink: program/presentations/patrick-desantis/
+  description:
 
 - id: 15
+  type: presentation
   name: Anton Cherepanov
   from-short: SK
   from-long: Slovakia
@@ -177,8 +243,10 @@
   bio: Anton Cherepanov currently working at ESET as a malware researcher, his responsibilities include the analysis of complex threats. His research was presented on numerous conferences, including Virus Bulletin, CARO Workshop, PHDays, and ZeroNights. His interests focus on IT security, reverse engineering and malware analysis automation.
   presentation: "Industroyer: biggest threat to industrial control systems since Stuxnet"
   permalink: program/presentations/anton-cherepanov-and-robert-lipovsky/
+  description:
 
 - id: 15
+  type: presentation
   name: Robert Lipovský
   from-short: SK
   from-long: Slovakia
@@ -189,8 +257,10 @@
   bio: Robert Lipovsky is Senior Malware Researcher in ESET’s Security Research Laboratory, working for ESET since 2007. He is responsible for malware intelligence and research and leads the Malware Research team in Bratislava. He is a regular speaker at security conferences, including Virus Bulletin, EICAR, and CARO. He runs a reverse engineering course at the Slovak University of Technology, his alma mater and the Comenius University. When not bound to a keyboard, he enjoys sports, playing guitar and flying an airplane.
   presentation: "Industroyer: biggest threat to industrial control systems since Stuxnet"
   permalink: program/presentations/anton-cherepanov-and-robert-lipovsky/
+  description:
 
 - id: 17
+  type: presentation
   name: Ali Abbasi
   from-short: IR
   from-long: Iran
@@ -201,8 +271,10 @@
   bio: Ali Abbasi is a Ph.D. candidate in Distributed and Embedded System Security group at the University of Twente, The Netherlands and visiting Ph.D. researcher at the Chair of Systems Security of Ruhr-University Bochum, Germany. His research interest involves embedded systems security mostly related to Industrial Control Systems, Critical Infrastructure Security, and Real-Time Operating Systems security. He received his master degree in Computer Science from Tsinghua University, Beijing, China in 2013. He was working there on Programmable Logic Controller (PLC) security in Network Security Lab, Microprocessor and SoC Technology R&D Center with the National 863 High-tech Program grant from Ministry of Industry and Information Technology of China. He is currently doing his research at the Chair of Systems Security of Ruhr-University Bochum regarding designing binary-level protection mechanisms to battle against the sophisticated memory corruption and code-reuse attacks against PLCs and other critical real-time embedded systems.
   presentation: Configurable Code-Reuse Attacks Mitigation for COTS Programmable Logic Controller Binaries
   permalink: program/presentations/ali-abbasi/
+  description:
 
 - id: 18
+  type: workshop
   name: Michael Theuerzeit
   from-short: NL
   from-long: Netherlands
@@ -213,8 +285,14 @@
   bio: Michael is a seasoned consultant, specialized in Cyber Security for the Operational Technology (OT). For Cyber Security Solution Provider Hudson Cybertec, he is actively engaged in Industrial Automation and Control Systems (IACS) security projects worldwide. His focus is on cyber security for critical Infrastructure sectors like Nuclear, Oil & Gas, Water and Food. He worked with some of the largest companies operating in critical infrastructure sectors, as well as with government and government agencies, enterprises and EPC contractors. He is also an experienced lecturer and Subject Matter Expert for IEC 62443 and an accomplished speaker at international security events, conferences and seminars.
   workshop: "Cyber Security for Industrial Automation and Control Systems: An introduction of the IEC 62443 standard"
   permalink: program/workshops/michael-theuerzeit/
+  place: Cabaret
+  date: 23 October
+  time: 09:00 - 17:00
+  description: |
+    The IEC 62443 is the worldwide standard for security of Industrial Automation & Control Systems, or Operational Technology (OT). The standard offers your organization grip on the improvement of the digital security of these environments. During the workshop the following topics will be covered:
 
 - id: 19
+  type: presentation
   name: Jens Wiesner
   from-short: DE
   from-long: Germany
@@ -225,8 +303,10 @@
   bio: Jens Wiesner heads the section “Cyber Security in Industrial Control Systems” in the German Federal Office for Information Security (BSI). He and his team focus on non-standard IT-systems known as OT/ICS/SCADA as well as life-critical systems used in safety or medical domain. They advise other sections of BSI as well as external working groups, manufacturers, integrators and operators of OT especially in critical infrastructures.
   presentation: "Security for Safety: Fortifying the last line of defense"
   permalink: program/presentations/jens-wiesner/
+  description:
 
 - id: 20
+  type: presentation
   name: Dan Demeter
   from-short: RO
   from-long: Romania
@@ -237,8 +317,10 @@
   bio: Dan graduated from Imperial College London and holds a Master of Engineering in Software Engineering. He joined Kaspersky Lab in 2014 where his work focuses on developing threat intelligence systems, processing big data and creating new technologies to fight advanced persistent threats.
   presentation: Back to the IoT Future
   permalink: program/presentations/dan-demeter/
+  description:
 
 - id: 21
+  type: presentation
   name: Jessikka Aro
   from-short: FI
   from-long: Finland
@@ -249,8 +331,10 @@
   bio: Jessikka Aro is an awarded investigative reporter with Finnish Broadcasting Company's social media project Yle Kioski. Aro specializes in Russia, extremism and information warfare. In 2014 she became the target of serious and still ongoing international propaganda and hate speech campaign after reporting about pro-Kremlin social media trolls. Currently Aro writes an investigative book about Kremlin's information warfare and trains reporters and general public to recognize and counter online disinformation. Aro is also lobbying for better legislation to counter hybrid threats and protect citizens from state-sponsored online security threats.
   presentation: "Pro-Kremlin trolls, fake news and propagandists as opinion influencers - and how to counter them"
   permalink: program/presentations/jessikka-aro/
+  description:
 
 - id: 22
+  type: moderator
   name: Anne-Marie Eklund Löwinder
   from-short: SE
   from-long: Sweden
@@ -261,8 +345,10 @@
   bio: She is the Chief Information Security Officer at IIS, The Internet Foundation In Sweden. She also serves on the boards of internet-related organisations including the Council of European National Top Level Domain Registries (CENTR) and the Swedish Law and Informatics Research Institute. Eklund Löwinder has been appointed Trusted Community Representative by the Internet Corporation for Assigned Names and Numbers (ICANN). She is one of seven people who control the DNSSEC key generation for the internet root zone.
   presentation:
   permalink:
+  description:
 
 - id: 23
+  type: presentation
   name: Rossella Mattioli
   from-short: EU
   from-long: Europe
@@ -280,8 +366,10 @@
     - title: "IoT in Europe: what could possibly go wrong and how you can fix it"
       permalink: program/presentations/iot-in-europe/
   permalink: program/presentations/rossella-mattioli/
+  description:
 
 - id: 24
+  type: presentation
   name: Paraskevi Kasse
   from-short: EU
   from-long: Europe
@@ -297,3 +385,4 @@
     - title: Threat modelling and security measures for ICS/SCADA
       permalink: program/presentations/threat-modelling-and-security/
   permalink: program/presentations/paraskevi-kasse/
+  description:

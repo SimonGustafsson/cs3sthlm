@@ -1,0 +1,12 @@
+---
+layout: null
+---
+{"speakerList":[
+{% for item in site.pages %}
+{% if item.id == 'presentation' %}
+{
+	"description": {{ item.content | strip_newlines | jsonify }}
+},
+{% endif %}
+{% endfor %}
+]}

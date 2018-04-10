@@ -4,6 +4,7 @@ layout: null
 {"speakerList":[{% for speaker in site.data.speakers %}
 	{
 		"id"		: "{{ speaker.id }}",
+		"conf-role"	: "{{ speaker.type }}",
 		"name"		: "{{ speaker.name }}",
 		"country"	: "{{ speaker.from-long }}",
 		"role"		: "{{ speaker.role }}",
@@ -11,7 +12,10 @@ layout: null
 		"image"		: "https://cs3sthlm.se/assets/speakers/{{ speaker.image }}",
 		"bio"		: "{{ speaker.bio }}",
 		"presentation" : "{{ speaker.presentation }}",
-		"workshop"	: "{{ speaker.workshop }}"
+		"workshop"	: "{{ speaker.workshop }}",
+		"description": {{ speaker.description | markdownify | strip_newlines | jsonify }},
+		"place"		: "{{ speaker.place }}",
+		"time"		: "{{ speaker.time }}"
 	}{% unless forloop.last %},{% endunless %}
 {% endfor %}
 ]}

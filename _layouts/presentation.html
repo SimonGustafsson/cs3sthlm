@@ -29,6 +29,10 @@ layout: default
     </header>
 
     {{ content }}
+
+    {% for presitem in site.data.speakers %}
+      {{ presitem.presentation-description | markdownify }}
+    {% endfor %}
   </div>
 
   <aside class="sidebar box-right">
