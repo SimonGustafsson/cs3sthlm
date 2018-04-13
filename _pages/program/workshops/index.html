@@ -6,8 +6,6 @@ permalink: "/program/workshops/"
 
 <section class="content">
 
-  <span class="notice-bar"><h3>Disclaimer</h3>The following information is tied to the 2017 CS3STHLM Summit.</span>
-
   <div class="sec-head">
     <div class="block-head">
       <h4>Workshops & Trainings</h4>
@@ -47,12 +45,12 @@ permalink: "/program/workshops/"
     <a href="{{ page.url | prepend: site.baseurl }}" class="workshop--block-item">
       <img src="{{ site.baseurl }}/assets/speakers/{{ page.image }}">
       <div class="workshop--block-content">
-        <h2 class="workshop--block-title">{{ page.short-title }}</h2>
+        <h2 class="workshop--block-title">{{ page.title }}</h2>
         <div class="workshop--meta">
           <span class="workshop--meta-time">{{ page.time }}</span>
           <span class="workshop--meta-author">{{ page.author }}</span>
         </div>
-        <p>{{ page.content | strip_html | truncatewords: 38 }}</p>
+        <p>{{ page.content | strip_html | truncatewords: 19 }}</p>
       </div>
     </a>
     {% endif %}

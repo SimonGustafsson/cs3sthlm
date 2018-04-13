@@ -14,7 +14,7 @@ layout: null
   {% for page in site.pages %}
    {
      {% if page.title != nil %}
-        "title"    : "{{ page.title }}",
+        "title"    : "{{ page.title | strip_html }}",
         "url"      : "{{ site.baseurl }}{{ page.url }}",
         "path"     : "{{ page.permalink }}"
      {% endif %}

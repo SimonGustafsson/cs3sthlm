@@ -1,3 +1,6 @@
+$(function() {
+    $('.feed-news').vTicker();
+});
 
 /*
   Vertical News Ticker 1.21

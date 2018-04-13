@@ -7,6 +7,7 @@ id: home
 <section class="introduction content">
 
    <div class="intro-mark">
+    <span class="headline-mark">5<span>th</span> Year</span>
     <div class="headline-row"><span class="highlighted">4</span>Days</div>
     <div class="headline-row"><span class="highlighted">Top</span>Speakers</div>
   
@@ -122,6 +123,66 @@ id: home
       <img src="{{ site.baseurl }}/assets/photos/gallery/geeklounge.jpg" srcset="{{ site.baseurl }}/assets/photos/gallery/geeklounge@2x.jpg 2x" alt="Geeklounge at CS3STHLM">
     </div>
 
+  </div>
+
+  <div class="sec-head">
+    <h4>Speakers & Trainers</h4>
+    <div class="block-head">
+      <h2 class="sub-headline">World Class</h2>
+      <div class="btn-group">
+        <a href="{{ site.baseurl }}/program/speakers/" class="btn btn-primary speaker-row">View Speakers</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="speaker--list-group">
+    {% assign sorted_speakers = site.data.speakers | sample:5 %}
+    {% for speaker in sorted_speakers %}
+    <div class="speaker--list-item">
+      <div class="speaker-block">
+        <img src="{{ site.baseurl }}/assets/speakers/{{ speaker.image }}">
+        <div class="speaker-block-data">
+          <h4>{{ speaker.type }}<span>{{ speaker.shortcode }}</span></h4>
+          <h2>{{ speaker.name }}</h2>
+        </div>
+      </div>
+      <div class="speaker-block-details">
+        <div class="speaker-block--header">
+          <h4>{{ speaker.type }}</h4>
+          <h2>{{ speaker.name }}</h2>
+          <h3>{{ speaker.role }}</h3>
+        </div>
+        <div class="speaker-block--content">
+          <div class="col-1-6">
+            <ul>
+              <li>{{ speaker.work }}</li>
+              <li>{{ speaker.country }}</li>
+            </ul>
+          </div>
+
+          <div class="col-3-6">
+            <p>{{ speaker.bio }}</p>
+          </div>
+
+            {% if speaker.title != null %}
+            <div class="col-2-6">
+              <h4 class="headline">{{ speaker.type }}</h4>
+              <a href="{{ site.baseurl }}/{{ speaker.permalink }}" class="speaker-permalink">{{ speaker.title }}</a>
+            </div>
+            {% endif %}
+
+        </div>
+        <a href="#!" class="modal-close">Close<span></span></a>
+      </div>
+    </div>
+    {% endfor %}
+    <div class="speaker--list-item speaker--list-item-special">
+      <div class="speaker-block">
+        <div class="speaker-block-data">
+          <a href="{{ site.baseurl }}/program/speakers/" class="special">View More Speakers</a>
+        </div>
+      </div>
+    </div>
   </div>
 
 </section>

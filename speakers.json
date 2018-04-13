@@ -4,14 +4,19 @@ layout: null
 {"speakerList":[{% for speaker in site.data.speakers %}
 	{
 		"id"		: "{{ speaker.id }}",
+		"type"		: "{{ speaker.type }}",
 		"name"		: "{{ speaker.name }}",
-		"country"	: "{{ speaker.from-long }}",
 		"role"		: "{{ speaker.role }}",
 		"work"		: "{{ speaker.work }}",
+		"country"	: "{{ speaker.country }}",
+		"shortcode" : "{{ speaker.shortcode }}",
 		"image"		: "https://cs3sthlm.se/assets/speakers/{{ speaker.image }}",
-		"bio"		: "{{ speaker.bio }}",
-		"presentation" : "{{ speaker.presentation }}",
-		"workshop"	: "{{ speaker.workshop }}"
+		"bio"		: {{ speaker.bio | markdownify | strip_newlines | jsonify }},
+		"date"		: "{{ speaker.date }}",
+		"time"		: "{{ speaker.time }}",
+		"place"		: "{{ speaker.place }}",
+		"title"		: "{{ speaker.title }}",
+		"description": {{ speaker.description | markdownify | strip_newlines | jsonify }}
 	}{% unless forloop.last %},{% endunless %}
 {% endfor %}
 ]}
