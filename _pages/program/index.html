@@ -6,8 +6,6 @@ permalink: "/program/"
 
 <section class="content">
 
-  <span class="notice-bar"><h3>Disclaimer</h3>The following information is tied to the 2017 CS3STHLM Summit.</span>
-
   <div class="sec-head">
     <h4>Conference Program</h4>
     <div class="block-head">
@@ -34,7 +32,7 @@ permalink: "/program/"
             <a href="{{ site.baseurl }}/program/speakers/" class="item-block">
               <img src="{{ site.baseurl }}/assets/speakers/{{ speaker.image }}">
               <div class="speaker-block-data">
-                <h4>{{ speaker.conf-role }}<span>{{ speaker.from-short }}</span></h4>
+                <h4>{{ speaker.type }}<span>{{ speaker.shortcode }}</span></h4>
                 <h2>{{ speaker.name }}</h2>
               </div>
             </a>
@@ -51,7 +49,7 @@ permalink: "/program/"
         <a href="{{ page.url | prepend: site.baseurl }}" class="workshop--block-item">
           <img src="{{ site.baseurl }}/assets/speakers/{{ page.image }}">
           <div class="workshop--block-content">
-            <h2 class="workshop--block-title">{{ page.short-title }}</h2>
+            <h2 class="workshop--block-title">{{ page.title }}</h2>
             <div class="workshop--meta">
               <span class="workshop--meta-time">{{ page.time }}</span>
               <span class="workshop--meta-author">{{ page.author }}</span>

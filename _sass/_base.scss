@@ -52,9 +52,9 @@ h1, h2, h3, h4 {
   HOME */
 
 .home {
-  background: $dark url('../assets/cs3sthlm-background.png') no-repeat;
+  background: $dark url('../assets/cs3sthlm-bg-2018.png') no-repeat;
   background-size: 100% auto;
-  background-position: center center;
+  background-position: top center;
 
   @include media-query($mobile) {
     background-image: none;
@@ -384,6 +384,7 @@ h1, h2, h3, h4 {
       .icon-arrow-down {
         display: inline-block;
         margin-left: 10px;
+        @include transition-ease;
 
         > svg {
           width: auto;
@@ -1040,6 +1041,27 @@ h1, h2, h3, h4 {
 
   .intro-mark {
 
+    .headline-mark {
+      display: none;
+      align-items: flex-start;
+      text-transform: uppercase;
+      font-family: 'latoregular', sans-serif;
+      font-weight: normal;
+      font-size: 14px;
+      color: rgba($white, .75);
+      letter-spacing: 2px;
+
+      span {
+        font-size: 8px;
+        letter-spacing: 0;
+        margin: 1px 6px 0 0px;
+      }
+
+      @include media-query($mobile) {
+        display: flex;
+      }
+    }
+
     .headline-row {
       font-family: 'latoblack', sans-serif;
       font-weight: normal;
@@ -1048,6 +1070,7 @@ h1, h2, h3, h4 {
       letter-spacing: 2px;
       text-transform: uppercase;
       line-height: 1.25;
+      text-shadow: 0 3px 4px rgba(0,0,0, .5);
 
       .highlighted {
         color: $yellow;
@@ -1072,6 +1095,7 @@ h1, h2, h3, h4 {
       font-weight: normal;
       font-size: 24px;
       color: $white;
+      text-shadow: 0 3px 4px rgba(0,0,0, .5);
 
       @include media-query-min($large) {
         font-size: 29px;
@@ -1092,6 +1116,7 @@ h1, h2, h3, h4 {
       letter-spacing: 2px;
       text-transform: uppercase;
       margin-top: 4px;
+      text-shadow: 0 3px 4px rgba(0,0,0, .5);
 
       @include media-query-min($large) {
         font-size: 15px;
@@ -1412,6 +1437,32 @@ h1, h2, h3, h4 {
     }
   }
 
+  .stroke-list {
+    list-style: none;
+
+    li {
+      margin-left: 18px;
+      margin-bottom: 6px;
+      font-size: 18px;
+      position: relative;
+
+      &:before {
+        display: block;
+        content: '';
+        width: 10px;
+        height: 1px;
+        background: rgba($white, .5);
+        position: absolute;
+        left: -18px;
+        top: 50%;
+      }
+
+      @include media-query-min($large) {
+        font-size: 23px;
+      }
+    }
+  }
+
   .clean-list {
     list-style: none;
 
@@ -1485,7 +1536,7 @@ h1, h2, h3, h4 {
       margin-bottom: 20px;
       color: $yellow;
     }
-    .clean-list {
+    .clean-list, .stroke-list {
       margin-bottom: 40px;
     }
   }
@@ -2523,6 +2574,7 @@ h1, h2, h3, h4 {
 
     .workshop--block-content {
       display: block;
+      width: calc(100% - 84px);
       padding: 20px;
       box-sizing: border-box;
 
@@ -2532,6 +2584,10 @@ h1, h2, h3, h4 {
 
       p {
         color: rgba($white, .8);
+        margin-bottom: 0;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
       }
     }
 
@@ -2542,6 +2598,9 @@ h1, h2, h3, h4 {
       font-size: 18px;
       font-weight: normal;
       color: $white;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
     }
 
     .workshop--meta {
@@ -3255,7 +3314,7 @@ h1, h2, h3, h4 {
     }
     .speaker-permalink {
       display: inline-block;
-      margin: 20px 0 0;
+      margin: 12px 0 0;
 
       &:before {
         display: block;
@@ -3263,7 +3322,7 @@ h1, h2, h3, h4 {
         width: 20px;
         height: 1px;
         background: rgba($white, .5);
-        margin-bottom: 4px;
+        margin-bottom: 12px;
       }
     }
   }

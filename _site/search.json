@@ -68,67 +68,11 @@
   
    {
      
-        "title"    : "Secure SCADA Protocol for the 21st Century (SSP21)",
-        "url"      : "/program/presentations/adam-crain/",
-        "path"     : "/program/presentations/adam-crain/"
-     
    } ,
   
    {
      
-   } ,
-  
-   {
-     
-        "title"    : "S in IoT is for Security",
-        "url"      : "/program/presentations/akriti-srivastava/",
-        "path"     : "/program/presentations/akriti-srivastava/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Configurable Code-Reuse Attacks Mitigation for COTS Programmable Logic Controller Binaries",
-        "url"      : "/program/presentations/ali-abbasi/",
-        "path"     : "/program/presentations/ali-abbasi/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Industroyer: biggest threat to industrial control systems since Stuxnet",
-        "url"      : "/program/presentations/anton-cherepanov-and-robert-lipovsky/",
-        "path"     : "/program/presentations/anton-cherepanov-and-robert-lipovsky/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Back to the IoT Future",
-        "url"      : "/program/presentations/dan-demeter/",
-        "path"     : "/program/presentations/dan-demeter/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "DIY insider threat detection/prevention within ICS enviroments",
-        "url"      : "/program/presentations/dieter-sarrazyn/",
-        "path"     : "/program/presentations/dieter-sarrazyn/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "ENISA Trainings for Cyber Security Specialists",
-        "url"      : "/program/presentations/enisa-trainings/",
-        "path"     : "/program/presentations/enisa-trainings/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Network Forens<b class="highlight-white">ICS</b> Training",
+        "title"    : "Network ForensICS Training",
         "url"      : "/program/workshops/erik-hjelmvik/",
         "path"     : "/program/workshops/erik-hjelmvik/"
      
@@ -140,73 +84,9 @@
   
    {
      
-        "title"    : "Partners",
-        "url"      : "/partners/",
-        "path"     : "/partners/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Speakers",
-        "url"      : "/program/speakers/",
-        "path"     : "/program/speakers/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Presentations",
-        "url"      : "/program/presentations/",
-        "path"     : "/program/presentations/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Workshops",
-        "url"      : "/program/workshops/",
-        "path"     : "/program/workshops/"
-     
-   } ,
-  
-   {
-     
         "title"    : "Contact",
         "url"      : "/contact/",
         "path"     : "/contact/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Practical Details",
-        "url"      : "/practical-details/",
-        "path"     : "/practical-details/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Thank You",
-        "url"      : "/thank-you/",
-        "path"     : "/thank-you/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Press",
-        "url"      : "/press/",
-        "path"     : "/press/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "ICS Lab",
-        "url"      : "/ics-lab/",
-        "path"     : "/ics-lab/"
      
    } ,
   
@@ -252,9 +132,49 @@
   
    {
      
-        "title"    : "Program",
-        "url"      : "/program/",
-        "path"     : "/program/"
+        "title"    : "Workshops",
+        "url"      : "/program/workshops/",
+        "path"     : "/program/workshops/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Press",
+        "url"      : "/press/",
+        "path"     : "/press/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "ICS Lab",
+        "url"      : "/ics-lab/",
+        "path"     : "/ics-lab/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Speakers",
+        "url"      : "/program/speakers/",
+        "path"     : "/program/speakers/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Presentations",
+        "url"      : "/program/presentations/",
+        "path"     : "/program/presentations/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Practical Details",
+        "url"      : "/practical-details/",
+        "path"     : "/practical-details/"
      
    } ,
   
@@ -268,61 +188,9 @@
   
    {
      
-   } ,
-  
-   {
-     
-        "title"    : "IoT in Europe: what could possibly go wrong and how you can fix it",
-        "url"      : "/program/presentations/iot-in-europe/",
-        "path"     : "/program/presentations/iot-in-europe/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Adventures in Social Engineering - Tales of A People Hacker",
-        "url"      : "/program/presentations/jenny-radcliffe/",
-        "path"     : "/program/presentations/jenny-radcliffe/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Security for Safety: Fortifying the last line of defense",
-        "url"      : "/program/presentations/jens-wiesner/",
-        "path"     : "/program/presentations/jens-wiesner/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Pro-Kremlin trolls, fake news and propagandists as opinion influencers - and how to counter them",
-        "url"      : "/program/presentations/jessikka-aro/",
-        "path"     : "/program/presentations/jessikka-aro/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Strategic Network Defense in ICS Environments",
-        "url"      : "/program/presentations/joe-slowik/",
-        "path"     : "/program/presentations/joe-slowik/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "APT Case Study",
-        "url"      : "/program/presentations/jon-røgeberg-and-martin-eian/",
-        "path"     : "/program/presentations/jon-røgeberg-and-martin-eian/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Pandora´s Box",
-        "url"      : "/program/presentations/lars-erik-smevold/",
-        "path"     : "/program/presentations/lars-erik-smevold/"
+        "title"    : "Program",
+        "url"      : "/program/",
+        "path"     : "/program/"
      
    } ,
   
@@ -332,33 +200,13 @@
   
    {
      
-        "title"    : "ICS Program Development for Multi-national Corporations",
-        "url"      : "/program/presentations/melissa-crawford/",
-        "path"     : "/program/presentations/melissa-crawford/"
-     
    } ,
   
    {
      
-        "title"    : "Cyber Security for Industrial Automation and Control Systems: An introduction of the IEC 62443 standard",
-        "url"      : "/program/workshops/michael-theuerzeit/",
-        "path"     : "/program/workshops/michael-theuerzeit/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Practical SCADA/ICS Honeypots",
-        "url"      : "/program/workshops/mikael-vingaard/",
-        "path"     : "/program/workshops/mikael-vingaard/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Network and Information Security Directive: the road ahead",
-        "url"      : "/program/presentations/network-and-information/",
-        "path"     : "/program/presentations/network-and-information/"
+        "title"    : "Think like a hacker but act like an engineer",
+        "url"      : "/program/presentations/marty-edwards/",
+        "path"     : "/program/presentations/marty-edwards/"
      
    } ,
   
@@ -368,29 +216,13 @@
   
    {
      
-        "title"    : "Cyberattacks Against Critical Infrastructure in Ukraine: Taxonomy, Consequences, Lessons Learned",
-        "url"      : "/program/presentations/oleksii-yasynskyi-and-roman-sologub/",
-        "path"     : "/program/presentations/oleksii-yasynskyi-and-roman-sologub/"
+        "title"    : "Industrial Technology Trajectory: Running With Scissors",
+        "url"      : "/program/presentations/patrick-miller/",
+        "path"     : "/program/presentations/patrick-miller/"
      
    } ,
   
    {
-     
-        "title"    : "From Box to Backdoor: Using Old School Tools and Techniques to Discover Backdoors in Modern Devices",
-        "url"      : "/program/presentations/patrick-desantis/",
-        "path"     : "/program/presentations/patrick-desantis/"
-     
-   } ,
-  
-   {
-     
-   } ,
-  
-   {
-     
-        "title"    : "Protecting European transport infrastructures: threat models and security measures",
-        "url"      : "/program/presentations/protecting-european-transports/",
-        "path"     : "/program/presentations/protecting-european-transports/"
      
    } ,
   
@@ -412,9 +244,9 @@
   
    {
      
-        "title"    : "Threat modelling and security measures for ICS/SCADA",
-        "url"      : "/program/presentations/threat-modelling-and-security/",
-        "path"     : "/program/presentations/threat-modelling-and-security/"
+        "title"    : "Cyber security for the energy sector – an introduction to ISO/IEC 27019 and the BDEW/OE Whitepaper",
+        "url"      : "/program/workshops/stephan-beirer/",
+        "path"     : "/program/workshops/stephan-beirer/"
      
    } ,
   
@@ -430,46 +262,6 @@
   
    {
      
-        "title"    : "Jenny Radcliffe",
-        "url"      : "/",
-        "path"     : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "Joe Slowik",
-        "url"      : "/program/presentations/joe-slowik/",
-        "path"     : "program/presentations/joe-slowik/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Adam Crain",
-        "url"      : "/program/presentations/adam-crain/",
-        "path"     : "program/presentations/adam-crain/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Mikael Vingaard",
-        "url"      : "/program/workshops/mikael-vingaard/",
-        "path"     : "program/workshops/mikael-vingaard/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Lars Erik Smevold",
-        "url"      : "/program/presentations/lars-erik-smevold/",
-        "path"     : "program/presentations/lars-erik-smevold/"
-     
-   } ,
-  
-   {
-     
         "title"    : "Erik Hjelmvik",
         "url"      : "/program/workshops/erik-hjelmvik/",
         "path"     : "program/workshops/erik-hjelmvik/"
@@ -478,145 +270,25 @@
   
    {
      
-        "title"    : "Jon Røgeberg",
-        "url"      : "/program/presentations/jon-røgeberg-and-martin-eian/",
-        "path"     : "program/presentations/jon-røgeberg-and-martin-eian/"
+        "title"    : "Stephan Beirer",
+        "url"      : "/program/workshops/stephan-beirer/",
+        "path"     : "program/workshops/stephan-beirer/"
      
    } ,
   
    {
      
-        "title"    : "Martin Eian",
-        "url"      : "/program/presentations/jon-røgeberg-and-martin-eian/",
-        "path"     : "program/presentations/jon-røgeberg-and-martin-eian/"
+        "title"    : "Marty Edwards",
+        "url"      : "/program/presentations/marty-edwards/",
+        "path"     : "program/presentations/marty-edwards/"
      
    } ,
   
    {
      
-        "title"    : "Melissa Crawford",
-        "url"      : "/program/presentations/melissa-crawford/",
-        "path"     : "program/presentations/melissa-crawford/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Dieter Sarrazyn",
-        "url"      : "/program/presentations/dieter-sarrazyn/",
-        "path"     : "program/presentations/dieter-sarrazyn/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Akriti Srivastava",
-        "url"      : "/program/presentations/akriti-srivastava/",
-        "path"     : "program/presentations/akriti-srivastava/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Oleksii Yasynskyi",
-        "url"      : "/program/presentations/oleksii-yasynskyi-and-roman-sologub/",
-        "path"     : "program/presentations/oleksii-yasynskyi-and-roman-sologub/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Roman Sologub",
-        "url"      : "/program/presentations/oleksii-yasynskyi-and-roman-sologub/",
-        "path"     : "program/presentations/oleksii-yasynskyi-and-roman-sologub/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Patrick DeSantis",
-        "url"      : "/program/presentations/patrick-desantis/",
-        "path"     : "program/presentations/patrick-desantis/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Anton Cherepanov",
-        "url"      : "/program/presentations/anton-cherepanov-and-robert-lipovsky/",
-        "path"     : "program/presentations/anton-cherepanov-and-robert-lipovsky/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Robert Lipovský",
-        "url"      : "/program/presentations/anton-cherepanov-and-robert-lipovsky/",
-        "path"     : "program/presentations/anton-cherepanov-and-robert-lipovsky/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Ali Abbasi",
-        "url"      : "/program/presentations/ali-abbasi/",
-        "path"     : "program/presentations/ali-abbasi/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Michael Theuerzeit",
-        "url"      : "/program/workshops/michael-theuerzeit/",
-        "path"     : "program/workshops/michael-theuerzeit/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Jens Wiesner",
-        "url"      : "/program/presentations/jens-wiesner/",
-        "path"     : "program/presentations/jens-wiesner/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Dan Demeter",
-        "url"      : "/program/presentations/dan-demeter/",
-        "path"     : "program/presentations/dan-demeter/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Jessikka Aro",
-        "url"      : "/program/presentations/jessikka-aro/",
-        "path"     : "program/presentations/jessikka-aro/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/",
-        "path"     : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "Rossella Mattioli",
-        "url"      : "/program/presentations/rossella-mattioli/",
-        "path"     : "program/presentations/rossella-mattioli/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Paraskevi Kasse",
-        "url"      : "/program/presentations/paraskevi-kasse/",
-        "path"     : "program/presentations/paraskevi-kasse/"
+        "title"    : "Patrick Miller",
+        "url"      : "/program/presentations/patrick-miller/",
+        "path"     : "program/presentations/patrick-miller/"
      
    } 
   
