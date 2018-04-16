@@ -2,56 +2,56 @@
   
     {
       "title"    : "CS3STHLM Newsletter December",
-      "url"      : "cs3sthlm/news/2017/12/20/cs3sthlm-newsletter-december.html",
+      "url"      : "//news/2017/12/20/cs3sthlm-newsletter-december.html",
       "date"     : "2017-12-20 06:00:00 +0200",
       "path"     : "/news/2017/12/20/cs3sthlm-newsletter-december.html"
     } ,
   
     {
       "title"    : "CS3STHLM Presents ICS- and IoT Lab together with Norwegian Energy CERT",
-      "url"      : "cs3sthlm/press/2017/10/04/cs3sthlm-presents-ics-and-iot-lab-together-with-norwegian-energy-cert.html",
+      "url"      : "//press/2017/10/04/cs3sthlm-presents-ics-and-iot-lab-together-with-norwegian-energy-cert.html",
       "date"     : "2017-10-04 06:00:00 +0200",
       "path"     : "/press/2017/10/04/cs3sthlm-presents-ics-and-iot-lab-together-with-norwegian-energy-cert.html"
     } ,
   
     {
       "title"    : "Advenica announces new collaboration with CS3STHLM",
-      "url"      : "cs3sthlm/press/2017/09/14/advenica-announces-new-collaboration-with-cs3sthlm.html",
+      "url"      : "//press/2017/09/14/advenica-announces-new-collaboration-with-cs3sthlm.html",
       "date"     : "2017-09-14 06:00:00 +0200",
       "path"     : "/press/2017/09/14/advenica-announces-new-collaboration-with-cs3sthlm.html"
     } ,
   
     {
       "title"    : "CS3STHLM Newsletter September",
-      "url"      : "cs3sthlm/news/2017/09/13/cs3sthlm-newsletter-september.html",
+      "url"      : "//news/2017/09/13/cs3sthlm-newsletter-september.html",
       "date"     : "2017-09-13 06:00:00 +0200",
       "path"     : "/news/2017/09/13/cs3sthlm-newsletter-september.html"
     } ,
   
     {
       "title"    : "CS3STHLM Newsletter June",
-      "url"      : "cs3sthlm/news/2017/06/13/cs3sthlm-newsletter-june.html",
+      "url"      : "//news/2017/06/13/cs3sthlm-newsletter-june.html",
       "date"     : "2017-06-13 06:00:00 +0200",
       "path"     : "/news/2017/06/13/cs3sthlm-newsletter-june.html"
     } ,
   
     {
       "title"    : "Malware that can knock out power grids discovered",
-      "url"      : "cs3sthlm/press/2017/06/13/malware-that-can-knock-out-power.html",
+      "url"      : "//press/2017/06/13/malware-that-can-knock-out-power.html",
       "date"     : "2017-06-13 06:00:00 +0200",
       "path"     : "/press/2017/06/13/malware-that-can-knock-out-power.html"
     } ,
   
     {
       "title"    : "CFP - DON'T MISS OUR DEADLINE",
-      "url"      : "cs3sthlm/news/2017/05/08/cfp-dont-miss-our-deadline.html",
+      "url"      : "//news/2017/05/08/cfp-dont-miss-our-deadline.html",
       "date"     : "2017-05-08 06:00:00 +0200",
       "path"     : "/news/2017/05/08/cfp-dont-miss-our-deadline.html"
     } ,
   
     {
       "title"    : "Cyber Security Summit 4SICS Relaunches as CS3STHLM",
-      "url"      : "cs3sthlm/press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html",
+      "url"      : "//press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html",
       "date"     : "2017-04-21 06:00:00 +0200",
       "path"     : "/press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html"
     } 
@@ -61,7 +61,7 @@
    {
      
         "title"    : "404",
-        "url"      : "cs3sthlm/404.html",
+        "url"      : "//404.html",
         "path"     : "/404.html"
      
    } ,
@@ -73,7 +73,7 @@
    {
      
         "title"    : "Pentesting Industrial Control Systems",
-        "url"      : "cs3sthlm/program/workshops/arnaud-soullie/",
+        "url"      : "//program/workshops/arnaud-soullie/",
         "path"     : "/program/workshops/arnaud-soullie/"
      
    } ,
@@ -81,7 +81,7 @@
    {
      
         "title"    : "Network ForensICS Training",
-        "url"      : "cs3sthlm/program/workshops/erik-hjelmvik/",
+        "url"      : "//program/workshops/erik-hjelmvik/",
         "path"     : "/program/workshops/erik-hjelmvik/"
      
    } ,
@@ -93,7 +93,7 @@
    {
      
         "title"    : "Contact",
-        "url"      : "cs3sthlm/contact/",
+        "url"      : "//contact/",
         "path"     : "/contact/"
      
    } ,
@@ -101,7 +101,7 @@
    {
      
         "title"    : "Advisory",
-        "url"      : "cs3sthlm/about/advisory/",
+        "url"      : "//about/advisory/",
         "path"     : "/about/advisory/"
      
    } ,
@@ -109,7 +109,7 @@
    {
      
         "title"    : "About",
-        "url"      : "cs3sthlm/about/",
+        "url"      : "//about/",
         "path"     : "/about/"
      
    } ,
@@ -117,7 +117,7 @@
    {
      
         "title"    : "Call for Participation",
-        "url"      : "cs3sthlm/call-for-proposals/",
+        "url"      : "//call-for-proposals/",
         "path"     : "/call-for-proposals/"
      
    } ,
@@ -125,7 +125,7 @@
    {
      
         "title"    : "News",
-        "url"      : "cs3sthlm/news/",
+        "url"      : "//news/",
         "path"     : "/news/"
      
    } ,
@@ -133,7 +133,7 @@
    {
      
         "title"    : "Workshops",
-        "url"      : "cs3sthlm/program/workshops/",
+        "url"      : "//program/workshops/",
         "path"     : "/program/workshops/"
      
    } ,
@@ -141,7 +141,7 @@
    {
      
         "title"    : "ICS Lab",
-        "url"      : "cs3sthlm/ics-lab/",
+        "url"      : "//ics-lab/",
         "path"     : "/ics-lab/"
      
    } ,
@@ -149,7 +149,7 @@
    {
      
         "title"    : "Press",
-        "url"      : "cs3sthlm/press/",
+        "url"      : "//press/",
         "path"     : "/press/"
      
    } ,
@@ -157,7 +157,7 @@
    {
      
         "title"    : "History",
-        "url"      : "cs3sthlm/about/history/",
+        "url"      : "//about/history/",
         "path"     : "/about/history/"
      
    } ,
@@ -165,7 +165,7 @@
    {
      
         "title"    : "Speakers",
-        "url"      : "cs3sthlm/program/speakers/",
+        "url"      : "//program/speakers/",
         "path"     : "/program/speakers/"
      
    } ,
@@ -173,7 +173,7 @@
    {
      
         "title"    : "Presentations",
-        "url"      : "cs3sthlm/program/presentations/",
+        "url"      : "//program/presentations/",
         "path"     : "/program/presentations/"
      
    } ,
@@ -181,7 +181,7 @@
    {
      
         "title"    : "Practical Details",
-        "url"      : "cs3sthlm/practical-details/",
+        "url"      : "//practical-details/",
         "path"     : "/practical-details/"
      
    } ,
@@ -189,7 +189,7 @@
    {
      
         "title"    : "Home",
-        "url"      : "cs3sthlm/",
+        "url"      : "//",
         "path"     : ""
      
    } ,
@@ -197,7 +197,7 @@
    {
      
         "title"    : "Program",
-        "url"      : "cs3sthlm/program/",
+        "url"      : "//program/",
         "path"     : "/program/"
      
    } ,
@@ -213,7 +213,7 @@
    {
      
         "title"    : "Think like a hacker but act like an engineer",
-        "url"      : "cs3sthlm/program/presentations/marty-edwards/",
+        "url"      : "//program/presentations/marty-edwards/",
         "path"     : "/program/presentations/marty-edwards/"
      
    } ,
@@ -225,7 +225,7 @@
    {
      
         "title"    : "Industrial Technology Trajectory: Running With Scissors",
-        "url"      : "cs3sthlm/program/presentations/patrick-miller/",
+        "url"      : "//program/presentations/patrick-miller/",
         "path"     : "/program/presentations/patrick-miller/"
      
    } ,
@@ -237,7 +237,7 @@
    {
      
         "title"    : "Search",
-        "url"      : "cs3sthlm/search/",
+        "url"      : "//search/",
         "path"     : "/search/"
      
    } ,
@@ -253,7 +253,7 @@
    {
      
         "title"    : "Cyber security for the energy sector – an introduction to ISO/IEC 27019 and the BDEW/OE Whitepaper",
-        "url"      : "cs3sthlm/program/workshops/stephan-beirer/",
+        "url"      : "//program/workshops/stephan-beirer/",
         "path"     : "/program/workshops/stephan-beirer/"
      
    } ,
@@ -271,7 +271,7 @@
    {
      
         "title"    : "Erik Hjelmvik",
-        "url"      : "cs3sthlm/program/workshops/erik-hjelmvik/",
+        "url"      : "//program/workshops/erik-hjelmvik/",
         "path"     : "program/workshops/erik-hjelmvik/"
      
    } ,
@@ -279,7 +279,7 @@
    {
      
         "title"    : "Stephan Beirer",
-        "url"      : "cs3sthlm/program/workshops/stephan-beirer/",
+        "url"      : "//program/workshops/stephan-beirer/",
         "path"     : "program/workshops/stephan-beirer/"
      
    } ,
@@ -287,7 +287,7 @@
    {
      
         "title"    : "Marty Edwards",
-        "url"      : "cs3sthlm/program/presentations/marty-edwards/",
+        "url"      : "//program/presentations/marty-edwards/",
         "path"     : "program/presentations/marty-edwards/"
      
    } ,
@@ -295,7 +295,7 @@
    {
      
         "title"    : "Patrick Miller",
-        "url"      : "cs3sthlm/program/presentations/patrick-miller/",
+        "url"      : "//program/presentations/patrick-miller/",
         "path"     : "program/presentations/patrick-miller/"
      
    } ,
@@ -303,7 +303,7 @@
    {
      
         "title"    : "Arnaud Soullié",
-        "url"      : "cs3sthlm/program/workshops/arnaud-soullie/",
+        "url"      : "//program/workshops/arnaud-soullie/",
         "path"     : "program/workshops/arnaud-soullie/"
      
    } 

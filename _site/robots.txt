@@ -1,1 +1,1 @@
-Sitemap: /cs3sthlm/sitemap.xml
+Sitemap: /sitemap.xml
