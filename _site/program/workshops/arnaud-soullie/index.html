@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>CS3STHLM | Speakers</title>
+  <title>CS3STHLM | Pentesting Industrial Control Systems</title>
   <meta name="description" content="CS3STHLM - Stockholm international summit on cyber-security in SCADA and Industrial Control Systems. CS3STHLM is an annual summit that gather the most import...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="/program/speakers/">
+  <link rel="canonical" href="/program/workshops/arnaud-soullie/">
   <link rel="alternate" type="application/rss+xml" title="CS3STHLM" href="/feed.xml">
   <link rel="icon" type="image/png" href="/assets/favicon-32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="/assets/favicon-16x16.png" sizes="16x16" />
@@ -68,11 +68,11 @@
 
     <div class="wrap">
     	<section class="content">
-	 	
-  	<div class="sec-head">
-  	<div class="block-head">
-  		<h4>Speakers & Trainers</h4>
-  		
+
+<div class="sec-head sec-head-single-post">
+    <div class="block-head">
+      <h4>Workshop</h4>
+      
 <ul class="bc-nav">
 	<li><a href="/">Home</a></li>
 	
@@ -81,232 +81,241 @@
   	
 	
 	
-  		<li>Speakers</li>
+  		<li><a href="/program/workshops/">Workshops</a></li>
+  	
+	
+	
+  		<li>Arnaud soullie</li>
   	
 	
 </ul>
-  	</div>
-    <div class="block-head">
-    	<h2>World Class Content</h2>
-    	<div class="btn-group">
-    		<a href="/program/presentations/" class="btn btn-primary"><span>View</span> Presentations</a>
-    		<a href="/program/workshops/" class="btn btn-primary"><span>View</span> Workshops</a>
-    	</div>
     </div>
+</div>
 
-    <div class="col-6-6">
-        <div class="col-3-6 col-ml-1">
-    	   <p>CS3STHLM – the Stockholm international summit on Cyber Security in SCADA and Industrial Control Systems - is an annual summit that gather the most important stakeholders across critical processes and industries. CS3STHLM has been organized since 2014, and has quickly become the premier ICS Security Summit in Northern Europe!</p>
-        </div>
-    </div>
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <aside class="sidebar box-left">
+    <ul>
+      <li><h4>Duration</h4><span class="post-time">22-23 October</span></li>
+      <li><h4>Taught By</h4><span class="post-author">Arnaud Soullié</span></li>
+      <li><h4>Company</h4><span class="post-company">Wavestone</span></li>
+      <li><img src="/assets/speakers/arnaud-soullie.png"></li>
+    </ul>
+  </aside>
+
+  <div class="post-content" itemprop="articleBody">
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">Pentesting Industrial Control Systems</h1>
+    </header>
+
+    <p>On this intense 2-days training, you will learn everything you need to start pentesting Industrial Control Networks. We will cover the basics to help you understand what are the most common ICS vulnerabilities.</p>
+
+<p>We will then spend some time learning and exploiting Windows &amp; Active Directory weaknesses, as most ICS are controlled by Windows systems. We will cover the most common ICS protocols (Modbus, S7, Profinet, Ethernet/IP, DNP3, OPC…), analyze packet captures and learn how to use these protocols to talk to Programmable Logic Controllers (PLCs).</p>
+
+<p>You will learn how to program a PLC, to better understand how to exploit them. The training will end with an afternoon dedicated to a challenging hands-on exercise: The first CTF in which you capture a real flag! Using your newly acquired skills, you will try to compromise a Windows Active Directory, pivot to an ICS setup to take control of a model train and robotic arms.</p>
+
+<h4 id="the-detailed-outline-of-the-training-will-be-the-following">The detailed outline of the training will be the following:</h4>
+
+<ul>
+  <li>Introduction to ICS &amp; common vulnerabilities</li>
+  <li>Pentesting Basics &amp; tools [Hands-on]</li>
+  <li>Windows basics and pentesting Windows [Hands-on]</li>
+  <li>Focus on ICS protocols</li>
+  <li>Programming PLCs [Hands-on]</li>
+  <li>Pentesting ICS [Hands-on]</li>
+  <li>Capture The Flag [Hands-on]</li>
+</ul>
+
+<h3 id="detailed-content">Detailed content</h3>
+
+<h4 id="module-1-introduction-to-ics--common-vulnerabilities">Module 1: Introduction to ICS &amp; common vulnerabilities</h4>
+
+<p>For starters, I will introduce the concept of ICS.</p>
+
+<p>The topics will include:</p>
+<ul>
+  <li>Vocabulary</li>
+  <li>Classic architectures</li>
+  <li>ICS components (PLCs, HMI, SCADA, DCS, sensors, RTUs, Historian, etc) and their roles</li>
+  <li>OT vs IT</li>
+</ul>
+
+<p>I will also introduce attendees to the most common vulnerabilities in ICS, and describes some of the public attacks:</p>
+<ul>
+  <li>Lack of network segmentation / Exposure</li>
+  <li>Lack of hardening - ICS protocols insecurity</li>
+</ul>
+
+<p><em>This module is not hands-on</em></p>
+
+<h4 id="module-2-pentesting-basics--tools">Module 2: Pentesting Basics &amp; tools</h4>
+
+<p>This module will introduce the concept of penetration test.
+I do not intend to spend too much time of the theoretical stuff (how to make
+a report, etc etc) since that is not what attendees are looking for.</p>
+
+<p>However, I think a module is required to ensure that everyone shares at least the
+basic concepts of penetration testing, in order to understand the rest of the training.
+The module will include :</p>
+<ul>
+  <li>OSINT for ICS : Where to look to find informations</li>
+  <li>Reconnaissance : how to portscan &amp; nessus</li>
+  <li>Exploitation : Metasploit basics</li>
+</ul>
+
+<p>Toolz used : nmap, Nessus, Metasploit</p>
+
+<p>Lab setup : Windows Servers and workstations, Metasploitable, Kali Linux</p>
+
+<h4 id="module-3-windows-basics-and-pentesting-windows">Module 3: Windows basics and pentesting Windows</h4>
+<p>Any ICS now includes, at least in some areas, Windows systems. So I think that some time must be spent on Windows basics.</p>
+
+<p>This module will introduce the following topics:</p>
+<ul>
+  <li>Windows Active Directory</li>
+  <li>How to find credentials on Windows systems</li>
+  <li>Exploiting and pivoting to gain Domain Admin privileges</li>
+</ul>
+
+<p>A selection of hacking techniques will be applied on lab machines.</p>
+
+<h4 id="module-4-focus-on-ics-protocols">Module 4: Focus on ICS protocols</h4>
+
+<p>This module will introduce the most common ICS protocols: Modbus/TCP, S7, Profinet, DNP3, Ethernet/IP…. Attendees will analyze network captures and be introduced to software libraries/ clients to use these protocols to talk to PLC simulators.</p>
+
+<p><em>This module is not hands-on</em></p>
+
+<h4 id="module-5-programming-plcs">Module 5: Programming PLCs</h4>
+<p>In order to have a better understanding of how a PLC works, student will use dedicated software to program a PLC in ladder logic (using trial versions of TIA portal and/or soMachine basic).</p>
+
+<p>Students will then deploy the code to real PLCs.</p>
+
+<p>Toolz used : SoMachine Basic</p>
+
+<p>Lab : Windows virtual machine</p>
+
+<h4 id="module-6-pentesting-ics">Module 6: Pentesting ICS</h4>
+<p>This module will be mostly lab sessions, in order to apply the knowledge learned so far:</p>
+<ul>
+  <li>Network capture analysis &amp; replaying packets</li>
+  <li>Talking industrial protocols: Modbus, S7</li>
+  <li>Additional PLC features: web server, ftp, snmp and how to exploit it</li>
+</ul>
+
+<p>Toolz used : nmap, Nessus, Metasploit</p>
+
+<p>Lab : Windows Servers and workstations, Kali Linux, Siemens and Schneider PLCs</p>
+
+<h4 id="module-7-capture-the-flag">Module 7: Capture The Flag</h4>
+
+<p>I strongly believe that a good training must include “real-life” examples and labs. I will dedicate the last half-day of the training to a Capture The Flag event. To do so, I will have a specific setup where attendees will be able to use their newly-acquired knowledge on a simulation of a “real-life” system. This will include compromise of Windows host, pivoting to the ICS, understanding the industrial process, and finally capturing a real flag with a robot hand!</p>
+
+<p>This will be an expanded version of the CTF I usually organize during the ICS workshops at conferences.</p>
+
+<h4 id="target-audience">Target audience</h4>
+<p>This training is aimed at OT professionals willing to understand what are the security issues within ICS, and how
+to technically assess the security level of an ICS. It will also be beneficial for IT security professionals wanting to understand the technical specificities of ICS.</p>
+
+<h4 id="key-takeaways">Key takeaways</h4>
+<p>The attendees will learn what are the common ICS vulnerabilities, the tools and techniques to assess an ICS (both Windows systems and PLCs), and will practice these techniques during an hands-on Capture The Flag on real hardware.</p>
+
   </div>
 
-</section>
+  <aside class="sidebar box-right">
+    <input type="checkbox" id="row-one" />
+    <label for="row-one">All Workshops & Training</label>
+    <h4 class="checkbox-subline">All Workshops & Training</h4>
+    <span class="icon-plus"></span>
 
-<section class="content">
+    <ul>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <li><a href="/program/workshops/arnaud-soullie/">
+          <span class="p-title">Pentesting Industrial Control Systems</span>
+          <span class="p-time">22-23 October</span>
+          <span class="p-author">Arnaud Soullié</span>
+      </a></li>
+    
+    
+    
+      <li><a href="/program/workshops/erik-hjelmvik/">
+          <span class="p-title">Network Forens<b class="highlight-white">ICS</b> Training</span>
+          <span class="p-time">22-23 October</span>
+          <span class="p-author">Erik Hjelmvik</span>
+      </a></li>
+    
+    
+    
+      <li><a href="/program/workshops/stephan-beirer/">
+          <span class="p-title">Cyber security for the energy sector – an introduction to ISO/IEC 27019 and the BDEW/OE Whitepaper</span>
+          <span class="p-time">23 October</span>
+          <span class="p-author">Stephan Beirer</span>
+      </a></li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </ul>
+  </aside>
 
-	<div class="speaker--list-group">
-		
-		
-		<div class="speaker--list-item">
-			<div class="speaker-block">
-				<img src="/assets/speakers/arnaud-soullie.png">
-				<div class="speaker-block-data">
-					<h4>workshop<span>FR</span></h4>
-					<h2>Arnaud Soullié</h2>
-				</div>
-			</div>
-			<div class="speaker-block-details">
-				<div class="speaker-block--header">
-					<h4>workshop</h4>
-					<h2>Arnaud Soullié</h2>
-					<h3>Cybersecurity R&D Manager</h3>
-				</div>
-				<div class="speaker-block--content">
-					<div class="col-1-6">
-						<ul>
-							<li>Wavestone</li>
-							<li>France</li>
-						</ul>
-					</div>
+</article>
 
-					<div class="col-3-6">
-						<p>Arnaud Soullié (@arnaudsoullie) is the cybersecurity R&D manager at Wavestone. For 8 years, he has been performing security audits and pentest on all type of targets. He specializes in Industrial Control Systems and Active Directory security. He has spoken at numerous security conferences on ICS topics : BlackHat Europe, BruCon, 4SICS, BSides Las Vegas, DEFCON…He also has an interest in hardware security, and is the designer of DYODE (Do Your Own Diode): an open-source, low-cost, ICS oriented data diode.</p>
-					</div>
-
-					
-					<div class="col-2-6">
-						<h4 class="headline">workshop</h4>
-						<a href="/program/workshops/arnaud-soullie/" class="speaker-permalink">Pentesting Industrial Control Systems</a>
-					</div>
-					
-
-				</div>
-
-				<a href="#!" class="modal-close">Close<span></span></a>
-			</div>
-		</div>
-		
-		<div class="speaker--list-item">
-			<div class="speaker-block">
-				<img src="/assets/speakers/erik-hjelmvik.png">
-				<div class="speaker-block-data">
-					<h4>workshop<span>SE</span></h4>
-					<h2>Erik Hjelmvik</h2>
-				</div>
-			</div>
-			<div class="speaker-block-details">
-				<div class="speaker-block--header">
-					<h4>workshop</h4>
-					<h2>Erik Hjelmvik</h2>
-					<h3>Network Analyst</h3>
-				</div>
-				<div class="speaker-block--content">
-					<div class="col-1-6">
-						<ul>
-							<li>NETRESEC</li>
-							<li>Sweden</li>
-						</ul>
-					</div>
-
-					<div class="col-3-6">
-						<p>Erik is the creator of NetworkMiner and an experienced incident handler who has specialized in the field of network forensics.</p>
-					</div>
-
-					
-					<div class="col-2-6">
-						<h4 class="headline">workshop</h4>
-						<a href="/program/workshops/erik-hjelmvik/" class="speaker-permalink">Network Forensics Training</a>
-					</div>
-					
-
-				</div>
-
-				<a href="#!" class="modal-close">Close<span></span></a>
-			</div>
-		</div>
-		
-		<div class="speaker--list-item">
-			<div class="speaker-block">
-				<img src="/assets/speakers/marty-edwards.png">
-				<div class="speaker-block-data">
-					<h4>presentation<span>US</span></h4>
-					<h2>Marty Edwards</h2>
-				</div>
-			</div>
-			<div class="speaker-block-details">
-				<div class="speaker-block--header">
-					<h4>presentation</h4>
-					<h2>Marty Edwards</h2>
-					<h3>Cybersecurity Expert</h3>
-				</div>
-				<div class="speaker-block--content">
-					<div class="col-1-6">
-						<ul>
-							<li>The Automation Federation</li>
-							<li>United States</li>
-						</ul>
-					</div>
-
-					<div class="col-3-6">
-						<p>Marty Edwards, a globally recognized industrial control systems cybersecurity expert and speaker, serves as Managing Director of the Automation Federation.
-
-Prior to joining the Automation Federation in mid-2017, Edwards—a 25-year industry veteran—was the longest-serving Director of the U.S. Department of Homeland Security’s Industrial Control Systems Cyber Emergency Response Team (ICS-CERT). Under his leadership the ICS-CERT was awarded the 2013 SC Magazine Security Team of the Year award and was named as a finalist in the Community Awareness category in the 2015 Government Information Security Leadership Awards (GISLA).
-</p>
-					</div>
-
-					
-					<div class="col-2-6">
-						<h4 class="headline">presentation</h4>
-						<a href="/program/presentations/marty-edwards/" class="speaker-permalink">Think like a hacker but act like an engineer</a>
-					</div>
-					
-
-				</div>
-
-				<a href="#!" class="modal-close">Close<span></span></a>
-			</div>
-		</div>
-		
-		<div class="speaker--list-item">
-			<div class="speaker-block">
-				<img src="/assets/speakers/patrick-miller.png">
-				<div class="speaker-block-data">
-					<h4>presentation<span>US</span></h4>
-					<h2>Patrick Miller</h2>
-				</div>
-			</div>
-			<div class="speaker-block-details">
-				<div class="speaker-block--header">
-					<h4>presentation</h4>
-					<h2>Patrick Miller</h2>
-					<h3>Managing Partner</h3>
-				</div>
-				<div class="speaker-block--content">
-					<div class="col-1-6">
-						<ul>
-							<li>Archer</li>
-							<li>United States</li>
-						</ul>
-					</div>
-
-					<div class="col-3-6">
-						<p>Patrick Miller has dedicated his career to the protection and defense of critical infrastructures. As Managing Partner at Archer Security Group, he is a trusted independent security and regulatory advisor for industrial control systems worldwide. Mr. Miller is also the founder, director and president emeritus of EnergySec and US. Coordinator for the Industrial Cybersecurity Center. Patrick's diverse background spans the Energy, Telecommunications, Water and Financial Services verticals including key positions with regulatory agencies, private consulting firms, utility asset owners and commercial organizations.</p>
-					</div>
-
-					
-					<div class="col-2-6">
-						<h4 class="headline">presentation</h4>
-						<a href="/program/presentations/patrick-miller/" class="speaker-permalink">Industrial Technology Trajectory: Running With Scissors</a>
-					</div>
-					
-
-				</div>
-
-				<a href="#!" class="modal-close">Close<span></span></a>
-			</div>
-		</div>
-		
-		<div class="speaker--list-item">
-			<div class="speaker-block">
-				<img src="/assets/speakers/stephan-beirer.png">
-				<div class="speaker-block-data">
-					<h4>workshop<span>DE</span></h4>
-					<h2>Stephan Beirer</h2>
-				</div>
-			</div>
-			<div class="speaker-block-details">
-				<div class="speaker-block--header">
-					<h4>workshop</h4>
-					<h2>Stephan Beirer</h2>
-					<h3>Senior Consultant</h3>
-				</div>
-				<div class="speaker-block--content">
-					<div class="col-1-6">
-						<ul>
-							<li>GAI NetConsult GmbH</li>
-							<li>Germany</li>
-						</ul>
-					</div>
-
-					<div class="col-3-6">
-						<p>Stephan Beirer studied and received his PhD in physics. Since 2006 Mr. Beirer has been employed with GAI NetConsult GmbH as a senior consultant and is the Head of Industrial Control Systems Security since 2012. He advises clients on the development and implementation of organizational and technical security policies and controls, on implementing an information security management system (ISMS) according to IEC 62443, ISO/IEC 27001 and ISO/IEC 27019 and on business continuity planning. His professional focus is on securing process control and automation technology, especially in the field of energy supply. He gained his experience in more than 200 ICS security projects in the field of energy, transportation and industrial manufacturing. He is an active member of several national and international standardization committees at DIN, DKE, IEC and ISO and the editor of ISO/IEC 27019.</p>
-					</div>
-
-					
-					<div class="col-2-6">
-						<h4 class="headline">workshop</h4>
-						<a href="/program/workshops/stephan-beirer/" class="speaker-permalink">Cyber security for the energy sector – an introduction to ISO/IEC 27019 and the BDEW/OE Whitepaper</a>
-					</div>
-					
-
-				</div>
-
-				<a href="#!" class="modal-close">Close<span></span></a>
-			</div>
-		</div>
-		
-	</div>
+  <a href="https://tickets.4sics.se" target="_blank" class="btn btn-primary btn-yellow btn-ticket">Buy Ticket</a>
 
 </section>
     </div>

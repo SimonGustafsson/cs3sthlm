@@ -4022,12 +4022,12 @@ h1, h2, h3, h4 {
       margin-bottom: 20px;
       font-family: 'latoregular', sans-serif;
       font-size: 18px;
-      color: rgba($white, 0.85);
+      color: rgba($white, .75);
 
       &:first-of-type {
-        font-family: 'latobold', sans-serif;
+        font-family: 'latoregular', sans-serif;
         font-size: 21px;
-        color: rgba($white, 1);
+        color: rgba($white, .85);
 
         @include media-query-min($large) {
           font-size: 23px;
@@ -4083,7 +4083,7 @@ h1, h2, h3, h4 {
     ol {
       font-family: 'latoregular', sans-serif;
       font-size: 18px;
-      color: rgba($white, 0.85);
+      color: rgba($white, .65);
       margin-bottom: 20px;
 
       li {
@@ -4103,6 +4103,8 @@ h1, h2, h3, h4 {
     }
 
     h4 {
+      font-size: 18px;
+      font-weight: 400;
 
       @include media-query-min($large) {
         font-size: 23px;
@@ -4110,7 +4112,6 @@ h1, h2, h3, h4 {
     }
 
     ul { 
-      margin-top: 20px;
       display: block;
       max-width: 650px;
       margin-bottom: 20px;
@@ -4119,7 +4120,7 @@ h1, h2, h3, h4 {
         margin-left: 20px;
         margin-bottom: 10px;
         font-size: 18px;
-        color: rgba($white, 0.85);
+        color: rgba($white, .75);
 
         a {
           color: $yellow;

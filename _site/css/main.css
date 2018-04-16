@@ -3157,11 +3157,11 @@ h1, h2, h3, h4 {
       margin-bottom: 20px;
       font-family: 'latoregular', sans-serif;
       font-size: 18px;
-      color: rgba(255, 255, 255, 0.85); }
+      color: rgba(255, 255, 255, 0.75); }
       .post .post-content p:first-of-type {
-        font-family: 'latobold', sans-serif;
+        font-family: 'latoregular', sans-serif;
         font-size: 21px;
-        color: white; }
+        color: rgba(255, 255, 255, 0.85); }
         @media screen and (min-width: 1680px) {
           .post .post-content p:first-of-type {
             font-size: 23px;
@@ -3202,7 +3202,7 @@ h1, h2, h3, h4 {
     .post .post-content ol {
       font-family: 'latoregular', sans-serif;
       font-size: 18px;
-      color: rgba(255, 255, 255, 0.85);
+      color: rgba(255, 255, 255, 0.65);
       margin-bottom: 20px; }
       .post .post-content ol li {
         margin-left: 20px;
@@ -3214,11 +3214,13 @@ h1, h2, h3, h4 {
       @media screen and (min-width: 1680px) {
         .post .post-content h3 {
           font-size: 23px; } }
-    @media screen and (min-width: 1680px) {
-      .post .post-content h4 {
-        font-size: 23px; } }
+    .post .post-content h4 {
+      font-size: 18px;
+      font-weight: 400; }
+      @media screen and (min-width: 1680px) {
+        .post .post-content h4 {
+          font-size: 23px; } }
     .post .post-content ul {
-      margin-top: 20px;
       display: block;
       max-width: 650px;
       margin-bottom: 20px; }
@@ -3226,7 +3228,7 @@ h1, h2, h3, h4 {
         margin-left: 20px;
         margin-bottom: 10px;
         font-size: 18px;
-        color: rgba(255, 255, 255, 0.85); }
+        color: rgba(255, 255, 255, 0.75); }
         .post .post-content ul li a {
           color: #ef7d00;
           transition: 0.24s all ease-in-out;

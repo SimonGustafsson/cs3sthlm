@@ -154,6 +154,21 @@
     Abstract: Innovative and disruptive technologies are enhancing and invading our traditional industrial business model. Future infrastructure organizations will need more data to operate efficiently and succeed in the brave new interconnected world. The diversity of new technologies and data will fuel more diversity in business opportunity. Everyone expects more OT, more IOT, and more IT - and all of it is supposed to be highly reliable and secure. These factors (and more) lead to a landscape shift for the industrial cybersecurity risk profile. In this session, hear ways to recognize the problems and gain some clarity on possible solutions through historic lessons, made up words, and practical front-line experience.
 
 
+- id: 5
+  type: workshop
+  permalink: program/workshops/arnaud-soullie/
+  name: Arnaud Soullié
+  role: Cybersecurity R&D Manager
+  work: Wavestone
+  country: France
+  shortcode: FR
+  image: arnaud-soullie.png
+  bio: "Arnaud Soullié (@arnaudsoullie) is the cybersecurity R&D manager at Wavestone. For 8 years, he has been performing security audits and pentest on all type of targets. He specializes in Industrial Control Systems and Active Directory security. He has spoken at numerous security conferences on ICS topics : BlackHat Europe, BruCon, 4SICS, BSides Las Vegas, DEFCON…He also has an interest in hardware security, and is the designer of DYODE (Do Your Own Diode): an open-source, low-cost, ICS oriented data diode."
+  date:
+  time:
+  place:
+  title: Pentesting Industrial Control Systems
+  description: |
 
 
 

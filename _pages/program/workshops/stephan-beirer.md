@@ -13,7 +13,9 @@ Generation, storage, transport and distribution of electricity and gas are the m
 
 To supplement the generic controls of ISO/IEC 27019 with detailed technical security specifications for ICS systems, the German and Austrian energy operator associations BDEW and Oesterreichs Energie have published the BDEW/OE Whitepaper. The Whitepaper can be used during system procurement and defines security requirements for control and automation systems of the energy domain and their telecommunication infrastructure.
 
-The workshop gives an introduction to the contents and practical application of ISO/IEC 27019 and the BDEW/OE Whitepaper. The following topics will be covered:
+The workshop gives an introduction to the contents and practical application of ISO/IEC 27019 and the BDEW/OE Whitepaper.
+
+#### The following topics will be covered:
 * Industrial control systems in the energy sector 
 * Introduction to the ISO/IEC 27000 series
 * Overview of ISO/IEC 27019 
