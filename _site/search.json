@@ -72,14 +72,6 @@
   
    {
      
-        "title"    : "Pentesting Industrial Control Systems",
-        "url"      : "/program/workshops/arnaud-soullie/",
-        "path"     : "/program/workshops/arnaud-soullie/"
-     
-   } ,
-  
-   {
-     
         "title"    : "Network ForensICS Training",
         "url"      : "/program/workshops/erik-hjelmvik/",
         "path"     : "/program/workshops/erik-hjelmvik/"
@@ -95,6 +87,14 @@
         "title"    : "Contact",
         "url"      : "/contact/",
         "path"     : "/contact/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "History",
+        "url"      : "/about/history/",
+        "path"     : "/about/history/"
      
    } ,
   
@@ -140,14 +140,6 @@
   
    {
      
-        "title"    : "ICS Lab",
-        "url"      : "/ics-lab/",
-        "path"     : "/ics-lab/"
-     
-   } ,
-  
-   {
-     
         "title"    : "Press",
         "url"      : "/press/",
         "path"     : "/press/"
@@ -156,9 +148,9 @@
   
    {
      
-        "title"    : "History",
-        "url"      : "/about/history/",
-        "path"     : "/about/history/"
+        "title"    : "ICS Lab",
+        "url"      : "/ics-lab/",
+        "path"     : "/ics-lab/"
      
    } ,
   
@@ -297,14 +289,6 @@
         "title"    : "Patrick Miller",
         "url"      : "/program/presentations/patrick-miller/",
         "path"     : "program/presentations/patrick-miller/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Arnaud Soullié",
-        "url"      : "/program/workshops/arnaud-soullie/",
-        "path"     : "program/workshops/arnaud-soullie/"
      
    } 
   
