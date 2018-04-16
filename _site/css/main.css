@@ -2066,20 +2066,14 @@ h1, h2, h3, h4 {
           padding: 20px 22px; } }
       .workshop--block-group .workshop--block-item .workshop--block-content p {
         color: rgba(255, 255, 255, 0.8);
-        margin-bottom: 0;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        overflow: hidden; }
+        margin-bottom: 0; }
     .workshop--block-group .workshop--block-item .workshop--block-title {
       display: block;
       width: 100%;
       font-family: 'latoblack', sans-serif;
       font-size: 18px;
       font-weight: normal;
-      color: white;
-      white-space: nowrap;
-      text-overflow: ellipsis;
-      overflow: hidden; }
+      color: white; }
     .workshop--block-group .workshop--block-item .workshop--meta {
       display: block;
       margin-top: 5px;
@@ -3736,9 +3730,13 @@ h1, h2, h3, h4 {
       border-radius: 2px 0 0 2px; }
     .sec-program .workshop-program-group .workshop--block-item:hover .workshop--block-title {
       color: #ef7d00; }
-  @media screen and (min-width: 1680px) {
-    .sec-program .workshop-program-group .workshop--block-item .workshop--block-content p {
-      font-size: 18px; } }
+  .sec-program .workshop-program-group .workshop--block-item .workshop--block-content p {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden; }
+    @media screen and (min-width: 1680px) {
+      .sec-program .workshop-program-group .workshop--block-item .workshop--block-content p {
+        font-size: 18px; } }
   .sec-program .workshop-program-group .workshop--block-item img {
     width: 84px;
     max-width: 84px;
@@ -3751,6 +3749,9 @@ h1, h2, h3, h4 {
     border-bottom: none;
     padding-bottom: 0; }
   .sec-program .workshop-program-group .workshop--block-item .workshop--block-title {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
     transition: 0.24s all ease-in-out;
     -moz-transition: 0.24s all ease-in-out;
     -webkit-transtiion: 0.24s all ease-in-out;

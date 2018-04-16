@@ -2585,9 +2585,6 @@ h1, h2, h3, h4 {
       p {
         color: rgba($white, .8);
         margin-bottom: 0;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        overflow: hidden;
       }
     }
 
@@ -2598,9 +2595,6 @@ h1, h2, h3, h4 {
       font-size: 18px;
       font-weight: normal;
       color: $white;
-      white-space: nowrap;
-      text-overflow: ellipsis;
-      overflow: hidden;
     }
 
     .workshop--meta {
@@ -4821,6 +4815,11 @@ h1, h2, h3, h4 {
       }
 
       .workshop--block-content p {
+
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+
         @include media-query-min($large) {
           font-size: 18px;
         }
@@ -4839,6 +4838,9 @@ h1, h2, h3, h4 {
         padding-bottom: 0;
       }
       .workshop--block-title {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
 
         @include transition-ease;
       }
