@@ -65,6 +65,23 @@
 		"place"		: "",
 		"title"		: "Industrial Technology Trajectory: Running With Scissors",
 		"description": "<p>Abstract: Innovative and disruptive technologies are enhancing and invading our traditional industrial business model. Future infrastructure organizations will need more data to operate efficiently and succeed in the brave new interconnected world. The diversity of new technologies and data will fuel more diversity in business opportunity. Everyone expects more OT, more IOT, and more IT - and all of it is supposed to be highly reliable and secure. These factors (and more) lead to a landscape shift for the industrial cybersecurity risk profile. In this session, hear ways to recognize the problems and gain some clarity on possible solutions through historic lessons, made up words, and practical front-line experience.</p>"
+	},
+
+	{
+		"id"		: "5",
+		"type"		: "workshop",
+		"name"		: "Arnaud Soullié",
+		"role"		: "Cybersecurity R&D Manager",
+		"work"		: "Wavestone",
+		"country"	: "France",
+		"shortcode" : "FR",
+		"image"		: "https://cs3sthlm.se/assets/speakers/arnaud-soullie.png",
+		"bio"		: "<p>Arnaud Soullié (@arnaudsoullie) is the cybersecurity R&amp;D manager at Wavestone. For 8 years, he has been performing security audits and pentest on all type of targets. He specializes in Industrial Control Systems and Active Directory security. He has spoken at numerous security conferences on ICS topics : BlackHat Europe, BruCon, 4SICS, BSides Las Vegas, DEFCON…He also has an interest in hardware security, and is the designer of DYODE (Do Your Own Diode): an open-source, low-cost, ICS oriented data diode.</p>",
+		"date"		: "22-23 October",
+		"time"		: "",
+		"place"		: "",
+		"title"		: "Pentesting Industrial Control Systems",
+		"description": ""
 	}
 
 ]}
