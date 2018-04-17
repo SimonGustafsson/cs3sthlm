@@ -2,56 +2,56 @@
   
     {
       "title"    : "CS3STHLM Newsletter December",
-      "url"      : "/news/2017/12/20/cs3sthlm-newsletter-december.html",
+      "url"      : "/2017/news/2017/12/20/cs3sthlm-newsletter-december.html",
       "date"     : "2017-12-20 06:00:00 +0200",
       "path"     : "/news/2017/12/20/cs3sthlm-newsletter-december.html"
     } ,
   
     {
       "title"    : "CS3STHLM Presents ICS- and IoT Lab together with Norwegian Energy CERT",
-      "url"      : "/press/2017/10/04/cs3sthlm-presents-ics-and-iot-lab-together-with-norwegian-energy-cert.html",
+      "url"      : "/2017/press/2017/10/04/cs3sthlm-presents-ics-and-iot-lab-together-with-norwegian-energy-cert.html",
       "date"     : "2017-10-04 06:00:00 +0200",
       "path"     : "/press/2017/10/04/cs3sthlm-presents-ics-and-iot-lab-together-with-norwegian-energy-cert.html"
     } ,
   
     {
       "title"    : "Advenica announces new collaboration with CS3STHLM",
-      "url"      : "/press/2017/09/14/advenica-announces-new-collaboration-with-cs3sthlm.html",
+      "url"      : "/2017/press/2017/09/14/advenica-announces-new-collaboration-with-cs3sthlm.html",
       "date"     : "2017-09-14 06:00:00 +0200",
       "path"     : "/press/2017/09/14/advenica-announces-new-collaboration-with-cs3sthlm.html"
     } ,
   
     {
       "title"    : "CS3STHLM Newsletter September",
-      "url"      : "/news/2017/09/13/cs3sthlm-newsletter-september.html",
+      "url"      : "/2017/news/2017/09/13/cs3sthlm-newsletter-september.html",
       "date"     : "2017-09-13 06:00:00 +0200",
       "path"     : "/news/2017/09/13/cs3sthlm-newsletter-september.html"
     } ,
   
     {
       "title"    : "CS3STHLM Newsletter June",
-      "url"      : "/news/2017/06/13/cs3sthlm-newsletter-june.html",
+      "url"      : "/2017/news/2017/06/13/cs3sthlm-newsletter-june.html",
       "date"     : "2017-06-13 06:00:00 +0200",
       "path"     : "/news/2017/06/13/cs3sthlm-newsletter-june.html"
     } ,
   
     {
       "title"    : "Malware that can knock out power grids discovered",
-      "url"      : "/press/2017/06/13/malware-that-can-knock-out-power.html",
+      "url"      : "/2017/press/2017/06/13/malware-that-can-knock-out-power.html",
       "date"     : "2017-06-13 06:00:00 +0200",
       "path"     : "/press/2017/06/13/malware-that-can-knock-out-power.html"
     } ,
   
     {
       "title"    : "CFP - DON'T MISS OUR DEADLINE",
-      "url"      : "/news/2017/05/08/cfp-dont-miss-our-deadline.html",
+      "url"      : "/2017/news/2017/05/08/cfp-dont-miss-our-deadline.html",
       "date"     : "2017-05-08 06:00:00 +0200",
       "path"     : "/news/2017/05/08/cfp-dont-miss-our-deadline.html"
     } ,
   
     {
       "title"    : "Cyber Security Summit 4SICS Relaunches as CS3STHLM",
-      "url"      : "/press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html",
+      "url"      : "/2017/press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html",
       "date"     : "2017-04-21 06:00:00 +0200",
       "path"     : "/press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html"
     } 
@@ -61,7 +61,7 @@
    {
      
         "title"    : "404",
-        "url"      : "/404.html",
+        "url"      : "/2017/404.html",
         "path"     : "/404.html"
      
    } ,
@@ -69,7 +69,7 @@
    {
      
         "title"    : "Secure SCADA Protocol for the 21st Century (SSP21)",
-        "url"      : "/program/presentations/adam-crain/",
+        "url"      : "/2017/program/presentations/adam-crain/",
         "path"     : "/program/presentations/adam-crain/"
      
    } ,
@@ -81,7 +81,7 @@
    {
      
         "title"    : "S in IoT is for Security",
-        "url"      : "/program/presentations/akriti-srivastava/",
+        "url"      : "/2017/program/presentations/akriti-srivastava/",
         "path"     : "/program/presentations/akriti-srivastava/"
      
    } ,
@@ -89,7 +89,7 @@
    {
      
         "title"    : "Configurable Code-Reuse Attacks Mitigation for COTS Programmable Logic Controller Binaries",
-        "url"      : "/program/presentations/ali-abbasi/",
+        "url"      : "/2017/program/presentations/ali-abbasi/",
         "path"     : "/program/presentations/ali-abbasi/"
      
    } ,
@@ -97,7 +97,7 @@
    {
      
         "title"    : "Industroyer: biggest threat to industrial control systems since Stuxnet",
-        "url"      : "/program/presentations/anton-cherepanov-and-robert-lipovsky/",
+        "url"      : "/2017/program/presentations/anton-cherepanov-and-robert-lipovsky/",
         "path"     : "/program/presentations/anton-cherepanov-and-robert-lipovsky/"
      
    } ,
@@ -105,7 +105,7 @@
    {
      
         "title"    : "Back to the IoT Future",
-        "url"      : "/program/presentations/dan-demeter/",
+        "url"      : "/2017/program/presentations/dan-demeter/",
         "path"     : "/program/presentations/dan-demeter/"
      
    } ,
@@ -113,7 +113,7 @@
    {
      
         "title"    : "DIY insider threat detection/prevention within ICS enviroments",
-        "url"      : "/program/presentations/dieter-sarrazyn/",
+        "url"      : "/2017/program/presentations/dieter-sarrazyn/",
         "path"     : "/program/presentations/dieter-sarrazyn/"
      
    } ,
@@ -121,7 +121,7 @@
    {
      
         "title"    : "ENISA Trainings for Cyber Security Specialists",
-        "url"      : "/program/presentations/enisa-trainings/",
+        "url"      : "/2017/program/presentations/enisa-trainings/",
         "path"     : "/program/presentations/enisa-trainings/"
      
    } ,
@@ -129,7 +129,7 @@
    {
      
         "title"    : "Network Forens<b class="highlight-white">ICS</b> Training",
-        "url"      : "/program/workshops/erik-hjelmvik/",
+        "url"      : "/2017/program/workshops/erik-hjelmvik/",
         "path"     : "/program/workshops/erik-hjelmvik/"
      
    } ,
@@ -141,7 +141,7 @@
    {
      
         "title"    : "Partners",
-        "url"      : "/partners/",
+        "url"      : "/2017/partners/",
         "path"     : "/partners/"
      
    } ,
@@ -149,7 +149,7 @@
    {
      
         "title"    : "Workshops",
-        "url"      : "/program/workshops/",
+        "url"      : "/2017/program/workshops/",
         "path"     : "/program/workshops/"
      
    } ,
@@ -157,7 +157,7 @@
    {
      
         "title"    : "Speakers",
-        "url"      : "/program/speakers/",
+        "url"      : "/2017/program/speakers/",
         "path"     : "/program/speakers/"
      
    } ,
@@ -165,7 +165,7 @@
    {
      
         "title"    : "Presentations",
-        "url"      : "/program/presentations/",
+        "url"      : "/2017/program/presentations/",
         "path"     : "/program/presentations/"
      
    } ,
@@ -173,7 +173,7 @@
    {
      
         "title"    : "Home",
-        "url"      : "/",
+        "url"      : "/2017/",
         "path"     : ""
      
    } ,
@@ -181,7 +181,7 @@
    {
      
         "title"    : "Contact",
-        "url"      : "/contact/",
+        "url"      : "/2017/contact/",
         "path"     : "/contact/"
      
    } ,
@@ -189,7 +189,7 @@
    {
      
         "title"    : "Practical Details",
-        "url"      : "/practical-details/",
+        "url"      : "/2017/practical-details/",
         "path"     : "/practical-details/"
      
    } ,
@@ -197,7 +197,7 @@
    {
      
         "title"    : "Thank You",
-        "url"      : "/thank-you/",
+        "url"      : "/2017/thank-you/",
         "path"     : "/thank-you/"
      
    } ,
@@ -205,7 +205,7 @@
    {
      
         "title"    : "Press",
-        "url"      : "/press/",
+        "url"      : "/2017/press/",
         "path"     : "/press/"
      
    } ,
@@ -213,7 +213,7 @@
    {
      
         "title"    : "ICS Lab",
-        "url"      : "/ics-lab/",
+        "url"      : "/2017/ics-lab/",
         "path"     : "/ics-lab/"
      
    } ,
@@ -221,7 +221,7 @@
    {
      
         "title"    : "History",
-        "url"      : "/about/history/",
+        "url"      : "/2017/about/history/",
         "path"     : "/about/history/"
      
    } ,
@@ -229,7 +229,7 @@
    {
      
         "title"    : "Advisory",
-        "url"      : "/about/advisory/",
+        "url"      : "/2017/about/advisory/",
         "path"     : "/about/advisory/"
      
    } ,
@@ -237,7 +237,7 @@
    {
      
         "title"    : "About",
-        "url"      : "/about/",
+        "url"      : "/2017/about/",
         "path"     : "/about/"
      
    } ,
@@ -245,7 +245,7 @@
    {
      
         "title"    : "Call for Participation",
-        "url"      : "/call-for-proposals/",
+        "url"      : "/2017/call-for-proposals/",
         "path"     : "/call-for-proposals/"
      
    } ,
@@ -253,7 +253,7 @@
    {
      
         "title"    : "News",
-        "url"      : "/news/",
+        "url"      : "/2017/news/",
         "path"     : "/news/"
      
    } ,
@@ -261,7 +261,7 @@
    {
      
         "title"    : "Program",
-        "url"      : "/program/",
+        "url"      : "/2017/program/",
         "path"     : "/program/"
      
    } ,
@@ -269,7 +269,7 @@
    {
      
         "title"    : "Agenda",
-        "url"      : "/agenda/",
+        "url"      : "/2017/agenda/",
         "path"     : "/agenda/"
      
    } ,
@@ -281,7 +281,7 @@
    {
      
         "title"    : "IoT in Europe: what could possibly go wrong and how you can fix it",
-        "url"      : "/program/presentations/iot-in-europe/",
+        "url"      : "/2017/program/presentations/iot-in-europe/",
         "path"     : "/program/presentations/iot-in-europe/"
      
    } ,
@@ -289,7 +289,7 @@
    {
      
         "title"    : "Adventures in Social Engineering - Tales of A People Hacker",
-        "url"      : "/program/presentations/jenny-radcliffe/",
+        "url"      : "/2017/program/presentations/jenny-radcliffe/",
         "path"     : "/program/presentations/jenny-radcliffe/"
      
    } ,
@@ -297,7 +297,7 @@
    {
      
         "title"    : "Security for Safety: Fortifying the last line of defense",
-        "url"      : "/program/presentations/jens-wiesner/",
+        "url"      : "/2017/program/presentations/jens-wiesner/",
         "path"     : "/program/presentations/jens-wiesner/"
      
    } ,
@@ -305,7 +305,7 @@
    {
      
         "title"    : "Pro-Kremlin trolls, fake news and propagandists as opinion influencers - and how to counter them",
-        "url"      : "/program/presentations/jessikka-aro/",
+        "url"      : "/2017/program/presentations/jessikka-aro/",
         "path"     : "/program/presentations/jessikka-aro/"
      
    } ,
@@ -313,7 +313,7 @@
    {
      
         "title"    : "Strategic Network Defense in ICS Environments",
-        "url"      : "/program/presentations/joe-slowik/",
+        "url"      : "/2017/program/presentations/joe-slowik/",
         "path"     : "/program/presentations/joe-slowik/"
      
    } ,
@@ -321,7 +321,7 @@
    {
      
         "title"    : "APT Case Study",
-        "url"      : "/program/presentations/jon-røgeberg-and-martin-eian/",
+        "url"      : "/2017/program/presentations/jon-røgeberg-and-martin-eian/",
         "path"     : "/program/presentations/jon-røgeberg-and-martin-eian/"
      
    } ,
@@ -329,7 +329,7 @@
    {
      
         "title"    : "Pandora´s Box",
-        "url"      : "/program/presentations/lars-erik-smevold/",
+        "url"      : "/2017/program/presentations/lars-erik-smevold/",
         "path"     : "/program/presentations/lars-erik-smevold/"
      
    } ,
@@ -341,7 +341,7 @@
    {
      
         "title"    : "ICS Program Development for Multi-national Corporations",
-        "url"      : "/program/presentations/melissa-crawford/",
+        "url"      : "/2017/program/presentations/melissa-crawford/",
         "path"     : "/program/presentations/melissa-crawford/"
      
    } ,
@@ -349,7 +349,7 @@
    {
      
         "title"    : "Cyber Security for Industrial Automation and Control Systems: An introduction of the IEC 62443 standard",
-        "url"      : "/program/workshops/michael-theuerzeit/",
+        "url"      : "/2017/program/workshops/michael-theuerzeit/",
         "path"     : "/program/workshops/michael-theuerzeit/"
      
    } ,
@@ -357,7 +357,7 @@
    {
      
         "title"    : "Practical SCADA/ICS Honeypots",
-        "url"      : "/program/workshops/mikael-vingaard/",
+        "url"      : "/2017/program/workshops/mikael-vingaard/",
         "path"     : "/program/workshops/mikael-vingaard/"
      
    } ,
@@ -365,7 +365,7 @@
    {
      
         "title"    : "Network and Information Security Directive: the road ahead",
-        "url"      : "/program/presentations/network-and-information/",
+        "url"      : "/2017/program/presentations/network-and-information/",
         "path"     : "/program/presentations/network-and-information/"
      
    } ,
@@ -377,7 +377,7 @@
    {
      
         "title"    : "Cyberattacks Against Critical Infrastructure in Ukraine: Taxonomy, Consequences, Lessons Learned",
-        "url"      : "/program/presentations/oleksii-yasynskyi-and-roman-sologub/",
+        "url"      : "/2017/program/presentations/oleksii-yasynskyi-and-roman-sologub/",
         "path"     : "/program/presentations/oleksii-yasynskyi-and-roman-sologub/"
      
    } ,
@@ -385,7 +385,7 @@
    {
      
         "title"    : "From Box to Backdoor: Using Old School Tools and Techniques to Discover Backdoors in Modern Devices",
-        "url"      : "/program/presentations/patrick-desantis/",
+        "url"      : "/2017/program/presentations/patrick-desantis/",
         "path"     : "/program/presentations/patrick-desantis/"
      
    } ,
@@ -397,7 +397,7 @@
    {
      
         "title"    : "Protecting European transport infrastructures: threat models and security measures",
-        "url"      : "/program/presentations/protecting-european-transports/",
+        "url"      : "/2017/program/presentations/protecting-european-transports/",
         "path"     : "/program/presentations/protecting-european-transports/"
      
    } ,
@@ -405,7 +405,7 @@
    {
      
         "title"    : "Search",
-        "url"      : "/search/",
+        "url"      : "/2017/search/",
         "path"     : "/search/"
      
    } ,
@@ -421,7 +421,7 @@
    {
      
         "title"    : "Threat modelling and security measures for ICS/SCADA",
-        "url"      : "/program/presentations/threat-modelling-and-security/",
+        "url"      : "/2017/program/presentations/threat-modelling-and-security/",
         "path"     : "/program/presentations/threat-modelling-and-security/"
      
    } ,
@@ -439,7 +439,7 @@
    {
      
         "title"    : "Jenny Radcliffe",
-        "url"      : "/",
+        "url"      : "/2017/",
         "path"     : ""
      
    } ,
@@ -447,7 +447,7 @@
    {
      
         "title"    : "Joe Slowik",
-        "url"      : "/program/presentations/joe-slowik/",
+        "url"      : "/2017/program/presentations/joe-slowik/",
         "path"     : "program/presentations/joe-slowik/"
      
    } ,
@@ -455,7 +455,7 @@
    {
      
         "title"    : "Adam Crain",
-        "url"      : "/program/presentations/adam-crain/",
+        "url"      : "/2017/program/presentations/adam-crain/",
         "path"     : "program/presentations/adam-crain/"
      
    } ,
@@ -463,7 +463,7 @@
    {
      
         "title"    : "Mikael Vingaard",
-        "url"      : "/program/workshops/mikael-vingaard/",
+        "url"      : "/2017/program/workshops/mikael-vingaard/",
         "path"     : "program/workshops/mikael-vingaard/"
      
    } ,
@@ -471,7 +471,7 @@
    {
      
         "title"    : "Lars Erik Smevold",
-        "url"      : "/program/presentations/lars-erik-smevold/",
+        "url"      : "/2017/program/presentations/lars-erik-smevold/",
         "path"     : "program/presentations/lars-erik-smevold/"
      
    } ,
@@ -479,7 +479,7 @@
    {
      
         "title"    : "Erik Hjelmvik",
-        "url"      : "/program/workshops/erik-hjelmvik/",
+        "url"      : "/2017/program/workshops/erik-hjelmvik/",
         "path"     : "program/workshops/erik-hjelmvik/"
      
    } ,
@@ -487,7 +487,7 @@
    {
      
         "title"    : "Jon Røgeberg",
-        "url"      : "/program/presentations/jon-røgeberg-and-martin-eian/",
+        "url"      : "/2017/program/presentations/jon-røgeberg-and-martin-eian/",
         "path"     : "program/presentations/jon-røgeberg-and-martin-eian/"
      
    } ,
@@ -495,7 +495,7 @@
    {
      
         "title"    : "Martin Eian",
-        "url"      : "/program/presentations/jon-røgeberg-and-martin-eian/",
+        "url"      : "/2017/program/presentations/jon-røgeberg-and-martin-eian/",
         "path"     : "program/presentations/jon-røgeberg-and-martin-eian/"
      
    } ,
@@ -503,7 +503,7 @@
    {
      
         "title"    : "Melissa Crawford",
-        "url"      : "/program/presentations/melissa-crawford/",
+        "url"      : "/2017/program/presentations/melissa-crawford/",
         "path"     : "program/presentations/melissa-crawford/"
      
    } ,
@@ -511,7 +511,7 @@
    {
      
         "title"    : "Dieter Sarrazyn",
-        "url"      : "/program/presentations/dieter-sarrazyn/",
+        "url"      : "/2017/program/presentations/dieter-sarrazyn/",
         "path"     : "program/presentations/dieter-sarrazyn/"
      
    } ,
@@ -519,7 +519,7 @@
    {
      
         "title"    : "Akriti Srivastava",
-        "url"      : "/program/presentations/akriti-srivastava/",
+        "url"      : "/2017/program/presentations/akriti-srivastava/",
         "path"     : "program/presentations/akriti-srivastava/"
      
    } ,
@@ -527,7 +527,7 @@
    {
      
         "title"    : "Oleksii Yasynskyi",
-        "url"      : "/program/presentations/oleksii-yasynskyi-and-roman-sologub/",
+        "url"      : "/2017/program/presentations/oleksii-yasynskyi-and-roman-sologub/",
         "path"     : "program/presentations/oleksii-yasynskyi-and-roman-sologub/"
      
    } ,
@@ -535,7 +535,7 @@
    {
      
         "title"    : "Roman Sologub",
-        "url"      : "/program/presentations/oleksii-yasynskyi-and-roman-sologub/",
+        "url"      : "/2017/program/presentations/oleksii-yasynskyi-and-roman-sologub/",
         "path"     : "program/presentations/oleksii-yasynskyi-and-roman-sologub/"
      
    } ,
@@ -543,7 +543,7 @@
    {
      
         "title"    : "Patrick DeSantis",
-        "url"      : "/program/presentations/patrick-desantis/",
+        "url"      : "/2017/program/presentations/patrick-desantis/",
         "path"     : "program/presentations/patrick-desantis/"
      
    } ,
@@ -551,7 +551,7 @@
    {
      
         "title"    : "Anton Cherepanov",
-        "url"      : "/program/presentations/anton-cherepanov-and-robert-lipovsky/",
+        "url"      : "/2017/program/presentations/anton-cherepanov-and-robert-lipovsky/",
         "path"     : "program/presentations/anton-cherepanov-and-robert-lipovsky/"
      
    } ,
@@ -559,7 +559,7 @@
    {
      
         "title"    : "Robert Lipovský",
-        "url"      : "/program/presentations/anton-cherepanov-and-robert-lipovsky/",
+        "url"      : "/2017/program/presentations/anton-cherepanov-and-robert-lipovsky/",
         "path"     : "program/presentations/anton-cherepanov-and-robert-lipovsky/"
      
    } ,
@@ -567,7 +567,7 @@
    {
      
         "title"    : "Ali Abbasi",
-        "url"      : "/program/presentations/ali-abbasi/",
+        "url"      : "/2017/program/presentations/ali-abbasi/",
         "path"     : "program/presentations/ali-abbasi/"
      
    } ,
@@ -575,7 +575,7 @@
    {
      
         "title"    : "Michael Theuerzeit",
-        "url"      : "/program/workshops/michael-theuerzeit/",
+        "url"      : "/2017/program/workshops/michael-theuerzeit/",
         "path"     : "program/workshops/michael-theuerzeit/"
      
    } ,
@@ -583,7 +583,7 @@
    {
      
         "title"    : "Jens Wiesner",
-        "url"      : "/program/presentations/jens-wiesner/",
+        "url"      : "/2017/program/presentations/jens-wiesner/",
         "path"     : "program/presentations/jens-wiesner/"
      
    } ,
@@ -591,7 +591,7 @@
    {
      
         "title"    : "Dan Demeter",
-        "url"      : "/program/presentations/dan-demeter/",
+        "url"      : "/2017/program/presentations/dan-demeter/",
         "path"     : "program/presentations/dan-demeter/"
      
    } ,
@@ -599,7 +599,7 @@
    {
      
         "title"    : "Jessikka Aro",
-        "url"      : "/program/presentations/jessikka-aro/",
+        "url"      : "/2017/program/presentations/jessikka-aro/",
         "path"     : "program/presentations/jessikka-aro/"
      
    } ,
@@ -607,7 +607,7 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/",
+        "url"      : "/2017/",
         "path"     : ""
      
    } ,
@@ -615,7 +615,7 @@
    {
      
         "title"    : "Rossella Mattioli",
-        "url"      : "/program/presentations/rossella-mattioli/",
+        "url"      : "/2017/program/presentations/rossella-mattioli/",
         "path"     : "program/presentations/rossella-mattioli/"
      
    } ,
@@ -623,7 +623,7 @@
    {
      
         "title"    : "Paraskevi Kasse",
-        "url"      : "/program/presentations/paraskevi-kasse/",
+        "url"      : "/2017/program/presentations/paraskevi-kasse/",
         "path"     : "program/presentations/paraskevi-kasse/"
      
    } 
