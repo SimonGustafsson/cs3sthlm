@@ -148,6 +148,14 @@
   
    {
      
+        "title"    : "Workshops",
+        "url"      : "/program/workshops/",
+        "path"     : "/program/workshops/"
+     
+   } ,
+  
+   {
+     
         "title"    : "Speakers",
         "url"      : "/program/speakers/",
         "path"     : "/program/speakers/"
@@ -164,9 +172,9 @@
   
    {
      
-        "title"    : "Workshops",
-        "url"      : "/program/workshops/",
-        "path"     : "/program/workshops/"
+        "title"    : "Home",
+        "url"      : "/",
+        "path"     : ""
      
    } ,
   
@@ -260,9 +268,9 @@
   
    {
      
-        "title"    : "Home",
-        "url"      : "/",
-        "path"     : ""
+        "title"    : "Agenda",
+        "url"      : "/agenda/",
+        "path"     : "/agenda/"
      
    } ,
   

@@ -170,6 +170,22 @@ h1, h2, h3, h4 {
       background-image: none; } }
 
 /**
+  Archive */
+.archive-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  background: #ef7d00;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  color: white;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5); }
+  .archive-header h1 {
+    display: block;
+    margin-right: 40px; }
+
+/**
   NOTICE */
 .notice-bar {
   display: block;
