@@ -174,16 +174,33 @@ h1, h2, h3, h4 {
 .archive-header {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
   width: 100%;
   height: auto;
   background: #ef7d00;
   padding: 12px 20px;
   box-sizing: border-box;
   color: white;
-  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5); }
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.25); }
   .archive-header h1 {
     display: block;
-    margin-right: 40px; }
+    width: 50%; }
+  .archive-header a {
+    display: block;
+    width: 50%;
+    text-align: right;
+    color: white;
+    transition: 0.24s all ease-in-out;
+    -moz-transition: 0.24s all ease-in-out;
+    -webkit-transtiion: 0.24s all ease-in-out;
+    -o-transition: 0.24s all ease-in-out; }
+    .archive-header a:hover {
+      color: #030100; }
+  .archive-header p {
+    display: block;
+    width: 100%; }
 
 /**
   NOTICE */
