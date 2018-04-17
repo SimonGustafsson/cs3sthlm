@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CS3STHLM</title>
+    <description>CS3STHLM - Stockholm international summit on cyber-security in SCADA and Industrial Control Systems. CS3STHLM is an annual summit that gather the most important ICS/SCADA cyber security stakeholders across critical industries (i.e. energy, oil &amp; gas, water, transportation and smartgrid etc)</description>
+    <link>/2017/</link>
+    <atom:link href="/2017/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 17 Apr 2018 14:00:28 +0200</pubDate>
+    <lastBuildDate>Tue, 17 Apr 2018 14:00:28 +0200</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>CS3STHLM Newsletter December</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/2017/assets/cs3-holiday.png&quot; alt=&quot;CS3STHLM Holiday&quot; class=&quot;full-width-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2017 was indeed a remarkable year, and some of the cyber security related things that happened will surely be remembered. Among them was the Wannacry malware hospitals, industrial companies and other important infrastructure. Things that also hit the front pages were outbreak that blindly struck against the analysis of Industroyer/CRASHOVERRIDE (ICS malware attacking Ukraine grid operator) and recently the TRITON/TRISIS/Hatman (attack tool against safety system). In Sweden, IT security incidents led to the resignation of two ministers from the government, and a journalists use of Shodan led to that one of Swedens largest news room had a series of reports on what is Internet accessible, when they found heating/hydropower/windpower/elevators and more, sitting on the Internet for anyone to access.&lt;/p&gt;
+
+&lt;p&gt;The CS3STHLM 2017 summit (previously known as 4SICS) had several presentations related to all these issues. As a holiday gift for you, we have now published a number of presentations on our YouTube channel: &lt;a href=&quot;https://www.youtube.com/channel/UCkD15o_9eJxUc9eeHtWSQ6Q&quot;&gt;CS3STHLM at YouTube&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Next year we will be back for the fifth time and the dates are October 22nd-25th. We are already on the lookout for summit content, so do let us know what you think we should present in order to make next years workshops and conference as useful and rewarding as possible.&lt;/p&gt;
+
+&lt;p&gt;Another holiday gift is that we already have opened the ticket sale for 2018 with a special Earliest Bird discount of 30 % on the two-day conference ticket. Link: &lt;a href=&quot;https://www.cs3sthlm.se/&quot;&gt;www.cs3sthlm.se&lt;/a&gt; and the discounted ticket is available until January 12th.&lt;/p&gt;
+
+&lt;p&gt;A very happy holiday season - from all of us, to all of you! 
+The CS3STHLM crew&lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 Dec 2017 05:00:00 +0100</pubDate>
+        <link>/2017/news/2017/12/20/cs3sthlm-newsletter-december.html</link>
+        <guid isPermaLink="true">/2017/news/2017/12/20/cs3sthlm-newsletter-december.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>CS3STHLM Presents ICS- and IoT Lab together with Norwegian Energy CERT</title>
+        <description>&lt;p&gt;In the light of growing vulnerabilities, this year’s top summit on Cyber Security in Industrial Control Systems and Critical Infrastructure will give delegates possibilities to partake in real-time simulations and challenges in an updated and bigger ICS lab. The lab is hosted by ROMAB, Norwegian Energy CERT and equipment provided by the Norwegian National Security Authority, NSM. The summit takes place in Stockholm October 24-26.&lt;/p&gt;
+
+&lt;p&gt;This year the lab is declared to be bigger, better and more interesting than ever before with added ICS and ICS communication equipment to the lab. New equipment has resulted in a simulation of communication in industrial control systems with some ICS specific protocols including OPC communication being in progress. It is also extended with a part that is for IoT security. The Internet of things, (IoT), is the network of physical devices, vehicles, and other items embedded with electronics, software, sensors, actuators, and network connectivity which enable these objects to collect and exchange data.&lt;/p&gt;
+
+&lt;p&gt;Margrete Raaum from Norwegian Energy CERT:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;-”Nothing gives as valuable cyber security learning as real hands-on work. Teaming up with ROMAB to create a dynamic and realistic learning environment is exciting, and we hope this will benefit ICS security engineers all over Scandinavia and beyond”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This year there is a much larger team involved in setting up, running the lab, or have special tasks involving the lab during the conference. The team members include Lars-Erik Smevold of KraftCERT (NO) who will be in charge of the lab, Nicklas Keijser (SE), who is an expert on SCADA/ICS development, Robert Malmgren (SE) of ROMAB, Erik Hjelmvik (SE) of NETRESEC and Mikael Vingaard (DK).&lt;/p&gt;
+
+&lt;p&gt;Robert Malmgren, founder of CS3STHLM and owner of ROMAB elaborates:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;-”We are honored to have the Norwegian energy sector CERT KraftCERT, as cooperators to ROMAB in setting up this year hosting the ICS and IoT security lab! This is a truly great partnership over the border with our Scandinavian friends in an effort to build competence and relationships for all that strive to secure the society and its critical infrastructure by starting with its fundamentals - the very systems that run our basic functions, like the electrical grid. Thank you to the Norwegian National Security Authority (NSM)  to lending out equipment to the lab”&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Wed, 04 Oct 2017 06:00:00 +0200</pubDate>
+        <link>/2017/press/2017/10/04/cs3sthlm-presents-ics-and-iot-lab-together-with-norwegian-energy-cert.html</link>
+        <guid isPermaLink="true">/2017/press/2017/10/04/cs3sthlm-presents-ics-and-iot-lab-together-with-norwegian-energy-cert.html</guid>
+        
+        
+        <category>press</category>
+        
+      </item>
+    
+      <item>
+        <title>Advenica announces new collaboration with CS3STHLM</title>
+        <description>&lt;p&gt;The 4th edition of the top international summit on SCADA/ICS and critical infrastructure includes a seminar called ’Effective threat mitigation strategies’ hosted by Advenica. The company is providing new ways in cyber security, protecting critical infrastructures with innovative solutions.&lt;/p&gt;
+
+&lt;p&gt;One of the founders of CS3STHLM, Robert Malmgren, expresses excitement over the collaboration;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;” This fits perfectly with our profile and we are looking forward to learn about Advenica’s new security solutions.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Advenica elaborates&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;”Last years have presented an increasing number of bumps in the road for cyber security defenders. The vast number of different attack vectors and the explosion in number of malware variants has made yesterday’s cyber defense strategies obsolete. The goal of cyber security is to ensure robust operation of the defended system – not to find as many pieces of malware as possible. Yesterday’s strategy is efficient at finding malware – but fail in ensuring robust operation”.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;CS3STHLM is an international summit that focus entirely on cyber security protection of SCADA/ICS and critical infrastructure. CS3STHLM attracts about 250-300 people from around the world to meet, network and gain knowledge. CS3STHLM takes place October 23-26 at the venue Nalen in central Stockholm.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 14 Sep 2017 06:00:00 +0200</pubDate>
+        <link>/2017/press/2017/09/14/advenica-announces-new-collaboration-with-cs3sthlm.html</link>
+        <guid isPermaLink="true">/2017/press/2017/09/14/advenica-announces-new-collaboration-with-cs3sthlm.html</guid>
+        
+        
+        <category>press</category>
+        
+      </item>
+    
+      <item>
+        <title>CS3STHLM Newsletter September</title>
+        <description>&lt;p&gt;The CS3STHLM summit is just a bit over a month away. Today we have speakers from many corners of the earth, and we have already attendees from most continents!  &lt;/p&gt;
+
+&lt;p&gt;We will be at the beutiful venue Nalen in central Stockholm again.  &lt;/p&gt;
+
+&lt;h4 id=&quot;speakers-and-presentations&quot;&gt;Speakers and presentations &lt;/h4&gt;
+&lt;p&gt;We will have presentations on various topics, including:  &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;how security impact safety&lt;/li&gt;
+  &lt;li&gt;how to sucessfully roll out cyber security policies at multinational corporations  &lt;/li&gt;
+  &lt;li&gt;Security (or the lack thereof) in IoT  &lt;/li&gt;
+  &lt;li&gt;First hand accounts of the ongoing Ukraine cyber attacks  &lt;/li&gt;
+  &lt;li&gt;New, secure, protocols for SCADA/ICS  &lt;/li&gt;
+  &lt;li&gt;Lessons learned from handling an enourmous APT at a critical infrastructure provider&lt;/li&gt;
+  &lt;li&gt;Learn about tricks and defense in Social Engineering  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As always we will have a mix of attack and defence stances, between technology and policy level, between theory and real-dirt-under-your-nails practise. We will continue the tradition from 4SICS to use multiple stages, and presentations will be done in different formats – a main stage, a TV studio setup for more intimate atmosphere and dialogues, and an impromptu stage in GeekLounge for improvised presentations (lightning talks, work in progress presentations, etc).  &lt;/p&gt;
+
+&lt;p&gt;View speaker info here - &lt;a href=&quot;https://cs3sthlm.se/program/speakers/&quot;&gt;/speakers&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;View info on presentations here - &lt;a href=&quot;https://cs3sthlm.se/program/presentations/&quot;&gt;/presentations&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;workshops&quot;&gt;Workshops &lt;/h4&gt;
+
+&lt;p&gt;We are fortunate to have three excellent pre-conference trainings/tutorials:  &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cs3sthlm.se/program/workshops/erik-hjelmvik/&quot;&gt;Network Forensics (2 day) &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cs3sthlm.se/program/workshops/mikael-vingaard/&quot;&gt;Practical SCADA/ICS Honeypots (1 day) &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cs3sthlm.se/program/workshops/michael-theuerzeit/&quot;&gt;Cyber Security for Industrial Automation and Control Systems: An introduction of the IEC 62443 
+standard (1 day) &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Tickets for all different workshops are available now. Please remember that one workshop is 2 day and the others are 1 day. If you select the 2 day workshop, make sure that you arrive and can start monday morning!  &lt;/p&gt;
+
+&lt;h4 id=&quot;security-lab-ics-and-iot&quot;&gt;Security lab: ICS and IoT &lt;/h4&gt;
+
+&lt;p&gt;This year we will have a larger and more professional ICS security lab in place. Besides the number of equipment available, we will also help interested attendees to better play with it at their level of knowledge. Beginners will find help to do basic probeing and pokeing at exotic devices. Intermediates will be able to do more advanced experiments with bugs. Experts will be able to participate in winning prices if they submit newly found vulnerabilities to the CERT representatives at the conference.&lt;/p&gt;
+
+&lt;p&gt;This year we will also introduce an IoT security lab where people can play around with SOHO equipment, lightbulbs with IP addresses, embedded devices, etc.  &lt;/p&gt;
+
+&lt;h4 id=&quot;practical-things&quot;&gt;Practical things &lt;/h4&gt;
+
+&lt;p&gt;We still have rooms left in the block with discounts that we negotiated with the hotel closest to the venue. We want to inform you that rooms are going quickly and the cut-of-date for when the discount is no longer available is less than two weeks away. Dont miss out on having this!  &lt;/p&gt;
+
+&lt;p&gt;Info on venue, dates, airports, subways, hotels, etc can be found at the info web here:  &lt;a href=&quot;https://cs3sthlm.se/practical-details/&quot;&gt;/practical-details&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;historic-presentations&quot;&gt;Historic presentations &lt;/h4&gt;
+
+&lt;p&gt;To get a taste of what the summit is, you can find old presentations from 2015 and 2016 on &lt;a href=&quot;https://www.youtube.com/channel/UCkD15o_9eJxUc9eeHtWSQ6Q&quot;&gt;youtube/cs3sthlm&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 13 Sep 2017 06:00:00 +0200</pubDate>
+        <link>/2017/news/2017/09/13/cs3sthlm-newsletter-september.html</link>
+        <guid isPermaLink="true">/2017/news/2017/09/13/cs3sthlm-newsletter-september.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>CS3STHLM Newsletter June</title>
+        <description>&lt;p&gt;Outline of this short newsletter&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;CFP work&lt;/li&gt;
+  &lt;li&gt;Announced speakers&lt;/li&gt;
+  &lt;li&gt;Technical Trainings&lt;/li&gt;
+  &lt;li&gt;Social events&lt;/li&gt;
+  &lt;li&gt;Early Bird tickets&lt;/li&gt;
+  &lt;li&gt;Venue&lt;/li&gt;
+  &lt;li&gt;Conference Hotel&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We want to share some info about the recent development.&lt;/p&gt;
+
+&lt;p&gt;We will carry on the tradition from when we where called 4SICS - to be a leading international conference on SCADA, ICS and critical infrastructure cyber security! We will have multiple stages with the best international speakers and trainers, having excellent social activities and provide hard-to-earn knowledge, no matter if it is deeply technical matters, sucessful solutions or policy briefs.&lt;/p&gt;
+
+&lt;p&gt;In the program comittee, we are working with the submissions that we have received as the CFP closed. We have alot more submissions than available speaker slots! And still not all slots are for submitted proposals, but we have reserved some slots for invited speakers as well. Thus it is really hard to make the selection this year.&lt;/p&gt;
+
+&lt;h3 id=&quot;announced-speakers&quot;&gt;Announced speakers&lt;/h3&gt;
+
+&lt;p&gt;We have announced a couple of speakers already, especially since they are related to investigations into the recently unveiled industroyer/CRASHOVERRIDE malware:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Joe Slowik of Dragos Inc (US), who will speak on “Strategic Network Defense in ICS Environments”&lt;/li&gt;
+  &lt;li&gt;The ESET team (SK) who have a presentation on “Industroyer: biggest threat to industrial control systems since Stuxnet”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We will have a special panel on the Ukraine 2016 event with detailed discussion, where both the ESET and Dragos specialists will attend. We plan to add more experts to this discussion.&lt;/p&gt;
+
+&lt;p&gt;More speakers will be announced in the weeks to come, including keynote speakers!&lt;/p&gt;
+
+&lt;h3 id=&quot;technical-trainings&quot;&gt;Technical trainings&lt;/h3&gt;
+
+&lt;p&gt;We will have a number of technical trainings related to network forenics, honeypots, hacking, etc.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Erik Hjelmvik of Netresec (SE) will have a 2 day Network Forensic class&lt;/li&gt;
+  &lt;li&gt;Mikael Vingaard (DK) will have a 1 day Honeypot class&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thus, with the addition of 2 day training classes, the pre-conference activity will start already on the 23rd of october!&lt;/p&gt;
+
+&lt;h4 id=&quot;social-events&quot;&gt;Social Events&lt;/h4&gt;
+
+&lt;p&gt;We will have a welcome reception on the evening of the 24th and a conference dinner on the 25th.&lt;/p&gt;
+
+&lt;h3 id=&quot;early-bird&quot;&gt;Early Bird&lt;/h3&gt;
+
+&lt;p&gt;A reminder - the early bird prices are until 30 of June! You will find the ticket site here: &lt;a href=&quot;&quot;&gt;https://tickets.4sics.se/sales/&lt;/a&gt; or from the main CS3STHLM web page.&lt;/p&gt;
+
+&lt;h3 id=&quot;venue&quot;&gt;Venue&lt;/h3&gt;
+
+&lt;p&gt;As per the last 2 years, we will be in wonderful Nalen, in the heart of Stockholm. You will find information and directions at &lt;a href=&quot;https://cs3sthlm.se/practical-details/&quot;&gt;/practical-details&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;conference-hotel&quot;&gt;Conference hotel&lt;/h3&gt;
+
+&lt;p&gt;We have a special arrangement with Elite Palace Hotel located just ~200 meters away from the venue. Use this link to get our special discount when booking &lt;a href=&quot;https://www.elite.se/en/conference-reservations/stockholm/e1a64817-7910-4517-bff8-d94ea2e28ed5/&quot;&gt;Elite Conference Reservation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;–
+Until the next news letter,&lt;/p&gt;
+
+&lt;p&gt;Best wishes from the whole CS3STHLM team&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/2017/assets/news/cyber.jpg&quot; alt=&quot;Cyber&quot; class=&quot;full-width-image&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 13 Jun 2017 06:00:00 +0200</pubDate>
+        <link>/2017/news/2017/06/13/cs3sthlm-newsletter-june.html</link>
+        <guid isPermaLink="true">/2017/news/2017/06/13/cs3sthlm-newsletter-june.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>Malware that can knock out power grids discovered</title>
+        <description>&lt;p&gt;Researchers from Slovakian Anti Virus company ESET have publicized information on malware especially targeted for automation in power grids. The malware is tied to an attack in Ukraine 2016. ESET have worked alongside researchers from another company, Dragos, to analyze the code. Investigators from ESET and Dragos will come to Cyber Security Summit CS3STHLM in Stockholm in October to present and discuss their findings.&lt;/p&gt;
+
+&lt;p&gt;Robert Lipovski, one of the researchers at ESET, states in Washington Post:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“The potential impact of malware like this is huge. It’s not restricted to Ukraine. The industrial hardware that the malware communicates with is used in critical infrastructure worldwide.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This malware is called the most dangerous code since Stuxnet, malware discovered in 2010 aimed specifically towards Iran’s nuclear program.&lt;/p&gt;
+
+&lt;p&gt;Robert Malmgren, owner and co-founder of CS3STHLM:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;” The fact that this malware can be used and re-used in critical infrastructure everywhere makes it an enormous threat to non protected Industrial Control Systems.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;CS3STHLM takes place at Nalen in Stockholm October 24-26.&lt;/p&gt;
+
+&lt;p&gt;www.cs3sthlm.se&lt;/p&gt;
+
+&lt;p&gt;For more information regarding the malware, please contact&lt;/p&gt;
+
+&lt;p&gt;Robert Malmgren&lt;/p&gt;
+
+&lt;p&gt;Phone: +46 708 33 03 78&lt;/p&gt;
+</description>
+        <pubDate>Tue, 13 Jun 2017 06:00:00 +0200</pubDate>
+        <link>/2017/press/2017/06/13/malware-that-can-knock-out-power.html</link>
+        <guid isPermaLink="true">/2017/press/2017/06/13/malware-that-can-knock-out-power.html</guid>
+        
+        
+        <category>press</category>
+        
+      </item>
+    
+      <item>
+        <title>CFP - DON'T MISS OUR DEADLINE</title>
+        <description>&lt;p&gt;To show how seriously we take all parts of the CS3STHLM summit we have sent one team member to Carrara, Italy, in order to actually carve the prize for Best Presenter in white marble. If it turns out nicely you will be able to see, and maybe accept, the piece at CS3STHLM summit in October. If it fails you won’t.&lt;/p&gt;
+
+&lt;h3 id=&quot;we-want-your-submission-for-presentation-or-workshop-by-may-31&quot;&gt;WE WANT YOUR SUBMISSION FOR PRESENTATION OR WORKSHOP BY MAY 31&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;mailto:cfp@cs3sthlm.se&quot;&gt;cfp@cs3sthlm.se&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/2017/assets/news/marble-one.jpg&quot; alt=&quot;Marble One&quot; /&gt; &lt;img src=&quot;/2017/assets/news/marble-two.jpg&quot; alt=&quot;Marble Two&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 08 May 2017 06:00:00 +0200</pubDate>
+        <link>/2017/news/2017/05/08/cfp-dont-miss-our-deadline.html</link>
+        <guid isPermaLink="true">/2017/news/2017/05/08/cfp-dont-miss-our-deadline.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>Cyber Security Summit 4SICS Relaunches as CS3STHLM</title>
+        <description>&lt;p&gt;Due to a conflict of interest regarding the name SICS between the summit 4SICS and Swedish Institute of Computer Science, Omnisiens announces the fourth summit to be arranged under the new name CS3 STHLM. Three CS stand for Cyber Security, Control Systems and Critical Structures, and STHLM is an official acronym for Stockholm. CS3 STHLM takes place in Stockholm this October 24-26.&lt;/p&gt;
+
+&lt;p&gt;Top level cyber security experts from all over the world will gather again in the old concert venue Nalen in Stockholm for the internationally acclaimed summit. Owners of arranging company Omnisiens, Swedish cyber security experts Erik Johansson and Robert Malmgren, state:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;-”We changed the name because we had to, but we are convinced our target group will find us, and that it won’t be such a big deal. Ticket sales are up and running, and we look forward to presenting yet another exciting mix of speakers and topics.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Interest for the summit is expected to escalate while awareness of hacker attacks and vulnerabilities in IoT (Internet of Things), rises.&lt;/p&gt;
+
+&lt;p&gt;Tickets are on sale with an early bird price until June 30.&lt;/p&gt;
+
+&lt;h3 id=&quot;facts-cs3sthlm&quot;&gt;FACTS CS3STHLM&lt;/h3&gt;
+
+&lt;p&gt;CS3STHLM is hosted by Omnisiens, owned by Swedish Cyber Security Experts Robert Malmgren; voted number one IT security specialist in Sweden in trade magazine Computer Sweden and Erik Johansson, PhD; Security Researcher, Advisor, and Contractor working at the intersection of Information Technology (IT) and Operational Technology (OT)&lt;/p&gt;
+
+&lt;p&gt;Key note speakers previous years:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;2014 Stefan Lüders, Head of Computer Security at CERN&lt;/li&gt;
+  &lt;li&gt;2015 Kim Zetter, editor at Wired Magazine and author of the book Countdown to Zero Day&lt;/li&gt;
+  &lt;li&gt;2016 Robert M Lee, SCADA expert who was one of the investigators of the attack on Ukraine&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Selected topics from previous years, among ca 12-20 per year:
+In depth analysis of the attacks against Ukraine with Robert M Lee from Dragos and Anton Cherepanov together with Robert Lipovsky from anti virus company ESET who presented a thorough walk through of what is known about the virus ”Black Energy”, which was used against power companies in Ukraine.&lt;/p&gt;
+
+&lt;p&gt;Internet of Things; John Matherly, creator of Shodan, called the world’s most dangerous search engine leads a discussion of escalation of IoT with a number of the world’s leading experts on the subject.&lt;/p&gt;
+
+&lt;p&gt;Hackable pacemakers discussed by scientists Marie Moe and Eireann Leverett, they present weaknesses and possible threats against Moe’s own pacemaker. A kind of threat that led Dick Cheney, previous Vice President of The US, to discountct his pacemaker from the Internet to avoid being targeted by hackers.&lt;/p&gt;
+
+&lt;p&gt;The summit’s moderator is since the start Anne Marie Eklund Löwinder, AMEL, Head of Security at IIS, The Internet Foundation in Sweden, and one of seven crypto officers in the world with a key to the Internet root zone.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 21 Apr 2017 06:00:00 +0200</pubDate>
+        <link>/2017/press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html</link>
+        <guid isPermaLink="true">/2017/press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html</guid>
+        
+        
+        <category>press</category>
+        
+      </item>
+    
+  </channel>
+</rss>
