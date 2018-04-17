@@ -92,6 +92,14 @@
   
    {
      
+        "title"    : "Archive",
+        "url"      : "/about/archive/",
+        "path"     : "/about/archive/"
+     
+   } ,
+  
+   {
+     
         "title"    : "History",
         "url"      : "/about/history/",
         "path"     : "/about/history/"
