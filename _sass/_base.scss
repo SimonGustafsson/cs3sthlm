@@ -67,20 +67,36 @@ h1, h2, h3, h4 {
 .archive-header {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
   width: 100%;
   height: auto;
   background: $yellow;
   padding: 12px 20px;
   box-sizing: border-box;
   color: $white;
-  text-shadow: 0 1px 4px rgba(0, 0, 0, .5);
+  text-shadow: 0 1px 4px rgba(0, 0, 0, .25);
 
   h1 {
     display: block;
-    margin-right: 40px;
+    width: 50%;
+  }
+  a {
+    display: block;
+    width: 50%;
+    text-align: right;
+    color: $white;
+
+    @include transition-ease;
+
+    &:hover {
+      color: $dark;
+    }
   }
   p {
-
+    display: block;
+    width: 100%;
   }
 }
 
