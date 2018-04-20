@@ -72,6 +72,14 @@
   
    {
      
+        "title"    : "Operator Jail breakout",
+        "url"      : "/program/presentations/dieter-frank/",
+        "path"     : "/program/presentations/dieter-frank/"
+     
+   } ,
+  
+   {
+     
         "title"    : "Network ForensICS Training",
         "url"      : "/program/workshops/erik-hjelmvik/",
         "path"     : "/program/workshops/erik-hjelmvik/"
@@ -79,14 +87,6 @@
    } ,
   
    {
-     
-   } ,
-  
-   {
-     
-        "title"    : "Contact",
-        "url"      : "/contact/",
-        "path"     : "/contact/"
      
    } ,
   
@@ -148,22 +148,6 @@
   
    {
      
-        "title"    : "Press",
-        "url"      : "/press/",
-        "path"     : "/press/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "ICS Lab",
-        "url"      : "/ics-lab/",
-        "path"     : "/ics-lab/"
-     
-   } ,
-  
-   {
-     
         "title"    : "Speakers",
         "url"      : "/program/speakers/",
         "path"     : "/program/speakers/"
@@ -180,6 +164,22 @@
   
    {
      
+        "title"    : "Home",
+        "url"      : "/",
+        "path"     : ""
+     
+   } ,
+  
+   {
+     
+        "title"    : "Contact",
+        "url"      : "/contact/",
+        "path"     : "/contact/"
+     
+   } ,
+  
+   {
+     
         "title"    : "Practical Details",
         "url"      : "/practical-details/",
         "path"     : "/practical-details/"
@@ -188,9 +188,17 @@
   
    {
      
-        "title"    : "Home",
-        "url"      : "/",
-        "path"     : ""
+        "title"    : "Press",
+        "url"      : "/press/",
+        "path"     : "/press/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "ICS Lab",
+        "url"      : "/ics-lab/",
+        "path"     : "/ics-lab/"
      
    } ,
   
@@ -260,6 +268,14 @@
   
    {
      
+        "title"    : "Securing the ICS lab network",
+        "url"      : "/program/presentations/william-middleton/",
+        "path"     : "/program/presentations/william-middleton/"
+     
+   } ,
+  
+   {
+     
    } ,
   
    {
@@ -297,6 +313,30 @@
         "title"    : "Patrick Miller",
         "url"      : "/program/presentations/patrick-miller/",
         "path"     : "program/presentations/patrick-miller/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "William Middleton",
+        "url"      : "/program/presentations/william-middleton/",
+        "path"     : "program/presentations/william-middleton/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Dieter Sarrazyn",
+        "url"      : "/program/presentations/dieter-frank/",
+        "path"     : "program/presentations/dieter-frank/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Frank Lycops",
+        "url"      : "/program/presentations/dieter-frank/",
+        "path"     : "program/presentations/dieter-frank/"
      
    } 
   
