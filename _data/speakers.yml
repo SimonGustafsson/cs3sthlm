@@ -170,6 +170,53 @@
   title: Pentesting Industrial Control Systems
   description: |
 
+- id: 6
+  type: presentation
+  permalink: program/presentations/william-middleton/
+  name: William Middleton
+  role: Senior Engineer
+  work: Siemens PD Solutions
+  country: Norway
+  shortcode: "NO"
+  image: william-middleton.png
+  bio: William works with Siemens PD Solutions in western Norway providing networking and security advice and configuration for ICS projects and LM customers.  He has an MLS degree in Computer Networking and Telecommunications, and holds professional-level certifications from Cisco Systems.  William has more than 25 years of experience in IT and has worked for Motorola, Adobe Systems, and Telenor in Norway before starting with Siemens in 2013.  He enjoys fishing, hiking and Bikram yoga.
+  date:
+  time:
+  place:
+  title: Securing the ICS lab network
+  description: |
+
+- id: 7
+  type: presentation
+  permalink: program/presentations/dieter-frank/
+  name: Dieter Sarrazyn
+  role: Security Expert
+  work: Freelance
+  country: Begium
+  shortcode: BE
+  image: dieter-sarrazyn.png
+  bio: Dieter is a freelance OT security expert who working extensively on industrial control system security including more than 10 years in a large electricity generation company. He performs SCADA security assessments, provides assistance in securing SCADA environments and helps customers to manage their suppliers’ security through doing security requirements management and security FAT and SAT tests. These activities are always part of a larger program, aimed at reducing business risks.
+  date:
+  time:
+  place:
+  title: Operator Jail breakout
+  description: |
+
+- id: 8
+  type: presentation
+  permalink: program/presentations/dieter-frank/
+  name: Frank Lycops
+  role: Security Consultant & Researcher
+  work: Freelance
+  country:
+  shortcode:
+  image: frank-lycops.png
+  bio: Frank a freelance security consultant and researcher.  He has 8 years of experience in both the IT and OT environments.  During his work, he performed numerous penetration tests on OT environments, helped improving the overall security of various environments and discovered several vulnerabilities in widely sold devices.
+  date:
+  time:
+  place:
+  title: Operator Jail breakout
+  description: |
 
 
 

@@ -1,0 +1,704 @@
+{"agendaList":[
+	{
+		"id"		: "1",
+		"day"		: "d1-main",
+		"type"		: "basic",
+		"time"		: "08:00",
+		"role"		: "",
+		"headline"	: "Registration Open at Nalen",
+		"speaker"	: "",
+		"work"		: "",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "2",
+		"day"		: "d1-main",
+		"type"		: "workshop",
+		"time"		: "09:00 - 17:00",
+		"role"		: "Workshop",
+		"headline"	: "Network Forensics Training",
+		"speaker"	: "Erik Hjelmvik",
+		"work"		: "NETRESEC",
+		"extra"		: "",
+		"place"		: "Harlem"
+	},
+
+	{
+		"id"		: "3",
+		"day"		: "d1-main",
+		"type"		: "break",
+		"time"		: "10:30",
+		"role"		: "",
+		"headline"	: "Coffee Break",
+		"speaker"	: "",
+		"work"		: "",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "4",
+		"day"		: "d1-main",
+		"type"		: "break",
+		"time"		: "12:00",
+		"role"		: "",
+		"headline"	: "Lunch Break",
+		"speaker"	: "",
+		"work"		: "",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "5",
+		"day"		: "d1-main",
+		"type"		: "break",
+		"time"		: "15:00",
+		"role"		: "",
+		"headline"	: "Coffee Break",
+		"speaker"	: "",
+		"work"		: "",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "6",
+		"day"		: "d1-main",
+		"type"		: "basic",
+		"time"		: "ca: 17:00",
+		"role"		: "",
+		"headline"	: "End of Tutorials",
+		"speaker"	: "",
+		"work"		: "",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "7",
+		"day"		: "d2-main",
+		"type"		: "basic",
+		"time"		: "08:00",
+		"role"		: "",
+		"headline"	: "Registration Open at Nalen",
+		"speaker"	: "",
+		"work"		: "",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "8",
+		"day"		: "d2-main",
+		"type"		: "workshop",
+		"time"		: "09:00 - 17:00",
+		"role"		: "Workshop",
+		"headline"	: "Network Forensics Training",
+		"speaker"	: "Erik Hjelmvik",
+		"work"		: "NETRESEC",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "9",
+		"day"		: "d2-main",
+		"type"		: "workshop",
+		"time"		: "09:00 - 17:00",
+		"role"		: "Workshop",
+		"headline"	: "An introduction of the IEC 62443",
+		"speaker"	: "Michael Theuerzeit",
+		"work"		: "Hudson Cybertec",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "10",
+		"day"		: "d2-main",
+		"type"		: "workshop",
+		"time"		: "09:00 - 17:00",
+		"role"		: "Workshop",
+		"headline"	: "Practical SCADA/ICS Honeypots",
+		"speaker"	: "Mikael Vingaard",
+		"work"		: "EnergiNet",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "11",
+		"day"		: "d2-main",
+		"type"		: "break",
+		"time"		: "10:30",
+		"role"		: "",
+		"headline"	: "Coffee Break",
+		"speaker"	: "",
+		"work"		: "",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "12",
+		"day"		: "d2-main",
+		"type"		: "break",
+		"time"		: "12:00",
+		"role"		: "",
+		"headline"	: "Lunch Break",
+		"speaker"	: "",
+		"work"		: "",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "13",
+		"day"		: "d2-main",
+		"type"		: "break",
+		"time"		: "15:00",
+		"role"		: "",
+		"headline"	: "Coffee Break",
+		"speaker"	: "",
+		"work"		: "",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "14",
+		"day"		: "d2-main",
+		"type"		: "basic",
+		"time"		: "15:00 - 18:00",
+		"role"		: "Stacken - Geeklounge",
+		"headline"	: "CS3STHLM ICS/IoT lab opening in Geeklounge - OPEN BAR",
+		"speaker"	: "",
+		"work"		: "",
+		"extra"		: "CS3STHLM Geeklounge hosted by Advenica",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "15",
+		"day"		: "d2-main",
+		"type"		: "basic",
+		"time"		: "ca: 17:00",
+		"role"		: "",
+		"headline"	: "End of Tutorials",
+		"speaker"	: "",
+		"work"		: "",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "16",
+		"day"		: "d2-main",
+		"type"		: "basic",
+		"time"		: "18:00 - 22:00",
+		"role"		: "Main Hall",
+		"headline"	: "Welcome Reception",
+		"speaker"	: "",
+		"work"		: "",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "17",
+		"day"		: "d2-main",
+		"type"		: "speaker",
+		"time"		: "19:00",
+		"role"		: "Speaker",
+		"headline"	: "ENISA Trainings for Cyber Security Specialists",
+		"speaker"	: "Rossella Mattioli",
+		"work"		: "ENISA",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "18",
+		"day"		: "d2-main",
+		"type"		: "speaker",
+		"time"		: "19:30",
+		"role"		: "Speaker",
+		"headline"	: "Effective Threat Mitigation Strategies",
+		"speaker"	: "Jonas Dellenvall",
+		"work"		: "CTO Advenica",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "19",
+		"day"		: "d3-main",
+		"type"		: "basic",
+		"time"		: "08:00 - 09:00",
+		"role"		: "",
+		"headline"	: "Registration Open at Nalen",
+		"speaker"	: "",
+		"work"		: "",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "20",
+		"day"		: "d3-main",
+		"type"		: "speaker",
+		"time"		: "09:00",
+		"role"		: "",
+		"headline"	: "Welcome + Keynote",
+		"speaker"	: "Erik Johansson & Robert Malmgren",
+		"work"		: "",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "21",
+		"day"		: "d3-main",
+		"type"		: "speaker",
+		"time"		: "09:30",
+		"role"		: "Speaker",
+		"headline"	: "Back to the IoT Future",
+		"speaker"	: "Dan Demeter",
+		"work"		: "Kaspersky Labs",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "22",
+		"day"		: "d3-main",
+		"type"		: "break",
+		"time"		: "",
+		"role"		: "",
+		"headline"	: "Coffee Break",
+		"speaker"	: "",
+		"work"		: "",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "23",
+		"day"		: "d3-main",
+		"type"		: "speaker",
+		"time"		: "10:30",
+		"role"		: "Speaker",
+		"headline"	: "S in IoT is for Security",
+		"speaker"	: "Akriti Srivastava",
+		"work"		: "Adobe Systems",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "24",
+		"day"		: "d3-main",
+		"type"		: "speaker",
+		"time"		: "ca: 11:15",
+		"role"		: "Speaker",
+		"headline"	: "IoT in Europe: What could possibly go wrong and how you can fix it",
+		"speaker"	: "Rossella Mattioli",
+		"work"		: "ENISA",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "25",
+		"day"		: "d3-main",
+		"type"		: "break",
+		"time"		: "",
+		"role"		: "",
+		"headline"	: "Lunch Break",
+		"speaker"	: "",
+		"work"		: "",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "26",
+		"day"		: "d3-main",
+		"type"		: "speaker",
+		"time"		: "13:00",
+		"role"		: "Speaker",
+		"headline"	: "Pro-Kremlin trolls, fake news and propagandists as opinion influencers - and how to counter them",
+		"speaker"	: "Jessikka Aro",
+		"work"		: "Yle Kioski",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "27",
+		"day"		: "d3-main",
+		"type"		: "speaker",
+		"time"		: "13:30",
+		"role"		: "Speaker",
+		"headline"	: "APT Case Study",
+		"speaker"	: "Jon Røgeberg & Martin Eian",
+		"work"		: "mnemonic IRT",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "28",
+		"day"		: "d3-main",
+		"type"		: "speaker",
+		"time"		: "14:00",
+		"role"		: "Speaker",
+		"headline"	: "Pandora´s Box",
+		"speaker"	: "Lars Erik Smevold",
+		"work"		: "KraftCERT",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "29",
+		"day"		: "d3-main",
+		"type"		: "break",
+		"time"		: "",
+		"role"		: "Swedish Fika",
+		"headline"	: "Coffee Break",
+		"speaker"	: "",
+		"work"		: "",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "30",
+		"day"		: "d3-main",
+		"type"		: "speaker",
+		"time"		: "15:30",
+		"role"		: "Speaker",
+		"headline"	: "Network and Information Security Directive: the road ahead",
+		"speaker"	: "Paraskevi Kasse",
+		"work"		: "ENISA",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "31",
+		"day"		: "d3-main",
+		"type"		: "speaker",
+		"time"		: "16:00",
+		"role"		: "Speaker",
+		"headline"	: "ICS Program Development for Multi-national Corporations",
+		"speaker"	: "Melissa Crawford",
+		"work"		: "Siemens",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "32",
+		"day"		: "d3-main",
+		"type"		: "speaker",
+		"time"		: "16:30",
+		"role"		: "Speaker",
+		"headline"	: "Protecting European transport infrastructures: threat models and security measures",
+		"speaker"	: "Rossella Mattioli",
+		"work"		: "ENISA",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "33",
+		"day"		: "d3-main",
+		"type"		: "basic",
+		"time"		: "18:30",
+		"role"		: "",
+		"headline"	: "CS3STHLM Hallway pre-dinner mingel",
+		"speaker"	: "",
+		"work"		: "",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "34",
+		"day"		: "d3-main",
+		"type"		: "basic",
+		"time"		: "19:00",
+		"role"		: "",
+		"headline"	: "CS3STHLM Conference dinner",
+		"speaker"	: "",
+		"work"		: "",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "35",
+		"day"		: "d3-main",
+		"type"		: "speaker",
+		"time"		: "20:00",
+		"role"		: "Dinner Speaker",
+		"headline"	: "Adventures in Social Engineering - Tales of A People Hacker",
+		"speaker"	: "Jenny Radcliffe",
+		"work"		: "",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "36",
+		"day"		: "d3-forum",
+		"type"		: "speaker",
+		"time"		: "12:30",
+		"role"		: "Harlem Stage",
+		"headline"	: "Lunch Session",
+		"speaker"	: "",
+		"work"		: "",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "37",
+		"day"		: "d3-forum",
+		"type"		: "speaker",
+		"time"		: "15:00",
+		"role"		: "Harlem Stage",
+		"headline"	: "Coffee Session",
+		"speaker"	: "",
+		"work"		: "",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "38",
+		"day"		: "d3-forum",
+		"type"		: "speaker",
+		"time"		: "17:00 - 18:30",
+		"role"		: "Geeklounge (Stacken)",
+		"headline"	: "Demonstration of ICS/IoT Lab, Lightning Talks - OPEN BAR",
+		"speaker"	: "",
+		"work"		: "",
+		"extra"		: "CS3STHLM Geeklounge hosted by Advenica",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "39",
+		"day"		: "d4-main",
+		"type"		: "speaker",
+		"time"		: "09:00",
+		"role"		: "Speaker",
+		"headline"	: "Threat modelling and security measures for ICS/SCADA",
+		"speaker"	: "Paraskevi Kasse",
+		"work"		: "ENISA",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "40",
+		"day"		: "d4-main",
+		"type"		: "speaker",
+		"time"		: "09:30",
+		"role"		: "Speaker",
+		"headline"	: "Cyberattacks Against Critical Infrastructure in Ukraine: Taxonomy, Consequences, Lessons Learned",
+		"speaker"	: "Roman Sologub & Oleksii Yasynskyi",
+		"work"		: "ISSP Group",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "41",
+		"day"		: "d4-main",
+		"type"		: "break",
+		"time"		: "",
+		"role"		: "",
+		"headline"	: "Coffee Break",
+		"speaker"	: "",
+		"work"		: "",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "42",
+		"day"		: "d4-main",
+		"type"		: "speaker",
+		"time"		: "10:30",
+		"role"		: "Speaker",
+		"headline"	: "Industroyer: biggest threat to industrial control systems since Stuxnet",
+		"speaker"	: "Anton Cherepanov & Robert Lipovský",
+		"work"		: "ESET",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "43",
+		"day"		: "d4-main",
+		"type"		: "speaker",
+		"time"		: "11:00",
+		"role"		: "Panel Discussion",
+		"headline"	: "Cyber Warfare and Large Scale Cyber Criminality",
+		"speaker"	: "",
+		"work"		: "",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "44",
+		"day"		: "d4-main",
+		"type"		: "break",
+		"time"		: "",
+		"role"		: "",
+		"headline"	: "Lunch Break",
+		"speaker"	: "",
+		"work"		: "",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "45",
+		"day"		: "d4-main",
+		"type"		: "speaker",
+		"time"		: "12:45",
+		"role"		: "Speaker",
+		"headline"	: "Configurable Code-Reuse Attacks Mitigation for COTS Programmable Logic Controller Binaries",
+		"speaker"	: "Ali Abbasi",
+		"work"		: "University of Twente",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "46",
+		"day"		: "d4-main",
+		"type"		: "speaker",
+		"time"		: "13:15",
+		"role"		: "Speaker",
+		"headline"	: "From Box to Backdoor: Using Old School Tools and Techniques to Discover Backdoors in Modern Devices",
+		"speaker"	: "Patrick DeSantis",
+		"work"		: "Cisco Talos",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "47",
+		"day"		: "d4-main",
+		"type"		: "speaker",
+		"time"		: "14:00",
+		"role"		: "Speaker",
+		"headline"	: "Security for Safety: Fortifying the last line of defense",
+		"speaker"	: "Jens Wiesner",
+		"work"		: "BSI",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "48",
+		"day"		: "d4-main",
+		"type"		: "break",
+		"time"		: "",
+		"role"		: "Hallway Track",
+		"headline"	: "Coffee Break",
+		"speaker"	: "",
+		"work"		: "",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "49",
+		"day"		: "d4-main",
+		"type"		: "speaker",
+		"time"		: "15:00",
+		"role"		: "Speaker",
+		"headline"	: "Strategic Network Defense in ICS Environments",
+		"speaker"	: "Joe Slowik",
+		"work"		: "Dragos Inc",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "50",
+		"day"		: "d4-main",
+		"type"		: "speaker",
+		"time"		: "15:30",
+		"role"		: "Speaker",
+		"headline"	: "DIY insider threat detection/prevention within ICS enviroments",
+		"speaker"	: "Dieter Sarrazyn",
+		"work"		: "Secudea bvba",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "51",
+		"day"		: "d4-main",
+		"type"		: "speaker",
+		"time"		: "16:00",
+		"role"		: "Speaker",
+		"headline"	: "Secure SCADA Protocol for the 21st Century (SSP21)",
+		"speaker"	: "Adam Crain",
+		"work"		: "Automatak",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "52",
+		"day"		: "d4-main",
+		"type"		: "basic",
+		"time"		: "",
+		"role"		: "Closing Session",
+		"headline"	: "Conference Closing",
+		"speaker"	: "",
+		"work"		: "",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "53",
+		"day"		: "d4-forum",
+		"type"		: "speaker",
+		"time"		: "12:30",
+		"role"		: "Harlem Stage",
+		"headline"	: "Lunch Session",
+		"speaker"	: "",
+		"work"		: "",
+		"extra"		: "",
+		"place"		: ""
+	},
+
+	{
+		"id"		: "54",
+		"day"		: "d4-forum",
+		"type"		: "speaker",
+		"time"		: "Afternoon",
+		"role"		: "Geeklounge (Stacken)",
+		"headline"	: "CS3STHLM ICS/IoT Lab Activities summary: statistics, highlights and discoveries",
+		"speaker"	: "",
+		"work"		: "",
+		"extra"		: "CS3STHLM Geeklounge hosted by Advenica",
+		"place"		: ""
+	}
+
+]}

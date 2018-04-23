@@ -80,6 +80,14 @@
   
    {
      
+        "title"    : "Operator Jail breakout",
+        "url"      : "//program/presentations/dieter-frank/",
+        "path"     : "/program/presentations/dieter-frank/"
+     
+   } ,
+  
+   {
+     
         "title"    : "Network ForensICS Training",
         "url"      : "//program/workshops/erik-hjelmvik/",
         "path"     : "/program/workshops/erik-hjelmvik/"
@@ -92,9 +100,9 @@
   
    {
      
-        "title"    : "Contact",
-        "url"      : "//contact/",
-        "path"     : "/contact/"
+        "title"    : "History",
+        "url"      : "//about/history/",
+        "path"     : "/about/history/"
      
    } ,
   
@@ -140,30 +148,6 @@
   
    {
      
-        "title"    : "ICS Lab",
-        "url"      : "//ics-lab/",
-        "path"     : "/ics-lab/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Press",
-        "url"      : "//press/",
-        "path"     : "/press/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "History",
-        "url"      : "//about/history/",
-        "path"     : "/about/history/"
-     
-   } ,
-  
-   {
-     
         "title"    : "Speakers",
         "url"      : "//program/speakers/",
         "path"     : "/program/speakers/"
@@ -180,6 +164,22 @@
   
    {
      
+        "title"    : "Home",
+        "url"      : "//",
+        "path"     : ""
+     
+   } ,
+  
+   {
+     
+        "title"    : "Contact",
+        "url"      : "//contact/",
+        "path"     : "/contact/"
+     
+   } ,
+  
+   {
+     
         "title"    : "Practical Details",
         "url"      : "//practical-details/",
         "path"     : "/practical-details/"
@@ -188,9 +188,25 @@
   
    {
      
-        "title"    : "Home",
-        "url"      : "//",
-        "path"     : ""
+        "title"    : "Press",
+        "url"      : "//press/",
+        "path"     : "/press/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "ICS Lab",
+        "url"      : "//ics-lab/",
+        "path"     : "/ics-lab/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Archive",
+        "url"      : "//about/archive/",
+        "path"     : "/about/archive/"
      
    } ,
   
@@ -260,6 +276,14 @@
   
    {
      
+        "title"    : "Securing the ICS lab network",
+        "url"      : "//program/presentations/william-middleton/",
+        "path"     : "/program/presentations/william-middleton/"
+     
+   } ,
+  
+   {
+     
    } ,
   
    {
@@ -305,6 +329,30 @@
         "title"    : "Arnaud Soullié",
         "url"      : "//program/workshops/arnaud-soullie/",
         "path"     : "program/workshops/arnaud-soullie/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "William Middleton",
+        "url"      : "//program/presentations/william-middleton/",
+        "path"     : "program/presentations/william-middleton/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Dieter Sarrazyn",
+        "url"      : "//program/presentations/dieter-frank/",
+        "path"     : "program/presentations/dieter-frank/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Frank Lycops",
+        "url"      : "//program/presentations/dieter-frank/",
+        "path"     : "program/presentations/dieter-frank/"
      
    } 
   

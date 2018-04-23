@@ -7,6 +7,14 @@
 
 
 
+{
+	"description": "<p>Operator stations are today one of the first systems/stations to interact with a distributed control system (DCS) or other industrial control systems. These operator stations often have some protection built in to restrict what the operator can do within the SCADA software and/or on the operating system itself.</p><p>Within this presentation, some of the most (easily) discovered ways are shown/explained and how these can be (ab)used to gain a further foothold within the environment.</p><p>The audience will learn more on the shortcomings of most of the operator jail solutions and what could be done to step up this game to secure this properly. Key takeaways obtained by the audience through this presentation is that you cannot trust operator jails in the thought that it properly protects attackers from gaining access to the operating system itself and thus potentially exploiting the whole DCS environment.</p>"
+},
+
+
+
+
+
 
 
 
@@ -64,6 +72,12 @@
 
 
 
+
+
+
+{
+	"description": "The ICS lab is an critical resource, and not just for a solution provider like Siemens.  While the internal components of a lab may vary widely (witness the CS3STHLM ICS lab for example), the process of securing access to the lab network, while assuring availability and ease of use arguably has some common goals. Siemens PD Solutions in Bergen, Norway recently relocated their lab, and developed this presentation in the hope that their security and optimization solutions specifically related to the network might be of interest to others. Especially those with large, productive, multi-project, multi-customer lab environments."
+},
 
 
 
