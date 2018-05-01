@@ -70,6 +70,24 @@ permalink: "/news/"
 <section class="content">
 
 <div class="workshop--list-group">
+    <h3 class="subpar-headline">2018 CS3STHLM - <span class="highlight">All Posts</span></h3>
+    {% for post in site.posts %}
+    {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
+    {% if year == "2018" %}
+    <div class="workshop--list-item">
+        <a href="{{ post.url | prepend: site.baseurl }}" class="workshop--list-link">
+        <div class="workshop--meta">
+            <span class="workshop--meta-date">{{ post.date | date: "%-d %b %-Y" }}</span>
+            <span class="workshop--meta-category category-{{ post.categories | join: ' ' }}">{{ post.categories | join: ' ' }}</span>
+        </div>
+        <h2 class="workshop--list-title">{{ post.title }}</h2>
+        </a>
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>
+
+<div class="workshop--list-group">
     <h3 class="subpar-headline">2017 CS3STHLM - <span class="highlight">All Posts</span></h3>
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}

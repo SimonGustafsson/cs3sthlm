@@ -314,30 +314,6 @@
         "url"      : "/program/presentations/patrick-miller/",
         "path"     : "program/presentations/patrick-miller/"
      
-   } ,
-  
-   {
-     
-        "title"    : "William Middleton",
-        "url"      : "/program/presentations/william-middleton/",
-        "path"     : "program/presentations/william-middleton/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Dieter Sarrazyn",
-        "url"      : "/program/presentations/dieter-frank/",
-        "path"     : "program/presentations/dieter-frank/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Frank Lycops",
-        "url"      : "/program/presentations/dieter-frank/",
-        "path"     : "program/presentations/dieter-frank/"
-     
    } 
   
 ]

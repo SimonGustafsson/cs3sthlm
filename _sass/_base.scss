@@ -2366,6 +2366,8 @@ h1, h2, h3, h4 {
 
 .workshop--list-group {
 
+  margin-bottom: 40px;
+
   @include media-query($mobile) {
     padding: 0 20px;
     box-sizing: border-box;
@@ -3608,6 +3610,8 @@ h1, h2, h3, h4 {
 
     &:nth-child(2) {
       margin-top: 20px;
+      padding-top: 20px;
+      border-top: 1px solid rgba($white, .5);
     }
 
     @include media-query($mobile) {
@@ -4021,7 +4025,7 @@ h1, h2, h3, h4 {
       &:first-of-type {
         font-family: 'latoregular', sans-serif;
         font-size: 21px;
-        color: rgba($white, .85);
+        color: rgba($white, 1);
 
         @include media-query-min($large) {
           font-size: 23px;

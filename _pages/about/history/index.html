@@ -16,7 +16,7 @@ permalink: "/about/history/"
 
   <div class="sec-cards">
 
-  	{% assign sorted_history = site.data.history | sort:'year' | reverse %}
+  	{% assign sorted_history = site.data.history | sort: "year" | reverse %}
   	{% for card in sorted_history %}
 	<div class="card-item">
 		<h2>{{ card.year }}</h2>
