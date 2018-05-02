@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>CS3STHLM | Attacking PLCs by PLC in deep</title>
+  <title>CS3STHLM | The good, the bad and the segmented</title>
   <meta name="description" content="CS3STHLM - Stockholm international summit on cyber-security in SCADA and Industrial Control Systems. CS3STHLM is an annual summit that gather the most import...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="/program/presentations/cheng-lei/">
+  <link rel="canonical" href="/program/presentations/erwin-rik/">
   <link rel="alternate" type="application/rss+xml" title="CS3STHLM" href="/feed.xml">
   <link rel="icon" type="image/png" href="/assets/favicon-32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="/assets/favicon-16x16.png" sizes="16x16" />
@@ -86,7 +86,7 @@
   	
 	
 	
-  		<li>Cheng lei</li>
+  		<li>Erwin rik</li>
   	
 	
 </ul>
@@ -98,9 +98,16 @@
   <aside class="sidebar box-left">
     
     <ul class="meta-data--presentation">
-      <li><h4>Author</h4><span class="post-author">Cheng Lei</span></li>
-      <li><h4>Role</h4><span class="post-author">ICS Security Researcher</span></li>
-      <li><h4>Work</h4><span class="post-author">NSFOCUS</span></li>
+      <li><h4>Author</h4><span class="post-author">Erwin Kooi</span></li>
+      <li><h4>Role</h4><span class="post-author">Information Security Arcitect</span></li>
+      <li><h4>Work</h4><span class="post-author">Alliander</span></li>
+      <li><img src="/assets/speakers/erwin-kooi.png"></li>
+    </ul>
+    
+    <ul class="meta-data--presentation">
+      <li><h4>Author</h4><span class="post-author">Rik van Hees</span></li>
+      <li><h4>Role</h4><span class="post-author">ICS Security Architect</span></li>
+      <li><h4>Work</h4><span class="post-author">Alliander</span></li>
       <li><img src="/assets/speakers/temp.png"></li>
     </ul>
     
@@ -108,14 +115,27 @@
 
   <div class="post-content" itemprop="articleBody">
     <header class="post-header">
-      <h1 class="post-title" itemprop="name headline">Attacking PLCs by PLC in deep</h1>
+      <h1 class="post-title" itemprop="name headline">The good, the bad and the segmented</h1>
     </header>
 
-    <p>In the past few years, the attacks to industrial control systems(ICS) has increased year by year. Most of the attacks are exploit of the insecurity of ICS protocols like Stuxnet in 2010, Triton in 2017.</p>
+    <p>“Network Segmentation” is a simple concept of 20 characters (space included). Doing it in practice and doing it right is much more difficult. Proper segmentation is much, much more than just adding a firewall.</p>
 
-<p>In 2016, Ralf Spenneberg and et al give a presentation named PLC Blaster which demonstrates a worm lives and runs on Siemens S7-1200 PLCs, they use S7commplus protocol to transmit worms in PLCs. In this research, we proposed an attack method that a PLC can attack other different vendors’ PLCs inside the net.</p>
+<p>Over the last years we spend a lot of time and money on designing and implementing network segmentation for our multi-site IT and multi-site OT networks. Not only in technical solutions, but also in the required processes for maintaining the new environment. We made some (costly) mistakes and had to rethink our design based on physical and organizational boundaries.</p>
 
-<p>If one PLC is infected, this PLC can scan the whole net to find all kinds of PLCs and send back the information back to a Command &amp;Control server. Then, once received the command from C&amp;C server, this infected PLC can do attacks to other different vendors’ PLCs. Like PLC Blaster, this malware can be spread inside the net.</p>
+<p>In this talk, we would like to present lessons-learned on the multi-million, multi-year project. It is not an official report-out, but a hands-on and practical presentation. We hope this talk will give the audience a feeling for the challenges of a proper segmentation program and help them to prevent some of the mistakes we made.</p>
+
+<h4 id="the-following-questions-will-be-answered">The following questions will be answered</h4>
+
+<ul>
+  <li>How did we convince Senior Management to allocate the budget</li>
+  <li>What underlying architecture did we choose and why?</li>
+  <li>What use cases did we envision and how did we work them out?</li>
+  <li>What design choices were made?</li>
+  <li>How did this work out in reality?</li>
+  <li>What did we learn?</li>
+  <li>What would we recommend?</li>
+  <li>What would we do differently?</li>
+</ul>
 
 
     

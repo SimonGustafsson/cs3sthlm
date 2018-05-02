@@ -104,13 +104,13 @@
   
    {
      
+        "title"    : "The good, the bad and the segmented",
+        "url"      : "/program/presentations/erwin-rik/",
+        "path"     : "/program/presentations/erwin-rik/"
+     
    } ,
   
    {
-     
-        "title"    : "Advisory",
-        "url"      : "/about/advisory/",
-        "path"     : "/about/advisory/"
      
    } ,
   
@@ -215,6 +215,14 @@
         "title"    : "Contact",
         "url"      : "/contact/",
         "path"     : "/contact/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Advisory",
+        "url"      : "/about/advisory/",
+        "path"     : "/about/advisory/"
      
    } ,
   
