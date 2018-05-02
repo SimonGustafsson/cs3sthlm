@@ -2331,7 +2331,7 @@ h1, h2, h3, h4 {
     .speaker--list-item .speaker-block:hover {
       cursor: pointer; }
       .speaker--list-item .speaker-block:hover img {
-        transform: scale(1.1); }
+        transform: scale(1.05); }
     .speaker--list-item .speaker-block-data {
       display: block;
       position: absolute;
@@ -2571,6 +2571,7 @@ h1, h2, h3, h4 {
   .speaker-block--content .col-3-6 {
     width: 550px;
     margin-right: auto;
+    margin-left: 20px;
     box-sizing: border-box; }
     @media screen and (min-width: 1680px) {
       .speaker-block--content .col-3-6 {
@@ -2643,6 +2644,12 @@ h1, h2, h3, h4 {
       height: 1px;
       background: rgba(255, 255, 255, 0.5);
       margin-bottom: 12px; }
+  .speaker-block--content .speaker-cospeaker {
+    display: block;
+    font-size: 14px;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: 8px; }
 
 /**
   PARTNER LIST */
@@ -2855,9 +2862,18 @@ h1, h2, h3, h4 {
   .box-left ul {
     list-style: none; }
     .box-left ul:nth-child(2) {
+      position: relative;
       margin-top: 20px;
-      padding-top: 20px;
-      border-top: 1px solid rgba(255, 255, 255, 0.5); }
+      padding-top: 20px; }
+      .box-left ul:nth-child(2):before {
+        display: block;
+        content: '';
+        width: 120px;
+        height: 1px;
+        background: rgba(255, 255, 255, 0.2);
+        position: absolute;
+        left: 0;
+        top: 0; }
     @media screen and (max-width: 768px) {
       .box-left ul {
         display: -webkit-box;

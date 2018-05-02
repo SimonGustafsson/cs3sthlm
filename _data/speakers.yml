@@ -199,6 +199,7 @@
   date:
   time:
   place:
+  partner: Frank Lycops
   title: Operator Jail breakout
   description: |
 
@@ -208,16 +209,148 @@
   name: Frank Lycops
   role: Security Consultant & Researcher
   work: Freelance
-  country:
-  shortcode:
+  country: Begium
+  shortcode: BE
   image: frank-lycops.png
   bio: Frank a freelance security consultant and researcher.  He has 8 years of experience in both the IT and OT environments.  During his work, he performed numerous penetration tests on OT environments, helped improving the overall security of various environments and discovered several vulnerabilities in widely sold devices.
   date:
   time:
   place:
+  partner: Dieter Sarrazyn
   title: Operator Jail breakout
   description: |
 
+- id: 9
+  type: presentation
+  permalink: program/presentations/erwin-rik/
+  name: Erwin Kooi
+  role: Information Security Arcitect
+  work: Alliander
+  country: Netherlands
+  shortcode: NL
+  image: erwin-kooi.png
+  bio: Erwin has been working in information security for fifteen years and in IT for twenty-one years. He recently switched positions and is now working on designing SCADA / ICS systems for smart grids with a strong focus on cyber security, especially when integrating ICS and IT systems. He has a solid knowledge of healthcare IT and grid operator IT, both on the office side as on the operations side, both on the strategic level as on the implementation side. He holds a BSc Electrical Engineering and Master Security in Information Technology. In his rare spare time he likes to pick locks, program microcontrollers, participate in a local political party and care for his horses and hedgehogs.
+  date:
+  time:
+  place:
+  partner: Rik van Hees
+  title: The good, the bad and the segmented
+  description: |
+
+- id: 10
+  type: presentation
+  permalink: program/presentations/erwin-rik/
+  name: Rik van Hees
+  role: ICS Security Architect
+  work: Alliander
+  country: Netherlands
+  shortcode: NL
+  image: temp.png
+  bio: 
+  date:
+  time:
+  place:
+  partner: Erwin Kooi
+  title: The good, the bad and the segmented
+  description: |
 
 
+- id: 11
+  type: workshop
+  permalink: program/workshops/mikael-vingaard/
+  name: Mikael Vingaard
+  role: IT Security Consultant
+  work: EnergiNet
+  country: Denmark
+  shortcode: DK
+  image: mikael-vingaard.png
+  bio: Mikael Vingaard leverages his 15+ years of IT-security experience to build practicalinformation security with a real-life perspective. Mikael works as IT-Security Consultant at EnergiNet.dk, the Danish national transmission system operator. In his spare time, Mikael runs several research projects, build on Open Source softwareto make a positive difference to secure critical infrastructure environments.
+  date: 22-23 October
+  time:
+  place:
+  title: ICS Scada Honeypot Technical Training
+  description: |
 
+- id: 12
+  type: presentation
+  permalink:
+  name: Cheng Lei
+  role: ICS Security Researcher
+  work: NSFOCUS
+  country: 
+  shortcode: 
+  image: temp.png
+  bio: Cheng Lei is an Industrial Control System Security researcher at NSFOCUS. His interest is mainly about PLC and DCS vulnerability exploitation and security enhancement. Over the years, he has released three Siemens CVE vulnerabilities.
+  date:
+  time:
+  place:
+  title: Attacking PLCs by PLC in deep
+  description: |
+
+
+- id: 13
+  type: presentation
+  permalink:
+  name: Adam Ringwood
+  role: OT Security Researcher
+  work: Uptake Technologies
+  country: United States
+  shortcode: US
+  image: adam-ringwood.png
+  bio: Adam Ringwood is a OT Security Researcher US-based Data Science organization Uptake Technologies, dedicated to the philosophy that machines never have to break. Most famously known for his research around his university’s LDAP data privacy, He has also built several email phishing, and password cracking tools, and has been a longtime consultant working to build and secure cloud infrastructure.
+  date:
+  time:
+  place:
+  title: The Internet of Things on the Internet 
+  description: |
+
+
+- id: 14
+  type: presentation
+  permalink:
+  name: Johnny Xmas
+  role: Security Researcher
+  work: Uptake Technologies
+  country: United States
+  shortcode: US
+  image: johnny-xmas.png
+  bio: Johnny Xmas is a Security Researcher and Lead Penetration Tester for the US-based Data Science organization Uptake Technologies, dedicated to the philosophy that machines never have to break. He’s been speaking internationally on the topics of Hacking, and Privacy for nearly 15 years, and is most well-known for his involvement with the USA / TSA Master Keys reversing of 2015-16.
+  date:
+  time:
+  place:
+  title: The Internet of Things on the Internet 
+  description: |
+
+
+- id: 15
+  type: presentation
+  permalink:
+  name: Kai Thomsen
+  role: DFIR
+  work: AUDI
+  country: Germany
+  shortcode: DE
+  image: temp.png
+  bio: Kai is the Incident Response team lead at AUDI AG and currently working on creating a modern Cyber Defence organisation at Audi. Before that he established an IT Service Continuity organization at Audi and developed and executed crisis management training exercises for top management. Prior to Audi, he worked at SMS group, an engineering company for steel manufacturing plants. There he was responsible for network security architecture, NSM, and forensics. Kai holds an M.A. in computer science and English and American Literature from the University of Siegen. He is also a SANS Instructor for Industrial Control Systems Active Defense and Incident Response (ICS515) and chairing the SANS Automotive Summit and SANS ICS Europe Summit in 2018.
+  date:
+  time:
+  place:
+  title: "Attacking Cars Revisited: On the Road Towards a More Resilient Connected Vehicle Infrastructure"
+  description: |
+
+
+- id: 16
+  type: presentation
+  permalink:
+  name: Monta Elkins
+  role: Hacker-in-Chief
+  work: FoxGuard Solutions
+  country: United States
+  shortcode: US
+  image: monta-elkins.png
+  bio: Monta Elkins is currently "Hacker-in-Chief" for FoxGuard Solutions, an ICS patch provider. A security researcher and consultant; he was formerly Security Architect for Rackspace, and the first ISO for Radford University. He has been a speaker at DEFCON , Homeland Security’s ICSJWG (Industrial Control Systems Joint Working Group), EnergySec's Security Summit, GE Digital Energy's Annual Software Summit, Toshiba's Industrial Control Systems Conference, NERC's GridSecCon and Emerging Technology Roundtable, ICS CyberSecurity by Security Week, UTC Telecom, and other security conferences. Monta is the author and instructor of the “Defense against the Dark Arts” hands-on, hacker tools and techniques classes, guest lecturer for local colleges and universities teaching rapid prototyping techniques and information security and teaches Arduino and other classes with Let's Code Blacksburg.
+  date:
+  time:
+  place:
+  title: Jumping Air Gaps
+  description: |

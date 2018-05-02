@@ -3,6 +3,18 @@
 
 
 
+{
+	"description": "<p>Since the first Embedded System was given a network interface, the Internet has been exploding with “Things” that have no Earthly business being there. The popular tool / website “Shodan” has risen to be the de-facto standard for cataloguing these devices, but what happens when Shodan fails?</p><p>Uptake’s Security Researchers have discovered a massive gap in Shodan’s coverage, and have developed several tools for not only quickly scanning the Internet yourself, but also several new methods for discovering and fingerprinting a surprising number of OT / SCADA devices on The Net.</p><p>Are some of them accidentally yours?</p><p>Let’s find out!</p>"
+},
+
+
+
+
+
+{
+	"description": "<p>In the past few years, the attacks to industrial control systems(ICS) has increased year by year. Most of the attacks are exploit of the insecurity of ICS protocols like Stuxnet in 2010, Triton in 2017.</p><p>In 2016, Ralf Spenneberg and et al give a presentation named PLC Blaster which demonstrates a worm lives and runs on Siemens S7-1200 PLCs, they use S7commplus protocol to transmit worms in PLCs. In this research, we proposed an attack method that a PLC can attack other different vendors’ PLCs inside the net.</p><p>If one PLC is infected, this PLC can scan the whole net to find all kinds of PLCs and send back the information back to a Command &amp;Control server. Then, once received the command from C&amp;C server, this infected PLC can do attacks to other different vendors’ PLCs. Like PLC Blaster, this malware can be spread inside the net.</p>"
+},
+
 
 
 {
@@ -47,6 +59,12 @@
 
 
 
+{
+	"description": "<p>In this talk I want to sketch out the threat landscape we might be facing with inter- connected infrastructure in smart cities in the near future and give an overview of what works and what doesn‘t to tackle these security challenges.</p><p>Separating the hype from actual threats and thinking in development- and lifecycles that are sig- nificantly longer than those for our normal consumer electronics devices are a key part of this as well as bridging the language gap between automotive engineers and software developers.</p>"
+},
+
+
+
 
 
 {
@@ -58,7 +76,15 @@
 
 
 {
-	"description": "<p>Abstract: Innovative and disruptive technologies are enhancing and invading our traditional industrial business model. Future infrastructure organizations will need more data to operate efficiently and succeed in the brave new interconnected world. The diversity of new technologies and data will fuel more diversity in business opportunity. Everyone expects more OT, more IOT, and more IT - and all of it is supposed to be highly reliable and secure. These factors (and more) lead to a landscape shift for the industrial cybersecurity risk profile. In this session, hear ways to recognize the problems and gain some clarity on possible solutions through historic lessons, made up words, and practical front-line experience.</p>"
+	"description": "<p>If you think an air gap prevents communication out of and into your industrial control system, you are wrong.</p><p>We’ll be exploring various ways to send data across an air-gap in Industrial Control Systems and other environments, including a live demo.</p><p>Is it really possible to send data across an air-gap where no network has been connected? (No we’re not talking about wifi, bluetooth, wirelessHART etc.)</p><p>Can it be done without physical modification to your existing plant?</p><p>Can we get that paragon of virtue- a data diode -to pass information in both directions without physically touching it?</p><p>Find out.</p><h4 id=\"audience\">Audience</h4><p>Those who may have or consider an air-gap as part of their security.</p><h4 id=\"take-away\">Take Away</h4><p>A better understanding of the history of jumping air-gaps and a new attack on data diodes.</p>"
+},
+
+
+
+
+
+{
+	"description": "<p>Innovative and disruptive technologies are enhancing and invading our traditional industrial business model. Future infrastructure organizations will need more data to operate efficiently and succeed in the brave new interconnected world.</p><p>The diversity of new technologies and data will fuel more diversity in business opportunity. Everyone expects more OT, more IOT, and more IT - and all of it is supposed to be highly reliable and secure. These factors (and more) lead to a landscape shift for the industrial cybersecurity risk profile. In this session, hear ways to recognize the problems and gain some clarity on possible solutions through historic lessons, made up words, and practical front-line experience.</p>"
 },
 
 

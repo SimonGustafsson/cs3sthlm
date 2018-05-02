@@ -68,6 +68,22 @@
   
    {
      
+        "title"    : "The Internet of Things on the Internet",
+        "url"      : "/program/presentations/adam-johnny/",
+        "path"     : "/program/presentations/adam-johnny/"
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+        "title"    : "Attacking PLCs by PLC in deep",
+        "url"      : "/program/presentations/cheng-lei/",
+        "path"     : "/program/presentations/cheng-lei/"
+     
    } ,
   
    {
@@ -87,22 +103,6 @@
    } ,
   
    {
-     
-   } ,
-  
-   {
-     
-        "title"    : "Archive",
-        "url"      : "/about/archive/",
-        "path"     : "/about/archive/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "History",
-        "url"      : "/about/history/",
-        "path"     : "/about/history/"
      
    } ,
   
@@ -148,17 +148,25 @@
   
    {
      
-        "title"    : "Speakers",
-        "url"      : "/program/speakers/",
-        "path"     : "/program/speakers/"
+        "title"    : "Program",
+        "url"      : "/program/",
+        "path"     : "/program/"
      
    } ,
   
    {
      
-        "title"    : "Presentations",
-        "url"      : "/program/presentations/",
-        "path"     : "/program/presentations/"
+        "title"    : "Archive",
+        "url"      : "/about/archive/",
+        "path"     : "/about/archive/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Speakers",
+        "url"      : "/program/speakers/",
+        "path"     : "/program/speakers/"
      
    } ,
   
@@ -172,25 +180,9 @@
   
    {
      
-        "title"    : "Contact",
-        "url"      : "/contact/",
-        "path"     : "/contact/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Practical Details",
-        "url"      : "/practical-details/",
-        "path"     : "/practical-details/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Press",
-        "url"      : "/press/",
-        "path"     : "/press/"
+        "title"    : "Presentations",
+        "url"      : "/program/presentations/",
+        "path"     : "/program/presentations/"
      
    } ,
   
@@ -204,13 +196,45 @@
   
    {
      
-        "title"    : "Program",
-        "url"      : "/program/",
-        "path"     : "/program/"
+        "title"    : "Press",
+        "url"      : "/press/",
+        "path"     : "/press/"
      
    } ,
   
    {
+     
+        "title"    : "Practical Details",
+        "url"      : "/practical-details/",
+        "path"     : "/practical-details/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Contact",
+        "url"      : "/contact/",
+        "path"     : "/contact/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "History",
+        "url"      : "/about/history/",
+        "path"     : "/about/history/"
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+        "title"    : "Attacking Cars Revisited: On the Road Towards a More Resilient Connected Vehicle Infrastructure",
+        "url"      : "/program/presentations/kai-thomsen/",
+        "path"     : "/program/presentations/kai-thomsen/"
      
    } ,
   
@@ -223,6 +247,22 @@
         "title"    : "Think like a hacker but act like an engineer",
         "url"      : "/program/presentations/marty-edwards/",
         "path"     : "/program/presentations/marty-edwards/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "ICS Scada Honeypot Technical Training",
+        "url"      : "/program/workshops/mikael-vingaard/",
+        "path"     : "/program/workshops/mikael-vingaard/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Jumping Air Gaps",
+        "url"      : "/program/presentations/kai-thomsen/",
+        "path"     : "/program/presentations/kai-thomsen/"
      
    } ,
   
@@ -337,6 +377,70 @@
         "title"    : "Frank Lycops",
         "url"      : "/program/presentations/dieter-frank/",
         "path"     : "program/presentations/dieter-frank/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Erwin Kooi",
+        "url"      : "/program/presentations/erwin-rik/",
+        "path"     : "program/presentations/erwin-rik/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Rik van Hees",
+        "url"      : "/program/presentations/erwin-rik/",
+        "path"     : "program/presentations/erwin-rik/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Mikael Vingaard",
+        "url"      : "/program/workshops/mikael-vingaard/",
+        "path"     : "program/workshops/mikael-vingaard/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Cheng Lei",
+        "url"      : "/",
+        "path"     : ""
+     
+   } ,
+  
+   {
+     
+        "title"    : "Adam Ringwood",
+        "url"      : "/",
+        "path"     : ""
+     
+   } ,
+  
+   {
+     
+        "title"    : "Johnny Xmas",
+        "url"      : "/",
+        "path"     : ""
+     
+   } ,
+  
+   {
+     
+        "title"    : "Kai Thomsen",
+        "url"      : "/",
+        "path"     : ""
+     
+   } ,
+  
+   {
+     
+        "title"    : "Monta Elkins",
+        "url"      : "/",
+        "path"     : ""
      
    } 
   

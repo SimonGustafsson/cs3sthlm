@@ -2939,7 +2939,7 @@ h1, h2, h3, h4 {
         cursor: pointer;
 
         img {
-          transform: scale(1.1);
+          transform: scale(1.05);
         }
       }
 
@@ -3230,6 +3230,7 @@ h1, h2, h3, h4 {
     .col-3-6 {
       width: 550px;
       margin-right: auto;
+      margin-left: 20px;
       box-sizing: border-box;
 
       @include media-query-min($large) {
@@ -3320,6 +3321,13 @@ h1, h2, h3, h4 {
         background: rgba($white, .5);
         margin-bottom: 12px;
       }
+    }
+    .speaker-cospeaker {
+      display: block;
+      font-size: 14px;
+      font-style: italic;
+      color: rgba($white, .75);
+      margin-top: 8px;
     }
   }
 }
@@ -3609,9 +3617,20 @@ h1, h2, h3, h4 {
     list-style: none;
 
     &:nth-child(2) {
+      position: relative;
       margin-top: 20px;
       padding-top: 20px;
-      border-top: 1px solid rgba($white, .5);
+
+      &:before {
+        display: block;
+        content: '';
+        width: 120px;
+        height: 1px;
+        background: rgba($white, .2);
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
     }
 
     @include media-query($mobile) {
