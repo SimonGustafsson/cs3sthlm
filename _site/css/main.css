@@ -3034,7 +3034,7 @@ h1, h2, h3, h4 {
   .box-right .p-title {
     display: block; }
   .box-right .p-time, .box-right .p-author {
-    font-family: 'latoblack', sans-serif;
+    font-family: 'latobold', sans-serif;
     font-size: 12px;
     letter-spacing: 2px;
     color: rgba(255, 255, 255, 0.5);
@@ -3047,9 +3047,9 @@ h1, h2, h3, h4 {
       .box-right .p-time, .box-right .p-author {
         font-size: 14px; } }
   .box-right .p-time {
-    margin-right: 10px; }
+    margin-right: 2px; }
   .box-right .p-author:nth-child(3) {
-    margin-left: 4px; }
+    margin-left: 0; }
     .box-right .p-author:nth-child(3):before {
       display: inline-block;
       content: "\0026";

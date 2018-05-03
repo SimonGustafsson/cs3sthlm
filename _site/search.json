@@ -80,6 +80,14 @@
   
    {
      
+        "title"    : "Pentesting Industrial Control Systems",
+        "url"      : "/program/trainings/arnaud-soullie/",
+        "path"     : "/program/trainings/arnaud-soullie/"
+     
+   } ,
+  
+   {
+     
         "title"    : "Attacking PLCs by PLC in deep",
         "url"      : "/program/presentations/cheng-lei/",
         "path"     : "/program/presentations/cheng-lei/"
@@ -97,8 +105,8 @@
    {
      
         "title"    : "Network ForensICS Training",
-        "url"      : "/program/workshops/erik-hjelmvik/",
-        "path"     : "/program/workshops/erik-hjelmvik/"
+        "url"      : "/program/trainings/erik-hjelmvik/",
+        "path"     : "/program/trainings/erik-hjelmvik/"
      
    } ,
   
@@ -111,14 +119,6 @@
    } ,
   
    {
-     
-   } ,
-  
-   {
-     
-        "title"    : "About",
-        "url"      : "/about/",
-        "path"     : "/about/"
      
    } ,
   
@@ -140,9 +140,17 @@
   
    {
      
-        "title"    : "Workshops",
-        "url"      : "/program/workshops/",
-        "path"     : "/program/workshops/"
+        "title"    : "Speakers",
+        "url"      : "/program/speakers/",
+        "path"     : "/program/speakers/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Trainings",
+        "url"      : "/program/trainings/",
+        "path"     : "/program/trainings/"
      
    } ,
   
@@ -156,17 +164,17 @@
   
    {
      
-        "title"    : "Archive",
-        "url"      : "/about/archive/",
-        "path"     : "/about/archive/"
+        "title"    : "History",
+        "url"      : "/about/history/",
+        "path"     : "/about/history/"
      
    } ,
   
    {
      
-        "title"    : "Speakers",
-        "url"      : "/program/speakers/",
-        "path"     : "/program/speakers/"
+        "title"    : "Archive",
+        "url"      : "/about/archive/",
+        "path"     : "/about/archive/"
      
    } ,
   
@@ -220,17 +228,17 @@
   
    {
      
-        "title"    : "Advisory",
-        "url"      : "/about/advisory/",
-        "path"     : "/about/advisory/"
+        "title"    : "About",
+        "url"      : "/about/",
+        "path"     : "/about/"
      
    } ,
   
    {
      
-        "title"    : "History",
-        "url"      : "/about/history/",
-        "path"     : "/about/history/"
+        "title"    : "Advisory",
+        "url"      : "/about/advisory/",
+        "path"     : "/about/advisory/"
      
    } ,
   
@@ -261,8 +269,8 @@
    {
      
         "title"    : "ICS Scada Honeypot Technical Training",
-        "url"      : "/program/workshops/mikael-vingaard/",
-        "path"     : "/program/workshops/mikael-vingaard/"
+        "url"      : "/program/trainings/mikael-vingaard/",
+        "path"     : "/program/trainings/mikael-vingaard/"
      
    } ,
   
@@ -309,8 +317,8 @@
    {
      
         "title"    : "Cyber security for the energy sector – an introduction to ISO/IEC 27019 and the BDEW/OE Whitepaper",
-        "url"      : "/program/workshops/stephan-beirer/",
-        "path"     : "/program/workshops/stephan-beirer/"
+        "url"      : "/program/trainings/stephan-beirer/",
+        "path"     : "/program/trainings/stephan-beirer/"
      
    } ,
   
@@ -335,16 +343,16 @@
    {
      
         "title"    : "Erik Hjelmvik",
-        "url"      : "/program/workshops/erik-hjelmvik/",
-        "path"     : "program/workshops/erik-hjelmvik/"
+        "url"      : "/program/trainings/erik-hjelmvik/",
+        "path"     : "program/trainings/erik-hjelmvik/"
      
    } ,
   
    {
      
         "title"    : "Stephan Beirer",
-        "url"      : "/program/workshops/stephan-beirer/",
-        "path"     : "program/workshops/stephan-beirer/"
+        "url"      : "/program/trainings/stephan-beirer/",
+        "path"     : "program/trainings/stephan-beirer/"
      
    } ,
   
@@ -361,6 +369,14 @@
         "title"    : "Patrick Miller",
         "url"      : "/program/presentations/patrick-miller/",
         "path"     : "program/presentations/patrick-miller/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Arnaud Soullié",
+        "url"      : "/program/trainings/arnaud-soullie/",
+        "path"     : "program/trainings/arnaud-soullie/"
      
    } ,
   
@@ -407,46 +423,54 @@
    {
      
         "title"    : "Mikael Vingaard",
-        "url"      : "/program/workshops/mikael-vingaard/",
-        "path"     : "program/workshops/mikael-vingaard/"
+        "url"      : "/program/trainings/mikael-vingaard/",
+        "path"     : "program/trainings/mikael-vingaard/"
      
    } ,
   
    {
      
         "title"    : "Cheng Lei",
-        "url"      : "/",
-        "path"     : ""
+        "url"      : "/program/presentations/cheng-lei/",
+        "path"     : "program/presentations/cheng-lei/"
      
    } ,
   
    {
      
         "title"    : "Adam Ringwood",
-        "url"      : "/",
-        "path"     : ""
+        "url"      : "/program/presentations/adam-johnny/",
+        "path"     : "program/presentations/adam-johnny/"
      
    } ,
   
    {
      
         "title"    : "Johnny Xmas",
-        "url"      : "/",
-        "path"     : ""
+        "url"      : "/program/presentations/adam-johnny/",
+        "path"     : "program/presentations/adam-johnny/"
      
    } ,
   
    {
      
         "title"    : "Kai Thomsen",
-        "url"      : "/",
-        "path"     : ""
+        "url"      : "/program/presentations/kai-thomsen/",
+        "path"     : "program/presentations/kai-thomsen/"
      
    } ,
   
    {
      
         "title"    : "Monta Elkins",
+        "url"      : "/program/presentations/monta-elkins/",
+        "path"     : "program/presentations/monta-elkins/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Anne-Marie Eklund Löwinder",
         "url"      : "/",
         "path"     : ""
      

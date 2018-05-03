@@ -1,10 +1,10 @@
 ---
 title: "Cyber security for the energy sector – an introduction to ISO/IEC 27019 and the BDEW/OE Whitepaper"
-layout: workshop
+layout: training
 author: Stephan Beirer
 time: 23 October
-id: workshop
-permalink: "/program/workshops/stephan-beirer/"
+id: training
+permalink: "/program/trainings/stephan-beirer/"
 image: stephan-beirer.png
 company: GAI NetConsult GmbH
 ---

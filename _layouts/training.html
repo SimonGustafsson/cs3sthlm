@@ -5,7 +5,7 @@ layout: default
 
 <div class="sec-head sec-head-single-post">
     <div class="block-head">
-      <h4>Workshop</h4>
+      <h4>Training</h4>
       {% include breadcrumbs.html %}
     </div>
 </div>
@@ -31,14 +31,14 @@ layout: default
 
   <aside class="sidebar box-right">
     <input type="checkbox" id="row-one" />
-    <label for="row-one">All Workshops & Training</label>
-    <h4 class="checkbox-subline">All Workshops & Training</h4>
+    <label for="row-one">All Trainings & Tutorials</label>
+    <h4 class="checkbox-subline">All Trainings & Tutorials</h4>
     <span class="icon-plus"></span>
 
     <ul>
-    {% assign sorted_workshops = site.pages | sort: 'url' %}
-    {% for page in sorted_workshops %}
-    {% if page.id ==  'workshop' %}
+    {% assign sorted_trainings = site.pages | sort: 'url' %}
+    {% for page in sorted_trainings %}
+    {% if page.id ==  'training' %}
       <li><a href="{{ page.url | prepend: site.baseurl }}">
           <span class="p-title">{{ page.title }}</span>
           <span class="p-time">{{ page.time }}</span>

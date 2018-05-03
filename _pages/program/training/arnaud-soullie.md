@@ -1,13 +1,12 @@
 ---
 title: Pentesting Industrial Control Systems
-layout: workshop
+layout: training
 author: Arnaud Soullié
 time: 22-23 October
-id: workshop
-permalink: "/program/workshops/arnaud-soullie/"
+id: training
+permalink: "/program/trainings/arnaud-soullie/"
 image: arnaud-soullie.png
 company: Wavestone
-published: false
 ---
 
 On this intense 2-days training, you will learn everything you need to start pentesting Industrial Control Networks. We will cover the basics to help you understand what are the most common ICS vulnerabilities.

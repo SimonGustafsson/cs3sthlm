@@ -1,11 +1,11 @@
 ---
 title: Network Forens<b class="highlight-white">ICS</b> Training
 short-title: Network Forens<b class="highlight-white">ICS</b> Training
-layout: workshop
+layout: training
 author: Erik Hjelmvik
 time: 22-23 October
-id: workshop
-permalink: "/program/workshops/erik-hjelmvik/"
+id: training
+permalink: "/program/trainings/erik-hjelmvik/"
 image: erik-hjelmvik.png
 company: NETRESEC
 ---

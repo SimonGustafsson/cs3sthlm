@@ -3857,7 +3857,7 @@ h1, h2, h3, h4 {
     display: block;
   }
   .p-time, .p-author {
-    font-family: 'latoblack', sans-serif;
+    font-family: 'latobold', sans-serif;
     font-size: 12px;
     letter-spacing: 2px;
     color: rgba($white, .5);
@@ -3870,12 +3870,12 @@ h1, h2, h3, h4 {
     }
   }
   .p-time {
-    margin-right: 10px;
+    margin-right: 2px;
   }
   .p-author {
 
     &:nth-child(3) {
-      margin-left: 4px;
+      margin-left: 0;
 
       &:before {
         display: inline-block;

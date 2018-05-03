@@ -1,10 +1,10 @@
 ---
 title: ICS Scada Honeypot Technical Training
-layout: workshop
+layout: training
 author: Mikael Vingaard
 time: 22-23 October
-id: workshop
-permalink: "/program/workshops/mikael-vingaard/"
+id: training
+permalink: "/program/trainings/mikael-vingaard/"
 image: mikael-vingaard.png
 company: EnergiNet
 ---
