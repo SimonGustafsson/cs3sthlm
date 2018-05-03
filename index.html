@@ -25,9 +25,9 @@ id: home
 
   <div class="feed-news">
     <ul>
-      {% for post in site.posts limit:5 %}
+      {% for post in site.posts limit:3 %}
       <li>
-        <a href="{{ site.baseurl }}{{ post.url }}"><span class="feed-category category-{{ post.categories | join: ' ' }}">{{ post.categories }}</span><p>{{ post.title }}</p><span class="read-more-icon"></span></a>
+        <a href="{{ site.baseurl }}{{ post.url }}"><span class="feed-category category-{{ post.categories | join: ' ' }}">{{ post.categories }}</span><span class="feed-date">{{ post.date | date: "%-d %b %-Y" }}</span><p>{{ post.title }}</p><span class="read-more-icon"></span></a>
       </li>
       {% endfor %}
     </ul>

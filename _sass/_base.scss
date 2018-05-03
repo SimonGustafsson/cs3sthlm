@@ -937,6 +937,7 @@ h1, h2, h3, h4 {
         border-radius: 20px;
         padding: 1px 14px 4px;
         box-sizing: border-box;
+        text-decoration: none;
 
         @include media-query($mobile) {
           width: calc(100% - 5px);
@@ -946,6 +947,9 @@ h1, h2, h3, h4 {
           p { color: $yellow; }
   
           .feed-category {
+            color: $yellow;
+          }
+          .feed-date {
             color: $yellow;
           }
           .read-more-icon {
@@ -1007,6 +1011,17 @@ h1, h2, h3, h4 {
         font-size: 13px;
       }
     }
+    .feed-date {
+      font-family: 'latobold', sans-serif;
+      font-weight: normal;
+      font-size: 12px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: rgba($white, 1);
+      margin-right: 10px;
+
+      @include transition-ease;
+    }
 
     .category-news {
       color: #2176AE;
@@ -1017,7 +1032,7 @@ h1, h2, h3, h4 {
 
     p {
       display: inline-block;
-      font-family: 'latoregular', sans-serif;
+      font-family: 'latobold', sans-serif;
       font-weight: normal;
       font-size: 12px;
       text-transform: uppercase;

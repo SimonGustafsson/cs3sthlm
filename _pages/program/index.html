@@ -45,7 +45,7 @@ permalink: "/program/"
     <div class="col-6">
       <div class="col-4-6 workshop--block-group workshop-program-group">
         {% for page in site.pages %}
-        {% if page.id ==  'workshop' %}
+        {% if page.id ==  'training' %}
         <a href="{{ page.url | prepend: site.baseurl }}" class="workshop--block-item">
           <img src="{{ site.baseurl }}/assets/speakers/{{ page.image }}">
           <div class="workshop--block-content">
@@ -62,13 +62,13 @@ permalink: "/program/"
       </div>
 
       <div class="col-2-6">
-        <h3 class="headline">Workshops & Tutorials</h3>
+        <h3 class="headline">Trainings & Tutorials</h3>
 
-        <p>Between 23rd and 24th of October, the days before the summit, we will provide different full-day tutorials and training with world-renowned experts. We have tutorials in a number of different areas such as forensics in computers and in networks, introduction to cybersecurity standards, and information gathering.</p>
+        <p>Between 22rd and 23th of October, the days before the summit, we will provide different full-day tutorials and training with world-renowned experts. We have tutorials in a number of different areas such as forensics in computers and in networks, introduction to cybersecurity standards, and information gathering.</p>
 
         <p>The tutorials ranging from theoretical overviews via hands-on practical to highly technical classes.</p>
 
-        <a href="{{ site.baseurl }}/program/workshops/" class="btn btn-primary">View Workshops</a>
+        <a href="{{ site.baseurl }}/program/trainings/" class="btn btn-primary">View Workshops</a>
       </div>
 
     </div>

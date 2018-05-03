@@ -831,13 +831,16 @@ h1, h2, h3, h4 {
         background: #2b2f36;
         border-radius: 20px;
         padding: 1px 14px 4px;
-        box-sizing: border-box; }
+        box-sizing: border-box;
+        text-decoration: none; }
         @media screen and (max-width: 768px) {
           .introduction .feed-news li a {
             width: calc(100% - 5px); } }
         .introduction .feed-news li a:hover p {
           color: #ef7d00; }
         .introduction .feed-news li a:hover .feed-category {
+          color: #ef7d00; }
+        .introduction .feed-news li a:hover .feed-date {
           color: #ef7d00; }
         .introduction .feed-news li a:hover .read-more-icon {
           border-color: #ef7d00; }
@@ -888,13 +891,25 @@ h1, h2, h3, h4 {
     @media screen and (min-width: 1680px) {
       .introduction .feed-news .feed-category {
         font-size: 13px; } }
+  .introduction .feed-news .feed-date {
+    font-family: 'latobold', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: white;
+    margin-right: 10px;
+    transition: 0.24s all ease-in-out;
+    -moz-transition: 0.24s all ease-in-out;
+    -webkit-transtiion: 0.24s all ease-in-out;
+    -o-transition: 0.24s all ease-in-out; }
   .introduction .feed-news .category-news {
     color: #2176AE; }
   .introduction .feed-news .category-press {
     color: #C43B5B; }
   .introduction .feed-news p {
     display: inline-block;
-    font-family: 'latoregular', sans-serif;
+    font-family: 'latobold', sans-serif;
     font-weight: normal;
     font-size: 12px;
     text-transform: uppercase;
