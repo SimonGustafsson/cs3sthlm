@@ -108,3 +108,19 @@ to technically assess the security level of an ICS. It will also be beneficial f
 
 #### Key takeaways
 The attendees will learn what are the common ICS vulnerabilities, the tools and techniques to assess an ICS (both Windows systems and PLCs), and will practice these techniques during an hands-on Capture The Flag on real hardware.
+
+#### Training Preparations
+Laptop Required
+
+Attendees will need to bring a laptop that fits the following specs:
+
+* A PC with VirtualBox capable of running virtual machines.
+* At least 4GB RAM
+* At least 40 GB free disk space
+* VirtualBox (64 bit) installed (VMWare could be used but will not be supported in the training)
+
+Several VirtualBox VMs will be provided on USB flash drives at the beginning of the training.
+
+Please note that having a 64-bit CPU and a 64-bit OS is not always enough to support 64-bit virtualization. You might need to enable features such as ”AMD-V”, ”VT-x” or ”Hyper-V” in BIOS in order to run virtual machines in 64-bit mode.
+
+Please try to run a 64-bit VM prior to the training.
