@@ -6,7 +6,7 @@ speaker:
  - name: Kai Thomsen
    role: DFIR (Incident Response team lead)
    work: AUDI
-   image: temp.png
+   image: kai-thomsen.png
 id: presentation
 ---
 
