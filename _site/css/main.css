@@ -2604,7 +2604,8 @@ h1, h2, h3, h4 {
     @media screen and (max-width: 768px) {
       .speaker-block--content .col-3-6 {
         width: 100%;
-        padding: 20px; } }
+        padding: 20px;
+        margin-left: 0; } }
   .speaker-block--content ul {
     list-style: none;
     font-family: 'latoregular', sans-serif;
