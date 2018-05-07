@@ -2453,7 +2453,8 @@ h1, h2, h3, h4 {
         position: fixed;
         top: 0;
         left: 0;
-        overflow: scroll; } }
+        overflow: scroll;
+        -webkit-overflow-scrolling: touch; } }
 
 .modal-close {
   display: block;
