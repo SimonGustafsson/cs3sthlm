@@ -95,9 +95,33 @@
   
    {
      
+        "title"    : "Introduction to Threat Hunting in ICS",
+        "url"      : "/program/trainings/ben-daniel/",
+        "path"     : "/program/trainings/ben-daniel/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Hunting and Responding in ICS",
+        "url"      : "/program/presentations/ben-mark/",
+        "path"     : "/program/presentations/ben-mark/"
+     
+   } ,
+  
+   {
+     
         "title"    : "Attacking PLCs by PLC in deep",
         "url"      : "/program/presentations/cheng-lei/",
         "path"     : "/program/presentations/cheng-lei/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Stateful Protocol Hunting",
+        "url"      : "/program/presentations/dan-daniel/",
+        "path"     : "/program/presentations/dan-daniel/"
      
    } ,
   
@@ -131,9 +155,9 @@
   
    {
      
-        "title"    : "Call for Participation",
-        "url"      : "/call-for-proposals/",
-        "path"     : "/call-for-proposals/"
+        "title"    : "Presentations",
+        "url"      : "/program/presentations/",
+        "path"     : "/program/presentations/"
      
    } ,
   
@@ -142,6 +166,78 @@
         "title"    : "News",
         "url"      : "/news/",
         "path"     : "/news/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Contact",
+        "url"      : "/contact/",
+        "path"     : "/contact/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Practical Details",
+        "url"      : "/practical-details/",
+        "path"     : "/practical-details/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Press",
+        "url"      : "/press/",
+        "path"     : "/press/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "ICS Lab",
+        "url"      : "/ics-lab/",
+        "path"     : "/ics-lab/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Archive",
+        "url"      : "/about/archive/",
+        "path"     : "/about/archive/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "History",
+        "url"      : "/about/history/",
+        "path"     : "/about/history/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Advisory",
+        "url"      : "/about/advisory/",
+        "path"     : "/about/advisory/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "About",
+        "url"      : "/about/",
+        "path"     : "/about/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Call for Participation",
+        "url"      : "/call-for-proposals/",
+        "path"     : "/call-for-proposals/"
      
    } ,
   
@@ -171,22 +267,6 @@
   
    {
      
-        "title"    : "History",
-        "url"      : "/about/history/",
-        "path"     : "/about/history/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Archive",
-        "url"      : "/about/archive/",
-        "path"     : "/about/archive/"
-     
-   } ,
-  
-   {
-     
         "title"    : "Home",
         "url"      : "/",
         "path"     : ""
@@ -195,61 +275,21 @@
   
    {
      
-        "title"    : "Presentations",
-        "url"      : "/program/presentations/",
-        "path"     : "/program/presentations/"
+   } ,
+  
+   {
+     
+        "title"    : "ICS Strategic Planning and War Gaming",
+        "url"      : "/program/trainings/joe-slowik/",
+        "path"     : "/program/trainings/joe-slowik/"
      
    } ,
   
    {
      
-        "title"    : "ICS Lab",
-        "url"      : "/ics-lab/",
-        "path"     : "/ics-lab/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Press",
-        "url"      : "/press/",
-        "path"     : "/press/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Practical Details",
-        "url"      : "/practical-details/",
-        "path"     : "/practical-details/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Contact",
-        "url"      : "/contact/",
-        "path"     : "/contact/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "About",
-        "url"      : "/about/",
-        "path"     : "/about/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Advisory",
-        "url"      : "/about/advisory/",
-        "path"     : "/about/advisory/"
-     
-   } ,
-  
-   {
+        "title"    : "Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense",
+        "url"      : "/program/presentations/joe-slowik/",
+        "path"     : "/program/presentations/joe-slowik/"
      
    } ,
   
@@ -262,6 +302,22 @@
    } ,
   
    {
+     
+   } ,
+  
+   {
+     
+        "title"    : "Using fake BTS as a part of pentest of devices using SIM cards for data transmission",
+        "url"      : "/program/presentations/marcin-dudek/",
+        "path"     : "/program/presentations/marcin-dudek/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Incident Response: Learning as you go is Expensive",
+        "url"      : "/program/presentations/mark-stacey/",
+        "path"     : "/program/presentations/mark-stacey/"
      
    } ,
   
@@ -480,6 +536,54 @@
         "title"    : "Anne-Marie Eklund Löwinder",
         "url"      : "/",
         "path"     : ""
+     
+   } ,
+  
+   {
+     
+        "title"    : "Joe Slowik",
+        "url"      : "/program/presentations/joe-slowik/",
+        "path"     : "program/presentations/joe-slowik/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Daniel Michaud-Soucy",
+        "url"      : "/program/presentations/dan-daniel/",
+        "path"     : "program/presentations/dan-daniel/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Mark Stacey",
+        "url"      : "/",
+        "path"     : ""
+     
+   } ,
+  
+   {
+     
+        "title"    : "Ben Miller",
+        "url"      : "/program/presentations/ben-mark/",
+        "path"     : "program/presentations/ben-mark/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Dan Gunter",
+        "url"      : "/program/presentations/dan-daniel/",
+        "path"     : "program/presentations/dan-daniel/"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Marcin Dudek",
+        "url"      : "/program/presentations/marcin-dudek/",
+        "path"     : "program/presentations/marcin-dudek/"
      
    } 
   

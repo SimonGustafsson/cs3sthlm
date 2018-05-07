@@ -326,8 +326,8 @@
   type: presentation
   permalink: program/presentations/kai-thomsen/
   name: Kai Thomsen
-  role: DFIR
-  work: AUDI
+  role: Lead Incident Responder
+  work: AUDI AG
   country: Germany
   shortcode: DE
   image: kai-thomsen.png
@@ -372,3 +372,113 @@
   title: 
   description: |
 
+
+- id: 18
+  type: presentation
+  permalink: program/presentations/joe-slowik/
+  name: Joe Slowik
+  role: Adversary Hunter
+  work: Dragos Inc
+  country: United States
+  shortcode: US
+  image: joe-slowik.png
+  bio: Joe Slowik currently hunts ICS adversaries for Dragos, pursuing threat activity groups through their malware, their communications, and any other observables available. Prior to his time at Dragos, Joe ran the Incident Response team at Los Alamos National Laboratory, and served as an Information Warfare Officer in the US Navy. Throughout his career in network defense, Joe has consistently worked to ‘take the fight to the adversary’ by applying forward-looking, active defense measures to constantly keep threat actors off balance. When not hunting adversaries or playing with open source security projects, Joe loves playing ice hockey and building Legos.
+  date: 22-23 October
+  time:
+  place:
+  title: "Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense"
+  description: |
+
+
+- id: 19
+  type: presentation
+  permalink: program/presentations/dan-daniel/
+  name: Daniel Michaud-Soucy
+  role: Principal Threat Analyst
+  work: Dragos Inc
+  country: United States
+  shortcode: US
+  image: daniel-michaud-soucy.png
+  bio: Daniel Michaud-Soucy is a Principal Threat Analyst, Threat Operations Center at the industrial cyber security company Dragos, Inc.. Daniel is focusing on threat hunting and incident response services within a variety of industrial environments. Daniel previously worked for Sempra Energy on RD&D tasks revolving around machine to machine automated threat response, data aggregation, advanced threat detection and secure system interfaces for ICS/SCADA. Daniel also worked with Red Tiger Security performing cyber vulnerability assessments and penetration tests on oil & gas, electrical power, water treatment and pharmaceutical ICS/SCADA environments. 
+  date: One Day
+  time:
+  place:
+  partner: Dan Gunter
+  title: Stateful Protocol Hunting
+  description: |
+
+
+- id: 20
+  type: presentation
+  permalink:
+  name: Mark Stacey
+  role: Principal Threat Analyst
+  work: Dragos Inc
+  country: United States
+  shortcode: US
+  image: mark-stacey.png
+  bio: Mark Stacey is currently a Principle Threat Analyst with Dragos Inc. In this role, Mark delivers holistic incident response, threat hunting, and adversary research for Industrial Control Systems worldwide. Prior to joining Dragos, Mark was a member of RSA's Incident Response team for 5 years where he provided incident response, discovery, and forensic services globally for private industry, financial institutions, law firms, foreign and domestic governments. Mark spent 7 years with the Department of Energy (DOE) performing cyber and intelligence analysis for various government clients. He has functioned in both cybersecurity operations and research within the intelligence community and frequently provides community education through outreach programs with federal agencies.
+  date:
+  time:
+  place:
+  presentation:
+    - title: Hunting and Responding in ICS
+      permalink: program/presentations/ben-mark/
+      partner: Ben Miller
+    - title: "Incident Response: Learning as you go is Expensive"
+      permalink: program/presentations/mark-stacey/
+  title:
+  description: |
+
+
+- id: 21
+  type: presentation
+  permalink: program/presentations/ben-mark/
+  name: Ben Miller
+  role: Director of Threat Operations
+  work: Dragos Inc
+  country: United States
+  shortcode: US
+  image: ben-miller.png
+  bio: Ben Miller is Director, Threat Operations Center at the industrial cyber security company Dragos, Inc. where he leads a team of analysts in performing active defense inside of ICS/SCADA networks. In this capacity, he is responsible for performing a threat hunting, incident response, and malware analysis mission for the industrial community. Previous to his role at Dragos, Inc. Ben was the Associate Director, Electricity Information Sharing & Analysis Center (Electricity ISAC) and led cyber analysis for the sector. 
+  date:
+  time:
+  place:
+  partner: Mark Stacey
+  title: Hunting and Responding in ICS
+  description: |
+
+
+- id: 22
+  type: presentation
+  permalink: program/presentations/dan-daniel/
+  name: Dan Gunter
+  role: Principal Threat Analyst
+  work: Dragos Inc
+  country: United States
+  shortcode: US
+  image: dan-gunter.png
+  bio: Dan Gunter currently works as a Principal Threat Analyst at the industrial control system cyber security company Dragos. Before Dragos, he served in the US Air Force in a variety of role ranging from working in the Air Force's Computer Emergency Response Team to developing information security applications. Dan previously presented at Blackhat, Schmoocon, and s4x18.
+  date:
+  time:
+  place:
+  partner: Daniel Michaud-Soucy
+  title: Stateful Protocol Hunting
+  description: |
+
+
+- id: 23
+  type: presentation
+  permalink: program/presentations/marcin-dudek/
+  name: Marcin Dudek
+  role: IT Security Expert
+  work: ComCERT.PL
+  country: Poland
+  shortcode: PL
+  image: temp.png
+  bio: IT security expert, member of ComCERT.PL Team, the team that delivers IT incident response related services. He specializes in the security of industrial control systems. A graduate of the University of Warwick in the Great Britain. Founder of the scientist circle at the Military University of Technology, dealing with cyber security. He has been awarded twice for finding vulnerabilities in Microsoft products. Together with the team, he won the award for the best decision-making document in case of cyber conflict in the Cyber 9/12 Europe Competition, organized by the Atlantic Council. Actively tweeting on @dudekmar
+  date:
+  time:
+  place:
+  title: Using fake BTS as a part of pentest of devices using SIM cards for data transmission
+  description: |

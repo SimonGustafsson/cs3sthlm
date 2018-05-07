@@ -1,12 +1,14 @@
 ---
 title: ICS Scada Honeypot Technical Training
 layout: training
-author: Mikael Vingaard
 time: 22-23 October
 id: training
 permalink: "/program/trainings/mikael-vingaard/"
-image: mikael-vingaard.png
-company: EnergiNet
+speaker: 
+ - name: Mikael Vingaard
+   role: IT Security Consultant
+   work: EnergiNet
+   image: mikael-vingaard.png
 ---
 
 Get access this exciting two days deep dive workshop on SCADA honeypots. During the first day, the students will be guided in the different phases in planning, deploying and analyzing the collected data from a ICS/SCADA honeypot.

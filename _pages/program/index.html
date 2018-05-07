@@ -47,12 +47,25 @@ permalink: "/program/"
         {% for page in site.pages %}
         {% if page.id ==  'training' %}
         <a href="{{ page.url | prepend: site.baseurl }}" class="workshop--block-item">
-          <img src="{{ site.baseurl }}/assets/speakers/{{ page.image }}">
+          {% if page.image != null %}
+          <div class="workshop--block-image">
+            <img src="{{ site.baseurl }}/assets/speakers/{{ page.image }}">
+          </div>
+          {% else %}
+          <div class="workshop--block-image">
+            {% for item in page.speaker %}
+            <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}">
+            {% endfor %}
+          </div>
+          {% endif %}
+          <!-- <img src="{{ site.baseurl }}/assets/speakers/{{ page.image }}"> -->
           <div class="workshop--block-content">
             <h2 class="workshop--block-title">{{ page.title }}</h2>
             <div class="workshop--meta">
               <span class="workshop--meta-time">{{ page.time }}</span>
-              <span class="workshop--meta-author">{{ page.author }}</span>
+              {% for item in page.speaker %}
+              <span class="workshop--meta-author">{{ item.name }}</span>
+              {% endfor %}
             </div>
             <p>{{ page.content | strip_html | truncatewords: 12 }}</p>
           </div>

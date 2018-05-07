@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>CS3STHLM | ICS Scada Honeypot Technical Training</title>
+  <title>CS3STHLM | Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense</title>
   <meta name="description" content="CS3STHLM - Stockholm international summit on cyber-security in SCADA and Industrial Control Systems. CS3STHLM is an annual summit that gather the most import...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="/program/trainings/mikael-vingaard/">
+  <link rel="canonical" href="/program/presentations/joe-slowik/">
   <link rel="alternate" type="application/rss+xml" title="CS3STHLM" href="/feed.xml">
   <link rel="icon" type="image/png" href="/assets/favicon-32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="/assets/favicon-16x16.png" sizes="16x16" />
@@ -72,7 +72,7 @@
 
 <div class="sec-head sec-head-single-post">
     <div class="block-head">
-      <h4>Training</h4>
+      <h4>Presentations</h4>
       
 <ul class="bc-nav">
 	<li><a href="/">Home</a></li>
@@ -82,11 +82,11 @@
   	
 	
 	
-  		<li><a href="/program/trainings/">Trainings</a></li>
+  		<li><a href="/program/presentations/">Presentations</a></li>
   	
 	
 	
-  		<li>Mikael vingaard</li>
+  		<li>Joe slowik</li>
   	
 	
 </ul>
@@ -96,173 +96,152 @@
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <aside class="sidebar box-left">
-    <h4>Duration</h4>
-    <span class="post-time">22-23 October</span>
-
     
-    <ul>
-      <li><h4>Taught By</h4><span class="post-author">Mikael Vingaard</span></li>
-      <li><h4>Role</h4><span class="post-role">IT Security Consultant</span></li>
-      <li><h4>Company</h4><span class="post-company">EnergiNet</span></li>
-      <li><img src="/assets/speakers/mikael-vingaard.png"></li>
+    <ul class="meta-data--presentation">
+      <li><h4>Author</h4><span class="post-author">Joe Slowik</span></li>
+      <li><h4>Role</h4><span class="post-author">Adversary Hunter</span></li>
+      <li><h4>Work</h4><span class="post-author">Dragos Inc</span></li>
+      <li><img src="/assets/speakers/joe-slowik.png"></li>
     </ul>
     
   </aside>
 
   <div class="post-content" itemprop="articleBody">
     <header class="post-header">
-      <h1 class="post-title" itemprop="name headline">ICS Scada Honeypot Technical Training</h1>
+      <h1 class="post-title" itemprop="name headline">Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense</h1>
     </header>
 
-    <p>Get access this exciting two days deep dive workshop on SCADA honeypots. During the first day, the students will be guided in the different phases in planning, deploying and analyzing the collected data from a ICS/SCADA honeypot.</p>
+    <p>As ICS defense and detection matures, both defenders and products move increasingly away from traditional IOC approaches to newer, more robust models: anomaly detection, and threat behavioral analytics. While an appropriate, defense-in-depth position would work to integrate both approaches into a single defensive schema, scarce resources and funding constraints mean that organizations will need to choose one or the other for their monitoring and detection needs.</p>
 
-<h3 id="day-1">Day 1</h3>
-<h4 id="introduction-to-honeypots-systems-with-special-focus-on-icsscada">Introduction to Honeypots systems, with special focus on ICS/SCADA)</h4>
+<p>After providing an overview of both these approaches to threat detection, this presentation will then critically evaluate what these approaches enable from a defensive perspective as specifically required for ICS networks. The result will not just be a simple ‘product type’ comparison, but rather a robust investigation of the theoretical underpinnings of these approaches, and what they enable a defender to accomplish within the monitored network. Specific details will include completeness of coverage beyond ‘known bad’ items; ability to incorporate contextualization into alerting; and capability for detecting realistic threats in the ICS environment.</p>
 
-<p>The first day, the students will introduced to different types of honeypot systems and pro/con’s of each honeypot type.</p>
-
-<p>The students will be guided thou the different phases in planning, deploying and analyzing the collected data from a ICS/SCADA honeypot.</p>
-
-<p>We will deploy live honeypots on the internet and see how attackers would start to probe our honeypots. Furthermore, we will also attack the deployed honeypots ourselves; using SCADA pen testing tools and similar software. We will learn to spot various tools, and how to hide the signatures of a default honeypot.</p>
-
-<h3 id="day-2">Day 2</h3>
-<h4 id="deploy-more-honeypots-and-move-from-low-interaction-to-mediumhigh-interaction-honeypots">Deploy more honeypots and move from low interaction to medium/high interaction Honeypots</h4>
-
-<p>We will continue the modification of the SCADA honeypot from day 1 and will also deploy a new Internet based ICS/SCADA credential honeypot to our research arsenal - for further research/analyzing.</p>
-
-<p>The students will on day 2 build a purpose-build in-house Honeypot lab, where we change a low interaction honeypot to act as a realistic device (medium/high interaction honeypot) to ensure that attackers can’t spot the honeypot ‘a mile away’. This would give the students even better opportunity to do research/threat intelligence data on high interaction honeypots.</p>
-
-<p>The 2nd day would also provide opportunities to deep dive into students ideas for further activities after the workshop.</p>
-
-<h4 id="course-syllabus">Course syllabus</h4>
-
-<ul>
-  <li>Introduction to Honeypots systems, with special focus on ICS/SCADA.</li>
-  <li>Building and Deployment of a live honeypot on the internet.</li>
-  <li>Useful tools to pentest SCADA honeypot systems</li>
-  <li>How to read the logs, and spot different attack types</li>
-  <li>Useful modification of the honeypot configuration</li>
-  <li>Learning how to build and deploy a medium/high interactive honeypot - for even better research data/TTP’s</li>
-  <li>Closing remark and ideas for further activities.</li>
-</ul>
-
-<p>Each student will get access to a numbers of virtual lab servers to learn how to deploy and customize settings to avoid the default honeypot signature and evolve the low-interaction honeypot to be a true high interactive honeypot.</p>
-
-<h4 id="takeaway-for-participants">Takeaway for participants</h4>
-
-<p>After this 2 days workshop, you will be able to plan and deploy different types of ICS/SCADA related open source honeypots, either for research or to defend your corporate/industrial assets.
-You will understand different Honeypot types and deceptions methods.</p>
-
-<p>You will leave the class room with a knowledge on how to change the default signature on the honeypots and the understanding of the most common tools who will attack your honeypots.</p>
-
-<h4 id="requirements">Requirements</h4>
-
-<p>Students must bring a suitable laptop able to connect to the Internet. It must have a SSH client (Putty/term or similar software) installed. All lab servers are based on the internet, so no hypervisor like Vmware/VirtualBox are required on the student device. Knowledge of basic Linux commands, text editor and usage of the command line would be beneficial, but not a strict requirement to benefit from this course.</p>
-
-<h4 id="workshop-level">Workshop Level</h4>
-
-<p>Beginner to Intermediate</p>
+<p>To provide appropriate context to the discussion, the approaches will be compared to ICS intrusion examples as a means of evaluating their efficacy and viability. By adopting a critical approach to this evaluation, ICS defense practitioners can gain insight into the true costs and benefits of anomaly detection and threat behavior analytics. The expected result of this presentation will be an analysis of the benefits and drawbacks of these approaches with respect to the specific requirements for ICS defense, enabling attendees to evaluate relative to their own operational needs which approach works best for their environment.</p>
 
 
+    
+      
+
+    
+      
+
+    
+      
+
+    
+      
+
+    
+      
+
+    
+      
+
+    
+      
+
+    
+      
+
+    
+      
+
+    
+      
+
+    
+      
+
+    
+      
+
+    
+      
+
+    
+      
+
+    
+      
+
+    
+      
+
+    
+      
+
+    
+      
+
+    
+      
+
+    
+      
+
+    
+      
+
+    
+      
+
+    
+      
+
+    
   </div>
 
   <aside class="sidebar box-right">
     <input type="checkbox" id="row-one" />
-    <label for="row-one">All Trainings & Tutorials</label>
-    <h4 class="checkbox-subline">All Trainings & Tutorials</h4>
+    <label for="row-one">All Presentations</label>
+    <h4>All Presentations</h4>
     <span class="icon-plus"></span>
-
     <ul>
     
     
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-      <li><a href="/program/trainings/arnaud-soullie/">
-          <span class="p-title">Pentesting Industrial Control Systems</span>
-          <span class="p-time">22-23 October</span>
+      <li><a href="/program/presentations/adam-johnny/">
+          <span class="p-title">The Internet of Things on the Internet</span>
           
-          <span class="p-author">Arnaud Soullié</span>
+          <span class="p-author">Adam Ringwood</span>
+          
+          <span class="p-author">Johnny Xmas</span>
           
       </a></li>
     
     
     
-      <li><a href="/program/trainings/ben-daniel/">
-          <span class="p-title">Introduction to Threat Hunting in ICS</span>
-          <span class="p-time">23 October</span>
+    
+    
+    
+    
+    
+    
+      <li><a href="/program/presentations/ben-mark/">
+          <span class="p-title">Hunting and Responding in ICS</span>
           
           <span class="p-author">Ben Miller</span>
+          
+          <span class="p-author">Mark Stacey</span>
+          
+      </a></li>
+    
+    
+    
+      <li><a href="/program/presentations/cheng-lei/">
+          <span class="p-title">Attacking PLCs by PLC in deep</span>
+          
+          <span class="p-author">Cheng Lei</span>
+          
+      </a></li>
+    
+    
+    
+      <li><a href="/program/presentations/dan-daniel/">
+          <span class="p-title">Stateful Protocol Hunting</span>
+          
+          <span class="p-author">Dan Gunter</span>
           
           <span class="p-author">Daniel Michaud-Soucy</span>
           
@@ -270,19 +249,68 @@ You will understand different Honeypot types and deceptions methods.</p>
     
     
     
-      <li><a href="/program/trainings/erik-hjelmvik/">
-          <span class="p-title">Network Forens<b class="highlight-white">ICS</b> Training</span>
-          <span class="p-time">22-23 October</span>
+      <li><a href="/program/presentations/dieter-frank/">
+          <span class="p-title">Operator Jail breakout</span>
           
-          <span class="p-author">Erik Hjelmvik</span>
+          <span class="p-author">Dieter Sarrazyn</span>
+          
+          <span class="p-author">Frank Lycops</span>
           
       </a></li>
     
     
     
-      <li><a href="/program/trainings/joe-slowik/">
-          <span class="p-title">ICS Strategic Planning and War Gaming</span>
-          <span class="p-time">22-23 October</span>
+    
+    
+      <li><a href="/program/presentations/erwin-rik/">
+          <span class="p-title">The good, the bad and the segmented</span>
+          
+          <span class="p-author">Erwin Kooi</span>
+          
+          <span class="p-author">Rik van Hees</span>
+          
+      </a></li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <li><a href="/program/presentations/joe-slowik/">
+          <span class="p-title">Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense</span>
           
           <span class="p-author">Joe Slowik</span>
           
@@ -290,21 +318,10 @@ You will understand different Honeypot types and deceptions methods.</p>
     
     
     
-      <li><a href="/program/trainings/mikael-vingaard/">
-          <span class="p-title">ICS Scada Honeypot Technical Training</span>
-          <span class="p-time">22-23 October</span>
+      <li><a href="/program/presentations/kai-thomsen/">
+          <span class="p-title">Attacking Cars Revisited: On the Road Towards a More Resilient Connected Vehicle Infrastructure</span>
           
-          <span class="p-author">Mikael Vingaard</span>
-          
-      </a></li>
-    
-    
-    
-      <li><a href="/program/trainings/stephan-beirer/">
-          <span class="p-title">Cyber security for the energy sector – an introduction to ISO/IEC 27019 and the BDEW/OE Whitepaper</span>
-          <span class="p-time">23 October</span>
-          
-          <span class="p-author">Stephan Beirer</span>
+          <span class="p-author">Kai Thomsen</span>
           
       </a></li>
     
@@ -312,7 +329,71 @@ You will understand different Honeypot types and deceptions methods.</p>
     
     
     
+      <li><a href="/program/presentations/marcin-dudek/">
+          <span class="p-title">Using fake BTS as a part of pentest of devices using SIM cards for data transmission</span>
+          
+          <span class="p-author">Marcin Dudek</span>
+          
+      </a></li>
     
+    
+    
+      <li><a href="/program/presentations/mark-stacey/">
+          <span class="p-title">Incident Response: Learning as you go is Expensive</span>
+          
+          <span class="p-author">Mark Stacey</span>
+          
+      </a></li>
+    
+    
+    
+      <li><a href="/program/presentations/marty-edwards/">
+          <span class="p-title">Think like a hacker but act like an engineer</span>
+          
+          <span class="p-author">Marty Edwards</span>
+          
+      </a></li>
+    
+    
+    
+    
+    
+      <li><a href="/program/presentations/monta-elkins/">
+          <span class="p-title">Jumping Air Gaps</span>
+          
+          <span class="p-author">Monta Elkins</span>
+          
+      </a></li>
+    
+    
+    
+    
+    
+      <li><a href="/program/presentations/patrick-miller/">
+          <span class="p-title">Industrial Technology Trajectory: Running With Scissors</span>
+          
+          <span class="p-author">Patrick Miller</span>
+          
+      </a></li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <li><a href="/program/presentations/william-middleton/">
+          <span class="p-title">Securing the ICS lab network</span>
+          
+          <span class="p-author">William Middleton</span>
+          
+      </a></li>
     
     
     
@@ -320,12 +401,10 @@ You will understand different Honeypot types and deceptions methods.</p>
     
     
     </ul>
+    
   </aside>
 
 </article>
-
-  <a href="https://tickets.4sics.se" target="_blank" class="btn btn-primary btn-yellow btn-ticket">Buy Ticket</a>
-
 </section>
     </div>
 

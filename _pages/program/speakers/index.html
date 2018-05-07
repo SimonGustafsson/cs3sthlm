@@ -15,7 +15,7 @@ permalink: "/program/speakers/"
     	<h2>World Class Content</h2>
     	<div class="btn-group">
     		<a href="{{ site.baseurl }}/program/presentations/" class="btn btn-primary"><span>View</span> Presentations</a>
-    		<a href="{{ site.baseurl }}/program/workshops/" class="btn btn-primary"><span>View</span> Trainings</a>
+    		<a href="{{ site.baseurl }}/program/trainings/" class="btn btn-primary"><span>View</span> Trainings</a>
     	</div>
     </div>
 
@@ -66,6 +66,16 @@ permalink: "/program/speakers/"
 						{% if speaker.partner != null %}
 						<span class="speaker-cospeaker">with {{ speaker.partner }}</span>
 						{% endif %}
+					</div>
+					{% else %}
+					<div class="col-2-6">
+						<h4 class="headline">{{ speaker.type }}</h4>
+						{% for item in speaker.presentation %}
+						<a href="{{ site.baseurl }}/{{ item.permalink }}" class="speaker-permalink">{{ item.title }}</a>
+						{% if item.partner != null %}
+						<span class="speaker-cospeaker">with {{ item.partner }}</span>
+						{% endif %}
+						{% endfor %}
 					</div>
 					{% endif %}
 

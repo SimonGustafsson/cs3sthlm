@@ -2106,6 +2106,10 @@ h1, h2, h3, h4 {
       border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
       .workshop--block-group .workshop--block-item .workshop--meta-time {
         margin-right: 10px; }
+      .workshop--block-group .workshop--block-item .workshop--meta-author:nth-child(3):before {
+        display: inline-block;
+        content: "\0026";
+        margin-right: 4px; }
 
 /**
   SPEAKER LIST */
@@ -2665,6 +2669,9 @@ h1, h2, h3, h4 {
     font-style: italic;
     color: rgba(255, 255, 255, 0.75);
     margin-top: 8px; }
+    @media screen and (min-width: 1680px) {
+      .speaker-block--content .speaker-cospeaker {
+        font-size: 16px; } }
 
 /**
   PARTNER LIST */
@@ -2876,11 +2883,11 @@ h1, h2, h3, h4 {
       margin-bottom: 20px; } }
   .box-left ul {
     list-style: none; }
-    .box-left ul:nth-child(2) {
+    .box-left ul:nth-child(3), .box-left ul:nth-child(4) {
       position: relative;
       margin-top: 20px;
       padding-top: 20px; }
-      .box-left ul:nth-child(2):before {
+      .box-left ul:nth-child(3):before, .box-left ul:nth-child(4):before {
         display: block;
         content: '';
         width: 120px;
@@ -2889,6 +2896,9 @@ h1, h2, h3, h4 {
         position: absolute;
         left: 0;
         top: 0; }
+      @media screen and (min-width: 1680px) {
+        .box-left ul:nth-child(3):before, .box-left ul:nth-child(4):before {
+          width: 165px; } }
     @media screen and (max-width: 768px) {
       .box-left ul {
         display: -webkit-box;
@@ -2937,11 +2947,11 @@ h1, h2, h3, h4 {
             font-size: 18px; } }
         .box-left ul li span > a:hover {
           color: #ef7d00; }
-  .box-left .post-time, .box-left .post-author, .box-left .post-company {
+  .box-left .post-time, .box-left .post-author, .box-left .post-company, .box-left .post-role {
     font-family: 'latobold', sans-serif;
     font-size: 16px; }
     @media screen and (min-width: 1680px) {
-      .box-left .post-time, .box-left .post-author, .box-left .post-company {
+      .box-left .post-time, .box-left .post-author, .box-left .post-company, .box-left .post-role {
         font-size: 21px; } }
   .box-left img {
     width: auto;
@@ -3066,6 +3076,12 @@ h1, h2, h3, h4 {
   .box-right .p-author:nth-child(3) {
     margin-left: 0; }
     .box-right .p-author:nth-child(3):before {
+      display: inline-block;
+      content: "\0026";
+      margin-right: 4px; }
+  .box-right .p-author:nth-child(4) {
+    margin-left: 0; }
+    .box-right .p-author:nth-child(4):before {
       display: inline-block;
       content: "\0026";
       margin-right: 4px; }

@@ -2631,6 +2631,14 @@ h1, h2, h3, h4 {
       &-time {
         margin-right: 10px;
       }
+      &-author:nth-child(3) {
+
+        &:before {
+          display: inline-block;
+          content: "\0026";
+          margin-right: 4px;
+        }
+      }
     }
   }
 }
@@ -3343,6 +3351,10 @@ h1, h2, h3, h4 {
       font-style: italic;
       color: rgba($white, .75);
       margin-top: 8px;
+
+      @include media-query-min($large) {
+        font-size: 16px;
+      }
     }
   }
 }
@@ -3631,7 +3643,7 @@ h1, h2, h3, h4 {
   ul {
     list-style: none;
 
-    &:nth-child(2) {
+    &:nth-child(3), &:nth-child(4) {
       position: relative;
       margin-top: 20px;
       padding-top: 20px;
@@ -3645,6 +3657,13 @@ h1, h2, h3, h4 {
         position: absolute;
         left: 0;
         top: 0;
+      }
+
+      @include media-query-min($large) {
+
+        &:before {
+          width: 165px;
+        }
       }
     }
 
@@ -3720,7 +3739,7 @@ h1, h2, h3, h4 {
     }
   }
 
-  .post-time, .post-author, .post-company {
+  .post-time, .post-author, .post-company, .post-role {
     font-family: 'latobold', sans-serif;
     font-size: 16px;
 
@@ -3890,6 +3909,16 @@ h1, h2, h3, h4 {
   .p-author {
 
     &:nth-child(3) {
+      margin-left: 0;
+
+      &:before {
+        display: inline-block;
+        content: "\0026";
+        margin-right: 4px;
+      }
+    }
+
+    &:nth-child(4) {
       margin-left: 0;
 
       &:before {

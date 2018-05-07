@@ -4,8 +4,8 @@ permalink: "/program/presentations/kai-thomsen/"
 layout: presentation
 speaker: 
  - name: Kai Thomsen
-   role: DFIR (Incident Response team lead)
-   work: AUDI
+   role: Lead Incident Responder
+   work: AUDI AG
    image: kai-thomsen.png
 id: presentation
 ---
