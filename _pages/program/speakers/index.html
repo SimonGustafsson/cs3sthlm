@@ -59,26 +59,36 @@ permalink: "/program/speakers/"
 						<p>{{ speaker.bio }}</p>
 					</div>
 
-					{% if speaker.title != null %}
+					
 					<div class="col-2-6">
-						<h4 class="headline">{{ speaker.type }}</h4>
-						<a href="{{ site.baseurl }}/{{ speaker.permalink }}" class="speaker-permalink">{{ speaker.title }}</a>
-						{% if speaker.partner != null %}
-						<span class="speaker-cospeaker">with {{ speaker.partner }}</span>
-						{% endif %}
-					</div>
-					{% else %}
-					<div class="col-2-6">
-						<h4 class="headline">{{ speaker.type }}</h4>
-						{% for item in speaker.presentation %}
-						<a href="{{ site.baseurl }}/{{ item.permalink }}" class="speaker-permalink">{{ item.title }}</a>
-						{% if item.partner != null %}
-						<span class="speaker-cospeaker">with {{ item.partner }}</span>
-						{% endif %}
-						{% endfor %}
-					</div>
+					{% if speaker.presentation != null %}
+						<div class="col-block">
+							{% if speaker.presentation != null %}
+							<h4 class="headline">Presentation</h4>
+							{% endif %}	
+							{% for item in speaker.presentation %}
+							<a href="{{ site.baseurl }}/{{ item.permalink }}" class="speaker-permalink">{{ item.title }}</a>
+							{% if item.partner != null %}
+							<span class="speaker-cospeaker">with {{ item.partner }}</span>
+							{% endif %}
+							{% endfor %}
+						</div>					
 					{% endif %}
 
+					{% if speaker.training != null %}
+						<div class="col-block">
+							{% if speaker.training != null %}
+							<h4 class="headline">Training</h4>
+							{% endif %}	
+							{% for item in speaker.training %}
+							<a href="{{ site.baseurl }}/{{ item.permalink }}" class="speaker-permalink">{{ item.title }}</a>
+							{% if item.partner != null %}
+							<span class="speaker-cospeaker">with {{ item.partner }}</span>
+							{% endif %}
+							{% endfor %}
+						</div>				
+					{% endif %}
+					</div>
 				</div>
 
 				<a href="#!" class="modal-close">Close<span></span></a>

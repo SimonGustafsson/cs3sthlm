@@ -3249,6 +3249,10 @@ h1, h2, h3, h4 {
         width: 100%;
         padding: 20px;
       }
+
+      .col-block:nth-child(2) {
+        margin-top: 40px;
+      }
     }
     .col-3-6 {
       width: 550px;
@@ -3347,9 +3351,10 @@ h1, h2, h3, h4 {
     }
     .speaker-cospeaker {
       display: block;
+      font-family: 'latoitalic', sans-serif;
       font-size: 14px;
-      font-style: italic;
-      color: rgba($white, .75);
+      font-style: normal;
+      color: rgba($white, 1);
       margin-top: 8px;
 
       @include media-query-min($large) {

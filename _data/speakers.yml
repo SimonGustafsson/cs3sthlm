@@ -1,6 +1,6 @@
 - id: 1
   type: training
-  permalink: program/trainings/erik-hjelmvik/
+  permalink:
   name: Erik Hjelmvik
   role: Network Analyst
   work: NETRESEC
@@ -11,7 +11,11 @@
   date: 22-23 October
   time: 09:00 - 17:00
   place: Harlem
-  title: Network Forensics Training
+  presentation:
+    - title: Network Forensics Training
+      permalink: program/trainings/erik-hjelmvik/
+      partner:
+  title:
   description: |
     Our two-day Network Forensics class consists of a mix of theory and hands-on labs, where students will learn to analyze Full Packet Capture (FPC) files. The scenarios in the labs are primarily focused at network forensics for incident response, but are also relevant for law enforcement/internal security etc. where the network traffic of a suspect or insider is being monitored.
     
@@ -86,7 +90,7 @@
 
 - id: 2
   type: training
-  permalink: program/trainings/stephan-beirer/
+  permalink:
   name: Stephan Beirer
   role: Senior Consultant
   work: GAI NetConsult GmbH
@@ -97,7 +101,11 @@
   date: 23 October
   time:
   place:
-  title: "Cyber security for the energy sector – an introduction to ISO/IEC 27019 and the BDEW/OE Whitepaper"
+  training:
+    - title: "Cyber security for the energy sector – an introduction to ISO/IEC 27019 and the BDEW/OE Whitepaper"
+      permalink: program/trainings/stephan-beirer/
+      partner:
+  title: 
   description: |
     Generation, storage, transport and distribution of electricity and gas are the most critical of all critical infrastructure processes supporting our daily life. As in every modern industry domain, energy supply is heavily dependent on industrial control systems (ICS) and the security of these systems. While many energy utilities implement an information security management system (ISMS) based on the ISO/IEC 27000 standard family, they often struggle with the inclusion of the ICS and OT domain, when they try to harmonize security management over their entire business scope. To fill this gap ISO/IEC 27019 *Information security controls for the energy utility industry* was developed. ISO/IEC 27019 is a sector specific control set for the process control system domain of the energy sector which is based on ISO/IEC 27001 and ISO/IEC 27002. 
     
@@ -116,7 +124,7 @@
 
 - id: 3
   type: presentation
-  permalink: program/presentations/marty-edwards/
+  permalink:
   name: Marty Edwards
   role: Cybersecurity Expert
   work: The Automation Federation
@@ -130,7 +138,11 @@
   date:
   time:
   place:
-  title: Think like a hacker but act like an engineer
+  presentation:
+    - title: Think like a hacker but act like an engineer
+      permalink: program/presentations/marty-edwards/
+      partner:
+  title:
   description: |
     Industrial Control Systems (ICS) as well as Operational Technology (OT) are under increased risks from cyber events.  Come learn how Cyber Informed Engineering is an evolving concept to use cyber risk in designing control systems and associated protection systems.
     
@@ -138,7 +150,7 @@
 
 - id: 4
   type: presentation
-  permalink: program/presentations/patrick-miller/
+  permalink: 
   name: Patrick Miller
   role: Managing Partner
   work: Archer
@@ -149,14 +161,18 @@
   date:
   time:
   place:
-  title: "Industrial Technology Trajectory: Running With Scissors"
+  presentation:
+    - title: "Industrial Technology Trajectory: Running With Scissors"
+      permalink: program/presentations/patrick-miller/
+      partner:
+  title:
   description: |
     Abstract: Innovative and disruptive technologies are enhancing and invading our traditional industrial business model. Future infrastructure organizations will need more data to operate efficiently and succeed in the brave new interconnected world. The diversity of new technologies and data will fuel more diversity in business opportunity. Everyone expects more OT, more IOT, and more IT - and all of it is supposed to be highly reliable and secure. These factors (and more) lead to a landscape shift for the industrial cybersecurity risk profile. In this session, hear ways to recognize the problems and gain some clarity on possible solutions through historic lessons, made up words, and practical front-line experience.
 
 
 - id: 5
   type: training
-  permalink: program/trainings/arnaud-soullie/
+  permalink:
   name: Arnaud Soullié
   role: Cybersecurity R&D Manager
   work: Wavestone
@@ -167,12 +183,16 @@
   date: 22-23 October
   time:
   place:
-  title: Pentesting Industrial Control Systems
+  training:
+    - title: Pentesting Industrial Control Systems
+      permalink: program/trainings/arnaud-soullie/
+      partner:
+  title: 
   description: |
 
 - id: 6
   type: presentation
-  permalink: program/presentations/william-middleton/
+  permalink: 
   name: William Middleton
   role: Senior Engineer
   work: Siemens PD Solutions
@@ -183,12 +203,16 @@
   date:
   time:
   place:
-  title: Securing the ICS lab network
+  presentation:
+    - title: Securing the ICS lab network
+      permalink: program/presentations/william-middleton/
+      partner:
+  title:
   description: |
 
 - id: 7
   type: presentation
-  permalink: program/presentations/dieter-frank/
+  permalink:
   name: Dieter Sarrazyn
   role: Security Expert
   work: Secudea
@@ -199,13 +223,16 @@
   date:
   time:
   place:
-  partner: Frank Lycops
+  presentation:
+    - title: Operator Jail breakout
+      permalink: program/presentations/dieter-frank/
+      partner: Frank Lycops
   title: Operator Jail breakout
   description: |
 
 - id: 8
   type: presentation
-  permalink: program/presentations/dieter-frank/
+  permalink:
   name: Frank Lycops
   role: Security Consultant & Researcher
   work: Asvalis
@@ -216,13 +243,16 @@
   date:
   time:
   place:
-  partner: Dieter Sarrazyn
-  title: Operator Jail breakout
+  presentation:
+    - title: Operator Jail breakout
+      permalink: program/presentations/dieter-frank/
+      partner: Dieter Sarrazyn
+  title:
   description: |
 
 - id: 9
   type: presentation
-  permalink: program/presentations/erwin-rik/
+  permalink:
   name: Erwin Kooi
   role: Information Security Arcitect
   work: Alliander
@@ -233,13 +263,16 @@
   date:
   time:
   place:
-  partner: Rik van Hees
-  title: The good, the bad and the segmented
+  presentation:
+    - title: The good, the bad and the segmented
+      permalink: program/presentations/erwin-rik/
+      partner: Rik van Hees
+  title:
   description: |
 
 - id: 10
   type: presentation
-  permalink: program/presentations/erwin-rik/
+  permalink:
   name: Rik van Hees
   role: ICS Security Architect
   work: Alliander
@@ -250,14 +283,17 @@
   date:
   time:
   place:
-  partner: Erwin Kooi
-  title: The good, the bad and the segmented
+  presentation:
+    - title: The good, the bad and the segmented
+      permalink: program/presentations/erwin-rik/
+      partner: Erwin Kooi
+  title:
   description: |
 
 
 - id: 11
   type: training
-  permalink: program/trainings/mikael-vingaard/
+  permalink:
   name: Mikael Vingaard
   role: IT Security Consultant
   work: EnergiNet
@@ -268,12 +304,16 @@
   date: 22-23 October
   time:
   place:
-  title: ICS Scada Honeypot Technical Training
+  training:
+    - title: ICS Scada Honeypot Technical Training
+      permalink: program/trainings/mikael-vingaard/
+      partner:
+  title:
   description: |
 
 - id: 12
   type: presentation
-  permalink: program/presentations/cheng-lei/
+  permalink:
   name: Cheng Lei
   role: ICS Security Researcher
   work: NSFOCUS
@@ -284,13 +324,17 @@
   date:
   time:
   place:
-  title: Attacking PLCs by PLC in deep
+  presentation:
+    - title: Attacking PLCs by PLC in deep
+      permalink: program/presentations/cheng-lei/
+      partner:
+  title:
   description: |
 
 
 - id: 13
   type: presentation
-  permalink: program/presentations/adam-johnny/
+  permalink:
   name: Adam Ringwood
   role: OT Security Researcher
   work: Uptake Technologies
@@ -301,13 +345,17 @@
   date:
   time:
   place:
-  title: The Internet of Things on the Internet 
+  presentation:
+    - title: The Internet of Things on the Internet
+      permalink: program/presentations/adam-johnny/
+      partner: Johnny Xmas
+  title:
   description: |
 
 
 - id: 14
   type: presentation
-  permalink: program/presentations/adam-johnny/
+  permalink:
   name: Johnny Xmas
   role: Security Researcher
   work: Uptake Technologies
@@ -318,13 +366,17 @@
   date:
   time:
   place:
-  title: The Internet of Things on the Internet 
+  presentation:
+    - title: The Internet of Things on the Internet
+      permalink: program/presentations/adam-johnny/
+      partner: Adam Ringwood
+  title:
   description: |
 
 
 - id: 15
   type: presentation
-  permalink: program/presentations/kai-thomsen/
+  permalink:
   name: Kai Thomsen
   role: Lead Incident Responder
   work: AUDI AG
@@ -335,13 +387,17 @@
   date:
   time:
   place:
-  title: "Attacking Cars Revisited: On the Road Towards a More Resilient Connected Vehicle Infrastructure"
+  presentation:
+    - title: "Attacking Cars Revisited: On the Road Towards a More Resilient Connected Vehicle Infrastructure"
+      permalink: program/presentations/kai-thomsen/
+      partner:
+  title:
   description: |
 
 
 - id: 16
   type: presentation
-  permalink: program/presentations/monta-elkins/
+  permalink:
   name: Monta Elkins
   role: Hacker-in-Chief
   work: FoxGuard Solutions
@@ -352,7 +408,11 @@
   date:
   time:
   place:
-  title: Jumping Air Gaps
+  presentation:
+    - title: Jumping Air Gaps
+      permalink: program/presentations/monta-elkins/
+      partner:
+  title: 
   description: |
 
 
@@ -375,7 +435,7 @@
 
 - id: 18
   type: presentation
-  permalink: program/presentations/joe-slowik/
+  permalink:
   name: Joe Slowik
   role: Adversary Hunter
   work: Dragos Inc
@@ -386,13 +446,19 @@
   date: 22-23 October
   time:
   place:
-  title: "Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense"
+  presentation:
+    - title: "Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense"
+      permalink: program/presentations/joe-slowik/
+  training:
+    - title: ICS Strategic Planning and War Gaming
+      permalink: program/trainings/joe-slowik/
+  title:
   description: |
 
 
 - id: 19
   type: presentation
-  permalink: program/presentations/dan-daniel/
+  permalink:
   name: Daniel Michaud-Soucy
   role: Principal Threat Analyst
   work: Dragos Inc
@@ -403,8 +469,15 @@
   date: One Day
   time:
   place:
-  partner: Dan Gunter
-  title: Stateful Protocol Hunting
+  presentation:
+    - title: Stateful Protocol Hunting
+      permalink: program/presentations/dan-daniel/
+      partner: Dan Gunter
+  training:
+    - title: Introduction to Threat Hunting in ICS
+      permalink: program/trainings/ben-daniel/
+      partner: Ben Miller
+  title:
   description: |
 
 
@@ -423,6 +496,7 @@
   place:
   presentation:
     - title: Hunting and Responding in ICS
+
       permalink: program/presentations/ben-mark/
       partner: Ben Miller
     - title: "Incident Response: Learning as you go is Expensive"
@@ -433,7 +507,7 @@
 
 - id: 21
   type: presentation
-  permalink: program/presentations/ben-mark/
+  permalink:
   name: Ben Miller
   role: Director of Threat Operations
   work: Dragos Inc
@@ -444,14 +518,21 @@
   date:
   time:
   place:
-  partner: Mark Stacey
-  title: Hunting and Responding in ICS
+  presentation:
+    - title: Hunting and Responding in ICS
+      permalink: program/presentations/ben-mark/
+      partner: Mark Stacey
+  training:
+    - title: Introduction to Threat Hunting in ICS
+      permalink: program/trainings/ben-daniel/
+      partner: Daniel Michaud-Soucy
+  title:
   description: |
 
 
 - id: 22
   type: presentation
-  permalink: program/presentations/dan-daniel/
+  permalink:
   name: Dan Gunter
   role: Principal Threat Analyst
   work: Dragos Inc
@@ -462,8 +543,11 @@
   date:
   time:
   place:
-  partner: Daniel Michaud-Soucy
-  title: Stateful Protocol Hunting
+  presentation:
+    - title: Stateful Protocol Hunting
+      permalink: program/presentations/dan-daniel/
+      partner: Daniel Michaud-Soucy
+  title:
   description: |
 
 
@@ -480,5 +564,9 @@
   date:
   time:
   place:
-  title: Using fake BTS as a part of pentest of devices using SIM cards for data transmission
+  presentation:
+    - title: Using fake BTS as a part of pentest of devices using SIM cards for data transmission
+      permalink: program/presentations/marcin-dudek/
+      partner:
+  title: 
   description: |

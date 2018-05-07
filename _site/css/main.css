@@ -2587,6 +2587,8 @@ h1, h2, h3, h4 {
       .speaker-block--content .col-2-6 {
         width: 100%;
         padding: 20px; } }
+    .speaker-block--content .col-2-6 .col-block:nth-child(2) {
+      margin-top: 40px; }
   .speaker-block--content .col-3-6 {
     width: 550px;
     margin-right: auto;
@@ -2665,9 +2667,10 @@ h1, h2, h3, h4 {
       margin-bottom: 12px; }
   .speaker-block--content .speaker-cospeaker {
     display: block;
+    font-family: 'latoitalic', sans-serif;
     font-size: 14px;
-    font-style: italic;
-    color: rgba(255, 255, 255, 0.75);
+    font-style: normal;
+    color: white;
     margin-top: 8px; }
     @media screen and (min-width: 1680px) {
       .speaker-block--content .speaker-cospeaker {
