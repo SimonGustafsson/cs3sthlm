@@ -2081,6 +2081,9 @@ h1, h2, h3, h4 {
       @media screen and (min-width: 1680px) {
         .workshop--block-group .workshop--block-item .workshop--block-content {
           padding: 20px 22px; } }
+      @media screen and (max-width: 768px) {
+        .workshop--block-group .workshop--block-item .workshop--block-content {
+          width: 100%; } }
       .workshop--block-group .workshop--block-item .workshop--block-content p {
         color: rgba(255, 255, 255, 0.8);
         margin-bottom: 0; }
