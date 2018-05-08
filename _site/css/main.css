@@ -706,7 +706,7 @@ h1, h2, h3, h4 {
   .bc-nav li {
     display: block;
     float: right;
-    margin-left: 20px;
+    margin-left: 12px;
     font-family: 'latobold', sans-serif;
     font-size: 10px;
     font-weight: 600;
@@ -715,6 +715,18 @@ h1, h2, h3, h4 {
     text-transform: uppercase; }
     .bc-nav li:last-of-type {
       margin-left: 0; }
+    .bc-nav li:before {
+      display: inline-block;
+      content: '';
+      border-radius: 2px;
+      width: 1px;
+      height: 14px;
+      background: rgba(255, 255, 255, 0.25);
+      margin-right: 12px;
+      margin-bottom: -3px;
+      transform: rotate(-25deg); }
+    .bc-nav li:last-of-type:before {
+      display: none; }
     @media screen and (min-width: 1680px) {
       .bc-nav li {
         font-size: 12px; } }
@@ -2104,7 +2116,7 @@ h1, h2, h3, h4 {
       text-transform: uppercase;
       color: rgba(255, 255, 255, 0.5);
       padding-bottom: 10px;
-      margin-bottom: 10px;
+      margin-bottom: 9px;
       box-sizing: border-box;
       border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
       .workshop--block-group .workshop--block-item .workshop--meta-time {
@@ -2883,7 +2895,7 @@ h1, h2, h3, h4 {
   @media screen and (min-width: 1680px) {
     .box-left {
       width: 205px;
-      margin-right: 22px; } }
+      margin-right: 32px; } }
   @media screen and (max-width: 768px) {
     .box-left {
       width: 100%;
@@ -2988,7 +3000,7 @@ h1, h2, h3, h4 {
   @media screen and (min-width: 1680px) {
     .box-right {
       width: 432px;
-      margin-left: 22px; } }
+      margin-left: 32px; } }
   @media screen and (max-width: 768px) {
     .box-right {
       display: block;
@@ -3630,9 +3642,10 @@ h1, h2, h3, h4 {
         .presentation--list ul img {
           max-height: 90px; } }
     .presentation--list ul .p-title {
-      display: block; }
+      display: block;
+      line-height: 22px; }
     .presentation--list ul .p-time, .presentation--list ul .p-author {
-      font-family: 'latoblack', sans-serif;
+      font-family: 'latobold', sans-serif;
       font-size: 12px;
       letter-spacing: 2px;
       color: rgba(255, 255, 255, 0.5);

@@ -773,7 +773,7 @@ h1, h2, h3, h4 {
   li {
     display: block;
     float: right;
-    margin-left: 20px;
+    margin-left: 12px;
 
     font-family: 'latobold', sans-serif;
     font-size: 10px;
@@ -784,6 +784,22 @@ h1, h2, h3, h4 {
 
     &:last-of-type {
       margin-left: 0;
+    }
+
+    &:before {
+      display: inline-block;
+      content: '';
+      border-radius: 2px;
+      width: 1px;
+      height: 14px;
+      background: rgba($white, .25);
+      margin-right: 12px;
+      margin-bottom: -3px;
+      transform: rotate(-25deg);
+    }
+
+    &:last-of-type:before {
+      display: none;
     }
 
     @include media-query-min($large) {
@@ -2627,7 +2643,7 @@ h1, h2, h3, h4 {
       text-transform: uppercase;
       color: rgba($white, .5);
       padding-bottom: 10px;
-      margin-bottom: 10px;
+      margin-bottom: 9px;
       box-sizing: border-box;
       border-bottom: 1px solid rgba($white, .1);
 
@@ -3641,7 +3657,7 @@ h1, h2, h3, h4 {
 
   @include media-query-min($large) {
     width: 205px;
-    margin-right: 22px;
+    margin-right: 32px;
   }
 
   @include media-query($mobile) {
@@ -3792,7 +3808,7 @@ h1, h2, h3, h4 {
 
   @include media-query-min($large) {
     width: 432px;
-    margin-left: 22px;
+    margin-left: 32px;
   }
 
   @include media-query($mobile) {
@@ -4662,9 +4678,10 @@ h1, h2, h3, h4 {
 
     .p-title {
       display: block;
+      line-height: 22px;
     }
     .p-time, .p-author {
-      font-family: 'latoblack', sans-serif;
+      font-family: 'latobold', sans-serif;
       font-size: 12px;
       letter-spacing: 2px;
       color: rgba($white, .5);
