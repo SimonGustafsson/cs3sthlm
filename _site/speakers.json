@@ -58,15 +58,15 @@
 		
 		
 		
-		"presentation": [
+		"presentation": {
 		
-			{
+			
 			"title"			: "Think like a hacker but act like an engineer",
 			"partner"		: "",
 			"description" 	: "<p>Industrial Control Systems (ICS) as well as Operational Technology (OT) are under increased risks from cyber events.  Come learn how Cyber Informed Engineering is an evolving concept to use cyber risk in designing control systems and associated protection systems.</p><p>“Cyber risks to Industrial Control Systems (ICS) and Operational Technology (OT) continue to evolve.  Whether it is the threat of ransomware taking a production system offline, or sophisticated malware targeting the safety critical components of your system.  Engineers have long designed systems to be resilient to a multitude of failure modes, and it is time that we started taking the lessons learned from cyber attacks against these systems into consideration during new system design, or legacy system retrofit.  This session will introduce this evolving concept and describe some of the standards and practices being developed and utilized.”</p>"
-			}
+			
 		
-		],
+		},
 		
 		
 		"bio"		: "<p>Marty Edwards, a globally recognized industrial control systems cybersecurity expert and speaker, serves as Managing Director of the Automation Federation.</p><p>Prior to joining the Automation Federation in mid-2017, Edwards—a 25-year industry veteran—was the longest-serving Director of the U.S. Department of Homeland Security’s Industrial Control Systems Cyber Emergency Response Team (ICS-CERT). Under his leadership the ICS-CERT was awarded the 2013 SC Magazine Security Team of the Year award and was named as a finalist in the Community Awareness category in the 2015 Government Information Security Leadership Awards (GISLA).</p>"
@@ -86,15 +86,15 @@
 		
 		
 		
-		"presentation": [
+		"presentation": {
 		
-			{
+			
 			"title"			: "Industrial Technology Trajectory: Running With Scissors",
 			"partner"		: "",
 			"description" 	: "<p>Abstract: Innovative and disruptive technologies are enhancing and invading our traditional industrial business model. Future infrastructure organizations will need more data to operate efficiently and succeed in the brave new interconnected world. The diversity of new technologies and data will fuel more diversity in business opportunity. Everyone expects more OT, more IOT, and more IT - and all of it is supposed to be highly reliable and secure. These factors (and more) lead to a landscape shift for the industrial cybersecurity risk profile. In this session, hear ways to recognize the problems and gain some clarity on possible solutions through historic lessons, made up words, and practical front-line experience.</p>"
-			}
+			
 		
-		],
+		},
 		
 		
 		"bio"		: "<p>Patrick Miller has dedicated his career to the protection and defense of critical infrastructures. As Managing Partner at Archer Security Group, he is a trusted independent security and regulatory advisor for industrial control systems worldwide. Mr. Miller is also the founder, director and president emeritus of EnergySec and US. Coordinator for the Industrial Cybersecurity Center. Patrick’s diverse background spans the Energy, Telecommunications, Water and Financial Services verticals including key positions with regulatory agencies, private consulting firms, utility asset owners and commercial organizations.</p>"
@@ -137,15 +137,15 @@
 		
 		
 		
-		"presentation": [
+		"presentation": {
 		
-			{
+			
 			"title"			: "Securing the ICS lab network",
 			"partner"		: "",
 			"description" 	: ""
-			}
+			
 		
-		],
+		},
 		
 		
 		"bio"		: "<p>William works with Siemens PD Solutions in western Norway providing networking and security advice and configuration for ICS projects and LM customers.  He has an MLS degree in Computer Networking and Telecommunications, and holds professional-level certifications from Cisco Systems.  William has more than 25 years of experience in IT and has worked for Motorola, Adobe Systems, and Telenor in Norway before starting with Siemens in 2013.  He enjoys fishing, hiking and Bikram yoga.</p>"
@@ -165,15 +165,15 @@
 		
 		
 		
-		"presentation": [
+		"presentation": {
 		
-			{
+			
 			"title"			: "Operator Jail breakout",
 			"partner"		: "Frank Lycops",
 			"description" 	: ""
-			}
+			
 		
-		],
+		},
 		
 		
 		"bio"		: "<p>Dieter is a freelance OT security expert who working extensively on industrial control system security including more than 10 years in a large electricity generation company. He performs SCADA security assessments, provides assistance in securing SCADA environments and helps customers to manage their suppliers’ security through doing security requirements management and security FAT and SAT tests. These activities are always part of a larger program, aimed at reducing business risks.</p>"
@@ -193,15 +193,15 @@
 		
 		
 		
-		"presentation": [
+		"presentation": {
 		
-			{
+			
 			"title"			: "Operator Jail breakout",
 			"partner"		: "Dieter Sarrazyn",
 			"description" 	: ""
-			}
+			
 		
-		],
+		},
 		
 		
 		"bio"		: "<p>Frank a freelance security consultant and researcher.  He has 8 years of experience in both the IT and OT environments.  During his work, he performed numerous penetration tests on OT environments, helped improving the overall security of various environments and discovered several vulnerabilities in widely sold devices.</p>"
@@ -221,15 +221,15 @@
 		
 		
 		
-		"presentation": [
+		"presentation": {
 		
-			{
+			
 			"title"			: "The good, the bad and the segmented",
 			"partner"		: "Rik van Hees",
 			"description" 	: ""
-			}
+			
 		
-		],
+		},
 		
 		
 		"bio"		: "<p>Erwin has been working in information security for fifteen years and in IT for twenty-one years. He recently switched positions and is now working on designing SCADA / ICS systems for smart grids with a strong focus on cyber security, especially when integrating ICS and IT systems. He has a solid knowledge of healthcare IT and grid operator IT, both on the office side as on the operations side, both on the strategic level as on the implementation side. He holds a BSc Electrical Engineering and Master Security in Information Technology. In his rare spare time he likes to pick locks, program microcontrollers, participate in a local political party and care for his horses and hedgehogs.</p>"
@@ -249,15 +249,15 @@
 		
 		
 		
-		"presentation": [
+		"presentation": {
 		
-			{
+			
 			"title"			: "The good, the bad and the segmented",
 			"partner"		: "Erwin Kooi",
 			"description" 	: ""
-			}
+			
 		
-		],
+		},
 		
 		
 		"bio"		: ""
@@ -300,15 +300,15 @@
 		
 		
 		
-		"presentation": [
+		"presentation": {
 		
-			{
+			
 			"title"			: "Attacking PLCs by PLC in deep",
 			"partner"		: "",
 			"description" 	: ""
-			}
+			
 		
-		],
+		},
 		
 		
 		"bio"		: "<p>Cheng Lei is an Industrial Control System Security researcher at NSFOCUS. His interest is mainly about PLC and DCS vulnerability exploitation and security enhancement. Over the years, he has released three Siemens CVE vulnerabilities.</p>"
@@ -328,15 +328,15 @@
 		
 		
 		
-		"presentation": [
+		"presentation": {
 		
-			{
+			
 			"title"			: "The Internet of Things on the Internet",
 			"partner"		: "Johnny Xmas",
 			"description" 	: ""
-			}
+			
 		
-		],
+		},
 		
 		
 		"bio"		: "<p>Adam Ringwood is a OT Security Researcher US-based Data Science organization Uptake Technologies, dedicated to the philosophy that machines never have to break. Most famously known for his research around his university’s LDAP data privacy, He has also built several email phishing, and password cracking tools, and has been a longtime consultant working to build and secure cloud infrastructure.</p>"
@@ -356,15 +356,15 @@
 		
 		
 		
-		"presentation": [
+		"presentation": {
 		
-			{
+			
 			"title"			: "The Internet of Things on the Internet",
 			"partner"		: "Adam Ringwood",
 			"description" 	: ""
-			}
+			
 		
-		],
+		},
 		
 		
 		"bio"		: "<p>Johnny Xmas is a Security Researcher and Lead Penetration Tester for the US-based Data Science organization Uptake Technologies, dedicated to the philosophy that machines never have to break. He’s been speaking internationally on the topics of Hacking, and Privacy for nearly 15 years, and is most well-known for his involvement with the USA / TSA Master Keys reversing of 2015-16.</p>"
@@ -384,15 +384,15 @@
 		
 		
 		
-		"presentation": [
+		"presentation": {
 		
-			{
+			
 			"title"			: "Attacking Cars Revisited: On the Road Towards a More Resilient Connected Vehicle Infrastructure",
 			"partner"		: "",
 			"description" 	: ""
-			}
+			
 		
-		],
+		},
 		
 		
 		"bio"		: "<p>Kai is the Incident Response team lead at AUDI AG and currently working on creating a modern Cyber Defence organisation at Audi. Before that he established an IT Service Continuity organization at Audi and developed and executed crisis management training exercises for top management. Prior to Audi, he worked at SMS group, an engineering company for steel manufacturing plants. There he was responsible for network security architecture, NSM, and forensics. Kai holds an M.A. in computer science and English and American Literature from the University of Siegen. He is also a SANS Instructor for Industrial Control Systems Active Defense and Incident Response (ICS515) and chairing the SANS Automotive Summit and SANS ICS Europe Summit in 2018.</p>"
@@ -412,15 +412,15 @@
 		
 		
 		
-		"presentation": [
+		"presentation": {
 		
-			{
+			
 			"title"			: "Jumping Air Gaps",
 			"partner"		: "",
 			"description" 	: ""
-			}
+			
 		
-		],
+		},
 		
 		
 		"bio"		: "<p>Monta Elkins is currently “Hacker-in-Chief” for FoxGuard Solutions, an ICS patch provider. A security researcher and consultant; he was formerly Security Architect for Rackspace, and the first ISO for Radford University. He has been a speaker at DEFCON , Homeland Security’s ICSJWG (Industrial Control Systems Joint Working Group), EnergySec’s Security Summit, GE Digital Energy’s Annual Software Summit, Toshiba’s Industrial Control Systems Conference, NERC’s GridSecCon and Emerging Technology Roundtable, ICS CyberSecurity by Security Week, UTC Telecom, and other security conferences. Monta is the author and instructor of the “Defense against the Dark Arts” hands-on, hacker tools and techniques classes, guest lecturer for local colleges and universities teaching rapid prototyping techniques and information security and teaches Arduino and other classes with Let’s Code Blacksburg.</p>"
@@ -458,15 +458,15 @@
 		
 		
 		
-		"presentation": [
+		"presentation": {
 		
-			{
+			
 			"title"			: "Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense",
 			"partner"		: "",
 			"description" 	: "<p>asd1</p>"
-			}
+			
 		
-		],
+		},
 		
 		
 		"training": {
@@ -491,15 +491,15 @@
 		
 		
 		
-		"presentation": [
+		"presentation": {
 		
-			{
+			
 			"title"			: "Stateful Protocol Hunting",
 			"partner"		: "Dan Gunter",
 			"description" 	: "<p>asd1</p>"
-			}
+			
 		
-		],
+		},
 		
 		
 		"training": {
@@ -524,21 +524,14 @@
 		
 		
 		
-		"presentation": [
+		"presentation": {
 		
-			{
+			
 			"title"			: "Hunting and Responding in ICS",
 			"partner"		: "Ben Miller",
 			"description" 	: "<p>asd1</p>"
-			},
 		
-			{
-			"title"			: "Incident Response: Learning as you go is Expensive",
-			"partner"		: "",
-			"description" 	: "<p>asd2</p>"
-			}
-		
-		],
+		},
 		
 		
 		"bio"		: "<p>Mark Stacey is currently a Principle Threat Analyst with Dragos Inc. In this role, Mark delivers holistic incident response, threat hunting, and adversary research for Industrial Control Systems worldwide. Prior to joining Dragos, Mark was a member of RSA’s Incident Response team for 5 years where he provided incident response, discovery, and forensic services globally for private industry, financial institutions, law firms, foreign and domestic governments. Mark spent 7 years with the Department of Energy (DOE) performing cyber and intelligence analysis for various government clients. He has functioned in both cybersecurity operations and research within the intelligence community and frequently provides community education through outreach programs with federal agencies.</p>"
@@ -558,15 +551,15 @@
 		
 		
 		
-		"presentation": [
+		"presentation": {
 		
-			{
+			
 			"title"			: "Hunting and Responding in ICS",
 			"partner"		: "Mark Stacey",
 			"description" 	: "<p>asd1</p>"
-			}
+			
 		
-		],
+		},
 		
 		
 		"training": {
@@ -591,15 +584,15 @@
 		
 		
 		
-		"presentation": [
+		"presentation": {
 		
-			{
+			
 			"title"			: "Stateful Protocol Hunting",
 			"partner"		: "Daniel Michaud-Soucy",
 			"description" 	: ""
-			}
+			
 		
-		],
+		},
 		
 		
 		"bio"		: "<p>Dan Gunter currently works as a Principal Threat Analyst at the industrial control system cyber security company Dragos. Before Dragos, he served in the US Air Force in a variety of role ranging from working in the Air Force’s Computer Emergency Response Team to developing information security applications. Dan previously presented at Blackhat, Schmoocon, and s4x18.</p>"
@@ -619,15 +612,15 @@
 		
 		
 		
-		"presentation": [
+		"presentation": {
 		
-			{
+			
 			"title"			: "Using fake BTS as a part of pentest of devices using SIM cards for data transmission",
 			"partner"		: "",
 			"description" 	: ""
-			}
+			
 		
-		],
+		},
 		
 		
 		"bio"		: "<p>IT security expert, member of ComCERT.PL Team, the team that delivers IT incident response related services. He specializes in the security of industrial control systems. A graduate of the University of Warwick in the Great Britain. Founder of the scientist circle at the Military University of Technology, dealing with cyber security. He has been awarded twice for finding vulnerabilities in Microsoft products. Together with the team, he won the award for the best decision-making document in case of cyber conflict in the Cyber 9/12 Europe Competition, organized by the Atlantic Council. Actively tweeting on @dudekmar</p>"
