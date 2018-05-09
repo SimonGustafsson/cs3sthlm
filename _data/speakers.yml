@@ -11,7 +11,7 @@
   date: 22-23 October
   time: 09:00 - 17:00
   place: Harlem
-  presentation:
+  training:
     - title: Network Forensics Training
       permalink: program/trainings/erik-hjelmvik/
       partner:
@@ -411,11 +411,6 @@
   shortcode: SE
   image: amel.png
   bio: She is the Chief Information Security Officer at IIS, The Internet Foundation In Sweden. She also serves on the boards of internet-related organisations including the Council of European National Top Level Domain Registries (CENTR) and the Swedish Law and Informatics Research Institute. Eklund Löwinder has been appointed Trusted Community Representative by the Internet Corporation for Assigned Names and Numbers (ICANN). She is one of seven people who control the DNSSEC key generation for the internet root zone.
-  date:
-  time:
-  place:
-  title: 
-  description: |
 
 
 - id: 18
