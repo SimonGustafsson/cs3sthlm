@@ -15,77 +15,76 @@
     - title: Network Forensics Training
       permalink: program/trainings/erik-hjelmvik/
       partner:
-  title:
-  description: |
-    Our two-day Network Forensics class consists of a mix of theory and hands-on labs, where students will learn to analyze Full Packet Capture (FPC) files. The scenarios in the labs are primarily focused at network forensics for incident response, but are also relevant for law enforcement/internal security etc. where the network traffic of a suspect or insider is being monitored.
-    
-    #### Day 1 - Theory and Practice using Open Source Tools 
-    * Theory: Ethernet signaling
-    * Hardware: Network TAPs and Monitor ports / SPAN ports
-    * Sniffers: Recommendations for high-performance packet interception
-    * Analyze Modbus TCP traffic
-    * Forensics of IEC 60870-5-104 network traffic
-    * Investigate telnet sessions
-    * PCAP analysis: Extracting evidence and indicators of compromise using open source tools
-    * Defeating Big Data: Techniques for working with large data sets
-    * Whitelists: Learn how to detect 0-day exploit attacks without using IDS signatures
-    * Challenge Day 1: Find the needle in our haystack and win a honorable prize!
+      description: |
+        Our two-day Network Forensics class consists of a mix of theory and hands-on labs, where students will learn to analyze Full Packet Capture (FPC) files. The scenarios in the labs are primarily focused at network forensics for incident response, but are also relevant for law enforcement/internal security etc. where the network traffic of a suspect or insider is being monitored.
+        
+        #### Day 1 - Theory and Practice using Open Source Tools 
+        * Theory: Ethernet signaling
+        * Hardware: Network TAPs and Monitor ports / SPAN ports
+        * Sniffers: Recommendations for high-performance packet interception
+        * Analyze Modbus TCP traffic
+        * Forensics of IEC 60870-5-104 network traffic
+        * Investigate telnet sessions
+        * PCAP analysis: Extracting evidence and indicators of compromise using open source tools
+        * Defeating Big Data: Techniques for working with large data sets
+        * Whitelists: Learn how to detect 0-day exploit attacks without using IDS signatures
+        * Challenge Day 1: Find the needle in our haystack and win a honorable prize!
 
-    #### Day 2 - Advanced Network Forensics using Netresec Tools 
-    * NetworkMiner Professional: Learning to leverage the features available in the Pro version
-      * Port Independent Protocol Identification (PIPI)
-      * DNS Whitelisting
-    * NetworkMinerCLI: Automating content extraction with our command line tool
-    * CapLoader: Searching, sorting and drilling through large PCAP data sets
-      * Super fast flow transcript (aka Follow TCP/UDP stream)
-      * Filter PCAP files and export frames to other tools
-      * Keyword search
-      * Create inventory of ICS devices from PCAP
-    * Challenge Day 2
+        #### Day 2 - Advanced Network Forensics using Netresec Tools 
+        * NetworkMiner Professional: Learning to leverage the features available in the Pro version
+          * Port Independent Protocol Identification (PIPI)
+          * DNS Whitelisting
+        * NetworkMinerCLI: Automating content extraction with our command line tool
+        * CapLoader: Searching, sorting and drilling through large PCAP data sets
+          * Super fast flow transcript (aka Follow TCP/UDP stream)
+          * Filter PCAP files and export frames to other tools
+          * Keyword search
+          * Create inventory of ICS devices from PCAP
+        * Challenge Day 2
 
-    #### The Scenario
+        #### The Scenario
 
-    The scenario used in the class involves a new progressive Bank, which provides exchange services for Bitcoin and Litecoin. We've set up clients and a server for this bank using REAL physical machines and a REAL internet connection. All traffic on the network is captured to PCAP files by a SecurityOnion sensor. In the scenario this bank gets into lots of trouble with hackers and malware, such as:
+        The scenario used in the class involves a new progressive Bank, which provides exchange services for Bitcoin and Litecoin. We've set up clients and a server for this bank using REAL physical machines and a REAL internet connection. All traffic on the network is captured to PCAP files by a SecurityOnion sensor. In the scenario this bank gets into lots of trouble with hackers and malware, such as:
 
-    * Defacement of the Bank's web server (see zone-h mirror)
-    * Backdoor infection through trojanized software
-    * Spear phishing
-    * Use of a popular RAT (njRAT) to access the victims machine and exfiltrate the wallet.dat files for Bitcoin and Litecoin
-    * Infection with real malware (Nemucod, Miuref / Boaxxe and more)
+        * Defacement of the Bank's web server (see zone-h mirror)
+        * Backdoor infection through trojanized software
+        * Spear phishing
+        * Use of a popular RAT (njRAT) to access the victims machine and exfiltrate the wallet.dat files for Bitcoin and Litecoin
+        * Infection with real malware (Nemucod, Miuref / Boaxxe and more)
 
-    Class attendees will learn to analyze captured network traffic from these events in order to:
-    * Investigate web server compromises and defacements
-    * Identify covert backdoors
-    * Reassemble incoming emails and attachments
-    * Detect and decode RAT/backdoor traffic
-    * Detect malicious traffic without having to rely on blacklists, AV or third-party detection services
+        Class attendees will learn to analyze captured network traffic from these events in order to:
+        * Investigate web server compromises and defacements
+        * Identify covert backdoors
+        * Reassemble incoming emails and attachments
+        * Detect and decode RAT/backdoor traffic
+        * Detect malicious traffic without having to rely on blacklists, AV or third-party detection services
 
-    #### Professional software included FREE of charge 
-    Each attendee will be provided with a free personal single user license of NetworkMiner Professional and CapLoader. These licenses will be valid for six months from the first training day.
+        #### Professional software included FREE of charge 
+        Each attendee will be provided with a free personal single user license of NetworkMiner Professional and CapLoader. These licenses will be valid for six months from the first training day.
 
-    ### Target Audience
+        ### Target Audience
 
-    Q: Who should attend?
+        Q: Who should attend?
 
-    A: Anyone who want to improve their skills at finding evil stuff in full content packet captures.
+        A: Anyone who want to improve their skills at finding evil stuff in full content packet captures.
 
-    Q: Who should NOT attend?
+        Q: Who should NOT attend?
 
-    A: Those who are afraid of using Linux command line tools.
+        A: Those who are afraid of using Linux command line tools.
 
-    ### Training Preparations
+        ### Training Preparations
 
-    #### Laptop Required 
-    Attendees will need to bring a laptop that fits the following specs:
+        #### Laptop Required 
+        Attendees will need to bring a laptop that fits the following specs:
 
-    * A PC running any 64 bit Windows OS (can be a Virtual Machine)
-    * At least 4GB RAM
-    * At least 40 GB free disk space
-    * VirtualBox (64 bit) installed (VMWare will not be supported in the training)
+        * A PC running any 64 bit Windows OS (can be a Virtual Machine)
+        * At least 4GB RAM
+        * At least 40 GB free disk space
+        * VirtualBox (64 bit) installed (VMWare will not be supported in the training)
 
-    A VirtualBox VM will be provided on USB flash drives at the beginning of the training.
+        A VirtualBox VM will be provided on USB flash drives at the beginning of the training.
 
-    Please note that having a 64-bit CPU and a 64-bit OS is not always enough to support 64-bit virtualization. You might need to enable features such as ”AMD-V”, ”VT-x” or ”Hyper-V” in BIOS in order to run virtual machines in 64-bit mode. You might also need to turn off "Intel Trusted Execution" in BIOS. One way to verify that your laptop supports 64-bit virtualization is to download the SecurityOnion ISO and see if it boots up in VirtualBox.
+        Please note that having a 64-bit CPU and a 64-bit OS is not always enough to support 64-bit virtualization. You might need to enable features such as ”AMD-V”, ”VT-x” or ”Hyper-V” in BIOS in order to run virtual machines in 64-bit mode. You might also need to turn off "Intel Trusted Execution" in BIOS. One way to verify that your laptop supports 64-bit virtualization is to download the SecurityOnion ISO and see if it boots up in VirtualBox.
 
 
 - id: 2
@@ -105,21 +104,20 @@
     - title: "Cyber security for the energy sector – an introduction to ISO/IEC 27019 and the BDEW/OE Whitepaper"
       permalink: program/trainings/stephan-beirer/
       partner:
-  title: 
-  description: |
-    Generation, storage, transport and distribution of electricity and gas are the most critical of all critical infrastructure processes supporting our daily life. As in every modern industry domain, energy supply is heavily dependent on industrial control systems (ICS) and the security of these systems. While many energy utilities implement an information security management system (ISMS) based on the ISO/IEC 27000 standard family, they often struggle with the inclusion of the ICS and OT domain, when they try to harmonize security management over their entire business scope. To fill this gap ISO/IEC 27019 *Information security controls for the energy utility industry* was developed. ISO/IEC 27019 is a sector specific control set for the process control system domain of the energy sector which is based on ISO/IEC 27001 and ISO/IEC 27002. 
-    
-    To supplement the generic controls of ISO/IEC 27019 with detailed technical security specifications for ICS systems, the German and Austrian energy operator associations BDEW and Oesterreichs Energie have published the BDEW/OE Whitepaper. The Whitepaper can be used during system procurement and defines security requirements for control and automation systems of the energy domain and their telecommunication infrastructure.
+      description: |
+        Generation, storage, transport and distribution of electricity and gas are the most critical of all critical infrastructure processes supporting our daily life. As in every modern industry domain, energy supply is heavily dependent on industrial control systems (ICS) and the security of these systems. While many energy utilities implement an information security management system (ISMS) based on the ISO/IEC 27000 standard family, they often struggle with the inclusion of the ICS and OT domain, when they try to harmonize security management over their entire business scope. To fill this gap ISO/IEC 27019 *Information security controls for the energy utility industry* was developed. ISO/IEC 27019 is a sector specific control set for the process control system domain of the energy sector which is based on ISO/IEC 27001 and ISO/IEC 27002. 
+        
+        To supplement the generic controls of ISO/IEC 27019 with detailed technical security specifications for ICS systems, the German and Austrian energy operator associations BDEW and Oesterreichs Energie have published the BDEW/OE Whitepaper. The Whitepaper can be used during system procurement and defines security requirements for control and automation systems of the energy domain and their telecommunication infrastructure.
 
-    The workshop gives an introduction to the contents and practical application of ISO/IEC 27019 and the BDEW/OE Whitepaper. The following topics will be covered:
-    * Industrial control systems in the energy sector 
-    * Introduction to the ISO/IEC 27000 series
-    * Overview of ISO/IEC 27019 
-    * Practical application of ISO/IEC 27019
-    * ISO/IEC 27019 and European cyber security regulation 
-    * The BDEW/OE Whitepaper, a security procurement guideline for energy ICS
+        The workshop gives an introduction to the contents and practical application of ISO/IEC 27019 and the BDEW/OE Whitepaper. The following topics will be covered:
+        * Industrial control systems in the energy sector 
+        * Introduction to the ISO/IEC 27000 series
+        * Overview of ISO/IEC 27019 
+        * Practical application of ISO/IEC 27019
+        * ISO/IEC 27019 and European cyber security regulation 
+        * The BDEW/OE Whitepaper, a security procurement guideline for energy ICS
 
-    The workshop will include a lecture, discussions and exercises.
+        The workshop will include a lecture, discussions and exercises.
 
 
 - id: 3
@@ -142,11 +140,10 @@
     - title: Think like a hacker but act like an engineer
       permalink: program/presentations/marty-edwards/
       partner:
-  title:
-  description: |
-    Industrial Control Systems (ICS) as well as Operational Technology (OT) are under increased risks from cyber events.  Come learn how Cyber Informed Engineering is an evolving concept to use cyber risk in designing control systems and associated protection systems.
+      description: |
+        Industrial Control Systems (ICS) as well as Operational Technology (OT) are under increased risks from cyber events.  Come learn how Cyber Informed Engineering is an evolving concept to use cyber risk in designing control systems and associated protection systems.
     
-    “Cyber risks to Industrial Control Systems (ICS) and Operational Technology (OT) continue to evolve.  Whether it is the threat of ransomware taking a production system offline, or sophisticated malware targeting the safety critical components of your system.  Engineers have long designed systems to be resilient to a multitude of failure modes, and it is time that we started taking the lessons learned from cyber attacks against these systems into consideration during new system design, or legacy system retrofit.  This session will introduce this evolving concept and describe some of the standards and practices being developed and utilized.”
+        “Cyber risks to Industrial Control Systems (ICS) and Operational Technology (OT) continue to evolve.  Whether it is the threat of ransomware taking a production system offline, or sophisticated malware targeting the safety critical components of your system.  Engineers have long designed systems to be resilient to a multitude of failure modes, and it is time that we started taking the lessons learned from cyber attacks against these systems into consideration during new system design, or legacy system retrofit.  This session will introduce this evolving concept and describe some of the standards and practices being developed and utilized.”
 
 - id: 4
   type: presentation
@@ -165,9 +162,8 @@
     - title: "Industrial Technology Trajectory: Running With Scissors"
       permalink: program/presentations/patrick-miller/
       partner:
-  title:
-  description: |
-    Abstract: Innovative and disruptive technologies are enhancing and invading our traditional industrial business model. Future infrastructure organizations will need more data to operate efficiently and succeed in the brave new interconnected world. The diversity of new technologies and data will fuel more diversity in business opportunity. Everyone expects more OT, more IOT, and more IT - and all of it is supposed to be highly reliable and secure. These factors (and more) lead to a landscape shift for the industrial cybersecurity risk profile. In this session, hear ways to recognize the problems and gain some clarity on possible solutions through historic lessons, made up words, and practical front-line experience.
+      description: |
+        Abstract: Innovative and disruptive technologies are enhancing and invading our traditional industrial business model. Future infrastructure organizations will need more data to operate efficiently and succeed in the brave new interconnected world. The diversity of new technologies and data will fuel more diversity in business opportunity. Everyone expects more OT, more IOT, and more IT - and all of it is supposed to be highly reliable and secure. These factors (and more) lead to a landscape shift for the industrial cybersecurity risk profile. In this session, hear ways to recognize the problems and gain some clarity on possible solutions through historic lessons, made up words, and practical front-line experience.
 
 
 - id: 5
@@ -187,8 +183,7 @@
     - title: Pentesting Industrial Control Systems
       permalink: program/trainings/arnaud-soullie/
       partner:
-  title: 
-  description: |
+      description: |
 
 - id: 6
   type: presentation
@@ -207,8 +202,7 @@
     - title: Securing the ICS lab network
       permalink: program/presentations/william-middleton/
       partner:
-  title:
-  description: |
+      description: |
 
 - id: 7
   type: presentation
@@ -227,8 +221,7 @@
     - title: Operator Jail breakout
       permalink: program/presentations/dieter-frank/
       partner: Frank Lycops
-  title: Operator Jail breakout
-  description: |
+      description: |
 
 - id: 8
   type: presentation
@@ -247,8 +240,7 @@
     - title: Operator Jail breakout
       permalink: program/presentations/dieter-frank/
       partner: Dieter Sarrazyn
-  title:
-  description: |
+      description: |
 
 - id: 9
   type: presentation
@@ -267,8 +259,7 @@
     - title: The good, the bad and the segmented
       permalink: program/presentations/erwin-rik/
       partner: Rik van Hees
-  title:
-  description: |
+      description: |
 
 - id: 10
   type: presentation
@@ -287,8 +278,7 @@
     - title: The good, the bad and the segmented
       permalink: program/presentations/erwin-rik/
       partner: Erwin Kooi
-  title:
-  description: |
+      description: |
 
 
 - id: 11
@@ -308,8 +298,7 @@
     - title: ICS Scada Honeypot Technical Training
       permalink: program/trainings/mikael-vingaard/
       partner:
-  title:
-  description: |
+      description: |
 
 - id: 12
   type: presentation
@@ -328,8 +317,7 @@
     - title: Attacking PLCs by PLC in deep
       permalink: program/presentations/cheng-lei/
       partner:
-  title:
-  description: |
+      description: |
 
 
 - id: 13
@@ -349,8 +337,7 @@
     - title: The Internet of Things on the Internet
       permalink: program/presentations/adam-johnny/
       partner: Johnny Xmas
-  title:
-  description: |
+      description: |
 
 
 - id: 14
@@ -370,8 +357,7 @@
     - title: The Internet of Things on the Internet
       permalink: program/presentations/adam-johnny/
       partner: Adam Ringwood
-  title:
-  description: |
+      description: |
 
 
 - id: 15
@@ -391,8 +377,7 @@
     - title: "Attacking Cars Revisited: On the Road Towards a More Resilient Connected Vehicle Infrastructure"
       permalink: program/presentations/kai-thomsen/
       partner:
-  title:
-  description: |
+      description: |
 
 
 - id: 16
@@ -449,11 +434,13 @@
   presentation:
     - title: "Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense"
       permalink: program/presentations/joe-slowik/
+      description: |
+        asd1
   training:
     - title: ICS Strategic Planning and War Gaming
       permalink: program/trainings/joe-slowik/
-  title:
-  description: |
+      description: |
+        asd2
 
 
 - id: 19
@@ -473,12 +460,14 @@
     - title: Stateful Protocol Hunting
       permalink: program/presentations/dan-daniel/
       partner: Dan Gunter
+      description: |
+        asd1
   training:
     - title: Introduction to Threat Hunting in ICS
       permalink: program/trainings/ben-daniel/
       partner: Ben Miller
-  title:
-  description: |
+      description: |
+        asd2
 
 
 - id: 20
@@ -496,13 +485,15 @@
   place:
   presentation:
     - title: Hunting and Responding in ICS
-
       permalink: program/presentations/ben-mark/
       partner: Ben Miller
+      description: |
+        asd1
     - title: "Incident Response: Learning as you go is Expensive"
       permalink: program/presentations/mark-stacey/
-  title:
-  description: |
+      partner:
+      description: |
+        asd2
 
 
 - id: 21
@@ -522,12 +513,14 @@
     - title: Hunting and Responding in ICS
       permalink: program/presentations/ben-mark/
       partner: Mark Stacey
+      description: |
+        asd1
   training:
     - title: Introduction to Threat Hunting in ICS
       permalink: program/trainings/ben-daniel/
       partner: Daniel Michaud-Soucy
-  title:
-  description: |
+      description: |
+        asd2
 
 
 - id: 22
@@ -547,8 +540,7 @@
     - title: Stateful Protocol Hunting
       permalink: program/presentations/dan-daniel/
       partner: Daniel Michaud-Soucy
-  title:
-  description: |
+      description: |
 
 
 - id: 23
@@ -568,5 +560,4 @@
     - title: Using fake BTS as a part of pentest of devices using SIM cards for data transmission
       permalink: program/presentations/marcin-dudek/
       partner:
-  title: 
-  description: |
+      description: |
