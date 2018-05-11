@@ -788,14 +788,9 @@ h1, h2, h3, h4 {
 
     &:before {
       display: inline-block;
-      content: '';
-      border-radius: 2px;
-      width: 1px;
-      height: 14px;
-      background: rgba($white, .25);
+      content: '|';
+      color: rgba($white, .5);
       margin-right: 12px;
-      margin-bottom: -3px;
-      transform: rotate(-25deg);
     }
 
     &:last-of-type:before {
@@ -971,6 +966,9 @@ h1, h2, h3, h4 {
           .read-more-icon {
             border-color: $yellow;
           }
+          .feed-category:after, .feed-date:after {
+            color: $yellow;
+          }
         }
       }
     }
@@ -1014,7 +1012,7 @@ h1, h2, h3, h4 {
       font-size: 12px;
       letter-spacing: 1px;
       text-transform: uppercase;
-      margin-right: 10px;
+      margin-right: 4px;
 
       @include transition-ease;
 
@@ -1034,7 +1032,16 @@ h1, h2, h3, h4 {
       letter-spacing: 1px;
       text-transform: uppercase;
       color: rgba($white, 1);
-      margin-right: 10px;
+      margin-right: 4px;
+
+      @include transition-ease;
+    }
+
+    .feed-category:after, .feed-date:after {
+      display: inline-block;
+      content: '|';
+      color: rgba($white, .5);
+      margin-left: 4px;
 
       @include transition-ease;
     }
@@ -1119,7 +1126,7 @@ h1, h2, h3, h4 {
 
   .subject-row {
     display: block;
-    margin: 12px 0 30px;
+    margin: 12px 0 24px;
 
     h2 {
       font-family: 'latoregular', sans-serif;
@@ -1140,7 +1147,7 @@ h1, h2, h3, h4 {
 
     h3 {
       display: block;
-      font-family: 'latoblack', sans-serif;
+      font-family: 'latobold', sans-serif;
       font-weight: normal;
       font-size: 12px;
       color: rgba($white, .8);
@@ -1384,6 +1391,7 @@ h1, h2, h3, h4 {
       content: '';
       width: 40px;
       height: 1px;
+      border-radius: 2px;
       background: rgba($white, .5);
       position: absolute;
       bottom: -60px;
@@ -1814,6 +1822,7 @@ h1, h2, h3, h4 {
         content: '';
         width: 40px;
         height: 1px;
+        border-radius: 2px;
         background: rgba($white, .5);
         position: absolute;
         bottom: -11px;
@@ -2148,6 +2157,7 @@ h1, h2, h3, h4 {
         content: '';
         width: 40px;
         height: 1px;
+        border-radius: 2px;
         background: rgba($white, .5);
         position: absolute;
         bottom: -11px;
@@ -3195,6 +3205,17 @@ h1, h2, h3, h4 {
         font-size: 13px;
         margin-bottom: 0;
       }
+
+      span {
+        &:first-of-type {
+          margin-right: 4px;
+        }
+        &:nth-child(2):before {
+          display: inline-block;
+          content: '&';
+          margin-right: 4px;
+        }
+      }
     }
     h2 {
       font-size: 29px;
@@ -3314,6 +3335,7 @@ h1, h2, h3, h4 {
           content: '';
           width: 20px;
           height: 1px;
+          border-radius: 2px;
           background: rgba($white, .5);
           margin-bottom: 10px;
         }
@@ -3366,8 +3388,25 @@ h1, h2, h3, h4 {
         content: '';
         width: 20px;
         height: 1px;
+        border-radius: 2px;
         background: rgba($white, .5);
         margin-bottom: 12px;
+      }
+    }
+    .speaker-meta {
+      display: block;
+
+      .speaker-date, .speaker-time {
+        display: inline-block;
+        font-family: 'latoitalic', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        color: rgba($white, 1);
+      }
+      .speaker-time:before {
+        display: inline-block;
+        content: '@';
+        margin-right: 4px;
       }
     }
     .speaker-cospeaker {

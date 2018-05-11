@@ -717,14 +717,9 @@ h1, h2, h3, h4 {
       margin-left: 0; }
     .bc-nav li:before {
       display: inline-block;
-      content: '';
-      border-radius: 2px;
-      width: 1px;
-      height: 14px;
-      background: rgba(255, 255, 255, 0.25);
-      margin-right: 12px;
-      margin-bottom: -3px;
-      transform: rotate(-25deg); }
+      content: '|';
+      color: rgba(255, 255, 255, 0.5);
+      margin-right: 12px; }
     .bc-nav li:last-of-type:before {
       display: none; }
     @media screen and (min-width: 1680px) {
@@ -856,6 +851,8 @@ h1, h2, h3, h4 {
           color: #ef7d00; }
         .introduction .feed-news li a:hover .read-more-icon {
           border-color: #ef7d00; }
+        .introduction .feed-news li a:hover .feed-category:after, .introduction .feed-news li a:hover .feed-date:after {
+          color: #ef7d00; }
   .introduction .feed-news .read-more-icon {
     display: inline-block;
     background: none;
@@ -891,7 +888,7 @@ h1, h2, h3, h4 {
     font-size: 12px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin-right: 10px;
+    margin-right: 4px;
     transition: 0.24s all ease-in-out;
     -moz-transition: 0.24s all ease-in-out;
     -webkit-transtiion: 0.24s all ease-in-out;
@@ -910,7 +907,16 @@ h1, h2, h3, h4 {
     letter-spacing: 1px;
     text-transform: uppercase;
     color: white;
-    margin-right: 10px;
+    margin-right: 4px;
+    transition: 0.24s all ease-in-out;
+    -moz-transition: 0.24s all ease-in-out;
+    -webkit-transtiion: 0.24s all ease-in-out;
+    -o-transition: 0.24s all ease-in-out; }
+  .introduction .feed-news .feed-category:after, .introduction .feed-news .feed-date:after {
+    display: inline-block;
+    content: '|';
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 4px;
     transition: 0.24s all ease-in-out;
     -moz-transition: 0.24s all ease-in-out;
     -webkit-transtiion: 0.24s all ease-in-out;
@@ -976,7 +982,7 @@ h1, h2, h3, h4 {
         font-size: 60px; } }
   .introduction .subject-row {
     display: block;
-    margin: 12px 0 30px; }
+    margin: 12px 0 24px; }
     .introduction .subject-row h2 {
       font-family: 'latoregular', sans-serif;
       font-weight: normal;
@@ -991,7 +997,7 @@ h1, h2, h3, h4 {
         display: block; }
     .introduction .subject-row h3 {
       display: block;
-      font-family: 'latoblack', sans-serif;
+      font-family: 'latobold', sans-serif;
       font-weight: normal;
       font-size: 12px;
       color: rgba(255, 255, 255, 0.8);
@@ -1172,6 +1178,7 @@ h1, h2, h3, h4 {
     content: '';
     width: 40px;
     height: 1px;
+    border-radius: 2px;
     background: rgba(255, 255, 255, 0.5);
     position: absolute;
     bottom: -60px; }
@@ -1482,6 +1489,7 @@ h1, h2, h3, h4 {
         content: '';
         width: 40px;
         height: 1px;
+        border-radius: 2px;
         background: rgba(255, 255, 255, 0.5);
         position: absolute;
         bottom: -11px; }
@@ -1731,6 +1739,7 @@ h1, h2, h3, h4 {
         content: '';
         width: 40px;
         height: 1px;
+        border-radius: 2px;
         background: rgba(255, 255, 255, 0.5);
         position: absolute;
         bottom: -11px; }
@@ -2544,6 +2553,12 @@ h1, h2, h3, h4 {
       .speaker-block--header h4 {
         font-size: 13px;
         margin-bottom: 0; } }
+    .speaker-block--header h4 span:first-of-type {
+      margin-right: 4px; }
+    .speaker-block--header h4 span:nth-child(2):before {
+      display: inline-block;
+      content: '&';
+      margin-right: 4px; }
   .speaker-block--header h2 {
     font-size: 29px;
     font-weight: 800;
@@ -2639,6 +2654,7 @@ h1, h2, h3, h4 {
         content: '';
         width: 20px;
         height: 1px;
+        border-radius: 2px;
         background: rgba(255, 255, 255, 0.5);
         margin-bottom: 10px; }
   .speaker-block--content p {
@@ -2680,8 +2696,21 @@ h1, h2, h3, h4 {
       content: '';
       width: 20px;
       height: 1px;
+      border-radius: 2px;
       background: rgba(255, 255, 255, 0.5);
       margin-bottom: 12px; }
+  .speaker-block--content .speaker-meta {
+    display: block; }
+    .speaker-block--content .speaker-meta .speaker-date, .speaker-block--content .speaker-meta .speaker-time {
+      display: inline-block;
+      font-family: 'latoitalic', sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      color: white; }
+    .speaker-block--content .speaker-meta .speaker-time:before {
+      display: inline-block;
+      content: '@';
+      margin-right: 4px; }
   .speaker-block--content .speaker-cospeaker {
     display: block;
     font-family: 'latoitalic', sans-serif;

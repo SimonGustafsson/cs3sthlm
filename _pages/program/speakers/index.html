@@ -43,7 +43,10 @@ permalink: "/program/speakers/"
 			</div>
 			<div class="speaker-block-details">
 				<div class="speaker-block--header">
+					{% if speaker.type == 'moderator' %}
 					<h4>{{ speaker.type }}</h4>
+					{% endif %}
+					<h4>{% if speaker.presentation != null %}<span>Presentation</span>{% endif %}{% if speaker.training != null %}<span>Training</span>{% endif %}</h4>
 					<h2>{{ speaker.name }}</h2>
 					<h3>{{ speaker.role }}</h3>
 				</div>
@@ -80,6 +83,12 @@ permalink: "/program/speakers/"
 							{% if speaker.training != null %}
 							<h4 class="headline">Training</h4>
 							{% endif %}	
+							{% if speaker.training != null %}
+							<span class="speaker-meta">
+								<span class="speaker-date">{{ speaker.date }}</span>
+								<span class="speaker-time">{{ speaker.time }}</span>
+							</span>
+							{% endif %}
 							{% for item in speaker.training %}
 							<a href="{{ site.baseurl }}/{{ item.permalink }}" class="speaker-permalink">{{ item.title }}</a>
 							{% if item.partner != null %}
