@@ -244,7 +244,7 @@
 		"work"		: "Alliander",
 		"country"	: "Netherlands",
 		"shortcode" : "NL",
-		"image"		: "https://cs3sthlm.se/assets/speakers/temp.png",
+		"image"		: "https://cs3sthlm.se/assets/speakers/rik-van-hees.png",
 		
 		
 		
@@ -260,7 +260,7 @@
 		},
 		
 		
-		"bio"		: ""
+		"bio"		: "<p>Rik has been working in an ICS / SCADA environment for 10 years as an engineer, security architect and currently as a security officer for grid operator Liander. He has strong knowledge in designing and securing ICS systems on both the strategical as operational side and risk management. He holds a BSc of Electrical Engineering with a specialization in electronics. In his spare time he likes to play guitar, produce music, hike with his dogs and travel the world.</p>"
 		
 	},
 
