@@ -10,7 +10,7 @@ speaker:
  - name: Rik van Hees
    role: ICS Security Architect
    work: Alliander
-   image: temp.png
+   image: rik-van-hees.png
 id: presentation
 ---
 
