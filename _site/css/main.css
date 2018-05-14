@@ -915,6 +915,7 @@ h1, h2, h3, h4 {
   .introduction .feed-news .feed-category:after, .introduction .feed-news .feed-date:after {
     display: inline-block;
     content: '|';
+    font-family: 'latobold', sans-serif;
     color: rgba(255, 255, 255, 0.5);
     margin-left: 4px;
     transition: 0.24s all ease-in-out;

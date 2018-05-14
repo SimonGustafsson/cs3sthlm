@@ -1040,6 +1040,7 @@ h1, h2, h3, h4 {
     .feed-category:after, .feed-date:after {
       display: inline-block;
       content: '|';
+      font-family: 'latobold', sans-serif;
       color: rgba($white, .5);
       margin-left: 4px;
 
