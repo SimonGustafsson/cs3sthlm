@@ -828,6 +828,21 @@ h1, h2, h3, h4 {
   width: 10px;
 }
 
+/** Icons */
+
+.icon-calender, .icon-time {
+  display: block;
+  float: left;
+  width: 12px;
+  height: 12px;
+  line-height: 1.5;
+  margin: 4px 6px 0 0;
+}
+
+#calender, #time {
+  fill: $white;
+}
+
 /**
   BRAND */
 
@@ -3404,11 +3419,14 @@ h1, h2, h3, h4 {
         font-style: normal;
         color: rgba($white, 1);
       }
-      .speaker-time:before {
+      .speaker-time {
+        margin-left: 12px;
+      }
+      /*.speaker-time:before {
         display: inline-block;
         content: '@';
         margin-right: 4px;
-      }
+      }*/
     }
     .speaker-cospeaker {
       display: block;

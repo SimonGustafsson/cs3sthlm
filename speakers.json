@@ -9,7 +9,7 @@ layout: null
 		"role"		: "{{ speaker.role }}",
 		"work"		: "{{ speaker.work }}",
 		"country"	: "{{ speaker.country }}",
-		"shortcode" : "{{ speaker.shortcode }}",
+		"shortcode"	: "{{ speaker.shortcode }}",
 		"image"		: "https://cs3sthlm.se/assets/speakers/{{ speaker.image }}",
 		{% if speaker.date != null %}"date"		: "{{ speaker.date }}",{% endif %}
 		{% if speaker.time != null %}"time"		: "{{ speaker.time }}",{% endif %}

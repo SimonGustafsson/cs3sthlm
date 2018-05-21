@@ -747,6 +747,18 @@ h1, h2, h3, h4 {
   height: 10px;
   width: 10px; }
 
+/** Icons */
+.icon-calender, .icon-time {
+  display: block;
+  float: left;
+  width: 12px;
+  height: 12px;
+  line-height: 1.5;
+  margin: 4px 6px 0 0; }
+
+#calender, #time {
+  fill: white; }
+
 /**
   BRAND */
 .brand {
@@ -2701,17 +2713,20 @@ h1, h2, h3, h4 {
       background: rgba(255, 255, 255, 0.5);
       margin-bottom: 12px; }
   .speaker-block--content .speaker-meta {
-    display: block; }
+    display: block;
+    /*.speaker-time:before {
+      display: inline-block;
+      content: '@';
+      margin-right: 4px;
+    }*/ }
     .speaker-block--content .speaker-meta .speaker-date, .speaker-block--content .speaker-meta .speaker-time {
       display: inline-block;
       font-family: 'latoitalic', sans-serif;
       font-size: 14px;
       font-style: normal;
       color: white; }
-    .speaker-block--content .speaker-meta .speaker-time:before {
-      display: inline-block;
-      content: '@';
-      margin-right: 4px; }
+    .speaker-block--content .speaker-meta .speaker-time {
+      margin-left: 12px; }
   .speaker-block--content .speaker-cospeaker {
     display: block;
     font-family: 'latoitalic', sans-serif;
