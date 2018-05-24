@@ -158,7 +158,7 @@
 		"name"		: "Dieter Sarrazyn",
 		"role"		: "Security Expert",
 		"work"		: "Secudea",
-		"country"	: "Begium",
+		"country"	: "Belgium",
 		"shortcode"	: "BE",
 		"image"		: "https://cs3sthlm.se/assets/speakers/dieter-sarrazyn.png",
 		
@@ -186,7 +186,7 @@
 		"name"		: "Frank Lycops",
 		"role"		: "Security Consultant & Researcher",
 		"work"		: "Asvalis",
-		"country"	: "Begium",
+		"country"	: "Belgium",
 		"shortcode"	: "BE",
 		"image"		: "https://cs3sthlm.se/assets/speakers/frank-lycops.png",
 		
@@ -530,7 +530,13 @@
 			"title"			: "Hunting and Responding in ICS",
 			"partner"		: "Ben Miller",
 			"description" 	: "<p>asd1</p>"
-					
+			
+		
+			
+			"title"			: "Incident Response: Learning as you go is Expensive",
+			"partner"		: "",
+			"description" 	: "<p>asd2</p>"
+			
 		
 		},
 		
