@@ -2,15 +2,15 @@
 title: Operator Jail breakout
 permalink: "/program/presentations/dieter-frank/"
 layout: presentation
-speaker: 
- - name: Dieter Sarrazyn
-   role: Cybersecurity Expert
-   work: Freelance
-   image: dieter-sarrazyn.png
- - name: Frank Lycops
-   role: Security Consultant & Researcher
-   work: Freelance
-   image: frank-lycops.png
+speaker:
+- name: Dieter Sarrazyn
+  role: Cybersecurity Expert
+  work: Freelance
+  image: dieter-sarrazyn.png
+- name: Frank Lycops
+  role: Security Consultant & Researcher
+  work: Freelance
+  image: frank-lycops.png
 id: presentation
 ---
 

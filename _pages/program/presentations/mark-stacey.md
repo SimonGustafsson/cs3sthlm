@@ -1,12 +1,12 @@
 ---
-title: "Incident Response: Learning as you go is Expensive"
+title: 'Incident Response: Learning as you go is Expensive'
 permalink: "/program/presentations/mark-stacey/"
 layout: presentation
-speaker: 
- - name: Mark Stacey
-   role: Principal Threat Analyst
-   work: Dragos Inc
-   image: mark-stacey.png
+speaker:
+- name: Mark Stacey
+  role: Principal Threat Analyst
+  work: Dragos Inc
+  image: mark-stacey.png
 id: presentation
 ---
 

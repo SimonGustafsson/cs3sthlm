@@ -1,14 +1,14 @@
 ---
 title: ICS Strategic Planning and War Gaming
+permalink: "/program/trainings/joe-slowik/"
 layout: training
 time: 22-23 October
 id: training
-permalink: "/program/trainings/joe-slowik/"
-speaker: 
- - name: Joe Slowik
-   role: Adversary Hunter
-   work: Dragos Inc
-   image: joe-slowik.png
+speaker:
+- name: Joe Slowik
+  role: Adversary Hunter
+  work: Dragos Inc
+  image: joe-slowik.png
 ---
 
 Network defense is informed by knowing the network, and knowing the adversary – but few practitioners have the fortune of possessing this knowledge before a major breach. Industrial Control System (ICS) networks provide particular challenges due to limitations on operational testing and traditional red team exercises. To address the need for critical assessment of ICS-related networks for developing defensive strategy, this training provides attendees with a comprehensive exercise to identify critical network assets within a theoretical IT and ICS environment, driven by threat intelligence and threat actor profiles.

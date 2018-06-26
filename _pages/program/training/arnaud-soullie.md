@@ -1,14 +1,14 @@
 ---
 title: Pentesting Industrial Control Systems
+permalink: "/program/trainings/arnaud-soullie/"
 layout: training
 time: 22-23 October
 id: training
-permalink: "/program/trainings/arnaud-soullie/"
-speaker: 
- - name: Arnaud Soullié
-   role: Cybersecurity R&D Manager
-   work: Wavestone
-   image: arnaud-soullie.png
+speaker:
+- name: Arnaud Soullié
+  role: Cybersecurity R&D Manager
+  work: Wavestone
+  image: arnaud-soullie.png
 ---
 
 On this intense 2-days training, you will learn everything you need to start pentesting Industrial Control Networks. We will cover the basics to help you understand what are the most common ICS vulnerabilities.

@@ -2,15 +2,15 @@
 title: Hunting and Responding in ICS
 permalink: "/program/presentations/ben-mark/"
 layout: presentation
-speaker: 
- - name: Ben Miller
-   role: Director of Threat Operations
-   work: Dragos Inc
-   image: ben-miller.png
- - name: Mark Stacey
-   role: Principal Threat Analyst
-   work: Dragos Inc
-   image: mark-stacey.png
+speaker:
+- name: Ben Miller
+  role: Director of Threat Operations
+  work: Dragos Inc
+  image: ben-miller.png
+- name: Mark Stacey
+  role: Principal Threat Analyst
+  work: Dragos Inc
+  image: mark-stacey.png
 id: presentation
 ---
 

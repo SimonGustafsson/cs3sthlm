@@ -1,12 +1,13 @@
 ---
-title: "Attacking Cars Revisited: On the Road Towards a More Resilient Connected Vehicle Infrastructure"
+title: 'Attacking Cars Revisited: On the Road Towards a More Resilient Connected Vehicle
+  Infrastructure'
 permalink: "/program/presentations/kai-thomsen/"
 layout: presentation
-speaker: 
- - name: Kai Thomsen
-   role: Lead Incident Responder
-   work: AUDI AG
-   image: kai-thomsen.png
+speaker:
+- name: Kai Thomsen
+  role: Lead Incident Responder
+  work: AUDI AG
+  image: kai-thomsen.png
 id: presentation
 ---
 

@@ -1,6 +1,7 @@
 ---
-layout: null
+layout: 
 ---
+
 {"findyourway":[{% for item in site.data.info  %}
     {% if item.type == "findyourway" %}
     {

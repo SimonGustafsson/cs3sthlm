@@ -2,11 +2,11 @@
 title: Think like a hacker but act like an engineer
 permalink: "/program/presentations/marty-edwards/"
 layout: presentation
-speaker: 
- - name: Marty Edwards
-   role: Cybersecurity Expert
-   work: The Automation Federation
-   image: marty-edwards.png
+speaker:
+- name: Marty Edwards
+  role: Cybersecurity Expert
+  work: The Automation Federation
+  image: marty-edwards.png
 id: presentation
 ---
 

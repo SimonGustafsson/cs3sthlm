@@ -1,15 +1,15 @@
 ---
 title: Network Forens<b class="highlight-white">ICS</b> Training
+permalink: "/program/trainings/erik-hjelmvik/"
 short-title: Network Forens<b class="highlight-white">ICS</b> Training
 layout: training
 time: 22-23 October
 id: training
-permalink: "/program/trainings/erik-hjelmvik/"
-speaker: 
- - name: Erik Hjelmvik
-   role: Network Analyst
-   work: NETRESEC
-   image: erik-hjelmvik.png
+speaker:
+- name: Erik Hjelmvik
+  role: Network Analyst
+  work: NETRESEC
+  image: erik-hjelmvik.png
 ---
 
 Our two-day Network Forensics class consists of a mix of theory and hands-on labs, where students will learn to analyze Full Packet Capture (FPC) files. The scenarios in the labs are primarily focused at network forensics for incident response, but are also relevant for law enforcement/internal security etc. where the network traffic of a suspect or insider is being monitored.

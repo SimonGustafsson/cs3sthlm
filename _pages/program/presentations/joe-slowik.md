@@ -1,12 +1,12 @@
 ---
-title: "Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense"
+title: 'Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense'
 permalink: "/program/presentations/joe-slowik/"
 layout: presentation
-speaker: 
- - name: Joe Slowik
-   role: Adversary Hunter
-   work: Dragos Inc
-   image: joe-slowik.png
+speaker:
+- name: Joe Slowik
+  role: Adversary Hunter
+  work: Dragos Inc
+  image: joe-slowik.png
 id: presentation
 ---
 

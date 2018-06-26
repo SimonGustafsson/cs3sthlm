@@ -1,12 +1,14 @@
 ---
-layout: post
 title: Advenica announces new collaboration with CS3STHLM
-date: 2017-09-14 06:00:00 +0200
-categories: press
-pdf: 
- - english: press-03-14-09-2017.pdf
+date: 2017-09-14 04:00:00 Z
+categories:
+- press
+layout: post
+pdf:
+- english: press-03-14-09-2017.pdf
 author: Maria Engstrom Ostby
 ---
+
 The 4th edition of the top international summit on SCADA/ICS and critical infrastructure includes a seminar called ’Effective threat mitigation strategies’ hosted by Advenica. The company is providing new ways in cyber security, protecting critical infrastructures with innovative solutions.
 
 One of the founders of CS3STHLM, Robert Malmgren, expresses excitement over the collaboration;

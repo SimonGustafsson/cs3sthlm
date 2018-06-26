@@ -1,12 +1,12 @@
 ---
-title:  "Industrial Technology Trajectory: Running With Scissors"
+title: 'Industrial Technology Trajectory: Running With Scissors'
 permalink: "/program/presentations/patrick-miller/"
 layout: presentation
-speaker: 
- - name: Patrick Miller
-   role: Managing Partner
-   work: Archer
-   image: patrick-miller.png
+speaker:
+- name: Patrick Miller
+  role: Managing Partner
+  work: Archer
+  image: patrick-miller.png
 id: presentation
 ---
 
