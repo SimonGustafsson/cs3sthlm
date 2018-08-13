@@ -70,7 +70,7 @@ permalink: "/program/speakers/"
 							<h4 class="headline">Presentation</h4>
 							{% endif %}	
 							{% for item in speaker.presentation %}
-							<a href="{{ site.baseurl }}/{{ item.permalink }}" class="speaker-permalink">{{ item.title }}</a>
+							<a href="{{ site.baseurl }}/{{ item.permalink }}" class="speaker-permalink">{{ item.subject }}</a>
 							{% if item.partner != null %}
 							<span class="speaker-cospeaker">with {{ item.partner }}</span>
 							{% endif %}
@@ -84,7 +84,7 @@ permalink: "/program/speakers/"
 							<h4 class="headline">Training</h4>
 							{% endif %}	
 							{% for item in speaker.training %}
-							<a href="{{ site.baseurl }}/{{ item.permalink }}" class="speaker-permalink">{{ item.title }}</a>
+							<a href="{{ site.baseurl }}/{{ item.permalink }}" class="speaker-permalink">{{ item.subject }}</a>
 							<span class="speaker-meta">
 								<span class="speaker-date">
 									<span class="icon-calender">
@@ -97,7 +97,7 @@ permalink: "/program/speakers/"
 											<path d="M50,8.13A41.87,41.87,0,1,0,91.87,50,41.92,41.92,0,0,0,50,8.13Zm0,79.75A37.88,37.88,0,1,1,87.87,50,37.92,37.92,0,0,1,50,87.88Z"/>
 											<path d="M50,49.22V24.08a2,2,0,0,0-4,0V50a2,2,0,0,0,.52,1.35L59.81,65.86a2,2,0,0,0,3-2.7Z"/>
 										</svg>
-									</span>{{ speaker.time }}
+									</span>{{ speaker.time }}
 								</span>
 							</span>
 							{% if item.partner != null %}

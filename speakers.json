@@ -10,29 +10,27 @@ layout: null
 		"work"		: "{{ speaker.work }}",
 		"country"	: "{{ speaker.country }}",
 		"shortcode"	: "{{ speaker.shortcode }}",
-		"image"		: "https://cs3sthlm.se/assets/speakers/{{ speaker.image }}",
-		{% if speaker.date != null %}"date"		: "{{ speaker.date }}",{% endif %}
-		{% if speaker.time != null %}"time"		: "{{ speaker.time }}",{% endif %}
-		{% if speaker.place != null %}"place"		: "{{ speaker.place }}",{% endif %}
-		{% if speaker.presentation != null %}
-		"presentation": {
+		"image" 	: "https://cs3sthlm.se/assets/speakers/{{ speaker.image }}",
+		{% if speaker.date != null %}"date" 		: "{{ speaker.date }}",{% endif %}
+		{% if speaker.time != null %}"time" 		: "{{ speaker.time }}",{% endif %}
+		{% if speaker.place != null %}"place" 	: "{{ speaker.place }}",{% endif %}
+
+		"presentation":{
 		{% for item in speaker.presentation %}
-			
-			"title"			: "{{ item.title }}",
-			"partner"		: "{{ item.partner }}",
-			"description" 	: {{ item.description | markdownify | strip_newlines | jsonify }}
-			
+			"title": "{{ item.subject }}",
+			{% if item.partner != null %}"partner": "{{ item.partner }}",{% endif %}
+			"description": {{ item.description | markdownify | strip_newlines | jsonify }}
 		{% endfor %}
 		},
-		{% endif %}
 		{% for item in speaker.training %}
 		"training": {
-			"title"			: "{{ item.title }}",
-			"partner"		: "{{ item.partner }}",
-			"description" 	: {{ item.description | markdownify | strip_newlines | jsonify }}
-		},{% endfor %}
-		"bio"		: {{ speaker.bio | markdownify | strip_newlines | jsonify }}
-		
+			"title": "{{ item.subject }}",
+			{% if item.partner != null %}"partner": "{{ item.partner }}",{% endif %}
+			"description": {{ item.description | markdownify | strip_newlines | jsonify }}
+		},
+		{% endfor %}
+
+		"bio": {{ speaker.bio | markdownify | strip_newlines | jsonify }}
 	}{% unless forloop.last %},{% endunless %}
 {% endfor %}
 ]}

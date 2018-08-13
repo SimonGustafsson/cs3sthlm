@@ -21,8 +21,8 @@ permalink: "/about/"
 
     <div class="sec-blocks-row">
 
-      {% assign sorted_history = site.data.history | sort: "year" | reverse %}
-      {% for card in sorted_history %}
+      {% assign sorthistory = site.data.history | sort:'year' | reverse %}
+      {% for card in sorthistory %}
       <a href="{{ site.baseurl }}/about/history/" class="block-item">
         <h3>{{ card.year }}</h3>
         <h5>{{ card.location }}</h5>

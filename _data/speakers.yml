@@ -12,7 +12,7 @@
   time: 09:00 - 17:00
   place: Harlem
   training:
-    - title: Network Forensics Training
+    - subject: Network Forensics Training
       permalink: program/trainings/erik-hjelmvik/
       partner:
       description: |
@@ -101,7 +101,7 @@
   time: 09:00 - 17:00
   place:
   training:
-    - title: "Cyber security for the energy sector – an introduction to ISO/IEC 27019 and the BDEW/OE Whitepaper"
+    - subject: "Cyber security for the energy sector – an introduction to ISO/IEC 27019 and the BDEW/OE Whitepaper"
       permalink: program/trainings/stephan-beirer/
       partner:
       description: |
@@ -137,7 +137,7 @@
   time:
   place:
   presentation:
-    - title: Think like a hacker but act like an engineer
+    - subject: Think like a hacker but act like an engineer
       permalink: program/presentations/marty-edwards/
       partner:
       description: |
@@ -159,7 +159,7 @@
   time:
   place:
   presentation:
-    - title: "Industrial Technology Trajectory: Running With Scissors"
+    - subject: "Industrial Technology Trajectory: Running With Scissors"
       permalink: program/presentations/patrick-miller/
       partner:
       description: |
@@ -180,7 +180,7 @@
   time: 09:00 - 17:00
   place:
   training:
-    - title: Pentesting Industrial Control Systems
+    - subject: Pentesting Industrial Control Systems
       permalink: program/trainings/arnaud-soullie/
       partner:
       description: |
@@ -199,7 +199,7 @@
   time:
   place:
   presentation:
-    - title: Securing the ICS lab network
+    - subject: Securing the ICS lab network
       permalink: program/presentations/william-middleton/
       partner:
       description: |
@@ -218,7 +218,7 @@
   time:
   place:
   presentation:
-    - title: Operator Jail breakout
+    - subject: Operator Jail breakout
       permalink: program/presentations/dieter-frank/
       partner: Frank Lycops
       description: |
@@ -237,7 +237,7 @@
   time:
   place:
   presentation:
-    - title: Operator Jail breakout
+    - subject: Operator Jail breakout
       permalink: program/presentations/dieter-frank/
       partner: Dieter Sarrazyn
       description: |
@@ -256,7 +256,7 @@
   time:
   place:
   presentation:
-    - title: The good, the bad and the segmented
+    - subject: The good, the bad and the segmented
       permalink: program/presentations/erwin-rik/
       partner: Rik van Hees
       description: |
@@ -275,7 +275,7 @@
   time:
   place:
   presentation:
-    - title: The good, the bad and the segmented
+    - subject: The good, the bad and the segmented
       permalink: program/presentations/erwin-rik/
       partner: Erwin Kooi
       description: |
@@ -295,7 +295,7 @@
   time: 09:00 - 17:00
   place:
   training:
-    - title: ICS Scada Honeypot Technical Training
+    - subject: ICS Scada Honeypot Technical Training
       permalink: program/trainings/mikael-vingaard/
       partner:
       description: |
@@ -314,7 +314,7 @@
   time:
   place:
   presentation:
-    - title: Attacking PLCs by PLC in deep
+    - subject: Attacking PLCs by PLC in deep
       permalink: program/presentations/cheng-lei/
       partner:
       description: |
@@ -334,7 +334,7 @@
   time:
   place:
   presentation:
-    - title: The Internet of Things on the Internet
+    - subject: The Internet of Things on the Internet
       permalink: program/presentations/adam-johnny/
       partner: Johnny Xmas
       description: |
@@ -354,7 +354,7 @@
   time:
   place:
   presentation:
-    - title: The Internet of Things on the Internet
+    - subject: The Internet of Things on the Internet
       permalink: program/presentations/adam-johnny/
       partner: Adam Ringwood
       description: |
@@ -374,7 +374,7 @@
   time:
   place:
   presentation:
-    - title: "Attacking Cars Revisited: On the Road Towards a More Resilient Connected Vehicle Infrastructure"
+    - subject: "Attacking Cars Revisited: On the Road Towards a More Resilient Connected Vehicle Infrastructure"
       permalink: program/presentations/kai-thomsen/
       partner:
       description: |
@@ -394,11 +394,10 @@
   time:
   place:
   presentation:
-    - title: Jumping Air Gaps
+    - subject: Jumping Air Gaps
       permalink: program/presentations/monta-elkins/
       partner:
-  title: 
-  description: |
+      description: |
 
 
 - id: 17
@@ -427,12 +426,12 @@
   time: 09:00 - 17:00
   place:
   presentation:
-    - title: "Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense"
+    - subject: "Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense"
       permalink: program/presentations/joe-slowik/
       description: |
         asd1
   training:
-    - title: ICS Strategic Planning and War Gaming
+    - subject: ICS Strategic Planning and War Gaming
       permalink: program/trainings/joe-slowik/
       description: |
         asd2
@@ -452,13 +451,13 @@
   time: 09:00 - 17:00
   place:
   presentation:
-    - title: Stateful Protocol Hunting
+    - subject: Stateful Protocol Hunting
       permalink: program/presentations/dan-daniel/
       partner: Dan Gunter
       description: |
         asd1
   training:
-    - title: Introduction to Threat Hunting in ICS
+    - subject: Introduction to Threat Hunting in ICS
       permalink: program/trainings/ben-daniel/
       partner: Ben Miller
       description: |
@@ -479,12 +478,12 @@
   time:
   place:
   presentation:
-    - title: Hunting and Responding in ICS
+    - subject: Hunting and Responding in ICS
       permalink: program/presentations/ben-mark/
       partner: Ben Miller
       description: |
         asd1
-    - title: "Incident Response: Learning as you go is Expensive"
+    - subject: "Incident Response: Learning as you go is Expensive"
       permalink: program/presentations/mark-stacey/
       partner:
       description: |
@@ -505,13 +504,13 @@
   time: 09:00 - 17:00
   place:
   presentation:
-    - title: Hunting and Responding in ICS
+    - subject: Hunting and Responding in ICS
       permalink: program/presentations/ben-mark/
       partner: Mark Stacey
       description: |
         asd1
   training:
-    - title: Introduction to Threat Hunting in ICS
+    - subject: Introduction to Threat Hunting in ICS
       permalink: program/trainings/ben-daniel/
       partner: Daniel Michaud-Soucy
       description: |
@@ -532,7 +531,7 @@
   time:
   place:
   presentation:
-    - title: Stateful Protocol Hunting
+    - subject: Stateful Protocol Hunting
       permalink: program/presentations/dan-daniel/
       partner: Daniel Michaud-Soucy
       description: |
@@ -552,7 +551,7 @@
   time:
   place:
   presentation:
-    - title: Using fake BTS as a part of pentest of devices using SIM cards for data transmission
+    - subject: Using fake BTS as a part of pentest of devices using SIM cards for data transmission
       permalink: program/presentations/marcin-dudek/
       partner:
       description: |

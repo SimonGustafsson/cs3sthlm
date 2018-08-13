@@ -1033,7 +1033,6 @@ h1, h2, h3, h4 {
 
       @include media-query($mobile) {
         max-width: 15%;
-        margin-right: 2.5%;
       }
 
       @include media-query-min($large) {
@@ -1050,6 +1049,10 @@ h1, h2, h3, h4 {
       margin-right: 4px;
 
       @include transition-ease;
+
+      @include media-query($mobile) {
+        display: none;
+      }
     }
 
     .feed-category:after, .feed-date:after {
@@ -1081,7 +1084,7 @@ h1, h2, h3, h4 {
       @include transition-ease;
 
       @include media-query($mobile) {
-        max-width: 80.5%;
+        max-width: 75.5%;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
@@ -1525,6 +1528,7 @@ h1, h2, h3, h4 {
       margin-left: 0;
       margin-bottom: 0;
       font-size: 18px;
+      color: rgba($white, .85);
 
       @include media-query-min($large) {
         font-size: 23px;
@@ -1820,6 +1824,7 @@ h1, h2, h3, h4 {
       letter-spacing: 2px;
       position: relative;
       margin-bottom: 22px;
+      color: $yellow;
 
       @include media-query($mobile) {
         display: none;
@@ -1902,7 +1907,11 @@ h1, h2, h3, h4 {
       font-family: 'latoblack', sans-serif;
       font-weight: normal;
       font-size: 15px;
-      color: $yellow;
+      color: $white;
+
+      @include media-query-min($large) {
+        font-size: 18px;
+      }
     }
     .distance-details {
       margin-left: auto;
@@ -2163,6 +2172,7 @@ h1, h2, h3, h4 {
       letter-spacing: 2px;
       position: relative;
       margin-bottom: 22px;
+      color: $yellow;
 
       @include media-query-min($large) {
         font-size: 16px;
@@ -4621,6 +4631,7 @@ h1, h2, h3, h4 {
 .presentation--list {
   display: block;
   margin-top: 40px;
+  width: 100%;
 
   @include media-query($mobile) {
     padding: 0 20px;
