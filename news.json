@@ -1,6 +1,7 @@
 ---
-layout: null
+layout: 
 ---
+
 {"newsList":[{% for post in site.posts %}
     {
       "title": "{{ post.title }}",

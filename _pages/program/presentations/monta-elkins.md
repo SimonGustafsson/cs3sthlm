@@ -2,11 +2,11 @@
 title: Jumping Air Gaps
 permalink: "/program/presentations/monta-elkins/"
 layout: presentation
-speaker: 
- - name: Monta Elkins
-   role: Hacker-in-Chief
-   work: FoxGuard Solutions
-   image: monta-elkins.png
+speaker:
+- name: Monta Elkins
+  role: Hacker-in-Chief
+  work: FoxGuard Solutions
+  image: monta-elkins.png
 id: presentation
 ---
 

@@ -2,15 +2,15 @@
 title: The Internet of Things on the Internet
 permalink: "/program/presentations/adam-johnny/"
 layout: presentation
-speaker: 
- - name: Adam Ringwood
-   role: OT Security Researcher
-   work: Uptake Technologies
-   image: adam-ringwood.png
- - name: Johnny Xmas
-   role: Security Researcher
-   work: Uptake Technologies
-   image: johnny-xmas.png
+speaker:
+- name: Adam Ringwood
+  role: OT Security Researcher
+  work: Uptake Technologies
+  image: adam-ringwood.png
+- name: Johnny Xmas
+  role: Security Researcher
+  work: Uptake Technologies
+  image: johnny-xmas.png
 id: presentation
 ---
 

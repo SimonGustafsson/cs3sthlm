@@ -2,15 +2,15 @@
 title: The good, the bad and the segmented
 permalink: "/program/presentations/erwin-rik/"
 layout: presentation
-speaker: 
- - name: Erwin Kooi
-   role: Information Security Arcitect
-   work: Alliander
-   image: erwin-kooi.png
- - name: Rik van Hees
-   role: ICS Security Architect
-   work: Alliander
-   image: rik-van-hees.png
+speaker:
+- name: Erwin Kooi
+  role: Information Security Arcitect
+  work: Alliander
+  image: erwin-kooi.png
+- name: Rik van Hees
+  role: ICS Security Architect
+  work: Alliander
+  image: rik-van-hees.png
 id: presentation
 ---
 

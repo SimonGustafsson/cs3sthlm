@@ -2,11 +2,11 @@
 title: Using fake BTS as a part of pentest of devices using SIM cards for data transmission
 permalink: "/program/presentations/marcin-dudek/"
 layout: presentation
-speaker: 
- - name: Marcin Dudek
-   role: IT Security Expert
-   work: ComCERT.PL
-   image: marcin-dudek.png
+speaker:
+- name: Marcin Dudek
+  role: IT Security Expert
+  work: ComCERT.PL
+  image: marcin-dudek.png
 id: presentation
 ---
 

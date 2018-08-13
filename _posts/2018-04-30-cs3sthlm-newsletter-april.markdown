@@ -1,11 +1,12 @@
 ---
-layout: post
 title: CS3STHLM Newsletter April
-date: 2018-04-30 06:00:00 +0200
-categories: news
+date: 2018-04-30 04:00:00 Z
+categories:
+- news
+layout: post
 author: CS3STHLM Crew
-pdf: 
- - english: CS3STHLM-Newsletter-April-2018.pdf
+pdf:
+- english: CS3STHLM-Newsletter-April-2018.pdf
 ---
 
 We are opening up the gates for the 5th CS3STHLM summit! In this newsletter we present the keynote speakers, our first presentation and a record number of training sessions!

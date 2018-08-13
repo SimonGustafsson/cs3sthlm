@@ -1,6 +1,7 @@
 ---
-layout: null
+layout: 
 ---
+
 {"agendaList":[{% for item in site.data.agenda %}
 	{
 		"id"		: "{{ item.id }}",

@@ -2,15 +2,15 @@
 title: Stateful Protocol Hunting
 permalink: "/program/presentations/dan-daniel/"
 layout: presentation
-speaker: 
- - name: Dan Gunter
-   role: Principal Threat Analyst
-   work: Dragos Inc
-   image: dan-gunter.png
- - name: Daniel Michaud-Soucy
-   role: Principal Threat Analyst
-   work: Dragos Inc
-   image: daniel-michaud-soucy.png
+speaker:
+- name: Dan Gunter
+  role: Principal Threat Analyst
+  work: Dragos Inc
+  image: dan-gunter.png
+- name: Daniel Michaud-Soucy
+  role: Principal Threat Analyst
+  work: Dragos Inc
+  image: daniel-michaud-soucy.png
 id: presentation
 ---
 

@@ -1,6 +1,7 @@
 ---
-layout: null
+layout: 
 ---
+
 {"speakerList":[{% for speaker in site.data.speakers %}
 	{
 		"id"		: "{{ speaker.id }}",

@@ -2,11 +2,11 @@
 title: Attacking PLCs by PLC in deep
 permalink: "/program/presentations/cheng-lei/"
 layout: presentation
-speaker: 
- - name: Cheng Lei
-   role: ICS Security Researcher
-   work: NSFOCUS
-   image: cheng-lei.png
+speaker:
+- name: Cheng Lei
+  role: ICS Security Researcher
+  work: NSFOCUS
+  image: cheng-lei.png
 id: presentation
 ---
 
