@@ -507,7 +507,14 @@
 		
 			"title": "Hunting and Responding in ICS",
 			"partner": "Ben Miller",
-			"description": "<p>asd1</p>"		
+			"description": "<p>asd1</p>"
+		
+		},
+		
+		"training": {
+			"title": "Incident Response: Learning as you go is Expensive",
+			
+			"description": "<p>asd2</p>"
 		},
 		
 
