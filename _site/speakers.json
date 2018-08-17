@@ -46,6 +46,11 @@
 
 		"presentation":{
 		
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"description": ""
+		
 		},
 		
 		"training": {
@@ -73,11 +78,17 @@
 
 		"presentation":{
 		
-			"active": "",
+			"active": "live",
 			"title": "Think like a hacker but act like an engineer",
 			"partner": "",
 			"description": "<p>Industrial Control Systems (ICS) as well as Operational Technology (OT) are under increased risks from cyber events.  Come learn how Cyber Informed Engineering is an evolving concept to use cyber risk in designing control systems and associated protection systems.</p><p>“Cyber risks to Industrial Control Systems (ICS) and Operational Technology (OT) continue to evolve.  Whether it is the threat of ransomware taking a production system offline, or sophisticated malware targeting the safety critical components of your system.  Engineers have long designed systems to be resilient to a multitude of failure modes, and it is time that we started taking the lessons learned from cyber attacks against these systems into consideration during new system design, or legacy system retrofit.  This session will introduce this evolving concept and describe some of the standards and practices being developed and utilized.”</p>"
 		
+		},
+		
+		"training": {
+			"title": "",
+			"partner": "",
+			"description": ""
 		},
 		
 
@@ -99,11 +110,17 @@
 
 		"presentation":{
 		
-			"active": "",
+			"active": "live",
 			"title": "Industrial Technology Trajectory: Running With Scissors",
 			"partner": "",
 			"description": "<p>Abstract: Innovative and disruptive technologies are enhancing and invading our traditional industrial business model. Future infrastructure organizations will need more data to operate efficiently and succeed in the brave new interconnected world. The diversity of new technologies and data will fuel more diversity in business opportunity. Everyone expects more OT, more IOT, and more IT - and all of it is supposed to be highly reliable and secure. These factors (and more) lead to a landscape shift for the industrial cybersecurity risk profile. In this session, hear ways to recognize the problems and gain some clarity on possible solutions through historic lessons, made up words, and practical front-line experience.</p>"
 		
+		},
+		
+		"training": {
+			"title": "",
+			"partner": "",
+			"description": ""
 		},
 		
 
@@ -124,6 +141,11 @@
 		
 
 		"presentation":{
+		
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"description": ""
 		
 		},
 		
@@ -152,11 +174,17 @@
 
 		"presentation":{
 		
-			"active": "",
+			"active": "live",
 			"title": "Securing the ICS lab network",
 			"partner": "",
-			"description": ""
+			"description": "<p>asd1</p>"
 		
+		},
+		
+		"training": {
+			"title": "",
+			"partner": "",
+			"description": ""
 		},
 		
 
@@ -178,11 +206,17 @@
 
 		"presentation":{
 		
-			"active": "",
+			"active": "live",
 			"title": "Operator Jail breakout",
 			"partner": "Frank Lycops",
-			"description": ""
+			"description": "<p>asd12</p>"
 		
+		},
+		
+		"training": {
+			"title": "",
+			"partner": "",
+			"description": ""
 		},
 		
 
@@ -204,11 +238,17 @@
 
 		"presentation":{
 		
-			"active": "",
+			"active": "live",
 			"title": "Operator Jail breakout",
 			"partner": "Dieter Sarrazyn",
-			"description": ""
+			"description": "<p>asd2</p>"
 		
+		},
+		
+		"training": {
+			"title": "",
+			"partner": "",
+			"description": ""
 		},
 		
 
@@ -230,11 +270,17 @@
 
 		"presentation":{
 		
-			"active": "",
+			"active": "live",
 			"title": "The good, the bad and the segmented",
 			"partner": "Rik van Hees",
-			"description": ""
+			"description": "<p>asd2</p>"
 		
+		},
+		
+		"training": {
+			"title": "",
+			"partner": "",
+			"description": ""
 		},
 		
 
@@ -256,11 +302,17 @@
 
 		"presentation":{
 		
-			"active": "",
+			"active": "live",
 			"title": "The good, the bad and the segmented",
 			"partner": "Erwin Kooi",
-			"description": ""
+			"description": "<p>asd2</p>"
 		
+		},
+		
+		"training": {
+			"title": "",
+			"partner": "",
+			"description": ""
 		},
 		
 
@@ -281,6 +333,11 @@
 		
 
 		"presentation":{
+		
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"description": ""
 		
 		},
 		
@@ -309,11 +366,17 @@
 
 		"presentation":{
 		
-			"active": "",
+			"active": "live",
 			"title": "Attacking PLCs by PLC in deep",
 			"partner": "",
-			"description": ""
+			"description": "<p>asd1</p>"
 		
+		},
+		
+		"training": {
+			"title": "",
+			"partner": "",
+			"description": ""
 		},
 		
 
@@ -335,11 +398,17 @@
 
 		"presentation":{
 		
-			"active": "",
+			"active": "live",
 			"title": "The Internet of Things on the Internet",
 			"partner": "Johnny Xmas",
-			"description": ""
+			"description": "<p>asd1</p>"
 		
+		},
+		
+		"training": {
+			"title": "",
+			"partner": "",
+			"description": ""
 		},
 		
 
@@ -361,11 +430,17 @@
 
 		"presentation":{
 		
-			"active": "",
+			"active": "live",
 			"title": "The Internet of Things on the Internet",
 			"partner": "Adam Ringwood",
-			"description": ""
+			"description": "<p>asd2</p>"
 		
+		},
+		
+		"training": {
+			"title": "",
+			"partner": "",
+			"description": ""
 		},
 		
 
@@ -387,11 +462,17 @@
 
 		"presentation":{
 		
-			"active": "",
+			"active": "live",
 			"title": "Attacking Cars Revisited: On the Road Towards a More Resilient Connected Vehicle Infrastructure",
 			"partner": "",
-			"description": ""
+			"description": "<p>asd1</p>"
 		
+		},
+		
+		"training": {
+			"title": "",
+			"partner": "",
+			"description": ""
 		},
 		
 
@@ -413,11 +494,17 @@
 
 		"presentation":{
 		
-			"active": "",
+			"active": "live",
 			"title": "Jumping Air Gaps",
 			"partner": "",
-			"description": ""
+			"description": "<p>asd1</p>"
 		
+		},
+		
+		"training": {
+			"title": "",
+			"partner": "",
+			"description": ""
 		},
 		
 
@@ -439,6 +526,17 @@
 
 		"presentation":{
 		
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"title": "",
+			"partner": "",
+			"description": ""
 		},
 		
 
@@ -460,7 +558,7 @@
 
 		"presentation":{
 		
-			"active": "",
+			"active": "live",
 			"title": "Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense",
 			"partner": "",
 			"description": "<p>asd1</p>"
@@ -492,7 +590,7 @@
 
 		"presentation":{
 		
-			"active": "",
+			"active": "live",
 			"title": "Stateful Protocol Hunting",
 			"partner": "Dan Gunter",
 			"description": "<p>asd1</p>"
@@ -588,11 +686,17 @@
 
 		"presentation":{
 		
-			"active": "",
+			"active": "live",
 			"title": "Stateful Protocol Hunting",
 			"partner": "Daniel Michaud-Soucy",
-			"description": ""
+			"description": "<p>asd2</p>"
 		
+		},
+		
+		"training": {
+			"title": "",
+			"partner": "",
+			"description": ""
 		},
 		
 
@@ -614,11 +718,17 @@
 
 		"presentation":{
 		
-			"active": "",
+			"active": "live",
 			"title": "Using fake BTS as a part of pentest of devices using SIM cards for data transmission",
 			"partner": "",
-			"description": ""
+			"description": "<p>asd1</p>"
 		
+		},
+		
+		"training": {
+			"title": "",
+			"partner": "",
+			"description": ""
 		},
 		
 
