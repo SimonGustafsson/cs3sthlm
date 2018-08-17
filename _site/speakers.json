@@ -22,6 +22,7 @@
 		},
 		
 		"training": {
+			"active": "live",
 			"title": "Network Forensics Training",
 			"partner": "",
 			"description": "<p>Our two-day Network Forensics class consists of a mix of theory and hands-on labs, where students will learn to analyze Full Packet Capture (FPC) files. The scenarios in the labs are primarily focused at network forensics for incident response, but are also relevant for law enforcement/internal security etc. where the network traffic of a suspect or insider is being monitored.</p><h4 id=\"day-1---theory-and-practice-using-open-source-tools\">Day 1 - Theory and Practice using Open Source Tools</h4><ul>  <li>Theory: Ethernet signaling</li>  <li>Hardware: Network TAPs and Monitor ports / SPAN ports</li>  <li>Sniffers: Recommendations for high-performance packet interception</li>  <li>Analyze Modbus TCP traffic</li>  <li>Forensics of IEC 60870-5-104 network traffic</li>  <li>Investigate telnet sessions</li>  <li>PCAP analysis: Extracting evidence and indicators of compromise using open source tools</li>  <li>Defeating Big Data: Techniques for working with large data sets</li>  <li>Whitelists: Learn how to detect 0-day exploit attacks without using IDS signatures</li>  <li>Challenge Day 1: Find the needle in our haystack and win a honorable prize!</li></ul><h4 id=\"day-2---advanced-network-forensics-using-netresec-tools\">Day 2 - Advanced Network Forensics using Netresec Tools</h4><ul>  <li>NetworkMiner Professional: Learning to leverage the features available in the Pro version    <ul>      <li>Port Independent Protocol Identification (PIPI)</li>      <li>DNS Whitelisting</li>    </ul>  </li>  <li>NetworkMinerCLI: Automating content extraction with our command line tool</li>  <li>CapLoader: Searching, sorting and drilling through large PCAP data sets    <ul>      <li>Super fast flow transcript (aka Follow TCP/UDP stream)</li>      <li>Filter PCAP files and export frames to other tools</li>      <li>Keyword search</li>      <li>Create inventory of ICS devices from PCAP</li>    </ul>  </li>  <li>Challenge Day 2</li></ul><h4 id=\"the-scenario\">The Scenario</h4><p>The scenario used in the class involves a new progressive Bank, which provides exchange services for Bitcoin and Litecoin. We’ve set up clients and a server for this bank using REAL physical machines and a REAL internet connection. All traffic on the network is captured to PCAP files by a SecurityOnion sensor. In the scenario this bank gets into lots of trouble with hackers and malware, such as:</p><ul>  <li>Defacement of the Bank’s web server (see zone-h mirror)</li>  <li>Backdoor infection through trojanized software</li>  <li>Spear phishing</li>  <li>Use of a popular RAT (njRAT) to access the victims machine and exfiltrate the wallet.dat files for Bitcoin and Litecoin</li>  <li>Infection with real malware (Nemucod, Miuref / Boaxxe and more)</li></ul><p>Class attendees will learn to analyze captured network traffic from these events in order to:</p><ul>  <li>Investigate web server compromises and defacements</li>  <li>Identify covert backdoors</li>  <li>Reassemble incoming emails and attachments</li>  <li>Detect and decode RAT/backdoor traffic</li>  <li>Detect malicious traffic without having to rely on blacklists, AV or third-party detection services</li></ul><h4 id=\"professional-software-included-free-of-charge\">Professional software included FREE of charge</h4><p>Each attendee will be provided with a free personal single user license of NetworkMiner Professional and CapLoader. These licenses will be valid for six months from the first training day.</p><h3 id=\"target-audience\">Target Audience</h3><p>Q: Who should attend?</p><p>A: Anyone who want to improve their skills at finding evil stuff in full content packet captures.</p><p>Q: Who should NOT attend?</p><p>A: Those who are afraid of using Linux command line tools.</p><h3 id=\"training-preparations\">Training Preparations</h3><h4 id=\"laptop-required\">Laptop Required</h4><p>Attendees will need to bring a laptop that fits the following specs:</p><ul>  <li>A PC running any 64 bit Windows OS (can be a Virtual Machine)</li>  <li>At least 4GB RAM</li>  <li>At least 40 GB free disk space</li>  <li>VirtualBox (64 bit) installed (VMWare will not be supported in the training)</li></ul><p>A VirtualBox VM will be provided on USB flash drives at the beginning of the training.</p><p>Please note that having a 64-bit CPU and a 64-bit OS is not always enough to support 64-bit virtualization. You might need to enable features such as ”AMD-V”, ”VT-x” or ”Hyper-V” in BIOS in order to run virtual machines in 64-bit mode. You might also need to turn off “Intel Trusted Execution” in BIOS. One way to verify that your laptop supports 64-bit virtualization is to download the SecurityOnion ISO and see if it boots up in VirtualBox.</p>"
@@ -54,6 +55,7 @@
 		},
 		
 		"training": {
+			"active": "live",
 			"title": "Cyber security for the energy sector – an introduction to ISO/IEC 27019 and the BDEW/OE Whitepaper",
 			"partner": "",
 			"description": "<p>Generation, storage, transport and distribution of electricity and gas are the most critical of all critical infrastructure processes supporting our daily life. As in every modern industry domain, energy supply is heavily dependent on industrial control systems (ICS) and the security of these systems. While many energy utilities implement an information security management system (ISMS) based on the ISO/IEC 27000 standard family, they often struggle with the inclusion of the ICS and OT domain, when they try to harmonize security management over their entire business scope. To fill this gap ISO/IEC 27019 <em>Information security controls for the energy utility industry</em> was developed. ISO/IEC 27019 is a sector specific control set for the process control system domain of the energy sector which is based on ISO/IEC 27001 and ISO/IEC 27002.</p><p>To supplement the generic controls of ISO/IEC 27019 with detailed technical security specifications for ICS systems, the German and Austrian energy operator associations BDEW and Oesterreichs Energie have published the BDEW/OE Whitepaper. The Whitepaper can be used during system procurement and defines security requirements for control and automation systems of the energy domain and their telecommunication infrastructure.</p><p>The workshop gives an introduction to the contents and practical application of ISO/IEC 27019 and the BDEW/OE Whitepaper. The following topics will be covered:</p><ul>  <li>Industrial control systems in the energy sector</li>  <li>Introduction to the ISO/IEC 27000 series</li>  <li>Overview of ISO/IEC 27019</li>  <li>Practical application of ISO/IEC 27019</li>  <li>ISO/IEC 27019 and European cyber security regulation</li>  <li>The BDEW/OE Whitepaper, a security procurement guideline for energy ICS</li></ul><p>The workshop will include a lecture, discussions and exercises.</p>"
@@ -86,6 +88,7 @@
 		},
 		
 		"training": {
+			"active": "none",
 			"title": "",
 			"partner": "",
 			"description": ""
@@ -118,6 +121,7 @@
 		},
 		
 		"training": {
+			"active": "none",
 			"title": "",
 			"partner": "",
 			"description": ""
@@ -150,6 +154,7 @@
 		},
 		
 		"training": {
+			"active": "live",
 			"title": "Pentesting Industrial Control Systems",
 			"partner": "",
 			"description": ""
@@ -182,6 +187,7 @@
 		},
 		
 		"training": {
+			"active": "none",
 			"title": "",
 			"partner": "",
 			"description": ""
@@ -214,6 +220,7 @@
 		},
 		
 		"training": {
+			"active": "none",
 			"title": "",
 			"partner": "",
 			"description": ""
@@ -246,6 +253,7 @@
 		},
 		
 		"training": {
+			"active": "none",
 			"title": "",
 			"partner": "",
 			"description": ""
@@ -278,6 +286,7 @@
 		},
 		
 		"training": {
+			"active": "none",
 			"title": "",
 			"partner": "",
 			"description": ""
@@ -310,6 +319,7 @@
 		},
 		
 		"training": {
+			"active": "none",
 			"title": "",
 			"partner": "",
 			"description": ""
@@ -342,6 +352,7 @@
 		},
 		
 		"training": {
+			"active": "live",
 			"title": "ICS Scada Honeypot Technical Training",
 			"partner": "",
 			"description": ""
@@ -374,6 +385,7 @@
 		},
 		
 		"training": {
+			"active": "none",
 			"title": "",
 			"partner": "",
 			"description": ""
@@ -406,6 +418,7 @@
 		},
 		
 		"training": {
+			"active": "none",
 			"title": "",
 			"partner": "",
 			"description": ""
@@ -438,6 +451,7 @@
 		},
 		
 		"training": {
+			"active": "none",
 			"title": "",
 			"partner": "",
 			"description": ""
@@ -470,6 +484,7 @@
 		},
 		
 		"training": {
+			"active": "none",
 			"title": "",
 			"partner": "",
 			"description": ""
@@ -502,6 +517,7 @@
 		},
 		
 		"training": {
+			"active": "none",
 			"title": "",
 			"partner": "",
 			"description": ""
@@ -534,6 +550,7 @@
 		},
 		
 		"training": {
+			"active": "none",
 			"title": "",
 			"partner": "",
 			"description": ""
@@ -566,6 +583,7 @@
 		},
 		
 		"training": {
+			"active": "live",
 			"title": "ICS Strategic Planning and War Gaming",
 			"partner": "",
 			"description": "<p>asd2</p>"
@@ -598,6 +616,7 @@
 		},
 		
 		"training": {
+			"active": "live",
 			"title": "Introduction to Threat Hunting in ICS",
 			"partner": "Ben Miller",
 			"description": "<p>asd2</p>"
@@ -630,6 +649,7 @@
 		},
 		
 		"training": {
+			"active": "live",
 			"title": "Incident Response: Learning as you go is Expensive",
 			"partner": "",
 			"description": "<p>asd2</p>"
@@ -662,6 +682,7 @@
 		},
 		
 		"training": {
+			"active": "live",
 			"title": "Introduction to Threat Hunting in ICS",
 			"partner": "Daniel Michaud-Soucy",
 			"description": "<p>asd2</p>"
@@ -694,6 +715,7 @@
 		},
 		
 		"training": {
+			"active": "none",
 			"title": "",
 			"partner": "",
 			"description": ""
@@ -726,6 +748,7 @@
 		},
 		
 		"training": {
+			"active": "none",
 			"title": "",
 			"partner": "",
 			"description": ""
