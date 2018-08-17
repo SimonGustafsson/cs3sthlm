@@ -524,7 +524,7 @@
 
 		"presentation":{
 		
-			"active": "",
+			"active": "live",
 			"title": "Hunting and Responding in ICS",
 			"partner": "Ben Miller",
 			"description": "<p>asd1</p>"
@@ -556,7 +556,7 @@
 
 		"presentation":{
 		
-			"active": "",
+			"active": "live",
 			"title": "Hunting and Responding in ICS",
 			"partner": "Mark Stacey",
 			"description": "<p>asd1</p>"
