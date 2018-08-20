@@ -69,8 +69,8 @@
 		"id"		: "3",
 		"type"		: "presentation",
 		"name"		: "Marty Edwards",
-		"role"		: "Cybersecurity Expert",
-		"work"		: "The Automation Federation",
+		"role"		: "Director of Strategic Initiatives",
+		"work"		: "ISA",
 		"country"	: "United States",
 		"shortcode"	: "US",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/marty-edwards.png",
@@ -95,7 +95,7 @@
 		},
 		
 
-		"bio": "<p>Marty Edwards, a globally recognized industrial control systems cybersecurity expert and speaker, serves as Managing Director of the Automation Federation.</p><p>Prior to joining the Automation Federation in mid-2017, Edwards—a 25-year industry veteran—was the longest-serving Director of the U.S. Department of Homeland Security’s Industrial Control Systems Cyber Emergency Response Team (ICS-CERT). Under his leadership the ICS-CERT was awarded the 2013 SC Magazine Security Team of the Year award and was named as a finalist in the Community Awareness category in the 2015 Government Information Security Leadership Awards (GISLA).</p>"
+		"bio": "<p>Marty Edwards, a globally recognized industrial control systems cybersecurity expert and speaker, serves as Director of Strategic Initiatives for ISA.</p><p>Prior to joining the Automation Federation in mid-2017, Edwards—a 25-year industry veteran—was the longest-serving Director of the U.S. Department of Homeland Security’s Industrial Control Systems Cyber Emergency Response Team (ICS-CERT). Under his leadership the ICS-CERT was awarded the 2013 SC Magazine Security Team of the Year award and was named as a finalist in the Community Awareness category in the 2015 Government Information Security Leadership Awards (GISLA).</p>"
 	},
 
 	{
@@ -646,13 +646,6 @@
 			"partner": "Ben Miller",
 			"description": "<p>asd1</p>"
 		
-		},
-		
-		"training": {
-			"active": "live",
-			"title": "Incident Response: Learning as you go is Expensive",
-			"partner": "",
-			"description": "<p>asd2</p>"
 		},
 		
 

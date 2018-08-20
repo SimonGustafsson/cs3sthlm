@@ -2993,10 +2993,15 @@ h1, h2, h3, h4 {
         -webkit-flex-wrap: wrap;
         box-sizing: border-box;
         position: relative; } }
+    .box-left ul.meta-data--presentation:nth-child(2) {
+      margin-top: 40px; }
     @media screen and (max-width: 768px) {
       .box-left ul.meta-data--presentation {
         padding-left: 110px;
-        margin-bottom: 10px; }
+        margin-bottom: 10px;
+        margin-top: 0; }
+        .box-left ul.meta-data--presentation:nth-child(2) {
+          margin-top: 0; }
         .box-left ul.meta-data--presentation li:first-of-type {
           width: 100%; }
         .box-left ul.meta-data--presentation li:last-of-type {

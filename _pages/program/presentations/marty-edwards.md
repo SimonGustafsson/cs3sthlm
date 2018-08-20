@@ -4,8 +4,8 @@ permalink: "/program/presentations/marty-edwards/"
 layout: presentation
 speaker:
 - name: Marty Edwards
-  role: Cybersecurity Expert
-  work: The Automation Federation
+  role: Director of Strategic Initiatives
+  work: ISA
   image: marty-edwards.png
 id: presentation
 ---

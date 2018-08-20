@@ -150,7 +150,7 @@ id: home
           {% if speaker.type == 'moderator' %}
           <h4>{{ speaker.type }}</h4>
           {% endif %}
-          <h4>{% if speaker.presentation != null %}<span>Presentation</span>{% endif %}{% if speaker.training != null %}<span>Training</span>{% endif %}</h4>
+          <h4>{% for item in speaker.presentation %}{% if item.active == "live" %}<span>Presentation</span>{% endif %}{% endfor %}{% for item in speaker.training %}{% if item.active == "live" %}<span>Training</span>{% endif %}{% endfor %}</h4>
           <h2>{{ speaker.name }}</h2>
           <h3>{{ speaker.role }}</h3>
         </div>
@@ -167,26 +167,33 @@ id: home
           </div>
 
           <div class="col-2-6">
-          {% if speaker.presentation != null %}
+          {% for item in speaker.presentation %}
+          {% if item.active == "live" %}
             <div class="col-block">
-              {% if speaker.presentation != null %}
               <h4 class="headline">Presentation</h4>
-              {% endif %} 
-              {% for item in speaker.presentation %}
               <a href="{{ site.baseurl }}/{{ item.permalink }}" class="speaker-permalink">{{ item.subject }}</a>
               {% if item.partner != null %}
               <span class="speaker-cospeaker">with {{ item.partner }}</span>
               {% endif %}
-              {% endfor %}
             </div>          
           {% endif %}
+          {% endfor %}
 
-          {% if speaker.training != null %}
+          {% for item in speaker.presentation-second %}
+          {% if item.active == "live" %}
             <div class="col-block">
-              {% if speaker.training != null %}
+              <a href="{{ site.baseurl }}/{{ item.permalink }}" class="speaker-permalink">{{ item.subject }}</a>
+              {% if item.partner != null %}
+              <span class="speaker-cospeaker">with {{ item.partner }}</span>
+              {% endif %}
+            </div>          
+          {% endif %}
+          {% endfor %}
+
+          {% for item in speaker.training %}
+          {% if item.active == "live" %}
+            <div class="col-block">
               <h4 class="headline">Training</h4>
-              {% endif %} 
-              {% for item in speaker.training %}
               <a href="{{ site.baseurl }}/{{ item.permalink }}" class="speaker-permalink">{{ item.subject }}</a>
               <span class="speaker-meta">
                 <span class="speaker-date">
@@ -206,9 +213,9 @@ id: home
               {% if item.partner != null %}
               <span class="speaker-cospeaker">with {{ item.partner }}</span>
               {% endif %}
-              {% endfor %}
             </div>        
           {% endif %}
+          {% endfor %}
           </div>
 
         </div>

@@ -11,8 +11,11 @@
   date: 22-23 October
   time: 09:00 - 17:00
   place: Harlem
+  presentation:
+    - active: none
   training:
-    - subject: Network Forensics Training
+    - active: live
+      subject: Network Forensics Training
       permalink: program/trainings/erik-hjelmvik/
       partner:
       description: |
@@ -100,8 +103,11 @@
   date: 23 October
   time: 09:00 - 17:00
   place:
+  presentation:
+    - active: none
   training:
-    - subject: "Cyber security for the energy sector – an introduction to ISO/IEC 27019 and the BDEW/OE Whitepaper"
+    - active: live
+      subject: "Cyber security for the energy sector – an introduction to ISO/IEC 27019 and the BDEW/OE Whitepaper"
       permalink: program/trainings/stephan-beirer/
       partner:
       description: |
@@ -124,26 +130,30 @@
   type: presentation
   permalink:
   name: Marty Edwards
-  role: Cybersecurity Expert
-  work: The Automation Federation
+  role: Director of Strategic Initiatives
+  work: ISA
   country: United States
   shortcode: US
   image: marty-edwards.png
   bio: |
-    Marty Edwards, a globally recognized industrial control systems cybersecurity expert and speaker, serves as Managing Director of the Automation Federation.
+    Marty Edwards, a globally recognized industrial control systems cybersecurity expert and speaker, serves as Director of Strategic Initiatives for ISA.
     
     Prior to joining the Automation Federation in mid-2017, Edwards—a 25-year industry veteran—was the longest-serving Director of the U.S. Department of Homeland Security’s Industrial Control Systems Cyber Emergency Response Team (ICS-CERT). Under his leadership the ICS-CERT was awarded the 2013 SC Magazine Security Team of the Year award and was named as a finalist in the Community Awareness category in the 2015 Government Information Security Leadership Awards (GISLA).
   date:
   time:
   place:
   presentation:
-    - subject: Think like a hacker but act like an engineer
+    - active: live
+      subject: Think like a hacker but act like an engineer
       permalink: program/presentations/marty-edwards/
       partner:
       description: |
         Industrial Control Systems (ICS) as well as Operational Technology (OT) are under increased risks from cyber events.  Come learn how Cyber Informed Engineering is an evolving concept to use cyber risk in designing control systems and associated protection systems.
     
         “Cyber risks to Industrial Control Systems (ICS) and Operational Technology (OT) continue to evolve.  Whether it is the threat of ransomware taking a production system offline, or sophisticated malware targeting the safety critical components of your system.  Engineers have long designed systems to be resilient to a multitude of failure modes, and it is time that we started taking the lessons learned from cyber attacks against these systems into consideration during new system design, or legacy system retrofit.  This session will introduce this evolving concept and describe some of the standards and practices being developed and utilized.”
+  training:
+    - active: none
+
 
 - id: 4
   type: presentation
@@ -159,11 +169,14 @@
   time:
   place:
   presentation:
-    - subject: "Industrial Technology Trajectory: Running With Scissors"
+    - active: live
+      subject: "Industrial Technology Trajectory: Running With Scissors"
       permalink: program/presentations/patrick-miller/
       partner:
       description: |
         Abstract: Innovative and disruptive technologies are enhancing and invading our traditional industrial business model. Future infrastructure organizations will need more data to operate efficiently and succeed in the brave new interconnected world. The diversity of new technologies and data will fuel more diversity in business opportunity. Everyone expects more OT, more IOT, and more IT - and all of it is supposed to be highly reliable and secure. These factors (and more) lead to a landscape shift for the industrial cybersecurity risk profile. In this session, hear ways to recognize the problems and gain some clarity on possible solutions through historic lessons, made up words, and practical front-line experience.
+  training:
+    - active: none
 
 
 - id: 5
@@ -179,8 +192,11 @@
   date: 22-23 October
   time: 09:00 - 17:00
   place:
+  presentation:
+    - active: none
   training:
-    - subject: Pentesting Industrial Control Systems
+    - active: live
+      subject: Pentesting Industrial Control Systems
       permalink: program/trainings/arnaud-soullie/
       partner:
       description: |
@@ -199,10 +215,15 @@
   time:
   place:
   presentation:
-    - subject: Securing the ICS lab network
+    - active: live
+      subject: Securing the ICS lab network
       permalink: program/presentations/william-middleton/
       partner:
       description: |
+        asd1
+  training:
+    - active: none
+
 
 - id: 7
   type: presentation
@@ -218,10 +239,15 @@
   time:
   place:
   presentation:
-    - subject: Operator Jail breakout
+    - active: live
+      subject: Operator Jail breakout
       permalink: program/presentations/dieter-frank/
       partner: Frank Lycops
       description: |
+        asd12
+  training:
+    - active: none
+
 
 - id: 8
   type: presentation
@@ -237,10 +263,14 @@
   time:
   place:
   presentation:
-    - subject: Operator Jail breakout
+    - active: live
+      subject: Operator Jail breakout
       permalink: program/presentations/dieter-frank/
       partner: Dieter Sarrazyn
       description: |
+        asd2
+  training:
+    - active: none
 
 - id: 9
   type: presentation
@@ -256,10 +286,14 @@
   time:
   place:
   presentation:
-    - subject: The good, the bad and the segmented
+    - active: live
+      subject: The good, the bad and the segmented
       permalink: program/presentations/erwin-rik/
       partner: Rik van Hees
       description: |
+        asd2
+  training:
+    - active: none
 
 - id: 10
   type: presentation
@@ -275,10 +309,14 @@
   time:
   place:
   presentation:
-    - subject: The good, the bad and the segmented
+    - active: live
+      subject: The good, the bad and the segmented
       permalink: program/presentations/erwin-rik/
       partner: Erwin Kooi
       description: |
+        asd2
+  training:
+    - active: none
 
 
 - id: 11
@@ -294,8 +332,11 @@
   date: 22-23 October
   time: 09:00 - 17:00
   place:
+  presentation:
+    - active: none
   training:
-    - subject: ICS Scada Honeypot Technical Training
+    - active: live
+      subject: ICS Scada Honeypot Technical Training
       permalink: program/trainings/mikael-vingaard/
       partner:
       description: |
@@ -314,10 +355,14 @@
   time:
   place:
   presentation:
-    - subject: Attacking PLCs by PLC in deep
+    - active: live
+      subject: Attacking PLCs by PLC in deep
       permalink: program/presentations/cheng-lei/
       partner:
       description: |
+        asd1
+  training:
+    - active: none
 
 
 - id: 13
@@ -334,11 +379,14 @@
   time:
   place:
   presentation:
-    - subject: The Internet of Things on the Internet
+    - active: live
+      subject: The Internet of Things on the Internet
       permalink: program/presentations/adam-johnny/
       partner: Johnny Xmas
       description: |
-
+        asd1
+  training:
+    - active: none
 
 - id: 14
   type: presentation
@@ -354,10 +402,14 @@
   time:
   place:
   presentation:
-    - subject: The Internet of Things on the Internet
+    - active: live
+      subject: The Internet of Things on the Internet
       permalink: program/presentations/adam-johnny/
       partner: Adam Ringwood
       description: |
+        asd2
+  training:
+    - active: none
 
 
 - id: 15
@@ -374,11 +426,14 @@
   time:
   place:
   presentation:
-    - subject: "Attacking Cars Revisited: On the Road Towards a More Resilient Connected Vehicle Infrastructure"
+    - active: live
+      subject: "Attacking Cars Revisited: On the Road Towards a More Resilient Connected Vehicle Infrastructure"
       permalink: program/presentations/kai-thomsen/
       partner:
       description: |
-
+        asd1
+  training:
+    - active: none
 
 - id: 16
   type: presentation
@@ -394,11 +449,14 @@
   time:
   place:
   presentation:
-    - subject: Jumping Air Gaps
+    - active: live
+      subject: Jumping Air Gaps
       permalink: program/presentations/monta-elkins/
       partner:
       description: |
-
+        asd1
+  training:
+    - active: none
 
 - id: 17
   type: moderator
@@ -410,7 +468,10 @@
   shortcode: SE
   image: amel.png
   bio: She is the Chief Information Security Officer at IIS, The Internet Foundation In Sweden. She also serves on the boards of internet-related organisations including the Council of European National Top Level Domain Registries (CENTR) and the Swedish Law and Informatics Research Institute. Eklund Löwinder has been appointed Trusted Community Representative by the Internet Corporation for Assigned Names and Numbers (ICANN). She is one of seven people who control the DNSSEC key generation for the internet root zone.
-
+  presentation:
+    - active: none
+  training:
+    - active: none
 
 - id: 18
   type: presentation
@@ -426,12 +487,14 @@
   time: 09:00 - 17:00
   place:
   presentation:
-    - subject: "Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense"
+    - active: live
+      subject: "Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense"
       permalink: program/presentations/joe-slowik/
       description: |
         asd1
   training:
-    - subject: ICS Strategic Planning and War Gaming
+    - active: live
+      subject: ICS Strategic Planning and War Gaming
       permalink: program/trainings/joe-slowik/
       description: |
         asd2
@@ -451,13 +514,15 @@
   time: 09:00 - 17:00
   place:
   presentation:
-    - subject: Stateful Protocol Hunting
+    - active: live
+      subject: Stateful Protocol Hunting
       permalink: program/presentations/dan-daniel/
       partner: Dan Gunter
       description: |
         asd1
   training:
-    - subject: Introduction to Threat Hunting in ICS
+    - active: live
+      subject: Introduction to Threat Hunting in ICS
       permalink: program/trainings/ben-daniel/
       partner: Ben Miller
       description: |
@@ -478,12 +543,15 @@
   time:
   place:
   presentation:
-    - subject: Hunting and Responding in ICS
+    - active: live
+      subject: Hunting and Responding in ICS
       permalink: program/presentations/ben-mark/
       partner: Ben Miller
       description: |
         asd1
-    - subject: "Incident Response: Learning as you go is Expensive"
+  presentation-second:
+    - active: live
+      subject: "Incident Response: Learning as you go is Expensive"
       permalink: program/presentations/mark-stacey/
       partner:
       description: |
@@ -504,13 +572,15 @@
   time: 09:00 - 17:00
   place:
   presentation:
-    - subject: Hunting and Responding in ICS
+    - active: live
+      subject: Hunting and Responding in ICS
       permalink: program/presentations/ben-mark/
       partner: Mark Stacey
       description: |
         asd1
   training:
-    - subject: Introduction to Threat Hunting in ICS
+    - active: live
+      subject: Introduction to Threat Hunting in ICS
       permalink: program/trainings/ben-daniel/
       partner: Daniel Michaud-Soucy
       description: |
@@ -531,11 +601,14 @@
   time:
   place:
   presentation:
-    - subject: Stateful Protocol Hunting
+    - active: live
+      subject: Stateful Protocol Hunting
       permalink: program/presentations/dan-daniel/
       partner: Daniel Michaud-Soucy
       description: |
-
+        asd2
+  training:
+    - active: none
 
 - id: 23
   type: presentation
@@ -551,7 +624,11 @@
   time:
   place:
   presentation:
-    - subject: Using fake BTS as a part of pentest of devices using SIM cards for data transmission
+    - active: live
+      subject: Using fake BTS as a part of pentest of devices using SIM cards for data transmission
       permalink: program/presentations/marcin-dudek/
       partner:
       description: |
+        asd1
+  training:
+    - active: none

@@ -3790,10 +3790,19 @@ h1, h2, h3, h4 {
 
     &.meta-data- {
 
+      &-presentation:nth-child(2) {
+        margin-top: 40px;
+      }
+
       @include media-query($mobile) {
         &-presentation {
           padding-left: 110px;
           margin-bottom: 10px;
+          margin-top: 0;
+
+          &:nth-child(2) {
+            margin-top: 0;
+          }
 
           li {
 
