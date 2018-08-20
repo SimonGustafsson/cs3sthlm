@@ -1,8 +1,8 @@
 ---
-layout: default
 title: Partners
 permalink: "/partners/"
-published: false
+published: true
+layout: default
 ---
 
 <section class="content">
@@ -35,7 +35,7 @@ published: false
 
 </section>
 
-<div class="content">
+<!--<div class="content">
 
 	<span class="notice-bar"><h3>Disclaimer</h3>The following information is tied to the past CS3STHLM Summit.</span>
 
@@ -54,8 +54,8 @@ published: false
 
 		<div class="partner--list">
 		<h3>Partners</h3>
-		{% assign sorted_partners = site.data.partners | sort: 'company' %}
-		{% for partner in sorted_partners %}
+		{% assign sortedpartners = site.data.partners | sort:"company" %}
+		{% for partner in sortedpartners %}
 		{% if partner.level == "partner" %}
 			<div class="partner--item">
 				<a href="{{ partner.url }}" target="_blank">
@@ -68,8 +68,8 @@ published: false
 
 		<div class="partner--list">
 		<h3>Community Partners</h3>
-		{% assign sorted_partners = site.data.partners | sort: 'company' %}
-		{% for partner in sorted_partners %}
+		{% assign sortedpartners = site.data.partners | sort:"company" %}
+		{% for partner in sortedpartners %}
 		{% if partner.level == "community-partner" %}
 			<div class="partner--item">
 				<a href="{{ partner.url }}" target="_blank">
@@ -82,8 +82,8 @@ published: false
 
 		<div class="partner--list">
 		<h3>Organizing Partners</h3>
-		{% assign sorted_partners = site.data.partners | sort: 'company' %}
-		{% for partner in sorted_partners %}
+		{% assign sortedpartners = site.data.partners | sort:"company" %}
+		{% for partner in sortedpartners %}
 		{% if partner.level == "organizer" %}
 			<div class="partner--item">
 				<a href="{{ partner.url }}" target="_blank">
@@ -96,4 +96,4 @@ published: false
 
 	</div>
 
-</div>
+</div>-->

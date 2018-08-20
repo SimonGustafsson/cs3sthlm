@@ -1,6 +1,7 @@
 ---
-layout: null
+layout: 
 ---
+
 {"speakerList":[
 {% for item in site.pages %}
 {% if item.id == 'presentation' %}

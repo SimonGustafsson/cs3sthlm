@@ -3,65 +3,65 @@
     {
       "title"    : "CS3STHLM Newsletter April",
       "url"      : "/news/2018/04/30/cs3sthlm-newsletter-april.html",
-      "date"     : "2018-04-30 06:00:00 +0200",
+      "date"     : "2018-04-30 04:00:00 +0000",
       "path"     : "/news/2018/04/30/cs3sthlm-newsletter-april.html"
-    } ,
+    },
   
     {
       "title"    : "CS3STHLM Newsletter December",
       "url"      : "/news/2017/12/20/cs3sthlm-newsletter-december.html",
-      "date"     : "2017-12-20 06:00:00 +0200",
+      "date"     : "2017-12-20 04:00:00 +0000",
       "path"     : "/news/2017/12/20/cs3sthlm-newsletter-december.html"
-    } ,
+    },
   
     {
       "title"    : "CS3STHLM Presents ICS- and IoT Lab together with Norwegian Energy CERT",
       "url"      : "/press/2017/10/04/cs3sthlm-presents-ics-and-iot-lab-together-with-norwegian-energy-cert.html",
-      "date"     : "2017-10-04 06:00:00 +0200",
+      "date"     : "2017-10-04 04:00:00 +0000",
       "path"     : "/press/2017/10/04/cs3sthlm-presents-ics-and-iot-lab-together-with-norwegian-energy-cert.html"
-    } ,
+    },
   
     {
       "title"    : "Advenica announces new collaboration with CS3STHLM",
       "url"      : "/press/2017/09/14/advenica-announces-new-collaboration-with-cs3sthlm.html",
-      "date"     : "2017-09-14 06:00:00 +0200",
+      "date"     : "2017-09-14 04:00:00 +0000",
       "path"     : "/press/2017/09/14/advenica-announces-new-collaboration-with-cs3sthlm.html"
-    } ,
+    },
   
     {
       "title"    : "CS3STHLM Newsletter September",
       "url"      : "/news/2017/09/13/cs3sthlm-newsletter-september.html",
-      "date"     : "2017-09-13 06:00:00 +0200",
+      "date"     : "2017-09-13 04:00:00 +0000",
       "path"     : "/news/2017/09/13/cs3sthlm-newsletter-september.html"
-    } ,
-  
-    {
-      "title"    : "CS3STHLM Newsletter June",
-      "url"      : "/news/2017/06/13/cs3sthlm-newsletter-june.html",
-      "date"     : "2017-06-13 06:00:00 +0200",
-      "path"     : "/news/2017/06/13/cs3sthlm-newsletter-june.html"
-    } ,
+    },
   
     {
       "title"    : "Malware that can knock out power grids discovered",
       "url"      : "/press/2017/06/13/malware-that-can-knock-out-power.html",
-      "date"     : "2017-06-13 06:00:00 +0200",
+      "date"     : "2017-06-13 04:00:00 +0000",
       "path"     : "/press/2017/06/13/malware-that-can-knock-out-power.html"
-    } ,
+    },
+  
+    {
+      "title"    : "CS3STHLM Newsletter June",
+      "url"      : "/news/2017/06/13/cs3sthlm-newsletter-june.html",
+      "date"     : "2017-06-13 04:00:00 +0000",
+      "path"     : "/news/2017/06/13/cs3sthlm-newsletter-june.html"
+    },
   
     {
       "title"    : "CFP - DON'T MISS OUR DEADLINE",
       "url"      : "/news/2017/05/08/cfp-dont-miss-our-deadline.html",
-      "date"     : "2017-05-08 06:00:00 +0200",
+      "date"     : "2017-05-08 04:00:00 +0000",
       "path"     : "/news/2017/05/08/cfp-dont-miss-our-deadline.html"
-    } ,
+    },
   
     {
       "title"    : "Cyber Security Summit 4SICS Relaunches as CS3STHLM",
       "url"      : "/press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html",
-      "date"     : "2017-04-21 06:00:00 +0200",
+      "date"     : "2017-04-21 04:00:00 +0000",
       "path"     : "/press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html"
-    } 
+    }
   
   ,
   
@@ -71,7 +71,7 @@
         "url"      : "/404.html",
         "path"     : "/404.html"
      
-   } ,
+   },
   
    {
      
@@ -79,11 +79,11 @@
         "url"      : "/program/presentations/adam-johnny/",
         "path"     : "/program/presentations/adam-johnny/"
      
-   } ,
+   },
   
    {
      
-   } ,
+   },
   
    {
      
@@ -91,7 +91,7 @@
         "url"      : "/program/trainings/arnaud-soullie/",
         "path"     : "/program/trainings/arnaud-soullie/"
      
-   } ,
+   },
   
    {
      
@@ -99,7 +99,7 @@
         "url"      : "/program/trainings/ben-daniel/",
         "path"     : "/program/trainings/ben-daniel/"
      
-   } ,
+   },
   
    {
      
@@ -107,7 +107,7 @@
         "url"      : "/program/presentations/ben-mark/",
         "path"     : "/program/presentations/ben-mark/"
      
-   } ,
+   },
   
    {
      
@@ -115,7 +115,7 @@
         "url"      : "/program/presentations/cheng-lei/",
         "path"     : "/program/presentations/cheng-lei/"
      
-   } ,
+   },
   
    {
      
@@ -123,7 +123,7 @@
         "url"      : "/program/presentations/dan-daniel/",
         "path"     : "/program/presentations/dan-daniel/"
      
-   } ,
+   },
   
    {
      
@@ -131,7 +131,7 @@
         "url"      : "/program/presentations/dieter-frank/",
         "path"     : "/program/presentations/dieter-frank/"
      
-   } ,
+   },
   
    {
      
@@ -139,7 +139,7 @@
         "url"      : "/program/trainings/erik-hjelmvik/",
         "path"     : "/program/trainings/erik-hjelmvik/"
      
-   } ,
+   },
   
    {
      
@@ -147,107 +147,11 @@
         "url"      : "/program/presentations/erwin-rik/",
         "path"     : "/program/presentations/erwin-rik/"
      
-   } ,
+   },
   
    {
      
-   } ,
-  
-   {
-     
-        "title"    : "Presentations",
-        "url"      : "/program/presentations/",
-        "path"     : "/program/presentations/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "News",
-        "url"      : "/news/",
-        "path"     : "/news/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Contact",
-        "url"      : "/contact/",
-        "path"     : "/contact/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Practical Details",
-        "url"      : "/practical-details/",
-        "path"     : "/practical-details/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Press",
-        "url"      : "/press/",
-        "path"     : "/press/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "ICS Lab",
-        "url"      : "/ics-lab/",
-        "path"     : "/ics-lab/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Archive",
-        "url"      : "/about/archive/",
-        "path"     : "/about/archive/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "History",
-        "url"      : "/about/history/",
-        "path"     : "/about/history/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Advisory",
-        "url"      : "/about/advisory/",
-        "path"     : "/about/advisory/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "About",
-        "url"      : "/about/",
-        "path"     : "/about/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Call for Participation",
-        "url"      : "/call-for-proposals/",
-        "path"     : "/call-for-proposals/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "Speakers",
-        "url"      : "/program/speakers/",
-        "path"     : "/program/speakers/"
-     
-   } ,
+   },
   
    {
      
@@ -255,7 +159,111 @@
         "url"      : "/program/trainings/",
         "path"     : "/program/trainings/"
      
-   } ,
+   },
+  
+   {
+     
+        "title"    : "Presentations",
+        "url"      : "/program/presentations/",
+        "path"     : "/program/presentations/"
+     
+   },
+  
+   {
+     
+        "title"    : "News",
+        "url"      : "/news/",
+        "path"     : "/news/"
+     
+   },
+  
+   {
+     
+        "title"    : "Contact",
+        "url"      : "/contact/",
+        "path"     : "/contact/"
+     
+   },
+  
+   {
+     
+        "title"    : "Practical Details",
+        "url"      : "/practical-details/",
+        "path"     : "/practical-details/"
+     
+   },
+  
+   {
+     
+        "title"    : "Press",
+        "url"      : "/press/",
+        "path"     : "/press/"
+     
+   },
+  
+   {
+     
+        "title"    : "ICS Lab",
+        "url"      : "/ics-lab/",
+        "path"     : "/ics-lab/"
+     
+   },
+  
+   {
+     
+        "title"    : "Archive",
+        "url"      : "/about/archive/",
+        "path"     : "/about/archive/"
+     
+   },
+  
+   {
+     
+        "title"    : "History",
+        "url"      : "/about/history/",
+        "path"     : "/about/history/"
+     
+   },
+  
+   {
+     
+        "title"    : "Advisory",
+        "url"      : "/about/advisory/",
+        "path"     : "/about/advisory/"
+     
+   },
+  
+   {
+     
+        "title"    : "About",
+        "url"      : "/about/",
+        "path"     : "/about/"
+     
+   },
+  
+   {
+     
+        "title"    : "Call for Participation",
+        "url"      : "/call-for-proposals/",
+        "path"     : "/call-for-proposals/"
+     
+   },
+  
+   {
+     
+        "title"    : "Partners",
+        "url"      : "/partners/",
+        "path"     : "/partners/"
+     
+   },
+  
+   {
+     
+        "title"    : "Speakers",
+        "url"      : "/program/speakers/",
+        "path"     : "/program/speakers/"
+     
+   },
   
    {
      
@@ -263,7 +271,7 @@
         "url"      : "/program/",
         "path"     : "/program/"
      
-   } ,
+   },
   
    {
      
@@ -271,11 +279,11 @@
         "url"      : "/",
         "path"     : ""
      
-   } ,
+   },
   
    {
      
-   } ,
+   },
   
    {
      
@@ -283,7 +291,7 @@
         "url"      : "/program/trainings/joe-slowik/",
         "path"     : "/program/trainings/joe-slowik/"
      
-   } ,
+   },
   
    {
      
@@ -291,7 +299,7 @@
         "url"      : "/program/presentations/joe-slowik/",
         "path"     : "/program/presentations/joe-slowik/"
      
-   } ,
+   },
   
    {
      
@@ -299,11 +307,11 @@
         "url"      : "/program/presentations/kai-thomsen/",
         "path"     : "/program/presentations/kai-thomsen/"
      
-   } ,
+   },
   
    {
      
-   } ,
+   },
   
    {
      
@@ -311,7 +319,7 @@
         "url"      : "/program/presentations/marcin-dudek/",
         "path"     : "/program/presentations/marcin-dudek/"
      
-   } ,
+   },
   
    {
      
@@ -319,7 +327,7 @@
         "url"      : "/program/presentations/mark-stacey/",
         "path"     : "/program/presentations/mark-stacey/"
      
-   } ,
+   },
   
    {
      
@@ -327,7 +335,7 @@
         "url"      : "/program/presentations/marty-edwards/",
         "path"     : "/program/presentations/marty-edwards/"
      
-   } ,
+   },
   
    {
      
@@ -335,7 +343,7 @@
         "url"      : "/program/trainings/mikael-vingaard/",
         "path"     : "/program/trainings/mikael-vingaard/"
      
-   } ,
+   },
   
    {
      
@@ -343,11 +351,11 @@
         "url"      : "/program/presentations/monta-elkins/",
         "path"     : "/program/presentations/monta-elkins/"
      
-   } ,
+   },
   
    {
      
-   } ,
+   },
   
    {
      
@@ -355,11 +363,11 @@
         "url"      : "/program/presentations/patrick-miller/",
         "path"     : "/program/presentations/patrick-miller/"
      
-   } ,
+   },
   
    {
      
-   } ,
+   },
   
    {
      
@@ -367,15 +375,15 @@
         "url"      : "/search/",
         "path"     : "/search/"
      
-   } ,
+   },
   
    {
      
-   } ,
+   },
   
    {
      
-   } ,
+   },
   
    {
      
@@ -383,7 +391,7 @@
         "url"      : "/program/trainings/stephan-beirer/",
         "path"     : "/program/trainings/stephan-beirer/"
      
-   } ,
+   },
   
    {
      
@@ -391,200 +399,14 @@
         "url"      : "/program/presentations/william-middleton/",
         "path"     : "/program/presentations/william-middleton/"
      
-   } ,
+   },
   
    {
      
-   } ,
+   },
   
    {
      
-   } 
-  
-  ,
-  
-   {
-     
-        "title"    : "Erik Hjelmvik",
-        "url"      : "/",
-        "path"     : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "Stephan Beirer",
-        "url"      : "/",
-        "path"     : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "Marty Edwards",
-        "url"      : "/",
-        "path"     : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "Patrick Miller",
-        "url"      : "/",
-        "path"     : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "Arnaud Soullié",
-        "url"      : "/",
-        "path"     : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "William Middleton",
-        "url"      : "/",
-        "path"     : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "Dieter Sarrazyn",
-        "url"      : "/",
-        "path"     : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "Frank Lycops",
-        "url"      : "/",
-        "path"     : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "Erwin Kooi",
-        "url"      : "/",
-        "path"     : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "Rik van Hees",
-        "url"      : "/",
-        "path"     : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "Mikael Vingaard",
-        "url"      : "/",
-        "path"     : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "Cheng Lei",
-        "url"      : "/",
-        "path"     : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "Adam Ringwood",
-        "url"      : "/",
-        "path"     : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "Johnny Xmas",
-        "url"      : "/",
-        "path"     : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "Kai Thomsen",
-        "url"      : "/",
-        "path"     : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "Monta Elkins",
-        "url"      : "/",
-        "path"     : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/",
-        "path"     : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "Joe Slowik",
-        "url"      : "/",
-        "path"     : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "Daniel Michaud-Soucy",
-        "url"      : "/",
-        "path"     : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "Mark Stacey",
-        "url"      : "/",
-        "path"     : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "Ben Miller",
-        "url"      : "/",
-        "path"     : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "Dan Gunter",
-        "url"      : "/",
-        "path"     : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "Marcin Dudek",
-        "url"      : "/program/presentations/marcin-dudek/",
-        "path"     : "program/presentations/marcin-dudek/"
-     
-   } 
+   }
   
 ]

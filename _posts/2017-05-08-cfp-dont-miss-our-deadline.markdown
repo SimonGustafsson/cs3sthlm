@@ -1,9 +1,10 @@
 ---
-layout: post
 title: CFP - DON'T MISS OUR DEADLINE
-date: 2017-05-08 06:00:00 +0200
-categories: news
-pdf:
+date: 2017-05-08 04:00:00 Z
+categories:
+- news
+layout: post
+pdf: 
 download: CFP-CS3-STHLM-2017.pdf
 author: Robert Malmgren
 ---

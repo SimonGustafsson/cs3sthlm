@@ -1,10 +1,12 @@
 ---
-layout: post
 title: CS3STHLM Newsletter September
-date: 2017-09-13 06:00:00 +0200
-categories: news
+date: 2017-09-13 04:00:00 Z
+categories:
+- news
+layout: post
 author: Robert Malmgren
 ---
+
 The CS3STHLM summit is just a bit over a month away. Today we have speakers from many corners of the earth, and we have already attendees from most continents!  
 
 We will be at the beutiful venue Nalen in central Stockholm again.  

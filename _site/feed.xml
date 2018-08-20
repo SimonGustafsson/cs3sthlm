@@ -5,8 +5,8 @@
     <description>CS3STHLM - Stockholm international summit on cyber-security in SCADA and Industrial Control Systems. CS3STHLM is an annual summit that gather the most important ICS/SCADA cyber security stakeholders across critical industries (i.e. energy, oil &amp; gas, water, transportation and smartgrid etc)</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 14 Jun 2018 11:53:50 +0200</pubDate>
-    <lastBuildDate>Thu, 14 Jun 2018 11:53:50 +0200</lastBuildDate>
+    <pubDate>Mon, 20 Aug 2018 12:55:16 +0000</pubDate>
+    <lastBuildDate>Mon, 20 Aug 2018 12:55:16 +0000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -39,7 +39,7 @@
 
 &lt;p&gt;Best wishes from the CS3STHLM crew  &lt;/p&gt;
 </description>
-        <pubDate>Mon, 30 Apr 2018 06:00:00 +0200</pubDate>
+        <pubDate>Mon, 30 Apr 2018 04:00:00 +0000</pubDate>
         <link>/news/2018/04/30/cs3sthlm-newsletter-april.html</link>
         <guid isPermaLink="true">/news/2018/04/30/cs3sthlm-newsletter-april.html</guid>
         
@@ -63,7 +63,7 @@
 &lt;p&gt;A very happy holiday season - from all of us, to all of you! 
 The CS3STHLM crew&lt;/p&gt;
 </description>
-        <pubDate>Wed, 20 Dec 2017 05:00:00 +0100</pubDate>
+        <pubDate>Wed, 20 Dec 2017 04:00:00 +0000</pubDate>
         <link>/news/2017/12/20/cs3sthlm-newsletter-december.html</link>
         <guid isPermaLink="true">/news/2017/12/20/cs3sthlm-newsletter-december.html</guid>
         
@@ -92,7 +92,7 @@ The CS3STHLM crew&lt;/p&gt;
   &lt;p&gt;-”We are honored to have the Norwegian energy sector CERT KraftCERT, as cooperators to ROMAB in setting up this year hosting the ICS and IoT security lab! This is a truly great partnership over the border with our Scandinavian friends in an effort to build competence and relationships for all that strive to secure the society and its critical infrastructure by starting with its fundamentals - the very systems that run our basic functions, like the electrical grid. Thank you to the Norwegian National Security Authority (NSM)  to lending out equipment to the lab”&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
-        <pubDate>Wed, 04 Oct 2017 06:00:00 +0200</pubDate>
+        <pubDate>Wed, 04 Oct 2017 04:00:00 +0000</pubDate>
         <link>/press/2017/10/04/cs3sthlm-presents-ics-and-iot-lab-together-with-norwegian-energy-cert.html</link>
         <guid isPermaLink="true">/press/2017/10/04/cs3sthlm-presents-ics-and-iot-lab-together-with-norwegian-energy-cert.html</guid>
         
@@ -117,7 +117,7 @@ The CS3STHLM crew&lt;/p&gt;
 
 &lt;p&gt;CS3STHLM is an international summit that focus entirely on cyber security protection of SCADA/ICS and critical infrastructure. CS3STHLM attracts about 250-300 people from around the world to meet, network and gain knowledge. CS3STHLM takes place October 23-26 at the venue Nalen in central Stockholm.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 14 Sep 2017 06:00:00 +0200</pubDate>
+        <pubDate>Thu, 14 Sep 2017 04:00:00 +0000</pubDate>
         <link>/press/2017/09/14/advenica-announces-new-collaboration-with-cs3sthlm.html</link>
         <guid isPermaLink="true">/press/2017/09/14/advenica-announces-new-collaboration-with-cs3sthlm.html</guid>
         
@@ -178,12 +178,47 @@ standard (1 day) &lt;/a&gt;&lt;/li&gt;
 
 &lt;p&gt;To get a taste of what the summit is, you can find old presentations from 2015 and 2016 on &lt;a href=&quot;https://www.youtube.com/channel/UCkD15o_9eJxUc9eeHtWSQ6Q&quot;&gt;youtube/cs3sthlm&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 13 Sep 2017 06:00:00 +0200</pubDate>
+        <pubDate>Wed, 13 Sep 2017 04:00:00 +0000</pubDate>
         <link>/news/2017/09/13/cs3sthlm-newsletter-september.html</link>
         <guid isPermaLink="true">/news/2017/09/13/cs3sthlm-newsletter-september.html</guid>
         
         
         <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>Malware that can knock out power grids discovered</title>
+        <description>&lt;p&gt;Researchers from Slovakian Anti Virus company ESET have publicized information on malware especially targeted for automation in power grids. The malware is tied to an attack in Ukraine 2016. ESET have worked alongside researchers from another company, Dragos, to analyze the code. Investigators from ESET and Dragos will come to Cyber Security Summit CS3STHLM in Stockholm in October to present and discuss their findings.&lt;/p&gt;
+
+&lt;p&gt;Robert Lipovski, one of the researchers at ESET, states in Washington Post:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“The potential impact of malware like this is huge. It’s not restricted to Ukraine. The industrial hardware that the malware communicates with is used in critical infrastructure worldwide.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This malware is called the most dangerous code since Stuxnet, malware discovered in 2010 aimed specifically towards Iran’s nuclear program.&lt;/p&gt;
+
+&lt;p&gt;Robert Malmgren, owner and co-founder of CS3STHLM:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;” The fact that this malware can be used and re-used in critical infrastructure everywhere makes it an enormous threat to non protected Industrial Control Systems.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;CS3STHLM takes place at Nalen in Stockholm October 24-26.&lt;/p&gt;
+
+&lt;p&gt;www.cs3sthlm.se&lt;/p&gt;
+
+&lt;p&gt;For more information regarding the malware, please contact&lt;/p&gt;
+
+&lt;p&gt;Robert Malmgren&lt;/p&gt;
+
+&lt;p&gt;Phone: +46 708 33 03 78&lt;/p&gt;
+</description>
+        <pubDate>Tue, 13 Jun 2017 04:00:00 +0000</pubDate>
+        <link>/press/2017/06/13/malware-that-can-knock-out-power.html</link>
+        <guid isPermaLink="true">/press/2017/06/13/malware-that-can-knock-out-power.html</guid>
+        
+        
+        <category>press</category>
         
       </item>
     
@@ -254,47 +289,12 @@ Until the next news letter,&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/news/cyber.jpg&quot; alt=&quot;Cyber&quot; class=&quot;full-width-image&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 13 Jun 2017 06:00:00 +0200</pubDate>
+        <pubDate>Tue, 13 Jun 2017 04:00:00 +0000</pubDate>
         <link>/news/2017/06/13/cs3sthlm-newsletter-june.html</link>
         <guid isPermaLink="true">/news/2017/06/13/cs3sthlm-newsletter-june.html</guid>
         
         
         <category>news</category>
-        
-      </item>
-    
-      <item>
-        <title>Malware that can knock out power grids discovered</title>
-        <description>&lt;p&gt;Researchers from Slovakian Anti Virus company ESET have publicized information on malware especially targeted for automation in power grids. The malware is tied to an attack in Ukraine 2016. ESET have worked alongside researchers from another company, Dragos, to analyze the code. Investigators from ESET and Dragos will come to Cyber Security Summit CS3STHLM in Stockholm in October to present and discuss their findings.&lt;/p&gt;
-
-&lt;p&gt;Robert Lipovski, one of the researchers at ESET, states in Washington Post:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;“The potential impact of malware like this is huge. It’s not restricted to Ukraine. The industrial hardware that the malware communicates with is used in critical infrastructure worldwide.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This malware is called the most dangerous code since Stuxnet, malware discovered in 2010 aimed specifically towards Iran’s nuclear program.&lt;/p&gt;
-
-&lt;p&gt;Robert Malmgren, owner and co-founder of CS3STHLM:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;” The fact that this malware can be used and re-used in critical infrastructure everywhere makes it an enormous threat to non protected Industrial Control Systems.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;CS3STHLM takes place at Nalen in Stockholm October 24-26.&lt;/p&gt;
-
-&lt;p&gt;www.cs3sthlm.se&lt;/p&gt;
-
-&lt;p&gt;For more information regarding the malware, please contact&lt;/p&gt;
-
-&lt;p&gt;Robert Malmgren&lt;/p&gt;
-
-&lt;p&gt;Phone: +46 708 33 03 78&lt;/p&gt;
-</description>
-        <pubDate>Tue, 13 Jun 2017 06:00:00 +0200</pubDate>
-        <link>/press/2017/06/13/malware-that-can-knock-out-power.html</link>
-        <guid isPermaLink="true">/press/2017/06/13/malware-that-can-knock-out-power.html</guid>
-        
-        
-        <category>press</category>
         
       </item>
     
@@ -308,7 +308,7 @@ Until the next news letter,&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/news/marble-one.jpg&quot; alt=&quot;Marble One&quot; /&gt; &lt;img src=&quot;/assets/news/marble-two.jpg&quot; alt=&quot;Marble Two&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Mon, 08 May 2017 06:00:00 +0200</pubDate>
+        <pubDate>Mon, 08 May 2017 04:00:00 +0000</pubDate>
         <link>/news/2017/05/08/cfp-dont-miss-our-deadline.html</link>
         <guid isPermaLink="true">/news/2017/05/08/cfp-dont-miss-our-deadline.html</guid>
         
@@ -351,7 +351,7 @@ In depth analysis of the attacks against Ukraine with Robert M Lee from Dragos a
 
 &lt;p&gt;The summit’s moderator is since the start Anne Marie Eklund Löwinder, AMEL, Head of Security at IIS, The Internet Foundation in Sweden, and one of seven crypto officers in the world with a key to the Internet root zone.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 21 Apr 2017 06:00:00 +0200</pubDate>
+        <pubDate>Fri, 21 Apr 2017 04:00:00 +0000</pubDate>
         <link>/press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html</link>
         <guid isPermaLink="true">/press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html</guid>
         
