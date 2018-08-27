@@ -171,9 +171,9 @@
   
    {
      
-        "title"    : "News",
-        "url"      : "/news/",
-        "path"     : "/news/"
+        "title"    : "Speakers",
+        "url"      : "/program/speakers/",
+        "path"     : "/program/speakers/"
      
    },
   
@@ -251,17 +251,17 @@
   
    {
      
-        "title"    : "Partners",
-        "url"      : "/partners/",
-        "path"     : "/partners/"
+        "title"    : "News",
+        "url"      : "/news/",
+        "path"     : "/news/"
      
    },
   
    {
      
-        "title"    : "Speakers",
-        "url"      : "/program/speakers/",
-        "path"     : "/program/speakers/"
+        "title"    : "Partners",
+        "url"      : "/partners/",
+        "path"     : "/partners/"
      
    },
   
@@ -287,6 +287,14 @@
   
    {
      
+        "title"    : "Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense",
+        "url"      : "/program/presentations/joe-slowik/",
+        "path"     : "/program/presentations/joe-slowik/"
+     
+   },
+  
+   {
+     
         "title"    : "ICS Strategic Planning and War Gaming",
         "url"      : "/program/trainings/joe-slowik/",
         "path"     : "/program/trainings/joe-slowik/"
@@ -295,9 +303,9 @@
   
    {
      
-        "title"    : "Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense",
-        "url"      : "/program/presentations/joe-slowik/",
-        "path"     : "/program/presentations/joe-slowik/"
+        "title"    : "Recent APT Campaign targeting Energy Sector Assets",
+        "url"      : "/program/presentations/jonathan-homer/",
+        "path"     : "/program/presentations/jonathan-homer/"
      
    },
   
@@ -318,6 +326,14 @@
         "title"    : "Using fake BTS as a part of pentest of devices using SIM cards for data transmission",
         "url"      : "/program/presentations/marcin-dudek/",
         "path"     : "/program/presentations/marcin-dudek/"
+     
+   },
+  
+   {
+     
+        "title"    : "ICS Incident Response: Lessions and mitigations from the field",
+        "url"      : "/program/presentations/makr-bristow/",
+        "path"     : "/program/presentations/makr-bristow/"
      
    },
   

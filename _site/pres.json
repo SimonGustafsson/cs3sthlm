@@ -83,10 +83,16 @@
 
 
 
+{
+	"description": "<p>As ICS defense and detection matures, both defenders and products move increasingly away from traditional IOC approaches to newer, more robust models: anomaly detection, and threat behavioral analytics. While an appropriate, defense-in-depth position would work to integrate both approaches into a single defensive schema, scarce resources and funding constraints mean that organizations will need to choose one or the other for their monitoring and detection needs.</p><p>After providing an overview of both these approaches to threat detection, this presentation will then critically evaluate what these approaches enable from a defensive perspective as specifically required for ICS networks. The result will not just be a simple ‘product type’ comparison, but rather a robust investigation of the theoretical underpinnings of these approaches, and what they enable a defender to accomplish within the monitored network. Specific details will include completeness of coverage beyond ‘known bad’ items; ability to incorporate contextualization into alerting; and capability for detecting realistic threats in the ICS environment.</p><p>To provide appropriate context to the discussion, the approaches will be compared to ICS intrusion examples as a means of evaluating their efficacy and viability. By adopting a critical approach to this evaluation, ICS defense practitioners can gain insight into the true costs and benefits of anomaly detection and threat behavior analytics. The expected result of this presentation will be an analysis of the benefits and drawbacks of these approaches with respect to the specific requirements for ICS defense, enabling attendees to evaluate relative to their own operational needs which approach works best for their environment.</p>"
+},
+
+
+
 
 
 {
-	"description": "<p>As ICS defense and detection matures, both defenders and products move increasingly away from traditional IOC approaches to newer, more robust models: anomaly detection, and threat behavioral analytics. While an appropriate, defense-in-depth position would work to integrate both approaches into a single defensive schema, scarce resources and funding constraints mean that organizations will need to choose one or the other for their monitoring and detection needs.</p><p>After providing an overview of both these approaches to threat detection, this presentation will then critically evaluate what these approaches enable from a defensive perspective as specifically required for ICS networks. The result will not just be a simple ‘product type’ comparison, but rather a robust investigation of the theoretical underpinnings of these approaches, and what they enable a defender to accomplish within the monitored network. Specific details will include completeness of coverage beyond ‘known bad’ items; ability to incorporate contextualization into alerting; and capability for detecting realistic threats in the ICS environment.</p><p>To provide appropriate context to the discussion, the approaches will be compared to ICS intrusion examples as a means of evaluating their efficacy and viability. By adopting a critical approach to this evaluation, ICS defense practitioners can gain insight into the true costs and benefits of anomaly detection and threat behavior analytics. The expected result of this presentation will be an analysis of the benefits and drawbacks of these approaches with respect to the specific requirements for ICS defense, enabling attendees to evaluate relative to their own operational needs which approach works best for their environment.</p>"
+	"description": "<p>Over the past year, a concentrated effort has been focused on specific energy sector critical assets, leveraging trusted relationships within supply chains and other partnerships in an attempt to gain access to corporate and control system networks. This technical discussion will review the threat actor’s tactics and techniques observed during multiple on-site incident response engagements conducted by the DHS NCCIC Hunt and Incident Response Team related to this campaign.</p>"
 },
 
 
@@ -101,6 +107,12 @@
 
 {
 	"description": "<p>Fake base stations are often discussed as a threat for privacy of mobile phone users. However, many other devices, such as cars, lifts or industrial control systems (ICS), are increasingly using cellular connectivity. It makes some difficulties during penetration tests – even though data sent through this communication channel might be exactly the same as in case of using WiFi network, its access is much more difficult. Most security guidelines ignore this topic. It turns out that fake BTS, so often presented in a bad light, can be also used to support security examination of this communication channel. The presentation will be based on practice - built testbed and conducted experiments. In addition, hardware requirements for such environment and legal aspects in diffrent jurisdictions will be discussed.</p>"
+},
+
+
+
+{
+	"description": "<p>This presentation will go through key DHS incident response efforts impacting critical infrastructure over time.  Using case studies and examples, we will detail root cause analysis of these incidents and provide recommendations for remediation.  We will cover major public incidents (Ukraine, Trition, BlacEnergy, Havex…..) as well as other less known incidents DHS has worked with significance.  The target audience is critical infrastructure asset owners/operators and ICS security personnel who will take away key insights derived from DHS’s role in defending US critical infrastructure.  This presentation will contain new (especially if something happens between now and then) content as well as historical content that articulates a particular defensive lesson learned.</p>"
 },
 
 
