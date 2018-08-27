@@ -1,6 +1,6 @@
 ---
 title: "ICS Incident Response: Lessions and mitigations from the field"
-permalink: "/program/presentations/makr-bristow/"
+permalink: "/program/presentations/mark-bristow/"
 layout: presentation
 speaker:
 - name: Mark Bristow
