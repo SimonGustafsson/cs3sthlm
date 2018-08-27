@@ -3628,24 +3628,13 @@ h1, h2, h3, h4 {
     text-align: left;
     list-style: none;
     margin-bottom: 40px;
-    -moz-column-count: 2;
-    -moz-column-gap: 20px;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 20px;
-    column-count: 2px;
-    column-gap: 20px; }
-    @media screen and (max-width: 768px) {
-      .presentation--list ul {
-        -moz-column-count: 1;
-        -moz-column-gap: 0px;
-        -webkit-column-count: 1;
-        -webkit-column-gap: 0px;
-        column-count: 1;
-        column-gap: 0px; } }
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap; }
     .presentation--list ul:last-of-type {
       margin-bottom: 0; }
     .presentation--list ul li {
-      width: 550px;
+      width: 50%;
       margin-bottom: 24px;
       break-inside: avoid;
       -webkit-column-break-inside: avoid;
@@ -3754,7 +3743,7 @@ h1, h2, h3, h4 {
     margin-bottom: 40px; }
     @media screen and (min-width: 1680px) {
       .sec-program .col-6 .presentation--list ul li {
-        width: 100%; } }
+        width: 50%; } }
 .sec-program .col-6-6 {
   display: block;
   width: 100%; }

@@ -75,14 +75,6 @@
   
    {
      
-        "title"    : "The Internet of Things on the Internet",
-        "url"      : "/program/presentations/adam-johnny/",
-        "path"     : "/program/presentations/adam-johnny/"
-     
-   },
-  
-   {
-     
    },
   
    {
@@ -155,6 +147,14 @@
   
    {
      
+        "title"    : "Speakers",
+        "url"      : "/program/speakers/",
+        "path"     : "/program/speakers/"
+     
+   },
+  
+   {
+     
         "title"    : "Trainings",
         "url"      : "/program/trainings/",
         "path"     : "/program/trainings/"
@@ -171,9 +171,9 @@
   
    {
      
-        "title"    : "Speakers",
-        "url"      : "/program/speakers/",
-        "path"     : "/program/speakers/"
+        "title"    : "News",
+        "url"      : "/news/",
+        "path"     : "/news/"
      
    },
   
@@ -246,14 +246,6 @@
         "title"    : "Call for Participation",
         "url"      : "/call-for-proposals/",
         "path"     : "/call-for-proposals/"
-     
-   },
-  
-   {
-     
-        "title"    : "News",
-        "url"      : "/news/",
-        "path"     : "/news/"
      
    },
   
