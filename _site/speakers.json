@@ -396,72 +396,6 @@
 	},
 
 	{
-		"id"		: "13",
-		"type"		: "presentation",
-		"name"		: "Adam Ringwood",
-		"role"		: "OT Security Researcher",
-		"work"		: "Uptake Technologies",
-		"country"	: "United States",
-		"shortcode"	: "US",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/adam-ringwood.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": "live",
-			"title": "The Internet of Things on the Internet",
-			"partner": "Johnny Xmas",
-			"description": "<p>asd1</p>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"description": ""
-		},
-		
-
-		"bio": "<p>Adam Ringwood is a OT Security Researcher US-based Data Science organization Uptake Technologies, dedicated to the philosophy that machines never have to break. Most famously known for his research around his university’s LDAP data privacy, He has also built several email phishing, and password cracking tools, and has been a longtime consultant working to build and secure cloud infrastructure.</p>"
-	},
-
-	{
-		"id"		: "14",
-		"type"		: "presentation",
-		"name"		: "Johnny Xmas",
-		"role"		: "Security Researcher",
-		"work"		: "Uptake Technologies",
-		"country"	: "United States",
-		"shortcode"	: "US",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/johnny-xmas.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": "live",
-			"title": "The Internet of Things on the Internet",
-			"partner": "Adam Ringwood",
-			"description": "<p>asd2</p>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"description": ""
-		},
-		
-
-		"bio": "<p>Johnny Xmas is a Security Researcher and Lead Penetration Tester for the US-based Data Science organization Uptake Technologies, dedicated to the philosophy that machines never have to break. He’s been speaking internationally on the topics of Hacking, and Privacy for nearly 15 years, and is most well-known for his involvement with the USA / TSA Master Keys reversing of 2015-16.</p>"
-	},
-
-	{
 		"id"		: "15",
 		"type"		: "presentation",
 		"name"		: "Kai Thomsen",
@@ -749,6 +683,72 @@
 		
 
 		"bio": "<p>IT security expert, member of ComCERT.PL Team, the team that delivers IT incident response related services. He specializes in the security of industrial control systems. A graduate of the University of Warwick in the Great Britain. Founder of the scientist circle at the Military University of Technology, dealing with cyber security. He has been awarded twice for finding vulnerabilities in Microsoft products. Together with the team, he won the award for the best decision-making document in case of cyber conflict in the Cyber 9/12 Europe Competition, organized by the Atlantic Council. Actively tweeting on @dudekmar</p>"
+	},
+
+	{
+		"id"		: "24",
+		"type"		: "presentation",
+		"name"		: "Jonathan Homer",
+		"role"		: "Chief of the Industrial Control System Group",
+		"work"		: "NCCIC Hunt and Incident Response Team (HIRT)",
+		"country"	: "United States",
+		"shortcode"	: "US",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/temp.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": "live",
+			"title": "Recent APT Campaign targeting Energy Sector Assets",
+			"partner": "",
+			"description": "<p>asd1</p>"
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"description": ""
+		},
+		
+
+		"bio": ""
+	},
+
+	{
+		"id"		: "25",
+		"type"		: "presentation",
+		"name"		: "Mark Bristow",
+		"role"		: "Director",
+		"work"		: "NCCIC Hunt and Incident Response Team (HIRT)",
+		"country"	: "United States",
+		"shortcode"	: "US",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/mark-bristow.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": "live",
+			"title": "ICS Incident Response: Lessions and mitigations from the field",
+			"partner": "",
+			"description": "<p>asd1</p>"
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"description": ""
+		},
+		
+
+		"bio": "<p>Mark Bristow is the Director for the Hunt and Incident Response Team (HIRT) at the National Cybersecurity and Communications Integration Center (NCCIC) within the Department of Homeland Security (DHS). He oversees DHS’s efforts for assisting asset owners to respond to, remediate and recover from cyber incidents across government, critical infrastructure and private sector systems—most recently including securing the election infrastructure and addressing Russian attempts to gain access to the U.S. power grid.</p>"
 	}
 
 ]}

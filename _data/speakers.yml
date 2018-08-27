@@ -365,51 +365,51 @@
     - active: none
 
 
-- id: 13
-  type: presentation
-  permalink:
-  name: Adam Ringwood
-  role: OT Security Researcher
-  work: Uptake Technologies
-  country: United States
-  shortcode: US
-  image: adam-ringwood.png
-  bio: Adam Ringwood is a OT Security Researcher US-based Data Science organization Uptake Technologies, dedicated to the philosophy that machines never have to break. Most famously known for his research around his university’s LDAP data privacy, He has also built several email phishing, and password cracking tools, and has been a longtime consultant working to build and secure cloud infrastructure.
-  date:
-  time:
-  place:
-  presentation:
-    - active: live
-      subject: The Internet of Things on the Internet
-      permalink: program/presentations/adam-johnny/
-      partner: Johnny Xmas
-      description: |
-        asd1
-  training:
-    - active: none
+#- id: 13
+#  type: presentation
+#  permalink:
+#  name: Adam Ringwood
+#  role: OT Security Researcher
+#  work: Uptake Technologies
+#  country: United States
+#  shortcode: US
+#  image: adam-ringwood.png
+#  bio: Adam Ringwood is a OT Security Researcher US-based Data Science organization Uptake Technologies, dedicated to the philosophy that machines never have to break. Most famously known for his research around his university’s LDAP data privacy, He has also built several email phishing, and password cracking tools, and has been a longtime consultant working to build and secure cloud infrastructure.
+#  date:
+#  time:
+#  place:
+#  presentation:
+#    - active: live
+#      subject: The Internet of Things on the Internet
+#      permalink: program/presentations/adam-johnny/
+#      partner: Johnny Xmas
+#      description: |
+#        asd1
+#  training:
+#    - active: none
 
-- id: 14
-  type: presentation
-  permalink:
-  name: Johnny Xmas
-  role: Security Researcher
-  work: Uptake Technologies
-  country: United States
-  shortcode: US
-  image: johnny-xmas.png
-  bio: Johnny Xmas is a Security Researcher and Lead Penetration Tester for the US-based Data Science organization Uptake Technologies, dedicated to the philosophy that machines never have to break. He’s been speaking internationally on the topics of Hacking, and Privacy for nearly 15 years, and is most well-known for his involvement with the USA / TSA Master Keys reversing of 2015-16.
-  date:
-  time:
-  place:
-  presentation:
-    - active: live
-      subject: The Internet of Things on the Internet
-      permalink: program/presentations/adam-johnny/
-      partner: Adam Ringwood
-      description: |
-        asd2
-  training:
-    - active: none
+#- id: 14
+#  type: presentation
+#  permalink:
+#  name: Johnny Xmas
+#  role: Security Researcher
+#  work: Uptake Technologies
+#  country: United States
+#  shortcode: US
+#  image: johnny-xmas.png
+#  bio: Johnny Xmas is a Security Researcher and Lead Penetration Tester for the US-based Data Science organization Uptake Technologies, dedicated to the philosophy that machines never have to break. He’s been speaking internationally on the topics of Hacking, and Privacy for nearly 15 years, and is most well-known for his involvement with the USA / TSA Master Keys reversing of 2015-16.
+#  date:
+#  time:
+#  place:
+#  presentation:
+#    - active: live
+#      subject: The Internet of Things on the Internet
+#      permalink: program/presentations/adam-johnny/
+#      partner: Adam Ringwood
+#      description: |
+#        asd2
+#  training:
+#    - active: none
 
 
 - id: 15
@@ -627,6 +627,52 @@
     - active: live
       subject: Using fake BTS as a part of pentest of devices using SIM cards for data transmission
       permalink: program/presentations/marcin-dudek/
+      partner:
+      description: |
+        asd1
+  training:
+    - active: none
+
+- id: 24
+  type: presentation
+  permalink: program/presentations/jonathan-homer/
+  name: Jonathan Homer
+  role: Chief of the Industrial Control System Group
+  work: NCCIC Hunt and Incident Response Team (HIRT)
+  country: United States
+  shortcode: US
+  image: temp.png
+  bio: 
+  date:
+  time:
+  place:
+  presentation:
+    - active: live
+      subject: Recent APT Campaign targeting Energy Sector Assets
+      permalink: program/presentations/jonathan-homer/
+      partner:
+      description: |
+        asd1
+  training:
+    - active: none
+
+- id: 25
+  type: presentation
+  permalink: program/presentations/mark-bristow/
+  name: Mark Bristow
+  role: Director
+  work: NCCIC Hunt and Incident Response Team (HIRT)
+  country: United States
+  shortcode: US
+  image: mark-bristow.png
+  bio: Mark Bristow is the Director for the Hunt and Incident Response Team (HIRT) at the National Cybersecurity and Communications Integration Center (NCCIC) within the Department of Homeland Security (DHS). He oversees DHS’s efforts for assisting asset owners to respond to, remediate and recover from cyber incidents across government, critical infrastructure and private sector systems—most recently including securing the election infrastructure and addressing Russian attempts to gain access to the U.S. power grid.
+  date:
+  time:
+  place:
+  presentation:
+    - active: live
+      subject: "ICS Incident Response: Lessions and mitigations from the field"
+      permalink: program/presentations/mark-bristow/
       partner:
       description: |
         asd1
