@@ -12,6 +12,7 @@ speaker:
   work: Uptake Technologies
   image: johnny-xmas.png
 id: presentation
+published: false
 ---
 
 Since the first Embedded System was given a network interface, the Internet has been exploding with “Things” that have no Earthly business being there. The popular tool / website “Shodan” has risen to be the de-facto standard for cataloguing these devices, but what happens when Shodan fails?
