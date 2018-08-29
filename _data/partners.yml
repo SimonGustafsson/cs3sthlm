@@ -1,132 +1,145 @@
 - id: 1
   level: organizer
   company: OMNISIENS
-  logo: omnisiens.svg
+  logo: omnisiens.png
   url: https://omnisiens.se
   bio: We are a company that host summits and conferences - our mission is to work with knowledge transfer.
+  type: small
+  order: 4
 
 - id: 2
   level: organizer
   company: ROMAB
-  logo: romab.svg
+  logo: romab.png
   url: https://romab.com
   bio: We are a small consulting firm. This means that we have to work a little harder to be seen in the competition. Our vision is that the world needs a better, safer and more qualitative IT system. Through our passion for technology and IT we make every effort extra to reach, if ever so slightly closer, the vision.
+  type: small
+  order: 1
 
 - id: 3
   level: organizer
   company: sysctl
-  logo: sysctl.svg
+  logo: sysctl.png
   url: https://sysctl.se
   bio: sysctl is a research and development company in Stockholm, Sweden developing security and cybersecurity products.
+  type: small
+  order: 3
 
 - id: 4
-  level: organizer
-  company: FIRST
-  logo: first.svg
-  url: https://first.org
-  bio: FIRST is the premier organization and recognized global leader in incident response. Membership in FIRST enables incident response teams to more effectively respond to security incidents reactive as well as proactive.
-
-- id: 5
   level: organizer
   company: Management Doctors
   logo: md.png
   url: http://managementdoctors.se
   bio: Management Doctors is an independent Swedish consulting firm that works primarily with critical information and control systems.
+  type: small
+  order: 2
 
-- id: 6
-  level: community-partner
-  company: ABB
-  logo: abb.png
-  url: https://new.abb.com/se
-  bio:
-
-- id: 7
-  level: community-partner
-  company: Hudson Cybertec
-  logo: hudson-cybertec.png
-  url: http://hudsoncybertec.com
-  bio: Hudson Cybertec is a cyber security solution provider, globally involved with cyber security projects for industrial automation and control systems. The company has full focus on cyber security in the Industrial Automation & Control Systems (IACS) domain. They are intimately involved with the development of the IEC 62443 standard and is globally recognized as Subject Matter Expert (SME).
-
-- id: 8
+- id: 5
   level: partner
   company: Advenica
-  logo: advenica.svg
+  logo: advenica.png
   url: https://www.advenica.com/en
   bio: 
+  type: large
+  order: 1
 
-- id: 9
-  level: partner
-  company: ATEA
-  logo: atea.svg
-  url: https://www.atea.se
-  bio:
-
-- id: 10
-  level: organizer
-  company: KraftCERT
-  logo: kraftcert.png
-  url: https://www.kraftcert.no
-  bio:
-
-- id: 11
-  level: community-partner
-  company: Siemens
-  logo: siemens.png
-  url: https://www.siemens.com/
-  bio:
-
-- id: 12
-  level: partner
-  company: Foreseeti
-  logo: foreseeti.svg
-  url: https://www.foreseeti.com
-  bio: 
-
-- id: 13
-  level: partner
-  company: Fortinet
-  logo: fortinet.png
-  url: https://www.fortinet.com
-  bio: 
-
-- id: 14
-  level: partner
-  company: Honeywell
-  logo: honeywell.svg
-  url: https://www.honeywell.com
-  bio: 
-
-- id: 15
-  level: partner
-  company: Westermo
-  logo: westermo.png
-  url: https://www.westermo.se
-  bio: 
-
-- id: 16
-  level: partner
-  company: Savecore
-  logo: savecore.png 
-  url: https://savecore.se
-  bio: 
-
-- id: 17
+- id: 6
   level: partner
   company: Kaspersky
   logo: kaspersky.png
   url: https://www.kaspersky.com
   bio:
+  type: small
+  order: 2
 
-- id: 18
+- id: 7
   level: partner
-  company: Sectra
-  logo: sectra.svg
-  url: https://www.sectra.com
+  company: Recorded Future
+  logo: recorded-future.png
+  url: https://www.recordedfuture.com
   bio:
+  type: small
+  order: 4
 
-- id: 19
+- id: 8
   level: partner
-  company: Check Point
-  logo: checkpoint.png
-  url: https://www.checkpoint.com
+  company: Waterfall Security
+  logo: waterfall-security.png
+  url: https://waterfall-security.com
   bio:
+  type: small
+  order: 3
+
+- id: 9
+  level: training-partner
+  company: Gai Netconsult
+  logo: gai-netconsult.png
+  url: https://www.gai-netconsult.de/index.php?id=startseite
+  bio:
+  type: large
+  order: 1
+
+- id: 10
+  level: training-partner
+  company: Dragos
+  logo: dragos.png
+  url: https://dragos.com
+  bio:
+  type: small
+  order: 4
+
+
+- id: 11
+  level: training-partner
+  company: EnergiNet
+  logo: energinet.png
+  url: https://en.energinet.dk
+  bio:
+  type: small
+  order: 2
+
+- id: 12
+  level: training-partner
+  company: NETRESEC
+  logo: netresec.png
+  url: https://www.netresec.com
+  bio:
+  type: small
+  order: 5
+
+- id: 13
+  level: training-partner
+  company: WAVESTONE
+  logo: wavestone.png
+  url: https://www.wavestone.com/en/
+  bio:
+  type: small
+  order: 3
+
+- id: 14
+  level: governmental-partner
+  company: MSB
+  logo: msb-english.png
+  url: https://www.msb.se/en/
+  bio:
+  type: large
+  order: 1
+
+- id: 15
+  level: community-partner
+  company: KraftCERT
+  logo: kraftcert.png
+  url: https://www.kraftcert.no/english/index.html
+  bio:
+  type: large
+  order: 2
+
+- id: 16
+  level: community-partner
+  company: FIRST
+  logo: first.png
+  url: https://www.first.org
+  bio:
+  type: large
+  order: 1
+

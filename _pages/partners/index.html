@@ -35,29 +35,16 @@ layout: default
 
 </section>
 
-<!--<div class="content">
-
-	<span class="notice-bar"><h3>Disclaimer</h3>The following information is tied to the past CS3STHLM Summit.</span>
-
-	<div class="sec-head">
-    <h4>Previous Partners</h4>
-	    <div class="block-head">
-	    	<h2>2017 Partners</h2>
-	    </div>
-
-	    <div class="col-3-6 col-ml-1">
-			<p>The following list of Partners are connected to the previous 2017 CS3STHLM Summit.</p>
-		</div>
-	</div>
+<section class="content">
 
 	<div class="col-1">
 
 		<div class="partner--list">
-		<h3>Partners</h3>
-		{% assign sortedpartners = site.data.partners | sort:"company" %}
+		<h3>Governmental Partners</h3>
+		{% assign sortedpartners = site.data.partners | sort:"order" %}
 		{% for partner in sortedpartners %}
-		{% if partner.level == "partner" %}
-			<div class="partner--item">
+		{% if partner.level == "governmental-partner" %}
+			<div class="partner--item {% if partner.type == "large" %}partner--item-large{% endif %}">
 				<a href="{{ partner.url }}" target="_blank">
 					<img src="{{ site.baseurl }}/assets/partners/{{ partner.logo }}" alt="{{ partner.company }}">
 				</a>
@@ -67,11 +54,69 @@ layout: default
 		</div>
 
 		<div class="partner--list">
+		<h3>Partners</h3>
+		{% assign sortedpartners = site.data.partners | sort:"order" %}
+		{% for partner in sortedpartners %}
+		{% if partner.level == "partner" %}
+		{% if partner.type == "large" %}
+			<div class="partner--item partner--item-large">
+				<a href="{{ partner.url }}" target="_blank">
+					<img src="{{ site.baseurl }}/assets/partners/{{ partner.logo }}" alt="{{ partner.company }}">
+				</a>
+			</div>
+		{% endif %}
+		{% endif %}
+		{% endfor %}
+		<div class="partner--list-block">
+		{% for partner in sortedpartners %}
+		{% if partner.level == "partner" %}
+		{% if partner.type == "small" %}
+			<div class="partner--item">
+				<a href="{{ partner.url }}" target="_blank">
+					<img src="{{ site.baseurl }}/assets/partners/{{ partner.logo }}" alt="{{ partner.company }}">
+				</a>
+			</div>
+		{% endif %}
+		{% endif %}
+		{% endfor %}
+		</div>
+		</div>
+
+		<div class="partner--list">
+		<h3>Partners</h3>
+		{% assign sortedpartners = site.data.partners | sort:"order" %}
+		{% for partner in sortedpartners %}
+		{% if partner.level == "training-partner" %}
+		{% if partner.type == "large" %}
+			<div class="partner--item partner--item-large">
+				<a href="{{ partner.url }}" target="_blank">
+					<img src="{{ site.baseurl }}/assets/partners/{{ partner.logo }}" alt="{{ partner.company }}">
+				</a>
+			</div>
+		{% endif %}
+		{% endif %}
+		{% endfor %}
+		<div class="partner--list-block">
+		{% for partner in sortedpartners %}
+		{% if partner.level == "training-partner" %}
+		{% if partner.type == "small" %}
+			<div class="partner--item">
+				<a href="{{ partner.url }}" target="_blank">
+					<img src="{{ site.baseurl }}/assets/partners/{{ partner.logo }}" alt="{{ partner.company }}">
+				</a>
+			</div>
+		{% endif %}
+		{% endif %}
+		{% endfor %}
+		</div>
+		</div>
+
+		<div class="partner--list">
 		<h3>Community Partners</h3>
-		{% assign sortedpartners = site.data.partners | sort:"company" %}
+		{% assign sortedpartners = site.data.partners | sort:"order" %}
 		{% for partner in sortedpartners %}
 		{% if partner.level == "community-partner" %}
-			<div class="partner--item">
+			<div class="partner--item {% if partner.type == "large" %}partner--item-large{% endif %}">
 				<a href="{{ partner.url }}" target="_blank">
 					<img src="{{ site.baseurl }}/assets/partners/{{ partner.logo }}" alt="{{ partner.company }}">
 				</a>
@@ -82,7 +127,7 @@ layout: default
 
 		<div class="partner--list">
 		<h3>Organizing Partners</h3>
-		{% assign sortedpartners = site.data.partners | sort:"company" %}
+		{% assign sortedpartners = site.data.partners | sort:"order" %}
 		{% for partner in sortedpartners %}
 		{% if partner.level == "organizer" %}
 			<div class="partner--item">
@@ -96,4 +141,4 @@ layout: default
 
 	</div>
 
-</div>-->
+</section>
