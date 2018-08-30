@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>CS3STHLM | The good, the bad and the segmented</title>
+  <title>CS3STHLM | Unblockable Chains - Is Blockchain the ultimate malicious infrastructure?</title>
   <meta name="description" content="CS3STHLM - Stockholm international summit on cyber-security in SCADA and Industrial Control Systems. CS3STHLM is an annual summit that gather the most import...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="/program/presentations/erwin-rik/">
+  <link rel="canonical" href="/program/presentations/omer-zohar/">
   <link rel="alternate" type="application/rss+xml" title="CS3STHLM" href="/feed.xml">
   <link rel="icon" type="image/png" href="/assets/favicon-32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="/assets/favicon-16x16.png" sizes="16x16" />
@@ -86,7 +86,7 @@
   	
 	
 	
-  		<li>Erwin rik</li>
+  		<li>Omer zohar</li>
   	
 	
 </ul>
@@ -98,44 +98,41 @@
   <aside class="sidebar box-left">
     
     <ul class="meta-data--presentation">
-      <li><h4>Author</h4><span class="post-author">Erwin Kooi</span></li>
-      <li><h4>Role</h4><span class="post-author">Information Security Arcitect</span></li>
-      <li><h4>Work</h4><span class="post-author">Alliander</span></li>
-      <li><img src="/assets/speakers/erwin-kooi.png"></li>
-    </ul>
-    
-    <ul class="meta-data--presentation">
-      <li><h4>Author</h4><span class="post-author">Rik van Hees</span></li>
-      <li><h4>Role</h4><span class="post-author">ICS Security Architect</span></li>
-      <li><h4>Work</h4><span class="post-author">Alliander</span></li>
-      <li><img src="/assets/speakers/rik-van-hees.png"></li>
+      <li><h4>Author</h4><span class="post-author">Omer Zohar</span></li>
+      <li><h4>Role</h4><span class="post-author">Independant Researcher</span></li>
+      <li><h4>Work</h4><span class="post-author">Independant</span></li>
+      <li><img src="/assets/speakers/omer-zohar.png"></li>
     </ul>
     
   </aside>
 
   <div class="post-content" itemprop="articleBody">
     <header class="post-header">
-      <h1 class="post-title" itemprop="name headline">The good, the bad and the segmented</h1>
+      <h1 class="post-title" itemprop="name headline">Unblockable Chains - Is Blockchain the ultimate malicious infrastructure?</h1>
     </header>
 
-    <p>“Network Segmentation” is a simple concept of 20 characters (space included). Doing it in practice and doing it right is much more difficult. Proper segmentation is much, much more than just adding a firewall.</p>
+    <p>In this principal research, we investigate the possibilities blockchain technologies pose as an infrastructure for malicious operations. We will demonstrate a POC of a fully functional C&amp;C infrastructure on top of the Ethereum network - the second largest public blockchain which also acts as a distributed computing platform featuring a smart contract functionality.</p>
 
-<p>Over the last years we spend a lot of time and money on designing and implementing network segmentation for our multi-site IT and multi-site OT networks. Not only in technical solutions, but also in the required processes for maintaining the new environment. We made some (costly) mistakes and had to rethink our design based on physical and organizational boundaries.</p>
+<p>As Blockchain technologies gain more traction in recent years, it brings promise of creating a decentralized, distributed and transparent economy which aim to disrupt our current centric organizational structures and reduce middlemen.
+Notoriously, crypto coins have been the currency of choice on the dark web for conducting illegal transactions. But what about the underlying technology, the Blockchain? Could a distributed, public, popular, global ledger be [ab]used as the infrastructure for the ultimate command and control mechanism?</p>
 
-<p>In this talk, we would like to present lessons-learned on the multi-million, multi-year project. It is not an official report-out, but a hands-on and practical presentation. We hope this talk will give the audience a feeling for the challenges of a proper segmentation program and help them to prevent some of the mistakes we made.</p>
+<p>Managing a botnet is a problem in distributed computing. Once infected, a host must be able to discover, reach and maintain communication with its operator over long periods. Over the years much effort has been made to perfect these capabilities to avoiding detection, maintain anonymity and resist take downs. From plain old HTTP requests, through DIY TCP protocols and encryption, up to fancy P2P networks, DGAs, Fast Flux and cloud service use. While all these techniques have varying degree of resilience and covertness, all are vulnerable to take down once network topology has been determined. Can blockchain turn this around?</p>
 
-<h4 id="the-following-questions-will-be-answered">The following questions will be answered</h4>
+<p>In this talk, which will include many code examples and a live demo, we will discuss:</p>
 
 <ul>
-  <li>How did we convince Senior Management to allocate the budget</li>
-  <li>What underlying architecture did we choose and why?</li>
-  <li>What use cases did we envision and how did we work them out?</li>
-  <li>What design choices were made?</li>
-  <li>How did this work out in reality?</li>
-  <li>What did we learn?</li>
-  <li>What would we recommend?</li>
-  <li>What would we do differently?</li>
+  <li>How can the blockchain solves the ‘first contact’ problem?</li>
+  <li>How to cope with the fact that all data, code and transactions are publicly visible on the blockchain?</li>
+  <li>What is the footprint of running a blockchain node on the client and how to minimize resources?</li>
+  <li>Cost analysis: Is it feasible financially to run a botnet at scale on top of a blockchain?</li>
+  <li>Is it takedown resilient? Can an adversary interrupt or take over the network? Or cause its resources (ether) to deplete? What are the design pitfalls to mitigate such concerns?</li>
+  <li>What information will be revealed to someone tracking the bot? how do you deal with it?</li>
+  <li>Does it scale?</li>
 </ul>
+
+<p>Finally, we will try to offer possible mitigations and detection methods.</p>
+
+<p>All code in this project is be available as Open source.</p>
 
 
     

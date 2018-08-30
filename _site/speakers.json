@@ -684,6 +684,39 @@
 	{
 		"id"		: "24",
 		"type"		: "presentation",
+		"name"		: "Omer Zohar",
+		"role"		: "Independant Researcher",
+		"work"		: "Independant",
+		"country"	: "Israel",
+		"shortcode"	: "IL",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/omer-zohar.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": "live",
+			"title": "Unblockable Chains - Is Blockchain the ultimate malicious infrastructure?",
+			"partner": "",
+			"description": "<p>In this principal research, we investigate the possibilities blockchain technologies pose as an infrastructure for malicious operations. We will demonstrate a POC of a fully functional C&amp;C infrastructure on top of the Ethereum network - the second largest public blockchain which also acts as a distributed computing platform featuring a smart contract functionality.</p>"
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"description": ""
+		},
+		
+
+		"bio": "<p>A security researcher for over a decade, Omer is currently exploring the opportunities emerging technologies such as blockchain and AI might create for the bad guys to improve their infrastructure and how to mitigate them. Omer has been conducting multidisciplinary research on malware behavior and detection methods, including on his last position as Head of Research for ‘TopSpin Security’, where he investigated malware C&amp;C infrastructure and protocols to create a behavior based detection engine that correlates over a time series network and reputation data along with a deception overlay. He authored ‘Deceive and Succeed: Using Deception for Post-Breach Detection’ (Defcon 2016) where he investigated how malicious actors interact with various deception mechanisms to measure their effectiveness.</p>"
+	},
+
+	{
+		"id"		: "25",
+		"type"		: "presentation",
 		"name"		: "Jonathan Homer",
 		"role"		: "Chief of the Industrial Control System Group",
 		"work"		: "NCCIC Hunt and Incident Response Team (HIRT)",
@@ -715,7 +748,7 @@
 	},
 
 	{
-		"id"		: "25",
+		"id"		: "26",
 		"type"		: "presentation",
 		"name"		: "Mark Bristow",
 		"role"		: "Director",

@@ -147,9 +147,9 @@
   
    {
      
-        "title"    : "Speakers",
-        "url"      : "/program/speakers/",
-        "path"     : "/program/speakers/"
+        "title"    : "Partners",
+        "url"      : "/partners/",
+        "path"     : "/partners/"
      
    },
   
@@ -171,9 +171,9 @@
   
    {
      
-        "title"    : "News",
-        "url"      : "/news/",
-        "path"     : "/news/"
+        "title"    : "Speakers",
+        "url"      : "/program/speakers/",
+        "path"     : "/program/speakers/"
      
    },
   
@@ -251,9 +251,9 @@
   
    {
      
-        "title"    : "Partners",
-        "url"      : "/partners/",
-        "path"     : "/partners/"
+        "title"    : "News",
+        "url"      : "/news/",
+        "path"     : "/news/"
      
    },
   
@@ -362,6 +362,14 @@
    },
   
    {
+     
+   },
+  
+   {
+     
+        "title"    : "Unblockable Chains - Is Blockchain the ultimate malicious infrastructure?",
+        "url"      : "/program/presentations/omer-zohar/",
+        "path"     : "/program/presentations/omer-zohar/"
      
    },
   
