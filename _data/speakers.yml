@@ -635,6 +635,29 @@
 
 - id: 24
   type: presentation
+  permalink: program/presentations/omer-zohar/
+  name: Omer Zohar
+  role: Independant Researcher
+  work: Independant
+  country: Israel
+  shortcode: IL
+  image: omer-zohar.png
+  bio: "A security researcher for over a decade, Omer is currently exploring the opportunities emerging technologies such as blockchain and AI might create for the bad guys to improve their infrastructure and how to mitigate them. Omer has been conducting multidisciplinary research on malware behavior and detection methods, including on his last position as Head of Research for 'TopSpin Security', where he investigated malware C&C infrastructure and protocols to create a behavior based detection engine that correlates over a time series network and reputation data along with a deception overlay. He authored 'Deceive and Succeed: Using Deception for Post-Breach Detection' (Defcon 2016) where he investigated how malicious actors interact with various deception mechanisms to measure their effectiveness."
+  date:
+  time:
+  place:
+  presentation:
+    - active: live
+      subject: "Unblockable Chains - Is Blockchain the ultimate malicious infrastructure?"
+      permalink: program/presentations/omer-zohar/
+      partner:
+      description: |
+        In this principal research, we investigate the possibilities blockchain technologies pose as an infrastructure for malicious operations. We will demonstrate a POC of a fully functional C&C infrastructure on top of the Ethereum network - the second largest public blockchain which also acts as a distributed computing platform featuring a smart contract functionality.
+  training:
+    - active: none
+
+- id: 25
+  type: presentation
   permalink: program/presentations/jonathan-homer/
   name: Jonathan Homer
   role: Chief of the Industrial Control System Group
@@ -656,7 +679,7 @@
   training:
     - active: none
 
-- id: 25
+- id: 26
   type: presentation
   permalink: program/presentations/mark-bristow/
   name: Mark Bristow
