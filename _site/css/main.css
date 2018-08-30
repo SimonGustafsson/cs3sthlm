@@ -2772,6 +2772,13 @@ h1, h2, h3, h4 {
           width: 886px; } }
       .partner--list-block .partner--item:nth-child(even) {
         margin-right: 0; }
+    .partner--list-block-two {
+      width: 360px; }
+      .partner--list-block-two .partner--item {
+        margin-right: 0; }
+      @media screen and (min-width: 1680px) {
+        .partner--list-block-two {
+          width: 432px; } }
     @media screen and (max-width: 768px) {
       .partner--list {
         padding: 0 20px;

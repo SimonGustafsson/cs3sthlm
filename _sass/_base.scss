@@ -3492,6 +3492,17 @@ h1, h2, h3, h4 {
         }
       }
     }
+    &-block-two {
+      width: 360px;
+
+      .partner--item {
+        margin-right: 0;
+      }
+
+      @include media-query-min($large) {
+        width: 432px;
+      }
+    }
 
     @include media-query($mobile) {
       padding: 0 20px;
