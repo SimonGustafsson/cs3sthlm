@@ -107,14 +107,6 @@
   type: small
   order: 5
 
-- id: 13
-  level: training-partner
-  company: WAVESTONE
-  logo: wavestone.png
-  url: https://www.wavestone.com/en/
-  bio:
-  type: small
-  order: 3
 
 - id: 14
   level: governmental-partner
