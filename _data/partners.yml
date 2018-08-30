@@ -77,7 +77,7 @@
   url: https://www.gai-netconsult.de/index.php?id=startseite
   bio:
   type: large
-  order: 1
+  order: 2
 
 - id: 10
   level: training-partner
@@ -85,8 +85,8 @@
   logo: dragos.png
   url: https://dragos.com
   bio:
-  type: small
-  order: 4
+  type: large
+  order: 1
 
 
 - id: 11
