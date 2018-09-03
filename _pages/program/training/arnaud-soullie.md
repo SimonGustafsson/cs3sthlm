@@ -7,7 +7,7 @@ id: training
 speaker:
 - name: Arnaud Soullié
   role: Cybersecurity R&D Manager
-  work: Wavestone
+  work: pentesting-ics.com
   image: arnaud-soullie.png
 ---
 
