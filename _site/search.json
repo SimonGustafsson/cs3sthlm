@@ -147,9 +147,17 @@
   
    {
      
-        "title"    : "Partners",
-        "url"      : "/partners/",
-        "path"     : "/partners/"
+        "title"    : "News",
+        "url"      : "/news/",
+        "path"     : "/news/"
+     
+   },
+  
+   {
+     
+        "title"    : "Speakers",
+        "url"      : "/program/speakers/",
+        "path"     : "/program/speakers/"
      
    },
   
@@ -171,9 +179,9 @@
   
    {
      
-        "title"    : "Speakers",
-        "url"      : "/program/speakers/",
-        "path"     : "/program/speakers/"
+        "title"    : "Partners",
+        "url"      : "/partners/",
+        "path"     : "/partners/"
      
    },
   
@@ -243,17 +251,17 @@
   
    {
      
-        "title"    : "Call for Participation",
-        "url"      : "/call-for-proposals/",
-        "path"     : "/call-for-proposals/"
+        "title"    : "Expo",
+        "url"      : "/expo/",
+        "path"     : "/expo/"
      
    },
   
    {
      
-        "title"    : "News",
-        "url"      : "/news/",
-        "path"     : "/news/"
+        "title"    : "Call for Participation",
+        "url"      : "/call-for-proposals/",
+        "path"     : "/call-for-proposals/"
      
    },
   
@@ -279,6 +287,14 @@
   
    {
      
+        "title"    : "ICS Strategic Planning and War Gaming",
+        "url"      : "/program/trainings/joe-slowik/",
+        "path"     : "/program/trainings/joe-slowik/"
+     
+   },
+  
+   {
+     
         "title"    : "Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense",
         "url"      : "/program/presentations/joe-slowik/",
         "path"     : "/program/presentations/joe-slowik/"
@@ -287,9 +303,9 @@
   
    {
      
-        "title"    : "ICS Strategic Planning and War Gaming",
-        "url"      : "/program/trainings/joe-slowik/",
-        "path"     : "/program/trainings/joe-slowik/"
+        "title"    : "Designing a second generation cyber range",
+        "url"      : "/program/presentations/jonas-almroth/",
+        "path"     : "/program/presentations/jonas-almroth/"
      
    },
   
@@ -323,7 +339,7 @@
   
    {
      
-        "title"    : "ICS Incident Response: Lessions and mitigations from the field",
+        "title"    : "ICS Incident Response: Lessons and mitigations from the field",
         "url"      : "/program/presentations/mark-bristow/",
         "path"     : "/program/presentations/mark-bristow/"
      

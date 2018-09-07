@@ -1,0 +1,99 @@
+- id: 1
+  type: expotalk
+  permalink: expo/talk/henrik-sandberg/
+  name: Henrik Sandberg
+  role: Professor in Large-Scale Control Systems
+  work: School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology
+  country: Sweden
+  shortcode: SE
+  image: henrik-sandberg.png
+  bio: 
+  date:
+  time:
+  place:
+  presentation:
+    - active: 
+      subject: 
+      permalink: expo/talk/henrik-sandberg/
+      partner:
+      description:
+
+- id: 2
+  type: expotalk
+  permalink: expo/talk/
+  name: György Dán
+  role: Professor in Teletraffic Systems
+  work: School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology
+  country: Sweden 
+  shortcode: SE
+  image: temp.png
+  bio: 
+  date:
+  time:
+  place:
+  presentation:
+    - active: 
+      subject: 
+      permalink: expo/talk/
+      partner:
+      description:
+
+- id: 3
+  type: expotalk
+  permalink: expo/talk/
+  name: Ragnar Thobaben
+  role: Associate Professor in Communication Theory
+  work: School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology
+  country: Germany
+  shortcode: DE
+  image: temp.png
+  bio: 
+  date:
+  time:
+  place:
+  presentation:
+    - active: 
+      subject: 
+      permalink: expo/talk/
+      partner:
+      description:
+
+- id: 4
+  type: expotalk
+  permalink: expo/talk/mads-dam/
+  name: Mads Dam
+  role: Professor in Teleinformatics
+  work: School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology
+  country: Sweden
+  shortcode: SE
+  image: mads-dam.png
+  bio: 
+  date:
+  time:
+  place:
+  presentation:
+    - active: 
+      subject: 
+      permalink: expo/talk/
+      partner:
+      description:
+
+- id: 5
+  type: expotalk
+  permalink: expo/talk/
+  name: Dr Kevin Jones
+  role: 
+  work: Airbus Group
+  country: 
+  shortcode: 
+  image: temp.png
+  bio: 
+  date:
+  time:
+  place:
+  presentation:
+    - active: 
+      subject: 
+      permalink: expo/talk/
+      partner:
+      description:

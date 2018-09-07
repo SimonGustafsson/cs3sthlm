@@ -1197,6 +1197,8 @@ h1, h2, h3, h4 {
     background: rgba(255, 255, 255, 0.5);
     position: absolute;
     bottom: -60px; }
+  .sec-head h2.no-line:after {
+    display: none; }
   @media screen and (max-width: 768px) {
     .sec-head h2 {
       margin-bottom: 40px;
@@ -1408,6 +1410,26 @@ h1, h2, h3, h4 {
         -webkit-flex-wrap: wrap;
         padding: 0 20px;
         box-sizing: border-box; } }
+  .sec-columns .sec-columns-faq {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .sec-columns .sec-columns-faq .column-item {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 24px; }
+      .sec-columns .sec-columns-faq .column-item:last-of-type {
+        margin-bottom: 0; }
+      .sec-columns .sec-columns-faq .column-item h5 {
+        display: block;
+        width: 100%;
+        font-family: 'latoblack', sans-serif;
+        font-weight: normal;
+        font-size: 18px;
+        color: white;
+        margin-bottom: 6px; }
   .sec-columns .column-item {
     display: block;
     width: 100%;
@@ -2794,6 +2816,10 @@ h1, h2, h3, h4 {
       letter-spacing: 2px;
       text-transform: uppercase;
       color: #ef7d00; }
+    .partner--list-single-group {
+      justify-content: space-between; }
+      .partner--list-single-group .partner--item {
+        margin-right: 0; }
   .partner--item {
     display: flex;
     align-items: center;
@@ -3864,6 +3890,12 @@ h1, h2, h3, h4 {
   @media screen and (max-width: 768px) {
     .sec-program .col-ml-1 {
       margin-left: 0; } }
+.sec-program .col-duo-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 48px;
+  margin-bottom: 48px; }
 @media screen and (max-width: 1170px) {
   .sec-program .workshop-program-group {
     padding-left: 0;
