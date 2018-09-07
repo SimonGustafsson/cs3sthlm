@@ -147,9 +147,33 @@
   
    {
      
+        "title"    : "Expo",
+        "url"      : "/expo/",
+        "path"     : "/expo/"
+     
+   },
+  
+   {
+     
+        "title"    : "Call for Participation",
+        "url"      : "/call-for-proposals/",
+        "path"     : "/call-for-proposals/"
+     
+   },
+  
+   {
+     
         "title"    : "News",
         "url"      : "/news/",
         "path"     : "/news/"
+     
+   },
+  
+   {
+     
+        "title"    : "Partners",
+        "url"      : "/partners/",
+        "path"     : "/partners/"
      
    },
   
@@ -179,9 +203,9 @@
   
    {
      
-        "title"    : "Partners",
-        "url"      : "/partners/",
-        "path"     : "/partners/"
+        "title"    : "Home",
+        "url"      : "/",
+        "path"     : ""
      
    },
   
@@ -251,17 +275,17 @@
   
    {
      
-        "title"    : "Expo",
-        "url"      : "/expo/",
-        "path"     : "/expo/"
+        "title"    : "Expo Presentations",
+        "url"      : "/expo/presentations/",
+        "path"     : "/expo/presentations/"
      
    },
   
    {
      
-        "title"    : "Call for Participation",
-        "url"      : "/call-for-proposals/",
-        "path"     : "/call-for-proposals/"
+        "title"    : "Expo Agenda",
+        "url"      : "/expo/agenda/",
+        "path"     : "/expo/agenda/"
      
    },
   
@@ -270,14 +294,6 @@
         "title"    : "Program",
         "url"      : "/program/",
         "path"     : "/program/"
-     
-   },
-  
-   {
-     
-        "title"    : "Home",
-        "url"      : "/",
-        "path"     : ""
      
    },
   

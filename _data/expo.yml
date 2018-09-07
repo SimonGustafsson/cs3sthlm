@@ -97,3 +97,63 @@
       permalink: expo/talk/
       partner:
       description:
+
+- id: 6
+  type: expotalk
+  permalink: expo/talk/
+  name: Recorded Future
+  role: 
+  work: Recorded Future
+  country: 
+  shortcode: 
+  image: temp.png
+  bio: 
+  date:
+  time:
+  place:
+  presentation:
+    - active: 
+      subject: 
+      permalink: expo/talk/
+      partner:
+      description:
+
+- id: 7
+  type: expotalk
+  permalink: expo/talk/
+  name: Advenica
+  role: 
+  work: Advenica
+  country: 
+  shortcode: 
+  image: temp.png
+  bio: 
+  date:
+  time:
+  place:
+  presentation:
+    - active: 
+      subject: 
+      permalink: expo/talk/
+      partner:
+      description:
+
+- id: 8
+  type: expotalk
+  permalink: expo/talk/
+  name: Kaspersky Lab
+  role: 
+  work: Kaspersky Lab
+  country: 
+  shortcode: 
+  image: temp.png
+  bio: 
+  date:
+  time:
+  place:
+  presentation:
+    - active: 
+      subject: 
+      permalink: expo/talk/
+      partner:
+      description:
