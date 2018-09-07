@@ -778,6 +778,39 @@
 		
 
 		"bio": "<p>Mark Bristow is the Director for the Hunt and Incident Response Team (HIRT) at the National Cybersecurity and Communications Integration Center (NCCIC) within the Department of Homeland Security (DHS). He oversees DHS’s efforts for assisting asset owners to respond to, remediate and recover from cyber incidents across government, critical infrastructure and private sector systems—most recently including securing the election infrastructure and addressing Russian attempts to gain access to the U.S. power grid.</p>"
+	},
+
+	{
+		"id"		: "27",
+		"type"		: "presentation",
+		"name"		: "Jonas Almroth",
+		"role"		: "System Architect",
+		"work"		: "FOI - Swedish Defence Research Agency",
+		"country"	: "Sweden",
+		"shortcode"	: "SE",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/jonas-almroth.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": "live",
+			"title": "Designing a second generation cyber range",
+			"partner": "",
+			"description": "<p>asd1</p>"
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"description": ""
+		},
+		
+
+		"bio": "<p>Coming soon.</p>"
 	}
 
 ]}

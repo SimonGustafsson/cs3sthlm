@@ -1416,6 +1416,13 @@ h1, h2, h3, h4 {
       bottom: -60px;
     }
 
+    &.no-line {
+
+      &:after {
+        display: none;
+      }
+    }
+
     @include media-query($mobile) {
       margin-bottom: 40px;
       line-height: 1.25;
@@ -1709,6 +1716,34 @@ h1, h2, h3, h4 {
       -webkit-flex-wrap: wrap;
       padding: 0 20px;
       box-sizing: border-box;
+    }
+  }
+  .sec-columns-faq {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .column-item {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 24px;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+
+      h5 {
+        display: block;
+        width: 100%;
+        font-family: 'latoblack', sans-serif;
+        font-weight: normal;
+        font-size: 18px;
+        color: $white;
+        margin-bottom: 6px;
+      }
+
     }
   }
 
@@ -3522,6 +3557,14 @@ h1, h2, h3, h4 {
       text-transform: uppercase;
       color: $yellow;
     }
+
+    &-single-group {
+      justify-content: space-between;
+
+      .partner--item {
+        margin-right: 0;
+      }
+    }
   }
 
   &-item {
@@ -4994,6 +5037,14 @@ h1, h2, h3, h4 {
     @include media-query($mobile) {
       margin-left: 0;
     }
+  }
+
+  .col-duo-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 48px;
+    margin-bottom: 48px;
   }
 
   .workshop-program-group {

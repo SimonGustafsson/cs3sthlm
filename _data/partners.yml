@@ -6,6 +6,7 @@
   bio: We are a company that host summits and conferences - our mission is to work with knowledge transfer.
   type: small
   order: 4
+  expo: "no"
 
 - id: 2
   level: organizer
@@ -15,6 +16,8 @@
   bio: We are a small consulting firm. This means that we have to work a little harder to be seen in the competition. Our vision is that the world needs a better, safer and more qualitative IT system. Through our passion for technology and IT we make every effort extra to reach, if ever so slightly closer, the vision.
   type: small
   order: 1
+  expo: "yes"
+  e-order: 7
 
 - id: 3
   level: organizer
@@ -24,6 +27,8 @@
   bio: sysctl is a research and development company in Stockholm, Sweden developing security and cybersecurity products.
   type: small
   order: 3
+  expo: "yes"
+  e-order: 9
 
 - id: 4
   level: organizer
@@ -33,6 +38,8 @@
   bio: Management Doctors is an independent Swedish consulting firm that works primarily with critical information and control systems.
   type: small
   order: 2
+  expo: "yes"
+  e-order: 8
 
 - id: 5
   level: partner
@@ -42,6 +49,8 @@
   bio: 
   type: large
   order: 1
+  expo: "yes"
+  e-order: 1
 
 - id: 6
   level: partner
@@ -51,6 +60,8 @@
   bio:
   type: small
   order: 2
+  expo: "yes"
+  e-order: 4
 
 - id: 7
   level: partner
@@ -60,6 +71,8 @@
   bio:
   type: small
   order: 4
+  expo: "yes"
+  e-order: 5
 
 - id: 8
   level: partner
@@ -69,6 +82,8 @@
   bio:
   type: small
   order: 3
+  expo: "yes"
+  e-order: 6
 
 - id: 9
   level: training-partner
@@ -78,6 +93,7 @@
   bio:
   type: large
   order: 2
+  expo: "no"
 
 - id: 10
   level: training-partner
@@ -87,6 +103,8 @@
   bio:
   type: large
   order: 1
+  expo: "yes"
+  e-order: 2
 
 
 - id: 11
@@ -97,6 +115,7 @@
   bio:
   type: small
   order: 2
+  expo: "no"
 
 - id: 12
   level: training-partner
@@ -106,6 +125,7 @@
   bio:
   type: small
   order: 5
+  expo: "no"
 
 
 - id: 14
@@ -116,6 +136,8 @@
   bio:
   type: large
   order: 1
+  expo: "yes"
+  e-order: 3
 
 - id: 15
   level: community-partner
@@ -125,6 +147,7 @@
   bio:
   type: large
   order: 2
+  expo: "no"
 
 - id: 16
   level: community-partner
@@ -134,4 +157,5 @@
   bio:
   type: large
   order: 1
+  expo: "no"
 

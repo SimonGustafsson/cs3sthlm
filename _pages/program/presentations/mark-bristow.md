@@ -1,5 +1,5 @@
 ---
-title: "ICS Incident Response: Lessions and mitigations from the field"
+title: "ICS Incident Response: Lessons and mitigations from the field"
 permalink: "/program/presentations/mark-bristow/"
 layout: presentation
 speaker:

@@ -701,3 +701,26 @@
         asd1
   training:
     - active: none
+
+- id: 27
+  type: presentation
+  permalink: program/presentations/jonas-almroth/
+  name: Jonas Almroth
+  role: System Architect
+  work: FOI - Swedish Defence Research Agency
+  country: Sweden
+  shortcode: SE
+  image: jonas-almroth.png
+  bio: Coming soon.
+  date:
+  time:
+  place:
+  presentation:
+    - active: live
+      subject: Designing a second generation cyber range
+      permalink: program/presentations/jonas-almroth/
+      partner:
+      description: |
+        asd1
+  training:
+    - active: none
