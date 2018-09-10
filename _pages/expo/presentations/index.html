@@ -3,3 +3,38 @@ title: Expo Presentations
 permalink: "/expo/presentations/"
 layout: default
 ---
+
+<section class="content">
+
+  <div class="sec-head">
+    <div class="block-head">
+      <h4>Presentations</h4>
+      {% include breadcrumbs.html %}
+    </div>
+    <div class="block-head">
+      <h2>World Class</h2>
+    </div>
+  </div>
+
+  <div class="presentation--list">
+      <ul>
+      {% assign sorted_presentations = site.pages | sort: 'url' %}
+      {% for page in sorted_presentations %}
+      {% if page.id ==  'expotalk' %}
+        <li><a href="{{ page.url | prepend: site.baseurl }}">
+            {% for item in page.speaker %}
+            <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}">
+            {% endfor %}
+            <div class="presentation--list-meta">
+              <span class="p-title">{{ page.title }}</span>
+              {% for item in page.speaker %}
+              <span class="p-author">{{ item.name }}</span>
+              {% endfor %}
+            </div>
+        </a></li>
+      {% endif %}
+      {% endfor %}
+      </ul>
+  </div>
+
+</section>

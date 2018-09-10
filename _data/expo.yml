@@ -1,6 +1,6 @@
 - id: 1
   type: expotalk
-  permalink: expo/talk/henrik-sandberg/
+  permalink: expo/presentations/henrik-sandberg/
   name: Henrik Sandberg
   role: Professor in Large-Scale Control Systems
   work: School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology
@@ -12,55 +12,55 @@
   time:
   place:
   presentation:
-    - active: 
-      subject: 
-      permalink: expo/talk/henrik-sandberg/
+    - active: live
+      subject: Control Theory for Practical Cyber-Physical Security
+      permalink: expo/presentations/henrik-sandberg/
       partner:
       description:
 
 - id: 2
   type: expotalk
-  permalink: expo/talk/
+  permalink: expo/presentations/gyorgy-dan/
   name: György Dán
   role: Professor in Teletraffic Systems
   work: School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology
   country: Sweden 
   shortcode: SE
-  image: temp.png
+  image: gyorgy-dan.png
   bio: 
   date:
   time:
   place:
   presentation:
-    - active: 
-      subject: 
-      permalink: expo/talk/
+    - active: live
+      subject: Resilient Computing and Communication for Critical Infrastructures
+      permalink: expo/presentations/gyorgy-dan/
       partner:
       description:
 
 - id: 3
   type: expotalk
-  permalink: expo/talk/
+  permalink: expo/presentations/ragnar-thobaben/
   name: Ragnar Thobaben
   role: Associate Professor in Communication Theory
   work: School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology
   country: Germany
   shortcode: DE
-  image: temp.png
+  image: ragnar-thobaben.png
   bio: 
   date:
   time:
   place:
   presentation:
-    - active: 
-      subject: 
-      permalink: expo/talk/
+    - active: live
+      subject: Securing Wireless Transmissions at the Air Interface
+      permalink: expo/presentations/ragnar-thobaben/
       partner:
       description:
 
 - id: 4
   type: expotalk
-  permalink: expo/talk/mads-dam/
+  permalink: expo/presentations/mads-dam/
   name: Mads Dam
   role: Professor in Teleinformatics
   work: School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology
@@ -72,29 +72,29 @@
   time:
   place:
   presentation:
-    - active: 
-      subject: 
-      permalink: expo/talk/
+    - active: live
+      subject: Securing Low Level Software Using Formal Methods
+      permalink: expo/presentations/mads-dam/
       partner:
       description:
 
 - id: 5
   type: expotalk
-  permalink: expo/talk/
+  permalink: expo/presentations/dr-kevin-jones/
   name: Dr Kevin Jones
   role: 
   work: Airbus Group
-  country: 
-  shortcode: 
+  country: United Kingdom
+  shortcode: UK
   image: temp.png
   bio: 
   date:
   time:
   place:
   presentation:
-    - active: 
-      subject: 
-      permalink: expo/talk/
+    - active: live
+      subject: Head of Cyber Security Architecture, Innovation and Scouting
+      permalink: expo/presentations/dr-kevin-jones/
       partner:
       description:
 

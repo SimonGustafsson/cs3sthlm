@@ -127,6 +127,14 @@
   
    {
      
+        "title"    : "Head of Cyber Security Architecture, Innovation and Scouting",
+        "url"      : "/expo/presentations/dr-kevin-jones/",
+        "path"     : "/expo/presentations/dr-kevin-jones/"
+     
+   },
+  
+   {
+     
         "title"    : "Network ForensICS Training",
         "url"      : "/program/trainings/erik-hjelmvik/",
         "path"     : "/program/trainings/erik-hjelmvik/"
@@ -142,6 +150,22 @@
    },
   
    {
+     
+   },
+  
+   {
+     
+        "title"    : "Resilient Computing and Communication for Critical Infrastructures",
+        "url"      : "/expo/presentations/gyorgy-dan/",
+        "path"     : "/expo/presentations/gyorgy-dan/"
+     
+   },
+  
+   {
+     
+        "title"    : "Control Theory for Practical Cyber-Physical Security",
+        "url"      : "/expo/presentations/henrik-sandberg/",
+        "path"     : "/expo/presentations/henrik-sandberg/"
      
    },
   
@@ -187,22 +211,6 @@
   
    {
      
-        "title"    : "Trainings",
-        "url"      : "/program/trainings/",
-        "path"     : "/program/trainings/"
-     
-   },
-  
-   {
-     
-        "title"    : "Presentations",
-        "url"      : "/program/presentations/",
-        "path"     : "/program/presentations/"
-     
-   },
-  
-   {
-     
         "title"    : "Home",
         "url"      : "/",
         "path"     : ""
@@ -211,49 +219,17 @@
   
    {
      
-        "title"    : "Contact",
-        "url"      : "/contact/",
-        "path"     : "/contact/"
+        "title"    : "Trainings",
+        "url"      : "/program/trainings/",
+        "path"     : "/program/trainings/"
      
    },
   
    {
      
-        "title"    : "Practical Details",
-        "url"      : "/practical-details/",
-        "path"     : "/practical-details/"
-     
-   },
-  
-   {
-     
-        "title"    : "Press",
-        "url"      : "/press/",
-        "path"     : "/press/"
-     
-   },
-  
-   {
-     
-        "title"    : "ICS Lab",
-        "url"      : "/ics-lab/",
-        "path"     : "/ics-lab/"
-     
-   },
-  
-   {
-     
-        "title"    : "Archive",
-        "url"      : "/about/archive/",
-        "path"     : "/about/archive/"
-     
-   },
-  
-   {
-     
-        "title"    : "History",
-        "url"      : "/about/history/",
-        "path"     : "/about/history/"
+        "title"    : "About",
+        "url"      : "/about/",
+        "path"     : "/about/"
      
    },
   
@@ -267,9 +243,65 @@
   
    {
      
-        "title"    : "About",
-        "url"      : "/about/",
-        "path"     : "/about/"
+        "title"    : "History",
+        "url"      : "/about/history/",
+        "path"     : "/about/history/"
+     
+   },
+  
+   {
+     
+        "title"    : "Archive",
+        "url"      : "/about/archive/",
+        "path"     : "/about/archive/"
+     
+   },
+  
+   {
+     
+        "title"    : "Contact",
+        "url"      : "/contact/",
+        "path"     : "/contact/"
+     
+   },
+  
+   {
+     
+        "title"    : "ICS Lab",
+        "url"      : "/ics-lab/",
+        "path"     : "/ics-lab/"
+     
+   },
+  
+   {
+     
+        "title"    : "Program",
+        "url"      : "/program/",
+        "path"     : "/program/"
+     
+   },
+  
+   {
+     
+        "title"    : "Presentations",
+        "url"      : "/program/presentations/",
+        "path"     : "/program/presentations/"
+     
+   },
+  
+   {
+     
+        "title"    : "Press",
+        "url"      : "/press/",
+        "path"     : "/press/"
+     
+   },
+  
+   {
+     
+        "title"    : "Practical Details",
+        "url"      : "/practical-details/",
+        "path"     : "/practical-details/"
      
    },
   
@@ -286,14 +318,6 @@
         "title"    : "Expo Agenda",
         "url"      : "/expo/agenda/",
         "path"     : "/expo/agenda/"
-     
-   },
-  
-   {
-     
-        "title"    : "Program",
-        "url"      : "/program/",
-        "path"     : "/program/"
      
    },
   
@@ -338,6 +362,14 @@
         "title"    : "Attacking Cars Revisited: On the Road Towards a More Resilient Connected Vehicle Infrastructure",
         "url"      : "/program/presentations/kai-thomsen/",
         "path"     : "/program/presentations/kai-thomsen/"
+     
+   },
+  
+   {
+     
+        "title"    : "Securing Low Level Software Using Formal Methods",
+        "url"      : "/expo/presentations/mads-dam/",
+        "path"     : "/expo/presentations/mads-dam/"
      
    },
   
@@ -414,6 +446,14 @@
    },
   
    {
+     
+   },
+  
+   {
+     
+        "title"    : "Securing Wireless Transmissions at the Air Interface",
+        "url"      : "/expo/presentations/ragnar-thobaben/",
+        "path"     : "/expo/presentations/ragnar-thobaben/"
      
    },
   
