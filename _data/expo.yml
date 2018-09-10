@@ -82,18 +82,18 @@
   type: expotalk
   permalink: expo/presentations/dr-kevin-jones/
   name: Dr Kevin Jones
-  role: 
+  role: Head of Cyber Security Architecture, Innovation and Scouting
   work: Airbus Group
   country: United Kingdom
   shortcode: UK
-  image: temp.png
-  bio: 
+  image: dr-kevin-jones.png
+  bio: "Dr Kevin Jones is Head of Cyber Security Architecture, Innovation and Scouting at Airbus, leading a global network of; teams, projects and collaborations including; research & innovation, state of the art solutions development, and technology scouting for cyber security across; IT, ICS and Product security domains. He holds a BSc in Computer Science and MSc in Distributed Systems Integration from De Montfort University, Leicester where he also obtained his PhD: A Trust Based Approach to Mobile Multi-Agent System Security in 2010."
   date:
   time:
   place:
   presentation:
     - active: live
-      subject: Head of Cyber Security Architecture, Innovation and Scouting
+      subject: ICS cyber security in the face of digital transformation
       permalink: expo/presentations/dr-kevin-jones/
       partner:
       description:
