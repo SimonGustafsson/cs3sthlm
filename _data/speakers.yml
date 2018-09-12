@@ -236,7 +236,7 @@
   image: dieter-sarrazyn.png
   bio: Dieter is a freelance OT security expert who working extensively on industrial control system security including more than 10 years in a large electricity generation company. He performs SCADA security assessments, provides assistance in securing SCADA environments and helps customers to manage their suppliers’ security through doing security requirements management and security FAT and SAT tests. These activities are always part of a larger program, aimed at reducing business risks.
   date:
-  time:
+  time: 
   place:
   presentation:
     - active: live
@@ -244,7 +244,11 @@
       permalink: program/presentations/dieter-frank/
       partner: Frank Lycops
       description: |
-        asd12
+        Operator stations are today one of the first systems/stations to interact with a distributed control system (DCS) or other industrial control systems. These operator stations often have some protection built in to restrict what the operator can do within the SCADA software and/or on the operating system itself.
+        
+        Within this presentation, some of the most (easily) discovered ways are shown/explained and how these can be (ab)used to gain a further foothold within the environment.
+        
+        The audience will learn more on the shortcomings of most of the operator jail solutions and what could be done to step up this game to secure this properly. Key takeaways obtained by the audience through this presentation is that you cannot trust operator jails in the thought that it properly protects attackers from gaining access to the operating system itself and thus potentially exploiting the whole DCS environment.
   training:
     - active: none
 
