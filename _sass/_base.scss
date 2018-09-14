@@ -1211,6 +1211,9 @@ h1, h2, h3, h4 {
 
           @include media-query($mobile) {
             display: block;
+            padding: 6px 0;
+            box-sizing: border-box;
+
           }
 
           &--lined {
@@ -1223,7 +1226,7 @@ h1, h2, h3, h4 {
             @include media-query($mobile) {
               border: none;
               padding: 0;
-              margin: 0;
+              margin: 12px 0;
             }
           }
         }

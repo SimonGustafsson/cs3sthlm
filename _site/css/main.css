@@ -1044,7 +1044,9 @@ h1, h2, h3, h4 {
         display: inline-block; }
         @media screen and (max-width: 768px) {
           .introduction .intro-mark--centered .subject-row .subject-block {
-            display: block; } }
+            display: block;
+            padding: 6px 0;
+            box-sizing: border-box; } }
         .introduction .intro-mark--centered .subject-row .subject-block--lined {
           padding: 0 16px;
           margin: 0 16px;
@@ -1055,7 +1057,7 @@ h1, h2, h3, h4 {
             .introduction .intro-mark--centered .subject-row .subject-block--lined {
               border: none;
               padding: 0;
-              margin: 0; } }
+              margin: 12px 0; } }
     .introduction .intro-mark--centered .btn-large {
       width: 240px; }
   .introduction .subject-row {

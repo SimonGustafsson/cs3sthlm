@@ -100,21 +100,21 @@
 
 - id: 6
   type: expotalk
-  permalink: expo/talk/
-  name: Recorded Future
-  role: 
+  permalink: expo/presentations/jason-steer/
+  name: Jason Steer
+  role: Director of PreSales, EMEA
   work: Recorded Future
-  country: 
-  shortcode: 
-  image: temp.png
-  bio: 
+  country: United Kingdom
+  shortcode: UK
+  image: jason-steer.png
+  bio: Jason is an techie at heart and has built and broken computer and networks since 1996. Jason has worked at a number of successful technology companies over the past 15 years, including IronPort, Veracode &FireEye. Jason has worked as a cyber-expert with CNN, Al Jazeera & BBC and has worked with the EU and UK Government on Cyber Security Strategy.
   date:
   time:
   place:
   presentation:
-    - active: 
-      subject: 
-      permalink: expo/talk/
+    - active: live
+      subject: Recorded Future - The Dark Web’s deep threat intelligence secrets
+      permalink: expo/presentations/jason-steer/
       partner:
       description:
 
@@ -140,20 +140,20 @@
 
 - id: 8
   type: expotalk
-  permalink: expo/talk/
-  name: Kaspersky Lab
-  role: 
+  permalink: expo/presentations/anton-shipulin/
+  name: Anton Shipulin
+  role: Global Presales Manager
   work: Kaspersky Lab
-  country: 
-  shortcode: 
-  image: temp.png
+  country: Russia
+  shortcode: RU
+  image: anton-shipulin.png
   bio: 
   date:
   time:
   place:
   presentation:
-    - active: 
-      subject: 
-      permalink: expo/talk/
+    - active: live
+      subject: Kaspersky Industrial Cybersecurity approach
+      permalink: expo/presentations/anton-shipulin/
       partner:
       description:
