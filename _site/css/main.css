@@ -995,6 +995,69 @@ h1, h2, h3, h4 {
     @media screen and (min-width: 1680px) {
       .introduction .intro-mark .headline-row {
         font-size: 60px; } }
+  .introduction .intro-mark--centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .introduction .intro-mark--centered .headline-row {
+      text-align: center; }
+      @media screen and (max-width: 768px) {
+        .introduction .intro-mark--centered .headline-row {
+          font-size: 26px; } }
+      .introduction .intro-mark--centered .headline-row .highlighted {
+        margin-right: 0; }
+    .introduction .intro-mark--centered .subject-row {
+      width: 660px;
+      text-align: center; }
+      @media screen and (max-width: 768px) {
+        .introduction .intro-mark--centered .subject-row {
+          width: 100%; } }
+      .introduction .intro-mark--centered .subject-row--large {
+        width: 100%;
+        margin-top: 64px; }
+        @media screen and (max-width: 768px) {
+          .introduction .intro-mark--centered .subject-row--large {
+            margin-top: 32px; } }
+      .introduction .intro-mark--centered .subject-row h2 {
+        font-size: 32px;
+        line-height: 1.5; }
+        @media screen and (max-width: 768px) {
+          .introduction .intro-mark--centered .subject-row h2 {
+            font-size: 24px; } }
+      .introduction .intro-mark--centered .subject-row h3 {
+        font-size: 18px; }
+        @media screen and (max-width: 768px) {
+          .introduction .intro-mark--centered .subject-row h3 {
+            font-size: 14px; } }
+        .introduction .intro-mark--centered .subject-row h3 a {
+          color: rgba(255, 255, 255, 0.8);
+          text-decoration: underline;
+          transition: 0.24s all ease-in-out;
+          -moz-transition: 0.24s all ease-in-out;
+          -webkit-transtiion: 0.24s all ease-in-out;
+          -o-transition: 0.24s all ease-in-out; }
+          .introduction .intro-mark--centered .subject-row h3 a:hover {
+            color: #ef7d00;
+            text-decoration: none; }
+      .introduction .intro-mark--centered .subject-row .subject-block {
+        display: inline-block; }
+        @media screen and (max-width: 768px) {
+          .introduction .intro-mark--centered .subject-row .subject-block {
+            display: block; } }
+        .introduction .intro-mark--centered .subject-row .subject-block--lined {
+          padding: 0 16px;
+          margin: 0 16px;
+          box-sizing: border-box;
+          border-left: 1px solid rgba(255, 255, 255, 0.4);
+          border-right: 1px solid rgba(255, 255, 255, 0.4); }
+          @media screen and (max-width: 768px) {
+            .introduction .intro-mark--centered .subject-row .subject-block--lined {
+              border: none;
+              padding: 0;
+              margin: 0; } }
+    .introduction .intro-mark--centered .btn-large {
+      width: 240px; }
   .introduction .subject-row {
     display: block;
     margin: 12px 0 24px; }
