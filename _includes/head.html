@@ -5,7 +5,7 @@
 
   <title>CS3STHLM | {% if page.title %}{{ page.title | strip_html }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-  <meta property="og:image" content="{{ site.baseurl }}/assets/cs3_promo_16_9b.jpeg" />
+  <meta property="og:image" content="https://cs3sthlm.se/assets/cs3_promo_16_9b.jpeg" />
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
