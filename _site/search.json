@@ -79,6 +79,14 @@
   
    {
      
+        "title"    : "Kaspersky Industrial Cybersecurity approach",
+        "url"      : "/expo/presentations/anton-shipulin/",
+        "path"     : "/expo/presentations/anton-shipulin/"
+     
+   },
+  
+   {
+     
         "title"    : "Pentesting Industrial Control Systems",
         "url"      : "/program/trainings/arnaud-soullie/",
         "path"     : "/program/trainings/arnaud-soullie/"
@@ -171,6 +179,110 @@
   
    {
      
+        "title"    : "Speakers",
+        "url"      : "/program/speakers/",
+        "path"     : "/program/speakers/"
+     
+   },
+  
+   {
+     
+        "title"    : "Trainings",
+        "url"      : "/program/trainings/",
+        "path"     : "/program/trainings/"
+     
+   },
+  
+   {
+     
+        "title"    : "Home",
+        "url"      : "/",
+        "path"     : ""
+     
+   },
+  
+   {
+     
+        "title"    : "Archive",
+        "url"      : "/about/archive/",
+        "path"     : "/about/archive/"
+     
+   },
+  
+   {
+     
+        "title"    : "Contact",
+        "url"      : "/contact/",
+        "path"     : "/contact/"
+     
+   },
+  
+   {
+     
+        "title"    : "Practical Details",
+        "url"      : "/practical-details/",
+        "path"     : "/practical-details/"
+     
+   },
+  
+   {
+     
+        "title"    : "Press",
+        "url"      : "/press/",
+        "path"     : "/press/"
+     
+   },
+  
+   {
+     
+        "title"    : "ICS Lab",
+        "url"      : "/ics-lab/",
+        "path"     : "/ics-lab/"
+     
+   },
+  
+   {
+     
+        "title"    : "History",
+        "url"      : "/about/history/",
+        "path"     : "/about/history/"
+     
+   },
+  
+   {
+     
+        "title"    : "Advisory",
+        "url"      : "/about/advisory/",
+        "path"     : "/about/advisory/"
+     
+   },
+  
+   {
+     
+        "title"    : "About",
+        "url"      : "/about/",
+        "path"     : "/about/"
+     
+   },
+  
+   {
+     
+        "title"    : "Expo Presentations",
+        "url"      : "/expo/presentations/",
+        "path"     : "/expo/presentations/"
+     
+   },
+  
+   {
+     
+        "title"    : "Expo Agenda",
+        "url"      : "/expo/agenda/",
+        "path"     : "/expo/agenda/"
+     
+   },
+  
+   {
+     
         "title"    : "Expo",
         "url"      : "/expo/",
         "path"     : "/expo/"
@@ -211,73 +323,9 @@
   
    {
      
-        "title"    : "Speakers",
-        "url"      : "/program/speakers/",
-        "path"     : "/program/speakers/"
-     
-   },
-  
-   {
-     
-        "title"    : "Home",
-        "url"      : "/",
-        "path"     : ""
-     
-   },
-  
-   {
-     
-        "title"    : "Trainings",
-        "url"      : "/program/trainings/",
-        "path"     : "/program/trainings/"
-     
-   },
-  
-   {
-     
-        "title"    : "About",
-        "url"      : "/about/",
-        "path"     : "/about/"
-     
-   },
-  
-   {
-     
-        "title"    : "Advisory",
-        "url"      : "/about/advisory/",
-        "path"     : "/about/advisory/"
-     
-   },
-  
-   {
-     
-        "title"    : "History",
-        "url"      : "/about/history/",
-        "path"     : "/about/history/"
-     
-   },
-  
-   {
-     
-        "title"    : "Archive",
-        "url"      : "/about/archive/",
-        "path"     : "/about/archive/"
-     
-   },
-  
-   {
-     
-        "title"    : "Contact",
-        "url"      : "/contact/",
-        "path"     : "/contact/"
-     
-   },
-  
-   {
-     
-        "title"    : "ICS Lab",
-        "url"      : "/ics-lab/",
-        "path"     : "/ics-lab/"
+        "title"    : "Presentations",
+        "url"      : "/program/presentations/",
+        "path"     : "/program/presentations/"
      
    },
   
@@ -291,53 +339,13 @@
   
    {
      
-        "title"    : "Presentations",
-        "url"      : "/program/presentations/",
-        "path"     : "/program/presentations/"
-     
    },
   
    {
      
-        "title"    : "Press",
-        "url"      : "/press/",
-        "path"     : "/press/"
-     
-   },
-  
-   {
-     
-        "title"    : "Practical Details",
-        "url"      : "/practical-details/",
-        "path"     : "/practical-details/"
-     
-   },
-  
-   {
-     
-        "title"    : "Expo Presentations",
-        "url"      : "/expo/presentations/",
-        "path"     : "/expo/presentations/"
-     
-   },
-  
-   {
-     
-        "title"    : "Expo Agenda",
-        "url"      : "/expo/agenda/",
-        "path"     : "/expo/agenda/"
-     
-   },
-  
-   {
-     
-   },
-  
-   {
-     
-        "title"    : "ICS Strategic Planning and War Gaming",
-        "url"      : "/program/trainings/joe-slowik/",
-        "path"     : "/program/trainings/joe-slowik/"
+        "title"    : "Recorded Future - The Dark Web’s deep threat intelligence secrets",
+        "url"      : "/expo/presentations/jason-steer/",
+        "path"     : "/expo/presentations/jason-steer/"
      
    },
   
@@ -346,6 +354,14 @@
         "title"    : "Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense",
         "url"      : "/program/presentations/joe-slowik/",
         "path"     : "/program/presentations/joe-slowik/"
+     
+   },
+  
+   {
+     
+        "title"    : "ICS Strategic Planning and War Gaming",
+        "url"      : "/program/trainings/joe-slowik/",
+        "path"     : "/program/trainings/joe-slowik/"
      
    },
   
