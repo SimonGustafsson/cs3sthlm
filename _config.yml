@@ -9,10 +9,7 @@ collections:
     title: Uploads
     output: true
 email: 
-description: CS3STHLM - Stockholm international summit on cyber-security in SCADA
-  and Industrial Control Systems. CS3STHLM is an annual summit that gather the most
-  important ICS/SCADA cyber security stakeholders across critical industries (i.e.
-  energy, oil & gas, water, transportation and smartgrid etc)
+description: CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.
 baseurl: ''
 url: 
 markdown: kramdown
