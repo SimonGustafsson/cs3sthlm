@@ -3597,6 +3597,13 @@ h1, h2, h3, h4 {
         .post-download-drop .inside-download-drop li a:hover {
           color: #ef7d00; }
 
+/** BLOG - ARTICLE STYLE */
+.blog {
+  display: flex;
+  width: 100%;
+  max-width: 886px;
+  margin: 0 auto; }
+
 /** 
   NEWS - PAGINATION */
 .news-pagination {
