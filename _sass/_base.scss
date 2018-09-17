@@ -4649,6 +4649,12 @@ h1, h2, h3, h4 {
   max-width: 886px;
   margin: 0 auto;
 
+
+  @include media-query($mobile) {
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
   &-content {
 
 

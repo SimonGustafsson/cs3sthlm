@@ -3605,6 +3605,10 @@ h1, h2, h3, h4 {
   width: 100%;
   max-width: 886px;
   margin: 0 auto; }
+  @media screen and (max-width: 768px) {
+    .blog {
+      padding: 0 20px;
+      box-sizing: border-box; } }
   .blog-content p {
     font-size: 21px;
     line-height: 1.5;
