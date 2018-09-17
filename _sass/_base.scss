@@ -1071,6 +1071,9 @@ h1, h2, h3, h4 {
     .category-press {
       color: #C43B5B;
     }
+    .category-blog {
+      color: $white;
+    }
 
     p {
       display: inline-block;
@@ -4648,6 +4651,51 @@ h1, h2, h3, h4 {
 
   &-content {
 
+
+    p {
+      font-size: 21px;
+      line-height: 1.5;
+      margin-bottom: 24px;
+      color: rgba($white, .75);
+
+      &:first-of-type {
+        font-size: 23px;
+        margin-bottom: 0;
+      }
+    }
+
+    a {
+      color: $yellow;
+      text-decoration: underline;
+
+      @include transition-ease;
+
+      &:hover {
+        color: $white;
+        text-decoration: none;
+      }
+    }
+
+    h4 {
+      font-size: 21px;
+      line-height: 1.5;
+      margin: 24px 0 0;
+      color: rgba($white, .8);
+    }
+
+    ol {
+      display: block;
+      margin-bottom: 24px;
+
+      li {
+        font-size: 21px;
+        line-height: 1.5;
+        color: rgba($white, .75);
+        margin-bottom: 6px;
+        margin-left: 26px;
+      }
+    }
+
   }
 
   &-header {
@@ -4655,7 +4703,11 @@ h1, h2, h3, h4 {
   }
 
   &-title {
-
+    display: block;
+    margin: 76px 0;
+    text-align: center;
+    color: $yellow;
+    font-size: 32px;
   }
 }
 

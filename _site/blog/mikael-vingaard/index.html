@@ -6,17 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>CS3STHLM | CS3STHLM Newsletter April</title>
-  <meta name="description" content="We are opening up the gates for the 5th CS3STHLM summit! In this newsletter we present the keynote speakers, our first presentation and a record number of tr...">
-  <meta property="og:title" content="CS3STHLM | CS3STHLM Newsletter April" />
+  <title>CS3STHLM | Mikael Vingaard - The Expert on ICS Honeypots</title>
+  <meta name="description" content="This is a blog post with Mikael Vingaard, the expert on ICS Honeypot that will give the 2-day training session during the CS3sthlm conference week. Last year...">
+  <meta property="og:title" content="CS3STHLM | Mikael Vingaard - The Expert on ICS Honeypots" />
   <meta property="og:description" content="CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://cs3sthlm.se/assets/cs3_promo_16_9b.jpeg" />
-  <meta property="og:url" content="https://www.cs3sthlm.se/news/2018/04/30/cs3sthlm-newsletter-april.html" />
+  <meta property="og:url" content="https://www.cs3sthlm.se/blog/mikael-vingaard/" />
   <meta property="fb:app_id" content="966242223397117" />
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="/news/2018/04/30/cs3sthlm-newsletter-april.html">
+  <link rel="canonical" href="/blog/mikael-vingaard/">
   <link rel="alternate" type="application/rss+xml" title="CS3STHLM" href="/feed.xml">
   <link rel="icon" type="image/png" href="/assets/favicon-32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="/assets/favicon-16x16.png" sizes="16x16" />
@@ -76,111 +76,120 @@
     <div class="wrap">
     	<section class="content">
 
-<div class="sec-head sec-head-single-post">
-    <h4>News</h4>
-</div>
+<!--<div class="sec-head sec-head-single-blog">
+    <h4>Blog</h4>
+</div>-->
 
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="blog" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <aside class="sidebar box-left">
-    <ul class="meta-data--news">
-      <li><h4>Published</h4><span class="post-time">30 Apr 2018</span></li>
-      <li><h4>Written By</h4><span class="post-author">CS3STHLM Crew</span></li>
-
-      
-      
-      
-      <li>
-        <h4>Post Attachments</h4>
-          
-            <span><a href="/assets/pdf/CS3STHLM-Newsletter-April-2018.pdf" target="_blank">English PDF</a></span>
-            
-          
-      </li>
-      
-    </ul>
-
+  <div class="blog-content" itemprop="articleBody">
+    <!--<header class="blog-header">
+      <h1 class="blog-title" itemprop="name headline">Mikael Vingaard - The Expert on ICS Honeypots</h1>
+    </header>-->
     
+    <p><em>This is a blog post with Mikael Vingaard, the expert on ICS Honeypot that will give the 2-day training session during the CS3sthlm conference week. Last year it was a 1 day course, but we decided to extend it so that more could be covered during class. Below you will find an interview we did with Mike as he was preparing for the class.</em></p>
 
-  </aside>
+<h1 class="blog-title" itemprop="name headline">Mikael Vingaard - The Expert on ICS Honeypots</h1>
 
-  <div class="post-content" itemprop="articleBody">
-    <header class="post-header">
-      <h1 class="post-title" itemprop="name headline">CS3STHLM Newsletter April</h1>
-    </header>
-    
-    <p>We are opening up the gates for the 5th CS3STHLM summit! In this newsletter we present the keynote speakers, our first presentation and a record number of training sessions!</p>
+<h4 id="what-is-your-background-with-regards-to-security-the-energy-system-and-honeypots">What is your background, with regards to security, the energy system and honeypots?</h4>
 
-<h4 id="important-notice">Important notice!</h4>
-<p>Many of you might already be aware of the new data privacy regulations (GDPR) that will be applied in Europe on May 25th. This regulation makes all of our old registers for mail information null and void by the end of May.</p>
+<p>For the last 15 years, I have been working as Pentester, Auditor, BC-manager and IT-security “jack of all trade” like malware tracking and alerting via malware sinkholes.</p>
 
-<p>If you would like to keep receiving our Newsletters with information about the CS3STHLM activities – PLEASE CLICK ON <a href="mailto:info@cs3sthlm.se">THIS LINK</a> AND SEND US THE RESULTING MAIL.  We are sorry for this inconvenience, but we feel it is important to respect the privacy of all persons.</p>
+<p>Four years ago I switched from IT security to OT Security and needed to learn a lot of stuff in a very short timespan. As I didn’t have a power substation or water treatment plant for my private disposal (who has that :-) I had to learn a lot on ‘arcane’ ICS protocols like Modbus, IEC104, S7comm, DNP3 in some other way, hence honeypot seemed like an interesting way forward. To sum it all up - I needed to build something to simulate these protocols.</p>
 
-<p>Spring cleaning has been done to our website. We have updated the web with information on the upcoming conference. A lot of new information has been published, and a lot more will be posted in the near future.</p>
+<p>I found a low interaction honeypot and started to learn about it. After a while I put an ICS honeypot on the Internet, and it was attacked right away! I was hooked and the rest is history - today I manage one of the largest privately owned honeypot networks (120+ sensors) deployed all over the world!</p>
 
-<p>We are thrilled and honoured to announce our two keynote speakers for the 2018 CS3Sthlm conference: Marty Edwards and Patrick C. Miller. Both keynote speakers have a long history in ICS security, one working within DHS and the ICS-CERT, the other being the grandfather of the NERC CIP. Both are also very experienced and well-respected speakers at conferences worldwide.</p>
+<h4 id="honeypots-arent-they-just-tools-for-researchers-or-can-they-be-used-in-a-real-environment">Honeypots, aren’t they just tools for researchers? Or can they be used in a real environment?</h4>
 
-<p>For the Call For Participation, we got more than 50+ very good submissions from all over the planet. We have selected 16 top submissions to start with in this year’s agenda. Please check out the first batch of topics and presenters listed here <a href="https://cs3sthlm.se/program/speakers/">/speakers</a> and here <a href="https://cs3sthlm.se/program/presentations/">/presentations</a> We will add presenters to the lists over time, as we also have a few slots reserved for invited speakers.</p>
+<p>They can be both! During my two-day training at CS3sthlm in October we will touch both types of usage. Depending on your goals and scope, it is two different deployment approaches - they can (read should!) be used as a important layer in our “defense in depth” strategies. Internally deployed honeypots can provide an effective “close-to-zero-false-positives” warning system - with a minimal maintained profile - and should be used in most ICS networks. My newest honeypot project Defenica works as a very, very convincing deception ICS device, built on purpose to emulate for example a PLC or HMI system.</p>
 
-<p>We will have a record number of training sessions to select from this year. It is the largest selection found at any ICS/SCADA conference, which allows you to select deep dives into the topic most interesting for you: ICS/SCADA Penetration Testing, ICS Threat Hunting, ICS Network Defense, ICS Network ForensICS, ISO 27019, ICS Honeypots. Information on trainings available at <a href="https://cs3sthlm.se/program/trainings/">/trainings</a>.</p>
+<h4 id="what-is-the-most-interesting-results-or-effects-you-have-seen-with-your-honeypots">What is the most interesting results or effects you have seen with your honeypots?</h4>
 
-<p>Our strong lineup, with keynotes/presenters/trainings and with yet a number of unannounced speakers and events, is stronger than any of the previous years!</p>
+<p>That is when I find zero-days targeting my honeypot networks!  Normal reasoning would say that no real attackers would “burn” a zero-day on unsolicited ICS equipment… but some times they do!</p>
 
-<p>Please take advantage of the MEDIUM BIRD DISCOUNT of 10% that is still valid until May 31st on all tickets! Please visit the <a href="https://tickets.cs3sthlm.se">ticket site</a> to claim your discounted ticket.</p>
+<p>My latest published Moxa vulnerability (CVE-2018-10632) <a href="https://ics-cert.us-cert.gov/advisories/ICSA-18-200-04">https://ics-cert.us-cert.gov/advisories/ICSA-18-200-04</a> was built on the research found in the network traffic aimed at one of my honeypots!</p>
 
-<p>Last, and on the lighter side – we have had some questions regarding the meaning of CS3STHLM. 
-“CS3” stands for Cyber Security, Critical Structures and Control Systems, “STHLM” is short for Stockholm where the summit is held annually, and had to be added not to confuse our name with other brands. The correct pronunciation is:</p>
+<p>My 2 day workshop would provide a walk-through on that case, to enable my students to be inspired to do similar zero-day research activities.</p>
 
-<p>/siː ɛs θriː stɒkhoʊlm/;</p>
+<h4 id="high-interaction-honeypots-or-low-interaction-honeypots-what-is-that-and-what-do-you-think-about-it">High interaction honeypots or low interaction honeypots, what is that, and what do you think about it?</h4>
 
-<p>Or better yet, grab one of the organizers when you are at the conference and ask them why we need such strange name for this thing….</p>
+<p>Honeypots can be either low, medium or high interaction. Low interaction honeypots are very easy to spot as a fake system if the attacker is skilled, but a high interaction honeypot, to a very large extent, has the same feel and look as the device/system that you are emulating.</p>
 
-<p>Best wishes from the CS3STHLM crew  </p>
+<p>During my learning curve I started with typical low interactions honeypots, but today I use only medium/high interaction honeypots. During the workshop we will deploy and work with low, medium and high interaction honeypots – in combination with real ICS/SCADA equipment!</p>
+
+<h4 id="during-your-time-running-honeypots-what-is-the-most-surprising-thing-you-have-encountered-or-seen">During your time running honeypots, what is the most surprising thing you have encountered or seen?</h4>
+
+<p>When moving from low to high interactions honeypots a whole new world of enriched data emerged! Suddenly I found that I was able to detect and track various attacker groups during their campaign. Often one IP address attacks a honeypot, and they do some stuff and then seem to stop and go away. A while later a new IP adress comes along and continues the work that the first IP started!</p>
+
+<p>Having deployed a considerably number of honeypots globally, I have been able to see patterns, as well as map various activities to a specific group of attackers, previously hidden.</p>
+
+<h4 id="can-an-attacker-easily-see-the-difference-between-a-real-system-and-a-fake-one-the-honeypot">Can an attacker easily see the difference between a real system and a fake one, the honeypot?</h4>
+
+<p>No!</p>
+
+<p>In my class I will share my hard-earned knowledge on how to setup honeypots that an attacker cannot differentiate from a real device!</p>
+
+<h4 id="how-would-you-differentiate-the-honeypot-in-comparison-with-an-ids-or-an-ips-what-are-the-advantages">How would you differentiate the honeypot in comparison with an IDS or an IPS? What are the advantages?</h4>
+
+<p>Traditional IDS/IPS systems are often signature based, hence they will alert you whenever something match a known “signature”. If the activities/signatures from the attacker are not known in advance, no alert will be triggered.</p>
+
+<p>As the honeypot is a fake unit, there should never be any reason to communicate with the device - so any and all traffic/alerts to or from it should be investigated by the SOC/Blue team.</p>
+
+<h4 id="is-there-anything-that-you-can-catch-or-detect-or-do-with-an-honeypot-that-one-cannot-do-with-an-ids-ips-or-firewall">Is there anything that you can catch, or detect, or do with an honeypot that one cannot do with an IDS, IPS or firewall?</h4>
+
+<p>Yes.</p>
+
+<p>A typical IDS system is designed for operating in environment with traditional IT systems, not OT/ICS equipment. Putting an IDS system to alert on ‘anomaly stuff ‘ e.g. old network protocols in an OT industrial network will fire a lots of alerts and make the security monitor system to light up as a over-charged Christmas three - that not a good way to avoid the alert fatigue that so many SOC/SAC teams are currently suffering from…</p>
+
+<p>As highlighted earlier, a significant advantage of using honeypot technology is the (almost) zero-false positive alerts.</p>
+
+<h4 id="is-the-honeypot-a-protection-or-a-detection-mechanism">Is the honeypot a protection or a detection mechanism?</h4>
+
+<p>Very good questions, Robert! I would say that a honeypot typically and <em>primarily</em> is a detection mechanism to alert you that something is out of order. But based on the deployment options it can actually be both!</p>
+
+<h4 id="having-honeypots-in-a-icsscada-environment-what-is-the-most">Having honeypots in a ICS/SCADA environment, what is the most</h4>
+<p>important things to think about?</p>
+
+<ol>
+  <li>To know what  to achieve from the deployment</li>
+  <li>How to make the honeypot ’believable’</li>
+  <li>Not introducing new risks for the company</li>
+</ol>
+
+<p>All this, and more, is what we will learn on the first day of the workshop!</p>
+
+<h4 id="if-a-honeypot-actually-is-being-attacked-what-is-the-first-thing-you-should-do-as-the-owner-of-the-honeypot">If a honeypot actually is being attacked, what is the first thing you should do as the owner of the honeypot?</h4>
+
+<p>First: be really happy that it’s a honeypot and not the real equipment the attacker are trying to hack :-)</p>
+
+<p>Secondly: initiate your incident response (IR) process and start to observe the attacker in order to find the best possible time to kick them out of the environment.</p>
+
+<p>And - if done properly in the IR phase, be sure to gather knowledge of the TTP’ of the attackers.</p>
+
+<h4 id="what-will-your-students-learn-at-the-training">What will your students learn at the training?</h4>
+
+<p>My students will learn how to plan, build, deploy and manage different types of honeypots. We will deploy the honeypots on the Internet and see various probes and attacks.</p>
+
+<p>On the second day we will build a dedicated network with real ICS/SCADA equipment and learn how to move from low to high interactions honeypots. Lots of fun stuff to do with this equipment!
+ </p>
+
+<h4 id="any-last-final-words-of-advice-you-would-like-to-give">Any last final words of advice you would like to give?</h4>
+
+<p>If you don’t already have honeypots in your arsenal of security tools you are missing out on a very interesting technology that can be effective, with zero false positives. If you never have worked with honeypots, please come and join the technical training!</p>
+
+<p>A great bonus of taking the honeypot class is that you also will get a view on the strange and ‘arcane’ protocols that lives in most industrial networks!</p>
 
 
     <div class="news-pagination">
     
-      <span class="previous-post"><a href="/news/2017/12/20/cs3sthlm-newsletter-december.html">CS3STHLM Newsletter December</a></span>
+      <span class="previous-post"><a href="/news/2018/04/30/cs3sthlm-newsletter-april.html">CS3STHLM Newsletter April</a></span>
     
 
     
-      <span class="next-post"><a href="/blog/mikael-vingaard/">Mikael Vingaard - The Expert on ICS Honeypots</a></span>
+      <span class="next-post"><a href="/blog/dr-stephan-beirer/">Dr. Stephan Beirer - The Expert on the ISO/IEC 20719 standard</a></span>
     
     </div>
   </div>
-
-  <aside class="sidebar box-right">
-    <h4>Latest News</h4>
-
-    <ul>
-    
-      <li><a href="/news/2018/04/30/cs3sthlm-newsletter-april.html">CS3STHLM Newsletter April</a></li>
-    
-      <li><a href="/news/2017/12/20/cs3sthlm-newsletter-december.html">CS3STHLM Newsletter December</a></li>
-    
-      <li><a href="/news/2017/09/13/cs3sthlm-newsletter-september.html">CS3STHLM Newsletter September</a></li>
-    
-      <li><a href="/news/2017/06/13/cs3sthlm-newsletter-june.html">CS3STHLM Newsletter June</a></li>
-    
-      <li><a href="/news/2017/05/08/cfp-dont-miss-our-deadline.html">CFP - DON'T MISS OUR DEADLINE</a></li>
-    
-    </ul>
-
-    <h4>Latest Press</h4>
-
-    <ul>
-    
-      <li><a href="/press/2017/10/04/cs3sthlm-presents-ics-and-iot-lab-together-with-norwegian-energy-cert.html">CS3STHLM Presents ICS- and IoT Lab together with Norwegian Energy CERT</a></li>
-    
-      <li><a href="/press/2017/09/14/advenica-announces-new-collaboration-with-cs3sthlm.html">Advenica announces new collaboration with CS3STHLM</a></li>
-    
-      <li><a href="/press/2017/06/13/malware-that-can-knock-out-power.html">Malware that can knock out power grids discovered</a></li>
-    
-      <li><a href="/press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html">Cyber Security Summit 4SICS Relaunches as CS3STHLM</a></li>
-    
-    </ul>
-
-  </aside>
 
 </article>
 </section>

@@ -5,9 +5,196 @@
     <description>CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 17 Sep 2018 07:35:55 +0000</pubDate>
-    <lastBuildDate>Mon, 17 Sep 2018 07:35:55 +0000</lastBuildDate>
+    <pubDate>Mon, 17 Sep 2018 13:14:39 +0000</pubDate>
+    <lastBuildDate>Mon, 17 Sep 2018 13:14:39 +0000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>Dr. Stephan Beirer - The Expert on the ISO/IEC 20719 standard</title>
+        <description>&lt;p&gt;&lt;em&gt;This is a blog post interview with Dr. Stephan Beirer, the expert on the
+ISO/IEC 27019 standard. He will give a training session during the
+CS3sthlm conference week. Below you will find an interview we did with
+him as he was preparing for the class. You will probably find several
+things in the interview that you didnt already knew about the standard!&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 class=&quot;blog-title&quot;&gt;Dr. Stephan Beirer - The Expert on the ISO/IEC 20719 standard&lt;/h1&gt;
+
+&lt;h4 id=&quot;what-is-your-day-job-where-are-you-working-and-what-do-you-do&quot;&gt;What is your day job, where are you working and what do you do?&lt;/h4&gt;
+
+&lt;p&gt;I am a Principal Security Consultant and the Team Manager for ICS/OT Security at GAI NetConsult, a security consulting company based in Berlin / Germany.&lt;/p&gt;
+
+&lt;p&gt;GAI NetConsult has been working in the ICS/OT domain for more than 15 years. Together with my colleagues we do consulting and technical or organizational auditing in the OT and ICS domain, mostly for operators and asset owners from energy industry, industrial manufacturing and for critical infrastructure projects.&lt;/p&gt;
+
+&lt;h4 id=&quot;for-how-long-have-you-worked-in-the-field&quot;&gt;For how long have you worked in the field?&lt;/h4&gt;
+
+&lt;p&gt;During my studies and my PhD, I worked as a freelance security consultant. In 2006, I joined GAI NetConsult; I have been working in the ICS / OT domain since then.&lt;/p&gt;
+
+&lt;h4 id=&quot;are-you-involved-in-the-standardization-process-what-areas-are-you-working-with&quot;&gt;Are you involved in the standardization process? What areas are you working with?&lt;/h4&gt;
+
+&lt;p&gt;Since 2010, I am involved in security standardization for ICS and OT systems. First in the security working group of the German utility organization BDEW, then also in the national standardization institutions DIN and DKE, the German mirror organisation to IEC. Since 2011, I have been working on the international level within ISO and IEC. In the working group responsible for information security management at ISO/IEC, I am the Editor of ISO/IEC 27019 and an expert for ICS and Smart Grid.&lt;/p&gt;
+
+&lt;h4 id=&quot;in-your-class-you-will-cover-the-isoiec-27019-standard-which-is-somewhat-unknown-to-many-what-is-the-background-for-this-standard&quot;&gt;In your class, you will cover the ISO/IEC 27019 standard, which is somewhat unknown to many. What is the background for this standard?&lt;/h4&gt;
+
+&lt;p&gt;ISO/IEC 27019 started as a German national project in 2010. It was initiated by several large and medium sized energy utilities and BDEW, the German utility association. The utilities felt that it was hard to integrate the OT / ICS domain within their security management organization, which was based on ISO/IEC 27001 within most companies. They decided to publish a standard to fill this gap and in 2013, the German version was translated and published as an international ISO/IEC document.&lt;/p&gt;
+
+&lt;p&gt;The aim of 27019 is to extend the contents of ISO/IEC 27002 to the domain of process control systems and automation technology, thus allowing energy utilities to implement a standardized and specific information security management system (ISMS) that extends from the business to the process control level.&lt;/p&gt;
+
+&lt;h4 id=&quot;where-you-involved-early-on-with-the-development-of-the-isoiec-27019-standard&quot;&gt;Where you involved early on with the development of the ISO/IEC 27019 standard?&lt;/h4&gt;
+
+&lt;p&gt;I was the project leader and editor for the German version at DIN and DKE from 2010 to 2012 and was then delegated from the German National Body to ISO/IEC to be the Editor of the International Standard.&lt;/p&gt;
+
+&lt;h4 id=&quot;there-is-a-relatively-new-edition-of-the-standard-does-the-new-version-differ-much-in-comparison-with-older-ones&quot;&gt;There is a relatively new edition of the standard. Does the new version differ much in comparison with older ones?&lt;/h4&gt;
+
+&lt;p&gt;The latest version from 2017 is now completely aligned with the current version of ISO/IEC 27001 and 27002, so it can be seamlessly used within an ISMS based on ISO/IEC 27001. Additionally we aligned with 27001 in such a way that is possible to have certifications based on ISO/IEC 27019 together with 27001. Furthermore, the scope of the standard has been extended to include the oil sector. We completely revised the technical content of all security controls and twelve new topics are covered now which were not included in the first revision from 2013, e.g. with regard to mobile devices, vulnerability management or technical reviews. 
+ &lt;/p&gt;
+
+&lt;h4 id=&quot;will-utility-companies-start-certification-processes-against-the-27019-standard-or-is-it-still-against-the-27001-only&quot;&gt;Will utility companies start certification processes against the 27019 standard, or is it still against the 27001 only?&lt;/h4&gt;
+
+&lt;p&gt;It is now possible to have a certification for ISO/IEC 27019. This automatically includes the ISO/IEC 27001 requirements, which 27019 refers to. In Germany, already all gas and electricity grid providers have to be certified against ISO/IEC 27001 together with ISO´/IEC 27002 and 27019 since January, very likely a similar regulation will come into force for large generation and gas storage plants.&lt;/p&gt;
+
+&lt;h4 id=&quot;is-there-any-requirement-on-prerequisites-and-prior-deep-knowledge-of-isoiec-27000-before-taking-the-class&quot;&gt;Is there any requirement on prerequisites and prior deep knowledge of ISO/IEC 27000 before taking the class?&lt;/h4&gt;
+
+&lt;p&gt;Absolutely not. After an introduction to the energy supply and the ICS systems used in the different energy domains, I will give an overview about the ISO/IEC 27000 series and the important content of ISO/IEC 27001, which is necessary to understand the application of 27019. Then we will concentrate on the 27019 controls for the various security management domains.&lt;/p&gt;
+
+&lt;h4 id=&quot;you-will-also-talk-about-an-interesting-german-and-austrian-whitepaper-what-is-the-background-of-this-document&quot;&gt;You will also talk about an interesting German and Austrian Whitepaper. What is the background of this document?&lt;/h4&gt;
+
+&lt;p&gt;The Whitepaper „Requirements for Secure Control and Telecommunication Systems” is a best practice guideline, which defines security requirements for control systems used in the energy domain. It was developed by the German and Austrian utility associations BDEW and Oesterreichs Energie - therefore it is also called BDEW/OE-Whitepaper. The first version was published already in 2008 and it has become the de-facto standard in the German speaking regions, i.e. Germany, Austria and Switzerland for security requirement definitions for control systems in the energy domain.&lt;/p&gt;
+
+&lt;p&gt;In May 2018 a fully revised version 2.0 has been published, the English translation is available is here:  https://www.bdew.de/service/anwendungshilfen/whitepaper-anforderungen-sichere-steuerungs-telekommunikationssysteme/&lt;/p&gt;
+
+&lt;h4 id=&quot;how-does-the-bdewoe-whitepaper-relate-to-isoiec-27019&quot;&gt;How does the BDEW/OE-Whitepaper relate to ISO/IEC 27019?&lt;/h4&gt;
+
+&lt;p&gt;While ISO/IEC 27019 defines requirements and best-practice controls related to the security management in the utility organization, the BDEW/OE-Whitepaper covers the requirements for the technology used in the ICS/OT domain. It is focusing on security specification and requirement definition in procurement projects.&lt;/p&gt;
+
+&lt;p&gt;Together, ISO/IEC 27019 and the BDEW/OE-Whitepaper are the basis for secure operation within an energy utility.&lt;/p&gt;
+
+&lt;h4 id=&quot;how-long-have-you-been-working-with-the-bdewoe-whitepaper&quot;&gt;How long have you been working with the BDEW/OE-Whitepaper?&lt;/h4&gt;
+
+&lt;p&gt;With BDEW and Oesterreichs Energie, I have been the editor of the Whitepaper both for the initial version in 2008 and for the revision in 2018. I have used the Whitepaper very often over the last 10 years, especially in procurement and audit projects for grid control systems, substation automation and protection systems as well as for power and gas storage plant automation and virtual power plants and supporting OT systems. Oddly enough, sometimes I still have to discuss the same problematic topics with suppliers and integrators as ten years ago.&lt;/p&gt;
+
+&lt;h4 id=&quot;is-your-class-only-theoretical-or-will-the-participants-also-have-any-practical-exercises&quot;&gt;Is your class only theoretical, or will the participants also have any practical exercises?&lt;/h4&gt;
+
+&lt;p&gt;We will have exercises to learn how to apply the lecture content with regard to the ISO/IEC 27019 controls and the BDEW/OE-Whitepaper requirements. I will give as many first hand experiences from my projects with 27019 and the Whitepaper as possible.&lt;/p&gt;
+
+&lt;h4 id=&quot;as-an-expert-in-the-field-of-itinformationcyber-security-any-advice-you-would-like-to-share&quot;&gt;As an expert in the field of IT/information/cyber security, any advice you would like to share?&lt;/h4&gt;
+
+&lt;p&gt;Our field is rapidly changing, thus is very important to have a regular exchange within the community. CS3STHLM is a perfect event for this.&lt;/p&gt;
+
+&lt;h4 id=&quot;any-last-thoughts-you-would-like-to-share-with-the-readers&quot;&gt;Any last thoughts you would like to share with the readers?&lt;/h4&gt;
+
+&lt;p&gt;I am happy that I have been invited to give a lecture at CS3STHLM. I am looking forward to meet IRL some old friends from the ICS security community and to make a lot of new ones in Stockholm! I heard rumours there might be a gathering of the European Chapter of BEER-ISAC also…&lt;/p&gt;
+</description>
+        <pubDate>Mon, 17 Sep 2018 05:00:00 +0000</pubDate>
+        <link>/blog/dr-stephan-beirer/</link>
+        <guid isPermaLink="true">/blog/dr-stephan-beirer/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Mikael Vingaard - The Expert on ICS Honeypots</title>
+        <description>&lt;p&gt;&lt;em&gt;This is a blog post with Mikael Vingaard, the expert on ICS Honeypot that will give the 2-day training session during the CS3sthlm conference week. Last year it was a 1 day course, but we decided to extend it so that more could be covered during class. Below you will find an interview we did with Mike as he was preparing for the class.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 class=&quot;blog-title&quot; itemprop=&quot;name headline&quot;&gt;Mikael Vingaard - The Expert on ICS Honeypots&lt;/h1&gt;
+
+&lt;h4 id=&quot;what-is-your-background-with-regards-to-security-the-energy-system-and-honeypots&quot;&gt;What is your background, with regards to security, the energy system and honeypots?&lt;/h4&gt;
+
+&lt;p&gt;For the last 15 years, I have been working as Pentester, Auditor, BC-manager and IT-security “jack of all trade” like malware tracking and alerting via malware sinkholes.&lt;/p&gt;
+
+&lt;p&gt;Four years ago I switched from IT security to OT Security and needed to learn a lot of stuff in a very short timespan. As I didn’t have a power substation or water treatment plant for my private disposal (who has that :-) I had to learn a lot on ‘arcane’ ICS protocols like Modbus, IEC104, S7comm, DNP3 in some other way, hence honeypot seemed like an interesting way forward. To sum it all up - I needed to build something to simulate these protocols.&lt;/p&gt;
+
+&lt;p&gt;I found a low interaction honeypot and started to learn about it. After a while I put an ICS honeypot on the Internet, and it was attacked right away! I was hooked and the rest is history - today I manage one of the largest privately owned honeypot networks (120+ sensors) deployed all over the world!&lt;/p&gt;
+
+&lt;h4 id=&quot;honeypots-arent-they-just-tools-for-researchers-or-can-they-be-used-in-a-real-environment&quot;&gt;Honeypots, aren’t they just tools for researchers? Or can they be used in a real environment?&lt;/h4&gt;
+
+&lt;p&gt;They can be both! During my two-day training at CS3sthlm in October we will touch both types of usage. Depending on your goals and scope, it is two different deployment approaches - they can (read should!) be used as a important layer in our “defense in depth” strategies. Internally deployed honeypots can provide an effective “close-to-zero-false-positives” warning system - with a minimal maintained profile - and should be used in most ICS networks. My newest honeypot project Defenica works as a very, very convincing deception ICS device, built on purpose to emulate for example a PLC or HMI system.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-is-the-most-interesting-results-or-effects-you-have-seen-with-your-honeypots&quot;&gt;What is the most interesting results or effects you have seen with your honeypots?&lt;/h4&gt;
+
+&lt;p&gt;That is when I find zero-days targeting my honeypot networks!  Normal reasoning would say that no real attackers would “burn” a zero-day on unsolicited ICS equipment… but some times they do!&lt;/p&gt;
+
+&lt;p&gt;My latest published Moxa vulnerability (CVE-2018-10632) &lt;a href=&quot;https://ics-cert.us-cert.gov/advisories/ICSA-18-200-04&quot;&gt;https://ics-cert.us-cert.gov/advisories/ICSA-18-200-04&lt;/a&gt; was built on the research found in the network traffic aimed at one of my honeypots!&lt;/p&gt;
+
+&lt;p&gt;My 2 day workshop would provide a walk-through on that case, to enable my students to be inspired to do similar zero-day research activities.&lt;/p&gt;
+
+&lt;h4 id=&quot;high-interaction-honeypots-or-low-interaction-honeypots-what-is-that-and-what-do-you-think-about-it&quot;&gt;High interaction honeypots or low interaction honeypots, what is that, and what do you think about it?&lt;/h4&gt;
+
+&lt;p&gt;Honeypots can be either low, medium or high interaction. Low interaction honeypots are very easy to spot as a fake system if the attacker is skilled, but a high interaction honeypot, to a very large extent, has the same feel and look as the device/system that you are emulating.&lt;/p&gt;
+
+&lt;p&gt;During my learning curve I started with typical low interactions honeypots, but today I use only medium/high interaction honeypots. During the workshop we will deploy and work with low, medium and high interaction honeypots – in combination with real ICS/SCADA equipment!&lt;/p&gt;
+
+&lt;h4 id=&quot;during-your-time-running-honeypots-what-is-the-most-surprising-thing-you-have-encountered-or-seen&quot;&gt;During your time running honeypots, what is the most surprising thing you have encountered or seen?&lt;/h4&gt;
+
+&lt;p&gt;When moving from low to high interactions honeypots a whole new world of enriched data emerged! Suddenly I found that I was able to detect and track various attacker groups during their campaign. Often one IP address attacks a honeypot, and they do some stuff and then seem to stop and go away. A while later a new IP adress comes along and continues the work that the first IP started!&lt;/p&gt;
+
+&lt;p&gt;Having deployed a considerably number of honeypots globally, I have been able to see patterns, as well as map various activities to a specific group of attackers, previously hidden.&lt;/p&gt;
+
+&lt;h4 id=&quot;can-an-attacker-easily-see-the-difference-between-a-real-system-and-a-fake-one-the-honeypot&quot;&gt;Can an attacker easily see the difference between a real system and a fake one, the honeypot?&lt;/h4&gt;
+
+&lt;p&gt;No!&lt;/p&gt;
+
+&lt;p&gt;In my class I will share my hard-earned knowledge on how to setup honeypots that an attacker cannot differentiate from a real device!&lt;/p&gt;
+
+&lt;h4 id=&quot;how-would-you-differentiate-the-honeypot-in-comparison-with-an-ids-or-an-ips-what-are-the-advantages&quot;&gt;How would you differentiate the honeypot in comparison with an IDS or an IPS? What are the advantages?&lt;/h4&gt;
+
+&lt;p&gt;Traditional IDS/IPS systems are often signature based, hence they will alert you whenever something match a known “signature”. If the activities/signatures from the attacker are not known in advance, no alert will be triggered.&lt;/p&gt;
+
+&lt;p&gt;As the honeypot is a fake unit, there should never be any reason to communicate with the device - so any and all traffic/alerts to or from it should be investigated by the SOC/Blue team.&lt;/p&gt;
+
+&lt;h4 id=&quot;is-there-anything-that-you-can-catch-or-detect-or-do-with-an-honeypot-that-one-cannot-do-with-an-ids-ips-or-firewall&quot;&gt;Is there anything that you can catch, or detect, or do with an honeypot that one cannot do with an IDS, IPS or firewall?&lt;/h4&gt;
+
+&lt;p&gt;Yes.&lt;/p&gt;
+
+&lt;p&gt;A typical IDS system is designed for operating in environment with traditional IT systems, not OT/ICS equipment. Putting an IDS system to alert on ‘anomaly stuff ‘ e.g. old network protocols in an OT industrial network will fire a lots of alerts and make the security monitor system to light up as a over-charged Christmas three - that not a good way to avoid the alert fatigue that so many SOC/SAC teams are currently suffering from…&lt;/p&gt;
+
+&lt;p&gt;As highlighted earlier, a significant advantage of using honeypot technology is the (almost) zero-false positive alerts.&lt;/p&gt;
+
+&lt;h4 id=&quot;is-the-honeypot-a-protection-or-a-detection-mechanism&quot;&gt;Is the honeypot a protection or a detection mechanism?&lt;/h4&gt;
+
+&lt;p&gt;Very good questions, Robert! I would say that a honeypot typically and &lt;em&gt;primarily&lt;/em&gt; is a detection mechanism to alert you that something is out of order. But based on the deployment options it can actually be both!&lt;/p&gt;
+
+&lt;h4 id=&quot;having-honeypots-in-a-icsscada-environment-what-is-the-most&quot;&gt;Having honeypots in a ICS/SCADA environment, what is the most&lt;/h4&gt;
+&lt;p&gt;important things to think about?&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;To know what  to achieve from the deployment&lt;/li&gt;
+  &lt;li&gt;How to make the honeypot ’believable’&lt;/li&gt;
+  &lt;li&gt;Not introducing new risks for the company&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;All this, and more, is what we will learn on the first day of the workshop!&lt;/p&gt;
+
+&lt;h4 id=&quot;if-a-honeypot-actually-is-being-attacked-what-is-the-first-thing-you-should-do-as-the-owner-of-the-honeypot&quot;&gt;If a honeypot actually is being attacked, what is the first thing you should do as the owner of the honeypot?&lt;/h4&gt;
+
+&lt;p&gt;First: be really happy that it’s a honeypot and not the real equipment the attacker are trying to hack :-)&lt;/p&gt;
+
+&lt;p&gt;Secondly: initiate your incident response (IR) process and start to observe the attacker in order to find the best possible time to kick them out of the environment.&lt;/p&gt;
+
+&lt;p&gt;And - if done properly in the IR phase, be sure to gather knowledge of the TTP’ of the attackers.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-will-your-students-learn-at-the-training&quot;&gt;What will your students learn at the training?&lt;/h4&gt;
+
+&lt;p&gt;My students will learn how to plan, build, deploy and manage different types of honeypots. We will deploy the honeypots on the Internet and see various probes and attacks.&lt;/p&gt;
+
+&lt;p&gt;On the second day we will build a dedicated network with real ICS/SCADA equipment and learn how to move from low to high interactions honeypots. Lots of fun stuff to do with this equipment!
+ &lt;/p&gt;
+
+&lt;h4 id=&quot;any-last-final-words-of-advice-you-would-like-to-give&quot;&gt;Any last final words of advice you would like to give?&lt;/h4&gt;
+
+&lt;p&gt;If you don’t already have honeypots in your arsenal of security tools you are missing out on a very interesting technology that can be effective, with zero false positives. If you never have worked with honeypots, please come and join the technical training!&lt;/p&gt;
+
+&lt;p&gt;A great bonus of taking the honeypot class is that you also will get a view on the strange and ‘arcane’ protocols that lives in most industrial networks!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 17 Sep 2018 04:00:00 +0000</pubDate>
+        <link>/blog/mikael-vingaard/</link>
+        <guid isPermaLink="true">/blog/mikael-vingaard/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>CS3STHLM Newsletter April</title>
@@ -314,49 +501,6 @@ Until the next news letter,&lt;/p&gt;
         
         
         <category>news</category>
-        
-      </item>
-    
-      <item>
-        <title>Cyber Security Summit 4SICS Relaunches as CS3STHLM</title>
-        <description>&lt;p&gt;Due to a conflict of interest regarding the name SICS between the summit 4SICS and Swedish Institute of Computer Science, Omnisiens announces the fourth summit to be arranged under the new name CS3 STHLM. Three CS stand for Cyber Security, Control Systems and Critical Structures, and STHLM is an official acronym for Stockholm. CS3 STHLM takes place in Stockholm this October 24-26.&lt;/p&gt;
-
-&lt;p&gt;Top level cyber security experts from all over the world will gather again in the old concert venue Nalen in Stockholm for the internationally acclaimed summit. Owners of arranging company Omnisiens, Swedish cyber security experts Erik Johansson and Robert Malmgren, state:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;-”We changed the name because we had to, but we are convinced our target group will find us, and that it won’t be such a big deal. Ticket sales are up and running, and we look forward to presenting yet another exciting mix of speakers and topics.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Interest for the summit is expected to escalate while awareness of hacker attacks and vulnerabilities in IoT (Internet of Things), rises.&lt;/p&gt;
-
-&lt;p&gt;Tickets are on sale with an early bird price until June 30.&lt;/p&gt;
-
-&lt;h3 id=&quot;facts-cs3sthlm&quot;&gt;FACTS CS3STHLM&lt;/h3&gt;
-
-&lt;p&gt;CS3STHLM is hosted by Omnisiens, owned by Swedish Cyber Security Experts Robert Malmgren; voted number one IT security specialist in Sweden in trade magazine Computer Sweden and Erik Johansson, PhD; Security Researcher, Advisor, and Contractor working at the intersection of Information Technology (IT) and Operational Technology (OT)&lt;/p&gt;
-
-&lt;p&gt;Key note speakers previous years:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;2014 Stefan Lüders, Head of Computer Security at CERN&lt;/li&gt;
-  &lt;li&gt;2015 Kim Zetter, editor at Wired Magazine and author of the book Countdown to Zero Day&lt;/li&gt;
-  &lt;li&gt;2016 Robert M Lee, SCADA expert who was one of the investigators of the attack on Ukraine&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Selected topics from previous years, among ca 12-20 per year:
-In depth analysis of the attacks against Ukraine with Robert M Lee from Dragos and Anton Cherepanov together with Robert Lipovsky from anti virus company ESET who presented a thorough walk through of what is known about the virus ”Black Energy”, which was used against power companies in Ukraine.&lt;/p&gt;
-
-&lt;p&gt;Internet of Things; John Matherly, creator of Shodan, called the world’s most dangerous search engine leads a discussion of escalation of IoT with a number of the world’s leading experts on the subject.&lt;/p&gt;
-
-&lt;p&gt;Hackable pacemakers discussed by scientists Marie Moe and Eireann Leverett, they present weaknesses and possible threats against Moe’s own pacemaker. A kind of threat that led Dick Cheney, previous Vice President of The US, to discountct his pacemaker from the Internet to avoid being targeted by hackers.&lt;/p&gt;
-
-&lt;p&gt;The summit’s moderator is since the start Anne Marie Eklund Löwinder, AMEL, Head of Security at IIS, The Internet Foundation in Sweden, and one of seven crypto officers in the world with a key to the Internet root zone.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 21 Apr 2017 04:00:00 +0000</pubDate>
-        <link>/press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html</link>
-        <guid isPermaLink="true">/press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html</guid>
-        
-        
-        <category>press</category>
         
       </item>
     

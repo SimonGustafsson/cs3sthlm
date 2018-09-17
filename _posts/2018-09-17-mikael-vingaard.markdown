@@ -2,17 +2,18 @@
 title: Mikael Vingaard - The Expert on ICS Honeypots
 date: 2018-09-17 04:00:00 Z
 categories:
-- news
 - blog
 layout: blog
 author: CS3STHLM Crew
 pdf:
 - 
-published: false
+published: true
+permalink: /blog/mikael-vingaard/
 ---
 
 *This is a blog post with Mikael Vingaard, the expert on ICS Honeypot that will give the 2-day training session during the CS3sthlm conference week. Last year it was a 1 day course, but we decided to extend it so that more could be covered during class. Below you will find an interview we did with Mike as he was preparing for the class.*
 
+<h1 class="blog-title" itemprop="name headline">{{ page.title }}</h1>
 
 #### What is your background, with regards to security, the energy system and honeypots?
 
@@ -30,7 +31,7 @@ They can be both! During my two-day training at CS3sthlm in October we will touc
 
 That is when I find zero-days targeting my honeypot networks!  Normal reasoning would say that no real attackers would "burn" a zero-day on unsolicited ICS equipment... but some times they do!
 
-My latest published Moxa vulnerability (CVE-2018-10632) (https://ics-cert.us-cert.gov/advisories/ICSA-18-200-04) was built on the research found in the network traffic aimed at one of my honeypots!
+My latest published Moxa vulnerability (CVE-2018-10632) [https://ics-cert.us-cert.gov/advisories/ICSA-18-200-04](https://ics-cert.us-cert.gov/advisories/ICSA-18-200-04) was built on the research found in the network traffic aimed at one of my honeypots!
 
 My 2 day workshop would provide a walk-through on that case, to enable my students to be inspired to do similar zero-day research activities. 
 
@@ -82,7 +83,7 @@ important things to think about?
 
 All this, and more, is what we will learn on the first day of the workshop!
 
-11. If a honeypot actually is being attacked, what is the first thing you should do as the owner of the honeypot?
+#### If a honeypot actually is being attacked, what is the first thing you should do as the owner of the honeypot?
 
 First: be really happy that it's a honeypot and not the real equipment the attacker are trying to hack :-) 
 
