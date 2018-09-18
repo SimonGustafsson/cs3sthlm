@@ -1072,7 +1072,7 @@ h1, h2, h3, h4 {
       color: #C43B5B;
     }
     .category-blog {
-      color: $white;
+      color: $yellow;
     }
 
     p {
@@ -2675,6 +2675,11 @@ h1, h2, h3, h4 {
       }
       &.category-press {
         color: $red-news;
+
+        @include transition-ease;
+      }
+      &.category-blog {
+        color: $yellow;
 
         @include transition-ease;
       }

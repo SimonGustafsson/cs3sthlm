@@ -941,7 +941,7 @@ h1, h2, h3, h4 {
   .introduction .feed-news .category-press {
     color: #C43B5B; }
   .introduction .feed-news .category-blog {
-    color: white; }
+    color: #ef7d00; }
   .introduction .feed-news p {
     display: inline-block;
     font-family: 'latobold', sans-serif;
@@ -2128,6 +2128,12 @@ h1, h2, h3, h4 {
         -o-transition: 0.24s all ease-in-out; }
       .workshop--list-group .workshop--list-link .workshop--meta-category.category-press, .workshop--list-group .workshop--list-link .workshop--meta-author.category-press {
         color: #c43b5b;
+        transition: 0.24s all ease-in-out;
+        -moz-transition: 0.24s all ease-in-out;
+        -webkit-transtiion: 0.24s all ease-in-out;
+        -o-transition: 0.24s all ease-in-out; }
+      .workshop--list-group .workshop--list-link .workshop--meta-category.category-blog, .workshop--list-group .workshop--list-link .workshop--meta-author.category-blog {
+        color: #ef7d00;
         transition: 0.24s all ease-in-out;
         -moz-transition: 0.24s all ease-in-out;
         -webkit-transtiion: 0.24s all ease-in-out;
