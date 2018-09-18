@@ -11,7 +11,7 @@ published: true
 permalink: /blog/erik-johansson/
 ---
 
-*This is a blog post with This is a blog post with Erik Johansson, one of the organizers of the CS3sthlm summit.  Below you find the interview we did with him as the planing and the preparation of the conference, and the new expo, was in full swing!*
+*This is a blog post with Erik Johansson, one of the organizers of the CS3sthlm summit.  Below you find the interview we did with him as the planing and the preparation of the conference, and the new expo, was in full swing!*
 
 <h1 class="blog-title" itemprop="name headline">{{ page.title }}</h1>
 
