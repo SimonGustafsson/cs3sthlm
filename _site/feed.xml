@@ -5,77 +5,77 @@
     <description>CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 18 Sep 2018 13:08:43 +0000</pubDate>
-    <lastBuildDate>Tue, 18 Sep 2018 13:08:43 +0000</lastBuildDate>
+    <pubDate>Tue, 18 Sep 2018 22:01:55 +0000</pubDate>
+    <lastBuildDate>Tue, 18 Sep 2018 22:01:55 +0000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
         <title>Erik Johansson - Co-founder of CS3sthlm</title>
-        <description>&lt;p&gt;&lt;em&gt;This is a blog post with Erik Johansson, one of the organizers of the CS3sthlm summit.  Below you find the interview we did with him as the planing and the preparation of the conference, and the new expo, was in full swing!&lt;/em&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;em&gt;This is a blog post with Ph D Erik Johansson, one of the organizers of the CS3sthlm summit. Below you find the interview we did with him as the planning and preparation of the conference and expo, was in full swing!&lt;/em&gt;&lt;/p&gt;
 
 &lt;h1 class=&quot;blog-title&quot; itemprop=&quot;name headline&quot;&gt;Erik Johansson - Co-founder of CS3sthlm&lt;/h1&gt;
 
 &lt;p&gt;Behind the scenes: Erik Johansson, CS3sthlm organizer&lt;/p&gt;
 
-&lt;h4 id=&quot;what-is-your-name-where-do-you-work-and-what-is-your-profession&quot;&gt;What is your name, where do you work and what is your profession?&lt;/h4&gt;
+&lt;h4 id=&quot;what-is-your-name-profession-and-where-do-you-work&quot;&gt;What is your name, profession and where do you work?&lt;/h4&gt;
 
-&lt;p&gt;My name is Erik Johansson. I have a research background and work to increase industrial cyber security, with focus on critical infrastructure protection. However, I often see myself as an Industrial Cyber Security Evangelist.&lt;/p&gt;
+&lt;p&gt;My name is Erik Johansson and  I work as an independent advisor helping organizations with assessments and procurements to increase industrial cyber security.&lt;/p&gt;
 
-&lt;p&gt;Since I have found that most often the root cause behind technical weaknesses comes down to changing organisations mindset by educating and training the them!&lt;/p&gt;
+&lt;p&gt;I often see myself as an Cyber Security Evangelist. Since I have found that most often the root cause behind technical weaknesses comes down to changing organizations mindset by educating and training them!&lt;/p&gt;
 
-&lt;h4 id=&quot;for-how-many-years-have-you-been-involved-in-this-conference&quot;&gt;For how many years have you been involved in this conference?&lt;/h4&gt;
+&lt;h4 id=&quot;how-did-you-get-involved-with-this-conference&quot;&gt;How did you get involved with this conference?&lt;/h4&gt;
 
-&lt;p&gt;Well the ideas for this conference started like a decade ago, when Robert and myself annually was traveling to US for the S4 conference in Miami. We where surprised and somewhat disappointed that Europe lacked a good conference focusing on Industrial Cyber Security… The ones that existed was too commercial and lacked the technical depth!&lt;/p&gt;
+&lt;p&gt;Well the ideas for this conference started like a decade ago.&lt;/p&gt;
 
-&lt;h4 id=&quot;how-did-you-get-involved-in-this-both-with-your-profession-and-with-this-event&quot;&gt;How did you get involved in this, both with your profession and with this event?&lt;/h4&gt;
+&lt;p&gt;Every winter Robert and I visited S4 the S4 conference in Miami. However, we were surprised about the small number of Europeans over there - despite the lack of  good conferences focusing on Industrial Cyber Security in Europe. The ones that existed was too commercial and lacked the combination of technical depth and business perspective that we thought was necessary!&lt;/p&gt;
 
-&lt;p&gt;By accident… :)&lt;/p&gt;
+&lt;h4 id=&quot;how-did-you-get-involved-in-this-field&quot;&gt;How did you get involved in this field?&lt;/h4&gt;
+&lt;p&gt;During my  research at the Royal Institute of Technology (KTH) on the security challenges, when migrating from analog to digital equipment (aka programmable electronics), I found that the security could also be related to the mindset of the people.&lt;/p&gt;
 
-&lt;p&gt;Having a background from work at a nuclear power plant I started my research at the Royal Institute of Technology (KTH) with focus on the security challenges for nuclear power plants migrating from analog to digital (programmable electronics). However, after a while I found that the measuring and evaluation of security level was far more complicated than I initially had thought… and realized that it was more a cultural problem because we are only human. :)&lt;/p&gt;
+&lt;p&gt;A root cause of technical weaknesses can often be traced back to the lack of understanding the security implications of the business decisions.&lt;/p&gt;
 
-&lt;p&gt;During my earlier years in the industry I ran into Robert Malmgren - by far the best IT-security guy I ever met since he did not only understand the bits and bites but could also understand the business perspective - and the lack of human understanding of the complexity.&lt;/p&gt;
+&lt;p&gt;The last decades have I therefore preached about security awareness for organizations in order to change their fundamentally immature mindset regarding security.&lt;/p&gt;
+
+&lt;p&gt;About twenty years ago I met Robert Malmgren – a very clever IT-security person who did not only understand the bits and bytes but could also see the business perspective - and the lack of human understanding of the complexity. Since then have our roads crossed many times in security related projects.&lt;/p&gt;
 
 &lt;h4 id=&quot;what-is-your-role-during-the-conference&quot;&gt;What is your role during the conference?&lt;/h4&gt;
 
-&lt;p&gt;As the co-founder, together with Robert Malmgren, I’m a part of the program committee and involved in the evaluation of the submitted papers, selecting partners and overall discussion with industry&lt;/p&gt;
+&lt;p&gt;As the co-founders,  Robert Malmgren and I are involved in most part of the planning as well as running the event. Involved in program committee, evaluating the submitted papers, selecting partners and perform the overall discussion with industry.&lt;/p&gt;
 
 &lt;h4 id=&quot;running-a-big-event-like-cs3sthlm-is-different-from-your-day-to-day-work-or&quot;&gt;Running a big event like CS3sthlm is different from your day-to-day work, or?&lt;/h4&gt;
 
-&lt;p&gt;Yes, definitely different.  It’s an expensive ”hobby” - that takes huge amount of our spare time - away from our friends and family - and every year we’re  worn out.  However, it’s also super interesting to get to know the most clever people on this planet… :)&lt;/p&gt;
+&lt;p&gt;Definitely different. It’s a strange time consuming ”hobby” – that takes a huge amount of our limited spare timet. However, it’s also super exciting to get to know so many clever people from allround this planet… :)&lt;/p&gt;
 
 &lt;h4 id=&quot;is-it-a-marathon-race-a-100-meter-race-is-it-cat-herding-or-something-else-to-do-this-kind-of-job&quot;&gt;Is it a marathon race, a 100 meter race, is it cat herding or something else to do this kind of job?&lt;/h4&gt;
 
-&lt;p&gt;Good question. It’s really a mix. It’s a Marathon in the way that the planning and preparations starts almost direct after the last one - but sometimes its more like a 100 meter race - like when we get 50 submissions that needs to be evaluated. Or the final program is getting in place… and yes we are exhausted after each event.&lt;/p&gt;
+&lt;p&gt;Tricky question. It’s really a mix. It’s a Marathon in the way that the planning and preparations starts almost direct after the last one and is ongoing for almost a year. Sometimes it’s more like a 100 meter race - like when we get 50 great submissions that needs to be evaluated. Or when the final program and all pieces is getting in place… and yes we are all exhausted after each event.&lt;/p&gt;
 
-&lt;h4 id=&quot;why-should-i-go-&quot;&gt;Why should I go ?&lt;/h4&gt;
+&lt;h4 id=&quot;why-should-i-go&quot;&gt;Why should I go?&lt;/h4&gt;
 
-&lt;p&gt;If you’re working in critical infrastructure, as manager or operational, and would like to learn more about current threats, incidents, vulnerabilities and experiences as well as success stories…
-…and to network among peers that inspire and share valuable knowledge!&lt;/p&gt;
+&lt;p&gt;Everyone that is working in critical infrastructure, as manager or operational, and would like to learn more about current threats, incidents, vulnerabilities and experiences as well as success stories should go.&lt;/p&gt;
 
-&lt;h4 id=&quot;what-is-the-biggest-challenges-that-you-see&quot;&gt;What is the biggest challenges that you see?&lt;/h4&gt;
+&lt;p&gt;Not to say the least is to participate in the networking among peers that inspire and share valuable knowledge during the event!&lt;/p&gt;
 
-&lt;p&gt;The biggest challenges for the industry or the conference?&lt;/p&gt;
+&lt;h4 id=&quot;what-are-the-biggest-challenges-that-you-see&quot;&gt;What are the biggest challenges that you see?&lt;/h4&gt;
 
-&lt;p&gt;Industry have a huge challenge to get a mature security culture in place&lt;/p&gt;
+&lt;p&gt;Industry have a huge challenge, not only to continuously increase their knowledge and awareness but to get a mature security culture in place.&lt;/p&gt;
 
-&lt;p&gt;The challenges from a conference perspective is to reach out and bridge the gap between top-level decision makers and technical experts as well as the gap between IT and OT departments.&lt;/p&gt;
+&lt;p&gt;The challenges from a conference perspective is to reach out and bridge the unfortunate gap between top-level decision-makers and technical experts as well as the gap between IT and OT departments.&lt;/p&gt;
 
-&lt;h4 id=&quot;what-is-your-best-memories-from-the-previous-conferences&quot;&gt;What is your best memories from the previous conferences?&lt;/h4&gt;
+&lt;h4 id=&quot;what-is-your-best-memory-from-previous-conferences&quot;&gt;What is your best memory from previous conferences?&lt;/h4&gt;
 
-&lt;p&gt;Hard to tell which is the best - there are so many good memories.&lt;/p&gt;
+&lt;p&gt;Hard to tell - there are so many good memories.&lt;/p&gt;
 
-&lt;p&gt;A couple of special moments:&lt;/p&gt;
+&lt;p&gt;One was when the security researcher Ruben Santamarta (IOACTIVE) did a live hacking demo on a critical SATCOM equipment turning into a slot machine in front of our eyes.  Another special memory was to listen to the only Swedish Astronaut, Mr Fuglesang, as evening speaker! :)&lt;/p&gt;
 
-&lt;p&gt;When Ruben Santamarta (IOACTIVE) did a live hacking of a SATCOM equipment on stage 
-or when we had, the only Swedish Astronaut, Fuglesang as the evening speaker!&lt;/p&gt;
+&lt;h4 id=&quot;what-do-you-look-forward-to-with-this-years-event&quot;&gt;What do you look forward to with this year’s event?&lt;/h4&gt;
 
-&lt;h4 id=&quot;what-do-you-look-forward-to-with-this-years-event&quot;&gt;What do you look forward to with this years event?&lt;/h4&gt;
-
-&lt;p&gt;I’m really exited for this our fifth anniversary which has been extended with an EXPO!&lt;/p&gt;
+&lt;p&gt;I’m really excited for this our fifth anniversary which has been extended with an EXPO on the day before the SUMMIT!&lt;/p&gt;
 
 &lt;h4 id=&quot;any-last-words-of-advice-to-our-readers-and-the-attendees&quot;&gt;Any last words of advice to our readers and the attendees?&lt;/h4&gt;
 
-&lt;p&gt;Arrive early! Participate and interact with the vendors at the EXPO. Moreover, take the opportunity to visit and take a close look at the ICS lab and all equipment&lt;/p&gt;
+&lt;p&gt;Arrive early! Participate and interact with the vendors at the EXPO. Moreover, take the opportunity to discuss the strategical challenges that follows by the ongoing regulations and visit and don’t forget to take a look at the ICS lab and the demonstrations of valuable security solutions.&lt;/p&gt;
+
 </description>
         <pubDate>Tue, 18 Sep 2018 04:00:00 +0000</pubDate>
         <link>/blog/erik-johansson/</link>
