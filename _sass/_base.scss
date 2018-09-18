@@ -5557,6 +5557,10 @@ h1, h2, h3, h4 {
     display: block;
     width: 550px;
 
+    @include media-query-min($large) {
+      width: 659px;
+    }
+
     @include media-query($mobile) {
       width: 100%;
     }
@@ -5604,6 +5608,10 @@ h1, h2, h3, h4 {
   .image-column {
     width: 550px;
 
+    @include media-query-min($large) {
+      width: 659px;
+    }
+
     @include media-query($mobile) {
       width: 50%;
 
@@ -5628,6 +5636,10 @@ h1, h2, h3, h4 {
   .large-image {
     width: 1120px;
 
+    @include media-query-min($large) {
+      width: 100%;
+    }
+
     @include media-query($mobile) {
       width: 100%;
     }
@@ -5635,12 +5647,20 @@ h1, h2, h3, h4 {
   .medium-image {
     width: 550px;
 
+    @include media-query-min($large) {
+      width: 659px;
+    }
+
     @include media-query($mobile) {
       width: 50%;
     }
   }
   .small-image {
     width: 360px;
+
+    @include media-query-min($large) {
+      width: 432px;
+    }
 
     @include media-query($mobile) {
       width: 33.3333%;
