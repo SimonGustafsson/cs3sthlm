@@ -2876,6 +2876,9 @@ h1, h2, h3, h4 {
       @media screen and (min-width: 1680px) {
         .partner--list-block-two {
           width: 432px; } }
+      @media screen and (max-width: 768px) {
+        .partner--list-block-two {
+          width: 100%; } }
     @media screen and (max-width: 768px) {
       .partner--list {
         padding: 0 20px;
@@ -2895,6 +2898,30 @@ h1, h2, h3, h4 {
       justify-content: space-between; }
       .partner--list-single-group .partner--item {
         margin-right: 0; }
+    .partner--list-inpost {
+      justify-content: space-between; }
+      @media screen and (max-width: 768px) {
+        .partner--list-inpost {
+          padding: 0;
+          margin-top: 20px; } }
+      .partner--list-inpost .partner--item {
+        width: calc(50% - 10px);
+        margin-right: 0; }
+        @media screen and (max-width: 768px) {
+          .partner--list-inpost .partner--item {
+            width: 100%; }
+            .partner--list-inpost .partner--item:nth-child(4) {
+              margin-right: 0; } }
+        .partner--list-inpost .partner--item a {
+          height: 100px; }
+          @media screen and (max-width: 768px) {
+            .partner--list-inpost .partner--item a {
+              height: 84px; } }
+        .partner--list-inpost .partner--item-large a {
+          height: 220px; }
+          @media screen and (max-width: 768px) {
+            .partner--list-inpost .partner--item-large a {
+              height: 190px; } }
   .partner--item {
     display: flex;
     align-items: center;
@@ -2915,7 +2942,10 @@ h1, h2, h3, h4 {
     @media screen and (max-width: 768px) {
       .partner--item {
         width: 100%;
-        margin-bottom: 20px; } }
+        margin-bottom: 20px;
+        margin-right: 0; }
+        .partner--item:nth-child(4) {
+          margin-right: 0; } }
     .partner--item-text {
       margin-right: 0; }
     .partner--item a {
