@@ -5,9 +5,158 @@
     <description>CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 18 Sep 2018 22:01:55 +0000</pubDate>
-    <lastBuildDate>Tue, 18 Sep 2018 22:01:55 +0000</lastBuildDate>
+    <pubDate>Wed, 19 Sep 2018 09:20:53 +0000</pubDate>
+    <lastBuildDate>Wed, 19 Sep 2018 09:20:53 +0000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>CS3STHLM Newsletter September</title>
+        <description>&lt;h4 id=&quot;cs3sthlm-expo-on-23rd-oct&quot;&gt;CS3sthlm Expo on 23rd Oct&lt;/h4&gt;
+
+&lt;p&gt;On the 23rd, we will have an Expo at our venue Nalen. Partners will display the latest cyber security solutions and services. We will have a full lineup of speakers during the Expo day on the Harlem stage. Get the agenda for the day here &lt;a href=&quot;https://cs3sthlm.se/expo/&quot;&gt;/expo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Free registration here: &lt;a href=&quot;https://cs3sthlmexpo.eventbrite.com/?aff=cs3sthlm&quot;&gt;https://cs3sthlmexpo.eventbrite.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Info on Expo partners and new CS3sthlm partners, shown further down!&lt;/p&gt;
+
+&lt;h4 id=&quot;technical-training&quot;&gt;Technical Training&lt;/h4&gt;
+
+&lt;p&gt;This year we will offer six different trainings, to have something for all our participants. Some are technical deep dives, some are more theoretical or policy oriented. Here is some short info on the trainings:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/program/trainings/mikael-vingaard/&quot;&gt;Learn why honeypots&lt;/a&gt; should be part of your toolbox to detect anomalies in your ICS network by taking Mikael Vingaards ICS honeypot class. This is a very hands-on class. Read an interview with Mike here: &lt;a href=&quot;https://cs3sthlm.se/blog/mikael-vingaard/&quot;&gt;/blog/mikael-vingaard&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/program/trainings/erik-hjelmvik/&quot;&gt;The Network ForensICS&lt;/a&gt; class is given for the 3rd time. Always sold out. Packed with network level examinations and protocol analysis, and you need to bring your computer.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/program/trainings/stephan-beirer/&quot;&gt;The ISO/IEC 27019&lt;/a&gt; training can be very useful for those interested in policy level work for the oil/gas industry or electrical utility industry. Read an interview with Dr Beirer here   &lt;a href=&quot;https://cs3sthlm.se/blog/dr-stephan-beirer/&quot;&gt;/blog/dr-stephan-beirer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/program/trainings/arnaud-soullie/&quot;&gt;The ICS Pentest&lt;/a&gt; is a hand-on class where you will learn to find errors and vulnerabilities in a ICS system. To add something little extra, the class also includes a capture-the-flag competition between the attendees.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/program/trainings/joe-slowik&quot;&gt;ICS Strategic planning and war gaming&lt;/a&gt; is given by Joe Slowik of Dragos Inc to help you become better at defending your ICS systems.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/program/trainings/ben-daniel/&quot;&gt;Ben and Daniel&lt;/a&gt; from Dragos will get you started with threat hunting in your ICS environment&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;See all trainings here: &lt;a href=&quot;/program/trainings/&quot;&gt;/trainings&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;more-speakers&quot;&gt;More Speakers&lt;/h4&gt;
+
+&lt;p&gt;We are more or less ready with the lineup for this year with close to 30 presenters. We have experts from all over the world, giving presentations in as diverse areas such as Cyber attacks against cars, lessons from incidents and attacks, writing a adding malware into blockchain solutions. See all speakers here &lt;a href=&quot;/program/speakers/&quot;&gt;/speakers&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;ics-security-lab&quot;&gt;ICS Security Lab&lt;/h4&gt;
+
+&lt;p&gt;We will continue the success with the ICS security lab from previous years. Attendees will have opportunities to try out various ICS equipment, cyber security protection mechanisms, and to see demonstrations of attacks. More info on the lab here &lt;a href=&quot;/ics-lab/&quot;&gt;/ics-lab&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;hotel-discount&quot;&gt;Hotel Discount&lt;/h4&gt;
+
+&lt;p&gt;Please take note - hotel Elite Stockholm Plaza will only hold the reserved block of rooms for CS3sthlm until the 21st of september. If you have not already booked your hotel room, now is the time! Use this link &lt;a href=&quot;https://www.elite.se/en/conference-reservations/stockholm/e1a64817-7910-4517-bff8-d94ea2e28ed5/ea79fd04-097f-47bc-a55f-5e12e8c5868a/&quot;&gt;https://www.elite.se/en/conference-reservations/stockholm/e1a64817-7910-4517-bff8-d94ea2e28ed5/ea79fd04-097f-47bc-a55f-5e12e8c5868a/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;new-partners&quot;&gt;New Partners&lt;/h4&gt;
+
+&lt;div class=&quot;partner--list partner--list-inpost&quot;&gt;
+
+
+	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
+		&lt;a href=&quot;https://www.advenica.com/en&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/advenica.png&quot; alt=&quot;Advenica&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
+		&lt;a href=&quot;https://www.msb.se/en/&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/msb-english.png&quot; alt=&quot;MSB&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
+		&lt;a href=&quot;https://www.first.org&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/first.png&quot; alt=&quot;FIRST&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
+		&lt;a href=&quot;https://dragos.com&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/dragos.png&quot; alt=&quot;Dragos&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
+		&lt;a href=&quot;https://www.kraftcert.no/english/index.html&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/kraftcert.png&quot; alt=&quot;KraftCERT&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
+		&lt;a href=&quot;https://www.gai-netconsult.de/index.php?id=startseite&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/gai-netconsult.png&quot; alt=&quot;Gai Netconsult&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item &quot;&gt;
+		&lt;a href=&quot;https://omnisiens.se&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/omnisiens.png&quot; alt=&quot;OMNISIENS&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item &quot;&gt;
+		&lt;a href=&quot;https://romab.com&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/romab.png&quot; alt=&quot;ROMAB&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item &quot;&gt;
+		&lt;a href=&quot;https://sysctl.se&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/sysctl.png&quot; alt=&quot;sysctl&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item &quot;&gt;
+		&lt;a href=&quot;http://managementdoctors.se&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/md.png&quot; alt=&quot;Management Doctors&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item &quot;&gt;
+		&lt;a href=&quot;https://www.kaspersky.com&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/kaspersky.png&quot; alt=&quot;Kaspersky&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item &quot;&gt;
+		&lt;a href=&quot;https://www.recordedfuture.com&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/recorded-future.png&quot; alt=&quot;Recorded Future&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item &quot;&gt;
+		&lt;a href=&quot;https://waterfall-security.com&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/waterfall-security.png&quot; alt=&quot;Waterfall Security&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item &quot;&gt;
+		&lt;a href=&quot;https://en.energinet.dk&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/energinet.png&quot; alt=&quot;EnergiNet&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item &quot;&gt;
+		&lt;a href=&quot;https://www.netresec.com&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/netresec.png&quot; alt=&quot;NETRESEC&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item &quot;&gt;
+		&lt;a href=&quot;https://netnordic.se&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/netnordic.png&quot; alt=&quot;Netnordic&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+&lt;/div&gt;
+</description>
+        <pubDate>Wed, 19 Sep 2018 04:00:00 +0000</pubDate>
+        <link>/news/2018/09/19/cs3sthlm-newsletter-september.html</link>
+        <guid isPermaLink="true">/news/2018/09/19/cs3sthlm-newsletter-september.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
     
       <item>
         <title>Erik Johansson - Co-founder of CS3sthlm</title>
@@ -483,82 +632,6 @@ standard (1 day) &lt;/a&gt;&lt;/li&gt;
         
         
         <category>press</category>
-        
-      </item>
-    
-      <item>
-        <title>CS3STHLM Newsletter June</title>
-        <description>&lt;p&gt;Outline of this short newsletter&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;CFP work&lt;/li&gt;
-  &lt;li&gt;Announced speakers&lt;/li&gt;
-  &lt;li&gt;Technical Trainings&lt;/li&gt;
-  &lt;li&gt;Social events&lt;/li&gt;
-  &lt;li&gt;Early Bird tickets&lt;/li&gt;
-  &lt;li&gt;Venue&lt;/li&gt;
-  &lt;li&gt;Conference Hotel&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;We want to share some info about the recent development.&lt;/p&gt;
-
-&lt;p&gt;We will carry on the tradition from when we where called 4SICS - to be a leading international conference on SCADA, ICS and critical infrastructure cyber security! We will have multiple stages with the best international speakers and trainers, having excellent social activities and provide hard-to-earn knowledge, no matter if it is deeply technical matters, sucessful solutions or policy briefs.&lt;/p&gt;
-
-&lt;p&gt;In the program comittee, we are working with the submissions that we have received as the CFP closed. We have alot more submissions than available speaker slots! And still not all slots are for submitted proposals, but we have reserved some slots for invited speakers as well. Thus it is really hard to make the selection this year.&lt;/p&gt;
-
-&lt;h3 id=&quot;announced-speakers&quot;&gt;Announced speakers&lt;/h3&gt;
-
-&lt;p&gt;We have announced a couple of speakers already, especially since they are related to investigations into the recently unveiled industroyer/CRASHOVERRIDE malware:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Joe Slowik of Dragos Inc (US), who will speak on “Strategic Network Defense in ICS Environments”&lt;/li&gt;
-  &lt;li&gt;The ESET team (SK) who have a presentation on “Industroyer: biggest threat to industrial control systems since Stuxnet”&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;We will have a special panel on the Ukraine 2016 event with detailed discussion, where both the ESET and Dragos specialists will attend. We plan to add more experts to this discussion.&lt;/p&gt;
-
-&lt;p&gt;More speakers will be announced in the weeks to come, including keynote speakers!&lt;/p&gt;
-
-&lt;h3 id=&quot;technical-trainings&quot;&gt;Technical trainings&lt;/h3&gt;
-
-&lt;p&gt;We will have a number of technical trainings related to network forenics, honeypots, hacking, etc.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Erik Hjelmvik of Netresec (SE) will have a 2 day Network Forensic class&lt;/li&gt;
-  &lt;li&gt;Mikael Vingaard (DK) will have a 1 day Honeypot class&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Thus, with the addition of 2 day training classes, the pre-conference activity will start already on the 23rd of october!&lt;/p&gt;
-
-&lt;h4 id=&quot;social-events&quot;&gt;Social Events&lt;/h4&gt;
-
-&lt;p&gt;We will have a welcome reception on the evening of the 24th and a conference dinner on the 25th.&lt;/p&gt;
-
-&lt;h3 id=&quot;early-bird&quot;&gt;Early Bird&lt;/h3&gt;
-
-&lt;p&gt;A reminder - the early bird prices are until 30 of June! You will find the ticket site here: &lt;a href=&quot;&quot;&gt;https://tickets.4sics.se/sales/&lt;/a&gt; or from the main CS3STHLM web page.&lt;/p&gt;
-
-&lt;h3 id=&quot;venue&quot;&gt;Venue&lt;/h3&gt;
-
-&lt;p&gt;As per the last 2 years, we will be in wonderful Nalen, in the heart of Stockholm. You will find information and directions at &lt;a href=&quot;https://cs3sthlm.se/practical-details/&quot;&gt;/practical-details&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;conference-hotel&quot;&gt;Conference hotel&lt;/h3&gt;
-
-&lt;p&gt;We have a special arrangement with Elite Palace Hotel located just ~200 meters away from the venue. Use this link to get our special discount when booking &lt;a href=&quot;https://www.elite.se/en/conference-reservations/stockholm/e1a64817-7910-4517-bff8-d94ea2e28ed5/&quot;&gt;Elite Conference Reservation&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;–
-Until the next news letter,&lt;/p&gt;
-
-&lt;p&gt;Best wishes from the whole CS3STHLM team&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/news/cyber.jpg&quot; alt=&quot;Cyber&quot; class=&quot;full-width-image&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 13 Jun 2017 04:00:00 +0000</pubDate>
-        <link>/news/2017/06/13/cs3sthlm-newsletter-june.html</link>
-        <guid isPermaLink="true">/news/2017/06/13/cs3sthlm-newsletter-june.html</guid>
-        
-        
-        <category>news</category>
         
       </item>
     

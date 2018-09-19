@@ -3642,6 +3642,10 @@ h1, h2, h3, h4 {
       @include media-query-min($large) {
         width: 432px;
       }
+
+      @include media-query($mobile) {
+        width: 100%;
+      }
     }
 
     @include media-query($mobile) {
@@ -3668,6 +3672,47 @@ h1, h2, h3, h4 {
 
       .partner--item {
         margin-right: 0;
+      }
+    }
+
+    &-inpost {
+      justify-content: space-between;
+
+      @include media-query($mobile) {
+        padding: 0;
+        margin-top: 20px;
+      }
+
+      .partner--item {
+        width: calc(50% - 10px);
+        margin-right: 0;
+
+        @include media-query($mobile) {
+          width: 100%;
+
+          &:nth-child(4) {
+            margin-right: 0;
+          }
+        }
+
+        a {
+          height: 100px;
+
+          @include media-query($mobile) {
+            height: 84px;
+          }
+        }
+
+        &-large {
+
+          a {
+            height: 220px;
+
+            @include media-query($mobile) {
+              height: 190px;
+            }
+          }
+        }
       }
     }
   }
@@ -3701,6 +3746,11 @@ h1, h2, h3, h4 {
     @include media-query($mobile) {
       width: 100%;
       margin-bottom: 20px;
+      margin-right: 0;
+
+      &:nth-child(4) {
+        margin-right: 0;
+      }
     }
 
     &-text {
