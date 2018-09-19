@@ -20,7 +20,7 @@
 			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
 			"description": ""
 		
 		},
@@ -57,7 +57,7 @@
 			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
 			"description": ""
 		
 		},
@@ -94,7 +94,7 @@
 			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
 			"description": "<p>Industrial Control Systems (ICS) as well as Operational Technology (OT) are under increased risks from cyber events.  Come learn how Cyber Informed Engineering is an evolving concept to use cyber risk in designing control systems and associated protection systems.</p><p>“Cyber risks to Industrial Control Systems (ICS) and Operational Technology (OT) continue to evolve.  Whether it is the threat of ransomware taking a production system offline, or sophisticated malware targeting the safety critical components of your system.  Engineers have long designed systems to be resilient to a multitude of failure modes, and it is time that we started taking the lessons learned from cyber attacks against these systems into consideration during new system design, or legacy system retrofit.  This session will introduce this evolving concept and describe some of the standards and practices being developed and utilized.”</p>"
 		
 		},
@@ -131,7 +131,7 @@
 			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
 			"description": "<p>Abstract: Innovative and disruptive technologies are enhancing and invading our traditional industrial business model. Future infrastructure organizations will need more data to operate efficiently and succeed in the brave new interconnected world. The diversity of new technologies and data will fuel more diversity in business opportunity. Everyone expects more OT, more IOT, and more IT - and all of it is supposed to be highly reliable and secure. These factors (and more) lead to a landscape shift for the industrial cybersecurity risk profile. In this session, hear ways to recognize the problems and gain some clarity on possible solutions through historic lessons, made up words, and practical front-line experience.</p>"
 		
 		},
@@ -168,7 +168,7 @@
 			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
 			"description": ""
 		
 		},
@@ -205,7 +205,7 @@
 			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
 			"description": "<p>asd1</p>"
 		
 		},
@@ -242,7 +242,7 @@
 			"name":		"Frank Lycops",
 			"role":		"Security Consultant & Researcher",
 			"work":		"Freelance",
-			"image":	"frank-lycops.png",
+			"image":	"https://cs3sthlm.se/assets/speakers/frank-lycops.png",
 			"description": "<p>Operator stations are today one of the first systems/stations to interact with a distributed control system (DCS) or other industrial control systems. These operator stations often have some protection built in to restrict what the operator can do within the SCADA software and/or on the operating system itself.</p><p>Within this presentation, some of the most (easily) discovered ways are shown/explained and how these can be (ab)used to gain a further foothold within the environment.</p><p>The audience will learn more on the shortcomings of most of the operator jail solutions and what could be done to step up this game to secure this properly. Key takeaways obtained by the audience through this presentation is that you cannot trust operator jails in the thought that it properly protects attackers from gaining access to the operating system itself and thus potentially exploiting the whole DCS environment.</p>"
 		
 		},
@@ -279,7 +279,7 @@
 			"name":		"Dieter Sarrazyn",
 			"role":		"Security Expert",
 			"work":		"Freelance",
-			"image":	"dieter-sarrazyn.png",
+			"image":	"https://cs3sthlm.se/assets/speakers/dieter-sarrazyn.png",
 			"description": "<p>Operator stations are today one of the first systems/stations to interact with a distributed control system (DCS) or other industrial control systems. These operator stations often have some protection built in to restrict what the operator can do within the SCADA software and/or on the operating system itself.</p><p>Within this presentation, some of the most (easily) discovered ways are shown/explained and how these can be (ab)used to gain a further foothold within the environment.</p><p>The audience will learn more on the shortcomings of most of the operator jail solutions and what could be done to step up this game to secure this properly. Key takeaways obtained by the audience through this presentation is that you cannot trust operator jails in the thought that it properly protects attackers from gaining access to the operating system itself and thus potentially exploiting the whole DCS environment.</p>"
 		
 		},
@@ -316,7 +316,7 @@
 			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
 			"description": "<p>asd2</p>"
 		
 		},
@@ -353,7 +353,7 @@
 			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
 			"description": "<p>asd2</p>"
 		
 		},
@@ -390,7 +390,7 @@
 			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
 			"description": ""
 		
 		},
@@ -427,7 +427,7 @@
 			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
 			"description": "<p>asd1</p>"
 		
 		},
@@ -464,7 +464,7 @@
 			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
 			"description": "<p>asd1</p>"
 		
 		},
@@ -501,7 +501,7 @@
 			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
 			"description": "<p>asd1</p>"
 		
 		},
@@ -538,7 +538,7 @@
 			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
 			"description": ""
 		
 		},
@@ -575,7 +575,7 @@
 			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
 			"description": "<p>asd1</p>"
 		
 		},
@@ -612,7 +612,7 @@
 			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
 			"description": "<p>asd1</p>"
 		
 		},
@@ -649,7 +649,7 @@
 			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
 			"description": "<p>asd1</p>"
 		
 		},
@@ -679,7 +679,7 @@
 			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
 			"description": "<p>asd1</p>"
 		
 		},
@@ -716,7 +716,7 @@
 			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
 			"description": "<p>asd2</p>"
 		
 		},
@@ -753,7 +753,7 @@
 			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
 			"description": "<p>asd1</p>"
 		
 		},
@@ -790,7 +790,7 @@
 			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
 			"description": "<p>In this principal research, we investigate the possibilities blockchain technologies pose as an infrastructure for malicious operations. We will demonstrate a POC of a fully functional C&amp;C infrastructure on top of the Ethereum network - the second largest public blockchain which also acts as a distributed computing platform featuring a smart contract functionality.</p>"
 		
 		},
@@ -827,7 +827,7 @@
 			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
 			"description": "<p>asd1</p>"
 		
 		},
@@ -864,7 +864,7 @@
 			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
 			"description": "<p>asd1</p>"
 		
 		},
@@ -901,7 +901,7 @@
 			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
 			"description": "<p>asd1</p>"
 		
 		},
