@@ -206,7 +206,7 @@
 			"role":		"",
 			"work":		"",
 			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>asd1</p>"
+			"description": "<p>The ICS lab is an critical resource, and not just for a solution provider like Siemens.  While the internal components of a lab may vary widely (witness the CS3STHLM ICS lab for example), the process of securing access to the lab network, while assuring availability and ease of use arguably has some common goals. Siemens PD Solutions in Bergen, Norway recently relocated their lab, and developed this presentation in the hope that their security and optimization solutions specifically related to the network might be of interest to others. Especially those with large, productive, multi-project, multi-customer lab environments.</p>"
 		
 		},
 		
@@ -312,12 +312,12 @@
 		
 			"active": 	"live",
 			"title": 	"The good, the bad and the segmented",
-			"partner":	"Rik van Hees",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>asd2</p>"
+			"partner":	"active",
+			"name":		"Rik van Hees",
+			"role":		"ICS Security Architect",
+			"work":		"Alliander",
+			"image":	"https://cs3sthlm.se/assets/speakers/rik-van-hees.png",
+			"description": "<p>“Network Segmentation” is a simple concept of 20 characters (space included). Doing it in practice and doing it right is much more difficult. Proper segmentation is much, much more than just adding a firewall.</p><p>Over the last years we spend a lot of time and money on designing and implementing network segmentation for our multi-site IT and multi-site OT networks. Not only in technical solutions, but also in the required processes for maintaining the new environment. We made some (costly) mistakes and had to rethink our design based on physical and organizational boundaries.</p><p>In this talk, we would like to present lessons-learned on the multi-million, multi-year project. It is not an official report-out, but a hands-on and practical presentation. We hope this talk will give the audience a feeling for the challenges of a proper segmentation program and help them to prevent some of the mistakes we made.</p><h4 id=\"the-following-questions-will-be-answered\">The following questions will be answered</h4><ul>  <li>How did we convince Senior Management to allocate the budget</li>  <li>What underlying architecture did we choose and why?</li>  <li>What use cases did we envision and how did we work them out?</li>  <li>What design choices were made?</li>  <li>How did this work out in reality?</li>  <li>What did we learn?</li>  <li>What would we recommend?</li>  <li>What would we do differently?</li></ul>"
 		
 		},
 		
@@ -349,12 +349,12 @@
 		
 			"active": 	"live",
 			"title": 	"The good, the bad and the segmented",
-			"partner":	"Erwin Kooi",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>asd2</p>"
+			"partner":	"active",
+			"name":		"Erwin Kooi",
+			"role":		"Information Security Arcitect",
+			"work":		"Alliander",
+			"image":	"https://cs3sthlm.se/assets/speakers/erwin-kooi.png",
+			"description": "<p>“Network Segmentation” is a simple concept of 20 characters (space included). Doing it in practice and doing it right is much more difficult. Proper segmentation is much, much more than just adding a firewall.</p><p>Over the last years we spend a lot of time and money on designing and implementing network segmentation for our multi-site IT and multi-site OT networks. Not only in technical solutions, but also in the required processes for maintaining the new environment. We made some (costly) mistakes and had to rethink our design based on physical and organizational boundaries.</p><p>In this talk, we would like to present lessons-learned on the multi-million, multi-year project. It is not an official report-out, but a hands-on and practical presentation. We hope this talk will give the audience a feeling for the challenges of a proper segmentation program and help them to prevent some of the mistakes we made.</p><h4 id=\"the-following-questions-will-be-answered\">The following questions will be answered</h4><ul>  <li>How did we convince Senior Management to allocate the budget</li>  <li>What underlying architecture did we choose and why?</li>  <li>What use cases did we envision and how did we work them out?</li>  <li>What design choices were made?</li>  <li>How did this work out in reality?</li>  <li>What did we learn?</li>  <li>What would we recommend?</li>  <li>What would we do differently?</li></ul>"
 		
 		},
 		
