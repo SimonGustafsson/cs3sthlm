@@ -14,9 +14,13 @@
 
 		"presentation":{
 		
-			"active": "none",
-			"title": "",
-			"partner": "",
+			"active": 	"none",
+			"title": 	"",
+			"partner":	"",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
 			"description": ""
 		
 		},
@@ -47,9 +51,13 @@
 
 		"presentation":{
 		
-			"active": "none",
-			"title": "",
-			"partner": "",
+			"active": 	"none",
+			"title": 	"",
+			"partner":	"",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
 			"description": ""
 		
 		},
@@ -80,9 +88,13 @@
 
 		"presentation":{
 		
-			"active": "live",
-			"title": "Think like a hacker but act like an engineer",
-			"partner": "",
+			"active": 	"live",
+			"title": 	"Think like a hacker but act like an engineer",
+			"partner":	"",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
 			"description": "<p>Industrial Control Systems (ICS) as well as Operational Technology (OT) are under increased risks from cyber events.  Come learn how Cyber Informed Engineering is an evolving concept to use cyber risk in designing control systems and associated protection systems.</p><p>“Cyber risks to Industrial Control Systems (ICS) and Operational Technology (OT) continue to evolve.  Whether it is the threat of ransomware taking a production system offline, or sophisticated malware targeting the safety critical components of your system.  Engineers have long designed systems to be resilient to a multitude of failure modes, and it is time that we started taking the lessons learned from cyber attacks against these systems into consideration during new system design, or legacy system retrofit.  This session will introduce this evolving concept and describe some of the standards and practices being developed and utilized.”</p>"
 		
 		},
@@ -113,9 +125,13 @@
 
 		"presentation":{
 		
-			"active": "live",
-			"title": "Industrial Technology Trajectory: Running With Scissors",
-			"partner": "",
+			"active": 	"live",
+			"title": 	"Industrial Technology Trajectory: Running With Scissors",
+			"partner":	"",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
 			"description": "<p>Abstract: Innovative and disruptive technologies are enhancing and invading our traditional industrial business model. Future infrastructure organizations will need more data to operate efficiently and succeed in the brave new interconnected world. The diversity of new technologies and data will fuel more diversity in business opportunity. Everyone expects more OT, more IOT, and more IT - and all of it is supposed to be highly reliable and secure. These factors (and more) lead to a landscape shift for the industrial cybersecurity risk profile. In this session, hear ways to recognize the problems and gain some clarity on possible solutions through historic lessons, made up words, and practical front-line experience.</p>"
 		
 		},
@@ -146,9 +162,13 @@
 
 		"presentation":{
 		
-			"active": "none",
-			"title": "",
-			"partner": "",
+			"active": 	"none",
+			"title": 	"",
+			"partner":	"",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
 			"description": ""
 		
 		},
@@ -157,7 +177,7 @@
 			"active": "live",
 			"title": "Pentesting Industrial Control Systems",
 			"partner": "",
-			"description": ""
+			"description": "<p>On this intense 2-days training, you will learn everything you need to start pentesting Industrial Control Networks. We will cover the basics to help you understand what are the most common ICS vulnerabilities.</p><p>We will then spend some time learning and exploiting Windows &amp; Active Directory weaknesses, as most ICS are controlled by Windows systems. We will cover the most common ICS protocols (Modbus, S7, Profinet, Ethernet/IP, DNP3, OPC…), analyze packet captures and learn how to use these protocols to talk to Programmable Logic Controllers (PLCs).</p><p>You will learn how to program a PLC, to better understand how to exploit them. The training will end with an afternoon dedicated to a challenging hands-on exercise: The first CTF in which you capture a real flag! Using your newly acquired skills, you will try to compromise a Windows Active Directory, pivot to an ICS setup to take control of a model train and robotic arms.</p><h4 id=\"the-detailed-outline-of-the-training-will-be-the-following\">The detailed outline of the training will be the following:</h4><ul>  <li>Introduction to ICS &amp; common vulnerabilities</li>  <li>Pentesting Basics &amp; tools [Hands-on]</li>  <li>Windows basics and pentesting Windows [Hands-on]</li>  <li>Focus on ICS protocols</li>  <li>Programming PLCs [Hands-on]</li>  <li>Pentesting ICS [Hands-on]</li>  <li>Capture The Flag [Hands-on]</li></ul><h3 id=\"detailed-content\">Detailed content</h3><h4 id=\"module-1-introduction-to-ics--common-vulnerabilities\">Module 1: Introduction to ICS &amp; common vulnerabilities</h4><p>For starters, I will introduce the concept of ICS.</p><p>The topics will include:</p><ul>  <li>Vocabulary</li>  <li>Classic architectures</li>  <li>ICS components (PLCs, HMI, SCADA, DCS, sensors, RTUs, Historian, etc) and their roles</li>  <li>OT vs IT</li></ul><p>I will also introduce attendees to the most common vulnerabilities in ICS, and describes some of the public attacks:</p><ul>  <li>Lack of network segmentation / Exposure</li>  <li>Lack of hardening - ICS protocols insecurity</li></ul><p><em>This module is not hands-on</em></p><h4 id=\"module-2-pentesting-basics--tools\">Module 2: Pentesting Basics &amp; tools</h4><p>This module will introduce the concept of penetration test.I do not intend to spend too much time of the theoretical stuff (how to makea report, etc etc) since that is not what attendees are looking for.</p><p>However, I think a module is required to ensure that everyone shares at least thebasic concepts of penetration testing, in order to understand the rest of the training.The module will include :</p><ul>  <li>OSINT for ICS : Where to look to find informations</li>  <li>Reconnaissance : how to portscan &amp; nessus</li>  <li>Exploitation : Metasploit basics</li></ul><p>Toolz used : nmap, Nessus, Metasploit</p><p>Lab setup : Windows Servers and workstations, Metasploitable, Kali Linux</p><h4 id=\"module-3-windows-basics-and-pentesting-windows\">Module 3: Windows basics and pentesting Windows</h4><p>Any ICS now includes, at least in some areas, Windows systems. So I think that some time must be spent on Windows basics.</p><p>This module will introduce the following topics:</p><ul>  <li>Windows Active Directory</li>  <li>How to find credentials on Windows systems</li>  <li>Exploiting and pivoting to gain Domain Admin privileges</li></ul><p>A selection of hacking techniques will be applied on lab machines.</p><h4 id=\"module-4-focus-on-ics-protocols\">Module 4: Focus on ICS protocols</h4><p>This module will introduce the most common ICS protocols: Modbus/TCP, S7, Profinet, DNP3, Ethernet/IP…. Attendees will analyze network captures and be introduced to software libraries/ clients to use these protocols to talk to PLC simulators.</p><p><em>This module is not hands-on</em></p><h4 id=\"module-5-programming-plcs\">Module 5: Programming PLCs</h4><p>In order to have a better understanding of how a PLC works, student will use dedicated software to program a PLC in ladder logic (using trial versions of TIA portal and/or soMachine basic).</p><p>Students will then deploy the code to real PLCs.</p><p>Toolz used : SoMachine Basic</p><p>Lab : Windows virtual machine</p><h4 id=\"module-6-pentesting-ics\">Module 6: Pentesting ICS</h4><p>This module will be mostly lab sessions, in order to apply the knowledge learned so far:</p><ul>  <li>Network capture analysis &amp; replaying packets</li>  <li>Talking industrial protocols: Modbus, S7</li>  <li>Additional PLC features: web server, ftp, snmp and how to exploit it</li></ul><p>Toolz used : nmap, Nessus, Metasploit</p><p>Lab : Windows Servers and workstations, Kali Linux, Siemens and Schneider PLCs</p><h4 id=\"module-7-capture-the-flag\">Module 7: Capture The Flag</h4><p>I strongly believe that a good training must include “real-life” examples and labs. I will dedicate the last half-day of the training to a Capture The Flag event. To do so, I will have a specific setup where attendees will be able to use their newly-acquired knowledge on a simulation of a “real-life” system. This will include compromise of Windows host, pivoting to the ICS, understanding the industrial process, and finally capturing a real flag with a robot hand!</p><p>This will be an expanded version of the CTF I usually organize during the ICS workshops at conferences.</p><h4 id=\"target-audience\">Target audience</h4><p>This training is aimed at OT professionals willing to understand what are the security issues within ICS, and howto technically assess the security level of an ICS. It will also be beneficial for IT security professionals wanting to understand the technical specificities of ICS.</p><h4 id=\"key-takeaways\">Key takeaways</h4><p>The attendees will learn what are the common ICS vulnerabilities, the tools and techniques to assess an ICS (both Windows systems and PLCs), and will practice these techniques during an hands-on Capture The Flag on real hardware.</p><h4 id=\"training-preparations\">Training Preparations</h4><p>Laptop Required</p><p>Attendees will need to bring a laptop that fits the following specs:</p><ul>  <li>A PC with VirtualBox capable of running virtual machines.</li>  <li>At least 4GB RAM</li>  <li>At least 40 GB free disk space</li>  <li>VirtualBox (64 bit) installed (VMWare could be used but will not be supported in the training)</li></ul><p>Several VirtualBox VMs will be provided on USB flash drives at the beginning of the training.</p><p>Please note that having a 64-bit CPU and a 64-bit OS is not always enough to support 64-bit virtualization. You might need to enable features such as ”AMD-V”, ”VT-x” or ”Hyper-V” in BIOS in order to run virtual machines in 64-bit mode.</p><p>Please try to run a 64-bit VM prior to the training.</p>"
 		},
 		
 
@@ -179,10 +199,14 @@
 
 		"presentation":{
 		
-			"active": "live",
-			"title": "Securing the ICS lab network",
-			"partner": "",
-			"description": "<p>asd1</p>"
+			"active": 	"live",
+			"title": 	"Securing the ICS lab network",
+			"partner":	"",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "<p>The ICS lab is an critical resource, and not just for a solution provider like Siemens.  While the internal components of a lab may vary widely (witness the CS3STHLM ICS lab for example), the process of securing access to the lab network, while assuring availability and ease of use arguably has some common goals. Siemens PD Solutions in Bergen, Norway recently relocated their lab, and developed this presentation in the hope that their security and optimization solutions specifically related to the network might be of interest to others. Especially those with large, productive, multi-project, multi-customer lab environments.</p>"
 		
 		},
 		
@@ -212,9 +236,13 @@
 
 		"presentation":{
 		
-			"active": "live",
-			"title": "Operator Jail breakout",
-			"partner": "{"name"=>"Frank Lycops", "role"=>"Security Consultant & Researcher", "work"=>"Freelance", "image"=>"frank-lycops.png"}",
+			"active": 	"live",
+			"title": 	"Operator Jail breakout",
+			"partner":	"active",
+			"name":		"Frank Lycops",
+			"role":		"Security Consultant & Researcher",
+			"work":		"Freelance",
+			"image":	"https://cs3sthlm.se/assets/speakers/frank-lycops.png",
 			"description": "<p>Operator stations are today one of the first systems/stations to interact with a distributed control system (DCS) or other industrial control systems. These operator stations often have some protection built in to restrict what the operator can do within the SCADA software and/or on the operating system itself.</p><p>Within this presentation, some of the most (easily) discovered ways are shown/explained and how these can be (ab)used to gain a further foothold within the environment.</p><p>The audience will learn more on the shortcomings of most of the operator jail solutions and what could be done to step up this game to secure this properly. Key takeaways obtained by the audience through this presentation is that you cannot trust operator jails in the thought that it properly protects attackers from gaining access to the operating system itself and thus potentially exploiting the whole DCS environment.</p>"
 		
 		},
@@ -245,9 +273,13 @@
 
 		"presentation":{
 		
-			"active": "live",
-			"title": "Operator Jail breakout",
-			"partner": "{"name"=>"Dieter Sarrazyn", "role"=>"Security Expert", "work"=>"Freelance", "image"=>"dieter-sarrazyn.png"}",
+			"active": 	"live",
+			"title": 	"Operator Jail breakout",
+			"partner":	"active",
+			"name":		"Dieter Sarrazyn",
+			"role":		"Security Expert",
+			"work":		"Freelance",
+			"image":	"https://cs3sthlm.se/assets/speakers/dieter-sarrazyn.png",
 			"description": "<p>Operator stations are today one of the first systems/stations to interact with a distributed control system (DCS) or other industrial control systems. These operator stations often have some protection built in to restrict what the operator can do within the SCADA software and/or on the operating system itself.</p><p>Within this presentation, some of the most (easily) discovered ways are shown/explained and how these can be (ab)used to gain a further foothold within the environment.</p><p>The audience will learn more on the shortcomings of most of the operator jail solutions and what could be done to step up this game to secure this properly. Key takeaways obtained by the audience through this presentation is that you cannot trust operator jails in the thought that it properly protects attackers from gaining access to the operating system itself and thus potentially exploiting the whole DCS environment.</p>"
 		
 		},
@@ -278,10 +310,14 @@
 
 		"presentation":{
 		
-			"active": "live",
-			"title": "The good, the bad and the segmented",
-			"partner": "Rik van Hees",
-			"description": "<p>asd2</p>"
+			"active": 	"live",
+			"title": 	"The good, the bad and the segmented",
+			"partner":	"active",
+			"name":		"Rik van Hees",
+			"role":		"ICS Security Architect",
+			"work":		"Alliander",
+			"image":	"https://cs3sthlm.se/assets/speakers/rik-van-hees.png",
+			"description": "<p>“Network Segmentation” is a simple concept of 20 characters (space included). Doing it in practice and doing it right is much more difficult. Proper segmentation is much, much more than just adding a firewall.</p><p>Over the last years we spend a lot of time and money on designing and implementing network segmentation for our multi-site IT and multi-site OT networks. Not only in technical solutions, but also in the required processes for maintaining the new environment. We made some (costly) mistakes and had to rethink our design based on physical and organizational boundaries.</p><p>In this talk, we would like to present lessons-learned on the multi-million, multi-year project. It is not an official report-out, but a hands-on and practical presentation. We hope this talk will give the audience a feeling for the challenges of a proper segmentation program and help them to prevent some of the mistakes we made.</p><h4 id=\"the-following-questions-will-be-answered\">The following questions will be answered</h4><ul>  <li>How did we convince Senior Management to allocate the budget</li>  <li>What underlying architecture did we choose and why?</li>  <li>What use cases did we envision and how did we work them out?</li>  <li>What design choices were made?</li>  <li>How did this work out in reality?</li>  <li>What did we learn?</li>  <li>What would we recommend?</li>  <li>What would we do differently?</li></ul>"
 		
 		},
 		
@@ -311,10 +347,14 @@
 
 		"presentation":{
 		
-			"active": "live",
-			"title": "The good, the bad and the segmented",
-			"partner": "Erwin Kooi",
-			"description": "<p>asd2</p>"
+			"active": 	"live",
+			"title": 	"The good, the bad and the segmented",
+			"partner":	"active",
+			"name":		"Erwin Kooi",
+			"role":		"Information Security Arcitect",
+			"work":		"Alliander",
+			"image":	"https://cs3sthlm.se/assets/speakers/erwin-kooi.png",
+			"description": "<p>“Network Segmentation” is a simple concept of 20 characters (space included). Doing it in practice and doing it right is much more difficult. Proper segmentation is much, much more than just adding a firewall.</p><p>Over the last years we spend a lot of time and money on designing and implementing network segmentation for our multi-site IT and multi-site OT networks. Not only in technical solutions, but also in the required processes for maintaining the new environment. We made some (costly) mistakes and had to rethink our design based on physical and organizational boundaries.</p><p>In this talk, we would like to present lessons-learned on the multi-million, multi-year project. It is not an official report-out, but a hands-on and practical presentation. We hope this talk will give the audience a feeling for the challenges of a proper segmentation program and help them to prevent some of the mistakes we made.</p><h4 id=\"the-following-questions-will-be-answered\">The following questions will be answered</h4><ul>  <li>How did we convince Senior Management to allocate the budget</li>  <li>What underlying architecture did we choose and why?</li>  <li>What use cases did we envision and how did we work them out?</li>  <li>What design choices were made?</li>  <li>How did this work out in reality?</li>  <li>What did we learn?</li>  <li>What would we recommend?</li>  <li>What would we do differently?</li></ul>"
 		
 		},
 		
@@ -344,9 +384,13 @@
 
 		"presentation":{
 		
-			"active": "none",
-			"title": "",
-			"partner": "",
+			"active": 	"none",
+			"title": 	"",
+			"partner":	"",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
 			"description": ""
 		
 		},
@@ -355,7 +399,7 @@
 			"active": "live",
 			"title": "ICS Scada Honeypot Technical Training",
 			"partner": "",
-			"description": ""
+			"description": "<p>Get access this exciting two days deep dive workshop on SCADA honeypots. During the first day, the students will be guided in the different phases in planning, deploying and analyzing the collected data from a ICS/SCADA honeypot.</p><h3 id=\"day-1\">Day 1</h3><h4 id=\"introduction-to-honeypots-systems-with-special-focus-on-icsscada\">Introduction to Honeypots systems, with special focus on ICS/SCADA)</h4><p>The first day, the students will introduced to different types of honeypot systems and pro/con’s of each honeypot type.</p><p>The students will be guided thou the different phases in planning, deploying and analyzing the collected data from a ICS/SCADA honeypot.</p><p>We will deploy live honeypots on the internet and see how attackers would start to probe our honeypots. Furthermore, we will also attack the deployed honeypots ourselves; using SCADA pen testing tools and similar software. We will learn to spot various tools, and how to hide the signatures of a default honeypot.</p><h3 id=\"day-2\">Day 2</h3><h4 id=\"deploy-more-honeypots-and-move-from-low-interaction-to-mediumhigh-interaction-honeypots\">Deploy more honeypots and move from low interaction to medium/high interaction Honeypots</h4><p>We will continue the modification of the SCADA honeypot from day 1 and will also deploy a new Internet based ICS/SCADA credential honeypot to our research arsenal - for further research/analyzing.</p><p>The students will on day 2 build a purpose-build in-house Honeypot lab, where we change a low interaction honeypot to act as a realistic device (medium/high interaction honeypot) to ensure that attackers can’t spot the honeypot ‘a mile away’. This would give the students even better opportunity to do research/threat intelligence data on high interaction honeypots.</p><p>The 2nd day would also provide opportunities to deep dive into students ideas for further activities after the workshop.</p><h4 id=\"course-syllabus\">Course syllabus</h4><ul>  <li>Introduction to Honeypots systems, with special focus on ICS/SCADA.</li>  <li>Building and Deployment of a live honeypot on the internet.</li>  <li>Useful tools to pentest SCADA honeypot systems</li>  <li>How to read the logs, and spot different attack types</li>  <li>Useful modification of the honeypot configuration</li>  <li>Learning how to build and deploy a medium/high interactive honeypot - for even better research data/TTP’s</li>  <li>Closing remark and ideas for further activities.</li></ul><p>Each student will get access to a numbers of virtual lab servers to learn how to deploy and customize settings to avoid the default honeypot signature and evolve the low-interaction honeypot to be a true high interactive honeypot.</p><h4 id=\"takeaway-for-participants\">Takeaway for participants</h4><p>After this 2 days workshop, you will be able to plan and deploy different types of ICS/SCADA related open source honeypots, either for research or to defend your corporate/industrial assets.You will understand different Honeypot types and deceptions methods.</p><p>You will leave the class room with a knowledge on how to change the default signature on the honeypots and the understanding of the most common tools who will attack your honeypots.</p><h4 id=\"requirements\">Requirements</h4><p>Students must bring a suitable laptop able to connect to the Internet. It must have a SSH client (Putty/term or similar software) installed. All lab servers are based on the internet, so no hypervisor like Vmware/VirtualBox are required on the student device. Knowledge of basic Linux commands, text editor and usage of the command line would be beneficial, but not a strict requirement to benefit from this course.</p><h4 id=\"workshop-level\">Workshop Level</h4><p>Beginner to Intermediate</p>"
 		},
 		
 
@@ -377,10 +421,14 @@
 
 		"presentation":{
 		
-			"active": "live",
-			"title": "Attacking PLCs by PLC in deep",
-			"partner": "",
-			"description": "<p>asd1</p>"
+			"active": 	"live",
+			"title": 	"Attacking PLCs by PLC in deep",
+			"partner":	"",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "<p>In the past few years, the attacks to industrial control systems(ICS) has increased year by year. Most of the attacks are exploit of the insecurity of ICS protocols like Stuxnet in 2010, Triton in 2017.</p><p>In 2016, Ralf Spenneberg and et al give a presentation named PLC Blaster which demonstrates a worm lives and runs on Siemens S7-1200 PLCs, they use S7commplus protocol to transmit worms in PLCs. In this research, we proposed an attack method that a PLC can attack other different vendors’ PLCs inside the net.</p><p>If one PLC is infected, this PLC can scan the whole net to find all kinds of PLCs and send back the information back to a Command &amp;Control server. Then, once received the command from C&amp;C server, this infected PLC can do attacks to other different vendors’ PLCs. Like PLC Blaster, this malware can be spread inside the net.</p>"
 		
 		},
 		
@@ -410,10 +458,14 @@
 
 		"presentation":{
 		
-			"active": "live",
-			"title": "Attacking Cars Revisited: On the Road Towards a More Resilient Connected Vehicle Infrastructure",
-			"partner": "",
-			"description": "<p>asd1</p>"
+			"active": 	"live",
+			"title": 	"Attacking Cars Revisited: On the Road Towards a More Resilient Connected Vehicle Infrastructure",
+			"partner":	"",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "<p>In this talk I want to sketch out the threat landscape we might be facing with inter- connected infrastructure in smart cities in the near future and give an overview of what works and what doesn‘t to tackle these security challenges.</p><p>Separating the hype from actual threats and thinking in development- and lifecycles that are sig- nificantly longer than those for our normal consumer electronics devices are a key part of this as well as bridging the language gap between automotive engineers and software developers.</p>"
 		
 		},
 		
@@ -443,10 +495,14 @@
 
 		"presentation":{
 		
-			"active": "live",
-			"title": "Jumping Air Gaps",
-			"partner": "",
-			"description": "<p>asd1</p>"
+			"active": 	"live",
+			"title": 	"Jumping Air Gaps",
+			"partner":	"",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "<p>If you think an air gap prevents communication out of and into your industrial control system, you are wrong.</p><p>We’ll be exploring various ways to send data across an air-gap in Industrial Control Systems and other environments, including a live demo.</p><p>Is it really possible to send data across an air-gap where no network has been connected? (No we’re not talking about wifi, bluetooth, wirelessHART etc.)</p><p>Can it be done without physical modification to your existing plant?</p><p>Can we get that paragon of virtue- a data diode -to pass information in both directions without physically touching it?</p><p>Find out.</p><h4 id=\"audience\">Audience</h4><p>Those who may have or consider an air-gap as part of their security.</p><h4 id=\"take-away\">Take Away</h4><p>A better understanding of the history of jumping air-gaps and a new attack on data diodes.</p>"
 		
 		},
 		
@@ -476,9 +532,13 @@
 
 		"presentation":{
 		
-			"active": "none",
-			"title": "",
-			"partner": "",
+			"active": 	"none",
+			"title": 	"",
+			"partner":	"",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
 			"description": ""
 		
 		},
@@ -509,10 +569,14 @@
 
 		"presentation":{
 		
-			"active": "live",
-			"title": "Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense",
-			"partner": "",
-			"description": "<p>asd1</p>"
+			"active": 	"live",
+			"title": 	"Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense",
+			"partner":	"",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "<p>As ICS defense and detection matures, both defenders and products move increasingly away from traditional IOC approaches to newer, more robust models: anomaly detection, and threat behavioral analytics. While an appropriate, defense-in-depth position would work to integrate both approaches into a single defensive schema, scarce resources and funding constraints mean that organizations will need to choose one or the other for their monitoring and detection needs.</p><p>After providing an overview of both these approaches to threat detection, this presentation will then critically evaluate what these approaches enable from a defensive perspective as specifically required for ICS networks. The result will not just be a simple ‘product type’ comparison, but rather a robust investigation of the theoretical underpinnings of these approaches, and what they enable a defender to accomplish within the monitored network. Specific details will include completeness of coverage beyond ‘known bad’ items; ability to incorporate contextualization into alerting; and capability for detecting realistic threats in the ICS environment.</p><p>To provide appropriate context to the discussion, the approaches will be compared to ICS intrusion examples as a means of evaluating their efficacy and viability. By adopting a critical approach to this evaluation, ICS defense practitioners can gain insight into the true costs and benefits of anomaly detection and threat behavior analytics. The expected result of this presentation will be an analysis of the benefits and drawbacks of these approaches with respect to the specific requirements for ICS defense, enabling attendees to evaluate relative to their own operational needs which approach works best for their environment.</p>"
 		
 		},
 		
@@ -520,7 +584,7 @@
 			"active": "live",
 			"title": "ICS Strategic Planning and War Gaming",
 			"partner": "",
-			"description": "<p>asd2</p>"
+			"description": "<p>Network defense is informed by knowing the network, and knowing the adversary – but few practitioners have the fortune of possessing this knowledge before a major breach. Industrial Control System (ICS) networks provide particular challenges due to limitations on operational testing and traditional red team exercises. To address the need for critical assessment of ICS-related networks for developing defensive strategy, this training provides attendees with a comprehensive exercise to identify critical network assets within a theoretical IT and ICS environment, driven by threat intelligence and threat actor profiles.</p><p>Starting with an overview of strategy and applying strategic concepts to network defense, attendees will formulate a comprehensive, adversary-oriented network defense plan covering IT and ICS environments. Following additional overview and critique of planning, attendees will then test the plan through an iterative, guided wargaming exercise – the goal being to test planning comprehensiveness, identify gaps, and improve planning and implementation over time. This training is suitable for all levels of security practitioner – from CISO to SOC analyst – as a means to improve and refine defensive planning, especially within environments containing ICS.</p><h4 id=\"who-should-attend\">Who Should Attend</h4><ul>  <li>Security senior decision makers, from project managers through CIOs.</li>  <li>ICS network operations personnel responsible for assessing risk or managing network security.</li>  <li>Security operations personnel, either focused on ICS environment or general IT security, with an interest in network security strategy development.</li></ul><h4 id=\"key-learning-objectives\">Key Learning Objectives:</h4><ul>  <li>How to assess the security threat environment to identify threats facing the organization.</li>  <li>Apply threat assessment information to the organization’s security environment to formulate anactionable, working network defense strategy.</li>  <li>Learn to critically analyze network defense planning activity and technical controls to identify detection and visibility gaps.</li>  <li>Gain experience in developing and executing interactive exercises to test security plans to evaluate effectiveness and relevance.</li>  <li>Learn how to apply and interpret testing results to improve security planning over time, and adapt to a changing threat environment.</li></ul><h4 id=\"prerequisite-knowledge\">Prerequisite Knowledge:</h4><ul>  <li>General understanding of computer network security concepts, technical controls, and applications.</li>  <li>Familiarity with reading threat intelligence reporting covering computer network security issues.</li>  <li>Base-level knowledge in ICS security concepts preferred but not necessary.</li></ul><h4 id=\"hardwaresoftware-requirements\">Hardware/Software Requirements:</h4><ul>  <li>Laptop computer for development, planning, and documentation during exercises.</li>  <li>No other significant technical requirements – lectures and exercises will be based around discussion.</li></ul><h3 id=\"agenda\">Agenda</h3><h4 id=\"day-1\">Day 1:</h4><ul>  <li>Introduction to strategy within a computer network defense environment.</li>  <li>Identifying unique aspects of ICS networks and their impact on strategy development.</li>  <li>Review of threat activity groups and threat intelligence reporting.</li>  <li>EXERCISE: Critical evaluation of threat intelligence reporting to extract actionable information.</li>  <li>Review of ICS-specific network defense concepts and strategies.</li>  <li>Discussion and examples of threat modeling and developing threat-focused defensive plans.</li>  <li>EXERCISE: Formulate threat model for hypothetical ICS network based on available reporting.</li>  <li>Combining organizational knowledge with threat environment assessment to develop specific network security strategy.</li>  <li>EXERCISE: Develop strategic network defense plan for hypothetical ICS network.</li>  <li>Plan review and debrief.</li></ul><h4 id=\"day-2\">Day 2:</h4><ul>  <li>Review of strategic plans and purpose.</li>  <li>Distinction between red teaming and wargaming.</li>  <li>Wargaming introduction, rules, and procedures.</li>  <li>Importance of and critical components of after-action analysis and iterative development.</li>  <li>EXERCISE: Classroom wargaming exercise testing developed network security strategy.</li>  <li>After-action review of wargaming exercise, course take-aways, and closing.</li></ul>"
 		},
 		
 
@@ -542,18 +606,22 @@
 
 		"presentation":{
 		
-			"active": "live",
-			"title": "Stateful Protocol Hunting",
-			"partner": "Dan Gunter",
-			"description": "<p>asd1</p>"
+			"active": 	"live",
+			"title": 	"Stateful Protocol Hunting",
+			"partner":	"active",
+			"name":		"Dan Gunter",
+			"role":		"Principal Threat Analyst",
+			"work":		"Dragos Inc",
+			"image":	"https://cs3sthlm.se/assets/speakers/dan-gunter.png",
+			"description": "<p>Over the last decade, two instances of industrial control system (ICS) targeted malware successfully impacted operations. Most recently, CRASHOVERRIDE targeted a Ukrainian transmission substation in December of 2016. In both cases, attackers developed malware that crafted industrial protocol packets to manipulate control systems either by hijacking the legitimate master server or hooking the network stack. Defense against properly crafted packets presents a unique challenge as many existing approaches simply analyze the integrity of a single packet. This talk will focus on what stateful analysis is and how you can add it to your detection or hunting strategy to perform deep protocol analysis. We will cover the steps necessary to begin stateful analysis and dive into thresholds you might set for detection.</p>"
 		
 		},
 		
 		"training": {
 			"active": "live",
 			"title": "Introduction to Threat Hunting in ICS",
-			"partner": "Ben Miller",
-			"description": "<p>asd2</p>"
+			"partner": "active",
+			"description": "<p>This one day class is an introduction to threat hunting and incident response for ICS environments. We will overview the business and security use cases of when and why threat hunting is valuable to organizations. We will progress by applying these concepts to corporate environments and industrial environments such as transmission or distribution control facilities, or plant distributed control systems (DCS).</p><p>This class will serve as an introduction to key concepts and provide a framework to develop active defenses for analysts and leadership. For existing active defense practitioners we will also include demonstrations of tools and tactics that can be immediately applied.</p><h4 id=\"outline\">Outline</h4><ul>  <li>Definition of threat hunting</li>  <li>NSM, data pivoting</li>  <li>Tools (tshark, bro, snort, cyberlens, elk)</li>  <li>Lab 1: Hunting the Red Team</li>  <li>Technique: Hypotheses</li>  <li>Technique: Zone to zone analysis</li>  <li>Technique: Timeline analysis</li>  <li>Lab 2: Operational Impact</li>  <li>Strategy: SMASH</li>  <li>Strategy: Collection Management Framework</li>  <li>Threat modeling of intelligence reports</li>  <li>Lab 3: Applying SMASH &amp; CMF</li>  <li>Lab 4 and 5: Capstone hunt</li></ul><h4 id=\"prerequisites\">Prerequisites</h4><p>Attendee should have a solid foundation of industrial control systems and a desire to apply active defense concepts such as hunting within their organization.</p><h4 id=\"hardware-requirements\">Hardware Requirements</h4><ul>  <li>Windows 7 or Windows 10 laptop with at least 8GB of ram and at least 100GB of free disk space</li>  <li>VMware Player or Workstation</li>  <li>Administrator privilege on your hardware</li>  <li>Computer that possesses a Ethernet port or supporting dongle</li>  <li>Computer that possesses USB ports or supporting dongles</li></ul>"
 		},
 		
 
@@ -570,12 +638,27 @@
 		"shortcode"	: "US",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/mark-stacey.png",
 		
+		
+		
+
 		"presentation":{
 		
-			"active": "live",
-			"title": "Hunting and Responding in ICS",
-			"partner": "Ben Miller",
-			"description": "<p>asd1</p>"		
+			"active": 	"live",
+			"title": 	"Hunting and Responding in ICS",
+			"partner":	"active",
+			"name":		"Ben Miller",
+			"role":		"Director of Threat Operations",
+			"work":		"Dragos Inc",
+			"image":	"https://cs3sthlm.se/assets/speakers/ben-miller.png",
+			"description": "<p>This presentation will leverage the previous 2-years of engagements from Dragos’ Threat Operations Center (TOC) to examine ICS security trends, discuss the current threat landscape, and describe common actions organizations can take to better protect, identify, and respond to advanced adversary groups specifically targeting ICS. This seminar will list the most common challenges organizations face and use case studies to describe improvements we have helped our customers implement. Dragos recognizes the ICS community is strong and learning from each other on what works is the best path to a more secure global infrastructure.</p>"
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"description": ""
 		},
 		
 
@@ -597,18 +680,22 @@
 
 		"presentation":{
 		
-			"active": "live",
-			"title": "Hunting and Responding in ICS",
-			"partner": "Mark Stacey",
-			"description": "<p>asd1</p>"
+			"active": 	"live",
+			"title": 	"Hunting and Responding in ICS",
+			"partner":	"active",
+			"name":		"Mark Stacey",
+			"role":		"Principal Threat Analyst",
+			"work":		"Dragos Inc",
+			"image":	"https://cs3sthlm.se/assets/speakers/mark-stacey.png",
+			"description": "<p>This presentation will leverage the previous 2-years of engagements from Dragos’ Threat Operations Center (TOC) to examine ICS security trends, discuss the current threat landscape, and describe common actions organizations can take to better protect, identify, and respond to advanced adversary groups specifically targeting ICS. This seminar will list the most common challenges organizations face and use case studies to describe improvements we have helped our customers implement. Dragos recognizes the ICS community is strong and learning from each other on what works is the best path to a more secure global infrastructure.</p>"
 		
 		},
 		
 		"training": {
 			"active": "live",
 			"title": "Introduction to Threat Hunting in ICS",
-			"partner": "Daniel Michaud-Soucy",
-			"description": "<p>asd2</p>"
+			"partner": "active",
+			"description": "<p>This one day class is an introduction to threat hunting and incident response for ICS environments. We will overview the business and security use cases of when and why threat hunting is valuable to organizations. We will progress by applying these concepts to corporate environments and industrial environments such as transmission or distribution control facilities, or plant distributed control systems (DCS).</p><p>This class will serve as an introduction to key concepts and provide a framework to develop active defenses for analysts and leadership. For existing active defense practitioners we will also include demonstrations of tools and tactics that can be immediately applied.</p><h4 id=\"outline\">Outline</h4><ul>  <li>Definition of threat hunting</li>  <li>NSM, data pivoting</li>  <li>Tools (tshark, bro, snort, cyberlens, elk)</li>  <li>Lab 1: Hunting the Red Team</li>  <li>Technique: Hypotheses</li>  <li>Technique: Zone to zone analysis</li>  <li>Technique: Timeline analysis</li>  <li>Lab 2: Operational Impact</li>  <li>Strategy: SMASH</li>  <li>Strategy: Collection Management Framework</li>  <li>Threat modeling of intelligence reports</li>  <li>Lab 3: Applying SMASH &amp; CMF</li>  <li>Lab 4 and 5: Capstone hunt</li></ul><h4 id=\"prerequisites\">Prerequisites</h4><p>Attendee should have a solid foundation of industrial control systems and a desire to apply active defense concepts such as hunting within their organization.</p><h4 id=\"hardware-requirements\">Hardware Requirements</h4><ul>  <li>Windows 7 or Windows 10 laptop with at least 8GB of ram and at least 100GB of free disk space</li>  <li>VMware Player or Workstation</li>  <li>Administrator privilege on your hardware</li>  <li>Computer that possesses a Ethernet port or supporting dongle</li>  <li>Computer that possesses USB ports or supporting dongles</li></ul>"
 		},
 		
 
@@ -630,10 +717,14 @@
 
 		"presentation":{
 		
-			"active": "live",
-			"title": "Stateful Protocol Hunting",
-			"partner": "Daniel Michaud-Soucy",
-			"description": "<p>asd2</p>"
+			"active": 	"live",
+			"title": 	"Stateful Protocol Hunting",
+			"partner":	"active",
+			"name":		"Daniel Michaud-Soucy",
+			"role":		"Principal Threat Analyst",
+			"work":		"Dragos Inc",
+			"image":	"https://cs3sthlm.se/assets/speakers/daniel-michaud-soucy.png",
+			"description": "<p>Over the last decade, two instances of industrial control system (ICS) targeted malware successfully impacted operations. Most recently, CRASHOVERRIDE targeted a Ukrainian transmission substation in December of 2016. In both cases, attackers developed malware that crafted industrial protocol packets to manipulate control systems either by hijacking the legitimate master server or hooking the network stack. Defense against properly crafted packets presents a unique challenge as many existing approaches simply analyze the integrity of a single packet. This talk will focus on what stateful analysis is and how you can add it to your detection or hunting strategy to perform deep protocol analysis. We will cover the steps necessary to begin stateful analysis and dive into thresholds you might set for detection.</p>"
 		
 		},
 		
@@ -663,10 +754,14 @@
 
 		"presentation":{
 		
-			"active": "live",
-			"title": "Using fake BTS as a part of pentest of devices using SIM cards for data transmission",
-			"partner": "",
-			"description": "<p>asd1</p>"
+			"active": 	"live",
+			"title": 	"Using fake BTS as a part of pentest of devices using SIM cards for data transmission",
+			"partner":	"",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "<p>Fake base stations are often discussed as a threat for privacy of mobile phone users. However, many other devices, such as cars, lifts or industrial control systems (ICS), are increasingly using cellular connectivity. It makes some difficulties during penetration tests – even though data sent through this communication channel might be exactly the same as in case of using WiFi network, its access is much more difficult. Most security guidelines ignore this topic. It turns out that fake BTS, so often presented in a bad light, can be also used to support security examination of this communication channel. The presentation will be based on practice - built testbed and conducted experiments. In addition, hardware requirements for such environment and legal aspects in diffrent jurisdictions will be discussed.</p>"
 		
 		},
 		
@@ -696,9 +791,13 @@
 
 		"presentation":{
 		
-			"active": "live",
-			"title": "Unblockable Chains - Is Blockchain the ultimate malicious infrastructure?",
-			"partner": "",
+			"active": 	"live",
+			"title": 	"Unblockable Chains - Is Blockchain the ultimate malicious infrastructure?",
+			"partner":	"",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
 			"description": "<p>In this principal research, we investigate the possibilities blockchain technologies pose as an infrastructure for malicious operations. We will demonstrate a POC of a fully functional C&amp;C infrastructure on top of the Ethereum network - the second largest public blockchain which also acts as a distributed computing platform featuring a smart contract functionality.</p>"
 		
 		},
@@ -729,10 +828,14 @@
 
 		"presentation":{
 		
-			"active": "live",
-			"title": "Recent APT Campaign targeting Energy Sector Assets",
-			"partner": "",
-			"description": "<p>asd1</p>"
+			"active": 	"live",
+			"title": 	"Recent APT Campaign targeting Energy Sector Assets",
+			"partner":	"",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "<p>Over the past year, a concentrated effort has been focused on specific energy sector critical assets, leveraging trusted relationships within supply chains and other partnerships in an attempt to gain access to corporate and control system networks. This technical discussion will review the threat actor’s tactics and techniques observed during multiple on-site incident response engagements conducted by the DHS NCCIC Hunt and Incident Response Team related to this campaign.</p>"
 		
 		},
 		
@@ -762,10 +865,14 @@
 
 		"presentation":{
 		
-			"active": "live",
-			"title": "ICS Incident Response: Lessions and mitigations from the field",
-			"partner": "",
-			"description": "<p>asd1</p>"
+			"active": 	"live",
+			"title": 	"ICS Incident Response: Lessions and mitigations from the field",
+			"partner":	"",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "<p>This presentation will go through key DHS incident response efforts impacting critical infrastructure over time. Using case studies and examples, we will detail root cause analysis of these incidents and provide recommendations for remediation. We will cover major public incidents (Ukraine, Trition, BlacEnergy, Havex…..) as well as other less known incidents DHS has worked with significance. The target audience is critical infrastructure asset owners/operators and ICS security personnel who will take away key insights derived from DHS’s role in defending US critical infrastructure. This presentation will contain new (especially if something happens between now and then) content as well as historical content that articulates a particular defensive lesson learned.</p>"
 		
 		},
 		
@@ -795,10 +902,14 @@
 
 		"presentation":{
 		
-			"active": "live",
-			"title": "Designing a second generation cyber range",
-			"partner": "",
-			"description": "<p>asd1</p>"
+			"active": 	"live",
+			"title": 	"Designing a second generation cyber range",
+			"partner":	"",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "<p>Coming soon.</p>"
 		
 		},
 		
