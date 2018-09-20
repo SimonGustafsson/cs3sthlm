@@ -5,8 +5,8 @@
     <description>CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 20 Sep 2018 09:49:11 +0000</pubDate>
-    <lastBuildDate>Thu, 20 Sep 2018 09:49:11 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Sep 2018 11:58:18 +0000</pubDate>
+    <lastBuildDate>Thu, 20 Sep 2018 11:58:18 +0000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -144,6 +144,12 @@
 	&lt;div class=&quot;partner--item &quot;&gt;
 		&lt;a href=&quot;https://netnordic.se&quot; target=&quot;_blank&quot;&gt;
 			&lt;img src=&quot;/assets/partners/netnordic.png&quot; alt=&quot;Netnordic&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item &quot;&gt;
+		&lt;a href=&quot;https://www.secmatters.com&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/securitymatters.png&quot; alt=&quot;SecurityMatters&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 

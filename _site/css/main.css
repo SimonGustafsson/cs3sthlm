@@ -2850,7 +2850,7 @@ h1, h2, h3, h4 {
   width: 100%; }
   .partner--list {
     display: flex;
-    align-items: stretch;
+    align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 40px;

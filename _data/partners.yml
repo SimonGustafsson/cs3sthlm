@@ -185,3 +185,13 @@
   expo: "yes"
   postorder: 17
 
+- id: 17
+  level: partner
+  company: SecurityMatters
+  logo: securitymatters.png
+  url: https://www.secmatters.com
+  bio:
+  type: small
+  order: 6
+  expo: "yes"
+  postorder: 18
