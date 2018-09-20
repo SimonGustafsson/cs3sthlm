@@ -3,10 +3,10 @@
   <channel>
     <title>CS3STHLM</title>
     <description>CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.</description>
-    <link>http://0.0.0.0:4000/</link>
-    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 20 Sep 2018 09:17:36 +0000</pubDate>
-    <lastBuildDate>Thu, 20 Sep 2018 09:17:36 +0000</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 20 Sep 2018 09:41:41 +0000</pubDate>
+    <lastBuildDate>Thu, 20 Sep 2018 09:41:41 +0000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -150,8 +150,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Wed, 19 Sep 2018 04:00:00 +0000</pubDate>
-        <link>http://0.0.0.0:4000/news/2018/09/19/cs3sthlm-newsletter-september.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/news/2018/09/19/cs3sthlm-newsletter-september.html</guid>
+        <link>/news/2018/09/19/cs3sthlm-newsletter-september.html</link>
+        <guid isPermaLink="true">/news/2018/09/19/cs3sthlm-newsletter-september.html</guid>
         
         
         <category>news</category>
@@ -227,8 +227,8 @@
 
 </description>
         <pubDate>Tue, 18 Sep 2018 04:00:00 +0000</pubDate>
-        <link>http://0.0.0.0:4000/blog/erik-johansson/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/blog/erik-johansson/</guid>
+        <link>/blog/erik-johansson/</link>
+        <guid isPermaLink="true">/blog/erik-johansson/</guid>
         
         
         <category>blog</category>
@@ -311,8 +311,8 @@ things in the interview that you didnt already knew about the standard!&lt;/em&g
 &lt;p&gt;I am happy that I have been invited to give a lecture at CS3STHLM. I am looking forward to meet IRL some old friends from the ICS security community and to make a lot of new ones in Stockholm! I heard rumours there might be a gathering of the European Chapter of BEER-ISAC also…&lt;/p&gt;
 </description>
         <pubDate>Mon, 17 Sep 2018 05:00:00 +0000</pubDate>
-        <link>http://0.0.0.0:4000/blog/dr-stephan-beirer/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/blog/dr-stephan-beirer/</guid>
+        <link>/blog/dr-stephan-beirer/</link>
+        <guid isPermaLink="true">/blog/dr-stephan-beirer/</guid>
         
         
         <category>blog</category>
@@ -414,8 +414,8 @@ things in the interview that you didnt already knew about the standard!&lt;/em&g
 &lt;p&gt;A great bonus of taking the honeypot class is that you also will get a view on the strange and ‘arcane’ protocols that lives in most industrial networks!&lt;/p&gt;
 </description>
         <pubDate>Mon, 17 Sep 2018 04:00:00 +0000</pubDate>
-        <link>http://0.0.0.0:4000/blog/mikael-vingaard/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/blog/mikael-vingaard/</guid>
+        <link>/blog/mikael-vingaard/</link>
+        <guid isPermaLink="true">/blog/mikael-vingaard/</guid>
         
         
         <category>blog</category>
@@ -453,8 +453,8 @@ things in the interview that you didnt already knew about the standard!&lt;/em&g
 &lt;p&gt;Best wishes from the CS3STHLM crew  &lt;/p&gt;
 </description>
         <pubDate>Mon, 30 Apr 2018 04:00:00 +0000</pubDate>
-        <link>http://0.0.0.0:4000/news/2018/04/30/cs3sthlm-newsletter-april.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/news/2018/04/30/cs3sthlm-newsletter-april.html</guid>
+        <link>/news/2018/04/30/cs3sthlm-newsletter-april.html</link>
+        <guid isPermaLink="true">/news/2018/04/30/cs3sthlm-newsletter-april.html</guid>
         
         
         <category>news</category>
@@ -477,8 +477,8 @@ things in the interview that you didnt already knew about the standard!&lt;/em&g
 The CS3STHLM crew&lt;/p&gt;
 </description>
         <pubDate>Wed, 20 Dec 2017 04:00:00 +0000</pubDate>
-        <link>http://0.0.0.0:4000/news/2017/12/20/cs3sthlm-newsletter-december.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/news/2017/12/20/cs3sthlm-newsletter-december.html</guid>
+        <link>/news/2017/12/20/cs3sthlm-newsletter-december.html</link>
+        <guid isPermaLink="true">/news/2017/12/20/cs3sthlm-newsletter-december.html</guid>
         
         
         <category>news</category>
@@ -506,8 +506,8 @@ The CS3STHLM crew&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
         <pubDate>Wed, 04 Oct 2017 04:00:00 +0000</pubDate>
-        <link>http://0.0.0.0:4000/press/2017/10/04/cs3sthlm-presents-ics-and-iot-lab-together-with-norwegian-energy-cert.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/press/2017/10/04/cs3sthlm-presents-ics-and-iot-lab-together-with-norwegian-energy-cert.html</guid>
+        <link>/press/2017/10/04/cs3sthlm-presents-ics-and-iot-lab-together-with-norwegian-energy-cert.html</link>
+        <guid isPermaLink="true">/press/2017/10/04/cs3sthlm-presents-ics-and-iot-lab-together-with-norwegian-energy-cert.html</guid>
         
         
         <category>press</category>
@@ -531,8 +531,8 @@ The CS3STHLM crew&lt;/p&gt;
 &lt;p&gt;CS3STHLM is an international summit that focus entirely on cyber security protection of SCADA/ICS and critical infrastructure. CS3STHLM attracts about 250-300 people from around the world to meet, network and gain knowledge. CS3STHLM takes place October 23-26 at the venue Nalen in central Stockholm.&lt;/p&gt;
 </description>
         <pubDate>Thu, 14 Sep 2017 04:00:00 +0000</pubDate>
-        <link>http://0.0.0.0:4000/press/2017/09/14/advenica-announces-new-collaboration-with-cs3sthlm.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/press/2017/09/14/advenica-announces-new-collaboration-with-cs3sthlm.html</guid>
+        <link>/press/2017/09/14/advenica-announces-new-collaboration-with-cs3sthlm.html</link>
+        <guid isPermaLink="true">/press/2017/09/14/advenica-announces-new-collaboration-with-cs3sthlm.html</guid>
         
         
         <category>press</category>
@@ -592,8 +592,8 @@ standard (1 day) &lt;/a&gt;&lt;/li&gt;
 &lt;p&gt;To get a taste of what the summit is, you can find old presentations from 2015 and 2016 on &lt;a href=&quot;https://www.youtube.com/channel/UCkD15o_9eJxUc9eeHtWSQ6Q&quot;&gt;youtube/cs3sthlm&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 13 Sep 2017 04:00:00 +0000</pubDate>
-        <link>http://0.0.0.0:4000/news/2017/09/13/cs3sthlm-newsletter-september.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/news/2017/09/13/cs3sthlm-newsletter-september.html</guid>
+        <link>/news/2017/09/13/cs3sthlm-newsletter-september.html</link>
+        <guid isPermaLink="true">/news/2017/09/13/cs3sthlm-newsletter-september.html</guid>
         
         
         <category>news</category>
@@ -627,8 +627,8 @@ standard (1 day) &lt;/a&gt;&lt;/li&gt;
 &lt;p&gt;Phone: +46 708 33 03 78&lt;/p&gt;
 </description>
         <pubDate>Tue, 13 Jun 2017 04:00:00 +0000</pubDate>
-        <link>http://0.0.0.0:4000/press/2017/06/13/malware-that-can-knock-out-power.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/press/2017/06/13/malware-that-can-knock-out-power.html</guid>
+        <link>/press/2017/06/13/malware-that-can-knock-out-power.html</link>
+        <guid isPermaLink="true">/press/2017/06/13/malware-that-can-knock-out-power.html</guid>
         
         
         <category>press</category>
