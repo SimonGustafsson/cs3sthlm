@@ -654,6 +654,13 @@
 		
 		},
 		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"description": ""
+		},
+		
 
 		"bio": "<p>Mark Stacey is currently a Principle Threat Analyst with Dragos Inc. In this role, Mark delivers holistic incident response, threat hunting, and adversary research for Industrial Control Systems worldwide. Prior to joining Dragos, Mark was a member of RSA’s Incident Response team for 5 years where he provided incident response, discovery, and forensic services globally for private industry, financial institutions, law firms, foreign and domestic governments. Mark spent 7 years with the Department of Energy (DOE) performing cyber and intelligence analysis for various government clients. He has functioned in both cybersecurity operations and research within the intelligence community and frequently provides community education through outreach programs with federal agencies.</p>"
 	},
