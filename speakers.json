@@ -33,6 +33,10 @@ layout:
 			"active": "{{ item.active}}",
 			"title": "{{ item.subject }}",
 			"partner": "{{ item.partner }}",
+			"name":		"{{ item.name }}",
+			"role":		"{{ item.role }}",
+			"work":		"{{ item.work }}",
+			"image":	"https://cs3sthlm.se/assets/speakers/{{ item.image }}",
 			"description": {{ item.description | markdownify | strip_newlines | jsonify }}
 		},
 		{% endfor %}
