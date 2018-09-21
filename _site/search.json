@@ -223,17 +223,9 @@
   
    {
      
-        "title"    : "Home",
-        "url"      : "/",
-        "path"     : ""
-     
-   },
-  
-   {
-     
-        "title"    : "Archive",
-        "url"      : "/about/archive/",
-        "path"     : "/about/archive/"
+        "title"    : "Welcome",
+        "url"      : "/welcome/",
+        "path"     : "/welcome/"
      
    },
   
@@ -266,6 +258,14 @@
         "title"    : "ICS Lab",
         "url"      : "/ics-lab/",
         "path"     : "/ics-lab/"
+     
+   },
+  
+   {
+     
+        "title"    : "Archive",
+        "url"      : "/about/archive/",
+        "path"     : "/about/archive/"
      
    },
   
@@ -319,14 +319,6 @@
   
    {
      
-        "title"    : "Welcome",
-        "url"      : "/welcome/",
-        "path"     : "/welcome/"
-     
-   },
-  
-   {
-     
         "title"    : "Call for Participation",
         "url"      : "/call-for-proposals/",
         "path"     : "/call-for-proposals/"
@@ -359,6 +351,14 @@
   
    {
      
+        "title"    : "Home",
+        "url"      : "/",
+        "path"     : ""
+     
+   },
+  
+   {
+     
         "title"    : "Program",
         "url"      : "/program/",
         "path"     : "/program/"
@@ -379,17 +379,17 @@
   
    {
      
-        "title"    : "Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense",
-        "url"      : "/program/presentations/joe-slowik/",
-        "path"     : "/program/presentations/joe-slowik/"
+        "title"    : "ICS Strategic Planning and War Gaming",
+        "url"      : "/program/trainings/joe-slowik/",
+        "path"     : "/program/trainings/joe-slowik/"
      
    },
   
    {
      
-        "title"    : "ICS Strategic Planning and War Gaming",
-        "url"      : "/program/trainings/joe-slowik/",
-        "path"     : "/program/trainings/joe-slowik/"
+        "title"    : "Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense",
+        "url"      : "/program/presentations/joe-slowik/",
+        "path"     : "/program/presentations/joe-slowik/"
      
    },
   
@@ -530,6 +530,10 @@
         "title"    : "Cyber security for the energy sector – an introduction to ISO/IEC 27019 and the BDEW/OE Whitepaper",
         "url"      : "/program/trainings/stephan-beirer/",
         "path"     : "/program/trainings/stephan-beirer/"
+     
+   },
+  
+   {
      
    },
   
