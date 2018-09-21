@@ -5,8 +5,8 @@
     <description>CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 20 Sep 2018 11:58:18 +0000</pubDate>
-    <lastBuildDate>Thu, 20 Sep 2018 11:58:18 +0000</lastBuildDate>
+    <pubDate>Fri, 21 Sep 2018 08:12:18 +0000</pubDate>
+    <lastBuildDate>Fri, 21 Sep 2018 08:12:18 +0000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -53,103 +53,103 @@
 
 	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
 		&lt;a href=&quot;https://www.advenica.com/en&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/advenica.png&quot; alt=&quot;Advenica&quot; /&gt;
+			&lt;img src=&quot;/assets/partners/advenica.png&quot; alt=&quot;Advenica&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
 		&lt;a href=&quot;https://www.msb.se/en/&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/msb-english.png&quot; alt=&quot;MSB&quot; /&gt;
+			&lt;img src=&quot;/assets/partners/msb-english.png&quot; alt=&quot;MSB&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
 		&lt;a href=&quot;https://www.first.org&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/first.png&quot; alt=&quot;FIRST&quot; /&gt;
+			&lt;img src=&quot;/assets/partners/first.png&quot; alt=&quot;FIRST&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
 		&lt;a href=&quot;https://dragos.com&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/dragos.png&quot; alt=&quot;Dragos&quot; /&gt;
+			&lt;img src=&quot;/assets/partners/dragos.png&quot; alt=&quot;Dragos&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
 		&lt;a href=&quot;https://www.kraftcert.no/english/index.html&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/kraftcert.png&quot; alt=&quot;KraftCERT&quot; /&gt;
+			&lt;img src=&quot;/assets/partners/kraftcert.png&quot; alt=&quot;KraftCERT&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
 		&lt;a href=&quot;https://www.gai-netconsult.de/index.php?id=startseite&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/gai-netconsult.png&quot; alt=&quot;Gai Netconsult&quot; /&gt;
+			&lt;img src=&quot;/assets/partners/gai-netconsult.png&quot; alt=&quot;Gai Netconsult&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item &quot;&gt;
 		&lt;a href=&quot;https://omnisiens.se&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/omnisiens.png&quot; alt=&quot;OMNISIENS&quot; /&gt;
+			&lt;img src=&quot;/assets/partners/omnisiens.png&quot; alt=&quot;OMNISIENS&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item &quot;&gt;
 		&lt;a href=&quot;https://romab.com&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/romab.png&quot; alt=&quot;ROMAB&quot; /&gt;
+			&lt;img src=&quot;/assets/partners/romab.png&quot; alt=&quot;ROMAB&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item &quot;&gt;
 		&lt;a href=&quot;https://sysctl.se&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/sysctl.png&quot; alt=&quot;sysctl&quot; /&gt;
+			&lt;img src=&quot;/assets/partners/sysctl.png&quot; alt=&quot;sysctl&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item &quot;&gt;
 		&lt;a href=&quot;http://managementdoctors.se&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/md.png&quot; alt=&quot;Management Doctors&quot; /&gt;
+			&lt;img src=&quot;/assets/partners/md.png&quot; alt=&quot;Management Doctors&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item &quot;&gt;
 		&lt;a href=&quot;https://www.kaspersky.com&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/kaspersky.png&quot; alt=&quot;Kaspersky&quot; /&gt;
+			&lt;img src=&quot;/assets/partners/kaspersky.png&quot; alt=&quot;Kaspersky&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item &quot;&gt;
 		&lt;a href=&quot;https://www.recordedfuture.com&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/recorded-future.png&quot; alt=&quot;Recorded Future&quot; /&gt;
+			&lt;img src=&quot;/assets/partners/recorded-future.png&quot; alt=&quot;Recorded Future&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item &quot;&gt;
 		&lt;a href=&quot;https://waterfall-security.com&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/waterfall-security.png&quot; alt=&quot;Waterfall Security&quot; /&gt;
+			&lt;img src=&quot;/assets/partners/waterfall-security.png&quot; alt=&quot;Waterfall Security&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item &quot;&gt;
 		&lt;a href=&quot;https://en.energinet.dk&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/energinet.png&quot; alt=&quot;EnergiNet&quot; /&gt;
+			&lt;img src=&quot;/assets/partners/energinet.png&quot; alt=&quot;EnergiNet&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item &quot;&gt;
 		&lt;a href=&quot;https://www.netresec.com&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/netresec.png&quot; alt=&quot;NETRESEC&quot; /&gt;
+			&lt;img src=&quot;/assets/partners/netresec.png&quot; alt=&quot;NETRESEC&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item &quot;&gt;
 		&lt;a href=&quot;https://netnordic.se&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/netnordic.png&quot; alt=&quot;Netnordic&quot; /&gt;
+			&lt;img src=&quot;/assets/partners/netnordic.png&quot; alt=&quot;Netnordic&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item &quot;&gt;
 		&lt;a href=&quot;https://www.secmatters.com&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/securitymatters.png&quot; alt=&quot;SecurityMatters&quot; /&gt;
+			&lt;img src=&quot;/assets/partners/securitymatters.png&quot; alt=&quot;SecurityMatters&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 

@@ -3,7 +3,7 @@
 {% for partner in sortedpartners %}
 	<div class="partner--item {% if partner.type == "large" %}partner--item-large{% endif %}">
 		<a href="{{ partner.url }}" target="_blank">
-			<img src="{{ site.baseurl }}/assets/partners/{{ partner.logo }}" alt="{{ partner.company }}">
+			<img src="{{ site.baseurl }}/assets/partners/{{ partner.logo }}" alt="{{ partner.company }}" width="auto" height="100%">
 		</a>
 	</div>
 {% endfor %}
