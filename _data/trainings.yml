@@ -311,7 +311,7 @@
         Beginner to Intermediate
 
 - id: 5
-  type: presentation
+  type: training
   author:
     - name: Joe Slowik
       role: Adversary Hunter
@@ -380,7 +380,7 @@
 
 
 - id: 6
-  type: presentation
+  type: training
   author:
     - name: Daniel Michaud-Soucy
       role: Principal Threat Analyst
