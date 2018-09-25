@@ -7,13 +7,24 @@ layout:
 		"id"		: "{{ item.id }}",
 		"day"		: "{{ item.day }}",
 		"type"		: "{{ item.type }}",
+		"date"		: "{{ item.date }}",
 		"time"		: "{{ item.time }}",
+		"place" 	: "{{ item.place }}",
+		"subject" 	: "{{ item.subject | strip_html }}",
+		"author" 	: "{{ item.author }}",
 		"role"		: "{{ item.role }}",
-		"headline"	: "{{ item.headline | strip_html }}",
-		"speaker"	: "{{ item.speaker }}",
 		"work"		: "{{ item.work }}",
-		"extra"		: "{{ item.extra }}",
-		"place"		: "{{ item.place }}"
+		"image" 	: "{{ item.image }}",
+		"partner": {
+		{% for item in item.partner %}
+		"active"	: "{{ item.active }}",
+		"author" 	: "{{ item.author }}",
+		"role" 		: "{{ item.role }}",
+		"work" 		: "{{ item.work }}",
+		"image" 	: "{{ item.image }}"
+		{% endfor %}
+		},
+		"description": {{ item.description | markdownify | strip_newlines | jsonify }}
 	}{% unless forloop.last %},{% endunless %}
 {% endfor %}
 ]}
