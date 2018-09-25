@@ -70,6 +70,7 @@
     {
       "id":     "6",
       "group":  "lunch",
+      "cat":    "Training",
       "day":    "Monday",
       "date":   "22 Oct",
       "starter": "",
@@ -84,6 +85,7 @@
     {
       "id":     "7",
       "group":  "lunch",
+      "cat":    "Training",
       "day":    "Tuesday",
       "date":   "23 Oct",
       "starter": "",
@@ -98,6 +100,7 @@
     {
       "id":     "8",
       "group":  "lunch",
+      "cat":    "Summit",
       "day":    "Wednesday",
       "date":   "24 Oct",
       "starter": "",
@@ -112,6 +115,7 @@
     {
       "id":     "9",
       "group":  "lunch",
+      "cat":    "Summit",
       "day":    "Thursday",
       "date":   "25 Oct",
       "starter": "",
@@ -126,6 +130,7 @@
     {
       "id":     "10",
       "group":  "dinner",
+      "cat":    "Network Dinner",
       "day":    "Wednesday",
       "date":   "24 Oct",
       "starter": "Chantarelle soup with pirogues",

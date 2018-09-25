@@ -18,6 +18,7 @@ layout:
     {
       "id":     "{{ item.id }}",
       "group":  "{{ item.group }}",
+      "cat":    "{{ item.cat }}",
       "day":    "{{ item.day }}",
       "date":   "{{ item.date }}",
       "starter": "{{ item.starter }}",
