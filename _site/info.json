@@ -70,7 +70,7 @@
     {
       "id":     "6",
       "group":  "lunch",
-      "day":    "monday",
+      "day":    "Monday",
       "date":   "22 Oct",
       "starter": "",
       "main":   "",
@@ -84,7 +84,7 @@
     {
       "id":     "7",
       "group":  "lunch",
-      "day":    "tuesday",
+      "day":    "Tuesday",
       "date":   "23 Oct",
       "starter": "",
       "main":   "",
@@ -98,7 +98,7 @@
     {
       "id":     "8",
       "group":  "lunch",
-      "day":    "wednesday",
+      "day":    "Wednesday",
       "date":   "24 Oct",
       "starter": "",
       "main":   "",
@@ -112,7 +112,7 @@
     {
       "id":     "9",
       "group":  "lunch",
-      "day":    "thursday",
+      "day":    "Thursday",
       "date":   "25 Oct",
       "starter": "",
       "main":   "",
@@ -126,7 +126,7 @@
     {
       "id":     "10",
       "group":  "dinner",
-      "day":    "wednesday",
+      "day":    "Wednesday",
       "date":   "24 Oct",
       "starter": "Chantarelle soup with pirogues",
       "main":   "Flank steak Café de Paris with semi-dried tomato and potato wedges",
