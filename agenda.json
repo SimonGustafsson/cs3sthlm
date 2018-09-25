@@ -14,14 +14,14 @@ layout:
 		"author" 	: "{{ item.author }}",
 		"role"		: "{{ item.role }}",
 		"work"		: "{{ item.work }}",
-		"image" 	: "{{ item.image }}",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/{{ item.image }}",
 		"partner": {
 		{% for item in item.partner %}
 		"active"	: "{{ item.active }}",
 		"author" 	: "{{ item.author }}",
 		"role" 		: "{{ item.role }}",
 		"work" 		: "{{ item.work }}",
-		"image" 	: "{{ item.image }}"
+		"image" 	: "https://cs3sthlm.se/assets/speakers/{{ item.image }}"
 		{% endfor %}
 		},
 		"description": {{ item.description | markdownify | strip_newlines | jsonify }}

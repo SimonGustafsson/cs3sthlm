@@ -55,7 +55,7 @@
 
 - id: 8
   day: d2-main
-  type: workshop
+  type: Training
   date: 22-23 October
   time: 09:00 - 17:00
   place: Harlem
@@ -144,7 +144,7 @@
 
 - id: 9
   day: d2-main
-  type: workshop
+  type: Training
   time: 09:00 - 17:00
   role: Workshop
   headline: An introduction of the IEC 62443
@@ -154,7 +154,7 @@
 
 - id: 10
   day: d2-main
-  type: workshop
+  type: Training
   time: 09:00 - 17:00
   role: Workshop
   headline: Practical SCADA/ICS Honeypots
