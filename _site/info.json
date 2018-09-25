@@ -7,7 +7,10 @@
       "title": "Bromma",
       "range": "8,9 km",
       "description": "Bromma Stockholm Airport is Stockholm's city-airport and is the quickest way to and from Stockholm."
-    } ,
+    }
+    
+
+     ,
   
     
     {
@@ -17,7 +20,10 @@
       "title": "Arlanda",
       "range": "41,5 km",
       "description": "Arlanda is Sweden's biggest airport and acts like a central hub for the region of Stockholm and Scandinavia."
-    } ,
+    }
+    
+
+     ,
   
     
     {
@@ -27,7 +33,10 @@
       "title": "Hötorgets T-bana",
       "range": "0,5 km",
       "description": "Exit Olof Palmes gata, turn right on to Olof Palmes gata and take the stairs up to Malmskillnadsgatan. Continue straight along David Bagares gata. Take the first right onto Regeringsgatan, Nalen is on the left side."
-    } ,
+    }
+    
+
+     ,
   
     
     {
@@ -37,7 +46,10 @@
       "title": "Östermalmstorgs T-bana",
       "range": "0,6 km",
       "description": "Exit towards Birger Jarlsgatan, turn right and follow Birger Jarlsgatan past Stureplan to Engelbrektsplan. Turn left onto David Bagares gata, up the stairs to Regeringsgatan. Turn left around the corner and you are at Nalen."
-    } ,
+    }
+    
+
+     ,
   
     
     {
@@ -47,10 +59,79 @@
       "title": "Elite Hotel Stockholm Plaza",
       "range": "0,2 km",
       "description": "Historical Elite Hotel Stockholm Plaza is located in central Stockholm near the beautiful Humlegården park and lively Stureplan. Elite Hotel Stockholm Plaza is only a 220m short walk from the venue Nalen."
-    } ,
-  
+    }
+    
+
      ,
   
-     
+    
+
+    
+    {
+      "id":     "6",
+      "group":  "lunch",
+      "day":    "monday",
+      "date":   "22 Oct",
+      "starter": "",
+      "main":   "",
+      "dessert": "",
+      "menu":   "Baked rainbow fillet with white wine sauce and dill potatoes" 
+    } ,
+  
+    
+
+    
+    {
+      "id":     "7",
+      "group":  "lunch",
+      "day":    "tuesday",
+      "date":   "23 Oct",
+      "starter": "",
+      "main":   "",
+      "dessert": "",
+      "menu":   "Game meatballs with lingonberry sauce and pickled cucumbers" 
+    } ,
+  
+    
+
+    
+    {
+      "id":     "8",
+      "group":  "lunch",
+      "day":    "wednesday",
+      "date":   "24 Oct",
+      "starter": "",
+      "main":   "",
+      "dessert": "",
+      "menu":   "Lightly baked tuna with pepper cream and potato salad" 
+    } ,
+  
+    
+
+    
+    {
+      "id":     "9",
+      "group":  "lunch",
+      "day":    "thursday",
+      "date":   "25 Oct",
+      "starter": "",
+      "main":   "",
+      "dessert": "",
+      "menu":   "Roasted veal with Västerbotten sauce and honey roasted root vegetables" 
+    } ,
+  
+    
+
+    
+    {
+      "id":     "10",
+      "group":  "dinner",
+      "day":    "wednesday",
+      "date":   "24 Oct",
+      "starter": "Chantarelle soup with pirogues",
+      "main":   "Flank steak Café de Paris with semi-dried tomato and potato wedges",
+      "dessert": "Apple Cheesecake with raspberry vanila sauce",
+      "menu":   "" 
+    } 
   
 ]}

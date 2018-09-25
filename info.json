@@ -11,6 +11,19 @@ layout:
       "title": "{{ item.title }}",
       "range": "{{ item.range }}",
       "description": "{{ item.description }}"
+    }
+    {% endif %}
+
+    {% if item.type == "food" %}
+    {
+      "id":     "{{ item.id }}",
+      "group":  "{{ item.group }}",
+      "day":    "{{ item.day }}",
+      "date":   "{{ item.date }}",
+      "starter": "{{ item.starter }}",
+      "main":   "{{ item.main }}",
+      "dessert": "{{ item.dessert }}",
+      "menu":   "{{ item.menu }}" 
     }{% endif %} {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]}
