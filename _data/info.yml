@@ -59,13 +59,10 @@
 - id: 7
   type: food
   group: dinner
-  day:
-    - wednesday:
-      - date: 24 Oct
-        menu:
-          - starter: Chantarelle soup with pirogues
-            main: Flank steak Café de Paris with semi-dried tomato and potato wedges
-            dessert: Apple Cheesecake with raspberry vanila sauce
+  date: 24 Oct
+  starter: Chantarelle soup with pirogues
+  main: Flank steak Café de Paris with semi-dried tomato and potato wedges
+  dessert: Apple Cheesecake with raspberry vanila sauce
 
 
 
