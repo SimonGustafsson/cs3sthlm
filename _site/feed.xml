@@ -5,9 +5,55 @@
     <description>CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 25 Sep 2018 15:01:29 +0000</pubDate>
-    <lastBuildDate>Tue, 25 Sep 2018 15:01:29 +0000</lastBuildDate>
+    <pubDate>Wed, 26 Sep 2018 07:46:06 +0000</pubDate>
+    <lastBuildDate>Wed, 26 Sep 2018 07:46:06 +0000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>Kai Thomsen - Senior Incident Responder</title>
+        <description>&lt;p&gt;&lt;em&gt;This is a blog post with Kai Thomsen, a senior incident responder at AUDI AG.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 class=&quot;blog-title&quot; itemprop=&quot;name headline&quot;&gt;Kai Thomsen - Senior Incident Responder&lt;/h1&gt;
+
+&lt;h4 id=&quot;what-is-your-day-job-where-are-you-working-and-what-do-you-do&quot;&gt;What is your day job, where are you working and what do you do? &lt;/h4&gt;
+&lt;p&gt;I am a senior Incident Responder at AUDI AG. My office is in Ingolstadt at Audi’s headquarters, but takes me where ever we have to investigate. Currently we a building up a joint Enterprise/ICS/Car cyber defense team. This means learning about and integrating three sometimes very different mindsets. Quite a challenge, but I’m convinced that we won’t be very successful without these integrated teams. I also teach for SANS in the ICS curriculum. And since we are a small team, I get to teach all over the world, which is at the same time interesting and challenging considering all the different countries and cultures I get to teach in.&lt;/p&gt;
+
+&lt;h4 id=&quot;for-how-long-have-you-worked-in-the-field&quot;&gt;For how long have you worked in the field? &lt;/h4&gt;
+&lt;p&gt;Computers and hacking have been kind of my thing since I was thirteen. After university, in 2001, when I finally had to get a real job, I got started as a network admin tasked with passive security (firewalls, IDSses, etc.) and then moved on to what nowadays is called active defense, mainly Network Security Monitoring and Incident Response. When Stuxnet hit in 2010 and caused a lot of headache for us at the company I was working at back then I started to focus more on ICS security.&lt;/p&gt;
+
+&lt;h4 id=&quot;you-give-classes-as-a-technical-trainer-for-icsscada-security-do-you-see-a-lot-of-interest-in-these-issues&quot;&gt;You give classes as a technical trainer for ICS/SCADA security, do you see a lot of interest in these issues? &lt;/h4&gt;
+&lt;p&gt;I teach the “ICS Active Defense and Incident Response” course at SANS (ICS515). And we have definitely seen interest increasing in this and other ICS courses over the last year. When I look at the current threat landscape, this was absolutely necessary. We need a lot more knowledgable and capable active defenders to secure our critical infrastructures and industries.&lt;/p&gt;
+
+&lt;h4 id=&quot;have-you-ever-destroyed-a-car-or-something-physical-as-part-of-what-you-do-in-your-day-work&quot;&gt;Have you ever destroyed a car, or something physical, as part of what you do in your day work? &lt;/h4&gt;
+&lt;p&gt;Well, yes, but keep in mind, I am an incident responder, not I researcher so my main mantra especially in ICS/SCADA environments is to always put safety and reliability of operations first. But as probably anyone who as worked on many incidents I have my own stories to tell about devices and thus evidence I destroyed because of a stupid mistake I made.  With regard to what you are probably more interested in, do I crash vehicles with my mad cyber skills, that’s a) not how this works and b) the job of our dedicated Car/IT Security team.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-is-the-hype-in-relation-to-cyber-security-and-vehicles&quot;&gt;What is the hype in relation to cyber security and vehicles? &lt;/h4&gt;
+&lt;p&gt;In my opinion the hype is in the way current research gets reported vs. what current threats against vehicles actually are. Most organized crime around vehicles is about stealing vehicles or spare parts. Of course this is not as sexy for a story than say hackers taking over autonomous vehicles. If you’d like to get my full view on this, come to my talk ;-)
+What is the biggest challenges to automotive area with regards to security? I think the biggest challenge is software developers and automotive engineers understanding each other’s development processes and constraints. And learning to understand their different culture and language. Without these basics we’ll have a very hard time coping with the paradigm shifts currently happening in the automotive industry.&lt;/p&gt;
+
+&lt;h4 id=&quot;is-car-theft-the-biggest-risk-or-do-you-see-other-aspects-worse-risks-for-vehicles--cyber-security&quot;&gt;Is car theft the biggest risk, or do you see other aspects worse risks for vehicles &amp;amp; cyber security? &lt;/h4&gt;
+&lt;p&gt;As of now I’d say yes, definitely. As cars get more functionality that can be activated via software and we see an increase of managed vehicle fleets versus privately owned cars threats will probably diversify somewhat more. Criminals will always be where the most money can be made with the least risk, at least we can be sure of that ;-)&lt;/p&gt;
+
+&lt;h4 id=&quot;what-is-the-least-known-aspects-of-cyber-security-in-the-automative-industry&quot;&gt;What is the least known aspects of cyber security in the automative industry? &lt;/h4&gt;
+&lt;p&gt;We have been at some aspects of this a lot longer than many folks in the cyber security community might think and this has to do with all the immobilizer technology put into cars over the past 10-15 years and criminals finding ways around that. Also most discussions around fixing security problems in vehicles with quick patches over the air often don’t reflect how much testing has to go into any change you make to anything safety related in a vehicle. Also, like most ICS systems, we should keep in mind that there are (and there probably should be some more) failsafes that cannot be overridden by software.&lt;/p&gt;
+
+&lt;h4 id=&quot;how-will-the-creation-of-smart-cities-have-an-impact-on-smart-cars-with-regards-to-security&quot;&gt;How will the creation of smart cities have an impact on smart cars, with regards to security? &lt;/h4&gt;
+&lt;p&gt;Absolutely. It’s the complexity of networks and the questions of trust all over again. But on a much larger scale than the Internet and with larger time constraints on both ways. By that I mean, your car and the traffic light you’re about to be at in 5 seconds won’t have the time to establish trust via something like a CRL. But also, that traffic light will be there for more than twenty years. And your car has a lifetime of about 10-15 years. Lots of interesting questions waiting for answers when it comes to smart cities…&lt;/p&gt;
+
+&lt;h4 id=&quot;in-general-do-you-think-that-we-will-ever-see-things-like-notpetya-ransomware-infecting-cars&quot;&gt;In general, do you think that we will ever see things like NotPetya, ransomware infecting cars? &lt;/h4&gt;
+&lt;p&gt;I can certainly imagine wormable vulnerabilities in parts of vehicle infrastructure that heavily relies on software. EV charging infrastructure, I’m looking at you ;-) But I am still optimistic enough that we’ll finally start learning from mistakes in other fields and will succeed in implementing more resilient architectures in vehicles and smart traffic infrastructures.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-will-be-the-biggest-take-away-for-the-audience-from-your-presentation-at-cs3sthlm&quot;&gt;What will be the biggest take away for the audience from your presentation at CS3sthlm? &lt;/h4&gt;
+&lt;p&gt;That although there are some hard questions waiting to be answered we do know the basics of how to do this right. These are not new and sexy things and they take some effort, but it’s certainly doable. Also, we are still very early on in this particular race. So there is still time to learn from other fields and do some things better. &lt;/p&gt;
+</description>
+        <pubDate>Wed, 26 Sep 2018 04:00:00 +0000</pubDate>
+        <link>/blog/kai-thomsen/</link>
+        <guid isPermaLink="true">/blog/kai-thomsen/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>CS3STHLM Newsletter September</title>
@@ -603,41 +649,6 @@ standard (1 day) &lt;/a&gt;&lt;/li&gt;
         
         
         <category>news</category>
-        
-      </item>
-    
-      <item>
-        <title>Malware that can knock out power grids discovered</title>
-        <description>&lt;p&gt;Researchers from Slovakian Anti Virus company ESET have publicized information on malware especially targeted for automation in power grids. The malware is tied to an attack in Ukraine 2016. ESET have worked alongside researchers from another company, Dragos, to analyze the code. Investigators from ESET and Dragos will come to Cyber Security Summit CS3STHLM in Stockholm in October to present and discuss their findings.&lt;/p&gt;
-
-&lt;p&gt;Robert Lipovski, one of the researchers at ESET, states in Washington Post:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;“The potential impact of malware like this is huge. It’s not restricted to Ukraine. The industrial hardware that the malware communicates with is used in critical infrastructure worldwide.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This malware is called the most dangerous code since Stuxnet, malware discovered in 2010 aimed specifically towards Iran’s nuclear program.&lt;/p&gt;
-
-&lt;p&gt;Robert Malmgren, owner and co-founder of CS3STHLM:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;” The fact that this malware can be used and re-used in critical infrastructure everywhere makes it an enormous threat to non protected Industrial Control Systems.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;CS3STHLM takes place at Nalen in Stockholm October 24-26.&lt;/p&gt;
-
-&lt;p&gt;www.cs3sthlm.se&lt;/p&gt;
-
-&lt;p&gt;For more information regarding the malware, please contact&lt;/p&gt;
-
-&lt;p&gt;Robert Malmgren&lt;/p&gt;
-
-&lt;p&gt;Phone: +46 708 33 03 78&lt;/p&gt;
-</description>
-        <pubDate>Tue, 13 Jun 2017 04:00:00 +0000</pubDate>
-        <link>/press/2017/06/13/malware-that-can-knock-out-power.html</link>
-        <guid isPermaLink="true">/press/2017/06/13/malware-that-can-knock-out-power.html</guid>
-        
-        
-        <category>press</category>
         
       </item>
     
