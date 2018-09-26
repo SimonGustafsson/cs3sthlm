@@ -3668,10 +3668,10 @@ h1, h2, h3, h4 {
     line-height: 1.5;
     margin: 24px 0 0;
     color: rgba(255, 255, 255, 0.8); }
-  .blog-content ol {
+  .blog-content ol, .blog-content ul {
     display: block;
     margin-bottom: 24px; }
-    .blog-content ol li {
+    .blog-content ol li, .blog-content ul li {
       font-size: 21px;
       line-height: 1.5;
       color: rgba(255, 255, 255, 0.75);

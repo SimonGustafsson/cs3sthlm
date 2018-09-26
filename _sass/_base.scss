@@ -4744,7 +4744,7 @@ h1, h2, h3, h4 {
       color: rgba($white, .8);
     }
 
-    ol {
+    ol, ul {
       display: block;
       margin-bottom: 24px;
 
@@ -4754,6 +4754,7 @@ h1, h2, h3, h4 {
         color: rgba($white, .75);
         margin-bottom: 6px;
         margin-left: 26px;
+
       }
     }
 

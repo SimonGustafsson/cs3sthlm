@@ -230,9 +230,9 @@
   
    {
      
-        "title"    : "Welcome",
-        "url"      : "/welcome/",
-        "path"     : "/welcome/"
+        "title"    : "Advisory",
+        "url"      : "/about/advisory/",
+        "path"     : "/about/advisory/"
      
    },
   
@@ -286,14 +286,6 @@
   
    {
      
-        "title"    : "Advisory",
-        "url"      : "/about/advisory/",
-        "path"     : "/about/advisory/"
-     
-   },
-  
-   {
-     
         "title"    : "About",
         "url"      : "/about/",
         "path"     : "/about/"
@@ -321,6 +313,14 @@
         "title"    : "Expo",
         "url"      : "/expo/",
         "path"     : "/expo/"
+     
+   },
+  
+   {
+     
+        "title"    : "Welcome",
+        "url"      : "/welcome/",
+        "path"     : "/welcome/"
      
    },
   
@@ -358,17 +358,17 @@
   
    {
      
-        "title"    : "Home",
-        "url"      : "/",
-        "path"     : ""
+        "title"    : "Program",
+        "url"      : "/program/",
+        "path"     : "/program/"
      
    },
   
    {
      
-        "title"    : "Program",
-        "url"      : "/program/",
-        "path"     : "/program/"
+        "title"    : "Home",
+        "url"      : "/",
+        "path"     : ""
      
    },
   
@@ -505,6 +505,14 @@
    },
   
    {
+     
+   },
+  
+   {
+     
+        "title"    : "Privacy Policy",
+        "url"      : "/privacy-policy/",
+        "path"     : "/privacy-policy/"
      
    },
   

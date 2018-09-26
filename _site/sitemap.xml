@@ -99,7 +99,7 @@
 <loc>/program/trainings/</loc>
 </url>
 <url>
-<loc>/welcome/</loc>
+<loc>/about/advisory/</loc>
 </url>
 <url>
 <loc>/contact/</loc>
@@ -120,9 +120,6 @@
 <loc>/about/history/</loc>
 </url>
 <url>
-<loc>/about/advisory/</loc>
-</url>
-<url>
 <loc>/about/</loc>
 </url>
 <url>
@@ -133,6 +130,9 @@
 </url>
 <url>
 <loc>/expo/</loc>
+</url>
+<url>
+<loc>/welcome/</loc>
 </url>
 <url>
 <loc>/call-for-proposals/</loc>
@@ -147,10 +147,10 @@
 <loc>/program/presentations/</loc>
 </url>
 <url>
-<loc>/</loc>
+<loc>/program/</loc>
 </url>
 <url>
-<loc>/program/</loc>
+<loc>/</loc>
 </url>
 <url>
 <loc>/expo/presentations/jason-steer/</loc>
@@ -196,6 +196,9 @@
 </url>
 <url>
 <loc>/program/presentations/patrick-miller/</loc>
+</url>
+<url>
+<loc>/privacy-policy/</loc>
 </url>
 <url>
 <loc>/expo/presentations/ragnar-thobaben/</loc>
