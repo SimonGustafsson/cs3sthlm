@@ -2809,6 +2809,27 @@ h1, h2, h3, h4 {
       color: $white;
     }
 
+    .workshop--block-status {
+      display: inline-block;
+      padding: 6px 12px;
+      box-sizing: border-box;
+      border-radius: 4px;
+      background: rgba($dark, .5);
+      color: $white;
+      margin-bottom: 12px;
+      font-size: 12px;
+      text-transform: uppercase;
+
+      @include media-query($mobile) {
+        font-size: 10px;
+      }
+
+      &-active {
+        background: rgba($yellow, .9);
+        color: $dark;
+      }
+    }
+
     .workshop--meta {
       display: block;
       margin-top: 5px;
@@ -4341,6 +4362,27 @@ h1, h2, h3, h4 {
       }
     }
 
+    .post-status {
+      display: inline-block;
+      padding: 6px 12px;
+      box-sizing: border-box;
+      border-radius: 4px;
+      background: $blue-dark;
+      color: $white;
+      margin-bottom: 12px;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.045em;
+
+      @include media-query($mobile) {
+        font-size: 12px;
+      }
+
+      &-active {
+        background: $yellow;
+      }
+    }
+
     .post-meta {
       display: -webkit-box;
       display: -moz-box;
@@ -5333,13 +5375,36 @@ h1, h2, h3, h4 {
       .workshop--meta {
         border-bottom: none;
         padding-bottom: 0;
+        margin-bottom: 5px;
       }
       .workshop--block-title {
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
+        display: inline-block;
+        width: 80%;
+
+        @include media-query($mobile) {
+          width: 100%;
+        }
 
         @include transition-ease;
+      }
+
+      .workshop--block-status {
+        background: $blue-dark;
+        margin-bottom: 0;
+        width: 110px;
+        text-align: center;
+        margin-right: 18px;
+
+        &-active {
+          background: $yellow;
+        }
+
+        @include media-query($mobile){
+          margin-bottom: 8px;
+        }
       }
     }
   }

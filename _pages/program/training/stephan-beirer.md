@@ -5,6 +5,7 @@ permalink: "/program/trainings/stephan-beirer/"
 layout: training
 time: 23 October
 id: training
+status: Slots Open
 speaker:
 - name: Stephan Beirer
   role: Senior Consultant

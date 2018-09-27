@@ -28,7 +28,9 @@ layout: default
   </aside>
 
   <div class="post-content" itemprop="articleBody">
+
     <header class="post-header">
+      <h4 class="post-status {% if page.status == 'Slots Open' %}post-status-active{% endif %}">{{ page.status }}</h4>
       <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
     </header>
 

@@ -55,6 +55,7 @@ layout: default
       </div>
       {% endif %}
       <div class="workshop--block-content">
+        <h4 class="workshop--block-status {% if page.status == 'Slots Open' %}workshop--block-status-active{% endif %}">{{ page.status }}</h4>
         <h2 class="workshop--block-title">{{ page.title }}</h2>
         <div class="workshop--meta">
           <span class="workshop--meta-time">{{ page.time }}</span>

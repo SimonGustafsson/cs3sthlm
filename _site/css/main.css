@@ -2233,6 +2233,22 @@ h1, h2, h3, h4 {
       font-size: 18px;
       font-weight: normal;
       color: white; }
+    .workshop--block-group .workshop--block-item .workshop--block-status {
+      display: inline-block;
+      padding: 6px 12px;
+      box-sizing: border-box;
+      border-radius: 4px;
+      background: rgba(3, 1, 0, 0.5);
+      color: white;
+      margin-bottom: 12px;
+      font-size: 12px;
+      text-transform: uppercase; }
+      @media screen and (max-width: 768px) {
+        .workshop--block-group .workshop--block-item .workshop--block-status {
+          font-size: 10px; } }
+      .workshop--block-group .workshop--block-item .workshop--block-status-active {
+        background: rgba(239, 125, 0, 0.9);
+        color: #030100; }
     .workshop--block-group .workshop--block-item .workshop--meta {
       display: block;
       margin-top: 5px;
@@ -3372,6 +3388,22 @@ h1, h2, h3, h4 {
         .post .post-header .post-title {
           font-size: 60px;
           line-height: 1.25; } }
+    .post .post-header .post-status {
+      display: inline-block;
+      padding: 6px 12px;
+      box-sizing: border-box;
+      border-radius: 4px;
+      background: #2b2f36;
+      color: white;
+      margin-bottom: 12px;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.045em; }
+      @media screen and (max-width: 768px) {
+        .post .post-header .post-status {
+          font-size: 12px; } }
+      .post .post-header .post-status-active {
+        background: #ef7d00; }
     .post .post-header .post-meta {
       display: -webkit-box;
       display: -moz-box;
@@ -4088,15 +4120,32 @@ h1, h2, h3, h4 {
     -o-transition: 0.24s all ease-in-out; }
   .sec-program .workshop-program-group .workshop--block-item .workshop--meta {
     border-bottom: none;
-    padding-bottom: 0; }
+    padding-bottom: 0;
+    margin-bottom: 5px; }
   .sec-program .workshop-program-group .workshop--block-item .workshop--block-title {
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
+    display: inline-block;
+    width: 80%;
     transition: 0.24s all ease-in-out;
     -moz-transition: 0.24s all ease-in-out;
     -webkit-transtiion: 0.24s all ease-in-out;
     -o-transition: 0.24s all ease-in-out; }
+    @media screen and (max-width: 768px) {
+      .sec-program .workshop-program-group .workshop--block-item .workshop--block-title {
+        width: 100%; } }
+  .sec-program .workshop-program-group .workshop--block-item .workshop--block-status {
+    background: #2b2f36;
+    margin-bottom: 0;
+    width: 110px;
+    text-align: center;
+    margin-right: 18px; }
+    .sec-program .workshop-program-group .workshop--block-item .workshop--block-status-active {
+      background: #ef7d00; }
+    @media screen and (max-width: 768px) {
+      .sec-program .workshop-program-group .workshop--block-item .workshop--block-status {
+        margin-bottom: 8px; } }
 .sec-program .headline {
   font-family: 'latoblack', sans-serif;
   font-size: 14px;

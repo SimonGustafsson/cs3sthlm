@@ -4,6 +4,7 @@ permalink: "/program/trainings/arnaud-soullie/"
 layout: training
 time: 22-23 October
 id: training
+status: Sold Out
 speaker:
 - name: Arnaud Soullié
   role: Cybersecurity R&D Manager

@@ -5,6 +5,7 @@ layout: training
 time: 23 October
 id: training
 image: ben-daniel.png
+status: Slots Open
 speaker:
 - name: Ben Miller
   role: Director of Threat Operations

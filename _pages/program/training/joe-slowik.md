@@ -4,6 +4,7 @@ permalink: "/program/trainings/joe-slowik/"
 layout: training
 time: 22-23 October
 id: training
+status: Slots Open
 speaker:
 - name: Joe Slowik
   role: Adversary Hunter
