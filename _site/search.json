@@ -214,6 +214,14 @@
   
    {
      
+        "title"    : "Partners",
+        "url"      : "/partners/",
+        "path"     : "/partners/"
+     
+   },
+  
+   {
+     
         "title"    : "Speakers",
         "url"      : "/program/speakers/",
         "path"     : "/program/speakers/"
@@ -230,9 +238,9 @@
   
    {
      
-        "title"    : "Advisory",
-        "url"      : "/about/advisory/",
-        "path"     : "/about/advisory/"
+        "title"    : "History",
+        "url"      : "/about/history/",
+        "path"     : "/about/history/"
      
    },
   
@@ -249,6 +257,14 @@
         "title"    : "Practical Details",
         "url"      : "/practical-details/",
         "path"     : "/practical-details/"
+     
+   },
+  
+   {
+     
+        "title"    : "CS3STHLM - App",
+        "url"      : "/app/",
+        "path"     : "/app/"
      
    },
   
@@ -278,9 +294,9 @@
   
    {
      
-        "title"    : "History",
-        "url"      : "/about/history/",
-        "path"     : "/about/history/"
+        "title"    : "Advisory",
+        "url"      : "/about/advisory/",
+        "path"     : "/about/advisory/"
      
    },
   
@@ -337,14 +353,6 @@
         "title"    : "News",
         "url"      : "/news/",
         "path"     : "/news/"
-     
-   },
-  
-   {
-     
-        "title"    : "Partners",
-        "url"      : "/partners/",
-        "path"     : "/partners/"
      
    },
   
