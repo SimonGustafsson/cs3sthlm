@@ -1047,8 +1047,19 @@
 			"role":		"",
 			"work":		"",
 			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
+			"description": "<p>In this talk, we discuss how control theory can contribute to the analysis and design of secure cyber-physical systems. We start by reviewing conditions for detectability and impact of data attacks targeting feedback control loops running over a field communication network. We investigate three different attack scenarios: Sensor attacks, actuator attacks, and coordinated actuator and sensor attacks. In particular, we highlight how a physical understanding of the controlled process can guide us in the allocation of counter measures and limit the possible impact of attacks.</p>"
 		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
 		},
 		
 
@@ -1077,8 +1088,19 @@
 			"role":		"",
 			"work":		"",
 			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
+			"description": "<p>Preventive security controls, incident detection and timely response need to be coordinated for efficient security risk management. In this talk we first illustrate the benefits of this coordination through the example of precise time synchronization in power systems. We identify attack vectors, characterize their potential impact, and outline mitigation and detection schemes. We then present solutions for the resilient management of virtualized industrial controllers in edge clouds, with potential applications in smart grid control, UAVs and autonomous vehicular systems.</p>"
 		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
 		},
 		
 
@@ -1107,8 +1129,19 @@
 			"role":		"",
 			"work":		"",
 			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
+			"description": "<p>In this talk, we discuss how properties of the wireless medium and wireless devices can be utilized to enhance wireless security. We start with a short review of so-called physical-layer security techniques and then study intrusion detection at the physical layer in detail. We give examples for features that can be utilized, we discuss necessary conditions for a reliable detection performance and their impact on system parameters, and we analyze how packet filtering at the physical layer impacts the delay performance of the system.</p>"
 		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
 		},
 		
 
@@ -1137,8 +1170,19 @@
 			"role":		"",
 			"work":		"",
 			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
+			"description": "<p>Critical infrastructure security relies heavily on the security of the software and hardware that provide the basic execution platforms upon which various types of embedded controllers are implemented. Formal methods have been used, in the Cerces project and elsewhere, to formally prove the security of various types of hypervisors, microkernels, and separation kernel, based on relative simple models of the underlying hardware. The continuing stream of attacks on this hardware reveals that more refined microarchitectural models are needed. We present some recent work in this direction that is able to formally establish critical security properties, in the presence of some microarchitectural vulnerabilities.</p>"
 		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
 		},
 		
 
@@ -1167,8 +1211,19 @@
 			"role":		"",
 			"work":		"",
 			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
+			"description": "<p>Coming soon.</p>"
 		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
 		},
 		
 
@@ -1197,8 +1252,19 @@
 			"role":		"",
 			"work":		"",
 			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
+			"description": "<p>There has been much speculation (not to mention exaggeration) over recent years about the fabled dark web. We’ve heard how this shady underworld is the refuge of the cyber criminal elite. That this is their “Wolf’s Lair,” where they gather to plot the breaching of businesses and the hacking of celebrities amongst other activities.</p><h3 id=\"this-presentation-will-feature\">This presentation will feature:</h3><ul>  <li>A definition of the dark web and how it differs from other sources of intelligence</li>  <li>Real-world examples of threat actor activities in dark marketplaces</li>  <li>Methods for uncovering emerging threats using dark web sources</li></ul>"
 		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
 		},
 		
 
@@ -1231,6 +1297,17 @@
 		
 		},
 		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		},
+		
 
 		"bio": ""
 	},
@@ -1257,8 +1334,19 @@
 			"role":		"",
 			"work":		"",
 			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
+			"description": "<p>Coming soon.</p>"
 		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
 		},
 		
 

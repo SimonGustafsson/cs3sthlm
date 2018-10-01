@@ -1141,7 +1141,10 @@
       subject: Control Theory for Practical Cyber-Physical Security
       permalink: expo/presentations/henrik-sandberg/
       partner:
-      description:
+      description: |
+        In this talk, we discuss how control theory can contribute to the analysis and design of secure cyber-physical systems. We start by reviewing conditions for detectability and impact of data attacks targeting feedback control loops running over a field communication network. We investigate three different attack scenarios: Sensor attacks, actuator attacks, and coordinated actuator and sensor attacks. In particular, we highlight how a physical understanding of the controlled process can guide us in the allocation of counter measures and limit the possible impact of attacks.
+  training:
+    - active: none
 
 - id: 29
   type: expotalk
@@ -1161,7 +1164,10 @@
       subject: Resilient Computing and Communication for Critical Infrastructures
       permalink: expo/presentations/gyorgy-dan/
       partner:
-      description:
+      description: |
+        Preventive security controls, incident detection and timely response need to be coordinated for efficient security risk management. In this talk we first illustrate the benefits of this coordination through the example of precise time synchronization in power systems. We identify attack vectors, characterize their potential impact, and outline mitigation and detection schemes. We then present solutions for the resilient management of virtualized industrial controllers in edge clouds, with potential applications in smart grid control, UAVs and autonomous vehicular systems.
+  training:
+    - active: none
 
 - id: 30
   type: expotalk
@@ -1181,7 +1187,10 @@
       subject: Securing Wireless Transmissions at the Air Interface
       permalink: expo/presentations/ragnar-thobaben/
       partner:
-      description:
+      description: |
+        In this talk, we discuss how properties of the wireless medium and wireless devices can be utilized to enhance wireless security. We start with a short review of so-called physical-layer security techniques and then study intrusion detection at the physical layer in detail. We give examples for features that can be utilized, we discuss necessary conditions for a reliable detection performance and their impact on system parameters, and we analyze how packet filtering at the physical layer impacts the delay performance of the system.
+  training:
+    - active: none
 
 - id: 31
   type: expotalk
@@ -1201,7 +1210,10 @@
       subject: Securing Low Level Software Using Formal Methods
       permalink: expo/presentations/mads-dam/
       partner:
-      description:
+      description: |
+        Critical infrastructure security relies heavily on the security of the software and hardware that provide the basic execution platforms upon which various types of embedded controllers are implemented. Formal methods have been used, in the Cerces project and elsewhere, to formally prove the security of various types of hypervisors, microkernels, and separation kernel, based on relative simple models of the underlying hardware. The continuing stream of attacks on this hardware reveals that more refined microarchitectural models are needed. We present some recent work in this direction that is able to formally establish critical security properties, in the presence of some microarchitectural vulnerabilities.
+  training:
+    - active: none
 
 - id: 32
   type: expotalk
@@ -1221,7 +1233,10 @@
       subject: ICS cyber security in the face of digital transformation
       permalink: expo/presentations/dr-kevin-jones/
       partner:
-      description:
+      description: |
+        Coming soon.
+  training:
+    - active: none
 
 - id: 33
   type: expotalk
@@ -1241,7 +1256,16 @@
       subject: Recorded Future - The Dark Web’s deep threat intelligence secrets
       permalink: expo/presentations/jason-steer/
       partner:
-      description:
+      description: |
+        There has been much speculation (not to mention exaggeration) over recent years about the fabled dark web. We’ve heard how this shady underworld is the refuge of the cyber criminal elite. That this is their “Wolf’s Lair,” where they gather to plot the breaching of businesses and the hacking of celebrities amongst other activities.
+
+        ### This presentation will feature:
+
+        * A definition of the dark web and how it differs from other sources of intelligence
+        * Real-world examples of threat actor activities in dark marketplaces
+        * Methods for uncovering emerging threats using dark web sources
+  training:
+    - active: none
 
 - id: 34
   type: expotalk
@@ -1262,6 +1286,8 @@
       permalink: expo/talk/
       partner:
       description:
+  training:
+    - active: none
 
 - id: 35
   type: expotalk
@@ -1281,7 +1307,10 @@
       subject: Kaspersky Industrial Cybersecurity approach
       permalink: expo/presentations/anton-shipulin/
       partner:
-      description:
+      description: |
+        Coming soon.
+  training:
+    - active: none
 
 #- id: 36
 #  type: expotalk
