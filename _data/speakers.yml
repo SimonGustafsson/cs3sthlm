@@ -1122,3 +1122,184 @@
         Coming soon.
   training:
     - active: none
+
+- id: 28
+  type: expotalk
+  permalink: expo/presentations/henrik-sandberg/
+  name: Henrik Sandberg
+  role: Professor in Large-Scale Control Systems
+  work: School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology
+  country: Sweden
+  shortcode: SE
+  image: henrik-sandberg.png
+  bio: 
+  date:
+  time:
+  place:
+  presentation:
+    - active: live
+      subject: Control Theory for Practical Cyber-Physical Security
+      permalink: expo/presentations/henrik-sandberg/
+      partner:
+      description:
+
+- id: 29
+  type: expotalk
+  permalink: expo/presentations/gyorgy-dan/
+  name: György Dán
+  role: Professor in Teletraffic Systems
+  work: School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology
+  country: Sweden 
+  shortcode: SE
+  image: gyorgy-dan.png
+  bio: 
+  date:
+  time:
+  place:
+  presentation:
+    - active: live
+      subject: Resilient Computing and Communication for Critical Infrastructures
+      permalink: expo/presentations/gyorgy-dan/
+      partner:
+      description:
+
+- id: 30
+  type: expotalk
+  permalink: expo/presentations/ragnar-thobaben/
+  name: Ragnar Thobaben
+  role: Associate Professor in Communication Theory
+  work: School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology
+  country: Germany
+  shortcode: DE
+  image: ragnar-thobaben.png
+  bio: 
+  date:
+  time:
+  place:
+  presentation:
+    - active: live
+      subject: Securing Wireless Transmissions at the Air Interface
+      permalink: expo/presentations/ragnar-thobaben/
+      partner:
+      description:
+
+- id: 31
+  type: expotalk
+  permalink: expo/presentations/mads-dam/
+  name: Mads Dam
+  role: Professor in Teleinformatics
+  work: School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology
+  country: Sweden
+  shortcode: SE
+  image: mads-dam.png
+  bio: 
+  date:
+  time:
+  place:
+  presentation:
+    - active: live
+      subject: Securing Low Level Software Using Formal Methods
+      permalink: expo/presentations/mads-dam/
+      partner:
+      description:
+
+- id: 32
+  type: expotalk
+  permalink: expo/presentations/dr-kevin-jones/
+  name: Dr Kevin Jones
+  role: Head of Cyber Security Architecture, Innovation and Scouting
+  work: Airbus Group
+  country: United Kingdom
+  shortcode: UK
+  image: dr-kevin-jones.png
+  bio: "Dr Kevin Jones is Head of Cyber Security Architecture, Innovation and Scouting at Airbus, leading a global network of; teams, projects and collaborations including; research & innovation, state of the art solutions development, and technology scouting for cyber security across; IT, ICS and Product security domains. He holds a BSc in Computer Science and MSc in Distributed Systems Integration from De Montfort University, Leicester where he also obtained his PhD: A Trust Based Approach to Mobile Multi-Agent System Security in 2010."
+  date:
+  time:
+  place:
+  presentation:
+    - active: live
+      subject: ICS cyber security in the face of digital transformation
+      permalink: expo/presentations/dr-kevin-jones/
+      partner:
+      description:
+
+- id: 33
+  type: expotalk
+  permalink: expo/presentations/jason-steer/
+  name: Jason Steer
+  role: Director of PreSales, EMEA
+  work: Recorded Future
+  country: United Kingdom
+  shortcode: UK
+  image: jason-steer.png
+  bio: Jason is an techie at heart and has built and broken computer and networks since 1996. Jason has worked at a number of successful technology companies over the past 15 years, including IronPort, Veracode &FireEye. Jason has worked as a cyber-expert with CNN, Al Jazeera & BBC and has worked with the EU and UK Government on Cyber Security Strategy.
+  date:
+  time:
+  place:
+  presentation:
+    - active: live
+      subject: Recorded Future - The Dark Web’s deep threat intelligence secrets
+      permalink: expo/presentations/jason-steer/
+      partner:
+      description:
+
+- id: 34
+  type: expotalk
+  permalink: expo/talk/
+  name: Advenica
+  role: 
+  work: Advenica
+  country: 
+  shortcode: 
+  image: temp.png
+  bio: 
+  date:
+  time:
+  place:
+  presentation:
+    - active: 
+      subject: 
+      permalink: expo/talk/
+      partner:
+      description:
+
+- id: 35
+  type: expotalk
+  permalink: expo/presentations/anton-shipulin/
+  name: Anton Shipulin
+  role: Global Presales Manager
+  work: Kaspersky Lab
+  country: Russia
+  shortcode: RU
+  image: anton-shipulin.png
+  bio: 
+  date:
+  time:
+  place:
+  presentation:
+    - active: live
+      subject: Kaspersky Industrial Cybersecurity approach
+      permalink: expo/presentations/anton-shipulin/
+      partner:
+      description:
+
+#- id: 36
+#  type: expotalk
+#  permalink: expo/presentations/rick-peters/
+#  name: Rick K. Peters
+#  role: Director, Operational Technology Global Enablement
+#  work: Fortinet
+#  country: United States
+#  shortcode: US
+#  image: rick-peters.png
+#  bio: Rick affords the Fortinet OT-CI team more than 37 years of cybersecurity and global partnering experience working across foreign, domestic, and commercial industry sectors at the National Security Agency (NSA).  As Fortinet’s Operational Technology Global Enablement Director, working for Phil Quade (CISO), he delivers cybersecurity defense solutions and insights for the OT/ICS/SCADA critical infrastructure environments.  Prior to Fortinet, Rick led development of cyber capability across Endpoint, Infrastructure, and Industrial ontrol System technologies.  Previously, Rick also served as an executive leader supporting the Information Assurance Directorate at the NSA.  He served in a broad range of leadership and Engineering roles earlier his career including Chief of Staff for the NSA Cyber Task Force and a 5-year forward liaison charged with directing integration of cyber and cryptologic solutions for U.S. Air Force Europe, Ramstein AFB, Germany.
+#  date:
+#  time:
+#  place:
+#  presentation:
+#    - active: 
+#      subject: 
+#      permalink: expo/presentations/rick-peters/
+#      partner:
+#      description:
+

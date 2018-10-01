@@ -1023,6 +1023,246 @@
 		
 
 		"bio": "<p>Coming soon.</p>"
+	},
+
+	{
+		"id"		: "28",
+		"type"		: "expotalk",
+		"name"		: "Henrik Sandberg",
+		"role"		: "Professor in Large-Scale Control Systems",
+		"work"		: "School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology",
+		"country"	: "Sweden",
+		"shortcode"	: "SE",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/henrik-sandberg.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Control Theory for Practical Cyber-Physical Security",
+			"partner":	"",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		
+		},
+		
+
+		"bio": ""
+	},
+
+	{
+		"id"		: "29",
+		"type"		: "expotalk",
+		"name"		: "György Dán",
+		"role"		: "Professor in Teletraffic Systems",
+		"work"		: "School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology",
+		"country"	: "Sweden",
+		"shortcode"	: "SE",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/gyorgy-dan.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Resilient Computing and Communication for Critical Infrastructures",
+			"partner":	"",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		
+		},
+		
+
+		"bio": ""
+	},
+
+	{
+		"id"		: "30",
+		"type"		: "expotalk",
+		"name"		: "Ragnar Thobaben",
+		"role"		: "Associate Professor in Communication Theory",
+		"work"		: "School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology",
+		"country"	: "Germany",
+		"shortcode"	: "DE",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/ragnar-thobaben.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Securing Wireless Transmissions at the Air Interface",
+			"partner":	"",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		
+		},
+		
+
+		"bio": ""
+	},
+
+	{
+		"id"		: "31",
+		"type"		: "expotalk",
+		"name"		: "Mads Dam",
+		"role"		: "Professor in Teleinformatics",
+		"work"		: "School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology",
+		"country"	: "Sweden",
+		"shortcode"	: "SE",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/mads-dam.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Securing Low Level Software Using Formal Methods",
+			"partner":	"",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		
+		},
+		
+
+		"bio": ""
+	},
+
+	{
+		"id"		: "32",
+		"type"		: "expotalk",
+		"name"		: "Dr Kevin Jones",
+		"role"		: "Head of Cyber Security Architecture, Innovation and Scouting",
+		"work"		: "Airbus Group",
+		"country"	: "United Kingdom",
+		"shortcode"	: "UK",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/dr-kevin-jones.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"ICS cyber security in the face of digital transformation",
+			"partner":	"",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		
+		},
+		
+
+		"bio": "<p>Dr Kevin Jones is Head of Cyber Security Architecture, Innovation and Scouting at Airbus, leading a global network of; teams, projects and collaborations including; research &amp; innovation, state of the art solutions development, and technology scouting for cyber security across; IT, ICS and Product security domains. He holds a BSc in Computer Science and MSc in Distributed Systems Integration from De Montfort University, Leicester where he also obtained his PhD: A Trust Based Approach to Mobile Multi-Agent System Security in 2010.</p>"
+	},
+
+	{
+		"id"		: "33",
+		"type"		: "expotalk",
+		"name"		: "Jason Steer",
+		"role"		: "Director of PreSales, EMEA",
+		"work"		: "Recorded Future",
+		"country"	: "United Kingdom",
+		"shortcode"	: "UK",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/jason-steer.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Recorded Future - The Dark Web’s deep threat intelligence secrets",
+			"partner":	"",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		
+		},
+		
+
+		"bio": "<p>Jason is an techie at heart and has built and broken computer and networks since 1996. Jason has worked at a number of successful technology companies over the past 15 years, including IronPort, Veracode &amp;FireEye. Jason has worked as a cyber-expert with CNN, Al Jazeera &amp; BBC and has worked with the EU and UK Government on Cyber Security Strategy.</p>"
+	},
+
+	{
+		"id"		: "34",
+		"type"		: "expotalk",
+		"name"		: "Advenica",
+		"role"		: "",
+		"work"		: "Advenica",
+		"country"	: "",
+		"shortcode"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/temp.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"",
+			"title": 	"",
+			"partner":	"",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		
+		},
+		
+
+		"bio": ""
+	},
+
+	{
+		"id"		: "35",
+		"type"		: "expotalk",
+		"name"		: "Anton Shipulin",
+		"role"		: "Global Presales Manager",
+		"work"		: "Kaspersky Lab",
+		"country"	: "Russia",
+		"shortcode"	: "RU",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/anton-shipulin.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Kaspersky Industrial Cybersecurity approach",
+			"partner":	"",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		
+		},
+		
+
+		"bio": ""
 	}
 
 ]

@@ -33,6 +33,7 @@ layout: default
 	<div class="speaker--list-group">
 		{% assign sorted_speakers = site.data.speakers | sort:'name' %}
 		{% for speaker in sorted_speakers %}
+		{% if speaker.type == "presentation" or speaker.type == "training" or speaker.type == "moderator" %}
 		<div class="speaker--list-item">
 			<div class="speaker-block">
 				<img src="{{ site.baseurl }}/assets/speakers/{{ speaker.image }}">
@@ -121,6 +122,7 @@ layout: default
 				<a href="#!" class="modal-close">Close<span></span></a>
 			</div>
 		</div>
+		{% endif %}
 		{% endfor %}
 	</div>
 
