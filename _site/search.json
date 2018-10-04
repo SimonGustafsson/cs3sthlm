@@ -238,9 +238,17 @@
   
    {
      
-        "title"    : "History",
-        "url"      : "/about/history/",
-        "path"     : "/about/history/"
+        "title"    : "Home",
+        "url"      : "/",
+        "path"     : ""
+     
+   },
+  
+   {
+     
+        "title"    : "Expo Presentations",
+        "url"      : "/expo/presentations/",
+        "path"     : "/expo/presentations/"
      
    },
   
@@ -294,6 +302,14 @@
   
    {
      
+        "title"    : "History",
+        "url"      : "/about/history/",
+        "path"     : "/about/history/"
+     
+   },
+  
+   {
+     
         "title"    : "Advisory",
         "url"      : "/about/advisory/",
         "path"     : "/about/advisory/"
@@ -305,14 +321,6 @@
         "title"    : "About",
         "url"      : "/about/",
         "path"     : "/about/"
-     
-   },
-  
-   {
-     
-        "title"    : "Expo Presentations",
-        "url"      : "/expo/presentations/",
-        "path"     : "/expo/presentations/"
      
    },
   
@@ -369,14 +377,6 @@
         "title"    : "Program",
         "url"      : "/program/",
         "path"     : "/program/"
-     
-   },
-  
-   {
-     
-        "title"    : "Home",
-        "url"      : "/",
-        "path"     : ""
      
    },
   
@@ -529,6 +529,14 @@
         "title"    : "Securing Wireless Transmissions at the Air Interface",
         "url"      : "/expo/presentations/ragnar-thobaben/",
         "path"     : "/expo/presentations/ragnar-thobaben/"
+     
+   },
+  
+   {
+     
+        "title"    : "Addressing Physical to Digital Convergence in an Evolving World",
+        "url"      : "/expo/presentations/rick-peters/",
+        "path"     : "/expo/presentations/rick-peters/"
      
    },
   
