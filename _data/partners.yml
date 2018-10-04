@@ -195,3 +195,14 @@
   order: 6
   expo: "yes"
   postorder: 18
+
+- id: 17
+  level: partner
+  company: Fortinet
+  logo: fortinet.png
+  url: https://www.fortinet.com
+  bio:
+  type: small
+  order: 7
+  expo: "yes"
+  postorder: 19

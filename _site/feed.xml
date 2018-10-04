@@ -5,8 +5,8 @@
     <description>CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 03 Oct 2018 13:04:33 +0000</pubDate>
-    <lastBuildDate>Wed, 03 Oct 2018 13:04:33 +0000</lastBuildDate>
+    <pubDate>Thu, 04 Oct 2018 13:35:41 +0000</pubDate>
+    <lastBuildDate>Thu, 04 Oct 2018 13:35:41 +0000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -196,6 +196,12 @@ What is the biggest challenges to automotive area with regards to security? I 
 	&lt;div class=&quot;partner--item &quot;&gt;
 		&lt;a href=&quot;https://www.secmatters.com&quot; target=&quot;_blank&quot;&gt;
 			&lt;img src=&quot;/assets/partners/securitymatters.png&quot; alt=&quot;SecurityMatters&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item &quot;&gt;
+		&lt;a href=&quot;https://www.fortinet.com&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/fortinet.png&quot; alt=&quot;Fortinet&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
