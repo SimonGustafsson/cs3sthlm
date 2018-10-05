@@ -172,11 +172,11 @@
     { 
       "id":      "11",
       "type":    "partner",
-      "level":   "organizer",
-      "company": "OMNISIENS",
-      "logo":    "https://cs3sthlm.se/assets/partners/omnisiens.png",
-      "url":     "https://omnisiens.se",
-      "expo":    "inactive"
+      "level":   "governmental-partner",
+      "company": "MSB",
+      "logo":    "https://cs3sthlm.se/assets/partners/msb-english.png",
+      "url":     "https://www.msb.se/en/",
+      "expo":    "active"
     },
 
   
@@ -188,10 +188,10 @@
     { 
       "id":      "12",
       "type":    "partner",
-      "level":   "organizer",
-      "company": "ROMAB",
-      "logo":    "https://cs3sthlm.se/assets/partners/romab.png",
-      "url":     "https://romab.com",
+      "level":   "partner",
+      "company": "Fortinet",
+      "logo":    "https://cs3sthlm.se/assets/partners/fortinet.png",
+      "url":     "https://www.fortinet.com",
       "expo":    "active"
     },
 
@@ -203,54 +203,6 @@
     
     { 
       "id":      "13",
-      "type":    "partner",
-      "level":   "organizer",
-      "company": "sysctl",
-      "logo":    "https://cs3sthlm.se/assets/partners/sysctl.png",
-      "url":     "https://sysctl.se",
-      "expo":    "active"
-    },
-
-  
-    
-
-    
-
-    
-    { 
-      "id":      "14",
-      "type":    "partner",
-      "level":   "organizer",
-      "company": "Management Doctors",
-      "logo":    "https://cs3sthlm.se/assets/partners/md.png",
-      "url":     "http://managementdoctors.se",
-      "expo":    "active"
-    },
-
-  
-    
-
-    
-
-    
-    { 
-      "id":      "15",
-      "type":    "partner",
-      "level":   "partner",
-      "company": "Advenica",
-      "logo":    "https://cs3sthlm.se/assets/partners/advenica.png",
-      "url":     "https://www.advenica.com/en",
-      "expo":    "active"
-    },
-
-  
-    
-
-    
-
-    
-    { 
-      "id":      "16",
       "type":    "partner",
       "level":   "partner",
       "company": "Kaspersky",
@@ -266,12 +218,12 @@
 
     
     { 
-      "id":      "17",
+      "id":      "14",
       "type":    "partner",
       "level":   "partner",
-      "company": "Recorded Future",
-      "logo":    "https://cs3sthlm.se/assets/partners/recorded-future.png",
-      "url":     "https://www.recordedfuture.com",
+      "company": "Advenica",
+      "logo":    "https://cs3sthlm.se/assets/partners/advenica.png",
+      "url":     "https://www.advenica.com/en",
       "expo":    "active"
     },
 
@@ -282,7 +234,7 @@
 
     
     { 
-      "id":      "18",
+      "id":      "15",
       "type":    "partner",
       "level":   "partner",
       "company": "Waterfall Security",
@@ -298,124 +250,12 @@
 
     
     { 
-      "id":      "19",
-      "type":    "partner",
-      "level":   "training-partner",
-      "company": "Gai Netconsult",
-      "logo":    "https://cs3sthlm.se/assets/partners/gai-netconsult.png",
-      "url":     "https://www.gai-netconsult.de/index.php?id=startseite",
-      "expo":    "inactive"
-    },
-
-  
-    
-
-    
-
-    
-    { 
-      "id":      "20",
-      "type":    "partner",
-      "level":   "training-partner",
-      "company": "Dragos",
-      "logo":    "https://cs3sthlm.se/assets/partners/dragos.png",
-      "url":     "https://dragos.com",
-      "expo":    "active"
-    },
-
-  
-    
-
-    
-
-    
-    { 
-      "id":      "21",
-      "type":    "partner",
-      "level":   "training-partner",
-      "company": "EnergiNet",
-      "logo":    "https://cs3sthlm.se/assets/partners/energinet.png",
-      "url":     "https://en.energinet.dk",
-      "expo":    "inactive"
-    },
-
-  
-    
-
-    
-
-    
-    { 
-      "id":      "22",
-      "type":    "partner",
-      "level":   "training-partner",
-      "company": "NETRESEC",
-      "logo":    "https://cs3sthlm.se/assets/partners/netresec.png",
-      "url":     "https://www.netresec.com",
-      "expo":    "inactive"
-    },
-
-  
-    
-
-    
-
-    
-    { 
-      "id":      "23",
-      "type":    "partner",
-      "level":   "governmental-partner",
-      "company": "MSB",
-      "logo":    "https://cs3sthlm.se/assets/partners/msb-english.png",
-      "url":     "https://www.msb.se/en/",
-      "expo":    "active"
-    },
-
-  
-    
-
-    
-
-    
-    { 
-      "id":      "24",
-      "type":    "partner",
-      "level":   "community-partner",
-      "company": "KraftCERT",
-      "logo":    "https://cs3sthlm.se/assets/partners/kraftcert.png",
-      "url":     "https://www.kraftcert.no/english/index.html",
-      "expo":    "inactive"
-    },
-
-  
-    
-
-    
-
-    
-    { 
-      "id":      "25",
-      "type":    "partner",
-      "level":   "community-partner",
-      "company": "FIRST",
-      "logo":    "https://cs3sthlm.se/assets/partners/first.png",
-      "url":     "https://www.first.org",
-      "expo":    "inactive"
-    },
-
-  
-    
-
-    
-
-    
-    { 
-      "id":      "26",
+      "id":      "16",
       "type":    "partner",
       "level":   "partner",
-      "company": "Netnordic",
-      "logo":    "https://cs3sthlm.se/assets/partners/netnordic.png",
-      "url":     "https://netnordic.se",
+      "company": "Recorded Future",
+      "logo":    "https://cs3sthlm.se/assets/partners/recorded-future.png",
+      "url":     "https://www.recordedfuture.com",
       "expo":    "active"
     },
 
@@ -426,7 +266,7 @@
 
     
     { 
-      "id":      "27",
+      "id":      "17",
       "type":    "partner",
       "level":   "partner",
       "company": "SecurityMatters",
@@ -442,13 +282,189 @@
 
     
     { 
-      "id":      "28",
+      "id":      "18",
+      "type":    "partner",
+      "level":   "training-partner",
+      "company": "Dragos",
+      "logo":    "https://cs3sthlm.se/assets/partners/dragos.png",
+      "url":     "https://dragos.com",
+      "expo":    "active"
+    },
+
+  
+    
+
+    
+
+    
+    { 
+      "id":      "19",
       "type":    "partner",
       "level":   "partner",
-      "company": "Fortinet",
-      "logo":    "https://cs3sthlm.se/assets/partners/fortinet.png",
-      "url":     "https://www.fortinet.com",
+      "company": "Netnordic",
+      "logo":    "https://cs3sthlm.se/assets/partners/netnordic.png",
+      "url":     "https://netnordic.se",
       "expo":    "active"
+    },
+
+  
+    
+
+    
+
+    
+    { 
+      "id":      "20",
+      "type":    "partner",
+      "level":   "organizer",
+      "company": "ROMAB",
+      "logo":    "https://cs3sthlm.se/assets/partners/romab.png",
+      "url":     "https://romab.com",
+      "expo":    "ac"
+    },
+
+  
+    
+
+    
+
+    
+    { 
+      "id":      "21",
+      "type":    "partner",
+      "level":   "organizer",
+      "company": "Management Doctors",
+      "logo":    "https://cs3sthlm.se/assets/partners/md.png",
+      "url":     "http://managementdoctors.se",
+      "expo":    "active"
+    },
+
+  
+    
+
+    
+
+    
+    { 
+      "id":      "22",
+      "type":    "partner",
+      "level":   "organizer",
+      "company": "sysctl",
+      "logo":    "https://cs3sthlm.se/assets/partners/sysctl.png",
+      "url":     "https://sysctl.se",
+      "expo":    "active"
+    },
+
+  
+    
+
+    
+
+    
+    { 
+      "id":      "23",
+      "type":    "partner",
+      "level":   "organizer",
+      "company": "OMNISIENS",
+      "logo":    "https://cs3sthlm.se/assets/partners/omnisiens.png",
+      "url":     "https://omnisiens.se",
+      "expo":    "inactive"
+    },
+
+  
+    
+
+    
+
+    
+    { 
+      "id":      "24",
+      "type":    "partner",
+      "level":   "organizer",
+      "company": "sysctl",
+      "logo":    "https://cs3sthlm.se/assets/partners/sysctl.png",
+      "url":     "https://sysctl.se",
+      "expo":    "active"
+    },
+
+  
+    
+
+    
+
+    
+    { 
+      "id":      "25",
+      "type":    "partner",
+      "level":   "training-partner",
+      "company": "Gai Netconsult",
+      "logo":    "https://cs3sthlm.se/assets/partners/gai-netconsult.png",
+      "url":     "https://www.gai-netconsult.de/index.php?id=startseite",
+      "expo":    "inactive"
+    },
+
+  
+    
+
+    
+
+    
+    { 
+      "id":      "26",
+      "type":    "partner",
+      "level":   "training-partner",
+      "company": "EnergiNet",
+      "logo":    "https://cs3sthlm.se/assets/partners/energinet.png",
+      "url":     "https://en.energinet.dk",
+      "expo":    "inactive"
+    },
+
+  
+    
+
+    
+
+    
+    { 
+      "id":      "27",
+      "type":    "partner",
+      "level":   "training-partner",
+      "company": "NETRESEC",
+      "logo":    "https://cs3sthlm.se/assets/partners/netresec.png",
+      "url":     "https://www.netresec.com",
+      "expo":    "inactive"
+    },
+
+  
+    
+
+    
+
+    
+    { 
+      "id":      "28",
+      "type":    "partner",
+      "level":   "community-partner",
+      "company": "KraftCERT",
+      "logo":    "https://cs3sthlm.se/assets/partners/kraftcert.png",
+      "url":     "https://www.kraftcert.no/english/index.html",
+      "expo":    "inactive"
+    },
+
+  
+    
+
+    
+
+    
+    { 
+      "id":      "29",
+      "type":    "partner",
+      "level":   "community-partner",
+      "company": "FIRST",
+      "logo":    "https://cs3sthlm.se/assets/partners/first.png",
+      "url":     "https://www.first.org",
+      "expo":    "inactive"
     }
 
   

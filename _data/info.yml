@@ -79,143 +79,13 @@
 
 - id: 11
   type: partner
-  level: organizer
-  company: OMNISIENS
-  logo: omnisiens.png
-  url: https://omnisiens.se
-  expo: inactive
-
-- id: 12
-  type: partner
-  level: organizer
-  company: ROMAB
-  logo: romab.png
-  url: https://romab.com
-  expo: active
-
-- id: 13
-  type: partner
-  level: organizer
-  company: sysctl
-  logo: sysctl.png
-  url: https://sysctl.se
-  expo: active
-
-- id: 14
-  type: partner
-  level: organizer
-  company: Management Doctors
-  logo: md.png
-  url: http://managementdoctors.se
-  expo: active
-
-- id: 15
-  type: partner
-  level: partner
-  company: Advenica
-  logo: advenica.png
-  url: https://www.advenica.com/en
-  expo: active
-
-- id: 16
-  type: partner
-  level: partner
-  company: Kaspersky
-  logo: kaspersky.png
-  url: https://www.kaspersky.com
-  expo: active
-
-- id: 17
-  type: partner
-  level: partner
-  company: Recorded Future
-  logo: recorded-future.png
-  url: https://www.recordedfuture.com
-  expo: active
-
-- id: 18
-  type: partner
-  level: partner
-  company: Waterfall Security
-  logo: waterfall-security.png
-  url: https://waterfall-security.com
-  expo: active
-
-- id: 19
-  type: partner
-  level: training-partner
-  company: Gai Netconsult
-  logo: gai-netconsult.png
-  url: https://www.gai-netconsult.de/index.php?id=startseite
-  expo: inactive
-
-- id: 20
-  type: partner
-  level: training-partner
-  company: Dragos
-  logo: dragos.png
-  url: https://dragos.com
-  expo: active
-
-
-- id: 21
-  type: partner
-  level: training-partner
-  company: EnergiNet
-  logo: energinet.png
-  url: https://en.energinet.dk
-  expo: inactive
-
-- id: 22
-  type: partner
-  level: training-partner
-  company: NETRESEC
-  logo: netresec.png
-  url: https://www.netresec.com
-  expo: inactive
-
-
-- id: 23
-  type: partner
   level: governmental-partner
   company: MSB
   logo: msb-english.png
   url: https://www.msb.se/en/
   expo: active
 
-- id: 24
-  type: partner
-  level: community-partner
-  company: KraftCERT
-  logo: kraftcert.png
-  url: https://www.kraftcert.no/english/index.html
-  expo: inactive
-
-- id: 25
-  type: partner
-  level: community-partner
-  company: FIRST
-  logo: first.png
-  url: https://www.first.org
-  expo: inactive
-
-- id: 26
-  type: partner 
-  level: partner
-  company: Netnordic
-  logo: netnordic.png
-  url: https://netnordic.se
-  expo: active
-
-- id: 27
-  type: partner
-  level: partner
-  company: SecurityMatters
-  logo: securitymatters.png
-  url: https://www.secmatters.com
-  expo: active
-
-- id: 28
+- id: 12
   type: partner
   level: partner
   company: Fortinet
@@ -223,3 +93,138 @@
   url: https://www.fortinet.com
   expo: active
 
+- id: 13
+  type: partner
+  level: partner
+  company: Kaspersky
+  logo: kaspersky.png
+  url: https://www.kaspersky.com
+  expo: active
+
+- id: 14
+  type: partner
+  level: partner
+  company: Advenica
+  logo: advenica.png
+  url: https://www.advenica.com/en
+  expo: active
+
+- id: 15
+  type: partner
+  level: partner
+  company: Waterfall Security
+  logo: waterfall-security.png
+  url: https://waterfall-security.com
+  expo: active
+
+- id: 16
+  type: partner
+  level: partner
+  company: Recorded Future
+  logo: recorded-future.png
+  url: https://www.recordedfuture.com
+  expo: active
+
+- id: 17
+  type: partner
+  level: partner
+  company: SecurityMatters
+  logo: securitymatters.png
+  url: https://www.secmatters.com
+  expo: active
+
+- id: 18
+  type: partner
+  level: training-partner
+  company: Dragos
+  logo: dragos.png
+  url: https://dragos.com
+  expo: active
+
+- id: 19
+  type: partner 
+  level: partner
+  company: Netnordic
+  logo: netnordic.png
+  url: https://netnordic.se
+  expo: active
+
+- id: 20
+  type: partner
+  level: organizer
+  company: ROMAB
+  logo: romab.png
+  url: https://romab.com
+  expo: ac
+
+- id: 21
+  type: partner
+  level: organizer
+  company: Management Doctors
+  logo: md.png
+  url: http://managementdoctors.se
+  expo: active
+
+- id: 22
+  type: partner
+  level: organizer
+  company: sysctl
+  logo: sysctl.png
+  url: https://sysctl.se
+  expo: active
+
+- id: 23
+  type: partner
+  level: organizer
+  company: OMNISIENS
+  logo: omnisiens.png
+  url: https://omnisiens.se
+  expo: inactive
+
+- id: 24
+  type: partner
+  level: organizer
+  company: sysctl
+  logo: sysctl.png
+  url: https://sysctl.se
+  expo: active
+
+- id: 25
+  type: partner
+  level: training-partner
+  company: Gai Netconsult
+  logo: gai-netconsult.png
+  url: https://www.gai-netconsult.de/index.php?id=startseite
+  expo: inactive
+
+- id: 26
+  type: partner
+  level: training-partner
+  company: EnergiNet
+  logo: energinet.png
+  url: https://en.energinet.dk
+  expo: inactive
+
+- id: 27
+  type: partner
+  level: training-partner
+  company: NETRESEC
+  logo: netresec.png
+  url: https://www.netresec.com
+  expo: inactive
+
+- id: 28
+  type: partner
+  level: community-partner
+  company: KraftCERT
+  logo: kraftcert.png
+  url: https://www.kraftcert.no/english/index.html
+  expo: inactive
+
+- id: 29
+  type: partner
+  level: community-partner
+  company: FIRST
+  logo: first.png
+  url: https://www.first.org
+  expo: inactive
