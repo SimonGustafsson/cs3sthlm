@@ -183,21 +183,13 @@
 
 - id: 24
   type: partner
-  level: organizer
-  company: sysctl
-  logo: sysctl.png
-  url: https://sysctl.se
-  expo: active
-
-- id: 25
-  type: partner
   level: training-partner
   company: Gai Netconsult
   logo: gai-netconsult.png
   url: https://www.gai-netconsult.de/index.php?id=startseite
   expo: inactive
 
-- id: 26
+- id: 25
   type: partner
   level: training-partner
   company: EnergiNet
@@ -205,7 +197,7 @@
   url: https://en.energinet.dk
   expo: inactive
 
-- id: 27
+- id: 26
   type: partner
   level: training-partner
   company: NETRESEC
@@ -213,7 +205,7 @@
   url: https://www.netresec.com
   expo: inactive
 
-- id: 28
+- id: 27
   type: partner
   level: community-partner
   company: KraftCERT
@@ -221,7 +213,7 @@
   url: https://www.kraftcert.no/english/index.html
   expo: inactive
 
-- id: 29
+- id: 28
   type: partner
   level: community-partner
   company: FIRST

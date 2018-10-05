@@ -380,22 +380,6 @@
     { 
       "id":      "24",
       "type":    "partner",
-      "level":   "organizer",
-      "company": "sysctl",
-      "logo":    "https://cs3sthlm.se/assets/partners/sysctl.png",
-      "url":     "https://sysctl.se",
-      "expo":    "active"
-    },
-
-  
-    
-
-    
-
-    
-    { 
-      "id":      "25",
-      "type":    "partner",
       "level":   "training-partner",
       "company": "Gai Netconsult",
       "logo":    "https://cs3sthlm.se/assets/partners/gai-netconsult.png",
@@ -410,7 +394,7 @@
 
     
     { 
-      "id":      "26",
+      "id":      "25",
       "type":    "partner",
       "level":   "training-partner",
       "company": "EnergiNet",
@@ -426,7 +410,7 @@
 
     
     { 
-      "id":      "27",
+      "id":      "26",
       "type":    "partner",
       "level":   "training-partner",
       "company": "NETRESEC",
@@ -442,7 +426,7 @@
 
     
     { 
-      "id":      "28",
+      "id":      "27",
       "type":    "partner",
       "level":   "community-partner",
       "company": "KraftCERT",
@@ -458,7 +442,7 @@
 
     
     { 
-      "id":      "29",
+      "id":      "28",
       "type":    "partner",
       "level":   "community-partner",
       "company": "FIRST",
