@@ -2340,8 +2340,8 @@ h1, h2, h3, h4 {
     bottom: 0;
     left: 0;
     z-index: 20;
-    background: -webkit-linear-gradient(transparent, rgba(3, 1, 0, 0.8)) left repeat;
-    background: linear-gradient(transparent, rgba(3, 1, 0, 0.8)) left repeat;
+    background: -webkit-linear-gradient(transparent, rgba(3, 1, 0, 0.8)) top;
+    background: linear-gradient(transparent, rgba(3, 1, 0, 0.8)) top;
     transition: 0.24s all ease-in-out;
     -moz-transition: 0.24s all ease-in-out;
     -webkit-transtiion: 0.24s all ease-in-out;
@@ -2496,8 +2496,8 @@ h1, h2, h3, h4 {
       bottom: 0;
       left: 0;
       z-index: 20;
-      background: -webkit-linear-gradient(transparent, rgba(3, 1, 0, 0.8)) left repeat;
-      background: linear-gradient(transparent, rgba(3, 1, 0, 0.8)) left repeat;
+      background: -webkit-linear-gradient(transparent, rgba(3, 1, 0, 0.8)) top;
+      background: linear-gradient(transparent, rgba(3, 1, 0, 0.8)) top;
       transition: 0.24s all ease-in-out;
       -moz-transition: 0.24s all ease-in-out;
       -webkit-transtiion: 0.24s all ease-in-out;

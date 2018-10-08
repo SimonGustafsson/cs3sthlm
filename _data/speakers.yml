@@ -1345,7 +1345,7 @@
   permalink: program/presentations/erik-zouave/
   name: Erik Zouave
   role: Analyst
-  work: FOI
+  work: FOI - Swedish Defence Research Agency
   country: Sweden
   shortcode: SE
   image: erik-zouave.png
@@ -1369,7 +1369,7 @@
   permalink: program/presentations/lars-westerdahl/
   name: Lars Westerdahl
   role: Scientist
-  work: FOI
+  work: FOI - Swedish Defence Research Agency
   country: Sweden
   shortcode: SE
   image: lars-westerdahl.png
@@ -1392,9 +1392,9 @@
   permalink: program/presentations/margarita-jaitner/
   name: Margarita Jaitner
   role: Analyst
-  work: FOI
-  country: Sweden
-  shortcode: SE
+  work: FOI - Swedish Defence Research Agency
+  country: Norway
+  shortcode: "NO"
   image: margarita-jaitner.png
   bio: 
   date:
