@@ -157,7 +157,7 @@ id: home
       <div class="speaker-block">
         <img src="{{ site.baseurl }}/assets/speakers/{{ speaker.image }}">
         <div class="speaker-block-data">
-          <h4>{{ speaker.type }}<span>{{ speaker.shortcode }}</span></h4>
+          <h4>{% if speaker.type == "expotalk" %}Expo Presentation{% else %}{{ speaker.type }}{% endif %}<span>{{ speaker.shortcode }}</span></h4>
           <h2>{{ speaker.name }}</h2>
         </div>
       </div>

@@ -33,12 +33,12 @@ layout: default
 	<div class="speaker--list-group">
 		{% assign sorted_speakers = site.data.speakers | sort:'name' %}
 		{% for speaker in sorted_speakers %}
-		{% if speaker.type == "presentation" or speaker.type == "training" or speaker.type == "moderator" %}
+		{% if speaker.type == "presentation" or speaker.type == "training" or speaker.type == "moderator" or speaker.type == "expotalk" %}
 		<div class="speaker--list-item">
 			<div class="speaker-block">
 				<img src="{{ site.baseurl }}/assets/speakers/{{ speaker.image }}">
 				<div class="speaker-block-data">
-					<h4>{{ speaker.type }}<span>{{ speaker.shortcode }}</span></h4>
+					<h4>{% if speaker.type == "expotalk" %}Expo Presentation{% else %}{{ speaker.type }}{% endif %}<span>{{ speaker.shortcode }}</span></h4>
 					<h2>{{ speaker.name }}</h2>
 				</div>
 			</div>

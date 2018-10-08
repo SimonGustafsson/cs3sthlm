@@ -22,9 +22,9 @@ layout: default
 
   <div class="presentation--list">
       <ul>
-      {% assign sorted_presentations = site.pages | sort: 'url' %}
+      {% assign sorted_presentations = site.pages | sort: 'title' %}
       {% for page in sorted_presentations %}
-      {% if page.id ==  'presentation' %}
+      {% if page.id ==  'presentation' or page.id == "expotalk" %}
         <li><a href="{{ page.url | prepend: site.baseurl }}">
             {% for item in page.speaker %}
             <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}">

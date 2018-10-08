@@ -78,75 +78,6 @@ layout: default
 
 </section>
 
-
-<section class="content">
-
-	<div class="sec-head">
-	    <h4>Who's There</h4>
-	    <div class="block-head">
-	    	<h2 class="no-line">Expo Partners</h2>
-	    </div>
-   	</div>
-    <!--
-   	<div class="col-1">
-   		<div class="partner--list partner--list-single-group">
-		{% assign sortedpartners = site.data.partners | sort:"e-order" %}
-		{% for partner in sortedpartners %}
-		{% if partner.expo == "yes" %}
-		{% if partner.type == "large" %}
-			<div class="partner--item partner--item-large">
-				<a href="{{ partner.url }}" target="_blank">
-					<img src="{{ site.baseurl }}/assets/partners/{{ partner.logo }}" alt="{{ partner.company }}">
-				</a>
-			</div>
-		{% endif %}
-		{% endif %}
-		{% endfor %}
-		
-		{% for partner in sortedpartners %}
-		{% if partner.expo == "yes" %}
-		{% if partner.type == "small" %}
-			<div class="partner--item">
-				<a href="{{ partner.url }}" target="_blank">
-					<img src="{{ site.baseurl }}/assets/partners/{{ partner.logo }}" alt="{{ partner.company }}">
-				</a>
-			</div>
-		{% endif %}
-		{% endif %}
-		{% endfor %}
-		
-		  </div>
-
-   	</div>
-    -->
-
-    <div class="col-1">
-      <div class="partner--list partner--list-single-group">
-    {% assign sortedpartners = site.data.partners | sort:"e-order" %}
-    {% for partner in sortedpartners %}
-    {% if partner.expo == "yes" %}
-    {% if partner.e-type == "large" %}
-      <div class="partner--item partner--item-large">
-        <a href="{{ partner.url }}" target="_blank">
-          <img src="{{ site.baseurl }}/assets/partners/{{ partner.logo }}" alt="{{ partner.company }}">
-        </a>
-      </div>
-    {% endif %}
-    {% if partner.e-type == "small" %}
-      <div class="partner--item">
-        <a href="{{ partner.url }}" target="_blank">
-          <img src="{{ site.baseurl }}/assets/partners/{{ partner.logo }}" alt="{{ partner.company }}">
-        </a>
-      </div>
-    {% endif %}
-    {% endif %}
-    {% endfor %}    
-      </div>
-
-    </div>
-
-</section>
-
 <section class="content">
 
 	<div class="sec-head">
@@ -252,6 +183,42 @@ layout: default
           <a href="{{ site.baseurl }}/program/speakers/" class="special">View More Speakers</a>
         </div>
       </div>
+    </div>
+
+</section>
+
+<section class="content">
+
+  <div class="sec-head">
+      <h4>Who's There</h4>
+      <div class="block-head">
+        <h2 class="no-line">Expo Partners</h2>
+      </div>
+    </div>
+
+    <div class="col-1">
+      <div class="partner--list partner--list-single-group">
+    {% assign sortedpartners = site.data.partners | sort:"e-order" %}
+    {% for partner in sortedpartners %}
+    {% if partner.expo == "yes" %}
+    {% if partner.e-type == "large" %}
+      <div class="partner--item partner--item-large">
+        <a href="{{ partner.url }}" target="_blank">
+          <img src="{{ site.baseurl }}/assets/partners/{{ partner.logo }}" alt="{{ partner.company }}">
+        </a>
+      </div>
+    {% endif %}
+    {% if partner.e-type == "small" %}
+      <div class="partner--item">
+        <a href="{{ partner.url }}" target="_blank">
+          <img src="{{ site.baseurl }}/assets/partners/{{ partner.logo }}" alt="{{ partner.company }}">
+        </a>
+      </div>
+    {% endif %}
+    {% endif %}
+    {% endfor %}    
+      </div>
+
     </div>
 
 </section>
