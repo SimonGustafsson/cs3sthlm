@@ -136,6 +136,12 @@
 
 
 {
+	"description": ""
+},
+
+
+
+{
 	"description": "<p>In a modern conflict, the absence of war is not the same as peace; and a robust critical infrastructure is the first line of defence. The goal of an attacking nation may not be a country or its resources; it may just as well be the freedom to operate without interference. Thus, non-traditional operations with the goal to destabilize a nation’s resolve comprises a grey area between peace and war.</p>"
 },
 
@@ -152,7 +158,7 @@
 
 
 {
-	"description": ""
+	"description": "<p>This presentation gauges the notion of risk in regards to proliferation of IoT attempting at being both comprehensive and yet exact. Risk is then tied to vulnerabilities and potential attack vectors typical for IoT. In conclusion, strategies for managing the described risks will be introduced. The presentation is based on a study conducted by Vidar Hedtjärn Swaling and Jessica Johansson.</p>"
 },
 
 

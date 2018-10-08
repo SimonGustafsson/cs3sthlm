@@ -442,6 +442,14 @@
   
    {
      
+        "title"    : "Introduction to MSB-session",
+        "url"      : "/program/presentations/kristina-blomqvist/",
+        "path"     : "/program/presentations/kristina-blomqvist/"
+     
+   },
+  
+   {
+     
         "title"    : "Introduction to KRAFT-CERT and some words about Nordic co-op",
         "url"      : "/program/presentations/lars-erik-smevold/",
         "path"     : "/program/presentations/lars-erik-smevold/"
@@ -478,7 +486,7 @@
   
    {
      
-        "title"    : "IoT-related risks",
+        "title"    : "Managing IoT-related risks",
         "url"      : "/program/presentations/margarita-jaitner/",
         "path"     : "/program/presentations/margarita-jaitner/"
      

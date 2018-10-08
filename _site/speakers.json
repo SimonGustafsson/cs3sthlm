@@ -1471,8 +1471,8 @@
 		"name"		: "Margarita Jaitner",
 		"role"		: "Analyst",
 		"work"		: "FOI - Swedish Defence Research Agency",
-		"country"	: "Norway",
-		"shortcode"	: "NO",
+		"country"	: "Sweden",
+		"shortcode"	: "SE",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/margarita-jaitner.png",
 		
 		
@@ -1481,13 +1481,13 @@
 		"presentation":{
 		
 			"active": 	"live",
-			"title": 	"IoT-related risks",
+			"title": 	"Managing IoT-related risks",
 			"partner":	"",
 			"name":		"",
 			"role":		"",
 			"work":		"",
 			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>Coming soon.</p>"
+			"description": "<p>This presentation gauges the notion of risk in regards to proliferation of IoT attempting at being both comprehensive and yet exact. Risk is then tied to vulnerabilities and potential attack vectors typical for IoT. In conclusion, strategies for managing the described risks will be introduced. The presentation is based on a study conducted by Vidar Hedtjärn Swaling and Jessica Johansson.</p>"
 		
 		},
 		
@@ -1586,6 +1586,47 @@
 		
 
 		"bio": "<p>Jack Werner is a freelance journalist and writer. In 2014 at the free daily Metro, he co-founded the prize-winning fact-checking effort Viralgranskaren. He is a popular lecturer on critial thinking on social media, and the author of two books, on creepypasta, ghost stories on the internet, (2014) and fake news and urban legends on social media (2018). Since 2015, he runs the podcast Creepypodden, a bi-weekly podcast about ghost stories with over 130 000 listeners.</p>"
+	},
+
+	{
+		"id"		: "42",
+		"type"		: "presentation",
+		"name"		: "Kristina Blomqvist",
+		"role"		: "Program Manager - Program for Security in ICS",
+		"work"		: "MSB - Swedish Civil Contingencies Agency",
+		"country"	: "Sweden",
+		"shortcode"	: "SE",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/kristina-blomqvist.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Introduction to MSB-session",
+			"partner":	"",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "<p>Coming soon.</p>"
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		},
+		
+
+		"bio": ""
 	}
 
 ]

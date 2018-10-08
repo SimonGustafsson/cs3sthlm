@@ -1393,8 +1393,8 @@
   name: Margarita Jaitner
   role: Analyst
   work: FOI - Swedish Defence Research Agency
-  country: Norway
-  shortcode: "NO"
+  country: Sweden
+  shortcode: SE
   image: margarita-jaitner.png
   bio: 
   date:
@@ -1402,11 +1402,11 @@
   place:
   presentation:
     - active: live
-      subject: IoT-related risks
+      subject: Managing IoT-related risks
       permalink: program/presentations/margarita-jaitner/
       partner:
       description: |
-        Coming soon.
+        This presentation gauges the notion of risk in regards to proliferation of IoT attempting at being both comprehensive and yet exact. Risk is then tied to vulnerabilities and potential attack vectors typical for IoT. In conclusion, strategies for managing the described risks will be introduced. The presentation is based on a study conducted by Vidar Hedtjärn Swaling and Jessica Johansson.
   training:
     - active: none
 
@@ -1456,5 +1456,28 @@
       partner:
       description: |
       
+  training:
+    - active: none
+
+- id: 42
+  type: presentation
+  permalink: program/presentations/kristina-blomqvist/
+  name: Kristina Blomqvist
+  role: Program Manager - Program for Security in ICS
+  work: MSB - Swedish Civil Contingencies Agency
+  country: Sweden
+  shortcode: SE
+  image: kristina-blomqvist.png
+  bio:
+  date:
+  time:
+  place:
+  presentation:
+    - active: live
+      subject: Introduction to MSB-session
+      permalink: program/presentations/kristina-blomqvist/
+      partner:
+      description: |
+        Coming soon.
   training:
     - active: none
