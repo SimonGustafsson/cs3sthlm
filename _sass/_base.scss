@@ -3550,7 +3550,7 @@ h1, h2, h3, h4 {
       }
     }
     a {
-      display: block;
+      display: inline-block;
       margin-bottom: 12px;
       color: $yellow;
       text-decoration: none;
@@ -3569,6 +3569,7 @@ h1, h2, h3, h4 {
     .speaker-permalink {
       display: inline-block;
       margin: 12px 0 0;
+      font-size: 18px;
 
       &:before {
         display: block;

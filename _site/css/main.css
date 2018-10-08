@@ -2808,7 +2808,7 @@ h1, h2, h3, h4 {
       .speaker-block--content .headline {
         font-size: 16px; } }
   .speaker-block--content a {
-    display: block;
+    display: inline-block;
     margin-bottom: 12px;
     color: #ef7d00;
     text-decoration: none;
@@ -2824,7 +2824,8 @@ h1, h2, h3, h4 {
       text-decoration: underline; }
   .speaker-block--content .speaker-permalink {
     display: inline-block;
-    margin: 12px 0 0; }
+    margin: 12px 0 0;
+    font-size: 18px; }
     .speaker-block--content .speaker-permalink:before {
       display: block;
       content: '';

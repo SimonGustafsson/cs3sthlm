@@ -186,6 +186,14 @@
   
    {
      
+        "title"    : "Supply Chain Cyber Security throughout the ICS Lifecycle",
+        "url"      : "/program/presentations/erik-zouave/",
+        "path"     : "/program/presentations/erik-zouave/"
+     
+   },
+  
+   {
+     
         "title"    : "The good, the bad and the segmented",
         "url"      : "/program/presentations/erwin-rik/",
         "path"     : "/program/presentations/erwin-rik/"
@@ -209,134 +217,6 @@
         "title"    : "Control Theory for Practical Cyber-Physical Security",
         "url"      : "/expo/presentations/henrik-sandberg/",
         "path"     : "/expo/presentations/henrik-sandberg/"
-     
-   },
-  
-   {
-     
-        "title"    : "Partners",
-        "url"      : "/partners/",
-        "path"     : "/partners/"
-     
-   },
-  
-   {
-     
-        "title"    : "Speakers",
-        "url"      : "/program/speakers/",
-        "path"     : "/program/speakers/"
-     
-   },
-  
-   {
-     
-        "title"    : "Trainings",
-        "url"      : "/program/trainings/",
-        "path"     : "/program/trainings/"
-     
-   },
-  
-   {
-     
-        "title"    : "Home",
-        "url"      : "/",
-        "path"     : ""
-     
-   },
-  
-   {
-     
-        "title"    : "Expo Presentations",
-        "url"      : "/expo/presentations/",
-        "path"     : "/expo/presentations/"
-     
-   },
-  
-   {
-     
-        "title"    : "Contact",
-        "url"      : "/contact/",
-        "path"     : "/contact/"
-     
-   },
-  
-   {
-     
-        "title"    : "Practical Details",
-        "url"      : "/practical-details/",
-        "path"     : "/practical-details/"
-     
-   },
-  
-   {
-     
-        "title"    : "CS3STHLM - App",
-        "url"      : "/app/",
-        "path"     : "/app/"
-     
-   },
-  
-   {
-     
-        "title"    : "Press",
-        "url"      : "/press/",
-        "path"     : "/press/"
-     
-   },
-  
-   {
-     
-        "title"    : "ICS Lab",
-        "url"      : "/ics-lab/",
-        "path"     : "/ics-lab/"
-     
-   },
-  
-   {
-     
-        "title"    : "Archive",
-        "url"      : "/about/archive/",
-        "path"     : "/about/archive/"
-     
-   },
-  
-   {
-     
-        "title"    : "History",
-        "url"      : "/about/history/",
-        "path"     : "/about/history/"
-     
-   },
-  
-   {
-     
-        "title"    : "Advisory",
-        "url"      : "/about/advisory/",
-        "path"     : "/about/advisory/"
-     
-   },
-  
-   {
-     
-        "title"    : "About",
-        "url"      : "/about/",
-        "path"     : "/about/"
-     
-   },
-  
-   {
-     
-        "title"    : "Expo Agenda",
-        "url"      : "/expo/agenda/",
-        "path"     : "/expo/agenda/"
-     
-   },
-  
-   {
-     
-        "title"    : "Expo",
-        "url"      : "/expo/",
-        "path"     : "/expo/"
      
    },
   
@@ -366,9 +246,49 @@
   
    {
      
-        "title"    : "Presentations",
-        "url"      : "/program/presentations/",
-        "path"     : "/program/presentations/"
+        "title"    : "About",
+        "url"      : "/about/",
+        "path"     : "/about/"
+     
+   },
+  
+   {
+     
+        "title"    : "Speakers",
+        "url"      : "/program/speakers/",
+        "path"     : "/program/speakers/"
+     
+   },
+  
+   {
+     
+        "title"    : "Trainings",
+        "url"      : "/program/trainings/",
+        "path"     : "/program/trainings/"
+     
+   },
+  
+   {
+     
+        "title"    : "Archive",
+        "url"      : "/about/archive/",
+        "path"     : "/about/archive/"
+     
+   },
+  
+   {
+     
+        "title"    : "ICS Lab",
+        "url"      : "/ics-lab/",
+        "path"     : "/ics-lab/"
+     
+   },
+  
+   {
+     
+        "title"    : "Press",
+        "url"      : "/press/",
+        "path"     : "/press/"
      
    },
   
@@ -377,6 +297,94 @@
         "title"    : "Program",
         "url"      : "/program/",
         "path"     : "/program/"
+     
+   },
+  
+   {
+     
+        "title"    : "CS3STHLM - App",
+        "url"      : "/app/",
+        "path"     : "/app/"
+     
+   },
+  
+   {
+     
+        "title"    : "Contact",
+        "url"      : "/contact/",
+        "path"     : "/contact/"
+     
+   },
+  
+   {
+     
+        "title"    : "Practical Details",
+        "url"      : "/practical-details/",
+        "path"     : "/practical-details/"
+     
+   },
+  
+   {
+     
+        "title"    : "Partners",
+        "url"      : "/partners/",
+        "path"     : "/partners/"
+     
+   },
+  
+   {
+     
+        "title"    : "Expo Presentations",
+        "url"      : "/expo/presentations/",
+        "path"     : "/expo/presentations/"
+     
+   },
+  
+   {
+     
+        "title"    : "Advisory",
+        "url"      : "/about/advisory/",
+        "path"     : "/about/advisory/"
+     
+   },
+  
+   {
+     
+        "title"    : "History",
+        "url"      : "/about/history/",
+        "path"     : "/about/history/"
+     
+   },
+  
+   {
+     
+        "title"    : "Home",
+        "url"      : "/",
+        "path"     : ""
+     
+   },
+  
+   {
+     
+        "title"    : "Expo Agenda",
+        "url"      : "/expo/agenda/",
+        "path"     : "/expo/agenda/"
+     
+   },
+  
+   {
+     
+        "title"    : "Expo",
+        "url"      : "/expo/",
+        "path"     : "/expo/"
+     
+   },
+  
+   {
+     
+        "title"    : "Presentations",
+        "url"      : "/program/presentations/",
+        "path"     : "/program/presentations/"
      
    },
   
@@ -434,6 +442,22 @@
   
    {
      
+        "title"    : "Introduction to KRAFT-CERT and some words about Nordic co-op",
+        "url"      : "/program/presentations/lars-erik-smevold/",
+        "path"     : "/program/presentations/lars-erik-smevold/"
+     
+   },
+  
+   {
+     
+        "title"    : "Uncertain conflict – When critical infrastructure is affected by national conflicts.",
+        "url"      : "/program/presentations/lars-westerdahl/",
+        "path"     : "/program/presentations/lars-westerdahl/"
+     
+   },
+  
+   {
+     
         "title"    : "Securing Low Level Software Using Formal Methods",
         "url"      : "/expo/presentations/mads-dam/",
         "path"     : "/expo/presentations/mads-dam/"
@@ -449,6 +473,14 @@
         "title"    : "Using fake BTS as a part of pentest of devices using SIM cards for data transmission",
         "url"      : "/program/presentations/marcin-dudek/",
         "path"     : "/program/presentations/marcin-dudek/"
+     
+   },
+  
+   {
+     
+        "title"    : "IoT-related risks",
+        "url"      : "/program/presentations/margarita-jaitner/",
+        "path"     : "/program/presentations/margarita-jaitner/"
      
    },
   

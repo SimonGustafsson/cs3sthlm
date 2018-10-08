@@ -157,7 +157,26 @@ id: home
       <div class="speaker-block">
         <img src="{{ site.baseurl }}/assets/speakers/{{ speaker.image }}">
         <div class="speaker-block-data">
-          <h4>{% if speaker.type == "expotalk" %}Expo Presentation{% else %}{{ speaker.type }}{% endif %}<span>{{ speaker.shortcode }}</span></h4>
+          {% if speaker.type == "moderator" %}
+          <h4>{{ speaker.type }}<span>{{ speaker.shortcode }}</span></h4>
+          {% endif %}
+
+          {% if speaker.type == "presentation" %}
+          <h4>{{ speaker.type }}<span>{{ speaker.shortcode }}</span></h4>
+          {% endif %}
+
+          {% if speaker.type == "expotalk" %}
+          <h4>Expo Presentation<span>{{ speaker.shortcode }}</span></h4>
+          {% endif %}
+
+          {% if speaker.type == "training" %}
+          <h4>{{ speaker.type }}<span>{{ speaker.shortcode }}</span></h4>
+          {% endif %}
+
+          {% if speaker.type == "special" %}
+          <h4>Dinner Presentation<span>{{ speaker.shortcode }}</span></h4>
+          {% endif %}
+
           <h2>{{ speaker.name }}</h2>
         </div>
       </div>
@@ -184,6 +203,16 @@ id: home
           </div>
 
           <div class="col-2-6">
+          {% if speaker.type == "special" %}
+            <div class="col-block">
+              <h4 class="headline">Dinner Presentation</h4>
+              <span class="speaker-permalink">{{ speaker.specialtitle }}</span>
+            </div>
+            <div class="col-block">
+              <p>Image taken by <a href="{{ speaker.photourl }}">Kate Gabor</a></p>
+            </div>          
+          {% endif %}
+
           {% for item in speaker.presentation %}
           {% if item.active == "live" %}
             <div class="col-block">

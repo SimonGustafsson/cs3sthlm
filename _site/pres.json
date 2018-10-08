@@ -40,6 +40,12 @@
 
 
 {
+	"description": "<p>The presentation is based on the preliminary findings of a study regarding aspects of cybersecurity in ICS supply chains at different stages of an ICS life cycle.</p>"
+},
+
+
+
+{
 	"description": "<p>“Network Segmentation” is a simple concept of 20 characters (space included). Doing it in practice and doing it right is much more difficult. Proper segmentation is much, much more than just adding a firewall.</p><p>Over the last years we spend a lot of time and money on designing and implementing network segmentation for our multi-site IT and multi-site OT networks. Not only in technical solutions, but also in the required processes for maintaining the new environment. We made some (costly) mistakes and had to rethink our design based on physical and organizational boundaries.</p><p>In this talk, we would like to present lessons-learned on the multi-million, multi-year project. It is not an official report-out, but a hands-on and practical presentation. We hope this talk will give the audience a feeling for the challenges of a proper segmentation program and help them to prevent some of the mistakes we made.</p><h4 id=\"the-following-questions-will-be-answered\">The following questions will be answered</h4><ul>  <li>How did we convince Senior Management to allocate the budget</li>  <li>What underlying architecture did we choose and why?</li>  <li>What use cases did we envision and how did we work them out?</li>  <li>What design choices were made?</li>  <li>How did this work out in reality?</li>  <li>What did we learn?</li>  <li>What would we recommend?</li>  <li>What would we do differently?</li></ul>"
 },
 
@@ -123,12 +129,30 @@
 
 
 
+{
+	"description": ""
+},
+
+
+
+{
+	"description": "<p>In a modern conflict, the absence of war is not the same as peace; and a robust critical infrastructure is the first line of defence. The goal of an attacking nation may not be a country or its resources; it may just as well be the freedom to operate without interference. Thus, non-traditional operations with the goal to destabilize a nation’s resolve comprises a grey area between peace and war.</p>"
+},
+
+
+
 
 
 
 
 {
 	"description": "<p>Fake base stations are often discussed as a threat for privacy of mobile phone users. However, many other devices, such as cars, lifts or industrial control systems (ICS), are increasingly using cellular connectivity. It makes some difficulties during penetration tests – even though data sent through this communication channel might be exactly the same as in case of using WiFi network, its access is much more difficult. Most security guidelines ignore this topic. It turns out that fake BTS, so often presented in a bad light, can be also used to support security examination of this communication channel. The presentation will be based on practice - built testbed and conducted experiments. In addition, hardware requirements for such environment and legal aspects in diffrent jurisdictions will be discussed.</p>"
+},
+
+
+
+{
+	"description": ""
 },
 
 

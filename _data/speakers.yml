@@ -1330,5 +1330,131 @@
       subject: Addressing Physical to Digital Convergence in an Evolving World
       permalink: expo/presentations/rick-peters/
       partner:
-      description:
+      description: |
+        The momentum behind the convergence of historically distinct and separate domains illuminates the importance of seeking to implement robust security to protect highly valued assets that are In many instances delivering essential global services.
 
+        The stakes in the game of outmaneuvering the adversary to protect Operational Technology Critical infrastructure (OTCI) have never been higher as the attack surface expands due to increased adoption of IP for business efficiency.  Operational technology security products and services aim to protect existing and evolving OT for industrial and commercial critical infrastructure systems.  Security and risk management leaders should gauge the market state and direction, and understand the types of OT security providers in the market.
+
+        Fortinet developed and markets an OTCI environmental solution that is based upon the integration of Fortinet’s Security Fabric. This global responsibility entails Fortinet enabling the integration of a scalable technology to ensure the safety, protection, visibility, and control of all these critical infrastructure systems. Mr. Peters will discuss the digital and security transformation that has taken place due to IT/OT convergence that resulted in OT systems fusing with corporate IT systems.
+
+        The audience will also get a cybersecurity architectural glimpse of how these systems are protected by Fortinet’s Security Fabric.
+
+
+- id: 37
+  type: presentation
+  permalink: program/presentations/erik-zouave/
+  name: Erik Zouave
+  role: Analyst
+  work: FOI
+  country: Sweden
+  shortcode: SE
+  image: erik-zouave.png
+  bio: 
+  date:
+  time:
+  place:
+  presentation:
+    - active: live
+      subject: Supply Chain Cyber Security throughout the ICS Lifecycle
+      permalink: program/presentations/erik-zouave/
+      partner:
+      description: |
+        The presentation is based on the preliminary findings of a study regarding aspects of cybersecurity in ICS supply chains at different stages of an ICS life cycle.
+  training:
+    - active: none
+
+
+- id: 38
+  type: presentation
+  permalink: program/presentations/lars-westerdahl/
+  name: Lars Westerdahl
+  role: Scientist
+  work: FOI
+  country: Sweden
+  shortcode: SE
+  image: lars-westerdahl.png
+  bio: 
+  date:
+  time:
+  place:
+  presentation:
+    - active: live
+      subject: Uncertain conflict – When critical infrastructure is affected by national conflicts.
+      permalink: program/presentations/lars-westerdahl/
+      partner:
+      description: |
+        In a modern conflict, the absence of war is not the same as peace; and a robust critical infrastructure is the first line of defence. The goal of an attacking nation may not be a country or its resources; it may just as well be the freedom to operate without interference. Thus, non-traditional operations with the goal to destabilize a nation’s resolve comprises a grey area between peace and war.
+  training:
+    - active: none
+
+- id: 39
+  type: presentation
+  permalink: program/presentations/margarita-jaitner/
+  name: Margarita Jaitner
+  role: Analyst
+  work: FOI
+  country: Sweden
+  shortcode: SE
+  image: margarita-jaitner.png
+  bio: 
+  date:
+  time:
+  place:
+  presentation:
+    - active: live
+      subject: IoT-related risks
+      permalink: program/presentations/margarita-jaitner/
+      partner:
+      description: |
+        Coming soon.
+  training:
+    - active: none
+
+- id: 40
+  type: presentation
+  permalink: program/presentations/lars-erik-smevold/
+  name: Lars Erik Smevold
+  role: Senior Security Analyst
+  work: KraftCERT
+  country: Norway
+  shortcode: "NO"
+  image: lars-erik-smevold.png
+  bio: Lars Erik Smevold is a senior security analyst in KraftCERT. KraftCERT is the Norwegian energy sector and ICS CERT - a non profit incident response team. The focus for KraftCERT is to together with the companies, protect, detect and recover from incidents that may harm production or distribution of power or water. Lars Erik has many years of experience in the industry from the automation, telco business, and later from security in the energy sector - including the building of security operations center (SOC). In his spare time he enjoys experimenting in his lab.
+  date:
+  time:
+  place:
+  presentation:
+    - active: live
+      subject: Introduction to KRAFT-CERT and some words about Nordic co-op
+      permalink: program/presentations/lars-erik-smevold/
+      partner:
+      description: |
+        Coming soon.
+  training:
+    - active: none
+
+- id: 41
+  type: special
+  permalink: program/presentations/jack-werner/
+  name: Jack Werner
+  role: Freelance Journalist
+  work: Freelance
+  country: Sweden
+  shortcode: SE
+  image: jack-werner.png
+  bio: Jack Werner is a freelance journalist and writer. In 2014 at the free daily Metro, he co-founded the prize-winning fact-checking effort Viralgranskaren. He is a popular lecturer on critial thinking on social media, and the author of two books, on creepypasta, ghost stories on the internet, (2014) and fake news and urban legends on social media (2018). Since 2015, he runs the podcast Creepypodden, a bi-weekly podcast about ghost stories with over 130 000 listeners.
+  date:
+  time:
+  place:
+  specialtitle: Fake news or folklore?
+  photocopy: Kate Gabor
+  photourl: https://www.kategabor.se
+  presentation:
+    - active: none
+      subject:
+      permalink:
+      partner:
+      description: |
+      
+  training:
+    - active: none
