@@ -1274,26 +1274,26 @@
 	{
 		"id"		: "34",
 		"type"		: "expotalk",
-		"name"		: "Advenica",
-		"role"		: "",
+		"name"		: "Jonas Dellenvall",
+		"role"		: "CTO",
 		"work"		: "Advenica",
-		"country"	: "",
-		"shortcode"	: "",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/temp.png",
+		"country"	: "Sweden",
+		"shortcode"	: "SE",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/jonas-dellenvall.png",
 		
 		
 		
 
 		"presentation":{
 		
-			"active": 	"",
-			"title": 	"",
+			"active": 	"live",
+			"title": 	"Security when failure is not an option.",
 			"partner":	"",
 			"name":		"",
 			"role":		"",
 			"work":		"",
 			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
+			"description": "<p>Sometimes the consequences of failure are simply not acceptable. When loss of life is at stake or when a failure means compromising highly classified secrets – the cyber security strategy must be adjusted accordingly. Much of today’s cyber security is just about reacting faster to failures. This presentation discusses how to adopt proactive strategies that are effective against tomorrows threats – today.</p>"
 		
 		},
 		

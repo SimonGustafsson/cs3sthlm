@@ -1269,23 +1269,24 @@
 
 - id: 34
   type: expotalk
-  permalink: expo/talk/
-  name: Advenica
-  role: 
+  permalink: expo/presentations/jonas-dellenvall/
+  name: Jonas Dellenvall
+  role: CTO
   work: Advenica
-  country: 
-  shortcode: 
-  image: temp.png
+  country: Sweden
+  shortcode: SE
+  image: jonas-dellenvall.png
   bio: 
   date:
   time:
   place:
   presentation:
-    - active: 
-      subject: 
-      permalink: expo/talk/
+    - active: live
+      subject: Security when failure is not an option.
+      permalink: expo/presentations/jonas-dellenvall/
       partner:
-      description:
+      description: |
+        Sometimes the consequences of failure are simply not acceptable. When loss of life is at stake or when a failure means compromising highly classified secrets – the cyber security strategy must be adjusted accordingly. Much of today’s cyber security is just about reacting faster to failures. This presentation discusses how to adopt proactive strategies that are effective against tomorrows threats – today.
   training:
     - active: none
 

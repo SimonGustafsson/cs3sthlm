@@ -222,6 +222,54 @@
   
    {
      
+        "title"    : "Presentations",
+        "url"      : "/program/presentations/",
+        "path"     : "/program/presentations/"
+     
+   },
+  
+   {
+     
+        "title"    : "Practical Details",
+        "url"      : "/practical-details/",
+        "path"     : "/practical-details/"
+     
+   },
+  
+   {
+     
+        "title"    : "Home",
+        "url"      : "/",
+        "path"     : ""
+     
+   },
+  
+   {
+     
+        "title"    : "Expo Presentations",
+        "url"      : "/expo/presentations/",
+        "path"     : "/expo/presentations/"
+     
+   },
+  
+   {
+     
+        "title"    : "Expo Agenda",
+        "url"      : "/expo/agenda/",
+        "path"     : "/expo/agenda/"
+     
+   },
+  
+   {
+     
+        "title"    : "Expo",
+        "url"      : "/expo/",
+        "path"     : "/expo/"
+     
+   },
+  
+   {
+     
         "title"    : "Welcome",
         "url"      : "/welcome/",
         "path"     : "/welcome/"
@@ -246,9 +294,9 @@
   
    {
      
-        "title"    : "About",
-        "url"      : "/about/",
-        "path"     : "/about/"
+        "title"    : "Partners",
+        "url"      : "/partners/",
+        "path"     : "/partners/"
      
    },
   
@@ -262,81 +310,17 @@
   
    {
      
+        "title"    : "About",
+        "url"      : "/about/",
+        "path"     : "/about/"
+     
+   },
+  
+   {
+     
         "title"    : "Trainings",
         "url"      : "/program/trainings/",
         "path"     : "/program/trainings/"
-     
-   },
-  
-   {
-     
-        "title"    : "Archive",
-        "url"      : "/about/archive/",
-        "path"     : "/about/archive/"
-     
-   },
-  
-   {
-     
-        "title"    : "ICS Lab",
-        "url"      : "/ics-lab/",
-        "path"     : "/ics-lab/"
-     
-   },
-  
-   {
-     
-        "title"    : "Press",
-        "url"      : "/press/",
-        "path"     : "/press/"
-     
-   },
-  
-   {
-     
-        "title"    : "Program",
-        "url"      : "/program/",
-        "path"     : "/program/"
-     
-   },
-  
-   {
-     
-        "title"    : "CS3STHLM - App",
-        "url"      : "/app/",
-        "path"     : "/app/"
-     
-   },
-  
-   {
-     
-        "title"    : "Contact",
-        "url"      : "/contact/",
-        "path"     : "/contact/"
-     
-   },
-  
-   {
-     
-        "title"    : "Practical Details",
-        "url"      : "/practical-details/",
-        "path"     : "/practical-details/"
-     
-   },
-  
-   {
-     
-        "title"    : "Partners",
-        "url"      : "/partners/",
-        "path"     : "/partners/"
-     
-   },
-  
-   {
-     
-        "title"    : "Expo Presentations",
-        "url"      : "/expo/presentations/",
-        "path"     : "/expo/presentations/"
      
    },
   
@@ -358,33 +342,49 @@
   
    {
      
-        "title"    : "Home",
-        "url"      : "/",
-        "path"     : ""
+        "title"    : "Archive",
+        "url"      : "/about/archive/",
+        "path"     : "/about/archive/"
      
    },
   
    {
      
-        "title"    : "Expo Agenda",
-        "url"      : "/expo/agenda/",
-        "path"     : "/expo/agenda/"
+        "title"    : "Program",
+        "url"      : "/program/",
+        "path"     : "/program/"
      
    },
   
    {
      
-        "title"    : "Expo",
-        "url"      : "/expo/",
-        "path"     : "/expo/"
+        "title"    : "ICS Lab",
+        "url"      : "/ics-lab/",
+        "path"     : "/ics-lab/"
      
    },
   
    {
      
-        "title"    : "Presentations",
-        "url"      : "/program/presentations/",
-        "path"     : "/program/presentations/"
+        "title"    : "Press",
+        "url"      : "/press/",
+        "path"     : "/press/"
+     
+   },
+  
+   {
+     
+        "title"    : "Contact",
+        "url"      : "/contact/",
+        "path"     : "/contact/"
+     
+   },
+  
+   {
+     
+        "title"    : "CS3STHLM - App",
+        "url"      : "/app/",
+        "path"     : "/app/"
      
    },
   
@@ -421,6 +421,14 @@
         "title"    : "Designing a second generation cyber range",
         "url"      : "/program/presentations/jonas-almroth/",
         "path"     : "/program/presentations/jonas-almroth/"
+     
+   },
+  
+   {
+     
+        "title"    : "Security when failure is not an option.",
+        "url"      : "/expo/presentations/jonas-dellenvall/",
+        "path"     : "/expo/presentations/jonas-dellenvall/"
      
    },
   
