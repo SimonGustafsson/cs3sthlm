@@ -2992,7 +2992,9 @@ h1, h2, h3, h4 {
         margin: 0 auto;
         max-height: 160px;
         height: auto;
-        max-width: 100%; }
+        max-width: 100%;
+        width: auto;
+        width: initial; }
       .partner--item a span {
         font-family: 'latoblack', sans-serif;
         font-size: 23px;

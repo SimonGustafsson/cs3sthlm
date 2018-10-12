@@ -4,7 +4,7 @@ permalink: "/program/trainings/mikael-vingaard/"
 layout: training
 time: 22-23 October
 id: training
-status: Slots Open
+status: Cancelled
 speaker:
 - name: Mikael Vingaard
   role: IT Security Consultant
