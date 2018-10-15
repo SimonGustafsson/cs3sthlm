@@ -4770,6 +4770,12 @@ h1, h2, h3, h4 {
       }
     }
 
+    img {
+      display: block;
+      width: 100%;
+      margin-bottom: 24px;
+    }
+
     a {
       color: $yellow;
       text-decoration: underline;

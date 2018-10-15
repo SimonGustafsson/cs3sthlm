@@ -3688,6 +3688,10 @@ h1, h2, h3, h4 {
     .blog-content p:first-of-type {
       font-size: 23px;
       margin-bottom: 0; }
+  .blog-content img {
+    display: block;
+    width: 100%;
+    margin-bottom: 24px; }
   .blog-content a {
     color: #ef7d00;
     text-decoration: underline;

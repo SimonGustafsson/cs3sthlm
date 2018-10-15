@@ -1,6 +1,20 @@
 [
   
     {
+      "title"    : "Ola Hermansson - Technical Operations Manager",
+      "url"      : "/blog/ola-hermansson/",
+      "date"     : "2018-10-15 04:00:00 +0000",
+      "path"     : "/blog/ola-hermansson/"
+    },
+  
+    {
+      "title"    : "Anton Shipulin - Kaspersky Lab",
+      "url"      : "/blog/anton-shipulin/",
+      "date"     : "2018-10-15 04:00:00 +0000",
+      "path"     : "/blog/anton-shipulin/"
+    },
+  
+    {
       "title"    : "Kai Thomsen - Senior Incident Responder",
       "url"      : "/blog/kai-thomsen/",
       "date"     : "2018-09-26 04:00:00 +0000",
