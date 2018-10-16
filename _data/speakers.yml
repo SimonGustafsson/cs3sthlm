@@ -408,7 +408,7 @@
   type: presentation
   permalink:
   name: Erwin Kooi
-  role: Information Security Arcitect
+  role: ICS/SCADA Architech
   work: Alliander
   country: Netherlands
   shortcode: NL
@@ -465,7 +465,7 @@
       permalink: program/presentations/erwin-rik/
       partner: active
       name: Erwin Kooi
-      role: Information Security Arcitect
+      role: ICS/SCADA Architech
       work: Alliander
       image: erwin-kooi.png
       description: |
@@ -1276,7 +1276,12 @@
   country: Sweden
   shortcode: SE
   image: jonas-dellenvall.png
-  bio: 
+  bio: |
+    Jonas Dellenvall is the CTO of Advenica AB, cyber security experts since 1993. Advenica is specialised in information security solutions for government, critical infrastructure and industry. Jonas previously held positions as Software Architect, product manager and VP of Marketing at Advenica.
+    
+    Jonas has a deep interest for both technology and it’s consequences for humanity and society: “It is equally important to do the right things as well as doing things right. Technical decisions of today are forming our future for many years to come. The impact on society is much more profound than most people realize.” On his spare time, he enjoys being outdoors for sailing, skiing or just enjoying nature.
+    
+    Jonas Dellenvall holds a M.Sc. in Engineering Physics and has more than 20 years of experience with System Development, including 13 years in the High Security Sector for Governments, Defense and Critical Infrastructure. 
   date:
   time:
   place:
