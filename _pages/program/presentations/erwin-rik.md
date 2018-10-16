@@ -4,7 +4,7 @@ permalink: "/program/presentations/erwin-rik/"
 layout: presentation
 speaker:
 - name: Erwin Kooi
-  role: Information Security Arcitect
+  role: ICS/SCADA Architect
   work: Alliander
   image: erwin-kooi.png
 - name: Rik van Hees

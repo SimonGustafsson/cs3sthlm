@@ -103,7 +103,7 @@ layout: default
 			            <h4 class="headline">Presentation</h4>
 			            <a href="{{ site.baseurl }}/{{ item.permalink }}" class="speaker-permalink">{{ item.subject }}</a>
 			            {% if item.partner != null %}
-			            <span class="speaker-cospeaker">with {{ item.partner }}</span>
+			            <span class="speaker-cospeaker">with {{ item.name }}</span>
 			            {% endif %}
 			          </div>          
 			        {% endif %}
@@ -114,7 +114,7 @@ layout: default
 			          <div class="col-block">
 			            <a href="{{ site.baseurl }}/{{ item.permalink }}" class="speaker-permalink">{{ item.subject }}</a>
 			            {% if item.partner != null %}
-			            <span class="speaker-cospeaker">with {{ item.partner }}</span>
+			            <span class="speaker-cospeaker">with {{ item.name }}</span>
 			            {% endif %}
 			          </div>          
 			        {% endif %}
@@ -141,7 +141,7 @@ layout: default
 			                </span>
 			              </span>
 			              {% if item.partner != null %}
-			              <span class="speaker-cospeaker">with {{ item.partner }}</span>
+			              <span class="speaker-cospeaker">with {{ item.name }}</span>
 			              {% endif %}
 			            </div>        
 			          {% endif %}
