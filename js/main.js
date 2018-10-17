@@ -67,6 +67,20 @@ $('#d4-btn').on('click', function(){
     $('#d1-btn, #d2-btn, #d3-btn').removeClass('active-item');
 });
 
+$('#d2-main-btn').on('click', function(){
+    $('#d2-forum-content').removeClass('agenda--content-open');
+    $('#d2-main-content').addClass('agenda--content-open');
+    $('#d2-main-btn').addClass('btn-agenda-active');
+    $('#d2-forum-btn').removeClass('btn-agenda-active');
+});
+
+$('#d2-forum-btn').on('click', function(){
+    $('#d2-main-content').removeClass('agenda--content-open');
+    $('#d2-forum-content').addClass('agenda--content-open');
+    $('#d2-forum-btn').addClass('btn-agenda-active');
+    $('#d2-main-btn').removeClass('btn-agenda-active');
+});
+
 $('#d3-main-btn').on('click', function(){
     $('#d3-forum-content').removeClass('agenda--content-open');
     $('#d3-main-content').addClass('agenda--content-open');

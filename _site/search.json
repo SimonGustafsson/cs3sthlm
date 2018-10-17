@@ -236,54 +236,6 @@
   
    {
      
-        "title"    : "Presentations",
-        "url"      : "/program/presentations/",
-        "path"     : "/program/presentations/"
-     
-   },
-  
-   {
-     
-        "title"    : "Practical Details",
-        "url"      : "/practical-details/",
-        "path"     : "/practical-details/"
-     
-   },
-  
-   {
-     
-        "title"    : "Home",
-        "url"      : "/",
-        "path"     : ""
-     
-   },
-  
-   {
-     
-        "title"    : "Expo Presentations",
-        "url"      : "/expo/presentations/",
-        "path"     : "/expo/presentations/"
-     
-   },
-  
-   {
-     
-        "title"    : "Expo Agenda",
-        "url"      : "/expo/agenda/",
-        "path"     : "/expo/agenda/"
-     
-   },
-  
-   {
-     
-        "title"    : "Expo",
-        "url"      : "/expo/",
-        "path"     : "/expo/"
-     
-   },
-  
-   {
-     
         "title"    : "Welcome",
         "url"      : "/welcome/",
         "path"     : "/welcome/"
@@ -300,9 +252,9 @@
   
    {
      
-        "title"    : "News",
-        "url"      : "/news/",
-        "path"     : "/news/"
+        "title"    : "About",
+        "url"      : "/about/",
+        "path"     : "/about/"
      
    },
   
@@ -324,38 +276,6 @@
   
    {
      
-        "title"    : "About",
-        "url"      : "/about/",
-        "path"     : "/about/"
-     
-   },
-  
-   {
-     
-        "title"    : "Trainings",
-        "url"      : "/program/trainings/",
-        "path"     : "/program/trainings/"
-     
-   },
-  
-   {
-     
-        "title"    : "Advisory",
-        "url"      : "/about/advisory/",
-        "path"     : "/about/advisory/"
-     
-   },
-  
-   {
-     
-        "title"    : "History",
-        "url"      : "/about/history/",
-        "path"     : "/about/history/"
-     
-   },
-  
-   {
-     
         "title"    : "Archive",
         "url"      : "/about/archive/",
         "path"     : "/about/archive/"
@@ -364,9 +284,9 @@
   
    {
      
-        "title"    : "Program",
-        "url"      : "/program/",
-        "path"     : "/program/"
+        "title"    : "Trainings",
+        "url"      : "/program/trainings/",
+        "path"     : "/program/trainings/"
      
    },
   
@@ -388,9 +308,17 @@
   
    {
      
-        "title"    : "Contact",
-        "url"      : "/contact/",
-        "path"     : "/contact/"
+        "title"    : "Agenda",
+        "url"      : "/agenda/",
+        "path"     : "/agenda/"
+     
+   },
+  
+   {
+     
+        "title"    : "Program",
+        "url"      : "/program/",
+        "path"     : "/program/"
      
    },
   
@@ -399,6 +327,86 @@
         "title"    : "CS3STHLM - App",
         "url"      : "/app/",
         "path"     : "/app/"
+     
+   },
+  
+   {
+     
+        "title"    : "Contact",
+        "url"      : "/contact/",
+        "path"     : "/contact/"
+     
+   },
+  
+   {
+     
+        "title"    : "Practical Details",
+        "url"      : "/practical-details/",
+        "path"     : "/practical-details/"
+     
+   },
+  
+   {
+     
+        "title"    : "News",
+        "url"      : "/news/",
+        "path"     : "/news/"
+     
+   },
+  
+   {
+     
+        "title"    : "Expo Presentations",
+        "url"      : "/expo/presentations/",
+        "path"     : "/expo/presentations/"
+     
+   },
+  
+   {
+     
+        "title"    : "Advisory",
+        "url"      : "/about/advisory/",
+        "path"     : "/about/advisory/"
+     
+   },
+  
+   {
+     
+        "title"    : "Home",
+        "url"      : "/",
+        "path"     : ""
+     
+   },
+  
+   {
+     
+        "title"    : "History",
+        "url"      : "/about/history/",
+        "path"     : "/about/history/"
+     
+   },
+  
+   {
+     
+        "title"    : "Expo Agenda",
+        "url"      : "/expo/agenda/",
+        "path"     : "/expo/agenda/"
+     
+   },
+  
+   {
+     
+        "title"    : "Expo",
+        "url"      : "/expo/",
+        "path"     : "/expo/"
+     
+   },
+  
+   {
+     
+        "title"    : "Presentations",
+        "url"      : "/program/presentations/",
+        "path"     : "/program/presentations/"
      
    },
   

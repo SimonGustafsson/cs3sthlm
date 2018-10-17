@@ -4,72 +4,32 @@
 
 - id: 1
   day: d1-main
-  time: 
-  type: 
-  headline: 
+  type: Training
+  date: 22-23 October
+  time: 09:00 - 17:00
+  place: Trocaderro
+  subject: Pentesting Industrial Control Systems
+  author:
+    - name: Arnaud Soullié
+      role: Cybersecurity R&D Manager
+      work: pentesting-ics.com
+      image: arnaud-soullie.png
+  description: |
+    asd
+  permalink: program/trainings/arnaud-soullie/
 
 - id: 2
   day: d1-main
-  time: 09:00 - 17:00
-  type: 
-  role: 
-  headline: 
-  speaker:
-  permalink: 
-  work: 
-  place: 
-
-- id: 3
-  day: d1-main
-  type: break
-  time: "10:30"
-  headline: Coffee Break
-
-- id: 4
-  day: d1-main
-  type: break
-  time: "12:00"
-  headline: Lunch Break
-
-- id: 5
-  day: d1-main
-  type: break
-  time: "15:00"
-  headline: Coffee Break
-
-- id: 6
-  day: d1-main
-  type: basic
-  time: "ca: 17:00"
-  headline: End of Tutorials
-#forum
-
-#day-two
-#main
-
-- id: 7
-  day: d2-main
-  type: basic
-  time: "08:00"
-  headline: Registration Open at Nalen
-
-- id: 8
-  day: d2-main
   type: Training
   date: 22-23 October
   time: 09:00 - 17:00
   place: Harlem
   subject: Network Forensics Training
-  author: Erik Hjelmvik
-  role: Network Analyst
-  work: NETRESEC
-  image: erik-hjelmvik.png
-  partner:
-    - active: live
-      author:
-      role:
-      work:
-      image:
+  author:
+    - name: Erik Hjelmvik
+      role: Network Analyst
+      work: NETRESEC
+      image: erik-hjelmvik.png
   description: |
     Our two-day Network Forensics class consists of a mix of theory and hands-on labs, where students will learn to analyze Full Packet Capture (FPC) files. The scenarios in the labs are primarily focused at network forensics for incident response, but are also relevant for law enforcement/internal security etc. where the network traffic of a suspect or insider is being monitored.
         
@@ -140,87 +100,425 @@
     A VirtualBox VM will be provided on USB flash drives at the beginning of the training.
 
     Please note that having a 64-bit CPU and a 64-bit OS is not always enough to support 64-bit virtualization. You might need to enable features such as ”AMD-V”, ”VT-x” or ”Hyper-V” in BIOS in order to run virtual machines in 64-bit mode. You might also need to turn off "Intel Trusted Execution" in BIOS. One way to verify that your laptop supports 64-bit virtualization is to download the SecurityOnion ISO and see if it boots up in VirtualBox.
-  permalink: program/workshops/erik-hjelmvik/
+  permalink: program/trainings/erik-hjelmvik/
 
-- id: 9
-  day: d2-main
+- id: 3
+  day: d1-main
   type: Training
+  date: 22-23 October
   time: 09:00 - 17:00
-  role: Workshop
-  headline: An introduction of the IEC 62443
-  speaker: Michael Theuerzeit
-  permalink: program/workshops/michael-theuerzeit/
-  work: Hudson Cybertec
+  place: Somewhere
+  subject: ICS Strategic Planning and War Gaming
+  author:
+    - name: Joe Slowik
+      role: Adversary Hunter
+      work: Dragos Inc
+      image: joe-slowik.png
+  description: |
+    asd
+  permalink: program/trainings/joe-slowik/
 
-- id: 10
-  day: d2-main
-  type: Training
-  time: 09:00 - 17:00
-  role: Workshop
-  headline: Practical SCADA/ICS Honeypots
-  speaker: Mikael Vingaard
-  permalink: program/workshops/mikael-vingaard/
-  work: EnergiNet
-
-- id: 11
-  day: d2-main
+- id: 4
+  day: d1-main
   type: break
   time: "10:30"
   headline: Coffee Break
 
-- id: 12
-  day: d2-main
+- id: 5
+  day: d1-main
   type: break
   time: "12:00"
   headline: Lunch Break
 
-- id: 13
-  day: d2-main
+- id: 6
+  day: d1-main
   type: break
   time: "15:00"
   headline: Coffee Break
 
-- id: 14
-  day: d2-main
-  type: basic
-  time: 15:00 - 18:00
-  role: Stacken - Geeklounge
-  headline: CS3STHLM ICS/IoT lab opening in Geeklounge - OPEN BAR
-  extra: CS3STHLM Geeklounge hosted by Advenica
-
-- id: 15
-  day: d2-main
+- id: 7
+  day: d1-main
   type: basic
   time: "ca: 17:00"
   headline: End of Tutorials
+#forum
+
+#day-two
+#main
+
+- id: 8
+  day: d2-main
+  type: basic
+  time: "08:20 - 09:00"
+  subject: Registration Open at Nalen
+
+- id: 9
+  day: d2-main
+  type: Training
+  date: 22-23 October
+  time: 09:00 - 17:00
+  place: Trocaderro
+  subject: Pentesting Industrial Control Systems
+  author:
+    - name: Arnaud Soullié
+      role: Cybersecurity R&D Manager
+      work: pentesting-ics.com
+      image: arnaud-soullie.png
+  description: |
+    asd
+  permalink: program/trainings/arnaud-soullie/
+
+- id: 10
+  day: d2-main
+  type: Training
+  date: 22-23 October
+  time: 09:00 - 17:00
+  place: Harlem
+  subject: Network Forensics Training
+  author:
+    - name: Erik Hjelmvik
+      role: Network Analyst
+      work: NETRESEC
+      image: erik-hjelmvik.png
+  description: |
+    Our two-day Network Forensics class consists of a mix of theory and hands-on labs, where students will learn to analyze Full Packet Capture (FPC) files. The scenarios in the labs are primarily focused at network forensics for incident response, but are also relevant for law enforcement/internal security etc. where the network traffic of a suspect or insider is being monitored.
+        
+    #### Day 1 - Theory and Practice using Open Source Tools 
+    * Theory: Ethernet signaling
+    * Hardware: Network TAPs and Monitor ports / SPAN ports
+    * Sniffers: Recommendations for high-performance packet interception
+    * Analyze Modbus TCP traffic
+    * Forensics of IEC 60870-5-104 network traffic
+    * Investigate telnet sessions
+    * PCAP analysis: Extracting evidence and indicators of compromise using open source tools
+    * Defeating Big Data: Techniques for working with large data sets
+    * Whitelists: Learn how to detect 0-day exploit attacks without using IDS signatures
+    * Challenge Day 1: Find the needle in our haystack and win a honorable prize!
+
+    #### Day 2 - Advanced Network Forensics using Netresec Tools 
+    * NetworkMiner Professional: Learning to leverage the features available in the Pro version
+      * Port Independent Protocol Identification (PIPI)
+      * DNS Whitelisting
+    * NetworkMinerCLI: Automating content extraction with our command line tool
+    * CapLoader: Searching, sorting and drilling through large PCAP data sets
+      * Super fast flow transcript (aka Follow TCP/UDP stream)
+      * Filter PCAP files and export frames to other tools
+      * Keyword search
+      * Create inventory of ICS devices from PCAP
+    * Challenge Day 2
+
+    #### The Scenario
+
+    The scenario used in the class involves a new progressive Bank, which provides exchange services for Bitcoin and Litecoin. We've set up clients and a server for this bank using REAL physical machines and a REAL internet connection. All traffic on the network is captured to PCAP files by a SecurityOnion sensor. In the scenario this bank gets into lots of trouble with hackers and malware, such as:
+
+    * Defacement of the Bank's web server (see zone-h mirror)
+    * Backdoor infection through trojanized software
+    * Spear phishing
+    * Use of a popular RAT (njRAT) to access the victims machine and exfiltrate the wallet.dat files for Bitcoin and Litecoin
+    * Infection with real malware (Nemucod, Miuref / Boaxxe and more)
+
+    Class attendees will learn to analyze captured network traffic from these events in order to:
+    * Investigate web server compromises and defacements
+    * Identify covert backdoors
+    * Reassemble incoming emails and attachments
+    * Detect and decode RAT/backdoor traffic
+    * Detect malicious traffic without having to rely on blacklists, AV or third-party detection services
+
+    #### Professional software included FREE of charge 
+    Each attendee will be provided with a free personal single user license of NetworkMiner Professional and CapLoader. These licenses will be valid for six months from the first training day.
+
+    ### Target Audience
+
+    Q: Who should attend?
+
+    A: Anyone who want to improve their skills at finding evil stuff in full content packet captures.
+
+    Q: Who should NOT attend?
+
+    A: Those who are afraid of using Linux command line tools.
+
+    ### Training Preparations
+
+    #### Laptop Required 
+    Attendees will need to bring a laptop that fits the following specs:
+
+    * A PC running any 64 bit Windows OS (can be a Virtual Machine)
+    * At least 4GB RAM
+    * At least 40 GB free disk space
+    * VirtualBox (64 bit) installed (VMWare will not be supported in the training)
+
+    A VirtualBox VM will be provided on USB flash drives at the beginning of the training.
+
+    Please note that having a 64-bit CPU and a 64-bit OS is not always enough to support 64-bit virtualization. You might need to enable features such as ”AMD-V”, ”VT-x” or ”Hyper-V” in BIOS in order to run virtual machines in 64-bit mode. You might also need to turn off "Intel Trusted Execution" in BIOS. One way to verify that your laptop supports 64-bit virtualization is to download the SecurityOnion ISO and see if it boots up in VirtualBox.
+  permalink: program/trainings/erik-hjelmvik/
+
+- id: 11
+  day: d2-main
+  type: Training
+  date: 22-23 October
+  time: 09:00 - 17:00
+  place: Somewhere
+  subject: ICS Strategic Planning and War Gaming
+  author:
+    - name: Joe Slowik
+      role: Adversary Hunter
+      work: Dragos Inc
+      image: joe-slowik.png
+  description: |
+    asd
+  permalink: program/trainings/joe-slowik/
+
+- id: 12
+  day: d2-main
+  type: Training
+  date: 23 October
+  time: 09:00 - 17:00
+  place: Somewhere
+  subject: Introduction to Threat Hunting in ICS
+  author:
+    - name: Daniel Michaud-Soucy
+      role: Principal Threat Analyst
+      work: Dragos Inc
+      image: daniel-michaud-soucy.png
+    - name: Ben Miller
+      role: Director of Threat Operations
+      work: Dragos Inc
+      image: ben-miller.png
+  description: |
+    asd
+  permalink: program/trainings/ben-daniel/
+
+- id: 13
+  day: d2-main
+  type: Training
+  date: 23 October
+  time: 09:00 - 17:00
+  place: Somewhere
+  subject: "Cyber security for the energy sector – an introduction to ISO/IEC 27019 and the BDEW/OE Whitepaper"
+  author:
+    - name: Stephan Beirer
+      role: Senior Consultant
+      work: GAI NetConsult GmbH
+      image: stephan-beirer.png
+  description: |
+    asd
+  permalink: program/trainings/stephan-beirer/
+
+- id: 14
+  day: d2-main
+  type: break
+  time: "10:30"
+  subject: Coffee Break
+
+- id: 15
+  day: d2-main
+  type: break
+  time: "12:00"
+  subject: Lunch Break
 
 - id: 16
   day: d2-main
   type: basic
-  time: 18:00 - 22:00
-  role: Main Hall
-  headline: Welcome Reception
+  time: "12:40"
+  subject: Doors + Registration for EXPO Open
 
 - id: 17
   day: d2-main
-  type: speaker
-  time: "19:00"
-  role: Speaker
-  headline: ENISA Trainings for Cyber Security Specialists
-  speaker: Rossella Mattioli
-  permalink: program/presentations/enisa-trainings/
-  work: ENISA
+  type: basic
+  time: "13:00"
+  subject: CS3STHLM EXPO Opening
 
 - id: 18
   day: d2-main
-  type: speaker
-  time: "19:30"
-  role: Speaker
-  headline: Effective Threat Mitigation Strategies
-  speaker: Jonas Dellenvall
-  work: CTO Advenica
+  type: break
+  time: "15:00"
+  subject: Coffee Break
+
+- id: 19
+  day: d2-main
+  type: basic
+  time: "ca: 17:00"
+  subject: End of Tutorials
+
+- id: 20
+  day: d2-main
+  type: basic
+  time: "18:00"
+  subject: CS3STHLM Welcome Reception - OPEN
+
+- id: 21
+  day: d2-main
+  type: Presentation
+  date: 23 October
+  time: "19:00"
+  place: Main Stage
+  subject: ICS cyber security in the face of digital transformation
+  author:
+    - name: Dr Kevin Jones
+      role: Head of Cyber Security Architecture, Innovation and Scouting
+      work: Airbus Group
+      image: dr-kevin-jones.png
+  description: |
+    asd
+  permalink: expo/presentations/dr-kevin-jones/
+
+- id: 22
+  day: d2-main
+  type: basic
+  time: "22:00"
+  subject: CS3STHLM Expo & Welcome Reception - CLOSED
 
 #forum
+
+- id: 23
+  day: d2-forum
+  type: basic
+  time: "12:40"
+  subject: Doors + Registration for EXPO Open
+
+
+- id: 24
+  day: d2-forum
+  type: basic
+  time: "13:00"
+  subject: CS3STHLM EXPO Opening
+
+- id: 25
+  day: d2-forum
+  type: Presentation
+  date: 23 October
+  time: "13:20"
+  place: Harlem
+  subject: Control Theory for Practical Cyber-Physical Security
+  author:
+    - name: Prof. Henrik Sandberg
+      role: Professor in Large-Scale Control Systems
+      work: KTH Royal Institute of Technology
+      image: henrik-sandberg.png
+  description: |
+    asd
+  permalink: expo/presentations/henrik-sandberg/
+
+- id: 26
+  day: d2-forum
+  type: Presentation
+  date: 23 October
+  time: "14:00"
+  place: Harlem
+  subject: ICS cyber security in the face of digital transformation
+  author:
+    - name: Jason Steer
+      role: Director of PreSales, EMEA
+      work: Recorded Future
+      image: jason-steer.png
+  description: |
+    asd
+  permalink: expo/presentations/jason-steer/
+
+- id: 27
+  day: d2-forum
+  type: Presentation
+  date: 23 October
+  time: "14:40"
+  place: Harlem
+  subject: Securing Wireless Transmissions at the Air Interface
+  author:
+    - name: Ass. Prof. Ragnar Thobaben
+      role: Associate Professor in Communication Theory
+      work: KTH Royal Institute of Technology
+      image: ragnar-thobaben.png
+  description: |
+    asd
+  permalink: expo/presentations/ragnar-thobaben/
+
+- id: 28
+  day: d2-forum
+  type: Presentation
+  date: 23 October
+  time: "15:20"
+  place: Harlem
+  subject: Security when failure is not an option.
+  author:
+    - name: Jonas Dellenvall
+      role: Head of Cyber Security Architecture, Innovation and Scouting
+      work: Advenica
+      image: jonas-dellenvall.png
+  description: |
+    asd
+  permalink: expo/presentations/jonas-dellenvall/
+
+- id: 29
+  day: d2-forum
+  type: Presentation
+  date: 23 October
+  time: "16:00"
+  place: Harlem
+  subject: Resilient Computing and Communication for Critical Infrastructures
+  author:
+    - name: Prof. György Dán
+      role: Professor in Teletraffic Systems
+      work: KTH Royal Institute of Technology
+      image: györgy-dán.png
+  description: |
+    asd
+  permalink: expo/presentations/györgy-dán/
+
+- id: 30
+  day: d2-forum
+  type: Presentation
+  date: 23 October
+  time: "16:40"
+  place: Harlem
+  subject: Kaspersky Industrial Cybersecurity approach
+  author:
+    - name: Anton Shipulin
+      role: Global Presales Manager
+      work: Kaspersky Lab
+      image: anton-shipulin.png
+  description: |
+    asd
+  permalink: expo/presentations/anton-shipulin/
+
+- id: 31
+  day: d2-forum
+  type: Presentation
+  date: 23 October
+  time: "17:20"
+  place: Harlem
+  subject: Securing Low Level Software Using Formal Methods
+  author:
+    - name: Prof. Mads Dam
+      role: Professor in Teleinformatics
+      work: KTH Royal Institute of Technology
+      image: mads-dam.png
+  description: |
+    asd
+  permalink: expo/presentations/mads-dam/
+
+- id: 32
+  day: d2-forum
+  type: Presentation
+  date: 23 October
+  time: "18:00"
+  place: Harlem
+  subject: Addressing Physical to Digital Convergence in an Evolving World
+  author:
+    - name: Rick Peters
+      role: Director, Operational Technology Global Enablement
+      work: Fortinet
+      image: rick-peters.png
+  description: |
+    asd
+  permalink: expo/presentations/rick-peters/
+
+- id: 23
+  day: d2-forum
+  type: basic
+  time: "22:00"
+  subject: CS3STHLM Expo & Welcome Reception - CLOSED
+
+
+
 
 
 #day-three

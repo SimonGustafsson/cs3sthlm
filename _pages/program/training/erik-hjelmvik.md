@@ -1,5 +1,5 @@
 ---
-title: Network Forens<b class="highlight-white">ICS</b> Training
+title: Network ForensICS Training
 permalink: "/program/trainings/erik-hjelmvik/"
 short-title: Network Forens<b class="highlight-white">ICS</b> Training
 layout: training

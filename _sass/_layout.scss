@@ -40,7 +40,7 @@
 
 	@include media-query($mobile) {
 		position: relative;
-		height: 80px;
+		height: 83px;
 	}
 
 	&-item {
@@ -72,19 +72,23 @@
 		}
 
 		&.active-item {
-			background: $yellow;
+			background: rgba($blue-dark, .75);
 
 			h3 {
 				display: block;
-				color: $blue-darken;
+				color: $white;
 
 				@include media-query($mobile) {
-					color: $gray;
+					color: $yellow;
 
 					.day-name {
 						display: inline-block;
 					}
 				}
+			}
+
+			span {
+				color: $yellow;
 			}
 		}
 
@@ -123,12 +127,11 @@
 				left: 0;
 				top: 39px;
 				width: 100%;
-				background: $blue-dark;
+				background: rgba($blue-dark, .75);
 				padding: 14px 20px;
 				box-sizing: border-box;
 				font-size: 12px;
 				letter-spacing: 2px;
-				line-height: 1;
 				text-align: left;
 			}
 		}
@@ -192,38 +195,27 @@
 }
 
 .agenda--btn-group {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
 	display: flex;
-
 	align-items: flex-start;
-	-webkit-align-items: flex-start;
-
-	justify-content: space-between;
-	-webkit-justify-content: space-between;
-
 	width: 100%;
-	margin-top: 20px;
 
 	.btn-agenda {
-		width: auto;
-		color: $blue-darken;
-		border-radius: 2px;
-		margin: 0 220px 0 0;
+		width: 50%;
+		color: $yellow;
+		border-radius: 0 0 0 2px;
+		margin: 0;
 		font-size: 12px;
+		box-shadow: none;
+		text-shadow: none;
+		background: rgba($blue-dark, .75);
 
 		&:nth-child(2) {
-			margin: auto;
+			border-radius: 0 0 2px 0;
 		}
 
 		@include media-query($mobile) {
-			margin-left: 20px;
-			margin-right: 0;
 			font-size: 10px;
 			opacity: .5;
-
 			span {
 				display: none;
 			}
@@ -321,6 +313,7 @@
 		font-weight: normal;
 		letter-spacing: 1px;
 		color: $white;
+		width: 80%;
 
 		&.headline-break {
 			color: $blue;
@@ -328,11 +321,11 @@
 	}
 
 	&-role {
-		color: $yellow;
+		color: $gray;
 	}
 
 	&-speaker {
-		color: $gray;
+		color: $yellow;
 	}
 
 	&-time {
@@ -340,7 +333,7 @@
 	}
 	&-details {
 		position: absolute;
-		bottom: 14px;
+		top: 14px;
 		right: 0;
 		letter-spacing: 2px;
 		font-family: 'latoregular', sans-serif;
@@ -354,6 +347,16 @@
 			top: 14px;
 			bottom: 0;
 		}
+	}
+
+	&-speaker-row {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+	}
+
+	&-speaker-block {
+
 	}
 
 }
