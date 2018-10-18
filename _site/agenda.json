@@ -7,9 +7,7 @@
 		"time"		: "12:40",
 		"place" 	: "",
 		"subject" 	: "Doors + Registration for EXPO Open",
-		"author": {
 		
-		},
 		"partner": {
 		
 		},
@@ -24,9 +22,7 @@
 		"time"		: "13:00",
 		"place" 	: "Main Stage",
 		"subject" 	: "CS3STHLM EXPO Opening",
-		"author": {
 		
-		},
 		"partner": {
 		
 		},
@@ -41,14 +37,14 @@
 		"time"		: "13:30",
 		"place" 	: "Harlem Stage",
 		"subject" 	: "Welcome to the CS3STHLM Expo Talks!",
-		"author": {
 		
+		"author": [{
 		"name" 		: "Dr Erik Johansson",
 		"role"		: "",
 		"work"		: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/"
+		}],
 		
-		},
 		"partner": {
 		
 		},
@@ -63,14 +59,14 @@
 		"time"		: "13:35",
 		"place" 	: "Harlem Stage",
 		"subject" 	: "Control Theory for Practical Cyber-Physical Security",
-		"author": {
 		
+		"author": [{
 		"name" 		: "Prof. Henrik Sandberg",
 		"role"		: "Professor in Large-Scale Control Systems",
 		"work"		: "KTH Royal Institute of Technology",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/henrik-sandberg.png"
+		}],
 		
-		},
 		"partner": {
 		
 		},
@@ -85,14 +81,14 @@
 		"time"		: "14:15",
 		"place" 	: "Harlem Stage",
 		"subject" 	: "ICS cyber security in the face of digital transformation",
-		"author": {
 		
+		"author": [{
 		"name" 		: "Jannis Utz",
 		"role"		: "Something",
 		"work"		: "Recorded Future",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/jannis-utz.png"
+		}],
 		
-		},
 		"partner": {
 		
 		},
@@ -107,14 +103,14 @@
 		"time"		: "14:45",
 		"place" 	: "Harlem Stage",
 		"subject" 	: "Securing Wireless Transmissions at the Air Interface",
-		"author": {
 		
+		"author": [{
 		"name" 		: "Ass. Prof. Ragnar Thobaben",
 		"role"		: "Associate Professor in Communication Theory",
 		"work"		: "KTH Royal Institute of Technology",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/ragnar-thobaben.png"
+		}],
 		
-		},
 		"partner": {
 		
 		},
@@ -129,14 +125,14 @@
 		"time"		: "15:30",
 		"place" 	: "Harlem Stage",
 		"subject" 	: "Security when failure is not an option.",
-		"author": {
 		
+		"author": [{
 		"name" 		: "Jonas Dellenvall",
 		"role"		: "Head of Cyber Security Architecture, Innovation and Scouting",
 		"work"		: "Advenica",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/jonas-dellenvall.png"
+		}],
 		
-		},
 		"partner": {
 		
 		},
@@ -151,14 +147,14 @@
 		"time"		: "16:00",
 		"place" 	: "Harlem Stage",
 		"subject" 	: "Resilient Computing and Communication for Critical Infrastructures",
-		"author": {
 		
+		"author": [{
 		"name" 		: "Prof. György Dán",
 		"role"		: "Professor in Teletraffic Systems",
 		"work"		: "KTH Royal Institute of Technology",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/györgy-dán.png"
+		}],
 		
-		},
 		"partner": {
 		
 		},
@@ -173,14 +169,14 @@
 		"time"		: "16:45",
 		"place" 	: "Harlem Stage",
 		"subject" 	: "Kaspersky Industrial Cybersecurity approach",
-		"author": {
 		
+		"author": [{
 		"name" 		: "Anton Shipulin",
 		"role"		: "Global Presales Manager",
 		"work"		: "Kaspersky Lab",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/anton-shipulin.png"
+		}],
 		
-		},
 		"partner": {
 		
 		},
@@ -195,14 +191,14 @@
 		"time"		: "17:15",
 		"place" 	: "Harlem Stage",
 		"subject" 	: "Securing Low Level Software Using Formal Methods",
-		"author": {
 		
+		"author": [{
 		"name" 		: "Prof. Mads Dam",
 		"role"		: "Professor in Teleinformatics",
 		"work"		: "KTH Royal Institute of Technology",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/mads-dam.png"
+		}],
 		
-		},
 		"partner": {
 		
 		},
@@ -217,9 +213,7 @@
 		"time"		: "18:00",
 		"place" 	: "Main Stage",
 		"subject" 	: "CS3STHLM Welcome Reception - OPEN",
-		"author": {
 		
-		},
 		"partner": {
 		
 		},
@@ -234,14 +228,14 @@
 		"time"		: "18:00",
 		"place" 	: "Harlem Stage",
 		"subject" 	: "Addressing Physical to Digital Convergence in an Evolving World",
-		"author": {
 		
+		"author": [{
 		"name" 		: "Rick Peters",
 		"role"		: "Director, Operational Technology Global Enablement",
 		"work"		: "Fortinet",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/rick-peters.png"
+		}],
 		
-		},
 		"partner": {
 		
 		},
@@ -256,14 +250,14 @@
 		"time"		: "19:30",
 		"place" 	: "Harlem Stage",
 		"subject" 	: "ICS cyber security in the face of digital transformation",
-		"author": {
 		
+		"author": [{
 		"name" 		: "Dr Kevin Jones",
 		"role"		: "Head of Cyber Security Architecture, Innovation and Scouting",
 		"work"		: "Airbus Group",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/dr-kevin-jones.png"
+		}],
 		
-		},
 		"partner": {
 		
 		},
@@ -278,9 +272,7 @@
 		"time"		: "22:00",
 		"place" 	: "",
 		"subject" 	: "CS3STHLM Expo & Welcome Reception - CLOSED",
-		"author": {
 		
-		},
 		"partner": {
 		
 		},
@@ -295,9 +287,7 @@
 		"time"		: "08:45",
 		"place" 	: "",
 		"subject" 	: "CS3STHLM Summit doors open",
-		"author": {
 		
-		},
 		"partner": {
 		
 		},
@@ -312,9 +302,7 @@
 		"time"		: "09:00",
 		"place" 	: "",
 		"subject" 	: "CS3STHLM Summit Opening",
-		"author": {
 		
-		},
 		"partner": {
 		
 		},
@@ -329,14 +317,14 @@
 		"time"		: "Presentation",
 		"place" 	: "Main Stage",
 		"subject" 	: "Recent APT Campaign targeting Energy Sector Assets",
-		"author": {
 		
+		"author": [{
 		"name" 		: "Jonathan Homer",
 		"role"		: "",
 		"work"		: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/jonathan-homer.png"
+		}],
 		
-		},
 		"partner": {
 		
 		},
@@ -351,9 +339,7 @@
 		"time"		: "10:40",
 		"place" 	: "",
 		"subject" 	: "Coffee Break",
-		"author": {
 		
-		},
 		"partner": {
 		
 		},
@@ -368,14 +354,14 @@
 		"time"		: "Presentation",
 		"place" 	: "Main Stage",
 		"subject" 	: "Incident Response: Learning as you go is expensive",
-		"author": {
 		
+		"author": [{
 		"name" 		: "Mark Stacey",
 		"role"		: "Principal Threat Analyst",
 		"work"		: "Dragos Inc",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/mark-stacey.png"
+		}],
 		
-		},
 		"partner": {
 		
 		},
@@ -390,14 +376,14 @@
 		"time"		: "Presentation",
 		"place" 	: "Main Stage",
 		"subject" 	: "Hunting and Responding in ICS",
-		"author": {
 		
+		"author": [{
 		"name" 		: "Mark Stacey",
 		"role"		: "Principal Threat Analyst",
 		"work"		: "Dragos Inc",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/mark-stacey.png"
+		}],
 		
-		},
 		"partner": {
 		
 		"name" 		: "Ben Miller",
@@ -417,9 +403,7 @@
 		"time"		: "12:30",
 		"place" 	: "",
 		"subject" 	: "Lunch Break",
-		"author": {
 		
-		},
 		"partner": {
 		
 		},
@@ -434,14 +418,14 @@
 		"time"		: "Presentation",
 		"place" 	: "Main Stage",
 		"subject" 	: "The Good, the Bad and the Segmented",
-		"author": {
 		
+		"author": [{
 		"name" 		: "Erwin Kooi",
 		"role"		: "ICS/SCADA Architech",
 		"work"		: "Alliander",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/erwin-kooi.png"
+		}],
 		
-		},
 		"partner": {
 		
 		"name" 		: "Rik van Hees",
@@ -461,14 +445,14 @@
 		"time"		: "Presentation",
 		"place" 	: "Main Stage",
 		"subject" 	: "Operator Jail Breakout",
-		"author": {
 		
+		"author": [{
 		"name" 		: "Dieter Sarrazyn",
 		"role"		: "Cybersecurity Expert",
 		"work"		: "Freelance",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/dieter-sarrazyn.png"
+		}],
 		
-		},
 		"partner": {
 		
 		"name" 		: "Frank Lycops",
@@ -488,14 +472,14 @@
 		"time"		: "15:00",
 		"place" 	: "",
 		"subject" 	: "Coffee Break",
-		"author": {
 		
+		"author": [{
 		"name" 		: "Swedish Fika",
 		"role"		: "",
 		"work"		: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/"
+		}],
 		
-		},
 		"partner": {
 		
 		},
@@ -510,14 +494,14 @@
 		"time"		: "Presentation",
 		"place" 	: "Main Stage",
 		"subject" 	: "Using fake BTS as a part of Pentest of Devices using SIM Cards for Data Transmission",
-		"author": {
 		
+		"author": [{
 		"name" 		: "Marcin Dudek",
 		"role"		: "IT Security Expert",
 		"work"		: "ComCERT.PL",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/marcin-dudek.png"
+		}],
 		
-		},
 		"partner": {
 		
 		},
@@ -532,14 +516,14 @@
 		"time"		: "Presentation",
 		"place" 	: "Main Stage",
 		"subject" 	: "Attacking Cars Revisited: On the Road Towards a More Resilient Connected Vehicle Infrastructure",
-		"author": {
 		
+		"author": [{
 		"name" 		: "Kai Thomsen",
 		"role"		: "Lead Incident Responder",
 		"work"		: "AUDI AG",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/kai-thomsen.png"
+		}],
 		
-		},
 		"partner": {
 		
 		},
@@ -554,9 +538,7 @@
 		"time"		: "ca: 17:00",
 		"place" 	: "",
 		"subject" 	: "Bar open in ICS Lab/Stacken",
-		"author": {
 		
-		},
 		"partner": {
 		
 		},
@@ -571,9 +553,7 @@
 		"time"		: "18:30",
 		"place" 	: "",
 		"subject" 	: "CS3STHLM Hallway Mingle",
-		"author": {
 		
-		},
 		"partner": {
 		
 		},
@@ -588,9 +568,7 @@
 		"time"		: "19:00",
 		"place" 	: "",
 		"subject" 	: "CS3STHLM Dinner",
-		"author": {
 		
-		},
 		"partner": {
 		
 		},
@@ -605,14 +583,14 @@
 		"time"		: "Dinner Presentation",
 		"place" 	: "Main Stage",
 		"subject" 	: "Fake news or Folklore?",
-		"author": {
 		
+		"author": [{
 		"name" 		: "Jack Werner",
 		"role"		: "Freelance Journalist",
 		"work"		: "Freelance",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/jack-werner.png"
+		}],
 		
-		},
 		"partner": {
 		
 		},
@@ -627,9 +605,7 @@
 		"time"		: "23:00",
 		"place" 	: "",
 		"subject" 	: "End of Summit Day 1 - Nalen Closes",
-		"author": {
 		
-		},
 		"partner": {
 		
 		},

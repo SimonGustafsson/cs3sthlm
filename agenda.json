@@ -11,14 +11,14 @@ layout:
 		"time"		: "{{ item.time }}",
 		"place" 	: "{{ item.place }}",
 		"subject" 	: "{{ item.subject | strip_html }}",
-		"author": {
 		{% for item in item.author %}
+		"author": [{
 		"name" 		: "{{ item.name }}",
 		"role"		: "{{ item.role }}",
 		"work"		: "{{ item.work }}",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/{{ item.image }}"{% unless forloop.last %},{% endunless %}
+		}],
 		{% endfor %}
-		},
 		"partner": {
 		{% for item in item.partner %}
 		"name" 		: "{{ item.name }}",
