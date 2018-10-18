@@ -11,17 +11,20 @@ layout:
 		"time"		: "{{ item.time }}",
 		"place" 	: "{{ item.place }}",
 		"subject" 	: "{{ item.subject | strip_html }}",
-		"author" 	: "{{ item.author }}",
+		"author": {
+		{% for item in item.author %}
+		"name" 		: "{{ item.name }}",
 		"role"		: "{{ item.role }}",
 		"work"		: "{{ item.work }}",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/{{ item.image }}",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/{{ item.image }}"{% unless forloop.last %},{% endunless %}
+		{% endfor %}
+		},
 		"partner": {
 		{% for item in item.partner %}
-		"active"	: "{{ item.active }}",
-		"author" 	: "{{ item.author }}",
-		"role" 		: "{{ item.role }}",
-		"work" 		: "{{ item.work }}",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/{{ item.image }}"
+		"name" 		: "{{ item.name }}",
+		"role"		: "{{ item.role }}",
+		"work"		: "{{ item.work }}",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/{{ item.image }}"{% unless forloop.last %},{% endunless %}
 		{% endfor %}
 		},
 		"description": {{ item.description | markdownify | strip_newlines | jsonify }}

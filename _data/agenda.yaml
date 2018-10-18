@@ -196,22 +196,6 @@
   time: "09:00"
   subject: CS3STHLM Summit Opening
 
-- id: 36
-  day: d3-main
-  type: Presentation
-  date: 24 October
-  time: Keynote
-  place: Main Stage
-  subject: Think like a hacker but act like an engineer
-  author:
-    - name: Marty Edwards
-      role: 
-      work: 
-      image: marty-edwards.png
-  description: |
-    asd
-  permalink: program/presentations/marty-edwards/
-
 - id: 37
   day: d3-main
   type: Presentation
@@ -262,6 +246,7 @@
       role: Principal Threat Analyst
       work: Dragos Inc
       image: mark-stacey.png
+  partner:
     - name: Ben Miller
       role: Director of Threat Operations
       work: Dragos Inc
@@ -288,6 +273,7 @@
       role: ICS/SCADA Architech
       work: Alliander
       image: erwin-kooi.png
+  partner:
     - name: Rik van Hees
       role: ICS Security Architect
       work: Alliander
@@ -308,6 +294,7 @@
       role: Cybersecurity Expert
       work: Freelance
       image: dieter-sarrazyn.png
+  partner:
     - name: Frank Lycops
       role: Security Consultant & Researcher
       work: Freelance
