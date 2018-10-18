@@ -1,6 +1,13 @@
 [
   
     {
+      "title"    : "CS3STHLM fifth conference on industrial cyber security",
+      "url"      : "/press/2018/10/18/cs3sthlm-fifth-conference.html",
+      "date"     : "2018-10-18 04:00:00 +0000",
+      "path"     : "/press/2018/10/18/cs3sthlm-fifth-conference.html"
+    },
+  
+    {
       "title"    : "Ola Hermansson - Technical Operations Manager",
       "url"      : "/blog/ola-hermansson/",
       "date"     : "2018-10-15 04:00:00 +0000",
@@ -535,14 +542,6 @@
         "title"    : "Incident Response: Learning as you go is Expensive",
         "url"      : "/program/presentations/mark-stacey/",
         "path"     : "/program/presentations/mark-stacey/"
-     
-   },
-  
-   {
-     
-        "title"    : "Think like a hacker but act like an engineer",
-        "url"      : "/program/presentations/marty-edwards/",
-        "path"     : "/program/presentations/marty-edwards/"
      
    },
   

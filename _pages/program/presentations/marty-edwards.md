@@ -8,6 +8,7 @@ speaker:
   work: ISA
   image: marty-edwards.png
 id: presentation
+published: false
 ---
 
 Industrial Control Systems (ICS) as well as Operational Technology (OT) are under increased risks from cyber events.  Come learn how Cyber Informed Engineering is an evolving concept to use cyber risk in designing control systems and associated protection systems.

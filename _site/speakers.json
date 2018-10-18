@@ -83,47 +83,6 @@
 	},
 
 	{
-		"id"		: "3",
-		"type"		: "presentation",
-		"name"		: "Marty Edwards",
-		"role"		: "Director of Strategic Initiatives",
-		"work"		: "ISA",
-		"country"	: "United States",
-		"shortcode"	: "US",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/marty-edwards.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"Think like a hacker but act like an engineer",
-			"partner":	"",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>Industrial Control Systems (ICS) as well as Operational Technology (OT) are under increased risks from cyber events.  Come learn how Cyber Informed Engineering is an evolving concept to use cyber risk in designing control systems and associated protection systems.</p><p>“Cyber risks to Industrial Control Systems (ICS) and Operational Technology (OT) continue to evolve.  Whether it is the threat of ransomware taking a production system offline, or sophisticated malware targeting the safety critical components of your system.  Engineers have long designed systems to be resilient to a multitude of failure modes, and it is time that we started taking the lessons learned from cyber attacks against these systems into consideration during new system design, or legacy system retrofit.  This session will introduce this evolving concept and describe some of the standards and practices being developed and utilized.”</p>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
-		},
-		
-
-		"bio": "<p>Marty Edwards, a globally recognized industrial control systems cybersecurity expert and speaker, serves as Director of Strategic Initiatives for ISA.</p><p>Prior to joining the Automation Federation in mid-2017, Edwards—a 25-year industry veteran—was the longest-serving Director of the U.S. Department of Homeland Security’s Industrial Control Systems Cyber Emergency Response Team (ICS-CERT). Under his leadership the ICS-CERT was awarded the 2013 SC Magazine Security Team of the Year award and was named as a finalist in the Community Awareness category in the 2015 Government Information Security Leadership Awards (GISLA).</p>"
-	},
-
-	{
 		"id"		: "4",
 		"type"		: "presentation",
 		"name"		: "Patrick Miller",

@@ -1,49 +1,67 @@
 {"agendaList":[
 	{
 		"id"		: "1",
-		"day"		: "d1-main",
-		"type"		: "Training",
-		"date"		: "22-23 October",
-		"time"		: "09:00 - 17:00",
-		"place" 	: "Trocaderro",
-		"subject" 	: "Pentesting Industrial Control Systems",
-		"author" 	: "{"name"=>"Arnaud Soullié", "role"=>"Cybersecurity R&D Manager", "work"=>"pentesting-ics.com", "image"=>"arnaud-soullie.png"}",
+		"day"		: "d2-main",
+		"type"		: "basic",
+		"date"		: "",
+		"time"		: "12:40",
+		"place" 	: "",
+		"subject" 	: "Doors + Registration for EXPO Open",
+		"author" 	: "",
 		"role"		: "",
 		"work"		: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/",
 		"partner": {
 		
 		},
-		"description": "<p>asd</p>"
+		"description": ""
 	},
 
 	{
 		"id"		: "2",
-		"day"		: "d1-main",
-		"type"		: "Training",
-		"date"		: "22-23 October",
-		"time"		: "09:00 - 17:00",
-		"place" 	: "Harlem",
-		"subject" 	: "Network Forensics Training",
-		"author" 	: "{"name"=>"Erik Hjelmvik", "role"=>"Network Analyst", "work"=>"NETRESEC", "image"=>"erik-hjelmvik.png"}",
+		"day"		: "d2-main",
+		"type"		: "basic",
+		"date"		: "",
+		"time"		: "13:00",
+		"place" 	: "Main Stage",
+		"subject" 	: "CS3STHLM EXPO Opening",
+		"author" 	: "",
 		"role"		: "",
 		"work"		: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/",
 		"partner": {
 		
 		},
-		"description": "<p>Our two-day Network Forensics class consists of a mix of theory and hands-on labs, where students will learn to analyze Full Packet Capture (FPC) files. The scenarios in the labs are primarily focused at network forensics for incident response, but are also relevant for law enforcement/internal security etc. where the network traffic of a suspect or insider is being monitored.</p><h4 id=\"day-1---theory-and-practice-using-open-source-tools\">Day 1 - Theory and Practice using Open Source Tools</h4><ul>  <li>Theory: Ethernet signaling</li>  <li>Hardware: Network TAPs and Monitor ports / SPAN ports</li>  <li>Sniffers: Recommendations for high-performance packet interception</li>  <li>Analyze Modbus TCP traffic</li>  <li>Forensics of IEC 60870-5-104 network traffic</li>  <li>Investigate telnet sessions</li>  <li>PCAP analysis: Extracting evidence and indicators of compromise using open source tools</li>  <li>Defeating Big Data: Techniques for working with large data sets</li>  <li>Whitelists: Learn how to detect 0-day exploit attacks without using IDS signatures</li>  <li>Challenge Day 1: Find the needle in our haystack and win a honorable prize!</li></ul><h4 id=\"day-2---advanced-network-forensics-using-netresec-tools\">Day 2 - Advanced Network Forensics using Netresec Tools</h4><ul>  <li>NetworkMiner Professional: Learning to leverage the features available in the Pro version    <ul>      <li>Port Independent Protocol Identification (PIPI)</li>      <li>DNS Whitelisting</li>    </ul>  </li>  <li>NetworkMinerCLI: Automating content extraction with our command line tool</li>  <li>CapLoader: Searching, sorting and drilling through large PCAP data sets    <ul>      <li>Super fast flow transcript (aka Follow TCP/UDP stream)</li>      <li>Filter PCAP files and export frames to other tools</li>      <li>Keyword search</li>      <li>Create inventory of ICS devices from PCAP</li>    </ul>  </li>  <li>Challenge Day 2</li></ul><h4 id=\"the-scenario\">The Scenario</h4><p>The scenario used in the class involves a new progressive Bank, which provides exchange services for Bitcoin and Litecoin. We’ve set up clients and a server for this bank using REAL physical machines and a REAL internet connection. All traffic on the network is captured to PCAP files by a SecurityOnion sensor. In the scenario this bank gets into lots of trouble with hackers and malware, such as:</p><ul>  <li>Defacement of the Bank’s web server (see zone-h mirror)</li>  <li>Backdoor infection through trojanized software</li>  <li>Spear phishing</li>  <li>Use of a popular RAT (njRAT) to access the victims machine and exfiltrate the wallet.dat files for Bitcoin and Litecoin</li>  <li>Infection with real malware (Nemucod, Miuref / Boaxxe and more)</li></ul><p>Class attendees will learn to analyze captured network traffic from these events in order to:</p><ul>  <li>Investigate web server compromises and defacements</li>  <li>Identify covert backdoors</li>  <li>Reassemble incoming emails and attachments</li>  <li>Detect and decode RAT/backdoor traffic</li>  <li>Detect malicious traffic without having to rely on blacklists, AV or third-party detection services</li></ul><h4 id=\"professional-software-included-free-of-charge\">Professional software included FREE of charge</h4><p>Each attendee will be provided with a free personal single user license of NetworkMiner Professional and CapLoader. These licenses will be valid for six months from the first training day.</p><h3 id=\"target-audience\">Target Audience</h3><p>Q: Who should attend?</p><p>A: Anyone who want to improve their skills at finding evil stuff in full content packet captures.</p><p>Q: Who should NOT attend?</p><p>A: Those who are afraid of using Linux command line tools.</p><h3 id=\"training-preparations\">Training Preparations</h3><h4 id=\"laptop-required\">Laptop Required</h4><p>Attendees will need to bring a laptop that fits the following specs:</p><ul>  <li>A PC running any 64 bit Windows OS (can be a Virtual Machine)</li>  <li>At least 4GB RAM</li>  <li>At least 40 GB free disk space</li>  <li>VirtualBox (64 bit) installed (VMWare will not be supported in the training)</li></ul><p>A VirtualBox VM will be provided on USB flash drives at the beginning of the training.</p><p>Please note that having a 64-bit CPU and a 64-bit OS is not always enough to support 64-bit virtualization. You might need to enable features such as ”AMD-V”, ”VT-x” or ”Hyper-V” in BIOS in order to run virtual machines in 64-bit mode. You might also need to turn off “Intel Trusted Execution” in BIOS. One way to verify that your laptop supports 64-bit virtualization is to download the SecurityOnion ISO and see if it boots up in VirtualBox.</p>"
+		"description": ""
 	},
 
 	{
 		"id"		: "3",
-		"day"		: "d1-main",
-		"type"		: "Training",
-		"date"		: "22-23 October",
-		"time"		: "09:00 - 17:00",
-		"place" 	: "Somewhere",
-		"subject" 	: "ICS Strategic Planning and War Gaming",
-		"author" 	: "{"name"=>"Joe Slowik", "role"=>"Adversary Hunter", "work"=>"Dragos Inc", "image"=>"joe-slowik.png"}",
+		"day"		: "d2-main",
+		"type"		: "basic",
+		"date"		: "",
+		"time"		: "13:30",
+		"place" 	: "Harlem Stage",
+		"subject" 	: "Welcome to the CS3STHLM Expo Talks!",
+		"author" 	: "{"name"=>"Dr Erik Johansson"}",
+		"role"		: "",
+		"work"		: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/",
+		"partner": {
+		
+		},
+		"description": ""
+	},
+
+	{
+		"id"		: "4",
+		"day"		: "d2-main",
+		"type"		: "Presentation",
+		"date"		: "23 October",
+		"time"		: "13:35",
+		"place" 	: "Harlem Stage",
+		"subject" 	: "Control Theory for Practical Cyber-Physical Security",
+		"author" 	: "{"name"=>"Prof. Henrik Sandberg", "role"=>"Professor in Large-Scale Control Systems", "work"=>"KTH Royal Institute of Technology", "image"=>"henrik-sandberg.png"}",
 		"role"		: "",
 		"work"		: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/",
@@ -54,85 +72,121 @@
 	},
 
 	{
-		"id"		: "4",
-		"day"		: "d1-main",
-		"type"		: "break",
-		"date"		: "",
-		"time"		: "10:30",
-		"place" 	: "",
-		"subject" 	: "",
-		"author" 	: "",
-		"role"		: "",
-		"work"		: "",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/",
-		"partner": {
-		
-		},
-		"description": ""
-	},
-
-	{
 		"id"		: "5",
-		"day"		: "d1-main",
-		"type"		: "break",
-		"date"		: "",
-		"time"		: "12:00",
-		"place" 	: "",
-		"subject" 	: "",
-		"author" 	: "",
+		"day"		: "d2-main",
+		"type"		: "Presentation",
+		"date"		: "23 October",
+		"time"		: "14:15",
+		"place" 	: "Harlem Stage",
+		"subject" 	: "ICS cyber security in the face of digital transformation",
+		"author" 	: "{"name"=>"Jannis Utz", "role"=>"Something", "work"=>"Recorded Future", "image"=>"jannis-utz.png"}",
 		"role"		: "",
 		"work"		: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/",
 		"partner": {
 		
 		},
-		"description": ""
+		"description": "<p>asd</p>"
 	},
 
 	{
 		"id"		: "6",
-		"day"		: "d1-main",
-		"type"		: "break",
-		"date"		: "",
-		"time"		: "15:00",
-		"place" 	: "",
-		"subject" 	: "",
-		"author" 	: "",
+		"day"		: "d2-main",
+		"type"		: "Presentation",
+		"date"		: "23 October",
+		"time"		: "14:45",
+		"place" 	: "Harlem Stage",
+		"subject" 	: "Securing Wireless Transmissions at the Air Interface",
+		"author" 	: "{"name"=>"Ass. Prof. Ragnar Thobaben", "role"=>"Associate Professor in Communication Theory", "work"=>"KTH Royal Institute of Technology", "image"=>"ragnar-thobaben.png"}",
 		"role"		: "",
 		"work"		: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/",
 		"partner": {
 		
 		},
-		"description": ""
+		"description": "<p>asd</p>"
+	},
+
+	{
+		"id"		: "6",
+		"day"		: "d2-main",
+		"type"		: "Presentation",
+		"date"		: "23 October",
+		"time"		: "15:30",
+		"place" 	: "Harlem Stage",
+		"subject" 	: "Security when failure is not an option.",
+		"author" 	: "{"name"=>"Jonas Dellenvall", "role"=>"Head of Cyber Security Architecture, Innovation and Scouting", "work"=>"Advenica", "image"=>"jonas-dellenvall.png"}",
+		"role"		: "",
+		"work"		: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/",
+		"partner": {
+		
+		},
+		"description": "<p>asd</p>"
 	},
 
 	{
 		"id"		: "7",
-		"day"		: "d1-main",
-		"type"		: "basic",
-		"date"		: "",
-		"time"		: "ca: 17:00",
-		"place" 	: "",
-		"subject" 	: "",
-		"author" 	: "",
+		"day"		: "d2-main",
+		"type"		: "Presentation",
+		"date"		: "23 October",
+		"time"		: "16:00",
+		"place" 	: "Harlem Stage",
+		"subject" 	: "Resilient Computing and Communication for Critical Infrastructures",
+		"author" 	: "{"name"=>"Prof. György Dán", "role"=>"Professor in Teletraffic Systems", "work"=>"KTH Royal Institute of Technology", "image"=>"györgy-dán.png"}",
 		"role"		: "",
 		"work"		: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/",
 		"partner": {
 		
 		},
-		"description": ""
+		"description": "<p>asd</p>"
 	},
 
 	{
 		"id"		: "8",
 		"day"		: "d2-main",
+		"type"		: "Presentation",
+		"date"		: "23 October",
+		"time"		: "16:45",
+		"place" 	: "Harlem Stage",
+		"subject" 	: "Kaspersky Industrial Cybersecurity approach",
+		"author" 	: "{"name"=>"Anton Shipulin", "role"=>"Global Presales Manager", "work"=>"Kaspersky Lab", "image"=>"anton-shipulin.png"}",
+		"role"		: "",
+		"work"		: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/",
+		"partner": {
+		
+		},
+		"description": "<p>asd</p>"
+	},
+
+	{
+		"id"		: "9",
+		"day"		: "d2-main",
+		"type"		: "Presentation",
+		"date"		: "23 October",
+		"time"		: "17:15",
+		"place" 	: "Harlem Stage",
+		"subject" 	: "Securing Low Level Software Using Formal Methods",
+		"author" 	: "{"name"=>"Prof. Mads Dam", "role"=>"Professor in Teleinformatics", "work"=>"KTH Royal Institute of Technology", "image"=>"mads-dam.png"}",
+		"role"		: "",
+		"work"		: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/",
+		"partner": {
+		
+		},
+		"description": "<p>asd</p>"
+	},
+
+	{
+		"id"		: "11",
+		"day"		: "d2-main",
 		"type"		: "basic",
 		"date"		: "",
-		"time"		: "08:20 - 09:00",
-		"place" 	: "",
-		"subject" 	: "Registration Open at Nalen",
+		"time"		: "18:00",
+		"place" 	: "Main Stage",
+		"subject" 	: "CS3STHLM Welcome Reception - OPEN",
 		"author" 	: "",
 		"role"		: "",
 		"work"		: "",
@@ -144,50 +198,14 @@
 	},
 
 	{
-		"id"		: "9",
-		"day"		: "d2-main",
-		"type"		: "Training",
-		"date"		: "22-23 October",
-		"time"		: "09:00 - 17:00",
-		"place" 	: "Trocaderro",
-		"subject" 	: "Pentesting Industrial Control Systems",
-		"author" 	: "{"name"=>"Arnaud Soullié", "role"=>"Cybersecurity R&D Manager", "work"=>"pentesting-ics.com", "image"=>"arnaud-soullie.png"}",
-		"role"		: "",
-		"work"		: "",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/",
-		"partner": {
-		
-		},
-		"description": "<p>asd</p>"
-	},
-
-	{
 		"id"		: "10",
 		"day"		: "d2-main",
-		"type"		: "Training",
-		"date"		: "22-23 October",
-		"time"		: "09:00 - 17:00",
-		"place" 	: "Harlem",
-		"subject" 	: "Network Forensics Training",
-		"author" 	: "{"name"=>"Erik Hjelmvik", "role"=>"Network Analyst", "work"=>"NETRESEC", "image"=>"erik-hjelmvik.png"}",
-		"role"		: "",
-		"work"		: "",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/",
-		"partner": {
-		
-		},
-		"description": "<p>Our two-day Network Forensics class consists of a mix of theory and hands-on labs, where students will learn to analyze Full Packet Capture (FPC) files. The scenarios in the labs are primarily focused at network forensics for incident response, but are also relevant for law enforcement/internal security etc. where the network traffic of a suspect or insider is being monitored.</p><h4 id=\"day-1---theory-and-practice-using-open-source-tools\">Day 1 - Theory and Practice using Open Source Tools</h4><ul>  <li>Theory: Ethernet signaling</li>  <li>Hardware: Network TAPs and Monitor ports / SPAN ports</li>  <li>Sniffers: Recommendations for high-performance packet interception</li>  <li>Analyze Modbus TCP traffic</li>  <li>Forensics of IEC 60870-5-104 network traffic</li>  <li>Investigate telnet sessions</li>  <li>PCAP analysis: Extracting evidence and indicators of compromise using open source tools</li>  <li>Defeating Big Data: Techniques for working with large data sets</li>  <li>Whitelists: Learn how to detect 0-day exploit attacks without using IDS signatures</li>  <li>Challenge Day 1: Find the needle in our haystack and win a honorable prize!</li></ul><h4 id=\"day-2---advanced-network-forensics-using-netresec-tools\">Day 2 - Advanced Network Forensics using Netresec Tools</h4><ul>  <li>NetworkMiner Professional: Learning to leverage the features available in the Pro version    <ul>      <li>Port Independent Protocol Identification (PIPI)</li>      <li>DNS Whitelisting</li>    </ul>  </li>  <li>NetworkMinerCLI: Automating content extraction with our command line tool</li>  <li>CapLoader: Searching, sorting and drilling through large PCAP data sets    <ul>      <li>Super fast flow transcript (aka Follow TCP/UDP stream)</li>      <li>Filter PCAP files and export frames to other tools</li>      <li>Keyword search</li>      <li>Create inventory of ICS devices from PCAP</li>    </ul>  </li>  <li>Challenge Day 2</li></ul><h4 id=\"the-scenario\">The Scenario</h4><p>The scenario used in the class involves a new progressive Bank, which provides exchange services for Bitcoin and Litecoin. We’ve set up clients and a server for this bank using REAL physical machines and a REAL internet connection. All traffic on the network is captured to PCAP files by a SecurityOnion sensor. In the scenario this bank gets into lots of trouble with hackers and malware, such as:</p><ul>  <li>Defacement of the Bank’s web server (see zone-h mirror)</li>  <li>Backdoor infection through trojanized software</li>  <li>Spear phishing</li>  <li>Use of a popular RAT (njRAT) to access the victims machine and exfiltrate the wallet.dat files for Bitcoin and Litecoin</li>  <li>Infection with real malware (Nemucod, Miuref / Boaxxe and more)</li></ul><p>Class attendees will learn to analyze captured network traffic from these events in order to:</p><ul>  <li>Investigate web server compromises and defacements</li>  <li>Identify covert backdoors</li>  <li>Reassemble incoming emails and attachments</li>  <li>Detect and decode RAT/backdoor traffic</li>  <li>Detect malicious traffic without having to rely on blacklists, AV or third-party detection services</li></ul><h4 id=\"professional-software-included-free-of-charge\">Professional software included FREE of charge</h4><p>Each attendee will be provided with a free personal single user license of NetworkMiner Professional and CapLoader. These licenses will be valid for six months from the first training day.</p><h3 id=\"target-audience\">Target Audience</h3><p>Q: Who should attend?</p><p>A: Anyone who want to improve their skills at finding evil stuff in full content packet captures.</p><p>Q: Who should NOT attend?</p><p>A: Those who are afraid of using Linux command line tools.</p><h3 id=\"training-preparations\">Training Preparations</h3><h4 id=\"laptop-required\">Laptop Required</h4><p>Attendees will need to bring a laptop that fits the following specs:</p><ul>  <li>A PC running any 64 bit Windows OS (can be a Virtual Machine)</li>  <li>At least 4GB RAM</li>  <li>At least 40 GB free disk space</li>  <li>VirtualBox (64 bit) installed (VMWare will not be supported in the training)</li></ul><p>A VirtualBox VM will be provided on USB flash drives at the beginning of the training.</p><p>Please note that having a 64-bit CPU and a 64-bit OS is not always enough to support 64-bit virtualization. You might need to enable features such as ”AMD-V”, ”VT-x” or ”Hyper-V” in BIOS in order to run virtual machines in 64-bit mode. You might also need to turn off “Intel Trusted Execution” in BIOS. One way to verify that your laptop supports 64-bit virtualization is to download the SecurityOnion ISO and see if it boots up in VirtualBox.</p>"
-	},
-
-	{
-		"id"		: "11",
-		"day"		: "d2-main",
-		"type"		: "Training",
-		"date"		: "22-23 October",
-		"time"		: "09:00 - 17:00",
-		"place" 	: "Somewhere",
-		"subject" 	: "ICS Strategic Planning and War Gaming",
-		"author" 	: "{"name"=>"Joe Slowik", "role"=>"Adversary Hunter", "work"=>"Dragos Inc", "image"=>"joe-slowik.png"}",
+		"type"		: "Presentation",
+		"date"		: "23 October",
+		"time"		: "18:00",
+		"place" 	: "Harlem Stage",
+		"subject" 	: "Addressing Physical to Digital Convergence in an Evolving World",
+		"author" 	: "{"name"=>"Rick Peters", "role"=>"Director, Operational Technology Global Enablement", "work"=>"Fortinet", "image"=>"rick-peters.png"}",
 		"role"		: "",
 		"work"		: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/",
@@ -200,12 +218,12 @@
 	{
 		"id"		: "12",
 		"day"		: "d2-main",
-		"type"		: "Training",
+		"type"		: "Presentation",
 		"date"		: "23 October",
-		"time"		: "09:00 - 17:00",
-		"place" 	: "Somewhere",
-		"subject" 	: "Introduction to Threat Hunting in ICS",
-		"author" 	: "{"name"=>"Daniel Michaud-Soucy", "role"=>"Principal Threat Analyst", "work"=>"Dragos Inc", "image"=>"daniel-michaud-soucy.png"}{"name"=>"Ben Miller", "role"=>"Director of Threat Operations", "work"=>"Dragos Inc", "image"=>"ben-miller.png"}",
+		"time"		: "19:30",
+		"place" 	: "Harlem Stage",
+		"subject" 	: "ICS cyber security in the face of digital transformation",
+		"author" 	: "{"name"=>"Dr Kevin Jones", "role"=>"Head of Cyber Security Architecture, Innovation and Scouting", "work"=>"Airbus Group", "image"=>"dr-kevin-jones.png"}",
 		"role"		: "",
 		"work"		: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/",
@@ -218,12 +236,66 @@
 	{
 		"id"		: "13",
 		"day"		: "d2-main",
-		"type"		: "Training",
-		"date"		: "23 October",
-		"time"		: "09:00 - 17:00",
-		"place" 	: "Somewhere",
-		"subject" 	: "Cyber security for the energy sector – an introduction to ISO/IEC 27019 and the BDEW/OE Whitepaper",
-		"author" 	: "{"name"=>"Stephan Beirer", "role"=>"Senior Consultant", "work"=>"GAI NetConsult GmbH", "image"=>"stephan-beirer.png"}",
+		"type"		: "basic",
+		"date"		: "",
+		"time"		: "22:00",
+		"place" 	: "",
+		"subject" 	: "CS3STHLM Expo & Welcome Reception - CLOSED",
+		"author" 	: "",
+		"role"		: "",
+		"work"		: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/",
+		"partner": {
+		
+		},
+		"description": ""
+	},
+
+	{
+		"id"		: "34",
+		"day"		: "d3-main",
+		"type"		: "basic",
+		"date"		: "",
+		"time"		: "08:45",
+		"place" 	: "",
+		"subject" 	: "CS3STHLM Summit doors open",
+		"author" 	: "",
+		"role"		: "",
+		"work"		: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/",
+		"partner": {
+		
+		},
+		"description": ""
+	},
+
+	{
+		"id"		: "35",
+		"day"		: "d3-main",
+		"type"		: "basic",
+		"date"		: "",
+		"time"		: "09:00",
+		"place" 	: "",
+		"subject" 	: "CS3STHLM Summit Opening",
+		"author" 	: "",
+		"role"		: "",
+		"work"		: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/",
+		"partner": {
+		
+		},
+		"description": ""
+	},
+
+	{
+		"id"		: "36",
+		"day"		: "d3-main",
+		"type"		: "Presentation",
+		"date"		: "24 October",
+		"time"		: "Keynote",
+		"place" 	: "Main Stage",
+		"subject" 	: "Think like a hacker but act like an engineer",
+		"author" 	: "{"name"=>"Marty Edwards", "role"=>nil, "work"=>nil, "image"=>"marty-edwards.png"}",
 		"role"		: "",
 		"work"		: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/",
@@ -234,11 +306,29 @@
 	},
 
 	{
-		"id"		: "14",
-		"day"		: "d2-main",
+		"id"		: "37",
+		"day"		: "d3-main",
+		"type"		: "Presentation",
+		"date"		: "24 October",
+		"time"		: "Presentation",
+		"place" 	: "Main Stage",
+		"subject" 	: "Recent APT Campaign targeting Energy Sector Assets",
+		"author" 	: "{"name"=>"Jonathan Homer", "role"=>nil, "work"=>nil, "image"=>"jonathan-homer.png"}",
+		"role"		: "",
+		"work"		: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/",
+		"partner": {
+		
+		},
+		"description": "<p>asd</p>"
+	},
+
+	{
+		"id"		: "38",
+		"day"		: "d3-main",
 		"type"		: "break",
 		"date"		: "",
-		"time"		: "10:30",
+		"time"		: "10:40",
 		"place" 	: "",
 		"subject" 	: "Coffee Break",
 		"author" 	: "",
@@ -252,11 +342,47 @@
 	},
 
 	{
-		"id"		: "15",
-		"day"		: "d2-main",
+		"id"		: "39",
+		"day"		: "d3-main",
+		"type"		: "Presentation",
+		"date"		: "24 October",
+		"time"		: "Presentation",
+		"place" 	: "Main Stage",
+		"subject" 	: "Incident Response: Learning as you go is expensive",
+		"author" 	: "{"name"=>"Mark Stacey", "role"=>"Principal Threat Analyst", "work"=>"Dragos Inc", "image"=>"mark-stacey.png"}",
+		"role"		: "",
+		"work"		: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/",
+		"partner": {
+		
+		},
+		"description": "<p>asd</p>"
+	},
+
+	{
+		"id"		: "40",
+		"day"		: "d3-main",
+		"type"		: "Presentation",
+		"date"		: "24 October",
+		"time"		: "Presentation",
+		"place" 	: "Main Stage",
+		"subject" 	: "Hunting and Responding in ICS",
+		"author" 	: "{"name"=>"Mark Stacey", "role"=>"Principal Threat Analyst", "work"=>"Dragos Inc", "image"=>"mark-stacey.png"}{"name"=>"Ben Miller", "role"=>"Director of Threat Operations", "work"=>"Dragos Inc", "image"=>"ben-miller.png"}",
+		"role"		: "",
+		"work"		: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/",
+		"partner": {
+		
+		},
+		"description": "<p>asd</p>"
+	},
+
+	{
+		"id"		: "41",
+		"day"		: "d3-main",
 		"type"		: "break",
 		"date"		: "",
-		"time"		: "12:00",
+		"time"		: "12:30",
 		"place" 	: "",
 		"subject" 	: "Lunch Break",
 		"author" 	: "",
@@ -270,50 +396,50 @@
 	},
 
 	{
-		"id"		: "16",
-		"day"		: "d2-main",
-		"type"		: "basic",
-		"date"		: "",
-		"time"		: "12:40",
-		"place" 	: "",
-		"subject" 	: "Doors + Registration for EXPO Open",
-		"author" 	: "",
+		"id"		: "42",
+		"day"		: "d3-main",
+		"type"		: "Presentation",
+		"date"		: "24 October",
+		"time"		: "Presentation",
+		"place" 	: "Main Stage",
+		"subject" 	: "The Good, the Bad and the Segmented",
+		"author" 	: "{"name"=>"Erwin Kooi", "role"=>"ICS/SCADA Architech", "work"=>"Alliander", "image"=>"erwin-kooi.png"}{"name"=>"Rik van Hees", "role"=>"ICS Security Architect", "work"=>"Alliander", "image"=>"rik-van-hees.png"}",
 		"role"		: "",
 		"work"		: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/",
 		"partner": {
 		
 		},
-		"description": ""
+		"description": "<p>asd</p>"
 	},
 
 	{
-		"id"		: "17",
-		"day"		: "d2-main",
-		"type"		: "basic",
-		"date"		: "",
-		"time"		: "13:00",
-		"place" 	: "",
-		"subject" 	: "CS3STHLM EXPO Opening",
-		"author" 	: "",
+		"id"		: "43",
+		"day"		: "d3-main",
+		"type"		: "Presentation",
+		"date"		: "24 October",
+		"time"		: "Presentation",
+		"place" 	: "Main Stage",
+		"subject" 	: "Operator Jail Breakout",
+		"author" 	: "{"name"=>"Dieter Sarrazyn", "role"=>"Cybersecurity Expert", "work"=>"Freelance", "image"=>"dieter-sarrazyn.png"}{"name"=>"Frank Lycops", "role"=>"Security Consultant & Researcher", "work"=>"Freelance", "image"=>"frank-lycops.png"}",
 		"role"		: "",
 		"work"		: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/",
 		"partner": {
 		
 		},
-		"description": ""
+		"description": "<p>asd</p>"
 	},
 
 	{
-		"id"		: "18",
-		"day"		: "d2-main",
+		"id"		: "44",
+		"day"		: "d3-main",
 		"type"		: "break",
 		"date"		: "",
 		"time"		: "15:00",
 		"place" 	: "",
 		"subject" 	: "Coffee Break",
-		"author" 	: "",
+		"author" 	: "{"name"=>"Swedish Fika"}",
 		"role"		: "",
 		"work"		: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/",
@@ -324,13 +450,49 @@
 	},
 
 	{
-		"id"		: "19",
-		"day"		: "d2-main",
+		"id"		: "45",
+		"day"		: "d3-main",
+		"type"		: "Presentation",
+		"date"		: "24 October",
+		"time"		: "Presentation",
+		"place" 	: "Main Stage",
+		"subject" 	: "Using fake BTS as a part of Pentest of Devices using SIM Cards for Data Transmission",
+		"author" 	: "{"name"=>"Marcin Dudek", "role"=>"IT Security Expert", "work"=>"ComCERT.PL", "image"=>"marcin-dudek.png"}",
+		"role"		: "",
+		"work"		: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/",
+		"partner": {
+		
+		},
+		"description": "<p>asd</p>"
+	},
+
+	{
+		"id"		: "46",
+		"day"		: "d3-main",
+		"type"		: "Presentation",
+		"date"		: "24 October",
+		"time"		: "Presentation",
+		"place" 	: "Main Stage",
+		"subject" 	: "Attacking Cars Revisited: On the Road Towards a More Resilient Connected Vehicle Infrastructure",
+		"author" 	: "{"name"=>"Kai Thomsen", "role"=>"Lead Incident Responder", "work"=>"AUDI AG", "image"=>"kai-thomsen.png"}",
+		"role"		: "",
+		"work"		: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/",
+		"partner": {
+		
+		},
+		"description": "<p>asd</p>"
+	},
+
+	{
+		"id"		: "47",
+		"day"		: "d3-main",
 		"type"		: "basic",
 		"date"		: "",
 		"time"		: "ca: 17:00",
 		"place" 	: "",
-		"subject" 	: "End of Tutorials",
+		"subject" 	: "Bar open in ICS Lab/Stacken",
 		"author" 	: "",
 		"role"		: "",
 		"work"		: "",
@@ -342,13 +504,13 @@
 	},
 
 	{
-		"id"		: "20",
-		"day"		: "d2-main",
+		"id"		: "48",
+		"day"		: "d3-main",
 		"type"		: "basic",
 		"date"		: "",
-		"time"		: "18:00",
+		"time"		: "18:30",
 		"place" 	: "",
-		"subject" 	: "CS3STHLM Welcome Reception - OPEN",
+		"subject" 	: "CS3STHLM Hallway Mingle",
 		"author" 	: "",
 		"role"		: "",
 		"work"		: "",
@@ -360,14 +522,32 @@
 	},
 
 	{
-		"id"		: "21",
-		"day"		: "d2-main",
-		"type"		: "Presentation",
-		"date"		: "23 October",
+		"id"		: "49",
+		"day"		: "d3-main",
+		"type"		: "basic",
+		"date"		: "",
 		"time"		: "19:00",
+		"place" 	: "",
+		"subject" 	: "CS3STHLM Dinner",
+		"author" 	: "",
+		"role"		: "",
+		"work"		: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/",
+		"partner": {
+		
+		},
+		"description": ""
+	},
+
+	{
+		"id"		: "50",
+		"day"		: "d3-main",
+		"type"		: "Presentation",
+		"date"		: "24 October",
+		"time"		: "Dinner Presentation",
 		"place" 	: "Main Stage",
-		"subject" 	: "ICS cyber security in the face of digital transformation",
-		"author" 	: "{"name"=>"Dr Kevin Jones", "role"=>"Head of Cyber Security Architecture, Innovation and Scouting", "work"=>"Airbus Group", "image"=>"dr-kevin-jones.png"}",
+		"subject" 	: "Fake news or Folklore?",
+		"author" 	: "{"name"=>"Jack Werner", "role"=>"Freelance Journalist", "work"=>"Freelance", "image"=>"jack-werner.png"}",
 		"role"		: "",
 		"work"		: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/",
@@ -378,211 +558,13 @@
 	},
 
 	{
-		"id"		: "22",
-		"day"		: "d2-main",
+		"id"		: "51",
+		"day"		: "d3-main",
 		"type"		: "basic",
 		"date"		: "",
-		"time"		: "22:00",
+		"time"		: "23:00",
 		"place" 	: "",
-		"subject" 	: "CS3STHLM Expo & Welcome Reception - CLOSED",
-		"author" 	: "",
-		"role"		: "",
-		"work"		: "",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/",
-		"partner": {
-		
-		},
-		"description": ""
-	},
-
-	{
-		"id"		: "23",
-		"day"		: "d2-forum",
-		"type"		: "basic",
-		"date"		: "",
-		"time"		: "12:40",
-		"place" 	: "",
-		"subject" 	: "Doors + Registration for EXPO Open",
-		"author" 	: "",
-		"role"		: "",
-		"work"		: "",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/",
-		"partner": {
-		
-		},
-		"description": ""
-	},
-
-	{
-		"id"		: "24",
-		"day"		: "d2-forum",
-		"type"		: "basic",
-		"date"		: "",
-		"time"		: "13:00",
-		"place" 	: "",
-		"subject" 	: "CS3STHLM EXPO Opening",
-		"author" 	: "",
-		"role"		: "",
-		"work"		: "",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/",
-		"partner": {
-		
-		},
-		"description": ""
-	},
-
-	{
-		"id"		: "25",
-		"day"		: "d2-forum",
-		"type"		: "Presentation",
-		"date"		: "23 October",
-		"time"		: "13:20",
-		"place" 	: "Harlem",
-		"subject" 	: "Control Theory for Practical Cyber-Physical Security",
-		"author" 	: "{"name"=>"Prof. Henrik Sandberg", "role"=>"Professor in Large-Scale Control Systems", "work"=>"KTH Royal Institute of Technology", "image"=>"henrik-sandberg.png"}",
-		"role"		: "",
-		"work"		: "",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/",
-		"partner": {
-		
-		},
-		"description": "<p>asd</p>"
-	},
-
-	{
-		"id"		: "26",
-		"day"		: "d2-forum",
-		"type"		: "Presentation",
-		"date"		: "23 October",
-		"time"		: "14:00",
-		"place" 	: "Harlem",
-		"subject" 	: "ICS cyber security in the face of digital transformation",
-		"author" 	: "{"name"=>"Jason Steer", "role"=>"Director of PreSales, EMEA", "work"=>"Recorded Future", "image"=>"jason-steer.png"}",
-		"role"		: "",
-		"work"		: "",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/",
-		"partner": {
-		
-		},
-		"description": "<p>asd</p>"
-	},
-
-	{
-		"id"		: "27",
-		"day"		: "d2-forum",
-		"type"		: "Presentation",
-		"date"		: "23 October",
-		"time"		: "14:40",
-		"place" 	: "Harlem",
-		"subject" 	: "Securing Wireless Transmissions at the Air Interface",
-		"author" 	: "{"name"=>"Ass. Prof. Ragnar Thobaben", "role"=>"Associate Professor in Communication Theory", "work"=>"KTH Royal Institute of Technology", "image"=>"ragnar-thobaben.png"}",
-		"role"		: "",
-		"work"		: "",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/",
-		"partner": {
-		
-		},
-		"description": "<p>asd</p>"
-	},
-
-	{
-		"id"		: "28",
-		"day"		: "d2-forum",
-		"type"		: "Presentation",
-		"date"		: "23 October",
-		"time"		: "15:20",
-		"place" 	: "Harlem",
-		"subject" 	: "Security when failure is not an option.",
-		"author" 	: "{"name"=>"Jonas Dellenvall", "role"=>"Head of Cyber Security Architecture, Innovation and Scouting", "work"=>"Advenica", "image"=>"jonas-dellenvall.png"}",
-		"role"		: "",
-		"work"		: "",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/",
-		"partner": {
-		
-		},
-		"description": "<p>asd</p>"
-	},
-
-	{
-		"id"		: "29",
-		"day"		: "d2-forum",
-		"type"		: "Presentation",
-		"date"		: "23 October",
-		"time"		: "16:00",
-		"place" 	: "Harlem",
-		"subject" 	: "Resilient Computing and Communication for Critical Infrastructures",
-		"author" 	: "{"name"=>"Prof. György Dán", "role"=>"Professor in Teletraffic Systems", "work"=>"KTH Royal Institute of Technology", "image"=>"györgy-dán.png"}",
-		"role"		: "",
-		"work"		: "",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/",
-		"partner": {
-		
-		},
-		"description": "<p>asd</p>"
-	},
-
-	{
-		"id"		: "30",
-		"day"		: "d2-forum",
-		"type"		: "Presentation",
-		"date"		: "23 October",
-		"time"		: "16:40",
-		"place" 	: "Harlem",
-		"subject" 	: "Kaspersky Industrial Cybersecurity approach",
-		"author" 	: "{"name"=>"Anton Shipulin", "role"=>"Global Presales Manager", "work"=>"Kaspersky Lab", "image"=>"anton-shipulin.png"}",
-		"role"		: "",
-		"work"		: "",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/",
-		"partner": {
-		
-		},
-		"description": "<p>asd</p>"
-	},
-
-	{
-		"id"		: "31",
-		"day"		: "d2-forum",
-		"type"		: "Presentation",
-		"date"		: "23 October",
-		"time"		: "17:20",
-		"place" 	: "Harlem",
-		"subject" 	: "Securing Low Level Software Using Formal Methods",
-		"author" 	: "{"name"=>"Prof. Mads Dam", "role"=>"Professor in Teleinformatics", "work"=>"KTH Royal Institute of Technology", "image"=>"mads-dam.png"}",
-		"role"		: "",
-		"work"		: "",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/",
-		"partner": {
-		
-		},
-		"description": "<p>asd</p>"
-	},
-
-	{
-		"id"		: "32",
-		"day"		: "d2-forum",
-		"type"		: "Presentation",
-		"date"		: "23 October",
-		"time"		: "18:00",
-		"place" 	: "Harlem",
-		"subject" 	: "Addressing Physical to Digital Convergence in an Evolving World",
-		"author" 	: "{"name"=>"Rick Peters", "role"=>"Director, Operational Technology Global Enablement", "work"=>"Fortinet", "image"=>"rick-peters.png"}",
-		"role"		: "",
-		"work"		: "",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/",
-		"partner": {
-		
-		},
-		"description": "<p>asd</p>"
-	},
-
-	{
-		"id"		: "23",
-		"day"		: "d2-forum",
-		"type"		: "basic",
-		"date"		: "",
-		"time"		: "22:00",
-		"place" 	: "",
-		"subject" 	: "CS3STHLM Expo & Welcome Reception - CLOSED",
+		"subject" 	: "End of Summit Day 1 - Nalen Closes",
 		"author" 	: "",
 		"role"		: "",
 		"work"		: "",

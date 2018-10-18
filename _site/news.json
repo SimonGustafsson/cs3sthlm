@@ -1,5 +1,13 @@
 {"newsList":[
     {
+      "title": "CS3STHLM fifth conference on industrial cyber security",
+      "author": "Maria Engstrom Ostby",
+      "category": "press",
+      "date": "18 Oct 2018",
+      "content_html": "<p>CS3STHLM FIFTH CONFERENCE ON INDUSTRIAL CYBER SECURITY ADDRESSING THREATS AND POSSIBILITIES IN A GROWING DIGITAL ENVIRONMENT</p><p>With tickets almost sold out, arranging Omnisiens are looking forward to a successful meeting for leading cyber security experts from around the world. CS3STHLM takes place in Nalen, Stockholm, October 22-25.</p><p>Regrettably first day keynote speaker, Marty Edwards (US), has had to cancel due to personal reasons.</p><p>Organizer Robert Malmgren from Omnisiens:</p><blockquote>  <p>”- It’s unfortunate that Marty Edwards had to cancel at such short notice, but we feel confident that our replacement will complement our diverse agenda.” New keynote speaker for the first day will be Mark Bristow (US).</p></blockquote><p>The fifth edition of the acclaimed conference includes a formidable list of renowned speakers, and in addition to seminars and workshops there will be an complementary expo day on Tuesday the 23rd for companies and organisations within this field. The Expo day is free of charge but entrance require registration.</p><p>Erik Johansson from Omnisiens:</p><blockquote>  <p>”- The Expo is not only a great opportunity to network and discuss the market field for interested parties, but will also consist of exciting demonstrations and presentation from researchers and vendors.”</p></blockquote><p>Highlights from the program:</p><ul>  <li>Recent APT Campaign targeting Energy Sector Assets, John Homer (US)</li>  <li>Hunting and Responding in ICS, Ben Miller &amp; Mark Stacey, (US)</li>  <li>Unblockable Chains - Is Blockchain the ultimate malicious infrastructure?, Omer Zohar (IL)</li>  <li>ICS Incident Response: Lessons and mitigations from the field, Mark Bristow (US)</li>  <li>Attacking Cars Revisited: On the Road Towards a More Resilient Connected Vehicle Infrastructure, Kai Thomsen (DE)</li>  <li>Supply Chain Cyber Security throughout the ICS Lifecycle, Erik Zouave (S)</li></ul>"
+    } ,
+  
+    {
       "title": "Ola Hermansson - Technical Operations Manager",
       "author": "CS3STHLM Crew",
       "category": "blog",

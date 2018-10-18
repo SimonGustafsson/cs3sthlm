@@ -4762,7 +4762,7 @@ h1, h2, h3, h4 {
       height: 83px; } }
   .agenda--header-item {
     display: block;
-    width: 25%;
+    width: 33.3333%;
     padding: 12px 20px;
     box-sizing: border-box;
     background: #1c1e22; }
@@ -4770,9 +4770,9 @@ h1, h2, h3, h4 {
       cursor: pointer;
       background: rgba(43, 47, 54, 0.75); }
     .agenda--header-item:first-of-type {
-      border-radius: 2px 0 0 2px; }
+      border-radius: 2px 0 0 0; }
     .agenda--header-item:last-of-type {
-      border-radius: 0 2px 2px 0; }
+      border-radius: 0 2px 0 0; }
     @media screen and (max-width: 768px) {
       .agenda--header-item {
         width: 25%;
@@ -4831,6 +4831,7 @@ h1, h2, h3, h4 {
   -webkit-align-items: flex-start;
   justify-content: flex-start;
   -webkit-justify-content: flex-start;
+  justify-content: space-between;
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   display: none; }
@@ -4874,6 +4875,8 @@ h1, h2, h3, h4 {
     font-size: 12px;
     box-shadow: none;
     text-shadow: none;
+    text-align: left;
+    padding: 10px 20px;
     background: rgba(43, 47, 54, 0.75); }
     .agenda--btn-group .btn-agenda:nth-child(2) {
       border-radius: 0 0 2px 0; }
@@ -4892,13 +4895,13 @@ h1, h2, h3, h4 {
   list-style: none; }
   @media screen and (min-width: 1680px) {
     .agenda--list {
-      width: 660px; } }
+      width: 650px; } }
   @media screen and (max-width: 768px) {
     .agenda--list {
       width: 100%; } }
   .agenda--list li {
     display: block;
-    padding: 20px 0;
+    padding: 12px 0;
     box-sizing: border-box;
     border-bottom: 1px solid #1c1e22; }
     @media screen and (max-width: 768px) {
@@ -4952,7 +4955,7 @@ h1, h2, h3, h4 {
     font-weight: normal;
     letter-spacing: 1px;
     color: white;
-    width: 80%; }
+    width: 90%; }
     .agenda--list-headline.headline-break {
       color: #2176ae; }
   .agenda--list-role {
@@ -4961,11 +4964,15 @@ h1, h2, h3, h4 {
     color: #ef7d00; }
   .agenda--list-time {
     color: #a6a7a9; }
+  .agenda--list-place {
+    color: #a6a7a9;
+    font-family: 'latoblack', sans-serif;
+    margin-left: 20px; }
   .agenda--list-details {
     position: absolute;
     top: 14px;
     right: 0;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-family: 'latoregular', sans-serif;
     font-size: 16px;
     color: #a6a7a9;
@@ -4981,4 +4988,7 @@ h1, h2, h3, h4 {
   .agenda--list-speaker-row {
     display: flex;
     justify-content: space-between;
+    flex-direction: row; }
+  .agenda--list-speaker-row-left {
+    display: flex;
     flex-direction: row; }

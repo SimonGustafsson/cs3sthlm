@@ -23,83 +23,34 @@ layout: default
 <div class="agenda--block">
 
 	<div class="agenda--header">
-		<div class="agenda--header-item" id="d1-btn">
-			<span>Day 01</span>
-			<h3><span class="day-name">Monday,</span>22 October</h3>
-		</div>
-		<div class="agenda--header-item active-item" id="d2-btn">
-			<span>Day 02</span>
+		<div class="agenda--header-item active-item"" id="d2-btn">
+			<span>Expo</span>
 			<h3><span class="day-name">Tuesday,</span>23 October</h3>
 		</div>
 		<div class="agenda--header-item" id="d3-btn">
-			<span>Day 03</span>
+			<span>Summit Day 1</span>
 			<h3><span class="day-name">Wednesday,</span>24 October</h3>
 		</div>
 		<div class="agenda--header-item" id="d4-btn">
-			<span>Day 04</span>
+			<span>Summit Day 2</span>
 			<h3><span class="day-name">Thursday,</span>25 October</h3>
 		</div>
 	</div>
 
-	<section class="agenda--content" id="d1">
-
-		<div class="agenda--content-main">
-			<ul class="agenda--list d1-main">
-			{% for item in site.data.agenda %}
-			{% if item.day == "d1-main" %}
-				<li {% if item.permalink != null %}class="list-link"{% endif %}>
-					{% if item.permalink != null %}
-					<a href="{{ site.baseurl }}/{{ item.permalink }}">
-						{% if item.time != null %}<span class="agenda--list-time">{{ item.time }}</span>{% endif %}
-						{% if item.subject != null %}<span class="agenda--list-headline">{{ item.subject }}</span>{% endif %}
-						<div class="agenda--list-speaker-row">
-						{% for item in item.author %}
-						<span class="agenda--list-speaker-block">
-							{% if item.name != null %}
-							<span class="agenda--list-speaker">{{ item.name }}{% if item.work != null %}, {{ item.work }}{% endif %}</span>
-							{% if item.role != null %}<span class="agenda--list-role">{{ item.role }}</span>{% endif %}
-							{% endif %}
-						</span>
-						{% endfor %}
-						</div>
-						<span class="agenda--list-details">View details</span>
-					</a>
-					{% else %}
-						{% if item.time != null %}<span class="agenda--list-time">{{ item.time }}</span>{% endif %}
-						{% if item.role != null %}<span class="agenda--list-role">{{ item.role }}</span>{% endif %}
-
-						{% if item.headline == 'Coffee Break' or item.headline == 'Lunch Break' %}
-							<span class="agenda--list-headline headline-break">{{ item.headline }}</span>
-						{% else %}
-							{% if item.headline != null %}<span class="agenda--list-headline">{{ item.headline }}</span>{% endif %}
-						{% endif %}
-
-						{% if item.speaker != null %}<span class="agenda--list-speaker">{{ item.speaker }}{% if item.work != null %}, {{ item.work }}{% endif %}</span>{% endif %}
-					{% endif %}
-				</li>
-			{% endif %}
-			{% endfor %}
-			</ul>
-
-		</div>
-
-	</section>
-
 	<section class="agenda--content agenda--content-open" id="d2">
 
 		<div class="agenda--btn-group">
-			<a href="#!" class="btn btn-agenda btn-yellow btn-agenda-active" id="d2-main-btn">Main Stage</a>
-			<a href="#!" class="btn btn-agenda btn-yellow" id="d2-forum-btn">Harlem Stage<span> + Geeklounge</span></a>
+			<a href="#!" class="btn btn-agenda btn-yellow btn-agenda-active" id="d2-main-btn">Main Stage + Harlem Stage</a>
 		</div>
 
-		<div class="agenda--content-main agenda--content-open" id="d2-main-content">
+		<div class="agenda--content-main" id="d2-main-content">
 			<ul class="agenda--list d2-main">
 			{% for item in site.data.agenda %}
 			{% if item.day == "d2-main" %}
 				<li {% if item.permalink != null %}class="list-link"{% endif %}>
 					{% if item.permalink != null %}
 					<a href="{{ site.baseurl }}/{{ item.permalink }}">
-						{% if item.time != null %}<span class="agenda--list-time">{{ item.time }}</span>{% endif %}
+							{% if item.time != null %}<span class="agenda--list-time">{{ item.time }} - {{ item.place }}</span>{% endif %}
 						{% if item.subject != null %}<span class="agenda--list-headline">{{ item.subject }}</span>{% endif %}
 						<div class="agenda--list-speaker-row">
 						{% for item in item.author %}
@@ -115,7 +66,7 @@ layout: default
 						<span class="agenda--list-details">View details</span>
 					</a>
 					{% else %}
-						{% if item.time != null %}<span class="agenda--list-time">{{ item.time }}</span>{% endif %}
+						{% if item.time != null %}<span class="agenda--list-time">{{ item.time }}{% if item.place != null %} - {{ item.place }}{% endif %}</span>{% endif %}
 						{% if item.role != null %}<span class="agenda--list-role">{{ item.role }}</span>{% endif %}
 
 						{% if item.subject == 'Coffee Break' or item.subject == 'Lunch Break' %}
@@ -124,7 +75,16 @@ layout: default
 							{% if item.subject != null %}<span class="agenda--list-headline">{{ item.subject }}</span>{% endif %}
 						{% endif %}
 
-						{% if item.author != null %}<span class="agenda--list-speaker">{{ item.author }}{% if item.work != null %}, {{ item.work }}{% endif %}</span>{% endif %}
+						<div class="agenda--list-speaker-row">
+						{% for item in item.author %}
+						<span class="agenda--list-speaker-block">
+							{% if item.name != null %}
+							<span class="agenda--list-speaker">{{ item.name }}{% if item.work != null %}, {{ item.work }}{% endif %}</span>
+							{% if item.role != null %}<span class="agenda--list-role">{{ item.role }}</span>{% endif %}
+							{% endif %}
+						</span>
+						{% endfor %}
+						</div>
 
 						{% if item.extra != null %}<span class="agenda--list-speaker">{{ item.extra }}</span>{% endif %}
 					{% endif %}
@@ -186,7 +146,7 @@ layout: default
 			<a href="#!" class="btn btn-agenda btn-yellow" id="d3-forum-btn">Forum <span>Harlem Stage</span> + Geeklounge</a>
 		</div>
 
-		<div class="agenda--content-main agenda--content-open" id="d3-main-content">
+		<div class="agenda--content-main" id="d3-main-content">
 			<ul class="agenda--list d3-main">
 			{% for item in site.data.agenda %}
 			{% if item.day == "d3-main" %}
@@ -194,22 +154,39 @@ layout: default
 					{% if item.permalink != null %}
 					<a href="{{ site.baseurl }}/{{ item.permalink }}">
 						{% if item.time != null %}<span class="agenda--list-time">{{ item.time }}</span>{% endif %}
-						{% if item.role != null %}<span class="agenda--list-role">{{ item.role }}</span>{% endif %}
-						{% if item.headline != null %}<span class="agenda--list-headline">{{ item.headline }}</span>{% endif %}
-						{% if item.speaker != null %}<span class="agenda--list-speaker">{{ item.speaker }}{% if item.work != null %}, {{ item.work }}{% endif %}</span>{% endif %}
+						{% if item.subject != null %}<span class="agenda--list-headline">{{ item.subject }}</span>{% endif %}
+						<div class="agenda--list-speaker-row">
+						{% for item in item.author %}
+						<span class="agenda--list-speaker-block">
+							{% if item.name != null %}
+							<span class="agenda--list-speaker">{{ item.name }}{% if item.work != null %}, {{ item.work }}{% endif %}</span>
+							{% if item.role != null %}<span class="agenda--list-role">{{ item.role }}</span>{% endif %}
+							{% endif %}
+						</span>
+						{% endfor %}
+						</div>
 						<span class="agenda--list-details">View details</span>
 					</a>
 					{% else %}
 						{% if item.time != null %}<span class="agenda--list-time">{{ item.time }}</span>{% endif %}
 						{% if item.role != null %}<span class="agenda--list-role">{{ item.role }}</span>{% endif %}
 
-						{% if item.headline == 'Coffee Break' or item.headline == 'Lunch Break' %}
-							<span class="agenda--list-headline headline-break">{{ item.headline }}</span>
+						{% if item.subject == 'Coffee Break' or item.subject == 'Lunch Break' %}
+							<span class="agenda--list-headline headline-break">{{ item.subject }}</span>
 						{% else %}
-							{% if item.headline != null %}<span class="agenda--list-headline">{{ item.headline }}</span>{% endif %}
+							{% if item.subject != null %}<span class="agenda--list-headline">{{ item.subject }}</span>{% endif %}
 						{% endif %}
 
-						{% if item.speaker != null %}<span class="agenda--list-speaker">{{ item.speaker }}{% if item.work != null %}, {{ item.work }}{% endif %}</span>{% endif %}
+						<div class="agenda--list-speaker-row">
+						{% for item in item.author %}
+						<span class="agenda--list-speaker-block">
+							{% if item.name != null %}
+							<span class="agenda--list-speaker">{{ item.name }}{% if item.work != null %}, {{ item.work }}{% endif %}</span>
+							{% if item.role != null %}<span class="agenda--list-role">{{ item.role }}</span>{% endif %}
+							{% endif %}
+						</span>
+						{% endfor %}
+						</div>
 						{% if item.moderator-roll != null %}<span class="agenda--list-role">{{ item.moderator-roll }}</span>{% endif %}
 						{% if item.moderator != null %}<span class="agenda--list-speaker">{{ item.moderator }}</span>{% endif %}
 						{% if item.extra != null %}<span class="agenda--list-speaker">{{ item.extra }}</span>{% endif %}
