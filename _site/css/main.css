@@ -4775,7 +4775,7 @@ h1, h2, h3, h4 {
       border-radius: 0 2px 0 0; }
     @media screen and (max-width: 768px) {
       .agenda--header-item {
-        width: 25%;
+        width: 33.3333%;
         text-align: center; }
         .agenda--header-item:first-of-type, .agenda--header-item:last-of-type {
           border-radius: 0; } }
@@ -4883,7 +4883,8 @@ h1, h2, h3, h4 {
     @media screen and (max-width: 768px) {
       .agenda--btn-group .btn-agenda {
         font-size: 10px;
-        opacity: .5; }
+        opacity: .5;
+        width: 100%; }
         .agenda--btn-group .btn-agenda span {
           display: none; }
         .agenda--btn-group .btn-agenda-active {

@@ -174,55 +174,61 @@
     asd
   permalink: expo/presentations/dr-kevin-jones/
 
+- id: 12.5
+  day: d2-main
+  type: basic
+  time: "20:00"
+  subject: Fortinet Quiz
+  place: Main Stage
+  
 - id: 13
   day: d2-main
   type: basic
   time: "22:00"
   subject: CS3STHLM Expo & Welcome Reception - CLOSED
 
-
 #day-three
 #main
 
-- id: 34
+- id: 14
   day: d3-main
   type: basic
   time: "08:45"
   subject: CS3STHLM Summit doors open
 
-- id: 35
+- id: 15
   day: d3-main
   type: basic
   time: "09:00"
   subject: CS3STHLM Summit Opening
 
-- id: 37
+- id: 16
   day: d3-main
   type: Presentation
   date: 24 October
-  time: Presentation
+  time: "09:15"
   place: Main Stage
-  subject: Recent APT Campaign targeting Energy Sector Assets
+  subject: "ICS Incident Response: Lessons and migitaions from the field"
   author:
-    - name: Jonathan Homer
-      role: 
-      work: 
-      image: jonathan-homer.png
+    - name: Mark Bristow
+      role: Director
+      work: NCCIC Hunt and Incident Response Team (HIRT)
+      image: mark-bristow.png
   description: |
     asd
-  permalink: program/presentations/jonathan-homer/
+  permalink: program/presentations/mark-bristow/
 
-- id: 38
+- id: 17
   day: d3-main
   type: break
-  time: "10:40"
+  time: "10:05"
   subject: Coffee Break
 
-- id: 39
+- id: 18
   day: d3-main
   type: Presentation
   date: 24 October
-  time: Presentation
+  time: "10:30"
   place: Main Stage
   subject: "Incident Response: Learning as you go is expensive"
   author:
@@ -234,11 +240,11 @@
     asd
   permalink: program/presentations/mark-stacey/
 
-- id: 40
+- id: 19
   day: d3-main
   type: Presentation
   date: 24 October
-  time: Presentation
+  time: "11:15"
   place: Main Stage
   subject: Hunting and Responding in ICS
   author:
@@ -255,17 +261,17 @@
     asd
   permalink: program/presentations/ben-mark/
 
-- id: 41
+- id: 20
   day: d3-main
   type: break
-  time: "12:30"
+  time: "12:00"
   subject: Lunch Break
 
-- id: 42
+- id: 21
   day: d3-main
   type: Presentation
   date: 24 October
-  time: Presentation
+  time: "13:00"
   place: Main Stage
   subject: The Good, the Bad and the Segmented
   author:
@@ -282,11 +288,11 @@
     asd
   permalink: program/presentations/erwin-rik/
 
-- id: 43
+- id: 22
   day: d3-main
   type: Presentation
   date: 24 October
-  time: Presentation
+  time: "13:50"
   place: Main Stage
   subject: Operator Jail Breakout
   author:
@@ -303,19 +309,19 @@
     asd
   permalink: program/presentations/dieter-frank/
 
-- id: 44
+- id: 23
   day: d3-main
   type: break
-  time: "15:00"
+  time: "14:30"
   author:
     - name: Swedish Fika
   subject: Coffee Break
 
-- id: 45
+- id: 24
   day: d3-main
   type: Presentation
   date: 24 October
-  time: Presentation
+  time: "15:00"
   place: Main Stage
   subject: Using fake BTS as a part of Pentest of Devices using SIM Cards for Data Transmission
   author:
@@ -327,11 +333,11 @@
     asd
   permalink: program/presentations/marcin-dudek/
 
-- id: 46
+- id: 25
   day: d3-main
   type: Presentation
   date: 24 October
-  time: Presentation
+  time: "15:50"
   place: Main Stage
   subject: "Attacking Cars Revisited: On the Road Towards a More Resilient Connected Vehicle Infrastructure"
   author:
@@ -343,29 +349,24 @@
     asd
   permalink: program/presentations/kai-thomsen/
 
-- id: 47
+- id: 26
   day: d3-main
   type: basic
   time: "ca: 17:00"
-  subject: Bar open in ICS Lab/Stacken
+  subject: Meet and Greet in the ICS Lab
+  place: Stacken
 
-- id: 48
+- id: 27
   day: d3-main
   type: basic
   time: "18:30"
-  subject: CS3STHLM Hallway Mingle
+  subject: CS3STHLM Hallway Mingle & Gala dinner
 
-- id: 49
-  day: d3-main
-  type: basic
-  time: "19:00"
-  subject: CS3STHLM Dinner
-
-- id: 50
+- id: 28
   day: d3-main
   type: Presentation
   date: 24 October
-  time: Dinner Presentation
+  time: "20:00"
   place: Main Stage
   subject: Fake news or Folklore?
   author:
@@ -377,8 +378,310 @@
     asd
   permalink:
 
-- id: 51
+- id: 29
   day: d3-main
   type: basic
   time: "23:00"
   subject: End of Summit Day 1 - Nalen Closes
+
+#day-four
+#main
+
+- id: 30
+  day: d4-main
+  type: basic
+  time: "08:45"
+  subject: CS3STHLM Summit doors open
+
+- id: 31
+  day: d4-main
+  type: basic
+  time: "09:00"
+  subject: CS3STHLM Summit Opening
+
+- id: 32
+  day: d4-main
+  type: Presentation
+  date: 25 October
+  time: "09:05"
+  place: Main Stage
+  subject: "Industrial Technology Trajectory: Running With Scissors"
+  author:
+    - name: Patrick Miller
+      role: Managing Partner
+      work: Archer
+      image: patrick-miller.png
+  description: |
+    asd
+  permalink: program/presentations/patrick-miller/
+
+- id: 33
+  day: d4-main
+  type: Presentation
+  date: 25 October
+  time: "09:55"
+  place: Main Stage
+  subject: Securing the ICS lab network
+  author:
+    - name: William Middleton
+      role: Senior Engineer
+      work: Siemens PD Solutions
+      image: william-middleton.png
+  description: |
+    asd
+  permalink: program/presentations/william-middleton/
+
+- id: 34
+  day: d4-main
+  type: break
+  time: "10:30"
+  subject: Coffee Break
+
+
+- id: 35
+  day: d4-main
+  type: Presentation
+  date: 25 October
+  time: "10:50"
+  place: Main Stage
+  subject: Attacking PLCs by PLC in deep
+  author:
+    - name: Cheng Lei
+      role: ICS Security Researcher
+      work: NSFOCUS
+      image: cheng-lei.png
+  description: |
+    asd
+  permalink: program/presentations/cheng-lei/
+
+- id: 36
+  day: d4-main
+  type: Presentation
+  date: 25 October
+  time: "11:40"
+  place: Main Stage
+  subject: "Unblockable Chains - Is Blockchain the ultimate malicious infrastructure?"
+  author:
+    - name: Omer Zohar
+      role: Independat Researcher
+      work: Independant
+      image: omer-zohar.png
+  description: |
+    asd
+  permalink: program/presentations/omer-zohar/
+
+- id: 37
+  day: d4-main
+  type: break
+  time: "12:30"
+  subject: Lunch Break
+
+- id: 38
+  day: d4-main
+  type: Presentation
+  date: 25 October
+  time: "13:30"
+  place: Main Stage
+  subject: Jumping Air Gaps
+  author:
+    - name: Monta Elkins
+      role: Hacker-in-Cheif
+      work: FoxGuard Solutions
+      image: monta-elkins.png
+  description: |
+    asd
+  permalink: program/presentations/monta-elkins/
+
+- id: 39
+  day: d4-main
+  type: Presentation
+  date: 25 October
+  time: "14:15"
+  place: Main Stage
+  subject: Stateful Protocol Hunting
+  author:
+    - name: Dan Gunter
+      role: Principal Threat Analyst
+      work: Dragos Inc
+      image: dan-gunter.png
+  partner:
+    - name: Daniel Michaud-Soucy
+      role: Principal Threat Analyst
+      work: Dragos Inc
+      image: daniel-michaud-soucy.png
+  description: |
+    asd
+  permalink: program/presentations/dan-daniel/
+
+- id: 40
+  day: d4-main
+  type: break
+  time: "15:00"
+  subject: Coffee Break
+
+- id: 41
+  day: d4-main
+  type: Presentation
+  date: 25 October
+  time: "15:20"
+  place: Main Stage
+  subject: "Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense"
+  author:
+    - name: Joe Slowik
+      role: Adversary Hunter
+      work: Dragos Inc
+      image: joe-slowik.png
+  description: |
+    asd
+  permalink: program/presentations/joe-slowik/
+
+- id: 42
+  day: d4-main
+  type: Presentation
+  date: 25 October
+  time: "16:10"
+  place: Main Stage
+  subject: Recent APT Campaign targeting Energy Sector Assets
+  author:
+    - name: Jonathan Homer
+      role: Chief of the Industrial Control System Group
+      work: NCCIC Hunt and Incident Response Team (HIRT)
+      image: jonathan-homer.png
+  description: |
+    asd
+  permalink: program/presentations/jonathan-homer/
+
+- id: 43
+  day: d4-main
+  type: basic
+  time: "16:55"
+  subject: Closing Session
+
+#day-four
+#main
+
+- id: 44
+  day: d4-forum
+  type: basic
+  time: "11:00"
+  subject: MSB Session
+  place: Harlem
+
+- id: 45
+  day: d4-forum
+  type: Presentation
+  date: 25 October
+  time: "11:00 - 11:20"
+  place: Harlem
+  subject: Introduction to MSB Session
+  author:
+    - name: Kristina Blomqvist
+      role: 
+      work: MSB
+      image: kristina-blomqvist.png
+  description: |
+    asd
+  permalink: program/presentations/kristina-blomqvist/
+
+- id: 46
+  day: d4-forum
+  type: Presentation
+  date: 25 October
+  time: "11:25 - 11:45"
+  place: Harlem
+  subject: Designing a second generation cyber range
+  author:
+    - name: Jonas Almroth
+      role: System Architect
+      work: FOI
+      image: jonas-almroth.png
+  description: |
+    asd
+  permalink: program/presentations/jonas-almroth/
+
+- id: 47
+  day: d4-forum
+  type: Presentation
+  date: 25 October
+  time: "11:50 - 12:10"
+  place: Harlem
+  subject: Supply Chain Cyber Security throughout the ICS Lifecycle
+  author:
+    - name: Erik Zouave
+      role: Analyst
+      work: FOI
+      image: erik-zouave.png
+  description: |
+    asd
+  permalink: program/presentations/erik-zouave/
+
+- id: 48
+  day: d4-forum
+  type: Presentation
+  date: 25 October
+  time: "12:15 - 12:35"
+  place: Harlem
+  subject: Uncertain conflict - When critical infrastructure is affected by national conflicts
+  author:
+    - name: Lars Westerdahl
+      role: Scientist
+      work: FOI
+      image: lars-westerdahl.png
+  description: |
+    asd
+  permalink: program/presentations/lars-westerdahl/
+
+- id: 49
+  day: d4-forum
+  type: break
+  time: "12:35"
+  subject: Lunch Break
+
+
+- id: 50
+  day: d4-forum
+  type: Presentation
+  date: 25 October
+  time: "13:40 - 14:00"
+  place: Harlem
+  subject: Managing IoT-related risks
+  author:
+    - name: Margarita Jaitner
+      role: Analyst
+      work: FOI
+      image: margarita-jaitner.png
+  description: |
+    asd
+  permalink: program/presentations/margarita-jaitner/
+
+- id: 51
+  day: d4-forum
+  type: Presentation
+  date: 25 October
+  time: "14:05 - 14:15"
+  place: Harlem
+  subject: Introduction to KRAFT-CERT and some words about Nordic co-op
+  author:
+    - name: Lars Erik Smevold
+      role: Senior Security Analyst
+      work: KRAFT-CERT
+      image: lars-erik-smevold.png
+  description: |
+    asd
+  permalink: program/presentations/lars-erik-smevold/
+
+- id: 52
+  day: d4-forum
+  type: Presentation
+  date: 25 October
+  time: "14:20 - 15:00"
+  place: Harlem
+  subject: Panel about NIS
+  author:
+    - name: Kristina Blomqvist
+      role: Moderator
+      work: MSB
+      image: kristina-blomqvist.png
+  description: |
+    asd
+

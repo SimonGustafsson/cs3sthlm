@@ -63,7 +63,7 @@
 		}
 
 		@include media-query($mobile) {
-			width: 25%;
+			width: 33.3333%;
 			text-align: center;
 
 			&:first-of-type, &:last-of-type {
@@ -220,6 +220,8 @@
 		@include media-query($mobile) {
 			font-size: 10px;
 			opacity: .5;
+			width: 100%;
+			
 			span {
 				display: none;
 			}
