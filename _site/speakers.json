@@ -1192,12 +1192,12 @@
 	{
 		"id"		: "33",
 		"type"		: "expotalk",
-		"name"		: "Jason Steer",
-		"role"		: "Director of PreSales, EMEA",
+		"name"		: "Jannis Utz",
+		"role"		: "Sales Engineer",
 		"work"		: "Recorded Future",
-		"country"	: "United Kingdom",
-		"shortcode"	: "UK",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/jason-steer.png",
+		"country"	: "Germany",
+		"shortcode"	: "DE",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/jannis-utz.png",
 		
 		
 		
@@ -1227,7 +1227,7 @@
 		},
 		
 
-		"bio": "<p>Jason is an techie at heart and has built and broken computer and networks since 1996. Jason has worked at a number of successful technology companies over the past 15 years, including IronPort, Veracode &amp;FireEye. Jason has worked as a cyber-expert with CNN, Al Jazeera &amp; BBC and has worked with the EU and UK Government on Cyber Security Strategy.</p>"
+		"bio": "<p>Jannis Utz has a successful 15+ year career in networking and security. Jannis has a strong background specifically in vulnerability management having worked the last years for Tenable and Qualys.</p>"
 	},
 
 	{

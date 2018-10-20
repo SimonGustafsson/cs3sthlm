@@ -1,20 +1,5 @@
 {"agendaList":[
 	{
-		"id"		: "1",
-		"day"		: "d2-main",
-		"type"		: "basic",
-		"date"		: "",
-		"time"		: "12:40",
-		"place" 	: "",
-		"subject" 	: "Doors + Registration for EXPO Open",
-		
-		"partner": {
-		
-		},
-		"description": ""
-	},
-
-	{
 		"id"		: "2",
 		"day"		: "d2-main",
 		"type"		: "basic",
@@ -84,7 +69,7 @@
 		
 		"author": [{
 		"name" 		: "Jannis Utz",
-		"role"		: "Something",
+		"role"		: "Sales Engineer",
 		"work"		: "Recorded Future",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/jannis-utz.png"
 		}],
@@ -299,9 +284,9 @@
 		"day"		: "d3-main",
 		"type"		: "basic",
 		"date"		: "",
-		"time"		: "08:45",
+		"time"		: "08:15",
 		"place" 	: "",
-		"subject" 	: "CS3STHLM Summit doors open",
+		"subject" 	: "CS3STHLM Registration Open",
 		
 		"partner": {
 		
@@ -605,21 +590,6 @@
 		"time"		: "23:00",
 		"place" 	: "",
 		"subject" 	: "End of Summit Day 1 - Nalen Closes",
-		
-		"partner": {
-		
-		},
-		"description": ""
-	},
-
-	{
-		"id"		: "30",
-		"day"		: "d4-main",
-		"type"		: "basic",
-		"date"		: "",
-		"time"		: "08:45",
-		"place" 	: "",
-		"subject" 	: "CS3STHLM Summit doors open",
 		
 		"partner": {
 		

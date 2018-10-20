@@ -1,12 +1,6 @@
 #day-two
 #main
 
-- id: 1
-  day: d2-main
-  type: basic
-  time: "12:40"
-  subject: Doors + Registration for EXPO Open
-
 - id: 2
   day: d2-main
   type: basic
@@ -48,7 +42,7 @@
   subject: ICS cyber security in the face of digital transformation
   author:
     - name: Jannis Utz
-      role: Something
+      role: Sales Engineer
       work: Recorded Future
       image: jannis-utz.png
   description: |
@@ -193,8 +187,8 @@
 - id: 14
   day: d3-main
   type: basic
-  time: "08:45"
-  subject: CS3STHLM Summit doors open
+  time: "08:15"
+  subject: CS3STHLM Registration Open
 
 - id: 15
   day: d3-main
@@ -387,11 +381,6 @@
 #day-four
 #main
 
-- id: 30
-  day: d4-main
-  type: basic
-  time: "08:45"
-  subject: CS3STHLM Summit doors open
 
 - id: 31
   day: d4-main

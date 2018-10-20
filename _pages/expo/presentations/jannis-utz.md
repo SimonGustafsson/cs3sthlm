@@ -1,15 +1,14 @@
 ---
 title: Recorded Future - The Dark Web’s deep threat intelligence secrets
-permalink: "/expo/presentations/jason-steer/"
+permalink: "/expo/presentations/jannis-utz/"
 layout: expotalk
 speaker:
-- name: Jason Steer
-  role: Director of PreSales, EMEA
+- name: Jannis Utz
+  role: Sales Engineer
   work: Recorded Future
-  image: jason-steer.png
+  image: jannis-utz.png
 id: expotalk
 ---
-
 
 There has been much speculation (not to mention exaggeration) over recent years about the fabled dark web. We’ve heard how this shady underworld is the refuge of the cyber criminal elite. That this is their “Wolf’s Lair,” where they gather to plot the breaching of businesses and the hacking of celebrities amongst other activities.
 

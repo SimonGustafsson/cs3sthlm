@@ -1240,21 +1240,21 @@
 
 - id: 33
   type: expotalk
-  permalink: expo/presentations/jason-steer/
-  name: Jason Steer
-  role: Director of PreSales, EMEA
+  permalink: expo/presentations/jannis-utz/
+  name: Jannis Utz
+  role: Sales Engineer
   work: Recorded Future
-  country: United Kingdom
-  shortcode: UK
-  image: jason-steer.png
-  bio: Jason is an techie at heart and has built and broken computer and networks since 1996. Jason has worked at a number of successful technology companies over the past 15 years, including IronPort, Veracode &FireEye. Jason has worked as a cyber-expert with CNN, Al Jazeera & BBC and has worked with the EU and UK Government on Cyber Security Strategy.
+  country: Germany
+  shortcode: DE
+  image: jannis-utz.png
+  bio: Jannis Utz has a successful 15+ year career in networking and security. Jannis has a strong background specifically in vulnerability management having worked the last years for Tenable and Qualys.
   date:
   time:
   place:
   presentation:
     - active: live
       subject: Recorded Future - The Dark Web’s deep threat intelligence secrets
-      permalink: expo/presentations/jason-steer/
+      permalink: expo/presentations/jannis-utz/
       partner:
       description: |
         There has been much speculation (not to mention exaggeration) over recent years about the fabled dark web. We’ve heard how this shady underworld is the refuge of the cyber criminal elite. That this is their “Wolf’s Lair,” where they gather to plot the breaching of businesses and the hacking of celebrities amongst other activities.
