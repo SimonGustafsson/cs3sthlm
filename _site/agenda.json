@@ -45,7 +45,7 @@
 		"image" 	: "https://cs3sthlm.se/assets/speakers/henrik-sandberg.png",
 		
 		
-		"description": "<p>asd</p>"
+		"description": "<p>In this talk, we discuss how control theory can contribute to the analysis and design of secure cyber-physical systems. We start by reviewing conditions for detectability and impact of data attacks targeting feedback control loops running over a field communication network. We investigate three different attack scenarios: Sensor attacks, actuator attacks, and coordinated actuator and sensor attacks. In particular, we highlight how a physical understanding of the controlled process can guide us in the allocation of counter measures and limit the possible impact of attacks.</p>"
 	},
 
 	{
@@ -63,7 +63,7 @@
 		"image" 	: "https://cs3sthlm.se/assets/speakers/jannis-utz.png",
 		
 		
-		"description": "<p>asd</p>"
+		"description": "<p>There has been much speculation (not to mention exaggeration) over recent years about the fabled dark web. We’ve heard how this shady underworld is the refuge of the cyber criminal elite. That this is their “Wolf’s Lair,” where they gather to plot the breaching of businesses and the hacking of celebrities amongst other activities.</p><h3 id=\"this-presentation-will-feature\">This presentation will feature:</h3><ul>  <li>A definition of the dark web and how it differs from other sources of intelligence</li>  <li>Real-world examples of threat actor activities in dark marketplaces</li>  <li>Methods for uncovering emerging threats using dark web sources</li></ul>"
 	},
 
 	{
@@ -81,7 +81,7 @@
 		"image" 	: "https://cs3sthlm.se/assets/speakers/ragnar-thobaben.png",
 		
 		
-		"description": "<p>asd</p>"
+		"description": "<p>In this talk, we discuss how properties of the wireless medium and wireless devices can be utilized to enhance wireless security. We start with a short review of so-called physical-layer security techniques and then study intrusion detection at the physical layer in detail. We give examples for features that can be utilized, we discuss necessary conditions for a reliable detection performance and their impact on system parameters, and we analyze how packet filtering at the physical layer impacts the delay performance of the system.</p>"
 	},
 
 	{
@@ -99,7 +99,7 @@
 		"image" 	: "https://cs3sthlm.se/assets/speakers/jonas-dellenvall.png",
 		
 		
-		"description": "<p>asd</p>"
+		"description": "<p>Jonas Dellenvall is the CTO of Advenica AB, cyber security experts since 1993. Advenica is specialised in information security solutions for government, critical infrastructure and industry. Jonas previously held positions as Software Architect, product manager and VP of Marketing at Advenica.</p><p>Jonas has a deep interest for both technology and it’s consequences for humanity and society: “It is equally important to do the right things as well as doing things right. Technical decisions of today are forming our future for many years to come. The impact on society is much more profound than most people realize.” On his spare time, he enjoys being outdoors for sailing, skiing or just enjoying nature.</p><p>Jonas Dellenvall holds a M.Sc. in Engineering Physics and has more than 20 years of experience with System Development, including 13 years in the High Security Sector for Governments, Defense and Critical Infrastructure.</p>"
 	},
 
 	{
@@ -117,7 +117,7 @@
 		"image" 	: "https://cs3sthlm.se/assets/speakers/györgy-dán.png",
 		
 		
-		"description": "<p>asd</p>"
+		"description": "<p>Preventive security controls, incident detection and timely response need to be coordinated for efficient security risk management. In this talk we first illustrate the benefits of this coordination through the example of precise time synchronization in power systems. We identify attack vectors, characterize their potential impact, and outline mitigation and detection schemes. We then present solutions for the resilient management of virtualized industrial controllers in edge clouds, with potential applications in smart grid control, UAVs and autonomous vehicular systems.</p>"
 	},
 
 	{
@@ -135,7 +135,7 @@
 		"image" 	: "https://cs3sthlm.se/assets/speakers/anton-shipulin.png",
 		
 		
-		"description": "<p>asd</p>"
+		"description": "<p>Coming soon.</p>"
 	},
 
 	{
@@ -153,7 +153,7 @@
 		"image" 	: "https://cs3sthlm.se/assets/speakers/mads-dam.png",
 		
 		
-		"description": "<p>asd</p>"
+		"description": "<p>Critical infrastructure security relies heavily on the security of the software and hardware that provide the basic execution platforms upon which various types of embedded controllers are implemented. Formal methods have been used, in the Cerces project and elsewhere, to formally prove the security of various types of hypervisors, microkernels, and separation kernel, based on relative simple models of the underlying hardware. The continuing stream of attacks on this hardware reveals that more refined microarchitectural models are needed. We present some recent work in this direction that is able to formally establish critical security properties, in the presence of some microarchitectural vulnerabilities.</p>"
 	},
 
 	{
@@ -184,7 +184,7 @@
 		"image" 	: "https://cs3sthlm.se/assets/speakers/rick-peters.png",
 		
 		
-		"description": "<p>asd</p>"
+		"description": "<p>The momentum behind the convergence of historically distinct and separate domains illuminates the importance of seeking to implement robust security to protect highly valued assets that are In many instances delivering essential global services.</p><p>The stakes in the game of outmaneuvering the adversary to protect Operational Technology Critical infrastructure (OTCI) have never been higher as the attack surface expands due to increased adoption of IP for business efficiency.  Operational technology security products and services aim to protect existing and evolving OT for industrial and commercial critical infrastructure systems.  Security and risk management leaders should gauge the market state and direction, and understand the types of OT security providers in the market.</p><p>Fortinet developed and markets an OTCI environmental solution that is based upon the integration of Fortinet’s Security Fabric. This global responsibility entails Fortinet enabling the integration of a scalable technology to ensure the safety, protection, visibility, and control of all these critical infrastructure systems. Mr. Peters will discuss the digital and security transformation that has taken place due to IT/OT convergence that resulted in OT systems fusing with corporate IT systems.</p><p>The audience will also get a cybersecurity architectural glimpse of how these systems are protected by Fortinet’s Security Fabric.</p>"
 	},
 
 	{
@@ -202,7 +202,7 @@
 		"image" 	: "https://cs3sthlm.se/assets/speakers/dr-kevin-jones.png",
 		
 		
-		"description": "<p>asd</p>"
+		"description": "<p>Coming soon.</p>"
 	},
 
 	{
