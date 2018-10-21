@@ -63,7 +63,7 @@
 		"image" 	: "https://cs3sthlm.se/assets/speakers/jannis-utz.png",
 		
 		
-		"description": "<p>There has been much speculation (not to mention exaggeration) over recent years about the fabled dark web. We’ve heard how this shady underworld is the refuge of the cyber criminal elite. That this is their “Wolf’s Lair,” where they gather to plot the breaching of businesses and the hacking of celebrities amongst other activities.</p><h3 id=\"this-presentation-will-feature\">This presentation will feature:</h3><ul>  <li>A definition of the dark web and how it differs from other sources of intelligence</li>  <li>Real-world examples of threat actor activities in dark marketplaces</li>  <li>Methods for uncovering emerging threats using dark web sources</li></ul>"
+		"description": "<p>There has been much speculation (not to mention exaggeration) over recent years about the fabled dark web. We’ve heard how this shady underworld is the refuge of the cyber criminal elite. That this is their “Wolf’s Lair,” where they gather to plot the breaching of businesses and the hacking of celebrities amongst other activities.</p><h4 id=\"this-presentation-will-feature\">This presentation will feature:</h4><ul>  <li>A definition of the dark web and how it differs from other sources of intelligence</li>  <li>Real-world examples of threat actor activities in dark marketplaces</li>  <li>Methods for uncovering emerging threats using dark web sources</li></ul>"
 	},
 
 	{
