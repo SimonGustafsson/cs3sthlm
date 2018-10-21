@@ -114,6 +114,11 @@
 		"image" 	: "https://cs3sthlm.se/assets/speakers/jonas-dellenvall.png",
 		
 		
+		"pname" 		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage" 	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"description": "<p>Jonas Dellenvall is the CTO of Advenica AB, cyber security experts since 1993. Advenica is specialised in information security solutions for government, critical infrastructure and industry. Jonas previously held positions as Software Architect, product manager and VP of Marketing at Advenica.</p><p>Jonas has a deep interest for both technology and it’s consequences for humanity and society: “It is equally important to do the right things as well as doing things right. Technical decisions of today are forming our future for many years to come. The impact on society is much more profound than most people realize.” On his spare time, he enjoys being outdoors for sailing, skiing or just enjoying nature.</p><p>Jonas Dellenvall holds a M.Sc. in Engineering Physics and has more than 20 years of experience with System Development, including 13 years in the High Security Sector for Governments, Defense and Critical Infrastructure.</p>"
 	},
 
@@ -131,6 +136,11 @@
 		"work"		: "KTH Royal Institute of Technology",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/györgy-dán.png",
 		
+		
+		"pname" 		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage" 	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"description": "<p>Preventive security controls, incident detection and timely response need to be coordinated for efficient security risk management. In this talk we first illustrate the benefits of this coordination through the example of precise time synchronization in power systems. We identify attack vectors, characterize their potential impact, and outline mitigation and detection schemes. We then present solutions for the resilient management of virtualized industrial controllers in edge clouds, with potential applications in smart grid control, UAVs and autonomous vehicular systems.</p>"
 	},
@@ -150,6 +160,11 @@
 		"image" 	: "https://cs3sthlm.se/assets/speakers/anton-shipulin.png",
 		
 		
+		"pname" 		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage" 	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"description": "<p>Coming soon.</p>"
 	},
 
@@ -167,6 +182,11 @@
 		"work"		: "KTH Royal Institute of Technology",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/mads-dam.png",
 		
+		
+		"pname" 		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage" 	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"description": "<p>Critical infrastructure security relies heavily on the security of the software and hardware that provide the basic execution platforms upon which various types of embedded controllers are implemented. Formal methods have been used, in the Cerces project and elsewhere, to formally prove the security of various types of hypervisors, microkernels, and separation kernel, based on relative simple models of the underlying hardware. The continuing stream of attacks on this hardware reveals that more refined microarchitectural models are needed. We present some recent work in this direction that is able to formally establish critical security properties, in the presence of some microarchitectural vulnerabilities.</p>"
 	},
@@ -199,6 +219,11 @@
 		"image" 	: "https://cs3sthlm.se/assets/speakers/rick-peters.png",
 		
 		
+		"pname" 		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage" 	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"description": "<p>The momentum behind the convergence of historically distinct and separate domains illuminates the importance of seeking to implement robust security to protect highly valued assets that are In many instances delivering essential global services.</p><p>The stakes in the game of outmaneuvering the adversary to protect Operational Technology Critical infrastructure (OTCI) have never been higher as the attack surface expands due to increased adoption of IP for business efficiency.  Operational technology security products and services aim to protect existing and evolving OT for industrial and commercial critical infrastructure systems.  Security and risk management leaders should gauge the market state and direction, and understand the types of OT security providers in the market.</p><p>Fortinet developed and markets an OTCI environmental solution that is based upon the integration of Fortinet’s Security Fabric. This global responsibility entails Fortinet enabling the integration of a scalable technology to ensure the safety, protection, visibility, and control of all these critical infrastructure systems. Mr. Peters will discuss the digital and security transformation that has taken place due to IT/OT convergence that resulted in OT systems fusing with corporate IT systems.</p><p>The audience will also get a cybersecurity architectural glimpse of how these systems are protected by Fortinet’s Security Fabric.</p>"
 	},
 
@@ -216,6 +241,11 @@
 		"work"		: "Airbus Group",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/dr-kevin-jones.png",
 		
+		
+		"pname" 		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage" 	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"description": "<p>Coming soon.</p>"
 	},
@@ -287,6 +317,11 @@
 		"image" 	: "https://cs3sthlm.se/assets/speakers/mark-bristow.png",
 		
 		
+		"pname" 		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage" 	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"description": "<p>asd</p>"
 	},
 
@@ -317,6 +352,11 @@
 		"work"		: "Dragos Inc",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/mark-stacey.png",
 		
+		
+		"pname" 		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage" 	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"description": "<p>Most Industrial Control System (ICS) networks require Incident Response (IR) procedures. Generally, these procedures fulfill regulatory requirements and do little to actually prepare the organization for handling an incident. Additionally, too many IR procedures relay on government programs (CERTS, committees, investigative boards). These programs may not provide the resource required and should not be considered a single point of response. This lecture will concentrate on concepts organizations should implement that decrease required resources for IR, arm responders, work with 3rd parties, and facilitate a return to operations.</p><p>This lecture will not cover general IR planning but rather focus on IR considerations within ICS. Network topologies, workflows, and approved actions differ from regular IT networks. Without understanding these differences, rash decisions during IR can have more negative impacts than the actual incident caused.</p><p>Key takeaways include action items an organization should consider when creating cybersecurity policies, IR procedures, and contract negotiations with 3rd party security vendors.</p><h4 id=\"learning-objectives\">Learning Objectives</h4><p>This session will arm participants with knowledge of common IR procedural shortfalls through case studies and examples from the field. This session will provide attendees with specific checklists for consideration when drafting IR procedures. This session will give attendees action items for enhancing existing IR procedures.</p><h4 id=\"business-impact\">Business Impact</h4><p>Planning around internal resources for incident handling is required within ICS environments and is especially important as the consequences of poor decisions can result in loss safety and even loss of life.</p>"
 	},
@@ -436,6 +476,11 @@
 		"image" 	: "https://cs3sthlm.se/assets/speakers/marcin-dudek.png",
 		
 		
+		"pname" 		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage" 	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"description": "<p>Fake base stations are often discussed as a threat for privacy of mobile phone users. However, many other devices, such as cars, lifts or industrial control systems (ICS), are increasingly using cellular connectivity. It makes some difficulties during penetration tests – even though data sent through this communication channel might be exactly the same as in case of using WiFi network, its access is much more difficult. Most security guidelines ignore this topic. It turns out that fake BTS, so often presented in a bad light, can be also used to support security examination of this communication channel. The presentation will be based on practice - built testbed and conducted experiments. In addition, hardware requirements for such environment and legal aspects in diffrent jurisdictions will be discussed.</p>"
 	},
 
@@ -453,6 +498,11 @@
 		"work"		: "AUDI AG",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/kai-thomsen.png",
 		
+		
+		"pname" 		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage" 	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"description": "<p>In this talk I want to sketch out the threat landscape we might be facing with inter- connected infrastructure in smart cities in the near future and give an overview of what works and what doesn‘t to tackle these security challenges.</p><p>Separating the hype from actual threats and thinking in development- and lifecycles that are sig- nificantly longer than those for our normal consumer electronics devices are a key part of this as well as bridging the language gap between automotive engineers and software developers.</p>"
 	},
@@ -498,6 +548,11 @@
 		"image" 	: "https://cs3sthlm.se/assets/speakers/jack-werner.png",
 		
 		
+		"pname" 		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage" 	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"description": "<p>There is no description at this moment.</p>"
 	},
 
@@ -542,6 +597,11 @@
 		"image" 	: "https://cs3sthlm.se/assets/speakers/patrick-miller.png",
 		
 		
+		"pname" 		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage" 	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"description": "<p>Abstract: Innovative and disruptive technologies are enhancing and invading our traditional industrial business model. Future infrastructure organizations will need more data to operate efficiently and succeed in the brave new interconnected world. The diversity of new technologies and data will fuel more diversity in business opportunity. Everyone expects more OT, more IOT, and more IT - and all of it is supposed to be highly reliable and secure. These factors (and more) lead to a landscape shift for the industrial cybersecurity risk profile. In this session, hear ways to recognize the problems and gain some clarity on possible solutions through historic lessons, made up words, and practical front-line experience.</p>"
 	},
 
@@ -559,6 +619,11 @@
 		"work"		: "Siemens PD Solutions",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/william-middleton.png",
 		
+		
+		"pname" 		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage" 	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"description": "<p>The ICS lab is an critical resource, and not just for a solution provider like Siemens.  While the internal components of a lab may vary widely (witness the CS3STHLM ICS lab for example), the process of securing access to the lab network, while assuring availability and ease of use arguably has some common goals. Siemens PD Solutions in Bergen, Norway recently relocated their lab, and developed this presentation in the hope that their security and optimization solutions specifically related to the network might be of interest to others. Especially those with large, productive, multi-project, multi-customer lab environments.</p>"
 	},
@@ -591,6 +656,11 @@
 		"image" 	: "https://cs3sthlm.se/assets/speakers/cheng-lei.png",
 		
 		
+		"pname" 		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage" 	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"description": "<p>In the past few years, the attacks to industrial control systems(ICS) has increased year by year. Most of the attacks are exploit of the insecurity of ICS protocols like Stuxnet in 2010, Triton in 2017.</p><p>In 2016, Ralf Spenneberg and et al give a presentation named PLC Blaster which demonstrates a worm lives and runs on Siemens S7-1200 PLCs, they use S7commplus protocol to transmit worms in PLCs. In this research, we proposed an attack method that a PLC can attack other different vendors’ PLCs inside the net.If one PLC is infected, this PLC can scan the whole net to find all kinds of PLCs and send back the information back to a Command &amp;Control server. Then, once received the command from C&amp;C server, this infected PLC can do attacks to other different vendors’ PLCs. Like PLC Blaster, this malware can be spread inside the net.</p>"
 	},
 
@@ -608,6 +678,11 @@
 		"work"		: "Independant",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/omer-zohar.png",
 		
+		
+		"pname" 		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage" 	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"description": "<p>In this principal research, we investigate the possibilities blockchain technologies pose as an infrastructure for malicious operations. We will demonstrate a POC of a fully functional C&amp;C infrastructure on top of the Ethereum network - the second largest public blockchain which also acts as a distributed computing platform featuring a smart contract functionality.</p>"
 	},
@@ -639,6 +714,11 @@
 		"work"		: "FoxGuard Solutions",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/monta-elkins.png",
 		
+		
+		"pname" 		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage" 	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"description": "<p>If you think an air gap prevents communication out of and into your industrial control system, you are wrong.</p><p>We’ll be exploring various ways to send data across an air-gap in Industrial Control Systems and other environments, including a live demo.</p><p>Is it really possible to send data across an air-gap where no network has been connected? (No we’re not talking about wifi, bluetooth, wirelessHART etc.)</p><p>Can it be done without physical modification to your existing plant?</p><p>Can we get that paragon of virtue- a data diode -to pass information in both directions without physically touching it?</p><p>Find out.</p><h4 id=\"audience\">Audience</h4><p>Those who may have or consider an air-gap as part of their security.</p><h4 id=\"take-away\">Take Away</h4><p>A better understanding of the history of jumping air-gaps and a new attack on data diodes.</p>"
 	},
@@ -694,6 +774,11 @@
 		"image" 	: "https://cs3sthlm.se/assets/speakers/joe-slowik.png",
 		
 		
+		"pname" 		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage" 	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"description": "<p>As ICS defense and detection matures, both defenders and products move increasingly away from traditional IOC approaches to newer, more robust models: anomaly detection, and threat behavioral analytics. While an appropriate, defense-in-depth position would work to integrate both approaches into a single defensive schema, scarce resources and funding constraints mean that organizations will need to choose one or the other for their monitoring and detection needs.</p><p>After providing an overview of both these approaches to threat detection, this presentation will then critically evaluate what these approaches enable from a defensive perspective as specifically required for ICS networks. The result will not just be a simple ‘product type’ comparison, but rather a robust investigation of the theoretical underpinnings of these approaches, and what they enable a defender to accomplish within the monitored network. Specific details will include completeness of coverage beyond ‘known bad’ items; ability to incorporate contextualization into alerting; and capability for detecting realistic threats in the ICS environment.</p><p>To provide appropriate context to the discussion, the approaches will be compared to ICS intrusion examples as a means of evaluating their efficacy and viability. By adopting a critical approach to this evaluation, ICS defense practitioners can gain insight into the true costs and benefits of anomaly detection and threat behavior analytics. The expected result of this presentation will be an analysis of the benefits and drawbacks of these approaches with respect to the specific requirements for ICS defense, enabling attendees to evaluate relative to their own operational needs which approach works best for their environment.</p>"
 	},
 
@@ -711,6 +796,11 @@
 		"work"		: "NCCIC Hunt and Incident Response Team (HIRT)",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/jonathan-homer.png",
 		
+		
+		"pname" 		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage" 	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"description": "<p>Over the past year, a concentrated effort has been focused on specific energy sector critical assets, leveraging trusted relationships within supply chains and other partnerships in an attempt to gain access to corporate and control system networks. This technical discussion will review the threat actor’s tactics and techniques observed during multiple on-site incident response engagements conducted by the DHS NCCIC Hunt and Incident Response Team related to this campaign.</p>"
 	},
@@ -756,6 +846,11 @@
 		"image" 	: "https://cs3sthlm.se/assets/speakers/kristina-blomqvist.png",
 		
 		
+		"pname" 		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage" 	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"description": "<p>There is no description at this moment.</p>"
 	},
 
@@ -773,6 +868,11 @@
 		"work"		: "FOI",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/jonas-almroth.png",
 		
+		
+		"pname" 		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage" 	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"description": "<p>There is no description at this moment.</p>"
 	},
@@ -792,6 +892,11 @@
 		"image" 	: "https://cs3sthlm.se/assets/speakers/erik-zouave.png",
 		
 		
+		"pname" 		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage" 	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"description": "<p>The presentation is based on the preliminary findings of a study regarding aspects of cybersecurity in ICS supply chains at different stages of an ICS life cycle.</p>"
 	},
 
@@ -809,6 +914,11 @@
 		"work"		: "FOI",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/lars-westerdahl.png",
 		
+		
+		"pname" 		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage" 	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"description": "<p>In a modern conflict, the absence of war is not the same as peace; and a robust critical infrastructure is the first line of defence. The goal of an attacking nation may not be a country or its resources; it may just as well be the freedom to operate without interference. Thus, non-traditional operations with the goal to destabilize a nation’s resolve comprises a grey area between peace and war.</p>"
 	},
@@ -841,6 +951,11 @@
 		"image" 	: "https://cs3sthlm.se/assets/speakers/margarita-jaitner.png",
 		
 		
+		"pname" 		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage" 	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"description": "<p>This presentation gauges the notion of risk in regards to proliferation of IoT attempting at being both comprehensive and yet exact. Risk is then tied to vulnerabilities and potential attack vectors typical for IoT. In conclusion, strategies for managing the described risks will be introduced. The presentation is based on a study conducted by Vidar Hedtjärn Swaling and Jessica Johansson.</p>"
 	},
 
@@ -859,6 +974,11 @@
 		"image" 	: "https://cs3sthlm.se/assets/speakers/lars-erik-smevold.png",
 		
 		
+		"pname" 		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage" 	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"description": "<p>There is no description at this moment.</p>"
 	},
 
@@ -876,6 +996,11 @@
 		"work"		: "MSB",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/kristina-blomqvist.png",
 		
+		
+		"pname" 		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage" 	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"description": "<p>There is no description at this moment.</p>"
 	}

@@ -98,6 +98,11 @@
       role: Head of Cyber Security Architecture, Innovation and Scouting
       work: Advenica
       image: jonas-dellenvall.png
+  partner:
+    - name:
+      role:
+      work:
+      image:
   description: |
     Jonas Dellenvall is the CTO of Advenica AB, cyber security experts since 1993. Advenica is specialised in information security solutions for government, critical infrastructure and industry. Jonas previously held positions as Software Architect, product manager and VP of Marketing at Advenica.
     
@@ -118,6 +123,11 @@
       role: Professor in Teletraffic Systems
       work: KTH Royal Institute of Technology
       image: györgy-dán.png
+  partner:
+    - name:
+      role:
+      work:
+      image:
   description: |
     Preventive security controls, incident detection and timely response need to be coordinated for efficient security risk management. In this talk we first illustrate the benefits of this coordination through the example of precise time synchronization in power systems. We identify attack vectors, characterize their potential impact, and outline mitigation and detection schemes. We then present solutions for the resilient management of virtualized industrial controllers in edge clouds, with potential applications in smart grid control, UAVs and autonomous vehicular systems.
   permalink: expo/presentations/györgy-dán/
@@ -134,6 +144,11 @@
       role: Global Presales Manager
       work: Kaspersky Lab
       image: anton-shipulin.png
+  partner:
+    - name:
+      role:
+      work:
+      image:
   description: |
     Coming soon.
   permalink: expo/presentations/anton-shipulin/
@@ -150,6 +165,11 @@
       role: Professor in Teleinformatics
       work: KTH Royal Institute of Technology
       image: mads-dam.png
+  partner:
+    - name:
+      role:
+      work:
+      image:
   description: |
     Critical infrastructure security relies heavily on the security of the software and hardware that provide the basic execution platforms upon which various types of embedded controllers are implemented. Formal methods have been used, in the Cerces project and elsewhere, to formally prove the security of various types of hypervisors, microkernels, and separation kernel, based on relative simple models of the underlying hardware. The continuing stream of attacks on this hardware reveals that more refined microarchitectural models are needed. We present some recent work in this direction that is able to formally establish critical security properties, in the presence of some microarchitectural vulnerabilities.
   permalink: expo/presentations/mads-dam/
@@ -173,6 +193,11 @@
       role: Director, Operational Technology Global Enablement
       work: Fortinet
       image: rick-peters.png
+  partner:
+    - name:
+      role:
+      work:
+      image:
   description: |
     The momentum behind the convergence of historically distinct and separate domains illuminates the importance of seeking to implement robust security to protect highly valued assets that are In many instances delivering essential global services.
 
@@ -195,6 +220,11 @@
       role: Head of Cyber Security Architecture, Innovation and Scouting
       work: Airbus Group
       image: dr-kevin-jones.png
+  partner:
+    - name:
+      role:
+      work:
+      image:
   description: |
     Coming soon.
   permalink: expo/presentations/dr-kevin-jones/
@@ -239,6 +269,11 @@
       role: Director
       work: NCCIC Hunt and Incident Response Team (HIRT)
       image: mark-bristow.png
+  partner:
+    - name:
+      role:
+      work:
+      image:
   description: |
     asd
   permalink: program/presentations/mark-bristow/
@@ -261,6 +296,11 @@
       role: Principal Threat Analyst
       work: Dragos Inc
       image: mark-stacey.png
+  partner:
+    - name:
+      role:
+      work:
+      image:
   description: |
     Most Industrial Control System (ICS) networks require Incident Response (IR) procedures. Generally, these procedures fulfill regulatory requirements and do little to actually prepare the organization for handling an incident. Additionally, too many IR procedures relay on government programs (CERTS, committees, investigative boards). These programs may not provide the resource required and should not be considered a single point of response. This lecture will concentrate on concepts organizations should implement that decrease required resources for IR, arm responders, work with 3rd parties, and facilitate a return to operations. 
     
@@ -383,6 +423,11 @@
       role: IT Security Expert
       work: ComCERT.PL
       image: marcin-dudek.png
+  partner:
+    - name:
+      role:
+      work:
+      image:
   description: |
     Fake base stations are often discussed as a threat for privacy of mobile phone users. However, many other devices, such as cars, lifts or industrial control systems (ICS), are increasingly using cellular connectivity. It makes some difficulties during penetration tests – even though data sent through this communication channel might be exactly the same as in case of using WiFi network, its access is much more difficult. Most security guidelines ignore this topic. It turns out that fake BTS, so often presented in a bad light, can be also used to support security examination of this communication channel. The presentation will be based on practice - built testbed and conducted experiments. In addition, hardware requirements for such environment and legal aspects in diffrent jurisdictions will be discussed.
   permalink: program/presentations/marcin-dudek/
@@ -399,6 +444,11 @@
       role: Lead Incident Responder
       work: AUDI AG
       image: kai-thomsen.png
+  partner:
+    - name:
+      role:
+      work:
+      image:
   description: |
     In this talk I want to sketch out the threat landscape we might be facing with inter- connected infrastructure in smart cities in the near future and give an overview of what works and what doesn‘t to tackle these security challenges.
         
@@ -430,6 +480,11 @@
       role: Freelance Journalist
       work: Freelance
       image: jack-werner.png
+  partner:
+    - name:
+      role:
+      work:
+      image:
   description: |
     There is no description at this moment.
   permalink:
@@ -462,6 +517,11 @@
       role: Managing Partner
       work: Archer
       image: patrick-miller.png
+  partner:
+    - name:
+      role:
+      work:
+      image:
   description: |
     Abstract: Innovative and disruptive technologies are enhancing and invading our traditional industrial business model. Future infrastructure organizations will need more data to operate efficiently and succeed in the brave new interconnected world. The diversity of new technologies and data will fuel more diversity in business opportunity. Everyone expects more OT, more IOT, and more IT - and all of it is supposed to be highly reliable and secure. These factors (and more) lead to a landscape shift for the industrial cybersecurity risk profile. In this session, hear ways to recognize the problems and gain some clarity on possible solutions through historic lessons, made up words, and practical front-line experience.
   permalink: program/presentations/patrick-miller/
@@ -478,6 +538,11 @@
       role: Senior Engineer
       work: Siemens PD Solutions
       image: william-middleton.png
+  partner:
+    - name:
+      role:
+      work:
+      image:
   description: |
     The ICS lab is an critical resource, and not just for a solution provider like Siemens.  While the internal components of a lab may vary widely (witness the CS3STHLM ICS lab for example), the process of securing access to the lab network, while assuring availability and ease of use arguably has some common goals. Siemens PD Solutions in Bergen, Norway recently relocated their lab, and developed this presentation in the hope that their security and optimization solutions specifically related to the network might be of interest to others. Especially those with large, productive, multi-project, multi-customer lab environments.
   permalink: program/presentations/william-middleton/
@@ -501,6 +566,11 @@
       role: ICS Security Researcher
       work: NSFOCUS
       image: cheng-lei.png
+  partner:
+    - name:
+      role:
+      work:
+      image:
   description: |
     In the past few years, the attacks to industrial control systems(ICS) has increased year by year. Most of the attacks are exploit of the insecurity of ICS protocols like Stuxnet in 2010, Triton in 2017.
     
@@ -520,6 +590,11 @@
       role: Independat Researcher
       work: Independant
       image: omer-zohar.png
+  partner:
+    - name:
+      role:
+      work:
+      image:
   description: |
     In this principal research, we investigate the possibilities blockchain technologies pose as an infrastructure for malicious operations. We will demonstrate a POC of a fully functional C&C infrastructure on top of the Ethereum network - the second largest public blockchain which also acts as a distributed computing platform featuring a smart contract functionality.
   permalink: program/presentations/omer-zohar/
@@ -542,6 +617,11 @@
       role: Hacker-in-Cheif
       work: FoxGuard Solutions
       image: monta-elkins.png
+  partner:
+    - name:
+      role:
+      work:
+      image:
   description: |
     If you think an air gap prevents communication out of and into your industrial control system, you are wrong.
 
@@ -601,6 +681,11 @@
       role: Adversary Hunter
       work: Dragos Inc
       image: joe-slowik.png
+  partner:
+    - name:
+      role:
+      work:
+      image:
   description: |
     As ICS defense and detection matures, both defenders and products move increasingly away from traditional IOC approaches to newer, more robust models: anomaly detection, and threat behavioral analytics. While an appropriate, defense-in-depth position would work to integrate both approaches into a single defensive schema, scarce resources and funding constraints mean that organizations will need to choose one or the other for their monitoring and detection needs.
         
@@ -621,6 +706,11 @@
       role: Chief of the Industrial Control System Group
       work: NCCIC Hunt and Incident Response Team (HIRT)
       image: jonathan-homer.png
+  partner:
+    - name:
+      role:
+      work:
+      image:
   description: |
     Over the past year, a concentrated effort has been focused on specific energy sector critical assets, leveraging trusted relationships within supply chains and other partnerships in an attempt to gain access to corporate and control system networks. This technical discussion will review the threat actor’s tactics and techniques observed during multiple on-site incident response engagements conducted by the DHS NCCIC Hunt and Incident Response Team related to this campaign.
   permalink: program/presentations/jonathan-homer/
@@ -653,6 +743,11 @@
       role: 
       work: MSB
       image: kristina-blomqvist.png
+  partner:
+    - name:
+      role:
+      work:
+      image:
   description: |
     There is no description at this moment.
   permalink: program/presentations/kristina-blomqvist/
@@ -669,6 +764,11 @@
       role: System Architect
       work: FOI
       image: jonas-almroth.png
+  partner:
+    - name:
+      role:
+      work:
+      image:
   description: |
     There is no description at this moment.
   permalink: program/presentations/jonas-almroth/
@@ -685,6 +785,11 @@
       role: Analyst
       work: FOI
       image: erik-zouave.png
+  partner:
+    - name:
+      role:
+      work:
+      image:
   description: |
     The presentation is based on the preliminary findings of a study regarding aspects of cybersecurity in ICS supply chains at different stages of an ICS life cycle.
   permalink: program/presentations/erik-zouave/
@@ -701,6 +806,11 @@
       role: Scientist
       work: FOI
       image: lars-westerdahl.png
+  partner:
+    - name:
+      role:
+      work:
+      image:
   description: |
     In a modern conflict, the absence of war is not the same as peace; and a robust critical infrastructure is the first line of defence. The goal of an attacking nation may not be a country or its resources; it may just as well be the freedom to operate without interference. Thus, non-traditional operations with the goal to destabilize a nation’s resolve comprises a grey area between peace and war.
   permalink: program/presentations/lars-westerdahl/
@@ -724,6 +834,11 @@
       role: Analyst
       work: FOI
       image: margarita-jaitner.png
+  partner:
+    - name:
+      role:
+      work:
+      image:
   description: |
     This presentation gauges the notion of risk in regards to proliferation of IoT attempting at being both comprehensive and yet exact. Risk is then tied to vulnerabilities and potential attack vectors typical for IoT. In conclusion, strategies for managing the described risks will be introduced. The presentation is based on a study conducted by Vidar Hedtjärn Swaling and Jessica Johansson.
   permalink: program/presentations/margarita-jaitner/
@@ -740,6 +855,11 @@
       role: Senior Security Analyst
       work: KRAFT-CERT
       image: lars-erik-smevold.png
+  partner:
+    - name:
+      role:
+      work:
+      image:
   description: |
     There is no description at this moment.
   permalink: program/presentations/lars-erik-smevold/
@@ -756,6 +876,11 @@
       role: Moderator
       work: MSB
       image: kristina-blomqvist.png
+  partner:
+    - name:
+      role:
+      work:
+      image:
   description: |
     There is no description at this moment.
 
