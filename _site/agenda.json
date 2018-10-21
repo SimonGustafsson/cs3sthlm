@@ -45,6 +45,11 @@
 		"image" 	: "https://cs3sthlm.se/assets/speakers/henrik-sandberg.png",
 		
 		
+		"pname" 		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage" 	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"description": "<p>In this talk, we discuss how control theory can contribute to the analysis and design of secure cyber-physical systems. We start by reviewing conditions for detectability and impact of data attacks targeting feedback control loops running over a field communication network. We investigate three different attack scenarios: Sensor attacks, actuator attacks, and coordinated actuator and sensor attacks. In particular, we highlight how a physical understanding of the controlled process can guide us in the allocation of counter measures and limit the possible impact of attacks.</p>"
 	},
 
@@ -63,6 +68,11 @@
 		"image" 	: "https://cs3sthlm.se/assets/speakers/jannis-utz.png",
 		
 		
+		"pname" 		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage" 	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"description": "<p>There has been much speculation (not to mention exaggeration) over recent years about the fabled dark web. We’ve heard how this shady underworld is the refuge of the cyber criminal elite. That this is their “Wolf’s Lair,” where they gather to plot the breaching of businesses and the hacking of celebrities amongst other activities.</p><h4 id=\"this-presentation-will-feature\">This presentation will feature:</h4><ul>  <li>A definition of the dark web and how it differs from other sources of intelligence</li>  <li>Real-world examples of threat actor activities in dark marketplaces</li>  <li>Methods for uncovering emerging threats using dark web sources</li></ul>"
 	},
 
@@ -80,6 +90,11 @@
 		"work"		: "KTH Royal Institute of Technology",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/ragnar-thobaben.png",
 		
+		
+		"pname" 		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage" 	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"description": "<p>In this talk, we discuss how properties of the wireless medium and wireless devices can be utilized to enhance wireless security. We start with a short review of so-called physical-layer security techniques and then study intrusion detection at the physical layer in detail. We give examples for features that can be utilized, we discuss necessary conditions for a reliable detection performance and their impact on system parameters, and we analyze how packet filtering at the physical layer impacts the delay performance of the system.</p>"
 	},

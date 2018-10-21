@@ -29,6 +29,11 @@
       role: Professor in Large-Scale Control Systems
       work: KTH Royal Institute of Technology
       image: henrik-sandberg.png
+  partner:
+    - name:
+      role:
+      work:
+      image:
   description: |
     In this talk, we discuss how control theory can contribute to the analysis and design of secure cyber-physical systems. We start by reviewing conditions for detectability and impact of data attacks targeting feedback control loops running over a field communication network. We investigate three different attack scenarios: Sensor attacks, actuator attacks, and coordinated actuator and sensor attacks. In particular, we highlight how a physical understanding of the controlled process can guide us in the allocation of counter measures and limit the possible impact of attacks.
   permalink: expo/presentations/henrik-sandberg/
@@ -45,6 +50,11 @@
       role: Sales Engineer
       work: Recorded Future
       image: jannis-utz.png
+  partner:
+    - name:
+      role:
+      work:
+      image:
   description: |
     There has been much speculation (not to mention exaggeration) over recent years about the fabled dark web. We’ve heard how this shady underworld is the refuge of the cyber criminal elite. That this is their “Wolf’s Lair,” where they gather to plot the breaching of businesses and the hacking of celebrities amongst other activities.
 
@@ -67,6 +77,11 @@
       role: Associate Professor in Communication Theory
       work: KTH Royal Institute of Technology
       image: ragnar-thobaben.png
+  partner:
+    - name:
+      role:
+      work:
+      image:
   description: |
     In this talk, we discuss how properties of the wireless medium and wireless devices can be utilized to enhance wireless security. We start with a short review of so-called physical-layer security techniques and then study intrusion detection at the physical layer in detail. We give examples for features that can be utilized, we discuss necessary conditions for a reliable detection performance and their impact on system parameters, and we analyze how packet filtering at the physical layer impacts the delay performance of the system.
   permalink: expo/presentations/ragnar-thobaben/
