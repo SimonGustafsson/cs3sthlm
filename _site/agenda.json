@@ -23,12 +23,12 @@
 		"place" 	: "Harlem Stage",
 		"subject" 	: "Welcome to the CS3STHLM Expo Talks!",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Dr Erik Johansson",
 		"role"		: "",
 		"work"		: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/"
-		}],
+		},
 		
 		"partner": {
 		
@@ -45,12 +45,12 @@
 		"place" 	: "Harlem Stage",
 		"subject" 	: "Control Theory for Practical Cyber-Physical Security",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Prof. Henrik Sandberg",
 		"role"		: "Professor in Large-Scale Control Systems",
 		"work"		: "KTH Royal Institute of Technology",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/henrik-sandberg.png"
-		}],
+		},
 		
 		"partner": {
 		
@@ -67,12 +67,12 @@
 		"place" 	: "Harlem Stage",
 		"subject" 	: "ICS cyber security in the face of digital transformation",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Jannis Utz",
 		"role"		: "Sales Engineer",
 		"work"		: "Recorded Future",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/jannis-utz.png"
-		}],
+		},
 		
 		"partner": {
 		
@@ -89,12 +89,12 @@
 		"place" 	: "Harlem Stage",
 		"subject" 	: "Securing Wireless Transmissions at the Air Interface",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Ass. Prof. Ragnar Thobaben",
 		"role"		: "Associate Professor in Communication Theory",
 		"work"		: "KTH Royal Institute of Technology",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/ragnar-thobaben.png"
-		}],
+		},
 		
 		"partner": {
 		
@@ -111,12 +111,12 @@
 		"place" 	: "Harlem Stage",
 		"subject" 	: "Security when failure is not an option.",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Jonas Dellenvall",
 		"role"		: "Head of Cyber Security Architecture, Innovation and Scouting",
 		"work"		: "Advenica",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/jonas-dellenvall.png"
-		}],
+		},
 		
 		"partner": {
 		
@@ -133,12 +133,12 @@
 		"place" 	: "Harlem Stage",
 		"subject" 	: "Resilient Computing and Communication for Critical Infrastructures",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Prof. György Dán",
 		"role"		: "Professor in Teletraffic Systems",
 		"work"		: "KTH Royal Institute of Technology",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/györgy-dán.png"
-		}],
+		},
 		
 		"partner": {
 		
@@ -155,12 +155,12 @@
 		"place" 	: "Harlem Stage",
 		"subject" 	: "Kaspersky Industrial Cybersecurity approach",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Anton Shipulin",
 		"role"		: "Global Presales Manager",
 		"work"		: "Kaspersky Lab",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/anton-shipulin.png"
-		}],
+		},
 		
 		"partner": {
 		
@@ -177,12 +177,12 @@
 		"place" 	: "Harlem Stage",
 		"subject" 	: "Securing Low Level Software Using Formal Methods",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Prof. Mads Dam",
 		"role"		: "Professor in Teleinformatics",
 		"work"		: "KTH Royal Institute of Technology",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/mads-dam.png"
-		}],
+		},
 		
 		"partner": {
 		
@@ -214,12 +214,12 @@
 		"place" 	: "Harlem Stage",
 		"subject" 	: "Addressing Physical to Digital Convergence in an Evolving World",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Rick Peters",
 		"role"		: "Director, Operational Technology Global Enablement",
 		"work"		: "Fortinet",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/rick-peters.png"
-		}],
+		},
 		
 		"partner": {
 		
@@ -236,12 +236,12 @@
 		"place" 	: "Harlem Stage",
 		"subject" 	: "ICS cyber security in the face of digital transformation",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Dr Kevin Jones",
 		"role"		: "Head of Cyber Security Architecture, Innovation and Scouting",
 		"work"		: "Airbus Group",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/dr-kevin-jones.png"
-		}],
+		},
 		
 		"partner": {
 		
@@ -318,12 +318,12 @@
 		"place" 	: "Main Stage",
 		"subject" 	: "ICS Incident Response: Lessons and migitaions from the field",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Mark Bristow",
 		"role"		: "Director",
 		"work"		: "NCCIC Hunt and Incident Response Team (HIRT)",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/mark-bristow.png"
-		}],
+		},
 		
 		"partner": {
 		
@@ -355,12 +355,12 @@
 		"place" 	: "Main Stage",
 		"subject" 	: "Incident Response: Learning as you go is expensive",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Mark Stacey",
 		"role"		: "Principal Threat Analyst",
 		"work"		: "Dragos Inc",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/mark-stacey.png"
-		}],
+		},
 		
 		"partner": {
 		
@@ -377,12 +377,12 @@
 		"place" 	: "Main Stage",
 		"subject" 	: "Hunting and Responding in ICS",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Mark Stacey",
 		"role"		: "Principal Threat Analyst",
 		"work"		: "Dragos Inc",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/mark-stacey.png"
-		}],
+		},
 		
 		"partner": {
 		
@@ -419,12 +419,12 @@
 		"place" 	: "Main Stage",
 		"subject" 	: "The Good, the Bad and the Segmented",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Erwin Kooi",
 		"role"		: "ICS/SCADA Architech",
 		"work"		: "Alliander",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/erwin-kooi.png"
-		}],
+		},
 		
 		"partner": {
 		
@@ -446,12 +446,12 @@
 		"place" 	: "Main Stage",
 		"subject" 	: "Operator Jail Breakout",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Dieter Sarrazyn",
 		"role"		: "Cybersecurity Expert",
 		"work"		: "Freelance",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/dieter-sarrazyn.png"
-		}],
+		},
 		
 		"partner": {
 		
@@ -473,12 +473,12 @@
 		"place" 	: "",
 		"subject" 	: "Coffee Break",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Swedish Fika",
 		"role"		: "",
 		"work"		: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/"
-		}],
+		},
 		
 		"partner": {
 		
@@ -495,12 +495,12 @@
 		"place" 	: "Main Stage",
 		"subject" 	: "Using fake BTS as a part of Pentest of Devices using SIM Cards for Data Transmission",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Marcin Dudek",
 		"role"		: "IT Security Expert",
 		"work"		: "ComCERT.PL",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/marcin-dudek.png"
-		}],
+		},
 		
 		"partner": {
 		
@@ -517,12 +517,12 @@
 		"place" 	: "Main Stage",
 		"subject" 	: "Attacking Cars Revisited: On the Road Towards a More Resilient Connected Vehicle Infrastructure",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Kai Thomsen",
 		"role"		: "Lead Incident Responder",
 		"work"		: "AUDI AG",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/kai-thomsen.png"
-		}],
+		},
 		
 		"partner": {
 		
@@ -569,12 +569,12 @@
 		"place" 	: "Main Stage",
 		"subject" 	: "Fake news or Folklore?",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Jack Werner",
 		"role"		: "Freelance Journalist",
 		"work"		: "Freelance",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/jack-werner.png"
-		}],
+		},
 		
 		"partner": {
 		
@@ -621,12 +621,12 @@
 		"place" 	: "Main Stage",
 		"subject" 	: "Industrial Technology Trajectory: Running With Scissors",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Patrick Miller",
 		"role"		: "Managing Partner",
 		"work"		: "Archer",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/patrick-miller.png"
-		}],
+		},
 		
 		"partner": {
 		
@@ -643,12 +643,12 @@
 		"place" 	: "Main Stage",
 		"subject" 	: "Securing the ICS lab network",
 		
-		"author": [{
+		"author": {
 		"name" 		: "William Middleton",
 		"role"		: "Senior Engineer",
 		"work"		: "Siemens PD Solutions",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/william-middleton.png"
-		}],
+		},
 		
 		"partner": {
 		
@@ -680,12 +680,12 @@
 		"place" 	: "Main Stage",
 		"subject" 	: "Attacking PLCs by PLC in deep",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Cheng Lei",
 		"role"		: "ICS Security Researcher",
 		"work"		: "NSFOCUS",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/cheng-lei.png"
-		}],
+		},
 		
 		"partner": {
 		
@@ -702,12 +702,12 @@
 		"place" 	: "Main Stage",
 		"subject" 	: "Unblockable Chains - Is Blockchain the ultimate malicious infrastructure?",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Omer Zohar",
 		"role"		: "Independat Researcher",
 		"work"		: "Independant",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/omer-zohar.png"
-		}],
+		},
 		
 		"partner": {
 		
@@ -739,12 +739,12 @@
 		"place" 	: "Main Stage",
 		"subject" 	: "Jumping Air Gaps",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Monta Elkins",
 		"role"		: "Hacker-in-Cheif",
 		"work"		: "FoxGuard Solutions",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/monta-elkins.png"
-		}],
+		},
 		
 		"partner": {
 		
@@ -761,12 +761,12 @@
 		"place" 	: "Main Stage",
 		"subject" 	: "Stateful Protocol Hunting",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Dan Gunter",
 		"role"		: "Principal Threat Analyst",
 		"work"		: "Dragos Inc",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/dan-gunter.png"
-		}],
+		},
 		
 		"partner": {
 		
@@ -803,12 +803,12 @@
 		"place" 	: "Main Stage",
 		"subject" 	: "Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Joe Slowik",
 		"role"		: "Adversary Hunter",
 		"work"		: "Dragos Inc",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/joe-slowik.png"
-		}],
+		},
 		
 		"partner": {
 		
@@ -825,12 +825,12 @@
 		"place" 	: "Main Stage",
 		"subject" 	: "Recent APT Campaign targeting Energy Sector Assets",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Jonathan Homer",
 		"role"		: "Chief of the Industrial Control System Group",
 		"work"		: "NCCIC Hunt and Incident Response Team (HIRT)",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/jonathan-homer.png"
-		}],
+		},
 		
 		"partner": {
 		
@@ -877,12 +877,12 @@
 		"place" 	: "Harlem",
 		"subject" 	: "Introduction to MSB Session",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Kristina Blomqvist",
 		"role"		: "",
 		"work"		: "MSB",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/kristina-blomqvist.png"
-		}],
+		},
 		
 		"partner": {
 		
@@ -899,12 +899,12 @@
 		"place" 	: "Harlem",
 		"subject" 	: "Designing a second generation cyber range",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Jonas Almroth",
 		"role"		: "System Architect",
 		"work"		: "FOI",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/jonas-almroth.png"
-		}],
+		},
 		
 		"partner": {
 		
@@ -921,12 +921,12 @@
 		"place" 	: "Harlem",
 		"subject" 	: "Supply Chain Cyber Security throughout the ICS Lifecycle",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Erik Zouave",
 		"role"		: "Analyst",
 		"work"		: "FOI",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/erik-zouave.png"
-		}],
+		},
 		
 		"partner": {
 		
@@ -943,12 +943,12 @@
 		"place" 	: "Harlem",
 		"subject" 	: "Uncertain conflict - When critical infrastructure is affected by national conflicts",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Lars Westerdahl",
 		"role"		: "Scientist",
 		"work"		: "FOI",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/lars-westerdahl.png"
-		}],
+		},
 		
 		"partner": {
 		
@@ -980,12 +980,12 @@
 		"place" 	: "Harlem",
 		"subject" 	: "Managing IoT-related risks",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Margarita Jaitner",
 		"role"		: "Analyst",
 		"work"		: "FOI",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/margarita-jaitner.png"
-		}],
+		},
 		
 		"partner": {
 		
@@ -1002,12 +1002,12 @@
 		"place" 	: "Harlem",
 		"subject" 	: "Introduction to KRAFT-CERT and some words about Nordic co-op",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Lars Erik Smevold",
 		"role"		: "Senior Security Analyst",
 		"work"		: "KRAFT-CERT",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/lars-erik-smevold.png"
-		}],
+		},
 		
 		"partner": {
 		
@@ -1024,12 +1024,12 @@
 		"place" 	: "Harlem",
 		"subject" 	: "Panel about NIS",
 		
-		"author": [{
+		"author": {
 		"name" 		: "Kristina Blomqvist",
 		"role"		: "Moderator",
 		"work"		: "MSB",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/kristina-blomqvist.png"
-		}],
+		},
 		
 		"partner": {
 		
