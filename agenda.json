@@ -12,21 +12,17 @@ layout:
 		"place" 	: "{{ item.place }}",
 		"subject" 	: "{{ item.subject | strip_html }}",
 		{% for item in item.author %}
-		"author": {
 		"name" 		: "{{ item.name }}",
 		"role"		: "{{ item.role }}",
 		"work"		: "{{ item.work }}",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/{{ item.image }}"{% unless forloop.last %},{% endunless %}
-		},
+		"image" 	: "https://cs3sthlm.se/assets/speakers/{{ item.image }}",
 		{% endfor %}
-		"partner": {
 		{% for item in item.partner %}
-		"name" 		: "{{ item.name }}",
-		"role"		: "{{ item.role }}",
-		"work"		: "{{ item.work }}",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/{{ item.image }}"{% unless forloop.last %},{% endunless %}
+		"pname" 		: "{{ item.name }}",
+		"prole"		: "{{ item.role }}",
+		"pwork"		: "{{ item.work }}",
+		"pimage" 	: "https://cs3sthlm.se/assets/speakers/{{ item.image }}",
 		{% endfor %}
-		},
 		"description": {{ item.description | markdownify | strip_newlines | jsonify }}
 	}{% unless forloop.last %},{% endunless %}
 {% endfor %}
