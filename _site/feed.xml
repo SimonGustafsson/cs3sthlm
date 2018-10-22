@@ -5,9 +5,55 @@
     <description>CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 21 Oct 2018 14:50:14 +0000</pubDate>
-    <lastBuildDate>Sun, 21 Oct 2018 14:50:14 +0000</lastBuildDate>
+    <pubDate>Mon, 22 Oct 2018 18:30:54 +0000</pubDate>
+    <lastBuildDate>Mon, 22 Oct 2018 18:30:54 +0000</lastBuildDate>
     <generator>Jekyll v3.6.3</generator>
+    
+      <item>
+        <title>CS3STHLM App and Honey Pot Competition</title>
+        <description>&lt;h3 id=&quot;cs3sthlm-launches-conference-app&quot;&gt;CS3STHLM LAUNCHES CONFERENCE APP&lt;/h3&gt;
+
+&lt;p&gt;When the conference opens for the 5th consecutive year participants can download an app with agenda, presentations of speakers, and the possibility of partaking in polls, give direct response to seminars, lectures and questions asked from stage. This also means a channel for newsflashes, changes in the program and messages from conference management. You find the app in usual app stores.&lt;/p&gt;
+
+&lt;h3 id=&quot;honey-pot-chase-competition&quot;&gt;HONEY POT CHASE COMPETITION&lt;/h3&gt;
+
+&lt;p&gt;Mikael Vingaard, (DK), invites all participants to a competition to find Honey Pots: Can you spot the honey-pot(s) @ the ICS Lab? - challenge yourself and find the honey-pot(s) hidden - submit your findings and win a prize!&lt;/p&gt;
+
+&lt;h4 id=&quot;spot-the-honey-pot---the-rules-of-engagement&quot;&gt;“Spot the Honey-pot” - The rules of engagement;&lt;/h4&gt;
+
+&lt;p&gt;Competition starts 24.oct Wednesday at 10.00 am and ends Thursday at 14.30.&lt;/p&gt;
+
+&lt;p&gt;The winner will be announced during the closing session, and need to be in the audience during the closing session.
+Use whatever tools (e.g. telnet, nmap, PLCscan etc) to find the honeypot(s), we have placed @ the ICS Lab industrial networks!
+Be a good ICS neighbor, don’t try to change the configuration on anything, DDOS’ing or otherwise break stuff on purpose - or in any way make the competition harder for your fellow contesters.&lt;/p&gt;
+
+&lt;p&gt;You may work together as a team, but only one prize is rewarded.&lt;/p&gt;
+
+&lt;p&gt;To keep things interesting, we will change the Honeypot environment, during the whole CS3sthlm conference.
+There might be many honey-pots hidden - and not only on one single ICS networks - so do remember to look at ICS_Lab network 1 to 4.
+In case, that several contesters gets the same (correct) reply - there will be a drawing, to find the winner.&lt;/p&gt;
+
+&lt;p&gt;To participate, do send an email with the following to stockholm@defenica.com before Thursday 14.30 :&lt;/p&gt;
+
+&lt;p&gt;a) Your name&lt;/p&gt;
+
+&lt;p&gt;b) time of your research - aka. the date+ Hour as we will dynamically change the honeypot(s) during CS3.&lt;/p&gt;
+
+&lt;p&gt;C) IP’s of the honeypots you have spotted - do remember to write on what ICS_LAB network it was found, e.g. IP x.x.x.x on ICS network 4 + IP z.y.y.y on ICS network 2&lt;/p&gt;
+
+&lt;p&gt;GPDR stuff; the information collected during “Spot the Honeypot” will only be used for this competition.&lt;/p&gt;
+
+&lt;p&gt;May the best honey-pot spotter win :-)&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 22 Oct 2018 04:00:00 +0000</pubDate>
+        <link>/news/2018/10/22/cs3sthlm-app-and-honey-pot-competition.html</link>
+        <guid isPermaLink="true">/news/2018/10/22/cs3sthlm-app-and-honey-pot-competition.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
     
       <item>
         <title>CS3STHLM fifth conference on industrial cyber security</title>
@@ -688,30 +734,6 @@ things in the interview that you didnt already knew about the standard!&lt;/em&g
         <pubDate>Mon, 30 Apr 2018 04:00:00 +0000</pubDate>
         <link>/news/2018/04/30/cs3sthlm-newsletter-april.html</link>
         <guid isPermaLink="true">/news/2018/04/30/cs3sthlm-newsletter-april.html</guid>
-        
-        
-        <category>news</category>
-        
-      </item>
-    
-      <item>
-        <title>CS3STHLM Newsletter December</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/cs3-holiday.png&quot; alt=&quot;CS3STHLM Holiday&quot; class=&quot;full-width-image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;2017 was indeed a remarkable year, and some of the cyber security related things that happened will surely be remembered. Among them was the Wannacry malware hospitals, industrial companies and other important infrastructure. Things that also hit the front pages were outbreak that blindly struck against the analysis of Industroyer/CRASHOVERRIDE (ICS malware attacking Ukraine grid operator) and recently the TRITON/TRISIS/Hatman (attack tool against safety system). In Sweden, IT security incidents led to the resignation of two ministers from the government, and a journalists use of Shodan led to that one of Swedens largest news room had a series of reports on what is Internet accessible, when they found heating/hydropower/windpower/elevators and more, sitting on the Internet for anyone to access.&lt;/p&gt;
-
-&lt;p&gt;The CS3STHLM 2017 summit (previously known as 4SICS) had several presentations related to all these issues. As a holiday gift for you, we have now published a number of presentations on our YouTube channel: &lt;a href=&quot;https://www.youtube.com/channel/UCkD15o_9eJxUc9eeHtWSQ6Q&quot;&gt;CS3STHLM at YouTube&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Next year we will be back for the fifth time and the dates are October 22nd-25th. We are already on the lookout for summit content, so do let us know what you think we should present in order to make next years workshops and conference as useful and rewarding as possible.&lt;/p&gt;
-
-&lt;p&gt;Another holiday gift is that we already have opened the ticket sale for 2018 with a special Earliest Bird discount of 30 % on the two-day conference ticket. Link: &lt;a href=&quot;https://www.cs3sthlm.se/&quot;&gt;www.cs3sthlm.se&lt;/a&gt; and the discounted ticket is available until January 12th.&lt;/p&gt;
-
-&lt;p&gt;A very happy holiday season - from all of us, to all of you! 
-The CS3STHLM crew&lt;/p&gt;
-</description>
-        <pubDate>Wed, 20 Dec 2017 04:00:00 +0000</pubDate>
-        <link>/news/2017/12/20/cs3sthlm-newsletter-december.html</link>
-        <guid isPermaLink="true">/news/2017/12/20/cs3sthlm-newsletter-december.html</guid>
         
         
         <category>news</category>
