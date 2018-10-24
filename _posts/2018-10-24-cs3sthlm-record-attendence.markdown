@@ -1,5 +1,5 @@
 ---
-title: CS3STHLM Record Attendence
+title: CS3STHLM Record Attendance
 date: 2018-10-24 04:00:00 Z
 categories:
 - news
