@@ -5,9 +5,30 @@
     <description>CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 24 Oct 2018 06:26:50 +0000</pubDate>
-    <lastBuildDate>Wed, 24 Oct 2018 06:26:50 +0000</lastBuildDate>
+    <pubDate>Wed, 24 Oct 2018 14:38:04 +0000</pubDate>
+    <lastBuildDate>Wed, 24 Oct 2018 14:38:04 +0000</lastBuildDate>
     <generator>Jekyll v3.6.3</generator>
+    
+      <item>
+        <title>CS3STHLM Record Attendence</title>
+        <description>&lt;h3 id=&quot;fifth-edition-of-acclaimed-cyber-security-summit-sees-record-attendance&quot;&gt;FIFTH EDITION OF ACCLAIMED CYBER SECURITY SUMMIT SEES RECORD ATTENDANCE&lt;/h3&gt;
+
+&lt;p&gt;After the first conference day founders Robert Malmgren and Erik Johansson are pleased to state that the years conference is the most successful so far, both in attendance and format. The new expo day added a welcome meeting arena for businesses, legislators and other stakeholders.&lt;/p&gt;
+
+&lt;p&gt;The second day of the summit will open with Key Note Patrick Miller (US)and his presentation&lt;/p&gt;
+
+&lt;h4 id=&quot;industrial-technology-trajectory-running-with-scissors&quot;&gt;Industrial Technology Trajectory: Running With Scissors&lt;/h4&gt;
+
+&lt;p&gt;Innovative and disruptive technologies are enhancing and invading our traditional industrial business model. Future infrastructure organizations will need more data to operate efficiently and succeed in the brave new interconnected world. The diversity of new technologies and data will fuel more diversity in business opportunity. Everyone expects more OT, more IOT, and more IT - and all of it is supposed to be highly reliable and secure. These factors (and more) lead to a landscape shift for the industrial cybersecurity risk profile. In this session, hear ways to recognize the problems and gain some clarity on possible solutions through historic lessons, made up words, and practical front-line experience.a&lt;/p&gt;
+</description>
+        <pubDate>Wed, 24 Oct 2018 04:00:00 +0000</pubDate>
+        <link>/news/2018/10/24/cs3sthlm-record-attendence.html</link>
+        <guid isPermaLink="true">/news/2018/10/24/cs3sthlm-record-attendence.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
     
       <item>
         <title>CS3STHLM App and Honey Pot Competition</title>
@@ -698,45 +719,6 @@ things in the interview that you didnt already knew about the standard!&lt;/em&g
         
         
         <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>CS3STHLM Newsletter April</title>
-        <description>&lt;p&gt;We are opening up the gates for the 5th CS3STHLM summit! In this newsletter we present the keynote speakers, our first presentation and a record number of training sessions!&lt;/p&gt;
-
-&lt;h4 id=&quot;important-notice&quot;&gt;Important notice!&lt;/h4&gt;
-&lt;p&gt;Many of you might already be aware of the new data privacy regulations (GDPR) that will be applied in Europe on May 25th. This regulation makes all of our old registers for mail information null and void by the end of May.&lt;/p&gt;
-
-&lt;p&gt;If you would like to keep receiving our Newsletters with information about the CS3STHLM activities – PLEASE CLICK ON &lt;a href=&quot;mailto:info@cs3sthlm.se&quot;&gt;THIS LINK&lt;/a&gt; AND SEND US THE RESULTING MAIL.  We are sorry for this inconvenience, but we feel it is important to respect the privacy of all persons.&lt;/p&gt;
-
-&lt;p&gt;Spring cleaning has been done to our website. We have updated the web with information on the upcoming conference. A lot of new information has been published, and a lot more will be posted in the near future.&lt;/p&gt;
-
-&lt;p&gt;We are thrilled and honoured to announce our two keynote speakers for the 2018 CS3Sthlm conference: Marty Edwards and Patrick C. Miller. Both keynote speakers have a long history in ICS security, one working within DHS and the ICS-CERT, the other being the grandfather of the NERC CIP. Both are also very experienced and well-respected speakers at conferences worldwide.&lt;/p&gt;
-
-&lt;p&gt;For the Call For Participation, we got more than 50+ very good submissions from all over the planet. We have selected 16 top submissions to start with in this year’s agenda. Please check out the first batch of topics and presenters listed here &lt;a href=&quot;https://cs3sthlm.se/program/speakers/&quot;&gt;/speakers&lt;/a&gt; and here &lt;a href=&quot;https://cs3sthlm.se/program/presentations/&quot;&gt;/presentations&lt;/a&gt; We will add presenters to the lists over time, as we also have a few slots reserved for invited speakers.&lt;/p&gt;
-
-&lt;p&gt;We will have a record number of training sessions to select from this year. It is the largest selection found at any ICS/SCADA conference, which allows you to select deep dives into the topic most interesting for you: ICS/SCADA Penetration Testing, ICS Threat Hunting, ICS Network Defense, ICS Network ForensICS, ISO 27019, ICS Honeypots. Information on trainings available at &lt;a href=&quot;https://cs3sthlm.se/program/trainings/&quot;&gt;/trainings&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Our strong lineup, with keynotes/presenters/trainings and with yet a number of unannounced speakers and events, is stronger than any of the previous years!&lt;/p&gt;
-
-&lt;p&gt;Please take advantage of the MEDIUM BIRD DISCOUNT of 10% that is still valid until May 31st on all tickets! Please visit the &lt;a href=&quot;https://tickets.cs3sthlm.se&quot;&gt;ticket site&lt;/a&gt; to claim your discounted ticket.&lt;/p&gt;
-
-&lt;p&gt;Last, and on the lighter side – we have had some questions regarding the meaning of CS3STHLM. 
-“CS3” stands for Cyber Security, Critical Structures and Control Systems, “STHLM” is short for Stockholm where the summit is held annually, and had to be added not to confuse our name with other brands. The correct pronunciation is:&lt;/p&gt;
-
-&lt;p&gt;/siː ɛs θriː stɒkhoʊlm/;&lt;/p&gt;
-
-&lt;p&gt;Or better yet, grab one of the organizers when you are at the conference and ask them why we need such strange name for this thing….&lt;/p&gt;
-
-&lt;p&gt;Best wishes from the CS3STHLM crew  &lt;/p&gt;
-</description>
-        <pubDate>Mon, 30 Apr 2018 04:00:00 +0000</pubDate>
-        <link>/news/2018/04/30/cs3sthlm-newsletter-april.html</link>
-        <guid isPermaLink="true">/news/2018/04/30/cs3sthlm-newsletter-april.html</guid>
-        
-        
-        <category>news</category>
         
       </item>
     
