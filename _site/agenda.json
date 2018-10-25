@@ -648,12 +648,12 @@
 		"date"		: "25 October",
 		"time"		: "10:50",
 		"place" 	: "Main Stage",
-		"subject" 	: "Attacking PLCs by PLC in deep",
+		"subject" 	: "Jumping Air Gaps",
 		
-		"name" 		: "Cheng Lei",
-		"role"		: "ICS Security Researcher",
-		"work"		: "NSFOCUS",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/cheng-lei.png",
+		"name" 		: "Monta Elkins",
+		"role"		: "Hacker-in-Cheif",
+		"work"		: "FoxGuard Solutions",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/monta-elkins.png",
 		
 		
 		"pname" 		: "",
@@ -661,7 +661,7 @@
 		"pwork"		: "",
 		"pimage" 	: "https://cs3sthlm.se/assets/speakers/",
 		
-		"description": "<p>In the past few years, the attacks to industrial control systems(ICS) has increased year by year. Most of the attacks are exploit of the insecurity of ICS protocols like Stuxnet in 2010, Triton in 2017.</p><p>In 2016, Ralf Spenneberg and et al give a presentation named PLC Blaster which demonstrates a worm lives and runs on Siemens S7-1200 PLCs, they use S7commplus protocol to transmit worms in PLCs. In this research, we proposed an attack method that a PLC can attack other different vendors’ PLCs inside the net.If one PLC is infected, this PLC can scan the whole net to find all kinds of PLCs and send back the information back to a Command &amp;Control server. Then, once received the command from C&amp;C server, this infected PLC can do attacks to other different vendors’ PLCs. Like PLC Blaster, this malware can be spread inside the net.</p>"
+		"description": "<p>If you think an air gap prevents communication out of and into your industrial control system, you are wrong.</p><p>We’ll be exploring various ways to send data across an air-gap in Industrial Control Systems and other environments, including a live demo.</p><p>Is it really possible to send data across an air-gap where no network has been connected? (No we’re not talking about wifi, bluetooth, wirelessHART etc.)</p><p>Can it be done without physical modification to your existing plant?</p><p>Can we get that paragon of virtue- a data diode -to pass information in both directions without physically touching it?</p><p>Find out.</p><h4 id=\"audience\">Audience</h4><p>Those who may have or consider an air-gap as part of their security.</p><h4 id=\"take-away\">Take Away</h4><p>A better understanding of the history of jumping air-gaps and a new attack on data diodes.</p>"
 	},
 
 	{
@@ -707,12 +707,12 @@
 		"date"		: "25 October",
 		"time"		: "13:30",
 		"place" 	: "Main Stage",
-		"subject" 	: "Jumping Air Gaps",
+		"subject" 	: "Attacking PLCs by PLC in deep",
 		
-		"name" 		: "Monta Elkins",
-		"role"		: "Hacker-in-Cheif",
-		"work"		: "FoxGuard Solutions",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/monta-elkins.png",
+		"name" 		: "Cheng Lei",
+		"role"		: "ICS Security Researcher",
+		"work"		: "NSFOCUS",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/cheng-lei.png",
 		
 		
 		"pname" 		: "",
@@ -720,7 +720,7 @@
 		"pwork"		: "",
 		"pimage" 	: "https://cs3sthlm.se/assets/speakers/",
 		
-		"description": "<p>If you think an air gap prevents communication out of and into your industrial control system, you are wrong.</p><p>We’ll be exploring various ways to send data across an air-gap in Industrial Control Systems and other environments, including a live demo.</p><p>Is it really possible to send data across an air-gap where no network has been connected? (No we’re not talking about wifi, bluetooth, wirelessHART etc.)</p><p>Can it be done without physical modification to your existing plant?</p><p>Can we get that paragon of virtue- a data diode -to pass information in both directions without physically touching it?</p><p>Find out.</p><h4 id=\"audience\">Audience</h4><p>Those who may have or consider an air-gap as part of their security.</p><h4 id=\"take-away\">Take Away</h4><p>A better understanding of the history of jumping air-gaps and a new attack on data diodes.</p>"
+		"description": "<p>In the past few years, the attacks to industrial control systems(ICS) has increased year by year. Most of the attacks are exploit of the insecurity of ICS protocols like Stuxnet in 2010, Triton in 2017.</p><p>In 2016, Ralf Spenneberg and et al give a presentation named PLC Blaster which demonstrates a worm lives and runs on Siemens S7-1200 PLCs, they use S7commplus protocol to transmit worms in PLCs. In this research, we proposed an attack method that a PLC can attack other different vendors’ PLCs inside the net.If one PLC is infected, this PLC can scan the whole net to find all kinds of PLCs and send back the information back to a Command &amp;Control server. Then, once received the command from C&amp;C server, this infected PLC can do attacks to other different vendors’ PLCs. Like PLC Blaster, this malware can be spread inside the net.</p>"
 	},
 
 	{
