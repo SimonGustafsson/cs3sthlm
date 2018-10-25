@@ -5,9 +5,33 @@
     <description>CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 25 Oct 2018 06:58:36 +0000</pubDate>
-    <lastBuildDate>Thu, 25 Oct 2018 06:58:36 +0000</lastBuildDate>
+    <pubDate>Thu, 25 Oct 2018 15:53:50 +0000</pubDate>
+    <lastBuildDate>Thu, 25 Oct 2018 15:53:50 +0000</lastBuildDate>
     <generator>Jekyll v3.6.3</generator>
+    
+      <item>
+        <title>CS3STHLM Summary of 2018 Event</title>
+        <description>&lt;h3 id=&quot;appreciated-expansion-of-acclaimed-cyber-security-conference&quot;&gt;APPRECIATED EXPANSION OF ACCLAIMED CYBER SECURITY CONFERENCE&lt;/h3&gt;
+
+&lt;p&gt;This years edition of CS3STHLM presented an Expo Day as well as an extended interaction between participants and panelists. 10 students from Norway and Sweden were invited to take part of a challenge which resulted in two students from Norway and Sweden winning a reward.&lt;/p&gt;
+
+&lt;p&gt;Spot The Honey Pot was a challenge initiated by Mikael Vingaard (DK) for participants to find Honey Pots within the ICS networks, won by Matan Dobrushin from Otorio.&lt;/p&gt;
+
+&lt;p&gt;Key Note Speaker on Thursday, Patrick Miller (US), praised the summit for not just high quality content, but also great production, great atmosphere and great venue.&lt;/p&gt;
+
+&lt;p&gt;The founders of CS3STHLM, Robert Malmgren and Erik Johansson, thanked the 200 some participants, speakers, panelists and crew and rounded up the 2018 summit with a poll for Speaker of The Year, and this years winners are Erwin Kooi and Rick van Hees with their presentation The good, the bad and the segmented.&lt;/p&gt;
+
+&lt;p&gt;CS3STLHM 2019 will take place at Nalen in Stockholm October 21-24&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 25 Oct 2018 04:00:00 +0000</pubDate>
+        <link>/news/2018/10/25/cs3sthlm-summary-of-2018-event.html</link>
+        <guid isPermaLink="true">/news/2018/10/25/cs3sthlm-summary-of-2018-event.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
     
       <item>
         <title>CS3STHLM Record Attendance</title>
@@ -613,109 +637,6 @@ things in the interview that you didnt already knew about the standard!&lt;/em&g
         <pubDate>Mon, 17 Sep 2018 05:00:00 +0000</pubDate>
         <link>/blog/dr-stephan-beirer/</link>
         <guid isPermaLink="true">/blog/dr-stephan-beirer/</guid>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Mikael Vingaard - The Expert on ICS Honeypots</title>
-        <description>&lt;p&gt;&lt;em&gt;This is a blog post with Mikael Vingaard, the expert on ICS Honeypot that will give the 2-day training session during the CS3sthlm conference week. Last year it was a 1 day course, but we decided to extend it so that more could be covered during class. Below you will find an interview we did with Mike as he was preparing for the class.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h1 class=&quot;blog-title&quot; itemprop=&quot;name headline&quot;&gt;Mikael Vingaard - The Expert on ICS Honeypots&lt;/h1&gt;
-
-&lt;h4 id=&quot;what-is-your-background-with-regards-to-security-the-energy-system-and-honeypots&quot;&gt;What is your background, with regards to security, the energy system and honeypots?&lt;/h4&gt;
-
-&lt;p&gt;For the last 15 years, I have been working as Pentester, Auditor, BC-manager and IT-security “jack of all trade” like malware tracking and alerting via malware sinkholes.&lt;/p&gt;
-
-&lt;p&gt;Four years ago I switched from IT security to OT Security and needed to learn a lot of stuff in a very short timespan. As I didn’t have a power substation or water treatment plant for my private disposal (who has that :-) I had to learn a lot on ‘arcane’ ICS protocols like Modbus, IEC104, S7comm, DNP3 in some other way, hence honeypot seemed like an interesting way forward. To sum it all up - I needed to build something to simulate these protocols.&lt;/p&gt;
-
-&lt;p&gt;I found a low interaction honeypot and started to learn about it. After a while I put an ICS honeypot on the Internet, and it was attacked right away! I was hooked and the rest is history - today I manage one of the largest privately owned honeypot networks (120+ sensors) deployed all over the world!&lt;/p&gt;
-
-&lt;h4 id=&quot;honeypots-arent-they-just-tools-for-researchers-or-can-they-be-used-in-a-real-environment&quot;&gt;Honeypots, aren’t they just tools for researchers? Or can they be used in a real environment?&lt;/h4&gt;
-
-&lt;p&gt;They can be both! During my two-day training at CS3sthlm in October we will touch both types of usage. Depending on your goals and scope, it is two different deployment approaches - they can (read should!) be used as a important layer in our “defense in depth” strategies. Internally deployed honeypots can provide an effective “close-to-zero-false-positives” warning system - with a minimal maintained profile - and should be used in most ICS networks. My newest honeypot project Defenica works as a very, very convincing deception ICS device, built on purpose to emulate for example a PLC or HMI system.&lt;/p&gt;
-
-&lt;h4 id=&quot;what-is-the-most-interesting-results-or-effects-you-have-seen-with-your-honeypots&quot;&gt;What is the most interesting results or effects you have seen with your honeypots?&lt;/h4&gt;
-
-&lt;p&gt;That is when I find zero-days targeting my honeypot networks!  Normal reasoning would say that no real attackers would “burn” a zero-day on unsolicited ICS equipment… but some times they do!&lt;/p&gt;
-
-&lt;p&gt;My latest published Moxa vulnerability (CVE-2018-10632) &lt;a href=&quot;https://ics-cert.us-cert.gov/advisories/ICSA-18-200-04&quot;&gt;https://ics-cert.us-cert.gov/advisories/ICSA-18-200-04&lt;/a&gt; was built on the research found in the network traffic aimed at one of my honeypots!&lt;/p&gt;
-
-&lt;p&gt;My 2 day workshop would provide a walk-through on that case, to enable my students to be inspired to do similar zero-day research activities.&lt;/p&gt;
-
-&lt;h4 id=&quot;high-interaction-honeypots-or-low-interaction-honeypots-what-is-that-and-what-do-you-think-about-it&quot;&gt;High interaction honeypots or low interaction honeypots, what is that, and what do you think about it?&lt;/h4&gt;
-
-&lt;p&gt;Honeypots can be either low, medium or high interaction. Low interaction honeypots are very easy to spot as a fake system if the attacker is skilled, but a high interaction honeypot, to a very large extent, has the same feel and look as the device/system that you are emulating.&lt;/p&gt;
-
-&lt;p&gt;During my learning curve I started with typical low interactions honeypots, but today I use only medium/high interaction honeypots. During the workshop we will deploy and work with low, medium and high interaction honeypots – in combination with real ICS/SCADA equipment!&lt;/p&gt;
-
-&lt;h4 id=&quot;during-your-time-running-honeypots-what-is-the-most-surprising-thing-you-have-encountered-or-seen&quot;&gt;During your time running honeypots, what is the most surprising thing you have encountered or seen?&lt;/h4&gt;
-
-&lt;p&gt;When moving from low to high interactions honeypots a whole new world of enriched data emerged! Suddenly I found that I was able to detect and track various attacker groups during their campaign. Often one IP address attacks a honeypot, and they do some stuff and then seem to stop and go away. A while later a new IP adress comes along and continues the work that the first IP started!&lt;/p&gt;
-
-&lt;p&gt;Having deployed a considerably number of honeypots globally, I have been able to see patterns, as well as map various activities to a specific group of attackers, previously hidden.&lt;/p&gt;
-
-&lt;h4 id=&quot;can-an-attacker-easily-see-the-difference-between-a-real-system-and-a-fake-one-the-honeypot&quot;&gt;Can an attacker easily see the difference between a real system and a fake one, the honeypot?&lt;/h4&gt;
-
-&lt;p&gt;No!&lt;/p&gt;
-
-&lt;p&gt;In my class I will share my hard-earned knowledge on how to setup honeypots that an attacker cannot differentiate from a real device!&lt;/p&gt;
-
-&lt;h4 id=&quot;how-would-you-differentiate-the-honeypot-in-comparison-with-an-ids-or-an-ips-what-are-the-advantages&quot;&gt;How would you differentiate the honeypot in comparison with an IDS or an IPS? What are the advantages?&lt;/h4&gt;
-
-&lt;p&gt;Traditional IDS/IPS systems are often signature based, hence they will alert you whenever something match a known “signature”. If the activities/signatures from the attacker are not known in advance, no alert will be triggered.&lt;/p&gt;
-
-&lt;p&gt;As the honeypot is a fake unit, there should never be any reason to communicate with the device - so any and all traffic/alerts to or from it should be investigated by the SOC/Blue team.&lt;/p&gt;
-
-&lt;h4 id=&quot;is-there-anything-that-you-can-catch-or-detect-or-do-with-an-honeypot-that-one-cannot-do-with-an-ids-ips-or-firewall&quot;&gt;Is there anything that you can catch, or detect, or do with an honeypot that one cannot do with an IDS, IPS or firewall?&lt;/h4&gt;
-
-&lt;p&gt;Yes.&lt;/p&gt;
-
-&lt;p&gt;A typical IDS system is designed for operating in environment with traditional IT systems, not OT/ICS equipment. Putting an IDS system to alert on ‘anomaly stuff ‘ e.g. old network protocols in an OT industrial network will fire a lots of alerts and make the security monitor system to light up as a over-charged Christmas three - that not a good way to avoid the alert fatigue that so many SOC/SAC teams are currently suffering from…&lt;/p&gt;
-
-&lt;p&gt;As highlighted earlier, a significant advantage of using honeypot technology is the (almost) zero-false positive alerts.&lt;/p&gt;
-
-&lt;h4 id=&quot;is-the-honeypot-a-protection-or-a-detection-mechanism&quot;&gt;Is the honeypot a protection or a detection mechanism?&lt;/h4&gt;
-
-&lt;p&gt;Very good questions, Robert! I would say that a honeypot typically and &lt;em&gt;primarily&lt;/em&gt; is a detection mechanism to alert you that something is out of order. But based on the deployment options it can actually be both!&lt;/p&gt;
-
-&lt;h4 id=&quot;having-honeypots-in-a-icsscada-environment-what-is-the-most&quot;&gt;Having honeypots in a ICS/SCADA environment, what is the most&lt;/h4&gt;
-&lt;p&gt;important things to think about?&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;To know what  to achieve from the deployment&lt;/li&gt;
-  &lt;li&gt;How to make the honeypot ’believable’&lt;/li&gt;
-  &lt;li&gt;Not introducing new risks for the company&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;All this, and more, is what we will learn on the first day of the workshop!&lt;/p&gt;
-
-&lt;h4 id=&quot;if-a-honeypot-actually-is-being-attacked-what-is-the-first-thing-you-should-do-as-the-owner-of-the-honeypot&quot;&gt;If a honeypot actually is being attacked, what is the first thing you should do as the owner of the honeypot?&lt;/h4&gt;
-
-&lt;p&gt;First: be really happy that it’s a honeypot and not the real equipment the attacker are trying to hack :-)&lt;/p&gt;
-
-&lt;p&gt;Secondly: initiate your incident response (IR) process and start to observe the attacker in order to find the best possible time to kick them out of the environment.&lt;/p&gt;
-
-&lt;p&gt;And - if done properly in the IR phase, be sure to gather knowledge of the TTP’ of the attackers.&lt;/p&gt;
-
-&lt;h4 id=&quot;what-will-your-students-learn-at-the-training&quot;&gt;What will your students learn at the training?&lt;/h4&gt;
-
-&lt;p&gt;My students will learn how to plan, build, deploy and manage different types of honeypots. We will deploy the honeypots on the Internet and see various probes and attacks.&lt;/p&gt;
-
-&lt;p&gt;On the second day we will build a dedicated network with real ICS/SCADA equipment and learn how to move from low to high interactions honeypots. Lots of fun stuff to do with this equipment!
- &lt;/p&gt;
-
-&lt;h4 id=&quot;any-last-final-words-of-advice-you-would-like-to-give&quot;&gt;Any last final words of advice you would like to give?&lt;/h4&gt;
-
-&lt;p&gt;If you don’t already have honeypots in your arsenal of security tools you are missing out on a very interesting technology that can be effective, with zero false positives. If you never have worked with honeypots, please come and join the technical training!&lt;/p&gt;
-
-&lt;p&gt;A great bonus of taking the honeypot class is that you also will get a view on the strange and ‘arcane’ protocols that lives in most industrial networks!&lt;/p&gt;
-</description>
-        <pubDate>Mon, 17 Sep 2018 04:00:00 +0000</pubDate>
-        <link>/blog/mikael-vingaard/</link>
-        <guid isPermaLink="true">/blog/mikael-vingaard/</guid>
         
         
         <category>blog</category>
