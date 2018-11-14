@@ -5647,12 +5647,19 @@ h1, h2, h3, h4 {
 }
 
 .ty-content {
-  display: block;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
   position: relative;
+
+  &-item {
+    width: calc(50% - 10px);
+  }
 
   p {
     display: block;
-    width: 550px;
+    width: 100%;
     margin-bottom: 20px;
     font-size: 18px;
 
@@ -5662,8 +5669,39 @@ h1, h2, h3, h4 {
       box-sizing: border-box;
     }
 
+    a {
+      color: $yellow;
+      text-decoration: underline;
+
+      &:hover {
+        @include transition-ease;
+
+        text-decoration: none;
+        color: $white;
+      }
+    }
+
+    b {
+      font-family: 'latoblack', sans-serif;
+      font-weight: 600;
+    }
+
     i {
       color: $yellow;
+    }
+  }
+
+  &-item-center {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    p {
+      display: block;
+      width: 100%;
+      text-align: center;
     }
   }
 
@@ -5754,7 +5792,7 @@ h1, h2, h3, h4 {
     }
   }
 
-  .large-image img, .medium-image img, .small-image img {
+  .large-image img, .medium-image img, .small-image img, .xsmall-image img {
     width: 100%;
   }
 
@@ -5770,6 +5808,17 @@ h1, h2, h3, h4 {
     }
   }
   .medium-image {
+    width: 740px;
+
+    @include media-query-min($large) {
+      width: 886px;
+    }
+
+    @include media-query($mobile) {
+      width: 100%;
+    }
+  }
+  .small-image {
     width: 550px;
 
     @include media-query-min($large) {
@@ -5780,7 +5829,7 @@ h1, h2, h3, h4 {
       width: 50%;
     }
   }
-  .small-image {
+  .xsmall-image {
     width: 360px;
 
     @include media-query-min($large) {

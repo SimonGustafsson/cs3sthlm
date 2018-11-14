@@ -264,14 +264,6 @@
   
    {
      
-        "title"    : "Welcome",
-        "url"      : "/welcome/",
-        "path"     : "/welcome/"
-     
-   },
-  
-   {
-     
         "title"    : "Call for Participation",
         "url"      : "/call-for-proposals/",
         "path"     : "/call-for-proposals/"
@@ -280,9 +272,9 @@
   
    {
      
-        "title"    : "About",
-        "url"      : "/about/",
-        "path"     : "/about/"
+        "title"    : "News",
+        "url"      : "/news/",
+        "path"     : "/news/"
      
    },
   
@@ -296,41 +288,9 @@
   
    {
      
-        "title"    : "Speakers",
-        "url"      : "/program/speakers/",
-        "path"     : "/program/speakers/"
-     
-   },
-  
-   {
-     
-        "title"    : "Archive",
-        "url"      : "/about/archive/",
-        "path"     : "/about/archive/"
-     
-   },
-  
-   {
-     
         "title"    : "Trainings",
         "url"      : "/program/trainings/",
         "path"     : "/program/trainings/"
-     
-   },
-  
-   {
-     
-        "title"    : "ICS Lab",
-        "url"      : "/ics-lab/",
-        "path"     : "/ics-lab/"
-     
-   },
-  
-   {
-     
-        "title"    : "Press",
-        "url"      : "/press/",
-        "path"     : "/press/"
      
    },
   
@@ -352,9 +312,9 @@
   
    {
      
-        "title"    : "CS3STHLM - App",
-        "url"      : "/app/",
-        "path"     : "/app/"
+        "title"    : "Speakers",
+        "url"      : "/program/speakers/",
+        "path"     : "/program/speakers/"
      
    },
   
@@ -376,17 +336,49 @@
   
    {
      
-        "title"    : "News",
-        "url"      : "/news/",
-        "path"     : "/news/"
+        "title"    : "CS3STHLM - App",
+        "url"      : "/app/",
+        "path"     : "/app/"
      
    },
   
    {
      
-        "title"    : "Expo Presentations",
-        "url"      : "/expo/presentations/",
-        "path"     : "/expo/presentations/"
+        "title"    : "Thank You",
+        "url"      : "/thank-you/",
+        "path"     : "/thank-you/"
+     
+   },
+  
+   {
+     
+        "title"    : "Press",
+        "url"      : "/press/",
+        "path"     : "/press/"
+     
+   },
+  
+   {
+     
+        "title"    : "ICS Lab",
+        "url"      : "/ics-lab/",
+        "path"     : "/ics-lab/"
+     
+   },
+  
+   {
+     
+        "title"    : "Archive",
+        "url"      : "/about/archive/",
+        "path"     : "/about/archive/"
+     
+   },
+  
+   {
+     
+        "title"    : "History",
+        "url"      : "/about/history/",
+        "path"     : "/about/history/"
      
    },
   
@@ -400,17 +392,25 @@
   
    {
      
-        "title"    : "Home",
-        "url"      : "/",
-        "path"     : ""
+        "title"    : "About",
+        "url"      : "/about/",
+        "path"     : "/about/"
      
    },
   
    {
      
-        "title"    : "History",
-        "url"      : "/about/history/",
-        "path"     : "/about/history/"
+        "title"    : "Expo Presentations",
+        "url"      : "/expo/presentations/",
+        "path"     : "/expo/presentations/"
+     
+   },
+  
+   {
+     
+        "title"    : "Home",
+        "url"      : "/",
+        "path"     : ""
      
    },
   
@@ -427,6 +427,14 @@
         "title"    : "Expo",
         "url"      : "/expo/",
         "path"     : "/expo/"
+     
+   },
+  
+   {
+     
+        "title"    : "Welcome",
+        "url"      : "/welcome/",
+        "path"     : "/welcome/"
      
    },
   

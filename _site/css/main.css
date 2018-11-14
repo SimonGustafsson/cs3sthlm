@@ -4328,11 +4328,16 @@ h1, h2, h3, h4 {
     font-size: 26px; }
 
 .ty-content {
-  display: block;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
   position: relative; }
+  .ty-content-item {
+    width: calc(50% - 10px); }
   .ty-content p {
     display: block;
-    width: 550px;
+    width: 100%;
     margin-bottom: 20px;
     font-size: 18px; }
     @media screen and (max-width: 768px) {
@@ -4340,8 +4345,31 @@ h1, h2, h3, h4 {
         width: 100%;
         padding: 0 20px;
         box-sizing: border-box; } }
+    .ty-content p a {
+      color: #ef7d00;
+      text-decoration: underline; }
+      .ty-content p a:hover {
+        transition: 0.24s all ease-in-out;
+        -moz-transition: 0.24s all ease-in-out;
+        -webkit-transtiion: 0.24s all ease-in-out;
+        -o-transition: 0.24s all ease-in-out;
+        text-decoration: none;
+        color: white; }
+    .ty-content p b {
+      font-family: 'latoblack', sans-serif;
+      font-weight: 600; }
     .ty-content p i {
       color: #ef7d00; }
+  .ty-content-item-center {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; }
+    .ty-content-item-center p {
+      display: block;
+      width: 100%;
+      text-align: center; }
   .ty-content img {
     display: block;
     position: absolute;
@@ -4403,7 +4431,7 @@ h1, h2, h3, h4 {
       @media screen and (max-width: 768px) {
         .gallery .image-column img:last-of-type {
           margin-top: 10px; } }
-  .gallery .large-image img, .gallery .medium-image img, .gallery .small-image img {
+  .gallery .large-image img, .gallery .medium-image img, .gallery .small-image img, .gallery .xsmall-image img {
     width: 100%; }
   .gallery .large-image {
     width: 1120px; }
@@ -4414,20 +4442,28 @@ h1, h2, h3, h4 {
       .gallery .large-image {
         width: 100%; } }
   .gallery .medium-image {
+    width: 740px; }
+    @media screen and (min-width: 1680px) {
+      .gallery .medium-image {
+        width: 886px; } }
+    @media screen and (max-width: 768px) {
+      .gallery .medium-image {
+        width: 100%; } }
+  .gallery .small-image {
     width: 550px; }
     @media screen and (min-width: 1680px) {
-      .gallery .medium-image {
+      .gallery .small-image {
         width: 659px; } }
     @media screen and (max-width: 768px) {
-      .gallery .medium-image {
+      .gallery .small-image {
         width: 50%; } }
-  .gallery .small-image {
+  .gallery .xsmall-image {
     width: 360px; }
     @media screen and (min-width: 1680px) {
-      .gallery .small-image {
+      .gallery .xsmall-image {
         width: 432px; } }
     @media screen and (max-width: 768px) {
-      .gallery .small-image {
+      .gallery .xsmall-image {
         width: 33.3333%; } }
 
 .col-full-width {
