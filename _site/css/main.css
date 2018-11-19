@@ -162,7 +162,7 @@ h1, h2, h3, h4 {
 /**
   HOME */
 .home {
-  background: #030100 url("../assets/cs3sthlm-bg-2018.png") no-repeat;
+  background: #030100 url("../assets/background-2019.png") no-repeat;
   background-size: 100% auto;
   background-position: top center; }
   @media screen and (max-width: 768px) {

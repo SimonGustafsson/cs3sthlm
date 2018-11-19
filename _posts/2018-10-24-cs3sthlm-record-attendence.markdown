@@ -13,7 +13,7 @@ pdf:
 
 After the first conference day founders Robert Malmgren and Erik Johansson are pleased to state that the years conference is the most successful so far, both in attendance and format. The new expo day added a welcome meeting arena for businesses, legislators and other stakeholders. 
 
-The second day of the summit will open with Key Note Patrick Miller (US)and his presentation
+The second day of the summit will open with Key Note Patrick Miller (US) and his presentation
 
 #### Industrial Technology Trajectory: Running With Scissors
 

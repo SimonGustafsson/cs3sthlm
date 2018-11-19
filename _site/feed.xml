@@ -3,10 +3,10 @@
   <channel>
     <title>CS3STHLM</title>
     <description>CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 14 Nov 2018 12:21:23 +0000</pubDate>
-    <lastBuildDate>Wed, 14 Nov 2018 12:21:23 +0000</lastBuildDate>
+    <link>http://0.0.0.0:4000/</link>
+    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 19 Nov 2018 14:54:50 +0000</pubDate>
+    <lastBuildDate>Mon, 19 Nov 2018 14:54:50 +0000</lastBuildDate>
     <generator>Jekyll v3.6.3</generator>
     
       <item>
@@ -25,8 +25,8 @@
 
 </description>
         <pubDate>Thu, 25 Oct 2018 04:00:00 +0000</pubDate>
-        <link>/news/2018/10/25/cs3sthlm-summary-of-2018-event.html</link>
-        <guid isPermaLink="true">/news/2018/10/25/cs3sthlm-summary-of-2018-event.html</guid>
+        <link>http://0.0.0.0:4000/news/2018/10/25/cs3sthlm-summary-of-2018-event.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/news/2018/10/25/cs3sthlm-summary-of-2018-event.html</guid>
         
         
         <category>news</category>
@@ -39,15 +39,15 @@
 
 &lt;p&gt;After the first conference day founders Robert Malmgren and Erik Johansson are pleased to state that the years conference is the most successful so far, both in attendance and format. The new expo day added a welcome meeting arena for businesses, legislators and other stakeholders.&lt;/p&gt;
 
-&lt;p&gt;The second day of the summit will open with Key Note Patrick Miller (US)and his presentation&lt;/p&gt;
+&lt;p&gt;The second day of the summit will open with Key Note Patrick Miller (US) and his presentation&lt;/p&gt;
 
 &lt;h4 id=&quot;industrial-technology-trajectory-running-with-scissors&quot;&gt;Industrial Technology Trajectory: Running With Scissors&lt;/h4&gt;
 
 &lt;p&gt;Innovative and disruptive technologies are enhancing and invading our traditional industrial business model. Future infrastructure organizations will need more data to operate efficiently and succeed in the brave new interconnected world. The diversity of new technologies and data will fuel more diversity in business opportunity. Everyone expects more OT, more IOT, and more IT - and all of it is supposed to be highly reliable and secure. These factors (and more) lead to a landscape shift for the industrial cybersecurity risk profile. In this session, hear ways to recognize the problems and gain some clarity on possible solutions through historic lessons, made up words, and practical front-line experience.a&lt;/p&gt;
 </description>
         <pubDate>Wed, 24 Oct 2018 04:00:00 +0000</pubDate>
-        <link>/news/2018/10/24/cs3sthlm-record-attendence.html</link>
-        <guid isPermaLink="true">/news/2018/10/24/cs3sthlm-record-attendence.html</guid>
+        <link>http://0.0.0.0:4000/news/2018/10/24/cs3sthlm-record-attendence.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/news/2018/10/24/cs3sthlm-record-attendence.html</guid>
         
         
         <category>news</category>
@@ -92,8 +92,8 @@ In case, that several contesters gets the same (correct) reply - there will be a
 
 </description>
         <pubDate>Mon, 22 Oct 2018 04:00:00 +0000</pubDate>
-        <link>/news/2018/10/22/cs3sthlm-app-and-honey-pot-competition.html</link>
-        <guid isPermaLink="true">/news/2018/10/22/cs3sthlm-app-and-honey-pot-competition.html</guid>
+        <link>http://0.0.0.0:4000/news/2018/10/22/cs3sthlm-app-and-honey-pot-competition.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/news/2018/10/22/cs3sthlm-app-and-honey-pot-competition.html</guid>
         
         
         <category>news</category>
@@ -133,8 +133,8 @@ In case, that several contesters gets the same (correct) reply - there will be a
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 18 Oct 2018 04:00:00 +0000</pubDate>
-        <link>/press/2018/10/18/cs3sthlm-fifth-conference.html</link>
-        <guid isPermaLink="true">/press/2018/10/18/cs3sthlm-fifth-conference.html</guid>
+        <link>http://0.0.0.0:4000/press/2018/10/18/cs3sthlm-fifth-conference.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/press/2018/10/18/cs3sthlm-fifth-conference.html</guid>
         
         
         <category>press</category>
@@ -178,8 +178,8 @@ In case, that several contesters gets the same (correct) reply - there will be a
 &lt;p&gt;I don’t know. Buy a ticket. Show up. Stay geek?&lt;/p&gt;
 </description>
         <pubDate>Mon, 15 Oct 2018 04:00:00 +0000</pubDate>
-        <link>/blog/ola-hermansson/</link>
-        <guid isPermaLink="true">/blog/ola-hermansson/</guid>
+        <link>http://0.0.0.0:4000/blog/ola-hermansson/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/blog/ola-hermansson/</guid>
         
         
         <category>blog</category>
@@ -267,8 +267,8 @@ Anton Shipulin: &lt;a href=&quot;https://twitter.com/shipulin_anton&quot;&gt;@Sh
 
 </description>
         <pubDate>Mon, 15 Oct 2018 04:00:00 +0000</pubDate>
-        <link>/blog/anton-shipulin/</link>
-        <guid isPermaLink="true">/blog/anton-shipulin/</guid>
+        <link>http://0.0.0.0:4000/blog/anton-shipulin/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/blog/anton-shipulin/</guid>
         
         
         <category>blog</category>
@@ -313,8 +313,8 @@ What is the biggest challenges to automotive area with regards to security? I 
 &lt;p&gt;That although there are some hard questions waiting to be answered we do know the basics of how to do this right. These are not new and sexy things and they take some effort, but it’s certainly doable. Also, we are still very early on in this particular race. So there is still time to learn from other fields and do some things better. &lt;/p&gt;
 </description>
         <pubDate>Wed, 26 Sep 2018 04:00:00 +0000</pubDate>
-        <link>/blog/kai-thomsen/</link>
-        <guid isPermaLink="true">/blog/kai-thomsen/</guid>
+        <link>http://0.0.0.0:4000/blog/kai-thomsen/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/blog/kai-thomsen/</guid>
         
         
         <category>blog</category>
@@ -474,8 +474,8 @@ What is the biggest challenges to automotive area with regards to security? I 
 &lt;/div&gt;
 </description>
         <pubDate>Wed, 19 Sep 2018 04:00:00 +0000</pubDate>
-        <link>/news/2018/09/19/cs3sthlm-newsletter-september.html</link>
-        <guid isPermaLink="true">/news/2018/09/19/cs3sthlm-newsletter-september.html</guid>
+        <link>http://0.0.0.0:4000/news/2018/09/19/cs3sthlm-newsletter-september.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/news/2018/09/19/cs3sthlm-newsletter-september.html</guid>
         
         
         <category>news</category>
@@ -551,8 +551,8 @@ What is the biggest challenges to automotive area with regards to security? I 
 
 </description>
         <pubDate>Tue, 18 Sep 2018 04:00:00 +0000</pubDate>
-        <link>/blog/erik-johansson/</link>
-        <guid isPermaLink="true">/blog/erik-johansson/</guid>
+        <link>http://0.0.0.0:4000/blog/erik-johansson/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/blog/erik-johansson/</guid>
         
         
         <category>blog</category>
@@ -635,8 +635,8 @@ things in the interview that you didnt already knew about the standard!&lt;/em&g
 &lt;p&gt;I am happy that I have been invited to give a lecture at CS3STHLM. I am looking forward to meet IRL some old friends from the ICS security community and to make a lot of new ones in Stockholm! I heard rumours there might be a gathering of the European Chapter of BEER-ISAC also…&lt;/p&gt;
 </description>
         <pubDate>Mon, 17 Sep 2018 05:00:00 +0000</pubDate>
-        <link>/blog/dr-stephan-beirer/</link>
-        <guid isPermaLink="true">/blog/dr-stephan-beirer/</guid>
+        <link>http://0.0.0.0:4000/blog/dr-stephan-beirer/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/blog/dr-stephan-beirer/</guid>
         
         
         <category>blog</category>
