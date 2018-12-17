@@ -408,7 +408,7 @@
   type: presentation
   permalink:
   name: Erwin Kooi
-  role: ICS/SCADA Architech
+  role: ICS/SCADA Architect
   work: Alliander
   country: Netherlands
   shortcode: NL
@@ -423,7 +423,7 @@
       permalink: program/presentations/erwin-rik/
       partner: active
       name: Rik van Hees
-      role: ICS Security Architect
+      role: OT Security Officer
       work: Alliander
       image: rik-van-hees.png
       description: |
@@ -450,7 +450,7 @@
   type: presentation
   permalink:
   name: Rik van Hees
-  role: ICS Security Architect
+  role: OT Security Officer
   work: Alliander
   country: Netherlands
   shortcode: NL
@@ -465,7 +465,7 @@
       permalink: program/presentations/erwin-rik/
       partner: active
       name: Erwin Kooi
-      role: ICS/SCADA Architech
+      role: ICS/SCADA Architect
       work: Alliander
       image: erwin-kooi.png
       description: |

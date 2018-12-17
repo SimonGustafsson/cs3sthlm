@@ -8,7 +8,7 @@ speaker:
   work: Alliander
   image: erwin-kooi.png
 - name: Rik van Hees
-  role: ICS Security Architect
+  role: OT Security Officer
   work: Alliander
   image: rik-van-hees.png
 id: presentation
