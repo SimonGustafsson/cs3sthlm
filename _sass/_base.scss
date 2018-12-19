@@ -286,7 +286,7 @@ h1, h2, h3, h4 {
     }
 
     li {
-      margin-left: 30px;
+      margin-left: 24px;
 
       &.search-block {
         position: relative;
@@ -316,6 +316,14 @@ h1, h2, h3, h4 {
         svg {
           margin-left: 5px;
         }
+      }
+
+      @include media-query-min($large) {
+        margin-left: 30px;
+      }
+
+      @include media-query($small) {
+        margin-left: 12px;
       }
 
       @include media-query($mobile) {
@@ -1320,13 +1328,11 @@ h1, h2, h3, h4 {
         &:nth-child(2) {
           margin-left: 4%;
         }
+        &:last-of-type {
+          width: 100%;
+        }
       }
 
-      .btn-yellow {
-        width: 100%;
-        margin-bottom: 20px;
-        order: 4;
-      }
       .btn-thank-you {
         width: 47.5%;
         margin-bottom: 0;

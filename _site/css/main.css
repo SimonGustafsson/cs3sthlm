@@ -336,7 +336,7 @@ h1, h2, h3, h4 {
         -webkit-flex-wrap: wrap;
         display: none; } }
     .menu--primary ul li {
-      margin-left: 30px; }
+      margin-left: 24px; }
       .menu--primary ul li.search-block {
         position: relative; }
         .menu--primary ul li.search-block:before {
@@ -356,6 +356,12 @@ h1, h2, h3, h4 {
             display: block; } }
         .menu--primary ul li.search-block-item svg {
           margin-left: 5px; }
+      @media screen and (min-width: 1680px) {
+        .menu--primary ul li {
+          margin-left: 30px; } }
+      @media screen and (max-width: 1170px) {
+        .menu--primary ul li {
+          margin-left: 12px; } }
       @media screen and (max-width: 768px) {
         .menu--primary ul li {
           margin-left: 0;
@@ -1119,10 +1125,8 @@ h1, h2, h3, h4 {
           margin-top: 20px; }
         .introduction .btn-group-intro .btn:nth-child(2) {
           margin-left: 4%; }
-      .introduction .btn-group-intro .btn-yellow {
-        width: 100%;
-        margin-bottom: 20px;
-        order: 4; }
+        .introduction .btn-group-intro .btn:last-of-type {
+          width: 100%; }
       .introduction .btn-group-intro .btn-thank-you {
         width: 47.5%;
         margin-bottom: 0; }
