@@ -5,9 +5,42 @@
     <description>CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Dec 2018 14:31:03 +0000</pubDate>
-    <lastBuildDate>Wed, 19 Dec 2018 14:31:03 +0000</lastBuildDate>
+    <pubDate>Wed, 19 Dec 2018 16:02:59 +0000</pubDate>
+    <lastBuildDate>Wed, 19 Dec 2018 16:02:59 +0000</lastBuildDate>
     <generator>Jekyll v3.6.3</generator>
+    
+      <item>
+        <title>CS3STHLM Newsletter December</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/cs3-holiday.png&quot; alt=&quot;CS3STHLM Holiday&quot; class=&quot;full-width-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The CS3STHLM 2018 summit had several Top speaker presentations from from different angles of Cybersecurity, SCADA and Industrial Control Systems. As a holiday gift for you, we are now starting to publish presentations on our YouTube channel:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://cs3sthlm.se/youtube&quot;&gt;cs3sthlm.se/youtube&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Next year we will be back for the sixth edition of CS3STHLM and the dates are October 21st-24th – &lt;strong&gt;mark your calendars!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;CS3STHLM 2019 Trainings will be Monday – Tuesday 21-22&lt;/p&gt;
+
+&lt;p&gt;CS3STHLM 2019 Expo day Tuesday October 22&lt;/p&gt;
+
+&lt;p&gt;CS3STHLM 2019 Summit starts Wednesday Oct 23 and ends Thursday October 24.&lt;/p&gt;
+
+&lt;p&gt;Another holiday gift is that we already have opened the ticket sale for 2018 with a special &lt;strong&gt;Earliest Bird&lt;/strong&gt; discount of 30 % on the two-day conference ticket. Link: &lt;a href=&quot;https://tickets.cs3sthlm.se/&quot;&gt;tickets.cs3sthlm.se&lt;/a&gt; and the discounted ticket is available until January 31st. You can add training sessions to this ’summit only’ ticket at a later point.&lt;/p&gt;
+
+&lt;p&gt;A very happy holiday season - from all of us, to all of you!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;The CS3STHLM crew&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Per request we have also added a number of vouchers, each valid for SEK 5.000kr, that later can be used for any CS3STHLM 2019 related cost like training, Expo or summit. If you still have budget to spend, that is!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 19 Dec 2018 04:00:00 +0000</pubDate>
+        <link>/news/2018/12/19/cs3sthlm-newsletter-december.html</link>
+        <guid isPermaLink="true">/news/2018/12/19/cs3sthlm-newsletter-december.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
     
       <item>
         <title>CS3STHLM Summary of 2018 Event</title>
@@ -553,90 +586,6 @@ What is the biggest challenges to automotive area with regards to security? I 
         <pubDate>Tue, 18 Sep 2018 04:00:00 +0000</pubDate>
         <link>/blog/erik-johansson/</link>
         <guid isPermaLink="true">/blog/erik-johansson/</guid>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Dr. Stephan Beirer - The Expert on the ISO/IEC 20719 standard</title>
-        <description>&lt;p&gt;&lt;em&gt;This is a blog post interview with Dr. Stephan Beirer, the expert on the
-ISO/IEC 27019 standard. He will give a training session during the
-CS3sthlm conference week. Below you will find an interview we did with
-him as he was preparing for the class. You will probably find several
-things in the interview that you didnt already knew about the standard!&lt;/em&gt;&lt;/p&gt;
-
-&lt;h1 class=&quot;blog-title&quot;&gt;Dr. Stephan Beirer - The Expert on the ISO/IEC 20719 standard&lt;/h1&gt;
-
-&lt;h4 id=&quot;what-is-your-day-job-where-are-you-working-and-what-do-you-do&quot;&gt;What is your day job, where are you working and what do you do?&lt;/h4&gt;
-
-&lt;p&gt;I am a Principal Security Consultant and the Team Manager for ICS/OT Security at GAI NetConsult, a security consulting company based in Berlin / Germany.&lt;/p&gt;
-
-&lt;p&gt;GAI NetConsult has been working in the ICS/OT domain for more than 15 years. Together with my colleagues we do consulting and technical or organizational auditing in the OT and ICS domain, mostly for operators and asset owners from energy industry, industrial manufacturing and for critical infrastructure projects.&lt;/p&gt;
-
-&lt;h4 id=&quot;for-how-long-have-you-worked-in-the-field&quot;&gt;For how long have you worked in the field?&lt;/h4&gt;
-
-&lt;p&gt;During my studies and my PhD, I worked as a freelance security consultant. In 2006, I joined GAI NetConsult; I have been working in the ICS / OT domain since then.&lt;/p&gt;
-
-&lt;h4 id=&quot;are-you-involved-in-the-standardization-process-what-areas-are-you-working-with&quot;&gt;Are you involved in the standardization process? What areas are you working with?&lt;/h4&gt;
-
-&lt;p&gt;Since 2010, I am involved in security standardization for ICS and OT systems. First in the security working group of the German utility organization BDEW, then also in the national standardization institutions DIN and DKE, the German mirror organisation to IEC. Since 2011, I have been working on the international level within ISO and IEC. In the working group responsible for information security management at ISO/IEC, I am the Editor of ISO/IEC 27019 and an expert for ICS and Smart Grid.&lt;/p&gt;
-
-&lt;h4 id=&quot;in-your-class-you-will-cover-the-isoiec-27019-standard-which-is-somewhat-unknown-to-many-what-is-the-background-for-this-standard&quot;&gt;In your class, you will cover the ISO/IEC 27019 standard, which is somewhat unknown to many. What is the background for this standard?&lt;/h4&gt;
-
-&lt;p&gt;ISO/IEC 27019 started as a German national project in 2010. It was initiated by several large and medium sized energy utilities and BDEW, the German utility association. The utilities felt that it was hard to integrate the OT / ICS domain within their security management organization, which was based on ISO/IEC 27001 within most companies. They decided to publish a standard to fill this gap and in 2013, the German version was translated and published as an international ISO/IEC document.&lt;/p&gt;
-
-&lt;p&gt;The aim of 27019 is to extend the contents of ISO/IEC 27002 to the domain of process control systems and automation technology, thus allowing energy utilities to implement a standardized and specific information security management system (ISMS) that extends from the business to the process control level.&lt;/p&gt;
-
-&lt;h4 id=&quot;where-you-involved-early-on-with-the-development-of-the-isoiec-27019-standard&quot;&gt;Where you involved early on with the development of the ISO/IEC 27019 standard?&lt;/h4&gt;
-
-&lt;p&gt;I was the project leader and editor for the German version at DIN and DKE from 2010 to 2012 and was then delegated from the German National Body to ISO/IEC to be the Editor of the International Standard.&lt;/p&gt;
-
-&lt;h4 id=&quot;there-is-a-relatively-new-edition-of-the-standard-does-the-new-version-differ-much-in-comparison-with-older-ones&quot;&gt;There is a relatively new edition of the standard. Does the new version differ much in comparison with older ones?&lt;/h4&gt;
-
-&lt;p&gt;The latest version from 2017 is now completely aligned with the current version of ISO/IEC 27001 and 27002, so it can be seamlessly used within an ISMS based on ISO/IEC 27001. Additionally we aligned with 27001 in such a way that is possible to have certifications based on ISO/IEC 27019 together with 27001. Furthermore, the scope of the standard has been extended to include the oil sector. We completely revised the technical content of all security controls and twelve new topics are covered now which were not included in the first revision from 2013, e.g. with regard to mobile devices, vulnerability management or technical reviews. 
- &lt;/p&gt;
-
-&lt;h4 id=&quot;will-utility-companies-start-certification-processes-against-the-27019-standard-or-is-it-still-against-the-27001-only&quot;&gt;Will utility companies start certification processes against the 27019 standard, or is it still against the 27001 only?&lt;/h4&gt;
-
-&lt;p&gt;It is now possible to have a certification for ISO/IEC 27019. This automatically includes the ISO/IEC 27001 requirements, which 27019 refers to. In Germany, already all gas and electricity grid providers have to be certified against ISO/IEC 27001 together with ISO´/IEC 27002 and 27019 since January, very likely a similar regulation will come into force for large generation and gas storage plants.&lt;/p&gt;
-
-&lt;h4 id=&quot;is-there-any-requirement-on-prerequisites-and-prior-deep-knowledge-of-isoiec-27000-before-taking-the-class&quot;&gt;Is there any requirement on prerequisites and prior deep knowledge of ISO/IEC 27000 before taking the class?&lt;/h4&gt;
-
-&lt;p&gt;Absolutely not. After an introduction to the energy supply and the ICS systems used in the different energy domains, I will give an overview about the ISO/IEC 27000 series and the important content of ISO/IEC 27001, which is necessary to understand the application of 27019. Then we will concentrate on the 27019 controls for the various security management domains.&lt;/p&gt;
-
-&lt;h4 id=&quot;you-will-also-talk-about-an-interesting-german-and-austrian-whitepaper-what-is-the-background-of-this-document&quot;&gt;You will also talk about an interesting German and Austrian Whitepaper. What is the background of this document?&lt;/h4&gt;
-
-&lt;p&gt;The Whitepaper „Requirements for Secure Control and Telecommunication Systems” is a best practice guideline, which defines security requirements for control systems used in the energy domain. It was developed by the German and Austrian utility associations BDEW and Oesterreichs Energie - therefore it is also called BDEW/OE-Whitepaper. The first version was published already in 2008 and it has become the de-facto standard in the German speaking regions, i.e. Germany, Austria and Switzerland for security requirement definitions for control systems in the energy domain.&lt;/p&gt;
-
-&lt;p&gt;In May 2018 a fully revised version 2.0 has been published, the English translation is available is here:  https://www.bdew.de/service/anwendungshilfen/whitepaper-anforderungen-sichere-steuerungs-telekommunikationssysteme/&lt;/p&gt;
-
-&lt;h4 id=&quot;how-does-the-bdewoe-whitepaper-relate-to-isoiec-27019&quot;&gt;How does the BDEW/OE-Whitepaper relate to ISO/IEC 27019?&lt;/h4&gt;
-
-&lt;p&gt;While ISO/IEC 27019 defines requirements and best-practice controls related to the security management in the utility organization, the BDEW/OE-Whitepaper covers the requirements for the technology used in the ICS/OT domain. It is focusing on security specification and requirement definition in procurement projects.&lt;/p&gt;
-
-&lt;p&gt;Together, ISO/IEC 27019 and the BDEW/OE-Whitepaper are the basis for secure operation within an energy utility.&lt;/p&gt;
-
-&lt;h4 id=&quot;how-long-have-you-been-working-with-the-bdewoe-whitepaper&quot;&gt;How long have you been working with the BDEW/OE-Whitepaper?&lt;/h4&gt;
-
-&lt;p&gt;With BDEW and Oesterreichs Energie, I have been the editor of the Whitepaper both for the initial version in 2008 and for the revision in 2018. I have used the Whitepaper very often over the last 10 years, especially in procurement and audit projects for grid control systems, substation automation and protection systems as well as for power and gas storage plant automation and virtual power plants and supporting OT systems. Oddly enough, sometimes I still have to discuss the same problematic topics with suppliers and integrators as ten years ago.&lt;/p&gt;
-
-&lt;h4 id=&quot;is-your-class-only-theoretical-or-will-the-participants-also-have-any-practical-exercises&quot;&gt;Is your class only theoretical, or will the participants also have any practical exercises?&lt;/h4&gt;
-
-&lt;p&gt;We will have exercises to learn how to apply the lecture content with regard to the ISO/IEC 27019 controls and the BDEW/OE-Whitepaper requirements. I will give as many first hand experiences from my projects with 27019 and the Whitepaper as possible.&lt;/p&gt;
-
-&lt;h4 id=&quot;as-an-expert-in-the-field-of-itinformationcyber-security-any-advice-you-would-like-to-share&quot;&gt;As an expert in the field of IT/information/cyber security, any advice you would like to share?&lt;/h4&gt;
-
-&lt;p&gt;Our field is rapidly changing, thus is very important to have a regular exchange within the community. CS3STHLM is a perfect event for this.&lt;/p&gt;
-
-&lt;h4 id=&quot;any-last-thoughts-you-would-like-to-share-with-the-readers&quot;&gt;Any last thoughts you would like to share with the readers?&lt;/h4&gt;
-
-&lt;p&gt;I am happy that I have been invited to give a lecture at CS3STHLM. I am looking forward to meet IRL some old friends from the ICS security community and to make a lot of new ones in Stockholm! I heard rumours there might be a gathering of the European Chapter of BEER-ISAC also…&lt;/p&gt;
-</description>
-        <pubDate>Mon, 17 Sep 2018 05:00:00 +0000</pubDate>
-        <link>/blog/dr-stephan-beirer/</link>
-        <guid isPermaLink="true">/blog/dr-stephan-beirer/</guid>
         
         
         <category>blog</category>
