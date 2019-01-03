@@ -23,7 +23,7 @@ CS3STHLM 2019 Expo day Tuesday October 22
 
 CS3STHLM 2019 Summit starts Wednesday Oct 23 and ends Thursday October 24.
 
-Another holiday gift is that we already have opened the ticket sale for 2018 with a special **Earliest Bird** discount of 30 % on the two-day conference ticket. Link: [tickets.cs3sthlm.se](https://tickets.cs3sthlm.se/) and the discounted ticket is available until January 31st. You can add training sessions to this ’summit only’ ticket at a later point.
+Another holiday gift is that we already have opened the ticket sale for 2019 with a special **Earliest Bird** discount of 30 % on the two-day conference ticket. Link: [tickets.cs3sthlm.se](https://tickets.cs3sthlm.se/) and the discounted ticket is available until January 31st. You can add training sessions to this ’summit only’ ticket at a later point.
 
 A very happy holiday season - from all of us, to all of you!
 
