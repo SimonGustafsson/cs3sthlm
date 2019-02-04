@@ -86,6 +86,36 @@ h1, h2, h3, h4 {
 
 }
 
+.outdated-block {
+  display: block;
+  padding: 24px;
+  box-sizing: border-box;
+  background: $yellow;
+  color: $white;
+  border-radius: 8px;
+  margin-bottom: 40px;
+
+  @include media-query($mobile) {
+    border-radius: 0;
+  }
+
+  h2 {
+    font-family: 'latoblack', sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 1.5;
+  }
+  p {
+    font-family: 'latobold', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5;
+
+    b {
+      text-decoration: underline;
+    }
+  }
+}
 
 /**
   HEADER */

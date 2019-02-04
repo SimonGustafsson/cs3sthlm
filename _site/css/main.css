@@ -186,6 +186,30 @@ h1, h2, h3, h4 {
   .notice-bar h3 {
     color: #ef7d00; }
 
+.outdated-block {
+  display: block;
+  padding: 24px;
+  box-sizing: border-box;
+  background: #ef7d00;
+  color: white;
+  border-radius: 8px;
+  margin-bottom: 40px; }
+  @media screen and (max-width: 768px) {
+    .outdated-block {
+      border-radius: 0; } }
+  .outdated-block h2 {
+    font-family: 'latoblack', sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 1.5; }
+  .outdated-block p {
+    font-family: 'latobold', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5; }
+    .outdated-block p b {
+      text-decoration: underline; }
+
 /**
   HEADER */
 .header {
