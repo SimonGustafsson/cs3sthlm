@@ -271,6 +271,46 @@
   
    {
      
+        "title"    : "Advisory",
+        "url"      : "/about/advisory/",
+        "path"     : "/about/advisory/"
+     
+   },
+  
+   {
+     
+        "title"    : "Expo Presentations",
+        "url"      : "/expo/presentations/",
+        "path"     : "/expo/presentations/"
+     
+   },
+  
+   {
+     
+        "title"    : "Expo Agenda",
+        "url"      : "/expo/agenda/",
+        "path"     : "/expo/agenda/"
+     
+   },
+  
+   {
+     
+        "title"    : "Expo",
+        "url"      : "/expo/",
+        "path"     : "/expo/"
+     
+   },
+  
+   {
+     
+        "title"    : "Welcome",
+        "url"      : "/welcome/",
+        "path"     : "/welcome/"
+     
+   },
+  
+   {
+     
         "title"    : "Call for Participation",
         "url"      : "/call-for-proposals/",
         "path"     : "/call-for-proposals/"
@@ -295,6 +335,14 @@
   
    {
      
+        "title"    : "Speakers",
+        "url"      : "/program/speakers/",
+        "path"     : "/program/speakers/"
+     
+   },
+  
+   {
+     
         "title"    : "Trainings",
         "url"      : "/program/trainings/",
         "path"     : "/program/trainings/"
@@ -303,25 +351,9 @@
   
    {
      
-        "title"    : "Agenda",
-        "url"      : "/agenda/",
-        "path"     : "/agenda/"
-     
-   },
-  
-   {
-     
-        "title"    : "Program",
-        "url"      : "/program/",
-        "path"     : "/program/"
-     
-   },
-  
-   {
-     
-        "title"    : "Speakers",
-        "url"      : "/program/speakers/",
-        "path"     : "/program/speakers/"
+        "title"    : "About",
+        "url"      : "/about/",
+        "path"     : "/about/"
      
    },
   
@@ -375,6 +407,62 @@
   
    {
      
+        "title"    : "Daniel Michaud-Soucy",
+        "url"      : "/about/archive/speakers/daniel-michaud-soucy",
+        "path"     : "/about/archive/speakers/daniel-michaud-soucy"
+     
+   },
+  
+   {
+     
+        "title"    : "Dan Demeter",
+        "url"      : "/about/archive/speakers/dan-demeter",
+        "path"     : "/about/archive/speakers/dan-demeter"
+     
+   },
+  
+   {
+     
+        "title"    : "Erik Hjelmvik",
+        "url"      : "/about/archive/speakers/erik-hjelmvik",
+        "path"     : "/about/archive/speakers/erik-hjelmvik"
+     
+   },
+  
+   {
+     
+        "title"    : "Anne-Marie Eklund Löwinder",
+        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
+     
+   },
+  
+   {
+     
+        "title"    : "Patrick Miller",
+        "url"      : "/about/archive/speakers/patrick-miller",
+        "path"     : "/about/archive/speakers/patrick-miller"
+     
+   },
+  
+   {
+     
+        "title"    : "Robert M. Lee",
+        "url"      : "/about/archive/speakers/robert-m-lee",
+        "path"     : "/about/archive/speakers/robert-m-lee"
+     
+   },
+  
+   {
+     
+        "title"    : "Speakers",
+        "url"      : "/about/archive/speakers/",
+        "path"     : "/about/archive/speakers/"
+     
+   },
+  
+   {
+     
         "title"    : "Archive",
         "url"      : "/about/archive/",
         "path"     : "/about/archive/"
@@ -391,25 +479,25 @@
   
    {
      
-        "title"    : "Advisory",
-        "url"      : "/about/advisory/",
-        "path"     : "/about/advisory/"
+        "title"    : "Presentations",
+        "url"      : "/program/presentations/",
+        "path"     : "/program/presentations/"
      
    },
   
    {
      
-        "title"    : "About",
-        "url"      : "/about/",
-        "path"     : "/about/"
+        "title"    : "Program",
+        "url"      : "/program/",
+        "path"     : "/program/"
      
    },
   
    {
      
-        "title"    : "Expo Presentations",
-        "url"      : "/expo/presentations/",
-        "path"     : "/expo/presentations/"
+        "title"    : "Agenda",
+        "url"      : "/agenda/",
+        "path"     : "/agenda/"
      
    },
   
@@ -418,38 +506,6 @@
         "title"    : "Home",
         "url"      : "/",
         "path"     : ""
-     
-   },
-  
-   {
-     
-        "title"    : "Expo Agenda",
-        "url"      : "/expo/agenda/",
-        "path"     : "/expo/agenda/"
-     
-   },
-  
-   {
-     
-        "title"    : "Expo",
-        "url"      : "/expo/",
-        "path"     : "/expo/"
-     
-   },
-  
-   {
-     
-        "title"    : "Welcome",
-        "url"      : "/welcome/",
-        "path"     : "/welcome/"
-     
-   },
-  
-   {
-     
-        "title"    : "Presentations",
-        "url"      : "/program/presentations/",
-        "path"     : "/program/presentations/"
      
    },
   
@@ -467,17 +523,17 @@
   
    {
      
-        "title"    : "ICS Strategic Planning and War Gaming",
-        "url"      : "/program/trainings/joe-slowik/",
-        "path"     : "/program/trainings/joe-slowik/"
+        "title"    : "Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense",
+        "url"      : "/program/presentations/joe-slowik/",
+        "path"     : "/program/presentations/joe-slowik/"
      
    },
   
    {
      
-        "title"    : "Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense",
-        "url"      : "/program/presentations/joe-slowik/",
-        "path"     : "/program/presentations/joe-slowik/"
+        "title"    : "ICS Strategic Planning and War Gaming",
+        "url"      : "/program/trainings/joe-slowik/",
+        "path"     : "/program/trainings/joe-slowik/"
      
    },
   
@@ -623,6 +679,22 @@
   
    {
      
+        "title"    : "Asset Identification and Network Security Monitoring in ICS Network",
+        "url"      : "/about/archive/speakers/robert-m-lee/asset-identification-and-network-security-monitoring-in-ics-network",
+        "path"     : "/about/archive/speakers/robert-m-lee/asset-identification-and-network-security-monitoring-in-ics-network"
+     
+   },
+  
+   {
+     
+        "title"    : "Exploring the Unknown ICS Threat Landscape",
+        "url"      : "/about/archive/speakers/robert-m-lee/exploring-the-unknown-ics-threat-landscape",
+        "path"     : "/about/archive/speakers/robert-m-lee/exploring-the-unknown-ics-threat-landscape"
+     
+   },
+  
+   {
+     
         "title"    : "Privacy Policy",
         "url"      : "/privacy-policy/",
         "path"     : "/privacy-policy/"
@@ -666,6 +738,14 @@
         "title"    : "Cyber security for the energy sector – an introduction to ISO/IEC 27019 and the BDEW/OE Whitepaper",
         "url"      : "/program/trainings/stephan-beirer/",
         "path"     : "/program/trainings/stephan-beirer/"
+     
+   },
+  
+   {
+     
+        "title"    : "ICS Active Defence",
+        "url"      : "/about/archive/speakers/robert-m-lee/ics-active-defence",
+        "path"     : "/about/archive/speakers/robert-m-lee/ics-active-defence"
      
    },
   

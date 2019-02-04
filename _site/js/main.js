@@ -16,6 +16,19 @@ $(function() {
     });
   });
 
+
+$(window).scroll(function(){
+    if ($(window).scrollTop() >= 717) {
+        $('.nav-archive').addClass('sticky-block');
+        $('.nav-archive-hidden-spacer').addClass('show-spacer');
+    }
+    else {
+        $('.nav-archive').removeClass('sticky-block');
+        $('.nav-archive-hidden-spacer').removeClass('show-spacer');
+    }
+});
+
+
 $('.menu-item').on('click', function(){
     $('.menu--primary').toggleClass('menu-open');
     $('.menu--item').html($('.menu--item').html() == 'close' ? 'menu' : 'close');

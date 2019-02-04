@@ -1,0 +1,37 @@
+---
+title: Speakers
+permalink: "/about/archive/speakers/"
+layout: default
+---
+
+
+<section class="content">
+
+  {% include breadcrumbs.html %}
+
+  <div class="sec-head">
+    <h2 class="title title-yellow" id="speakers">Speakers</h2>
+  </div>
+
+  <div class="col-1">
+    <div class="speakers-block speakers-block-list">
+      {% assign sorted_speakers = site.data.archive %}
+      {% for speaker in sorted_speakers %}
+      {% if speaker.type contains "presentation" or speaker.type contains "training" or speaker.type contains "moderator" %}
+      <a href="{{ site.baseurl }}/about/archive/speakers/{{ speaker.permalink }}" class="speakers-block-item col-2-8">
+        {% for item in speaker.speaker %}
+        <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}.png" class="speakers-block-item-image" />
+        {% endfor %}
+        <div class="speaker-block-item-data">
+          <h5>{% for item in speaker.when %}<span>{{ item | replace: 'yearfive', '2018' | replace: 'yearfour', '2017' | replace: 'yearthree', '2016' | replace: 'yeartwo', '2015' | replace: 'yearone', '2014' }}</span>{% endfor %}</h5>
+          {% for item in speaker.speaker %}
+          <h3>{{ item.name }}</h3>
+          <h4>{{ item.role }}</h4>
+          {% endfor %}
+        </div>
+      </a>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
