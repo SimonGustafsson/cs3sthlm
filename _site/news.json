@@ -1,5 +1,13 @@
 {"newsList":[
     {
+      "title": "CS3STHLM Newsletter February",
+      "author": "CS3STHLM Crew",
+      "category": "news",
+      "date": "15 Feb 2019",
+      "content_html": "<p><img src=\"/assets/cs3sthlm-logo-heart.png\" alt=\"CS3STHLM Holiday\" class=\"full-width-image\" /></p><p>The first newsletter of the new year - and it is a short one!</p><ul>  <li>The CFP for CS3STHLM 2019 is now open. Please give us your presentations/topics for trainings or workshops before March 29. Also, if you have any suggestions for who you would like to see at the CS3STHLM 2019 summit - send us a mail to cfp@cs3sthlm.se</li>  <li>You can buy tickets with Early Bird 20% discount until March 31. The ticket can later be combined with a ticket for training/workshop.</li>  <li>More material from CS3STHLM 2018 is now published on our <a href=\"https://www.youtube.com/channel/UCkD15o_9eJxUc9eeHtWSQ6Q\">YouTube channel</a></li></ul><p>Cordial greetings from the CS3STHLM crew!</p>"
+    } ,
+  
+    {
       "title": "CS3STHLM Newsletter December",
       "author": "CS3STHLM Crew",
       "category": "news",

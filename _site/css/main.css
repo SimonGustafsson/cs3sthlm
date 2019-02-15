@@ -1138,28 +1138,30 @@ h1, h2, h3, h4 {
       .introduction .btn-group-intro .btn:first-of-type {
         margin-left: 0; }
     @media screen and (max-width: 768px) {
-      .introduction .btn-group-intro .btn {
-        width: 47.5%;
-        margin-left: 0;
-        padding: 10px 14px;
-        letter-spacing: 1px; }
-        .introduction .btn-group-intro .btn:first-of-type {
-          margin-top: 0; }
-        .introduction .btn-group-intro .btn:nth-child(3) {
-          margin-top: 20px; }
-        .introduction .btn-group-intro .btn:nth-child(2) {
-          margin-left: 4%; }
-        .introduction .btn-group-intro .btn:last-of-type {
-          width: 100%; }
-      .introduction .btn-group-intro .btn-thank-you {
-        width: 47.5%;
-        margin-bottom: 0; }
-      .introduction .btn-group-intro .btn-red {
-        order: 2; }
-      .introduction .btn-group-intro .btn-green {
-        order: 3;
-        width: 100%;
-        margin-top: 20px; } }
+      .introduction .btn-group-intro {
+        /*.btn-green {
+          order: 3;
+          width: 100%;
+          margin-top: 20px;
+        }*/ }
+        .introduction .btn-group-intro .btn {
+          width: 47.5%;
+          margin-left: 0;
+          padding: 10px 14px;
+          letter-spacing: 1px; }
+          .introduction .btn-group-intro .btn:first-of-type {
+            margin-top: 0; }
+          .introduction .btn-group-intro .btn:nth-child(3) {
+            margin-top: 20px; }
+          .introduction .btn-group-intro .btn:nth-child(2) {
+            margin-left: 4%; }
+          .introduction .btn-group-intro .btn:last-of-type {
+            width: 100%; }
+        .introduction .btn-group-intro .btn-thank-you {
+          width: 47.5%;
+          margin-bottom: 0; }
+        .introduction .btn-group-intro .btn-red {
+          order: 2; } }
 
 .about {
   margin: 130px auto 0; }
