@@ -10,9 +10,9 @@ html, body {
 
 body {
   font-family: 'latoregular', Arial, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: normal;
   color: $white;
   background: $dark;
   min-height: 100%;
@@ -779,7 +779,7 @@ h1, h2, h3, h4 {
 /**
   BREADCRUMBS */
 
-.bc-nav {
+.pagination-nav {
   display: flex;
   padding: 0;
   margin-bottom: 76px;
@@ -1647,13 +1647,13 @@ h1, h2, h3, h4 {
     }
   }
 
-  .btn {
+  .button {
     margin-top: 38px;
 
-    &.btn-rectangular {
+    &.button-rectangular {
       border-radius: 2px;
     }
-    &.btn-small-padding {
+    &.button-small-padding {
       padding: 10px 12px;
     }
   }
@@ -1778,7 +1778,7 @@ h1, h2, h3, h4 {
     }
   }
 
-  .btn-group-intro {
+  .button-group-intro {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -1794,7 +1794,7 @@ h1, h2, h3, h4 {
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
 
-    .btn {
+    .button {
       margin-left: 30px;
       
       &:first-of-type {
@@ -1802,12 +1802,8 @@ h1, h2, h3, h4 {
       }
     }
 
-    btn-yellow {
-      color: $white;
-    }
-
     @include media-query($mobile) {
-      .btn {
+      .button {
         width: 47.5%;
         margin-left: 0;
         padding: 10px 14px;
@@ -1827,14 +1823,14 @@ h1, h2, h3, h4 {
         }
       }
 
-      .btn-thank-you {
+      .button-thank-you {
         width: 47.5%;
         margin-bottom: 0;
       }
-      .btn-red {
+      .button-red {
         order: 2;
       }
-      .btn-green {
+      .button-green {
         order: 3;
         width: 100%;
         margin-top: 20px;
@@ -1844,345 +1840,23 @@ h1, h2, h3, h4 {
 }
 }
 
+// CONTENT HEADER //
+
+.content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
 
-.sec-head {
-  
-  @include media-query($mobile) {
-    padding: 0 20px;
-  }
-
-  .col-6 {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
+  .button-group {
     display: flex;
-  
-    align-items: flex-start;
-    -webkit-align-items: flex-start;
-    justify-content: space-between;
-    -webkit-justify-content: space-between;
-    flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
-  
-    width: 100%;
-  }
+    align-items: flex-end;
 
-  .col-ml-1 {
-    margin-left: 190px;
-
-    @include media-query-min($large) {
-      margin-left: 227px;
-    }
-    @include media-query($small) {
-      margin-left: 0;
-      margin-top: 20px;
-    }
-    @include media-query($mobile) {
-      margin-left: 0;
-    }
-  }
-  .col-ms-1 {
-    margin-left: 20px;
-
-    @include media-query-min($large) {
-      margin-left: 22px;
-    }
-    @include media-query($small) {
+    .button {
       margin-left: auto;
     }
-    @include media-query($mobile) {
-      margin-left: 0;
-      margin-top: 30px;
-    }
   }
-
-  .col-6-6 {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-  
-    align-items: flex-start;
-    -webkit-align-items: flex-start;
-  
-    width: 100%;
-
-    @include media-query($mobile) {
-      flex-wrap: wrap;
-      -webkit-flex-wrap: wrap;
-    }
-  }
-  .col-3-6 {
-    width: 550px;
-    padding-right: 20px;
-    box-sizing: border-box;
-    
-    @include media-query-min($large) {
-      width: 659px;
-    }
-    @include media-query($small) {
-      width: 50%;
-    }
-    @include media-query($mobile) {
-      width: 100%;
-      padding-right: 0;
-    }
-  }
-  .col-2-6 {
-    width: 360px;
-
-    @include media-query-min($large) {
-      width: 432px;
-    }
-    @include media-query($small) {
-      width: 35%;
-    }
-    @include media-query($mobile) {
-      width: 100%;
-    }
-  }
-
-  &.sec-head-single-post {
-
-    h4 {
-      position: relative;
-      margin-bottom: 40px;
-    }
-  }
-
-  h4 {
-    font-family: 'latobold', sans-serif;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 14px;
-    color: rgba($white, .8);
-    letter-spacing: 2px;
-    text-transform: uppercase;
-
-    @include media-query-min($large) {
-      font-size: 14px;
-      letter-spacing: 2px;
-    }
-  }
-
-  p {
-    display: block;
-    font-family: 'latoregular', sans-serif;
-    font-weight: normal;
-    font-size: 18px;
-    color: rgba($white, .85);
-    margin-bottom: 26px;
-
-    &:last-of-type {
-      margin-bottom: 0;
-    }
-
-    @include media-query($mobile) {
-      margin-left: 0;
-    }
-
-    @include media-query-min($large) {
-      max-width: 660px;
-      font-size: 23px;
-    }
-
-    a {
-        color: $white;
-
-        @include transition-ease;
-
-        &:hover {
-          color: $yellow;
-        }
-      }
-  }
-
-  .btn {
-    margin-bottom: 40px;
-    margin-top: 20px;
-
-    @include media-query($mobile) {
-      min-width: calc(50% - 15px);
-      max-width: calc(50% - 15px);
-      margin-bottom: 20px;
-
-      span {
-        display: none;
-      }
-    }
-  }
-
-  .stroke-list {
-    list-style: none;
-
-    li {
-      margin-left: 18px;
-      margin-bottom: 6px;
-      font-size: 18px;
-      position: relative;
-
-      &:before {
-        display: block;
-        content: '';
-        width: 10px;
-        height: 1px;
-        background: rgba($white, .5);
-        position: absolute;
-        left: -18px;
-        top: 50%;
-      }
-
-      @include media-query-min($large) {
-        font-size: 23px;
-      }
-    }
-  }
-
-  .clean-list {
-    list-style: none;
-
-    li {
-      margin-left: 0;
-      margin-bottom: 0;
-      font-size: 18px;
-      color: rgba($white, .85);
-
-      @include media-query-min($large) {
-        font-size: 23px;
-      }
-
-      ul {
-        margin-top: 4px;
-        margin-left: 20px;
-        list-style: disc;
-      }
-
-      a {
-        display: block;
-        margin-bottom: 14px;
-        text-decoration: none;
-        color: $white;
-
-        @include transition-ease;
-
-        &:hover {
-          color: $yellow;
-
-          .list-author {
-            color: $yellow;
-          }
-        }
-
-        .list-title {
-          display: block;
-        }
-        .list-author {
-          display: block;
-          text-transform: uppercase;
-          letter-spacing: 2px;
-          font-family: 'latobold', sans-serif;
-          font-weight: normal;
-          font-size: 12px;
-          color: rgba($white, .5);
-
-          @include transition-ease;
-        }
-      }
-    }
-  }
-
-  .block-list-disc {
-      list-style: disc;
-      font-family: 'latoregular', sans-serif;
-      font-size: 18px;
-      color: rgba($white, .85);
-
-      @include media-query-min($large) {
-        font-size: 23px;
-      }
-
-      li {
-        margin: 0 0 12px 20px;
-      }
-    }
-
-  .s-agenda {
-    
-    h3 {
-      margin-bottom: 20px;
-      color: $yellow;
-    }
-    .clean-list, .stroke-list {
-      margin-bottom: 40px;
-    }
-  }
-
-  .s-location {
-    margin-top: 40px;
-  }
-
-  .col-2-6-img {
-    display: block;
-    width: 420px;
-    border-radius: 2px;
-    margin-bottom: 20px;
-
-    @include media-query($mobile) {
-      width: calc(100% + 12%);
-      border-radius: 0;
-      margin-left: -6%;
-    }
-  }
-
-  .block-head {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-  
-    align-items: flex-start;
-    -webkit-align-items: flex-start;
-    flex-direction: column;
-
-    .btn-group {
-      margin-left: auto;
-
-      @include media-query($mobile) {
-        margin-left: 0;
-        margin-bottom: 20px;
-        width: 100%;
-      }
-    
-      .btn:last-of-type {
-        margin-left: 20px;
-      }
-      .btn:first-of-type {
-        margin-left: 0;
-      }
-    }
-
-    .speaker-row {
-
-      @include media-query($mobile) {
-        display: none;
-      }
-    }
-
-    @include media-query($mobile) {
-
-      flex-wrap: wrap;
-      -webkit-flex-wrap: wrap;
-
-      h2 {
-        width: 100%;
-      }
-    }
-  }
-  }
+}
 
 
 .sec-content {
@@ -3246,7 +2920,6 @@ h1, h2, h3, h4 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin-top: 76px;
 
   &-header {
     display: flex;
@@ -4285,7 +3958,7 @@ h1, h2, h3, h4 {
 /**
   BUTTONS */
 
-.btn {
+.button {
   display: inline-block;
   min-width: 120px;
   padding: 10px 38px;
@@ -4310,7 +3983,7 @@ h1, h2, h3, h4 {
     font-family: 'latobold', sans-serif;
   }
 }
-.btn-primary {
+.button-primary {
   background: $blue-dark;
   color: $white;
 
@@ -4318,7 +3991,7 @@ h1, h2, h3, h4 {
     color: $yellow;
   }
 }
-.btn-yellow {
+.button-yellow {
   background: $yellow;
   color: $dark;
 
@@ -4326,7 +3999,7 @@ h1, h2, h3, h4 {
     color: $white;
   }
 }
-.btn-blue {
+.button-blue {
   background: $blue;
   color: $blue-dark;
 
@@ -4334,7 +4007,7 @@ h1, h2, h3, h4 {
     color: $white;
   }
 }
-.btn-red {
+.button-red {
   background: $red;
   color: $white;
 
@@ -4342,7 +4015,7 @@ h1, h2, h3, h4 {
     color: $dark;
   }
 }
-.btn-green {
+.button-green {
   background: $green;
   color: $white;
 
@@ -4351,7 +4024,7 @@ h1, h2, h3, h4 {
   }
 }
 
-.btn-intro-more {
+.button-intro-more {
   display: none;
 
   @include media-query($mobile) {
@@ -4359,9 +4032,9 @@ h1, h2, h3, h4 {
   }
 }
 
-.btn-icon {
+.button-icon {
 
-  &.btn-yellow {
+  &.button-yellow {
     &:hover {
       #external-link, #download {
         fill: $dark;
@@ -4369,7 +4042,7 @@ h1, h2, h3, h4 {
     }
   }
 
-  &.btn-green {
+  &.button-green {
     &:hover {
       #external-link, #download {
         fill: $dark;
@@ -4390,7 +4063,7 @@ h1, h2, h3, h4 {
   }
 }
 
-.btn-ticket {
+.button-ticket {
   min-width: 205px;
   margin: 40px 0 0 190px;
 
@@ -4401,7 +4074,7 @@ h1, h2, h3, h4 {
     margin: 20px 25vw 0 25vw;
   }
 }
-.btn-centered {
+.button-centered {
   margin: 0 auto;
 }
 

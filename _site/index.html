@@ -93,11 +93,10 @@
       <h3 class="intro-mark-subtitle">Organized by <a href="https://omnisiens.se">Omnisiens</a></h3>
     </div>
 
-    <div class="btn-group btn-group-intro">
-      <a href="mailto:info@cs3sthlm.se?subject=Interested to become part of CS3STHLM&body=GDPR Notice: By sending this mail I acknowledge that the company Omnisiens AB, running the conference CS3sthlm, have the right to store and use my personal identifiable information for information related to CS3sthlm, conferences, training and courses, etc." class="btn btn-blue">Keep Me Posted!</a>
-      <a href="/thank-you" class="btn btn-primary btn-yellow">Thank You</a>
-      <!--<a href="/expo" class="btn btn-primary btn-red">View CS3sthlm Expo</a>-->
-      <a href="https://tickets.cs3sthlm.se/" class="btn btn-primary btn-yellow" target="_blank">Buy Tickets</a>
+    <div class="button-group button-group-intro">
+      <a href="mailto:info@cs3sthlm.se?subject=Interested to become part of CS3STHLM&body=GDPR Notice: By sending this mail I acknowledge that the company Omnisiens AB, running the conference CS3sthlm, have the right to store and use my personal identifiable information for information related to CS3sthlm, conferences, training and courses, etc." class="button button-blue">Keep Me Posted!</a>
+      <a href="/thank-you" class="button button-primary button-yellow">Thank You</a>
+      <a href="https://tickets.cs3sthlm.se/" class="button button-primary button-yellow" target="_blank">Buy Tickets</a>
     </div>
   </div>
 
@@ -122,14 +121,16 @@
       </li>
       
     </ul>
-    <a href="/news" class="btn btn-primary">View all news</a>
+    <div class="col-2-8">
+      <a href="/news" class="button button-primary">View all news</a>
+    </div>
   </div>
 
 </section>
 
 <section class="content col-8-8">
 
-  <div class="sec-head">
+  <div class="content-header">
     <h2 class="title title-yellow">The Summit</h2>
   </div>
 
@@ -138,7 +139,7 @@
     <div class="column-block-item col-5-8">
       <p class="content-intro col-4-8">CS3STHLM – the Stockholm international summit on Cyber Security in SCADA and Industrial Control Systems - is an annual summit that gather the most important stakeholders across critical processes and industries. CS3STHLM has been organized since 2014, and has quickly become the premier ICS Security Summit in Northern Europe!</p>
 
-      <div class="column-block">
+      <div class="column-block column-block-bit">
         <div class="column-block-item col-1-3">
           <div class="card-item card-item-filled">
             <h4 class="sub-headline">Previous Summit</h4>
@@ -315,7 +316,7 @@
   <div class="speaker--block">
     <div class="speaker--block-header">
       <h3 class="headline">Speakers of 2018</h3>
-      <a href="/program/speakers/" class="btn btn-primary speaker-row">View All Speakers</a>
+      <a href="/program/speakers/" class="button button-primary speaker-row">View All Speakers</a>
     </div>
 
     <div class="speaker--list-group speaker--list-home">
@@ -323,42 +324,42 @@
       
       <div class="speaker--list-item">
         <div class="speaker-block">
-          <img src="/assets/speakers/omer-zohar.png">
+          <img src="/assets/speakers/arnaud-soullie.png">
           <div class="speaker-block-data">
             
 
             
-            <h4>presentation<span>IL</span></h4>
-            
 
             
 
             
+            <h4>training<span>FR</span></h4>
+            
 
             
 
-            <h2>Omer Zohar</h2>
-            <h5>Independant Researcher</h5>
+            <h2>Arnaud Soullié</h2>
+            <h5>Cybersecurity R&D Manager</h5>
           </div>
         </div>
         <div class="speaker-block-details">
           <div class="speaker-block--header">
             
-            <h4><span>Presentation</span></h4>
-            <h2>Omer Zohar</h2>
-            <h3>Independant Researcher</h3>
+            <h4><span>Training</span></h4>
+            <h2>Arnaud Soullié</h2>
+            <h3>Cybersecurity R&D Manager</h3>
           </div>
           <div class="speaker-block--content">
             <div class="col-1-6">
               <ul>
-                <li>Independant</li>
-                <li>Israel</li>
+                <li>Wavestone</li>
+                <li>France</li>
               </ul>
             </div>
 
             <div class="col-3-6">
               <h4 class="headline">Biography</h4>
-              <p>A security researcher for over a decade, Omer is currently exploring the opportunities emerging technologies such as blockchain and AI might create for the bad guys to improve their infrastructure and how to mitigate them. Omer has been conducting multidisciplinary research on malware behavior and detection methods, including on his last position as Head of Research for 'TopSpin Security', where he investigated malware C&C infrastructure and protocols to create a behavior based detection engine that correlates over a time series network and reputation data along with a deception overlay. He authored 'Deceive and Succeed: Using Deception for Post-Breach Detection' (Defcon 2016) where he investigated how malicious actors interact with various deception mechanisms to measure their effectiveness.</p>
+              <p>Arnaud Soullié (@arnaudsoullie) is the cybersecurity R&D manager at Wavestone. For 8 years, he has been performing security audits and pentest on all type of targets. He specializes in Industrial Control Systems and Active Directory security. He has spoken at numerous security conferences on ICS topics : BlackHat Europe, BruCon, 4SICS, BSides Las Vegas, DEFCON…He also has an interest in hardware security, and is the designer of DYODE (Do Your Own Diode): an open-source, low-cost, ICS oriented data diode.</p>
             </div>
 
             <div class="col-2-6">
@@ -366,17 +367,21 @@
 
             
             
+            
+
+            
+
+            
+            
               <div class="col-block">
-                <h4 class="headline">Presentation</h4>
-                <a href="/program/presentations/omer-zohar/" class="speaker-permalink">Unblockable Chains - Is Blockchain the ultimate malicious infrastructure?</a>
+                <h4 class="headline">Training</h4>
+                <a href="/program/trainings/arnaud-soullie/" class="speaker-permalink">Pentesting Industrial Control Systems</a>
+                <div class="speaker-meta">
+                  <span class="speaker-date">22-23 October</span>
+                  <span class="speaker-time">09:00 - 17:00</span>
+                </div>
                 
-              </div>          
-            
-            
-
-            
-
-            
+              </div>        
             
             
             </div>
@@ -388,7 +393,7 @@
       
       <div class="speaker--list-item">
         <div class="speaker-block">
-          <img src="/assets/speakers/monta-elkins.png">
+          <img src="/assets/speakers/jonathan-homer.png">
           <div class="speaker-block-data">
             
 
@@ -402,28 +407,28 @@
 
             
 
-            <h2>Monta Elkins</h2>
-            <h5>Hacker-in-Chief</h5>
+            <h2>Jonathan Homer</h2>
+            <h5>Chief of the Industrial Control System Group</h5>
           </div>
         </div>
         <div class="speaker-block-details">
           <div class="speaker-block--header">
             
             <h4><span>Presentation</span></h4>
-            <h2>Monta Elkins</h2>
-            <h3>Hacker-in-Chief</h3>
+            <h2>Jonathan Homer</h2>
+            <h3>Chief of the Industrial Control System Group</h3>
           </div>
           <div class="speaker-block--content">
             <div class="col-1-6">
               <ul>
-                <li>FoxGuard Solutions</li>
+                <li>NCCIC Hunt and Incident Response Team (HIRT)</li>
                 <li>United States</li>
               </ul>
             </div>
 
             <div class="col-3-6">
               <h4 class="headline">Biography</h4>
-              <p>Monta Elkins is currently "Hacker-in-Chief" for FoxGuard Solutions, an ICS patch provider. A security researcher and consultant; he was formerly Security Architect for Rackspace, and the first ISO for Radford University. He has been a speaker at DEFCON , Homeland Security’s ICSJWG (Industrial Control Systems Joint Working Group), EnergySec's Security Summit, GE Digital Energy's Annual Software Summit, Toshiba's Industrial Control Systems Conference, NERC's GridSecCon and Emerging Technology Roundtable, ICS CyberSecurity by Security Week, UTC Telecom, and other security conferences. Monta is the author and instructor of the “Defense against the Dark Arts” hands-on, hacker tools and techniques classes, guest lecturer for local colleges and universities teaching rapid prototyping techniques and information security and teaches Arduino and other classes with Let's Code Blacksburg.</p>
+              <p>Jonathan Homer is the Chief of the Industrial Control Systems Group within the Hunt & Incident Response Team at the U.S. Department of Homeland Security National Cybersecurity and Communications Integration Center. He has over 15 years of experience within the IT industry, specializing in incident response, industrial control systems, digital telecommunications architecture, and security awareness. Jon has a Master’s Degree in Technology Management, and earned his Chief Information Officer Certificate from the International Academy of CIO in 2016. Jon maintains a number of certifications including ISC2 CISSP and ProSci Advanced Change Management Practitioner.</p>
             </div>
 
             <div class="col-2-6">
@@ -433,7 +438,7 @@
             
               <div class="col-block">
                 <h4 class="headline">Presentation</h4>
-                <a href="/program/presentations/monta-elkins/" class="speaker-permalink">Jumping Air Gaps</a>
+                <a href="/program/presentations/jonathan-homer/" class="speaker-permalink">Recent APT Campaign targeting Energy Sector Assets</a>
                 
               </div>          
             
@@ -453,100 +458,35 @@
       
       <div class="speaker--list-item">
         <div class="speaker-block">
-          <img src="/assets/speakers/kai-thomsen.png">
+          <img src="/assets/speakers/mads-dam.png">
           <div class="speaker-block-data">
             
 
             
-            <h4>presentation<span>DE</span></h4>
+
+            
+            <h4>Expo Presentation<span>SE</span></h4>
             
 
             
 
             
 
-            
-
-            <h2>Kai Thomsen</h2>
-            <h5>Lead Incident Responder</h5>
+            <h2>Mads Dam</h2>
+            <h5>Professor in Teleinformatics</h5>
           </div>
         </div>
         <div class="speaker-block-details">
           <div class="speaker-block--header">
             
             <h4><span>Presentation</span></h4>
-            <h2>Kai Thomsen</h2>
-            <h3>Lead Incident Responder</h3>
+            <h2>Mads Dam</h2>
+            <h3>Professor in Teleinformatics</h3>
           </div>
           <div class="speaker-block--content">
             <div class="col-1-6">
               <ul>
-                <li>AUDI AG</li>
-                <li>Germany</li>
-              </ul>
-            </div>
-
-            <div class="col-3-6">
-              <h4 class="headline">Biography</h4>
-              <p>Kai is the Incident Response team lead at AUDI AG and currently working on creating a modern Cyber Defence organisation at Audi. Before that he established an IT Service Continuity organization at Audi and developed and executed crisis management training exercises for top management. Prior to Audi, he worked at SMS group, an engineering company for steel manufacturing plants. There he was responsible for network security architecture, NSM, and forensics. Kai holds an M.A. in computer science and English and American Literature from the University of Siegen. He is also a SANS Instructor for Industrial Control Systems Active Defense and Incident Response (ICS515) and chairing the SANS Automotive Summit and SANS ICS Europe Summit in 2018.</p>
-            </div>
-
-            <div class="col-2-6">
-            
-
-            
-            
-              <div class="col-block">
-                <h4 class="headline">Presentation</h4>
-                <a href="/program/presentations/kai-thomsen/" class="speaker-permalink">Attacking Cars Revisited: On the Road Towards a More Resilient Connected Vehicle Infrastructure</a>
-                
-              </div>          
-            
-            
-
-            
-
-            
-            
-            
-            </div>
-
-          </div>
-          <a href="#!" class="modal-close">Close<span></span></a>
-        </div>
-      </div>
-      
-      <div class="speaker--list-item">
-        <div class="speaker-block">
-          <img src="/assets/speakers/lars-westerdahl.png">
-          <div class="speaker-block-data">
-            
-
-            
-            <h4>presentation<span>SE</span></h4>
-            
-
-            
-
-            
-
-            
-
-            <h2>Lars Westerdahl</h2>
-            <h5>Scientist</h5>
-          </div>
-        </div>
-        <div class="speaker-block-details">
-          <div class="speaker-block--header">
-            
-            <h4><span>Presentation</span></h4>
-            <h2>Lars Westerdahl</h2>
-            <h3>Scientist</h3>
-          </div>
-          <div class="speaker-block--content">
-            <div class="col-1-6">
-              <ul>
-                <li>FOI - Swedish Defence Research Agency</li>
+                <li>School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology</li>
                 <li>Sweden</li>
               </ul>
             </div>
@@ -563,7 +503,7 @@
             
               <div class="col-block">
                 <h4 class="headline">Presentation</h4>
-                <a href="/program/presentations/lars-westerdahl/" class="speaker-permalink">Uncertain conflict – When critical infrastructure is affected by national conflicts.</a>
+                <a href="/expo/presentations/mads-dam/" class="speaker-permalink">Securing Low Level Software Using Formal Methods</a>
                 
               </div>          
             
@@ -583,74 +523,7 @@
       
       <div class="speaker--list-item">
         <div class="speaker-block">
-          <img src="/assets/speakers/erwin-kooi.png">
-          <div class="speaker-block-data">
-            
-
-            
-            <h4>presentation<span>NL</span></h4>
-            
-
-            
-
-            
-
-            
-
-            <h2>Erwin Kooi</h2>
-            <h5>ICS/SCADA Architect</h5>
-          </div>
-        </div>
-        <div class="speaker-block-details">
-          <div class="speaker-block--header">
-            
-            <h4><span>Presentation</span></h4>
-            <h2>Erwin Kooi</h2>
-            <h3>ICS/SCADA Architect</h3>
-          </div>
-          <div class="speaker-block--content">
-            <div class="col-1-6">
-              <ul>
-                <li>Alliander</li>
-                <li>Netherlands</li>
-              </ul>
-            </div>
-
-            <div class="col-3-6">
-              <h4 class="headline">Biography</h4>
-              <p>Erwin has been working in information security for fifteen years and in IT for twenty-one years. He recently switched positions and is now working on designing SCADA / ICS systems for smart grids with a strong focus on cyber security, especially when integrating ICS and IT systems. He has a solid knowledge of healthcare IT and grid operator IT, both on the office side as on the operations side, both on the strategic level as on the implementation side. He holds a BSc Electrical Engineering and Master Security in Information Technology. In his rare spare time he likes to pick locks, program microcontrollers, participate in a local political party and care for his horses and hedgehogs.</p>
-            </div>
-
-            <div class="col-2-6">
-            
-
-            
-            
-              <div class="col-block">
-                <h4 class="headline">Presentation</h4>
-                <a href="/program/presentations/erwin-rik/" class="speaker-permalink">The good, the bad and the segmented</a>
-                
-                <span class="speaker-cospeaker">with Rik van Hees</span>
-                
-              </div>          
-            
-            
-
-            
-
-            
-            
-            
-            </div>
-
-          </div>
-          <a href="#!" class="modal-close">Close<span></span></a>
-        </div>
-      </div>
-      
-      <div class="speaker--list-item">
-        <div class="speaker-block">
-          <img src="/assets/speakers/jannis-utz.png">
+          <img src="/assets/speakers/ragnar-thobaben.png">
           <div class="speaker-block-data">
             
 
@@ -664,28 +537,28 @@
 
             
 
-            <h2>Jannis Utz</h2>
-            <h5>Sales Engineer</h5>
+            <h2>Ragnar Thobaben</h2>
+            <h5>Associate Professor in Communication Theory</h5>
           </div>
         </div>
         <div class="speaker-block-details">
           <div class="speaker-block--header">
             
             <h4><span>Presentation</span></h4>
-            <h2>Jannis Utz</h2>
-            <h3>Sales Engineer</h3>
+            <h2>Ragnar Thobaben</h2>
+            <h3>Associate Professor in Communication Theory</h3>
           </div>
           <div class="speaker-block--content">
             <div class="col-1-6">
               <ul>
-                <li>Recorded Future</li>
+                <li>School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology</li>
                 <li>Germany</li>
               </ul>
             </div>
 
             <div class="col-3-6">
               <h4 class="headline">Biography</h4>
-              <p>Jannis Utz has a successful 15+ year career in networking and security. Jannis has a strong background specifically in vulnerability management having worked the last years for Tenable and Qualys.</p>
+              <p></p>
             </div>
 
             <div class="col-2-6">
@@ -695,7 +568,136 @@
             
               <div class="col-block">
                 <h4 class="headline">Presentation</h4>
-                <a href="/expo/presentations/jannis-utz/" class="speaker-permalink">Recorded Future - The Dark Web’s deep threat intelligence secrets</a>
+                <a href="/expo/presentations/ragnar-thobaben/" class="speaker-permalink">Securing Wireless Transmissions at the Air Interface</a>
+                
+              </div>          
+            
+            
+
+            
+
+            
+            
+            
+            </div>
+
+          </div>
+          <a href="#!" class="modal-close">Close<span></span></a>
+        </div>
+      </div>
+      
+      <div class="speaker--list-item">
+        <div class="speaker-block">
+          <img src="/assets/speakers/erik-z-johansson.png">
+          <div class="speaker-block-data">
+            
+            <h4>moderator<span>SE</span></h4>
+            
+
+            
+
+            
+
+            
+
+            
+
+            <h2>Erik 'Z' Johansson</h2>
+            <h5>Independent Security Consultant</h5>
+          </div>
+        </div>
+        <div class="speaker-block-details">
+          <div class="speaker-block--header">
+            
+            <h4>moderator</h4>
+            
+            <h4></h4>
+            <h2>Erik 'Z' Johansson</h2>
+            <h3>Independent Security Consultant</h3>
+          </div>
+          <div class="speaker-block--content">
+            <div class="col-1-6">
+              <ul>
+                <li>Trailing bits AB</li>
+                <li>Sweden</li>
+              </ul>
+            </div>
+
+            <div class="col-3-6">
+              <h4 class="headline">Biography</h4>
+              <p>Independent security consultant that have experienced the challenges, frustration and satisfaction involved when implementing sustainable IACS cyber protection throughout the whole system lifecycle and across the globe. May offer controversial opinions on what it takes to reach a sustainable security posture.
+
+NOTE! The 'Z' is a legacy from ABB and not actually part of his name. It is however useful to distinguish this Erik from the Erik Johansson organizing this awesome event :)
+</p>
+            </div>
+
+            <div class="col-2-6">
+            
+
+            
+            
+            
+
+            
+
+            
+            
+            
+            </div>
+
+          </div>
+          <a href="#!" class="modal-close">Close<span></span></a>
+        </div>
+      </div>
+      
+      <div class="speaker--list-item">
+        <div class="speaker-block">
+          <img src="/assets/speakers/cheng-lei.png">
+          <div class="speaker-block-data">
+            
+
+            
+            <h4>presentation<span>CH</span></h4>
+            
+
+            
+
+            
+
+            
+
+            <h2>Cheng Lei</h2>
+            <h5>ICS Security Researcher</h5>
+          </div>
+        </div>
+        <div class="speaker-block-details">
+          <div class="speaker-block--header">
+            
+            <h4><span>Presentation</span></h4>
+            <h2>Cheng Lei</h2>
+            <h3>ICS Security Researcher</h3>
+          </div>
+          <div class="speaker-block--content">
+            <div class="col-1-6">
+              <ul>
+                <li>NSFOCUS</li>
+                <li>China</li>
+              </ul>
+            </div>
+
+            <div class="col-3-6">
+              <h4 class="headline">Biography</h4>
+              <p>Cheng Lei is an Industrial Control System Security researcher at NSFOCUS. His interest is mainly about PLC and DCS vulnerability exploitation and security enhancement. Over the years, he has released three Siemens CVE vulnerabilities.</p>
+            </div>
+
+            <div class="col-2-6">
+            
+
+            
+            
+              <div class="col-block">
+                <h4 class="headline">Presentation</h4>
+                <a href="/program/presentations/cheng-lei/" class="speaker-permalink">Attacking PLCs by PLC in deep</a>
                 
               </div>          
             
@@ -728,7 +730,7 @@
 
 <section class="content col-8-8">
 
-  <div class="sec-head">
+  <div class="content-header">
     <h2 class="title title-yellow">The Expo</h2>
   </div>
 
@@ -754,7 +756,7 @@
             </ul>
             
             
-            <a href="/expo/" class="btn btn-primary btn-yellow btn-rectangular btn-small-padding">Free Entrance</a>
+            <a href="/expo/" class="button button-primary button-yellow button-rectangular button-small-padding">Free Entrance</a>
           </div>
         </div>
 
@@ -870,7 +872,7 @@
   <div class="column-block">
 
     <div class="column-block-item col-4-8">
-      <div class="sec-head">
+      <div class="content-header">
         <h2 class="title title-yellow">The ICS Lab</h2>
       </div>
       <p class="content-intro col-4-8">The Security Lab is, of course, returning to the CS3STHLM summit of 2019. We plan to add even more ICS and ICS communication equipment to the lab, and we working on extending the IoT security part further.</p>
@@ -888,7 +890,7 @@
     </div>
 
     <div class="column-block-item col-4-8">
-      <div class="sec-head">
+      <div class="content-header">
         <h2 class="title title-yellow">The Trainings</h2>
       </div>
       <p class="content-intro col-4-8">Between 21 and 22 of October, the days before the summit, we will provide different full-day tutorials and training with world-renowned experts. We have tutorials in a number of different areas such as forensics in computers and in networks, introduction to cybersecurity standards, and information gathering. The tutorials ranging from theoretical overviews via hands-on practical to highly technical classes.</p>
@@ -913,7 +915,7 @@
             <p>This one day class is an introduction to threat hunting and incident response for...</p>
             
 
-            <a href="/" class="btn btn-primary btn-rectangular btn-small-padding">View Details</a>
+            <a href="/" class="button button-primary button-rectangular button-small-padding">View Details</a>
           </div>
         </div>
         
@@ -932,7 +934,7 @@
             <p>Network defense is informed by knowing the network, and knowing the adversary – but...</p>
             
 
-            <a href="/" class="btn btn-primary btn-rectangular btn-small-padding">View Details</a>
+            <a href="/" class="button button-primary button-rectangular button-small-padding">View Details</a>
           </div>
         </div>
         

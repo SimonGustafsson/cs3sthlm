@@ -19,11 +19,10 @@ id: home
       <h3 class="intro-mark-subtitle">Organized by <a href="https://omnisiens.se">Omnisiens</a></h3>
     </div>
 
-    <div class="btn-group btn-group-intro">
-      <a href="mailto:info@cs3sthlm.se?subject=Interested to become part of CS3STHLM&body=GDPR Notice: By sending this mail I acknowledge that the company Omnisiens AB, running the conference CS3sthlm, have the right to store and use my personal identifiable information for information related to CS3sthlm, conferences, training and courses, etc." class="btn btn-blue">Keep Me Posted!</a>
-      <a href="{{ site.baseurl }}/thank-you" class="btn btn-primary btn-yellow">Thank You</a>
-      <!--<a href="{{ site.baseurl }}/expo" class="btn btn-primary btn-red">View CS3sthlm Expo</a>-->
-      <a href="https://tickets.cs3sthlm.se/" class="btn btn-primary btn-yellow" target="_blank">Buy Tickets</a>
+    <div class="button-group button-group-intro">
+      <a href="mailto:info@cs3sthlm.se?subject=Interested to become part of CS3STHLM&body=GDPR Notice: By sending this mail I acknowledge that the company Omnisiens AB, running the conference CS3sthlm, have the right to store and use my personal identifiable information for information related to CS3sthlm, conferences, training and courses, etc." class="button button-blue">Keep Me Posted!</a>
+      <a href="{{ site.baseurl }}/thank-you" class="button button-primary button-yellow">Thank You</a>
+      <a href="https://tickets.cs3sthlm.se/" class="button button-primary button-yellow" target="_blank">Buy Tickets</a>
     </div>
   </div>
 
@@ -36,14 +35,16 @@ id: home
       </li>
       {% endfor %}
     </ul>
-    <a href="{{ site.baseurl }}/news" class="btn btn-primary">View all news</a>
+    <div class="col-2-8">
+      <a href="{{ site.baseurl }}/news" class="button button-primary">View all news</a>
+    </div>
   </div>
 
 </section>
 
 <section class="content col-8-8">
 
-  <div class="sec-head">
+  <div class="content-header">
     <h2 class="title title-yellow">The Summit</h2>
   </div>
 
@@ -52,7 +53,7 @@ id: home
     <div class="column-block-item col-5-8">
       <p class="content-intro col-4-8">CS3STHLM – the Stockholm international summit on Cyber Security in SCADA and Industrial Control Systems - is an annual summit that gather the most important stakeholders across critical processes and industries. CS3STHLM has been organized since 2014, and has quickly become the premier ICS Security Summit in Northern Europe!</p>
 
-      <div class="column-block">
+      <div class="column-block column-block-bit">
         <div class="column-block-item col-1-3">
           <div class="card-item card-item-filled">
             <h4 class="sub-headline">Previous Summit</h4>
@@ -145,7 +146,7 @@ id: home
   <div class="speaker--block">
     <div class="speaker--block-header">
       <h3 class="headline">Speakers of 2018</h3>
-      <a href="{{ site.baseurl }}/program/speakers/" class="btn btn-primary speaker-row">View All Speakers</a>
+      <a href="{{ site.baseurl }}/program/speakers/" class="button button-primary speaker-row">View All Speakers</a>
     </div>
 
     <div class="speaker--list-group speaker--list-home">
@@ -272,7 +273,7 @@ id: home
 
 <section class="content col-8-8">
 
-  <div class="sec-head">
+  <div class="content-header">
     <h2 class="title title-yellow">The Expo</h2>
   </div>
 
@@ -298,7 +299,7 @@ id: home
             </ul>
             {% endif %}
             {% endfor %}
-            <a href="{{ site.baseurl }}/expo/" class="btn btn-primary btn-yellow btn-rectangular btn-small-padding">Free Entrance</a>
+            <a href="{{ site.baseurl }}/expo/" class="button button-primary button-yellow button-rectangular button-small-padding">Free Entrance</a>
           </div>
         </div>
 
@@ -347,7 +348,7 @@ id: home
   <div class="column-block">
 
     <div class="column-block-item col-4-8">
-      <div class="sec-head">
+      <div class="content-header">
         <h2 class="title title-yellow">The ICS Lab</h2>
       </div>
       <p class="content-intro col-4-8">The Security Lab is, of course, returning to the CS3STHLM summit of 2019. We plan to add even more ICS and ICS communication equipment to the lab, and we working on extending the IoT security part further.</p>
@@ -365,7 +366,7 @@ id: home
     </div>
 
     <div class="column-block-item col-4-8">
-      <div class="sec-head">
+      <div class="content-header">
         <h2 class="title title-yellow">The Trainings</h2>
       </div>
       <p class="content-intro col-4-8">Between 21 and 22 of October, the days before the summit, we will provide different full-day tutorials and training with world-renowned experts. We have tutorials in a number of different areas such as forensics in computers and in networks, introduction to cybersecurity standards, and information gathering. The tutorials ranging from theoretical overviews via hands-on practical to highly technical classes.</p>
@@ -390,7 +391,7 @@ id: home
             <p>{{ item.description | truncatewords: 14 }}</p>
             {% endfor %}
 
-            <a href="{{ site.baseurl }}/" class="btn btn-primary btn-rectangular btn-small-padding">View Details</a>
+            <a href="{{ site.baseurl }}/" class="button button-primary button-rectangular button-small-padding">View Details</a>
           </div>
         </div>
         {% endfor %}

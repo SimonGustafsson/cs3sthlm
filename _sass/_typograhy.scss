@@ -16,9 +16,16 @@ p {
 		font-size: 23px;
 		line-height: 45px;
 	}
+
+	b {
+		font-family: 'latoblack', sans-serif;
+		font-weight: normal;
+	}
 }
 
 p.content-intro {
+	font-size: 23px;
+	line-height: 38px;
 	margin-bottom: 38px;
 
 	@include media-query($mobile) {
@@ -114,7 +121,7 @@ p.content-intro {
 
 .sub-headline {
 	font-family: 'latobold', sans-serif;
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: normal;
 	font-style: italic;
 	line-height: 32px;
@@ -124,6 +131,10 @@ p.content-intro {
 
 	@include media-query-min($giant) {
 		font-size: 14px;
+	}
+
+	&-yellow {
+		color: $yellow;
 	}
 }
 
@@ -195,5 +206,77 @@ p.content-intro {
 		line-height: 24px;
 	}
 }
+
+// LISTS //
+
+.clean-list {
+	display: block;
+	list-style: none;
+
+	li {
+		margin-bottom: 8px;
+	}
+}
+.faq-list {
+	display: block;
+	margin-bottom: 24px;
+	list-style: none;
+
+	&-heading {
+		font-family: 'latoblack', sans-serif;
+		font-weight: normal;
+	}
+	&-item {
+		display: block;
+		padding-left: 24px;
+		box-sizing: border-box;
+		color: $light-gray;
+
+		&:before {
+			display: inline-block;
+			content: '';
+			width: 12px;
+			height: 1px;
+			border-radius: 2px;
+			background: $yellow;
+			margin-bottom: 4px;
+			margin-left: -24px;
+			margin-right: 12px;
+		}
+	}
+}
+.stroke-list {
+	display: block;
+	list-style: none;
+	margin-bottom: 24px;
+
+	&-heading {
+		font-family: 'latoblack', sans-serif;
+		font-weight: normal;
+		margin-bottom: 8px;
+	}
+
+	&-item {
+		display: block;
+		padding-left: 24px;
+		box-sizing: border-box;
+		color: $light-gray;
+		margin-bottom: 8px;
+
+
+		&:before {
+			display: inline-block;
+			content: '';
+			width: 12px;
+			height: 1px;
+			border-radius: 2px;
+			background: $yellow;
+			margin-bottom: 4px;
+			margin-left: -24px;
+			margin-right: 12px;
+		}
+	}
+}
+
 
 
