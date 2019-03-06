@@ -1173,6 +1173,17 @@ h1, h2, h3, h4 {
   @media screen and (max-width: 768px) {
     .content {
       padding: 0 0 60px; } }
+  .content-image {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0; }
+    .content-image-margin {
+      margin-bottom: 24px; }
+    .content-image-full {
+      display: block;
+      width: 100%; }
 
 .column-block {
   display: flex;
@@ -1341,6 +1352,9 @@ h1, h2, h3, h4 {
 
   .col-8-8 {
     width: 1680px; } }
+.col-left-space {
+  margin-left: auto; }
+
 /**
   CARDS */
 .card-item {
@@ -1511,9 +1525,9 @@ h1, h2, h3, h4 {
   align-items: center; }
   .content-header .button-group {
     display: flex;
-    align-items: flex-end; }
-    .content-header .button-group .button {
-      margin-left: auto; }
+    justify-content: flex-end; }
+    .content-header .button-group .button:nth-child(2) {
+      margin-left: 24px; }
 
 .sec-content {
   display: block;
@@ -2592,6 +2606,10 @@ h1, h2, h3, h4 {
       cursor: pointer; }
       .speaker--list-item .speaker-block:hover img {
         transform: scale(1.05); }
+      .speaker--list-item .speaker-block:hover .speaker-block-data h4 span {
+        width: auto;
+        height: auto;
+        opacity: 1; }
     .speaker--list-item .speaker-block-data {
       display: block;
       position: absolute;
@@ -2619,18 +2637,26 @@ h1, h2, h3, h4 {
       .speaker--list-item .speaker-block-data h4 {
         font-family: 'latobold', sans-serif;
         font-size: 10px;
-        font-weight: 400;
+        font-weight: normal;
         letter-spacing: 2px;
         line-height: 1;
         text-transform: uppercase;
-        color: #a6a7a9;
-        margin-bottom: 4px; }
+        color: rgba(255, 255, 255, 0.5);
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        padding: 6px 6px 6px 9px;
+        display: inline-block;
+        border-radius: 20px;
+        overflow: hidden; }
+        .speaker--list-item .speaker-block-data h4:hover span {
+          width: auto;
+          height: auto;
+          opacity: 1; }
         .speaker--list-item .speaker-block-data h4 span {
           display: inline-block;
-          margin-left: 8px;
-          padding-left: 8px;
-          box-sizing: border-box;
-          border-left: 1px solid #a6a7a9; }
+          width: 0;
+          height: 0;
+          opacity: 0;
+          overflow: hidden; }
         @media screen and (max-width: 1170px) {
           .speaker--list-item .speaker-block-data h4 {
             font-size: 9px; } }
@@ -3163,7 +3189,7 @@ h1, h2, h3, h4 {
       display: inline-block; } }
 
 .button-icon.button-yellow:hover #external-link, .button-icon.button-yellow:hover #download {
-  fill: #030100; }
+  fill: white; }
 .button-icon.button-green:hover #external-link, .button-icon.button-green:hover #download {
   fill: #030100; }
 .button-icon .external-icon, .button-icon .download-icon {
@@ -3172,7 +3198,7 @@ h1, h2, h3, h4 {
   height: 11px;
   margin-left: 10px; }
 .button-icon #external-link, .button-icon #download {
-  fill: white;
+  fill: #030100;
   transition: 0.24s all ease-in-out;
   -moz-transition: 0.24s all ease-in-out;
   -webkit-transtiion: 0.24s all ease-in-out;
@@ -4398,42 +4424,6 @@ h1, h2, h3, h4 {
       width: 100%; } }
   .sec-program .full-width-image-details img {
     width: 100%; }
-.sec-program .lab-list {
-  text-align: left;
-  list-style: none;
-  margin-bottom: 40px;
-  display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap; }
-  @media screen and (max-width: 768px) {
-    .sec-program .lab-list {
-      padding: 20px;
-      box-sizing: border-box; } }
-  .sec-program .lab-list:last-of-type {
-    margin-bottom: 0; }
-  .sec-program .lab-list li {
-    width: 550px;
-    margin-bottom: 24px;
-    break-inside: avoid;
-    -webkit-column-break-inside: avoid;
-    page-break-inside: avoid; }
-    .sec-program .lab-list li:last-of-type {
-      margin-bottom: 0; }
-    @media screen and (min-width: 1680px) {
-      .sec-program .lab-list li {
-        width: 660px; } }
-    @media screen and (max-width: 1170px) {
-      .sec-program .lab-list li {
-        width: 100%; } }
-    @media screen and (max-width: 768px) {
-      .sec-program .lab-list li {
-        width: 100%; } }
-    .sec-program .lab-list li p {
-      font-size: 18px;
-      color: rgba(255, 255, 255, 0.85); }
-      @media screen and (min-width: 1680px) {
-        .sec-program .lab-list li p {
-          font-size: 23px; } }
 .sec-program .clean-list {
   list-style: none;
   margin-bottom: 20px; }
@@ -5472,6 +5462,7 @@ p.content-intro {
   font-size: 18px;
   font-weight: normal;
   line-height: 27px;
+  letter-spacing: 0.045em;
   color: white; }
   @media screen and (min-width: 1920px) {
     .heading {
