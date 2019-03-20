@@ -6,16 +6,18 @@ layout: default
 
 <section class="content">
 
-  <div class="sec-head">
-    <div class="block-head">
-      <h4>Presentations</h4>
-      {% include breadcrumbs.html %}
+  {% include breadcrumbs.html %}
+
+  <div class="content-header">
+    <div class="col-4-8">
+      <h4 class="sub-headline">Presentations</h4>
+      <h2 class="title title-yellow">World Class</h2>
     </div>
-    <div class="block-head">
-      <h2>World Class</h2>
-      <div class="btn-group">
-        <a href="{{ site.baseurl }}/program/speakers/" class="btn btn-primary"><span>View</span> Speakers</a>
-        <a href="{{ site.baseurl }}/program/trainings/" class="btn btn-primary"><span>View</span> Trainings</a>
+
+    <div class="col-4-8">
+      <div class="button-group">
+        <a href="{{ site.baseurl }}/program/speakers/" class="button button-primary"><span>View</span> Speakers</a>
+        <a href="{{ site.baseurl }}/program/trainings/" class="button button-primary"><span>View</span> Trainings</a>
       </div>
     </div>
   </div>
@@ -30,10 +32,12 @@ layout: default
             <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}">
             {% endfor %}
             <div class="presentation--list-meta">
-              <span class="p-title">{{ page.title }}</span>
+              <h3 class="heading">{{ page.title }}</h3>
+              <h4 class="alt-title alt-title-small alt-title-light">
               {% for item in page.speaker %}
-              <span class="p-author">{{ item.name }}</span>
+                <span>{{ item.name }}</span>
               {% endfor %}
+              </h4>
             </div>
         </a></li>
       {% endif %}

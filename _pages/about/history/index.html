@@ -8,9 +8,11 @@ layout: default
 
 	{% include breadcrumbs.html %}
 
-	<div class="sec-head">
-  		<h4>2014 - 2018</h4>
-    	<h2 class="title title-yellow">Our Past Events</h2>
+	<div class="content-header">
+		<div class="col-8-8">
+  			<h4 class="sub-headline">2014 - 2018</h4>
+    		<h2 class="title title-yellow">Our Past Events</h2>
+    	</div>
     </div>
 
     <div class="history--block">
@@ -30,7 +32,7 @@ layout: default
 		</ul>
 
 		{% if card.youtube != null %}
-		<a href="{{ card.youtube }}" target="_blank" class="btn btn-primary btn-yellow btn-rectangular btn-small-padding">View at YouTube</a>
+		<a href="{{ card.youtube }}" target="_blank" class="button button-primary button-yellow">View at YouTube</a>
 		{% endif %}
 		{% if card.youtube-details != null %}
 		<span class="card-item-link">{{ card.youtube-details }}</span>

@@ -6,128 +6,152 @@ layout: default
 
 <section class="content">
 
-  <div class="sec-head">
-    <h4>Conference Program</h4>
-    <div class="block-head">
-      <h2>The Program</h2>
+  {% include breadcrumbs.html %}
+
+  <div class="content-header">
+    <div class="col-4-8">
+      <h4 class="sub-headline">Summit Details</h4>
+      <h2 class="title title-yellow">The Program</h2>
     </div>
+
   </div>
 
-  <div class="sec-content sec-program">
+  <div class="column-block column-block-bit">
 
-    <div class="col-6">
-      <div class="col-2-6">
-        <h3 class="headline">Speakers & Trainers</h3>
+    <div class="column-block-item col-4-8">
+      <p>This section of text is not connected to anything, it’s only job is here to take up room and act as a placeholder until further changes comes. The Security Lab is, of course, returning to the CS3STHLM summit of 2018.</p>
+      <p>Similar to one of the previous year, we plan to record and release the traffic in the ICS lab network.</p>
+    </div>
 
-        <p>We will have multiple stages with the best international speakers and trainers, having excellent social activities and provide hard-to-earn knowledge, no matter if it is deeply technical matters, sucessful solutions or policy briefs.</p>
+  </div>
 
-        <a href="{{ site.baseurl }}/program/speakers/" class="btn btn-primary">View All Speakers</a>
-      </div>
+</section>
 
-      <div class="col-4-6 speaker-block-group">
-        <div class="speaker--list-group-special">
-          {% assign sorted_speakers = site.data.speakers | sample: 3 %}
-          {% for speaker in sorted_speakers %}
-          <div class="speaker--list-item">
-            <a href="{{ site.baseurl }}/program/speakers/" class="item-block">
-              <img src="{{ site.baseurl }}/assets/speakers/{{ speaker.image }}">
-              <div class="speaker-block-data">
-                <h4>{{ speaker.type }}<span>{{ speaker.shortcode }}</span></h4>
-                <h2>{{ speaker.name }}</h2>
-              </div>
-            </a>
-          </div>
+<section class="content">
+
+  <div class="column-block column-block-bit">
+
+    <div class="column-block-item col-4-8">
+
+      <h3 class="headline">Speakers & Trainers</h3>
+      <p class="spacing-bottom">We will have multiple stages with the best international speakers and trainers, having excellent social activities and provide hard-to-earn knowledge, no matter if it is deeply technical matters, sucessful solutions or policy briefs.</p>
+
+      <a href="{{ site.baseurl}}/program/speakers/" class="button button-primary">View Speakers</a>
+
+    </div>
+
+    <div class="column-block-item col-4-8">
+      <div class="speakers-block">
+      {% assign sorted_speakers = site.data.archive | sample: 4 %}
+      {% for speaker in sorted_speakers %}
+      {% if speaker.type contains "presentation" or speaker.type contains "training" or speaker.type contains "moderator" %}
+      <div class="speakers-block-item col-2-8">
+        {% for item in speaker.speaker %}
+        <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}.png" class="speakers-block-item-image" />
+        {% endfor %}
+        <div class="speaker-block-item-data">
+          {% for item in speaker.speaker %}
+          <h3 class="speaker-name">{{ item.name }}</h3>
+          <h4 class="speaker-role">{{ item.role }}</h4>
           {% endfor %}
         </div>
       </div>
-    </div>
+      {% endif %}
+      {% endfor %}
+      </div>
 
-    <div class="col-6">
-      <div class="col-4-6 workshop--block-group workshop-program-group">
-        {% for page in site.pages %}
-        {% if page.id ==  'training' %}
-        <a href="{{ page.url | prepend: site.baseurl }}" class="workshop--block-item">
-          {% if page.image != null %}
-          <div class="workshop--block-image">
-            <img src="{{ site.baseurl }}/assets/speakers/{{ page.image }}">
-          </div>
+    </div>
+  </div>
+
+</section>
+
+<section class="content">
+
+  <div class="column-block column-block-bit">
+
+    <div class="column-block-item col-5-8">
+      {% assign training = site.pages | where_exp:"item", "item.layout contains 'training'" | sample: '3' | sort:'title' %}
+      {% for item in training limit: 3 %}
+      <a href="{{ site.baseurl }}{{ item.permalink }}" class="card-item card-item-filled spacing-bottom card-item-linked">
+        <div class="card-item-details-row">
+          {% if item.time contains "-" %} 
+          <h4 class="sub-headline">Two Days - {{ item.time }}</h4>
           {% else %}
-          <div class="workshop--block-image">
-            {% for item in page.speaker %}
-            <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}">
-            {% endfor %}
-          </div>
+          <h4 class="sub-headline">One Day - {{ item.time }}</h4>
           {% endif %}
-          <!-- <img src="{{ site.baseurl }}/assets/speakers/{{ page.image }}"> -->
-          <div class="workshop--block-content">
-            <h4 class="workshop--block-status {% if page.status == 'Slots Open' %}workshop--block-status-active{% endif %}">{{ page.status }}</h4>
-            <h2 class="workshop--block-title">{{ page.title }}</h2>
-            <div class="workshop--meta">
-              <span class="workshop--meta-time">{{ page.time }}</span>
-              {% for item in page.speaker %}
-              <span class="workshop--meta-author">{{ item.name }}</span>
-              {% endfor %}
-            </div>
-            <p>{{ page.content | strip_html | truncatewords: 12 }}</p>
-          </div>
-        </a>
-        {% endif %}
-        {% endfor %}
-      </div>
 
-      <div class="col-2-6">
-        <h3 class="headline">Trainings & Tutorials</h3>
+          {% if item.status contains "Slots Open" %}
+          <h4 class="sub-headline sub-headline-yellow">{{ item.status }}</h4>
+          {% endif %}
 
-        <p>Between 22rd and 23th of October, the days before the summit, we will provide different full-day tutorials and training with world-renowned experts. We have tutorials in a number of different areas such as forensics in computers and in networks, introduction to cybersecurity standards, and information gathering.</p>
+          {% if item.status contains "Cancelled" %}
+          <h4 class="sub-headline sub-headline-gray">{{ item.status }}</h4>
+          {% endif %}
 
-        <p>The tutorials ranging from theoretical overviews via hands-on practical to highly technical classes.</p>
+          {% if item.status contains "Sold Out" %}
+          <h4 class="sub-headline sub-headline-red">{{ item.status }}</h4>
+          {% endif %}
 
-        <a href="{{ site.baseurl }}/program/trainings/" class="btn btn-primary">View Trainings</a>
-      </div>
-
-    </div>
-
-    <div class="col-6">
-      <div class="col-2-6">
-        <h3 class="headline">Our Presentations</h3>
-      </div>
-      <div class="presentation--list">
-        <ul>
-        {% assign presentation = site.pages | where_exp:"item", "item.layout contains 'presentation'" | sample: 6 %}
-        {% for page in presentation limit: 6 %}
-          <li><a href="{{ page.url | prepend: site.baseurl }}">
-              {% for item in page.speaker %}
-              <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}">
-              {% endfor %}
-              <div class="presentation--list-meta">
-                <span class="p-title">{{ page.title }}</span>
-                {% for item in page.speaker %}
-                <span class="p-author">{{ item.name }}</span>
-                {% endfor %}
-              </div>
-          </a></li>
-        {% endfor %}
-        </ul>
-      </div>
-      <div class="col-2-6">
-        <a href="{{ site.baseurl }}/program/presentations/" class="btn btn-primary">View All Presentations</a>
-      </div>
-    </div>
-
-    <div class="col-6">
-      <div class="col-2-6">
-        <h3 class="headline">ICS & IoT Security Lab</h3>
-
-        <p>The security lab is returning to the conference. This year the lab will be a bigger, better and more interesting than ever before. We have added alot of more ICS and ICS communication equipment to the lab. We have extended it with a part that is for IoT security.</p>
-
-        <a href="{{ site.baseurl }}/ics-lab/" class="btn btn-primary">View More Details</a>
-      </div>
-
-      <div class="col-4-6">
-        <div class="full-width-image-details">
-          <img src="{{ site.baseurl }}/assets/photos/cs3sthlm-geeklounge.jpg" srcset="{{ site.baseurl }}/assets/photos/cs3sthlm-geeklounge@2x.jpg 2x" alt="Geeklounge at CS3STHLM">
         </div>
-      </div>
+        <div class="card-item-details">
+          <h2 class="speaker-title">{{ item.title }}</h2>
+          <h3 class="speaker-name">
+          {% for item in item.speaker %}
+            <span>{{ item.name }}</span>
+          {% endfor %}
+          </h3>
+
+          <p>{{ item.content | strip_html | truncatewords: 14 }}</p>
+        </div>
+      </a>
+      {% endfor %}
+
+
     </div>
+
+    <div class="column-block-item col-3-8">
+
+      <h3 class="headline">Trainings</h3>
+      <p>Between 22rd and 23th of October, the days before the summit, we will provide different full-day tutorials and training with world-renowned experts. We have tutorials in a number of different areas such as forensics in computers and in networks, introduction to cybersecurity standards, and information gathering.</p>
+
+      <p class="spacing-bottom">The tutorials ranging from theoretical overviews via hands-on practical to highly technical classes.</p>
+
+      <a href="{{ site.baseurl}}/program/trainings/" class="button button-primary">View Trainings</a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="content">
+
+  <div class="column-block column-block-bit">
+
+    <div class="column-block-item col-8-8">
+
+      <h3 class="headline">Presentations</h3>
+
+      <div class="speakers-block">
+      {% assign presentation = site.pages | where_exp:"item", "item.layout contains 'presentation'" | sample: 8 %}
+      {% for page in presentation limit: 8 %}
+      <a href="{{ page.permalink }}" class="speakers-block-item col-4-8">
+        <div class="speakers-block-item-data">
+          <h3 class="heading">{{ page.title }}</h3>
+          <h4 class="alt-title alt-title-small alt-title-light">
+          {% for item in page.speaker %}
+          <span>{{ item.name }}</span>
+          {% endfor %}
+          </h4>
+        </div>
+      </a>
+      {% endfor %}
+      </div>
+
+      <a href="{{ site.baseurl}}/program/presentations/" class="button button-primary">View Presentations</a>
+
+    </div>
+
+  </div>
 
 </section>

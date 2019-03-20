@@ -16,7 +16,7 @@ id: home
 
       <h2 class="intro-mark-title">The Premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure</h2>
 
-      <h3 class="intro-mark-subtitle">Organized by <a href="https://omnisiens.se">Omnisiens</a></h3>
+      <h3 class="intro-mark-subtitle">Organized by <a href="https://omnisiens.se" target="_blank">Omnisiens</a></h3>
     </div>
 
     <div class="button-group button-group-intro">
@@ -35,7 +35,7 @@ id: home
       </li>
       {% endfor %}
     </ul>
-    <div class="col-2-8">
+    <div class="button-group">
       <a href="{{ site.baseurl }}/news" class="button button-primary">View all news</a>
     </div>
   </div>
@@ -149,7 +149,7 @@ id: home
       <a href="{{ site.baseurl }}/program/speakers/" class="button button-primary speaker-row">View All Speakers</a>
     </div>
 
-    <div class="speaker--list-group speaker--list-home">
+    <div class="speaker--list-group">
       {% assign sorted_speakers = site.data.speakers | sample: 6 %}
       {% for speaker in sorted_speakers %}
       <div class="speaker--list-item">
@@ -274,16 +274,9 @@ id: home
         </div>
       </div>
       {% endfor %}
-      <div class="speaker--list-item speaker--list-item-special">
-        <div class="speaker-block">
-          <div class="speaker-block-data">
-            <a href="{{ site.baseurl }}/program/speakers/" class="special">View More Speakers</a>
-          </div>
-        </div>
-      </div>
-
+      
     </div>
-  </div> <!-- end of speaker block -->
+  </div>
 
 </section>
 
@@ -390,7 +383,7 @@ id: home
       <div class="column-block">
         {% assign training = site.data.trainings | sort: 'year' | reverse %}
         {% for card in training limit: 2 %}
-        <div class="column-block-item col-2-8">
+        <div class="column-block-item col-2-8 card-item-training">
           <div class="card-item card-item-filled">
             {% for item in card.training %}
             {% if item.date contains "-" %} 

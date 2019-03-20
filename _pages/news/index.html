@@ -6,103 +6,72 @@ layout: default
 
 <section class="content">
 
-  <div class="sec-head">
-    <h4>News</h4>
-    <div class="block-head">
-    	<h2>The Newsroom</h2>
-    	<!--<a href="#" class="btn btn-primary">View the Archive</a>-->
-    </div>
+    {% include breadcrumbs.html %}
 
-    <div class="col-6-6">
-
-        <div class="col-3-6">
-            <h5 class="featured-post-headline">Latest News</h5>
-
-            {% for post in site.categories.news limit:1 %}
-            <article class="featured-post">
-                <header class="featured-post-header">
-                    <span class="featured-post-date">{{ post.date | date: "%d %b %-Y" }}</span>
-                    <span class="featured-post-category category-{{ post.categories | join: ' ' }}">{{ post.categories | join: ' ' }}</span>
-                </header>
-
-                <section class="featured-post-content">
-                    <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-
-                    <p>{{ post.content | strip_html | truncatewords: 35 }}</p>
-                </section>
-
-                <div class="featured-post-pagination">
-                    <a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-primary">Read the Story</a>
-                </div>
-            </article>
-            {% endfor %}
+    <div class="content-header">
+        <div class="col-4-8">
+            <h4 class="sub-headline">News & Press</h4>
+            <h2 class="title title-yellow">The Newsroom</h2>
         </div>
-
-        <div class="col-3-6 col-ms-1">
-            <h5 class="featured-post-headline">Latest Press</h5>
-
-            {% for post in site.categories.press limit:1 %}
-            <article class="featured-post">
-                <header class="featured-post-header">
-                    <span class="featured-post-date">{{ post.date | date: "%d %b %-Y" }}</span>
-                    <span class="featured-post-category category-{{ post.categories | join: ' ' }}">{{ post.categories | join: ' ' }}</span>
-                </header>
-
-                <section class="featured-post-content">
-                    <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-
-                    <p>{{ post.content | strip_html | truncatewords: 35 }}</p>
-                </section>
-
-                <div class="featured-post-pagination">
-                    <a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-primary">Read the Story</a>
-                    <a href="{{ site.baseurl }}/press" class="btn btn-primary">View All Press</a>
-                </div>
-            </article>
-            {% endfor %}
-        </div>
-
     </div>
-  </div>
 
 </section>
 
 <section class="content">
 
-<div class="workshop--list-group">
-    <h3 class="subpar-headline">2018 CS3STHLM - <span class="highlight">All Posts</span></h3>
+    <div class="workshop--list-group">
+        <h3 class="headline">2019 CS3STHLM</h3>
+    {% for post in site.posts %}
+    {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
+    {% if year == "2019" %}
+        <div class="workshop--list-item">
+            <a href="{{ post.url | prepend: site.baseurl }}" class="workshop--list-link">
+                <div class="workshop--meta">
+                    <span class="workshop--meta-date">{{ post.date | date: "%d %b %-Y" }}</span>
+                    <span class="workshop--meta-category category-{{ post.categories | join: ' ' }}">{{ post.categories | join: ' ' }}</span>
+                </div>
+                <h2 class="workshop--list-title">{{ post.title }}</h2>
+            </a>
+        </div>
+    {% endif %}
+    {% endfor %}
+    </div>
+
+
+    <div class="workshop--list-group">
+        <h3 class="headline">2018 CS3STHLM</h3>
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
     {% if year == "2018" %}
-    <div class="workshop--list-item">
-        <a href="{{ post.url | prepend: site.baseurl }}" class="workshop--list-link">
-        <div class="workshop--meta">
-            <span class="workshop--meta-date">{{ post.date | date: "%d %b %-Y" }}</span>
-            <span class="workshop--meta-category category-{{ post.categories | join: ' ' }}">{{ post.categories | join: ' ' }}</span>
+        <div class="workshop--list-item">
+            <a href="{{ post.url | prepend: site.baseurl }}" class="workshop--list-link">
+                <div class="workshop--meta">
+                    <span class="workshop--meta-date">{{ post.date | date: "%d %b %-Y" }}</span>
+                    <span class="workshop--meta-category category-{{ post.categories | join: ' ' }}">{{ post.categories | join: ' ' }}</span>
+                </div>
+                <h2 class="workshop--list-title">{{ post.title }}</h2>
+            </a>
         </div>
-        <h2 class="workshop--list-title">{{ post.title }}</h2>
-        </a>
-    </div>
     {% endif %}
     {% endfor %}
-</div>
+    </div>
 
-<div class="workshop--list-group">
-    <h3 class="subpar-headline">2017 CS3STHLM - <span class="highlight">All Posts</span></h3>
+    <div class="workshop--list-group">
+        <h3 class="headline">2017 CS3STHLM</h3>
     {% for post in site.posts %}
     {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
     {% if year == "2017" %}
-    <div class="workshop--list-item">
-        <a href="{{ post.url | prepend: site.baseurl }}" class="workshop--list-link">
-        <div class="workshop--meta">
-            <span class="workshop--meta-date">{{ post.date | date: "%d %b %-Y" }}</span>
-            <span class="workshop--meta-category category-{{ post.categories | join: ' ' }}">{{ post.categories | join: ' ' }}</span>
+        <div class="workshop--list-item">
+            <a href="{{ post.url | prepend: site.baseurl }}" class="workshop--list-link">
+                <div class="workshop--meta">
+                    <span class="workshop--meta-date">{{ post.date | date: "%d %b %-Y" }}</span>
+                    <span class="workshop--meta-category category-{{ post.categories | join: ' ' }}">{{ post.categories | join: ' ' }}</span>
+                </div>
+                <h2 class="workshop--list-title">{{ post.title }}</h2>
+            </a>
         </div>
-        <h2 class="workshop--list-title">{{ post.title }}</h2>
-        </a>
-    </div>
     {% endif %}
     {% endfor %}
-</div>
+    </div>
 
 </section>

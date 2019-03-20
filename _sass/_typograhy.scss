@@ -8,8 +8,15 @@ p {
 
 	margin-bottom: 19px;
 
+	@include media-query($mobile) {
+		line-height: 32px;
+	}
+
 	&:last-of-type {
 		margin-bottom: 0;
+	}
+	&.spacing-bottom:last-of-type {
+		margin-bottom: 24px;
 	}
 
 	@include media-query-min($giant) {
@@ -21,6 +28,19 @@ p {
 		font-family: 'latoblack', sans-serif;
 		font-weight: normal;
 	}
+
+	a {
+		font-family: 'latobold', sans-serif;
+		font-weight: normal;
+		color: $white;
+		text-decoration: underline;
+
+		@include transition-ease;
+
+		&:hover {
+			color: $yellow;
+		}
+	}
 }
 
 p.content-intro {
@@ -29,8 +49,8 @@ p.content-intro {
 	margin-bottom: 38px;
 
 	@include media-query($mobile) {
-		padding: 0 20px;
-		box-sizing: border-box;
+		font-size: 18px;
+		line-height: 32px;
 	}
 }
 
@@ -46,6 +66,11 @@ p.content-intro {
 	}
 	&-white {
 		color: $white;
+	}
+
+	@include media-query($mobile) {
+		font-size: 37px;
+		line-height: 56px;
 	}
 }
 .subtitle {
@@ -81,6 +106,9 @@ p.content-intro {
 			font-size: 15px;
 			line-height: 24px;
 		}
+	}
+	&-light {
+		color: $light-gray;
 	}
 }
 
@@ -118,6 +146,21 @@ p.content-intro {
 	&-spacing-bottom {
 		margin-bottom: 12px;
 	}
+
+	&-small {
+		font-size: 14px;
+		line-height: 32px;
+		text-transform: none;
+		letter-spacing: 0;
+	}
+	&-light {
+		color: $light-gray;
+	}
+
+	@include media-query($mobile) {
+		font-size: 14px;
+		line-height: 28px;
+	}
 }
 
 .sub-headline {
@@ -134,8 +177,23 @@ p.content-intro {
 		font-size: 14px;
 	}
 
+	@include media-query($mobile) {
+		font-size: 12px;
+		line-height: 24px;
+	}
+
 	&-yellow {
 		color: $yellow;
+	}
+	&-red {
+		color: $red;
+	}
+	&-gray {
+		color: $gray;
+	}
+	&-small {
+		font-size: 12px;
+		line-height: 24px;
 	}
 }
 
@@ -264,6 +322,11 @@ p.content-intro {
 		color: $light-gray;
 		margin-bottom: 8px;
 
+		@include media-query-min($giant) {
+			font-size: 23px;
+			line-height: 36px;
+		}
+
 
 		&:before {
 			display: inline-block;
@@ -279,5 +342,19 @@ p.content-intro {
 	}
 }
 
+.spacing-bottom {
+	margin-bottom: 24px;
+}
+.spacing-left {
+	margin-left: 24px;
+}
 
+.duo-columns {
+	column-count: 2;
+	column-gap: 24px;
+
+	@include media-query($mobile) {
+		column-count: 1;
+	}
+}
 

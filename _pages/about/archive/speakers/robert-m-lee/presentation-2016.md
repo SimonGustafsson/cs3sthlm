@@ -1,7 +1,7 @@
 ---
 title: Exploring the Unknown ICS Threat Landscape
 permalink: "/about/archive/speakers/robert-m-lee/exploring-the-unknown-ics-threat-landscape"
-layout: presentation
+layout: archive-presentation
 speaker:
 - name: Robert M. Lee
   role: Security Researcher
