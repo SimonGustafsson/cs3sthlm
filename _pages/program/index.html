@@ -67,7 +67,7 @@ layout: default
 
 <section class="content">
 
-  <div class="column-block column-block-bit">
+  <div class="column-block column-block-bit program-training">
 
     <div class="column-block-item col-5-8">
       {% assign training = site.pages | where_exp:"item", "item.layout contains 'training'" | sample: '3' | sort:'title' %}
@@ -105,8 +105,6 @@ layout: default
         </div>
       </a>
       {% endfor %}
-
-
     </div>
 
     <div class="column-block-item col-3-8">

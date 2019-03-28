@@ -18,7 +18,7 @@ $(function() {
 
 
 $(window).scroll(function(){
-    if ($(window).scrollTop() >= 717) {
+    if ($(window).scrollTop() >= 676) {
         $('.nav-archive').addClass('sticky-block');
         $('.nav-archive-hidden-spacer').addClass('show-spacer');
     }

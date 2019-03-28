@@ -69,7 +69,7 @@ p.content-intro {
 	}
 
 	@include media-query($mobile) {
-		font-size: 37px;
+		font-size: 35px;
 		line-height: 56px;
 	}
 }
@@ -109,6 +109,15 @@ p.content-intro {
 	}
 	&-light {
 		color: $light-gray;
+	}
+	&-yellow {
+		color: $yellow;
+	}
+	&-red {
+		color: $red;
+	}
+	&-gray {
+		color: $gray;
 	}
 }
 

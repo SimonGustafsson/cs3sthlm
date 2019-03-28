@@ -9,11 +9,13 @@ layout: default
 
   {% include breadcrumbs.html %}
 
-  <div class="sec-head">
-    <h2 class="title title-yellow" id="speakers">Speakers</h2>
+  <div class="content-header">
+    <div class="col-4-8">
+      <h2 class="title title-yellow" id="speakers">Speakers</h2>
+    </div>
   </div>
 
-  <div class="col-1">
+  <div class="col-8-8">
     <div class="speakers-block speakers-block-list">
       {% assign sorted_speakers = site.data.archive %}
       {% for speaker in sorted_speakers %}
@@ -34,4 +36,5 @@ layout: default
       {% endfor %}
     </div>
   </div>
+  
 </section>

@@ -75,6 +75,14 @@
 			min-height: 336px;
 			overflow: hidden;
 
+			&:hover {
+				&-type span {
+		          width: auto;
+		          height: auto;
+		          opacity: 1;
+		        }
+			}
+
 			@include media-query-min($giant) {
 				height: 420px;
 				min-height: 420px;
@@ -112,6 +120,40 @@
 				bottom: 0;
 				left: 0;
 				z-index: 30;
+
+				@include media-query($mobile) {
+					padding: 14px;
+				}
+			}
+
+			&-type {
+	          font-family: 'latoblack', sans-serif;
+	          font-size: 11px;
+	          font-weight: normal;
+	          letter-spacing: 2px;
+	          line-height: 1;
+	          text-transform: uppercase;
+	          color: rgba($white, .5);
+	          border: 2px solid rgba($white, .2);
+	          padding: 6px 6px 6px 9px;
+	          display: inline-block;
+	          border-radius: 20px;
+	          overflow: hidden;
+
+	          &:hover {
+	            span {
+	              width: auto;
+	              height: auto;
+	              opacity: 1;
+	            }
+	          }
+	          span {
+	            display: inline-block;
+	            width: 0;
+	            height: 0;
+	            opacity: 0;
+	            overflow: hidden;
+	          }
 			}
 		}
 
@@ -150,6 +192,7 @@
 				width: 100%;
 				height: 100%;
 				position: absolute;
+				top: 0;
 				left: 0;
 				z-index: 40;
 				pointer-events: none;
@@ -254,7 +297,7 @@
 			border-radius: 20px;
 			box-sizing: border-box;
 
-			&:last-of-type {
+			&:nth-child(2) {
 				margin-left: 12px;
 			}
 

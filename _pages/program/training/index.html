@@ -6,68 +6,79 @@ layout: default
 
 <section class="content">
 
-  <div class="sec-head">
-    <div class="block-head">
-      <h4>Trainings & Tutorials</h4>
-      {% include breadcrumbs.html %}
+  {% include breadcrumbs.html %}
+
+  <div class="content-header">
+
+    <div class="col-4-8">
+      <h4 class="sub-headline">Trainings & Tutorials</h4>
+      <h2 class="title title-yellow">World Class Content</h2>
     </div>
-    <div class="block-head">
-      <h2>World Class Content</h2>
-      <div class="btn-group">
-        <a href="{{ site.baseurl }}/program/speakers/" class="btn btn-primary"><span>View</span> Speakers</a>
-        <a href="{{ site.baseurl }}/program/presentations/" class="btn btn-primary"><span>View</span> Presentations</a>
+
+    <div class="col-4-8">
+      <div class="button-group">
+        <a href="{{ site.baseurl }}/program/speakers/" class="button button-primary"><span>View</span> Speakers</a>
+        <a href="{{ site.baseurl }}/program/presentations/" class="button button-primary"><span>View</span> Presentations</a>
       </div>
     </div>
 
-    <div class="col-6-6">
-        <div class="col-3-6 col-ml-1">
-    	   <p>Between 22rd and 23th of October, the days before the summit, we will provide different full-day tutorials and training with world-renowned experts. We have tutorials in a number of different areas such as forensics in computers and in networks, introduction to cybersecurity standards, and information gathering. The tutorials ranging from theoretical overviews via hands-on practical to highly technical classes.</p>
+    <div class="col-4-8">
+      <p>Between 22rd and 23th of October, the days before the summit, we will provide different full-day tutorials and training with world-renowned experts. We have tutorials in a number of different areas such as forensics in computers and in networks, introduction to cybersecurity standards, and information gathering. The tutorials ranging from theoretical overviews via hands-on practical to highly technical classes.</p>
 
-    	   <p>Tutorials are availabe by choosing "combo tickets" for CS3STHLM, in which training is included. When register for CS3STHLM you can select which training you are interested in participating.</p>
-        </div>
-        
-        <div class="col-2-6 col-ms-1">
-          <h3>Please Note</h3>
-
-          <p>Due to the high level of interaction with trainers and complexity of the lab environment, most training classes have limited numbers of seats (15-20 seats). Each training class will be available on first come, first serve basis. We know that some training classes will be in high demand, so if you really want to get some specific training slot, be sure to reserve your seat as early as possible!</p>
-   	    </div>
+      <p>Tutorials are availabe by choosing "combo tickets" for CS3STHLM, in which training is included. When register for CS3STHLM you can select which training you are interested in participating.</p>
     </div>
+
+    <div class="col-4-8">
+      <h3 class="headline">Please Note</h3>
+
+      <p>Due to the high level of interaction with trainers and complexity of the lab environment, most training classes have limited numbers of seats (15-20 seats). Each training class will be available on first come, first serve basis. We know that some training classes will be in high demand, so if you really want to get some specific training slot, be sure to reserve your seat as early as possible!</p>
+    </div>
+
   </div>
 
 </section>
 
 <section class="content">
 
-  <div class="workshop--block-group">
-    <h3 class="subpar-headline">2018 CS3STHLM - <span class="highlight">All Trainings & Tutorials</span></h3>
-    {% for page in site.pages %}
-    {% if page.id ==  'training' %}
-    <a href="{{ page.url | prepend: site.baseurl }}" class="workshop--block-item">
-      {% if page.image != null %}
-      <div class="workshop--block-image">
-        <img src="{{ site.baseurl }}/assets/speakers/{{ page.image }}">
+  <h3 class="headline spacing-bottom">Trainings</h3>
+
+  <div class="column-block col-8-8 training-cards">
+
+    {% assign training = site.pages | where_exp:"item", "item.layout contains 'training'" | sort:'title' %}
+    {% for item in training %}
+    <a href="{{ site.baseurl }}{{ item.permalink }}" class="card-item card-item-filled spacing-bottom card-item-linked col-4-8">
+      <div class="card-item-details-row">
+        {% if item.time contains "-" %} 
+        <h4 class="sub-headline">Two Days - {{ item.time }}</h4>
+        {% else %}
+        <h4 class="sub-headline">One Day - {{ item.time }}</h4>
+        {% endif %}
+
+        {% if item.status contains "Slots Open" %}
+        <h4 class="sub-headline sub-headline-yellow">{{ item.status }}</h4>
+        {% endif %}
+
+        {% if item.status contains "Cancelled" %}
+        <h4 class="sub-headline sub-headline-gray">{{ item.status }}</h4>
+        {% endif %}
+
+        {% if item.status contains "Sold Out" %}
+        <h4 class="sub-headline sub-headline-red">{{ item.status }}</h4>
+        {% endif %}
+
       </div>
-      {% else %}
-      <div class="workshop--block-image">
-        {% for item in page.speaker %}
-        <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}">
+      <div class="card-item-details">
+        <h2 class="speaker-title">{{ item.title }}</h2>
+        <h3 class="speaker-name">
+        {% for item in item.speaker %}
+          <span>{{ item.name }}</span>
         {% endfor %}
-      </div>
-      {% endif %}
-      <div class="workshop--block-content">
-        <h4 class="workshop--block-status {% if page.status == 'Slots Open' %}workshop--block-status-active{% endif %}">{{ page.status }}</h4>
-        <h2 class="workshop--block-title">{{ page.title }}</h2>
-        <div class="workshop--meta">
-          <span class="workshop--meta-time">{{ page.time }}</span>
-          {% for item in page.speaker %}
-          <span class="workshop--meta-author">{{ item.name }}</span>
-          {% endfor %}
-        </div>
-        <p>{{ page.content | strip_html | truncatewords: 19 }}</p>
+        </h3>
+
+        <p>{{ item.content | strip_html | truncatewords: 22 }}</p>
       </div>
     </a>
-    {% endif %}
     {% endfor %}
-  </div>
 
+  </div>
 </section>
