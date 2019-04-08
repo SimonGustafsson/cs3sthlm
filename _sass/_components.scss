@@ -319,3 +319,48 @@
 .speaker-group {
 
 }
+
+
+
+
+// Archive Filter //
+
+.archive-filter {
+
+
+	&-list {
+		display: flex;
+		list-style: none;
+		margin-top: 12px;
+
+		li {
+			display: block;
+			border-radius: 18px;
+			padding: 6px 12px;
+			box-sizing: border-box;
+			border: 2px solid rgba($white, .2);
+
+			font-family: 'latoblack', sans-serif;
+			font-weight: normal;
+			font-size: 11px;
+			line-height: 20px;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			color: $gray;
+			
+			margin-right: 24px;
+
+			@include transition-ease;
+
+			&:last-of-type {
+				margin-right: 0;
+			}
+
+			&:hover {
+				color: $yellow;
+				border-color: $yellow;
+				cursor: pointer;
+			}
+		}
+	}
+}

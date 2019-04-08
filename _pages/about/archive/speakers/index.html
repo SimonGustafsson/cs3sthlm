@@ -9,26 +9,37 @@ layout: default
 
   {% include breadcrumbs.html %}
 
-  <div class="content-header">
+  <div class="content-header column-block-bit">
     <div class="col-4-8">
-      <h2 class="title title-yellow" id="speakers">Speakers</h2>
+      <h4 class="sub-headline">2014 - 2018</h4>
+      <h2 class="title title-yellow" id="speakers">Past Speakers</h2>
+    </div>
+
+    <div class="col-4-8 archive-filter">
+      <h4 class="heading heading-small heading-capped">Filter</h4>
+
+      <ul class="archive-filter-list">
+        <li>Year</li>
+        <li>Name</li>
+        <li>Reset</li>
+      </ul>
     </div>
   </div>
 
   <div class="col-8-8">
     <div class="speakers-block speakers-block-list">
-      {% assign sorted_speakers = site.data.archive %}
+      {% assign sorted_speakers = site.data.archive | sort: 'permalink' %}
       {% for speaker in sorted_speakers %}
       {% if speaker.type contains "presentation" or speaker.type contains "training" or speaker.type contains "moderator" %}
       <a href="{{ site.baseurl }}/about/archive/speakers/{{ speaker.permalink }}" class="speakers-block-item col-2-8">
         {% for item in speaker.speaker %}
-        <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}.png" class="speakers-block-item-image" />
+        <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}-sq.png" class="speakers-block-item-image" />
         {% endfor %}
         <div class="speaker-block-item-data">
-          <h5>{% for item in speaker.when %}<span>{{ item | replace: 'yearfive', '2018' | replace: 'yearfour', '2017' | replace: 'yearthree', '2016' | replace: 'yeartwo', '2015' | replace: 'yearone', '2014' }}</span>{% endfor %}</h5>
+          <h5 class="sub-headline sub-headline-small">{% for item in speaker.when %}<span>{{ item | replace: 'yearfive', '2018' | replace: 'yearfour', '2017' | replace: 'yearthree', '2016' | replace: 'yeartwo', '2015' | replace: 'yearone', '2014' }}</span>{% endfor %}</h5>
           {% for item in speaker.speaker %}
-          <h3>{{ item.name }}</h3>
-          <h4>{{ item.role }}</h4>
+          <h3 class="heading">{{ item.name }}</h3>
+          <h4 class="speaker-role">{{ item.role }}</h4>
           {% endfor %}
         </div>
       </a>

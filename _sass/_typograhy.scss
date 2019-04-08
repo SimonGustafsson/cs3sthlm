@@ -127,12 +127,24 @@ p.content-intro {
 	font-size: 18px;
 	font-weight: normal;
 	line-height: 27px;
-	letter-spacing: 0.045em;
+	//letter-spacing: 0.045em;
 	color: $white;
 
 	@include media-query-min($giant) {
 		font-size: 21px;
 		line-height: 32px;
+	}
+
+	&-yellow {
+		color: $yellow;
+	}
+	&-small {
+		font-size: 11px;
+		line-height: 32px;
+	}
+	&-capped {
+		text-transform: uppercase;
+		letter-spacing: 2px;
 	}
 }
 .sub-heading {
@@ -267,7 +279,8 @@ p.content-intro {
 	font-weight: normal;
 	font-style: italic;
 	line-height: 21px;
-	color: $light-gray;
+	color: $gray;
+	letter-spacing: 0.045em;
 
 	@include media-query-min($giant) {
 		font-size: 16px;

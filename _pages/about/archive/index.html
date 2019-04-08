@@ -37,31 +37,34 @@ layout: default
 </div>
 
 <section class="content">
-  <div class="sec-head">
-    <h2 class="title title-yellow" id="keynotes">Keynotes</h2>
+
+  <div class="content-header">
+    <div class="col-4-8">
+      <h2 class="title title-yellow" id="keynotes">Keynotes</h2>
+    </div>
   </div>
 
-  <div class="col-1">
+  <div class="col-8-8">
     <div class="keynote-block">
-      {% assign keynotes = site.data.archive | sort:'id' | reverse %}
+      {% assign keynotes = site.data.archive | sort:'keynoteYear' | reverse %}
       {% for item in keynotes %}
       {% if item.type contains "keynote" %}
-      <div class="keynote-block-item">
+      <a href="{{site.baseurl}}/about/archive/speakers/{{ item.permalink }}" class="keynote-block-item col-2-8">
       {% for item in item.keynote %}
-        {% for item in item.when %}
-        <h4>{{ item | replace: 'yearfive', '2018' | replace: 'yearfour', '2017' | replace: 'yearthree', '2016' | replace: 'yeartwo', '2015' | replace: 'yearone', '2014' }}</h4>
+        {% for item in item.date %}
+        <h4 class="sub-headline">{{ item }}</h4>
         {% endfor %}
-        <h2>{{ item.subject }}</h2>
+        <h2 class="heading heading-yellow">{{ item.subject }}</h2>
       {% endfor %}
       {% for item in item.speaker %}
-        <h3>{{ item.name }}</h3>
+        <h3 class="alt-title alt-title-small">{{ item.name }}</h3>
       {% endfor %}
-        <span class="view-more">View Details</span>
-      </div>
+      </a>
       {% endif %}
       {% endfor %}
     </div>
   </div>
+
 </section>
 
 <section class="content">
@@ -74,17 +77,21 @@ layout: default
       <h3 class="block-title">2018</h3>
       {% assign sorted_trainings = site.data.archive %}
       {% for item in sorted_trainings %}
-      {% if item.training contains "yearfive" %}
-      <div class="training-block-item">
+      {% if item.training contains "2018" %}
+      <div class="training-block-item col-2-8">
         {% for item in item.training %}
         {% for item in item.yearfive %}
-        <h4>{{ item.date }}</h4>
-        <h2>{{ item.subject }}</h2>
+        {% if item.date contains "-" %}
+        <h4 class="sub-headline sub-headline-small">Two days</h4>
+        {% else %}
+        <h4 class="sub-headline sub-headline-small">One day</h4>
+        {% endif %}
+        <h2 class="heading heading-yellow">{{ item.subject }}</h2>
         {% endfor %}
         {% endfor %}
 
         {% for item in item.speaker %}
-        <h3>{{ item.name }}</h3>
+        <h3 class="alt-title alt-title-small">{{ item.name }}</h3>
         {% endfor %}
       </div>
       {% endif %}
@@ -95,17 +102,21 @@ layout: default
       <h3 class="block-title">2017</h3>
       {% assign sorted_trainings = site.data.archive %}
       {% for item in sorted_trainings %}
-      {% if item.training contains "yearfour" %}
-      <div class="training-block-item">
+      {% if item.training contains "2017" %}
+      <div class="training-block-item col-2-8">
         {% for item in item.training %}
         {% for item in item.yearfour %}
-        <h4>{{ item.date | replace: 'yearfour', '2017' }}</h4>
-        <h2>{{ item.subject }}</h2>
+        {% if item.date contains "-" %}
+        <h4 class="sub-headline sub-headline-small">Two days</h4>
+        {% else %}
+        <h4 class="sub-headline sub-headline-small">One day</h4>
+        {% endif %}
+        <h2 class="heading heading-yellow">{{ item.subject }}</h2>
         {% endfor %}
         {% endfor %}
 
         {% for item in item.speaker %}
-        <h3>{{ item.name }}</h3>
+        <h3 class="alt-title alt-title-small">{{ item.name }}</h3>
         {% endfor %}
       </div>
       {% endif %}
@@ -116,17 +127,21 @@ layout: default
       <h3 class="block-title">2016</h3>
       {% assign sorted_trainings = site.data.archive %}
       {% for item in sorted_trainings %}
-      {% if item.training contains "yearthree" %}
-      <div class="training-block-item">
+      {% if item.training contains "2016" %}
+      <div class="training-block-item col-2-8">
         {% for item in item.training %}
         {% for item in item.yearthree %}
-        <h4>{{ item.date | replace: 'yearthree', '2016' }}</h4>
-        <h2>{{ item.subject }}</h2>
+        {% if item.date contains "-" %}
+        <h4 class="sub-headline sub-headline-small">Two days</h4>
+        {% else %}
+        <h4 class="sub-headline sub-headline-small">One day</h4>
+        {% endif %}
+        <h2 class="heading heading-yellow">{{ item.subject }}</h2>
         {% endfor %}
         {% endfor %}
 
         {% for item in item.speaker %}
-        <h3>{{ item.name }}</h3>
+        <h3 class="alt-title alt-title-small">{{ item.name }}</h3>
         {% endfor %}
       </div>
       {% endif %}
@@ -137,17 +152,21 @@ layout: default
       <h3 class="block-title">2015</h3>
       {% assign sorted_trainings = site.data.archive %}
       {% for item in sorted_trainings %}
-      {% if item.training contains "yeartwo" %}
-      <div class="training-block-item">
+      {% if item.training contains "2015" %}
+      <div class="training-block-item col-2-8">
         {% for item in item.training %}
         {% for item in item.yeartwo %}
-        <h4>{{ item.date | replace: 'yeartwo', '2015' }}</h4>
-        <h2>{{ item.subject }}</h2>
+        {% if item.date contains "-" %}
+        <h4 class="sub-headline sub-headline-small">Two days</h4>
+        {% else %}
+        <h4 class="sub-headline sub-headline-small">One day</h4>
+        {% endif %}
+        <h2 class="heading heading-yellow">{{ item.subject }}</h2>
         {% endfor %}
         {% endfor %}
 
         {% for item in item.speaker %}
-        <h3>{{ item.name }}</h3>
+        <h3 class="alt-title alt-title-small">{{ item.name }}</h3>
         {% endfor %}
       </div>
       {% endif %}
@@ -159,17 +178,21 @@ layout: default
       <h3 class="block-title">2014</h3>
       {% assign sorted_trainings = site.data.archive %}
       {% for item in sorted_trainings %}
-      {% if item.training contains "yearone" %}
-      <div class="training-block-item">
+      {% if item.training contains "2014" %}
+      <div class="training-block-item col-2-8">
         {% for item in item.training %}
         {% for item in item.yearone %}
-        <h4>{{ item.date | replace: 'yearone', '2014' }}</h4>
-        <h2>{{ item.subject }}</h2>
+        {% if item.date contains "-" %}
+        <h4 class="sub-headline sub-headline-small">Two days</h4>
+        {% else %}
+        <h4 class="sub-headline sub-headline-small">One day</h4>
+        {% endif %}
+        <h2 class="heading heading-yellow">{{ item.subject }}</h2>
         {% endfor %}
         {% endfor %}
 
         {% for item in item.speaker %}
-        <h3>{{ item.name }}</h3>
+        <h3 class="alt-title alt-title-small">{{ item.name }}</h3>
         {% endfor %}
       </div>
       {% endif %}
@@ -180,7 +203,7 @@ layout: default
 </section>
 
 <section class="content">
-  <div class="content-header">
+  <div class="content-header column-block-bit">
     <div class="col-4-8">
       <h2 class="title title-yellow" id="speakers">Speakers</h2>
     </div>
@@ -193,18 +216,18 @@ layout: default
 
   <div class="col-8-8">
     <div class="speakers-block">
-      {% assign sorted_speakers = site.data.archive | sample: 12 %}
+      {% assign sorted_speakers = site.data.archive | sample: '12' | sort: 'permalink' %}
       {% for speaker in sorted_speakers %}
       {% if speaker.type contains "presentation" or speaker.type contains "training" or speaker.type contains "moderator" %}
-      <div class="speakers-block-item">
+      <div class="speakers-block-item col-2-8">
         {% for item in speaker.speaker %}
-        <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}.png" class="speakers-block-item-image" />
+        <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}-sq.png" class="speakers-block-item-image" />
         {% endfor %}
         <div class="speaker-block-item-data">
-          <h5>{% for item in speaker.when %}<span>{{ item | replace: 'yearfive', '2018' | replace: 'yearfour', '2017' | replace: 'yearthree', '2016' | replace: 'yeartwo', '2015' | replace: 'yearone', '2014' }}</span>{% endfor %}</h5>
+          <h5 class="sub-headline sub-headline-small">{% for item in speaker.when %}<span>{{ item | replace: 'yearfive', '2018' | replace: 'yearfour', '2017' | replace: 'yearthree', '2016' | replace: 'yeartwo', '2015' | replace: 'yearone', '2014' }}</span>{% endfor %}</h5>
           {% for item in speaker.speaker %}
-          <h3>{{ item.name }}</h3>
-          <h4>{{ item.role }}</h4>
+          <h3 class="heading">{{ item.name }}</h3>
+          <h4 class="speaker-role">{{ item.role }}</h4>
           {% endfor %}
         </div>
       </div>
@@ -216,7 +239,7 @@ layout: default
 
 <section class="content">
 
-  <div class="content-header">
+  <div class="content-header column-block-bit">
 
     <div class="col-4-8">
       <h2 class="title title-yellow" id="presentations">Presentations</h2>
@@ -233,83 +256,81 @@ layout: default
     <div class="presentations-block">
       {% assign speakers = site.data.archive %}
       {% for item in speakers limit: 9 %}
+      {% if item.type contains "presentation" and item.presentation contains "active" %}
 
-      {% if item.type contains "presentation" and item.presentation contains "active" and item.presentation contains "yearfive" %}
-      <div class="presentations-block-item">
+      {% if item.presentation contains "2018" %}
+      <div class="presentations-block-item col-2-8">
       {% for item in item.presentation %}
       {% for item in item.yearfive %}
-        <h5><span>{{ item.date }}</span></h5>
-        <h2>{{ item.subject }}</h2>
+        <h5 class="sub-headline sub-headline-small"><span>{{ item.date }}</span></h5>
+        <h2 class="heading heading-yellow">{{ item.subject }}</h2>
       {% endfor %}
       {% endfor %}
       {% for item in item.speaker %}
-        <h3>{{ item.name }}</h3>
-        <h4>{{ item.role }}</h4>
+        <h3 class="alt-title alt-title-small">{{ item.name }}</h3>
+        <h4 class="speaker-role">{{ item.role }}</h4>
       {% endfor %}
       </div>
-      {% endif %}
 
-      {% if item.type contains "presentation" and item.presentation contains "active" and item.presentation contains "yearfour" %}
-      <div class="presentations-block-item">
+      {% elsif item.presentation contains "2017" %}
+      <div class="presentations-block-item col-2-8">
       {% for item in item.presentation %}
       {% for item in item.yearfour %}
-        <h5><span>{{ item.date }}</span></h5>
-        <h2>{{ item.subject }}</h2>
+        <h5 class="sub-headline sub-headline-small"><span>{{ item.date }}</span></h5>
+        <h2 class="heading heading-yellow">{{ item.subject }}</h2>
       {% endfor %}
       {% endfor %}
       {% for item in item.speaker %}
-        <h3>{{ item.name }}</h3>
-        <h4>{{ item.role }}</h4>
+        <h3 class="alt-title alt-title-small">{{ item.name }}</h3>
+        <h4 class="speaker-role">{{ item.role }}</h4>
       {% endfor %}
       </div>
-      {% endif %}
 
-      {% if item.type contains "presentation" and item.presentation contains "active" and item.presentation contains "yearthree" %}
-      <div class="presentations-block-item">
+      {% elsif item.presentation contains "2016" %}
+      <div class="presentations-block-item col-2-8">
       {% for item in item.presentation %}
       {% for item in item.yearthree %}
-        <h5><span>{{ item.date }}</span></h5>
-        <h2>{{ item.subject }}</h2>
+        <h5 class="sub-headline sub-headline-small"><span>{{ item.date }}</span></h5>
+        <h2 class="heading heading-yellow">{{ item.subject }}</h2>
       {% endfor %}
       {% endfor %}
       {% for item in item.speaker %}
-        <h3>{{ item.name }}</h3>
-        <h4>{{ item.role }}</h4>
+        <h3 class="alt-title alt-title-small">{{ item.name }}</h3>
+        <h4 class="speaker-role">{{ item.role }}</h4>
       {% endfor %}
       </div>
-      {% endif %}
 
-      {% if item.type contains "presentation" and item.presentation contains "active" and item.presentation contains "yeartwo" %}
-      <div class="presentations-block-item">
+      {% elsif item.presentation contains "2015" %}
+      <div class="presentations-block-item col-2-8">
       {% for item in item.presentation %}
       {% for item in item.yeartwo %}
-        <h5><span>{{ item.date }}</span></h5>
-        <h2>{{ item.subject }}</h2>
+        <h5 class="sub-headline sub-headline-small"><span>{{ item.date }}</span></h5>
+        <h2 class="heading heading-yellow">{{ item.subject }}</h2>
       {% endfor %}
       {% endfor %}
       {% for item in item.speaker %}
-        <h3>{{ item.name }}</h3>
-        <h4>{{ item.role }}</h4>
+        <h3 class="alt-title alt-title-small">{{ item.name }}</h3>
+        <h4 class="speaker-role">{{ item.role }}</h4>
       {% endfor %}
       </div>
-      {% endif %}
 
-      {% if item.type contains "presentation" and item.presentation contains "active" and item.presentation contains "yearone" %}
-      <div class="presentations-block-item">
+      {% elsif item.presentation contains "2014" %}
+      <div class="presentations-block-item col-2-8">
       {% for item in item.presentation %}
       {% for item in item.yearone %}
-        <h5><span>{{ item.date }}</span></h5>
-        <h2>{{ item.subject }}</h2>
+        <h5 class="sub-headline sub-headline-small"><span>{{ item.date }}</span></h5>
+        <h2 class="heading heading-yellow">{{ item.subject }}</h2>
       {% endfor %}
       {% endfor %}
       {% for item in item.speaker %}
-        <h3>{{ item.name }}</h3>
-        <h4>{{ item.role }}</h4>
+        <h3 class="alt-title alt-title-small">{{ item.name }}</h3>
+        <h4 class="speaker-role">{{ item.role }}</h4>
       {% endfor %}
       </div>
+
       {% endif %}
 
-
+      {% endif %}
       {% endfor %}
     </div>
   </div>
@@ -320,9 +341,11 @@ layout: default
   <div class="column-block">
     <div class="column-block-item col-4-8">
 
-      <div class="sec-head">
-        <h4 class="sub-headline">2015 - 2018</h4>
-        <h2 class="title title-yellow" id="galadinner">Gala Dinner</h2>
+      <div class="content-header">
+        <div class="col-4-8">
+          <h4 class="sub-headline">2015 - 2018</h4>
+          <h2 class="title title-yellow" id="galadinner">Gala Dinner</h2>
+        </div>
       </div>
   
       <p class="content-intro col-4-8">The Gala Dinner is a recurring moment at our conference after the first day of presentations. Here we enjoy a lovely full course dinner with selected dinner entertainment.</p>
@@ -332,62 +355,33 @@ layout: default
           {% assign speakers = site.data.archive %}
           {% for item in speakers %}
 
-          {% if item.type contains "dinner" and item.presentation contains "active" and item.presentation contains "yearfive" %}
-          <div class="presentations-block-item">
+          {% if item.type contains "dinner" and item.presentation contains "active" %}
+          <div class="presentations-block-item col-2-8">
           {% for item in item.presentation %}
           {% for item in item.yearfive %}
-            <h5><span>{{ item.date }}</span></h5>
-            <h2>{{ item.subject }}</h2>
+            <h5 class="sub-headline sub-headline-small"><span>{{ item.date }}</span></h5>
+            <h2 class="heading heading-yellow">{{ item.subject }}</h2>
           {% endfor %}
-          {% endfor %}
-          {% for item in item.speaker %}
-            <h3>{{ item.name }}</h3>
-            <h4>{{ item.role }}</h4>
-          {% endfor %}
-          </div>
-          {% endif %}
-
-          {% if item.type contains "dinner" and item.presentation contains "active" and item.presentation contains "yearfour" %}
-          <div class="presentations-block-item">
-          {% for item in item.presentation %}
           {% for item in item.yearfour %}
-            <h5><span>{{ item.date }}</span></h5>
-            <h2>{{ item.subject }}</h2>
+            <h5 class="sub-headline sub-headline-small"><span>{{ item.date }}</span></h5>
+            <h2 class="heading heading-yellow">{{ item.subject }}</h2>
           {% endfor %}
-          {% endfor %}
-          {% for item in item.speaker %}
-            <h3>{{ item.name }}</h3>
-            <h4>{{ item.role }}</h4>
-          {% endfor %}
-          </div>
-          {% endif %}
-
-          {% if item.type contains "dinner" and item.presentation contains "active" and item.presentation contains "yearthree" %}
-          <div class="presentations-block-item">
-          {% for item in item.presentation %}
           {% for item in item.yearthree %}
-            <h5><span>{{ item.date }}</span></h5>
-            <h2>{{ item.subject }}</h2>
+            <h5 class="sub-headline sub-headline-small"><span>{{ item.date }}</span></h5>
+            <h2 class="heading heading-yellow">{{ item.subject }}</h2>
           {% endfor %}
-          {% endfor %}
-          {% for item in item.speaker %}
-            <h3>{{ item.name }}</h3>
-            <h4>{{ item.role }}</h4>
-          {% endfor %}
-          </div>
-          {% endif %}
-
-          {% if item.type contains "dinner" and item.presentation contains "active" and item.presentation contains "yeartwo" %}
-          <div class="presentations-block-item">
-          {% for item in item.presentation %}
           {% for item in item.yeartwo %}
-            <h5><span>{{ item.date }}</span></h5>
-            <h2>{{ item.subject }}</h2>
+            <h5 class="sub-headline sub-headline-small"><span>{{ item.date }}</span></h5>
+            <h2 class="heading heading-yellow">{{ item.subject }}</h2>
+          {% endfor %}
+          {% for item in item.yearone %}
+            <h5 class="sub-headline sub-headline-small"><span>{{ item.date }}</span></h5>
+            <h2 class="heading heading-yellow">{{ item.subject }}</h2>
           {% endfor %}
           {% endfor %}
           {% for item in item.speaker %}
-            <h3>{{ item.name }}</h3>
-            <h4>{{ item.role }}</h4>
+            <h3 class="alt-title alt-title-small">{{ item.name }}</h3>
+            <h4 class="speaker-role">{{ item.role }}</h4>
           {% endfor %}
           </div>
           {% endif %}

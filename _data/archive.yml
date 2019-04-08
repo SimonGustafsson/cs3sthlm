@@ -3,20 +3,20 @@
 - id: 1
   type: 
     - presentation
-  permalink: mark-bristow
   when:
-    - yearfive
+    - "2018"
+  permalink: mark-bristow
   speaker:
     - name: Mark Bristow
       role: Director
       work: NCCIC Hunt and Incident Response Team (HIRT)
       country: United States
       shortcode: US
-      image: mark-bristow-sq
+      image: mark-bristow
       bio: Mark Bristow is the Director for the Hunt and Incident Response Team (HIRT) at the National Cybersecurity and Communications Integration Center (NCCIC) within the Department of Homeland Security (DHS). He oversees DHS’s efforts for assisting asset owners to respond to, remediate and recover from cyber incidents across government, critical infrastructure and private sector systems—most recently including securing the election infrastructure and addressing Russian attempts to gain access to the U.S. power grid.
   presentation:
-    - yearfive
     - active
+    - "2018"
     - yearfive:
         - date: 2018
           subject: "ICS Incident Response: Lessions and mitigations from the field"
@@ -25,25 +25,25 @@
           description: |
             This presentation will go through key DHS incident response efforts impacting critical infrastructure over time. Using case studies and examples, we will detail root cause analysis of these incidents and provide recommendations for remediation. We will cover major public incidents (Ukraine, Trition, BlacEnergy, Havex…..) as well as other less known incidents DHS has worked with significance. The target audience is critical infrastructure asset owners/operators and ICS security personnel who will take away key insights derived from DHS’s role in defending US critical infrastructure. This presentation will contain new (especially if something happens between now and then) content as well as historical content that articulates a particular defensive lesson learned.
   training:
-    - active: none
+    - none
 
 - id: 2
   type:
     - presentation
-  permalink: jonathan-homer
   when:
-    - yearfive
+    - "2018"
+  permalink: jonathan-homer
   speaker:
     - name: Jonathan Homer
       role: Chief of the Industrial Control System Group
       work: NCCIC Hunt and Incident Response Team (HIRT)
       country: United States
       shortcode: US
-      image: jonathan-homer-sq
+      image: jonathan-homer
       bio: Jonathan Homer is the Chief of the Industrial Control Systems Group within the Hunt & Incident Response Team at the U.S. Department of Homeland Security National Cybersecurity and Communications Integration Center. He has over 15 years of experience within the IT industry, specializing in incident response, industrial control systems, digital telecommunications architecture, and security awareness. Jon has a Master’s Degree in Technology Management, and earned his Chief Information Officer Certificate from the International Academy of CIO in 2016. Jon maintains a number of certifications including ISC2 CISSP and ProSci Advanced Change Management Practitioner.
   presentation:
-    - yearfive
     - active
+    - "2018"
     - yearfive:
         - date: 2018
           subject: Recent APT Campaign targeting Energy Sector Assets
@@ -52,25 +52,25 @@
           description: |
             Over the past year, a concentrated effort has been focused on specific energy sector critical assets, leveraging trusted relationships within supply chains and other partnerships in an attempt to gain access to corporate and control system networks. This technical discussion will review the threat actor’s tactics and techniques observed during multiple on-site incident response engagements conducted by the DHS NCCIC Hunt and Incident Response Team related to this campaign.
   training:
-    - active: none
+    - none
 
 - id: 3
   type:
     - presentation
-  permalink: marcin-dudek
   when:
-    - yearfive
+    - "2018"
+  permalink: marcin-dudek
   speaker:
     - name: Marcin Dudek
       role: IT Security Expert
       work: ComCERT.PL
       country: Poland
       shortcode: PL
-      image: marcin-dudek-sq
+      image: marcin-dudek
       bio: IT security expert, member of ComCERT.PL Team, the team that delivers IT incident response related services. He specializes in the security of industrial control systems. A graduate of the University of Warwick in the Great Britain. Founder of the scientist circle at the Military University of Technology, dealing with cyber security. He has been awarded twice for finding vulnerabilities in Microsoft products. Together with the team, he won the award for the best decision-making document in case of cyber conflict in the Cyber 9/12 Europe Competition, organized by the Atlantic Council. Actively tweeting on @dudekmar
   presentation:
-    - yearfive
     - active
+    - "2018"
     - yearfive:
         - date: 2018
           subject: Using fake BTS as a part of pentest of devices using SIM cards for data transmission
@@ -79,48 +79,48 @@
           description: |
             Fake base stations are often discussed as a threat for privacy of mobile phone users. However, many other devices, such as cars, lifts or industrial control systems (ICS), are increasingly using cellular connectivity. It makes some difficulties during penetration tests – even though data sent through this communication channel might be exactly the same as in case of using WiFi network, its access is much more difficult. Most security guidelines ignore this topic. It turns out that fake BTS, so often presented in a bad light, can be also used to support security examination of this communication channel. The presentation will be based on practice - built testbed and conducted experiments. In addition, hardware requirements for such environment and legal aspects in diffrent jurisdictions will be discussed.
   training:
-    - active: none
+    - none
 
 - id: 4
   type:
     - moderator
-  permalink: anne-marie-eklund-löwinder
   when:
-    - 2014
-    - 2015
-    - 2016
-    - 2017
+    - "2014"
+    - "2015"
+    - "2016"
+    - "2017"
+  permalink: anne-marie-eklund-löwinder
   speaker:
     - name: Anne-Marie Eklund Löwinder
       role: Chief Information Security Officer
       work: IIS, The Internet Foundation In Sweden
       country: Sweden
       shortcode: SE
-      image: amel-sq
+      image: amel
       bio: She is the Chief Information Security Officer at IIS, The Internet Foundation In Sweden. She also serves on the boards of internet-related organisations including the Council of European National Top Level Domain Registries (CENTR) and the Swedish Law and Informatics Research Institute. Eklund Löwinder has been appointed Trusted Community Representative by the Internet Corporation for Assigned Names and Numbers (ICANN). She is one of seven people who control the DNSSEC key generation for the internet root zone.
   presentation:
-    - active: none
+    - none
   training:
-    - active: none
+    - none
 
 
 - id: 5
   type:
     - presentation
-  permalink: monta-elkins
   when:
-    - yearfive
+    - "2018"
+  permalink: monta-elkins
   speaker:
     - name: Monta Elkins
       role: Hacker-in-Chief
       work: FoxGuard Solutions
       country: United States
       shortcode: US
-      image: monta-elkins-sq
+      image: monta-elkins
       bio: Monta Elkins is currently "Hacker-in-Chief" for FoxGuard Solutions, an ICS patch provider. A security researcher and consultant; he was formerly Security Architect for Rackspace, and the first ISO for Radford University. He has been a speaker at DEFCON , Homeland Security’s ICSJWG (Industrial Control Systems Joint Working Group), EnergySec's Security Summit, GE Digital Energy's Annual Software Summit, Toshiba's Industrial Control Systems Conference, NERC's GridSecCon and Emerging Technology Roundtable, ICS CyberSecurity by Security Week, UTC Telecom, and other security conferences. Monta is the author and instructor of the “Defense against the Dark Arts” hands-on, hacker tools and techniques classes, guest lecturer for local colleges and universities teaching rapid prototyping techniques and information security and teaches Arduino and other classes with Let's Code Blacksburg.
   presentation:
-    - yearfive
     - active
+    - "2018"
     - yearfive:
         - date: 2018
           subject: Jumping Air Gaps
@@ -145,35 +145,35 @@
             #### Take Away
             A better understanding of the history of jumping air-gaps and a new attack on data diodes.
   training:
-    - active: none
+    - none
 
 - id: 6
   type: 
     - training
     - presentation
-  permalink: mikael-vingaard
   when:
-    - yeartwo
-    - yearfour
-    - yearfive
+    - "2015"
+    - "2017"
+    - "2018"
+  permalink: mikael-vingaard
   speaker:
     - name: Mikael Vingaard
       role: IT Security Consultant
       work: EnergiNet
       country: Denmark
       shortcode: DK
-      image: mikael-vingaard-sq
+      image: mikael-vingaard
       bio: Mikael Vingaard leverages his 15+ years of IT-security experience to build practicalinformation security with a real-life perspective. Mikael works as IT-Security Consultant at EnergiNet.dk, the Danish national transmission system operator. In his spare time, Mikael runs several research projects, build on Open Source softwareto make a positive difference to secure critical infrastructure environments.
   presentation:
-    - yeartwo
     - active
+    - "2015"
     - yeartwo:
         - date: 2015
           subject: Who controls your industrial control systems?
   training:
     - active
-    - yearfour
-    - yearfive
+    - "2017"
+    - "2018"
     - when:
       - yearfour
       - yearfive
@@ -235,22 +235,22 @@
 - id: 7
   type:
     - presentation
-  permalink: dieter-sarrazyn
   when:
-    - yearfive
-    - yearfour
+    - "2017"
+    - "2018"
+  permalink: dieter-sarrazyn
   speaker:
     - name: Dieter Sarrazyn
       role: Security Expert
       work: Secudea
       country: Belgium
       shortcode: BE
-      image: dieter-sarrazyn-sq
+      image: dieter-sarrazyn
       bio: Dieter is a freelance OT security expert who working extensively on industrial control system security including more than 10 years in a large electricity generation company. He performs SCADA security assessments, provides assistance in securing SCADA environments and helps customers to manage their suppliers’ security through doing security requirements management and security FAT and SAT tests. These activities are always part of a larger program, aimed at reducing business risks.
   presentation:
-    - yearfive
-    - yearfour
     - active
+    - "2017"
+    - "2018"
     - yearfive:
         - date: 2018
           subject: Operator Jail breakout
@@ -270,46 +270,40 @@
         - date: 2017
           subject: DIY insider threat detection/prevention within ICS enviroments
   training:
-    - active: none
+    - none
 
 - id: 8
   type:
     - training
     - presentation
-  permalink: erik-hjelmvik
   when:
-    - yearone
-    - yeartwo
-    - yearthree
-    - yearfour
-    - yearfive
+    - "2014"
+    - "2015"
+    - "2016"
+    - "2017"
+    - "2018"
+  permalink: erik-hjelmvik
   speaker:
     - name: Erik Hjelmvik
       role: Network Analyst
       work: NETRESEC
       country: Sweden
       shortcode: SE
-      image: erik-hjelmvik-sq
+      image: erik-hjelmvik
       bio: Erik is the creator of NetworkMiner and an experienced incident handler who has specialized in the field of network forensics.
   presentation:
     - active
-    - when:
-      - yearone
-      yearone:
+    - "2014"
+    - yearone:
         - date: 22 October 2014
           subject: SCADA Network Forensics
           description: Coming soon.
   training:
     - active
-    - yeartwo
-    - yearthree
-    - yearfour
-    - yearfive
-    - when:
-        - yeartwo
-        - yearthree
-        - yearfour
-        - yearfive
+    - "2015"
+    - "2016"
+    - "2017"
+    - "2018"
     - yeartwo:
       - date: 20 October 2015
         subject: Network Forensics Training
@@ -471,20 +465,20 @@
   type: 
     - presentation
     - training
-  permalink: ben-miller
   when:
-    - yearfive
+    - "2018"
+  permalink: ben-miller
   speaker:
     - name: Ben Miller
       role: Director of Threat Operations
       work: Dragos Inc
       country: United States
       shortcode: US
-      image: ben-miller-sq
+      image: ben-miller
       bio: Ben Miller is Director, Threat Operations Center at the industrial cyber security company Dragos, Inc. where he leads a team of analysts in performing active defense inside of ICS/SCADA networks. In this capacity, he is responsible for performing a threat hunting, incident response, and malware analysis mission for the industrial community. Previous to his role at Dragos, Inc. Ben was the Associate Director, Electricity Information Sharing & Analysis Center (Electricity ISAC) and led cyber analysis for the sector. 
   presentation:
-    - yearfive
     - active
+    - "2018"
     - yearfive:
         - date: 2018
           subject: Hunting and Responding in ICS
@@ -494,14 +488,12 @@
               name: Mark Stacey
               role: Principal Threat Analyst
               work: Dragos Inc
-              image: mark-stacey-sq
+              image: mark-stacey
           description: |
             This presentation will leverage the previous 2-years of engagements from Dragos’ Threat Operations Center (TOC) to examine ICS security trends, discuss the current threat landscape, and describe common actions organizations can take to better protect, identify, and respond to advanced adversary groups specifically targeting ICS. This seminar will list the most common challenges organizations face and use case studies to describe improvements we have helped our customers implement. Dragos recognizes the ICS community is strong and learning from each other on what works is the best path to a more secure global infrastructure.
   training:
     - active
-    - yearfive
-    - when:
-      - yearfive
+    - "2018"
     - yearfive:
       - date: 23 October 2018
         subject: Introduction to Threat Hunting in ICS
@@ -511,7 +503,7 @@
             name: Daniel Michaud-Soucy
             role: Principal Threat Analyst
             work: Dragos Inc
-            image: daniel-michaud-soucy-sq
+            image: daniel-michaud-soucy
         description: |
           This one day class is an introduction to threat hunting and incident response for ICS environments. We will overview the business and security use cases of when and why threat hunting is valuable to organizations. We will progress by applying these concepts to corporate environments and industrial environments such as transmission or distribution control facilities, or plant distributed control systems (DCS).
 
@@ -546,38 +538,35 @@
   type: 
     - presentation
     - training
+  when:
+    - "2018"
   permalink: daniel-michaud-soucy
-  when: 
-    - yearfive
   speaker:
     - name: Daniel Michaud-Soucy
       role: Principal Threat Analyst
       work: Dragos Inc
       country: United States
       shortcode: US
-      image: daniel-michaud-soucy-sq
+      image: daniel-michaud-soucy
       bio: Daniel Michaud-Soucy is a Principal Threat Analyst, Threat Operations Center at the industrial cyber security company Dragos, Inc.. Daniel is focusing on threat hunting and incident response services within a variety of industrial environments. Daniel previously worked for Sempra Energy on RD&D tasks revolving around machine to machine automated threat response, data aggregation, advanced threat detection and secure system interfaces for ICS/SCADA. Daniel also worked with Red Tiger Security performing cyber vulnerability assessments and penetration tests on oil & gas, electrical power, water treatment and pharmaceutical ICS/SCADA environments. 
   presentation:
     - active
-    - when:
-      - yearfive
-      - yearfive:
-          - date: 2018
-            subject: Stateful Protocol Hunting
-            permalink: program/presentations/dan-daniel/
-            partner:
-              - active: active
-                name: Dan Gunter
-                role: Principal Threat Analyst
-                work: Dragos Inc
-                image: dan-gunter-sq
-            description: |
-              Over the last decade, two instances of industrial control system (ICS) targeted malware successfully impacted operations. Most recently, CRASHOVERRIDE targeted a Ukrainian transmission substation in December of 2016. In both cases, attackers developed malware that crafted industrial protocol packets to manipulate control systems either by hijacking the legitimate master server or hooking the network stack. Defense against properly crafted packets presents a unique challenge as many existing approaches simply analyze the integrity of a single packet. This talk will focus on what stateful analysis is and how you can add it to your detection or hunting strategy to perform deep protocol analysis. We will cover the steps necessary to begin stateful analysis and dive into thresholds you might set for detection.
+    - "2018"
+    - yearfive:
+      - date: 2018
+        subject: Stateful Protocol Hunting
+        permalink: program/presentations/dan-daniel/
+        partner:
+          - active: active
+            name: Dan Gunter
+            role: Principal Threat Analyst
+            work: Dragos Inc
+            image: dan-gunter
+        description: |
+          Over the last decade, two instances of industrial control system (ICS) targeted malware successfully impacted operations. Most recently, CRASHOVERRIDE targeted a Ukrainian transmission substation in December of 2016. In both cases, attackers developed malware that crafted industrial protocol packets to manipulate control systems either by hijacking the legitimate master server or hooking the network stack. Defense against properly crafted packets presents a unique challenge as many existing approaches simply analyze the integrity of a single packet. This talk will focus on what stateful analysis is and how you can add it to your detection or hunting strategy to perform deep protocol analysis. We will cover the steps necessary to begin stateful analysis and dive into thresholds you might set for detection.
   training:
     - active
-    - yearfive
-    - when:
-      - yearfive
+    - "2018"
     - yearfive:
         - date: 23 October 2018
           subject: Introduction to Threat Hunting in ICS
@@ -587,7 +576,7 @@
               name: Ben Miller
               role: Director of Threat Operations
               work: Dragos Inc
-              image: ben-miller-sq
+              image: ben-miller
           description: |
             This one day class is an introduction to threat hunting and incident response for ICS environments. We will overview the business and security use cases of when and why threat hunting is valuable to organizations. We will progress by applying these concepts to corporate environments and industrial environments such as transmission or distribution control facilities, or plant distributed control systems (DCS).
 
@@ -619,26 +608,24 @@
             * Computer that possesses USB ports or supporting dongles
 
 - id: 11
-  type: 
+  type:
     - training
-  permalink: stephan-beirer
   when:
-    - yearfive
-  speaker: 
+    - "2018"
+  permalink: stephan-beirer
+  speaker:
     - name: Stephan Beirer
       role: Senior Consultant
       work: GAI NetConsult GmbH
       country: Germany
       shortcode: DE
-      image: stephan-beirer-sq
+      image: stephan-beirer
       bio: Stephan Beirer studied and received his PhD in physics. Since 2006 Mr. Beirer has been employed with GAI NetConsult GmbH as a senior consultant and is the Head of Industrial Control Systems Security since 2012. He advises clients on the development and implementation of organizational and technical security policies and controls, on implementing an information security management system (ISMS) according to IEC 62443, ISO/IEC 27001 and ISO/IEC 27019 and on business continuity planning. His professional focus is on securing process control and automation technology, especially in the field of energy supply. He gained his experience in more than 200 ICS security projects in the field of energy, transportation and industrial manufacturing. He is an active member of several national and international standardization committees at DIN, DKE, IEC and ISO and the editor of ISO/IEC 27019.
   presentation:
-    - inactive
+    - none
   training:
     - active
-    - yearfive
-    - when:
-      - yearfive
+    - "2018"
     - yearfive:
       - date: 23 October 2018
         subject: "Cyber security for the energy sector – an introduction to ISO/IEC 27019 and the BDEW/OE Whitepaper"
@@ -657,14 +644,15 @@
           * ISO/IEC 27019 and European cyber security regulation 
           * The BDEW/OE Whitepaper, a security procurement guideline for energy ICS
 
-          The workshop will include a lecture, discussions and exercises.
+          The workshop will include a lecture, discussions and exercises. 
 
 - id: 12
   type: 
+    - presentation
     - training
   when:
-    - yearthree
-    - yearfive
+    - "2016"
+    - "2018"
   permalink: arnaud-soullie
   speaker:
     - name: Arnaud Soullié
@@ -672,15 +660,26 @@
       work: Wavestone
       country: France
       shortcode: FR
-      image: arnaud-soullie-sq
+      image: arnaud-soullie
       bio: "Arnaud Soullié (@arnaudsoullie) is the cybersecurity R&D manager at Wavestone. For 8 years, he has been performing security audits and pentest on all type of targets. He specializes in Industrial Control Systems and Active Directory security. He has spoken at numerous security conferences on ICS topics : BlackHat Europe, BruCon, 4SICS, BSides Las Vegas, DEFCON…He also has an interest in hardware security, and is the designer of DYODE (Do Your Own Diode): an open-source, low-cost, ICS oriented data diode."
   presentation:
-    - inactive
+    - active
+    - "2016"
+    - yearthree:
+      - date: 2016
+        subject: "DYODE: Do Your Own DiodE"
+        permalink:
+        partner:
+          - active: active
+            name: Ary Kokos
+            role: Senior Consultant
+            work: Wavestone
+            image: ary-kokos
+        description: |
+          Coming Soon.
   training:
     - active
-    - yearfive
-    - when:
-      - yearfive
+    - "2018"
     - yearfive:
       - date: 22-23 October
         subject: Pentesting Industrial Control Systems
@@ -805,57 +804,55 @@
 - id: 13
   type: 
     - training
-  permalink: michael-theuerzeit
   when:
-    - yearfour
+    - "2017"
+  permalink: michael-theuerzeit
   speaker: 
     - name: Michael Theuerzeit
       role: Cyber Security
       work: Hudson Cybertec
       country: Netherlands
       shortcode: NL
-      image: michael-theuerzeit-sq
+      image: michael-theuerzeit
       bio: Michael is a seasoned consultant, specialized in Cyber Security for the Operational Technology (OT). For Cyber Security Solution Provider Hudson Cybertec, he is actively engaged in Industrial Automation and Control Systems (IACS) security projects worldwide. His focus is on cyber security for critical Infrastructure sectors like Nuclear, Oil & Gas, Water and Food. He worked with some of the largest companies operating in critical infrastructure sectors, as well as with government and government agencies, enterprises and EPC contractors. He is also an experienced lecturer and Subject Matter Expert for IEC 62443 and an accomplished speaker at international security events, conferences and seminars.
   presentation:
-    - active: none
+    - none
   training:
     - active
-    - yearfour
-    - when:
-      - yearfour
+    - "2017"
     - yearfour:
       - date: 24 October 2017
         subject: "Cyber Security for Industrial Automation and Control Systems: An introduction of the IEC 62443 standard"
         permalink:
-        partner:
+        partner: none
         description: |
-
+          Coming soon.
 
 - id: 14
-  type: 
-    - training
-    - presentation
+  type:
     - keynote
-  permalink: robert-m-lee
+    - presentation
+    - training
   when:
-    - yeartwo
-    - yearthree
+    - "2015"
+    - "2016"
+  keynoteYear: 2016
+  permalink: robert-m-lee
   speaker: 
     - name: Robert M. Lee
       role: Security Researcher
       work: Dragos Inc.
       country: United States
       shortcode: US
-      image: robert-m-lee-sq
+      image: robert-m-lee
       bio: Mr Lee, who on his ordinary dayjob manage Dragos Inc, a cyber security solutions provider for Industrial Control System Networks, will also be given the pre-summit training class called "ICS Active defense" as well as participating with his unique knowledge on the Ukraine cyber attacks in the "Lessons Learned" session on day. Robert M. Lee started in the cyber security field by serving as a Cyber Warfare Operations Officer in the U.S. Air Force. Mr Lee has performed defense, intelligence, and attack missions in various government organizations, including establishment of a SCADA/ICS cyber threat and intrusion analysis mission that was unique at the time of establishment. Mr Lee is a renowned media figure, known from many interviews on national media on the topic of cybersecurity and critical infrastructure security. Robert is also an author of many articles and books on the topic, including the fantastic book "SCADA and Me" and the connected weekly web-comic Little Bobby.
   keynote:
-    - when:
-        - yearthree
-      subject: Exploring the Unknown ICS Threat Landscape
+    - date: "2016"
+    - subject: Exploring the Unknown ICS Threat Landscape
   presentation:
-    - yeartwo
-    - yearthree
     - active
+    - "2015"
+    - "2016"
     - yeartwo:
         - date: 2015
           subject: Asset Identification and Network Security Monitoring in ICS Network
@@ -869,39 +866,37 @@
             The ICS threat landscape is mostly unknown. We have a lot of stories of attacks but most are hyped up. And from trusted sources we have metrics on incidents but they tell a very different story than intended sometimes. In this presentation, the current ICS threat landscape will be explored, deficiencies in it will be explained, and recommendations for the community will be given to help ensure we shine a light on a dark corner in the community.
   training:
     - active
-    - yearthree
-    - when:
-      - yearthree
+    - "2016"
     - yearthree:
-      - date: 25 October 2016
+      - date: 21 October 2016
         subject: ICS Active Defence
         permalink:
         description: |
 
 
 - id: 15
-  type: 
-    - presentation
+  type:
     - keynote
+    - presentation
+  when:
+    - "2018"
+  keynoteYear: 2018
   permalink: patrick-miller
   background: patrick-miller
-  when:
-    - yearfive
   speaker:
     - name: Patrick Miller
       role: Managing Partner
       work: Archer
       country: United States
       shortcode: US
-      image: patrick-miller-sq
+      image: patrick-miller
       bio: Patrick Miller has dedicated his career to the protection and defense of critical infrastructures. As Managing Partner at Archer Security Group, he is a trusted independent security and regulatory advisor for industrial control systems worldwide. Mr. Miller is also the founder, director and president emeritus of EnergySec and US. Coordinator for the Industrial Cybersecurity Center. Patrick's diverse background spans the Energy, Telecommunications, Water and Financial Services verticals including key positions with regulatory agencies, private consulting firms, utility asset owners and commercial organizations.
   keynote:
-    - when:
-        - yearfive
-      subject: "Industrial Technology Trajectory: Running With Scissors"
+    - date: "2018"
+    - subject: "Industrial Technology Trajectory: Running With Scissors"
   presentation:
-    - yearfive
     - active
+    - "2018"
     - yearfive:
         - date: 2018
           subject: "Industrial Technology Trajectory: Running With Scissors"
@@ -910,254 +905,261 @@
           description: |
             Abstract: Innovative and disruptive technologies are enhancing and invading our traditional industrial business model. Future infrastructure organizations will need more data to operate efficiently and succeed in the brave new interconnected world. The diversity of new technologies and data will fuel more diversity in business opportunity. Everyone expects more OT, more IOT, and more IT - and all of it is supposed to be highly reliable and secure. These factors (and more) lead to a landscape shift for the industrial cybersecurity risk profile. In this session, hear ways to recognize the problems and gain some clarity on possible solutions through historic lessons, made up words, and practical front-line experience.
   training:
-    - inactive
-
+    - none
 
 - id: 16
-  type: 
-    - presentation
+  type:
     - keynote
-  permalink: kim-zetter
+    - presentation
   when:
-    - yeartwo
+    - "2015"
+  keynoteYear: 2015
+  permalink: kim-zetter
   speaker:
     - name: Kim Zetter
       role: Investigating Journalist
       work: Wired
       country: United States
       shortcode: US
-      image: robert-m-lee-sq
+      image: robert-m-lee
       bio:
   keynote:
-    - when:
-        - yeartwo
-      subject: "Stuxnet and Beyond: The Age of Digital Warfare"
+    - date: "2015"
+    - subject: "Stuxnet and Beyond: The Age of Digital Warfare"
   presentation:
-    - yeartwo
     - active
+    - "2015"
     - yeartwo:
         - date: 2015
           subject: "Stuxnet and Beyond: The Age of Digital Warfare"
           permalink:
           description:
   training:
-    - active: none
+    - none
 
 - id: 17
-  type: 
-    - presentation
+  type:
     - keynote
-  permalink: stefan-luders
+    - presentation
   when:
-    - yearone
+    - "2014"
+  keynoteYear: 2014
+  permalink: stefan-luders
   speaker:
     - name: Stefan Lüders
       role: Head of IT Security
       work: CERN
       country: Switzerland
       shortcode: CH
-      image: robert-m-lee-sq
+      image: robert-m-lee
       bio:
   keynote:
-    - when:
-        - yearone
-      subject: Why Control System Cyber Security Sucks
+    - date: "2014"
+    - subject: Why Control System Cyber Security Sucks
   presentation:
-    - yearone
     - active
+    - "2014"
     - yearone:
         - date: 2014
           subject: Why Control System Cyber Security Sucks
           permalink:
           description:
   training:
-    - active: none
+    - none
 
 
 - id: 18
-  type: 
-    - presentation
+  type:
     - expo
+    - presentation
   permalink: dr-kevin-jones
   when:
-    - yearfive
+    - "2018"
   speaker:
     - name: Dr. Kevin Jones
       role: Head of Cyber Security Architecture, Innovation and Scouting
       work: Airbus Group
       country: United Kingdom
       shortcode: UK
-      image: robert-m-lee-sq
+      image: robert-m-lee
       bio:
   presentation:
-    - yearfive
     - active
+    - "2018"
     - yearfive:
         - date: 2018
           subject: ICS cyber security in the face of digital transformation
           permalink:
           description:
   training:
-    - active: none
+    - none
 
 
 - id: 19
-  type: 
-    - presentation
+  type:
     - expo
-  permalink: henrik-sandberg
+    - presentation
   when:
-    - yearfive
+    - "2016"
+    - "2018"
+  permalink: henrik-sandberg
   speaker:
     - name: Henrik Sandberg
       role: Professor in Large-Scale Control Systems
       work: School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology
       country: Sweden
       shortcode: SV
-      image: robert-m-lee-sq
+      image: robert-m-lee
       bio:
   presentation:
-    - yearfive
     - active
+    - "2016"
+    - "2018"
+    - yearthree:
+      - date: 2016
+        subject: Physics-based attack detection and countermeasures in control systems
+        permalink:
+        description:
     - yearfive:
-        - date: 2018
-          subject: Control Theory for Practical Cyber-Physical Security
-          permalink:
-          description:
+      - date: 2018
+        subject: Control Theory for Practical Cyber-Physical Security
+        permalink:
+        description:
   training:
-    - active: none
-
+    - none
 
 - id: 20
-  type: 
-    - presentation
+  type:
     - dinner
-  permalink: jack-werner
+    - presentation
   when:
-    - yearfive
+    - "2018"
+  permalink: jack-werner
   speaker:
     - name: Jack Werner
       role: Journalist
       work: Freelance
       country: Sweden
       shortcode: SV
-      image: robert-m-lee-sq
+      image: robert-m-lee
       bio:
   presentation:
-    - yearfive
     - active
+    - "2018"
     - yearfive:
-        - date: 2018
-          subject: Fake news or folklore?
-          permalink:
-          description:
+      - date: 2018
+        subject: Fake news or folklore?
+        permalink:
+        description:
   training:
-    - active: none
+    - none
 
 - id: 21
-  type: 
-    - presentation
+  type:
     - dinner
-  permalink: jenny-radcliffe
+    - presentation
   when:
-    - yearfour
+    - "2017"
+  permalink: jenny-radcliffe
   speaker:
     - name: Jenny Radcliffe
       role: Social Engineering Expert
       work: Independent
       country: United Kingdom
       shortcode: UK
-      image: robert-m-lee-sq
+      image: robert-m-lee
       bio:
   presentation:
-    - yearfour
     - active
+    - "2017"
     - yearfour:
-        - date: 2017
-          subject: Adventures in social engineering - tales of a "people hack"
-          permalink:
-          description:
+      - date: 2017
+        subject: Adventures in social engineering - tales of a "people hack"
+        permalink:
+        description:
   training:
-    - active: none
+    - none
 
 - id: 22
-  type: 
-    - presentation
+  type:
     - dinner
-  permalink: christer-fuglesang
+    - presentation
   when:
-    - yearthree
+    - "2016"
+  permalink: christer-fuglesang
   speaker:
     - name: Christer Fuglesang
       role: Astronaut
       work: Space
       country: Sweden
       shortcode: SE
-      image: robert-m-lee-sq
+      image: robert-m-lee
       bio:
   presentation:
-    - yearthree
     - active
+    - "2016"
     - yearthree:
-        - date: 2016
-          subject: Voyage to Space
-          permalink:
-          description:
+      - date: 2016
+        subject: Voyage to Space
+        permalink:
+        description:
   training:
-    - active: none
+    - none
 
 - id: 23
-  type: 
-    - presentation
+  type:
     - dinner
-  permalink: peter-zinn
+    - presentation
   when:
-    - yeartwo
+   - "2015"
+  permalink: peter-zinn
   speaker:
     - name: Peter Zinn
       role: Senior Advisor
       work: Cyber Agent
       country: Netherlands
       shortcode: NL
-      image: robert-m-lee-sq
+      image: robert-m-lee
       bio:
   presentation:
-    - yeartwo
     - active
+    - "2015"
     - yeartwo:
-        - date: 2015
-          subject: Cyber Security through the ages
-          permalink:
-          description:
+      - date: 2015
+        subject: Cyber Security through the ages
+        permalink:
+        description:
   training:
-    - active: none
+    - none
 
 - id: 24
   type: 
     - presentation
-  permalink: dan-demeter
   when:
-    - yearfour
+    - "2017"
+  permalink: dan-demeter
   speaker:
     - name: Dan Demeter
       role: Security Researcher
       work: Kaspersky Labs
       country: Romania
       shortcode: RO
-      image: dan-demeter-sq
+      image: dan-demeter
       bio: Dan graduated from Imperial College London and holds a Master of Engineering in Software Engineering. He joined Kaspersky Lab in 2014 where his work focuses on developing threat intelligence systems, processing big data and creating new technologies to fight advanced persistent threats.
   presentation:
-    - yearfour
     - active
+    - "2017"
     - yearfour:
-        - date: 2017
-          subject: Back to the IoT Future
-          permalink:
-          description: |
-            Introducing the honeypot project, which will be an open source project, allowing anyone to run a small honeypot in their network. The idea of this project is to let anyone clone the git repo and then setup his own IoT honeypot anywhere using Docker virtualization platform. The project will be announced for the first time at your conference, as I’m still polishing right now.
+      - date: 2017
+        subject: Back to the IoT Future
+        permalink:
+        description: |
+          Introducing the honeypot project, which will be an open source project, allowing anyone to run a small honeypot in their network. The idea of this project is to let anyone clone the git repo and then setup his own IoT honeypot anywhere using Docker virtualization platform. The project will be announced for the first time at your conference, as I’m still polishing right now.
 
-            Showing the latest attacks captured by the honeypots that are deployed mostly in Romania, in residential networks. The main assumption is that attackers are actually avoiding honeypots running in main VPS providers ASNs / IP ranges and are actually targeting residential networks. So I did just that: installed honeypots in 5 big Romanian ISPs. They account for more than 80% of all RO residential networks. The moment we installed these honeypots, we started seeing attacks. They were not just a few, so I will discuss about trends: for example how attackers are reacting to publicly released new 0day exploits by improving the attack methods. I will present a comprehensive view and the current attack trends at global scale ( data provided by honeypots installed all around the world) and at a country level (data provided by the honeypots installed in Romanian residential networks).
+          Showing the latest attacks captured by the honeypots that are deployed mostly in Romania, in residential networks. The main assumption is that attackers are actually avoiding honeypots running in main VPS providers ASNs / IP ranges and are actually targeting residential networks. So I did just that: installed honeypots in 5 big Romanian ISPs. They account for more than 80% of all RO residential networks. The moment we installed these honeypots, we started seeing attacks. They were not just a few, so I will discuss about trends: for example how attackers are reacting to publicly released new 0day exploits by improving the attack methods. I will present a comprehensive view and the current attack trends at global scale ( data provided by honeypots installed all around the world) and at a country level (data provided by the honeypots installed in Romanian residential networks).
 
-            Once we collected network attacks I started checking the payload or bash commands the attackers were sending. This allowed me to fetch some fresh/interesting samples (this part was not presented at SAS due to time constraints). I will talk about these samples as well.
+          Once we collected network attacks I started checking the payload or bash commands the attackers were sending. This allowed me to fetch some fresh/interesting samples (this part was not presented at SAS due to time constraints). I will talk about these samples as well.
   training:
-    - active: none
+    - none
+
+

@@ -4,7 +4,7 @@
   {% include head.html %}
 
   <body>
-
+    
   	<div class="archive--speaker-header">
         <div class="archive--speaker-pagination">
             <div class="archive--speaker-pagination-item col-2-8">
@@ -14,7 +14,7 @@
                     {% for item in speaker %}
                     {% if item.id == page.previousid %}
                     {% for item in item.speaker %}
-                    <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}.png" class="speakers-block-item-image" />
+                    <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}-sq.png" class="speakers-block-item-image" />
                     <div class="archive--speaker-pagination-item-block-meta">
                         <h3 class="speaker-name">{{ item.name }}</h3>
                         <h4 class="speaker-role">{{ item.role }}</h4>
@@ -32,7 +32,7 @@
                     {% for item in speaker %}
                     {% if item.id == page.nextid %}
                     {% for item in item.speaker %}
-                    <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}.png" class="speakers-block-item-image" />
+                    <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}-sq.png" class="speakers-block-item-image" />
                     <div class="archive--speaker-pagination-item-block-meta">
                         <h3 class="speaker-name">{{ item.name }}</h3>
                         <h4 class="speaker-role">{{ item.role }}</h4>
@@ -42,7 +42,7 @@
                     {% endfor %}
                 </div>
             </div>
-            <a href="{{ site.baseurl }}/about/archive/speakers/" class="btn btn-primary btn-yellow">Close</a>
+            <a href="{{ site.baseurl }}/about/archive/speakers/" class="button button-primary button-yellow">Close</a>
         </div>
     </div>
 
@@ -71,7 +71,7 @@
     		<div class="archive--speaker-info">
     			<h2 class="title">{{ item.name }}</h2>
     			<h3 class="alt-title">{{ item.role }} at {{ item.work }}</h3>
-    			<h5 class="alt-title-small">{{ item.country }}</h5>
+    			<h5 class="alt-title alt-title-small">{{ item.country }}</h5>
     		</div>
     		
 
@@ -108,7 +108,7 @@
 
     		{% if item.presentation contains "active" %}
     		<div class="archive--speaker-column-item">
-    			<h2 class="title">Presentations</h2>
+    			<h2 class="alt-title">Presentations</h2>
 
     		{% for item in item.presentation %}
     		{% for item in item.yearfive %}
@@ -121,7 +121,7 @@
     				<h3 class="sub-title">{{ item.subject }}</h3>
     				<p class="col-3-8">{{ item.description | truncatewords: 64 }}</p>
     				{% for item in item.partner %}
-    				<span class="speaker-role">With {{ item.name }}</span>
+    				<span class="sub-headline sub-headline-small sub-headline-yellow">With {{ item.name }}</span>
     				{% endfor %}
     			</div>
     		{% endfor %}
@@ -179,7 +179,7 @@
 
     		{% if item.training contains "active" %}
             <div class="archive--speaker-column-item{% if item.presentation contains "inactive" %}-solo{% endif %}">
-    			<h2 class="title">Trainings</h2>
+    			<h2 class="alt-title">Trainings</h2>
 
     		{% for item in item.training %}
     		{% for item in item.yearfive %}
@@ -188,7 +188,7 @@
     				<h3 class="sub-title">{{ item.subject }}</h3>
     				<p class="col-3-8">{{ item.description | truncatewords: 64 | remove: '#' }}</p>
     				{% for item in item.partner %}
-    				<span class="speaker-role">With {{ item.name }}</span>
+    				<span class="sub-headline sub-headline-small sub-headline-yellow">With {{ item.name }}</span>
     				{% endfor %}
     			</div>
     		{% endfor %}

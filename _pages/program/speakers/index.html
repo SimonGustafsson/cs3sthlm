@@ -78,17 +78,17 @@ layout: default
 							<span class="speaker-item-type">{{ speaker.type }}</span>
 							{% endif %}
 
-							{% for item in speaker.presentation %}
-							{% if item.active == "live" %}
+							{% if speaker.type == 'presentation' %}
 							<span class="speaker-item-type">Presentation</span>
 							{% endif %}
-							{% endfor %}
 
-							{% for item in speaker.training %}
-							{% if item.active == "live" %}
+							{% if speaker.type == 'expotalk' %}
+							<span class="speaker-item-type">Expo Presentation</span>
+							{% endif %}
+
+							{% if speaker.type == 'training' %}
 							<span class="speaker-item-type">Training</span>
 							{% endif %}
-							{% endfor %}
 						</div>
 					</div>
 

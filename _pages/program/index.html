@@ -47,7 +47,7 @@ layout: default
       {% if speaker.type contains "presentation" or speaker.type contains "training" or speaker.type contains "moderator" %}
       <div class="speakers-block-item col-2-8">
         {% for item in speaker.speaker %}
-        <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}.png" class="speakers-block-item-image" />
+        <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}-sq.png" class="speakers-block-item-image" />
         {% endfor %}
         <div class="speaker-block-item-data">
           {% for item in speaker.speaker %}
