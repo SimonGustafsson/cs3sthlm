@@ -7,7 +7,7 @@ speaker:
 - name: Kai Thomsen
   role: Lead Incident Responder
   work: AUDI AG
-  image: kai-thomsen.png
+  image: kai-thomsen
 id: presentation
 ---
 

@@ -6,11 +6,11 @@ speaker:
 - name: Ben Miller
   role: Director of Threat Operations
   work: Dragos Inc
-  image: ben-miller.png
+  image: ben-miller
 - name: Mark Stacey
   role: Principal Threat Analyst
   work: Dragos Inc
-  image: mark-stacey.png
+  image: mark-stacey
 id: presentation
 ---
 

@@ -74,25 +74,25 @@ id: home
           </div>
           <div class="card-item card-item-filled">
             <h4 class="sub-headline">History</h4>
-            {% assign sorthistory = site.data.history | sort:'year' %}
-            {% for card in sorthistory limit: 4 %}
-            {% if card.type == "summit" %}
+            {% assign sorthistory = site.data.history | sort:'year' | reverse %}
+            {% for card in sorthistory %}
+            {% unless card.year contains "2018" %}
             <div class="card-details-block">
               <h2 class="subtitle subtitle-yellow">{{ card.year }}</h2>
               <h3 class="heading">{{ card.location }}</h3>
               <p>{{ card.date }}</p>
             </div>
-            {% endif %}
+            {% endunless %}
             {% endfor %}
           </div>
         </div>
 
         <div class="column-block-item col-2-3">
-          <div class="card-item card-item-filled">
+          <div class="card-item card-item-filled spacing-bottom">
             <h4 class="sub-headline">Summit 2018 Keynote Speaker</h4>
             {% assign keynote = site.data.archive %}
             {% for item in keynote %}
-            {% if item.type contains "keynote" and item.when contains "yearfive" %}
+            {% if item.type contains "keynote" and item.when contains "2018" %}
             <div class="card-item-details">
               {% for item in item.presentation %}
               {% for item in item.yearfive %}

@@ -135,12 +135,19 @@ layout: default
       {% for page in presentation limit: 8 %}
       <a href="{{ page.permalink }}" class="speakers-block-item col-4-8">
         <div class="speakers-block-item-data">
-          <h3 class="heading">{{ page.title }}</h3>
-          <h4 class="alt-title alt-title-small alt-title-light">
-          {% for item in page.speaker %}
-          <span>{{ item.name }}</span>
-          {% endfor %}
-          </h4>
+          <div class="speakers-block-item-data-block speakers-block-item-data-block-image {% if page.speaker.size > 1 %}speakers-block-item-duo{% endif %}">
+            {% for item in page.speaker %}
+            <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}-sq.png" class="speakers-block-item-data-image" />
+            {% endfor %}
+          </div>
+          <div class="speakers-block-item-data-block">
+            <h3 class="heading">{{ page.title }}</h3>
+            <h4 class="alt-title alt-title-small alt-title-light">
+            {% for item in page.speaker %}
+              <span>{{ item.name }}</span>
+            {% endfor %}
+            </h4>
+          </div>
         </div>
       </a>
       {% endfor %}

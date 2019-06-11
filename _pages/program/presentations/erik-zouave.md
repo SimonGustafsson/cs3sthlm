@@ -6,7 +6,7 @@ speaker:
 - name: Erik Zouave
   role: Analyst
   work: FOI
-  image: erik-zouave.png
+  image: erik-zouave
 id: presentation
 ---
 

@@ -2,40 +2,23 @@
 	AGENDA LIST */
 
 .agenda--block {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
 	display: flex;
-
 	align-items: flex-start;
-	-webkit-align-items: flex-start;
-
 	justify-content: flex-start;
-	-webkit-justify-content: flex-start;
-
 	flex-wrap: wrap;
-	-webkit-flex-wrap: wrap;
-
-	margin-top: 40px;
+	margin-top: 36px;
 
 	@include media-query($mobile) {
 		margin-top: 0;
+		width: 100vw;
+		margin-left: -12px;
 	}
 }
 
 .agenda--header {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
 	display: flex;
-
 	align-items: flex-start;
-	-webkit-align-items: flex-start;
-
 	justify-content: space-between;
-	-webkit-justify-content: space-between;
 	width: 100%;
 
 	@include media-query($mobile) {
@@ -140,25 +123,13 @@
 
 .agenda--content {
 	align-items: flex-start;
-	-webkit-align-items: flex-start;
-
 	justify-content: flex-start;
-	-webkit-justify-content: flex-start;
-
 	justify-content: space-between;
-
 	flex-wrap: wrap;
-	-webkit-flex-wrap: wrap;
-
 	display: none;
 
 	&-open {
-		display: -webkit-box;
-		display: -moz-box;
-		display: -ms-flexbox;
-		display: -webkit-flex;
 		display: flex;
-
 
 		@include media-query($mobile) {
 			width: 100%;

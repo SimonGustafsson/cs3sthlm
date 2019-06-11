@@ -6,7 +6,7 @@ speaker:
 - name: Margarita Jaitner
   role: Analyst
   work: FOI
-  image: margarita-jaitner.png
+  image: margarita-jaitner
 id: presentation
 ---
 

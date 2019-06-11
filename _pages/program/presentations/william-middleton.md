@@ -6,7 +6,7 @@ speaker:
 - name: William Middleton
   role: Senior Engineer
   work: Seimens PD Solutions
-  image: william-middleton.png
+  image: william-middleton
 id: presentation
 ---
 

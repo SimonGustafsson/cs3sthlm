@@ -6,7 +6,7 @@ speaker:
 - name: Jonas Almroth
   role: System Architect
   work: FOI - Swedish Defense Research Agency
-  image: jonas-almroth.png
+  image: jonas-almroth
 id: presentation
 ---
 

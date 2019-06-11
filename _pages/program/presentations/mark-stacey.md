@@ -6,7 +6,7 @@ speaker:
 - name: Mark Stacey
   role: Principal Threat Analyst
   work: Dragos Inc
-  image: mark-stacey.png
+  image: mark-stacey
 id: presentation
 ---
 

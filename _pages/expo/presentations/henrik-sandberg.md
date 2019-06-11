@@ -6,7 +6,7 @@ speaker:
 - name: Henrik Sandberg
   role: Professor in Large-Scale Control Systems
   work: School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology
-  image: henrik-sandberg.png
+  image: henrik-sandberg
 id: expotalk
 ---
 

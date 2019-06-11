@@ -6,11 +6,11 @@ speaker:
 - name: Dieter Sarrazyn
   role: Cybersecurity Expert
   work: Freelance
-  image: dieter-sarrazyn.png
+  image: dieter-sarrazyn
 - name: Frank Lycops
   role: Security Consultant & Researcher
   work: Freelance
-  image: frank-lycops.png
+  image: frank-lycops
 id: presentation
 ---
 

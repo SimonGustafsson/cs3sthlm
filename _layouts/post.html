@@ -93,20 +93,20 @@ layout: default
       {{ content }}
       </div>
 
-      <div class="post-pagination col-4-8">
+      <div class="post-pagination col-5-8">
         {% if page.previous.url %}
         <div class="post-pagination-item col-2-8">
           <h4 class="sub-headline sub-headline-gray">Previous Post</h4>
-          <span class="post-pagination-item-previous"><a href="{{ site.baseurl }}{{ page.previous.url }}" class="headline headline-small">{{ page.previous.title }}</a></span>
-          <h5 class="sub-headline sub-headline-small">{{ page.previous.date | date: "%-d %B %-Y" }}</h5>
+          <span class="post-pagination-item-previous"><a href="{{ site.baseurl }}{{ page.previous.url }}" class="alt-title alt-title-small alt-title-light">{{ page.previous.title }}</a></span>
+          <h5 class="sub-headline sub-headline-small sub-headline-gray">{{ page.previous.date | date: "%-d %B %-Y" }}</h5>
         </div>
         {% endif %}
 
         {% if page.next.url %}
-        <div class="post-pagination-item col-2-8 spacing-left">
+        <div class="post-pagination-item col-2-8 col-left-space">
           <h4 class="sub-headline sub-headline-gray">Next Post</h4>
-          <span class="post-pagination-item-next"><a href="{{ site.baseurl }}{{ page.next.url }}" class="headline headline-small">{{ page.next.title }}</a></span>
-          <h5 class="sub-headline sub-headline-small">{{ page.next.date | date: "%-d %B %-Y" }}</h5>
+          <span class="post-pagination-item-next"><a href="{{ site.baseurl }}{{ page.next.url }}" class="alt-title alt-title-small alt-title-light">{{ page.next.title }}</a></span>
+          <h5 class="sub-headline sub-headline-small sub-headline-gray">{{ page.next.date | date: "%-d %B %-Y" }}</h5>
         </div>
         {% endif %}
       </div>

@@ -6,7 +6,7 @@ speaker:
 - name: Cheng Lei
   role: ICS Security Researcher
   work: NSFOCUS
-  image: cheng-lei.png
+  image: cheng-lei
 id: presentation
 ---
 

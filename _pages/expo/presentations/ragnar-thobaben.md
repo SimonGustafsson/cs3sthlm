@@ -6,7 +6,7 @@ speaker:
 - name: Ragnar Thobaben
   role: Associate Professor in Communication Theory
   work: School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology
-  image: ragnar-thobaben.png
+  image: ragnar-thobaben
 id: expotalk
 ---
 

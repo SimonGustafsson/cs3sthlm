@@ -29,11 +29,11 @@ layout: default
       {% if page.id ==  'presentation' or page.id == "expotalk" %}
         <li><a href="{{ page.url | prepend: site.baseurl }}">
             {% for item in page.speaker %}
-            <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}">
+            <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}.png">
             {% endfor %}
             <div class="presentation--list-meta">
               <h3 class="heading">{{ page.title }}</h3>
-              <h4 class="alt-title alt-title-small alt-title-gray">
+              <h4 class="alt-title alt-title-small alt-title-light">
               {% for item in page.speaker %}
                 <span>{{ item.name }}</span>
               {% endfor %}

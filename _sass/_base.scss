@@ -92,6 +92,29 @@ a {
 
 
 /**
+  TRANSITION VIEW - ARCHIVE */
+
+.archive-transition {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background: $yellow;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.archive-page {
+  animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  top  { opacify: 1; }
+}
+
+/**
   HEADER */
 
 .header {
@@ -118,6 +141,7 @@ a {
   @include media-query($mobile) {
     height: auto;
     padding: 0 12px;
+    margin-bottom: 24px;
 
     &-active {
       background: $blue-darken;
@@ -156,6 +180,7 @@ a {
 
   @include media-query($mobile) {
     display: block;
+    margin-right: -12px;
   }
 
   .menu-icon {
@@ -408,7 +433,7 @@ a {
         white-space: nowrap;
 
         @include media-query($mobile) {
-          display: block;
+          display: none;
           position: relative;
           top: 0;
           background: none;
@@ -1023,6 +1048,10 @@ a {
     margin-top: 12px;
   }
 
+  @include media-query($mobile) {
+    margin-bottom: 24px;
+  }
+
   .btn-centered {
     margin-top: 38px;
   }
@@ -1071,6 +1100,39 @@ a {
     @include media-query($mobile) {
       flex-wrap: wrap;
     }
+    &-data {
+      display: flex;
+      width: 100%;
+
+      &-block {
+        display: block;
+
+        &:nth-child(2) {
+          padding-right: 48px;
+
+          @include media-query($mobile) {
+            padding-right: 0;
+          }
+        }
+
+        &-image {
+
+          @include media-query($mobile) {
+            display: none;
+          }
+        }
+      }
+
+      &-image {
+        display: block;
+        width: 58px;
+        height: 65px;
+        background: $light-gray;
+        margin-right: 24px;
+        -webkit-mask-image: url('../assets/icons/hexa-small.svg');
+        mask-image: url('../assets/icons/hexa-small.svg');
+      }
+    }
 
     &-image {
       display: block;
@@ -1098,6 +1160,27 @@ a {
         &:last-of-type {
           margin-right: 0;
         }
+      }
+    }
+
+    &-duo {
+      position: relative;
+      margin-right: 24px;
+
+      img {
+        display: block;
+        width: 34px;
+        height: 38px;
+        background: $light-gray;
+        margin-right: 24px;
+        -webkit-mask-image: url('../assets/icons/hexa-tiny.svg');
+        mask-image: url('../assets/icons/hexa-tiny.svg');
+      }
+
+      img:nth-child(2) {
+        position: absolute;
+        top: 31px;
+        left: 19px;
       }
     }
   }
@@ -1583,7 +1666,13 @@ a {
 .col-left-space {
   margin-left: auto;
 }
+.col-left-2-8 {
+  margin-left: 342px;
 
+  @include media-query-min($giant) {
+    margin-left: 402px;
+  }
+}
 
 /**
   CARDS */
@@ -3605,7 +3694,8 @@ a {
   }
 
   &-meta {
-
+    display: flex;
+    flex-direction: column;
     margin-bottom: 38px;
 
     &:last-of-type {
@@ -3613,8 +3703,9 @@ a {
     }
 
     @include media-query($mobile) {
-      position: relative;
       margin-bottom: 24px;
+      position: relative;
+      padding-left: 138px;
     }
 
     &-row {
@@ -3624,6 +3715,10 @@ a {
 
       .post-meta-item:last-of-type {
         margin-left: 48px;
+      }
+
+      @include media-query($mobile) {
+        padding-left: 0;
       }
     }
 
@@ -3671,10 +3766,10 @@ a {
         box-sizing: border-box;
 
         @include media-query($mobile) {
+          max-width: 114px;
           position: absolute;
           top: 0;
-          right: 0;
-          max-width: 114px;
+          left: 0;
         }
       }
     }
@@ -3716,6 +3811,10 @@ a {
         }
       }
     }
+
+    p:last-of-type {
+      margin-bottom: 19px;
+    }
   }
 
   &-header {
@@ -3724,7 +3823,51 @@ a {
 
   &-pagination {
     display: flex;
+    justify-content: flex-start;
     margin-top: 76px;
+
+    @include media-query($mobile) {
+      flex-wrap: wrap;
+    }
+
+
+    &-item {
+
+      &.col-2-8 {
+
+        @include media-query($mobile) {
+          width: 100%;
+        }
+      }
+
+      @include media-query($mobile) {
+
+        &:nth-child(2) {
+          margin-top: 24px;
+        }
+      }
+
+      &:first-of-type {
+        margin-left: 0;
+      }
+
+      h5 span:nth-child(2):before {
+        display: inline-block;
+        content: '&';
+        margin: 0 6px 0 4px;
+      }
+    }
+
+    a {
+      font-family: 'latobold', sans-serif;
+      text-decoration: none;
+
+      @include transition-ease;
+
+      &:hover {
+        color: $yellow;
+      }
+    }
   }
 }
 
@@ -4724,6 +4867,10 @@ a {
     width: 100%;
     height: auto;
     margin-bottom: 76px;
+
+    @include media-query($mobile){
+      margin-bottom: 0;
+    }
   }
 
   &-background {
@@ -4731,6 +4878,10 @@ a {
     position: absolute;
     width: 100%;
     z-index: -5;
+
+    @include media-query($mobile) {
+      display: none;
+    }
 
     &:after {
       display: block;
@@ -4900,7 +5051,13 @@ a {
     width: 1440px;
     margin: 0 auto;
     padding: 24px 0 0;
-    box-sizing: border-box;;
+    box-sizing: border-box;
+
+    @include media-query($mobile) {
+      width: 100%;
+      flex-wrap: wrap;
+      padding: 24px 12px 0;
+    }
 
     &-item {
       display: flex;
@@ -4916,12 +5073,20 @@ a {
         justify-content: flex-start;
         margin-top: 19px;
 
+        @include media-query($mobile) {
+          margin-top: 6px;
+        }
+
         .speakers-block-item-image {
           width: 58px;
           height: 65px;
           -webkit-mask-image: url('../assets/icons/hexa-small.svg');
           mask-image: url('../assets/icons/hexa-small.svg');
           margin-right: 19px;
+
+          @include media-query($mobile) {
+            display: none;
+          }
         }
 
         &-meta {
@@ -5177,7 +5342,11 @@ a {
   .small-image {
     width: 550px;
 
-    @include media-query-min($large) {
+    @include media-query-min($giant) {
+      width: 826px;
+    }
+
+    @include media-query($large) {
       width: 659px;
     }
 

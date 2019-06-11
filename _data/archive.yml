@@ -681,7 +681,7 @@
     - active
     - "2018"
     - yearfive:
-      - date: 22-23 October
+      - date: 22-23 October 2018
         subject: Pentesting Industrial Control Systems
         permalink: program/trainings/arnaud-soullie/
         description: |
@@ -921,7 +921,7 @@
       work: Wired
       country: United States
       shortcode: US
-      image: robert-m-lee
+      image: temp
       bio:
   keynote:
     - date: "2015"
@@ -951,7 +951,7 @@
       work: CERN
       country: Switzerland
       shortcode: CH
-      image: robert-m-lee
+      image: temp
       bio:
   keynote:
     - date: "2014"
@@ -981,7 +981,7 @@
       work: Airbus Group
       country: United Kingdom
       shortcode: UK
-      image: robert-m-lee
+      image: temp
       bio:
   presentation:
     - active
@@ -1009,7 +1009,7 @@
       work: School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology
       country: Sweden
       shortcode: SV
-      image: robert-m-lee
+      image: temp
       bio:
   presentation:
     - active
@@ -1041,7 +1041,7 @@
       work: Freelance
       country: Sweden
       shortcode: SV
-      image: robert-m-lee
+      image: temp
       bio:
   presentation:
     - active
@@ -1067,7 +1067,7 @@
       work: Independent
       country: United Kingdom
       shortcode: UK
-      image: robert-m-lee
+      image: temp
       bio:
   presentation:
     - active
@@ -1093,7 +1093,7 @@
       work: Space
       country: Sweden
       shortcode: SE
-      image: robert-m-lee
+      image: temp
       bio:
   presentation:
     - active
@@ -1119,7 +1119,7 @@
       work: Cyber Agent
       country: Netherlands
       shortcode: NL
-      image: robert-m-lee
+      image: temp
       bio:
   presentation:
     - active
@@ -1162,4 +1162,29 @@
   training:
     - none
 
+
+- id: 25
+  type:
+    - presentation
+  when:
+    - "2018"
+  permalink: anton-shipulin
+  speaker:
+    - name: Anton Shipulin
+      role: Global Presales Manager
+      work: Kaspersky Lab
+      country: Russia
+      shortcode: RU
+      image: temp
+      bio:
+  presentation:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        subject: Kaspersky Industrial Cybersecurity approach
+        permalink:
+        description:
+  training:
+    - none
 

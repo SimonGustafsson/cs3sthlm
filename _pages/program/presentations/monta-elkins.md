@@ -6,7 +6,7 @@ speaker:
 - name: Monta Elkins
   role: Hacker-in-Chief
   work: FoxGuard Solutions
-  image: monta-elkins.png
+  image: monta-elkins
 id: presentation
 ---
 

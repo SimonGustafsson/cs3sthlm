@@ -6,7 +6,7 @@ speaker:
 - name: Rick K. Peters
   role: Director, Operational Technology Global Enablement
   work: Fortinet
-  image: rick-peters.png
+  image: rick-peters
 id: expotalk
 ---
 

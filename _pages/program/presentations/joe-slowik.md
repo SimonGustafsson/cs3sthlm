@@ -6,7 +6,7 @@ speaker:
 - name: Joe Slowik
   role: Adversary Hunter
   work: Dragos Inc
-  image: joe-slowik.png
+  image: joe-slowik
 id: presentation
 ---
 

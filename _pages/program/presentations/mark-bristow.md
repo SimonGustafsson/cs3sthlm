@@ -6,7 +6,7 @@ speaker:
 - name: Mark Bristow
   role: Director
   work: NCCIC Hunt and Incident Response Team (HIRT)
-  image: mark-bristow.png
+  image: mark-bristow
 id: presentation
 ---
 

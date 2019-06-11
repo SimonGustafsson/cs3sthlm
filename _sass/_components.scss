@@ -76,6 +76,12 @@
 			overflow: hidden;
 
 			&:hover {
+				cursor: pointer;
+
+				&:before {
+					background: linear-gradient(transparent, rgba($dark, 0)) top;
+				}
+
 				&-type span {
 		          width: auto;
 		          height: auto;
@@ -123,6 +129,10 @@
 
 				@include media-query($mobile) {
 					padding: 14px;
+					
+					.speaker-role {
+						display: none;
+					}
 				}
 			}
 
@@ -161,6 +171,7 @@
 		&-link {
 			display: inline-block;
 			color: $white;
+			margin-bottom: 8px;
 
 			&:hover {
 				color: $yellow;
@@ -180,6 +191,10 @@
 			}
 			.speaker-item-frame {
 				z-index: 50;
+
+				&:before {
+					background: none;
+				}
 
 				&-data {
 					display: none;

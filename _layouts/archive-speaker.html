@@ -3,7 +3,9 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="archive-page">
+
+    <!--<div class="archive-transition"></div>-->
     
   	<div class="archive--speaker-header">
         <div class="archive--speaker-pagination">
@@ -75,6 +77,8 @@
     		</div>
     		
 
+
+            {% if item.bio != null %}
     		<div class="archive--speaker-bio">
     			<h4 class="headline">Biography</h4>
 
@@ -93,6 +97,8 @@
 
 
     		</div>
+            {% endif %}
+
     		{% endfor %}
 
 
