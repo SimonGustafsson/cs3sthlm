@@ -1368,7 +1368,9 @@ h1, h2, h3, h4 {
         margin-bottom: 0;
       }
       .btn-red {
-        order: 2;
+        span {
+          display: none;
+        }
       }
       /*.btn-green {
         order: 3;

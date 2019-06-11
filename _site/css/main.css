@@ -1160,8 +1160,8 @@ h1, h2, h3, h4 {
         .introduction .btn-group-intro .btn-thank-you {
           width: 47.5%;
           margin-bottom: 0; }
-        .introduction .btn-group-intro .btn-red {
-          order: 2; } }
+        .introduction .btn-group-intro .btn-red span {
+          display: none; } }
 
 .about {
   margin: 130px auto 0; }
