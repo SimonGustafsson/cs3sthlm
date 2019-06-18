@@ -1819,7 +1819,7 @@ a {
   .intro-mark {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
 
     @include media-query($mobile) {
       width: 100%;
@@ -3583,10 +3583,10 @@ a {
 }
 .button-red {
   background: $red;
-  color: $white;
+  color: $dark;
 
   &:hover {
-    color: $dark;
+    color: $white;
   }
 }
 .button-green {
@@ -3594,7 +3594,7 @@ a {
   color: $white;
 
   &:hover {
-    color: $dark;
+    color: $white;
   }
 }
 

@@ -1453,7 +1453,7 @@ a {
   .introduction .intro-mark {
     display: flex;
     flex-direction: column;
-    width: 50%; }
+    width: 100%; }
     @media screen and (max-width: 768px) {
       .introduction .intro-mark {
         width: 100%; } }
@@ -2773,15 +2773,15 @@ a {
 
 .button-red {
   background: #e71d36;
-  color: white; }
+  color: #030100; }
   .button-red:hover {
-    color: #030100; }
+    color: white; }
 
 .button-green {
   background: #00ae5d;
   color: white; }
   .button-green:hover {
-    color: #030100; }
+    color: white; }
 
 .button-intro-more {
   display: none; }
@@ -4745,12 +4745,12 @@ p.content-intro {
       overflow: hidden; }
       .speaker-item-frame:hover {
         cursor: pointer; }
-        .speaker-item-frame:hover:before {
-          background: linear-gradient(transparent, rgba(3, 1, 0, 0)) top; }
         .speaker-item-frame:hover-type span {
           width: auto;
           height: auto;
           opacity: 1; }
+        .speaker-item-frame:hover .speaker-item-frame-image {
+          transform: scale(1.05); }
       @media screen and (min-width: 1920px) {
         .speaker-item-frame {
           height: 420px;
@@ -4768,11 +4768,16 @@ p.content-intro {
         bottom: 0;
         left: 0;
         z-index: 20;
-        background: linear-gradient(transparent, rgba(3, 1, 0, 0.8)) top; }
+        background: linear-gradient(transparent, rgba(3, 1, 0, 0.65)) top;
+        pointer-events: none; }
       .speaker-item-frame-image {
         display: block;
         width: 100%;
-        height: auto; }
+        height: auto;
+        transition: 0.24s all ease-in-out;
+        -moz-transition: 0.24s all ease-in-out;
+        -webkit-transtiion: 0.24s all ease-in-out;
+        -o-transition: 0.24s all ease-in-out; }
       .speaker-item-frame-data {
         display: block;
         padding: 24px;

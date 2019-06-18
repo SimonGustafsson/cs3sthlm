@@ -78,14 +78,14 @@
 			&:hover {
 				cursor: pointer;
 
-				&:before {
-					background: linear-gradient(transparent, rgba($dark, 0)) top;
-				}
-
 				&-type span {
 		          width: auto;
 		          height: auto;
 		          opacity: 1;
+		        }
+
+		        .speaker-item-frame-image {
+		        	transform: scale(1.05);
 		        }
 			}
 
@@ -108,13 +108,16 @@
 				bottom: 0;
 				left: 0;
 				z-index: 20;
-				background: linear-gradient(transparent, rgba($dark, .8)) top;
+				background: linear-gradient(transparent, rgba($dark, .65)) top;
+				pointer-events: none;
 			}
 
 			&-image {
 				display: block;
 				width: 100%;
 				height: auto;
+
+				@include transition-ease;
 			}
 
 			&-data {
