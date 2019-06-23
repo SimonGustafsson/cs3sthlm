@@ -774,14 +774,6 @@
   
    {
      
-        "title"    : "Agenda",
-        "url"      : "/agenda/",
-        "path"     : "/agenda/"
-     
-   },
-  
-   {
-     
         "title"    : "Home",
         "url"      : "/",
         "path"     : ""
@@ -802,17 +794,17 @@
   
    {
      
-        "title"    : "Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense",
-        "url"      : "/program/presentations/joe-slowik/",
-        "path"     : "/program/presentations/joe-slowik/"
+        "title"    : "ICS Strategic Planning and War Gaming",
+        "url"      : "/program/trainings/joe-slowik/",
+        "path"     : "/program/trainings/joe-slowik/"
      
    },
   
    {
      
-        "title"    : "ICS Strategic Planning and War Gaming",
-        "url"      : "/program/trainings/joe-slowik/",
-        "path"     : "/program/trainings/joe-slowik/"
+        "title"    : "Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense",
+        "url"      : "/program/presentations/joe-slowik/",
+        "path"     : "/program/presentations/joe-slowik/"
      
    },
   

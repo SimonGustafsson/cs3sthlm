@@ -268,6 +268,22 @@ p.content-intro {
 	letter-spacing: .45px;
 	color: $white;
 
+	span {
+
+		&:last-of-type {
+			&:before {
+				display: inline-block;
+				content: '&';
+				margin: 0 6px 0 0;
+			}
+		}
+		&:first-of-type {
+			&:before {
+				display: none;
+			}
+		}
+	}
+
 	@include media-query-min($giant) {
 		font-size: 21px;
 		line-height: 38px;

@@ -55,7 +55,7 @@ id: home
 
       <div class="column-block column-block-bit">
         <div class="column-block-item col-1-3">
-          <div class="card-item card-item-filled">
+          <div class="card-item card-item-filled spacing-bottom">
             <h4 class="sub-headline">Previous Summit</h4>
             {% assign sorthistory = site.data.history | sort:'year' | reverse %}
             {% for card in sorthistory %}
@@ -142,10 +142,10 @@ id: home
     </div>
 
   </div>
-
+  
   <div class="speaker--block">
     <div class="speaker--block-header">
-      <h3 class="headline">Speakers of 2018</h3>
+      <h3 class="headline">Speakers of 2019</h3>
       <a href="{{ site.baseurl }}/program/speakers/" class="button button-primary speaker-row">View All Speakers</a>
     </div>
 
@@ -294,7 +294,7 @@ id: home
   <div class="column-block">
 
     <div class="column-block-item col-5-8">
-      <p class="content-intro col-4-8">At the CS3STHLM Expo 2018, an ICS Cyber Security Expo in Stockhom, you get an overview of threats and different protection that's available on the market. Here you will meet both researchers, vendors and experts who share their experiences of best practice and trends in IT security for critical parts of society.</p>
+      <p class="content-intro col-4-8">At the CS3STHLM Expo 2019, an ICS Cyber Security Expo in Stockhom, you get an overview of threats and different protection that's available on the market. Here you will meet both researchers, vendors and experts who share their experiences of best practice and trends in IT security for critical parts of society.</p>
 
       <div class="column-block">
         <div class="column-block-item col-1-3">
@@ -398,9 +398,11 @@ id: home
             {% endif %}
             <h2 class="speaker-title">{{ item.subject }}</h2>
             {% endfor %}
+            <h3 class="speaker-name">
             {% for item in card.author %}
-            <h3 class="speaker-name">{{ item.name }}</h3>
+            <span>{{ item.name }}</span>
             {% endfor %}
+            </h3>
             {% for item in card.training %}
             <p>{{ item.description | truncatewords: 14 }}</p>
             {% endfor %}

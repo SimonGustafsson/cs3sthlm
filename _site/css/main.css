@@ -4606,6 +4606,12 @@ p.content-intro {
   line-height: 32px;
   letter-spacing: .45px;
   color: white; }
+  .speaker-name span:last-of-type:before {
+    display: inline-block;
+    content: '&';
+    margin: 0 6px 0 0; }
+  .speaker-name span:first-of-type:before {
+    display: none; }
   @media screen and (min-width: 1920px) {
     .speaker-name {
       font-size: 21px;
