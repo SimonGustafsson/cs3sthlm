@@ -2,28 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CS3STHLM</title>
-<<<<<<< HEAD
-    <description>CS3STHLM - Stockholm international summit on cyber-security in SCADA and Industrial Control Systems. CS3STHLM is an annual summit that gather the most important ICS/SCADA cyber security stakeholders across critical industries (i.e. energy, oil &amp; gas, water, transportation and smartgrid etc)</description>
+    <description>CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.</description>
     <link>//</link>
     <atom:link href="//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 23 Jun 2019 21:38:37 +0200</pubDate>
-    <lastBuildDate>Sun, 23 Jun 2019 21:38:37 +0200</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
-    
-      <item>
-        <title>CS3STHLM Newsletter December</title>
-        <description>&lt;p&gt;&lt;img src=&quot;//assets/cs3-holiday.png&quot; alt=&quot;CS3STHLM Holiday&quot; class=&quot;full-width-image&quot; /&gt;&lt;/p&gt;
-=======
-    <description>CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 23 Jun 2019 20:45:26 +0000</pubDate>
-    <lastBuildDate>Sun, 23 Jun 2019 20:45:26 +0000</lastBuildDate>
+    <pubDate>Tue, 25 Jun 2019 05:20:08 +0000</pubDate>
+    <lastBuildDate>Tue, 25 Jun 2019 05:20:08 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>CS3STHLM Newsletter February</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/cs3sthlm-logo-heart.png&quot; alt=&quot;CS3STHLM Holiday&quot; class=&quot;post-image-full-width col-2-8&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;//assets/cs3sthlm-logo-heart.png&quot; alt=&quot;CS3STHLM Holiday&quot; class=&quot;post-image-full-width col-2-8&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The first newsletter of the new year - and it is a short one!&lt;/p&gt;
 
@@ -36,8 +24,8 @@
 &lt;p&gt;Cordial greetings from the CS3STHLM crew!&lt;/p&gt;
 </description>
         <pubDate>Fri, 15 Feb 2019 04:00:00 +0000</pubDate>
-        <link>/news/2019/02/15/cs3sthlm-newsletter-february.html</link>
-        <guid isPermaLink="true">/news/2019/02/15/cs3sthlm-newsletter-february.html</guid>
+        <link>//news/2019/02/15/cs3sthlm-newsletter-february.html</link>
+        <guid isPermaLink="true">//news/2019/02/15/cs3sthlm-newsletter-february.html</guid>
         
         
         <category>news</category>
@@ -46,10 +34,9 @@
     
       <item>
         <title>CS3STHLM Newsletter December</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/cs3-holiday.png&quot; alt=&quot;CS3STHLM Holiday&quot; class=&quot;post-image-full-width col-3-8&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;//assets/cs3-holiday.png&quot; alt=&quot;CS3STHLM Holiday&quot; class=&quot;post-image-full-width col-3-8&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The CS3STHLM 2018 summit had several Top speaker presentations from from different angles of Cybersecurity, SCADA and Industrial Control Systems. As a holiday gift for you, we are now starting to publish presentations on our YouTube channel:&lt;/p&gt;
->>>>>>> 2019
 
 &lt;p&gt;&lt;a href=&quot;https://cs3sthlm.se/youtube&quot;&gt;cs3sthlm.se/youtube&lt;/a&gt;&lt;/p&gt;
 
@@ -75,15 +62,9 @@
 
 &lt;p&gt;Per request we have also added a number of vouchers, each valid for SEK 5.000kr, that later can be used for any CS3STHLM 2019 related cost like training, Expo or summit. If you still have budget to spend, that is!&lt;/p&gt;
 </description>
-<<<<<<< HEAD
-        <pubDate>Wed, 20 Dec 2017 05:00:00 +0100</pubDate>
-        <link>//news/2017/12/20/cs3sthlm-newsletter-december.html</link>
-        <guid isPermaLink="true">//news/2017/12/20/cs3sthlm-newsletter-december.html</guid>
-=======
         <pubDate>Wed, 19 Dec 2018 04:00:00 +0000</pubDate>
-        <link>/news/2018/12/19/cs3sthlm-newsletter-december.html</link>
-        <guid isPermaLink="true">/news/2018/12/19/cs3sthlm-newsletter-december.html</guid>
->>>>>>> 2019
+        <link>//news/2018/12/19/cs3sthlm-newsletter-december.html</link>
+        <guid isPermaLink="true">//news/2018/12/19/cs3sthlm-newsletter-december.html</guid>
         
         
         <category>news</category>
@@ -105,15 +86,9 @@
 &lt;p&gt;CS3STLHM 2019 will take place at Nalen in Stockholm October 21-24&lt;/p&gt;
 
 </description>
-<<<<<<< HEAD
-        <pubDate>Wed, 04 Oct 2017 06:00:00 +0200</pubDate>
-        <link>//press/2017/10/04/cs3sthlm-presents-ics-and-iot-lab-together-with-norwegian-energy-cert.html</link>
-        <guid isPermaLink="true">//press/2017/10/04/cs3sthlm-presents-ics-and-iot-lab-together-with-norwegian-energy-cert.html</guid>
-=======
         <pubDate>Thu, 25 Oct 2018 04:00:00 +0000</pubDate>
-        <link>/news/2018/10/25/cs3sthlm-summary-of-2018-event.html</link>
-        <guid isPermaLink="true">/news/2018/10/25/cs3sthlm-summary-of-2018-event.html</guid>
->>>>>>> 2019
+        <link>//news/2018/10/25/cs3sthlm-summary-of-2018-event.html</link>
+        <guid isPermaLink="true">//news/2018/10/25/cs3sthlm-summary-of-2018-event.html</guid>
         
         
         <category>news</category>
@@ -132,15 +107,9 @@
 
 &lt;p&gt;Innovative and disruptive technologies are enhancing and invading our traditional industrial business model. Future infrastructure organizations will need more data to operate efficiently and succeed in the brave new interconnected world. The diversity of new technologies and data will fuel more diversity in business opportunity. Everyone expects more OT, more IOT, and more IT - and all of it is supposed to be highly reliable and secure. These factors (and more) lead to a landscape shift for the industrial cybersecurity risk profile. In this session, hear ways to recognize the problems and gain some clarity on possible solutions through historic lessons, made up words, and practical front-line experience.a&lt;/p&gt;
 </description>
-<<<<<<< HEAD
-        <pubDate>Thu, 14 Sep 2017 06:00:00 +0200</pubDate>
-        <link>//press/2017/09/14/advenica-announces-new-collaboration-with-cs3sthlm.html</link>
-        <guid isPermaLink="true">//press/2017/09/14/advenica-announces-new-collaboration-with-cs3sthlm.html</guid>
-=======
         <pubDate>Wed, 24 Oct 2018 04:00:00 +0000</pubDate>
-        <link>/news/2018/10/24/cs3sthlm-record-attendence.html</link>
-        <guid isPermaLink="true">/news/2018/10/24/cs3sthlm-record-attendence.html</guid>
->>>>>>> 2019
+        <link>//news/2018/10/24/cs3sthlm-record-attendence.html</link>
+        <guid isPermaLink="true">//news/2018/10/24/cs3sthlm-record-attendence.html</guid>
         
         
         <category>news</category>
@@ -184,15 +153,9 @@ In case, that several contesters gets the same (correct) reply - there will be a
 &lt;p&gt;May the best honey-pot spotter win :-)&lt;/p&gt;
 
 </description>
-<<<<<<< HEAD
-        <pubDate>Wed, 13 Sep 2017 06:00:00 +0200</pubDate>
-        <link>//news/2017/09/13/cs3sthlm-newsletter-september.html</link>
-        <guid isPermaLink="true">//news/2017/09/13/cs3sthlm-newsletter-september.html</guid>
-=======
         <pubDate>Mon, 22 Oct 2018 04:00:00 +0000</pubDate>
-        <link>/news/2018/10/22/cs3sthlm-app-and-honey-pot-competition.html</link>
-        <guid isPermaLink="true">/news/2018/10/22/cs3sthlm-app-and-honey-pot-competition.html</guid>
->>>>>>> 2019
+        <link>//news/2018/10/22/cs3sthlm-app-and-honey-pot-competition.html</link>
+        <guid isPermaLink="true">//news/2018/10/22/cs3sthlm-app-and-honey-pot-competition.html</guid>
         
         
         <category>news</category>
@@ -232,8 +195,8 @@ In case, that several contesters gets the same (correct) reply - there will be a
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 18 Oct 2018 04:00:00 +0000</pubDate>
-        <link>/press/2018/10/18/cs3sthlm-fifth-conference.html</link>
-        <guid isPermaLink="true">/press/2018/10/18/cs3sthlm-fifth-conference.html</guid>
+        <link>//press/2018/10/18/cs3sthlm-fifth-conference.html</link>
+        <guid isPermaLink="true">//press/2018/10/18/cs3sthlm-fifth-conference.html</guid>
         
         
         <category>press</category>
@@ -273,20 +236,12 @@ In case, that several contesters gets the same (correct) reply - there will be a
 &lt;h4 id=&quot;what-do-you-look-forward-to-with-this-years-event&quot;&gt;What do you look forward to with this years event?&lt;/h4&gt;
 &lt;p&gt;Working at Nalen (the Venue) is always super cosy, I really like that place. This year will also feature an expo (taking place the day before the actual conference starts) - this means some new challenges for us production-wise, that I’m kind of looking forward to dealing with. It’s gonna be exciting.&lt;/p&gt;
 
-<<<<<<< HEAD
-&lt;p&gt;&lt;img src=&quot;//assets/news/cyber.jpg&quot; alt=&quot;Cyber&quot; class=&quot;full-width-image&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 13 Jun 2017 06:00:00 +0200</pubDate>
-        <link>//news/2017/06/13/cs3sthlm-newsletter-june.html</link>
-        <guid isPermaLink="true">//news/2017/06/13/cs3sthlm-newsletter-june.html</guid>
-=======
 &lt;h4 id=&quot;any-last-words-of-advice-to-our-readers-and-the-attendees&quot;&gt;Any last words of advice to our readers and the attendees?&lt;/h4&gt;
 &lt;p&gt;I don’t know. Buy a ticket. Show up. Stay geek?&lt;/p&gt;
 </description>
         <pubDate>Mon, 15 Oct 2018 04:00:00 +0000</pubDate>
-        <link>/blog/ola-hermansson/</link>
-        <guid isPermaLink="true">/blog/ola-hermansson/</guid>
->>>>>>> 2019
+        <link>//blog/ola-hermansson/</link>
+        <guid isPermaLink="true">//blog/ola-hermansson/</guid>
         
         
         <category>blog</category>
@@ -319,8 +274,8 @@ In case, that several contesters gets the same (correct) reply - there will be a
 
 &lt;p&gt;Gasoil discharge rail tank stand shows several targeted attack scenarios that could happen to industrial infrastructure on an example of oil and gas industry. The model represents a rail tank discharge rack that is used for offloading of oil into storage tanks. The sample attack scenarios (including «Process STOP», «Buffer tank overflow» and «Impacting pump operation») demonstrate how hypothetical hacker can impact or sabotage the operation of the rail tank discharge process. At the stand (comprising of an industrial programmable logic controller, physical process representation and two industrial workstations protected by Kaspersky Industrial Cybersecurity) you can see sequential stages of cyberattack, possible outcome and counteracting reaction of protection mechanisms based on Kaspersky Industrial Cybersecurity.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/news/anton-shipulin/image-01.png&quot; alt=&quot;alt text&quot; /&gt;
-&lt;img src=&quot;/assets/news/anton-shipulin/image-02.png&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/news/anton-shipulin/image-01.png&quot; alt=&quot;alt text&quot; /&gt;
+&lt;img src=&quot;//assets/news/anton-shipulin/image-02.png&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Anomaly detection on the IoT stand simulates attempted attacks on typical elements of IoT infrastructure, such as gateways and devices (e.g. an IP camera), which are connected to a local network. IoT devices such as various controllers, sensors, cameras, are widely used in industrial organizations to collect and analyze data about manufacturing processes and to automate procedures. On the stand, you can see how IoT devices (an IP camera in this case) can be easily manipulated by an intruder. The intruder steals video data from the camera by creating a second video stream that is then connected to a criminal’s notebook. IoT gateways can be vulnerable to attempts to run a malicious code on them and to illegitimately change the firmware. These scenarios can be stopped with the Kaspersky IoT Security solution. The solution consists of several components, including Machine Learning Anomaly Detection that reveals anomalies in devices behavior; Linux Application Control (LAC), that blocks the launch of suspicious code that are not in the secure “White List”. This is accomplished via a connection to Kaspersky Lab intelligence services through the Kaspersky Security Network - ensuring a fast response. A program called Secure Boot blocks the launch of illegitimate software; and another solution, Secure Update, prevents a device from being updated with illegitimate version of software.&lt;/p&gt;
 
@@ -344,8 +299,8 @@ Besides direct application to ICS solutions and products, KasperskyOS may be use
 
 &lt;p&gt;Good question, to find an answer to that, besides all of our projects at our client’s facilities, we conduct global researches, surveying people, analyzing data from our endpoints and networks sensors. We publish those reports regularly. Readers can find the latest version here &lt;a href=&quot;https://ics.kaspersky.com/the-state-of-industrial-cybersecurity-2018/&quot;&gt;The State of Industrial Cybersecurity 2018&lt;/a&gt; and here &lt;a href=&quot;https://ics-cert.kaspersky.com/reports/2018/09/06/threat-landscape-for-industrial-automation-systems-h1-2018/&quot;&gt;Threat landscape for industrial automation systems: H1 2018&lt;/a&gt;. Some highlights from them are on the pictures below. Our practice with our clients mostly proves it&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/news/anton-shipulin/image-03.png&quot; alt=&quot;alt text&quot; /&gt;
-&lt;img src=&quot;/assets/news/anton-shipulin/image-04.png&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/news/anton-shipulin/image-03.png&quot; alt=&quot;alt text&quot; /&gt;
+&lt;img src=&quot;//assets/news/anton-shipulin/image-04.png&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;will-the-attendees-be-able-to-test-test-drive-hack-or-play-with-any-of-the-devices-and-demos-that-you-will-have-on-display&quot;&gt;Will the attendees be able to test, test drive, hack or play with any of the devices and demos that you will have on display?&lt;/h4&gt;
 
@@ -373,15 +328,9 @@ Kaspersky ICS Team: &lt;a href=&quot;https://twitter.com/KasperskyICS&quot;&gt;@
 Anton Shipulin: &lt;a href=&quot;https://twitter.com/shipulin_anton&quot;&gt;@Shipulin_Anton&lt;/a&gt;&lt;/p&gt;
 
 </description>
-<<<<<<< HEAD
-        <pubDate>Tue, 13 Jun 2017 06:00:00 +0200</pubDate>
-        <link>//press/2017/06/13/malware-that-can-knock-out-power.html</link>
-        <guid isPermaLink="true">//press/2017/06/13/malware-that-can-knock-out-power.html</guid>
-=======
         <pubDate>Mon, 15 Oct 2018 04:00:00 +0000</pubDate>
-        <link>/blog/anton-shipulin/</link>
-        <guid isPermaLink="true">/blog/anton-shipulin/</guid>
->>>>>>> 2019
+        <link>//blog/anton-shipulin/</link>
+        <guid isPermaLink="true">//blog/anton-shipulin/</guid>
         
         
         <category>blog</category>
@@ -413,13 +362,6 @@ What is the biggest challenges to automotive area with regards to security? I 
 &lt;h4 id=&quot;is-car-theft-the-biggest-risk-or-do-you-see-other-aspects-worse-risks-for-vehicles--cyber-security&quot;&gt;Is car theft the biggest risk, or do you see other aspects worse risks for vehicles &amp;amp; cyber security? &lt;/h4&gt;
 &lt;p&gt;As of now I’d say yes, definitely. As cars get more functionality that can be activated via software and we see an increase of managed vehicle fleets versus privately owned cars threats will probably diversify somewhat more. Criminals will always be where the most money can be made with the least risk, at least we can be sure of that ;-)&lt;/p&gt;
 
-<<<<<<< HEAD
-&lt;p&gt;&lt;img src=&quot;//assets/news/marble-one.jpg&quot; alt=&quot;Marble One&quot; /&gt; &lt;img src=&quot;//assets/news/marble-two.jpg&quot; alt=&quot;Marble Two&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 08 May 2017 06:00:00 +0200</pubDate>
-        <link>//news/2017/05/08/cfp-dont-miss-our-deadline.html</link>
-        <guid isPermaLink="true">//news/2017/05/08/cfp-dont-miss-our-deadline.html</guid>
-=======
 &lt;h4 id=&quot;what-is-the-least-known-aspects-of-cyber-security-in-the-automative-industry&quot;&gt;What is the least known aspects of cyber security in the automative industry? &lt;/h4&gt;
 &lt;p&gt;We have been at some aspects of this a lot longer than many folks in the cyber security community might think and this has to do with all the immobilizer technology put into cars over the past 10-15 years and criminals finding ways around that. Also most discussions around fixing security problems in vehicles with quick patches over the air often don’t reflect how much testing has to go into any change you make to anything safety related in a vehicle. Also, like most ICS systems, we should keep in mind that there are (and there probably should be some more) failsafes that cannot be overridden by software.&lt;/p&gt;
 
@@ -433,9 +375,8 @@ What is the biggest challenges to automotive area with regards to security? I 
 &lt;p&gt;That although there are some hard questions waiting to be answered we do know the basics of how to do this right. These are not new and sexy things and they take some effort, but it’s certainly doable. Also, we are still very early on in this particular race. So there is still time to learn from other fields and do some things better. &lt;/p&gt;
 </description>
         <pubDate>Wed, 26 Sep 2018 04:00:00 +0000</pubDate>
-        <link>/blog/kai-thomsen/</link>
-        <guid isPermaLink="true">/blog/kai-thomsen/</guid>
->>>>>>> 2019
+        <link>//blog/kai-thomsen/</link>
+        <guid isPermaLink="true">//blog/kai-thomsen/</guid>
         
         
         <category>blog</category>
@@ -457,23 +398,23 @@ What is the biggest challenges to automotive area with regards to security? I 
 &lt;p&gt;This year we will offer six different trainings, to have something for all our participants. Some are technical deep dives, some are more theoretical or policy oriented. Here is some short info on the trainings:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/program/trainings/mikael-vingaard/&quot;&gt;Learn why honeypots&lt;/a&gt; should be part of your toolbox to detect anomalies in your ICS network by taking Mikael Vingaards ICS honeypot class. This is a very hands-on class. Read an interview with Mike here: &lt;a href=&quot;https://cs3sthlm.se/blog/mikael-vingaard/&quot;&gt;/blog/mikael-vingaard&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/program/trainings/erik-hjelmvik/&quot;&gt;The Network ForensICS&lt;/a&gt; class is given for the 3rd time. Always sold out. Packed with network level examinations and protocol analysis, and you need to bring your computer.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/program/trainings/stephan-beirer/&quot;&gt;The ISO/IEC 27019&lt;/a&gt; training can be very useful for those interested in policy level work for the oil/gas industry or electrical utility industry. Read an interview with Dr Beirer here   &lt;a href=&quot;https://cs3sthlm.se/blog/dr-stephan-beirer/&quot;&gt;/blog/dr-stephan-beirer&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/program/trainings/arnaud-soullie/&quot;&gt;The ICS Pentest&lt;/a&gt; is a hand-on class where you will learn to find errors and vulnerabilities in a ICS system. To add something little extra, the class also includes a capture-the-flag competition between the attendees.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/program/trainings/joe-slowik&quot;&gt;ICS Strategic planning and war gaming&lt;/a&gt; is given by Joe Slowik of Dragos Inc to help you become better at defending your ICS systems.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/program/trainings/ben-daniel/&quot;&gt;Ben and Daniel&lt;/a&gt; from Dragos will get you started with threat hunting in your ICS environment&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;//program/trainings/mikael-vingaard/&quot;&gt;Learn why honeypots&lt;/a&gt; should be part of your toolbox to detect anomalies in your ICS network by taking Mikael Vingaards ICS honeypot class. This is a very hands-on class. Read an interview with Mike here: &lt;a href=&quot;https://cs3sthlm.se/blog/mikael-vingaard/&quot;&gt;/blog/mikael-vingaard&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;//program/trainings/erik-hjelmvik/&quot;&gt;The Network ForensICS&lt;/a&gt; class is given for the 3rd time. Always sold out. Packed with network level examinations and protocol analysis, and you need to bring your computer.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;//program/trainings/stephan-beirer/&quot;&gt;The ISO/IEC 27019&lt;/a&gt; training can be very useful for those interested in policy level work for the oil/gas industry or electrical utility industry. Read an interview with Dr Beirer here   &lt;a href=&quot;https://cs3sthlm.se/blog/dr-stephan-beirer/&quot;&gt;/blog/dr-stephan-beirer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;//program/trainings/arnaud-soullie/&quot;&gt;The ICS Pentest&lt;/a&gt; is a hand-on class where you will learn to find errors and vulnerabilities in a ICS system. To add something little extra, the class also includes a capture-the-flag competition between the attendees.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;//program/trainings/joe-slowik&quot;&gt;ICS Strategic planning and war gaming&lt;/a&gt; is given by Joe Slowik of Dragos Inc to help you become better at defending your ICS systems.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;//program/trainings/ben-daniel/&quot;&gt;Ben and Daniel&lt;/a&gt; from Dragos will get you started with threat hunting in your ICS environment&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;See all trainings here: &lt;a href=&quot;/program/trainings/&quot;&gt;/trainings&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;See all trainings here: &lt;a href=&quot;//program/trainings/&quot;&gt;/trainings&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;more-speakers&quot;&gt;More Speakers&lt;/h4&gt;
 
-&lt;p&gt;We are more or less ready with the lineup for this year with close to 30 presenters. We have experts from all over the world, giving presentations in as diverse areas such as Cyber attacks against cars, lessons from incidents and attacks, writing a adding malware into blockchain solutions. See all speakers here &lt;a href=&quot;/program/speakers/&quot;&gt;/speakers&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We are more or less ready with the lineup for this year with close to 30 presenters. We have experts from all over the world, giving presentations in as diverse areas such as Cyber attacks against cars, lessons from incidents and attacks, writing a adding malware into blockchain solutions. See all speakers here &lt;a href=&quot;//program/speakers/&quot;&gt;/speakers&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;ics-security-lab&quot;&gt;ICS Security Lab&lt;/h4&gt;
 
-&lt;p&gt;We will continue the success with the ICS security lab from previous years. Attendees will have opportunities to try out various ICS equipment, cyber security protection mechanisms, and to see demonstrations of attacks. More info on the lab here &lt;a href=&quot;/ics-lab/&quot;&gt;/ics-lab&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We will continue the success with the ICS security lab from previous years. Attendees will have opportunities to try out various ICS equipment, cyber security protection mechanisms, and to see demonstrations of attacks. More info on the lab here &lt;a href=&quot;//ics-lab/&quot;&gt;/ics-lab&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;hotel-discount&quot;&gt;Hotel Discount&lt;/h4&gt;
 
@@ -486,123 +427,117 @@ What is the biggest challenges to automotive area with regards to security? I 
 
 	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
 		&lt;a href=&quot;https://www.advenica.com/en&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/advenica.png&quot; alt=&quot;Advenica&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+			&lt;img src=&quot;//assets/partners/advenica.png&quot; alt=&quot;Advenica&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
 		&lt;a href=&quot;https://www.msb.se/en/&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/msb-english.png&quot; alt=&quot;MSB&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+			&lt;img src=&quot;//assets/partners/msb-english.png&quot; alt=&quot;MSB&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
 		&lt;a href=&quot;https://www.first.org&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/first.png&quot; alt=&quot;FIRST&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+			&lt;img src=&quot;//assets/partners/first.png&quot; alt=&quot;FIRST&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
 		&lt;a href=&quot;https://dragos.com&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/dragos.png&quot; alt=&quot;Dragos&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+			&lt;img src=&quot;//assets/partners/dragos.png&quot; alt=&quot;Dragos&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
 		&lt;a href=&quot;https://www.kraftcert.no/english/index.html&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/kraftcert.png&quot; alt=&quot;KraftCERT&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+			&lt;img src=&quot;//assets/partners/kraftcert.png&quot; alt=&quot;KraftCERT&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
 		&lt;a href=&quot;https://www.gai-netconsult.de/index.php?id=startseite&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/gai-netconsult.png&quot; alt=&quot;Gai Netconsult&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+			&lt;img src=&quot;//assets/partners/gai-netconsult.png&quot; alt=&quot;Gai Netconsult&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item &quot;&gt;
 		&lt;a href=&quot;https://omnisiens.se&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/omnisiens.png&quot; alt=&quot;OMNISIENS&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+			&lt;img src=&quot;//assets/partners/omnisiens.png&quot; alt=&quot;OMNISIENS&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item &quot;&gt;
 		&lt;a href=&quot;https://romab.com&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/romab.png&quot; alt=&quot;ROMAB&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+			&lt;img src=&quot;//assets/partners/romab.png&quot; alt=&quot;ROMAB&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item &quot;&gt;
 		&lt;a href=&quot;https://sysctl.se&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/sysctl.png&quot; alt=&quot;sysctl&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+			&lt;img src=&quot;//assets/partners/sysctl.png&quot; alt=&quot;sysctl&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item &quot;&gt;
 		&lt;a href=&quot;http://managementdoctors.se&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/md.png&quot; alt=&quot;Management Doctors&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+			&lt;img src=&quot;//assets/partners/md.png&quot; alt=&quot;Management Doctors&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
 		&lt;a href=&quot;https://www.kaspersky.com&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/kaspersky.png&quot; alt=&quot;Kaspersky&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+			&lt;img src=&quot;//assets/partners/kaspersky.png&quot; alt=&quot;Kaspersky&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item &quot;&gt;
 		&lt;a href=&quot;https://www.recordedfuture.com&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/recorded-future.png&quot; alt=&quot;Recorded Future&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+			&lt;img src=&quot;//assets/partners/recorded-future.png&quot; alt=&quot;Recorded Future&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item &quot;&gt;
 		&lt;a href=&quot;https://waterfall-security.com&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/waterfall-security.png&quot; alt=&quot;Waterfall Security&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+			&lt;img src=&quot;//assets/partners/waterfall-security.png&quot; alt=&quot;Waterfall Security&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item &quot;&gt;
 		&lt;a href=&quot;https://en.energinet.dk&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/energinet.png&quot; alt=&quot;EnergiNet&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+			&lt;img src=&quot;//assets/partners/energinet.png&quot; alt=&quot;EnergiNet&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item &quot;&gt;
 		&lt;a href=&quot;https://www.netresec.com&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/netresec.png&quot; alt=&quot;NETRESEC&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+			&lt;img src=&quot;//assets/partners/netresec.png&quot; alt=&quot;NETRESEC&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item &quot;&gt;
 		&lt;a href=&quot;https://netnordic.se&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/netnordic.png&quot; alt=&quot;Netnordic&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+			&lt;img src=&quot;//assets/partners/netnordic.png&quot; alt=&quot;Netnordic&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item &quot;&gt;
 		&lt;a href=&quot;https://www.secmatters.com&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/securitymatters.png&quot; alt=&quot;SecurityMatters&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+			&lt;img src=&quot;//assets/partners/securitymatters.png&quot; alt=&quot;SecurityMatters&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
 		&lt;a href=&quot;https://www.fortinet.com&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/fortinet.png&quot; alt=&quot;Fortinet&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+			&lt;img src=&quot;//assets/partners/fortinet.png&quot; alt=&quot;Fortinet&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
 		&lt;/a&gt;
 	&lt;/div&gt;
 
 &lt;/div&gt;
 </description>
-<<<<<<< HEAD
-        <pubDate>Fri, 21 Apr 2017 06:00:00 +0200</pubDate>
-        <link>//press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html</link>
-        <guid isPermaLink="true">//press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html</guid>
-=======
         <pubDate>Wed, 19 Sep 2018 04:00:00 +0000</pubDate>
-        <link>/news/2018/09/19/cs3sthlm-newsletter-september.html</link>
-        <guid isPermaLink="true">/news/2018/09/19/cs3sthlm-newsletter-september.html</guid>
->>>>>>> 2019
+        <link>//news/2018/09/19/cs3sthlm-newsletter-september.html</link>
+        <guid isPermaLink="true">//news/2018/09/19/cs3sthlm-newsletter-september.html</guid>
         
         
         <category>news</category>

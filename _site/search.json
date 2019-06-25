@@ -2,199 +2,155 @@
   
     {
       "title"    : "CS3STHLM Newsletter February",
-      "url"      : "/news/2019/02/15/cs3sthlm-newsletter-february.html",
+      "url"      : "//news/2019/02/15/cs3sthlm-newsletter-february.html",
       "date"     : "2019-02-15 04:00:00 +0000",
       "path"     : "/news/2019/02/15/cs3sthlm-newsletter-february.html"
     },
   
     {
       "title"    : "CS3STHLM Newsletter December",
-      "url"      : "/news/2018/12/19/cs3sthlm-newsletter-december.html",
+      "url"      : "//news/2018/12/19/cs3sthlm-newsletter-december.html",
       "date"     : "2018-12-19 04:00:00 +0000",
       "path"     : "/news/2018/12/19/cs3sthlm-newsletter-december.html"
     },
   
     {
       "title"    : "CS3STHLM Summary of 2018 Event",
-      "url"      : "/news/2018/10/25/cs3sthlm-summary-of-2018-event.html",
+      "url"      : "//news/2018/10/25/cs3sthlm-summary-of-2018-event.html",
       "date"     : "2018-10-25 04:00:00 +0000",
       "path"     : "/news/2018/10/25/cs3sthlm-summary-of-2018-event.html"
     },
   
     {
       "title"    : "CS3STHLM Record Attendance",
-      "url"      : "/news/2018/10/24/cs3sthlm-record-attendence.html",
+      "url"      : "//news/2018/10/24/cs3sthlm-record-attendence.html",
       "date"     : "2018-10-24 04:00:00 +0000",
       "path"     : "/news/2018/10/24/cs3sthlm-record-attendence.html"
     },
   
     {
       "title"    : "CS3STHLM App and Honey Pot Competition",
-      "url"      : "/news/2018/10/22/cs3sthlm-app-and-honey-pot-competition.html",
+      "url"      : "//news/2018/10/22/cs3sthlm-app-and-honey-pot-competition.html",
       "date"     : "2018-10-22 04:00:00 +0000",
       "path"     : "/news/2018/10/22/cs3sthlm-app-and-honey-pot-competition.html"
     },
   
     {
       "title"    : "CS3STHLM fifth conference on industrial cyber security",
-      "url"      : "/press/2018/10/18/cs3sthlm-fifth-conference.html",
+      "url"      : "//press/2018/10/18/cs3sthlm-fifth-conference.html",
       "date"     : "2018-10-18 04:00:00 +0000",
       "path"     : "/press/2018/10/18/cs3sthlm-fifth-conference.html"
     },
   
     {
       "title"    : "Ola Hermansson - Technical Operations Manager",
-      "url"      : "/blog/ola-hermansson/",
+      "url"      : "//blog/ola-hermansson/",
       "date"     : "2018-10-15 04:00:00 +0000",
       "path"     : "/blog/ola-hermansson/"
     },
   
     {
       "title"    : "Anton Shipulin - Kaspersky Lab",
-      "url"      : "/blog/anton-shipulin/",
+      "url"      : "//blog/anton-shipulin/",
       "date"     : "2018-10-15 04:00:00 +0000",
       "path"     : "/blog/anton-shipulin/"
     },
   
     {
       "title"    : "Kai Thomsen - Senior Incident Responder",
-      "url"      : "/blog/kai-thomsen/",
+      "url"      : "//blog/kai-thomsen/",
       "date"     : "2018-09-26 04:00:00 +0000",
       "path"     : "/blog/kai-thomsen/"
     },
   
     {
       "title"    : "CS3STHLM Newsletter September",
-      "url"      : "/news/2018/09/19/cs3sthlm-newsletter-september.html",
+      "url"      : "//news/2018/09/19/cs3sthlm-newsletter-september.html",
       "date"     : "2018-09-19 04:00:00 +0000",
       "path"     : "/news/2018/09/19/cs3sthlm-newsletter-september.html"
     },
   
     {
       "title"    : "Erik Johansson - Co-founder of CS3sthlm",
-      "url"      : "/blog/erik-johansson/",
+      "url"      : "//blog/erik-johansson/",
       "date"     : "2018-09-18 04:00:00 +0000",
       "path"     : "/blog/erik-johansson/"
     },
   
     {
       "title"    : "Dr. Stephan Beirer - The Expert on the ISO/IEC 20719 standard",
-      "url"      : "/blog/dr-stephan-beirer/",
+      "url"      : "//blog/dr-stephan-beirer/",
       "date"     : "2018-09-17 05:00:00 +0000",
       "path"     : "/blog/dr-stephan-beirer/"
     },
   
     {
       "title"    : "Mikael Vingaard - The Expert on ICS Honeypots",
-      "url"      : "/blog/mikael-vingaard/",
+      "url"      : "//blog/mikael-vingaard/",
       "date"     : "2018-09-17 04:00:00 +0000",
       "path"     : "/blog/mikael-vingaard/"
     },
   
     {
       "title"    : "CS3STHLM Newsletter April",
-      "url"      : "/news/2018/04/30/cs3sthlm-newsletter-april.html",
+      "url"      : "//news/2018/04/30/cs3sthlm-newsletter-april.html",
       "date"     : "2018-04-30 04:00:00 +0000",
       "path"     : "/news/2018/04/30/cs3sthlm-newsletter-april.html"
     },
   
     {
       "title"    : "CS3STHLM Newsletter December",
-<<<<<<< HEAD
       "url"      : "//news/2017/12/20/cs3sthlm-newsletter-december.html",
-      "date"     : "2017-12-20 05:00:00 +0100",
-=======
-      "url"      : "/news/2017/12/20/cs3sthlm-newsletter-december.html",
       "date"     : "2017-12-20 04:00:00 +0000",
->>>>>>> 2019
       "path"     : "/news/2017/12/20/cs3sthlm-newsletter-december.html"
     },
   
     {
       "title"    : "CS3STHLM Presents ICS- and IoT Lab together with Norwegian Energy CERT",
-<<<<<<< HEAD
       "url"      : "//press/2017/10/04/cs3sthlm-presents-ics-and-iot-lab-together-with-norwegian-energy-cert.html",
-      "date"     : "2017-10-04 06:00:00 +0200",
-=======
-      "url"      : "/press/2017/10/04/cs3sthlm-presents-ics-and-iot-lab-together-with-norwegian-energy-cert.html",
       "date"     : "2017-10-04 04:00:00 +0000",
->>>>>>> 2019
       "path"     : "/press/2017/10/04/cs3sthlm-presents-ics-and-iot-lab-together-with-norwegian-energy-cert.html"
     },
   
     {
       "title"    : "Advenica announces new collaboration with CS3STHLM",
-<<<<<<< HEAD
       "url"      : "//press/2017/09/14/advenica-announces-new-collaboration-with-cs3sthlm.html",
-      "date"     : "2017-09-14 06:00:00 +0200",
-=======
-      "url"      : "/press/2017/09/14/advenica-announces-new-collaboration-with-cs3sthlm.html",
       "date"     : "2017-09-14 04:00:00 +0000",
->>>>>>> 2019
       "path"     : "/press/2017/09/14/advenica-announces-new-collaboration-with-cs3sthlm.html"
     },
   
     {
       "title"    : "CS3STHLM Newsletter September",
-<<<<<<< HEAD
       "url"      : "//news/2017/09/13/cs3sthlm-newsletter-september.html",
-      "date"     : "2017-09-13 06:00:00 +0200",
-      "path"     : "/news/2017/09/13/cs3sthlm-newsletter-september.html"
-    } ,
-  
-    {
-      "title"    : "CS3STHLM Newsletter June",
-      "url"      : "//news/2017/06/13/cs3sthlm-newsletter-june.html",
-      "date"     : "2017-06-13 06:00:00 +0200",
-      "path"     : "/news/2017/06/13/cs3sthlm-newsletter-june.html"
-    } ,
-  
-    {
-      "title"    : "Malware that can knock out power grids discovered",
-      "url"      : "//press/2017/06/13/malware-that-can-knock-out-power.html",
-      "date"     : "2017-06-13 06:00:00 +0200",
-=======
-      "url"      : "/news/2017/09/13/cs3sthlm-newsletter-september.html",
       "date"     : "2017-09-13 04:00:00 +0000",
       "path"     : "/news/2017/09/13/cs3sthlm-newsletter-september.html"
     },
   
     {
       "title"    : "Malware that can knock out power grids discovered",
-      "url"      : "/press/2017/06/13/malware-that-can-knock-out-power.html",
+      "url"      : "//press/2017/06/13/malware-that-can-knock-out-power.html",
       "date"     : "2017-06-13 04:00:00 +0000",
->>>>>>> 2019
       "path"     : "/press/2017/06/13/malware-that-can-knock-out-power.html"
     },
   
     {
       "title"    : "CS3STHLM Newsletter June",
-      "url"      : "/news/2017/06/13/cs3sthlm-newsletter-june.html",
+      "url"      : "//news/2017/06/13/cs3sthlm-newsletter-june.html",
       "date"     : "2017-06-13 04:00:00 +0000",
       "path"     : "/news/2017/06/13/cs3sthlm-newsletter-june.html"
     },
   
     {
       "title"    : "CFP - DON'T MISS OUR DEADLINE",
-<<<<<<< HEAD
       "url"      : "//news/2017/05/08/cfp-dont-miss-our-deadline.html",
-      "date"     : "2017-05-08 06:00:00 +0200",
-=======
-      "url"      : "/news/2017/05/08/cfp-dont-miss-our-deadline.html",
       "date"     : "2017-05-08 04:00:00 +0000",
->>>>>>> 2019
       "path"     : "/news/2017/05/08/cfp-dont-miss-our-deadline.html"
     },
   
     {
       "title"    : "Cyber Security Summit 4SICS Relaunches as CS3STHLM",
-<<<<<<< HEAD
       "url"      : "//press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html",
-      "date"     : "2017-04-21 06:00:00 +0200",
-=======
-      "url"      : "/press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html",
       "date"     : "2017-04-21 04:00:00 +0000",
->>>>>>> 2019
       "path"     : "/press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html"
     }
   
@@ -215,23 +171,19 @@
    {
      
         "title"    : "Kaspersky Industrial Cybersecurity approach",
-        "url"      : "/expo/presentations/anton-shipulin/",
+        "url"      : "//expo/presentations/anton-shipulin/",
         "path"     : "/expo/presentations/anton-shipulin/"
      
    },
   
    {
      
-        "title"    : "Pentesting Industrial Control Systems",
-        "url"      : "/program/trainings/arnaud-soullie/",
-        "path"     : "/program/trainings/arnaud-soullie/"
-     
    },
   
    {
      
         "title"    : "Introduction to Threat Hunting in ICS",
-        "url"      : "/program/trainings/ben-daniel/",
+        "url"      : "//program/trainings/ben-daniel/",
         "path"     : "/program/trainings/ben-daniel/"
      
    },
@@ -239,7 +191,7 @@
    {
      
         "title"    : "Hunting and Responding in ICS",
-        "url"      : "/program/presentations/ben-mark/",
+        "url"      : "//program/presentations/ben-mark/",
         "path"     : "/program/presentations/ben-mark/"
      
    },
@@ -247,7 +199,7 @@
    {
      
         "title"    : "Attacking PLCs by PLC in deep",
-        "url"      : "/program/presentations/cheng-lei/",
+        "url"      : "//program/presentations/cheng-lei/",
         "path"     : "/program/presentations/cheng-lei/"
      
    },
@@ -255,36 +207,31 @@
    {
      
         "title"    : "Stateful Protocol Hunting",
-        "url"      : "/program/presentations/dan-daniel/",
+        "url"      : "//program/presentations/dan-daniel/",
         "path"     : "/program/presentations/dan-daniel/"
      
    },
   
    {
      
-        "title"    : "Pentesting Industrial Control Systems",
-        "url"      : "//program/workshops/arnaud-soullie/",
-        "path"     : "/program/workshops/arnaud-soullie/"
+        "title"    : "Operator Jail breakout",
+        "url"      : "//program/presentations/dieter-frank/",
+        "path"     : "/program/presentations/dieter-frank/"
      
    },
   
    {
      
         "title"    : "ICS cyber security in the face of digital transformation",
-        "url"      : "/expo/presentations/dr-kevin-jones/",
+        "url"      : "//expo/presentations/dr-kevin-jones/",
         "path"     : "/expo/presentations/dr-kevin-jones/"
      
    },
   
    {
      
-<<<<<<< HEAD
-        "title"    : "Operator Jail breakout",
-        "url"      : "//program/presentations/dieter-frank/",
-        "path"     : "/program/presentations/dieter-frank/"
-=======
         "title"    : "Network ForensICS Training",
-        "url"      : "/program/trainings/erik-hjelmvik/",
+        "url"      : "//program/trainings/erik-hjelmvik/",
         "path"     : "/program/trainings/erik-hjelmvik/"
      
    },
@@ -292,7 +239,7 @@
    {
      
         "title"    : "Supply Chain Cyber Security throughout the ICS Lifecycle",
-        "url"      : "/program/presentations/erik-zouave/",
+        "url"      : "//program/presentations/erik-zouave/",
         "path"     : "/program/presentations/erik-zouave/"
      
    },
@@ -300,7 +247,7 @@
    {
      
         "title"    : "The good, the bad and the segmented",
-        "url"      : "/program/presentations/erwin-rik/",
+        "url"      : "//program/presentations/erwin-rik/",
         "path"     : "/program/presentations/erwin-rik/"
      
    },
@@ -312,7 +259,7 @@
    {
      
         "title"    : "Resilient Computing and Communication for Critical Infrastructures",
-        "url"      : "/expo/presentations/gyorgy-dan/",
+        "url"      : "//expo/presentations/gyorgy-dan/",
         "path"     : "/expo/presentations/gyorgy-dan/"
      
    },
@@ -320,7 +267,7 @@
    {
      
         "title"    : "Control Theory for Practical Cyber-Physical Security",
-        "url"      : "/expo/presentations/henrik-sandberg/",
+        "url"      : "//expo/presentations/henrik-sandberg/",
         "path"     : "/expo/presentations/henrik-sandberg/"
      
    },
@@ -328,7 +275,7 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
@@ -336,7 +283,7 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
@@ -344,7 +291,7 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
@@ -352,7 +299,7 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
@@ -360,7 +307,7 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
@@ -368,7 +315,7 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
@@ -376,7 +323,7 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
@@ -384,7 +331,7 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
@@ -392,7 +339,7 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
@@ -400,7 +347,7 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
@@ -408,7 +355,7 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
@@ -416,7 +363,7 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
@@ -424,7 +371,7 @@
    {
      
         "title"    : "Erik Hjelmvik",
-        "url"      : "/about/archive/speakers/erik-hjelmvik",
+        "url"      : "//about/archive/speakers/erik-hjelmvik",
         "path"     : "/about/archive/speakers/erik-hjelmvik"
      
    },
@@ -432,7 +379,7 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
@@ -440,7 +387,7 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
@@ -448,7 +395,7 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
@@ -456,7 +403,7 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
@@ -464,7 +411,7 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
@@ -472,7 +419,7 @@
    {
      
         "title"    : "Patrick Miller",
-        "url"      : "/about/archive/speakers/patrick-miller",
+        "url"      : "//about/archive/speakers/patrick-miller",
         "path"     : "/about/archive/speakers/patrick-miller"
      
    },
@@ -480,7 +427,7 @@
    {
      
         "title"    : "Robert M. Lee",
-        "url"      : "/about/archive/speakers/robert-m-lee",
+        "url"      : "//about/archive/speakers/robert-m-lee",
         "path"     : "/about/archive/speakers/robert-m-lee"
      
    },
@@ -488,7 +435,7 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
@@ -496,7 +443,7 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
@@ -504,7 +451,7 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
@@ -512,27 +459,15 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
->>>>>>> 2019
      
    },
   
    {
      
-<<<<<<< HEAD
-        "title"    : "Network ForensICS Training",
-        "url"      : "//program/workshops/erik-hjelmvik/",
-        "path"     : "/program/workshops/erik-hjelmvik/"
-     
-   } ,
-  
-   {
-     
-   } ,
-=======
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
@@ -540,7 +475,7 @@
    {
      
         "title"    : "Arnaud Soullié",
-        "url"      : "/about/archive/speakers/arnaud-soullie",
+        "url"      : "//about/archive/speakers/arnaud-soullie",
         "path"     : "/about/archive/speakers/arnaud-soullie"
      
    },
@@ -548,7 +483,7 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
@@ -556,7 +491,7 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
@@ -564,7 +499,7 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
@@ -572,7 +507,7 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
@@ -580,7 +515,7 @@
    {
      
         "title"    : "Speakers",
-        "url"      : "/about/archive/speakers/",
+        "url"      : "//about/archive/speakers/",
         "path"     : "/about/archive/speakers/"
      
    },
@@ -588,11 +523,10 @@
    {
      
         "title"    : "Archive",
-        "url"      : "/about/archive/",
+        "url"      : "//about/archive/",
         "path"     : "/about/archive/"
      
    },
->>>>>>> 2019
   
    {
      
@@ -621,7 +555,7 @@
    {
      
         "title"    : "Expo Presentations",
-        "url"      : "/expo/presentations/",
+        "url"      : "//expo/presentations/",
         "path"     : "/expo/presentations/"
      
    },
@@ -629,7 +563,7 @@
    {
      
         "title"    : "Expo Agenda",
-        "url"      : "/expo/agenda/",
+        "url"      : "//expo/agenda/",
         "path"     : "/expo/agenda/"
      
    },
@@ -637,7 +571,7 @@
    {
      
         "title"    : "Expo",
-        "url"      : "/expo/",
+        "url"      : "//expo/",
         "path"     : "/expo/"
      
    },
@@ -645,7 +579,7 @@
    {
      
         "title"    : "Welcome",
-        "url"      : "/welcome/",
+        "url"      : "//welcome/",
         "path"     : "/welcome/"
      
    },
@@ -668,15 +602,9 @@
   
    {
      
-<<<<<<< HEAD
-        "title"    : "Workshops",
-        "url"      : "//program/workshops/",
-        "path"     : "/program/workshops/"
-=======
         "title"    : "Partners",
-        "url"      : "/partners/",
+        "url"      : "//partners/",
         "path"     : "/partners/"
->>>>>>> 2019
      
    },
   
@@ -690,29 +618,17 @@
   
    {
      
-<<<<<<< HEAD
-        "title"    : "Presentations",
-        "url"      : "//program/presentations/",
-        "path"     : "/program/presentations/"
-=======
         "title"    : "Trainings",
-        "url"      : "/program/trainings/",
+        "url"      : "//program/trainings/",
         "path"     : "/program/trainings/"
->>>>>>> 2019
      
    },
   
    {
      
-<<<<<<< HEAD
-        "title"    : "Home",
-        "url"      : "//",
-        "path"     : ""
-=======
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
->>>>>>> 2019
      
    },
   
@@ -735,7 +651,7 @@
    {
      
         "title"    : "CS3STHLM - App",
-        "url"      : "/app/",
+        "url"      : "//app/",
         "path"     : "/app/"
      
    },
@@ -743,7 +659,7 @@
    {
      
         "title"    : "Thank You",
-        "url"      : "/thank-you/",
+        "url"      : "//thank-you/",
         "path"     : "/thank-you/"
      
    },
@@ -767,7 +683,7 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
@@ -775,7 +691,7 @@
    {
      
         "title"    : "Daniel Michaud-Soucy",
-        "url"      : "/about/archive/speakers/daniel-michaud-soucy",
+        "url"      : "//about/archive/speakers/daniel-michaud-soucy",
         "path"     : "/about/archive/speakers/daniel-michaud-soucy"
      
    },
@@ -783,7 +699,7 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
@@ -791,7 +707,7 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
@@ -799,7 +715,7 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
@@ -807,7 +723,7 @@
    {
      
         "title"    : "Dan Demeter",
-        "url"      : "/about/archive/speakers/dan-demeter",
+        "url"      : "//about/archive/speakers/dan-demeter",
         "path"     : "/about/archive/speakers/dan-demeter"
      
    },
@@ -815,7 +731,7 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
@@ -823,7 +739,7 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "url"      : "//about/archive/speakers/anne-marie-eklund-löwinder",
         "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
@@ -831,7 +747,7 @@
    {
      
         "title"    : "Anton Shipulin",
-        "url"      : "/about/archive/speakers/anton-shipulin",
+        "url"      : "//about/archive/speakers/anton-shipulin",
         "path"     : "/about/archive/speakers/anton-shipulin"
      
    },
@@ -839,18 +755,10 @@
    {
      
         "title"    : "Presentations",
-        "url"      : "/program/presentations/",
+        "url"      : "//program/presentations/",
         "path"     : "/program/presentations/"
      
    },
-  
-   {
-     
-        "title"    : "Archive",
-        "url"      : "//about/archive/",
-        "path"     : "/about/archive/"
-     
-   } ,
   
    {
      
@@ -863,7 +771,7 @@
    {
      
         "title"    : "Home",
-        "url"      : "/",
+        "url"      : "//",
         "path"     : ""
      
    },
@@ -874,66 +782,48 @@
   
    {
      
-<<<<<<< HEAD
-        "title"    : "Think like a hacker but act like an engineer",
-        "url"      : "//program/presentations/marty-edwards/",
-        "path"     : "/program/presentations/marty-edwards/"
-=======
         "title"    : "Recorded Future - The Dark Web’s deep threat intelligence secrets",
-        "url"      : "/expo/presentations/jannis-utz/",
+        "url"      : "//expo/presentations/jannis-utz/",
         "path"     : "/expo/presentations/jannis-utz/"
->>>>>>> 2019
      
    },
   
    {
      
         "title"    : "ICS Strategic Planning and War Gaming",
-        "url"      : "/program/trainings/joe-slowik/",
+        "url"      : "//program/trainings/joe-slowik/",
         "path"     : "/program/trainings/joe-slowik/"
      
    },
   
    {
      
-<<<<<<< HEAD
-        "title"    : "Industrial Technology Trajectory: Running With Scissors",
-        "url"      : "//program/presentations/patrick-miller/",
-        "path"     : "/program/presentations/patrick-miller/"
-=======
         "title"    : "Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense",
-        "url"      : "/program/presentations/joe-slowik/",
+        "url"      : "//program/presentations/joe-slowik/",
         "path"     : "/program/presentations/joe-slowik/"
->>>>>>> 2019
      
    },
   
    {
      
         "title"    : "Designing a second generation cyber range",
-        "url"      : "/program/presentations/jonas-almroth/",
+        "url"      : "//program/presentations/jonas-almroth/",
         "path"     : "/program/presentations/jonas-almroth/"
      
    },
   
    {
      
-<<<<<<< HEAD
-        "title"    : "Search",
-        "url"      : "//search/",
-        "path"     : "/search/"
-=======
         "title"    : "Security when failure is not an option.",
-        "url"      : "/expo/presentations/jonas-dellenvall/",
+        "url"      : "//expo/presentations/jonas-dellenvall/",
         "path"     : "/expo/presentations/jonas-dellenvall/"
->>>>>>> 2019
      
    },
   
    {
      
         "title"    : "Recent APT Campaign targeting Energy Sector Assets",
-        "url"      : "/program/presentations/jonathan-homer/",
+        "url"      : "//program/presentations/jonathan-homer/",
         "path"     : "/program/presentations/jonathan-homer/"
      
    },
@@ -941,43 +831,31 @@
    {
      
         "title"    : "Attacking Cars Revisited: On the Road Towards a More Resilient Connected Vehicle Infrastructure",
-        "url"      : "/program/presentations/kai-thomsen/",
+        "url"      : "//program/presentations/kai-thomsen/",
         "path"     : "/program/presentations/kai-thomsen/"
      
    },
   
    {
      
-<<<<<<< HEAD
-        "title"    : "Cyber security for the energy sector – an introduction to ISO/IEC 27019 and the BDEW/OE Whitepaper",
-        "url"      : "//program/workshops/stephan-beirer/",
-        "path"     : "/program/workshops/stephan-beirer/"
-=======
         "title"    : "Introduction to MSB-session",
-        "url"      : "/program/presentations/kristina-blomqvist/",
+        "url"      : "//program/presentations/kristina-blomqvist/",
         "path"     : "/program/presentations/kristina-blomqvist/"
->>>>>>> 2019
      
    },
   
    {
      
-<<<<<<< HEAD
-        "title"    : "Securing the ICS lab network",
-        "url"      : "//program/presentations/william-middleton/",
-        "path"     : "/program/presentations/william-middleton/"
-=======
         "title"    : "Introduction to KRAFT-CERT and some words about Nordic co-op",
-        "url"      : "/program/presentations/lars-erik-smevold/",
+        "url"      : "//program/presentations/lars-erik-smevold/",
         "path"     : "/program/presentations/lars-erik-smevold/"
->>>>>>> 2019
      
    },
   
    {
      
         "title"    : "Uncertain conflict – When critical infrastructure is affected by national conflicts.",
-        "url"      : "/program/presentations/lars-westerdahl/",
+        "url"      : "//program/presentations/lars-westerdahl/",
         "path"     : "/program/presentations/lars-westerdahl/"
      
    },
@@ -985,7 +863,7 @@
    {
      
         "title"    : "Securing Low Level Software Using Formal Methods",
-        "url"      : "/expo/presentations/mads-dam/",
+        "url"      : "//expo/presentations/mads-dam/",
         "path"     : "/expo/presentations/mads-dam/"
      
    },
@@ -996,55 +874,32 @@
   
    {
      
-<<<<<<< HEAD
-        "title"    : "Erik Hjelmvik",
-        "url"      : "//program/workshops/erik-hjelmvik/",
-        "path"     : "program/workshops/erik-hjelmvik/"
-=======
         "title"    : "Using fake BTS as a part of pentest of devices using SIM cards for data transmission",
-        "url"      : "/program/presentations/marcin-dudek/",
+        "url"      : "//program/presentations/marcin-dudek/",
         "path"     : "/program/presentations/marcin-dudek/"
->>>>>>> 2019
      
    },
   
    {
      
-<<<<<<< HEAD
-        "title"    : "Stephan Beirer",
-        "url"      : "//program/workshops/stephan-beirer/",
-        "path"     : "program/workshops/stephan-beirer/"
-=======
         "title"    : "Managing IoT-related risks",
-        "url"      : "/program/presentations/margarita-jaitner/",
+        "url"      : "//program/presentations/margarita-jaitner/",
         "path"     : "/program/presentations/margarita-jaitner/"
->>>>>>> 2019
      
    },
   
    {
      
-<<<<<<< HEAD
-        "title"    : "Marty Edwards",
-        "url"      : "//program/presentations/marty-edwards/",
-        "path"     : "program/presentations/marty-edwards/"
-=======
         "title"    : "ICS Incident Response: Lessons and mitigations from the field",
-        "url"      : "/program/presentations/mark-bristow/",
+        "url"      : "//program/presentations/mark-bristow/",
         "path"     : "/program/presentations/mark-bristow/"
->>>>>>> 2019
      
    },
   
    {
      
-<<<<<<< HEAD
-        "title"    : "Patrick Miller",
-        "url"      : "//program/presentations/patrick-miller/",
-        "path"     : "program/presentations/patrick-miller/"
-=======
         "title"    : "Incident Response: Learning as you go is Expensive",
-        "url"      : "/program/presentations/mark-stacey/",
+        "url"      : "//program/presentations/mark-stacey/",
         "path"     : "/program/presentations/mark-stacey/"
      
    },
@@ -1052,7 +907,7 @@
    {
      
         "title"    : "ICS Scada Honeypot Technical Training",
-        "url"      : "/program/trainings/mikael-vingaard/",
+        "url"      : "//program/trainings/mikael-vingaard/",
         "path"     : "/program/trainings/mikael-vingaard/"
      
    },
@@ -1060,7 +915,7 @@
    {
      
         "title"    : "Jumping Air Gaps",
-        "url"      : "/program/presentations/monta-elkins/",
+        "url"      : "//program/presentations/monta-elkins/",
         "path"     : "/program/presentations/monta-elkins/"
      
    },
@@ -1072,7 +927,7 @@
    {
      
         "title"    : "Unblockable Chains - Is Blockchain the ultimate malicious infrastructure?",
-        "url"      : "/program/presentations/omer-zohar/",
+        "url"      : "//program/presentations/omer-zohar/",
         "path"     : "/program/presentations/omer-zohar/"
      
    },
@@ -1080,61 +935,35 @@
    {
      
         "title"    : "Industrial Technology Trajectory: Running With Scissors",
-        "url"      : "/program/presentations/patrick-miller/",
+        "url"      : "//program/presentations/patrick-miller/",
         "path"     : "/program/presentations/patrick-miller/"
->>>>>>> 2019
      
    },
   
    {
      
-<<<<<<< HEAD
-        "title"    : "Arnaud Soullié",
-        "url"      : "//program/workshops/arnaud-soullie/",
-        "path"     : "program/workshops/arnaud-soullie/"
-     
-   } ,
-  
-   {
-     
-        "title"    : "William Middleton",
-        "url"      : "//program/presentations/william-middleton/",
-        "path"     : "program/presentations/william-middleton/"
-=======
    },
   
    {
->>>>>>> 2019
      
         "title"    : "Privacy Policy",
-        "url"      : "/privacy-policy/",
+        "url"      : "//privacy-policy/",
         "path"     : "/privacy-policy/"
      
    },
   
    {
      
-<<<<<<< HEAD
-        "title"    : "Dieter Sarrazyn",
-        "url"      : "//program/presentations/dieter-frank/",
-        "path"     : "program/presentations/dieter-frank/"
-=======
         "title"    : "Securing Wireless Transmissions at the Air Interface",
-        "url"      : "/expo/presentations/ragnar-thobaben/",
+        "url"      : "//expo/presentations/ragnar-thobaben/",
         "path"     : "/expo/presentations/ragnar-thobaben/"
->>>>>>> 2019
      
    },
   
    {
      
-<<<<<<< HEAD
-        "title"    : "Frank Lycops",
-        "url"      : "//program/presentations/dieter-frank/",
-        "path"     : "program/presentations/dieter-frank/"
-=======
         "title"    : "Addressing Physical to Digital Convergence in an Evolving World",
-        "url"      : "/expo/presentations/rick-peters/",
+        "url"      : "//expo/presentations/rick-peters/",
         "path"     : "/expo/presentations/rick-peters/"
      
    },
@@ -1142,7 +971,7 @@
    {
      
         "title"    : "Search",
-        "url"      : "/search/",
+        "url"      : "//search/",
         "path"     : "/search/"
      
    },
@@ -1158,7 +987,7 @@
    {
      
         "title"    : "Cyber security for the energy sector – an introduction to ISO/IEC 27019 and the BDEW/OE Whitepaper",
-        "url"      : "/program/trainings/stephan-beirer/",
+        "url"      : "//program/trainings/stephan-beirer/",
         "path"     : "/program/trainings/stephan-beirer/"
      
    },
@@ -1170,7 +999,7 @@
    {
      
         "title"    : "Securing the ICS lab network",
-        "url"      : "/program/presentations/william-middleton/",
+        "url"      : "//program/presentations/william-middleton/",
         "path"     : "/program/presentations/william-middleton/"
      
    },
@@ -1180,7 +1009,6 @@
    },
   
    {
->>>>>>> 2019
      
    }
   
