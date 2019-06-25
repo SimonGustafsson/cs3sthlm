@@ -1,10 +1,11 @@
 ---
-layout: post
 title: Cyber Security Summit 4SICS Relaunches as CS3STHLM
-date: 2017-04-21 06:00:00 +0200
-categories: press
-pdf: 
- - swedish: press-01-21-04-2017.pdf
+date: 2017-04-21 04:00:00 Z
+categories:
+- press
+layout: post
+pdf:
+- swedish: press-01-21-04-2017.pdf
 author: Maria Engstrom Ostby
 ---
 

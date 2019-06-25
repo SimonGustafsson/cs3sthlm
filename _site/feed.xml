@@ -2,6 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CS3STHLM</title>
+<<<<<<< HEAD
     <description>CS3STHLM - Stockholm international summit on cyber-security in SCADA and Industrial Control Systems. CS3STHLM is an annual summit that gather the most important ICS/SCADA cyber security stakeholders across critical industries (i.e. energy, oil &amp; gas, water, transportation and smartgrid etc)</description>
     <link>//</link>
     <atom:link href="//feed.xml" rel="self" type="application/rss+xml"/>
@@ -12,21 +13,77 @@
       <item>
         <title>CS3STHLM Newsletter December</title>
         <description>&lt;p&gt;&lt;img src=&quot;//assets/cs3-holiday.png&quot; alt=&quot;CS3STHLM Holiday&quot; class=&quot;full-width-image&quot; /&gt;&lt;/p&gt;
+=======
+    <description>CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 23 Jun 2019 20:45:26 +0000</pubDate>
+    <lastBuildDate>Sun, 23 Jun 2019 20:45:26 +0000</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>CS3STHLM Newsletter February</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/cs3sthlm-logo-heart.png&quot; alt=&quot;CS3STHLM Holiday&quot; class=&quot;post-image-full-width col-2-8&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;2017 was indeed a remarkable year, and some of the cyber security related things that happened will surely be remembered. Among them was the Wannacry malware hospitals, industrial companies and other important infrastructure. Things that also hit the front pages were outbreak that blindly struck against the analysis of Industroyer/CRASHOVERRIDE (ICS malware attacking Ukraine grid operator) and recently the TRITON/TRISIS/Hatman (attack tool against safety system). In Sweden, IT security incidents led to the resignation of two ministers from the government, and a journalists use of Shodan led to that one of Swedens largest news room had a series of reports on what is Internet accessible, when they found heating/hydropower/windpower/elevators and more, sitting on the Internet for anyone to access.&lt;/p&gt;
+&lt;p&gt;The first newsletter of the new year - and it is a short one!&lt;/p&gt;
 
-&lt;p&gt;The CS3STHLM 2017 summit (previously known as 4SICS) had several presentations related to all these issues. As a holiday gift for you, we have now published a number of presentations on our YouTube channel: &lt;a href=&quot;https://www.youtube.com/channel/UCkD15o_9eJxUc9eeHtWSQ6Q&quot;&gt;CS3STHLM at YouTube&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The CFP for CS3STHLM 2019 is now open. Please give us your presentations/topics for trainings or workshops before March 29. Also, if you have any suggestions for who you would like to see at the CS3STHLM 2019 summit - send us a mail to cfp@cs3sthlm.se&lt;/li&gt;
+  &lt;li&gt;You can buy tickets with Early Bird 20% discount until March 31. The ticket can later be combined with a ticket for training/workshop.&lt;/li&gt;
+  &lt;li&gt;More material from CS3STHLM 2018 is now published on our &lt;a href=&quot;https://www.youtube.com/channel/UCkD15o_9eJxUc9eeHtWSQ6Q&quot;&gt;YouTube channel&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Next year we will be back for the fifth time and the dates are October 22nd-25th. We are already on the lookout for summit content, so do let us know what you think we should present in order to make next years workshops and conference as useful and rewarding as possible.&lt;/p&gt;
-
-&lt;p&gt;Another holiday gift is that we already have opened the ticket sale for 2018 with a special Earliest Bird discount of 30 % on the two-day conference ticket. Link: &lt;a href=&quot;https://www.cs3sthlm.se/&quot;&gt;www.cs3sthlm.se&lt;/a&gt; and the discounted ticket is available until January 12th.&lt;/p&gt;
-
-&lt;p&gt;A very happy holiday season - from all of us, to all of you! 
-The CS3STHLM crew&lt;/p&gt;
+&lt;p&gt;Cordial greetings from the CS3STHLM crew!&lt;/p&gt;
 </description>
+        <pubDate>Fri, 15 Feb 2019 04:00:00 +0000</pubDate>
+        <link>/news/2019/02/15/cs3sthlm-newsletter-february.html</link>
+        <guid isPermaLink="true">/news/2019/02/15/cs3sthlm-newsletter-february.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>CS3STHLM Newsletter December</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/cs3-holiday.png&quot; alt=&quot;CS3STHLM Holiday&quot; class=&quot;post-image-full-width col-3-8&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The CS3STHLM 2018 summit had several Top speaker presentations from from different angles of Cybersecurity, SCADA and Industrial Control Systems. As a holiday gift for you, we are now starting to publish presentations on our YouTube channel:&lt;/p&gt;
+>>>>>>> 2019
+
+&lt;p&gt;&lt;a href=&quot;https://cs3sthlm.se/youtube&quot;&gt;cs3sthlm.se/youtube&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Next year we will be back for the sixth edition of CS3STHLM and the dates are October 21st-24th – &lt;strong&gt;mark your calendars!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;CS3STHLM 2019 Trainings will be Monday – Tuesday 21-22&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;CS3STHLM 2019 Expo day Tuesday October 22&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;CS3STHLM 2019 Summit starts Wednesday Oct 23 and ends Thursday October 24.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Another holiday gift is that we already have opened the ticket sale for 2019 with a special &lt;strong&gt;Earliest Bird&lt;/strong&gt; discount of 30 % on the two-day conference ticket. Link: &lt;a href=&quot;https://tickets.cs3sthlm.se/&quot;&gt;tickets.cs3sthlm.se&lt;/a&gt; and the discounted ticket is available until January 31st. You can add training sessions to this ’summit only’ ticket at a later point.&lt;/p&gt;
+
+&lt;p&gt;A very happy holiday season - from all of us, to all of you!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;The CS3STHLM crew&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Per request we have also added a number of vouchers, each valid for SEK 5.000kr, that later can be used for any CS3STHLM 2019 related cost like training, Expo or summit. If you still have budget to spend, that is!&lt;/p&gt;
+</description>
+<<<<<<< HEAD
         <pubDate>Wed, 20 Dec 2017 05:00:00 +0100</pubDate>
         <link>//news/2017/12/20/cs3sthlm-newsletter-december.html</link>
         <guid isPermaLink="true">//news/2017/12/20/cs3sthlm-newsletter-december.html</guid>
+=======
+        <pubDate>Wed, 19 Dec 2018 04:00:00 +0000</pubDate>
+        <link>/news/2018/12/19/cs3sthlm-newsletter-december.html</link>
+        <guid isPermaLink="true">/news/2018/12/19/cs3sthlm-newsletter-december.html</guid>
+>>>>>>> 2019
         
         
         <category>news</category>
@@ -34,114 +91,29 @@ The CS3STHLM crew&lt;/p&gt;
       </item>
     
       <item>
-        <title>CS3STHLM Presents ICS- and IoT Lab together with Norwegian Energy CERT</title>
-        <description>&lt;p&gt;In the light of growing vulnerabilities, this year’s top summit on Cyber Security in Industrial Control Systems and Critical Infrastructure will give delegates possibilities to partake in real-time simulations and challenges in an updated and bigger ICS lab. The lab is hosted by ROMAB, Norwegian Energy CERT and equipment provided by the Norwegian National Security Authority, NSM. The summit takes place in Stockholm October 24-26.&lt;/p&gt;
+        <title>CS3STHLM Summary of 2018 Event</title>
+        <description>&lt;h3 id=&quot;appreciated-expansion-of-acclaimed-cyber-security-conference&quot;&gt;APPRECIATED EXPANSION OF ACCLAIMED CYBER SECURITY CONFERENCE&lt;/h3&gt;
 
-&lt;p&gt;This year the lab is declared to be bigger, better and more interesting than ever before with added ICS and ICS communication equipment to the lab. New equipment has resulted in a simulation of communication in industrial control systems with some ICS specific protocols including OPC communication being in progress. It is also extended with a part that is for IoT security. The Internet of things, (IoT), is the network of physical devices, vehicles, and other items embedded with electronics, software, sensors, actuators, and network connectivity which enable these objects to collect and exchange data.&lt;/p&gt;
+&lt;p&gt;This years edition of CS3STHLM presented an Expo Day as well as an extended interaction between participants and panelists. 10 students from Norway and Sweden were invited to take part of a challenge which resulted in two students from Norway and Sweden winning a reward.&lt;/p&gt;
 
-&lt;p&gt;Margrete Raaum from Norwegian Energy CERT:&lt;/p&gt;
+&lt;p&gt;Spot The Honey Pot was a challenge initiated by Mikael Vingaard (DK) for participants to find Honey Pots within the ICS networks, won by Matan Dobrushin from Otorio.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;-”Nothing gives as valuable cyber security learning as real hands-on work. Teaming up with ROMAB to create a dynamic and realistic learning environment is exciting, and we hope this will benefit ICS security engineers all over Scandinavia and beyond”&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Key Note Speaker on Thursday, Patrick Miller (US), praised the summit for not just high quality content, but also great production, great atmosphere and great venue.&lt;/p&gt;
 
-&lt;p&gt;This year there is a much larger team involved in setting up, running the lab, or have special tasks involving the lab during the conference. The team members include Lars-Erik Smevold of KraftCERT (NO) who will be in charge of the lab, Nicklas Keijser (SE), who is an expert on SCADA/ICS development, Robert Malmgren (SE) of ROMAB, Erik Hjelmvik (SE) of NETRESEC and Mikael Vingaard (DK).&lt;/p&gt;
+&lt;p&gt;The founders of CS3STHLM, Robert Malmgren and Erik Johansson, thanked the 200 some participants, speakers, panelists and crew and rounded up the 2018 summit with a poll for Speaker of The Year, and this years winners are Erwin Kooi and Rick van Hees with their presentation The good, the bad and the segmented.&lt;/p&gt;
 
-&lt;p&gt;Robert Malmgren, founder of CS3STHLM and owner of ROMAB elaborates:&lt;/p&gt;
+&lt;p&gt;CS3STLHM 2019 will take place at Nalen in Stockholm October 21-24&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;-”We are honored to have the Norwegian energy sector CERT KraftCERT, as cooperators to ROMAB in setting up this year hosting the ICS and IoT security lab! This is a truly great partnership over the border with our Scandinavian friends in an effort to build competence and relationships for all that strive to secure the society and its critical infrastructure by starting with its fundamentals - the very systems that run our basic functions, like the electrical grid. Thank you to the Norwegian National Security Authority (NSM)  to lending out equipment to the lab”&lt;/p&gt;
-&lt;/blockquote&gt;
 </description>
+<<<<<<< HEAD
         <pubDate>Wed, 04 Oct 2017 06:00:00 +0200</pubDate>
         <link>//press/2017/10/04/cs3sthlm-presents-ics-and-iot-lab-together-with-norwegian-energy-cert.html</link>
         <guid isPermaLink="true">//press/2017/10/04/cs3sthlm-presents-ics-and-iot-lab-together-with-norwegian-energy-cert.html</guid>
-        
-        
-        <category>press</category>
-        
-      </item>
-    
-      <item>
-        <title>Advenica announces new collaboration with CS3STHLM</title>
-        <description>&lt;p&gt;The 4th edition of the top international summit on SCADA/ICS and critical infrastructure includes a seminar called ’Effective threat mitigation strategies’ hosted by Advenica. The company is providing new ways in cyber security, protecting critical infrastructures with innovative solutions.&lt;/p&gt;
-
-&lt;p&gt;One of the founders of CS3STHLM, Robert Malmgren, expresses excitement over the collaboration;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;” This fits perfectly with our profile and we are looking forward to learn about Advenica’s new security solutions.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Advenica elaborates&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;”Last years have presented an increasing number of bumps in the road for cyber security defenders. The vast number of different attack vectors and the explosion in number of malware variants has made yesterday’s cyber defense strategies obsolete. The goal of cyber security is to ensure robust operation of the defended system – not to find as many pieces of malware as possible. Yesterday’s strategy is efficient at finding malware – but fail in ensuring robust operation”.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;CS3STHLM is an international summit that focus entirely on cyber security protection of SCADA/ICS and critical infrastructure. CS3STHLM attracts about 250-300 people from around the world to meet, network and gain knowledge. CS3STHLM takes place October 23-26 at the venue Nalen in central Stockholm.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 14 Sep 2017 06:00:00 +0200</pubDate>
-        <link>//press/2017/09/14/advenica-announces-new-collaboration-with-cs3sthlm.html</link>
-        <guid isPermaLink="true">//press/2017/09/14/advenica-announces-new-collaboration-with-cs3sthlm.html</guid>
-        
-        
-        <category>press</category>
-        
-      </item>
-    
-      <item>
-        <title>CS3STHLM Newsletter September</title>
-        <description>&lt;p&gt;The CS3STHLM summit is just a bit over a month away. Today we have speakers from many corners of the earth, and we have already attendees from most continents!  &lt;/p&gt;
-
-&lt;p&gt;We will be at the beutiful venue Nalen in central Stockholm again.  &lt;/p&gt;
-
-&lt;h4 id=&quot;speakers-and-presentations&quot;&gt;Speakers and presentations &lt;/h4&gt;
-&lt;p&gt;We will have presentations on various topics, including:  &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;how security impact safety&lt;/li&gt;
-  &lt;li&gt;how to sucessfully roll out cyber security policies at multinational corporations  &lt;/li&gt;
-  &lt;li&gt;Security (or the lack thereof) in IoT  &lt;/li&gt;
-  &lt;li&gt;First hand accounts of the ongoing Ukraine cyber attacks  &lt;/li&gt;
-  &lt;li&gt;New, secure, protocols for SCADA/ICS  &lt;/li&gt;
-  &lt;li&gt;Lessons learned from handling an enourmous APT at a critical infrastructure provider&lt;/li&gt;
-  &lt;li&gt;Learn about tricks and defense in Social Engineering  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;As always we will have a mix of attack and defence stances, between technology and policy level, between theory and real-dirt-under-your-nails practise. We will continue the tradition from 4SICS to use multiple stages, and presentations will be done in different formats – a main stage, a TV studio setup for more intimate atmosphere and dialogues, and an impromptu stage in GeekLounge for improvised presentations (lightning talks, work in progress presentations, etc).  &lt;/p&gt;
-
-&lt;p&gt;View speaker info here - &lt;a href=&quot;https://cs3sthlm.se/program/speakers/&quot;&gt;/speakers&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;View info on presentations here - &lt;a href=&quot;https://cs3sthlm.se/program/presentations/&quot;&gt;/presentations&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;workshops&quot;&gt;Workshops &lt;/h4&gt;
-
-&lt;p&gt;We are fortunate to have three excellent pre-conference trainings/tutorials:  &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://cs3sthlm.se/program/workshops/erik-hjelmvik/&quot;&gt;Network Forensics (2 day) &lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://cs3sthlm.se/program/workshops/mikael-vingaard/&quot;&gt;Practical SCADA/ICS Honeypots (1 day) &lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://cs3sthlm.se/program/workshops/michael-theuerzeit/&quot;&gt;Cyber Security for Industrial Automation and Control Systems: An introduction of the IEC 62443 
-standard (1 day) &lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Tickets for all different workshops are available now. Please remember that one workshop is 2 day and the others are 1 day. If you select the 2 day workshop, make sure that you arrive and can start monday morning!  &lt;/p&gt;
-
-&lt;h4 id=&quot;security-lab-ics-and-iot&quot;&gt;Security lab: ICS and IoT &lt;/h4&gt;
-
-&lt;p&gt;This year we will have a larger and more professional ICS security lab in place. Besides the number of equipment available, we will also help interested attendees to better play with it at their level of knowledge. Beginners will find help to do basic probeing and pokeing at exotic devices. Intermediates will be able to do more advanced experiments with bugs. Experts will be able to participate in winning prices if they submit newly found vulnerabilities to the CERT representatives at the conference.&lt;/p&gt;
-
-&lt;p&gt;This year we will also introduce an IoT security lab where people can play around with SOHO equipment, lightbulbs with IP addresses, embedded devices, etc.  &lt;/p&gt;
-
-&lt;h4 id=&quot;practical-things&quot;&gt;Practical things &lt;/h4&gt;
-
-&lt;p&gt;We still have rooms left in the block with discounts that we negotiated with the hotel closest to the venue. We want to inform you that rooms are going quickly and the cut-of-date for when the discount is no longer available is less than two weeks away. Dont miss out on having this!  &lt;/p&gt;
-
-&lt;p&gt;Info on venue, dates, airports, subways, hotels, etc can be found at the info web here:  &lt;a href=&quot;https://cs3sthlm.se/practical-details/&quot;&gt;/practical-details&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;historic-presentations&quot;&gt;Historic presentations &lt;/h4&gt;
-
-&lt;p&gt;To get a taste of what the summit is, you can find old presentations from 2015 and 2016 on &lt;a href=&quot;https://www.youtube.com/channel/UCkD15o_9eJxUc9eeHtWSQ6Q&quot;&gt;youtube/cs3sthlm&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 13 Sep 2017 06:00:00 +0200</pubDate>
-        <link>//news/2017/09/13/cs3sthlm-newsletter-september.html</link>
-        <guid isPermaLink="true">//news/2017/09/13/cs3sthlm-newsletter-september.html</guid>
+=======
+        <pubDate>Thu, 25 Oct 2018 04:00:00 +0000</pubDate>
+        <link>/news/2018/10/25/cs3sthlm-summary-of-2018-event.html</link>
+        <guid isPermaLink="true">/news/2018/10/25/cs3sthlm-summary-of-2018-event.html</guid>
+>>>>>>> 2019
         
         
         <category>news</category>
@@ -149,175 +121,491 @@ standard (1 day) &lt;/a&gt;&lt;/li&gt;
       </item>
     
       <item>
-        <title>CS3STHLM Newsletter June</title>
-        <description>&lt;p&gt;Outline of this short newsletter&lt;/p&gt;
+        <title>CS3STHLM Record Attendance</title>
+        <description>&lt;h3 id=&quot;fifth-edition-of-acclaimed-cyber-security-summit-sees-record-attendance&quot;&gt;FIFTH EDITION OF ACCLAIMED CYBER SECURITY SUMMIT SEES RECORD ATTENDANCE&lt;/h3&gt;
+
+&lt;p&gt;After the first conference day founders Robert Malmgren and Erik Johansson are pleased to state that the years conference is the most successful so far, both in attendance and format. The new expo day added a welcome meeting arena for businesses, legislators and other stakeholders.&lt;/p&gt;
+
+&lt;p&gt;The second day of the summit will open with Key Note Patrick Miller (US) and his presentation&lt;/p&gt;
+
+&lt;h4 id=&quot;industrial-technology-trajectory-running-with-scissors&quot;&gt;Industrial Technology Trajectory: Running With Scissors&lt;/h4&gt;
+
+&lt;p&gt;Innovative and disruptive technologies are enhancing and invading our traditional industrial business model. Future infrastructure organizations will need more data to operate efficiently and succeed in the brave new interconnected world. The diversity of new technologies and data will fuel more diversity in business opportunity. Everyone expects more OT, more IOT, and more IT - and all of it is supposed to be highly reliable and secure. These factors (and more) lead to a landscape shift for the industrial cybersecurity risk profile. In this session, hear ways to recognize the problems and gain some clarity on possible solutions through historic lessons, made up words, and practical front-line experience.a&lt;/p&gt;
+</description>
+<<<<<<< HEAD
+        <pubDate>Thu, 14 Sep 2017 06:00:00 +0200</pubDate>
+        <link>//press/2017/09/14/advenica-announces-new-collaboration-with-cs3sthlm.html</link>
+        <guid isPermaLink="true">//press/2017/09/14/advenica-announces-new-collaboration-with-cs3sthlm.html</guid>
+=======
+        <pubDate>Wed, 24 Oct 2018 04:00:00 +0000</pubDate>
+        <link>/news/2018/10/24/cs3sthlm-record-attendence.html</link>
+        <guid isPermaLink="true">/news/2018/10/24/cs3sthlm-record-attendence.html</guid>
+>>>>>>> 2019
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>CS3STHLM App and Honey Pot Competition</title>
+        <description>&lt;h3 id=&quot;cs3sthlm-launches-conference-app&quot;&gt;CS3STHLM LAUNCHES CONFERENCE APP&lt;/h3&gt;
+
+&lt;p&gt;When the conference opens for the 5th consecutive year participants can download an app with agenda, presentations of speakers, and the possibility of partaking in polls, give direct response to seminars, lectures and questions asked from stage. This also means a channel for newsflashes, changes in the program and messages from conference management. You find the app in usual app stores.&lt;/p&gt;
+
+&lt;h3 id=&quot;honey-pot-chase-competition&quot;&gt;HONEY POT CHASE COMPETITION&lt;/h3&gt;
+
+&lt;p&gt;Mikael Vingaard, (DK), invites all participants to a competition to find Honey Pots: Can you spot the honey-pot(s) @ the ICS Lab? - challenge yourself and find the honey-pot(s) hidden - submit your findings and win a prize!&lt;/p&gt;
+
+&lt;h4 id=&quot;spot-the-honey-pot---the-rules-of-engagement&quot;&gt;“Spot the Honey-pot” - The rules of engagement;&lt;/h4&gt;
+
+&lt;p&gt;Competition starts 24.oct Wednesday at 10.00 am and ends Thursday at 14.30.&lt;/p&gt;
+
+&lt;p&gt;The winner will be announced during the closing session, and need to be in the audience during the closing session.
+Use whatever tools (e.g. telnet, nmap, PLCscan etc) to find the honeypot(s), we have placed @ the ICS Lab industrial networks!
+Be a good ICS neighbor, don’t try to change the configuration on anything, DDOS’ing or otherwise break stuff on purpose - or in any way make the competition harder for your fellow contesters.&lt;/p&gt;
+
+&lt;p&gt;You may work together as a team, but only one prize is rewarded.&lt;/p&gt;
+
+&lt;p&gt;To keep things interesting, we will change the Honeypot environment, during the whole CS3sthlm conference.
+There might be many honey-pots hidden - and not only on one single ICS networks - so do remember to look at ICS_Lab network 1 to 4.
+In case, that several contesters gets the same (correct) reply - there will be a drawing, to find the winner.&lt;/p&gt;
+
+&lt;p&gt;To participate, do send an email with the following to stockholm@defenica.com before Thursday 14.30 :&lt;/p&gt;
+
+&lt;p&gt;a) Your name&lt;/p&gt;
+
+&lt;p&gt;b) time of your research - aka. the date+ Hour as we will dynamically change the honeypot(s) during CS3.&lt;/p&gt;
+
+&lt;p&gt;C) IP’s of the honeypots you have spotted - do remember to write on what ICS_LAB network it was found, e.g. IP x.x.x.x on ICS network 4 + IP z.y.y.y on ICS network 2&lt;/p&gt;
+
+&lt;p&gt;GPDR stuff; the information collected during “Spot the Honeypot” will only be used for this competition.&lt;/p&gt;
+
+&lt;p&gt;May the best honey-pot spotter win :-)&lt;/p&gt;
+
+</description>
+<<<<<<< HEAD
+        <pubDate>Wed, 13 Sep 2017 06:00:00 +0200</pubDate>
+        <link>//news/2017/09/13/cs3sthlm-newsletter-september.html</link>
+        <guid isPermaLink="true">//news/2017/09/13/cs3sthlm-newsletter-september.html</guid>
+=======
+        <pubDate>Mon, 22 Oct 2018 04:00:00 +0000</pubDate>
+        <link>/news/2018/10/22/cs3sthlm-app-and-honey-pot-competition.html</link>
+        <guid isPermaLink="true">/news/2018/10/22/cs3sthlm-app-and-honey-pot-competition.html</guid>
+>>>>>>> 2019
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>CS3STHLM fifth conference on industrial cyber security</title>
+        <description>&lt;p&gt;CS3STHLM FIFTH CONFERENCE ON INDUSTRIAL CYBER SECURITY ADDRESSING THREATS AND POSSIBILITIES IN A GROWING DIGITAL ENVIRONMENT&lt;/p&gt;
+
+&lt;p&gt;With tickets almost sold out, arranging Omnisiens are looking forward to a successful meeting for leading cyber security experts from around the world. CS3STHLM takes place in Nalen, Stockholm, October 22-25.&lt;/p&gt;
+
+&lt;p&gt;Regrettably first day keynote speaker, Marty Edwards (US), has had to cancel due to personal reasons.&lt;/p&gt;
+
+&lt;p&gt;Organizer Robert Malmgren from Omnisiens:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;”- It’s unfortunate that Marty Edwards had to cancel at such short notice, but we feel confident that our replacement will complement our diverse agenda.” New keynote speaker for the first day will be Mark Bristow (US).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The fifth edition of the acclaimed conference includes a formidable list of renowned speakers, and in addition to seminars and workshops there will be an complementary expo day on Tuesday the 23rd for companies and organisations within this field. The Expo day is free of charge but entrance require registration.&lt;/p&gt;
+
+&lt;p&gt;Erik Johansson from Omnisiens:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;”- The Expo is not only a great opportunity to network and discuss the market field for interested parties, but will also consist of exciting demonstrations and presentation from researchers and vendors.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Highlights from the program:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;CFP work&lt;/li&gt;
-  &lt;li&gt;Announced speakers&lt;/li&gt;
-  &lt;li&gt;Technical Trainings&lt;/li&gt;
-  &lt;li&gt;Social events&lt;/li&gt;
-  &lt;li&gt;Early Bird tickets&lt;/li&gt;
-  &lt;li&gt;Venue&lt;/li&gt;
-  &lt;li&gt;Conference Hotel&lt;/li&gt;
+  &lt;li&gt;Recent APT Campaign targeting Energy Sector Assets, John Homer (US)&lt;/li&gt;
+  &lt;li&gt;Hunting and Responding in ICS, Ben Miller &amp;amp; Mark Stacey, (US)&lt;/li&gt;
+  &lt;li&gt;Unblockable Chains - Is Blockchain the ultimate malicious infrastructure?, Omer Zohar (IL)&lt;/li&gt;
+  &lt;li&gt;ICS Incident Response: Lessons and mitigations from the field, Mark Bristow (US)&lt;/li&gt;
+  &lt;li&gt;Attacking Cars Revisited: On the Road Towards a More Resilient Connected Vehicle Infrastructure, Kai Thomsen (DE)&lt;/li&gt;
+  &lt;li&gt;Supply Chain Cyber Security throughout the ICS Lifecycle, Erik Zouave (S)&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+        <pubDate>Thu, 18 Oct 2018 04:00:00 +0000</pubDate>
+        <link>/press/2018/10/18/cs3sthlm-fifth-conference.html</link>
+        <guid isPermaLink="true">/press/2018/10/18/cs3sthlm-fifth-conference.html</guid>
+        
+        
+        <category>press</category>
+        
+      </item>
+    
+      <item>
+        <title>Ola Hermansson - Technical Operations Manager</title>
+        <description>&lt;p&gt;&lt;em&gt;This is a blog post with Ola Hermansson, one of the guys in our great crew.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;We want to share some info about the recent development.&lt;/p&gt;
+&lt;h1 class=&quot;blog-title&quot; itemprop=&quot;name headline&quot;&gt;Ola Hermansson - Technical Operations Manager&lt;/h1&gt;
 
-&lt;p&gt;We will carry on the tradition from when we where called 4SICS - to be a leading international conference on SCADA, ICS and critical infrastructure cyber security! We will have multiple stages with the best international speakers and trainers, having excellent social activities and provide hard-to-earn knowledge, no matter if it is deeply technical matters, sucessful solutions or policy briefs.&lt;/p&gt;
+&lt;h4 id=&quot;what-is-your-name-where-do-you-work-and-what-is-your-profession&quot;&gt;What is your name, where do you work and what is your profession?&lt;/h4&gt;
+&lt;p&gt;My name is Ola Hermansson. I’m an audio engineer by trade, and work with stage craft and engineering on TV-productions, concerts and corporate events. Where I work? Everywhere…&lt;/p&gt;
 
-&lt;p&gt;In the program comittee, we are working with the submissions that we have received as the CFP closed. We have alot more submissions than available speaker slots! And still not all slots are for submitted proposals, but we have reserved some slots for invited speakers as well. Thus it is really hard to make the selection this year.&lt;/p&gt;
+&lt;h4 id=&quot;for-how-many-years-have-you-been-involved-in-this-conference&quot;&gt;For how many years have you been involved in this conference?&lt;/h4&gt;
+&lt;p&gt;Hmmm, “As time goes by” (like Sam sung in Casablanca). This years conference is my fourth i believe. My first CS3 (then 4SICS)-experience was in 2015.&lt;/p&gt;
 
-&lt;h3 id=&quot;announced-speakers&quot;&gt;Announced speakers&lt;/h3&gt;
+&lt;h4 id=&quot;how-did-you-get-involved-in-this-both-with-your-profession-and-with-this-event&quot;&gt;How did you get involved in this, both with your profession and with this event?&lt;/h4&gt;
+&lt;p&gt;My profession is a life-long love story (the cliché “I started out as a child” comes in handy…). Regarding me getting involved with the good people at CS3, I think it was my colleague Anders Hagström that was given the opportunity to work with the event, and asked me to join the team.&lt;/p&gt;
 
-&lt;p&gt;We have announced a couple of speakers already, especially since they are related to investigations into the recently unveiled industroyer/CRASHOVERRIDE malware:&lt;/p&gt;
+&lt;h4 id=&quot;what-is-your-role-during-the-conference&quot;&gt;What is your role during the conference?&lt;/h4&gt;
+&lt;p&gt;I manage and run the technical operations when we’re “live” (so to speak). My main target is to keep the show running smooth (out of a technical perspective) and keeping the keynote speakers happy, giving them the best possible platform to perform on stage.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Joe Slowik of Dragos Inc (US), who will speak on “Strategic Network Defense in ICS Environments”&lt;/li&gt;
-  &lt;li&gt;The ESET team (SK) who have a presentation on “Industroyer: biggest threat to industrial control systems since Stuxnet”&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h4 id=&quot;you-normaly-travel-the-world-with-rock-stars-and-tv-celebrities-so-this-must-be-the-complete-contrast-or&quot;&gt;You normaly travel the world with rock stars and TV celebrities, so this must be the complete contrast, or?&lt;/h4&gt;
+&lt;p&gt;I would like to think quite the opposite. The tools we use during CS3 is much the same as we use in a TV- or concert-production. Except the rock stars are PhD’s and the TV-cameras are fewer.&lt;/p&gt;
 
-&lt;p&gt;We will have a special panel on the Ukraine 2016 event with detailed discussion, where both the ESET and Dragos specialists will attend. We plan to add more experts to this discussion.&lt;/p&gt;
+&lt;h4 id=&quot;is-it-a-marathon-race-a-100-meter-race-or-something-else-to-do-this-kind-of-job&quot;&gt;Is it a marathon race, a 100 meter race, or something else to do this kind of job?&lt;/h4&gt;
+&lt;p&gt;That kind of depends of your position in a production. In this particular case, I come into play when much of the “marathon-like” work is done. For me it’s more like a 100 meter race, for one intense week. Of course there’s a lot of pre production on the technical side of things as well, but the intense part of the work takes place the last days just before a production (when we set things up) and during the show. One cool thing about working live production, is that you really only get one chance to get it right.&lt;/p&gt;
 
-&lt;p&gt;More speakers will be announced in the weeks to come, including keynote speakers!&lt;/p&gt;
+&lt;h4 id=&quot;what-is-the-biggest-challenges-that-you-see&quot;&gt;What is the biggest challenges that you see?&lt;/h4&gt;
+&lt;p&gt;Beating people’s expectations year after year, that’s a big challenge.&lt;/p&gt;
 
-&lt;h3 id=&quot;technical-trainings&quot;&gt;Technical trainings&lt;/h3&gt;
+&lt;h4 id=&quot;what-is-your-best-memories-from-the-previous-conferences&quot;&gt;What is your best memories from the previous conferences?&lt;/h4&gt;
+&lt;p&gt;Hmmm, Lot’s off goodies - but Jenny Radcliffe’s “Tales of a people Hacker” in 2017 was really intriguing. Also, for a techie like me, the GeekLounge in the basement is a really cool place as well (even though the technical level of the stuff going down there is kind of above my pay-grade :)&lt;/p&gt;
 
-&lt;p&gt;We will have a number of technical trainings related to network forenics, honeypots, hacking, etc.&lt;/p&gt;
+&lt;h4 id=&quot;what-do-you-look-forward-to-with-this-years-event&quot;&gt;What do you look forward to with this years event?&lt;/h4&gt;
+&lt;p&gt;Working at Nalen (the Venue) is always super cosy, I really like that place. This year will also feature an expo (taking place the day before the actual conference starts) - this means some new challenges for us production-wise, that I’m kind of looking forward to dealing with. It’s gonna be exciting.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Erik Hjelmvik of Netresec (SE) will have a 2 day Network Forensic class&lt;/li&gt;
-  &lt;li&gt;Mikael Vingaard (DK) will have a 1 day Honeypot class&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Thus, with the addition of 2 day training classes, the pre-conference activity will start already on the 23rd of october!&lt;/p&gt;
-
-&lt;h4 id=&quot;social-events&quot;&gt;Social Events&lt;/h4&gt;
-
-&lt;p&gt;We will have a welcome reception on the evening of the 24th and a conference dinner on the 25th.&lt;/p&gt;
-
-&lt;h3 id=&quot;early-bird&quot;&gt;Early Bird&lt;/h3&gt;
-
-&lt;p&gt;A reminder - the early bird prices are until 30 of June! You will find the ticket site here: &lt;a href=&quot;&quot;&gt;https://tickets.4sics.se/sales/&lt;/a&gt; or from the main CS3STHLM web page.&lt;/p&gt;
-
-&lt;h3 id=&quot;venue&quot;&gt;Venue&lt;/h3&gt;
-
-&lt;p&gt;As per the last 2 years, we will be in wonderful Nalen, in the heart of Stockholm. You will find information and directions at &lt;a href=&quot;https://cs3sthlm.se/practical-details/&quot;&gt;/practical-details&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;conference-hotel&quot;&gt;Conference hotel&lt;/h3&gt;
-
-&lt;p&gt;We have a special arrangement with Elite Palace Hotel located just ~200 meters away from the venue. Use this link to get our special discount when booking &lt;a href=&quot;https://www.elite.se/en/conference-reservations/stockholm/e1a64817-7910-4517-bff8-d94ea2e28ed5/&quot;&gt;Elite Conference Reservation&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;–
-Until the next news letter,&lt;/p&gt;
-
-&lt;p&gt;Best wishes from the whole CS3STHLM team&lt;/p&gt;
-
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src=&quot;//assets/news/cyber.jpg&quot; alt=&quot;Cyber&quot; class=&quot;full-width-image&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 13 Jun 2017 06:00:00 +0200</pubDate>
         <link>//news/2017/06/13/cs3sthlm-newsletter-june.html</link>
         <guid isPermaLink="true">//news/2017/06/13/cs3sthlm-newsletter-june.html</guid>
+=======
+&lt;h4 id=&quot;any-last-words-of-advice-to-our-readers-and-the-attendees&quot;&gt;Any last words of advice to our readers and the attendees?&lt;/h4&gt;
+&lt;p&gt;I don’t know. Buy a ticket. Show up. Stay geek?&lt;/p&gt;
+</description>
+        <pubDate>Mon, 15 Oct 2018 04:00:00 +0000</pubDate>
+        <link>/blog/ola-hermansson/</link>
+        <guid isPermaLink="true">/blog/ola-hermansson/</guid>
+>>>>>>> 2019
         
         
-        <category>news</category>
+        <category>blog</category>
         
       </item>
     
       <item>
-        <title>Malware that can knock out power grids discovered</title>
-        <description>&lt;p&gt;Researchers from Slovakian Anti Virus company ESET have publicized information on malware especially targeted for automation in power grids. The malware is tied to an attack in Ukraine 2016. ESET have worked alongside researchers from another company, Dragos, to analyze the code. Investigators from ESET and Dragos will come to Cyber Security Summit CS3STHLM in Stockholm in October to present and discuss their findings.&lt;/p&gt;
+        <title>Anton Shipulin - Kaspersky Lab</title>
+        <description>&lt;p&gt;&lt;em&gt;This is a blog post with Anton Shipulin, a global presales manager at Kaspersky Lab.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Robert Lipovski, one of the researchers at ESET, states in Washington Post:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;“The potential impact of malware like this is huge. It’s not restricted to Ukraine. The industrial hardware that the malware communicates with is used in critical infrastructure worldwide.”&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;h1 class=&quot;blog-title&quot; itemprop=&quot;name headline&quot;&gt;Anton Shipulin - Kaspersky Lab&lt;/h1&gt;
 
-&lt;p&gt;This malware is called the most dangerous code since Stuxnet, malware discovered in 2010 aimed specifically towards Iran’s nuclear program.&lt;/p&gt;
+&lt;h4 id=&quot;what-is-your-name-where-do-you-work-and-what-is-your-profession&quot;&gt;What is your name, where do you work and what is your profession?&lt;/h4&gt;
 
-&lt;p&gt;Robert Malmgren, owner and co-founder of CS3STHLM:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;” The fact that this malware can be used and re-used in critical infrastructure everywhere makes it an enormous threat to non protected Industrial Control Systems.”&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;My name is Anton Shipulin I work for Kaspersky Lab at the headquarter, as a global presales manager in Kaspersky Industrial CyberSecurity (KICS) business development team. I am responsible for various things like promoting our technologies and expertise, market, technologies, and research intelligence, advising product development, building and improving presale processes and resources, heading Kaspersky ICS conference program committee, and many others.&lt;/p&gt;
 
-&lt;p&gt;CS3STHLM takes place at Nalen in Stockholm October 24-26.&lt;/p&gt;
+&lt;p&gt;Besides that, I am a co-founder of international Russian-speaking ICS Cyber Security community &lt;a href=&quot;https://www.ruscadasec.com/&quot;&gt;RUSCADASEC&lt;/a&gt; and Industrial Cybersecurity Center (CCI) coordinator for Russia. All of these is because I have been a big fan of industrial cyber security topic for about 10 years and keen to help people to increase industrial cybersecurity posture.&lt;/p&gt;
 
-&lt;p&gt;www.cs3sthlm.se&lt;/p&gt;
+&lt;h4 id=&quot;have-you-been-to-cs3sthlm-4sics-before-have-you-been-to-stockholm-before&quot;&gt;Have you been to CS3sthlm (4SICS) before? Have you been to Stockholm before?&lt;/h4&gt;
 
-&lt;p&gt;For more information regarding the malware, please contact&lt;/p&gt;
+&lt;p&gt;No! It is my first time at CS3sthlm and in Sweden! I am very excited to come this year as I’ve been following the conference for years and believe it is one of the best ICS security conferences, and doubly happy to be here with our Kaspersky ICS team as a sponsor to share our industrial cybersecurity expertise! Thank you for the long-standing quality!&lt;/p&gt;
 
-&lt;p&gt;Robert Malmgren&lt;/p&gt;
+&lt;h4 id=&quot;this-area-protection-of-critical-infrastructure-what-makes-it-so-interesting-do-you-think&quot;&gt;This area, protection of critical infrastructure, what makes it so interesting do you think?&lt;/h4&gt;
 
-&lt;p&gt;Phone: +46 708 33 03 78&lt;/p&gt;
+&lt;p&gt;What amazed me when I was studying cybersecurity at the university was how close had become a physical and cyber world. That pushing a button remotely you can negatively impact the physical process. Years have passed since then and we see that those worlds have become even closer, big cyber-physical incidents happened, lots of researchers are done every year all over the world proving that despite specific of ICS and processes, they can be hacked with sufficient resources. It scares&lt;/p&gt;
+
+&lt;h4 id=&quot;what-will-you-present-or-demo-in-the-ics-security-lab&quot;&gt;What will you present or demo in the ICS Security Lab?&lt;/h4&gt;
+
+&lt;p&gt;We will bring two demo modes to the lab: Gasoil discharge rail tank stand and Anomaly detection on the IoT stand, and our industrial cybersecurity researchers who want to look at and evaluate the security posture of the presented industrial equipment in the Lab and test possible cyber-physical attack scenarios.&lt;/p&gt;
+
+&lt;p&gt;Gasoil discharge rail tank stand shows several targeted attack scenarios that could happen to industrial infrastructure on an example of oil and gas industry. The model represents a rail tank discharge rack that is used for offloading of oil into storage tanks. The sample attack scenarios (including «Process STOP», «Buffer tank overflow» and «Impacting pump operation») demonstrate how hypothetical hacker can impact or sabotage the operation of the rail tank discharge process. At the stand (comprising of an industrial programmable logic controller, physical process representation and two industrial workstations protected by Kaspersky Industrial Cybersecurity) you can see sequential stages of cyberattack, possible outcome and counteracting reaction of protection mechanisms based on Kaspersky Industrial Cybersecurity.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/news/anton-shipulin/image-01.png&quot; alt=&quot;alt text&quot; /&gt;
+&lt;img src=&quot;/assets/news/anton-shipulin/image-02.png&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Anomaly detection on the IoT stand simulates attempted attacks on typical elements of IoT infrastructure, such as gateways and devices (e.g. an IP camera), which are connected to a local network. IoT devices such as various controllers, sensors, cameras, are widely used in industrial organizations to collect and analyze data about manufacturing processes and to automate procedures. On the stand, you can see how IoT devices (an IP camera in this case) can be easily manipulated by an intruder. The intruder steals video data from the camera by creating a second video stream that is then connected to a criminal’s notebook. IoT gateways can be vulnerable to attempts to run a malicious code on them and to illegitimately change the firmware. These scenarios can be stopped with the Kaspersky IoT Security solution. The solution consists of several components, including Machine Learning Anomaly Detection that reveals anomalies in devices behavior; Linux Application Control (LAC), that blocks the launch of suspicious code that are not in the secure “White List”. This is accomplished via a connection to Kaspersky Lab intelligence services through the Kaspersky Security Network - ensuring a fast response. A program called Secure Boot blocks the launch of illegitimate software; and another solution, Secure Update, prevents a device from being updated with illegitimate version of software.&lt;/p&gt;
+
+&lt;h4 id=&quot;will-there-be-any-new-products-or-services-that-you-are-rolling-out&quot;&gt;Will there be any new products or services that you are rolling out?&lt;/h4&gt;
+
+&lt;p&gt;On Gasoil discharge oil tank demo we show how our solution - Kaspersky Industrial Cybersecurity – reacts on the different ICS attacks. Basically, Kaspersky Industrial CyberSecurity is a portfolio of technologies and services designed to protect operational technology layers and elements of industrial enterprises – including SCADA servers, HMIs, engineering workstations, PLCs, network connections – without impacting on operational continuity and the consistency of industrial process. I would give a more detailed an overview of our approach to  Industrial Cybersecurity at the expo talk.&lt;/p&gt;
+
+&lt;h4 id=&quot;there-has-been-some-publication-about-the-kaspersky-secure-ics-operating-system-what-is-the-current-status-of-that&quot;&gt;There has been some publication about the Kaspersky secure ICS operating system. What is the current status of that?&lt;/h4&gt;
+
+&lt;p&gt;It is not only an operating system. Kaspersky Lab provides three closely related technologies: KasperskyOS, Kaspersky Security System for Linux and Kaspersky Secure Hypervisor. All these solutions have outstanding security capabilities due to dedicated security engine - Kaspersky Security System, capable to specify diverse security properties in a higher level way.&lt;/p&gt;
+
+&lt;p&gt;KasperskyOS has already been successfully used in network appliances and other specialized solutions, and the major features of upcoming release are hard real-time support and support of CODESYS PLC runtime from 3S company, thus making KasperskyOS an ideal platform for PLC, where security matters.&lt;/p&gt;
+
+&lt;p&gt;To harden existing Linux-based PLCs, there is a Kaspersky Security System for Linux - a product, based on the security engine and Linux containers technology. It allows to isolate components of different trust levels and enforce specified security properties. As an example of a solution based on this technology, there is an Embedded Security Shield from BE.Services, providing protected version of CODESYS runtime, which was separated into two parts (communication and core), and flexible and secure way to operate the PLC, constraining undesired behavior.
+As to Kaspersky Secure Hypervisor (KSH), it is a type 2 virtualization solution, which uses KasperskyOS as a host operating system and provides extended set of security services and guaranties. KSH enables seamless integration of COTS products, like SCADA, available at the market, with the security hardening mechanisms implemented in KasperskyOS. Practical use cases include access control for HW peripherals, additional independent authentication procedures, control and authorization of guest user and SW operations in accordance with security policies, defined for the solution as a whole, secure boot, update and audit available out of the box and many others. It should be specially noted, that KSH makes possible to harden the solution with a strong, state of the art cryptography implemented at the level of KasperskyOS, and it does not require any modifications of guest software at all. Along with the mentioned above KSH provides easy to use and transparent way to implement Trusted Execution Environment (TEE) that is also a high demand feature. Currently Kaspersky Lab has successful experience in combining the KSH technology both with other company products like KICS, and with third-party solutions like PcVue SCADA from ARC Informatique.
+Besides direct application to ICS solutions and products, KasperskyOS may be used to support ICS infrastructure in networking equipment - to secure communications, as well as Kaspersky Secure Hypervisor may be used for hardening of other ICS infrastructure components like DB servers.&lt;/p&gt;
+
+&lt;p&gt;The plans for the nearest future include extending the set of supported usage scenarios and further integration with Kaspersky Lab services and technologies, like Kaspersky Security Network (KSN), Kaspersky Security Center (KSC) and many others.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-is-the-current-state-of-ics-security-in-the-markets-where-kaspersky-is-operating-are-the-customers-well-aware-of-the-threats-do-they-have-good-protection-in-place&quot;&gt;What is the current state of ICS security in the markets where Kaspersky is operating? Are the customers well aware of the threats? Do they have good protection in place?&lt;/h4&gt;
+
+&lt;p&gt;Good question, to find an answer to that, besides all of our projects at our client’s facilities, we conduct global researches, surveying people, analyzing data from our endpoints and networks sensors. We publish those reports regularly. Readers can find the latest version here &lt;a href=&quot;https://ics.kaspersky.com/the-state-of-industrial-cybersecurity-2018/&quot;&gt;The State of Industrial Cybersecurity 2018&lt;/a&gt; and here &lt;a href=&quot;https://ics-cert.kaspersky.com/reports/2018/09/06/threat-landscape-for-industrial-automation-systems-h1-2018/&quot;&gt;Threat landscape for industrial automation systems: H1 2018&lt;/a&gt;. Some highlights from them are on the pictures below. Our practice with our clients mostly proves it&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/news/anton-shipulin/image-03.png&quot; alt=&quot;alt text&quot; /&gt;
+&lt;img src=&quot;/assets/news/anton-shipulin/image-04.png&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;will-the-attendees-be-able-to-test-test-drive-hack-or-play-with-any-of-the-devices-and-demos-that-you-will-have-on-display&quot;&gt;Will the attendees be able to test, test drive, hack or play with any of the devices and demos that you will have on display?&lt;/h4&gt;
+
+&lt;p&gt;Absolutely, our equipment described above will be open for exploring and researching during the conference in the Lab for the attendees, and our Kaspersky Industrial Cybersecurity security solutions will be connected to the lab network to analyse process traffic and attacks and demonstrate security capabilities.&lt;/p&gt;
+
+&lt;h4 id=&quot;kaspersky-have-launched-an-ics-cert-how-long-have-it-existed-what-are-the-objectives-with-that-and-is-it-working-on-any-interesting-projects&quot;&gt;Kaspersky have launched an ICS CERT. How long have it existed, what are the objectives with that, and is it working on any interesting projects?&lt;/h4&gt;
+
+&lt;p&gt;Kaspersky Lab ICS CERT is a research and awareness project launched by Kaspersky Lab at the end of 2016. The main objectives are to share KL expert knowledge on cyber threats affecting industrial organizations, to continuously identify major cybersecurity weaknesses and bottlenecks in ICS products and technologies and to coordinate community efforts to eliminate them. 
+Since the launch of the project, KL ICS CERT experts have found and reported more than 165 0-day Vulnerabilities in various ICS, IoT, Automotive vendors’ products, and technologies wide-spread in the industry, some affecting hundreds of products on the market. KL ICS CERT researchers keep their eye on cyberattack campaigns, targeting industrial organizations in various countries all over the globe, notifying subscribers of the threat discovered.  Security analysts are working with various international regulation bodies to bring Kaspersky Lab threat landscape knowledge and security expertise for the benefit of the new standards and recommendations being developed. KL ICS CERT experts provide awareness trainings for OT personnel and extensive deep dive expert-level exercises for IT security specialists as their way to share KL expertise and knowledge on how to make industrial enterprises more secure.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-do-you-see-as-the-biggest-challenges-in-the-ics-security-area&quot;&gt;What do you see as the biggest challenges in the ICS security area?&lt;/h4&gt;
+
+&lt;p&gt;There are lots of challenges we all know due to increasing connectivity everything to everything and amounts of data in the industrial systems, as result people have to process lots of information simultaneously. But people are not perfect at big (including security) data processing, they fail every time due to violations, mistakes, fatigue, losing vigilance. Therefore I see a lack of maturity and automation cybersecurity processes as the biggest problem in the ICS security. That is what we all should work on!&lt;/p&gt;
+
+&lt;h4 id=&quot;what-are-you-looking-forward-to-with-this-years-cs3sthlm&quot;&gt;What are you looking forward to with this years CS3sthlm?&lt;/h4&gt;
+
+&lt;p&gt;Showcase and share our expertise, meet and discuss with world class experts, learn new stuff and get new ideas, learn how to make great ICS security conference to use it to make our Kaspersky ICS security conference better!&lt;/p&gt;
+
+&lt;h4 id=&quot;what-would-be-you-advice-to-our-readers-and-attendees&quot;&gt;What would be you advice to our readers and attendees?&lt;/h4&gt;
+
+&lt;p&gt;Never stop learning, stay open-minded, strengthen the global ICS security community with your expertise! Keep [ or start ] attending the great CS4STHLM event, and do come to meet our Kaspersky Industrial CyberSecurity team all over the conference!&lt;/p&gt;
+
+&lt;p&gt;Follow us
+Kaspersky ICS Team: &lt;a href=&quot;https://twitter.com/KasperskyICS&quot;&gt;@KasperskyICS&lt;/a&gt;
+Anton Shipulin: &lt;a href=&quot;https://twitter.com/shipulin_anton&quot;&gt;@Shipulin_Anton&lt;/a&gt;&lt;/p&gt;
+
 </description>
+<<<<<<< HEAD
         <pubDate>Tue, 13 Jun 2017 06:00:00 +0200</pubDate>
         <link>//press/2017/06/13/malware-that-can-knock-out-power.html</link>
         <guid isPermaLink="true">//press/2017/06/13/malware-that-can-knock-out-power.html</guid>
+=======
+        <pubDate>Mon, 15 Oct 2018 04:00:00 +0000</pubDate>
+        <link>/blog/anton-shipulin/</link>
+        <guid isPermaLink="true">/blog/anton-shipulin/</guid>
+>>>>>>> 2019
         
         
-        <category>press</category>
+        <category>blog</category>
         
       </item>
     
       <item>
-        <title>CFP - DON'T MISS OUR DEADLINE</title>
-        <description>&lt;p&gt;To show how seriously we take all parts of the CS3STHLM summit we have sent one team member to Carrara, Italy, in order to actually carve the prize for Best Presenter in white marble. If it turns out nicely you will be able to see, and maybe accept, the piece at CS3STHLM summit in October. If it fails you won’t.&lt;/p&gt;
+        <title>Kai Thomsen - Senior Incident Responder</title>
+        <description>&lt;p&gt;&lt;em&gt;This is a blog post with Kai Thomsen, a senior incident responder at AUDI AG.&lt;/em&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;we-want-your-submission-for-presentation-or-workshop-by-may-31&quot;&gt;WE WANT YOUR SUBMISSION FOR PRESENTATION OR WORKSHOP BY MAY 31&lt;/h3&gt;
+&lt;h1 class=&quot;blog-title&quot; itemprop=&quot;name headline&quot;&gt;Kai Thomsen - Senior Incident Responder&lt;/h1&gt;
 
-&lt;p&gt;&lt;a href=&quot;mailto:cfp@cs3sthlm.se&quot;&gt;cfp@cs3sthlm.se&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;what-is-your-day-job-where-are-you-working-and-what-do-you-do&quot;&gt;What is your day job, where are you working and what do you do? &lt;/h4&gt;
+&lt;p&gt;I am a senior Incident Responder at AUDI AG. My office is in Ingolstadt at Audi’s headquarters, but takes me where ever we have to investigate. Currently we a building up a joint Enterprise/ICS/Car cyber defense team. This means learning about and integrating three sometimes very different mindsets. Quite a challenge, but I’m convinced that we won’t be very successful without these integrated teams. I also teach for SANS in the ICS curriculum. And since we are a small team, I get to teach all over the world, which is at the same time interesting and challenging considering all the different countries and cultures I get to teach in.&lt;/p&gt;
 
+&lt;h4 id=&quot;for-how-long-have-you-worked-in-the-field&quot;&gt;For how long have you worked in the field? &lt;/h4&gt;
+&lt;p&gt;Computers and hacking have been kind of my thing since I was thirteen. After university, in 2001, when I finally had to get a real job, I got started as a network admin tasked with passive security (firewalls, IDSses, etc.) and then moved on to what nowadays is called active defense, mainly Network Security Monitoring and Incident Response. When Stuxnet hit in 2010 and caused a lot of headache for us at the company I was working at back then I started to focus more on ICS security.&lt;/p&gt;
+
+&lt;h4 id=&quot;you-give-classes-as-a-technical-trainer-for-icsscada-security-do-you-see-a-lot-of-interest-in-these-issues&quot;&gt;You give classes as a technical trainer for ICS/SCADA security, do you see a lot of interest in these issues? &lt;/h4&gt;
+&lt;p&gt;I teach the “ICS Active Defense and Incident Response” course at SANS (ICS515). And we have definitely seen interest increasing in this and other ICS courses over the last year. When I look at the current threat landscape, this was absolutely necessary. We need a lot more knowledgable and capable active defenders to secure our critical infrastructures and industries.&lt;/p&gt;
+
+&lt;h4 id=&quot;have-you-ever-destroyed-a-car-or-something-physical-as-part-of-what-you-do-in-your-day-work&quot;&gt;Have you ever destroyed a car, or something physical, as part of what you do in your day work? &lt;/h4&gt;
+&lt;p&gt;Well, yes, but keep in mind, I am an incident responder, not I researcher so my main mantra especially in ICS/SCADA environments is to always put safety and reliability of operations first. But as probably anyone who as worked on many incidents I have my own stories to tell about devices and thus evidence I destroyed because of a stupid mistake I made.  With regard to what you are probably more interested in, do I crash vehicles with my mad cyber skills, that’s a) not how this works and b) the job of our dedicated Car/IT Security team.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-is-the-hype-in-relation-to-cyber-security-and-vehicles&quot;&gt;What is the hype in relation to cyber security and vehicles? &lt;/h4&gt;
+&lt;p&gt;In my opinion the hype is in the way current research gets reported vs. what current threats against vehicles actually are. Most organized crime around vehicles is about stealing vehicles or spare parts. Of course this is not as sexy for a story than say hackers taking over autonomous vehicles. If you’d like to get my full view on this, come to my talk ;-)
+What is the biggest challenges to automotive area with regards to security? I think the biggest challenge is software developers and automotive engineers understanding each other’s development processes and constraints. And learning to understand their different culture and language. Without these basics we’ll have a very hard time coping with the paradigm shifts currently happening in the automotive industry.&lt;/p&gt;
+
+&lt;h4 id=&quot;is-car-theft-the-biggest-risk-or-do-you-see-other-aspects-worse-risks-for-vehicles--cyber-security&quot;&gt;Is car theft the biggest risk, or do you see other aspects worse risks for vehicles &amp;amp; cyber security? &lt;/h4&gt;
+&lt;p&gt;As of now I’d say yes, definitely. As cars get more functionality that can be activated via software and we see an increase of managed vehicle fleets versus privately owned cars threats will probably diversify somewhat more. Criminals will always be where the most money can be made with the least risk, at least we can be sure of that ;-)&lt;/p&gt;
+
+<<<<<<< HEAD
 &lt;p&gt;&lt;img src=&quot;//assets/news/marble-one.jpg&quot; alt=&quot;Marble One&quot; /&gt; &lt;img src=&quot;//assets/news/marble-two.jpg&quot; alt=&quot;Marble Two&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 08 May 2017 06:00:00 +0200</pubDate>
         <link>//news/2017/05/08/cfp-dont-miss-our-deadline.html</link>
         <guid isPermaLink="true">//news/2017/05/08/cfp-dont-miss-our-deadline.html</guid>
+=======
+&lt;h4 id=&quot;what-is-the-least-known-aspects-of-cyber-security-in-the-automative-industry&quot;&gt;What is the least known aspects of cyber security in the automative industry? &lt;/h4&gt;
+&lt;p&gt;We have been at some aspects of this a lot longer than many folks in the cyber security community might think and this has to do with all the immobilizer technology put into cars over the past 10-15 years and criminals finding ways around that. Also most discussions around fixing security problems in vehicles with quick patches over the air often don’t reflect how much testing has to go into any change you make to anything safety related in a vehicle. Also, like most ICS systems, we should keep in mind that there are (and there probably should be some more) failsafes that cannot be overridden by software.&lt;/p&gt;
+
+&lt;h4 id=&quot;how-will-the-creation-of-smart-cities-have-an-impact-on-smart-cars-with-regards-to-security&quot;&gt;How will the creation of smart cities have an impact on smart cars, with regards to security? &lt;/h4&gt;
+&lt;p&gt;Absolutely. It’s the complexity of networks and the questions of trust all over again. But on a much larger scale than the Internet and with larger time constraints on both ways. By that I mean, your car and the traffic light you’re about to be at in 5 seconds won’t have the time to establish trust via something like a CRL. But also, that traffic light will be there for more than twenty years. And your car has a lifetime of about 10-15 years. Lots of interesting questions waiting for answers when it comes to smart cities…&lt;/p&gt;
+
+&lt;h4 id=&quot;in-general-do-you-think-that-we-will-ever-see-things-like-notpetya-ransomware-infecting-cars&quot;&gt;In general, do you think that we will ever see things like NotPetya, ransomware infecting cars? &lt;/h4&gt;
+&lt;p&gt;I can certainly imagine wormable vulnerabilities in parts of vehicle infrastructure that heavily relies on software. EV charging infrastructure, I’m looking at you ;-) But I am still optimistic enough that we’ll finally start learning from mistakes in other fields and will succeed in implementing more resilient architectures in vehicles and smart traffic infrastructures.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-will-be-the-biggest-take-away-for-the-audience-from-your-presentation-at-cs3sthlm&quot;&gt;What will be the biggest take away for the audience from your presentation at CS3sthlm? &lt;/h4&gt;
+&lt;p&gt;That although there are some hard questions waiting to be answered we do know the basics of how to do this right. These are not new and sexy things and they take some effort, but it’s certainly doable. Also, we are still very early on in this particular race. So there is still time to learn from other fields and do some things better. &lt;/p&gt;
+</description>
+        <pubDate>Wed, 26 Sep 2018 04:00:00 +0000</pubDate>
+        <link>/blog/kai-thomsen/</link>
+        <guid isPermaLink="true">/blog/kai-thomsen/</guid>
+>>>>>>> 2019
         
         
-        <category>news</category>
+        <category>blog</category>
         
       </item>
     
       <item>
-        <title>Cyber Security Summit 4SICS Relaunches as CS3STHLM</title>
-        <description>&lt;p&gt;Due to a conflict of interest regarding the name SICS between the summit 4SICS and Swedish Institute of Computer Science, Omnisiens announces the fourth summit to be arranged under the new name CS3 STHLM. Three CS stand for Cyber Security, Control Systems and Critical Structures, and STHLM is an official acronym for Stockholm. CS3 STHLM takes place in Stockholm this October 24-26.&lt;/p&gt;
+        <title>CS3STHLM Newsletter September</title>
+        <description>&lt;h4 id=&quot;cs3sthlm-expo-on-23rd-oct&quot;&gt;CS3sthlm Expo on 23rd Oct&lt;/h4&gt;
 
-&lt;p&gt;Top level cyber security experts from all over the world will gather again in the old concert venue Nalen in Stockholm for the internationally acclaimed summit. Owners of arranging company Omnisiens, Swedish cyber security experts Erik Johansson and Robert Malmgren, state:&lt;/p&gt;
+&lt;p&gt;On the 23rd, we will have an Expo at our venue Nalen. Partners will display the latest cyber security solutions and services. We will have a full lineup of speakers during the Expo day on the Harlem stage. Get the agenda for the day here &lt;a href=&quot;https://cs3sthlm.se/expo/&quot;&gt;/expo&lt;/a&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;-”We changed the name because we had to, but we are convinced our target group will find us, and that it won’t be such a big deal. Ticket sales are up and running, and we look forward to presenting yet another exciting mix of speakers and topics.”&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Free registration here: &lt;a href=&quot;https://cs3sthlmexpo.eventbrite.com/?aff=cs3sthlm&quot;&gt;https://cs3sthlmexpo.eventbrite.com/&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Interest for the summit is expected to escalate while awareness of hacker attacks and vulnerabilities in IoT (Internet of Things), rises.&lt;/p&gt;
+&lt;p&gt;Info on Expo partners and new CS3sthlm partners, shown further down!&lt;/p&gt;
 
-&lt;p&gt;Tickets are on sale with an early bird price until June 30.&lt;/p&gt;
+&lt;h4 id=&quot;technical-training&quot;&gt;Technical Training&lt;/h4&gt;
 
-&lt;h3 id=&quot;facts-cs3sthlm&quot;&gt;FACTS CS3STHLM&lt;/h3&gt;
+&lt;p&gt;This year we will offer six different trainings, to have something for all our participants. Some are technical deep dives, some are more theoretical or policy oriented. Here is some short info on the trainings:&lt;/p&gt;
 
-&lt;p&gt;CS3STHLM is hosted by Omnisiens, owned by Swedish Cyber Security Experts Robert Malmgren; voted number one IT security specialist in Sweden in trade magazine Computer Sweden and Erik Johansson, PhD; Security Researcher, Advisor, and Contractor working at the intersection of Information Technology (IT) and Operational Technology (OT)&lt;/p&gt;
-
-&lt;p&gt;Key note speakers previous years:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;2014 Stefan Lüders, Head of Computer Security at CERN&lt;/li&gt;
-  &lt;li&gt;2015 Kim Zetter, editor at Wired Magazine and author of the book Countdown to Zero Day&lt;/li&gt;
-  &lt;li&gt;2016 Robert M Lee, SCADA expert who was one of the investigators of the attack on Ukraine&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/program/trainings/mikael-vingaard/&quot;&gt;Learn why honeypots&lt;/a&gt; should be part of your toolbox to detect anomalies in your ICS network by taking Mikael Vingaards ICS honeypot class. This is a very hands-on class. Read an interview with Mike here: &lt;a href=&quot;https://cs3sthlm.se/blog/mikael-vingaard/&quot;&gt;/blog/mikael-vingaard&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/program/trainings/erik-hjelmvik/&quot;&gt;The Network ForensICS&lt;/a&gt; class is given for the 3rd time. Always sold out. Packed with network level examinations and protocol analysis, and you need to bring your computer.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/program/trainings/stephan-beirer/&quot;&gt;The ISO/IEC 27019&lt;/a&gt; training can be very useful for those interested in policy level work for the oil/gas industry or electrical utility industry. Read an interview with Dr Beirer here   &lt;a href=&quot;https://cs3sthlm.se/blog/dr-stephan-beirer/&quot;&gt;/blog/dr-stephan-beirer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/program/trainings/arnaud-soullie/&quot;&gt;The ICS Pentest&lt;/a&gt; is a hand-on class where you will learn to find errors and vulnerabilities in a ICS system. To add something little extra, the class also includes a capture-the-flag competition between the attendees.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/program/trainings/joe-slowik&quot;&gt;ICS Strategic planning and war gaming&lt;/a&gt; is given by Joe Slowik of Dragos Inc to help you become better at defending your ICS systems.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/program/trainings/ben-daniel/&quot;&gt;Ben and Daniel&lt;/a&gt; from Dragos will get you started with threat hunting in your ICS environment&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Selected topics from previous years, among ca 12-20 per year:
-In depth analysis of the attacks against Ukraine with Robert M Lee from Dragos and Anton Cherepanov together with Robert Lipovsky from anti virus company ESET who presented a thorough walk through of what is known about the virus ”Black Energy”, which was used against power companies in Ukraine.&lt;/p&gt;
+&lt;p&gt;See all trainings here: &lt;a href=&quot;/program/trainings/&quot;&gt;/trainings&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Internet of Things; John Matherly, creator of Shodan, called the world’s most dangerous search engine leads a discussion of escalation of IoT with a number of the world’s leading experts on the subject.&lt;/p&gt;
+&lt;h4 id=&quot;more-speakers&quot;&gt;More Speakers&lt;/h4&gt;
 
-&lt;p&gt;Hackable pacemakers discussed by scientists Marie Moe and Eireann Leverett, they present weaknesses and possible threats against Moe’s own pacemaker. A kind of threat that led Dick Cheney, previous Vice President of The US, to discountct his pacemaker from the Internet to avoid being targeted by hackers.&lt;/p&gt;
+&lt;p&gt;We are more or less ready with the lineup for this year with close to 30 presenters. We have experts from all over the world, giving presentations in as diverse areas such as Cyber attacks against cars, lessons from incidents and attacks, writing a adding malware into blockchain solutions. See all speakers here &lt;a href=&quot;/program/speakers/&quot;&gt;/speakers&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;The summit’s moderator is since the start Anne Marie Eklund Löwinder, AMEL, Head of Security at IIS, The Internet Foundation in Sweden, and one of seven crypto officers in the world with a key to the Internet root zone.&lt;/p&gt;
+&lt;h4 id=&quot;ics-security-lab&quot;&gt;ICS Security Lab&lt;/h4&gt;
+
+&lt;p&gt;We will continue the success with the ICS security lab from previous years. Attendees will have opportunities to try out various ICS equipment, cyber security protection mechanisms, and to see demonstrations of attacks. More info on the lab here &lt;a href=&quot;/ics-lab/&quot;&gt;/ics-lab&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;hotel-discount&quot;&gt;Hotel Discount&lt;/h4&gt;
+
+&lt;p&gt;Please take note - hotel Elite Stockholm Plaza will only hold the reserved block of rooms for CS3sthlm until the 21st of september. If you have not already booked your hotel room, now is the time! Use this link &lt;a href=&quot;https://www.elite.se/en/conference-reservations/stockholm/e1a64817-7910-4517-bff8-d94ea2e28ed5/ea79fd04-097f-47bc-a55f-5e12e8c5868a/&quot;&gt;https://www.elite.se/en/conference-reservations/stockholm/e1a64817-7910-4517-bff8-d94ea2e28ed5/ea79fd04-097f-47bc-a55f-5e12e8c5868a/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;new-partners&quot;&gt;New Partners&lt;/h4&gt;
+
+&lt;div class=&quot;partner--list partner--list-inpost&quot;&gt;
+
+
+	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
+		&lt;a href=&quot;https://www.advenica.com/en&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/advenica.png&quot; alt=&quot;Advenica&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
+		&lt;a href=&quot;https://www.msb.se/en/&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/msb-english.png&quot; alt=&quot;MSB&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
+		&lt;a href=&quot;https://www.first.org&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/first.png&quot; alt=&quot;FIRST&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
+		&lt;a href=&quot;https://dragos.com&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/dragos.png&quot; alt=&quot;Dragos&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
+		&lt;a href=&quot;https://www.kraftcert.no/english/index.html&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/kraftcert.png&quot; alt=&quot;KraftCERT&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
+		&lt;a href=&quot;https://www.gai-netconsult.de/index.php?id=startseite&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/gai-netconsult.png&quot; alt=&quot;Gai Netconsult&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item &quot;&gt;
+		&lt;a href=&quot;https://omnisiens.se&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/omnisiens.png&quot; alt=&quot;OMNISIENS&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item &quot;&gt;
+		&lt;a href=&quot;https://romab.com&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/romab.png&quot; alt=&quot;ROMAB&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item &quot;&gt;
+		&lt;a href=&quot;https://sysctl.se&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/sysctl.png&quot; alt=&quot;sysctl&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item &quot;&gt;
+		&lt;a href=&quot;http://managementdoctors.se&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/md.png&quot; alt=&quot;Management Doctors&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
+		&lt;a href=&quot;https://www.kaspersky.com&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/kaspersky.png&quot; alt=&quot;Kaspersky&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item &quot;&gt;
+		&lt;a href=&quot;https://www.recordedfuture.com&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/recorded-future.png&quot; alt=&quot;Recorded Future&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item &quot;&gt;
+		&lt;a href=&quot;https://waterfall-security.com&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/waterfall-security.png&quot; alt=&quot;Waterfall Security&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item &quot;&gt;
+		&lt;a href=&quot;https://en.energinet.dk&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/energinet.png&quot; alt=&quot;EnergiNet&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item &quot;&gt;
+		&lt;a href=&quot;https://www.netresec.com&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/netresec.png&quot; alt=&quot;NETRESEC&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item &quot;&gt;
+		&lt;a href=&quot;https://netnordic.se&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/netnordic.png&quot; alt=&quot;Netnordic&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item &quot;&gt;
+		&lt;a href=&quot;https://www.secmatters.com&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/securitymatters.png&quot; alt=&quot;SecurityMatters&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
+		&lt;a href=&quot;https://www.fortinet.com&quot; target=&quot;_blank&quot;&gt;
+			&lt;img src=&quot;/assets/partners/fortinet.png&quot; alt=&quot;Fortinet&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+
+&lt;/div&gt;
 </description>
+<<<<<<< HEAD
         <pubDate>Fri, 21 Apr 2017 06:00:00 +0200</pubDate>
         <link>//press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html</link>
         <guid isPermaLink="true">//press/2017/04/21/cyber-security-summit-4sics-relaunches-as-cs3sthlm.html</guid>
+=======
+        <pubDate>Wed, 19 Sep 2018 04:00:00 +0000</pubDate>
+        <link>/news/2018/09/19/cs3sthlm-newsletter-september.html</link>
+        <guid isPermaLink="true">/news/2018/09/19/cs3sthlm-newsletter-september.html</guid>
+>>>>>>> 2019
         
         
-        <category>press</category>
+        <category>news</category>
         
       </item>
     

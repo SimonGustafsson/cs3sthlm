@@ -1,0 +1,435 @@
+- id: 1
+  type: training
+  author:
+    - name: Erik Hjelmvik
+      role: Network Analyst
+      work: NETRESEC
+      country: Sweden
+      shortcode: SE
+      image: erik-hjelmvik.png
+      bio: Erik is the creator of NetworkMiner and an experienced incident handler who has specialized in the field of network forensics.
+  training:
+    - subject: Network Forensics Training
+      date: 22-23 October
+      time: 09:00 - 17:00
+      place: Nalen
+      description: |
+        Our two-day Network Forensics class consists of a mix of theory and hands-on labs, where students will learn to analyze Full Packet Capture (FPC) files. The scenarios in the labs are primarily focused at network forensics for incident response, but are also relevant for law enforcement/internal security etc. where the network traffic of a suspect or insider is being monitored.
+        
+        #### Day 1 - Theory and Practice using Open Source Tools 
+        * Theory: Ethernet signaling
+        * Hardware: Network TAPs and Monitor ports / SPAN ports
+        * Sniffers: Recommendations for high-performance packet interception
+        * Analyze Modbus TCP traffic
+        * Forensics of IEC 60870-5-104 network traffic
+        * Investigate telnet sessions
+        * PCAP analysis: Extracting evidence and indicators of compromise using open source tools
+        * Defeating Big Data: Techniques for working with large data sets
+        * Whitelists: Learn how to detect 0-day exploit attacks without using IDS signatures
+        * Challenge Day 1: Find the needle in our haystack and win a honorable prize!
+
+        #### Day 2 - Advanced Network Forensics using Netresec Tools 
+        * NetworkMiner Professional: Learning to leverage the features available in the Pro version
+          * Port Independent Protocol Identification (PIPI)
+          * DNS Whitelisting
+        * NetworkMinerCLI: Automating content extraction with our command line tool
+        * CapLoader: Searching, sorting and drilling through large PCAP data sets
+          * Super fast flow transcript (aka Follow TCP/UDP stream)
+          * Filter PCAP files and export frames to other tools
+          * Keyword search
+          * Create inventory of ICS devices from PCAP
+        * Challenge Day 2
+
+        #### The Scenario
+
+        The scenario used in the class involves a new progressive Bank, which provides exchange services for Bitcoin and Litecoin. We've set up clients and a server for this bank using REAL physical machines and a REAL internet connection. All traffic on the network is captured to PCAP files by a SecurityOnion sensor. In the scenario this bank gets into lots of trouble with hackers and malware, such as:
+
+        * Defacement of the Bank's web server (see zone-h mirror)
+        * Backdoor infection through trojanized software
+        * Spear phishing
+        * Use of a popular RAT (njRAT) to access the victims machine and exfiltrate the wallet.dat files for Bitcoin and Litecoin
+        * Infection with real malware (Nemucod, Miuref / Boaxxe and more)
+
+        Class attendees will learn to analyze captured network traffic from these events in order to:
+        * Investigate web server compromises and defacements
+        * Identify covert backdoors
+        * Reassemble incoming emails and attachments
+        * Detect and decode RAT/backdoor traffic
+        * Detect malicious traffic without having to rely on blacklists, AV or third-party detection services
+
+        #### Professional software included FREE of charge 
+        Each attendee will be provided with a free personal single user license of NetworkMiner Professional and CapLoader. These licenses will be valid for six months from the first training day.
+
+        ### Target Audience
+
+        Q: Who should attend?
+
+        A: Anyone who want to improve their skills at finding evil stuff in full content packet captures.
+
+        Q: Who should NOT attend?
+
+        A: Those who are afraid of using Linux command line tools.
+
+        ### Training Preparations
+
+        #### Laptop Required 
+        Attendees will need to bring a laptop that fits the following specs:
+
+        * A PC running any 64 bit Windows OS (can be a Virtual Machine)
+        * At least 4GB RAM
+        * At least 40 GB free disk space
+        * VirtualBox (64 bit) installed (VMWare will not be supported in the training)
+
+        A VirtualBox VM will be provided on USB flash drives at the beginning of the training.
+
+        Please note that having a 64-bit CPU and a 64-bit OS is not always enough to support 64-bit virtualization. You might need to enable features such as ”AMD-V”, ”VT-x” or ”Hyper-V” in BIOS in order to run virtual machines in 64-bit mode. You might also need to turn off "Intel Trusted Execution" in BIOS. One way to verify that your laptop supports 64-bit virtualization is to download the SecurityOnion ISO and see if it boots up in VirtualBox.
+
+- id: 2
+  type: training
+  author:
+    - name: Stephan Beirer
+      role: Senior Consultant
+      work: GAI NetConsult GmbH
+      country: Germany
+      shortcode: DE
+      image: stephan-beirer.png
+      bio: Stephan Beirer studied and received his PhD in physics. Since 2006 Mr. Beirer has been employed with GAI NetConsult GmbH as a senior consultant and is the Head of Industrial Control Systems Security since 2012. He advises clients on the development and implementation of organizational and technical security policies and controls, on implementing an information security management system (ISMS) according to IEC 62443, ISO/IEC 27001 and ISO/IEC 27019 and on business continuity planning. His professional focus is on securing process control and automation technology, especially in the field of energy supply. He gained his experience in more than 200 ICS security projects in the field of energy, transportation and industrial manufacturing. He is an active member of several national and international standardization committees at DIN, DKE, IEC and ISO and the editor of ISO/IEC 27019.
+  training:
+    - subject: "Cyber security for the energy sector – an introduction to ISO/IEC 27019 and the BDEW/OE Whitepaper"
+      date: 23 October
+      time: 09:00 - 17:00
+      place: Nalen
+      description: |
+        Generation, storage, transport and distribution of electricity and gas are the most critical of all critical infrastructure processes supporting our daily life. As in every modern industry domain, energy supply is heavily dependent on industrial control systems (ICS) and the security of these systems. While many energy utilities implement an information security management system (ISMS) based on the ISO/IEC 27000 standard family, they often struggle with the inclusion of the ICS and OT domain, when they try to harmonize security management over their entire business scope. To fill this gap ISO/IEC 27019 *Information security controls for the energy utility industry* was developed. ISO/IEC 27019 is a sector specific control set for the process control system domain of the energy sector which is based on ISO/IEC 27001 and ISO/IEC 27002. 
+        
+        To supplement the generic controls of ISO/IEC 27019 with detailed technical security specifications for ICS systems, the German and Austrian energy operator associations BDEW and Oesterreichs Energie have published the BDEW/OE Whitepaper. The Whitepaper can be used during system procurement and defines security requirements for control and automation systems of the energy domain and their telecommunication infrastructure.
+
+        The workshop gives an introduction to the contents and practical application of ISO/IEC 27019 and the BDEW/OE Whitepaper. The following topics will be covered:
+        * Industrial control systems in the energy sector 
+        * Introduction to the ISO/IEC 27000 series
+        * Overview of ISO/IEC 27019 
+        * Practical application of ISO/IEC 27019
+        * ISO/IEC 27019 and European cyber security regulation 
+        * The BDEW/OE Whitepaper, a security procurement guideline for energy ICS
+
+        The workshop will include a lecture, discussions and exercises.
+
+
+- id: 3
+  type: training
+  author:
+    - name: Arnaud Soullié
+      role: Cybersecurity R&D Manager
+      work: pentesting-ics.com
+      country: France
+      shortcode: FR
+      image: arnaud-soullie.png
+      bio: "Arnaud Soullié (@arnaudsoullie) is the cybersecurity R&D manager at Wavestone. For 8 years, he has been performing security audits and pentest on all type of targets. He specializes in Industrial Control Systems and Active Directory security. He has spoken at numerous security conferences on ICS topics : BlackHat Europe, BruCon, 4SICS, BSides Las Vegas, DEFCON…He also has an interest in hardware security, and is the designer of DYODE (Do Your Own Diode): an open-source, low-cost, ICS oriented data diode."
+  training:
+    - subject: Pentesting Industrial Control Systems
+      date: 22-23 October
+      time: 09:00 - 17:00
+      place: Nalen
+      description: |
+        On this intense 2-days training, you will learn everything you need to start pentesting Industrial Control Networks. We will cover the basics to help you understand what are the most common ICS vulnerabilities.
+
+        We will then spend some time learning and exploiting Windows & Active Directory weaknesses, as most ICS are controlled by Windows systems. We will cover the most common ICS protocols (Modbus, S7, Profinet, Ethernet/IP, DNP3, OPC…), analyze packet captures and learn how to use these protocols to talk to Programmable Logic Controllers (PLCs).
+
+        You will learn how to program a PLC, to better understand how to exploit them. The training will end with an afternoon dedicated to a challenging hands-on exercise: The first CTF in which you capture a real flag! Using your newly acquired skills, you will try to compromise a Windows Active Directory, pivot to an ICS setup to take control of a model train and robotic arms.
+
+        #### The detailed outline of the training will be the following:
+
+        - Introduction to ICS & common vulnerabilities
+        - Pentesting Basics & tools [Hands-on]
+        - Windows basics and pentesting Windows [Hands-on]
+        - Focus on ICS protocols
+        - Programming PLCs [Hands-on]
+        - Pentesting ICS [Hands-on]
+        - Capture The Flag [Hands-on]
+
+        ### Detailed content
+
+        #### Module 1: Introduction to ICS & common vulnerabilities
+
+        For starters, I will introduce the concept of ICS.
+
+        The topics will include:
+        - Vocabulary
+        - Classic architectures
+        - ICS components (PLCs, HMI, SCADA, DCS, sensors, RTUs, Historian, etc) and their roles
+        - OT vs IT
+
+        I will also introduce attendees to the most common vulnerabilities in ICS, and describes some of the public attacks:
+        - Lack of network segmentation / Exposure
+        - Lack of hardening - ICS protocols insecurity
+
+        *This module is not hands-on*
+
+
+        #### Module 2: Pentesting Basics & tools
+
+        This module will introduce the concept of penetration test.
+        I do not intend to spend too much time of the theoretical stuff (how to make
+        a report, etc etc) since that is not what attendees are looking for.
+
+        However, I think a module is required to ensure that everyone shares at least the
+        basic concepts of penetration testing, in order to understand the rest of the training.
+        The module will include :
+        - OSINT for ICS : Where to look to find informations
+        - Reconnaissance : how to portscan & nessus
+        - Exploitation : Metasploit basics
+
+        Toolz used : nmap, Nessus, Metasploit
+
+        Lab setup : Windows Servers and workstations, Metasploitable, Kali Linux
+
+        #### Module 3: Windows basics and pentesting Windows
+        Any ICS now includes, at least in some areas, Windows systems. So I think that some time must be spent on Windows basics.
+
+        This module will introduce the following topics: 
+        - Windows Active Directory
+        - How to find credentials on Windows systems
+        - Exploiting and pivoting to gain Domain Admin privileges
+
+        A selection of hacking techniques will be applied on lab machines.
+
+        #### Module 4: Focus on ICS protocols
+
+        This module will introduce the most common ICS protocols: Modbus/TCP, S7, Profinet, DNP3, Ethernet/IP…. Attendees will analyze network captures and be introduced to software libraries/ clients to use these protocols to talk to PLC simulators.
+
+        *This module is not hands-on*
+
+        #### Module 5: Programming PLCs
+        In order to have a better understanding of how a PLC works, student will use dedicated software to program a PLC in ladder logic (using trial versions of TIA portal and/or soMachine basic).
+
+        Students will then deploy the code to real PLCs.
+
+        Toolz used : SoMachine Basic
+
+        Lab : Windows virtual machine
+
+        #### Module 6: Pentesting ICS
+        This module will be mostly lab sessions, in order to apply the knowledge learned so far:
+        - Network capture analysis & replaying packets
+        - Talking industrial protocols: Modbus, S7
+        - Additional PLC features: web server, ftp, snmp and how to exploit it
+
+        Toolz used : nmap, Nessus, Metasploit
+
+        Lab : Windows Servers and workstations, Kali Linux, Siemens and Schneider PLCs
+
+        #### Module 7: Capture The Flag
+
+        I strongly believe that a good training must include “real-life” examples and labs. I will dedicate the last half-day of the training to a Capture The Flag event. To do so, I will have a specific setup where attendees will be able to use their newly-acquired knowledge on a simulation of a “real-life” system. This will include compromise of Windows host, pivoting to the ICS, understanding the industrial process, and finally capturing a real flag with a robot hand!
+
+        This will be an expanded version of the CTF I usually organize during the ICS workshops at conferences.
+
+        #### Target audience
+        This training is aimed at OT professionals willing to understand what are the security issues within ICS, and how
+        to technically assess the security level of an ICS. It will also be beneficial for IT security professionals wanting to understand the technical specificities of ICS.
+
+        #### Key takeaways
+        The attendees will learn what are the common ICS vulnerabilities, the tools and techniques to assess an ICS (both Windows systems and PLCs), and will practice these techniques during an hands-on Capture The Flag on real hardware.
+
+        #### Training Preparations
+        Laptop Required
+
+        Attendees will need to bring a laptop that fits the following specs:
+
+        * A PC with VirtualBox capable of running virtual machines.
+        * At least 4GB RAM
+        * At least 40 GB free disk space
+        * VirtualBox (64 bit) installed (VMWare could be used but will not be supported in the training)
+
+        Several VirtualBox VMs will be provided on USB flash drives at the beginning of the training.
+
+        Please note that having a 64-bit CPU and a 64-bit OS is not always enough to support 64-bit virtualization. You might need to enable features such as ”AMD-V”, ”VT-x” or ”Hyper-V” in BIOS in order to run virtual machines in 64-bit mode.
+
+        Please try to run a 64-bit VM prior to the training.
+
+- id: 4
+  type: training
+  author:
+    - name: Mikael Vingaard
+      role: IT Security Consultant
+      work: EnergiNet
+      country: Denmark
+      shortcode: DK
+      image: mikael-vingaard.png
+      bio: Mikael Vingaard leverages his 15+ years of IT-security experience to build practicalinformation security with a real-life perspective. Mikael works as IT-Security Consultant at EnergiNet.dk, the Danish national transmission system operator. In his spare time, Mikael runs several research projects, build on Open Source softwareto make a positive difference to secure critical infrastructure environments.
+  training:
+    - subject: ICS Scada Honeypot Technical Training
+      date: 22-23 October
+      time: 09:00 - 17:00
+      place: Nalen
+      description: |
+        Get access this exciting two days deep dive workshop on SCADA honeypots. During the first day, the students will be guided in the different phases in planning, deploying and analyzing the collected data from a ICS/SCADA honeypot.
+
+        ### Day 1
+        #### Introduction to Honeypots systems, with special focus on ICS/SCADA)
+
+        The first day, the students will introduced to different types of honeypot systems and pro/con's of each honeypot type.
+
+        The students will be guided thou the different phases in planning, deploying and analyzing the collected data from a ICS/SCADA honeypot.
+
+        We will deploy live honeypots on the internet and see how attackers would start to probe our honeypots. Furthermore, we will also attack the deployed honeypots ourselves; using SCADA pen testing tools and similar software. We will learn to spot various tools, and how to hide the signatures of a default honeypot. 
+
+        ### Day 2
+        #### Deploy more honeypots and move from low interaction to medium/high interaction Honeypots
+
+        We will continue the modification of the SCADA honeypot from day 1 and will also deploy a new Internet based ICS/SCADA credential honeypot to our research arsenal - for further research/analyzing.
+
+        The students will on day 2 build a purpose-build in-house Honeypot lab, where we change a low interaction honeypot to act as a realistic device (medium/high interaction honeypot) to ensure that attackers can't spot the honeypot 'a mile away'. This would give the students even better opportunity to do research/threat intelligence data on high interaction honeypots.
+
+        The 2nd day would also provide opportunities to deep dive into students ideas for further activities after the workshop.
+
+        #### Course syllabus
+
+        * Introduction to Honeypots systems, with special focus on ICS/SCADA.
+        * Building and Deployment of a live honeypot on the internet.
+        * Useful tools to pentest SCADA honeypot systems
+        * How to read the logs, and spot different attack types
+        * Useful modification of the honeypot configuration
+        * Learning how to build and deploy a medium/high interactive honeypot - for even better research data/TTP's
+        * Closing remark and ideas for further activities.
+
+        Each student will get access to a numbers of virtual lab servers to learn how to deploy and customize settings to avoid the default honeypot signature and evolve the low-interaction honeypot to be a true high interactive honeypot.
+
+        #### Takeaway for participants
+
+        After this 2 days workshop, you will be able to plan and deploy different types of ICS/SCADA related open source honeypots, either for research or to defend your corporate/industrial assets.
+        You will understand different Honeypot types and deceptions methods.
+
+        You will leave the class room with a knowledge on how to change the default signature on the honeypots and the understanding of the most common tools who will attack your honeypots.
+
+        #### Requirements
+
+        Students must bring a suitable laptop able to connect to the Internet. It must have a SSH client (Putty/term or similar software) installed. All lab servers are based on the internet, so no hypervisor like Vmware/VirtualBox are required on the student device. Knowledge of basic Linux commands, text editor and usage of the command line would be beneficial, but not a strict requirement to benefit from this course.
+
+        #### Workshop Level
+
+        Beginner to Intermediate
+
+- id: 5
+  type: training
+  author:
+    - name: Joe Slowik
+      role: Adversary Hunter
+      work: Dragos Inc
+      country: United States
+      shortcode: US
+      image: joe-slowik.png
+      bio: Joe Slowik currently hunts ICS adversaries for Dragos, pursuing threat activity groups through their malware, their communications, and any other observables available. Prior to his time at Dragos, Joe ran the Incident Response team at Los Alamos National Laboratory, and served as an Information Warfare Officer in the US Navy. Throughout his career in network defense, Joe has consistently worked to ‘take the fight to the adversary’ by applying forward-looking, active defense measures to constantly keep threat actors off balance. When not hunting adversaries or playing with open source security projects, Joe loves playing ice hockey and building Legos.
+  training:
+    - subject: ICS Strategic Planning and War Gaming
+      date: 22-23 October
+      time: 09:00 - 17:00
+      place: Nalen
+      description: |
+        Network defense is informed by knowing the network, and knowing the adversary – but few practitioners have the fortune of possessing this knowledge before a major breach. Industrial Control System (ICS) networks provide particular challenges due to limitations on operational testing and traditional red team exercises. To address the need for critical assessment of ICS-related networks for developing defensive strategy, this training provides attendees with a comprehensive exercise to identify critical network assets within a theoretical IT and ICS environment, driven by threat intelligence and threat actor profiles.
+
+        Starting with an overview of strategy and applying strategic concepts to network defense, attendees will formulate a comprehensive, adversary-oriented network defense plan covering IT and ICS environments. Following additional overview and critique of planning, attendees will then test the plan through an iterative, guided wargaming exercise – the goal being to test planning comprehensiveness, identify gaps, and improve planning and implementation over time. This training is suitable for all levels of security practitioner – from CISO to SOC analyst – as a means to improve and refine defensive planning, especially within environments containing ICS.
+
+        #### Who Should Attend
+
+        * Security senior decision makers, from project managers through CIOs.
+        * ICS network operations personnel responsible for assessing risk or managing network security.
+        * Security operations personnel, either focused on ICS environment or general IT security, with an interest in network security strategy development.
+
+        #### Key Learning Objectives:
+
+        * How to assess the security threat environment to identify threats facing the organization.
+        * Apply threat assessment information to the organization’s security environment to formulate an
+        actionable, working network defense strategy.
+        * Learn to critically analyze network defense planning activity and technical controls to identify detection and visibility gaps.
+        * Gain experience in developing and executing interactive exercises to test security plans to evaluate effectiveness and relevance.
+        * Learn how to apply and interpret testing results to improve security planning over time, and adapt to a changing threat environment.
+
+        #### Prerequisite Knowledge:
+
+        * General understanding of computer network security concepts, technical controls, and applications.
+        * Familiarity with reading threat intelligence reporting covering computer network security issues.
+        * Base-level knowledge in ICS security concepts preferred but not necessary.
+
+        #### Hardware/Software Requirements:
+
+        * Laptop computer for development, planning, and documentation during exercises.
+        * No other significant technical requirements – lectures and exercises will be based around discussion.
+
+        ### Agenda
+
+        #### Day 1:
+        * Introduction to strategy within a computer network defense environment.
+        * Identifying unique aspects of ICS networks and their impact on strategy development.
+        * Review of threat activity groups and threat intelligence reporting.
+        * EXERCISE: Critical evaluation of threat intelligence reporting to extract actionable information.
+        * Review of ICS-specific network defense concepts and strategies.
+        * Discussion and examples of threat modeling and developing threat-focused defensive plans.
+        * EXERCISE: Formulate threat model for hypothetical ICS network based on available reporting.
+        * Combining organizational knowledge with threat environment assessment to develop specific network security strategy.
+        * EXERCISE: Develop strategic network defense plan for hypothetical ICS network.
+        * Plan review and debrief.
+
+        #### Day 2:
+        * Review of strategic plans and purpose.
+        * Distinction between red teaming and wargaming.
+        * Wargaming introduction, rules, and procedures.
+        * Importance of and critical components of after-action analysis and iterative development.
+        * EXERCISE: Classroom wargaming exercise testing developed network security strategy.
+        * After-action review of wargaming exercise, course take-aways, and closing.
+
+
+- id: 6
+  type: training
+  author:
+    - name: Daniel Michaud-Soucy
+      role: Principal Threat Analyst
+      work: Dragos Inc
+      country: United States
+      shortcode: US
+      image: daniel-michaud-soucy.png
+      bio: Daniel Michaud-Soucy is a Principal Threat Analyst, Threat Operations Center at the industrial cyber security company Dragos, Inc.. Daniel is focusing on threat hunting and incident response services within a variety of industrial environments. Daniel previously worked for Sempra Energy on RD&D tasks revolving around machine to machine automated threat response, data aggregation, advanced threat detection and secure system interfaces for ICS/SCADA. Daniel also worked with Red Tiger Security performing cyber vulnerability assessments and penetration tests on oil & gas, electrical power, water treatment and pharmaceutical ICS/SCADA environments.
+    - name: Ben Miller
+      role: Director of Threat Operations
+      work: Dragos Inc
+      country: United States
+      shortcode: US
+      image: ben-miller.png
+      bio: Ben Miller is Director, Threat Operations Center at the industrial cyber security company Dragos, Inc. where he leads a team of analysts in performing active defense inside of ICS/SCADA networks. In this capacity, he is responsible for performing a threat hunting, incident response, and malware analysis mission for the industrial community. Previous to his role at Dragos, Inc. Ben was the Associate Director, Electricity Information Sharing & Analysis Center (Electricity ISAC) and led cyber analysis for the sector.
+  date: 23 October
+  time: 09:00 - 17:00
+  place: Nalen
+  training:
+    - subject: Introduction to Threat Hunting in ICS
+      date: 23 October
+      time: 09:00 - 17:00
+      place: Nalen
+      description: |
+        This one day class is an introduction to threat hunting and incident response for ICS environments. We will overview the business and security use cases of when and why threat hunting is valuable to organizations. We will progress by applying these concepts to corporate environments and industrial environments such as transmission or distribution control facilities, or plant distributed control systems (DCS).
+
+        This class will serve as an introduction to key concepts and provide a framework to develop active defenses for analysts and leadership. For existing active defense practitioners we will also include demonstrations of tools and tactics that can be immediately applied.
+
+        #### Outline
+        * Definition of threat hunting
+        * NSM, data pivoting
+        * Tools (tshark, bro, snort, cyberlens, elk)
+        * Lab 1: Hunting the Red Team
+        * Technique: Hypotheses
+        * Technique: Zone to zone analysis
+        * Technique: Timeline analysis
+        * Lab 2: Operational Impact
+        * Strategy: SMASH
+        * Strategy: Collection Management Framework
+        * Threat modeling of intelligence reports
+        * Lab 3: Applying SMASH & CMF
+        * Lab 4 and 5: Capstone hunt
+
+        #### Prerequisites
+        Attendee should have a solid foundation of industrial control systems and a desire to apply active defense concepts such as hunting within their organization.
+
+        #### Hardware Requirements
+        * Windows 7 or Windows 10 laptop with at least 8GB of ram and at least 100GB of free disk space
+        * VMware Player or Workstation
+        * Administrator privilege on your hardware
+        * Computer that possesses a Ethernet port or supporting dongle
+        * Computer that possesses USB ports or supporting dongles

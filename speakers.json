@@ -1,7 +1,8 @@
 ---
-layout: null
+layout: 
 ---
-{"speakerList":[{% for speaker in site.data.speakers %}
+{
+	"speakerList":[{% for speaker in site.data.speakers %}
 	{
 		"id"		: "{{ speaker.id }}",
 		"type"		: "{{ speaker.type }}",
@@ -9,14 +10,39 @@ layout: null
 		"role"		: "{{ speaker.role }}",
 		"work"		: "{{ speaker.work }}",
 		"country"	: "{{ speaker.country }}",
-		"shortcode" : "{{ speaker.shortcode }}",
-		"image"		: "https://cs3sthlm.se/assets/speakers/{{ speaker.image }}",
-		"bio"		: {{ speaker.bio | markdownify | strip_newlines | jsonify }},
-		"date"		: "{{ speaker.date }}",
-		"time"		: "{{ speaker.time }}",
-		"place"		: "{{ speaker.place }}",
-		"title"		: "{{ speaker.title }}",
-		"description": {{ speaker.description | markdownify | strip_newlines | jsonify }}
+		"shortcode"	: "{{ speaker.shortcode }}",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/{{ speaker.image }}",
+		{% if speaker.date != null %}"date" 		: "{{ speaker.date }}",{% endif %}
+		{% if speaker.time != null %}"time" 		: "{{ speaker.time }}",{% endif %}
+		{% if speaker.place != null %}"place" 	: "{{ speaker.place }}",{% endif %}
+
+		"presentation":{
+		{% for item in speaker.presentation %}
+			"active": 	"{{ item.active }}",
+			"title": 	"{{ item.subject }}",
+			"partner":	"{{ item.partner }}",
+			"name":		"{{ item.name }}",
+			"role":		"{{ item.role }}",
+			"work":		"{{ item.work }}",
+			"image":	"https://cs3sthlm.se/assets/speakers/{{ item.image }}",
+			"description": {{ item.description | markdownify | strip_newlines | jsonify }}
+		{% endfor %}
+		},
+		{% for item in speaker.training %}
+		"training": {
+			"active": "{{ item.active}}",
+			"title": "{{ item.subject }}",
+			"partner": "{{ item.partner }}",
+			"name":		"{{ item.name }}",
+			"role":		"{{ item.role }}",
+			"work":		"{{ item.work }}",
+			"image":	"https://cs3sthlm.se/assets/speakers/{{ item.image }}",
+			"description": {{ item.description | markdownify | strip_newlines | jsonify }}
+		},
+		{% endfor %}
+
+		"bio": {{ speaker.bio | markdownify | strip_newlines | jsonify }}
 	}{% unless forloop.last %},{% endunless %}
 {% endfor %}
-]}
+]
+}

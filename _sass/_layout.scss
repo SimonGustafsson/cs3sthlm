@@ -2,50 +2,33 @@
 	AGENDA LIST */
 
 .agenda--block {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
 	display: flex;
-
 	align-items: flex-start;
-	-webkit-align-items: flex-start;
-
 	justify-content: flex-start;
-	-webkit-justify-content: flex-start;
-
 	flex-wrap: wrap;
-	-webkit-flex-wrap: wrap;
-
-	margin-top: 40px;
+	margin-top: 36px;
 
 	@include media-query($mobile) {
 		margin-top: 0;
+		width: 100vw;
+		margin-left: -12px;
 	}
 }
 
 .agenda--header {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
 	display: flex;
-
 	align-items: flex-start;
-	-webkit-align-items: flex-start;
-
 	justify-content: space-between;
-	-webkit-justify-content: space-between;
 	width: 100%;
 
 	@include media-query($mobile) {
 		position: relative;
-		height: 80px;
+		height: 83px;
 	}
 
 	&-item {
 		display: block;
-		width: 25%;
+		width: 33.3333%;
 		padding: 12px 20px;
 		box-sizing: border-box;
 		background: $blue-darken;
@@ -56,14 +39,14 @@
 		}
 
 		&:first-of-type {
-			border-radius: 2px 0 0 2px;
+			border-radius: 2px 0 0 0;
 		}
 		&:last-of-type {
-			border-radius: 0 2px 2px 0;
+			border-radius: 0 2px 0 0;
 		}
 
 		@include media-query($mobile) {
-			width: 25%;
+			width: 33.3333%;
 			text-align: center;
 
 			&:first-of-type, &:last-of-type {
@@ -72,19 +55,23 @@
 		}
 
 		&.active-item {
-			background: $yellow;
+			background: rgba($blue-dark, .75);
 
 			h3 {
 				display: block;
-				color: $blue-darken;
+				color: $white;
 
 				@include media-query($mobile) {
-					color: $gray;
+					color: $yellow;
 
 					.day-name {
 						display: inline-block;
 					}
 				}
+			}
+
+			span {
+				color: $yellow;
 			}
 		}
 
@@ -123,12 +110,11 @@
 				left: 0;
 				top: 39px;
 				width: 100%;
-				background: $blue-dark;
+				background: rgba($blue-dark, .75);
 				padding: 14px 20px;
 				box-sizing: border-box;
 				font-size: 12px;
 				letter-spacing: 2px;
-				line-height: 1;
 				text-align: left;
 			}
 		}
@@ -137,23 +123,13 @@
 
 .agenda--content {
 	align-items: flex-start;
-	-webkit-align-items: flex-start;
-
 	justify-content: flex-start;
-	-webkit-justify-content: flex-start;
-
+	justify-content: space-between;
 	flex-wrap: wrap;
-	-webkit-flex-wrap: wrap;
-
 	display: none;
 
 	&-open {
-		display: -webkit-box;
-		display: -moz-box;
-		display: -ms-flexbox;
-		display: -webkit-flex;
 		display: flex;
-
 
 		@include media-query($mobile) {
 			width: 100%;
@@ -192,38 +168,31 @@
 }
 
 .agenda--btn-group {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
 	display: flex;
-
 	align-items: flex-start;
-	-webkit-align-items: flex-start;
-
-	justify-content: space-between;
-	-webkit-justify-content: space-between;
-
 	width: 100%;
-	margin-top: 20px;
 
 	.btn-agenda {
-		width: auto;
-		color: $blue-darken;
-		border-radius: 2px;
-		margin: 0 220px 0 0;
+		width: 50%;
+		color: $yellow;
+		border-radius: 0 0 0 2px;
+		margin: 0;
 		font-size: 12px;
+		box-shadow: none;
+		text-shadow: none;
+		text-align: left;
+		padding: 10px 20px;
+		background: rgba($blue-dark, .75);
 
 		&:nth-child(2) {
-			margin: auto;
+			border-radius: 0 0 2px 0;
 		}
 
 		@include media-query($mobile) {
-			margin-left: 20px;
-			margin-right: 0;
 			font-size: 10px;
 			opacity: .5;
-
+			width: 100%;
+			
 			span {
 				display: none;
 			}
@@ -242,7 +211,7 @@
 	list-style: none;
 
 	@include media-query-min($large) {
-		width: 660px;
+		width: 650px;
 	}
 	@include media-query($mobile) {
 		width: 100%;
@@ -250,7 +219,7 @@
 
 	li {
 		display: block;
-		padding: 20px 0;
+		padding: 12px 0;
 		box-sizing: border-box;
 		border-bottom: 1px solid $blue-darken;
 
@@ -321,6 +290,7 @@
 		font-weight: normal;
 		letter-spacing: 1px;
 		color: $white;
+		width: 90%;
 
 		&.headline-break {
 			color: $blue;
@@ -328,21 +298,26 @@
 	}
 
 	&-role {
-		color: $yellow;
+		color: $gray;
 	}
 
 	&-speaker {
-		color: $gray;
+		color: $yellow;
 	}
 
 	&-time {
 		color: $gray;
 	}
+	&-place {
+		color: $gray;
+		font-family: 'latoblack', sans-serif;
+		margin-left: 20px;
+	}
 	&-details {
 		position: absolute;
-		bottom: 14px;
+		top: 14px;
 		right: 0;
-		letter-spacing: 2px;
+		letter-spacing: 1px;
 		font-family: 'latoregular', sans-serif;
 		font-size: 16px;
 		color: $gray;
@@ -354,6 +329,21 @@
 			top: 14px;
 			bottom: 0;
 		}
+	}
+
+	&-speaker-row {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+	}
+
+	&-speaker-row-left {
+		display: flex;
+		flex-direction: row;
+	}
+
+	&-speaker-block {
+
 	}
 
 }

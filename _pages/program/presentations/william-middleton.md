@@ -2,11 +2,11 @@
 title: Securing the ICS lab network
 permalink: "/program/presentations/william-middleton/"
 layout: presentation
-speaker: 
- - name: William Middleton
-   role: Senior Engineer
-   work: Seimens PD Solutions
-   image: william-middleton.png
+speaker:
+- name: William Middleton
+  role: Senior Engineer
+  work: Seimens PD Solutions
+  image: william-middleton
 id: presentation
 ---
 

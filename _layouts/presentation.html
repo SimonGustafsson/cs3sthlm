@@ -1,60 +1,105 @@
 ---
 layout: default
 ---
+
 <section class="content">
+  
+  {% include breadcrumbs.html %}
+  
+  <article class="post col-8-8 column-block" itemscope itemtype="http://schema.org/BlogPosting">
 
-<div class="sec-head sec-head-single-post">
-    <div class="block-head">
-      <h4>Presentations</h4>
-      {% include breadcrumbs.html %}
-    </div>
-</div>
+    <aside class="sidebar column-block-item col-2-8">
 
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+      {% for item in page.speaker %}
+      <div class="post-meta">
+        <div class="post-meta-item">
+          <h4 class="sub-headline sub-headline-gray">Author</h4>
+          <span class="alt-title alt-title-small">{{ item.name }}</span>
+        </div>
 
-  <aside class="sidebar box-left">
-    {% for item in page.speaker %}
-    <ul class="meta-data--presentation">
-      <li><h4>Author</h4><span class="post-author">{{ item.name }}</span></li>
-      <li><h4>Role</h4><span class="post-author">{{ item.role }}</span></li>
-      {% if item.work != null %}<li><h4>Work</h4><span class="post-author">{{ item.work }}</span></li>{% endif %}
-      <li><img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}"></li>
-    </ul>
-    {% endfor %}
-  </aside>
+        <div class="post-meta-item">
+          <h4 class="sub-headline sub-headline-gray">Role</h4>
+          <span class="alt-title alt-title-small">{{ item.role }}</span>
+        </div>
 
-  <div class="post-content" itemprop="articleBody">
-    <header class="post-header">
-      <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-    </header>
+        {% if item.work != null %}
+        <div class="post-meta-item">
+          <h4 class="sub-headline sub-headline-gray">Work</h4>
+          <span class="alt-title alt-title-small">{{ item.work }}</span>
+        </div>
+        {% endif %}
 
-    {{ content }}
+        <div class="post-meta-item">
+          <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}.png" class="post-meta-item-image">
+        </div>
+      </div>
+      {% endfor %}
 
-    {% for presitem in site.data.speakers %}
-      {{ presitem.presentation-description | markdownify }}
-    {% endfor %}
-  </div>
+    </aside>
 
-  <aside class="sidebar box-right">
-    <input type="checkbox" id="row-one" />
-    <label for="row-one">All Presentations</label>
-    <h4>All Presentations</h4>
-    <span class="icon-plus"></span>
-    <ul>
-    {% assign sorted_presentations = site.pages | sort: 'author' %}
-    {% for page in sorted_presentations %}
-    {% if page.id ==  'presentation' %}
-      <li><a href="{{ page.url | prepend: site.baseurl }}">
-          <span class="p-title">{{ page.title }}</span>
-          {% for item in page.speaker %}
-          <span class="p-author">{{ item.name }}</span>
-          {% endfor %}
-      </a></li>
-    {% endif %}
-    {% endfor %}
-    </ul>
-    
-  </aside>
+    <section class="post-content column-block-item col-5-8 spacing-left" itemprop="articleBody">
 
-</article>
+      <header class="post-header">
+        <h1 class="title title-yellow" itemprop="name headline">{{ page.title | escape }}</h1>
+      </header>
+
+      {{ content }}
+
+
+      <div class="post-pagination column-block-item col-5-8">
+        {% assign prevflag = 1 %}
+        {% assign nextflag = 1 %}
+        {% assign pagination = site.pages | where: "id", "presentation" %}
+
+        {% for c in pagination %}
+          {% if c.title == page.title %}
+            {% assign currentItemIndex = forloop.index0 %}
+            {% if forloop.index == 1 %}
+              {% assign prevflag = 0 %}
+              {% assign nextflag = 1 %}
+            {% elsif forloop.index == forloop.length %}
+              {% assign prevflag = 1 %}
+              {% assign nextflag = 0 %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+
+        {% if prevflag == 1 %}
+          {% assign prevItemIndex = currentItemIndex | minus: 1 %}
+          {% assign prevPost = pagination[prevItemIndex] %}
+        {% endif %}
+
+        {% if nextflag == 1 %}
+          {% assign nextItemIndex = currentItemIndex | plus: 1 %}
+          {% assign nextPost = pagination[nextItemIndex] %}
+        {% endif %}
+        
+        {% if prevPost.url %}
+        <div class="post-pagination-item col-2-8">
+          <h4 class="sub-headline sub-headline-gray">Previous Presentation</h4>
+          <a class="alt-title alt-title-small alt-title-light" rel="prev" href="{{ prevPost.url }}">{{ prevPost.title }}</a>
+          <h5 class="alt-title alt-title-small alt-title-gray">
+            {% for item in prevPost.speaker %}
+            <span>{{ item.name }}</span>
+            {% endfor %}
+          </h5>
+        </div>
+        {% endif %}
+
+        {% if nextPost.url %}
+        <div class="post-pagination-item col-2-8 col-left-space">
+          <h4 class="sub-headline sub-headline-gray">Next Presentation</h4>
+          <a class="alt-title alt-title-small alt-title-light" rel="next" href="{{ nextPost.url }}">{{ nextPost.title }}</a>
+          <h5 class="alt-title alt-title-small alt-title-gray">
+            {% for item in nextPost.speaker %}
+            <span>{{ item.name }}</span>
+            {% endfor %}
+          </h5>
+        </div>
+        {% endif %}
+      <div>
+
+    </section>
+
+  </article>
 </section>

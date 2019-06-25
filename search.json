@@ -1,6 +1,7 @@
 ---
-layout: null
+layout: 
 ---
+
 [
   {% for post in site.posts %}
     {
@@ -8,7 +9,7 @@ layout: null
       "url"      : "{{ site.baseurl }}{{ post.url }}",
       "date"     : "{{ post.date }}",
       "path"     : "{{ post.url }}"
-    } {% unless forloop.last %},{% endunless %}
+    }{% unless forloop.last %},{% endunless %}
   {% endfor %}
   ,
   {% for page in site.pages %}
@@ -18,16 +19,6 @@ layout: null
         "url"      : "{{ site.baseurl }}{{ page.url }}",
         "path"     : "{{ page.permalink }}"
      {% endif %}
-   } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
-  ,
-  {% for speaker in site.data.speakers %}
-   {
-     {% if speaker.name != nil %}
-        "title"    : "{{ speaker.name }}",
-        "url"      : "{{ site.baseurl }}/{{ speaker.permalink }}",
-        "path"     : "{{ speaker.permalink }}"
-     {% endif %}
-   } {% unless forloop.last %},{% endunless %}
+   }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]

@@ -1,0 +1,398 @@
+/* BODY */
+p {
+	font-family: 'latoregular', sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 38px;
+	color: $light-gray;
+
+	margin-bottom: 19px;
+
+	@include media-query($mobile) {
+		line-height: 32px;
+	}
+
+	&:last-of-type {
+		margin-bottom: 0;
+	}
+	&.spacing-bottom:last-of-type {
+		margin-bottom: 24px;
+	}
+
+	@include media-query-min($giant) {
+		font-size: 23px;
+		line-height: 45px;
+	}
+
+	b {
+		font-family: 'latoblack', sans-serif;
+		font-weight: normal;
+	}
+
+	a {
+		font-family: 'latobold', sans-serif;
+		font-weight: normal;
+		color: $white;
+		text-decoration: underline;
+
+		@include transition-ease;
+
+		&:hover {
+			color: $yellow;
+		}
+	}
+}
+
+p.content-intro {
+	font-size: 23px;
+	line-height: 38px;
+	margin-bottom: 38px;
+
+	@include media-query($mobile) {
+		font-size: 18px;
+		line-height: 32px;
+	}
+}
+
+/* TITLE */
+.title {
+	font-family: 'latoblack', sans-serif;
+	font-size: 47px;
+	font-weight: normal;
+	line-height: 79px;
+
+	&-yellow {
+		color: $yellow;
+	}
+	&-white {
+		color: $white;
+	}
+
+	@include media-query($mobile) {
+		font-size: 32px;
+		line-height: 56px;
+	}
+}
+.subtitle {
+	font-family: 'latoblack', sans-serif;
+	font-size: 29px;
+	font-weight: normal;
+	line-height: 53px;
+
+	@include media-query($medium) {
+		font-size: 21px;
+		line-height: 32px;
+	}
+	
+	&-yellow {
+		color: $yellow;
+	}
+	&-white {
+		color: $white;
+	}
+}
+.alt-title {
+	font-family: 'latoregular', sans-serif;
+	font-size: 23px;
+	font-weight: normal;
+	line-height: 45px;
+	color: $white;
+
+	&-small {
+		font-size: 18px;
+		line-height: 38px;
+
+		@include media-query($medium) {
+			font-size: 15px;
+			line-height: 24px;
+		}
+	}
+	&-light {
+		color: $light-gray;
+	}
+	&-yellow {
+		color: $yellow;
+	}
+	&-red {
+		color: $red;
+	}
+	&-gray {
+		color: $gray;
+	}
+}
+
+/* HEADING */
+.heading {
+	font-family: 'latoblack', sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 27px;
+	//letter-spacing: 0.045em;
+	color: $white;
+
+	@include media-query-min($giant) {
+		font-size: 21px;
+		line-height: 32px;
+	}
+
+	&-yellow {
+		color: $yellow;
+	}
+	&-small {
+		font-size: 11px;
+		line-height: 32px;
+	}
+	&-capped {
+		text-transform: uppercase;
+		letter-spacing: 2px;
+	}
+}
+.sub-heading {
+	font-family: 'latoblack', sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 32px;
+}
+
+/* HEADLINE */
+.headline {
+	font-family: 'latoblack', sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 37px;
+	letter-spacing: 2px;
+	color: $yellow;
+	text-transform: uppercase;
+
+	&-spacing-bottom {
+		margin-bottom: 12px;
+	}
+
+	&-small {
+		font-size: 14px;
+		line-height: 32px;
+		text-transform: none;
+		letter-spacing: 0;
+	}
+	&-light {
+		color: $light-gray;
+	}
+
+	@include media-query($mobile) {
+		font-size: 14px;
+		line-height: 28px;
+	}
+}
+
+.sub-headline {
+	font-family: 'latobold', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: italic;
+	line-height: 32px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: $light-gray;
+
+	@include media-query-min($giant) {
+		font-size: 14px;
+	}
+
+	@include media-query($mobile) {
+		font-size: 12px;
+		line-height: 24px;
+	}
+
+	&-yellow {
+		color: $yellow;
+	}
+	&-red {
+		color: $red;
+	}
+	&-gray {
+		color: $gray;
+	}
+	&-small {
+		font-size: 12px;
+		line-height: 24px;
+	}
+}
+
+/* MISC */
+.card-item-list {
+	font-family: 'latoregular', sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 38px;
+	color: $white;
+
+	list-style: none;
+
+	@include media-query-min($giant) {
+		font-size: 21px;
+		line-height: 38px;
+	}
+
+	li {
+
+		&:before {
+			content: '-';
+			padding-right: 8px;
+			color: $gray;
+		}
+
+		span {
+			display: inline-block;
+			margin-right: 6px;
+		}
+	}
+}
+
+.speaker-title {
+	font-family: 'latoblack', sans-serif;
+	font-size: 23px;
+	font-weight: normal;
+	line-height: 36px;
+	color: $yellow;
+
+	@include media-query-min($giant) {
+		font-size: 29px;
+		line-height: 45px;
+	}
+}
+.speaker-name {
+	font-family: 'latoblack', sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 32px;
+	letter-spacing: .45px;
+	color: $white;
+
+	span {
+
+		&:last-of-type {
+			&:before {
+				display: inline-block;
+				content: '&';
+				margin: 0 6px 0 0;
+			}
+		}
+		&:first-of-type {
+			&:before {
+				display: none;
+			}
+		}
+	}
+
+	@include media-query-min($giant) {
+		font-size: 21px;
+		line-height: 38px;
+	}
+}
+.speaker-role {
+	font-family: 'latobold', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: italic;
+	line-height: 21px;
+	color: $gray;
+	letter-spacing: 0.045em;
+
+	@include media-query-min($giant) {
+		font-size: 16px;
+		line-height: 24px;
+	}
+}
+
+// LISTS //
+
+.clean-list {
+	display: block;
+	list-style: none;
+
+	li {
+		margin-bottom: 8px;
+	}
+}
+.faq-list {
+	display: block;
+	margin-bottom: 24px;
+	list-style: none;
+
+	&-heading {
+		font-family: 'latoblack', sans-serif;
+		font-weight: normal;
+	}
+	&-item {
+		display: block;
+		padding-left: 24px;
+		box-sizing: border-box;
+		color: $light-gray;
+
+		&:before {
+			display: inline-block;
+			content: '';
+			width: 12px;
+			height: 1px;
+			border-radius: 2px;
+			background: $yellow;
+			margin-bottom: 4px;
+			margin-left: -24px;
+			margin-right: 12px;
+		}
+	}
+}
+.stroke-list {
+	display: block;
+	list-style: none;
+	margin-bottom: 24px;
+
+	&-heading {
+		font-family: 'latoblack', sans-serif;
+		font-weight: normal;
+		margin-bottom: 8px;
+	}
+
+	&-item {
+		display: block;
+		padding-left: 24px;
+		box-sizing: border-box;
+		color: $light-gray;
+		margin-bottom: 8px;
+
+		@include media-query-min($giant) {
+			font-size: 23px;
+			line-height: 36px;
+		}
+
+
+		&:before {
+			display: inline-block;
+			content: '';
+			width: 12px;
+			height: 1px;
+			border-radius: 2px;
+			background: $yellow;
+			margin-bottom: 4px;
+			margin-left: -24px;
+			margin-right: 12px;
+		}
+	}
+}
+
+.spacing-bottom {
+	margin-bottom: 24px;
+}
+.spacing-left {
+	margin-left: 24px;
+}
+
+.duo-columns {
+	column-count: 2;
+	column-gap: 24px;
+
+	@include media-query($mobile) {
+		column-count: 1;
+	}
+}
+

@@ -1,88 +1,118 @@
 ---
 layout: default
 ---
+
 <section class="content">
 
-<div class="sec-head sec-head-single-post">
-    <h4>{% if page.categories contains "press" %}Press{% endif %}{% if page.categories contains "news" %}News{% endif %}</h4>
-</div>
+  <ul class="pagination-nav">
+    <li><a href="/">Home</a></li>
+    <li><a href="/news">News</a></li>
+    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
 
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  </ul>
 
-  <aside class="sidebar box-left">
-    <ul class="meta-data--news">
-      <li><h4>Published</h4><span class="post-time">{{ page.date | date: "%-d %b %-Y" }}</span></li>
-      <li><h4>Written By</h4><span class="post-author">{{ page.author }}</span></li>
+  <article class="post col-8-8 column-block" itemscope itemtype="http://schema.org/BlogPosting">
 
-      {% if page.download != null %}
-      <li>
-        <h4>Post Attachments</h4>
-          <span><a href="{{ site.baseurl }}/assets/pdf/{{ page.download }}" target="_blank">{% if page.categories contains "news" %}Download PDF{% endif %}</a></span>
-      </li>
-      {% endif %}
-      
-      {% if page.pdf != null %}
-      <li>
-        <h4>Post Attachments</h4>
+    <aside class="sidebar col-2-8 column-block-item">
+
+      <div class="post-meta">
+        
+        <div class="post-meta-item">
+          <h4 class="sub-headline sub-headline-gray">Published</h4>
+          <span class="alt-title alt-title-small alt-title-light">{{ page.date | date: "%-d %b %-Y" }}</span>
+        </div>
+
+        {% if page.download != null %}
+        <div class="post-meta-item">
+          <h4 class="sub-headline sub-headline-gray">Post Attachments</h4>
+          <a href="{{ site.baseurl }}/assets/pdf/{{ page.download }}" target="_blank" class="alt-title alt-title-small alt-title-light">{% if page.categories contains "news" %}Download PDF{% endif %}</a>
+        </div>
+        {% endif %}
+
+        {% if page.pdf != null %}
+        <div class="post-meta-item">
+          <h4 class="sub-headline sub-headline-gray">Post Attachments</h4>
           {% for file in page.pdf %}
-            {% if file.english != null %}<span><a href="{{ site.baseurl }}/assets/pdf/{{ file.english }}" target="_blank">English PDF</a></span>{% endif %}
-            {% if file.swedish != null %}<span><a href="{{ site.baseurl }}/assets/pdf/{{ file.swedish }}" target="_blank">Swedish PDF</a></span>{% endif %}
+
+          {% if file.english != null %}<a href="{{ site.baseurl }}/assets/pdf/{{ file.english }}" target="_blank" class="alt-title alt-title-small alt-title-light">English PDF</a>{% endif %}
+
+          {% if file.swedish != null %}<a href="{{ site.baseurl }}/assets/pdf/{{ file.swedish }}" target="_blank" class="alt-title alt-title-small alt-title-light">Swedish PDF</a>{% endif %}
+
           {% endfor %}
-      </li>
-      {% endif %}
-    </ul>
+        </div>
+        {% endif %}
 
-    {% if page.categories contains "press" %}
-    <div class="post-contact-details">
-      <p>For more info contact:</p>
-      <ul>
-        <li>Maria Engstrom Ostby</li>
-        <li>Press Officer</li>
-        <li>press@cs3sthlm.se</li>
-        <li>+46(0)70 512 42 93</li>
-      </ul>
-      <p>www.cs3sthlm.se</p>
-    </div>
-    {% endif %}
+        <div class="post-meta-item">
+          <h4 class="sub-headline sub-headline-gray">Written By</h4>
+          <span class="alt-title alt-title-small alt-title-light">{{ page.author }}</span>
+        </div>
 
-  </aside>
+        {% if page.categories contains "press" %}
+        <div class="post-meta-item post-meta-item-contact">
+          <h4 class="sub-headline sub-headline-gray">For more info contact</h4>
 
-  <div class="post-content" itemprop="articleBody">
-    <header class="post-header">
-      <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-    </header>
-    
-    {{ content }}
+          <ul class="stroke-list">
+            <li class="stroke-list-item">Maria Engstrom Ostby</li>
+            <li class="stroke-list-item">Press Officer</li>
+            <li class="stroke-list-item">press@cs3sthlm.se</li>
+            <li class="stroke-list-item">+46(0)70 512 42 93</li>
+          </ul>
 
-    <div class="news-pagination">
-    {% if page.previous.url %}
-      <span class="previous-post"><a href="{{ site.baseurl }}{{ page.previous.url }}">{{ page.previous.title }}</a></span>
-    {% endif %}
+        </div>
+        {% endif %}
 
-    {% if page.next.url %}
-      <span class="next-post"><a href="{{ site.baseurl }}{{ page.next.url }}">{{ page.next.title }}</a></span>
-    {% endif %}
-    </div>
-  </div>
+      </div>
 
-  <aside class="sidebar box-right">
-    <h4>Latest News</h4>
+      <div class="post-meta post-meta-more-news">
 
-    <ul>
-    {% for post in site.categories.news limit:10 %}
-      <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-    {% endfor %}
-    </ul>
+        <div class="post-meta-item">
+          <h4 class="sub-headline sub-headline-gray spacing-bottom">More news</h4>
 
-    <h4>Latest Press</h4>
+          {% for post in site.categories.news limit: 5 %}
+          <a href="{{ post.url }}" class="post-meta-item post-meta-item-link">
+            <span class="headline headline-small">{{ post.title }}</span>
+            <span class="sub-headline sub-headline-small">{{ post.date | date: "%-d %B %-Y" }}</span>
+          </a>
+          {% endfor %}
 
-    <ul>
-    {% for post in site.categories.press limit:10 %}
-      <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-    {% endfor %}
-    </ul>
+          <a href="/news" class="button button-primary">View all news</a>
 
-  </aside>
+        </div>
 
-</article>
+      </div>
+
+    </aside>
+
+    <section class="post-content column-block-item col-5-8 spacing-left" itemprop="articleBody">
+
+      <header class="post-header">
+        <h1 class="title title-yellow" itemprop="name headline">{{ page.title | escape }}</h1>
+      </header>
+
+      <div class="post-section">
+      {{ content }}
+      </div>
+
+      <div class="post-pagination col-5-8">
+        {% if page.previous.url %}
+        <div class="post-pagination-item col-2-8">
+          <h4 class="sub-headline sub-headline-gray">Previous Post</h4>
+          <span class="post-pagination-item-previous"><a href="{{ site.baseurl }}{{ page.previous.url }}" class="alt-title alt-title-small alt-title-light">{{ page.previous.title }}</a></span>
+          <h5 class="sub-headline sub-headline-small sub-headline-gray">{{ page.previous.date | date: "%-d %B %-Y" }}</h5>
+        </div>
+        {% endif %}
+
+        {% if page.next.url %}
+        <div class="post-pagination-item col-2-8 col-left-space">
+          <h4 class="sub-headline sub-headline-gray">Next Post</h4>
+          <span class="post-pagination-item-next"><a href="{{ site.baseurl }}{{ page.next.url }}" class="alt-title alt-title-small alt-title-light">{{ page.next.title }}</a></span>
+          <h5 class="sub-headline sub-headline-small sub-headline-gray">{{ page.next.date | date: "%-d %B %-Y" }}</h5>
+        </div>
+        {% endif %}
+      </div>
+
+    </section>
+
+  </article>
+
 </section>

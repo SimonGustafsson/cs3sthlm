@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<section class="content">
+
+<article class="blog" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <div class="blog-content" itemprop="articleBody">
+    <header class="blog-header">
+      <h1 class="blog-title" itemprop="name headline">{{ page.title | escape }}</h1>
+    </header>
+    
+    {{ content }}
+
+  </div>
+
+</article>
+</section>

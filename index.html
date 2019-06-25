@@ -1,187 +1,419 @@
 ---
-layout: home
 title: Home
+layout: home
 id: home
 ---
 
-<section class="introduction content">
+<section class="introduction content col-8-8">
 
    <div class="intro-mark">
-    <span class="headline-mark">5<span>th</span> Year</span>
-    <div class="headline-row"><span class="highlighted">4</span>Days</div>
-    <div class="headline-row"><span class="highlighted">Top</span>Speakers</div>
   
     <div class="subject-row">
-      <h2>22-25 October 2018<span>Nalen, Stockholm</span></h2>
+      <div class="intro-mark-block">
+        <h4 class="intro-mark-date"><span class="icon icon-calender">{% include calender.html %}</span>21-24 October 2019</h4>
+        <h4 class="intro-mark-date"><span class="icon icon-map-pin">{% include map-pin.html %}</span>Nalen in Stockholm, Sweden</h4>
+      </div>
 
-      <h3>Organized by Omnisiens</h3>
+      <h2 class="intro-mark-title">The Premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure</h2>
+
+      <h3 class="intro-mark-subtitle">Organized by <a href="https://omnisiens.se" target="_blank">Omnisiens</a></h3>
     </div>
 
-    <div class="btn-group btn-group-intro">
-      <a href="mailto:info@cs3sthlm.se?subject=Interested to become part of CS3STHLM&body=GDPR Notice: By sending this mail I acknowledge that the company Omnisiens AB, running the conference CS3sthlm, have the right to store and use my personal identifiable information for information related to CS3sthlm, conferences, training and courses, etc." class="btn btn-blue">Keep Me Posted!</a>
-      <a href="https://tickets.4sics.se/sales/default.php" class="btn btn-primary btn-yellow" target="_blank">Earliest Bird - Buy Tickets</a>
+    <div class="button-group button-group-intro">
+      <a href="mailto:info@cs3sthlm.se?subject=Interested to become part of CS3STHLM&body=GDPR Notice: By sending this mail I acknowledge that the company Omnisiens AB, running the conference CS3sthlm, have the right to store and use my personal identifiable information for information related to CS3sthlm, conferences, training and courses, etc." class="button button-blue">Keep Me Posted!</a>
+      <a href="{{ site.baseurl }}/thank-you" class="button button-primary button-red">CS3STHLM 2018<span> - YouTube</span></a>
+      <a href="https://tickets.cs3sthlm.se/" class="button button-primary button-yellow" target="_blank">Buy Tickets</a>
     </div>
   </div>
 
   <div class="feed-news">
+    <h3>Recent News</h3>
     <ul>
-      {% for post in site.posts limit:5 %}
+      {% for post in site.posts limit:4 %}
       <li>
-        <a href="{{ site.baseurl }}{{ post.url }}"><span class="feed-category category-{{ post.categories | join: ' ' }}">{{ post.categories }}</span><p>{{ post.title }}</p><span class="read-more-icon"></span></a>
+        <a href="{{ site.baseurl }}{{ post.url }}"><span class="feed-date">{{ post.date | date: "%-d %B %-Y" }}</span><span class="feed-category category-{{ post.categories | join: ' ' }}">{{ post.categories }}</span><span class="feed-title">{{ post.title }}</span></a>
       </li>
       {% endfor %}
     </ul>
+    <div class="button-group">
+      <a href="{{ site.baseurl }}/news" class="button button-primary">View all news</a>
+    </div>
   </div>
 
 </section>
 
-<section class="about content">
+<section class="content col-8-8">
 
-  <div class="sec-head">
-    <h4>About</h4>
-    <h2>The Summit</h2>
-
-    <div class="col-3-6 col-ml-1">
-      <p>CS3STHLM – the Stockholm international summit on Cyber Security in SCADA and Industrial Control Systems - is an annual summit that gather the most important stakeholders across critical processes and industries. CS3STHLM has been organized since 2014, and has quickly become the premier ICS Security Summit in Northern Europe!</p>
-    </div>
+  <div class="content-header">
+    <h2 class="title title-yellow">The Summit</h2>
   </div>
 
-  <div class="sec-content sec-columns">
-    <div class="sec-columns-inner">
+  <div class="column-block">
 
-    <div class="column-item">
-      <input type="checkbox" id="row-one" />
-      <label for="row-one">Why Attend?</label>
-      <h3>Why Attend?</h3>
-      <span class="column-icon-plus"></span>
+    <div class="column-block-item col-5-8">
+      <p class="content-intro col-4-8">CS3STHLM – the Stockholm international summit on Cyber Security in SCADA and Industrial Control Systems - is an annual summit that gather the most important stakeholders across critical processes and industries. CS3STHLM has been organized since 2014, and has quickly become the premier ICS Security Summit in Northern Europe!</p>
 
-      <div class="column-content">
-        <div class="column-block-item">
-          <p>The CS3STHLM summit gives you a great opportunity to experience international top-speakers and meet the most experienced experts in the field.</p>
-
-          <p>Robert Malmgren and Erik Johansson, two leading Swedish industrial security specialists, are the organizers of CS3STHLM. Their practical experiences are fundamental for the success of this summit.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="column-item">
-      <input type="checkbox" id="row-two" />
-      <label for="row-two">What Will You Learn?</label>
-      <h3>What Will You Learn?</h3>
-      <span class="column-icon-plus"></span>
-
-      <div class="column-content">
-        <div class="column-block-item">
-          <p>CS3STHLM offers four days full of opportunities for increased knowledge - two days of practical tutorials followed by two days of presentations by top speakers from the ICS field.</p>
-
-          <p>CS3STHLM is a summit that offers generous time for lectures, networking and exchange of experiences on todays challenges in regard to ICS/SCADA security, together with practical advises on how to go about to manage them. The summit is built up by a mix of presentations from two stages, practical demonstrations in the ICS lab, lightning talks and the Hallway Track for networking.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="column-item">
-      <input type="checkbox" id="row-three" />
-      <label for="row-three">Who Should Attend</label>
-      <h3>Who Should Attend</h3>
-      <span class="column-icon-plus"></span>
-
-      <div class="column-content">
-        <div class="column-block-item">
-          <p>The participants at CS3STHLM are interested in securing control systems, critical infrastructure, automation and smart-grid. The summit gathers ICS/SCADA stakeholders across many different types of critical infrastructures.</p>
-
-          <p>CS3STHLM invites an international SCADA/ICS community, and all official communication and presentations will be in English.</p>
-        </div>
-      </div>
-    </div>
-
-    </div>
-
-  </div>
-
-  <div class="sec-content">
-
-    <div class="sec-group-details left-details">
-      <img src="{{ site.baseurl }}/assets/photos/nalen.jpg" srcset="{{ site.baseurl }}/assets/photos/nalen@2x.jpg 2x" alt="Welcome CS3STHLM at Nalen">
-      <div class="sec-group-details-content">
-        <h3>Nalen, Stockholm</h3>
-
-        <p>Once more will CS3STHLM be held in the historic venue known as “Nalen” – a house built in 1888 originally called the “National Palace” - and situated in the central part of Stockholm.</p>
-
-        <a href="{{ site.baseurl }}/practical-details" class="btn btn-primary">Practical Details</a>
-      </div>
-    </div>
-
-    <div class="sec-group-details right-details">
-      <div class="sec-group-details-content">
-        <h3>Workshops, Geek Lounge</h3>
-
-        <p>Besides all great talks you will find a lot of technical in-depths tutorials, workshop and challenges in the ICS security lab & demo area.</p>
-
-        <a href="{{ site.baseurl }}/program/workshops" class="btn btn-primary">View Workshops</a>
-      </div>
-      <img src="{{ site.baseurl }}/assets/photos/gallery/geeklounge.jpg" srcset="{{ site.baseurl }}/assets/photos/gallery/geeklounge@2x.jpg 2x" alt="Geeklounge at CS3STHLM">
-    </div>
-
-  </div>
-
-  <div class="sec-head">
-    <h4>Speakers & Trainers</h4>
-    <div class="block-head">
-      <h2 class="sub-headline">World Class</h2>
-      <div class="btn-group">
-        <a href="{{ site.baseurl }}/program/speakers/" class="btn btn-primary speaker-row">View Speakers</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="speaker--list-group">
-    {% assign sorted_speakers = site.data.speakers | sample:5 %}
-    {% for speaker in sorted_speakers %}
-    <div class="speaker--list-item">
-      <div class="speaker-block">
-        <img src="{{ site.baseurl }}/assets/speakers/{{ speaker.image }}">
-        <div class="speaker-block-data">
-          <h4>{{ speaker.type }}<span>{{ speaker.shortcode }}</span></h4>
-          <h2>{{ speaker.name }}</h2>
-        </div>
-      </div>
-      <div class="speaker-block-details">
-        <div class="speaker-block--header">
-          <h4>{{ speaker.type }}</h4>
-          <h2>{{ speaker.name }}</h2>
-          <h3>{{ speaker.role }}</h3>
-        </div>
-        <div class="speaker-block--content">
-          <div class="col-1-6">
-            <ul>
-              <li>{{ speaker.work }}</li>
-              <li>{{ speaker.country }}</li>
+      <div class="column-block column-block-bit">
+        <div class="column-block-item col-1-3">
+          <div class="card-item card-item-filled spacing-bottom">
+            <h4 class="sub-headline">Previous Summit</h4>
+            {% assign sorthistory = site.data.history | sort:'year' | reverse %}
+            {% for card in sorthistory %}
+            {% if card.type contains "summit" and card.year contains "2018" %}
+            <h2 class="title title-yellow">{{ card.year }}</h2>
+            <h3 class="heading">{{ card.location }}</h3>
+            <p>{{ card.date }}</p>
+            <ul class="card-item-list">
+              <li><span>{{ card.nr-topics }}</span>Topics</li>
+              <li><span>{{ card.nr-speakers }}</span>Speakers</li>
+              <li><span>{{ card.nr-workshops }}</span>Workshops</li>
+              <li><span>{{ card.nr-attendees }}</span>Attendees</li>
             </ul>
+            {% endif %}
+            {% endfor %}
+          </div>
+          <div class="card-item card-item-filled">
+            <h4 class="sub-headline">History</h4>
+            {% assign sorthistory = site.data.history | sort:'year' | reverse %}
+            {% for card in sorthistory %}
+            {% unless card.year contains "2018" %}
+            <div class="card-details-block">
+              <h2 class="subtitle subtitle-yellow">{{ card.year }}</h2>
+              <h3 class="heading">{{ card.location }}</h3>
+              <p>{{ card.date }}</p>
+            </div>
+            {% endunless %}
+            {% endfor %}
+          </div>
+        </div>
+
+        <div class="column-block-item col-2-3">
+          <div class="card-item card-item-filled spacing-bottom">
+            <h4 class="sub-headline">Summit 2018 Keynote Speaker</h4>
+            {% assign keynote = site.data.archive %}
+            {% for item in keynote %}
+            {% if item.type contains "keynote" and item.when contains "2018" %}
+            <div class="card-item-details">
+              {% for item in item.presentation %}
+              {% for item in item.yearfive %}
+              <h2 class="speaker-title">{{ item.subject }}</h2>
+              {% endfor %}
+              {% endfor %}
+
+              {% for item in item.speaker %}
+              <h3 class="speaker-name">{{ item.name }}</h3>
+              <h3 class="speaker-role">{{ item.role }} at {{ item.work }}</h3>
+              {% endfor %}
+            </div>
+            {% endif %}
+            {% endfor %}
+          </div>
+          <div class="card-item card-item-filled card-item-image-top">
+            <figure class="card-item-image">
+              <img src="{{ site.baseurl }}/assets/photos/cs3sthlm-dinner-jack.jpg" srcset="{{ site.baseurl }}/assets/photos/cs3sthlm-dinner-jack@2x.jpg 2x">
+            </figure>
+            <h4 class="sub-headline headline-spacing-bottom">Summit 2018 Gala Dinner</h4>
+            <h3 class="headline">Summit Dinner</h3>
+            <p>CS3STHLM Expo enables companies and organisations to network, demonstrate valuable experiences products and services, via workshops and presentations.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="column-block-item col-3-8">
+      <div class="column-block-bit">
+        <h3 class="headline">Who Should Attend?</h3>
+        <p>The participants at CS3STHLM are interested in securing control systems, critical infrastructure, automation and smart-grid. The summit gathers ICS/SCADA stakeholders across many different types of critical infrastructures.</p>
+        <p>CS3STHLM invites an international SCADA/ICS community, and all official communication and presentations will be in English.</p>
+      </div>
+
+      <div class="column-block-bit">
+        <h3 class="headline">Why Attend?</h3>
+        <p>The CS3STHLM summit gives you a great opportunity to experience international top-speakers and meet the most experienced experts in the field.</p>
+        <p>Robert Malmgren and Erik Johansson, two leading Swedish industrial security specialists, are the organizers of CS3STHLM. Their practical experiences are fundamental for the success of this summit.</p>
+      </div>
+
+      <div class="column-block-bit">
+        <h3 class="headline">What Will You Learn?</h3>
+        <p>CS3STHLM offers three days full of opportunities for increased knowledge - one day of practical tutorials followed by two days of presentations by top speakers from the ICS field.</p>
+        <p>CS3STHLM is a summit that offers generous time for lectures, networking and exchange of experiences on todays challenges in regard to ICS/SCADA security, together with practical advises on how to go about to manage them. The summit is built up by a mix of presentations from two stages, practical demonstrations in the ICS lab, lightning talks and the Hallway Track for networking.</p>
+      </div>
+    </div>
+
+  </div>
+  
+  <div class="speaker--block">
+    <div class="speaker--block-header">
+      <h3 class="headline">Speakers of 2019</h3>
+      <a href="{{ site.baseurl }}/program/speakers/" class="button button-primary speaker-row">View All Speakers</a>
+    </div>
+
+    <div class="speaker speaker-group col-8-8">
+
+    {% assign sorted_speakers = site.data.speakers | sample: 6 %}
+    {% for speaker in sorted_speakers %}
+    {% if speaker.type == "presentation" or speaker.type == "training" or speaker.type == "moderator" or speaker.type == "expotalk" or speaker.type == "special" %}
+      <div class="speaker-item">
+
+        <div class="speaker-item-frame">
+          <img src="{{ site.baseurl }}/assets/speakers/{{ speaker.image }}" class="speaker-item-frame-image">
+
+          <div class="speaker-item-frame-data">
+
+            {% if speaker.type == "presentation" %}
+                  <h4 class="speaker-item-frame-type">P<span>resentation</span></h4>
+                  {% endif %}
+
+                  {% if speaker.type == "training" %}
+                  <h4 class="speaker-item-frame-type">T<span>raining</span></h4>
+                  {% endif %}
+
+                  {% if speaker.type == "expotalk" %}
+                  <h4 class="speaker-item-frame-type">E<span>xpo Presentation</span></h4>
+                  {% endif %}
+
+                  {% if speaker.type == "moderator" %}
+                  <h4 class="speaker-item-frame-type">M<span>oderator</span></h4>
+                  {% endif %}
+            
+            <h2 class="speaker-name">{{ speaker.name }}</h2>
+            <h4 class="speaker-role">{{ speaker.role | truncate: 25 }} at {{ speaker.work | truncate: 30 }}</h4>
+          </div>
+        </div>
+
+        <div class="speaker-item-details">
+
+          <div class="speaker-item-header column-block-bit">
+
+            <div class="col-6-8">
+              <h2 class="heading">{{ speaker.name }}</h2>
+              <h3 class="speaker-role">{{ speaker.role }} at {{ speaker.work }}</h3>
+              <h5 class="speaker-role speaker-item-country">{{ speaker.country }}</h5>
+            </div>
+
+            <div class="col-2-8">
+              <div class="speaker-item-type-group">
+                {% if speaker.type == 'moderator' %}
+                <span class="speaker-item-type">{{ speaker.type }}</span>
+                {% endif %}
+
+                {% if speaker.type == 'presentation' %}
+                <span class="speaker-item-type">Presentation</span>
+                {% endif %}
+
+                {% if speaker.type == 'expotalk' %}
+                <span class="speaker-item-type">Expo Presentation</span>
+                {% endif %}
+
+                {% if speaker.type == 'training' %}
+                <span class="speaker-item-type">Training</span>
+                {% endif %}
+              </div>
+            </div>
+
           </div>
 
-          <div class="col-3-6">
-            <p>{{ speaker.bio }}</p>
-          </div>
+          <div class="speaker-item-content">
 
-            {% if speaker.title != null %}
-            <div class="col-2-6">
-              <h4 class="headline">{{ speaker.type }}</h4>
-              <a href="{{ site.baseurl }}/{{ speaker.permalink }}" class="speaker-permalink">{{ speaker.title }}</a>
+            {% if speaker.bio != null %}
+            <div class="col-8-8 column-block-bit">
+
+              <h4 class="sub-headline sub-headline-yellow">Biography</h4>
+              <p class="duo-columns">{{ speaker.bio }}</p>
+
             </div>
             {% endif %}
 
+            {% if speaker.type == "special" %}
+            <div class="col-4-8">
+              <h4 class="sub-headline sub-headline-yellow">Dinner Presentation</h4>
+              <span class="speaker-permalink">{{ speaker.specialtitle }}</span>
+
+              <p>Image taken by <a href="{{ speaker.photourl }}">Kate Gabor</a></p>
+            </div>          
+            {% endif %}
+
+            {% for item in speaker.presentation %}
+            {% if item.active == "live" %}
+            <div class="col-4-8">
+              <h4 class="sub-headline sub-headline-yellow">Presentation</h4>
+              <a href="{{ site.baseurl }}/{{ item.permalink }}" class="speaker-item-link">{{ item.subject }}</a>
+              {% if item.partner != null %}
+              <span class="sub-headline sub-headline-small sub-headline-light">with {{ item.name }}</span>
+              {% endif %}
+            </div>          
+            {% endif %}
+            {% endfor %}
+
+            {% for item in speaker.presentation-second %}
+            {% if item.active == "live" %}
+            <div class="col-4-8">
+              <a href="{{ site.baseurl }}/{{ item.permalink }}" class="speaker-item-link">{{ item.subject }}</a>
+              {% if item.partner != null %}
+              <span class="sub-headline sub-headline-small sub-headline-light">with {{ item.name }}</span>
+              {% endif %}
+            </div>          
+            {% endif %}
+            {% endfor %}
+
+
+            {% for item in speaker.training %}
+            {% if item.active == "live" %}
+            <div class="col-4-8">
+              <h4 class="sub-headline sub-headline-yellow">Training</h4>
+              <a href="{{ site.baseurl }}/{{ item.permalink }}" class="speaker-item-link">{{ item.subject }}</a>
+              {% if item.partner != null %}
+              <span class="sub-headline sub-headline-small sub-headline-light">with {{ item.name }}</span>
+              {% endif %}
+            </div>        
+            {% endif %}
+            {% endfor %}
+
+          </div>
+
+          <a href="#!" class="modal-close">Close<span></span></a>
+
         </div>
-        <a href="#!" class="modal-close">Close<span></span></a>
+
       </div>
-    </div>
+
+    {% endif %}
     {% endfor %}
-    <div class="speaker--list-item speaker--list-item-special">
-      <div class="speaker-block">
-        <div class="speaker-block-data">
-          <a href="{{ site.baseurl }}/program/speakers/" class="special">View More Speakers</a>
+    </div>
+  </div>
+
+</section>
+
+<section class="content col-8-8">
+
+  <div class="content-header">
+    <h2 class="title title-yellow">The Expo</h2>
+  </div>
+
+  <div class="column-block">
+
+    <div class="column-block-item col-5-8">
+      <p class="content-intro col-4-8">At the CS3STHLM Expo 2019, an ICS Cyber Security Expo in Stockhom, you get an overview of threats and different protection that's available on the market. Here you will meet both researchers, vendors and experts who share their experiences of best practice and trends in IT security for critical parts of society.</p>
+
+      <div class="column-block">
+        <div class="column-block-item col-1-3">
+          <div class="card-item card-item-filled">
+            <h4 class="sub-headline">Previous Expo</h4>
+            {% assign sorthistory = site.data.history | sort:'year' | reverse %}
+            {% for card in sorthistory limit: 1 %}
+            {% if card.type contains "expo" and card.year contains "2018" %}
+            <h2 class="title title-yellow">{{ card.year }}</h2>
+            <h3 class="heading">{{ card.location }}</h3>
+            <p>{{ card.date }}</p>
+            <ul class="card-item-list">
+              <li><span>{{ card.nr-speakers }}</span>Speakers</li>
+              <li><span>{{ card.nr-partners }}</span>Expo Partners</li>
+              <li><span>{{ card.nr-attendees }}</span>Attendees</li>
+            </ul>
+            {% endif %}
+            {% endfor %}
+            <a href="{{ site.baseurl }}/expo/" class="button button-primary button-yellow">Free Entrance</a>
+          </div>
+        </div>
+
+        <div class="column-block-item col-2-3">
+          <div class="card-item card-item-filled">
+            <h4 class="sub-headline">Expo 2018 Presentations</h4>
+            {% assign presentation = site.data.archive %}
+            {% for item in presentation %}
+            {% if item.type contains "presentation" and item.type contains "expo" %}
+            <div class="card-item-details">
+              {% for item in item.presentation %}
+              {% for item in item.yearfive %}
+              <h2 class="speaker-title">{{ item.subject }}</h2>
+              {% endfor %}
+              {% endfor %}
+
+              {% for item in item.speaker %}
+              <h3 class="speaker-name">{{ item.name }}</h3>
+              <h3 class="speaker-role">{{ item.role }} at {{ item.work }}</h3>
+              {% endfor %}
+            </div>
+            {% endif %}
+            {% endfor %}
+          </div>
         </div>
       </div>
     </div>
+
+    <div class="column-block-item col-3-8">
+      <div class="column-block-bit">
+        <figure class="column-block-image image-square">
+          <span class="fade-block top-fade"></span>
+          <img src="{{ site.baseurl }}/assets/photos/cs3sthlm-expo-door.jpg" srcset="{{ site.baseurl }}/assets/photos/cs3sthlm-expo-door@2x.jpg 2x">
+          <span class="fade-block bottom-fade"></span>
+        </figure>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="content col-8-8">
+
+  <div class="column-block">
+
+    <div class="column-block-item col-4-8">
+      <div class="content-header">
+        <h2 class="title title-yellow">The ICS Lab</h2>
+      </div>
+      <p class="content-intro col-4-8">The Security Lab is, of course, returning to the CS3STHLM summit of 2019. We plan to add even more ICS and ICS communication equipment to the lab, and we working on extending the IoT security part further.</p>
+
+      <div class="column-block-bit">
+        <figure class="column-block-image">
+          <span class="fade-block top-fade"></span>
+          <img src="{{ site.baseurl }}/assets/photos/cs3sthlm-ics-lab.jpg" srcset="{{ site.baseurl }}/assets/photos/cs3sthlm-ics-lab@2x.jpg 2x">
+          <span class="fade-block bottom-fade"></span>
+        </figure>
+      </div>
+
+
+
+    </div>
+
+    <div class="column-block-item col-4-8">
+      <div class="content-header">
+        <h2 class="title title-yellow">The Trainings</h2>
+      </div>
+      <p class="content-intro col-4-8">Between 21 and 22 of October, the days before the summit, we will provide different full-day tutorials and training with world-renowned experts. We have tutorials in a number of different areas such as forensics in computers and in networks, introduction to cybersecurity standards, and information gathering. The tutorials ranging from theoretical overviews via hands-on practical to highly technical classes.</p>
+
+      <div class="column-block">
+        {% assign training = site.data.trainings | sort: 'year' | reverse %}
+        {% for card in training limit: 2 %}
+        <div class="column-block-item col-2-8 card-item-training">
+          <div class="card-item card-item-filled">
+            {% for item in card.training %}
+            {% if item.date contains "-" %} 
+            <h4 class="sub-headline">Two Days - {{ item.date }}</h4>
+            {% else %}
+            <h4 class="sub-headline">One Day - {{ item.date }}</h4>
+            {% endif %}
+            <h2 class="speaker-title">{{ item.subject }}</h2>
+            {% endfor %}
+            <h3 class="speaker-name">
+            {% for item in card.author %}
+            <span>{{ item.name }}</span>
+            {% endfor %}
+            </h3>
+            {% for item in card.training %}
+            <p>{{ item.description | truncatewords: 14 }}</p>
+            {% endfor %}
+
+            <a href="{{ site.baseurl }}/" class="button button-primary">View Details</a>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+
   </div>
 
 </section>

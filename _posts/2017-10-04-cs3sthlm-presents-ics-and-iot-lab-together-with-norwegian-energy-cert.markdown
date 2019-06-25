@@ -1,13 +1,15 @@
 ---
-layout: post
 title: CS3STHLM Presents ICS- and IoT Lab together with Norwegian Energy CERT
-date: 2017-10-04 06:00:00 +0200
-categories: press
-pdf: 
- - english: press-04-04-10-2017-en.pdf
- - swedish: press-04-04-10-2017-sv.pdf
+date: 2017-10-04 04:00:00 Z
+categories:
+- press
+layout: post
+pdf:
+- english: press-04-04-10-2017-en.pdf
+- swedish: press-04-04-10-2017-sv.pdf
 author: Maria Engstrom Ostby
 ---
+
 In the light of growing vulnerabilities, this year's top summit on Cyber Security in Industrial Control Systems and Critical Infrastructure will give delegates possibilities to partake in real-time simulations and challenges in an updated and bigger ICS lab. The lab is hosted by ROMAB, Norwegian Energy CERT and equipment provided by the Norwegian National Security Authority, NSM. The summit takes place in Stockholm October 24-26.
 
 This year the lab is declared to be bigger, better and more interesting than ever before with added ICS and ICS communication equipment to the lab. New equipment has resulted in a simulation of communication in industrial control systems with some ICS specific protocols including OPC communication being in progress. It is also extended with a part that is for IoT security. The Internet of things, (IoT), is the network of physical devices, vehicles, and other items embedded with electronics, software, sensors, actuators, and network connectivity which enable these objects to collect and exchange data.

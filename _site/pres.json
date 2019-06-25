@@ -7,6 +7,31 @@
 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+{
+	"description": "<p>This presentation will leverage the previous 2-years of engagements from Dragos’ Threat Operations Center (TOC) to examine ICS security trends, discuss the current threat landscape, and describe common actions organizations can take to better protect, identify, and respond to advanced adversary groups specifically targeting ICS. This seminar will list the most common challenges organizations face and use case studies to describe improvements we have helped our customers implement. Dragos recognizes the ICS community is strong and learning from each other on what works is the best path to a more secure global infrastructure.</p>"
+},
+
+
+
+{
+	"description": "<p>In the past few years, the attacks to industrial control systems(ICS) has increased year by year. Most of the attacks are exploit of the insecurity of ICS protocols like Stuxnet in 2010, Triton in 2017.</p><p>In 2016, Ralf Spenneberg and et al give a presentation named PLC Blaster which demonstrates a worm lives and runs on Siemens S7-1200 PLCs, they use S7commplus protocol to transmit worms in PLCs. In this research, we proposed an attack method that a PLC can attack other different vendors’ PLCs inside the net.</p><p>If one PLC is infected, this PLC can scan the whole net to find all kinds of PLCs and send back the information back to a Command &amp;Control server. Then, once received the command from C&amp;C server, this infected PLC can do attacks to other different vendors’ PLCs. Like PLC Blaster, this malware can be spread inside the net.</p>"
+},
+
+
+
+{
+	"description": "<p>Over the last decade, two instances of industrial control system (ICS) targeted malware successfully impacted operations. Most recently, CRASHOVERRIDE targeted a Ukrainian transmission substation in December of 2016. In both cases, attackers developed malware that crafted industrial protocol packets to manipulate control systems either by hijacking the legitimate master server or hooking the network stack. Defense against properly crafted packets presents a unique challenge as many existing approaches simply analyze the integrity of a single packet. This talk will focus on what stateful analysis is and how you can add it to your detection or hunting strategy to perform deep protocol analysis. We will cover the steps necessary to begin stateful analysis and dive into thresholds you might set for detection.</p>"
+},
+
+
+
+>>>>>>> 2019
 {
 	"description": "<p>Operator stations are today one of the first systems/stations to interact with a distributed control system (DCS) or other industrial control systems. These operator stations often have some protection built in to restrict what the operator can do within the SCADA software and/or on the operating system itself.</p><p>Within this presentation, some of the most (easily) discovered ways are shown/explained and how these can be (ab)used to gain a further foothold within the environment.</p><p>The audience will learn more on the shortcomings of most of the operator jail solutions and what could be done to step up this game to secure this properly. Key takeaways obtained by the audience through this presentation is that you cannot trust operator jails in the thought that it properly protects attackers from gaining access to the operating system itself and thus potentially exploiting the whole DCS environment.</p>"
 },
@@ -17,6 +42,122 @@
 
 
 
+{
+	"description": "<p>The presentation is based on the preliminary findings of a study regarding aspects of cybersecurity in ICS supply chains at different stages of an ICS life cycle.</p>"
+},
+
+
+
+{
+	"description": "<p>“Network Segmentation” is a simple concept of 20 characters (space included). Doing it in practice and doing it right is much more difficult. Proper segmentation is much, much more than just adding a firewall.</p><p>Over the last years we spend a lot of time and money on designing and implementing network segmentation for our multi-site IT and multi-site OT networks. Not only in technical solutions, but also in the required processes for maintaining the new environment. We made some (costly) mistakes and had to rethink our design based on physical and organizational boundaries.</p><p>In this talk, we would like to present lessons-learned on the multi-million, multi-year project. It is not an official report-out, but a hands-on and practical presentation. We hope this talk will give the audience a feeling for the challenges of a proper segmentation program and help them to prevent some of the mistakes we made.</p><h4 id=\"the-following-questions-will-be-answered\">The following questions will be answered</h4><ul>  <li>How did we convince Senior Management to allocate the budget</li>  <li>What underlying architecture did we choose and why?</li>  <li>What use cases did we envision and how did we work them out?</li>  <li>What design choices were made?</li>  <li>How did this work out in reality?</li>  <li>What did we learn?</li>  <li>What would we recommend?</li>  <li>What would we do differently?</li></ul>"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -52,7 +193,13 @@
 
 
 {
-	"description": "<p>Industrial Control Systems (ICS) as well as Operational Technology (OT) are under increased risks from cyber events.  Come learn how Cyber Informed Engineering is an evolving concept to use cyber risk in designing control systems and associated protection systems.</p><p>“Cyber risks to Industrial Control Systems (ICS) and Operational Technology (OT) continue to evolve.  Whether it is the threat of ransomware taking a production system offline, or sophisticated malware targeting the safety critical components of your system.  Engineers have long designed systems to be resilient to a multitude of failure modes, and it is time that we started taking the lessons learned from cyber attacks against these systems into consideration during new system design, or legacy system retrofit.  This session will introduce this evolving concept and describe some of the standards and practices being developed and utilized.”</p>"
+	"description": "<p>As ICS defense and detection matures, both defenders and products move increasingly away from traditional IOC approaches to newer, more robust models: anomaly detection, and threat behavioral analytics. While an appropriate, defense-in-depth position would work to integrate both approaches into a single defensive schema, scarce resources and funding constraints mean that organizations will need to choose one or the other for their monitoring and detection needs.</p><p>After providing an overview of both these approaches to threat detection, this presentation will then critically evaluate what these approaches enable from a defensive perspective as specifically required for ICS networks. The result will not just be a simple ‘product type’ comparison, but rather a robust investigation of the theoretical underpinnings of these approaches, and what they enable a defender to accomplish within the monitored network. Specific details will include completeness of coverage beyond ‘known bad’ items; ability to incorporate contextualization into alerting; and capability for detecting realistic threats in the ICS environment.</p><p>To provide appropriate context to the discussion, the approaches will be compared to ICS intrusion examples as a means of evaluating their efficacy and viability. By adopting a critical approach to this evaluation, ICS defense practitioners can gain insight into the true costs and benefits of anomaly detection and threat behavior analytics. The expected result of this presentation will be an analysis of the benefits and drawbacks of these approaches with respect to the specific requirements for ICS defense, enabling attendees to evaluate relative to their own operational needs which approach works best for their environment.</p>"
+},
+
+
+
+{
+	"description": "<p>Coming soon.</p>"
 },
 
 
@@ -60,8 +207,90 @@
 
 
 {
-	"description": "<p>Abstract: Innovative and disruptive technologies are enhancing and invading our traditional industrial business model. Future infrastructure organizations will need more data to operate efficiently and succeed in the brave new interconnected world. The diversity of new technologies and data will fuel more diversity in business opportunity. Everyone expects more OT, more IOT, and more IT - and all of it is supposed to be highly reliable and secure. These factors (and more) lead to a landscape shift for the industrial cybersecurity risk profile. In this session, hear ways to recognize the problems and gain some clarity on possible solutions through historic lessons, made up words, and practical front-line experience.</p>"
+	"description": "<p>Over the past year, a concentrated effort has been focused on specific energy sector critical assets, leveraging trusted relationships within supply chains and other partnerships in an attempt to gain access to corporate and control system networks. This technical discussion will review the threat actor’s tactics and techniques observed during multiple on-site incident response engagements conducted by the DHS NCCIC Hunt and Incident Response Team related to this campaign.</p>"
 },
+
+
+
+{
+	"description": "<p>In this talk I want to sketch out the threat landscape we might be facing with inter- connected infrastructure in smart cities in the near future and give an overview of what works and what doesn‘t to tackle these security challenges.</p><p>Separating the hype from actual threats and thinking in development- and lifecycles that are sig- nificantly longer than those for our normal consumer electronics devices are a key part of this as well as bridging the language gap between automotive engineers and software developers.</p>"
+},
+
+
+
+{
+	"description": ""
+},
+
+
+
+{
+	"description": ""
+},
+
+
+
+{
+	"description": "<p>In a modern conflict, the absence of war is not the same as peace; and a robust critical infrastructure is the first line of defence. The goal of an attacking nation may not be a country or its resources; it may just as well be the freedom to operate without interference. Thus, non-traditional operations with the goal to destabilize a nation’s resolve comprises a grey area between peace and war.</p>"
+},
+
+
+
+
+
+
+
+{
+	"description": "<p>Fake base stations are often discussed as a threat for privacy of mobile phone users. However, many other devices, such as cars, lifts or industrial control systems (ICS), are increasingly using cellular connectivity. It makes some difficulties during penetration tests – even though data sent through this communication channel might be exactly the same as in case of using WiFi network, its access is much more difficult. Most security guidelines ignore this topic. It turns out that fake BTS, so often presented in a bad light, can be also used to support security examination of this communication channel. The presentation will be based on practice - built testbed and conducted experiments. In addition, hardware requirements for such environment and legal aspects in diffrent jurisdictions will be discussed.</p>"
+},
+
+
+
+{
+	"description": "<p>This presentation gauges the notion of risk in regards to proliferation of IoT attempting at being both comprehensive and yet exact. Risk is then tied to vulnerabilities and potential attack vectors typical for IoT. In conclusion, strategies for managing the described risks will be introduced. The presentation is based on a study conducted by Vidar Hedtjärn Swaling and Jessica Johansson.</p>"
+},
+
+
+
+{
+	"description": "<p>This presentation will go through key DHS incident response efforts impacting critical infrastructure over time.  Using case studies and examples, we will detail root cause analysis of these incidents and provide recommendations for remediation.  We will cover major public incidents (Ukraine, Trition, BlacEnergy, Havex…..) as well as other less known incidents DHS has worked with significance.  The target audience is critical infrastructure asset owners/operators and ICS security personnel who will take away key insights derived from DHS’s role in defending US critical infrastructure.  This presentation will contain new (especially if something happens between now and then) content as well as historical content that articulates a particular defensive lesson learned.</p>"
+},
+
+
+
+{
+	"description": "<p>Most Industrial Control System (ICS) networks require Incident Response (IR) procedures. Generally, these procedures fulfill regulatory requirements and do little to actually prepare the organization for handling an incident. Additionally, too many IR procedures relay on government programs (CERTS, committees, investigative boards). These programs may not provide the resource required and should not be considered a single point of response. This lecture will concentrate on concepts organizations should implement that decrease required resources for IR, arm responders, work with 3rd parties, and facilitate a return to operations.</p><p>This lecture will not cover general IR planning but rather focus on IR considerations within ICS. Network topologies, workflows, and approved actions differ from regular IT networks. Without understanding these differences, rash decisions during IR can have more negative impacts than the actual incident caused.</p><p>Key takeaways include action items an organization should consider when creating cybersecurity policies, IR procedures, and contract negotiations with 3rd party security vendors.</p><h4 id=\"learning-objectives\">Learning Objectives</h4><p>This session will arm participants with knowledge of common IR procedural shortfalls through case studies and examples from the field. This session will provide attendees with specific checklists for consideration when drafting IR procedures. This session will give attendees action items for enhancing existing IR procedures.</p><h4 id=\"business-impact\">Business Impact</h4><p>Planning around internal resources for incident handling is required within ICS environments and is especially important as the consequences of poor decisions can result in loss safety and even loss of life.</p>"
+},
+
+
+
+
+
+{
+	"description": "<p>If you think an air gap prevents communication out of and into your industrial control system, you are wrong.</p><p>We’ll be exploring various ways to send data across an air-gap in Industrial Control Systems and other environments, including a live demo.</p><p>Is it really possible to send data across an air-gap where no network has been connected? (No we’re not talking about wifi, bluetooth, wirelessHART etc.)</p><p>Can it be done without physical modification to your existing plant?</p><p>Can we get that paragon of virtue- a data diode -to pass information in both directions without physically touching it?</p><p>Find out.</p><h4 id=\"audience\">Audience</h4><p>Those who may have or consider an air-gap as part of their security.</p><h4 id=\"take-away\">Take Away</h4><p>A better understanding of the history of jumping air-gaps and a new attack on data diodes.</p>"
+},
+
+
+
+
+
+{
+	"description": "<p>In this principal research, we investigate the possibilities blockchain technologies pose as an infrastructure for malicious operations. We will demonstrate a POC of a fully functional C&amp;C infrastructure on top of the Ethereum network - the second largest public blockchain which also acts as a distributed computing platform featuring a smart contract functionality.</p><p>As Blockchain technologies gain more traction in recent years, it brings promise of creating a decentralized, distributed and transparent economy which aim to disrupt our current centric organizational structures and reduce middlemen.Notoriously, crypto coins have been the currency of choice on the dark web for conducting illegal transactions. But what about the underlying technology, the Blockchain? Could a distributed, public, popular, global ledger be [ab]used as the infrastructure for the ultimate command and control mechanism?</p><p>Managing a botnet is a problem in distributed computing. Once infected, a host must be able to discover, reach and maintain communication with its operator over long periods. Over the years much effort has been made to perfect these capabilities to avoiding detection, maintain anonymity and resist take downs. From plain old HTTP requests, through DIY TCP protocols and encryption, up to fancy P2P networks, DGAs, Fast Flux and cloud service use. While all these techniques have varying degree of resilience and covertness, all are vulnerable to take down once network topology has been determined. Can blockchain turn this around?</p><p>In this talk, which will include many code examples and a live demo, we will discuss:</p><ul>  <li>How can the blockchain solves the ‘first contact’ problem?</li>  <li>How to cope with the fact that all data, code and transactions are publicly visible on the blockchain?</li>  <li>What is the footprint of running a blockchain node on the client and how to minimize resources?</li>  <li>Cost analysis: Is it feasible financially to run a botnet at scale on top of a blockchain?</li>  <li>Is it takedown resilient? Can an adversary interrupt or take over the network? Or cause its resources (ether) to deplete? What are the design pitfalls to mitigate such concerns?</li>  <li>What information will be revealed to someone tracking the bot? how do you deal with it?</li>  <li>Does it scale?</li></ul><p>Finally, we will try to offer possible mitigations and detection methods.</p><p>All code in this project is be available as Open source.</p>"
+},
+
+
+
+{
+	"description": "<p>Innovative and disruptive technologies are enhancing and invading our traditional industrial business model. Future infrastructure organizations will need more data to operate efficiently and succeed in the brave new interconnected world.</p><p>The diversity of new technologies and data will fuel more diversity in business opportunity. Everyone expects more OT, more IOT, and more IT - and all of it is supposed to be highly reliable and secure. These factors (and more) lead to a landscape shift for the industrial cybersecurity risk profile. In this session, hear ways to recognize the problems and gain some clarity on possible solutions through historic lessons, made up words, and practical front-line experience.</p>"
+},
+
+
+
+
+
+
+
+
 
 
 

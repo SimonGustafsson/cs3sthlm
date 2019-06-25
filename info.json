@@ -1,6 +1,7 @@
 ---
-layout: null
+layout: 
 ---
+
 {"findyourway":[{% for item in site.data.info  %}
     {% if item.type == "findyourway" %}
     {
@@ -10,6 +11,31 @@ layout: null
       "title": "{{ item.title }}",
       "range": "{{ item.range }}",
       "description": "{{ item.description }}"
-    }{% endif %} {% unless forloop.last %},{% endunless %}
+    }{% endif %}
+
+    {% if item.type == "food" %}
+    {
+      "id":     "{{ item.id }}",
+      "group":  "{{ item.group }}",
+      "cat":    "{{ item.cat }}",
+      "day":    "{{ item.day }}",
+      "date":   "{{ item.date }}",
+      "starter": "{{ item.starter }}",
+      "main":   "{{ item.main }}",
+      "dessert": "{{ item.dessert }}",
+      "menu":   "{{ item.menu }}" 
+    }{% endif %}
+
+    {% if item.type == "partner" %}
+    { 
+      "id":      "{{ item.id }}",
+      "type":    "{{ item.type }}",
+      "level":   "{{ item.level }}",
+      "company": "{{ item.company }}",
+      "logo":    "https://cs3sthlm.se/assets/partners/{{ item.logo }}",
+      "url":     "{{ item.url }}",
+      "expo":    "{{ item.expo }}"
+    }{% endif %}{% unless forloop.last %},{% endunless %}
+
   {% endfor %}
 ]}

@@ -2,12 +2,13 @@
 title: Think like a hacker but act like an engineer
 permalink: "/program/presentations/marty-edwards/"
 layout: presentation
-speaker: 
- - name: Marty Edwards
-   role: Cybersecurity Expert
-   work: The Automation Federation
-   image: marty-edwards.png
+speaker:
+- name: Marty Edwards
+  role: Director of Strategic Initiatives
+  work: ISA
+  image: marty-edwards
 id: presentation
+published: false
 ---
 
 Industrial Control Systems (ICS) as well as Operational Technology (OT) are under increased risks from cyber events.  Come learn how Cyber Informed Engineering is an evolving concept to use cyber risk in designing control systems and associated protection systems.

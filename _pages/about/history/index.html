@@ -1,29 +1,30 @@
 ---
-layout: default
 title: History
 permalink: "/about/history/"
+layout: default
 ---
 
 <section class="content">
 
-  <div class="sec-head">
-  	<div class="block-head">
-  		<h4>History</h4>
-  		{% include breadcrumbs.html %}
-  	</div>
-    <h2>Our Past Events</h2>
-  </div>
+	{% include breadcrumbs.html %}
 
-  <div class="sec-cards">
+	<div class="content-header">
+		<div class="col-8-8">
+  			<h4 class="sub-headline">2014 - 2018</h4>
+    		<h2 class="title title-yellow">Our Past Events</h2>
+    	</div>
+    </div>
 
-  	{% assign sorted_history = site.data.history | sort:'year' | reverse %}
-  	{% for card in sorted_history %}
-	<div class="card-item">
-		<h2>{{ card.year }}</h2>
-		<h3>{{ card.location }}</h3>
-		<span class="card-item-date">{{ card.date }}</span>
+    <div class="history--block">
+  	{% assign sorthistory = site.data.history | sort:'year' | reverse %}
+  	{% for card in sorthistory %}
+  	{% if card.type == "summit" %}
+	<div class="card-item card-item-filled col-2-8">
+		<h2 class="title title-yellow">{{ card.year }}</h2>
+		<h3 class="heading">{{ card.location }}</h3>
+		<p>{{ card.date }}</p>
 
-		<ul>
+		<ul class="card-item-list">
 			<li><span>{{ card.nr-topics }}</span>Topics</li>
 			<li><span>{{ card.nr-speakers }}</span>Speakers</li>
 			<li><span>{{ card.nr-workshops }}</span>Workshops</li>
@@ -31,15 +32,14 @@ permalink: "/about/history/"
 		</ul>
 
 		{% if card.youtube != null %}
-		<a href="{{ card.youtube }}" target="_blank" class="card-item-link">View presentations at YouTube</a>
+		<a href="{{ card.youtube }}" target="_blank" class="button button-primary button-yellow">View at YouTube</a>
 		{% endif %}
 		{% if card.youtube-details != null %}
 		<span class="card-item-link">{{ card.youtube-details }}</span>
 		{% endif %}
-		<span class="card-item-subline">Organized by<a href="https://omnisiens.se" target="_blank"><span class="omnisiens-logo"></span></a></span>
 	</div>
+	{% endif %}
 	{% endfor %}
-
-  </div>
+	</div>
 
 </section>

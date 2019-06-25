@@ -1,106 +1,86 @@
 ---
-layout: default
 title: About
 permalink: "/about/"
+layout: default
 ---
 
 <section class="content">
 
-  <div class="sec-head">
-    <h4>About Us</h4>
-    <h2>ICS Conference</h2>
+  {% include breadcrumbs.html %}
 
-    <div class="col-3-6 col-ml-1">
-      <p>CS3STHLM – the Stockholm international summit on Cyber Security in SCADA and Industrial Control Systems - is an annual summit that gather the most important stakeholders across critical processes and industries. CS3STHLM has been organized since 2014, and has quickly become the premier ICS Security Summit in Northern Europe!</p>
-    </div>
-  </div>
-
-   <div class="sec-content sec-blocks">
-
-    <h4 class="sub-headline ">Past Events</h4>
-
-    <div class="sec-blocks-row">
-
-      <a href="{{ site.baseurl }}/about/history/" class="block-item">
-          <h3>2014</h3>
-          <h5>Skyddsrummet, Stockholm</h5>
-          <p>22-23 October 2014</p>
-          <span>View more</span>
-      </a>
-
-      <a href="{{ site.baseurl }}/about/history/" class="block-item">
-        <h3>2015</h3>
-        <h5>Nalen, Stockholm</h5>
-        <p>20-22 October 2015</p>
-        <span>View more</span>
-      </a>
-
-      <a href="{{ site.baseurl }}/about/history/" class="block-item">
-        <h3>2016</h3>
-        <h5>Nalen, Stockholm</h5>
-        <p>25-27 October 2016</p>
-        <span>View more</span>
-      </a>
-
-      <a href="{{ site.baseurl }}/about/history/" class="block-item">
-        <h3>2017</h3>
-        <h5>Nalen, Stockholm</h5>
-        <p>23-26 October 2016</p>
-        <span>View more</span>
-      </a> 
-
+  <div class="column-block column-block-bit">
+    <div class="col-8-8">
+      <h4 class="sub-headline">About CS3STHLM</h4>
+      <h2 class="title title-yellow">ICS Conference</h2>
     </div>
 
+    <div class="column-block-item col-4-8">
+      <p class="spacing-bottom">CS3STHLM – the Stockholm international summit on Cyber Security in SCADA and Industrial Control Systems - is an annual summit that gather the most important stakeholders across critical processes and industries. CS3STHLM has been organized since 2014, and has quickly become the premier ICS Security Summit in Northern Europe!</p>
+
+      <figure class="column-block-image image-tall">
+        <span class="fade-block top-fade"></span>
+        <img src="{{ site.baseurl }}/assets/photos/cs3sthlm-nalen.jpg" srcset="{{ site.baseurl }}/assets/photos/cs3sthlm-nalen@2x.jpg 2x">
+        <span class="fade-block bottom-fade"></span>
+      </figure>
+    </div>
+
+    <div class="column-block-item col-4-8">
+      <h4 class="headline spacing-bottom">Past Events</h4>
+
+      <div class="column-block column-block-bit past-events">
+        {% assign sorthistory = site.data.history | sort:'year' | reverse %}
+        {% for card in sorthistory %}
+        {% if card.type == "summit" %}
+        <div class="col-2-8 spacing-bottom">
+          <a href="{{ site.baseurl }}/about/history/" class="card-item card-item-filled card-item-linked">
+            <h3 class="subtitle subtitle-yellow">{{ card.year }}</h3>
+            <h5 class="heading">{{ card.location }}</h5>
+            <p>{{ card.date }}</p>
+          </a>
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+
+      <h4 class="headline">Nalen, Stockholm</h4>
+      <p class="spacing-bottom">The venue of our choice, Nalen, has a long and fascinating history. Built in 1888 it has over the years seen a wide range of events ranging from athletic competitions to religious meetings. Today Nalen hosts over a hundred concerts and conferences annually in its carefully renovated premises.</p>
+
+      <a href="{{ site.baseurl }}/practical-details/" class="button button-primary">View Practical Details</a>
+    </div>
   </div>
 
 </section>
 
 <section class="content">
 
-  <div class="sec-content">
+  <div class="column-block">
 
-    <div class="sec-group-details left-details">
-      <img src="{{ site.baseurl }}/assets/photos/speakers.png" alt="img details">
-      <div class="sec-group-details-content">
-        <h3>Speakers & Trainers</h3>
+    <div class="column-block-item col-4-8 column-block-bit">
+      <div class="column-block">
 
-        <p>We will have multiple stages with the best international speakers and trainers, having excellent social activities and provide hard-to-earn knowledge, no matter if it is deeply technical matters, sucessful solutions or policy briefs.</p>
+        <div class="column-block-item column-block-bit">
+          <h4 class="headline">Speakers & Trainers</h4>
+          <p class="spacing-bottom">We will have multiple stages with the best international speakers and trainers, having excellent social activities and provide hard-to-earn knowledge, no matter if it is deeply technical matters, sucessful solutions or policy briefs.</p>
 
-        <a href="{{ site.baseurl }}/program/speakers/" class="btn btn-primary">View Speakers</a>
+          <div class="button-group">
+            <a href="{{ site.baseurl }}/program/speakers/" class="button button-primary">View Speakers</a>
+            <a href="{{ site.baseurl }}/program/trainings/" class="button button-primary">View Trainings</a>
+          </div>
+        </div>
+
+        <div class="column-block-item">
+          <h4 class="headline">Geek Lounge - The ICS Lab</h4>
+          <p class="spacing-bottom">The Security Lab is, of course, returning to the CS3STHLM summit of 2019. We plan to add even more ICS and ICS communication equipment to the lab, and we working on extending the IoT security part further.</p>
+          <a href="{{ site.baseurl }}/ics-lab/" class="button button-primary">View the ICS Lab</a>
+        </div>
       </div>
     </div>
 
-    <div class="sec-group-details right-details">
-      <div class="sec-group-details-content">
-        <h3>Partners</h3>
-
-        <p>This will be our 4th summit and we are on the lookout for partners who wants to take an active part in the event.</p>
-
-        <a href="{{ site.baseurl }}/partners" class="btn btn-primary">View Partners</a>
-      </div>
-      <img src="{{ site.baseurl }}/assets/photos/kips.png" alt="img details">
-    </div>
-
-    <div class="sec-group-details left-details">
-      <img src="{{ site.baseurl }}/assets/photos/nalen.jpg" srcset="{{ site.baseurl }}/assets/photos/nalen@2x.jpg 2x">
-      <div class="sec-group-details-content">
-        <h3>Nalen, Stockholm</h3>
-
-        <p>Once more will CS3STHLM be held in the historic venue known as “Nalen” – a house built in 1888 originally called the “National Palace” - and situated in the central part of Stockholm.</p>
-
-        <a href="{{ site.baseurl }}/practical-details" class="btn btn-primary">Practical Details</a>
-      </div>
-    </div>
-
-    <div class="sec-group-details right-details">
-      <div class="sec-group-details-content">
-        <h3>Workshops, Geek Lounge</h3>
-
-        <p>Besides all great talks you will find a lot of technical in-depths tutorials, workshop and challenges in the ICS security lab & demo area.</p>
-
-        <a href="{{ site.baseurl }}/program/workshops" class="btn btn-primary">View Workshops</a>
-      </div>
-      <img src="{{ site.baseurl }}/assets/photos/gallery/geeklounge.jpg" srcset="{{ site.baseurl }}/assets/photos/gallery/geeklounge@2x.jpg 2x">
+    <div class="column-block-item col-4-8">
+      <figure class="card-item-image-detailed">
+        <img src="{{ site.baseurl }}/assets/photos/cs3sthlm-erwin-rik.jpg" srcset="{{ site.baseurl }}/assets/photos/cs3sthlm-erwin-rik@2x.jpg 2x">
+        <span class="card-item-image-detailed-meta sub-headline">Erwin Kooi & Rik van Hees at cs3sthlm 2018</span>
+      </figure>
     </div>
 
   </div>
