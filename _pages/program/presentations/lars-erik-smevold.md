@@ -8,4 +8,5 @@ speaker:
   work: kraftCERT
   image: lars-erik-smevold
 id: presentation
+published: false
 ---

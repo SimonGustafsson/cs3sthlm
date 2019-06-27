@@ -18,16 +18,8 @@ body {
   min-height: 100%;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
   text-rendering: optimizeLegibility !important;
-  -webkit-font-smoothing: antialiased !important;
-
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
-
   flex-direction: column;
-  -webkit-flex-direction: column;
 }
 
 h1, h2, h3, h4 {
@@ -3572,7 +3564,17 @@ a {
   &:hover {
     color: $white;
   }
+
+  &-inactive {
+    background: rgba($yellow, .5);
+    color: $dark;
+
+    &:hover {
+      text-decoration: line-through;
+    }
+  }
 }
+
 .button-blue {
   background: $blue;
   color: $blue-dark;
@@ -3696,6 +3698,7 @@ a {
   &-meta {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     margin-bottom: 38px;
 
     &:last-of-type {

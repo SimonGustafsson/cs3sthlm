@@ -8,6 +8,7 @@ speaker:
   work: FOI - Swedish Defense Research Agency
   image: jonas-almroth
 id: presentation
+published: false
 ---
 
 Coming soon.

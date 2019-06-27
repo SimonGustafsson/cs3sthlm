@@ -8,4 +8,5 @@ speaker:
   work: MSB - Swedish Civil Contingencies Agency
   image: kristina-blomqvist
 id: presentation
+published: false
 ---

@@ -15,6 +15,7 @@ speaker:
   role: Principal Threat Analyst
   work: Dragos Inc
   image: daniel-michaud-soucy.png
+published: false  
 ---
 
 This one day class is an introduction to threat hunting and incident response for ICS environments. We will overview the business and security use cases of when and why threat hunting is valuable to organizations. We will progress by applying these concepts to corporate environments and industrial environments such as transmission or distribution control facilities, or plant distributed control systems (DCS).

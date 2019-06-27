@@ -3,7 +3,7 @@ title: Network ForensICS Training
 permalink: "/program/trainings/erik-hjelmvik/"
 short-title: Network Forens<b class="highlight-white">ICS</b> Training
 layout: training
-time: 22-23 October
+date: 21-22 October
 id: training
 status: Slots Open
 speaker:

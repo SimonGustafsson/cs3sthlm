@@ -11,6 +11,7 @@ speaker:
   role: Senior Consultant
   work: GAI NetConsult GmbH
   image: stephan-beirer.png
+published: false
 ---
 
 Generation, storage, transport and distribution of electricity and gas are the most critical of all critical infrastructure processes supporting our daily life. As in every modern industry domain, energy supply is heavily dependent on industrial control systems (ICS) and the security of these systems. While many energy utilities implement an information security management system (ISMS) based on the ISO/IEC 27000 standard family, they often struggle with the inclusion of the ICS and OT domain, when they try to harmonize security management over their entire business scope. To fill this gap ISO/IEC 27019 *Information security controls for the energy utility industry* was developed. ISO/IEC 27019 is a sector specific control set for the process control system domain of the energy sector which is based on ISO/IEC 27001 and ISO/IEC 27002. 

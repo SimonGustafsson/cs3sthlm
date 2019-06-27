@@ -8,6 +8,7 @@ speaker:
   work: NSFOCUS
   image: cheng-lei
 id: presentation
+published: false
 ---
 
 In the past few years, the attacks to industrial control systems(ICS) has increased year by year. Most of the attacks are exploit of the insecurity of ICS protocols like Stuxnet in 2010, Triton in 2017.

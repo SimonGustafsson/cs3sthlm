@@ -8,6 +8,7 @@ speaker:
   work: Recorded Future
   image: jannis-utz
 id: expotalk
+published: false
 ---
 
 There has been much speculation (not to mention exaggeration) over recent years about the fabled dark web. We’ve heard how this shady underworld is the refuge of the cyber criminal elite. That this is their “Wolf’s Lair,” where they gather to plot the breaching of businesses and the hacking of celebrities amongst other activities.

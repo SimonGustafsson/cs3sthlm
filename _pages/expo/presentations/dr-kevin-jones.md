@@ -8,4 +8,5 @@ speaker:
   work: Airbus Group
   image: dr-kevin-jones
 id: expotalk
+published: false
 ---

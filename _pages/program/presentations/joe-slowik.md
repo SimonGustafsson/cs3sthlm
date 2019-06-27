@@ -8,6 +8,7 @@ speaker:
   work: Dragos Inc
   image: joe-slowik
 id: presentation
+published: false
 ---
 
 As ICS defense and detection matures, both defenders and products move increasingly away from traditional IOC approaches to newer, more robust models: anomaly detection, and threat behavioral analytics. While an appropriate, defense-in-depth position would work to integrate both approaches into a single defensive schema, scarce resources and funding constraints mean that organizations will need to choose one or the other for their monitoring and detection needs.

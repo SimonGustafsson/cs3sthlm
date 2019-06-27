@@ -48,10 +48,10 @@ layout: default
     {% for item in training %}
     <a href="{{ site.baseurl }}{{ item.permalink }}" class="card-item card-item-filled spacing-bottom card-item-linked col-4-8">
       <div class="card-item-details-row">
-        {% if item.time contains "-" %} 
-        <h4 class="sub-headline">Two Days - {{ item.time }}</h4>
+        {% if item.date contains "-" %} 
+        <h4 class="sub-headline">Two Days - {{ item.date }}</h4>
         {% else %}
-        <h4 class="sub-headline">One Day - {{ item.time }}</h4>
+        <h4 class="sub-headline">One Day - {{ item.date }}</h4>
         {% endif %}
 
         {% if item.status contains "Slots Open" %}

@@ -139,14 +139,8 @@ body {
   min-height: 100%;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
   text-rendering: optimizeLegibility !important;
-  -webkit-font-smoothing: antialiased !important;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
-  flex-direction: column;
-  -webkit-flex-direction: column; }
+  flex-direction: column; }
 
 h1, h2, h3, h4 {
   font-family: 'latoblack', Arial, sans-serif; }
@@ -2764,6 +2758,11 @@ a {
   color: #030100; }
   .button-yellow:hover {
     color: white; }
+  .button-yellow-inactive {
+    background: rgba(239, 125, 0, 0.5);
+    color: #030100; }
+    .button-yellow-inactive:hover {
+      text-decoration: line-through; }
 
 .button-blue {
   background: #5db7de;
@@ -2844,6 +2843,7 @@ a {
   .post-meta {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     margin-bottom: 38px; }
     .post-meta:last-of-type {
       margin-bottom: 0; }

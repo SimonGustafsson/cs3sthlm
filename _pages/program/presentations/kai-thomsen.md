@@ -9,6 +9,7 @@ speaker:
   work: AUDI AG
   image: kai-thomsen
 id: presentation
+published: false
 ---
 
 In this talk I want to sketch out the threat landscape we might be facing with inter- connected infrastructure in smart cities in the near future and give an overview of what works and what doesn‘t to tackle these security challenges.

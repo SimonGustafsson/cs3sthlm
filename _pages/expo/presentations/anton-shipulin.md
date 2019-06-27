@@ -8,4 +8,5 @@ speaker:
   work: Kaspersky Lab
   image: anton-shipulin
 id: expotalk
+published: false
 ---

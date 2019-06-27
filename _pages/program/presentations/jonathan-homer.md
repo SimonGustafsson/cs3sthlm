@@ -8,6 +8,7 @@ speaker:
   work: NCCIC Hunt and Incident Response Team (HIRT)
   image: jonathan-homer
 id: presentation
+published: false
 ---
 
  Over the past year, a concentrated effort has been focused on specific energy sector critical assets, leveraging trusted relationships within supply chains and other partnerships in an attempt to gain access to corporate and control system networks. This technical discussion will review the threat actor’s tactics and techniques observed during multiple on-site incident response engagements conducted by the DHS NCCIC Hunt and Incident Response Team related to this campaign.

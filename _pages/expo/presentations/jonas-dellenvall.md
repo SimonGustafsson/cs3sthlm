@@ -8,6 +8,7 @@ speaker:
   work: Advenica
   image: jonas-dellenvall
 id: expotalk
+published: false
 ---
 
 Sometimes the consequences of failure are simply not acceptable. When loss of life is at stake or when a failure means compromising highly classified secrets – the cyber security strategy must be adjusted accordingly. Much of today’s cyber security is just about reacting faster to failures.

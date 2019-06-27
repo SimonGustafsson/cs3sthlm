@@ -8,6 +8,7 @@ speaker:
   work: FOI
   image: erik-zouave
 id: presentation
+published: false
 ---
 
 The presentation is based on the preliminary findings of a study regarding aspects of cybersecurity in ICS supply chains at different stages of an ICS life cycle.

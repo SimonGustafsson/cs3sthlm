@@ -12,6 +12,7 @@ speaker:
   work: Dragos Inc
   image: daniel-michaud-soucy
 id: presentation
+published: false
 ---
 
 Over the last decade, two instances of industrial control system (ICS) targeted malware successfully impacted operations. Most recently, CRASHOVERRIDE targeted a Ukrainian transmission substation in December of 2016. In both cases, attackers developed malware that crafted industrial protocol packets to manipulate control systems either by hijacking the legitimate master server or hooking the network stack. Defense against properly crafted packets presents a unique challenge as many existing approaches simply analyze the integrity of a single packet. This talk will focus on what stateful analysis is and how you can add it to your detection or hunting strategy to perform deep protocol analysis. We will cover the steps necessary to begin stateful analysis and dive into thresholds you might set for detection.

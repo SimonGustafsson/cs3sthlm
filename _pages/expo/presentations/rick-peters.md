@@ -8,6 +8,7 @@ speaker:
   work: Fortinet
   image: rick-peters
 id: expotalk
+published: false
 ---
 
 The momentum behind the convergence of historically distinct and separate domains illuminates the importance of seeking to implement robust security to protect highly valued assets that are In many instances delivering essential global services.

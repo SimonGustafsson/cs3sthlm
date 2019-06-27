@@ -12,6 +12,7 @@ speaker:
   work: Alliander
   image: rik-van-hees
 id: presentation
+published: false
 ---
 
 “Network Segmentation” is a simple concept of 20 characters (space included). Doing it in practice and doing it right is much more difficult. Proper segmentation is much, much more than just adding a firewall.

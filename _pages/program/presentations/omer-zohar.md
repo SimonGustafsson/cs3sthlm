@@ -8,6 +8,7 @@ speaker:
   work: Independant
   image: omer-zohar
 id: presentation
+published: false
 ---
 
 In this principal research, we investigate the possibilities blockchain technologies pose as an infrastructure for malicious operations. We will demonstrate a POC of a fully functional C&C infrastructure on top of the Ethereum network - the second largest public blockchain which also acts as a distributed computing platform featuring a smart contract functionality.

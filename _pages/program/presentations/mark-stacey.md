@@ -8,6 +8,7 @@ speaker:
   work: Dragos Inc
   image: mark-stacey
 id: presentation
+published: false
 ---
 
 Most Industrial Control System (ICS) networks require Incident Response (IR) procedures. Generally, these procedures fulfill regulatory requirements and do little to actually prepare the organization for handling an incident. Additionally, too many IR procedures relay on government programs (CERTS, committees, investigative boards). These programs may not provide the resource required and should not be considered a single point of response. This lecture will concentrate on concepts organizations should implement that decrease required resources for IR, arm responders, work with 3rd parties, and facilitate a return to operations. 

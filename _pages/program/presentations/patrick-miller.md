@@ -8,6 +8,7 @@ speaker:
   work: Archer
   image: patrick-miller
 id: presentation
+published: false
 ---
 
 Innovative and disruptive technologies are enhancing and invading our traditional industrial business model. Future infrastructure organizations will need more data to operate efficiently and succeed in the brave new interconnected world.

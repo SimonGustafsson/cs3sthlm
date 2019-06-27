@@ -12,6 +12,7 @@ speaker:
   work: Freelance
   image: frank-lycops
 id: presentation
+published: false
 ---
 
 Operator stations are today one of the first systems/stations to interact with a distributed control system (DCS) or other industrial control systems. These operator stations often have some protection built in to restrict what the operator can do within the SCADA software and/or on the operating system itself.

@@ -10,6 +10,7 @@ speaker:
   role: IT Security Consultant
   work: EnergiNet
   image: mikael-vingaard.png
+published: false
 ---
 
 Get access this exciting two days deep dive workshop on SCADA honeypots. During the first day, the students will be guided in the different phases in planning, deploying and analyzing the collected data from a ICS/SCADA honeypot.

@@ -9,7 +9,7 @@
 		"country"	: "Sweden",
 		"shortcode"	: "SE",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/erik-hjelmvik.png",
-		"date" 		: "22-23 October",
+		"date" 		: "21-22 October",
 		"time" 		: "09:00 - 17:00",
 		"place" 	: "Harlem",
 
@@ -43,88 +43,6 @@
 
 	{
 		"id"		: "2",
-		"type"		: "training",
-		"name"		: "Stephan Beirer",
-		"role"		: "Senior Consultant",
-		"work"		: "GAI NetConsult GmbH",
-		"country"	: "Germany",
-		"shortcode"	: "DE",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/stephan-beirer.png",
-		"date" 		: "23 October",
-		"time" 		: "09:00 - 17:00",
-		
-
-		"presentation":{
-		
-			"active": 	"none",
-			"title": 	"",
-			"partner":	"",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
-		
-		},
-		
-		"training": {
-			"active": "live",
-			"title": "Cyber security for the energy sector – an introduction to ISO/IEC 27019 and the BDEW/OE Whitepaper",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>Generation, storage, transport and distribution of electricity and gas are the most critical of all critical infrastructure processes supporting our daily life. As in every modern industry domain, energy supply is heavily dependent on industrial control systems (ICS) and the security of these systems. While many energy utilities implement an information security management system (ISMS) based on the ISO/IEC 27000 standard family, they often struggle with the inclusion of the ICS and OT domain, when they try to harmonize security management over their entire business scope. To fill this gap ISO/IEC 27019 <em>Information security controls for the energy utility industry</em> was developed. ISO/IEC 27019 is a sector specific control set for the process control system domain of the energy sector which is based on ISO/IEC 27001 and ISO/IEC 27002.</p><p>To supplement the generic controls of ISO/IEC 27019 with detailed technical security specifications for ICS systems, the German and Austrian energy operator associations BDEW and Oesterreichs Energie have published the BDEW/OE Whitepaper. The Whitepaper can be used during system procurement and defines security requirements for control and automation systems of the energy domain and their telecommunication infrastructure.</p><p>The workshop gives an introduction to the contents and practical application of ISO/IEC 27019 and the BDEW/OE Whitepaper. The following topics will be covered:</p><ul>  <li>Industrial control systems in the energy sector</li>  <li>Introduction to the ISO/IEC 27000 series</li>  <li>Overview of ISO/IEC 27019</li>  <li>Practical application of ISO/IEC 27019</li>  <li>ISO/IEC 27019 and European cyber security regulation</li>  <li>The BDEW/OE Whitepaper, a security procurement guideline for energy ICS</li></ul><p>The workshop will include a lecture, discussions and exercises.</p>"
-		},
-		
-
-		"bio": "<p>Stephan Beirer studied and received his PhD in physics. Since 2006 Mr. Beirer has been employed with GAI NetConsult GmbH as a senior consultant and is the Head of Industrial Control Systems Security since 2012. He advises clients on the development and implementation of organizational and technical security policies and controls, on implementing an information security management system (ISMS) according to IEC 62443, ISO/IEC 27001 and ISO/IEC 27019 and on business continuity planning. His professional focus is on securing process control and automation technology, especially in the field of energy supply. He gained his experience in more than 200 ICS security projects in the field of energy, transportation and industrial manufacturing. He is an active member of several national and international standardization committees at DIN, DKE, IEC and ISO and the editor of ISO/IEC 27019.</p>"
-	},
-
-	{
-		"id"		: "4",
-		"type"		: "presentation",
-		"name"		: "Patrick Miller",
-		"role"		: "Managing Partner",
-		"work"		: "Archer",
-		"country"	: "United States",
-		"shortcode"	: "US",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/patrick-miller.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"Industrial Technology Trajectory: Running With Scissors",
-			"partner":	"",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>Abstract: Innovative and disruptive technologies are enhancing and invading our traditional industrial business model. Future infrastructure organizations will need more data to operate efficiently and succeed in the brave new interconnected world. The diversity of new technologies and data will fuel more diversity in business opportunity. Everyone expects more OT, more IOT, and more IT - and all of it is supposed to be highly reliable and secure. These factors (and more) lead to a landscape shift for the industrial cybersecurity risk profile. In this session, hear ways to recognize the problems and gain some clarity on possible solutions through historic lessons, made up words, and practical front-line experience.</p>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
-		},
-		
-
-		"bio": "<p>Patrick Miller has dedicated his career to the protection and defense of critical infrastructures. As Managing Partner at Archer Security Group, he is a trusted independent security and regulatory advisor for industrial control systems worldwide. Mr. Miller is also the founder, director and president emeritus of EnergySec and US. Coordinator for the Industrial Cybersecurity Center. Patrick’s diverse background spans the Energy, Telecommunications, Water and Financial Services verticals including key positions with regulatory agencies, private consulting firms, utility asset owners and commercial organizations.</p>"
-	},
-
-	{
-		"id"		: "5",
 		"type"		: "training",
 		"name"		: "Arnaud Soullié",
 		"role"		: "Cybersecurity R&D Manager",
@@ -161,339 +79,11 @@
 		},
 		
 
-		"bio": "<p>Arnaud Soullié (@arnaudsoullie) is the cybersecurity R&amp;D manager at Wavestone. For 8 years, he has been performing security audits and pentest on all type of targets. He specializes in Industrial Control Systems and Active Directory security. He has spoken at numerous security conferences on ICS topics : BlackHat Europe, BruCon, 4SICS, BSides Las Vegas, DEFCON…He also has an interest in hardware security, and is the designer of DYODE (Do Your Own Diode): an open-source, low-cost, ICS oriented data diode.</p>"
+		"bio": "<p>Arnaud Soullié (@arnaudsoullie) is a manager at Wavestone. For 9 years, he has been performing security audits and pentest on all type of targets. He specializes in Industrial Control Systems and Active Directory security. He has spoken at numerous security conferences on ICS topics : BlackHat Europe, BruCon, 4SICS, BSides Las Vegas, DEFCON… He is also the creator of the DYODE project, an open­source data diode aimed at ICS.</p>"
 	},
 
 	{
-		"id"		: "6",
-		"type"		: "presentation",
-		"name"		: "William Middleton",
-		"role"		: "Senior Engineer",
-		"work"		: "Siemens PD Solutions",
-		"country"	: "Norway",
-		"shortcode"	: "NO",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/william-middleton.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"Securing the ICS lab network",
-			"partner":	"",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>The ICS lab is an critical resource, and not just for a solution provider like Siemens.  While the internal components of a lab may vary widely (witness the CS3STHLM ICS lab for example), the process of securing access to the lab network, while assuring availability and ease of use arguably has some common goals. Siemens PD Solutions in Bergen, Norway recently relocated their lab, and developed this presentation in the hope that their security and optimization solutions specifically related to the network might be of interest to others. Especially those with large, productive, multi-project, multi-customer lab environments.</p>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
-		},
-		
-
-		"bio": "<p>William works with Siemens PD Solutions in western Norway providing networking and security advice and configuration for ICS projects and LM customers.  He has an MLS degree in Computer Networking and Telecommunications, and holds professional-level certifications from Cisco Systems.  William has more than 25 years of experience in IT and has worked for Motorola, Adobe Systems, and Telenor in Norway before starting with Siemens in 2013.  He enjoys fishing, hiking and Bikram yoga.</p>"
-	},
-
-	{
-		"id"		: "7",
-		"type"		: "presentation",
-		"name"		: "Dieter Sarrazyn",
-		"role"		: "Security Expert",
-		"work"		: "Secudea",
-		"country"	: "Belgium",
-		"shortcode"	: "BE",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/dieter-sarrazyn.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"Operator Jail breakout",
-			"partner":	"active",
-			"name":		"Frank Lycops",
-			"role":		"Security Consultant & Researcher",
-			"work":		"Freelance",
-			"image":	"https://cs3sthlm.se/assets/speakers/frank-lycops.png",
-			"description": "<p>Operator stations are today one of the first systems/stations to interact with a distributed control system (DCS) or other industrial control systems. These operator stations often have some protection built in to restrict what the operator can do within the SCADA software and/or on the operating system itself.</p><p>Within this presentation, some of the most (easily) discovered ways are shown/explained and how these can be (ab)used to gain a further foothold within the environment.</p><p>The audience will learn more on the shortcomings of most of the operator jail solutions and what could be done to step up this game to secure this properly. Key takeaways obtained by the audience through this presentation is that you cannot trust operator jails in the thought that it properly protects attackers from gaining access to the operating system itself and thus potentially exploiting the whole DCS environment.</p>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
-		},
-		
-
-		"bio": "<p>Dieter is a freelance OT security expert who working extensively on industrial control system security including more than 10 years in a large electricity generation company. He performs SCADA security assessments, provides assistance in securing SCADA environments and helps customers to manage their suppliers’ security through doing security requirements management and security FAT and SAT tests. These activities are always part of a larger program, aimed at reducing business risks.</p>"
-	},
-
-	{
-		"id"		: "8",
-		"type"		: "presentation",
-		"name"		: "Frank Lycops",
-		"role"		: "Security Consultant & Researcher",
-		"work"		: "Asvalis",
-		"country"	: "Belgium",
-		"shortcode"	: "BE",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/frank-lycops.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"Operator Jail breakout",
-			"partner":	"active",
-			"name":		"Dieter Sarrazyn",
-			"role":		"Security Expert",
-			"work":		"Freelance",
-			"image":	"https://cs3sthlm.se/assets/speakers/dieter-sarrazyn.png",
-			"description": "<p>Operator stations are today one of the first systems/stations to interact with a distributed control system (DCS) or other industrial control systems. These operator stations often have some protection built in to restrict what the operator can do within the SCADA software and/or on the operating system itself.</p><p>Within this presentation, some of the most (easily) discovered ways are shown/explained and how these can be (ab)used to gain a further foothold within the environment.</p><p>The audience will learn more on the shortcomings of most of the operator jail solutions and what could be done to step up this game to secure this properly. Key takeaways obtained by the audience through this presentation is that you cannot trust operator jails in the thought that it properly protects attackers from gaining access to the operating system itself and thus potentially exploiting the whole DCS environment.</p>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
-		},
-		
-
-		"bio": "<p>Frank a freelance security consultant and researcher.  He has 8 years of experience in both the IT and OT environments.  During his work, he performed numerous penetration tests on OT environments, helped improving the overall security of various environments and discovered several vulnerabilities in widely sold devices.</p>"
-	},
-
-	{
-		"id"		: "9",
-		"type"		: "presentation",
-		"name"		: "Erwin Kooi",
-		"role"		: "ICS/SCADA Architect",
-		"work"		: "Alliander",
-		"country"	: "Netherlands",
-		"shortcode"	: "NL",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/erwin-kooi.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"The good, the bad and the segmented",
-			"partner":	"active",
-			"name":		"Rik van Hees",
-			"role":		"OT Security Officer",
-			"work":		"Alliander",
-			"image":	"https://cs3sthlm.se/assets/speakers/rik-van-hees.png",
-			"description": "<p>“Network Segmentation” is a simple concept of 20 characters (space included). Doing it in practice and doing it right is much more difficult. Proper segmentation is much, much more than just adding a firewall.</p><p>Over the last years we spend a lot of time and money on designing and implementing network segmentation for our multi-site IT and multi-site OT networks. Not only in technical solutions, but also in the required processes for maintaining the new environment. We made some (costly) mistakes and had to rethink our design based on physical and organizational boundaries.</p><p>In this talk, we would like to present lessons-learned on the multi-million, multi-year project. It is not an official report-out, but a hands-on and practical presentation. We hope this talk will give the audience a feeling for the challenges of a proper segmentation program and help them to prevent some of the mistakes we made.</p><h4 id=\"the-following-questions-will-be-answered\">The following questions will be answered</h4><ul>  <li>How did we convince Senior Management to allocate the budget</li>  <li>What underlying architecture did we choose and why?</li>  <li>What use cases did we envision and how did we work them out?</li>  <li>What design choices were made?</li>  <li>How did this work out in reality?</li>  <li>What did we learn?</li>  <li>What would we recommend?</li>  <li>What would we do differently?</li></ul>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
-		},
-		
-
-		"bio": "<p>Erwin has been working in information security for fifteen years and in IT for twenty-one years. He recently switched positions and is now working on designing SCADA / ICS systems for smart grids with a strong focus on cyber security, especially when integrating ICS and IT systems. He has a solid knowledge of healthcare IT and grid operator IT, both on the office side as on the operations side, both on the strategic level as on the implementation side. He holds a BSc Electrical Engineering and Master Security in Information Technology. In his rare spare time he likes to pick locks, program microcontrollers, participate in a local political party and care for his horses and hedgehogs.</p>"
-	},
-
-	{
-		"id"		: "10",
-		"type"		: "presentation",
-		"name"		: "Rik van Hees",
-		"role"		: "OT Security Officer",
-		"work"		: "Alliander",
-		"country"	: "Netherlands",
-		"shortcode"	: "NL",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/rik-van-hees.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"The good, the bad and the segmented",
-			"partner":	"active",
-			"name":		"Erwin Kooi",
-			"role":		"ICS/SCADA Architect",
-			"work":		"Alliander",
-			"image":	"https://cs3sthlm.se/assets/speakers/erwin-kooi.png",
-			"description": "<p>“Network Segmentation” is a simple concept of 20 characters (space included). Doing it in practice and doing it right is much more difficult. Proper segmentation is much, much more than just adding a firewall.</p><p>Over the last years we spend a lot of time and money on designing and implementing network segmentation for our multi-site IT and multi-site OT networks. Not only in technical solutions, but also in the required processes for maintaining the new environment. We made some (costly) mistakes and had to rethink our design based on physical and organizational boundaries.</p><p>In this talk, we would like to present lessons-learned on the multi-million, multi-year project. It is not an official report-out, but a hands-on and practical presentation. We hope this talk will give the audience a feeling for the challenges of a proper segmentation program and help them to prevent some of the mistakes we made.</p><h4 id=\"the-following-questions-will-be-answered\">The following questions will be answered</h4><ul>  <li>How did we convince Senior Management to allocate the budget</li>  <li>What underlying architecture did we choose and why?</li>  <li>What use cases did we envision and how did we work them out?</li>  <li>What design choices were made?</li>  <li>How did this work out in reality?</li>  <li>What did we learn?</li>  <li>What would we recommend?</li>  <li>What would we do differently?</li></ul>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
-		},
-		
-
-		"bio": "<p>Rik has been working in an ICS / SCADA environment for 10 years as an engineer, security architect and currently as a security officer for grid operator Liander. He has strong knowledge in designing and securing ICS systems on both the strategical as operational side and risk management. He holds a BSc of Electrical Engineering with a specialization in electronics. In his spare time he likes to play guitar, produce music, hike with his dogs and travel the world.</p>"
-	},
-
-	{
-		"id"		: "11",
-		"type"		: "training",
-		"name"		: "Mikael Vingaard",
-		"role"		: "IT Security Consultant",
-		"work"		: "EnergiNet",
-		"country"	: "Denmark",
-		"shortcode"	: "DK",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/mikael-vingaard.png",
-		"date" 		: "22-23 October",
-		"time" 		: "09:00 - 17:00",
-		
-
-		"presentation":{
-		
-			"active": 	"none",
-			"title": 	"",
-			"partner":	"",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
-		
-		},
-		
-		"training": {
-			"active": "live",
-			"title": "ICS Scada Honeypot Technical Training",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>Get access this exciting two days deep dive workshop on SCADA honeypots. During the first day, the students will be guided in the different phases in planning, deploying and analyzing the collected data from a ICS/SCADA honeypot.</p><h3 id=\"day-1\">Day 1</h3><h4 id=\"introduction-to-honeypots-systems-with-special-focus-on-icsscada\">Introduction to Honeypots systems, with special focus on ICS/SCADA)</h4><p>The first day, the students will introduced to different types of honeypot systems and pro/con’s of each honeypot type.</p><p>The students will be guided thou the different phases in planning, deploying and analyzing the collected data from a ICS/SCADA honeypot.</p><p>We will deploy live honeypots on the internet and see how attackers would start to probe our honeypots. Furthermore, we will also attack the deployed honeypots ourselves; using SCADA pen testing tools and similar software. We will learn to spot various tools, and how to hide the signatures of a default honeypot.</p><h3 id=\"day-2\">Day 2</h3><h4 id=\"deploy-more-honeypots-and-move-from-low-interaction-to-mediumhigh-interaction-honeypots\">Deploy more honeypots and move from low interaction to medium/high interaction Honeypots</h4><p>We will continue the modification of the SCADA honeypot from day 1 and will also deploy a new Internet based ICS/SCADA credential honeypot to our research arsenal - for further research/analyzing.</p><p>The students will on day 2 build a purpose-build in-house Honeypot lab, where we change a low interaction honeypot to act as a realistic device (medium/high interaction honeypot) to ensure that attackers can’t spot the honeypot ‘a mile away’. This would give the students even better opportunity to do research/threat intelligence data on high interaction honeypots.</p><p>The 2nd day would also provide opportunities to deep dive into students ideas for further activities after the workshop.</p><h4 id=\"course-syllabus\">Course syllabus</h4><ul>  <li>Introduction to Honeypots systems, with special focus on ICS/SCADA.</li>  <li>Building and Deployment of a live honeypot on the internet.</li>  <li>Useful tools to pentest SCADA honeypot systems</li>  <li>How to read the logs, and spot different attack types</li>  <li>Useful modification of the honeypot configuration</li>  <li>Learning how to build and deploy a medium/high interactive honeypot - for even better research data/TTP’s</li>  <li>Closing remark and ideas for further activities.</li></ul><p>Each student will get access to a numbers of virtual lab servers to learn how to deploy and customize settings to avoid the default honeypot signature and evolve the low-interaction honeypot to be a true high interactive honeypot.</p><h4 id=\"takeaway-for-participants\">Takeaway for participants</h4><p>After this 2 days workshop, you will be able to plan and deploy different types of ICS/SCADA related open source honeypots, either for research or to defend your corporate/industrial assets.You will understand different Honeypot types and deceptions methods.</p><p>You will leave the class room with a knowledge on how to change the default signature on the honeypots and the understanding of the most common tools who will attack your honeypots.</p><h4 id=\"requirements\">Requirements</h4><p>Students must bring a suitable laptop able to connect to the Internet. It must have a SSH client (Putty/term or similar software) installed. All lab servers are based on the internet, so no hypervisor like Vmware/VirtualBox are required on the student device. Knowledge of basic Linux commands, text editor and usage of the command line would be beneficial, but not a strict requirement to benefit from this course.</p><h4 id=\"workshop-level\">Workshop Level</h4><p>Beginner to Intermediate</p>"
-		},
-		
-
-		"bio": "<p>Mikael Vingaard leverages his 15+ years of IT-security experience to build practicalinformation security with a real-life perspective. Mikael works as IT-Security Consultant at EnergiNet.dk, the Danish national transmission system operator. In his spare time, Mikael runs several research projects, build on Open Source softwareto make a positive difference to secure critical infrastructure environments.</p>"
-	},
-
-	{
-		"id"		: "12",
-		"type"		: "presentation",
-		"name"		: "Cheng Lei",
-		"role"		: "ICS Security Researcher",
-		"work"		: "NSFOCUS",
-		"country"	: "China",
-		"shortcode"	: "CH",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/cheng-lei.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"Attacking PLCs by PLC in deep",
-			"partner":	"",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>In the past few years, the attacks to industrial control systems(ICS) has increased year by year. Most of the attacks are exploit of the insecurity of ICS protocols like Stuxnet in 2010, Triton in 2017.</p><p>In 2016, Ralf Spenneberg and et al give a presentation named PLC Blaster which demonstrates a worm lives and runs on Siemens S7-1200 PLCs, they use S7commplus protocol to transmit worms in PLCs. In this research, we proposed an attack method that a PLC can attack other different vendors’ PLCs inside the net.</p><p>If one PLC is infected, this PLC can scan the whole net to find all kinds of PLCs and send back the information back to a Command &amp;Control server. Then, once received the command from C&amp;C server, this infected PLC can do attacks to other different vendors’ PLCs. Like PLC Blaster, this malware can be spread inside the net.</p>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
-		},
-		
-
-		"bio": "<p>Cheng Lei is an Industrial Control System Security researcher at NSFOCUS. His interest is mainly about PLC and DCS vulnerability exploitation and security enhancement. Over the years, he has released three Siemens CVE vulnerabilities.</p>"
-	},
-
-	{
-		"id"		: "15",
-		"type"		: "presentation",
-		"name"		: "Kai Thomsen",
-		"role"		: "Lead Incident Responder",
-		"work"		: "AUDI AG",
-		"country"	: "Germany",
-		"shortcode"	: "DE",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/kai-thomsen.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"Attacking Cars Revisited: On the Road Towards a More Resilient Connected Vehicle Infrastructure",
-			"partner":	"",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>In this talk I want to sketch out the threat landscape we might be facing with inter- connected infrastructure in smart cities in the near future and give an overview of what works and what doesn‘t to tackle these security challenges.</p><p>Separating the hype from actual threats and thinking in development- and lifecycles that are sig- nificantly longer than those for our normal consumer electronics devices are a key part of this as well as bridging the language gap between automotive engineers and software developers.</p>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
-		},
-		
-
-		"bio": "<p>Kai is the Incident Response team lead at AUDI AG and currently working on creating a modern Cyber Defence organisation at Audi. Before that he established an IT Service Continuity organization at Audi and developed and executed crisis management training exercises for top management. Prior to Audi, he worked at SMS group, an engineering company for steel manufacturing plants. There he was responsible for network security architecture, NSM, and forensics. Kai holds an M.A. in computer science and English and American Literature from the University of Siegen. He is also a SANS Instructor for Industrial Control Systems Active Defense and Incident Response (ICS515) and chairing the SANS Automotive Summit and SANS ICS Europe Summit in 2018.</p>"
-	},
-
-	{
-		"id"		: "16",
+		"id"		: "4",
 		"type"		: "presentation",
 		"name"		: "Monta Elkins",
 		"role"		: "Hacker-in-Chief",
@@ -508,48 +98,7 @@
 		"presentation":{
 		
 			"active": 	"live",
-			"title": 	"Jumping Air Gaps",
-			"partner":	"",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>If you think an air gap prevents communication out of and into your industrial control system, you are wrong.</p><p>We’ll be exploring various ways to send data across an air-gap in Industrial Control Systems and other environments, including a live demo.</p><p>Is it really possible to send data across an air-gap where no network has been connected? (No we’re not talking about wifi, bluetooth, wirelessHART etc.)</p><p>Can it be done without physical modification to your existing plant?</p><p>Can we get that paragon of virtue- a data diode -to pass information in both directions without physically touching it?</p><p>Find out.</p><h4 id=\"audience\">Audience</h4><p>Those who may have or consider an air-gap as part of their security.</p><h4 id=\"take-away\">Take Away</h4><p>A better understanding of the history of jumping air-gaps and a new attack on data diodes.</p>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
-		},
-		
-
-		"bio": "<p>Monta Elkins is currently “Hacker-in-Chief” for FoxGuard Solutions, an ICS patch provider. A security researcher and consultant; he was formerly Security Architect for Rackspace, and the first ISO for Radford University. He has been a speaker at DEFCON , Homeland Security’s ICSJWG (Industrial Control Systems Joint Working Group), EnergySec’s Security Summit, GE Digital Energy’s Annual Software Summit, Toshiba’s Industrial Control Systems Conference, NERC’s GridSecCon and Emerging Technology Roundtable, ICS CyberSecurity by Security Week, UTC Telecom, and other security conferences. Monta is the author and instructor of the “Defense against the Dark Arts” hands-on, hacker tools and techniques classes, guest lecturer for local colleges and universities teaching rapid prototyping techniques and information security and teaches Arduino and other classes with Let’s Code Blacksburg.</p>"
-	},
-
-	{
-		"id"		: "17",
-		"type"		: "moderator",
-		"name"		: "Erik 'Z' Johansson",
-		"role"		: "Independent Security Consultant",
-		"work"		: "Trailing bits AB",
-		"country"	: "Sweden",
-		"shortcode"	: "SE",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/erik-z-johansson.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"none",
-			"title": 	"",
+			"title": 	"Nation-State Supply Chain Attacks for Dummies and You Too",
 			"partner":	"",
 			"name":		"",
 			"role":		"",
@@ -571,510 +120,18 @@
 		},
 		
 
-		"bio": "<p>Independent security consultant that have experienced the challenges, frustration and satisfaction involved when implementing sustainable IACS cyber protection throughout the whole system lifecycle and across the globe. May offer controversial opinions on what it takes to reach a sustainable security posture.</p><p>NOTE! The ‘Z’ is a legacy from ABB and not actually part of his name. It is however useful to distinguish this Erik from the Erik Johansson organizing this awesome event :)</p>"
+		"bio": "<p>Monta, a Certified SANS Instructor and U.S. patent recipient, has been a speaker at more security and ICS conferences than even his enormous ego can remember including: CS3STHLM, DEFCON, BSIDES, GE Digital Energy, ICSJWG, Toshiba ICS, GridSecCon, Distributech, CIP Emerging Technology Roundtable, ICS CyberSecurity, UTC Telecom, Hack the Capitol, and SANS ICS Summit. Known for having once discovered ALL the devices on an ICS network, he has served as a guest lecturer for colleges, universities, and elsewhere teaching Arduino programming/circuit design, SDR, rapid prototyping techniques, and other ICS topics. As a small child, Monta entertained himself by memorizing Pi – backwards.</p>"
 	},
 
 	{
-		"id"		: "18",
+		"id"		: "5",
 		"type"		: "presentation",
-		"name"		: "Joe Slowik",
-		"role"		: "Adversary Hunter",
-		"work"		: "Dragos Inc",
-		"country"	: "United States",
-		"shortcode"	: "US",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/joe-slowik.png",
-		"date" 		: "22-23 October",
-		"time" 		: "09:00 - 17:00",
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense",
-			"partner":	"",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>As ICS defense and detection matures, both defenders and products move increasingly away from traditional IOC approaches to newer, more robust models: anomaly detection, and threat behavioral analytics. While an appropriate, defense-in-depth position would work to integrate both approaches into a single defensive schema, scarce resources and funding constraints mean that organizations will need to choose one or the other for their monitoring and detection needs.</p><p>After providing an overview of both these approaches to threat detection, this presentation will then critically evaluate what these approaches enable from a defensive perspective as specifically required for ICS networks. The result will not just be a simple ‘product type’ comparison, but rather a robust investigation of the theoretical underpinnings of these approaches, and what they enable a defender to accomplish within the monitored network. Specific details will include completeness of coverage beyond ‘known bad’ items; ability to incorporate contextualization into alerting; and capability for detecting realistic threats in the ICS environment.</p><p>To provide appropriate context to the discussion, the approaches will be compared to ICS intrusion examples as a means of evaluating their efficacy and viability. By adopting a critical approach to this evaluation, ICS defense practitioners can gain insight into the true costs and benefits of anomaly detection and threat behavior analytics. The expected result of this presentation will be an analysis of the benefits and drawbacks of these approaches with respect to the specific requirements for ICS defense, enabling attendees to evaluate relative to their own operational needs which approach works best for their environment.</p>"
-		
-		},
-		
-		"training": {
-			"active": "live",
-			"title": "ICS Strategic Planning and War Gaming",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>Network defense is informed by knowing the network, and knowing the adversary – but few practitioners have the fortune of possessing this knowledge before a major breach. Industrial Control System (ICS) networks provide particular challenges due to limitations on operational testing and traditional red team exercises. To address the need for critical assessment of ICS-related networks for developing defensive strategy, this training provides attendees with a comprehensive exercise to identify critical network assets within a theoretical IT and ICS environment, driven by threat intelligence and threat actor profiles.</p><p>Starting with an overview of strategy and applying strategic concepts to network defense, attendees will formulate a comprehensive, adversary-oriented network defense plan covering IT and ICS environments. Following additional overview and critique of planning, attendees will then test the plan through an iterative, guided wargaming exercise – the goal being to test planning comprehensiveness, identify gaps, and improve planning and implementation over time. This training is suitable for all levels of security practitioner – from CISO to SOC analyst – as a means to improve and refine defensive planning, especially within environments containing ICS.</p><h4 id=\"who-should-attend\">Who Should Attend</h4><ul>  <li>Security senior decision makers, from project managers through CIOs.</li>  <li>ICS network operations personnel responsible for assessing risk or managing network security.</li>  <li>Security operations personnel, either focused on ICS environment or general IT security, with an interest in network security strategy development.</li></ul><h4 id=\"key-learning-objectives\">Key Learning Objectives:</h4><ul>  <li>How to assess the security threat environment to identify threats facing the organization.</li>  <li>Apply threat assessment information to the organization’s security environment to formulate anactionable, working network defense strategy.</li>  <li>Learn to critically analyze network defense planning activity and technical controls to identify detection and visibility gaps.</li>  <li>Gain experience in developing and executing interactive exercises to test security plans to evaluate effectiveness and relevance.</li>  <li>Learn how to apply and interpret testing results to improve security planning over time, and adapt to a changing threat environment.</li></ul><h4 id=\"prerequisite-knowledge\">Prerequisite Knowledge:</h4><ul>  <li>General understanding of computer network security concepts, technical controls, and applications.</li>  <li>Familiarity with reading threat intelligence reporting covering computer network security issues.</li>  <li>Base-level knowledge in ICS security concepts preferred but not necessary.</li></ul><h4 id=\"hardwaresoftware-requirements\">Hardware/Software Requirements:</h4><ul>  <li>Laptop computer for development, planning, and documentation during exercises.</li>  <li>No other significant technical requirements – lectures and exercises will be based around discussion.</li></ul><h3 id=\"agenda\">Agenda</h3><h4 id=\"day-1\">Day 1:</h4><ul>  <li>Introduction to strategy within a computer network defense environment.</li>  <li>Identifying unique aspects of ICS networks and their impact on strategy development.</li>  <li>Review of threat activity groups and threat intelligence reporting.</li>  <li>EXERCISE: Critical evaluation of threat intelligence reporting to extract actionable information.</li>  <li>Review of ICS-specific network defense concepts and strategies.</li>  <li>Discussion and examples of threat modeling and developing threat-focused defensive plans.</li>  <li>EXERCISE: Formulate threat model for hypothetical ICS network based on available reporting.</li>  <li>Combining organizational knowledge with threat environment assessment to develop specific network security strategy.</li>  <li>EXERCISE: Develop strategic network defense plan for hypothetical ICS network.</li>  <li>Plan review and debrief.</li></ul><h4 id=\"day-2\">Day 2:</h4><ul>  <li>Review of strategic plans and purpose.</li>  <li>Distinction between red teaming and wargaming.</li>  <li>Wargaming introduction, rules, and procedures.</li>  <li>Importance of and critical components of after-action analysis and iterative development.</li>  <li>EXERCISE: Classroom wargaming exercise testing developed network security strategy.</li>  <li>After-action review of wargaming exercise, course take-aways, and closing.</li></ul>"
-		},
-		
-
-		"bio": "<p>Joe Slowik currently hunts ICS adversaries for Dragos, pursuing threat activity groups through their malware, their communications, and any other observables available. Prior to his time at Dragos, Joe ran the Incident Response team at Los Alamos National Laboratory, and served as an Information Warfare Officer in the US Navy. Throughout his career in network defense, Joe has consistently worked to ‘take the fight to the adversary’ by applying forward-looking, active defense measures to constantly keep threat actors off balance. When not hunting adversaries or playing with open source security projects, Joe loves playing ice hockey and building Legos.</p>"
-	},
-
-	{
-		"id"		: "19",
-		"type"		: "presentation",
-		"name"		: "Daniel Michaud-Soucy",
-		"role"		: "Principal Threat Analyst",
-		"work"		: "Dragos Inc",
-		"country"	: "United States",
-		"shortcode"	: "US",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/daniel-michaud-soucy.png",
-		"date" 		: "23 October",
-		"time" 		: "09:00 - 17:00",
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"Stateful Protocol Hunting",
-			"partner":	"active",
-			"name":		"Dan Gunter",
-			"role":		"Principal Threat Analyst",
-			"work":		"Dragos Inc",
-			"image":	"https://cs3sthlm.se/assets/speakers/dan-gunter.png",
-			"description": "<p>Over the last decade, two instances of industrial control system (ICS) targeted malware successfully impacted operations. Most recently, CRASHOVERRIDE targeted a Ukrainian transmission substation in December of 2016. In both cases, attackers developed malware that crafted industrial protocol packets to manipulate control systems either by hijacking the legitimate master server or hooking the network stack. Defense against properly crafted packets presents a unique challenge as many existing approaches simply analyze the integrity of a single packet. This talk will focus on what stateful analysis is and how you can add it to your detection or hunting strategy to perform deep protocol analysis. We will cover the steps necessary to begin stateful analysis and dive into thresholds you might set for detection.</p>"
-		
-		},
-		
-		"training": {
-			"active": "live",
-			"title": "Introduction to Threat Hunting in ICS",
-			"partner": "active",
-			"name":		"Ben Miller",
-			"role":		"Director of Threat Operations",
-			"work":		"Dragos Inc",
-			"image":	"https://cs3sthlm.se/assets/speakers/ben-miller.png",
-			"description": "<p>This one day class is an introduction to threat hunting and incident response for ICS environments. We will overview the business and security use cases of when and why threat hunting is valuable to organizations. We will progress by applying these concepts to corporate environments and industrial environments such as transmission or distribution control facilities, or plant distributed control systems (DCS).</p><p>This class will serve as an introduction to key concepts and provide a framework to develop active defenses for analysts and leadership. For existing active defense practitioners we will also include demonstrations of tools and tactics that can be immediately applied.</p><h4 id=\"outline\">Outline</h4><ul>  <li>Definition of threat hunting</li>  <li>NSM, data pivoting</li>  <li>Tools (tshark, bro, snort, cyberlens, elk)</li>  <li>Lab 1: Hunting the Red Team</li>  <li>Technique: Hypotheses</li>  <li>Technique: Zone to zone analysis</li>  <li>Technique: Timeline analysis</li>  <li>Lab 2: Operational Impact</li>  <li>Strategy: SMASH</li>  <li>Strategy: Collection Management Framework</li>  <li>Threat modeling of intelligence reports</li>  <li>Lab 3: Applying SMASH &amp; CMF</li>  <li>Lab 4 and 5: Capstone hunt</li></ul><h4 id=\"prerequisites\">Prerequisites</h4><p>Attendee should have a solid foundation of industrial control systems and a desire to apply active defense concepts such as hunting within their organization.</p><h4 id=\"hardware-requirements\">Hardware Requirements</h4><ul>  <li>Windows 7 or Windows 10 laptop with at least 8GB of ram and at least 100GB of free disk space</li>  <li>VMware Player or Workstation</li>  <li>Administrator privilege on your hardware</li>  <li>Computer that possesses a Ethernet port or supporting dongle</li>  <li>Computer that possesses USB ports or supporting dongles</li></ul>"
-		},
-		
-
-		"bio": "<p>Daniel Michaud-Soucy is a Principal Threat Analyst, Threat Operations Center at the industrial cyber security company Dragos, Inc.. Daniel is focusing on threat hunting and incident response services within a variety of industrial environments. Daniel previously worked for Sempra Energy on RD&amp;D tasks revolving around machine to machine automated threat response, data aggregation, advanced threat detection and secure system interfaces for ICS/SCADA. Daniel also worked with Red Tiger Security performing cyber vulnerability assessments and penetration tests on oil &amp; gas, electrical power, water treatment and pharmaceutical ICS/SCADA environments.</p>"
-	},
-
-	{
-		"id"		: "20",
-		"type"		: "presentation",
-		"name"		: "Mark Stacey",
-		"role"		: "Principal Threat Analyst",
-		"work"		: "Dragos Inc",
-		"country"	: "United States",
-		"shortcode"	: "US",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/mark-stacey.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"Hunting and Responding in ICS",
-			"partner":	"active",
-			"name":		"Ben Miller",
-			"role":		"Director of Threat Operations",
-			"work":		"Dragos Inc",
-			"image":	"https://cs3sthlm.se/assets/speakers/ben-miller.png",
-			"description": "<p>This presentation will leverage the previous 2-years of engagements from Dragos’ Threat Operations Center (TOC) to examine ICS security trends, discuss the current threat landscape, and describe common actions organizations can take to better protect, identify, and respond to advanced adversary groups specifically targeting ICS. This seminar will list the most common challenges organizations face and use case studies to describe improvements we have helped our customers implement. Dragos recognizes the ICS community is strong and learning from each other on what works is the best path to a more secure global infrastructure.</p>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
-		},
-		
-
-		"bio": "<p>Mark Stacey is currently a Principle Threat Analyst with Dragos Inc. In this role, Mark delivers holistic incident response, threat hunting, and adversary research for Industrial Control Systems worldwide. Prior to joining Dragos, Mark was a member of RSA’s Incident Response team for 5 years where he provided incident response, discovery, and forensic services globally for private industry, financial institutions, law firms, foreign and domestic governments. Mark spent 7 years with the Department of Energy (DOE) performing cyber and intelligence analysis for various government clients. He has functioned in both cybersecurity operations and research within the intelligence community and frequently provides community education through outreach programs with federal agencies.</p>"
-	},
-
-	{
-		"id"		: "21",
-		"type"		: "presentation",
-		"name"		: "Ben Miller",
-		"role"		: "Director of Threat Operations",
-		"work"		: "Dragos Inc",
-		"country"	: "United States",
-		"shortcode"	: "US",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/ben-miller.png",
-		"date" 		: "23 October",
-		"time" 		: "09:00 - 17:00",
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"Hunting and Responding in ICS",
-			"partner":	"active",
-			"name":		"Mark Stacey",
-			"role":		"Principal Threat Analyst",
-			"work":		"Dragos Inc",
-			"image":	"https://cs3sthlm.se/assets/speakers/mark-stacey.png",
-			"description": "<p>This presentation will leverage the previous 2-years of engagements from Dragos’ Threat Operations Center (TOC) to examine ICS security trends, discuss the current threat landscape, and describe common actions organizations can take to better protect, identify, and respond to advanced adversary groups specifically targeting ICS. This seminar will list the most common challenges organizations face and use case studies to describe improvements we have helped our customers implement. Dragos recognizes the ICS community is strong and learning from each other on what works is the best path to a more secure global infrastructure.</p>"
-		
-		},
-		
-		"training": {
-			"active": "live",
-			"title": "Introduction to Threat Hunting in ICS",
-			"partner": "active",
-			"name":		"Daniel Michaud-Soucy",
-			"role":		"Principal Threat Analyst",
-			"work":		"Dragos Inc",
-			"image":	"https://cs3sthlm.se/assets/speakers/daniel-michaud-soucy.png",
-			"description": "<p>This one day class is an introduction to threat hunting and incident response for ICS environments. We will overview the business and security use cases of when and why threat hunting is valuable to organizations. We will progress by applying these concepts to corporate environments and industrial environments such as transmission or distribution control facilities, or plant distributed control systems (DCS).</p><p>This class will serve as an introduction to key concepts and provide a framework to develop active defenses for analysts and leadership. For existing active defense practitioners we will also include demonstrations of tools and tactics that can be immediately applied.</p><h4 id=\"outline\">Outline</h4><ul>  <li>Definition of threat hunting</li>  <li>NSM, data pivoting</li>  <li>Tools (tshark, bro, snort, cyberlens, elk)</li>  <li>Lab 1: Hunting the Red Team</li>  <li>Technique: Hypotheses</li>  <li>Technique: Zone to zone analysis</li>  <li>Technique: Timeline analysis</li>  <li>Lab 2: Operational Impact</li>  <li>Strategy: SMASH</li>  <li>Strategy: Collection Management Framework</li>  <li>Threat modeling of intelligence reports</li>  <li>Lab 3: Applying SMASH &amp; CMF</li>  <li>Lab 4 and 5: Capstone hunt</li></ul><h4 id=\"prerequisites\">Prerequisites</h4><p>Attendee should have a solid foundation of industrial control systems and a desire to apply active defense concepts such as hunting within their organization.</p><h4 id=\"hardware-requirements\">Hardware Requirements</h4><ul>  <li>Windows 7 or Windows 10 laptop with at least 8GB of ram and at least 100GB of free disk space</li>  <li>VMware Player or Workstation</li>  <li>Administrator privilege on your hardware</li>  <li>Computer that possesses a Ethernet port or supporting dongle</li>  <li>Computer that possesses USB ports or supporting dongles</li></ul>"
-		},
-		
-
-		"bio": "<p>Ben Miller is Director, Threat Operations Center at the industrial cyber security company Dragos, Inc. where he leads a team of analysts in performing active defense inside of ICS/SCADA networks. In this capacity, he is responsible for performing a threat hunting, incident response, and malware analysis mission for the industrial community. Previous to his role at Dragos, Inc. Ben was the Associate Director, Electricity Information Sharing &amp; Analysis Center (Electricity ISAC) and led cyber analysis for the sector.</p>"
-	},
-
-	{
-		"id"		: "22",
-		"type"		: "presentation",
-		"name"		: "Dan Gunter",
-		"role"		: "Principal Threat Analyst",
-		"work"		: "Dragos Inc",
-		"country"	: "United States",
-		"shortcode"	: "US",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/dan-gunter.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"Stateful Protocol Hunting",
-			"partner":	"active",
-			"name":		"Daniel Michaud-Soucy",
-			"role":		"Principal Threat Analyst",
-			"work":		"Dragos Inc",
-			"image":	"https://cs3sthlm.se/assets/speakers/daniel-michaud-soucy.png",
-			"description": "<p>Over the last decade, two instances of industrial control system (ICS) targeted malware successfully impacted operations. Most recently, CRASHOVERRIDE targeted a Ukrainian transmission substation in December of 2016. In both cases, attackers developed malware that crafted industrial protocol packets to manipulate control systems either by hijacking the legitimate master server or hooking the network stack. Defense against properly crafted packets presents a unique challenge as many existing approaches simply analyze the integrity of a single packet. This talk will focus on what stateful analysis is and how you can add it to your detection or hunting strategy to perform deep protocol analysis. We will cover the steps necessary to begin stateful analysis and dive into thresholds you might set for detection.</p>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
-		},
-		
-
-		"bio": "<p>Dan Gunter currently works as a Principal Threat Analyst at the industrial control system cyber security company Dragos. Before Dragos, he served in the US Air Force in a variety of role ranging from working in the Air Force’s Computer Emergency Response Team to developing information security applications. Dan previously presented at Blackhat, Schmoocon, and s4x18.</p>"
-	},
-
-	{
-		"id"		: "23",
-		"type"		: "presentation",
-		"name"		: "Marcin Dudek",
-		"role"		: "IT Security Expert",
-		"work"		: "ComCERT.PL",
-		"country"	: "Poland",
-		"shortcode"	: "PL",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/marcin-dudek.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"Using fake BTS as a part of pentest of devices using SIM cards for data transmission",
-			"partner":	"",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>Fake base stations are often discussed as a threat for privacy of mobile phone users. However, many other devices, such as cars, lifts or industrial control systems (ICS), are increasingly using cellular connectivity. It makes some difficulties during penetration tests – even though data sent through this communication channel might be exactly the same as in case of using WiFi network, its access is much more difficult. Most security guidelines ignore this topic. It turns out that fake BTS, so often presented in a bad light, can be also used to support security examination of this communication channel. The presentation will be based on practice - built testbed and conducted experiments. In addition, hardware requirements for such environment and legal aspects in diffrent jurisdictions will be discussed.</p>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
-		},
-		
-
-		"bio": "<p>IT security expert, member of ComCERT.PL Team, the team that delivers IT incident response related services. He specializes in the security of industrial control systems. A graduate of the University of Warwick in the Great Britain. Founder of the scientist circle at the Military University of Technology, dealing with cyber security. He has been awarded twice for finding vulnerabilities in Microsoft products. Together with the team, he won the award for the best decision-making document in case of cyber conflict in the Cyber 9/12 Europe Competition, organized by the Atlantic Council. Actively tweeting on @dudekmar</p>"
-	},
-
-	{
-		"id"		: "24",
-		"type"		: "presentation",
-		"name"		: "Omer Zohar",
-		"role"		: "Independant Researcher",
-		"work"		: "Independant",
-		"country"	: "Israel",
-		"shortcode"	: "IL",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/omer-zohar.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"Unblockable Chains - Is Blockchain the ultimate malicious infrastructure?",
-			"partner":	"",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>In this principal research, we investigate the possibilities blockchain technologies pose as an infrastructure for malicious operations. We will demonstrate a POC of a fully functional C&amp;C infrastructure on top of the Ethereum network - the second largest public blockchain which also acts as a distributed computing platform featuring a smart contract functionality.</p>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
-		},
-		
-
-		"bio": "<p>A security researcher for over a decade, Omer is currently exploring the opportunities emerging technologies such as blockchain and AI might create for the bad guys to improve their infrastructure and how to mitigate them. Omer has been conducting multidisciplinary research on malware behavior and detection methods, including on his last position as Head of Research for ‘TopSpin Security’, where he investigated malware C&amp;C infrastructure and protocols to create a behavior based detection engine that correlates over a time series network and reputation data along with a deception overlay. He authored ‘Deceive and Succeed: Using Deception for Post-Breach Detection’ (Defcon 2016) where he investigated how malicious actors interact with various deception mechanisms to measure their effectiveness.</p>"
-	},
-
-	{
-		"id"		: "25",
-		"type"		: "presentation",
-		"name"		: "Jonathan Homer",
-		"role"		: "Chief of the Industrial Control System Group",
-		"work"		: "NCCIC Hunt and Incident Response Team (HIRT)",
-		"country"	: "United States",
-		"shortcode"	: "US",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/jonathan-homer.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"Recent APT Campaign targeting Energy Sector Assets",
-			"partner":	"",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>Over the past year, a concentrated effort has been focused on specific energy sector critical assets, leveraging trusted relationships within supply chains and other partnerships in an attempt to gain access to corporate and control system networks. This technical discussion will review the threat actor’s tactics and techniques observed during multiple on-site incident response engagements conducted by the DHS NCCIC Hunt and Incident Response Team related to this campaign.</p>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
-		},
-		
-
-		"bio": "<p>Jonathan Homer is the Chief of the Industrial Control Systems Group within the Hunt &amp; Incident Response Team at the U.S. Department of Homeland Security National Cybersecurity and Communications Integration Center. He has over 15 years of experience within the IT industry, specializing in incident response, industrial control systems, digital telecommunications architecture, and security awareness. Jon has a Master’s Degree in Technology Management, and earned his Chief Information Officer Certificate from the International Academy of CIO in 2016. Jon maintains a number of certifications including ISC2 CISSP and ProSci Advanced Change Management Practitioner.</p>"
-	},
-
-	{
-		"id"		: "26",
-		"type"		: "presentation",
-		"name"		: "Mark Bristow",
-		"role"		: "Director",
-		"work"		: "NCCIC Hunt and Incident Response Team (HIRT)",
-		"country"	: "United States",
-		"shortcode"	: "US",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/mark-bristow.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"ICS Incident Response: Lessions and mitigations from the field",
-			"partner":	"",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>This presentation will go through key DHS incident response efforts impacting critical infrastructure over time. Using case studies and examples, we will detail root cause analysis of these incidents and provide recommendations for remediation. We will cover major public incidents (Ukraine, Trition, BlacEnergy, Havex…..) as well as other less known incidents DHS has worked with significance. The target audience is critical infrastructure asset owners/operators and ICS security personnel who will take away key insights derived from DHS’s role in defending US critical infrastructure. This presentation will contain new (especially if something happens between now and then) content as well as historical content that articulates a particular defensive lesson learned.</p>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
-		},
-		
-
-		"bio": "<p>Mark Bristow is the Director for the Hunt and Incident Response Team (HIRT) at the National Cybersecurity and Communications Integration Center (NCCIC) within the Department of Homeland Security (DHS). He oversees DHS’s efforts for assisting asset owners to respond to, remediate and recover from cyber incidents across government, critical infrastructure and private sector systems—most recently including securing the election infrastructure and addressing Russian attempts to gain access to the U.S. power grid.</p>"
-	},
-
-	{
-		"id"		: "27",
-		"type"		: "presentation",
-		"name"		: "Jonas Almroth",
-		"role"		: "System Architect",
-		"work"		: "FOI - Swedish Defence Research Agency",
-		"country"	: "Sweden",
-		"shortcode"	: "SE",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/jonas-almroth.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"Designing a second generation cyber range",
-			"partner":	"",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>Coming soon.</p>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
-		},
-		
-
-		"bio": "<p>Coming soon.</p>"
-	},
-
-	{
-		"id"		: "28",
-		"type"		: "expotalk",
-		"name"		: "Henrik Sandberg",
-		"role"		: "Professor in Large-Scale Control Systems",
-		"work"		: "School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology",
-		"country"	: "Sweden",
-		"shortcode"	: "SE",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/henrik-sandberg.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"Control Theory for Practical Cyber-Physical Security",
-			"partner":	"",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>In this talk, we discuss how control theory can contribute to the analysis and design of secure cyber-physical systems. We start by reviewing conditions for detectability and impact of data attacks targeting feedback control loops running over a field communication network. We investigate three different attack scenarios: Sensor attacks, actuator attacks, and coordinated actuator and sensor attacks. In particular, we highlight how a physical understanding of the controlled process can guide us in the allocation of counter measures and limit the possible impact of attacks.</p>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
-		},
-		
-
-		"bio": ""
-	},
-
-	{
-		"id"		: "29",
-		"type"		: "expotalk",
-		"name"		: "György Dán",
-		"role"		: "Professor in Teletraffic Systems",
-		"work"		: "School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology",
-		"country"	: "Sweden",
-		"shortcode"	: "SE",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/gyorgy-dan.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"Resilient Computing and Communication for Critical Infrastructures",
-			"partner":	"",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>Preventive security controls, incident detection and timely response need to be coordinated for efficient security risk management. In this talk we first illustrate the benefits of this coordination through the example of precise time synchronization in power systems. We identify attack vectors, characterize their potential impact, and outline mitigation and detection schemes. We then present solutions for the resilient management of virtualized industrial controllers in edge clouds, with potential applications in smart grid control, UAVs and autonomous vehicular systems.</p>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
-		},
-		
-
-		"bio": ""
-	},
-
-	{
-		"id"		: "30",
-		"type"		: "expotalk",
-		"name"		: "Ragnar Thobaben",
-		"role"		: "Associate Professor in Communication Theory",
-		"work"		: "School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology",
+		"name"		: "Christopher Corbett",
+		"role"		: "Junior Incident Responder",
+		"work"		: "Audi",
 		"country"	: "Germany",
 		"shortcode"	: "DE",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/ragnar-thobaben.png",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/christopher-corbett.png",
 		
 		
 		
@@ -1082,13 +139,13 @@
 		"presentation":{
 		
 			"active": 	"live",
-			"title": 	"Securing Wireless Transmissions at the Air Interface",
-			"partner":	"",
+			"title": 	"Automotive DoIP and forensic analysis for automotive systems",
+			"partner":	"Kevin Gomez Buqerin",
 			"name":		"",
 			"role":		"",
 			"work":		"",
 			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>In this talk, we discuss how properties of the wireless medium and wireless devices can be utilized to enhance wireless security. We start with a short review of so-called physical-layer security techniques and then study intrusion detection at the physical layer in detail. We give examples for features that can be utilized, we discuss necessary conditions for a reliable detection performance and their impact on system parameters, and we analyze how packet filtering at the physical layer impacts the delay performance of the system.</p>"
+			"description": ""
 		
 		},
 		
@@ -1104,100 +161,18 @@
 		},
 		
 
-		"bio": ""
+		"bio": "<p>Christopher Corbett is a PhD student of modern vehicle network security at Ulm University. His work focuses specifically on the examination of modern in-vehicle networks to derive security mechanisms for manipulation prevention and detection. He is a junior incident responder at Audi AG with a focus on network security monitoring and active defence techniques.</p>"
 	},
 
 	{
-		"id"		: "31",
-		"type"		: "expotalk",
-		"name"		: "Mads Dam",
-		"role"		: "Professor in Teleinformatics",
-		"work"		: "School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology",
-		"country"	: "Sweden",
-		"shortcode"	: "SE",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/mads-dam.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"Securing Low Level Software Using Formal Methods",
-			"partner":	"",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>Critical infrastructure security relies heavily on the security of the software and hardware that provide the basic execution platforms upon which various types of embedded controllers are implemented. Formal methods have been used, in the Cerces project and elsewhere, to formally prove the security of various types of hypervisors, microkernels, and separation kernel, based on relative simple models of the underlying hardware. The continuing stream of attacks on this hardware reveals that more refined microarchitectural models are needed. We present some recent work in this direction that is able to formally establish critical security properties, in the presence of some microarchitectural vulnerabilities.</p>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
-		},
-		
-
-		"bio": ""
-	},
-
-	{
-		"id"		: "32",
-		"type"		: "expotalk",
-		"name"		: "Dr Kevin Jones",
-		"role"		: "Head of Cyber Security Architecture, Innovation and Scouting",
-		"work"		: "Airbus Group",
-		"country"	: "United Kingdom",
-		"shortcode"	: "UK",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/dr-kevin-jones.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"ICS cyber security in the face of digital transformation",
-			"partner":	"",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>Coming soon.</p>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
-		},
-		
-
-		"bio": "<p>Dr Kevin Jones is Head of Cyber Security Architecture, Innovation and Scouting at Airbus, leading a global network of; teams, projects and collaborations including; research &amp; innovation, state of the art solutions development, and technology scouting for cyber security across; IT, ICS and Product security domains. He holds a BSc in Computer Science and MSc in Distributed Systems Integration from De Montfort University, Leicester where he also obtained his PhD: A Trust Based Approach to Mobile Multi-Agent System Security in 2010.</p>"
-	},
-
-	{
-		"id"		: "33",
-		"type"		: "expotalk",
-		"name"		: "Jannis Utz",
-		"role"		: "Sales Engineer",
-		"work"		: "Recorded Future",
+		"id"		: "6",
+		"type"		: "presentation",
+		"name"		: "Kevin Gomez Buqerin",
+		"role"		: "Junior Incident Responder",
+		"work"		: "Audi",
 		"country"	: "Germany",
 		"shortcode"	: "DE",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/jannis-utz.png",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/kevin-gomez-buqerin.png",
 		
 		
 		
@@ -1205,13 +180,13 @@
 		"presentation":{
 		
 			"active": 	"live",
-			"title": 	"Recorded Future - The Dark Web’s deep threat intelligence secrets",
-			"partner":	"",
+			"title": 	"Automotive DoIP and forensic analysis for automotive systems",
+			"partner":	"Christopher Corbett",
 			"name":		"",
 			"role":		"",
 			"work":		"",
 			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>There has been much speculation (not to mention exaggeration) over recent years about the fabled dark web. We’ve heard how this shady underworld is the refuge of the cyber criminal elite. That this is their “Wolf’s Lair,” where they gather to plot the breaching of businesses and the hacking of celebrities amongst other activities.</p><h3 id=\"this-presentation-will-feature\">This presentation will feature:</h3><ul>  <li>A definition of the dark web and how it differs from other sources of intelligence</li>  <li>Real-world examples of threat actor activities in dark marketplaces</li>  <li>Methods for uncovering emerging threats using dark web sources</li></ul>"
+			"description": ""
 		
 		},
 		
@@ -1227,130 +202,18 @@
 		},
 		
 
-		"bio": "<p>Jannis Utz has a successful 15+ year career in networking and security. Jannis has a strong background specifically in vulnerability management having worked the last years for Tenable and Qualys.</p>"
+		"bio": "<p>Kevin Gomez Buquerin is a master student for computer science at the technical University in Ingolstadt. Additionally to his studies and academic career, he is a junior incident responder at AUDI AG with a focus on malware analysis and general active defence techniques. Furthermore, he is in close cooperation with the vehicle security team at AUDI AG to establish robust security techniques for state-of-the-art and future vehicles.</p>"
 	},
 
 	{
-		"id"		: "34",
-		"type"		: "expotalk",
-		"name"		: "Jonas Dellenvall",
-		"role"		: "CTO",
-		"work"		: "Advenica",
-		"country"	: "Sweden",
-		"shortcode"	: "SE",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/jonas-dellenvall.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"Security when failure is not an option.",
-			"partner":	"",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>Sometimes the consequences of failure are simply not acceptable. When loss of life is at stake or when a failure means compromising highly classified secrets – the cyber security strategy must be adjusted accordingly. Much of today’s cyber security is just about reacting faster to failures. This presentation discusses how to adopt proactive strategies that are effective against tomorrows threats – today.</p>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
-		},
-		
-
-		"bio": "<p>Jonas Dellenvall is the CTO of Advenica AB, cyber security experts since 1993. Advenica is specialised in information security solutions for government, critical infrastructure and industry. Jonas previously held positions as Software Architect, product manager and VP of Marketing at Advenica.</p><p>Jonas has a deep interest for both technology and it’s consequences for humanity and society: “It is equally important to do the right things as well as doing things right. Technical decisions of today are forming our future for many years to come. The impact on society is much more profound than most people realize.” On his spare time, he enjoys being outdoors for sailing, skiing or just enjoying nature.</p><p>Jonas Dellenvall holds a M.Sc. in Engineering Physics and has more than 20 years of experience with System Development, including 13 years in the High Security Sector for Governments, Defense and Critical Infrastructure.</p>"
-	},
-
-	{
-		"id"		: "35",
-		"type"		: "expotalk",
-		"name"		: "Anton Shipulin",
-		"role"		: "Global Presales Manager",
-		"work"		: "Kaspersky Lab",
-		"country"	: "Russia",
-		"shortcode"	: "RU",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/anton-shipulin.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"Kaspersky Industrial Cybersecurity approach",
-			"partner":	"",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>Coming soon.</p>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
-		},
-		
-
-		"bio": ""
-	},
-
-	{
-		"id"		: "36",
-		"type"		: "expotalk",
-		"name"		: "Rick K. Peters",
-		"role"		: "Director, Operational Technology Global Enablement",
-		"work"		: "Fortinet",
-		"country"	: "United States",
-		"shortcode"	: "US",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/rick-peters.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"Addressing Physical to Digital Convergence in an Evolving World",
-			"partner":	"",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>The momentum behind the convergence of historically distinct and separate domains illuminates the importance of seeking to implement robust security to protect highly valued assets that are In many instances delivering essential global services.</p><p>The stakes in the game of outmaneuvering the adversary to protect Operational Technology Critical infrastructure (OTCI) have never been higher as the attack surface expands due to increased adoption of IP for business efficiency.  Operational technology security products and services aim to protect existing and evolving OT for industrial and commercial critical infrastructure systems.  Security and risk management leaders should gauge the market state and direction, and understand the types of OT security providers in the market.</p><p>Fortinet developed and markets an OTCI environmental solution that is based upon the integration of Fortinet’s Security Fabric. This global responsibility entails Fortinet enabling the integration of a scalable technology to ensure the safety, protection, visibility, and control of all these critical infrastructure systems. Mr. Peters will discuss the digital and security transformation that has taken place due to IT/OT convergence that resulted in OT systems fusing with corporate IT systems.</p><p>The audience will also get a cybersecurity architectural glimpse of how these systems are protected by Fortinet’s Security Fabric.</p>"
-		
-		},
-		
-
-		"bio": "<p>Rick affords the Fortinet OT-CI team more than 37 years of cybersecurity and global partnering experience working across foreign, domestic, and commercial industry sectors at the National Security Agency (NSA).  As Fortinet’s Operational Technology Global Enablement Director, working for Phil Quade (CISO), he delivers cybersecurity defense solutions and insights for the OT/ICS/SCADA critical infrastructure environments.  Prior to Fortinet, Rick led development of cyber capability across Endpoint, Infrastructure, and Industrial Control System technologies.  Previously, Rick also served as an executive leader supporting the Information Assurance Directorate at the NSA.  Earlier in his career, he served in a broad range of leadership and Engineering roles including Chief of Staff for the NSA Cyber Task Force and a 5-year forward liaison charged with directing integration of cyber and cryptologic solutions for U.S. Air Force Europe, Ramstein AFB, Germany.</p>"
-	},
-
-	{
-		"id"		: "37",
+		"id"		: "4",
 		"type"		: "presentation",
-		"name"		: "Erik Zouave",
-		"role"		: "Analyst",
-		"work"		: "FOI - Swedish Defence Research Agency",
-		"country"	: "Sweden",
-		"shortcode"	: "SE",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/erik-zouave.png",
+		"name"		: "Erwin Paternotte",
+		"role"		: "Lead Security Consultant",
+		"work"		: "Nixu",
+		"country"	: "Netherlands",
+		"shortcode"	: "NL",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/erwin-paternotte.png",
 		
 		
 		
@@ -1358,13 +221,13 @@
 		"presentation":{
 		
 			"active": 	"live",
-			"title": 	"Supply Chain Cyber Security throughout the ICS Lifecycle",
-			"partner":	"",
+			"title": 	"It WISN't Me: Attacking Industrial Wireless MEsh Networks (part II)",
+			"partner":	"Mattijs van Ommeren",
 			"name":		"",
 			"role":		"",
 			"work":		"",
 			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>The presentation is based on the preliminary findings of a study regarding aspects of cybersecurity in ICS supply chains at different stages of an ICS life cycle.</p>"
+			"description": ""
 		
 		},
 		
@@ -1380,18 +243,18 @@
 		},
 		
 
-		"bio": ""
+		"bio": "<p>Erwin works as a lead security consultant at Nixu Benelux. He has 15 years experience conducting penetration tests and security assessments on a wide variety of systems and technology. In the recent years his focus is shifting towards more advanced tests like red teaming, embedded systems, ICS/SCADA, and telco systems. Within Nixu he is also the practice lead for penetration and security testing.</p>"
 	},
 
 	{
-		"id"		: "38",
+		"id"		: "4",
 		"type"		: "presentation",
-		"name"		: "Lars Westerdahl",
-		"role"		: "Scientist",
-		"work"		: "FOI - Swedish Defence Research Agency",
-		"country"	: "Sweden",
-		"shortcode"	: "SE",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/lars-westerdahl.png",
+		"name"		: "Mattijs van Ommeren",
+		"role"		: "Lead Consultant",
+		"work"		: "Nixu",
+		"country"	: "Netherlands",
+		"shortcode"	: "NL",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/mattijs-van-ommeren.png",
 		
 		
 		
@@ -1399,131 +262,8 @@
 		"presentation":{
 		
 			"active": 	"live",
-			"title": 	"Uncertain conflict – When critical infrastructure is affected by national conflicts.",
-			"partner":	"",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>In a modern conflict, the absence of war is not the same as peace; and a robust critical infrastructure is the first line of defence. The goal of an attacking nation may not be a country or its resources; it may just as well be the freedom to operate without interference. Thus, non-traditional operations with the goal to destabilize a nation’s resolve comprises a grey area between peace and war.</p>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
-		},
-		
-
-		"bio": ""
-	},
-
-	{
-		"id"		: "39",
-		"type"		: "presentation",
-		"name"		: "Margarita Jaitner",
-		"role"		: "Analyst",
-		"work"		: "FOI - Swedish Defence Research Agency",
-		"country"	: "Sweden",
-		"shortcode"	: "SE",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/margarita-jaitner.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"Managing IoT-related risks",
-			"partner":	"",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>This presentation gauges the notion of risk in regards to proliferation of IoT attempting at being both comprehensive and yet exact. Risk is then tied to vulnerabilities and potential attack vectors typical for IoT. In conclusion, strategies for managing the described risks will be introduced. The presentation is based on a study conducted by Vidar Hedtjärn Swaling and Jessica Johansson.</p>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
-		},
-		
-
-		"bio": ""
-	},
-
-	{
-		"id"		: "40",
-		"type"		: "presentation",
-		"name"		: "Lars Erik Smevold",
-		"role"		: "Senior Security Analyst",
-		"work"		: "KraftCERT",
-		"country"	: "Norway",
-		"shortcode"	: "NO",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/lars-erik-smevold.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"Introduction to KRAFT-CERT and some words about Nordic co-op",
-			"partner":	"",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>Coming soon.</p>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
-		},
-		
-
-		"bio": "<p>Lars Erik Smevold is a senior security analyst in KraftCERT. KraftCERT is the Norwegian energy sector and ICS CERT - a non profit incident response team. The focus for KraftCERT is to together with the companies, protect, detect and recover from incidents that may harm production or distribution of power or water. Lars Erik has many years of experience in the industry from the automation, telco business, and later from security in the energy sector - including the building of security operations center (SOC). In his spare time he enjoys experimenting in his lab.</p>"
-	},
-
-	{
-		"id"		: "41",
-		"type"		: "special",
-		"name"		: "Jack Werner",
-		"role"		: "Freelance Journalist",
-		"work"		: "Freelance",
-		"country"	: "Sweden",
-		"shortcode"	: "SE",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/jack-werner.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"none",
-			"title": 	"",
-			"partner":	"",
+			"title": 	"It WISN't Me: Attacking Industrial Wireless MEsh Networks (part II)",
+			"partner":	"Erwin Paternotte",
 			"name":		"",
 			"role":		"",
 			"work":		"",
@@ -1544,48 +284,7 @@
 		},
 		
 
-		"bio": "<p>Jack Werner is a freelance journalist and writer. In 2014 at the free daily Metro, he co-founded the prize-winning fact-checking effort Viralgranskaren. He is a popular lecturer on critial thinking on social media, and the author of two books, on creepypasta, ghost stories on the internet, (2014) and fake news and urban legends on social media (2018). Since 2015, he runs the podcast Creepypodden, a bi-weekly podcast about ghost stories with over 130 000 listeners.</p>"
-	},
-
-	{
-		"id"		: "42",
-		"type"		: "presentation",
-		"name"		: "Kristina Blomqvist",
-		"role"		: "Program Manager - Program for Security in ICS",
-		"work"		: "MSB - Swedish Civil Contingencies Agency",
-		"country"	: "Sweden",
-		"shortcode"	: "SE",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/kristina-blomqvist.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"Introduction to MSB-session",
-			"partner":	"",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>Coming soon.</p>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": ""
-		},
-		
-
-		"bio": ""
+		"bio": "<p>Mattijs works as a lead consultant at Nixu Benelux. He has spent most of his career as an information security consultant, both on the offensive as well as the defensive side. Mattijs has a special interest in process automation and industrial systems. Over the years he has discovered numerous vulnerabilities in RTUs, process controllers, industrial firewalls and other equipment. Industrial sensor networks currently have most of his focus, as this is still mainly unexplored terrain.</p>"
 	}
 
 ]
