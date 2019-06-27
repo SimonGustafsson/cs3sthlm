@@ -42,7 +42,7 @@ layout: default
 
     <div class="column-block-item col-4-8">
       <div class="speakers-block">
-      {% assign sorted_speakers = site.data.archive | sample: 4 %}
+      {% assign sorted_speakers = site.data.speakers | sample: 4 %}
       {% for speaker in sorted_speakers %}
       {% if speaker.type contains "presentation" or speaker.type contains "training" or speaker.type contains "moderator" %}
       <div class="speakers-block-item col-2-8">
@@ -74,10 +74,10 @@ layout: default
       {% for item in training limit: 3 %}
       <a href="{{ site.baseurl }}{{ item.permalink }}" class="card-item card-item-filled spacing-bottom card-item-linked">
         <div class="card-item-details-row">
-          {% if item.time contains "-" %} 
-          <h4 class="sub-headline">Two Days - {{ item.time }}</h4>
+          {% if item.date contains "-" %} 
+          <h4 class="sub-headline">Two Days - {{ item.date }}</h4>
           {% else %}
-          <h4 class="sub-headline">One Day - {{ item.time }}</h4>
+          <h4 class="sub-headline">One Day - {{ item.date }}</h4>
           {% endif %}
 
           {% if item.status contains "Slots Open" %}

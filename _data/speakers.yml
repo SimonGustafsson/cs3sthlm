@@ -11,6 +11,10 @@
   date: 21-22 October
   time: 09:00 - 17:00
   place: Harlem
+  speaker:
+    - name: Erik Hjelmvik
+      role: Network Analyst
+      image: erik-hjelmvik
   status: Slots Left
   presentation:
     - active: none
@@ -103,6 +107,10 @@
   date: 22-23 October
   time: 09:00 - 17:00
   place:
+  speaker:
+    - name: Arnaud Soullié
+      role: Cybersecurity R&D Manager
+      image: arnaud-soullie
   status: Sold Out
   presentation:
     - active: none
@@ -273,6 +281,10 @@
   date:
   time:
   place:
+  speaker:
+    - name: Monta Elkins
+      role: Hacker-in-Chief
+      image: monta-elkins
   presentation:
     - active: live
       subject: Nation-State Supply Chain Attacks for Dummies and You Too
@@ -295,11 +307,15 @@
   date:
   time:
   place:
+  speaker:
+    - name: Christopher Corbett
+      role: Junior Incident Responder
+      image: christopher-corbett
   presentation:
     - active: live
       subject: Automotive DoIP and forensic analysis for automotive systems
       permalink: program/presentations//
-      partner: Kevin Gomez Buqerin
+      partner: Kevin Gomez Buquerin
       description:
   training:
     - active: none
@@ -307,16 +323,20 @@
 - id: 6
   type: presentation
   permalink:
-  name: Kevin Gomez Buqerin
+  name: Kevin Gomez Buquerin
   role: Junior Incident Responder
   work: Audi
   country: Germany
   shortcode: DE
-  image: kevin-gomez-buqerin.png
+  image: kevin-gomez-buquerin.png
   bio: Kevin Gomez Buquerin is a master student for computer science at the technical University in Ingolstadt. Additionally to his studies and academic career, he is a junior incident responder at AUDI AG with a focus on malware analysis and general active defence techniques. Furthermore, he is in close cooperation with the vehicle security team at AUDI AG to establish robust security techniques for state-of-the-art and future vehicles.
   date:
   time:
   place:
+  speaker:
+    - name: Kevin Gomez Buquerin
+      role: Junior Incident Responder
+      image: kevin-gomez-buquerin
   presentation:
     - active: live
       subject: Automotive DoIP and forensic analysis for automotive systems
@@ -340,6 +360,10 @@
   date:
   time:
   place:
+  speaker:
+    - name: Erwin Paternotte
+      role: Lead Security Consultant
+      image: erwin-paternotte
   presentation:
     - active: live
       subject: "It WISN't Me: Attacking Industrial Wireless MEsh Networks (part II)"
@@ -362,6 +386,10 @@
   date:
   time:
   place:
+  speaker:
+    - name: Mattijs van Ommeren
+      role: Lead Consultant
+      image: mattijs-van-ommeren
   presentation:
     - active: live
       subject: "It WISN't Me: Attacking Industrial Wireless MEsh Networks (part II)"

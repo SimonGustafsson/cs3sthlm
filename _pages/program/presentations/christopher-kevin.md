@@ -7,10 +7,10 @@ speaker:
   role: Junior Incident Responder
   work: Audi
   image: christopher-corbett
-- name: Kevin Gomez Buqerin
+- name: Kevin Gomez Buquerin
   role: Junior Incident Responder
   work: Audi
-  image: kevin-gomez-buqerin
+  image: kevin-gomez-buquerin
 id: presentation
 published: true
 ---

@@ -34,35 +34,6 @@
 		"author":[
 		
 		{
-			"name": 		"Stephan Beirer",
-			"role": 		"Senior Consultant",
-			"work": 		"GAI NetConsult GmbH",
-			"country": 		"Germany",
-			"shortcode":	"DE",
-			"image": 		"https://cs3sthlm.se/assets/speakers/stephan-beirer.png",
-			"bio": 			"<p>Stephan Beirer studied and received his PhD in physics. Since 2006 Mr. Beirer has been employed with GAI NetConsult GmbH as a senior consultant and is the Head of Industrial Control Systems Security since 2012. He advises clients on the development and implementation of organizational and technical security policies and controls, on implementing an information security management system (ISMS) according to IEC 62443, ISO/IEC 27001 and ISO/IEC 27019 and on business continuity planning. His professional focus is on securing process control and automation technology, especially in the field of energy supply. He gained his experience in more than 200 ICS security projects in the field of energy, transportation and industrial manufacturing. He is an active member of several national and international standardization committees at DIN, DKE, IEC and ISO and the editor of ISO/IEC 27019.</p>"
-		}
-		
-		],
-		"training":
-		
-		{
-			"subject": 		"Cyber security for the energy sector – an introduction to ISO/IEC 27019 and the BDEW/OE Whitepaper",
-			"date": 		"23 October",
-			"time": 		"09:00 - 17:00",
-			"place": 		"Nalen",
-			"description":  "<p>Generation, storage, transport and distribution of electricity and gas are the most critical of all critical infrastructure processes supporting our daily life. As in every modern industry domain, energy supply is heavily dependent on industrial control systems (ICS) and the security of these systems. While many energy utilities implement an information security management system (ISMS) based on the ISO/IEC 27000 standard family, they often struggle with the inclusion of the ICS and OT domain, when they try to harmonize security management over their entire business scope. To fill this gap ISO/IEC 27019 <em>Information security controls for the energy utility industry</em> was developed. ISO/IEC 27019 is a sector specific control set for the process control system domain of the energy sector which is based on ISO/IEC 27001 and ISO/IEC 27002.</p><p>To supplement the generic controls of ISO/IEC 27019 with detailed technical security specifications for ICS systems, the German and Austrian energy operator associations BDEW and Oesterreichs Energie have published the BDEW/OE Whitepaper. The Whitepaper can be used during system procurement and defines security requirements for control and automation systems of the energy domain and their telecommunication infrastructure.</p><p>The workshop gives an introduction to the contents and practical application of ISO/IEC 27019 and the BDEW/OE Whitepaper. The following topics will be covered:</p><ul>  <li>Industrial control systems in the energy sector</li>  <li>Introduction to the ISO/IEC 27000 series</li>  <li>Overview of ISO/IEC 27019</li>  <li>Practical application of ISO/IEC 27019</li>  <li>ISO/IEC 27019 and European cyber security regulation</li>  <li>The BDEW/OE Whitepaper, a security procurement guideline for energy ICS</li></ul><p>The workshop will include a lecture, discussions and exercises.</p>"
-		}
-		
-
-	},
-
-	{
-		"id": 				"3",
-		"type": 			"training",
-		"author":[
-		
-		{
 			"name": 		"Arnaud Soullié",
 			"role": 		"Cybersecurity R&D Manager",
 			"work": 		"pentesting-ics.com",
@@ -81,103 +52,6 @@
 			"time": 		"09:00 - 17:00",
 			"place": 		"Nalen",
 			"description":  "<p>On this intense 2-days training, you will learn everything you need to start pentesting Industrial Control Networks. We will cover the basics to help you understand what are the most common ICS vulnerabilities.</p><p>We will then spend some time learning and exploiting Windows &amp; Active Directory weaknesses, as most ICS are controlled by Windows systems. We will cover the most common ICS protocols (Modbus, S7, Profinet, Ethernet/IP, DNP3, OPC…), analyze packet captures and learn how to use these protocols to talk to Programmable Logic Controllers (PLCs).</p><p>You will learn how to program a PLC, to better understand how to exploit them. The training will end with an afternoon dedicated to a challenging hands-on exercise: The first CTF in which you capture a real flag! Using your newly acquired skills, you will try to compromise a Windows Active Directory, pivot to an ICS setup to take control of a model train and robotic arms.</p><h4 id=\"the-detailed-outline-of-the-training-will-be-the-following\">The detailed outline of the training will be the following:</h4><ul>  <li>Introduction to ICS &amp; common vulnerabilities</li>  <li>Pentesting Basics &amp; tools [Hands-on]</li>  <li>Windows basics and pentesting Windows [Hands-on]</li>  <li>Focus on ICS protocols</li>  <li>Programming PLCs [Hands-on]</li>  <li>Pentesting ICS [Hands-on]</li>  <li>Capture The Flag [Hands-on]</li></ul><h3 id=\"detailed-content\">Detailed content</h3><h4 id=\"module-1-introduction-to-ics--common-vulnerabilities\">Module 1: Introduction to ICS &amp; common vulnerabilities</h4><p>For starters, I will introduce the concept of ICS.</p><p>The topics will include:</p><ul>  <li>Vocabulary</li>  <li>Classic architectures</li>  <li>ICS components (PLCs, HMI, SCADA, DCS, sensors, RTUs, Historian, etc) and their roles</li>  <li>OT vs IT</li></ul><p>I will also introduce attendees to the most common vulnerabilities in ICS, and describes some of the public attacks:</p><ul>  <li>Lack of network segmentation / Exposure</li>  <li>Lack of hardening - ICS protocols insecurity</li></ul><p><em>This module is not hands-on</em></p><h4 id=\"module-2-pentesting-basics--tools\">Module 2: Pentesting Basics &amp; tools</h4><p>This module will introduce the concept of penetration test.I do not intend to spend too much time of the theoretical stuff (how to makea report, etc etc) since that is not what attendees are looking for.</p><p>However, I think a module is required to ensure that everyone shares at least thebasic concepts of penetration testing, in order to understand the rest of the training.The module will include :</p><ul>  <li>OSINT for ICS : Where to look to find informations</li>  <li>Reconnaissance : how to portscan &amp; nessus</li>  <li>Exploitation : Metasploit basics</li></ul><p>Toolz used : nmap, Nessus, Metasploit</p><p>Lab setup : Windows Servers and workstations, Metasploitable, Kali Linux</p><h4 id=\"module-3-windows-basics-and-pentesting-windows\">Module 3: Windows basics and pentesting Windows</h4><p>Any ICS now includes, at least in some areas, Windows systems. So I think that some time must be spent on Windows basics.</p><p>This module will introduce the following topics:</p><ul>  <li>Windows Active Directory</li>  <li>How to find credentials on Windows systems</li>  <li>Exploiting and pivoting to gain Domain Admin privileges</li></ul><p>A selection of hacking techniques will be applied on lab machines.</p><h4 id=\"module-4-focus-on-ics-protocols\">Module 4: Focus on ICS protocols</h4><p>This module will introduce the most common ICS protocols: Modbus/TCP, S7, Profinet, DNP3, Ethernet/IP…. Attendees will analyze network captures and be introduced to software libraries/ clients to use these protocols to talk to PLC simulators.</p><p><em>This module is not hands-on</em></p><h4 id=\"module-5-programming-plcs\">Module 5: Programming PLCs</h4><p>In order to have a better understanding of how a PLC works, student will use dedicated software to program a PLC in ladder logic (using trial versions of TIA portal and/or soMachine basic).</p><p>Students will then deploy the code to real PLCs.</p><p>Toolz used : SoMachine Basic</p><p>Lab : Windows virtual machine</p><h4 id=\"module-6-pentesting-ics\">Module 6: Pentesting ICS</h4><p>This module will be mostly lab sessions, in order to apply the knowledge learned so far:</p><ul>  <li>Network capture analysis &amp; replaying packets</li>  <li>Talking industrial protocols: Modbus, S7</li>  <li>Additional PLC features: web server, ftp, snmp and how to exploit it</li></ul><p>Toolz used : nmap, Nessus, Metasploit</p><p>Lab : Windows Servers and workstations, Kali Linux, Siemens and Schneider PLCs</p><h4 id=\"module-7-capture-the-flag\">Module 7: Capture The Flag</h4><p>I strongly believe that a good training must include “real-life” examples and labs. I will dedicate the last half-day of the training to a Capture The Flag event. To do so, I will have a specific setup where attendees will be able to use their newly-acquired knowledge on a simulation of a “real-life” system. This will include compromise of Windows host, pivoting to the ICS, understanding the industrial process, and finally capturing a real flag with a robot hand!</p><p>This will be an expanded version of the CTF I usually organize during the ICS workshops at conferences.</p><h4 id=\"target-audience\">Target audience</h4><p>This training is aimed at OT professionals willing to understand what are the security issues within ICS, and howto technically assess the security level of an ICS. It will also be beneficial for IT security professionals wanting to understand the technical specificities of ICS.</p><h4 id=\"key-takeaways\">Key takeaways</h4><p>The attendees will learn what are the common ICS vulnerabilities, the tools and techniques to assess an ICS (both Windows systems and PLCs), and will practice these techniques during an hands-on Capture The Flag on real hardware.</p><h4 id=\"training-preparations\">Training Preparations</h4><p>Laptop Required</p><p>Attendees will need to bring a laptop that fits the following specs:</p><ul>  <li>A PC with VirtualBox capable of running virtual machines.</li>  <li>At least 4GB RAM</li>  <li>At least 40 GB free disk space</li>  <li>VirtualBox (64 bit) installed (VMWare could be used but will not be supported in the training)</li></ul><p>Several VirtualBox VMs will be provided on USB flash drives at the beginning of the training.</p><p>Please note that having a 64-bit CPU and a 64-bit OS is not always enough to support 64-bit virtualization. You might need to enable features such as ”AMD-V”, ”VT-x” or ”Hyper-V” in BIOS in order to run virtual machines in 64-bit mode.</p><p>Please try to run a 64-bit VM prior to the training.</p>"
-		}
-		
-
-	},
-
-	{
-		"id": 				"4",
-		"type": 			"training",
-		"author":[
-		
-		{
-			"name": 		"Mikael Vingaard",
-			"role": 		"IT Security Consultant",
-			"work": 		"EnergiNet",
-			"country": 		"Denmark",
-			"shortcode":	"DK",
-			"image": 		"https://cs3sthlm.se/assets/speakers/mikael-vingaard.png",
-			"bio": 			"<p>Mikael Vingaard leverages his 15+ years of IT-security experience to build practicalinformation security with a real-life perspective. Mikael works as IT-Security Consultant at EnergiNet.dk, the Danish national transmission system operator. In his spare time, Mikael runs several research projects, build on Open Source softwareto make a positive difference to secure critical infrastructure environments.</p>"
-		}
-		
-		],
-		"training":
-		
-		{
-			"subject": 		"ICS Scada Honeypot Technical Training",
-			"date": 		"22-23 October",
-			"time": 		"09:00 - 17:00",
-			"place": 		"Nalen",
-			"description":  "<p>Get access this exciting two days deep dive workshop on SCADA honeypots. During the first day, the students will be guided in the different phases in planning, deploying and analyzing the collected data from a ICS/SCADA honeypot.</p><h3 id=\"day-1\">Day 1</h3><h4 id=\"introduction-to-honeypots-systems-with-special-focus-on-icsscada\">Introduction to Honeypots systems, with special focus on ICS/SCADA)</h4><p>The first day, the students will introduced to different types of honeypot systems and pro/con’s of each honeypot type.</p><p>The students will be guided thou the different phases in planning, deploying and analyzing the collected data from a ICS/SCADA honeypot.</p><p>We will deploy live honeypots on the internet and see how attackers would start to probe our honeypots. Furthermore, we will also attack the deployed honeypots ourselves; using SCADA pen testing tools and similar software. We will learn to spot various tools, and how to hide the signatures of a default honeypot.</p><h3 id=\"day-2\">Day 2</h3><h4 id=\"deploy-more-honeypots-and-move-from-low-interaction-to-mediumhigh-interaction-honeypots\">Deploy more honeypots and move from low interaction to medium/high interaction Honeypots</h4><p>We will continue the modification of the SCADA honeypot from day 1 and will also deploy a new Internet based ICS/SCADA credential honeypot to our research arsenal - for further research/analyzing.</p><p>The students will on day 2 build a purpose-build in-house Honeypot lab, where we change a low interaction honeypot to act as a realistic device (medium/high interaction honeypot) to ensure that attackers can’t spot the honeypot ‘a mile away’. This would give the students even better opportunity to do research/threat intelligence data on high interaction honeypots.</p><p>The 2nd day would also provide opportunities to deep dive into students ideas for further activities after the workshop.</p><h4 id=\"course-syllabus\">Course syllabus</h4><ul>  <li>Introduction to Honeypots systems, with special focus on ICS/SCADA.</li>  <li>Building and Deployment of a live honeypot on the internet.</li>  <li>Useful tools to pentest SCADA honeypot systems</li>  <li>How to read the logs, and spot different attack types</li>  <li>Useful modification of the honeypot configuration</li>  <li>Learning how to build and deploy a medium/high interactive honeypot - for even better research data/TTP’s</li>  <li>Closing remark and ideas for further activities.</li></ul><p>Each student will get access to a numbers of virtual lab servers to learn how to deploy and customize settings to avoid the default honeypot signature and evolve the low-interaction honeypot to be a true high interactive honeypot.</p><h4 id=\"takeaway-for-participants\">Takeaway for participants</h4><p>After this 2 days workshop, you will be able to plan and deploy different types of ICS/SCADA related open source honeypots, either for research or to defend your corporate/industrial assets.You will understand different Honeypot types and deceptions methods.</p><p>You will leave the class room with a knowledge on how to change the default signature on the honeypots and the understanding of the most common tools who will attack your honeypots.</p><h4 id=\"requirements\">Requirements</h4><p>Students must bring a suitable laptop able to connect to the Internet. It must have a SSH client (Putty/term or similar software) installed. All lab servers are based on the internet, so no hypervisor like Vmware/VirtualBox are required on the student device. Knowledge of basic Linux commands, text editor and usage of the command line would be beneficial, but not a strict requirement to benefit from this course.</p><h4 id=\"workshop-level\">Workshop Level</h4><p>Beginner to Intermediate</p>"
-		}
-		
-
-	},
-
-	{
-		"id": 				"5",
-		"type": 			"training",
-		"author":[
-		
-		{
-			"name": 		"Joe Slowik",
-			"role": 		"Adversary Hunter",
-			"work": 		"Dragos Inc",
-			"country": 		"United States",
-			"shortcode":	"US",
-			"image": 		"https://cs3sthlm.se/assets/speakers/joe-slowik.png",
-			"bio": 			"<p>Joe Slowik currently hunts ICS adversaries for Dragos, pursuing threat activity groups through their malware, their communications, and any other observables available. Prior to his time at Dragos, Joe ran the Incident Response team at Los Alamos National Laboratory, and served as an Information Warfare Officer in the US Navy. Throughout his career in network defense, Joe has consistently worked to ‘take the fight to the adversary’ by applying forward-looking, active defense measures to constantly keep threat actors off balance. When not hunting adversaries or playing with open source security projects, Joe loves playing ice hockey and building Legos.</p>"
-		}
-		
-		],
-		"training":
-		
-		{
-			"subject": 		"ICS Strategic Planning and War Gaming",
-			"date": 		"22-23 October",
-			"time": 		"09:00 - 17:00",
-			"place": 		"Nalen",
-			"description":  "<p>Network defense is informed by knowing the network, and knowing the adversary – but few practitioners have the fortune of possessing this knowledge before a major breach. Industrial Control System (ICS) networks provide particular challenges due to limitations on operational testing and traditional red team exercises. To address the need for critical assessment of ICS-related networks for developing defensive strategy, this training provides attendees with a comprehensive exercise to identify critical network assets within a theoretical IT and ICS environment, driven by threat intelligence and threat actor profiles.</p><p>Starting with an overview of strategy and applying strategic concepts to network defense, attendees will formulate a comprehensive, adversary-oriented network defense plan covering IT and ICS environments. Following additional overview and critique of planning, attendees will then test the plan through an iterative, guided wargaming exercise – the goal being to test planning comprehensiveness, identify gaps, and improve planning and implementation over time. This training is suitable for all levels of security practitioner – from CISO to SOC analyst – as a means to improve and refine defensive planning, especially within environments containing ICS.</p><h4 id=\"who-should-attend\">Who Should Attend</h4><ul>  <li>Security senior decision makers, from project managers through CIOs.</li>  <li>ICS network operations personnel responsible for assessing risk or managing network security.</li>  <li>Security operations personnel, either focused on ICS environment or general IT security, with an interest in network security strategy development.</li></ul><h4 id=\"key-learning-objectives\">Key Learning Objectives:</h4><ul>  <li>How to assess the security threat environment to identify threats facing the organization.</li>  <li>Apply threat assessment information to the organization’s security environment to formulate anactionable, working network defense strategy.</li>  <li>Learn to critically analyze network defense planning activity and technical controls to identify detection and visibility gaps.</li>  <li>Gain experience in developing and executing interactive exercises to test security plans to evaluate effectiveness and relevance.</li>  <li>Learn how to apply and interpret testing results to improve security planning over time, and adapt to a changing threat environment.</li></ul><h4 id=\"prerequisite-knowledge\">Prerequisite Knowledge:</h4><ul>  <li>General understanding of computer network security concepts, technical controls, and applications.</li>  <li>Familiarity with reading threat intelligence reporting covering computer network security issues.</li>  <li>Base-level knowledge in ICS security concepts preferred but not necessary.</li></ul><h4 id=\"hardwaresoftware-requirements\">Hardware/Software Requirements:</h4><ul>  <li>Laptop computer for development, planning, and documentation during exercises.</li>  <li>No other significant technical requirements – lectures and exercises will be based around discussion.</li></ul><h3 id=\"agenda\">Agenda</h3><h4 id=\"day-1\">Day 1:</h4><ul>  <li>Introduction to strategy within a computer network defense environment.</li>  <li>Identifying unique aspects of ICS networks and their impact on strategy development.</li>  <li>Review of threat activity groups and threat intelligence reporting.</li>  <li>EXERCISE: Critical evaluation of threat intelligence reporting to extract actionable information.</li>  <li>Review of ICS-specific network defense concepts and strategies.</li>  <li>Discussion and examples of threat modeling and developing threat-focused defensive plans.</li>  <li>EXERCISE: Formulate threat model for hypothetical ICS network based on available reporting.</li>  <li>Combining organizational knowledge with threat environment assessment to develop specific network security strategy.</li>  <li>EXERCISE: Develop strategic network defense plan for hypothetical ICS network.</li>  <li>Plan review and debrief.</li></ul><h4 id=\"day-2\">Day 2:</h4><ul>  <li>Review of strategic plans and purpose.</li>  <li>Distinction between red teaming and wargaming.</li>  <li>Wargaming introduction, rules, and procedures.</li>  <li>Importance of and critical components of after-action analysis and iterative development.</li>  <li>EXERCISE: Classroom wargaming exercise testing developed network security strategy.</li>  <li>After-action review of wargaming exercise, course take-aways, and closing.</li></ul>"
-		}
-		
-
-	},
-
-	{
-		"id": 				"6",
-		"type": 			"training",
-		"author":[
-		
-		{
-			"name": 		"Daniel Michaud-Soucy",
-			"role": 		"Principal Threat Analyst",
-			"work": 		"Dragos Inc",
-			"country": 		"United States",
-			"shortcode":	"US",
-			"image": 		"https://cs3sthlm.se/assets/speakers/daniel-michaud-soucy.png",
-			"bio": 			"<p>Daniel Michaud-Soucy is a Principal Threat Analyst, Threat Operations Center at the industrial cyber security company Dragos, Inc.. Daniel is focusing on threat hunting and incident response services within a variety of industrial environments. Daniel previously worked for Sempra Energy on RD&amp;D tasks revolving around machine to machine automated threat response, data aggregation, advanced threat detection and secure system interfaces for ICS/SCADA. Daniel also worked with Red Tiger Security performing cyber vulnerability assessments and penetration tests on oil &amp; gas, electrical power, water treatment and pharmaceutical ICS/SCADA environments.</p>"
-		},
-		
-		{
-			"name": 		"Ben Miller",
-			"role": 		"Director of Threat Operations",
-			"work": 		"Dragos Inc",
-			"country": 		"United States",
-			"shortcode":	"US",
-			"image": 		"https://cs3sthlm.se/assets/speakers/ben-miller.png",
-			"bio": 			"<p>Ben Miller is Director, Threat Operations Center at the industrial cyber security company Dragos, Inc. where he leads a team of analysts in performing active defense inside of ICS/SCADA networks. In this capacity, he is responsible for performing a threat hunting, incident response, and malware analysis mission for the industrial community. Previous to his role at Dragos, Inc. Ben was the Associate Director, Electricity Information Sharing &amp; Analysis Center (Electricity ISAC) and led cyber analysis for the sector.</p>"
-		}
-		
-		],
-		"training":
-		
-		{
-			"subject": 		"Introduction to Threat Hunting in ICS",
-			"date": 		"23 October",
-			"time": 		"09:00 - 17:00",
-			"place": 		"Nalen",
-			"description":  "<p>This one day class is an introduction to threat hunting and incident response for ICS environments. We will overview the business and security use cases of when and why threat hunting is valuable to organizations. We will progress by applying these concepts to corporate environments and industrial environments such as transmission or distribution control facilities, or plant distributed control systems (DCS).</p><p>This class will serve as an introduction to key concepts and provide a framework to develop active defenses for analysts and leadership. For existing active defense practitioners we will also include demonstrations of tools and tactics that can be immediately applied.</p><h4 id=\"outline\">Outline</h4><ul>  <li>Definition of threat hunting</li>  <li>NSM, data pivoting</li>  <li>Tools (tshark, bro, snort, cyberlens, elk)</li>  <li>Lab 1: Hunting the Red Team</li>  <li>Technique: Hypotheses</li>  <li>Technique: Zone to zone analysis</li>  <li>Technique: Timeline analysis</li>  <li>Lab 2: Operational Impact</li>  <li>Strategy: SMASH</li>  <li>Strategy: Collection Management Framework</li>  <li>Threat modeling of intelligence reports</li>  <li>Lab 3: Applying SMASH &amp; CMF</li>  <li>Lab 4 and 5: Capstone hunt</li></ul><h4 id=\"prerequisites\">Prerequisites</h4><p>Attendee should have a solid foundation of industrial control systems and a desire to apply active defense concepts such as hunting within their organization.</p><h4 id=\"hardware-requirements\">Hardware Requirements</h4><ul>  <li>Windows 7 or Windows 10 laptop with at least 8GB of ram and at least 100GB of free disk space</li>  <li>VMware Player or Workstation</li>  <li>Administrator privilege on your hardware</li>  <li>Computer that possesses a Ethernet port or supporting dongle</li>  <li>Computer that possesses USB ports or supporting dongles</li></ul>"
 		}
 		
 

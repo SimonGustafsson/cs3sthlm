@@ -140,7 +140,7 @@
 		
 			"active": 	"live",
 			"title": 	"Automotive DoIP and forensic analysis for automotive systems",
-			"partner":	"Kevin Gomez Buqerin",
+			"partner":	"Kevin Gomez Buquerin",
 			"name":		"",
 			"role":		"",
 			"work":		"",
@@ -167,12 +167,12 @@
 	{
 		"id"		: "6",
 		"type"		: "presentation",
-		"name"		: "Kevin Gomez Buqerin",
+		"name"		: "Kevin Gomez Buquerin",
 		"role"		: "Junior Incident Responder",
 		"work"		: "Audi",
 		"country"	: "Germany",
 		"shortcode"	: "DE",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/kevin-gomez-buqerin.png",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/kevin-gomez-buquerin.png",
 		
 		
 		
