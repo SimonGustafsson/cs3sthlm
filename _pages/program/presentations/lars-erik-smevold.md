@@ -6,6 +6,6 @@ speaker:
 - name: Lars Erik Smevold
   role: Senior Security Analyst
   work: kraftCERT
-  image: lars-erik-smevold.png
+  image: lars-erik-smevold
 id: presentation
 ---

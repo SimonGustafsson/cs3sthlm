@@ -34,7 +34,7 @@
     
       <item>
         <title>CS3STHLM Newsletter December</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/cs3-holiday.png&quot; alt=&quot;CS3STHLM Holiday&quot; class=&quot;full-width-image&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/cs3-holiday.png&quot; alt=&quot;CS3STHLM Holiday&quot; class=&quot;post-image-full-width col-3-8&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The CS3STHLM 2018 summit had several Top speaker presentations from from different angles of Cybersecurity, SCADA and Industrial Control Systems. As a holiday gift for you, we are now starting to publish presentations on our YouTube channel:&lt;/p&gt;
 
@@ -42,11 +42,17 @@
 
 &lt;p&gt;Next year we will be back for the sixth edition of CS3STHLM and the dates are October 21st-24th – &lt;strong&gt;mark your calendars!&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;CS3STHLM 2019 Trainings will be Monday – Tuesday 21-22&lt;/p&gt;
-
-&lt;p&gt;CS3STHLM 2019 Expo day Tuesday October 22&lt;/p&gt;
-
-&lt;p&gt;CS3STHLM 2019 Summit starts Wednesday Oct 23 and ends Thursday October 24.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;CS3STHLM 2019 Trainings will be Monday – Tuesday 21-22&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;CS3STHLM 2019 Expo day Tuesday October 22&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;CS3STHLM 2019 Summit starts Wednesday Oct 23 and ends Thursday October 24.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Another holiday gift is that we already have opened the ticket sale for 2019 with a special &lt;strong&gt;Earliest Bird&lt;/strong&gt; discount of 30 % on the two-day conference ticket. Link: &lt;a href=&quot;https://tickets.cs3sthlm.se/&quot;&gt;tickets.cs3sthlm.se&lt;/a&gt; and the discounted ticket is available until January 31st. You can add training sessions to this ’summit only’ ticket at a later point.&lt;/p&gt;
 

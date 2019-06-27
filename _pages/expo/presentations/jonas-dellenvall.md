@@ -6,7 +6,7 @@ speaker:
 - name: Jonas Dellenvall
   role: CTO
   work: Advenica
-  image: jonas-dellenvall.png
+  image: jonas-dellenvall
 id: expotalk
 ---
 

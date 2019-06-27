@@ -6,32 +6,30 @@ layout: default
 
 <section class="content">
 
-  <div class="sec-head"> 
-    <div class="block-head">
-      <h4>Advisory Board</h4>
-      {% include breadcrumbs.html %}
-    </div>
-    <h2>Expertise all around</h2>
+  {% include breadcrumbs.html %}
 
-    <div class="col-3-6 col-ml-1">
-    	<p>For expert advice and support, and to guarantee vivid discussions, excellent input and insight to current events within our field, we are proud to present our advisory board.</p>
+  <div class="content-header">
+    <div class="col-8-8">
+      <h4 class="sub-headline">Advisory Board</h4>
+      <h2 class="title title-yellow">Expertise all around</h2>
+    </div>
+
+    <div class="col-4-8">
+      <p>For expert advice and support, and to guarantee vivid discussions, excellent input and insight to current events within our field, we are proud to present our advisory board.</p>
     </div>
   </div>
 
-  <div class="advisory-cards">
-
+  <div class="advisory--block">
   	{% for card in site.data.advisory %}
-	<div class="card-item">
-		<figure class="speaker-image"><img src="{{ site.baseurl }}/assets/advisory/{{ card.image }}"></figure>
-		<div class="card-item-data">
-      <h2>{{ card.name }}</h2>
-  		<h3>{{ card.role }}</h3>
-  		<span class="card-item-work">{{ card.work }}</span>
-  		<span class="card-item-location">{{ card.from }}</span>
+    <div class="advisory--block-item col-1-3">
+      <figure class="speakers-image"><img src="{{ site.baseurl }}/assets/advisory/{{ card.image }}"></figure>
+      <div class="advisory--block-item-meta">
+        <h2 class="subtitle">{{ card.name }}</h2>
+        <h3 class="alt-title alt-title-small spacing-bottom">{{ card.role }} at {{ card.work }}</h3>
+        <span class="sub-headline">{{ card.from }}</span>
+      </div>
     </div>
-	</div>
-	{% endfor %}
-
+    {% endfor %}
   </div>
 
 </section>

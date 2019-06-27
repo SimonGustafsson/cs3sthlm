@@ -6,7 +6,7 @@ speaker:
 - name: Jannis Utz
   role: Sales Engineer
   work: Recorded Future
-  image: jannis-utz.png
+  image: jannis-utz
 id: expotalk
 ---
 

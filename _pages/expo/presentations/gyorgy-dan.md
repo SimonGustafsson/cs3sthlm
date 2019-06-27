@@ -6,7 +6,7 @@ speaker:
 - name: György Dán
   role: Professor in Teletraffic Systems
   work: School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology
-  image: gyorgy-dan.png
+  image: gyorgy-dan
 id: expotalk
 ---
 

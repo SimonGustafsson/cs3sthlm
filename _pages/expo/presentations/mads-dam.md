@@ -6,7 +6,7 @@ speaker:
 - name: Mads Dam
   role: Professor in Teleinformatics
   work: School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology
-  image: mads-dam.png
+  image: mads-dam
 id: expotalk
 ---
 

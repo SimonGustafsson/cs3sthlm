@@ -6,7 +6,7 @@ speaker:
 - name: Patrick Miller
   role: Managing Partner
   work: Archer
-  image: patrick-miller.png
+  image: patrick-miller
 id: presentation
 ---
 

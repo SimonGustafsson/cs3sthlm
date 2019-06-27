@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body class="archive-page">
+
+    <!--<div class="archive-transition"></div>-->
+    
+  	<div class="archive--speaker-header">
+        <div class="archive--speaker-pagination">
+            <div class="archive--speaker-pagination-item col-2-8">
+                <h5 class="sub-headline">Previous Speaker</h5>
+                <div class="archive--speaker-pagination-item-block">
+                    {% assign speaker = site.data.archive %}
+                    {% for item in speaker %}
+                    {% if item.id == page.previousid %}
+                    {% for item in item.speaker %}
+                    <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}-sq.png" class="speakers-block-item-image" />
+                    <div class="archive--speaker-pagination-item-block-meta">
+                        <h3 class="speaker-name">{{ item.name }}</h3>
+                        <h4 class="speaker-role">{{ item.role }}</h4>
+                    </div>
+                    {% endfor %}
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="archive--speaker-pagination-item col-2-8">
+                <h5 class="sub-headline">Next Speaker</h5>
+                <div class="archive--speaker-pagination-item-block">
+                    {% assign speaker = site.data.archive %}
+                    {% for item in speaker %}
+                    {% if item.id == page.nextid %}
+                    {% for item in item.speaker %}
+                    <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}-sq.png" class="speakers-block-item-image" />
+                    <div class="archive--speaker-pagination-item-block-meta">
+                        <h3 class="speaker-name">{{ item.name }}</h3>
+                        <h4 class="speaker-role">{{ item.role }}</h4>
+                    </div>
+                    {% endfor %}
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+            <a href="{{ site.baseurl }}/about/archive/speakers/" class="button button-primary button-yellow">Close</a>
+        </div>
+    </div>
+
+  	<div class="archive--speaker-background">
+  		<img srcset="{{ page.background }}.png 1x, {{ page.background }}@2x.png 2x" src="{{ page.background }}.png" class="archive--speaker-background-image">
+  		<span class="archive--speaker-background-mask"></span>
+  	</div>    
+
+    <div class="wrap">
+
+    	<section class="content">
+    	{% include breadcrumbs.html %}
+
+    	<div class="archive--speaker-introduction">
+    		{% assign speaker = site.data.archive %}
+    		{% for item in speaker %}
+    		{% if item.id == page.speakerid %}
+
+    		<div class="archive--speaker-meta">
+    		{% for item in item.when %}
+    			<span class="archive--speaker-meta-item">{{ item | replace: 'yearfive', '2018' | replace: 'yearfour', '2017' | replace: 'yearthree', '2016' | replace: 'yeartwo', '2015' | replace: 'yearone', '2014' }}</span>
+    		{% endfor %}
+    		</div>
+
+    		{% for item in item.speaker %}
+    		<div class="archive--speaker-info">
+    			<h2 class="title">{{ item.name }}</h2>
+    			<h3 class="alt-title">{{ item.role }} at {{ item.work }}</h3>
+    			<h5 class="alt-title alt-title-small">{{ item.country }}</h5>
+    		</div>
+    		
+
+
+            {% if item.bio != null %}
+    		<div class="archive--speaker-bio">
+    			<h4 class="headline">Biography</h4>
+
+                {% assign bioCount = item.bio | number_of_words %}
+
+
+                {% if bioCount < 60 %}
+                <div class="archive--speaker-bio-column-single col-3-8">
+                    <p>{{ item.bio }}</p>
+                </div>
+                {% else %}
+                <div class="archive--speaker-bio-column col-6-8">
+                    <p>{{ item.bio }}</p>
+                </div>
+                {% endif %}
+
+
+    		</div>
+            {% endif %}
+
+    		{% endfor %}
+
+
+    		{% endif %}
+    		{% endfor %}
+    	</div>
+
+    	<div class="archive--speaker-material archive--speaker-column-block">
+
+    		{% assign speaker = site.data.archive %}
+    		{% for item in speaker %}
+    		{% if item.id == page.speakerid %}
+
+    		{% if item.presentation contains "active" %}
+    		<div class="archive--speaker-column-item">
+    			<h2 class="alt-title">Presentations</h2>
+
+    		{% for item in item.presentation %}
+    		{% for item in item.yearfive %}
+    			<div class="archive--speaker-list-item">
+    				{% if item.keynote == true %}
+    				<h5 class="headline">{{ item.date }}<span class="archive--speaker-list-item-keynote">Keynote</span></h5>
+    				{% else %}
+    				<h5 class="headline">{{ item.date }}</h5>
+    				{% endif %}
+    				<h3 class="sub-title">{{ item.subject }}</h3>
+    				<p class="col-3-8">{{ item.description | truncatewords: 64 }}</p>
+    				{% for item in item.partner %}
+    				<span class="sub-headline sub-headline-small sub-headline-yellow">With {{ item.name }}</span>
+    				{% endfor %}
+    			</div>
+    		{% endfor %}
+
+    		{% for item in item.yearfour %}
+    			<div class="archive--speaker-list-item">
+    				{% if item.keynote == true %}
+    				<h5 class="headline">{{ item.date }}<span class="archive--speaker-list-item-keynote">Keynote</span></h5>
+    				{% else %}
+    				<h5 class="headline">{{ item.date }}</h5>
+    				{% endif %}
+    				<h3 class="sub-title">{{ item.subject }}</h3>
+    				<p class="col-3-8">{{ item.description | truncatewords: 64 }}</p>
+    			</div>
+    		{% endfor %}
+
+    		{% for item in item.yearthree %}
+    			<div class="archive--speaker-list-item">
+    				{% if item.keynote == true %}
+    				<h5 class="headline">{{ item.date }}<span class="archive--speaker-list-item-keynote">Keynote</span></h5>
+    				{% else %}
+    				<h5 class="headline">{{ item.date }}</h5>
+    				{% endif %}
+    				<h3 class="sub-title">{{ item.subject }}</h3>
+    				<p class="col-3-8">{{ item.description | truncatewords: 64 }}</p>
+    			</div>
+    		{% endfor %}
+
+    		{% for item in item.yeartwo %}
+    			<div class="archive--speaker-list-item">
+    				{% if item.keynote == true %}
+    				<h5 class="headline">{{ item.date }}<span class="archive--speaker-list-item-keynote">Keynote</span></h5>
+    				{% else %}
+    				<h5 class="headline">{{ item.date }}</h5>
+    				{% endif %}
+    				<h3 class="sub-title">{{ item.subject }}</h3>
+    				<p class="col-3-8">{{ item.description | truncatewords: 64 }}</p>
+    			</div>
+    		{% endfor %}
+
+    		{% for item in item.yearone %}
+    			<div class="archive--speaker-list-item">
+    				{% if item.keynote == true %}
+    				<h5 class="headline">{{ item.date }}<span class="archive--speaker-list-item-keynote">Keynote</span></h5>
+    				{% else %}
+    				<h5 class="headline">{{ item.date }}</h5>
+    				{% endif %}
+    				<h3 class="sub-title">{{ item.subject }}</h3>
+    				<p class="col-3-8">{{ item.description | truncatewords: 64 }}</p>
+    			</div>
+    		{% endfor %}
+    		{% endfor %}
+    		</div>
+    		{% endif %}
+
+    		{% if item.training contains "active" %}
+            <div class="archive--speaker-column-item{% if item.presentation contains "inactive" %}-solo{% endif %}">
+    			<h2 class="alt-title">Trainings</h2>
+
+    		{% for item in item.training %}
+    		{% for item in item.yearfive %}
+    			<div class="archive--speaker-list-item">
+    				<h5 class="headline">{{ item.date }}</h5>
+    				<h3 class="sub-title">{{ item.subject }}</h3>
+    				<p class="col-3-8">{{ item.description | truncatewords: 64 | remove: '#' }}</p>
+    				{% for item in item.partner %}
+    				<span class="sub-headline sub-headline-small sub-headline-yellow">With {{ item.name }}</span>
+    				{% endfor %}
+    			</div>
+    		{% endfor %}
+
+    		{% for item in item.yearfour %}
+    			<div class="archive--speaker-list-item">
+    				<h5 class="headline">{{ item.date }}</h5>
+    				<h3 class="sub-title">{{ item.subject }}</h3>
+    				<p class="col-3-8">{{ item.description | truncatewords: 64 | remove: '#' }}</p>
+    			</div>
+    		{% endfor %}
+
+    		{% for item in item.yearthree %}
+    			<div class="archive--speaker-list-item">
+    				<h5 class="headline">{{ item.date }}</h5>
+    				<h3 class="sub-title">{{ item.subject }}</h3>
+    				<p class="col-3-8">{{ item.description | truncatewords: 64 | remove: '#' }}</p>
+    			</div>
+    		{% endfor %}
+
+    		{% for item in item.yeartwo %}
+    			<div class="archive--speaker-list-item">
+    				<h5 class="headline">{{ item.date }}</h5>
+    				<h3 class="sub-title">{{ item.subject }}</h3>
+    				<p class="col-3-8">{{ item.description | truncatewords: 64 | remove: '#' }}</p>
+    			</div>
+    		{% endfor %}
+
+    		{% for item in item.yearone %}
+    			<div class="archive--speaker-list-item">
+    				<h5 class="headline">{{ item.date }}</h5>
+    				<h3 class="sub-title">{{ item.subject }}</h3>
+    				<p class="col-3-8">{{ item.description | truncatewords: 64 | remove: '#' }}</p>
+    			</div>
+    		{% endfor %}
+    		{% endfor %}
+    		</div>
+    		{% endif %}
+
+    		{% endif %}
+    		{% endfor %}
+
+    	</div>
+
+    	{{ content }}
+    	</section>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

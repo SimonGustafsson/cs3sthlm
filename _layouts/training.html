@@ -4,63 +4,73 @@ layout: default
 
 <section class="content">
 
-<div class="sec-head sec-head-single-post">
-    <div class="block-head">
-      <h4>Training</h4>
-      {% include breadcrumbs.html %}
-    </div>
-</div>
+  {% include breadcrumbs.html %}
+  
+  <article class="post col-8-8 column-block" itemscope itemtype="http://schema.org/BlogPosting">
 
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <aside class="sidebar column-block-item col-2-8">
 
-  <aside class="sidebar box-left">
-    <h4>Date</h4>
-    <span class="post-time">{{ page.time }}</span>
+      {% for item in page.speaker %}
+      <div class="post-meta">
 
-    {% for item in page.speaker %}
-    <ul class="meta-data--presentation">
-      <li><h4>Taught By</h4><span class="post-author">{{ item.name }}</span></li>
-      <li><h4>Role</h4><span class="post-role">{{ item.role }}</span></li>
-      <li><h4>Company</h4><span class="post-company">{{ item.work }}</span></li>
-      <li><img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}"></li>
-    </ul>
-    {% endfor %}
-  </aside>
+        <div class="post-meta-item">
+          <h4 class="sub-headline sub-headline-gray">Taugh by</h4>
+          <span class="alt-title alt-title-small">{{ item.name }}</span>
+        </div>
 
-  <div class="post-content" itemprop="articleBody">
+        <div class="post-meta-item">
+          <h4 class="sub-headline sub-headline-gray">Role</h4>
+          <span class="alt-title alt-title-small">{{ item.role }}</span>
+        </div>
 
-    <header class="post-header">
-      <h4 class="post-status {% if page.status == 'Slots Open' %}post-status-active{% endif %}">{{ page.status }}</h4>
-      <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    </header>
+        <div class="post-meta-item">
+          <h4 class="sub-headline sub-headline-gray">Company</h4>
+          <span class="alt-title alt-title-small">{{ item.work }}</span>
+        </div>
 
-    {{ content }}
-  </div>
+        <div class="post-meta-item">
+          <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}" class="post-meta-item-image">
+        </div>
 
-  <aside class="sidebar box-right">
-    <input type="checkbox" id="row-one" />
-    <label for="row-one">All Trainings & Tutorials</label>
-    <h4 class="checkbox-subline">All Trainings & Tutorials</h4>
-    <span class="icon-plus"></span>
+      </div>
+      {% endfor %}
 
-    <ul>
-    {% assign sorted_trainings = site.pages | sort: 'url' %}
-    {% for page in sorted_trainings %}
-    {% if page.id ==  'training' %}
-      <li><a href="{{ page.url | prepend: site.baseurl }}">
-          <span class="p-title">{{ page.title }}</span>
-          <span class="p-time">{{ page.time }}</span>
-          {% for item in page.speaker %}
-          <span class="p-author">{{ item.name }}</span>
-          {% endfor %}
-      </a></li>
-    {% endif %}
-    {% endfor %}
-    </ul>
-  </aside>
+    </aside>
 
-</article>
+    <section class="post-content column-block-item col-5-8 spacing-left" itemprop="articleBody">
 
-  <a href="https://tickets.cs3sthlm.se" target="_blank" class="btn btn-primary btn-yellow btn-ticket">Buy Ticket</a>
+      <header class="post-header">
+
+        <div class="post-meta post-meta-row">
+
+          <div class="post-meta-item">
+            <h4 class="sub-headline sub-headline-gray">Status</h4>
+            {% if page.status contains "Slots Open" %}
+            <span class="alt-title alt-title-small alt-title alt-title-yellow">{{ page.status }}</span>
+            {% endif %}
+
+            {% if page.status contains "Cancelled" %}
+            <span class="alt-title alt-title-small alt-title alt-title-gray">{{ page.status }}</span>
+            {% endif %}
+
+            {% if page.status contains "Sold Out" %}
+            <span class="alt-title alt-title-small alt-title alt-title-red">{{ page.status }}</span>
+            {% endif %}
+          </div>
+
+          <div class="post-meta-item">
+            <h4 class="sub-headline sub-headline-gray">Time</h4>
+            <span class="alt-title alt-title-small">{{ page.time }}</span>
+          </div>
+        </div>
+
+        <h1 class="title title-yellow" itemprop="name headline">{{ page.title }}</h1>
+      </header>
+
+      {{ content }}
+  
+    </section>
+
+  </article>
 
 </section>

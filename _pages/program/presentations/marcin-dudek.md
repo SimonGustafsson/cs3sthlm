@@ -6,7 +6,7 @@ speaker:
 - name: Marcin Dudek
   role: IT Security Expert
   work: ComCERT.PL
-  image: marcin-dudek.png
+  image: marcin-dudek
 id: presentation
 ---
 

@@ -6,11 +6,11 @@ speaker:
 - name: Erwin Kooi
   role: ICS/SCADA Architect
   work: Alliander
-  image: erwin-kooi.png
+  image: erwin-kooi
 - name: Rik van Hees
   role: OT Security Officer
   work: Alliander
-  image: rik-van-hees.png
+  image: rik-van-hees
 id: presentation
 ---
 

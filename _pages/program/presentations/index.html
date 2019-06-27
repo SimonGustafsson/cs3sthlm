@@ -13,11 +13,11 @@ layout: default
       <h4>Presentations</h4>
       {% include breadcrumbs.html %}
     </div>
-    <div class="block-head">
-      <h2>World Class</h2>
-      <div class="btn-group">
-        <a href="{{ site.baseurl }}/program/speakers/" class="btn btn-primary"><span>View</span> Speakers</a>
-        <a href="{{ site.baseurl }}/program/trainings/" class="btn btn-primary"><span>View</span> Trainings</a>
+
+    <div class="col-4-8">
+      <div class="button-group">
+        <a href="{{ site.baseurl }}/program/speakers/" class="button button-primary"><span>View</span> Speakers</a>
+        <a href="{{ site.baseurl }}/program/trainings/" class="button button-primary"><span>View</span> Trainings</a>
       </div>
     </div>
   </div>
@@ -29,13 +29,15 @@ layout: default
       {% if page.id ==  'presentation' or page.id == "expotalk" %}
         <li><a href="{{ page.url | prepend: site.baseurl }}">
             {% for item in page.speaker %}
-            <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}">
+            <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}.png">
             {% endfor %}
             <div class="presentation--list-meta">
-              <span class="p-title">{{ page.title }}</span>
+              <h3 class="heading">{{ page.title }}</h3>
+              <h4 class="alt-title alt-title-small alt-title-light">
               {% for item in page.speaker %}
-              <span class="p-author">{{ item.name }}</span>
+                <span>{{ item.name }}</span>
               {% endfor %}
+              </h4>
             </div>
         </a></li>
       {% endif %}

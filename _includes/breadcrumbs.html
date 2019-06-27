@@ -1,5 +1,5 @@
 {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-<ul class="bc-nav">
+<ul class="pagination-nav">
 	<li><a href="/">Home</a></li>
 	{% for crumb in crumbs offset: 1 %}
 	{% if forloop.last %}

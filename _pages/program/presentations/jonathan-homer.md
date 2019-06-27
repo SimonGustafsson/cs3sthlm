@@ -6,7 +6,7 @@ speaker:
 - name: Jonathan Homer
   role: Chief of the Industrial Control System Group
   work: NCCIC Hunt and Incident Response Team (HIRT)
-  image: jonathan-homer.png
+  image: jonathan-homer
 id: presentation
 ---
 

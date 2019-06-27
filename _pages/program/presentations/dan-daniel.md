@@ -6,11 +6,11 @@ speaker:
 - name: Dan Gunter
   role: Principal Threat Analyst
   work: Dragos Inc
-  image: dan-gunter.png
+  image: dan-gunter
 - name: Daniel Michaud-Soucy
   role: Principal Threat Analyst
   work: Dragos Inc
-  image: daniel-michaud-soucy.png
+  image: daniel-michaud-soucy
 id: presentation
 ---
 

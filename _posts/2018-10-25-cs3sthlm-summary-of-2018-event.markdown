@@ -5,8 +5,6 @@ categories:
 - news
 layout: post
 author: CS3STHLM Crew
-pdf:
-- english:
 ---
 
 ### APPRECIATED EXPANSION OF ACCLAIMED CYBER SECURITY CONFERENCE

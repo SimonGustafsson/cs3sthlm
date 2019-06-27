@@ -6,6 +6,6 @@ speaker:
 - name: Anton Shipulin
   role: Global Presales Manager
   work: Kaspersky Lab
-  image: anton-shipulin.png
+  image: anton-shipulin
 id: expotalk
 ---

@@ -6,6 +6,6 @@ speaker:
 - name: Dr Kevin Jones
   role: Head of Cyber Security Architecture, Innovation and Scouting
   work: Airbus Group
-  image: dr-kevin-jones.png
+  image: dr-kevin-jones
 id: expotalk
 ---

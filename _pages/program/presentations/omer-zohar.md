@@ -6,7 +6,7 @@ speaker:
 - name: Omer Zohar
   role: Independant Researcher
   work: Independant
-  image: omer-zohar.png
+  image: omer-zohar
 id: presentation
 ---
 

@@ -6,7 +6,7 @@ speaker:
 - name: Lars Westerdahl
   role: Scientist
   work: FOI
-  image: lars-westerdahl.png
+  image: lars-westerdahl
 id: presentation
 ---
 

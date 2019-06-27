@@ -6,7 +6,7 @@ speaker:
 - name: Marty Edwards
   role: Director of Strategic Initiatives
   work: ISA
-  image: marty-edwards.png
+  image: marty-edwards
 id: presentation
 published: false
 ---

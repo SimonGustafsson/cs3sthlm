@@ -30,18 +30,19 @@ $alpha-100: 1;
 /* Primary */
 $yellow:            rgb(239, 125, 0);
 $blue-old:          rgb(38, 96, 164);
-$blue:              rgb(33, 118, 174);
-$red:               rgb(145,47,64);
+$blue:              rgb(93, 183, 222);
+$red:               rgb(231,29,54);
 
 $blue-news:         rgb(33, 118, 174);
 $red-news:          rgb(196, 59, 91);
 
 $white:             rgb(255,255,255);
+$light-gray:        rgb(225,225,225);
 $dark:				      rgb(3, 1, 0);
 $gray:              rgb(166, 167, 169);
 
 $blue-dark:         rgb(43, 47, 54);
-$blue-darken:       rgb(28, 30, 34);
+$blue-darken:       rgb(26, 28, 32);
 
 $green:             rgb(0, 174, 93);
 
@@ -59,7 +60,9 @@ $content-width:    800px;
 $mobile:       768px;
 $small:        1170px;
 $default:      1280px;
+$medium:       1440px;
 $large:        1680px;
+$giant:        1920px;
 
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
@@ -76,7 +79,9 @@ $large:        1680px;
 	"fonts",
 	"base",
 	"layout",
-	"animation"
+	"animation",
+  "typograhy",
+  "components"
 ;
 
 

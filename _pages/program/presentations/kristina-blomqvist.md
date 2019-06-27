@@ -6,6 +6,6 @@ speaker:
 - name: Kristina Blomqvist
   role: Program Manager - Program for Security in ICS
   work: MSB - Swedish Civil Contingencies Agency
-  image: kristina-blomqvist.png
+  image: kristina-blomqvist
 id: presentation
 ---
