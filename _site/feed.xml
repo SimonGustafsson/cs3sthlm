@@ -5,9 +5,35 @@
     <description>CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 28 Jun 2019 11:54:18 +0000</pubDate>
-    <lastBuildDate>Fri, 28 Jun 2019 11:54:18 +0000</lastBuildDate>
+    <pubDate>Fri, 28 Jun 2019 12:40:34 +0000</pubDate>
+    <lastBuildDate>Fri, 28 Jun 2019 12:40:34 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>CS3STHLM Newsletter June</title>
+        <description>&lt;p&gt;Finally some news about the 6th CS3STHLM summit!&lt;/p&gt;
+
+&lt;p&gt;Our website is starting to be updated with information on the upcoming conference. A lot of new information has been published, and a lot more will be posted in the near future. Please check it out at this link.&lt;/p&gt;
+
+&lt;p&gt;For the Call For Participation, we got more than 65+ very good submissions from all over the planet. We have selected some submissions to start with in this year’s program. Please check out the first batch of topics and presenters listed here &lt;a href=&quot;https://cs3sthlm.se/program/speakers/&quot;&gt;speakers&lt;/a&gt; and here &lt;a href=&quot;https://cs3sthlm.se/program/presentations/&quot;&gt;presentations&lt;/a&gt; We will add presenters to the lists over time, as we also have a few slots reserved for invited speakers.&lt;/p&gt;
+
+&lt;p&gt;At this moment we have two trainings to chose from, but we hope to have even more very soon. The trainings that are set by today are &lt;strong&gt;ICS/SCADA Penetration Testing&lt;/strong&gt; with Arnauld Souille and &lt;strong&gt;ICS Network ForensICS&lt;/strong&gt; with Erik Hjelmvik. Information on available trainings at &lt;a href=&quot;https://cs3sthlm.se/program/trainings/&quot;&gt;/program/trainings&lt;/a&gt;. If you already have bought a ticket to the CS3STHLM Summit, or if you just wish to participate in the training part, please contact us at &lt;a href=&quot;info@cs3sthlm.se&quot;&gt;info@cs3sthlm.se&lt;/a&gt; if you would like to add any training. &lt;strong&gt;Discount 10% for COMBO tickets training + summit until end of July!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Last year we had a success with our CS3STHLM Expo day held the day before the actual summit. The Expo day is free of charge and gave the attendees a chance to get useful knowledge through our partners and to participate in different activities. For the persons that like the hands-on approach to Cyber Security this is a good day to try out our ICS lab that will be filled with old and new ICS gadgets, many of them otherwise unavailable for testing.&lt;/p&gt;
+
+&lt;p&gt;Also – all video filmed presentations from CS3STHLM 2018 and earlier are now available on our YouTube channel:  &lt;a href=&quot;https://www.youtube.com/channel/UCkD15o_9eJxUc9eeHtWSQ6Q&quot;&gt;YouTube/cs3sthlm&lt;/a&gt;
+Please subscribe!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Best wishes from the CS3STHLM crew &lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 28 Jun 2019 04:00:00 +0000</pubDate>
+        <link>/news/2019/06/28/cs3sthlm-newsletter-june.html</link>
+        <guid isPermaLink="true">/news/2019/06/28/cs3sthlm-newsletter-june.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
     
       <item>
         <title>CS3STHLM Newsletter February</title>
@@ -380,167 +406,6 @@ What is the biggest challenges to automotive area with regards to security? I 
         
         
         <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>CS3STHLM Newsletter September</title>
-        <description>&lt;h4 id=&quot;cs3sthlm-expo-on-23rd-oct&quot;&gt;CS3sthlm Expo on 23rd Oct&lt;/h4&gt;
-
-&lt;p&gt;On the 23rd, we will have an Expo at our venue Nalen. Partners will display the latest cyber security solutions and services. We will have a full lineup of speakers during the Expo day on the Harlem stage. Get the agenda for the day here &lt;a href=&quot;https://cs3sthlm.se/expo/&quot;&gt;/expo&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Free registration here: &lt;a href=&quot;https://cs3sthlmexpo.eventbrite.com/?aff=cs3sthlm&quot;&gt;https://cs3sthlmexpo.eventbrite.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Info on Expo partners and new CS3sthlm partners, shown further down!&lt;/p&gt;
-
-&lt;h4 id=&quot;technical-training&quot;&gt;Technical Training&lt;/h4&gt;
-
-&lt;p&gt;This year we will offer six different trainings, to have something for all our participants. Some are technical deep dives, some are more theoretical or policy oriented. Here is some short info on the trainings:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/program/trainings/mikael-vingaard/&quot;&gt;Learn why honeypots&lt;/a&gt; should be part of your toolbox to detect anomalies in your ICS network by taking Mikael Vingaards ICS honeypot class. This is a very hands-on class. Read an interview with Mike here: &lt;a href=&quot;https://cs3sthlm.se/blog/mikael-vingaard/&quot;&gt;/blog/mikael-vingaard&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/program/trainings/erik-hjelmvik/&quot;&gt;The Network ForensICS&lt;/a&gt; class is given for the 3rd time. Always sold out. Packed with network level examinations and protocol analysis, and you need to bring your computer.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/program/trainings/stephan-beirer/&quot;&gt;The ISO/IEC 27019&lt;/a&gt; training can be very useful for those interested in policy level work for the oil/gas industry or electrical utility industry. Read an interview with Dr Beirer here   &lt;a href=&quot;https://cs3sthlm.se/blog/dr-stephan-beirer/&quot;&gt;/blog/dr-stephan-beirer&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/program/trainings/arnaud-soullie/&quot;&gt;The ICS Pentest&lt;/a&gt; is a hand-on class where you will learn to find errors and vulnerabilities in a ICS system. To add something little extra, the class also includes a capture-the-flag competition between the attendees.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/program/trainings/joe-slowik&quot;&gt;ICS Strategic planning and war gaming&lt;/a&gt; is given by Joe Slowik of Dragos Inc to help you become better at defending your ICS systems.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/program/trainings/ben-daniel/&quot;&gt;Ben and Daniel&lt;/a&gt; from Dragos will get you started with threat hunting in your ICS environment&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;See all trainings here: &lt;a href=&quot;/program/trainings/&quot;&gt;/trainings&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;more-speakers&quot;&gt;More Speakers&lt;/h4&gt;
-
-&lt;p&gt;We are more or less ready with the lineup for this year with close to 30 presenters. We have experts from all over the world, giving presentations in as diverse areas such as Cyber attacks against cars, lessons from incidents and attacks, writing a adding malware into blockchain solutions. See all speakers here &lt;a href=&quot;/program/speakers/&quot;&gt;/speakers&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;ics-security-lab&quot;&gt;ICS Security Lab&lt;/h4&gt;
-
-&lt;p&gt;We will continue the success with the ICS security lab from previous years. Attendees will have opportunities to try out various ICS equipment, cyber security protection mechanisms, and to see demonstrations of attacks. More info on the lab here &lt;a href=&quot;/ics-lab/&quot;&gt;/ics-lab&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;hotel-discount&quot;&gt;Hotel Discount&lt;/h4&gt;
-
-&lt;p&gt;Please take note - hotel Elite Stockholm Plaza will only hold the reserved block of rooms for CS3sthlm until the 21st of september. If you have not already booked your hotel room, now is the time! Use this link &lt;a href=&quot;https://www.elite.se/en/conference-reservations/stockholm/e1a64817-7910-4517-bff8-d94ea2e28ed5/ea79fd04-097f-47bc-a55f-5e12e8c5868a/&quot;&gt;https://www.elite.se/en/conference-reservations/stockholm/e1a64817-7910-4517-bff8-d94ea2e28ed5/ea79fd04-097f-47bc-a55f-5e12e8c5868a/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;new-partners&quot;&gt;New Partners&lt;/h4&gt;
-
-&lt;div class=&quot;partner--list partner--list-inpost&quot;&gt;
-
-
-	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
-		&lt;a href=&quot;https://www.advenica.com/en&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/advenica.png&quot; alt=&quot;Advenica&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
-		&lt;/a&gt;
-	&lt;/div&gt;
-
-	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
-		&lt;a href=&quot;https://www.msb.se/en/&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/msb-english.png&quot; alt=&quot;MSB&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
-		&lt;/a&gt;
-	&lt;/div&gt;
-
-	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
-		&lt;a href=&quot;https://www.first.org&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/first.png&quot; alt=&quot;FIRST&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
-		&lt;/a&gt;
-	&lt;/div&gt;
-
-	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
-		&lt;a href=&quot;https://dragos.com&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/dragos.png&quot; alt=&quot;Dragos&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
-		&lt;/a&gt;
-	&lt;/div&gt;
-
-	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
-		&lt;a href=&quot;https://www.kraftcert.no/english/index.html&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/kraftcert.png&quot; alt=&quot;KraftCERT&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
-		&lt;/a&gt;
-	&lt;/div&gt;
-
-	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
-		&lt;a href=&quot;https://www.gai-netconsult.de/index.php?id=startseite&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/gai-netconsult.png&quot; alt=&quot;Gai Netconsult&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
-		&lt;/a&gt;
-	&lt;/div&gt;
-
-	&lt;div class=&quot;partner--item &quot;&gt;
-		&lt;a href=&quot;https://omnisiens.se&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/omnisiens.png&quot; alt=&quot;OMNISIENS&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
-		&lt;/a&gt;
-	&lt;/div&gt;
-
-	&lt;div class=&quot;partner--item &quot;&gt;
-		&lt;a href=&quot;https://romab.com&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/romab.png&quot; alt=&quot;ROMAB&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
-		&lt;/a&gt;
-	&lt;/div&gt;
-
-	&lt;div class=&quot;partner--item &quot;&gt;
-		&lt;a href=&quot;https://sysctl.se&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/sysctl.png&quot; alt=&quot;sysctl&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
-		&lt;/a&gt;
-	&lt;/div&gt;
-
-	&lt;div class=&quot;partner--item &quot;&gt;
-		&lt;a href=&quot;http://managementdoctors.se&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/md.png&quot; alt=&quot;Management Doctors&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
-		&lt;/a&gt;
-	&lt;/div&gt;
-
-	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
-		&lt;a href=&quot;https://www.kaspersky.com&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/kaspersky.png&quot; alt=&quot;Kaspersky&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
-		&lt;/a&gt;
-	&lt;/div&gt;
-
-	&lt;div class=&quot;partner--item &quot;&gt;
-		&lt;a href=&quot;https://www.recordedfuture.com&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/recorded-future.png&quot; alt=&quot;Recorded Future&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
-		&lt;/a&gt;
-	&lt;/div&gt;
-
-	&lt;div class=&quot;partner--item &quot;&gt;
-		&lt;a href=&quot;https://waterfall-security.com&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/waterfall-security.png&quot; alt=&quot;Waterfall Security&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
-		&lt;/a&gt;
-	&lt;/div&gt;
-
-	&lt;div class=&quot;partner--item &quot;&gt;
-		&lt;a href=&quot;https://en.energinet.dk&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/energinet.png&quot; alt=&quot;EnergiNet&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
-		&lt;/a&gt;
-	&lt;/div&gt;
-
-	&lt;div class=&quot;partner--item &quot;&gt;
-		&lt;a href=&quot;https://www.netresec.com&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/netresec.png&quot; alt=&quot;NETRESEC&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
-		&lt;/a&gt;
-	&lt;/div&gt;
-
-	&lt;div class=&quot;partner--item &quot;&gt;
-		&lt;a href=&quot;https://netnordic.se&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/netnordic.png&quot; alt=&quot;Netnordic&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
-		&lt;/a&gt;
-	&lt;/div&gt;
-
-	&lt;div class=&quot;partner--item &quot;&gt;
-		&lt;a href=&quot;https://www.secmatters.com&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/securitymatters.png&quot; alt=&quot;SecurityMatters&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
-		&lt;/a&gt;
-	&lt;/div&gt;
-
-	&lt;div class=&quot;partner--item partner--item-large&quot;&gt;
-		&lt;a href=&quot;https://www.fortinet.com&quot; target=&quot;_blank&quot;&gt;
-			&lt;img src=&quot;/assets/partners/fortinet.png&quot; alt=&quot;Fortinet&quot; width=&quot;auto&quot; height=&quot;100%&quot; /&gt;
-		&lt;/a&gt;
-	&lt;/div&gt;
-
-&lt;/div&gt;
-</description>
-        <pubDate>Wed, 19 Sep 2018 04:00:00 +0000</pubDate>
-        <link>/news/2018/09/19/cs3sthlm-newsletter-september.html</link>
-        <guid isPermaLink="true">/news/2018/09/19/cs3sthlm-newsletter-september.html</guid>
-        
-        
-        <category>news</category>
         
       </item>
     
