@@ -10,7 +10,7 @@ collections:
     output: true
 email: 
 description: CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.
-baseurl: ''
+baseurl: '/'
 url: 
 markdown: kramdown
 theme: 
