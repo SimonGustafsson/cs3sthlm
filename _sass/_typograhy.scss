@@ -259,6 +259,13 @@ p.content-intro {
 		font-size: 29px;
 		line-height: 45px;
 	}
+
+	&.more-to-come {
+		text-transform: uppercase;
+		letter-spacing: 0.045em;
+		color: rgba($yellow, .75);
+		text-align: center;
+	}
 }
 .speaker-name {
 	font-family: 'latoblack', sans-serif;

@@ -1536,11 +1536,14 @@ a {
           padding: 10px 14px;
           letter-spacing: 1px; }
           .introduction .intro-mark .button-group-intro .button:first-of-type {
-            margin-top: 0; }
+            margin-top: 0;
+            order: 1; }
           .introduction .intro-mark .button-group-intro .button:nth-child(3) {
-            margin-top: 24px; }
+            margin-top: 24px;
+            order: 3; }
           .introduction .intro-mark .button-group-intro .button:nth-child(2) {
-            margin-left: 4%; }
+            margin-left: 4%;
+            order: 2; }
           .introduction .intro-mark .button-group-intro .button:last-of-type {
             width: 100%; }
         .introduction .intro-mark .button-group-intro .button-thank-you {
@@ -2852,6 +2855,12 @@ a {
         margin-bottom: 24px;
         position: relative;
         padding-left: 138px; } }
+    @media screen and (max-width: 768px) {
+      .post-meta-no-image {
+        padding-left: 0;
+        flex-direction: row; }
+        .post-meta-no-image .post-meta-item:first-of-type {
+          margin-right: 24px; } }
     .post-meta-row {
       display: flex;
       flex-direction: row;
@@ -4598,6 +4607,11 @@ p.content-intro {
     .speaker-title {
       font-size: 29px;
       line-height: 45px; } }
+  .speaker-title.more-to-come {
+    text-transform: uppercase;
+    letter-spacing: 0.045em;
+    color: rgba(239, 125, 0, 0.75);
+    text-align: center; }
 
 .speaker-name {
   font-family: 'latoblack', sans-serif;

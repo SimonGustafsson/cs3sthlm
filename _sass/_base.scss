@@ -1930,15 +1930,19 @@ a {
 
         &:first-of-type {
           margin-top: 0;
+          order: 1;
         }
         &:nth-child(3) {
           margin-top: 24px;
+          order: 3;
         }
         &:nth-child(2) {
           margin-left: 4%;
+          order: 2;
         }
         &:last-of-type {
           width: 100%;
+
         }
       }
 
@@ -3709,6 +3713,19 @@ a {
       margin-bottom: 24px;
       position: relative;
       padding-left: 138px;
+    }
+
+    &-no-image {
+
+      @include media-query($mobile) {
+        padding-left: 0;
+        flex-direction: row;
+
+        .post-meta-item:first-of-type {
+          margin-right: 24px;
+        }
+      }
+
     }
 
     &-row {
