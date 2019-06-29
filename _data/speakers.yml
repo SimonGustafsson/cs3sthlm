@@ -710,3 +710,55 @@
 #       description:
 #   training:
 #     - active: none
+
+- id: 21
+  type: presentation
+  permalink:
+  name: Jonathan Jogenfors
+  role: Research Manager
+  work: Sectra
+  country: Sweden
+  shortcode: SE
+  image: jonathan-jogenfors.png
+  bio: Jonathan Jogenfors is Research Manager at Sectra Communications since 2017 and postdoctoral researcher in information security at Linköping University since 2018. At Sectra, his responsibilities include improving secure communications by post-quantum cryptography and developing new methods for defending our critical infrastructure. Jonathan is an expert in hacking quantum cryptography and blockchain technology, having defended his PhD thesis on the subject in 2017. Jonathan has many years of documented experience in teaching information security and cryptography to master-level students at Linköping University, as well as teaching digital forensics at a PhD-level course. He has assisted a number of law enforcement agencies on cryptocurrencies and advised them on forensic methodology, and spoken on Bitcoin forensics at several Swedish law enforcement conferences. Jonathan has been active as a public speaker and given many talks on the above subjects and has taken part in popular science documentaries in Swedish public service TV and radio.
+  date:
+  time:
+  place:
+  speaker:
+    - name: Jonathan Jogenfors
+      role: Research Manager
+      image: jonathan-jogenfors
+  presentation:
+    - active: live
+      subject: "Digital Forensics and ICS: Why and how?"
+      permalink: program/presentations/jonathan-jogenfors/
+      partner:
+      description:
+  training:
+    - active: none
+
+- id: 22
+  type: presentation
+  permalink:
+  name: Sarah Fluchs
+  role: Security Consultant
+  work: admeritia GmbH
+  country: Germany
+  shortcode: DE
+  image: sarah-fluchs.png
+  bio: Sarah Fluchs is a Security Consultant at admeritia GmbH, which specializes in OT Security. As admeritia’s Head of Security Engineering, she is driven by making OT Security doable. An engineer herself, Sarah is convinced that creating solid engineering methods speaking the language of automation engineers is the key for OT Security. Sarah has a bachelor’s degree in mechanical and process engineering and a master’s degree in automation engineering. As a scholar of the German Academic Scholarship Foundation and ThyssenKrupp throughout her studies, she’s gained process industries experience at ThyssenKrupp Industrial Solutions USA. Completing her master’s degree at the German Federal Office for Information Security, she helped develop the water utilities’ industry standard for IT Security. After joining admeritia, Sarah continues her engagement for standardization at ISA99 / IEC TC65 and its German mirror committees, focusing on OT security engineering for smart manufacturing and security for safety. She perseveres in her effort to keep standards viable, throwing in her experience in implementing IEC 62443 and German critical infrastructure security standards with asset owners, integrators, and vendors.
+  date:
+  time:
+  place:
+  speaker:
+    - name: Sarah Fluchs
+      role: Security Consultant
+      image: sarah-fluchs
+  presentation:
+    - active: live
+      subject: LayeredBlueprints–anontologyandmethodfor(talking about) engineering OT Security
+      permalink: program/presentations/sarah-fluchs/
+      partner:
+      description:
+  training:
+    - active: none
