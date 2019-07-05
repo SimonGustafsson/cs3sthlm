@@ -143,7 +143,8 @@ body {
   flex-direction: column; }
 
 h1, h2, h3, h4 {
-  font-family: 'latoblack', Arial, sans-serif; }
+  font-family: 'latoblack', Arial, sans-serif;
+  font-weight: normal; }
 
 .highlight-white {
   font-weight: normal;
@@ -2912,13 +2913,13 @@ a {
   .post-image-full-width {
     display: block;
     margin: 0 auto; }
-  .post-content ul {
+  .post-content ul, .post-content ol {
     margin-left: 20px;
     margin-bottom: 24px; }
-    .post-content ul li {
+    .post-content ul li, .post-content ol li {
       line-height: 38px;
       color: #e1e1e1; }
-    .post-content ul a {
+    .post-content ul a, .post-content ol a {
       font-family: 'latobold', sans-serif;
       font-weight: normal;
       color: white;
@@ -2927,7 +2928,7 @@ a {
       -moz-transition: 0.24s all ease-in-out;
       -webkit-transtiion: 0.24s all ease-in-out;
       -o-transition: 0.24s all ease-in-out; }
-      .post-content ul a:hover {
+      .post-content ul a:hover, .post-content ol a:hover {
         color: #ef7d00; }
   .post-content p:last-of-type {
     margin-bottom: 19px; }

@@ -24,6 +24,7 @@ body {
 
 h1, h2, h3, h4 {
   font-family: 'latoblack', Arial, sans-serif;
+  font-weight: normal;
 }
 
 .highlight-white {
@@ -3809,7 +3810,7 @@ a {
 
   &-content {
 
-    ul {
+    ul, ol {
       margin-left: 20px;
       margin-bottom: 24px;
 

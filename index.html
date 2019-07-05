@@ -383,35 +383,48 @@ id: home
       <div class="content-header">
         <h2 class="title title-yellow">The Trainings</h2>
       </div>
-      <p class="content-intro col-4-8">Between 21 and 22 of October, the days before the summit, we will provide different full-day tutorials and training with world-renowned experts. We have tutorials in a number of different areas such as forensics in computers and in networks, introduction to cybersecurity standards, and information gathering. The tutorials ranging from theoretical overviews via hands-on practical to highly technical classes.</p>
+      <p class="content-intro col-4-8">Between 21st and 22nd of October, the days before the summit, we will provide different full-day tutorials and training with world-renowned experts. We have tutorials in a number of different areas such as forensics in computers and in networks, introduction to cybersecurity standards, and information gathering. The tutorials ranging from theoretical overviews via hands-on practical to highly technical classes.</p>
 
-      <div class="column-block">
-        {% assign training = site.data.trainings | sort: 'year' | reverse %}
-        {% for card in training limit: 2 %}
-        <div class="column-block-item col-2-8 card-item-training">
-          <div class="card-item card-item-filled">
-            {% for item in card.training %}
-            {% if item.date contains "-" %} 
-            <h4 class="sub-headline">Two Days - {{ item.date }}</h4>
-            {% else %}
-            <h4 class="sub-headline">One Day - {{ item.date }}</h4>
-            {% endif %}
-            <h2 class="speaker-title">{{ item.subject }}</h2>
-            {% endfor %}
-            <h3 class="speaker-name">
-            {% for item in card.author %}
-            <span>{{ item.name }}</span>
-            {% endfor %}
-            </h3>
-            {% for item in card.training %}
-            <p>{{ item.description | truncatewords: 14 }}</p>
-            {% endfor %}
+      <div class="column-block-item col-4-8">
+      {% assign training = site.pages | where_exp:"item", "item.layout contains 'training'" | sample: '3' | sort:'title' %}
+      {% for item in training limit: 3 %}
+      <a href="{{ site.baseurl }}{{ item.permalink }}" class="card-item card-item-filled spacing-bottom card-item-linked">
+        <div class="card-item-details-row">
+          {% if item.date contains "-" %} 
+          <h4 class="sub-headline">Two Days - {{ item.date }}</h4>
+          {% else %}
+          <h4 class="sub-headline">One Day - {{ item.date }}</h4>
+          {% endif %}
 
-            <a href="{{ site.baseurl }}/" class="button button-primary">View Details</a>
-          </div>
+          {% if item.status contains "Slots Open" %}
+          <h4 class="sub-headline sub-headline-yellow">{{ item.status }}</h4>
+          {% endif %}
+
+          {% if item.status contains "Cancelled" %}
+          <h4 class="sub-headline sub-headline-gray">{{ item.status }}</h4>
+          {% endif %}
+
+          {% if item.status contains "Sold Out" %}
+          <h4 class="sub-headline sub-headline-red">{{ item.status }}</h4>
+          {% endif %}
+
         </div>
-        {% endfor %}
-      </div>
+        <div class="card-item-details">
+          <h2 class="speaker-title">{{ item.title }}</h2>
+          <h3 class="speaker-name">
+          {% for item in item.speaker %}
+            <span>{{ item.name }}</span>
+          {% endfor %}
+          </h3>
+
+          <p>{{ item.content | strip_html | truncatewords: 14 }}</p>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+
+
+
     </div>
 
   </div>

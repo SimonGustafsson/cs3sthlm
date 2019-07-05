@@ -250,21 +250,16 @@
 #   date:
 #   time: 
 #   place:
+#   speaker:
+#     - name: Dieter Sarrazyn
+#       role: Security Expert
+#       image: dieter-sarrazyn
 #   presentation:
 #     - active: live
-#       subject: Operator Jail breakout
-#       permalink: program/presentations/dieter-frank/
-#       partner: active
-#       name: Frank Lycops
-#       role: Security Consultant & Researcher
-#       work: Freelance
-#       image: frank-lycops.png
-#       description: |
-#         Operator stations are today one of the first systems/stations to interact with a distributed control system (DCS) or other industrial control systems. These operator stations often have some protection built in to restrict what the operator can do within the SCADA software and/or on the operating system itself.
-        
-#         Within this presentation, some of the most (easily) discovered ways are shown/explained and how these can be (ab)used to gain a further foothold within the environment.
-        
-#         The audience will learn more on the shortcomings of most of the operator jail solutions and what could be done to step up this game to secure this properly. Key takeaways obtained by the audience through this presentation is that you cannot trust operator jails in the thought that it properly protects attackers from gaining access to the operating system itself and thus potentially exploiting the whole DCS environment.
+#       subject: Security Testing for ICS Owners 2.0
+#       permalink: program/presentations/dieter-sarrazyn/
+#       partner:
+#       description:
 #   training:
 #    - active: none
 
@@ -759,6 +754,136 @@
 #       subject: LayeredBlueprints–anontologyandmethodfor(talking about) engineering OT Security
 #       permalink: program/presentations/sarah-fluchs/
 #       partner:
+#       description:
+#   training:
+#     - active: none
+
+# - id: 23
+#   type: presentation
+#   permalink:
+#   name: Richard Widh
+#   role: Senior Cyber Security
+#   work: Ancautus AB
+#   country: Sweden
+#   shortcode: SE
+#   image: no-image.png
+#   bio: Richard Widh, B Sc Computer Engineering & Electronics,CISSP, GISP, TSCM Btec lvl 3 & Senior Cyber security G33k, Founder, Owner & CEO, Ancautus AB. Richard have worked as a specialist within the Cyber security area for more than 15 years and within IT as a professional since the early 1990s, including but not limited to the Swedish Armed forces (Försvarsmakten), Swedish Defence Materiel Administration (FMV), the Swedish Radiation Safety Authority (SSM) and The Swedish Civil Contingencies Agency (MSB).
+#   date:
+#   time:
+#   place:
+#   speaker:
+#     - name: Richard Widh
+#       role: Senior Cyber Security
+#       image: no-image
+#   presentation:
+#     - active: live
+#       subject: Demystifying TSCM or how to spot the witch doctor doing the raindance
+#       permalink: program/presentations/richard-widh/
+#       partner:
+#       description:
+#   training:
+#     - active: none
+
+# - id: 24
+#   type: presentation
+#   permalink:
+#   name: Andreas Ginter
+#   role: VP Industrial Security
+#   work: Waterfall
+#   country: Canada
+#   shortcode: CA
+#   image: andreas-ginter.png
+#   bio: Andrew Ginter is the VP Industrial Security at Waterfall Security Solutions and an Adjunct Assistant Professor at Michigan Technological University. At Waterfall, Andrew leads a team responsible for industrial cyber­security research, contributions to standards and regulations, as well as security architecture recommendations for industrial sites. At MTU, Andrew is responsible for the graduate engineering course EE 5451, Cyber Risk Assessment for Critical Infrastructure Protection.
+#   date:
+#   time:
+#   place:
+#   speaker:
+#     - name: Andreas Ginter
+#       role: VP Industrial Security
+#       image: andreas-ginter
+#   presentation:
+#     - active: live
+#       subject: Secure Operations Technology
+#       permalink: program/presentations/andreas-ginter/
+#       partner:
+#       description:
+#   training:
+#     - active: none
+
+# - id: 25
+#   type: presentation
+#   permalink:
+#   name: Staffan Truvé
+#   role: CTO
+#   work: Recorded Future
+#   country: Sweden
+#   shortcode: SE
+#   image: staffan-truvé.png
+#   bio: Staffan Truvé is the co­founder and CTO of Recorded Future. He has co­founded over 15 software companies, including visualization pioneer Spotfire (acquired by Tibco) and Appgate (now Cryptzone) for network security. Staffan holds a PhD in computer science from Chalmers University of Technology. He has been a visiting Fulbright Scholar at MIT. His research interests include threat intelligence, machine learning, natural language processing, and information visualization. He is a member of the Royal Swedish Academy of Engineering Sciences.
+#   date:
+#   time:
+#   place:
+#   speaker:
+#     - name: Staffan Truvé
+#       role: CTO
+#       image: staffan-truvé
+#   presentation:
+#     - active: live
+#       subject: Nation­States Project Influence Through Cyberattacks Targeting Industrial Systems
+#       permalink: program/presentations/staffan-truvé/
+#       partner:
+#       description:
+#   training:
+#     - active: none
+
+# - id: 26
+#   type: presentation
+#   permalink:
+#   name: Markus Mahrla
+#   role: Security Consultant
+#   work: GAI NetConsult GmbH
+#   country: Germany
+#   shortcode: DE
+#   image: markus-mahrla.png
+#   bio: More than 10 years of work experience in the IT security field with more than 7 years experience in performing ICS security audits mainly in the area of industrial automation and energy supply. Graduation at Humbold-University („German Diplom“) in Computer Sci- ence
+#   date:
+#   time:
+#   place:
+#   speaker:
+#     - name: Markus Mahrla
+#       role: Security Consultant
+#       image: markus-mahrla
+#   presentation:
+#     - active: live
+#       subject: Fuzz Testing IEC 61850
+#       permalink: program/presentations/markus-mahrla/
+#       partner:
+#       description:
+#   training:
+#     - active: none
+
+# - id: 27
+#   type: presentation
+#   permalink:
+#   name: Alexander Nochvay
+#   role: Security Researcher
+#   work: Kaspersky Lab
+#   country: Russia
+#   shortcode: RU
+#   image: alexander-nochvay.png
+#   bio: Alexander Nochvay is a security researcher of the Kaspersky Lab ICS CERT. His passion is studying network protocols without source code available and he definitely likes to communicate with such protocols in any possible and impossible manners. His favorite vulnerabilities are logical and architectural ones. One day he found that software uses the string “TESTKEY” as a encryption key. He prefers to write reports about discovered vulnerabilities instead of advisories for developers.
+#   date:
+#   time:
+#   place:
+#   speaker:
+#     - name: Alexander Nochvay
+#       role: Security Researcher
+#       image: alexander-nochvay
+#   presentation:
+#     - active: live
+#       subject: CoDeSys
+#       permalink: program/presentations/alexander-vladimir/
+#       partner: Vladimir Dashchenko
 #       description:
 #   training:
 #     - active: none

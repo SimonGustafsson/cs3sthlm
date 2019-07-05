@@ -10,7 +10,7 @@
       bio: Erik is the creator of NetworkMiner and an experienced incident handler who has specialized in the field of network forensics.
   training:
     - subject: Network Forensics Training
-      date: 22-23 October
+      date: 21-22 October
       time: 09:00 - 17:00
       place: Nalen
       description: |
@@ -97,7 +97,7 @@
       bio: "Arnaud Soullié (@arnaudsoullie) is the cybersecurity R&D manager at Wavestone. For 8 years, he has been performing security audits and pentest on all type of targets. He specializes in Industrial Control Systems and Active Directory security. He has spoken at numerous security conferences on ICS topics : BlackHat Europe, BruCon, 4SICS, BSides Las Vegas, DEFCON…He also has an interest in hardware security, and is the designer of DYODE (Do Your Own Diode): an open-source, low-cost, ICS oriented data diode."
   training:
     - subject: Pentesting Industrial Control Systems
-      date: 22-23 October
+      date: 21-22 October
       time: 09:00 - 17:00
       place: Nalen
       description: |
