@@ -8,7 +8,7 @@ speaker:
   work: GAI NetConsult GmbH
   image: markus-mahrla
 id: presentation
-published: false
+published: true
 ---
 
 During implementation of protocols in a communication stack usually only positive testing is performed to verify the conformance to the standard, especially for ICS protocols. Negative testing as part of the development process is often not applied. Therefore, it remains unknown how the stack or entire component is reacting on invalid, random or unexpected data. This talk will introduce robustness tests on IEC 61850, an ICS protocol that is used in digital substation communication. IEC 61850 is a modern and highly complex protocol stack and therefore provides a high attack surface.

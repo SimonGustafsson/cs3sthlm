@@ -285,6 +285,211 @@
 		
 
 		"bio": "<p>Mattijs works as a lead consultant at Nixu Benelux. He has spent most of his career as an information security consultant, both on the offensive as well as the defensive side. Mattijs has a special interest in process automation and industrial systems. Over the years he has discovered numerous vulnerabilities in RTUs, process controllers, industrial firewalls and other equipment. Industrial sensor networks currently have most of his focus, as this is still mainly unexplored terrain.</p>"
+	},
+
+	{
+		"id"		: "10",
+		"type"		: "presentation",
+		"name"		: "Matan Dobrushin",
+		"role"		: "Head of OT Research",
+		"work"		: "Otorio",
+		"country"	: "Israel",
+		"shortcode"	: "IL",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/matan-dobrushin.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Project RunAway",
+			"partner":	"Yoav Flint Rosenfeld",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		},
+		
+
+		"bio": "<p>Cyber security researcher with military leadership experience in cyber security unit.</p>"
+	},
+
+	{
+		"id"		: "11",
+		"type"		: "presentation",
+		"name"		: "Yoav Flint Rosenfeld",
+		"role"		: "Head of OT Research",
+		"work"		: "Otorio",
+		"country"	: "Israel",
+		"shortcode"	: "IL",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/yoav-flint-rosenfeld.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Project RunAway",
+			"partner":	"Matan Dobrushin",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		},
+		
+
+		"bio": "<p>Over 20 years of experience in cyber security as a pen tester, security consultant, SOC manager and threat intelligence manager.</p>"
+	},
+
+	{
+		"id"		: "14",
+		"type"		: "presentation",
+		"name"		: "Prasanna N",
+		"role"		: "R&D Engineer",
+		"work"		: "ABB GISPL",
+		"country"	: "India",
+		"shortcode"	: "IN",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/prasanna-n.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"CVSS for ICS; Gauging a tennis game with number of goals",
+			"partner":	"",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		},
+		
+
+		"bio": "<p>Prasanna is currently an R&amp;D Engineer in ABB India. In this role he facilitates the realization of cyber security controls and management functions for Grid Integration products and services by participating in the R&amp;D process. Prior to joining ABB, he has been working with Symantec as a Threat Analyst, holds a Bachelor of Information Technology and Master of Information Security and Cyber Forensics. In his seven years of experience with both IT and OT security, he had experience in Vulnerability Management, Vulnerability Assessment, Security Event Monitoring, Patch Management, Security Policy Analysis and Cyber Security Training.</p>"
+	},
+
+	{
+		"id"		: "26",
+		"type"		: "presentation",
+		"name"		: "Markus Mahrla",
+		"role"		: "Security Consultant",
+		"work"		: "GAI NetConsult GmbH",
+		"country"	: "Germany",
+		"shortcode"	: "DE",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/markus-mahrla.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Fuzz Testing IEC 61850",
+			"partner":	"",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		},
+		
+
+		"bio": "<p>More than 10 years of work experience in the IT security field with more than 7 years experience in performing ICS security audits mainly in the area of industrial automation and energy supply. Graduation at Humbold-University („German Diplom“) in Computer Sci- ence</p>"
+	},
+
+	{
+		"id"		: "28",
+		"type"		: "training",
+		"name"		: "Jasper Hooft",
+		"role"		: "ICS Security Consultant",
+		"work"		: "Toreon",
+		"country"	: "Belgium",
+		"shortcode"	: "BE",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/temp.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"none",
+			"title": 	"",
+			"partner":	"",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "live",
+			"title": "Hands-on Threat Modeling for ICS-OT",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "<p>Coming soon.</p>"
+		},
+		
+
+		"bio": "<p>For more than 8 years, I worked around the world as automation programmer and maintenance/commissioning engineer. During this period, I obtained in-depth experience in various ICS environments (PLC and DCS) in different sectors (petrochemical, food and feed and many others).</p><p>Now as a Toreon ICS Security Consultant I leverage this knowledge to provide advice on security architecture for clients in the utilities sector in Europe. At those clients, I help to improve the security maturity level of their organisations.</p><p>I achieve this by organising Threat Modeling sessions with our customers to identify the vulnerabilities in their ICS environment. I consider Threat Modeling to be the most fitting risk assessment methodology for Industrial environments. Its scenario-based approach makes it easy for people of different profiles to add value to the process.</p>"
 	}
 
 ]

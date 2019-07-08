@@ -12,7 +12,7 @@ speaker:
   work: Otorio
   image: yoav-flint-rosenfeld
 id: presentation
-published: false
+published: true
 ---
 
 Project files are the blueprints of the industrial process, these files can contain network configuration, screen definitions, hardware and software configurations and the actual automation logic of the controllers.

@@ -1372,6 +1372,10 @@ a {
     margin-bottom: 12px; }
     .card-item .card-details-block:last-of-type {
       margin-bottom: 0; }
+  .card-item-center {
+    justify-content: center; }
+    .card-item-center .card-item-details {
+      margin-top: 0; }
   .card-item-linked {
     transition: 0.24s all ease-in-out;
     -moz-transition: 0.24s all ease-in-out;
@@ -2932,6 +2936,10 @@ a {
         color: #ef7d00; }
   .post-content p:last-of-type {
     margin-bottom: 19px; }
+  .post-content h2 {
+    font-size: 29px;
+    color: #ef7d00;
+    margin-bottom: 24px; }
   .post-header {
     margin-bottom: 36px; }
   .post-pagination {

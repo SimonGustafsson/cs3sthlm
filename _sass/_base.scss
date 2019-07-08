@@ -1698,6 +1698,14 @@ a {
     }
   }
 
+  &-center {
+    justify-content: center;
+
+    .card-item-details {
+      margin-top: 0;
+    }
+  }
+
   &-linked {
 
     @include transition-ease;
@@ -3835,6 +3843,12 @@ a {
 
     p:last-of-type {
       margin-bottom: 19px;
+    }
+
+    h2 {
+      font-size: 29px;
+      color: $yellow;
+      margin-bottom: 24px;
     }
   }
 

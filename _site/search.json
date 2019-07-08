@@ -573,14 +573,6 @@
   
    {
      
-        "title"    : "Expo Presentations",
-        "url"      : "/expo/presentations/",
-        "path"     : "/expo/presentations/"
-     
-   },
-  
-   {
-     
         "title"    : "Expo Agenda",
         "url"      : "/expo/agenda/",
         "path"     : "/expo/agenda/"
@@ -629,6 +621,14 @@
   
    {
      
+        "title"    : "Speakers",
+        "url"      : "/program/speakers/",
+        "path"     : "/program/speakers/"
+     
+   },
+  
+   {
+     
         "title"    : "Trainings",
         "url"      : "/program/trainings/",
         "path"     : "/program/trainings/"
@@ -645,17 +645,9 @@
   
    {
      
-        "title"    : "Program",
-        "url"      : "/program/",
-        "path"     : "/program/"
-     
-   },
-  
-   {
-     
-        "title"    : "Speakers",
-        "url"      : "/program/speakers/",
-        "path"     : "/program/speakers/"
+        "title"    : "Expo Presentations",
+        "url"      : "/expo/presentations/",
+        "path"     : "/expo/presentations/"
      
    },
   
@@ -709,6 +701,14 @@
   
    {
      
+        "title"    : "Program",
+        "url"      : "/program/",
+        "path"     : "/program/"
+     
+   },
+  
+   {
+     
         "title"    : "Home",
         "url"      : "/",
         "path"     : ""
@@ -721,6 +721,30 @@
   
    {
      
+        "title"    : "Hands-on Threat Modeling for ICS-OT",
+        "url"      : "/program/trainings/jasper-hooft/",
+        "path"     : "/program/trainings/jasper-hooft/"
+     
+   },
+  
+   {
+     
+   },
+  
+   {
+     
+        "title"    : "Fuzz Testing IEC 61850",
+        "url"      : "/program/presentations/markus-mahrla/",
+        "path"     : "/program/presentations/markus-mahrla/"
+     
+   },
+  
+   {
+     
+        "title"    : "Project RunAway",
+        "url"      : "/program/presentations/matan-yoav/",
+        "path"     : "/program/presentations/matan-yoav/"
+     
    },
   
    {
@@ -732,6 +756,14 @@
    },
   
    {
+     
+   },
+  
+   {
+     
+        "title"    : "CVSS for ICS; Gauging a tennis game with number of goals",
+        "url"      : "/program/presentations/prasanna-n/",
+        "path"     : "/program/presentations/prasanna-n/"
      
    },
   

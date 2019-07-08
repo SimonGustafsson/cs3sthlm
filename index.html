@@ -387,7 +387,7 @@ id: home
 
       <div class="column-block-item col-4-8">
       {% assign training = site.pages | where_exp:"item", "item.layout contains 'training'" | sample: '3' | sort:'title' %}
-      {% for item in training limit: 3 %}
+      {% for item in training limit: 2 %}
       <a href="{{ site.baseurl }}{{ item.permalink }}" class="card-item card-item-filled spacing-bottom card-item-linked">
         <div class="card-item-details-row">
           {% if item.date contains "-" %} 
