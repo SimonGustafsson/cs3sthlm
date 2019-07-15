@@ -896,7 +896,7 @@
   work: Toreon
   country: Belgium
   shortcode: BE
-  image: temp.png
+  image: jasper-hooft.png
   bio: |
     For more than 8 years, I worked around the world as automation programmer and maintenance/commissioning engineer. During this period, I obtained in-depth experience in various ICS environments (PLC and DCS) in different sectors (petrochemical, food and feed and many others).
 
@@ -909,7 +909,7 @@
   speaker:
     - name: Jasper Hooft
       role: ICS Security Consultant
-      image: temp
+      image: jasper-hooft
   presentation:
     - active: none
   training:
