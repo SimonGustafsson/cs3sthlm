@@ -8,7 +8,7 @@ status: Slots Open
 speaker:
 - name: Jasper Hooft
   role: ICS Security Consultant
-  work: Tereon
+  work: Toreon
   image: jasper-hooft.png
 ---
 
