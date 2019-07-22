@@ -12,7 +12,7 @@ speaker:
   work: Dragos Inc.
   image: reid-wightman
 id: presentation
-published: false
+published: true
 ---
 
 The TRISIS/TRITON/HatMan malware represents the first time that a rootkit was used against a programmable logic controller. In this talk, we will dive deep into several major PLC brands and ask the questions: Could TRISIS happen here? And if so, how easy or difficult would it be for an attacker to have the same effect?

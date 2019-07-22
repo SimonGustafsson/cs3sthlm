@@ -12,7 +12,7 @@ speaker:
   work: Audi
   image: mona-lange
 id: presentation
-published: false
+published: true
 ---
 
 #### Network-, Security- and Vulnerability Monitoring for ICS: a demystification from an asset owner’s perspective.

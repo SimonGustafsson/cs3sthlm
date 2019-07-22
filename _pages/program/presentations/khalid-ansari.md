@@ -8,7 +8,7 @@ speaker:
   work: Qatar Aluminium Ltd
   image: khalid-ansari
 id: presentation
-published: false
+published: true
 ---
 
 

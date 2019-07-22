@@ -288,6 +288,47 @@
 	},
 
 	{
+		"id"		: "9",
+		"type"		: "presentation",
+		"name"		: "Khalid Ansari",
+		"role"		: "Automation & MES Engineer",
+		"work"		: "Qatar Aluminium Ltd",
+		"country"	: "Qatar",
+		"shortcode"	: "QA",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/khalid-ansari.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Secure your MES the bridge between IT and OT",
+			"partner":	"",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		},
+		
+
+		"bio": "<p>I am an Automation and MES engineer with 20+ years’ of experience. I am fairly new to ICS Security, but it’s now my newfound passion. I have obtained GICSP certification and intend to write CISSP over the summer.</p>"
+	},
+
+	{
 		"id"		: "10",
 		"type"		: "presentation",
 		"name"		: "Matan Dobrushin",
@@ -370,6 +411,88 @@
 	},
 
 	{
+		"id"		: "12",
+		"type"		: "presentation",
+		"name"		: "Mona Lange",
+		"role"		: "Cyber Defense Team Lead",
+		"work"		: "Audi",
+		"country"	: "Germany",
+		"shortcode"	: "DE",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/mona-lange.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Tales from Industrial Plants and Responders",
+			"partner":	"Christian Augustat",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		},
+		
+
+		"bio": "<p>Mona is the Cyber Defense Team Lead at AUDI AG. Currently, she is working as peer group lead on creating a modern Cyber Defense team encompassing enterprise, ICS, and the connected car infrastructure. Prior to Audi she worked on a European research project developing decision support systems for detecting and managing attacks in critical infrastructures and organized a NATO Exploratory Team on the topic of Model-Driven Paradigms for Integrated Approaches to Cyber Defense. Mona holds a PhD in computer science and artificial intelligence from the University of Lübeck and a diploma with honors in computer science from Friedrich-Alexander University of Erlangen-Nürnberg.</p>"
+	},
+
+	{
+		"id"		: "13",
+		"type"		: "presentation",
+		"name"		: "Christian Augustat",
+		"role"		: "Principal Engineer",
+		"work"		: "Audi",
+		"country"	: "Norway",
+		"shortcode"	: "NO",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/christian-augustat.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Tales from Industrial Plants and Responders",
+			"partner":	"Mona Lange",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		},
+		
+
+		"bio": "<p>Christian M. Augustat is a Principal Engineer within the Oil-&amp;Gas Industry in Norway with a Diploma in “Communication Informatics” awarded by the University of Applied Sciences in Emden, Germany. Since joining his company in 2007 he has been involved in industrial control systems, application development, systems administration, network administration, governance and information security. Christian is currently architecting ICS Security Projects in Europe and is leading a Security Team. Besides various certifications, he is currently holding the following SANS Certifications: GRID, GCCC, GNFA, GPEN.</p>"
+	},
+
+	{
 		"id"		: "14",
 		"type"		: "presentation",
 		"name"		: "Prasanna N",
@@ -408,6 +531,170 @@
 		
 
 		"bio": "<p>Prasanna is currently an R&amp;D Engineer in ABB India. In this role he facilitates the realization of cyber security controls and management functions for Grid Integration products and services by participating in the R&amp;D process. Prior to joining ABB, he has been working with Symantec as a Threat Analyst, holds a Bachelor of Information Technology and Master of Information Security and Cyber Forensics. In his seven years of experience with both IT and OT security, he had experience in Vulnerability Management, Vulnerability Assessment, Security Event Monitoring, Patch Management, Security Policy Analysis and Cyber Security Training.</p>"
+	},
+
+	{
+		"id"		: "15",
+		"type"		: "presentation",
+		"name"		: "Reid Wightman",
+		"role"		: "Senior Vulnerability Researcher",
+		"work"		: "Dragos Inc.",
+		"country"	: "United States",
+		"shortcode"	: "US",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/reid-wightman.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Broken Rungs: A look at popular ladder logic runtime privileges",
+			"partner":	"Jimmy Wylie",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		},
+		
+
+		"bio": "<p>Reid is a Senior Vulnerability Researcher with Dragos’ Intel team. Reid analyzes publicly disclosed vulnerabilities and determines whether the public reporting is accurate, as well as uncovers just what the true industrial impact of a vulnerability can be. He also performs in-house research and vulnerability assessments on both industrial hardware and software. Reid assists with malware analysis, especially if it involves ICS exploitation. Prior to joining Dragos, Reid was a security consultant for the well-known security firms Digital Bond and IOActive. In both roles, he regularly researched and discovered novel vulnerabilities in hardware and software. He truly began his career in industrial security working for Schweitzer Engineering Labs, where he tested security of the company’s flagship digital protective relays and other grid-related products. For fun, Reid enjoys randonneuring, a form of self-supported long-distance cycling. He often rides 200 or more miles in a day. In the winter months, he can be found cross-country skiing.</p>"
+	},
+
+	{
+		"id"		: "16",
+		"type"		: "presentation",
+		"name"		: "Jimmy Wylie",
+		"role"		: "Senior Adversary Hunter",
+		"work"		: "Dragos Inc.",
+		"country"	: "United States",
+		"shortcode"	: "US",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/jimmy-wylie.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Broken Rungs: A look at popular ladder logic runtime privileges",
+			"partner":	"Reid Wightman",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		},
+		
+
+		"bio": "<p>Jimmy Wylie is a Senior Adversary Hunter at Dragos who spends his days (and nights) searching for and analyzing threats to critical infrastructure. Born and raised in New Orleans, he studied Computer Science at the University of New Orleans, where he received his Bachelor’s in 2009 and his Master’s in 2012. During that time, he was introduced to reverse engineering in a university-level malware analysis class. The class went well, and he continued to tinker with it as a hobby. However, the thought of doing reverse engineering for a living only slightly surpassed his desire to sleep on a bed of nails.</p>"
+	},
+
+	{
+		"id"		: "17",
+		"type"		: "presentation",
+		"name"		: "Stephen Hilt",
+		"role"		: "Senior Threat Researcher",
+		"work"		: "Trend Micro",
+		"country"	: "United States",
+		"shortcode"	: "US",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/stephen-hilt.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"How we reverse-engineered multiple industrial radio remote-control systems",
+			"partner":	"Fredrico Maggi",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		},
+		
+
+		"bio": "<p>Stephen Hilt is a Sr. Threat Researcher at Trend Micro. Stephen focuses on General Security Research, Threat Actors, Malware behind attacks, and Industrial Control System Security. Stephen enjoys breaking things and putting them back together with a few extra parts to spare. Stephen is a world-renowned researcher, having spoken at Blackhat US, and RSA, HITB and many more. His research has gained him Dark Reading top hacks of the year twice. Working at Digital Bond Stephen became a Nmap Contributor where he wrote Nmap scripts for ICS and other mainstream protocols. This work took him into becoming an expert on ICS protocols and co-authored the book Hacking Exposed Industrial Control Systems: ICS and SCADA Security Secrets &amp; Solutions.</p>"
+	},
+
+	{
+		"id"		: "18",
+		"type"		: "presentation",
+		"name"		: "Fredrico Maggi",
+		"role"		: "Senior Researcher",
+		"work"		: "Trend Micro",
+		"country"	: "Italy",
+		"shortcode"	: "IT",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/fredrico-maggi.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"How we reverse-engineered multiple industrial radio remote-control systems",
+			"partner":	"Stephen Hilt",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": ""
+		},
+		
+
+		"bio": "<p>With more than a decade of research experience in the cybersecurity field, Federico Maggi is specialized in doing threat and security analysis on virtually any system. Federico has analyzed web applications, network protocols and devices, embedded systems, radio- frequency control systems, industrial robots, cars, and mobile devices. Federico has experience on defensive technology and research, through building machine learning-based tools for intrusion and fraud detection. He’s applied data visualization techniques for analyzing botnets, and has gained basic malware analysis and reverse-engineering on Android-based platforms. Currently employed as a Senior Researcher with security giant Trend Micro (trendmicro.com), Federico was an Assistant Professor at Politecnico di Milano, one of the leading engineering technical universities in Italy. Aside his teaching activities, Federico co-directed the security group and has managed hundreds of graduate students. Federico has given several lectures and talks as an invited speaker at international venues and research schools, and also serves in the review or organizing committees of well-known conferences.</p>"
 	},
 
 	{
@@ -485,7 +772,7 @@
 			"role":		"",
 			"work":		"",
 			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "<p>Organizations are now dedicating resources to protecting their Industrial control systems (ICS) assets, which include supervisory control and data acquisition (SCADA) programs, against intentional or accidental security threats. ICS security has plenty of challenges. Several of them owe their existence to the ongoing convergence of information technology (IT) and operational technology (OT). People and technology must work together to develop security controls that they can implement, build upon, enforce, modify and improve.</p><p>From experience we see that threat modeling as a discipline fits really well in ICS and OT environments, to design and secure connected systems in a way that is aligned with typical operational technology challenges.</p><p>In order to minimize that gap we have developed a 2 day course with practical Use Cases, based on real life projects. Each use case includes a description of the environment, together with questions and templates to build a threat model. Students will be challenged in groups of 3 to 4 people to perform the different stages of threat modeling on the following:</p><ul>  <li>Diagramming remote support applications, sharing the same REST backend</li>  <li>STRIDE analysis of an Internet of Things (IoT) deployment with an on premise gateway and a cloud based update service</li>  <li>Threat mitigations in a pharmaceutical manufacturing facility</li>  <li>Modeling attack trees against a nuclear facility</li></ul><p>After each hands-on workshop, the results are discussed, and students receive a documented solution. Based on our successful trainings in the last years, we released this advanced threat modeling training at Black Hat USA 2018. Some feedback from our Black Hat training attendees:</p><ul>  <li>“Toreon delivered! One of the best workshop instructor’s I’ve ever had.”</li>  <li>“Very nice training course, one of the best I ever attended.”</li>  <li>“I feel that this course is one of the most important courses to be taken by a security professional.”</li>  <li>“The group hands-on practical exercises truly helped.”</li></ul><h4 id=\"audience\">Audience:</h4><p>Staff involved in securing control systems, critical infrastructure, automation and smart-grid.</p><h4 id=\"audience-should-expect-for-the-training\">Audience should expect for the training:</h4><ul>  <li>A solid foundation to apply threat modeling in the field of ICS and OT</li>  <li>Hands-on exercises take up at least 50% of the training in interactive challenges covering real cases.</li></ul><h4 id=\"key-takeaway\">Key Takeaway:</h4><p>Structured method to do risk assessments in an ICS environment</p><h2 id=\"course-outline\">Course Outline</h2><h4 id=\"threat-modeling-introduction\">Threat modeling introduction</h4><ul>  <li>Threat modeling in ICS and OT</li>  <li>What is threat modeling?</li>  <li>Why perform threat modeling?</li>  <li>Threat modeling stages</li>  <li>Different threat modeling methodologies</li>  <li>Communicate a threat model</li></ul><h4 id=\"diagrams--what-are-you-building\">Diagrams – what are you building?</h4><ul>  <li>Understanding context</li>  <li>Doomsday scenarios</li>  <li>Data flow diagrams</li>  <li>Trust boundaries</li>  <li><strong>Hands-on: Diagram remote support applications, sharing the same REST backend</strong></li></ul><h4 id=\"identifying-threats--what-can-go-wrong\">Identifying threats – what can go wrong?</h4><ul>  <li>STRIDE introduction</li>  <li>Spoofing threats</li>  <li>Tampering threats</li>  <li>Repudiation threats</li>  <li>Information disclosure threats</li>  <li>Denial of service threats</li>  <li>Elevation of privilege threats</li>  <li>ICS and OT Attack libraries</li>  <li><strong>Hands-on: STRIDE analysis of an Internet of Things (IoT) deployment with an on premise gateway and a cloud based update service</strong></li></ul><h4 id=\"addressing-each-threat\">Addressing each threat</h4><ul>  <li>Mitigation patterns</li>  <li>Authentication: mitigating spoofing</li>  <li>Integrity: mitigating tampering</li>  <li>Non-repudiation: mitigating repudiation</li>  <li>Confidentiality: mitigating information disclosure</li>  <li>Availability: mitigating denial of service</li>  <li>Authorization: mitigating elevation of privilege</li>  <li>ICS and OT mitigations</li>  <li><strong>Hands-on: Threat mitigations in a pharmaceutical manufacturing facility</strong></li></ul><h4 id=\"ics-ot-threat-modeling\">ICS-OT threat modeling</h4><ul>  <li>Typical steps and variations</li>  <li>Validation threat models</li>  <li>Effective threat model workshops</li>  <li>Communicating threat models</li>  <li>Updating threat models</li>  <li><strong>Threat models examples: automotive, industrial control systems, IoT and Cloud</strong></li>  <li><strong>Hands-on: Modeling attack trees against a nuclear facility</strong></li></ul><h4 id=\"threat-modeling-resources\">Threat modeling resources</h4><ul>  <li>Open-Source tools</li>  <li>Commercial tools</li>  <li>Threat modeling resources</li></ul><h3 id=\"student-package\">Student package:</h3><p>The course students receive the following package as part of the course:</p><ul>  <li>Hand-outs of the presentations</li>  <li>Work sheets of the use cases,</li>  <li>Detailed solution descriptions of the use cases</li>  <li>Template to document a threat model</li>  <li>Template to calculate risk levels of identified threats</li>  <li>Receive certificate: Following a successful exam (passing grade defined at 70%) the student will receive certification for successful completion of course</li></ul><h3 id=\"threat-modeling--real-life-use-cases\">Threat Modeling – Real Life Use Cases</h3><p>As highly skilled professionals with years of experience under our belts we know that there is a gap between academic knowledge of threat modeling and the real world. In order to minimize that gap we have developed practical Use Cases, based on real life projects. Each use case includes a description of the environment, together with questions and templates to build a threat model. Using this methodology for the hands on workshops we provide our students with a robust training experience and the templates to incorporate threat modeling best practices in their daily work.</p><p>The students will be challenged to perform the threat modeling in groups of 3 to 4 people performing the different stages of threat modeling on:</p><ul>  <li>Diagramming remote support applications, sharing the same REST backend</li>  <li>STRIDE analysis of an Internet of Things (IoT) deployment with an on premise gateway and a cloud based update service</li>  <li>Threat mitigations in a pharmaceutical manufacturing facility</li>  <li>Modeling attack trees against a nuclear facility</li></ul><p>After each hands-on workshop, the results are discussed, and the students receive a documented solution.</p><p><em>The students should bring their own laptop or tablet to read and use the training handouts and exercise descriptions.</em></p>"
+			"description": "<p>Organizations are now dedicating resources to protecting their Industrial control systems (ICS) assets, which include supervisory control and data acquisition (SCADA) programs, against intentional or accidental security threats. ICS security has plenty of challenges. Several of them owe their existence to the ongoing convergence of information technology (IT) and operational technology (OT). People and technology must work together to develop security controls that they can implement, build upon, enforce, modify and improve.</p><p>From experience we see that threat modeling as a discipline fits really well in ICS and OT environments, to design and secure connected systems in a way that is aligned with typical operational technology challenges.</p><p>In order to minimize that gap we have developed a 1 day course with practical Use Cases, based on real life projects. Each use case includes a description of the environment, together with questions and templates to build a threat model. Students will be challenged in groups of 3 to 4 people to perform the different stages of threat modeling on the following:</p><ul>  <li>Diagramming remote support applications, sharing the same REST backend</li>  <li>STRIDE analysis of an Internet of Things (IoT) deployment with an on premise gateway and a cloud based update service</li>  <li>Threat mitigations in a pharmaceutical manufacturing facility</li>  <li>Modeling attack trees against a nuclear facility</li></ul><p>After each hands-on workshop, the results are discussed, and students receive a documented solution. Based on our successful trainings in the last years, we released this advanced threat modeling training at Black Hat USA 2018. Some feedback from our Black Hat training attendees:</p><ul>  <li>“Toreon delivered! One of the best workshop instructor’s I’ve ever had.”</li>  <li>“Very nice training course, one of the best I ever attended.”</li>  <li>“I feel that this course is one of the most important courses to be taken by a security professional.”</li>  <li>“The group hands-on practical exercises truly helped.”</li></ul><h4 id=\"audience\">Audience:</h4><p>Staff involved in securing control systems, critical infrastructure, automation and smart-grid.</p><h4 id=\"audience-should-expect-for-the-training\">Audience should expect for the training:</h4><ul>  <li>A solid foundation to apply threat modeling in the field of ICS and OT</li>  <li>Hands-on exercises take up at least 50% of the training in interactive challenges covering real cases.</li></ul><h4 id=\"key-takeaway\">Key Takeaway:</h4><p>Structured method to do risk assessments in an ICS environment</p><h2 id=\"course-outline\">Course Outline</h2><h4 id=\"threat-modeling-introduction\">Threat modeling introduction</h4><ul>  <li>Threat modeling in ICS and OT</li>  <li>What is threat modeling?</li>  <li>Why perform threat modeling?</li>  <li>Threat modeling stages</li>  <li>Different threat modeling methodologies</li>  <li>Communicate a threat model</li></ul><h4 id=\"diagrams--what-are-you-building\">Diagrams – what are you building?</h4><ul>  <li>Understanding context</li>  <li>Doomsday scenarios</li>  <li>Data flow diagrams</li>  <li>Trust boundaries</li>  <li><strong>Hands-on: Diagram remote support applications, sharing the same REST backend</strong></li></ul><h4 id=\"identifying-threats--what-can-go-wrong\">Identifying threats – what can go wrong?</h4><ul>  <li>STRIDE introduction</li>  <li>Spoofing threats</li>  <li>Tampering threats</li>  <li>Repudiation threats</li>  <li>Information disclosure threats</li>  <li>Denial of service threats</li>  <li>Elevation of privilege threats</li>  <li>ICS and OT Attack libraries</li>  <li><strong>Hands-on: STRIDE analysis of an Internet of Things (IoT) deployment with an on premise gateway and a cloud based update service</strong></li></ul><h4 id=\"addressing-each-threat\">Addressing each threat</h4><ul>  <li>Mitigation patterns</li>  <li>Authentication: mitigating spoofing</li>  <li>Integrity: mitigating tampering</li>  <li>Non-repudiation: mitigating repudiation</li>  <li>Confidentiality: mitigating information disclosure</li>  <li>Availability: mitigating denial of service</li>  <li>Authorization: mitigating elevation of privilege</li>  <li>ICS and OT mitigations</li>  <li><strong>Hands-on: Threat mitigations in a pharmaceutical manufacturing facility</strong></li></ul><h4 id=\"ics-ot-threat-modeling\">ICS-OT threat modeling</h4><ul>  <li>Typical steps and variations</li>  <li>Validation threat models</li>  <li>Effective threat model workshops</li>  <li>Communicating threat models</li>  <li>Updating threat models</li>  <li><strong>Threat models examples: automotive, industrial control systems, IoT and Cloud</strong></li>  <li><strong>Hands-on: Modeling attack trees against a nuclear facility</strong></li></ul><h4 id=\"threat-modeling-resources\">Threat modeling resources</h4><ul>  <li>Open-Source tools</li>  <li>Commercial tools</li>  <li>Threat modeling resources</li></ul><h3 id=\"student-package\">Student package:</h3><p>The course students receive the following package as part of the course:</p><ul>  <li>Hand-outs of the presentations</li>  <li>Work sheets of the use cases,</li>  <li>Detailed solution descriptions of the use cases</li>  <li>Template to document a threat model</li>  <li>Template to calculate risk levels of identified threats</li>  <li>Receive certificate: Following a successful exam (passing grade defined at 70%) the student will receive certification for successful completion of course</li></ul><h3 id=\"threat-modeling--real-life-use-cases\">Threat Modeling – Real Life Use Cases</h3><p>As highly skilled professionals with years of experience under our belts we know that there is a gap between academic knowledge of threat modeling and the real world. In order to minimize that gap we have developed practical Use Cases, based on real life projects. Each use case includes a description of the environment, together with questions and templates to build a threat model. Using this methodology for the hands on workshops we provide our students with a robust training experience and the templates to incorporate threat modeling best practices in their daily work.</p><p>The students will be challenged to perform the threat modeling in groups of 3 to 4 people performing the different stages of threat modeling on:</p><ul>  <li>Diagramming remote support applications, sharing the same REST backend</li>  <li>STRIDE analysis of an Internet of Things (IoT) deployment with an on premise gateway and a cloud based update service</li>  <li>Threat mitigations in a pharmaceutical manufacturing facility</li>  <li>Modeling attack trees against a nuclear facility</li></ul><p>After each hands-on workshop, the results are discussed, and the students receive a documented solution.</p><p><em>The students should bring their own laptop or tablet to read and use the training handouts and exercise descriptions.</em></p>"
 		},
 		
 

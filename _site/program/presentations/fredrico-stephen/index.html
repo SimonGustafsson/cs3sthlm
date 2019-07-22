@@ -6,17 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>CS3STHLM | Hands-on Threat Modeling for ICS-OT</title>
+  <title>CS3STHLM | How we reverse-engineered multiple industrial radio remote-control systems</title>
   <meta name="description" content="CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.">
-  <meta property="og:title" content="CS3STHLM | Hands-on Threat Modeling for ICS-OT" />
+  <meta property="og:title" content="CS3STHLM | How we reverse-engineered multiple industrial radio remote-control systems" />
   <meta property="og:description" content="CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo." />
   <meta property="og:type" content="website" />
   
-  <meta property="og:url" content="https://www.cs3sthlm.se/program/trainings/jasper-hooft/" />
+  <meta property="og:url" content="https://www.cs3sthlm.se/program/presentations/fredrico-stephen/" />
   <meta property="fb:app_id" content="966242223397117" />
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="/program/trainings/jasper-hooft/">
+  <link rel="canonical" href="/program/presentations/fredrico-stephen/">
   <link rel="alternate" type="application/rss+xml" title="CS3STHLM" href="/feed.xml">
   <link rel="icon" type="image/png" href="/assets/favicon-32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="/assets/favicon-16x16.png" sizes="16x16" />
@@ -78,7 +78,7 @@
 
     <div class="wrap">
     	<section class="content">
-
+  
   
 <ul class="pagination-nav">
 	<li><a href="/">Home</a></li>
@@ -88,11 +88,11 @@
   	
 	
 	
-  		<li><a href="/program/trainings/">Trainings</a></li>
+  		<li><a href="/program/presentations/">Presentations</a></li>
   	
 	
 	
-  		<li>Jasper hooft</li>
+  		<li>Fredrico stephen</li>
   	
 	
 </ul>
@@ -103,26 +103,49 @@
 
       
       <div class="post-meta">
-
         <div class="post-meta-item">
-          <h4 class="sub-headline sub-headline-gray">Taugh by</h4>
-          <span class="alt-title alt-title-small">Jasper Hooft</span>
+          <h4 class="sub-headline sub-headline-gray">Author</h4>
+          <span class="alt-title alt-title-small">Fredrico Maggi</span>
         </div>
 
         <div class="post-meta-item">
           <h4 class="sub-headline sub-headline-gray">Role</h4>
-          <span class="alt-title alt-title-small">ICS Security Consultant</span>
+          <span class="alt-title alt-title-small">Senior Researcher</span>
+        </div>
+
+        
+        <div class="post-meta-item">
+          <h4 class="sub-headline sub-headline-gray">Work</h4>
+          <span class="alt-title alt-title-small">Trend Micro</span>
+        </div>
+        
+
+        <div class="post-meta-item">
+          <img src="/assets/speakers/fredrico-maggi.png" class="post-meta-item-image">
+        </div>
+      </div>
+      
+      <div class="post-meta">
+        <div class="post-meta-item">
+          <h4 class="sub-headline sub-headline-gray">Author</h4>
+          <span class="alt-title alt-title-small">Stephen Hilt</span>
         </div>
 
         <div class="post-meta-item">
-          <h4 class="sub-headline sub-headline-gray">Company</h4>
-          <span class="alt-title alt-title-small">Toreon</span>
+          <h4 class="sub-headline sub-headline-gray">Role</h4>
+          <span class="alt-title alt-title-small">Senior Threat Researcher</span>
         </div>
+
+        
+        <div class="post-meta-item">
+          <h4 class="sub-headline sub-headline-gray">Work</h4>
+          <span class="alt-title alt-title-small">Trend Micro</span>
+        </div>
+        
 
         <div class="post-meta-item">
-          <img src="/assets/speakers/jasper-hooft.png" class="post-meta-item-image">
+          <img src="/assets/speakers/stephen-hilt.png" class="post-meta-item-image">
         </div>
-
       </div>
       
 
@@ -131,158 +154,83 @@
     <section class="post-content column-block-item col-5-8 spacing-left" itemprop="articleBody">
 
       <header class="post-header">
-
-        <div class="post-meta post-meta-row">
-
-          <div class="post-meta-item">
-            <h4 class="sub-headline sub-headline-gray">Status</h4>
-            
-            <span class="alt-title alt-title-small alt-title alt-title-yellow">Slots Open</span>
-            
-
-            
-
-            
-          </div>
-
-          <div class="post-meta-item">
-            <h4 class="sub-headline sub-headline-gray">Date</h4>
-            <span class="alt-title alt-title-small">22 October</span>
-          </div>
-        </div>
-
-        <h1 class="title title-yellow" itemprop="name headline">Hands-on Threat Modeling for ICS-OT</h1>
+        <h1 class="title title-yellow" itemprop="name headline">How we reverse-engineered multiple industrial radio remote-control systems</h1>
       </header>
 
-      <p>Organizations are now dedicating resources to protecting their Industrial control systems (ICS) assets, which include supervisory control and data acquisition (SCADA) programs, against intentional or accidental security threats. ICS security has plenty of challenges. Several of them owe their existence to the ongoing convergence of information technology (IT) and operational technology (OT). People and technology must work together to develop security controls that they can implement, build upon, enforce, modify and improve.</p>
+      <p>In 2018 we disclosed a total of 10 vulnerabilities to 7 independent industrial radio remote-control vendors. Our findings boil down to being able to control any equipment connected via these type of radio remote-control systems. So far, we focused our reports and speaking engagements on reaching out to as many people as possible, to increase awareness about the problem. At this time, we want to share stories about how we were able to perform the research and achieve the results with a globally dispersed team looking at global radio vendors.</p>
 
-<p>From experience we see that threat modeling as a discipline fits really well in ICS and OT environments, to design and secure connected systems in a way that is aligned with typical operational technology challenges.</p>
-
-<p>In order to minimize that gap we have developed a 1 day course with practical Use Cases, based on real life projects. Each use case includes a description of the environment, together with questions and templates to build a threat model. Students will be challenged in groups of 3 to 4 people to perform the different stages of threat modeling on the following:</p>
+<p>This talk will focus on the “backstage” of this research, that is:</p>
 <ul>
-  <li>Diagramming remote support applications, sharing the same REST backend</li>
-  <li>STRIDE analysis of an Internet of Things (IoT) deployment with an on premise gateway and a cloud based update service</li>
-  <li>Threat mitigations in a pharmaceutical manufacturing facility</li>
-  <li>Modeling attack trees against a nuclear facility</li>
+  <li>how we started it and why we selected this class of systems</li>
+  <li>how we selected the vendors out from our extensive market search</li>
+  <li>how are these systems built, and how we figured this out</li>
+  <li>for two systems in details, we will describe
+    <ul>
+      <li>how to approach them from a reverse-engineering standpoint</li>
+      <li>how to interpret their RF protocol</li>
+      <li>what tools are needed for an in-depth reverse engineering</li>
+      <li>why we needed to come up with our own tools for certain corner cases (e.g., tricky modulation schemes)</li>
+    </ul>
+  </li>
+  <li>how the disclosure process went
+    <ul>
+      <li>what challenges we found along the way</li>
+      <li>what were the vendors’ responses (Vendors will not be called out for bad responses by name)</li>
+      <li>what is the status of the vulnerabilities now – lookout on future research trends in this space</li>
+    </ul>
+  </li>
 </ul>
 
-<p>After each hands-on workshop, the results are discussed, and students receive a documented solution. Based on our successful trainings in the last years, we released this advanced threat modeling training at Black Hat USA 2018. 
-Some feedback from our Black Hat training attendees:</p>
-<ul>
-  <li>“Toreon delivered! One of the best workshop instructor’s I’ve ever had.”</li>
-  <li>“Very nice training course, one of the best I ever attended.”</li>
-  <li>“I feel that this course is one of the most important courses to be taken by a security professional.”</li>
-  <li>“The group hands-on practical exercises truly helped.”</li>
-</ul>
+<p>While the project was a success the road to get there, was very bumpy due to things that all researchers face. We will also discuss how we overcame some of the obstacles, such as identifying the chips, micro soldering with non-professional equipment, reversing unreliable radio signals caught over the air.</p>
 
-<h4 id="audience">Audience:</h4>
-<p>Staff involved in securing control systems, critical infrastructure, automation and smart-grid.</p>
+<h4 id="target-audience">Target audience</h4>
+<p>Technical, with the understanding of embedded systems and sub-GHz radio communication.</p>
 
-<h4 id="audience-should-expect-for-the-training">Audience should expect for the training:</h4>
-<ul>
-  <li>A solid foundation to apply threat modeling in the field of ICS and OT</li>
-  <li>Hands-on exercises take up at least 50% of the training in interactive challenges covering real cases.</li>
-</ul>
 
-<h4 id="key-takeaway">Key Takeaway:</h4>
-<p>Structured method to do risk assessments in an ICS environment</p>
 
-<h2 id="course-outline">Course Outline</h2>
+      <div class="post-pagination column-block-item col-5-8">
+        
+        
+        
 
-<h4 id="threat-modeling-introduction">Threat modeling introduction</h4>
-<ul>
-  <li>Threat modeling in ICS and OT</li>
-  <li>What is threat modeling?</li>
-  <li>Why perform threat modeling?</li>
-  <li>Threat modeling stages</li>
-  <li>Different threat modeling methodologies</li>
-  <li>Communicate a threat model</li>
-</ul>
+        
 
-<h4 id="diagrams--what-are-you-building">Diagrams – what are you building?</h4>
-<ul>
-  <li>Understanding context</li>
-  <li>Doomsday scenarios</li>
-  <li>Data flow diagrams</li>
-  <li>Trust boundaries</li>
-  <li><strong>Hands-on: Diagram remote support applications, sharing the same REST backend</strong></li>
-</ul>
+        
 
-<h4 id="identifying-threats--what-can-go-wrong">Identifying threats – what can go wrong?</h4>
-<ul>
-  <li>STRIDE introduction</li>
-  <li>Spoofing threats</li>
-  <li>Tampering threats</li>
-  <li>Repudiation threats</li>
-  <li>Information disclosure threats</li>
-  <li>Denial of service threats</li>
-  <li>Elevation of privilege threats</li>
-  <li>ICS and OT Attack libraries</li>
-  <li><strong>Hands-on: STRIDE analysis of an Internet of Things (IoT) deployment with an on premise gateway and a cloud based update service</strong></li>
-</ul>
+        
+        
+        
+        <div class="post-pagination-item col-2-8">
+          <h4 class="sub-headline sub-headline-gray">Previous Presentation</h4>
+          <a class="alt-title alt-title-small alt-title-light" rel="prev" href="/program/presentations/erwin-mattijs/">It WISN't Me: Attacking Industrial Wireless Mesh Networks (part II)</a>
+          <h5 class="alt-title alt-title-small alt-title-gray">
+            
+            <span>Erwin Paternotte</span>
+            
+            <span>Mattijs van Ommeren</span>
+            
+          </h5>
+        </div>
+        
 
-<h4 id="addressing-each-threat">Addressing each threat</h4>
-<ul>
-  <li>Mitigation patterns</li>
-  <li>Authentication: mitigating spoofing</li>
-  <li>Integrity: mitigating tampering</li>
-  <li>Non-repudiation: mitigating repudiation</li>
-  <li>Confidentiality: mitigating information disclosure</li>
-  <li>Availability: mitigating denial of service</li>
-  <li>Authorization: mitigating elevation of privilege</li>
-  <li>ICS and OT mitigations</li>
-  <li><strong>Hands-on: Threat mitigations in a pharmaceutical manufacturing facility</strong></li>
-</ul>
+        
+        <div class="post-pagination-item col-2-8 col-left-space">
+          <h4 class="sub-headline sub-headline-gray">Next Presentation</h4>
+          <a class="alt-title alt-title-small alt-title-light" rel="next" href="/program/presentations/jimmy-reid/">Broken Rungs: A look at popular ladder logic runtime privileges</a>
+          <h5 class="alt-title alt-title-small alt-title-gray">
+            
+            <span>Jimmy Wylie</span>
+            
+            <span>Reid Wightman</span>
+            
+          </h5>
+        </div>
+        
+      <div>
 
-<h4 id="ics-ot-threat-modeling">ICS-OT threat modeling</h4>
-<ul>
-  <li>Typical steps and variations</li>
-  <li>Validation threat models</li>
-  <li>Effective threat model workshops</li>
-  <li>Communicating threat models</li>
-  <li>Updating threat models</li>
-  <li><strong>Threat models examples: automotive, industrial control systems, IoT and Cloud</strong></li>
-  <li><strong>Hands-on: Modeling attack trees against a nuclear facility</strong></li>
-</ul>
-
-<h4 id="threat-modeling-resources">Threat modeling resources</h4>
-<ul>
-  <li>Open-Source tools</li>
-  <li>Commercial tools</li>
-  <li>Threat modeling resources</li>
-</ul>
-
-<h3 id="student-package">Student package:</h3>
-<p>The course students receive the following package as part of the course:</p>
-<ul>
-  <li>Hand-outs of the presentations</li>
-  <li>Work sheets of the use cases,</li>
-  <li>Detailed solution descriptions of the use cases</li>
-  <li>Template to document a threat model</li>
-  <li>Template to calculate risk levels of identified threats</li>
-  <li>Receive certificate: Following a successful exam (passing grade defined at 70%) the student will receive certification for successful completion of course</li>
-</ul>
-
-<h3 id="threat-modeling--real-life-use-cases">Threat Modeling – Real Life Use Cases</h3>
-<p>As highly skilled professionals with years of experience under our belts we know that there is a gap between academic knowledge of threat modeling and the real world. In order to minimize that gap we have developed practical Use Cases, based on real life projects. Each use case includes a description of the environment, together with questions and templates to build a threat model. Using this methodology for the hands on workshops we provide our students with a robust training experience and the templates to incorporate threat modeling best practices in their daily work.</p>
-
-<p>The students will be challenged to perform the threat modeling in groups of 3 to 4 people performing the different stages of threat modeling on:</p>
-<ul>
-  <li>Diagramming remote support applications, sharing the same REST backend</li>
-  <li>STRIDE analysis of an Internet of Things (IoT) deployment with an on premise gateway and a cloud based update service</li>
-  <li>Threat mitigations in a pharmaceutical manufacturing facility</li>
-  <li>Modeling attack trees against a nuclear facility</li>
-</ul>
-
-<p>After each hands-on workshop, the results are discussed, and the students receive a documented solution.</p>
-
-<p><em>The students should bring their own laptop or tablet to read and use the training handouts and exercise descriptions.</em></p>
-
-  
     </section>
 
   </article>
-
 </section>
     </div>
 

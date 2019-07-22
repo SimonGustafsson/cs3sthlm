@@ -185,6 +185,14 @@
   
    {
      
+        "title"    : "Tales from Industrial Plants and Responders.",
+        "url"      : "/program/presentations/christian-mona/",
+        "path"     : "/program/presentations/christian-mona/"
+     
+   },
+  
+   {
+     
         "title"    : "Automotive DoIP and forensic analysis for automotive systems",
         "url"      : "/program/presentations/christopher-kevin/",
         "path"     : "/program/presentations/christopher-kevin/"
@@ -213,17 +221,9 @@
   
    {
      
-        "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
-        "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
-     
-   },
-  
-   {
-     
-        "title"    : "Daniel Michaud-Soucy",
-        "url"      : "/about/archive/speakers/daniel-michaud-soucy",
-        "path"     : "/about/archive/speakers/daniel-michaud-soucy"
+        "title"    : "How we reverse-engineered multiple industrial radio remote-control systems",
+        "url"      : "/program/presentations/fredrico-stephen/",
+        "path"     : "/program/presentations/fredrico-stephen/"
      
    },
   
@@ -280,14 +280,6 @@
         "title"    : "Anton Shipulin",
         "url"      : "/about/archive/speakers/anton-shipulin",
         "path"     : "/about/archive/speakers/anton-shipulin"
-     
-   },
-  
-   {
-     
-        "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
-        "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
   
@@ -573,6 +565,14 @@
   
    {
      
+        "title"    : "Expo Presentations",
+        "url"      : "/expo/presentations/",
+        "path"     : "/expo/presentations/"
+     
+   },
+  
+   {
+     
         "title"    : "Expo Agenda",
         "url"      : "/expo/agenda/",
         "path"     : "/expo/agenda/"
@@ -645,9 +645,9 @@
   
    {
      
-        "title"    : "Expo Presentations",
-        "url"      : "/expo/presentations/",
-        "path"     : "/expo/presentations/"
+        "title"    : "Anne-Marie Eklund Löwinder",
+        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
   
@@ -701,6 +701,22 @@
   
    {
      
+        "title"    : "Anne-Marie Eklund Löwinder",
+        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
+     
+   },
+  
+   {
+     
+        "title"    : "Daniel Michaud-Soucy",
+        "url"      : "/about/archive/speakers/daniel-michaud-soucy",
+        "path"     : "/about/archive/speakers/daniel-michaud-soucy"
+     
+   },
+  
+   {
+     
         "title"    : "Program",
         "url"      : "/program/",
         "path"     : "/program/"
@@ -724,6 +740,22 @@
         "title"    : "Hands-on Threat Modeling for ICS-OT",
         "url"      : "/program/trainings/jasper-hooft/",
         "path"     : "/program/trainings/jasper-hooft/"
+     
+   },
+  
+   {
+     
+        "title"    : "Broken Rungs: A look at popular ladder logic runtime privileges",
+        "url"      : "/program/presentations/jimmy-reid/",
+        "path"     : "/program/presentations/jimmy-reid/"
+     
+   },
+  
+   {
+     
+        "title"    : "Secure your MES the bridge between IT and OT",
+        "url"      : "/program/presentations/khalid-ansari/",
+        "path"     : "/program/presentations/khalid-ansari/"
      
    },
   

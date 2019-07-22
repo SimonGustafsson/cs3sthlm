@@ -12,7 +12,7 @@ speaker:
   work: Trend Micro
   image: stephen-hilt
 id: presentation
-published: false
+published: true
 ---
 
 In 2018 we disclosed a total of 10 vulnerabilities to 7 independent industrial radio remote-control vendors. Our findings boil down to being able to control any equipment connected via these type of radio remote-control systems. So far, we focused our reports and speaking engagements on reaching out to as many people as possible, to increase awareness about the problem. At this time, we want to share stories about how we were able to perform the research and achieve the results with a globally dispersed team looking at global radio vendors.

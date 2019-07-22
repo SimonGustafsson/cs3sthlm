@@ -16,7 +16,7 @@ Organizations are now dedicating resources to protecting their Industrial contro
 
 From experience we see that threat modeling as a discipline fits really well in ICS and OT environments, to design and secure connected systems in a way that is aligned with typical operational technology challenges.
 
-In order to minimize that gap we have developed a 2 day course with practical Use Cases, based on real life projects. Each use case includes a description of the environment, together with questions and templates to build a threat model. Students will be challenged in groups of 3 to 4 people to perform the different stages of threat modeling on the following:
+In order to minimize that gap we have developed a 1 day course with practical Use Cases, based on real life projects. Each use case includes a description of the environment, together with questions and templates to build a threat model. Students will be challenged in groups of 3 to 4 people to perform the different stages of threat modeling on the following:
 * Diagramming remote support applications, sharing the same REST backend
 * STRIDE analysis of an Internet of Things (IoT) deployment with an on premise gateway and a cloud based update service
 * Threat mitigations in a pharmaceutical manufacturing facility 
