@@ -17,7 +17,9 @@
 		
 			"active": 	"none",
 			"title": 	"",
+			"partner":{
 			
+			},
 			"description": ""
 		
 		},
@@ -54,7 +56,9 @@
 		
 			"active": 	"none",
 			"title": 	"",
+			"partner":{
 			
+			},
 			"description": ""
 		
 		},
@@ -91,7 +95,9 @@
 		
 			"active": 	"live",
 			"title": 	"Nation-State Supply Chain Attacks for Dummies and You Too",
+			"partner":{
 			
+			},
 			"description": ""
 		
 		},
@@ -128,12 +134,14 @@
 		
 			"active": 	"live",
 			"title": 	"Automotive DoIP and forensic analysis for automotive systems",
+			"partner":{
 			
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
+				"name":		"",
+				"role":		"",
+				"work":		"",
+				"image":	"https://cs3sthlm.se/assets/speakers/",
 			
+			},
 			"description": ""
 		
 		},
@@ -170,12 +178,14 @@
 		
 			"active": 	"live",
 			"title": 	"Automotive DoIP and forensic analysis for automotive systems",
+			"partner":{
 			
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
+				"name":		"",
+				"role":		"",
+				"work":		"",
+				"image":	"https://cs3sthlm.se/assets/speakers/",
 			
+			},
 			"description": ""
 		
 		},
@@ -212,12 +222,14 @@
 		
 			"active": 	"live",
 			"title": 	"It WISN't Me: Attacking Industrial Wireless MEsh Networks (part II)",
+			"partner":{
 			
-			"name":		"Mattijs van Ommeren",
-			"role":		"Lead Consultant",
-			"work":		"Nixu",
-			"image":	"https://cs3sthlm.se/assets/speakers/mattijs-van-ommeren.png",
+				"name":		"Mattijs van Ommeren",
+				"role":		"Lead Consultant",
+				"work":		"Nixu",
+				"image":	"https://cs3sthlm.se/assets/speakers/mattijs-van-ommeren.png",
 			
+			},
 			"description": "<p>Wireless sensor networks are commonly thought of as IoT devices communicating using familiar short­range wireless protocols like Zigbee, MiWi, Thread and OpenWSN. A lesser known fact is that about a decade ago, two industrial wireless protocols (WirelessHART and ISA100.11a) have been designed for industrial applications, which are based on the common IEEE 802.15.4 RF standard. These Wireless Industrial Sensor Networks (WISN) are used in process field device networks to monitor temperature, pressure, levels, flow or vibrations. The petrochemical industry uses WISN in oil and gas fields and plants around the world.</p><p>Both IEC ratified standards have been commonly praised by the ICS industry for their security features, including strong encryption on multiple layers within the protocol stack, resistance to RF interference, and replay protection. While the standards in general look safe on paper, there are potential interesting attack vectors that require verification. However, security research so far has not yielded any significant results beyond basic attack vectors. Often these attacks have only been theorized, and not (publically) demonstrated. In addition, vendor implementations have not been thoroughly tested for security by independent third parties, due to protocol complexity and the lack of proper (hardware/software) tools. We strongly believe in Wright’s principle, “Security does not improve until practical tools for exploration of the attack surface are made available.”</p><p>This presentation will fill this gap by providing the necessary building blocks to perform more in depth security analysis of WISN, and provide tools to perform practical attacks against these wireless networks in order to verify resistance to real world attacks.</p><h4 id=\"type-of-presentation\">Type of presentation:</h4><p>Presentation, including demonstrations of the attacks</p><p>Aim of the presentation:</p><ul>  <li>No expensive equipment is required to sniff and interact with WISN technology allowing a larger group of security researchers to assess the security of these critical infrastructure components.</li>  <li>Asset owners should familiarize themselves with risks involved when using WISN technologies in industrial environments. The configuration of existing installations could be verified to further improve the security.</li>  <li>Asset owners are advised to be reluctant in applying WSN technology for control and functional safety applications, as this seems to be trending at the moment.</li></ul><p>Target audience: technical specialists and asset owners of OT environments</p>"
 		
 		},
@@ -254,12 +266,14 @@
 		
 			"active": 	"live",
 			"title": 	"It WISN't Me: Attacking Industrial Wireless MEsh Networks (part II)",
+			"partner":{
 			
-			"name":		"Erwin Paternotte",
-			"role":		"Lead Security Consultant",
-			"work":		"Nixu",
-			"image":	"https://cs3sthlm.se/assets/speakers/erwin-paternotte.png",
+				"name":		"Erwin Paternotte",
+				"role":		"Lead Security Consultant",
+				"work":		"Nixu",
+				"image":	"https://cs3sthlm.se/assets/speakers/erwin-paternotte.png",
 			
+			},
 			"description": "<p>Wireless sensor networks are commonly thought of as IoT devices communicating using familiar short­range wireless protocols like Zigbee, MiWi, Thread and OpenWSN. A lesser known fact is that about a decade ago, two industrial wireless protocols (WirelessHART and ISA100.11a) have been designed for industrial applications, which are based on the common IEEE 802.15.4 RF standard. These Wireless Industrial Sensor Networks (WISN) are used in process field device networks to monitor temperature, pressure, levels, flow or vibrations. The petrochemical industry uses WISN in oil and gas fields and plants around the world.</p><p>Both IEC ratified standards have been commonly praised by the ICS industry for their security features, including strong encryption on multiple layers within the protocol stack, resistance to RF interference, and replay protection. While the standards in general look safe on paper, there are potential interesting attack vectors that require verification. However, security research so far has not yielded any significant results beyond basic attack vectors. Often these attacks have only been theorized, and not (publically) demonstrated. In addition, vendor implementations have not been thoroughly tested for security by independent third parties, due to protocol complexity and the lack of proper (hardware/software) tools. We strongly believe in Wright’s principle, “Security does not improve until practical tools for exploration of the attack surface are made available.”</p><p>This presentation will fill this gap by providing the necessary building blocks to perform more in depth security analysis of WISN, and provide tools to perform practical attacks against these wireless networks in order to verify resistance to real world attacks.</p><h4 id=\"type-of-presentation\">Type of presentation:</h4><p>Presentation, including demonstrations of the attacks</p><p>Aim of the presentation:</p><ul>  <li>No expensive equipment is required to sniff and interact with WISN technology allowing a larger group of security researchers to assess the security of these critical infrastructure components.</li>  <li>Asset owners should familiarize themselves with risks involved when using WISN technologies in industrial environments. The configuration of existing installations could be verified to further improve the security.</li>  <li>Asset owners are advised to be reluctant in applying WSN technology for control and functional safety applications, as this seems to be trending at the moment.</li></ul><p>Target audience: technical specialists and asset owners of OT environments</p>"
 		
 		},
@@ -296,7 +310,9 @@
 		
 			"active": 	"live",
 			"title": 	"Secure your MES the bridge between IT and OT",
+			"partner":{
 			
+			},
 			"description": ""
 		
 		},
@@ -333,12 +349,14 @@
 		
 			"active": 	"live",
 			"title": 	"Project RunAway",
+			"partner":{
 			
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
+				"name":		"",
+				"role":		"",
+				"work":		"",
+				"image":	"https://cs3sthlm.se/assets/speakers/",
 			
+			},
 			"description": ""
 		
 		},
@@ -375,12 +393,14 @@
 		
 			"active": 	"live",
 			"title": 	"Project RunAway",
+			"partner":{
 			
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
+				"name":		"",
+				"role":		"",
+				"work":		"",
+				"image":	"https://cs3sthlm.se/assets/speakers/",
 			
+			},
 			"description": ""
 		
 		},
@@ -417,12 +437,14 @@
 		
 			"active": 	"live",
 			"title": 	"Tales from Industrial Plants and Responders",
+			"partner":{
 			
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
+				"name":		"",
+				"role":		"",
+				"work":		"",
+				"image":	"https://cs3sthlm.se/assets/speakers/",
 			
+			},
 			"description": ""
 		
 		},
@@ -459,12 +481,14 @@
 		
 			"active": 	"live",
 			"title": 	"Tales from Industrial Plants and Responders",
+			"partner":{
 			
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
+				"name":		"",
+				"role":		"",
+				"work":		"",
+				"image":	"https://cs3sthlm.se/assets/speakers/",
 			
+			},
 			"description": ""
 		
 		},
@@ -501,7 +525,9 @@
 		
 			"active": 	"live",
 			"title": 	"CVSS for ICS; Gauging a tennis game with number of goals",
+			"partner":{
 			
+			},
 			"description": ""
 		
 		},
@@ -538,12 +564,14 @@
 		
 			"active": 	"live",
 			"title": 	"Broken Rungs: A look at popular ladder logic runtime privileges",
+			"partner":{
 			
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
+				"name":		"",
+				"role":		"",
+				"work":		"",
+				"image":	"https://cs3sthlm.se/assets/speakers/",
 			
+			},
 			"description": ""
 		
 		},
@@ -580,12 +608,14 @@
 		
 			"active": 	"live",
 			"title": 	"Broken Rungs: A look at popular ladder logic runtime privileges",
+			"partner":{
 			
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
+				"name":		"",
+				"role":		"",
+				"work":		"",
+				"image":	"https://cs3sthlm.se/assets/speakers/",
 			
+			},
 			"description": ""
 		
 		},
@@ -622,12 +652,14 @@
 		
 			"active": 	"live",
 			"title": 	"How we reverse-engineered multiple industrial radio remote-control systems",
+			"partner":{
 			
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
+				"name":		"",
+				"role":		"",
+				"work":		"",
+				"image":	"https://cs3sthlm.se/assets/speakers/",
 			
+			},
 			"description": ""
 		
 		},
@@ -664,12 +696,14 @@
 		
 			"active": 	"live",
 			"title": 	"How we reverse-engineered multiple industrial radio remote-control systems",
+			"partner":{
 			
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
+				"name":		"",
+				"role":		"",
+				"work":		"",
+				"image":	"https://cs3sthlm.se/assets/speakers/",
 			
+			},
 			"description": ""
 		
 		},
@@ -706,7 +740,9 @@
 		
 			"active": 	"live",
 			"title": 	"Fuzz Testing IEC 61850",
+			"partner":{
 			
+			},
 			"description": ""
 		
 		},
@@ -743,7 +779,9 @@
 		
 			"active": 	"none",
 			"title": 	"",
+			"partner":{
 			
+			},
 			"description": ""
 		
 		},
