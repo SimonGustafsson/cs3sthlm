@@ -20,11 +20,12 @@ layout:
 		{% for item in speaker.presentation %}
 			"active": 	"{{ item.active }}",
 			"title": 	"{{ item.subject }}",
-			"partner":	"{{ item.partner }}",
+			{% for item in item.partner %}
 			"name":		"{{ item.name }}",
 			"role":		"{{ item.role }}",
 			"work":		"{{ item.work }}",
 			"image":	"https://cs3sthlm.se/assets/speakers/{{ item.image }}",
+			{% endfor %}
 			"description": {{ item.description | markdownify | strip_newlines | jsonify }}
 		{% endfor %}
 		},
