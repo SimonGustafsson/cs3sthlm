@@ -222,7 +222,7 @@
 		
 			"active": 	"live",
 			"title": 	"It WISN't Me: Attacking Industrial Wireless MEsh Networks (part II)",
-			"partner":	"{"name"=>"Mattijs van Ommeren", "role"=>"Lead Consultant", "work"=>"Nixu", "image"=>"mattijs-van-ommeren.png"}",
+			"partner":	"Mattijs van Ommeren",
 			"name":		"",
 			"role":		"",
 			"work":		"",
@@ -263,7 +263,7 @@
 		
 			"active": 	"live",
 			"title": 	"It WISN't Me: Attacking Industrial Wireless MEsh Networks (part II)",
-			"partner":	"{"name"=>"Erwin Paternotte", "role"=>"Lead Security Consultant", "work"=>"Nixu", "image"=>"erwin-paternotte.png"}",
+			"partner":	"Erwin Paternotte",
 			"name":		"",
 			"role":		"",
 			"work":		"",
