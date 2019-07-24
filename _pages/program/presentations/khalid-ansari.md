@@ -11,7 +11,6 @@ id: presentation
 published: true
 ---
 
-
 The presentation will be geared towards asset­owners, primarily from the manufacturing sector. However, other industries may also benefit. I intend to present how we, as an asset­owner, are approaching the challenge of securing our Manufacturing Execution Systems (MES). I will briefly discuss what an MES system is and why do most manufacturing industries need it.
 
 An MES system bridges IT and OT networks ­­ it interfaces with ERP on the IT side and Automation layer (PLCs, etc.) on the OT side. And also interfaces with Laboratory and other systems at the same level. I will briefly go into the reasons why the MES needs to talk to both IT and OT. And how it is the air­gap myth­buster!

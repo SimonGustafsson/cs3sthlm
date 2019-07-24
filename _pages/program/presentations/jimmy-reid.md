@@ -19,7 +19,6 @@ The TRISIS/TRITON/HatMan malware represents the first time that a rootkit was us
 
 The talk will detail the ladder logic programming and compilation systems from several vendors, and provide results of testing for ladder logic privileges and privilege escalation issues. This will include, where possible, reviewing the CPU used in each PLC, showing what security features the CPU has, and finally showing results of loading weaponized ladder logic into the PLC for execution. This will also cover in some limited depth the ladder logic transfer protocol used by each controller.
 
-
 #### Target audience ­
 Technical researchers, low­level engineers for vendors, and low­level protocol analysis
 
