@@ -22,6 +22,29 @@ layout: default
     </div>
   </div>
 
+  <div class="speakers-block">
+      {% assign presentation = site.pages | where_exp:"item", "item.layout contains 'presentation'" %}
+      {% for page in presentation %}
+      <a href="{{ page.permalink }}" class="speakers-block-item col-4-8">
+        <div class="speakers-block-item-data">
+          <div class="speakers-block-item-data-block speakers-block-item-data-block-image {% if page.speaker.size > 1 %}speakers-block-item-duo{% endif %}">
+            {% for item in page.speaker %}
+            <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}-sq.png" class="speakers-block-item-data-image" />
+            {% endfor %}
+          </div>
+          <div class="speakers-block-item-data-block">
+            <h3 class="heading">{{ page.title }}</h3>
+            <h4 class="alt-title alt-title-small alt-title-light">
+            {% for item in page.speaker %}
+              <span>{{ item.name }}</span>
+            {% endfor %}
+            </h4>
+          </div>
+        </div>
+      </a>
+      {% endfor %}
+      </div>
+  <!--
   <div class="presentation--list">
       <ul>
       {% assign sorted_presentations = site.pages | sort: 'title' %}
@@ -43,7 +66,6 @@ layout: default
       {% endif %}
       {% endfor %}
 
-      <!-- temp more to come -->
         <li><a href="#!">
           <img src="{{ site.baseurl }}/assets/speakers/temp-more-to-come.png">
           <div class="presentation--list-meta">
@@ -52,5 +74,6 @@ layout: default
         </a></li>
       </ul>
   </div>
+  -->
 
 </section>
