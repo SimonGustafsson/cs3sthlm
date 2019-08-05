@@ -327,6 +327,9 @@
       subject: Automotive DoIP and forensic analysis for automotive systems
       permalink: program/presentations/christopher-kevin/
       partner: Kevin Gomez Buquerin
+      partner-role: Junior Incident Responder
+      partner-work: Audi
+      partner-image: kevin-gomez-buquerin
       description: |
         The automobile industry is changing and new fields such as autonomous driving, battery enhancements and infrastructure or advanced mobility services are under development. As a side effect the interconnection of vehicles increases with numerous new protocols and technologies introduced to enable these scenarios, which also attract the attention of security researchers and hackers. Therefore, more focus on security practices is necessary.
 
@@ -362,6 +365,9 @@
       subject: Automotive DoIP and forensic analysis for automotive systems
       permalink: program/presentations/christopher-kevin/
       partner: Christopher Corbett
+      partner-role: Junior Incident Responder
+      partner-work: Audi
+      partner-image: christopher-corbett
       description: |
         The automobile industry is changing and new fields such as autonomous driving, battery enhancements and infrastructure or advanced mobility services are under development. As a side effect the interconnection of vehicles increases with numerous new protocols and technologies introduced to enable these scenarios, which also attract the attention of security researchers and hackers. Therefore, more focus on security practices is necessary.
 
@@ -525,6 +531,9 @@
       subject: Project RunAway
       permalink: program/presentations/matan-yoav/
       partner: Yoav Flint Rosenfeld
+      partner-role: Head of OT Research
+      partner-work: Otorio
+      partner-image: yoav-flint-rosenfeld
       description: |
         Project files are the blueprints of the industrial process, these files can contain network configuration, screen definitions, hardware and software configurations and the actual automation logic of the controllers.
 
@@ -582,6 +591,9 @@
       subject: Project RunAway
       permalink: program/presentations/matan-yoav/
       partner: Matan Dobrushin
+      partner-role: Head of OT Research
+      partner-work: Otorio
+      partner-image: matan-dobrushin
       description: |
         Project files are the blueprints of the industrial process, these files can contain network configuration, screen definitions, hardware and software configurations and the actual automation logic of the controllers.
 
@@ -639,6 +651,9 @@
       subject: Tales from Industrial Plants and Responders
       permalink: program/presentations/christian-mona/
       partner: Christian Augustat
+      partner-role: Principal Engineer
+      partner-work: Gassco
+      partner-image: christian-augustat
       description: |
         #### Network-, Security- and Vulnerability Monitoring for ICS: a demystification from an asset owner’s perspective.
         
@@ -674,6 +689,9 @@
       subject: Tales from Industrial Plants and Responders
       permalink: program/presentations/christian-mona/
       partner: Mona Lange
+      partner-role: Cyber Defense Team Lead
+      partner-work: Audi
+      partner-image: mona-lange
       description: |
         #### Network-, Security- and Vulnerability Monitoring for ICS: a demystification from an asset owner’s perspective.
         
@@ -738,6 +756,9 @@
       subject: "Broken Rungs: A look at popular ladder logic runtime privileges"
       permalink: program/presentations/jimmy-reid/
       partner: Jimmy Wylie
+      partner-role: Senior Adversary Hunter
+      partner-work: Dragos Inc.
+      partner-image: jimmy-wylie
       description: |
         The TRISIS/TRITON/HatMan malware represents the first time that a rootkit was used against a programmable logic controller. In this talk, we will dive deep into several major PLC brands and ask the questions: Could TRISIS happen here? And if so, how easy or difficult would it be for an attacker to have the same effect?
 
@@ -776,6 +797,9 @@
       subject: "Broken Rungs: A look at popular ladder logic runtime privileges"
       permalink: program/presentations/jimmy-reid/
       partner: Reid Wightman
+      partner-role: Senior Vulnerability Researcher
+      partner-work: Dragos Inc.
+      partner-image: reid-wightman
       description: |
         The TRISIS/TRITON/HatMan malware represents the first time that a rootkit was used against a programmable logic controller. In this talk, we will dive deep into several major PLC brands and ask the questions: Could TRISIS happen here? And if so, how easy or difficult would it be for an attacker to have the same effect?
 
@@ -814,6 +838,9 @@
       subject: How we reverse-engineered multiple industrial radio remote-control systems
       permalink: program/presentations/fredrico-stephen/
       partner: Fredrico Maggi
+      partner-role: Senior Researcher
+      partner-work: Trend Micro
+      partner-image: fredrico-maggi
       description: |
         In 2018 we disclosed a total of 10 vulnerabilities to 7 independent industrial radio remote-control vendors. Our findings boil down to being able to control any equipment connected via these type of radio remote-control systems. So far, we focused our reports and speaking engagements on reaching out to as many people as possible, to increase awareness about the problem. At this time, we want to share stories about how we were able to perform the research and achieve the results with a globally dispersed team looking at global radio vendors.
 
@@ -852,14 +879,17 @@
   time:
   place:
   speaker:
-    - name: Jimmy Wylie
-      role: Senior Adversary Hunter
-      image: jimmy-wylie
+    - name: Fredrico Maggi
+      role: Senior Researcher
+      image: fredrico-maggi
   presentation:
     - active: live
       subject: How we reverse-engineered multiple industrial radio remote-control systems
       permalink: program/presentations/fredrico-stephen/
       partner: Stephen Hilt
+      partner-role: Senior Threat Researcher
+      partner-work: Trend Micro
+      partner-image: stephen-hilt
       description: |
         In 2018 we disclosed a total of 10 vulnerabilities to 7 independent industrial radio remote-control vendors. Our findings boil down to being able to control any equipment connected via these type of radio remote-control systems. So far, we focused our reports and speaking engagements on reaching out to as many people as possible, to increase awareness about the problem. At this time, we want to share stories about how we were able to perform the research and achieve the results with a globally dispersed team looking at global radio vendors.
 
