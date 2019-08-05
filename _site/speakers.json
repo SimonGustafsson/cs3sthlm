@@ -18,10 +18,9 @@
 			"active": 	"none",
 			"title": 	"",
 			"partner":	"",
-			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
 			"description": ""
 		
 		},
@@ -59,10 +58,9 @@
 			"active": 	"none",
 			"title": 	"",
 			"partner":	"",
-			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
 			"description": ""
 		
 		},
@@ -100,10 +98,9 @@
 			"active": 	"live",
 			"title": 	"Nation-State Supply Chain Attacks for Dummies and You Too",
 			"partner":	"",
-			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
 			"description": "<p>Back in October 2018, “Bloomberg” recounted a Chinese supply-chain attack on Supermicro motherboards used in servers for Amazon, Apple, and more than 20 other companies. <a href=\"https://www.bloomberg.com/news/features/2018-10-04/the-big-hack-how-china-used-a-tiny-chip-to-infiltrate-america-s-top-companies\">the-big-hack-how-china-used-a-tiny-chip-to-infiltrate-america-s-top-companies</a></p><p>Here is how I replicated it, on a Cisco firewall, with a shoestring budget, and how you can too.</p><p>This presentation will explain how I built and installed an implant chip on an industry-standard firewall, allowing the creation of privileged accounts, network access, and covert notification of successful compromise.</p><p>We’ll also discuss possible defenses and how to decide if you should be concerned about this class attack in your environment.</p><p>This talk will lead the audience through the chip selection process, the tools required to develop the attack (both hardware and software), and their use.</p><p>The techniques explained can be used on a variety of I.T. and O.T. equipment as well.</p><h4 id=\"target-audience-expectations-and-key-takeaway\">Target Audience, Expectations, and Key Takeaway:</h4><p>Audience: Security professional interested in supply chain “chipping” attacks of equipment</p><p>Audience takeaway will include the ease of creating “chipping” attacks on a small budget, the developmental steps, defences against such attacks, and understanding of why you likely don’t have to worry about them yet.</p>"
 		
 		},
@@ -141,10 +138,9 @@
 			"active": 	"live",
 			"title": 	"Automotive DoIP and forensic analysis for automotive systems",
 			"partner":	"Kevin Gomez Buquerin",
-			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
 			"description": "<p>The automobile industry is changing and new fields such as autonomous driving, battery enhancements and infrastructure or advanced mobility services are under development. As a side effect the interconnection of vehicles increases with numerous new protocols and technologies introduced to enable these scenarios, which also attract the attention of security researchers and hackers. Therefore, more focus on security practices is necessary.</p><p>One of these new technologies is Automotive Ethernet. It not only affects the in-vehicle network with enhanced bandwidth and protocol versatility, but also enables the connection of the vehicle to existing external network infrastructures. This can be accomplished by the Diagnostic over Internet Protocol (DoIP) which is used for diagnostic communication over the Onboard Diagnostic (OBD) interface.</p><p>Therefore potential unsafe or even unknown functionality is exposed to the outside world which, until now, was a private point to point connection between the diagnostic equipment and the vehicle. Moreover the diagnostic interface is commonly used to modify vehicles like enabling/disabling software features or update firmware. With an increasing proportion of software as a product features and at the same time raising attractiveness for malicious activities (e.g. fraud, attacks, manipulation) by attackers. The Original Equipment Manufacturers (OEM) are faced with new challenges in the domain of evidence preservation and reconciliation. Especially with the ISO21434 and UNECE on the horizon.</p><p>We examined possible scenarios that range from information gathering to malicious activities with focus on the vehicle and infrastructure. At the same time we approached the idea of what forensic evidence such activities might leave behind and how state-of-the-art technology helps preserving evidence. We therefore analysed the protocol specification and developed software according to our scenarios for evaluation. Furthermore, we studied existing forensic investigation approaches in the IT and SCADA domains and their feasibility with the DoIP protocol, as being the central point of communication with the in-vehicle network from outside the vehicle.</p><p>In this presentation we present our approach on the analysis of the protocol, the scenarios we derived and the tools we used for evaluation. This also includes the applicability check of the diagnostic interface for forensic investigation as well as discussion to provide these forensic investigations for court relevant incidents.</p>"
 		
 		},
@@ -182,10 +178,9 @@
 			"active": 	"live",
 			"title": 	"Automotive DoIP and forensic analysis for automotive systems",
 			"partner":	"Christopher Corbett",
-			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
 			"description": "<p>The automobile industry is changing and new fields such as autonomous driving, battery enhancements and infrastructure or advanced mobility services are under development. As a side effect the interconnection of vehicles increases with numerous new protocols and technologies introduced to enable these scenarios, which also attract the attention of security researchers and hackers. Therefore, more focus on security practices is necessary.</p><p>One of these new technologies is Automotive Ethernet. It not only affects the in-vehicle network with enhanced bandwidth and protocol versatility, but also enables the connection of the vehicle to existing external network infrastructures. This can be accomplished by the Diagnostic over Internet Protocol (DoIP) which is used for diagnostic communication over the Onboard Diagnostic (OBD) interface.</p><p>Therefore potential unsafe or even unknown functionality is exposed to the outside world which, until now, was a private point to point connection between the diagnostic equipment and the vehicle. Moreover the diagnostic interface is commonly used to modify vehicles like enabling/disabling software features or update firmware. With an increasing proportion of software as a product features and at the same time raising attractiveness for malicious activities (e.g. fraud, attacks, manipulation) by attackers. The Original Equipment Manufacturers (OEM) are faced with new challenges in the domain of evidence preservation and reconciliation. Especially with the ISO21434 and UNECE on the horizon.</p><p>We examined possible scenarios that range from information gathering to malicious activities with focus on the vehicle and infrastructure. At the same time we approached the idea of what forensic evidence such activities might leave behind and how state-of-the-art technology helps preserving evidence. We therefore analysed the protocol specification and developed software according to our scenarios for evaluation. Furthermore, we studied existing forensic investigation approaches in the IT and SCADA domains and their feasibility with the DoIP protocol, as being the central point of communication with the in-vehicle network from outside the vehicle.</p><p>In this presentation we present our approach on the analysis of the protocol, the scenarios we derived and the tools we used for evaluation. This also includes the applicability check of the diagnostic interface for forensic investigation as well as discussion to provide these forensic investigations for court relevant incidents.</p>"
 		
 		},
@@ -223,10 +218,9 @@
 			"active": 	"live",
 			"title": 	"It WISN't Me: Attacking Industrial Wireless MEsh Networks (part II)",
 			"partner":	"Mattijs van Ommeren",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"role":		"Lead Consultant",
+			"work":		"Nixu",
+			"image":	"https://cs3sthlm.se/assets/speakers/mattijs-van-ommeren.png",
 			"description": "<p>Wireless sensor networks are commonly thought of as IoT devices communicating using familiar short­range wireless protocols like Zigbee, MiWi, Thread and OpenWSN. A lesser known fact is that about a decade ago, two industrial wireless protocols (WirelessHART and ISA100.11a) have been designed for industrial applications, which are based on the common IEEE 802.15.4 RF standard. These Wireless Industrial Sensor Networks (WISN) are used in process field device networks to monitor temperature, pressure, levels, flow or vibrations. The petrochemical industry uses WISN in oil and gas fields and plants around the world.</p><p>Both IEC ratified standards have been commonly praised by the ICS industry for their security features, including strong encryption on multiple layers within the protocol stack, resistance to RF interference, and replay protection. While the standards in general look safe on paper, there are potential interesting attack vectors that require verification. However, security research so far has not yielded any significant results beyond basic attack vectors. Often these attacks have only been theorized, and not (publically) demonstrated. In addition, vendor implementations have not been thoroughly tested for security by independent third parties, due to protocol complexity and the lack of proper (hardware/software) tools. We strongly believe in Wright’s principle, “Security does not improve until practical tools for exploration of the attack surface are made available.”</p><p>This presentation will fill this gap by providing the necessary building blocks to perform more in depth security analysis of WISN, and provide tools to perform practical attacks against these wireless networks in order to verify resistance to real world attacks.</p><h4 id=\"type-of-presentation\">Type of presentation:</h4><p>Presentation, including demonstrations of the attacks</p><p>Aim of the presentation:</p><ul>  <li>No expensive equipment is required to sniff and interact with WISN technology allowing a larger group of security researchers to assess the security of these critical infrastructure components.</li>  <li>Asset owners should familiarize themselves with risks involved when using WISN technologies in industrial environments. The configuration of existing installations could be verified to further improve the security.</li>  <li>Asset owners are advised to be reluctant in applying WSN technology for control and functional safety applications, as this seems to be trending at the moment.</li></ul><p>Target audience: technical specialists and asset owners of OT environments</p>"
 		
 		},
@@ -264,10 +258,9 @@
 			"active": 	"live",
 			"title": 	"It WISN't Me: Attacking Industrial Wireless MEsh Networks (part II)",
 			"partner":	"Erwin Paternotte",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"role":		"Lead Security Consultant",
+			"work":		"Nixu",
+			"image":	"https://cs3sthlm.se/assets/speakers/erwin-paternotte.png",
 			"description": "<p>Wireless sensor networks are commonly thought of as IoT devices communicating using familiar short­range wireless protocols like Zigbee, MiWi, Thread and OpenWSN. A lesser known fact is that about a decade ago, two industrial wireless protocols (WirelessHART and ISA100.11a) have been designed for industrial applications, which are based on the common IEEE 802.15.4 RF standard. These Wireless Industrial Sensor Networks (WISN) are used in process field device networks to monitor temperature, pressure, levels, flow or vibrations. The petrochemical industry uses WISN in oil and gas fields and plants around the world.</p><p>Both IEC ratified standards have been commonly praised by the ICS industry for their security features, including strong encryption on multiple layers within the protocol stack, resistance to RF interference, and replay protection. While the standards in general look safe on paper, there are potential interesting attack vectors that require verification. However, security research so far has not yielded any significant results beyond basic attack vectors. Often these attacks have only been theorized, and not (publically) demonstrated. In addition, vendor implementations have not been thoroughly tested for security by independent third parties, due to protocol complexity and the lack of proper (hardware/software) tools. We strongly believe in Wright’s principle, “Security does not improve until practical tools for exploration of the attack surface are made available.”</p><p>This presentation will fill this gap by providing the necessary building blocks to perform more in depth security analysis of WISN, and provide tools to perform practical attacks against these wireless networks in order to verify resistance to real world attacks.</p><h4 id=\"type-of-presentation\">Type of presentation:</h4><p>Presentation, including demonstrations of the attacks</p><p>Aim of the presentation:</p><ul>  <li>No expensive equipment is required to sniff and interact with WISN technology allowing a larger group of security researchers to assess the security of these critical infrastructure components.</li>  <li>Asset owners should familiarize themselves with risks involved when using WISN technologies in industrial environments. The configuration of existing installations could be verified to further improve the security.</li>  <li>Asset owners are advised to be reluctant in applying WSN technology for control and functional safety applications, as this seems to be trending at the moment.</li></ul><p>Target audience: technical specialists and asset owners of OT environments</p>"
 		
 		},
@@ -305,10 +298,9 @@
 			"active": 	"live",
 			"title": 	"Secure your MES the bridge between IT and OT",
 			"partner":	"",
-			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
 			"description": "<p>The presentation will be geared towards asset­owners, primarily from the manufacturing sector. However, other industries may also benefit. I intend to present how we, as an asset­owner, are approaching the challenge of securing our Manufacturing Execution Systems (MES). I will briefly discuss what an MES system is and why do most manufacturing industries need it.</p><p>An MES system bridges IT and OT networks ­­ it interfaces with ERP on the IT side and Automation layer (PLCs, etc.) on the OT side. And also interfaces with Laboratory and other systems at the same level. I will briefly go into the reasons why the MES needs to talk to both IT and OT. And how it is the air­gap myth­buster!</p><p>As an MES is exposed to the IT side, and hence indirectly to the Internet, it is critical we secure it. I will discuss how careful network segmentation will help in this cause.</p><p>OPC is a common protocol used by most MES systems for interfacing with various Automation systems. I will discuss our attempts at securing our legacy OPC­DA communication interfaces, and how we migrated to and are securing our current OPC­UA interfaces. Will go into security features afforded by the OPC­UA specification and how just moving to OPC­UA does not guarantee security.</p><p>In addition, I will present other security controls that may be deployed to increase security posture of a MES system.</p><p>Finally, I will end the presentation with the argument for absolute need for developing strong and verifiable disaster recovery plans (DR) and business continuity plans (BCP) for when MES goes down. And what would such a BCP typically comprise of.</p>"
 		
 		},
@@ -346,10 +338,9 @@
 			"active": 	"live",
 			"title": 	"Project RunAway",
 			"partner":	"Yoav Flint Rosenfeld",
-			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
 			"description": "<p>Project files are the blueprints of the industrial process, these files can contain network configuration, screen definitions, hardware and software configurations and the actual automation logic of the controllers.</p><p>Access to the project file means access to knowledge on the most important and secret elements of the production floor.</p><p>Because of their sensitivity, these files should be kept in a well-secured manner like an internal vault, but due to the growing need to share and collaborate with suppliers it’s hard to keep track and the data might end up in the wrong hands.</p><p>In our research we have discovered a large amount of highly confidential industrial data located on the internet.</p><p>The data contains multiple manufactures, suppliers and orchestrators from different sectors and geographical locations. The amount and spread of the data and companies leads us to believe that this is not a one time event or incident but a systematic issue.</p><p>In the presentation we will:</p><ul>  <li>Explain the basic components and structures of some project files</li>  <li>We will explain how the research was performed.</li>  <li>Explain about the threat landscape connected to this data and explain about the inherent insecurity of the supply chain</li>  <li>We will showcase how an attacker might use this data to target a company and use the data from the files to successfully affect the operation of the process</li>  <li>We will showcase what can be derived out of the automation logic, both by noting past research works that have been done on this topic and by proposing new possibilities</li>  <li>We will share statistics about the amount of companies, sectors and geo locations of the affected companies</li>  <li>We will propose a few options for the potential sources of the leaks</li>  <li>We will discuss the different security methods a victim should apply</li></ul><h4 id=\"type-of-target-audience-\">Type of target audience –</h4><ul>  <li>Knowledge in automation &amp; risk management – advantage</li></ul><h4 id=\"audience-should-expect-\">Audience should expect –</h4><ul>  <li>Understanding a threat intelligence research process</li>  <li>Understanding of the threat involved with this kind of leakage</li>  <li>A clear rundown of potential attacks on OT environment</li></ul><h4 id=\"key-takeaways-\">Key takeaways –</h4><ol>  <li>Security guidelines for protecting critical OT data</li>  <li>Security guidelines for securing the supply chain process</li></ol>"
 		
 		},
@@ -387,10 +378,9 @@
 			"active": 	"live",
 			"title": 	"Project RunAway",
 			"partner":	"Matan Dobrushin",
-			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
 			"description": "<p>Project files are the blueprints of the industrial process, these files can contain network configuration, screen definitions, hardware and software configurations and the actual automation logic of the controllers.</p><p>Access to the project file means access to knowledge on the most important and secret elements of the production floor.</p><p>Because of their sensitivity, these files should be kept in a well-secured manner like an internal vault, but due to the growing need to share and collaborate with suppliers it’s hard to keep track and the data might end up in the wrong hands.</p><p>In our research we have discovered a large amount of highly confidential industrial data located on the internet.</p><p>The data contains multiple manufactures, suppliers and orchestrators from different sectors and geographical locations. The amount and spread of the data and companies leads us to believe that this is not a one time event or incident but a systematic issue.</p><p>In the presentation we will:</p><ul>  <li>Explain the basic components and structures of some project files</li>  <li>We will explain how the research was performed.</li>  <li>Explain about the threat landscape connected to this data and explain about the inherent insecurity of the supply chain</li>  <li>We will showcase how an attacker might use this data to target a company and use the data from the files to successfully affect the operation of the process</li>  <li>We will showcase what can be derived out of the automation logic, both by noting past research works that have been done on this topic and by proposing new possibilities</li>  <li>We will share statistics about the amount of companies, sectors and geo locations of the affected companies</li>  <li>We will propose a few options for the potential sources of the leaks</li>  <li>We will discuss the different security methods a victim should apply</li></ul><h4 id=\"type-of-target-audience-\">Type of target audience –</h4><ul>  <li>Knowledge in automation &amp; risk management – advantage</li></ul><h4 id=\"audience-should-expect-\">Audience should expect –</h4><ul>  <li>Understanding a threat intelligence research process</li>  <li>Understanding of the threat involved with this kind of leakage</li>  <li>A clear rundown of potential attacks on OT environment</li></ul><h4 id=\"key-takeaways-\">Key takeaways –</h4><ol>  <li>Security guidelines for protecting critical OT data</li>  <li>Security guidelines for securing the supply chain process</li></ol>"
 		
 		},
@@ -428,10 +418,9 @@
 			"active": 	"live",
 			"title": 	"Tales from Industrial Plants and Responders",
 			"partner":	"Christian Augustat",
-			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
 			"description": "<h4 id=\"network--security--and-vulnerability-monitoring-for-ics-a-demystification-from-an-asset-owners-perspective\">Network-, Security- and Vulnerability Monitoring for ICS: a demystification from an asset owner’s perspective.</h4><p>In this session Dr. Mona Lange (Audi) and Christian Augustat (Gassco) will take you on a conceptual tour through Industrial Control System (ICS) Security, both have a solid background in securing industrial plants in the manufacturing and Oil- and Gas industry. The session will provide you with insights into areas of Governance, Network Security Monitoring, Vulnerability Management and Continuous Security Monitoring, all from the perspective of an Asset-Owner.</p><p>In the area of Governance management we will dissect the pros and cons of IEC62443, ISO27001 and CIS as a foundation for an ICS security strategy, demonstrate how to prioritize security measures and render existing security risks transparent to management for security risk acceptance. Based on this security strategy, we will motivate the importance of asset management as a foundation for network security monitoring, describe how to build an MAC Address based Asset Inventory based on existing network components and integrate it into a Security Information and Event Management System (SIEM). Effective network security monitoring requires asset owners to understand what sources of infection or attack on ICS exist, how threat groups exploit them and how they can be monitored.</p><p>Generally, it is not feasible to defend against all threats everywhere, however we will demonstrate how baselining can be used to make an existing attack surface transparent and prioritize network security monitoring efforts in a threat aware manner. We will show how baselining can be used as a foundation for hardening Firewalls and deriving monitoring scenarios and integrating them into a SIEM. In addition, we will point out the difference between shopping security in comparison to building security. Vulnerability management means identifying vulnerabilities present in the environment, understanding their impact for an attack surface and finding possible mitigations as alternatives to patching.</p><p>We will show how the concept of ICS in a Virtual Machine can be used for live vulnerability scanning and provide some practical examples on how to rank the criticality of vulnerabilities. Main focus is to point out common problems from an asset owner’s perspective and point towards easy solutions based on our experience “from the trenches”.</p>"
 		
 		},
@@ -469,10 +458,9 @@
 			"active": 	"live",
 			"title": 	"Tales from Industrial Plants and Responders",
 			"partner":	"Mona Lange",
-			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
 			"description": "<h4 id=\"network--security--and-vulnerability-monitoring-for-ics-a-demystification-from-an-asset-owners-perspective\">Network-, Security- and Vulnerability Monitoring for ICS: a demystification from an asset owner’s perspective.</h4><p>In this session Dr. Mona Lange (Audi) and Christian Augustat (Gassco) will take you on a conceptual tour through Industrial Control System (ICS) Security, both have a solid background in securing industrial plants in the manufacturing and Oil- and Gas industry. The session will provide you with insights into areas of Governance, Network Security Monitoring, Vulnerability Management and Continuous Security Monitoring, all from the perspective of an Asset-Owner.</p><p>In the area of Governance management we will dissect the pros and cons of IEC62443, ISO27001 and CIS as a foundation for an ICS security strategy, demonstrate how to prioritize security measures and render existing security risks transparent to management for security risk acceptance. Based on this security strategy, we will motivate the importance of asset management as a foundation for network security monitoring, describe how to build an MAC Address based Asset Inventory based on existing network components and integrate it into a Security Information and Event Management System (SIEM). Effective network security monitoring requires asset owners to understand what sources of infection or attack on ICS exist, how threat groups exploit them and how they can be monitored.</p><p>Generally, it is not feasible to defend against all threats everywhere, however we will demonstrate how baselining can be used to make an existing attack surface transparent and prioritize network security monitoring efforts in a threat aware manner. We will show how baselining can be used as a foundation for hardening Firewalls and deriving monitoring scenarios and integrating them into a SIEM. In addition, we will point out the difference between shopping security in comparison to building security. Vulnerability management means identifying vulnerabilities present in the environment, understanding their impact for an attack surface and finding possible mitigations as alternatives to patching.</p><p>We will show how the concept of ICS in a Virtual Machine can be used for live vulnerability scanning and provide some practical examples on how to rank the criticality of vulnerabilities. Main focus is to point out common problems from an asset owner’s perspective and point towards easy solutions based on our experience “from the trenches”.</p>"
 		
 		},
@@ -510,10 +498,9 @@
 			"active": 	"live",
 			"title": 	"CVSS for ICS; Gauging a tennis game with number of goals",
 			"partner":	"",
-			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
 			"description": "<p>Patching known security vulnerabilities is one of the most essential task in any OT security program. Utilities having large number of patches to be applied in various cyber assets, use CVSS (Common Vulnerability Scoring System) metrics of the vulnerabilities to prioritize in applying patches. This prioritization however doesn’t serve well the purpose of patching at all times, particularly in OT industry; the reason being that CVSS has not been designed with OT security in mind. A low scored vulnerability that left unpatched can bring in high-risk to the OT environment. Environmental metrics have also similar challenges. Moreover, finding a single scoring system that fits every utility doesn’t seems to be realistic; at least in near future. Hence, there is clearly a need for a better approach to prioritize among various patches, that should take the cyber-physical impact on OT also into account.</p><p>This presentation illustrates a few examples of vulnerabilities and their respective CVSS score, in order to understand why these may fail to reveal the real impact to the ICS environment. Also, exhibits a possible better approach for prioritizing patch irrespective of the vendor provided score. For each asset in an OT ecosystem that has a specified functionality, the top priority would be to secure the functionality. For example, the functionality could be that a controller sending critical command to the field device or a HMI which displays the actual field data. This approach serves the purpose of securing the functionality of the OT system rather than focusing on confidentiality, integrity and availability.</p>"
 		
 		},
@@ -551,10 +538,9 @@
 			"active": 	"live",
 			"title": 	"Broken Rungs: A look at popular ladder logic runtime privileges",
 			"partner":	"Jimmy Wylie",
-			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
 			"description": "<p>The TRISIS/TRITON/HatMan malware represents the first time that a rootkit was used against a programmable logic controller. In this talk, we will dive deep into several major PLC brands and ask the questions: Could TRISIS happen here? And if so, how easy or difficult would it be for an attacker to have the same effect?</p><p>The talk will detail the ladder logic programming and compilation systems from several vendors, and provide results of testing for ladder logic privileges and privilege escalation issues. This will include, where possible, reviewing the CPU used in each PLC, showing what security features the CPU has, and finally showing results of loading weaponized ladder logic into the PLC for execution. This will also cover in some limited depth the ladder logic transfer protocol used by each controller.</p><h4 id=\"target-audience-\">Target audience ­</h4><p>Technical researchers, low­level engineers for vendors, and low­level protocol analysis</p><h4 id=\"key-takeaways\">Key takeaways</h4><ul>  <li>For end users, they should walk away with questions to ask their vendors. For PLCs vendors, they should ask, ‘Is this type of attack in your threat model, and how are you dealing with it?’. For their security vendors, they should ask, ‘Are you able to carve logic updates and perform any level of analysis on them in your security system?’</li>  <li>For vendors, they key takeaway should be: This type of attack should be in your threat model.</li>  <li>For security researchers and vendors, the key takeaway should be: We should research tools to monitor and prevent malicious logic updates. This might require more research into static code analysis, and will likely require some cooperation from the vendors.</li></ul>"
 		
 		},
@@ -592,10 +578,9 @@
 			"active": 	"live",
 			"title": 	"Broken Rungs: A look at popular ladder logic runtime privileges",
 			"partner":	"Reid Wightman",
-			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
 			"description": "<p>The TRISIS/TRITON/HatMan malware represents the first time that a rootkit was used against a programmable logic controller. In this talk, we will dive deep into several major PLC brands and ask the questions: Could TRISIS happen here? And if so, how easy or difficult would it be for an attacker to have the same effect?</p><p>The talk will detail the ladder logic programming and compilation systems from several vendors, and provide results of testing for ladder logic privileges and privilege escalation issues. This will include, where possible, reviewing the CPU used in each PLC, showing what security features the CPU has, and finally showing results of loading weaponized ladder logic into the PLC for execution. This will also cover in some limited depth the ladder logic transfer protocol used by each controller.</p><h4 id=\"target-audience-\">Target audience ­</h4><p>Technical researchers, low­level engineers for vendors, and low­level protocol analysis</p><h4 id=\"key-takeaways\">Key takeaways</h4><ul>  <li>For end users, they should walk away with questions to ask their vendors. For PLCs vendors, they should ask, ‘Is this type of attack in your threat model, and how are you dealing with it?’. For their security vendors, they should ask, ‘Are you able to carve logic updates and perform any level of analysis on them in your security system?’</li>  <li>For vendors, they key takeaway should be: This type of attack should be in your threat model.</li>  <li>For security researchers and vendors, the key takeaway should be: We should research tools to monitor and prevent malicious logic updates. This might require more research into static code analysis, and will likely require some cooperation from the vendors.</li></ul>"
 		
 		},
@@ -633,10 +618,9 @@
 			"active": 	"live",
 			"title": 	"How we reverse-engineered multiple industrial radio remote-control systems",
 			"partner":	"Fredrico Maggi",
-			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
 			"description": "<p>In 2018 we disclosed a total of 10 vulnerabilities to 7 independent industrial radio remote-control vendors. Our findings boil down to being able to control any equipment connected via these type of radio remote-control systems. So far, we focused our reports and speaking engagements on reaching out to as many people as possible, to increase awareness about the problem. At this time, we want to share stories about how we were able to perform the research and achieve the results with a globally dispersed team looking at global radio vendors.</p><p>This talk will focus on the “backstage” of this research, that is:</p><ul>  <li>how we started it and why we selected this class of systems</li>  <li>how we selected the vendors out from our extensive market search</li>  <li>how are these systems built, and how we figured this out</li>  <li>for two systems in details, we will describe    <ul>      <li>how to approach them from a reverse-engineering standpoint</li>      <li>how to interpret their RF protocol</li>      <li>what tools are needed for an in-depth reverse engineering</li>      <li>why we needed to come up with our own tools for certain corner cases (e.g., tricky modulation schemes)</li>    </ul>  </li>  <li>how the disclosure process went    <ul>      <li>what challenges we found along the way</li>      <li>what were the vendors’ responses (Vendors will not be called out for bad responses by name)</li>      <li>what is the status of the vulnerabilities now – lookout on future research trends in this space</li>    </ul>  </li></ul><p>While the project was a success the road to get there, was very bumpy due to things that all researchers face. We will also discuss how we overcame some of the obstacles, such as identifying the chips, micro soldering with non-professional equipment, reversing unreliable radio signals caught over the air.</p><h4 id=\"target-audience\">Target audience</h4><p>Technical, with the understanding of embedded systems and sub-GHz radio communication.</p>"
 		
 		},
@@ -674,10 +658,9 @@
 			"active": 	"live",
 			"title": 	"How we reverse-engineered multiple industrial radio remote-control systems",
 			"partner":	"Stephen Hilt",
-			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
 			"description": "<p>In 2018 we disclosed a total of 10 vulnerabilities to 7 independent industrial radio remote-control vendors. Our findings boil down to being able to control any equipment connected via these type of radio remote-control systems. So far, we focused our reports and speaking engagements on reaching out to as many people as possible, to increase awareness about the problem. At this time, we want to share stories about how we were able to perform the research and achieve the results with a globally dispersed team looking at global radio vendors.</p><p>This talk will focus on the “backstage” of this research, that is:</p><ul>  <li>how we started it and why we selected this class of systems</li>  <li>how we selected the vendors out from our extensive market search</li>  <li>how are these systems built, and how we figured this out</li>  <li>for two systems in details, we will describe    <ul>      <li>how to approach them from a reverse-engineering standpoint</li>      <li>how to interpret their RF protocol</li>      <li>what tools are needed for an in-depth reverse engineering</li>      <li>why we needed to come up with our own tools for certain corner cases (e.g., tricky modulation schemes)</li>    </ul>  </li>  <li>how the disclosure process went    <ul>      <li>what challenges we found along the way</li>      <li>what were the vendors’ responses (Vendors will not be called out for bad responses by name)</li>      <li>what is the status of the vulnerabilities now – lookout on future research trends in this space</li>    </ul>  </li></ul><p>While the project was a success the road to get there, was very bumpy due to things that all researchers face. We will also discuss how we overcame some of the obstacles, such as identifying the chips, micro soldering with non-professional equipment, reversing unreliable radio signals caught over the air.</p><h4 id=\"target-audience\">Target audience</h4><p>Technical, with the understanding of embedded systems and sub-GHz radio communication.</p>"
 		
 		},
@@ -715,10 +698,9 @@
 			"active": 	"live",
 			"title": 	"Fuzz Testing IEC 61850",
 			"partner":	"",
-			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
 			"description": "<p>During implementation of protocols in a communication stack usually only positive testing is performed to verify the conformance to the standard, especially for ICS protocols. Negative testing as part of the development process is often not applied. Therefore, it remains unknown how the stack or entire component is reacting on invalid, random or unexpected data. This talk will introduce robustness tests on IEC 61850, an ICS protocol that is used in digital substation communication. IEC 61850 is a modern and highly complex protocol stack and therefore provides a high attack surface.</p><p>The talk contains an introduction on IEC 61850 and describes the fuzzing approach together with details on how these tests are performed using a mutation-based fuzzer utilizing the XML based “Packet Description Markup Language” (PDML). It will also provide insights of difficulties encountered by performing those tests and how they have been circumvented. The audience will also learn what kind of attack vectors arise from those vulnerabilities.</p><p>As part of the talk, anonymized fuzzing results are presented from day-to-day ICS security audits as well as a live demonstration of the fuzzer is given.</p><p>This talk will provide in depth technical details and is primarily meant for security professionals in the area of industrial control systems and substation automation.</p>"
 		
 		},
@@ -756,10 +738,9 @@
 			"active": 	"none",
 			"title": 	"",
 			"partner":	"",
-			"name":		"",
 			"role":		"",
 			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
 			"description": ""
 		
 		},
