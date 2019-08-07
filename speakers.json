@@ -36,7 +36,8 @@ layout:
 			"role":		"{{ item.role }}",
 			"work":		"{{ item.work }}",
 			"image":	"https://cs3sthlm.se/assets/speakers/{{ item.image }}",
-			"description": {{ item.description | markdownify | strip_newlines | jsonify }}
+			"description": {{ item.description | markdownify | strip_newlines | jsonify }},
+			"excerpt":	{{ item.description | markdownify | strip_html | strip_newlines | truncate: 200 | jsonify }}
 		},
 		{% endfor %}
 

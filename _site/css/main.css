@@ -2940,6 +2940,14 @@ a {
     font-size: 29px;
     color: #ef7d00;
     margin-bottom: 24px; }
+  .post-content > h4 {
+    font-family: 'latobold', sans-serif;
+    font-size: 21px;
+    font-weight: normal;
+    line-height: 1.5; }
+    @media screen and (min-width: 1680px) {
+      .post-content > h4 {
+        font-size: 27px; } }
   .post-header {
     margin-bottom: 36px; }
   .post-pagination {
@@ -4628,7 +4636,8 @@ p.content-intro {
   font-weight: normal;
   line-height: 32px;
   letter-spacing: .45px;
-  color: white; }
+  color: white;
+  text-shadow: 0 0 8px rgba(3, 1, 0, 0.75); }
   .speaker-name span:last-of-type:before {
     display: inline-block;
     content: '&';
@@ -4647,7 +4656,8 @@ p.content-intro {
   font-style: italic;
   line-height: 21px;
   color: #a6a7a9;
-  letter-spacing: 0.045em; }
+  letter-spacing: 0.045em;
+  text-shadow: 0 0 8px rgba(3, 1, 0, 0.75); }
   @media screen and (min-width: 1920px) {
     .speaker-role {
       font-size: 16px;
@@ -4735,6 +4745,12 @@ p.content-intro {
     overflow: hidden;
     flex-direction: column;
     margin-bottom: 24px; }
+    @media screen and (max-width: 1440px) {
+      .speaker-item {
+        width: calc(100% / 5); } }
+    @media screen and (max-width: 1170px) {
+      .speaker-item {
+        width: calc(100% / 4); } }
     @media screen and (max-width: 768px) {
       .speaker-item {
         width: calc(100% / 2);
@@ -4772,6 +4788,10 @@ p.content-intro {
       height: 336px;
       min-height: 336px;
       overflow: hidden; }
+      @media screen and (max-width: 1170px) {
+        .speaker-item-frame {
+          height: 450px;
+          min-height: 450px; } }
       .speaker-item-frame:hover {
         cursor: pointer; }
         .speaker-item-frame:hover-type span {
@@ -4848,6 +4868,9 @@ p.content-intro {
       display: inline-block;
       color: white;
       margin-bottom: 8px; }
+      @media screen and (min-width: 1680px) {
+        .speaker-item-link {
+          font-size: 21px; } }
       .speaker-item-link:hover {
         color: #ef7d00; }
     .speaker-item-details-active {

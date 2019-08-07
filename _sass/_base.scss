@@ -3850,6 +3850,16 @@ a {
       color: $yellow;
       margin-bottom: 24px;
     }
+    > h4 {
+      font-family: 'latobold', sans-serif;
+      font-size: 21px;
+      font-weight: normal;
+      line-height: 1.5;
+
+      @include media-query-min($large){
+        font-size: 27px;
+      }
+    }
   }
 
   &-header {
