@@ -10,7 +10,7 @@
   bio: Erik is the creator of NetworkMiner and an experienced incident handler who has specialized in the field of network forensics.
   date: 21-22 October
   time: 09:00 - 17:00
-  place: Harlem
+  place: TBA
   speaker:
     - name: Erik Hjelmvik
       role: Network Analyst
@@ -104,14 +104,14 @@
   shortcode: FR
   image: arnaud-soullie.png
   bio: "Arnaud Soullié (@arnaudsoullie) is a manager at Wavestone. For 9 years, he has been performing security audits and pentest on all type of targets. He specializes in Industrial Control Systems and Active Directory security. He has spoken at numerous security conferences on ICS topics : BlackHat Europe, BruCon, 4SICS, BSides Las Vegas, DEFCON... He is also the creator of the DYODE project, an open­source data diode aimed at ICS."
-  date: 22-23 October
+  date: 21-22 October
   time: 09:00 - 17:00
-  place:
+  place: TBA
   speaker:
     - name: Arnaud Soullié
       role: Cybersecurity R&D Manager
       image: arnaud-soullie
-  status: Sold Out
+  status: Slots Open
   presentation:
     - active: none
   training:
@@ -1170,9 +1170,9 @@
     Now as a Toreon ICS Security Consultant I leverage this knowledge to provide advice on security architecture for clients in the utilities sector in Europe. At those clients, I help to improve the security maturity level of their organisations.
 
     I achieve this by organising Threat Modeling sessions with our customers to identify the vulnerabilities in their ICS environment. I consider Threat Modeling to be the most fitting risk assessment methodology for Industrial environments. Its scenario-based approach makes it easy for people of different profiles to add value to the process.
-  date:
-  time:
-  place:
+  date: 22 October
+  time: 09:00 - 17:00
+  place: TBA
   speaker:
     - name: Jasper Hooft
       role: ICS Security Consultant

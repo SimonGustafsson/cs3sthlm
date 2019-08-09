@@ -11,7 +11,7 @@
 		"image" 	: "https://cs3sthlm.se/assets/speakers/erik-hjelmvik.png",
 		"date" 		: "21-22 October",
 		"time" 		: "09:00 - 17:00",
-		"place" 	: "Harlem",
+		"place" 	: "TBA",
 
 		"presentation":{
 		
@@ -50,9 +50,9 @@
 		"country"	: "France",
 		"shortcode"	: "FR",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/arnaud-soullie.png",
-		"date" 		: "22-23 October",
+		"date" 		: "21-22 October",
 		"time" 		: "09:00 - 17:00",
-		
+		"place" 	: "TBA",
 
 		"presentation":{
 		
@@ -747,9 +747,9 @@
 		"country"	: "Belgium",
 		"shortcode"	: "BE",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/jasper-hooft.png",
-		
-		
-		
+		"date" 		: "22 October",
+		"time" 		: "09:00 - 17:00",
+		"place" 	: "TBA",
 
 		"presentation":{
 		
