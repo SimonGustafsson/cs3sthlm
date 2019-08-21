@@ -1,12 +1,8 @@
 ---
 title: How we reverse-engineered multiple industrial radio remote-control systems
-permalink: "/program/presentations/fredrico-stephen/"
+permalink: "/program/presentations/stephen-hilt/"
 layout: presentation
 speaker:
-- name: Fredrico Maggi
-  role: Senior Researcher
-  work: Trend Micro
-  image: fredrico-maggi
 - name: Stephen Hilt
   role: Senior Threat Researcher
   work: Trend Micro
@@ -32,7 +28,6 @@ This talk will focus on the "backstage" of this research, that is:
 	* what is the status of the vulnerabilities now – lookout on future research trends in this space
 
 While the project was a success the road to get there, was very bumpy due to things that all researchers face. We will also discuss how we overcame some of the obstacles, such as identifying the chips, micro soldering with non-professional equipment, reversing unreliable radio signals caught over the air.
-
 
 #### Target audience
 Technical, with the understanding of embedded systems and sub-GHz radio communication.

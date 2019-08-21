@@ -8,7 +8,7 @@ speaker:
   work: Sectra
   image: jonathan-jogenfors
 id: presentation
-published: false
+published: true
 ---
 
 As we respond to attacks on connected industries, control systems, and computer systems we have learned the value of digital forensics. The art of identifying an attack, collecting traces and recovering compromised data is an essential part of the cleanup process and evidence collection. A wellperformed forensic investigation also gives insights into how products can be improved upon, and how similar attacks can be more efficiently detected in the future.

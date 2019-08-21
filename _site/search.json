@@ -177,6 +177,22 @@
   
    {
      
+        "title"    : "The fall of CODESYS. Researching security of the framework for PLC control",
+        "url"      : "/program/presentations/alexander-vladimir/",
+        "path"     : "/program/presentations/alexander-vladimir/"
+     
+   },
+  
+   {
+     
+        "title"    : "Applying the Consequence-driven Cyber-informed Engineering method on a Facility for a Successful Attack",
+        "url"      : "/program/presentations/andreas-jens/",
+        "path"     : "/program/presentations/andreas-jens/"
+     
+   },
+  
+   {
+     
         "title"    : "Pentesting Industrial Control Systems",
         "url"      : "/program/trainings/arnaud-soullie/",
         "path"     : "/program/trainings/arnaud-soullie/"
@@ -201,6 +217,14 @@
   
    {
      
+        "title"    : "Security Testing for ICS Owners 2.0",
+        "url"      : "/program/presentations/dieter-sarrazyn/",
+        "path"     : "/program/presentations/dieter-sarrazyn/"
+     
+   },
+  
+   {
+     
         "title"    : "Network ForensICS Training",
         "url"      : "/program/trainings/erik-hjelmvik/",
         "path"     : "/program/trainings/erik-hjelmvik/"
@@ -216,30 +240,6 @@
    },
   
    {
-     
-   },
-  
-   {
-     
-        "title"    : "How we reverse-engineered multiple industrial radio remote-control systems",
-        "url"      : "/program/presentations/fredrico-stephen/",
-        "path"     : "/program/presentations/fredrico-stephen/"
-     
-   },
-  
-   {
-     
-        "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
-        "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
-     
-   },
-  
-   {
-     
-        "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
-        "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
      
    },
   
@@ -717,6 +717,22 @@
   
    {
      
+        "title"    : "Anne-Marie Eklund Löwinder",
+        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
+     
+   },
+  
+   {
+     
+        "title"    : "Anne-Marie Eklund Löwinder",
+        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
+        "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
+     
+   },
+  
+   {
+     
         "title"    : "Program",
         "url"      : "/program/",
         "path"     : "/program/"
@@ -748,6 +764,14 @@
         "title"    : "Broken Rungs: A look at popular ladder logic runtime privileges",
         "url"      : "/program/presentations/jimmy-reid/",
         "path"     : "/program/presentations/jimmy-reid/"
+     
+   },
+  
+   {
+     
+        "title"    : "Digital Forensics and ICS: Why and how?",
+        "url"      : "/program/presentations/jonathan-jogenfors/",
+        "path"     : "/program/presentations/jonathan-jogenfors/"
      
    },
   
@@ -793,6 +817,14 @@
   
    {
      
+        "title"    : "SCADApocalypse Now 4.0?",
+        "url"      : "/program/presentations/nicklas-keijser/",
+        "path"     : "/program/presentations/nicklas-keijser/"
+     
+   },
+  
+   {
+     
         "title"    : "CVSS for ICS; Gauging a tennis game with number of goals",
         "url"      : "/program/presentations/prasanna-n/",
         "path"     : "/program/presentations/prasanna-n/"
@@ -813,6 +845,30 @@
   
    {
      
+        "title"    : "Demystifying TSCM or how to spot the witch doctor doing the raindance",
+        "url"      : "/program/presentations/richard-widh/",
+        "path"     : "/program/presentations/richard-widh/"
+     
+   },
+  
+   {
+     
+        "title"    : "Ultra responsible disclosure – or how to deal with a 0-day in critical infrastructure",
+        "url"      : "/program/presentations/rikard-bodforss/",
+        "path"     : "/program/presentations/rikard-bodforss/"
+     
+   },
+  
+   {
+     
+        "title"    : "Layered Blueprints – an ontology and method for (talking about) engineering OT Security",
+        "url"      : "/program/presentations/sarah-fluchs/",
+        "path"     : "/program/presentations/sarah-fluchs/"
+     
+   },
+  
+   {
+     
         "title"    : "Search",
         "url"      : "/search/",
         "path"     : "/search/"
@@ -824,6 +880,14 @@
    },
   
    {
+     
+   },
+  
+   {
+     
+        "title"    : "How we reverse-engineered multiple industrial radio remote-control systems",
+        "url"      : "/program/presentations/stephen-hilt/",
+        "path"     : "/program/presentations/stephen-hilt/"
      
    },
   

@@ -6,17 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>CS3STHLM | How we reverse-engineered multiple industrial radio remote-control systems</title>
+  <title>CS3STHLM | SCADApocalypse Now 4.0?</title>
   <meta name="description" content="CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.">
-  <meta property="og:title" content="CS3STHLM | How we reverse-engineered multiple industrial radio remote-control systems" />
+  <meta property="og:title" content="CS3STHLM | SCADApocalypse Now 4.0?" />
   <meta property="og:description" content="CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo." />
   <meta property="og:type" content="website" />
   
-  <meta property="og:url" content="https://www.cs3sthlm.se/program/presentations/fredrico-stephen/" />
+  <meta property="og:url" content="https://www.cs3sthlm.se/program/presentations/nicklas-keijser/" />
   <meta property="fb:app_id" content="966242223397117" />
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="/program/presentations/fredrico-stephen/">
+  <link rel="canonical" href="/program/presentations/nicklas-keijser/">
   <link rel="alternate" type="application/rss+xml" title="CS3STHLM" href="/feed.xml">
   <link rel="icon" type="image/png" href="/assets/favicon-32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="/assets/favicon-16x16.png" sizes="16x16" />
@@ -92,7 +92,7 @@
   	
 	
 	
-  		<li>Fredrico stephen</li>
+  		<li>Nicklas keijser</li>
   	
 	
 </ul>
@@ -105,46 +105,23 @@
       <div class="post-meta">
         <div class="post-meta-item">
           <h4 class="sub-headline sub-headline-gray">Author</h4>
-          <span class="alt-title alt-title-small">Fredrico Maggi</span>
+          <span class="alt-title alt-title-small">Nicklas Keijser</span>
         </div>
 
         <div class="post-meta-item">
           <h4 class="sub-headline sub-headline-gray">Role</h4>
-          <span class="alt-title alt-title-small">Senior Researcher</span>
+          <span class="alt-title alt-title-small"></span>
         </div>
 
         
         <div class="post-meta-item">
           <h4 class="sub-headline sub-headline-gray">Work</h4>
-          <span class="alt-title alt-title-small">Trend Micro</span>
+          <span class="alt-title alt-title-small">CERT-SE/MSB</span>
         </div>
         
 
         <div class="post-meta-item">
-          <img src="/assets/speakers/fredrico-maggi.png" class="post-meta-item-image">
-        </div>
-      </div>
-      
-      <div class="post-meta">
-        <div class="post-meta-item">
-          <h4 class="sub-headline sub-headline-gray">Author</h4>
-          <span class="alt-title alt-title-small">Stephen Hilt</span>
-        </div>
-
-        <div class="post-meta-item">
-          <h4 class="sub-headline sub-headline-gray">Role</h4>
-          <span class="alt-title alt-title-small">Senior Threat Researcher</span>
-        </div>
-
-        
-        <div class="post-meta-item">
-          <h4 class="sub-headline sub-headline-gray">Work</h4>
-          <span class="alt-title alt-title-small">Trend Micro</span>
-        </div>
-        
-
-        <div class="post-meta-item">
-          <img src="/assets/speakers/stephen-hilt.png" class="post-meta-item-image">
+          <img src="/assets/speakers/nicklas-keijser.png" class="post-meta-item-image">
         </div>
       </div>
       
@@ -154,37 +131,39 @@
     <section class="post-content column-block-item col-5-8 spacing-left" itemprop="articleBody">
 
       <header class="post-header">
-        <h1 class="title title-yellow" itemprop="name headline">How we reverse-engineered multiple industrial radio remote-control systems</h1>
+        <h1 class="title title-yellow" itemprop="name headline">SCADApocalypse Now 4.0?</h1>
       </header>
 
-      <p>In 2018 we disclosed a total of 10 vulnerabilities to 7 independent industrial radio remote-control vendors. Our findings boil down to being able to control any equipment connected via these type of radio remote-control systems. So far, we focused our reports and speaking engagements on reaching out to as many people as possible, to increase awareness about the problem. At this time, we want to share stories about how we were able to perform the research and achieve the results with a globally dispersed team looking at global radio vendors.</p>
+      <p>This presentation will discuss the different issues relating to the fact that systems for critical infrastructure and industry are in the midst of a revolution with many technologies that require connectivity, such as Industry 4.0. The presentation will go through a scenario with an industry that has implemented many, if not almost all of the features, of an Industry 4.0 implementation; in which nothing is impossible and there is not a tin foil hat in sight. When the stage is set we will have a more adversarial point of view and go through the new different attack vectors that are introduced as well as how they can be exploited. Finally advice will be provided on how some of the new threats can be mitigated and what to do.</p>
 
-<p>This talk will focus on the “backstage” of this research, that is:</p>
+<p>I define Industry 4.0 in three categories, how to connect data, how to process data and how to store data, all in big amounts. My perspective comes from starting my carrier as an system and automation engineer who worked extensively with optimization, building plant simulators and analyzing big amounts of data with neural networks before big data and machine learning were buzzwords, to later move to work with IT security at the Swedish CERT. This gives an unique view of how the industry has evolved and will evolve. This is combined with current work in IT security incidents, related to both ICS and administrative systems, giving a broad perspective of the attacks that are going on today. I will also look at statistical data today, and to what kind of systems and versions, are installed in each layer of the Purdue model.</p>
+
+<p>Below are some of the different subjects that will be discussed during the presentation divided into the three main pillars om Industry 4.0</p>
+
+<p>How to connect data</p>
 <ul>
-  <li>how we started it and why we selected this class of systems</li>
-  <li>how we selected the vendors out from our extensive market search</li>
-  <li>how are these systems built, and how we figured this out</li>
-  <li>for two systems in details, we will describe
-    <ul>
-      <li>how to approach them from a reverse-engineering standpoint</li>
-      <li>how to interpret their RF protocol</li>
-      <li>what tools are needed for an in-depth reverse engineering</li>
-      <li>why we needed to come up with our own tools for certain corner cases (e.g., tricky modulation schemes)</li>
-    </ul>
-  </li>
-  <li>how the disclosure process went
-    <ul>
-      <li>what challenges we found along the way</li>
-      <li>what were the vendors’ responses (Vendors will not be called out for bad responses by name)</li>
-      <li>what is the status of the vulnerabilities now – lookout on future research trends in this space</li>
-    </ul>
-  </li>
+  <li>How are ICS doing compared to OWASP IoT 2018?</li>
+  <li>Can unsigned live on internet?</li>
+  <li>Life cycle management with embedded system and what is hidden in there?</li>
+  <li>Web servers</li>
+  <li>Firmware</li>
+  <li>We are halfway between Y2K and Y2K38, whats next?</li>
 </ul>
 
-<p>While the project was a success the road to get there, was very bumpy due to things that all researchers face. We will also discuss how we overcame some of the obstacles, such as identifying the chips, micro soldering with non-professional equipment, reversing unreliable radio signals caught over the air.</p>
+<p>How to process data</p>
+<ul>
+  <li>Outdated operating systems, and the increase of that number with Windows 7 and Windows Server 2008</li>
+  <li>DevOps in the world of ICS</li>
+  <li>The challenge of aggregation</li>
+</ul>
 
-<h4 id="target-audience">Target audience</h4>
-<p>Technical, with the understanding of embedded systems and sub-GHz radio communication.</p>
+<p>How to store data</p>
+<ul>
+  <li>Can ICS move towards MongoDB, Hadoop and so forth?</li>
+  <li>HMI and store process data in the cloud</li>
+  <li>The unnoticed dependencies</li>
+  <li>New attack vectors such as speculative execution attacks and container break out</li>
+</ul>
 
 
 
@@ -202,12 +181,10 @@
         
         <div class="post-pagination-item col-2-8">
           <h4 class="sub-headline sub-headline-gray">Previous Presentation</h4>
-          <a class="alt-title alt-title-small alt-title-light" rel="prev" href="/program/presentations/erwin-mattijs/">It WISN't Me: Attacking Industrial Wireless Mesh Networks (part II)</a>
+          <a class="alt-title alt-title-small alt-title-light" rel="prev" href="/program/presentations/monta-elkins/">Nation-State Supply Chain Attacks for Dummies and You Too</a>
           <h5 class="alt-title alt-title-small alt-title-gray">
             
-            <span>Erwin Paternotte</span>
-            
-            <span>Mattijs van Ommeren</span>
+            <span>Monta Elkins</span>
             
           </h5>
         </div>
@@ -216,12 +193,10 @@
         
         <div class="post-pagination-item col-2-8 col-left-space">
           <h4 class="sub-headline sub-headline-gray">Next Presentation</h4>
-          <a class="alt-title alt-title-small alt-title-light" rel="next" href="/program/presentations/jimmy-reid/">Broken Rungs: A look at popular ladder logic runtime privileges</a>
+          <a class="alt-title alt-title-small alt-title-light" rel="next" href="/program/presentations/prasanna-n/">CVSS for ICS; Gauging a tennis game with number of goals</a>
           <h5 class="alt-title alt-title-small alt-title-gray">
             
-            <span>Jimmy Wylie</span>
-            
-            <span>Reid Wightman</span>
+            <span>Prasanna N</span>
             
           </h5>
         </div>
