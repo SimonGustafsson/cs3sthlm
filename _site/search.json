@@ -741,6 +741,14 @@
   
    {
      
+        "title"    : "Agenda",
+        "url"      : "/agenda/",
+        "path"     : "/agenda/"
+     
+   },
+  
+   {
+     
         "title"    : "Home",
         "url"      : "/",
         "path"     : ""
