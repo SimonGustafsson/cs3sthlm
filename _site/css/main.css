@@ -896,6 +896,15 @@ a {
     line-height: 45px;
     color: #e1e1e1; }
 
+.training-hexa-item {
+  display: flex;
+  margin-bottom: 24px;
+  text-decoration: none;
+  justify-content: flex-start;
+  align-items: center; }
+  .training-hexa-item:hover .speaker-name, .training-hexa-item:hover p {
+    color: #ef7d00; }
+
 /* SPEAKERS - ARCHIVE PAGES */
 .speakers-block {
   display: flex;

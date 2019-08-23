@@ -9,7 +9,7 @@ speaker:
 - name: Jasper Hooft
   role: ICS Security Consultant
   work: Toreon
-  image: jasper-hooft.png
+  image: jasper-hooft
 ---
 
 Organizations are now dedicating resources to protecting their Industrial control systems (ICS) assets, which include supervisory control and data acquisition (SCADA) programs, against intentional or accidental security threats. ICS security has plenty of challenges. Several of them owe their existence to the ongoing convergence of information technology (IT) and operational technology (OT). People and technology must work together to develop security controls that they can implement, build upon, enforce, modify and improve.

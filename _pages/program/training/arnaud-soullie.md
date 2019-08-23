@@ -9,7 +9,7 @@ speaker:
 - name: Arnaud Soullié
   role: Cybersecurity R&D Manager
   work: pentesting-ics.com
-  image: arnaud-soullie.png
+  image: arnaud-soullie
 ---
 
 

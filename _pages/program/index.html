@@ -10,7 +10,7 @@ layout: default
 
   <div class="content-header">
     <div class="col-4-8">
-      <h4 class="sub-headline">Summit Details</h4>
+      <h4 class="sub-headline">Summit Program</h4>
       <h2 class="title title-yellow">The Program</h2>
     </div>
 
@@ -30,16 +30,13 @@ layout: default
 
   <div class="column-block column-block-bit">
 
-    <div class="column-block-item col-4-8">
+    <div class="column-block-item col-8-8 spacing-bottom">
 
       <h3 class="headline">Speakers & Trainers</h3>
-      <p class="spacing-bottom">We will have multiple stages with the best international speakers and trainers, having excellent social activities and provide hard-to-earn knowledge, no matter if it is deeply technical matters, sucessful solutions or policy briefs.</p>
-
-      <a href="{{ site.baseurl}}/program/speakers/" class="button button-primary">View Speakers</a>
 
     </div>
 
-    <div class="column-block-item col-4-8">
+    <div class="column-block-item col-8-8">
       <div class="speakers-block">
       {% assign sorted_speakers = site.data.speakers | sample: 4 %}
       {% for speaker in sorted_speakers %}
@@ -59,6 +56,8 @@ layout: default
       {% endfor %}
       </div>
 
+      <a href="{{ site.baseurl}}/program/speakers/" class="button button-primary">View Speakers</a>
+
     </div>
   </div>
 
@@ -67,44 +66,6 @@ layout: default
 <section class="content">
 
   <div class="column-block column-block-bit program-training">
-
-    <div class="column-block-item col-5-8">
-      {% assign training = site.pages | where_exp:"item", "item.layout contains 'training'" | sample: '3' | sort:'title' %}
-      {% for item in training limit: 3 %}
-      <a href="{{ site.baseurl }}{{ item.permalink }}" class="card-item card-item-filled spacing-bottom card-item-linked">
-        <div class="card-item-details-row">
-          {% if item.date contains "-" %} 
-          <h4 class="sub-headline">Two Days - {{ item.date }}</h4>
-          {% else %}
-          <h4 class="sub-headline">One Day - {{ item.date }}</h4>
-          {% endif %}
-
-          {% if item.status contains "Slots Open" %}
-          <h4 class="sub-headline sub-headline-yellow">{{ item.status }}</h4>
-          {% endif %}
-
-          {% if item.status contains "Cancelled" %}
-          <h4 class="sub-headline sub-headline-gray">{{ item.status }}</h4>
-          {% endif %}
-
-          {% if item.status contains "Sold Out" %}
-          <h4 class="sub-headline sub-headline-red">{{ item.status }}</h4>
-          {% endif %}
-
-        </div>
-        <div class="card-item-details">
-          <h2 class="speaker-title">{{ item.title }}</h2>
-          <h3 class="speaker-name">
-          {% for item in item.speaker %}
-            <span>{{ item.name }}</span>
-          {% endfor %}
-          </h3>
-
-          <p>{{ item.content | strip_html | truncatewords: 14 }}</p>
-        </div>
-      </a>
-      {% endfor %}
-    </div>
 
     <div class="column-block-item col-3-8">
 
@@ -115,6 +76,28 @@ layout: default
 
       <a href="{{ site.baseurl}}/program/trainings/" class="button button-primary">View Trainings</a>
 
+    </div>
+
+    <div class="column-block-item col-5-8 col-left-space">
+      {% assign training = site.pages | where_exp:"item", "item.layout contains 'training'" | sample: '3' | sort:'title' %}
+      {% for item in training limit: 3 %}
+      <a href="{{ site.baseurl }}{{ item.permalink }}" class="training-hexa-item">
+        <div class="training-hexa-item-image">
+        {% for item in item.speaker %}
+          <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}-sq.png" class="speakers-block-item-data-image" />
+        {% endfor %}
+        </div>
+        <div class="training-hexa-item-details">
+          <h2 class="speaker-title">{{ item.title }}</h2>
+          <h3 class="speaker-name">
+          {% for item in item.speaker %}
+            <span>{{ item.name }}</span>
+          {% endfor %}
+          </h3>
+          <p>{{ item.content | strip_html | truncatewords: 10 }}</p>
+        </div>
+      </a>
+      {% endfor %}
     </div>
 
   </div>
@@ -130,7 +113,7 @@ layout: default
       <h3 class="headline">Presentations</h3>
 
       <div class="speakers-block">
-      {% assign presentation = site.pages | where_exp:"item", "item.layout contains 'presentation'" | sample: 8 %}
+      {% assign presentation = site.pages | where_exp:"item", "item.layout contains 'presentation'" | sample: 4 %}
       {% for page in presentation limit: 8 %}
       <a href="{{ page.permalink }}" class="speakers-block-item col-4-8">
         <div class="speakers-block-item-data">
