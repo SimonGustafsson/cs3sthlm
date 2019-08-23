@@ -1,16 +1,12 @@
 ---
-title: The fall of CODESYS. Researching security of the framework for PLC control
-permalink: "/program/presentations/alexander-vladimir/"
+title: The fall of CODESYS
+permalink: "/program/presentations/alexander-nochvay/"
 layout: presentation
 speaker:
 - name: Alexander Nochvay
   role: Security Researcher
-  work: Kaspersky Lab
+  work: Kaspersky
   image: alexander-nochvay
-- name: Vladimir Dashchenko
-  role: 
-  work: Kaspersky Lab
-  image: temp
 id: presentation
 published: true
 ---
