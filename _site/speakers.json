@@ -1067,6 +1067,47 @@
 	},
 
 	{
+		"id"		: "28",
+		"type"		: "presentation",
+		"name"		: "Marina Krotofil",
+		"role"		: "Senior ICS Security Engineer",
+		"work"		: "BASF",
+		"country"	: "Germany",
+		"shortcode"	: "DE",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/temp.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"IT vs. OT: We are much more similar than we are different. Comparing Process Control Room and SOC operations",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": ""
+	},
+
+	{
 		"id"		: "29",
 		"type"		: "training",
 		"name"		: "Jasper Hooft",
