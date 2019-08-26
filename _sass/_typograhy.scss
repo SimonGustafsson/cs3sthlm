@@ -396,9 +396,17 @@ p.content-intro {
 	margin-left: 24px;
 }
 
+.single-row {
+	column-count: 1;
+}
+
 .duo-columns {
 	column-count: 2;
 	column-gap: 24px;
+
+	@include media-query($small) {
+		column-count: 1;
+	}
 
 	@include media-query($mobile) {
 		column-count: 1;

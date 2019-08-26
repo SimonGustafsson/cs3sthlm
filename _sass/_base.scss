@@ -56,6 +56,20 @@ a {
   @include media-query($mobile) {
     background-image: none;
   }
+
+  @include media-query($medium) {
+    .speaker-item:last-of-type {
+      display: none;
+    }
+  }
+  @include media-query($small) {
+    .speaker-item:nth-child(5) {
+      display: none;
+    }
+    .speaker-item:last-of-type {
+      display: none;
+    }
+  }
 }
 
 
@@ -1040,6 +1054,9 @@ a {
 
   &-image {
 
+    @include media-query($mobile) {
+      display: none;
+    }
   }
 
   &-details {
@@ -1362,7 +1379,7 @@ a {
     max-width: 1200px;
   }
   @include media-query($small) {
-    padding: 0 40px;
+    padding: 4%;
     max-width: 100%;
   }
   @include media-query($mobile) {
@@ -1559,7 +1576,9 @@ a {
   @include media-query($medium) {
     width: 435px;
   }
-
+  @include media-query($small) {
+    width: 37.5%;
+  }
   @include media-query($mobile) {
     width: 100%;
   }
@@ -1570,7 +1589,9 @@ a {
   @include media-query($medium) {
     width: 588px;
   }
-
+  @include media-query($small) {
+    width: 50%;
+  }
   @include media-query($mobile) {
     width: 100%;
     margin-bottom: 24px;
@@ -1581,6 +1602,9 @@ a {
 
   @include media-query($medium) {
     width: 741px;
+  }
+  @include media-query($small) {
+    width: 62.5%;
   }
   @include media-query($mobile) {
     width: 100%;
@@ -1629,7 +1653,9 @@ a {
   @include media-query($medium) {
     width: 1200px;
   }
-
+  @include media-query($small) {
+    width: 100%;
+  }
   @include media-query($mobile) {
     width: 100%;
   }
@@ -5512,6 +5538,7 @@ a {
         width: calc(25% - 20px);
         max-width: calc(25% - 20px);
         margin-bottom: 20px;
+        margin-right: 0;
       }
       @include media-query($mobile) {
         width: 50%;

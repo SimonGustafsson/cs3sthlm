@@ -24,53 +24,201 @@
 			margin-bottom: 0;
 			display: block;
 		}
-
+		// NORMAL Breakpoint - 6 ITEMS
 		&:nth-child(6n+2) {
 			.speaker-item-details {
 				left: -100%;
-
-				@include media-query($mobile) {
-					left: 0;
-				}
 			}
 		}
 		&:nth-child(6n+3) {
 			.speaker-item-details {
 				left: -200%;
-
-				@include media-query($mobile) {
-					left: 0;
-				}
 			}
+
 		}
 		&:nth-child(6n+4) {
 			.speaker-item-details {
 				left: -300%;
-
-				@include media-query($mobile) {
-					left: 0;
-				}
 			}
+
 		}
 		&:nth-child(6n+5) {
 			.speaker-item-details {
 				left: -400%;
-
-				@include media-query($mobile) {
-					left: 0;
-				}
 			}
+
 		}
 		&:nth-child(6n+6) {
 			.speaker-item-details {
 				left: -500%;
+			}
 
-				@include media-query($mobile) {
+		}
+
+		// Giant Breakpoint - 6 ITEMS
+		&:nth-child(6n+2) {
+			@include media-query-min($giant) {
+				.speaker-item-details {
+					left: -100%;
+				}
+			}
+		}
+		&:nth-child(6n+3) {
+			@include media-query-min($giant) {
+				.speaker-item-details {
+					left: -200%;
+				}
+			}
+		}
+		&:nth-child(6n+4) {
+			@include media-query-min($giant) {
+				.speaker-item-details {
+					left: -300%;
+				}
+			}
+		}
+		&:nth-child(6n+5) {
+			@include media-query-min($giant) {
+				.speaker-item-details {
+					left: -400%;
+				}
+			}
+		}
+		&:nth-child(6n+6) {
+			@include media-query-min($giant) {
+				.speaker-item-details {
+					left: -500%;
+				}
+			}
+		}
+		// Large Breakpoint - 6 ITEMS
+		&:nth-child(6n+2) {
+			@include media-query($large) {
+				.speaker-item-details {
+					left: -100%;
+				}
+			}
+		}
+		&:nth-child(6n+3) {
+			@include media-query($large) {
+				.speaker-item-details {
+					left: -200%;
+				}
+			}
+		}
+		&:nth-child(6n+4) {
+			@include media-query($large) {
+				.speaker-item-details {
+					left: -300%;
+				}
+			}
+		}
+		&:nth-child(6n+5) {
+			@include media-query($large) {
+				.speaker-item-details {
+					left: -400%;
+				}
+			}
+		}
+		&:nth-child(6n+6) {
+			@include media-query($large) {
+				.speaker-item-details {
+					left: -500%;
+				}
+			}
+		}
+		// Medium Breakpoint - 5 ITEMS
+		&:nth-child(5n+1) {
+			@include media-query($medium) {
+				.speaker-item-details {
 					left: 0;
 				}
 			}
 		}
 
+		&:nth-child(5n+2) {
+			@include media-query($medium) {
+				.speaker-item-details {
+					left: -100%;
+				}
+			}
+		}
+
+		&:nth-child(5n+3) {
+			@include media-query($medium) {
+				.speaker-item-details {
+					left: -200%;
+				}
+			}
+		}
+
+		&:nth-child(5n+4) {
+			@include media-query($medium) {
+				.speaker-item-details {
+					left: -300%;
+				}
+			}
+		}
+
+		&:nth-child(5n+5) {
+			@include media-query($medium) {
+				.speaker-item-details {
+					left: -400%;
+				}
+			}
+		}
+		// Small Breakpoint - 5 ITEMS
+		&:nth-child(4n+1) {
+			@include media-query($small) {
+				.speaker-item-details {
+					left: 0;
+				}
+			}
+			@include media-query($mobile) {
+				.speaker-item-details {
+					left: 0;
+				}
+			}
+		}
+
+		&:nth-child(4n+2) {
+			@include media-query($small) {
+				.speaker-item-details {
+					left: -100%;
+				}
+			}
+			@include media-query($mobile) {
+				.speaker-item-details {
+					left: 0;
+				}
+			}
+		}
+
+		&:nth-child(4n+3) {
+			@include media-query($small) {
+				.speaker-item-details {
+					left: -200%;
+				}
+			}
+			@include media-query($mobile) {
+				.speaker-item-details {
+					left: 0;
+				}
+			}
+		}
+
+		&:nth-child(4n+4) {
+			@include media-query($small) {
+				.speaker-item-details {
+					left: -300%;
+				}
+			}
+			@include media-query($mobile) {
+				.speaker-item-details {
+					left: 0;
+				}
+			}
+		}
 
 		&-frame {
 			display: flex;
@@ -82,8 +230,8 @@
 			overflow: hidden;
 
 			@include media-query($small) {
-				height: 450px;
-				min-height: 450px;
+				height: auto;
+				min-height: auto;
 			}
 
 			&:hover {
@@ -244,6 +392,13 @@
 			flex-direction: column;
 			padding: 24px;
 			box-sizing: border-box;
+
+			@include media-query($medium) {
+				width: 500%;
+			}
+			@include media-query($small) {
+				width: 400%;
+			}
 
 			@include media-query($mobile) {
 				position: fixed;
