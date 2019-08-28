@@ -102,8 +102,8 @@ layout: default
 						<h4 class="sub-headline sub-headline-yellow">Biography</h4>
 
 						{% assign biosize = speaker.bio.size %}
-						{% if biosize < 250 %}
-						<p class="single-row">{{ speaker.bio }}</p>
+						{% if biosize < 300 %}
+						<p class="single-row col-5-8">{{ speaker.bio }}</p>
 						{% else %}
 						<p class="duo-columns">{{ speaker.bio }}</p>
 						{% endif %}

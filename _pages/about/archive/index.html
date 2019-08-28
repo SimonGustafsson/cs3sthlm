@@ -13,7 +13,7 @@ layout: default
       <h4 class="sub-headline">2014 - 2018</h4>
     	<h2 class="title title-yellow">The Archive</h2>
 
-      <p>Here we’ve gathered all of the information from our previous events for viewing. You can read up on presentations & our loved trainings. View our entire speaker roster, or take a trip through the beautiful gallery.</p>
+      <p>Here we’ve gathered all of the information from our previous events for viewing. You can read up on presentations & our trainings. View our entire speaker roster, or take a trip through the gallery.</p>
     </div>
   </div>
 
@@ -31,8 +31,8 @@ layout: default
     <li class="nav-archive-item"><a href="#icslab">ICS Lab</a></li>
     <li class="nav-archive-item"><a href="#expo">EXPO</a></li>
     <li class="nav-archive-item"><a href="#gallery">Gallery</a></li>
-    <li class="nav-archive-item"><a href="#partners">Partners</a></li>
-    <li class="nav-archive-item"><a href="#videos">Videos</a></li>
+    <!--<li class="nav-archive-item"><a href="#partners">Partners</a></li>
+    <li class="nav-archive-item"><a href="#videos">Videos</a></li>-->
   </ul>
 </div>
 
@@ -91,7 +91,7 @@ layout: default
         {% endfor %}
 
         {% for item in item.speaker %}
-        <h3 class="alt-title alt-title-small">{{ item.name }}</h3>
+        <h3 class="alt-title alt-title-light alt-title-small">{{ item.name }}</h3>
         {% endfor %}
       </div>
       {% endif %}
@@ -116,7 +116,7 @@ layout: default
         {% endfor %}
 
         {% for item in item.speaker %}
-        <h3 class="alt-title alt-title-small">{{ item.name }}</h3>
+        <h3 class="alt-title alt-title-light alt-title-small">{{ item.name }}</h3>
         {% endfor %}
       </div>
       {% endif %}

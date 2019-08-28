@@ -49,9 +49,10 @@ a {
   HOME */
 
 .home {
-  background: $dark url('../assets/background-2019.png') no-repeat;
+  background: $dark url('../assets/bg-2019.png') no-repeat;
   background-size: 100% auto;
   background-position: top center;
+  background-image: -webkit-image-set(url('../assets/bg-2019.png')1x,url('../assets/bg-2019@2x.png')2x);
 
   @include media-query($mobile) {
     background-image: none;
@@ -1887,12 +1888,13 @@ a {
     }
 
     &-date {
-      color: $light-gray;
+      color: $white;
       font-family: 'latoregular', sans-serif;
       font-size: 23px;
       font-weight: normal;
       line-height: 45px;
       letter-spacing: .45px;
+      text-shadow: 0 3px 4px rgba(0,0,0, .5);
 
       @include media-query($mobile) {
         font-size: 14px;

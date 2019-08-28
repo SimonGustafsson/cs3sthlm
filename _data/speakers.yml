@@ -1073,7 +1073,7 @@
   work: Ancautus AB
   country: Sweden
   shortcode: SE
-  image: no-image.png
+  image: richard-widh.png
   bio: Richard Widh, B Sc Computer Engineering & Electronics,CISSP, GISP, TSCM Btec lvl 3 & Senior Cyber security G33k, Founder, Owner & CEO, Ancautus AB. Richard have worked as a specialist within the Cyber security area for more than 15 years and within IT as a professional since the early 1990s, including but not limited to the Swedish Armed forces (Försvarsmakten), Swedish Defence Materiel Administration (FMV), the Swedish Radiation Safety Authority (SSM) and The Swedish Civil Contingencies Agency (MSB).
   date:
   time:
@@ -1081,7 +1081,7 @@
   speaker:
     - name: Richard Widh
       role: Senior Cyber Security
-      image: no-image
+      image: richard-widh
   presentation:
     - active: live
       subject: Demystifying TSCM or how to spot the witch doctor doing the raindance
@@ -1365,3 +1365,33 @@
         After each hands-on workshop, the results are discussed, and the students receive a documented solution.
 
         *The students should bring their own laptop or tablet to read and use the training handouts and exercise descriptions.*
+
+
+- id: 30
+  type: presentation
+  permalink:
+  name: Ulf Frisk
+  role: Pentester & Security Researcher
+  work: Independent
+  country: Sweden
+  shortcode: SE
+  image: temp.png
+  bio: Ulf is a pentester by day, and a Security Researcher by night. Ulf is the author of the PCILeech direct memory access attack toolkit and the Memory Process File System. Ulf has previously presented his work at DEF CON, the Chaos Communication Congress and BlueHatIL. Ulf is interested in things low-level and primarily focuses on Memory Analysis and Direct Memory Access.
+  date:
+  time: 
+  place:
+  speaker:
+    - name: Ulf Frisk
+      role: Pentester & Security Researcher
+      image: temp
+  presentation:
+    - active: live
+      subject: Memory Forensics and DMA Attacks with MemProcFS and PCILeech
+      permalink: program/presentations/ulf-frisk/
+      partner: 
+      description: |
+        The PCILeech direct memory access attack toolkit was released three years ago and quickly became popular amongst red teamers, governments and game cheaters alike. We will demonstrate how to take total control of up-to-date still vulnerable systems with PCIe DMA code injection using affordable FPGA hardware and the open source PCILeech direct memory access attack toolkit.
+
+        MemProcFS - The Memory Process File System is memory forensics made super easy! Analyze memory by clicking on files in a virtual file system or by using the C/C++/Python API. Analyze memory dump files by point and click, analyze and edit live memory acquired using PCILeech PCIe FPGA devices or even live memory acquired in real time from remote hosts over the network. Zero-cost, open source, fast and super-easy to use memory forensics!
+  training:
+    - active: none

@@ -156,6 +156,9 @@
 <loc>/about/archive/speakers/joe-slowik</loc>
 </url>
 <url>
+<loc>/about/archive/speakers/kristina-blomqvist</loc>
+</url>
+<url>
 <loc>/about/archive/speakers/william-middleton</loc>
 </url>
 <url>
@@ -267,7 +270,7 @@
 <loc>/program/presentations/</loc>
 </url>
 <url>
-<loc>/about/archive/speakers/kristina-blomqvist</loc>
+<loc>/agenda/</loc>
 </url>
 <url>
 <loc>/contact/</loc>
@@ -301,9 +304,6 @@
 </url>
 <url>
 <loc>/program/</loc>
-</url>
-<url>
-<loc>/agenda/</loc>
 </url>
 <url>
 <loc>/</loc>
@@ -355,6 +355,9 @@
 </url>
 <url>
 <loc>/program/presentations/stephen-hilt/</loc>
+</url>
+<url>
+<loc>/program/presentations/ulf-frisk/</loc>
 </url>
 <url>
 <loc>/2017/about/advisory/</loc>

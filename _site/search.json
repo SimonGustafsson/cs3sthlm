@@ -349,6 +349,14 @@
   
    {
      
+        "title"    : "Kristina Blomqvist",
+        "url"      : "/about/archive/speakers/kristina-blomqvist",
+        "path"     : "/about/archive/speakers/kristina-blomqvist"
+     
+   },
+  
+   {
+     
         "title"    : "William Middleton",
         "url"      : "/about/archive/speakers/william-middleton",
         "path"     : "/about/archive/speakers/william-middleton"
@@ -645,9 +653,9 @@
   
    {
      
-        "title"    : "Kristina Blomqvist",
-        "url"      : "/about/archive/speakers/kristina-blomqvist",
-        "path"     : "/about/archive/speakers/kristina-blomqvist"
+        "title"    : "Agenda",
+        "url"      : "/agenda/",
+        "path"     : "/agenda/"
      
    },
   
@@ -736,14 +744,6 @@
         "title"    : "Program",
         "url"      : "/program/",
         "path"     : "/program/"
-     
-   },
-  
-   {
-     
-        "title"    : "Agenda",
-        "url"      : "/agenda/",
-        "path"     : "/agenda/"
      
    },
   
@@ -908,6 +908,14 @@
    },
   
    {
+     
+   },
+  
+   {
+     
+        "title"    : "Memory Forensics and DMA Attacks with MemProcFS and PCILeech",
+        "url"      : "/program/presentations/ulf-frisk/",
+        "path"     : "/program/presentations/ulf-frisk/"
      
    },
   

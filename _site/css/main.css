@@ -160,9 +160,10 @@ a {
 /**
   HOME */
 .home {
-  background: #030100 url("../assets/background-2019.png") no-repeat;
+  background: #030100 url("../assets/bg-2019.png") no-repeat;
   background-size: 100% auto;
-  background-position: top center; }
+  background-position: top center;
+  background-image: -webkit-image-set(url("../assets/bg-2019.png") 1x, url("../assets/bg-2019@2x.png") 2x); }
   @media screen and (max-width: 768px) {
     .home {
       background-image: none; } }
@@ -1497,12 +1498,13 @@ a {
         .introduction .intro-mark-block {
           margin-bottom: 12px; } }
     .introduction .intro-mark-date {
-      color: #e1e1e1;
+      color: white;
       font-family: 'latoregular', sans-serif;
       font-size: 23px;
       font-weight: normal;
       line-height: 45px;
-      letter-spacing: .45px; }
+      letter-spacing: .45px;
+      text-shadow: 0 3px 4px rgba(0, 0, 0, 0.5); }
       @media screen and (max-width: 768px) {
         .introduction .intro-mark-date {
           font-size: 14px;

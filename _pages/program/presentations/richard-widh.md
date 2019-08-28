@@ -6,7 +6,7 @@ speaker:
 - name: Richard Widh
   role: Senior Cyber Security Expert & CEO
   work: Ancautus AB
-  image: no-image
+  image: richard-widh
 id: presentation
 published: true
 ---

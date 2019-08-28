@@ -910,7 +910,7 @@
 		"work"		: "Ancautus AB",
 		"country"	: "Sweden",
 		"shortcode"	: "SE",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/no-image.png",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/richard-widh.png",
 		
 		
 		
@@ -1146,6 +1146,47 @@
 		
 
 		"bio": "<p>For more than 8 years, I worked around the world as automation programmer and maintenance/commissioning engineer. During this period, I obtained in-depth experience in various ICS environments (PLC and DCS) in different sectors (petrochemical, food and feed and many others).</p><p>Now as a Toreon ICS Security Consultant I leverage this knowledge to provide advice on security architecture for clients in the utilities sector in Europe. At those clients, I help to improve the security maturity level of their organisations.</p><p>I achieve this by organising Threat Modeling sessions with our customers to identify the vulnerabilities in their ICS environment. I consider Threat Modeling to be the most fitting risk assessment methodology for Industrial environments. Its scenario-based approach makes it easy for people of different profiles to add value to the process.</p>"
+	},
+
+	{
+		"id"		: "30",
+		"type"		: "presentation",
+		"name"		: "Ulf Frisk",
+		"role"		: "Pentester & Security Researcher",
+		"work"		: "Independent",
+		"country"	: "Sweden",
+		"shortcode"	: "SE",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/temp.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Memory Forensics and DMA Attacks with MemProcFS and PCILeech",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": "<p>The PCILeech direct memory access attack toolkit was released three years ago and quickly became popular amongst red teamers, governments and game cheaters alike. We will demonstrate how to take total control of up-to-date still vulnerable systems with PCIe DMA code injection using affordable FPGA hardware and the open source PCILeech direct memory access attack toolkit.</p><p>MemProcFS - The Memory Process File System is memory forensics made super easy! Analyze memory by clicking on files in a virtual file system or by using the C/C++/Python API. Analyze memory dump files by point and click, analyze and edit live memory acquired using PCILeech PCIe FPGA devices or even live memory acquired in real time from remote hosts over the network. Zero-cost, open source, fast and super-easy to use memory forensics!</p>"
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": "<p>Ulf is a pentester by day, and a Security Researcher by night. Ulf is the author of the PCILeech direct memory access attack toolkit and the Memory Process File System. Ulf has previously presented his work at DEF CON, the Chaos Communication Congress and BlueHatIL. Ulf is interested in things low-level and primarily focuses on Memory Analysis and Direct Memory Access.</p>"
 	}
 
 ]
