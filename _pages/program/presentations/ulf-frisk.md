@@ -6,7 +6,7 @@ speaker:
 - name: Ulf Frisk
   role: Penterster & Security Researcher
   work: Independant
-  image: temp
+  image: ulf-frisk
 id: presentation
 published: true
 ---

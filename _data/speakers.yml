@@ -1375,7 +1375,7 @@
   work: Independent
   country: Sweden
   shortcode: SE
-  image: temp.png
+  image: ulf-frisk.png
   bio: Ulf is a pentester by day, and a Security Researcher by night. Ulf is the author of the PCILeech direct memory access attack toolkit and the Memory Process File System. Ulf has previously presented his work at DEF CON, the Chaos Communication Congress and BlueHatIL. Ulf is interested in things low-level and primarily focuses on Memory Analysis and Direct Memory Access.
   date:
   time: 
@@ -1383,7 +1383,7 @@
   speaker:
     - name: Ulf Frisk
       role: Pentester & Security Researcher
-      image: temp
+      image: ulf-frisk
   presentation:
     - active: live
       subject: Memory Forensics and DMA Attacks with MemProcFS and PCILeech
