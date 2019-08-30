@@ -39,26 +39,36 @@ layout: default
 			<div class="speaker-item-frame">
 				<img src="{{ site.baseurl }}/assets/speakers/{{ speaker.image }}" class="speaker-item-frame-image">
 
+				{% if speaker.type == 'special' %}
+				<div class="speaker-item-frame-special">
+					<h4 class="speaker-item-frame-special-heading">Dinner Presentation</h4>
+				</div>
+				{% endif %}
+
 				<div class="speaker-item-frame-data">
 
-					{% if speaker.type == "presentation" %}
+					{% if speaker.type == 'presentation' %}
 		            <h4 class="speaker-item-frame-type">P<span>resentation</span></h4>
 		            {% endif %}
 
-		            {% if speaker.type == "training" %}
+		            {% if speaker.type == 'training' %}
 		            <h4 class="speaker-item-frame-type">T<span>raining</span></h4>
 		            {% endif %}
 
-		            {% if speaker.type == "expotalk" %}
+		            {% if speaker.type == 'expotalk' %}
 		            <h4 class="speaker-item-frame-type">E<span>xpo Presentation</span></h4>
 		            {% endif %}
 
-		            {% if speaker.type == "moderator" %}
+		            {% if speaker.type == 'moderator' %}
 		            <h4 class="speaker-item-frame-type">M<span>oderator</span></h4>
 		            {% endif %}
 					
 					<h2 class="speaker-name">{{ speaker.name }}</h2>
-					<h4 class="speaker-role">{{ speaker.role | truncate: 25 }} at {{ speaker.work | truncate: 30 }}</h4>
+					{% if speaker.type == 'special' %}
+					<h4 class="speaker-role">{{ speaker.role }}</h4>
+					{% else %}
+					<h4 class="speaker-role">{{ speaker.role | truncate: 25 }}{% if speaker.work.size > 1 %} at {{ speaker.work | truncate: 30 }}{% endif %}</h4>
+					{% endif %}
 				</div>
 			</div>
 
@@ -68,7 +78,11 @@ layout: default
 
 					<div class="col-6-8">
 						<h2 class="heading">{{ speaker.name }}</h2>
-						<h3 class="speaker-role">{{ speaker.role }} at {{ speaker.work }}</h3>
+						{% if speaker.type == 'special' %}
+						<h3 class="speaker-role">{{ speaker.role }}</h3>
+						{% else %}
+						<h3 class="speaker-role">{{ speaker.role }}{% if speaker.work.size > 1 %} at {{ speaker.work }}{% endif %}</h3>
+						{% endif %}
 						<h5 class="speaker-role speaker-item-country">{{ speaker.country }}</h5>
 					</div>
 
@@ -88,6 +102,10 @@ layout: default
 
 							{% if speaker.type == 'training' %}
 							<span class="speaker-item-type">Training</span>
+							{% endif %}
+
+							{% if speaker.type == 'special' %}
+							<span class="speaker-item-type">Dinner Presentation</span>
 							{% endif %}
 						</div>
 					</div>
@@ -111,22 +129,22 @@ layout: default
 					</div>
 					{% endif %}
 
-					{% if speaker.type == "special" %}
-					<div class="col-4-8">
-						<h4 class="sub-headline sub-headline-yellow">Dinner Presentation</h4>
-						<span class="speaker-permalink">{{ speaker.specialtitle }}</span>
-
-						<p>Image taken by <a href="{{ speaker.photourl }}">Kate Gabor</a></p>
-					</div>          
-					{% endif %}
-
 					{% for item in speaker.presentation %}
 					{% if item.active == "live" %}
 					<div class="col-4-8">
+						{% if speaker.type == 'special' %}
+						<h4 class="sub-headline sub-headline-yellow">Dinner Presentation</h4>
+						{% else %}
 						<h4 class="sub-headline sub-headline-yellow">Presentation</h4>
+						{% endif %}
+						{% if speaker.type == 'special' %}
+						<h3 class="alt-title alt-title-light">{{ item.subject }}</h3>
+						<p class="col-5-8">{{ item.description }}</p>
+						{% else %}
 						<a href="{{ site.baseurl }}/{{ item.permalink }}" class="speaker-item-link">{{ item.subject }}</a>
 						{% if item.partner != null %}
 						<span class="sub-headline sub-headline-small sub-headline-light">with {{ item.partner }}</span>
+						{% endif %}
 						{% endif %}
 					</div>          
 					{% endif %}

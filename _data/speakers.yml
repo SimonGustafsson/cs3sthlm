@@ -1212,8 +1212,8 @@
   type: presentation
   permalink:
   name: Marina Krotofil
-  role: Senior ICS Security Engineer
-  work: BASF
+  role: Senior Security Engineer
+  work:
   country: Germany
   shortcode: DE
   image: marina-krotofil.png
@@ -1223,11 +1223,11 @@
   place:
   speaker:
     - name: Marina Krotofil
-      role: Senior ICS Security Engineer
+      role: Senior Security Engineer
       image: marina-krotofil
   presentation:
     - active: live
-      subject: "IT vs. OT: We are much more similar than we are different. Comparing Process Control Room and SOC operations"
+      subject: "IT vs. OT: We are Much More Similar than We are Different. Comparing Process Control Room and SOC operations"
       permalink: program/presentations/marina-krotofil/
       partner: 
       description: |
@@ -1415,5 +1415,33 @@
         The PCILeech direct memory access attack toolkit was released three years ago and quickly became popular amongst red teamers, governments and game cheaters alike. We will demonstrate how to take total control of up-to-date still vulnerable systems with PCIe DMA code injection using affordable FPGA hardware and the open source PCILeech direct memory access attack toolkit.
 
         MemProcFS - The Memory Process File System is memory forensics made super easy! Analyze memory by clicking on files in a virtual file system or by using the C/C++/Python API. Analyze memory dump files by point and click, analyze and edit live memory acquired using PCILeech PCIe FPGA devices or even live memory acquired in real time from remote hosts over the network. Zero-cost, open source, fast and super-easy to use memory forensics!
+  training:
+    - active: none
+
+
+- id: 31
+  type: special
+  permalink:
+  name: Herman Geijer
+  role: Zombie Survival Expert
+  work: Independent
+  country: Sweden
+  shortcode: SE
+  image: herman-geijer.png
+  bio: Herman Geijer is Sweden's leading zombie survival expert and since 2011 he has lectured and written about zombies, disasters, crisis behaviors and survival. In 2014, he wrote the book “Zombie survival - your guide to the apocalypse”.
+  date:
+  time: 
+  place:
+  speaker:
+    - name: Herman Geijer
+      role: Zombie Survival Expert
+      image: herman-geijer
+  presentation:
+    - active: live
+      subject: Zombie Survival
+      permalink: program/presentations/herman-geijer/
+      partner: 
+      description: |
+        Late 2017 Herman released “Surviving Disaster - twelve ways to prepare yourself” the book examines what we can do to increase our chances of surviving when a disaster or something completely unexpected happens. “Surviving Disaster” is a popular science book that not only deals with survival techniques and bushcraft but also focuses on how humans work and what we can do to prepare ourselves mentally and increase our chances of coping with a crisis.
   training:
     - active: none

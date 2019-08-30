@@ -1,11 +1,11 @@
 ---
-title: "IT vs. OT: We are much more similar than we are different. Comparing Process Control Room and SOC operations"
+title: "IT vs. OT: We are Much More Similar than We are Different. Comparing Process Control Room and SOC operations"
 permalink: "/program/presentations/marina-krotofil/"
 layout: presentation
 speaker:
 - name: Marina Krotofil
-  role: Senior ICS Security Engineer
-  work: BASF
+  role: Senior Security Engineer
+  work:
   image: marina-krotofil
 id: presentation
 published: true

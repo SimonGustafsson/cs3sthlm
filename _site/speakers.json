@@ -1070,8 +1070,8 @@
 		"id"		: "28",
 		"type"		: "presentation",
 		"name"		: "Marina Krotofil",
-		"role"		: "Senior ICS Security Engineer",
-		"work"		: "BASF",
+		"role"		: "Senior Security Engineer",
+		"work"		: "",
 		"country"	: "Germany",
 		"shortcode"	: "DE",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/marina-krotofil.png",
@@ -1082,7 +1082,7 @@
 		"presentation":{
 		
 			"active": 	"live",
-			"title": 	"IT vs. OT: We are much more similar than we are different. Comparing Process Control Room and SOC operations",
+			"title": 	"IT vs. OT: We are Much More Similar than We are Different. Comparing Process Control Room and SOC operations",
 			"partner":	"",
 			"role":		"",
 			"work":		"",
@@ -1187,6 +1187,47 @@
 		
 
 		"bio": "<p>Ulf is a pentester by day, and a Security Researcher by night. Ulf is the author of the PCILeech direct memory access attack toolkit and the Memory Process File System. Ulf has previously presented his work at DEF CON, the Chaos Communication Congress and BlueHatIL. Ulf is interested in things low-level and primarily focuses on Memory Analysis and Direct Memory Access.</p>"
+	},
+
+	{
+		"id"		: "31",
+		"type"		: "special",
+		"name"		: "Herman Geijer",
+		"role"		: "Zombie Survival Expert",
+		"work"		: "Independent",
+		"country"	: "Sweden",
+		"shortcode"	: "SE",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/herman-geijer.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Zombie Survival",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": "<p>Late 2017 Herman released “Surviving Disaster - twelve ways to prepare yourself” the book examines what we can do to increase our chances of surviving when a disaster or something completely unexpected happens. “Surviving Disaster” is a popular science book that not only deals with survival techniques and bushcraft but also focuses on how humans work and what we can do to prepare ourselves mentally and increase our chances of coping with a crisis.</p>"
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": "<p>Herman Geijer is Sweden’s leading zombie survival expert and since 2011 he has lectured and written about zombies, disasters, crisis behaviors and survival. In 2014, he wrote the book “Zombie survival - your guide to the apocalypse”.</p>"
 	}
 
 ]
