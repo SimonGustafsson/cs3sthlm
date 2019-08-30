@@ -2028,7 +2028,7 @@ a {
 .content-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
 
   @include media-query($mobile) {
@@ -3876,6 +3876,11 @@ a {
       li {
         line-height: 38px;
         color: $light-gray;
+
+        @include media-query-min($giant) {
+          font-size: 23px;
+          line-height: 45px;
+        }
       }
 
       a {

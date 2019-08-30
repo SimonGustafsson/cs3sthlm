@@ -1216,15 +1216,15 @@
   work: BASF
   country: Germany
   shortcode: DE
-  image: temp.png
-  bio: 
+  image: marina-krotofil.png
+  bio: Marina Krotofil is an Industrial Control Systems (ICS) Senior Security Engineer at a large chemical company. The last decade she spent specializing on offensive side of cyber-physical security such as discovering and weaponizing unique attack vectors, engineering damage scenarios, developing exploits and understanding attacker techniques when exploiting ICS. Offensive security skills serve Marina well during  incident responses and forensic investigations, ICS malware analysis and when engineering defenses. She previously worked as a Principal Analyst and Subject Matter Expert (SME) in Cyber-Physical group at FireEye (USA), Lead Cyber Security Researcher at Honeywell (USA) and as a Senior Security Consultant at the European Network for Cyber Security (Netherlands). She authored more than 25 academic papers and book chapters on ICS security and is a frequent speaker at the leading security events around the world. She holds MBA in Technology Management, MSc in Telecommunication and MSc in Information and Communication Systems.
   date:
   time:
   place:
   speaker:
     - name: Marina Krotofil
       role: Senior ICS Security Engineer
-      image: temp
+      image: marina-krotofil
   presentation:
     - active: live
       subject: "IT vs. OT: We are much more similar than we are different. Comparing Process Control Room and SOC operations"

@@ -1598,7 +1598,7 @@ a {
 .content-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap; }
   @media screen and (max-width: 768px) {
     .content-header {
@@ -2957,6 +2957,10 @@ a {
     .post-content ul li, .post-content ol li {
       line-height: 38px;
       color: #e1e1e1; }
+      @media screen and (min-width: 1920px) {
+        .post-content ul li, .post-content ol li {
+          font-size: 23px;
+          line-height: 45px; } }
     .post-content ul a, .post-content ol a {
       font-family: 'latobold', sans-serif;
       font-weight: normal;
@@ -4585,7 +4589,7 @@ p.content-intro {
   font-family: 'latoblack', sans-serif;
   font-size: 18px;
   font-weight: normal;
-  line-height: 37px;
+  line-height: 38px;
   letter-spacing: 2px;
   color: #ef7d00;
   text-transform: uppercase; }
