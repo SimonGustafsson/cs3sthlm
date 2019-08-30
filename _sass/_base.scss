@@ -2002,6 +2002,8 @@ a {
         }
         &:last-of-type {
           width: 100%;
+          order: 4;
+          margin-top: 24px;
 
         }
       }
@@ -3657,7 +3659,7 @@ a {
 }
 .button-green {
   background: $green;
-  color: $white;
+  color: $dark;
 
   &:hover {
     color: $white;

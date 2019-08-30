@@ -1584,7 +1584,9 @@ a {
             margin-left: 4%;
             order: 2; }
           .introduction .intro-mark .button-group-intro .button:last-of-type {
-            width: 100%; }
+            width: 100%;
+            order: 4;
+            margin-top: 24px; }
         .introduction .intro-mark .button-group-intro .button-thank-you {
           width: 47.5%;
           margin-bottom: 0; }
@@ -2820,7 +2822,7 @@ a {
 
 .button-green {
   background: #00ae5d;
-  color: white; }
+  color: #030100; }
   .button-green:hover {
     color: white; }
 

@@ -5,9 +5,58 @@
     <description>CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 30 Aug 2019 11:52:13 +0000</pubDate>
-    <lastBuildDate>Fri, 30 Aug 2019 11:52:13 +0000</lastBuildDate>
+    <pubDate>Fri, 30 Aug 2019 14:41:11 +0000</pubDate>
+    <lastBuildDate>Fri, 30 Aug 2019 14:41:11 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>CS3STHLM Newsletter August</title>
+        <description>&lt;h2 id=&quot;lots-of-interesting-news-on-our-upcoming-event&quot;&gt;Lots of interesting news on our upcoming event!&lt;/h2&gt;
+
+&lt;h3 id=&quot;cs3sthlm-expo-on-22nd-october&quot;&gt;CS3sthlm Expo on 22nd October!&lt;/h3&gt;
+&lt;p&gt;On Tuesday Oct 22, on the day before the CS3sthlm Summit starts, we will have a free of
+charge (but registration required) Expo day at our venue Nalen where our partners will display
+the latest cyber security solutions and services. We will have a full lineup of speakers during the
+Expo day. Free registration here: &lt;a href=&quot;https://cs3-expo-day-2019.eventbrite.com/&quot;&gt;https://cs3-expo-day-2019.eventbrite.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;zombie-survival&quot;&gt;Zombie Survival!&lt;/h3&gt;
+&lt;p&gt;This will be the subject on Wednesday Oct 23rd when our annual CS3sthlm Gala Dinner
+speaker enters the stage! We are very proud to announce Herman Geijer, author and zombie
+survival expert, who will talk about surviving catastrophes using a zombie scenario!&lt;/p&gt;
+
+&lt;h3 id=&quot;training-time&quot;&gt;Training time&lt;/h3&gt;
+&lt;p&gt;There are only limited amounts of seats left on our three different trainings that will take place
+ before the CS3sthlm Summit, so are you thinking about attending them do reserve your spot
+ soon: &lt;a href=&quot;https://www.cs3sthlm.se/program/trainings/&quot;&gt;cs3sthlm.se/program/trainings/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;summit-agenda&quot;&gt;Summit agenda?&lt;/h3&gt;
+&lt;p&gt;Sorry, not yet. We have an impressive line-up of speakers already but we are still waiting for a
+couple more answers, and that logistics are set. You can see our line-up of speakers here -
+&lt;a href=&quot;https://www.cs3sthlm.se/program/speakers/&quot;&gt;cs3sthlm.se/program/speakers/&lt;/a&gt;
+and presentations here - &lt;a href=&quot;https://www.cs3sthlm.se/program/presentations/&quot;&gt;cs3sthlm.se/program/presentations/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;ics-lab-news&quot;&gt;ICS lab news&lt;/h3&gt;
+&lt;p&gt;Even bigger and better this year! And a completely new feature is that the CS3sthlm ICS lab will
+be open already on Monday Oct 21st! From 9AM to 8PM you are welcome to try out all new
+and old gadgets, many of them otherwise unavailable for testing. You will also be able to try out
+our challenges and meet other ICS security pros!&lt;/p&gt;
+
+&lt;h3 id=&quot;hotel-discount&quot;&gt;Hotel discount&lt;/h3&gt;
+&lt;p&gt;If you have not yet booked your stay in Stockholm, please check the portal that hotel Elite
+Stockholm Plaza have made for out attendees. The hotel is situated only 200 meters from our
+venue, Nalen, and the fixed prices that they are offering are valid until Sept 23rd.
+&lt;a href=&quot;https://www.elite.se/en/conference-reservations/stockholm/e1a64817-7910-4517-bff8-d94ea2e28ed5/d3e7bea3-f79f-42fa-86bb-b6b5ee1045e2/&quot;&gt;https://www.elite.se/en/conference-reservations/stockholm/e1a64817-7910-4517-bff8-d94ea2e28ed5/d3e7bea3-f79f-42fa-86bb-b6b5ee1045e2/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Best wishes from the CS3STHLM crew&lt;/p&gt;
+</description>
+        <pubDate>Fri, 30 Aug 2019 04:00:00 +0000</pubDate>
+        <link>/news/2019/08/30/cs3sthlm-newsletter-august.html</link>
+        <guid isPermaLink="true">/news/2019/08/30/cs3sthlm-newsletter-august.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
     
       <item>
         <title>CS3STHLM Newsletter June</title>
@@ -357,52 +406,6 @@ Anton Shipulin: &lt;a href=&quot;https://twitter.com/shipulin_anton&quot;&gt;@Sh
         <pubDate>Mon, 15 Oct 2018 04:00:00 +0000</pubDate>
         <link>/blog/anton-shipulin/</link>
         <guid isPermaLink="true">/blog/anton-shipulin/</guid>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Kai Thomsen - Senior Incident Responder</title>
-        <description>&lt;p&gt;&lt;em&gt;This is a blog post with Kai Thomsen, a senior incident responder at AUDI AG.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h1 class=&quot;blog-title&quot; itemprop=&quot;name headline&quot;&gt;Kai Thomsen - Senior Incident Responder&lt;/h1&gt;
-
-&lt;h4 id=&quot;what-is-your-day-job-where-are-you-working-and-what-do-you-do&quot;&gt;What is your day job, where are you working and what do you do? &lt;/h4&gt;
-&lt;p&gt;I am a senior Incident Responder at AUDI AG. My office is in Ingolstadt at Audi’s headquarters, but takes me where ever we have to investigate. Currently we a building up a joint Enterprise/ICS/Car cyber defense team. This means learning about and integrating three sometimes very different mindsets. Quite a challenge, but I’m convinced that we won’t be very successful without these integrated teams. I also teach for SANS in the ICS curriculum. And since we are a small team, I get to teach all over the world, which is at the same time interesting and challenging considering all the different countries and cultures I get to teach in.&lt;/p&gt;
-
-&lt;h4 id=&quot;for-how-long-have-you-worked-in-the-field&quot;&gt;For how long have you worked in the field? &lt;/h4&gt;
-&lt;p&gt;Computers and hacking have been kind of my thing since I was thirteen. After university, in 2001, when I finally had to get a real job, I got started as a network admin tasked with passive security (firewalls, IDSses, etc.) and then moved on to what nowadays is called active defense, mainly Network Security Monitoring and Incident Response. When Stuxnet hit in 2010 and caused a lot of headache for us at the company I was working at back then I started to focus more on ICS security.&lt;/p&gt;
-
-&lt;h4 id=&quot;you-give-classes-as-a-technical-trainer-for-icsscada-security-do-you-see-a-lot-of-interest-in-these-issues&quot;&gt;You give classes as a technical trainer for ICS/SCADA security, do you see a lot of interest in these issues? &lt;/h4&gt;
-&lt;p&gt;I teach the “ICS Active Defense and Incident Response” course at SANS (ICS515). And we have definitely seen interest increasing in this and other ICS courses over the last year. When I look at the current threat landscape, this was absolutely necessary. We need a lot more knowledgable and capable active defenders to secure our critical infrastructures and industries.&lt;/p&gt;
-
-&lt;h4 id=&quot;have-you-ever-destroyed-a-car-or-something-physical-as-part-of-what-you-do-in-your-day-work&quot;&gt;Have you ever destroyed a car, or something physical, as part of what you do in your day work? &lt;/h4&gt;
-&lt;p&gt;Well, yes, but keep in mind, I am an incident responder, not I researcher so my main mantra especially in ICS/SCADA environments is to always put safety and reliability of operations first. But as probably anyone who as worked on many incidents I have my own stories to tell about devices and thus evidence I destroyed because of a stupid mistake I made.  With regard to what you are probably more interested in, do I crash vehicles with my mad cyber skills, that’s a) not how this works and b) the job of our dedicated Car/IT Security team.&lt;/p&gt;
-
-&lt;h4 id=&quot;what-is-the-hype-in-relation-to-cyber-security-and-vehicles&quot;&gt;What is the hype in relation to cyber security and vehicles? &lt;/h4&gt;
-&lt;p&gt;In my opinion the hype is in the way current research gets reported vs. what current threats against vehicles actually are. Most organized crime around vehicles is about stealing vehicles or spare parts. Of course this is not as sexy for a story than say hackers taking over autonomous vehicles. If you’d like to get my full view on this, come to my talk ;-)
-What is the biggest challenges to automotive area with regards to security? I think the biggest challenge is software developers and automotive engineers understanding each other’s development processes and constraints. And learning to understand their different culture and language. Without these basics we’ll have a very hard time coping with the paradigm shifts currently happening in the automotive industry.&lt;/p&gt;
-
-&lt;h4 id=&quot;is-car-theft-the-biggest-risk-or-do-you-see-other-aspects-worse-risks-for-vehicles--cyber-security&quot;&gt;Is car theft the biggest risk, or do you see other aspects worse risks for vehicles &amp;amp; cyber security? &lt;/h4&gt;
-&lt;p&gt;As of now I’d say yes, definitely. As cars get more functionality that can be activated via software and we see an increase of managed vehicle fleets versus privately owned cars threats will probably diversify somewhat more. Criminals will always be where the most money can be made with the least risk, at least we can be sure of that ;-)&lt;/p&gt;
-
-&lt;h4 id=&quot;what-is-the-least-known-aspects-of-cyber-security-in-the-automative-industry&quot;&gt;What is the least known aspects of cyber security in the automative industry? &lt;/h4&gt;
-&lt;p&gt;We have been at some aspects of this a lot longer than many folks in the cyber security community might think and this has to do with all the immobilizer technology put into cars over the past 10-15 years and criminals finding ways around that. Also most discussions around fixing security problems in vehicles with quick patches over the air often don’t reflect how much testing has to go into any change you make to anything safety related in a vehicle. Also, like most ICS systems, we should keep in mind that there are (and there probably should be some more) failsafes that cannot be overridden by software.&lt;/p&gt;
-
-&lt;h4 id=&quot;how-will-the-creation-of-smart-cities-have-an-impact-on-smart-cars-with-regards-to-security&quot;&gt;How will the creation of smart cities have an impact on smart cars, with regards to security? &lt;/h4&gt;
-&lt;p&gt;Absolutely. It’s the complexity of networks and the questions of trust all over again. But on a much larger scale than the Internet and with larger time constraints on both ways. By that I mean, your car and the traffic light you’re about to be at in 5 seconds won’t have the time to establish trust via something like a CRL. But also, that traffic light will be there for more than twenty years. And your car has a lifetime of about 10-15 years. Lots of interesting questions waiting for answers when it comes to smart cities…&lt;/p&gt;
-
-&lt;h4 id=&quot;in-general-do-you-think-that-we-will-ever-see-things-like-notpetya-ransomware-infecting-cars&quot;&gt;In general, do you think that we will ever see things like NotPetya, ransomware infecting cars? &lt;/h4&gt;
-&lt;p&gt;I can certainly imagine wormable vulnerabilities in parts of vehicle infrastructure that heavily relies on software. EV charging infrastructure, I’m looking at you ;-) But I am still optimistic enough that we’ll finally start learning from mistakes in other fields and will succeed in implementing more resilient architectures in vehicles and smart traffic infrastructures.&lt;/p&gt;
-
-&lt;h4 id=&quot;what-will-be-the-biggest-take-away-for-the-audience-from-your-presentation-at-cs3sthlm&quot;&gt;What will be the biggest take away for the audience from your presentation at CS3sthlm? &lt;/h4&gt;
-&lt;p&gt;That although there are some hard questions waiting to be answered we do know the basics of how to do this right. These are not new and sexy things and they take some effort, but it’s certainly doable. Also, we are still very early on in this particular race. So there is still time to learn from other fields and do some things better. &lt;/p&gt;
-</description>
-        <pubDate>Wed, 26 Sep 2018 04:00:00 +0000</pubDate>
-        <link>/blog/kai-thomsen/</link>
-        <guid isPermaLink="true">/blog/kai-thomsen/</guid>
         
         
         <category>blog</category>
