@@ -1479,3 +1479,48 @@
         2. Security guidelines for securing the supply chain process
   training:
     - active: none
+
+
+- id: 32
+  type: moderator
+  permalink:
+  name: Anne-Marie Eklund Löwinder
+  role: Chief Information Security Officer
+  work: IIS, The Internet Foundation In Sweden
+  country: Sweden
+  shortcode: SE
+  image: amel.png
+  bio: She is the Chief Information Security Officer at IIS, The Internet Foundation In Sweden. She also serves on the boards of internet-related organisations including the Council of European National Top Level Domain Registries (CENTR) and the Swedish Law and Informatics Research Institute. Eklund Löwinder has been appointed Trusted Community Representative by the Internet Corporation for Assigned Names and Numbers (ICANN). She is one of seven people who control the DNSSEC key generation for the internet root zone.
+  date:
+  time: 
+  place:
+  speaker:
+    - name: Anne-Marie Eklund Löwinder
+      role: Chief Information Security Officer
+      image: amel
+  presentation:
+    - active: none
+  training:
+    - active: none
+
+- id: 33
+  type: moderator
+  permalink:
+  name: Erik 'Z' Johansson
+  role: Independent Security Consultant
+  work: Trailing bits AB
+  country: Sweden
+  shortcode: SE
+  image: erik-z-johansson.png
+  bio: Independent security consultant that have experienced the challenges, frustration and satisfaction involved when implementing sustainable IACS cyber protection throughout the whole system lifecycle and across the globe. May offer controversial opinions on what it takes to reach a sustainable security posture. NOTE! The ‘Z’ is a legacy from ABB and not actually part of his name.
+  date:
+  time: 
+  place:
+  speaker:
+    - name: Erik 'Z' Johansson
+      role: Independent Security Consultant
+      image: erik-z-johansson
+  presentation:
+    - active: none
+  training:
+    - active: none

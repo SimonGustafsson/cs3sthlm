@@ -159,27 +159,38 @@ id: home
 
         <div class="speaker-item-frame">
           <img src="{{ site.baseurl }}/assets/speakers/{{ speaker.image }}" class="speaker-item-frame-image">
+          
+          {% if speaker.type == 'special' %}
+          <div class="speaker-item-frame-special">
+            <h4 class="speaker-item-frame-special-heading">Dinner Presentation</h4>
+          </div>
+          {% endif %}
+
+          {% if speaker.type == 'moderator' %}
+          <div class="speaker-item-frame-special">
+            <h4 class="speaker-item-frame-special-heading">Moderator</h4>
+          </div>
+          {% endif %}
 
           <div class="speaker-item-frame-data">
-
-            {% if speaker.type == "presentation" %}
+            {% if speaker.type == 'presentation' %}
                   <h4 class="speaker-item-frame-type">P<span>resentation</span></h4>
                   {% endif %}
 
-                  {% if speaker.type == "training" %}
+                  {% if speaker.type == 'training' %}
                   <h4 class="speaker-item-frame-type">T<span>raining</span></h4>
                   {% endif %}
 
-                  {% if speaker.type == "expotalk" %}
+                  {% if speaker.type == 'expotalk' %}
                   <h4 class="speaker-item-frame-type">E<span>xpo Presentation</span></h4>
-                  {% endif %}
-
-                  {% if speaker.type == "moderator" %}
-                  <h4 class="speaker-item-frame-type">M<span>oderator</span></h4>
                   {% endif %}
             
             <h2 class="speaker-name">{{ speaker.name }}</h2>
-            <h4 class="speaker-role">{{ speaker.role | truncate: 25 }} at {{ speaker.work | truncate: 30 }}</h4>
+            {% if speaker.type == 'special' %}
+            <h4 class="speaker-role">{{ speaker.role }}</h4>
+            {% else %}
+            <h4 class="speaker-role">{{ speaker.role | truncate: 25 }}{% if speaker.work.size > 1 %} at {{ speaker.work | truncate: 30 }}{% endif %}</h4>
+            {% endif %}
           </div>
         </div>
 

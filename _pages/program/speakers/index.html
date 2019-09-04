@@ -45,6 +45,12 @@ layout: default
 				</div>
 				{% endif %}
 
+				{% if speaker.type == 'moderator' %}
+				<div class="speaker-item-frame-special">
+					<h4 class="speaker-item-frame-special-heading">Moderator</h4>
+				</div>
+				{% endif %}
+
 				<div class="speaker-item-frame-data">
 
 					{% if speaker.type == 'presentation' %}
@@ -57,10 +63,6 @@ layout: default
 
 		            {% if speaker.type == 'expotalk' %}
 		            <h4 class="speaker-item-frame-type">E<span>xpo Presentation</span></h4>
-		            {% endif %}
-
-		            {% if speaker.type == 'moderator' %}
-		            <h4 class="speaker-item-frame-type">M<span>oderator</span></h4>
 		            {% endif %}
 					
 					<h2 class="speaker-name">{{ speaker.name }}</h2>
