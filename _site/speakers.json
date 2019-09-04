@@ -83,6 +83,47 @@
 	},
 
 	{
+		"id"		: "32",
+		"type"		: "moderator",
+		"name"		: "Anne-Marie Eklund Löwinder",
+		"role"		: "Chief Information Security Officer",
+		"work"		: "IIS, The Internet Foundation In Sweden",
+		"country"	: "Sweden",
+		"shortcode"	: "SE",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/amel.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"none",
+			"title": 	"",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": "<p>She is the Chief Information Security Officer at IIS, The Internet Foundation In Sweden. She also serves on the boards of internet-related organisations including the Council of European National Top Level Domain Registries (CENTR) and the Swedish Law and Informatics Research Institute. Eklund Löwinder has been appointed Trusted Community Representative by the Internet Corporation for Assigned Names and Numbers (ICANN). She is one of seven people who control the DNSSEC key generation for the internet root zone.</p>"
+	},
+
+	{
 		"id"		: "3",
 		"type"		: "training",
 		"name"		: "Arnaud Soullié",
@@ -244,6 +285,47 @@
 		
 
 		"bio": "<p>Dieter is a freelance OT security expert who working extensively on industrial control system security including more than 10 years in a large electricity generation company. He performs SCADA security assessments, provides assistance in securing SCADA environments and helps customers to manage their suppliers’ security through doing security requirements management and security FAT and SAT tests. These activities are always part of a larger program, aimed at reducing business risks.</p>"
+	},
+
+	{
+		"id"		: "33",
+		"type"		: "moderator",
+		"name"		: "Erik 'Z' Johansson",
+		"role"		: "Independent Security Consultant",
+		"work"		: "Trailing bits AB",
+		"country"	: "Sweden",
+		"shortcode"	: "SE",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/erik-z-johansson.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"none",
+			"title": 	"",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": "<p>Independent security consultant that have experienced the challenges, frustration and satisfaction involved when implementing sustainable IACS cyber protection throughout the whole system lifecycle and across the globe. May offer controversial opinions on what it takes to reach a sustainable security posture. NOTE! The ‘Z’ is a legacy from ABB and not actually part of his name.</p>"
 	},
 
 	{
@@ -1269,88 +1351,6 @@
 		
 
 		"bio": "<p>Over 20 years of experience in cyber security as a pen tester, security consultant, SOC manager and threat intelligence manager.</p>"
-	},
-
-	{
-		"id"		: "32",
-		"type"		: "moderator",
-		"name"		: "Anne-Marie Eklund Löwinder",
-		"role"		: "Chief Information Security Officer",
-		"work"		: "IIS, The Internet Foundation In Sweden",
-		"country"	: "Sweden",
-		"shortcode"	: "SE",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/amel.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"none",
-			"title": 	"",
-			"partner":	"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/.png",
-			"description": ""
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "",
-			"excerpt":	""
-		},
-		
-
-		"bio": "<p>She is the Chief Information Security Officer at IIS, The Internet Foundation In Sweden. She also serves on the boards of internet-related organisations including the Council of European National Top Level Domain Registries (CENTR) and the Swedish Law and Informatics Research Institute. Eklund Löwinder has been appointed Trusted Community Representative by the Internet Corporation for Assigned Names and Numbers (ICANN). She is one of seven people who control the DNSSEC key generation for the internet root zone.</p>"
-	},
-
-	{
-		"id"		: "33",
-		"type"		: "moderator",
-		"name"		: "Erik 'Z' Johansson",
-		"role"		: "Independent Security Consultant",
-		"work"		: "Trailing bits AB",
-		"country"	: "Sweden",
-		"shortcode"	: "SE",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/erik-z-johansson.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"none",
-			"title": 	"",
-			"partner":	"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/.png",
-			"description": ""
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "",
-			"excerpt":	""
-		},
-		
-
-		"bio": "<p>Independent security consultant that have experienced the challenges, frustration and satisfaction involved when implementing sustainable IACS cyber protection throughout the whole system lifecycle and across the globe. May offer controversial opinions on what it takes to reach a sustainable security posture. NOTE! The ‘Z’ is a legacy from ABB and not actually part of his name.</p>"
 	}
 
 ]
