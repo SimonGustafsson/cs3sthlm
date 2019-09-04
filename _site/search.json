@@ -868,6 +868,14 @@
   
    {
      
+        "title"    : "Building a distributed and robust time synchronisation service",
+        "url"      : "/program/presentations/ragnar-sundblad/",
+        "path"     : "/program/presentations/ragnar-sundblad/"
+     
+   },
+  
+   {
+     
         "title"    : "Demystifying TSCM or how to spot the witch doctor doing the raindance",
         "url"      : "/program/presentations/richard-widh/",
         "path"     : "/program/presentations/richard-widh/"

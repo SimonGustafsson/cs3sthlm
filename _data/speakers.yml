@@ -1163,6 +1163,32 @@
   training:
     - active: none
 
+- id: 31
+  type: presentation
+  permalink:
+  name: Ragnar Sundblad
+  role: Time Worker
+  work:
+  country: Sweden
+  shortcode: SE
+  image: ragnar-sundblad.png
+  bio: Ragnar has built a system for distributed and robust time dissemination, sponsored by the Swedish Post and Telecom Authority, PTS, in a cooperation between Netnod in Stockholm and RISE/SP in Borås.
+  date:
+  time: 
+  place:
+  speaker:
+    - name: Ragnar Sundblad
+      role: Time Worker
+      image: ragnar-sundblad
+  presentation:
+    - active: live
+      subject: Building a distributed and robust time synchronisation service
+      permalink: program/presentations/ragnar-sundblad/
+      partner: 
+      description: |
+        Coming soon.
+  training:
+    - active: none
 
 - id: 24
   type: presentation
