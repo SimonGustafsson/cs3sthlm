@@ -1525,3 +1525,30 @@
         2. Security guidelines for securing the supply chain process
   training:
     - active: none
+
+- id: 
+  type: presentation
+  permalink:
+  name: Daniel Stenberg
+  role: Software Engineer
+  work: wolfSSL
+  country: Sweden
+  shortcode: SE
+  image: daniel-stenberg.png
+  bio: Daniel Stenberg is the founder and lead developer of curl. He's a Swedish software engineer and open source developer since the early 1990s. Winner of the Polhem Prize in 2017. @bagder on twitter. Employed by wolfSSL.
+  date:
+  time: 
+  place:
+  speaker:
+    - name: Daniel Stenberg
+      role: Software Engineer
+      image: daniel-stenberg
+  presentation:
+    - active: live
+      subject: curl - the world's most used software component?
+      permalink: program/presentations/daniel-stenberg/
+      partner: 
+      description: |
+        Everyone and everything uses curl. Your car, your game consoles, apps on the phone, it runs in your server, in exists in your laptop, your fridge and printers. curl supports lots of protocols and runs on more operating sytems than most mortals can name. How is the project run? Who makes it? How is it tested? How do we keep it secure and handle the bugs and vulnerabilities that still pop up? curl is over twenty years old, makes a new release every 8 weeks and boasts over 2,000 named contributors so far. Can its estimated seven billion installations make it the world's most used software component?
+  training:
+    - active: none

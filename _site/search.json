@@ -224,6 +224,14 @@
   
    {
      
+        "title"    : "curl - the world's most used software component?",
+        "url"      : "/program/presentations/daniel-stenberg/",
+        "path"     : "/program/presentations/daniel-stenberg/"
+     
+   },
+  
+   {
+     
         "title"    : "Security Testing for ICS Owners 2.0",
         "url"      : "/program/presentations/dieter-sarrazyn/",
         "path"     : "/program/presentations/dieter-sarrazyn/"
@@ -247,14 +255,6 @@
    },
   
    {
-     
-   },
-  
-   {
-     
-        "title"    : "Henrik Sandberg",
-        "url"      : "/about/archive/speakers/henrik-sandberg",
-        "path"     : "/about/archive/speakers/henrik-sandberg"
      
    },
   
@@ -743,6 +743,14 @@
         "title"    : "Gyorgy Dan",
         "url"      : "/about/archive/speakers/gyorgy-dan",
         "path"     : "/about/archive/speakers/gyorgy-dan"
+     
+   },
+  
+   {
+     
+        "title"    : "Henrik Sandberg",
+        "url"      : "/about/archive/speakers/henrik-sandberg",
+        "path"     : "/about/archive/speakers/henrik-sandberg"
      
    },
   

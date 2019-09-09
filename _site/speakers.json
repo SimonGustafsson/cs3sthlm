@@ -1351,6 +1351,47 @@
 		
 
 		"bio": "<p>Over 20 years of experience in cyber security as a pen tester, security consultant, SOC manager and threat intelligence manager.</p>"
+	},
+
+	{
+		"id"		: "",
+		"type"		: "presentation",
+		"name"		: "Daniel Stenberg",
+		"role"		: "Software Engineer",
+		"work"		: "wolfSSL",
+		"country"	: "Sweden",
+		"shortcode"	: "SE",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/daniel-stenberg.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"curl - the world's most used software component?",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": "<p>Everyone and everything uses curl. Your car, your game consoles, apps on the phone, it runs in your server, in exists in your laptop, your fridge and printers. curl supports lots of protocols and runs on more operating sytems than most mortals can name. How is the project run? Who makes it? How is it tested? How do we keep it secure and handle the bugs and vulnerabilities that still pop up? curl is over twenty years old, makes a new release every 8 weeks and boasts over 2,000 named contributors so far. Can its estimated seven billion installations make it the world’s most used software component?</p>"
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": "<p>Daniel Stenberg is the founder and lead developer of curl. He’s a Swedish software engineer and open source developer since the early 1990s. Winner of the Polhem Prize in 2017. @bagder on twitter. Employed by wolfSSL.</p>"
 	}
 
 ]
