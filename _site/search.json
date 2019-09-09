@@ -232,6 +232,14 @@
   
    {
      
+        "title"    : "EU STRIKE3 project",
+        "url"      : "/program/presentations/didrik-ehrenborg/",
+        "path"     : "/program/presentations/didrik-ehrenborg/"
+     
+   },
+  
+   {
+     
         "title"    : "Security Testing for ICS Owners 2.0",
         "url"      : "/program/presentations/dieter-sarrazyn/",
         "path"     : "/program/presentations/dieter-sarrazyn/"
@@ -255,14 +263,6 @@
    },
   
    {
-     
-   },
-  
-   {
-     
-        "title"    : "Dan Demeter",
-        "url"      : "/about/archive/speakers/dan-demeter",
-        "path"     : "/about/archive/speakers/dan-demeter"
      
    },
   
@@ -751,6 +751,14 @@
         "title"    : "Henrik Sandberg",
         "url"      : "/about/archive/speakers/henrik-sandberg",
         "path"     : "/about/archive/speakers/henrik-sandberg"
+     
+   },
+  
+   {
+     
+        "title"    : "Dan Demeter",
+        "url"      : "/about/archive/speakers/dan-demeter",
+        "path"     : "/about/archive/speakers/dan-demeter"
      
    },
   

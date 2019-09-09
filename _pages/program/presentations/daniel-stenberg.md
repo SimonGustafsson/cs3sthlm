@@ -3,7 +3,7 @@ title: curl - the world's most used software component?
 permalink: "/program/presentations/daniel-stenberg/"
 layout: presentation
 speaker:
-- name: 
+- name: Daniel Stenberg
   role: Software Engineer
   work: wolfSSL
   image: daniel-stenberg
