@@ -67,6 +67,33 @@
   training:
     - active: none
 
+- id: 36
+  type: keynote
+  permalink:
+  name: Andy Greenberg
+  role: Senior Writer
+  work: Wired
+  country: United States
+  shortcode: US
+  image: andy-greenberg.png
+  bio: Andy Greenberg is an award-winning senior writer for Wired magazine, where he covers security, privacy, information freedom, and hacker culture. He is the author of the 2012 book This Machine Kills Secrets, and his stories for Wired on Ukraine's cyberwar (including an excerpt from Sandworm) have won a Gerald Loeb Award for International Reporting and two Deadline Club Awards from the New York Society of Professional Journalists. He lives in Brooklyn with his wife, documentary filmmaker Malika Zouhali-Worrall.
+  date:
+  time:
+  place:
+  photocred: Joe Pugliese
+  speaker:
+    - name: Andy Greenberg
+      role: Senior Writer
+      image: andy-greenberg
+  presentation:
+    - active: none
+      subject:
+      permalink:
+      partner:
+      description:
+  training:
+    - active: none
+
 - id: 32
   type: moderator
   permalink:

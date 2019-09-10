@@ -152,9 +152,9 @@ id: home
 
     <div class="speaker speaker-group col-8-8">
 
-    {% assign sorted_speakers = site.data.speakers | sample: 6 %}
+    {% assign sorted_speakers = site.data.speakers | sample: 6 | sort:'name' %}
     {% for speaker in sorted_speakers %}
-    {% if speaker.type == "presentation" or speaker.type == "training" or speaker.type == "moderator" or speaker.type == "expotalk" or speaker.type == "special" %}
+    {% if speaker.type == "presentation" or speaker.type == "training" or speaker.type == "moderator" or speaker.type == "expotalk" or speaker.type == "special" or speaker.type == "keynote" %}
       <div class="speaker-item">
 
         <div class="speaker-item-frame">
@@ -172,18 +172,24 @@ id: home
           </div>
           {% endif %}
 
+          {% if speaker.type == 'keynote' %}
+          <div class="speaker-item-frame-special">
+            <h4 class="speaker-item-frame-special-heading">Keynote</h4>
+          </div>
+          {% endif %}
+
           <div class="speaker-item-frame-data">
             {% if speaker.type == 'presentation' %}
-                  <h4 class="speaker-item-frame-type">P<span>resentation</span></h4>
-                  {% endif %}
+            <h4 class="speaker-item-frame-type">P<span>resentation</span></h4>
+            {% endif %}
 
-                  {% if speaker.type == 'training' %}
-                  <h4 class="speaker-item-frame-type">T<span>raining</span></h4>
-                  {% endif %}
+            {% if speaker.type == 'training' %}
+            <h4 class="speaker-item-frame-type">T<span>raining</span></h4>
+            {% endif %}
 
-                  {% if speaker.type == 'expotalk' %}
-                  <h4 class="speaker-item-frame-type">E<span>xpo Presentation</span></h4>
-                  {% endif %}
+            {% if speaker.type == 'expotalk' %}
+            <h4 class="speaker-item-frame-type">E<span>xpo Presentation</span></h4>
+            {% endif %}
             
             <h2 class="speaker-name">{{ speaker.name }}</h2>
             {% if speaker.type == 'special' %}
@@ -200,7 +206,11 @@ id: home
 
             <div class="col-6-8">
               <h2 class="heading">{{ speaker.name }}</h2>
-              <h3 class="speaker-role">{{ speaker.role }} at {{ speaker.work }}</h3>
+              {% if speaker.type == 'special' %}
+              <h3 class="speaker-role">{{ speaker.role }}</h3>
+              {% else %}
+              <h3 class="speaker-role">{{ speaker.role }}{% if speaker.work.size > 1 %} at {{ speaker.work }}{% endif %}</h3>
+              {% endif %}
               <h5 class="speaker-role speaker-item-country">{{ speaker.country }}</h5>
             </div>
 
@@ -220,6 +230,14 @@ id: home
 
                 {% if speaker.type == 'training' %}
                 <span class="speaker-item-type">Training</span>
+                {% endif %}
+
+                {% if speaker.type == 'special' %}
+                <span class="speaker-item-type">Dinner Presentation</span>
+                {% endif %}
+
+                {% if speaker.type == 'keynote' %}
+                <span class="speaker-item-type">Keynote</span>
                 {% endif %}
               </div>
             </div>
@@ -242,22 +260,22 @@ id: home
             </div>
             {% endif %}
 
-            {% if speaker.type == "special" %}
-            <div class="col-4-8">
-              <h4 class="sub-headline sub-headline-yellow">Dinner Presentation</h4>
-              <span class="speaker-permalink">{{ speaker.specialtitle }}</span>
-
-              <p>Image taken by <a href="{{ speaker.photourl }}">Kate Gabor</a></p>
-            </div>          
-            {% endif %}
-
             {% for item in speaker.presentation %}
             {% if item.active == "live" %}
             <div class="col-4-8">
+              {% if speaker.type == 'special' %}
+              <h4 class="sub-headline sub-headline-yellow">Dinner Presentation</h4>
+              {% else %}
               <h4 class="sub-headline sub-headline-yellow">Presentation</h4>
+              {% endif %}
+              {% if speaker.type == 'special' %}
+              <h3 class="alt-title alt-title-light">{{ item.subject }}</h3>
+              <p class="col-5-8">{{ item.description }}</p>
+              {% else %}
               <a href="{{ site.baseurl }}/{{ item.permalink }}" class="speaker-item-link">{{ item.subject }}</a>
               {% if item.partner != null %}
               <span class="sub-headline sub-headline-small sub-headline-light">with {{ item.partner }}</span>
+              {% endif %}
               {% endif %}
             </div>          
             {% endif %}
@@ -268,7 +286,7 @@ id: home
             <div class="col-4-8">
               <a href="{{ site.baseurl }}/{{ item.permalink }}" class="speaker-item-link">{{ item.subject }}</a>
               {% if item.partner != null %}
-              <span class="sub-headline sub-headline-small sub-headline-light">with {{ item.partner }}</span>
+              <span class="sub-headline sub-headline-small sub-headline-light">with {{ item.name }}</span>
               {% endif %}
             </div>          
             {% endif %}
@@ -281,13 +299,20 @@ id: home
               <h4 class="sub-headline sub-headline-yellow">Training</h4>
               <a href="{{ site.baseurl }}/{{ item.permalink }}" class="speaker-item-link">{{ item.subject }}</a>
               {% if item.partner != null %}
-              <span class="sub-headline sub-headline-small sub-headline-light">with {{ item.partner }}</span>
+              <span class="sub-headline sub-headline-small sub-headline-light">with {{ item.name }}</span>
               {% endif %}
             </div>        
             {% endif %}
             {% endfor %}
 
           </div>
+
+          {% if speaker.type == "keynote" %}
+          <div class="col-8-8 col-top-space">
+            <h4 class="sub-headline sub-headline-yellow">Photo Credit</h4>
+            <span class="alt-title alt-title-small">{{ speaker.photocred }}</span>
+          </div>
+          {% endif %}
 
           <a href="#!" class="modal-close">Close<span></span></a>
 

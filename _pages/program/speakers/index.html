@@ -33,7 +33,7 @@ layout: default
 
 	{% assign sorted_speakers = site.data.speakers | sort:'name' %}
 	{% for speaker in sorted_speakers %}
-	{% if speaker.type == "presentation" or speaker.type == "training" or speaker.type == "moderator" or speaker.type == "expotalk" or speaker.type == "special" %}
+	{% if speaker.type == "presentation" or speaker.type == "training" or speaker.type == "moderator" or speaker.type == "expotalk" or speaker.type == "special" or speaker.type == "keynote" %}
 		<div class="speaker-item">
 
 			<div class="speaker-item-frame">
@@ -48,6 +48,12 @@ layout: default
 				{% if speaker.type == 'moderator' %}
 				<div class="speaker-item-frame-special">
 					<h4 class="speaker-item-frame-special-heading">Moderator</h4>
+				</div>
+				{% endif %}
+
+				{% if speaker.type == 'keynote' %}
+				<div class="speaker-item-frame-special">
+					<h4 class="speaker-item-frame-special-heading">Keynote</h4>
 				</div>
 				{% endif %}
 
@@ -108,6 +114,10 @@ layout: default
 
 							{% if speaker.type == 'special' %}
 							<span class="speaker-item-type">Dinner Presentation</span>
+							{% endif %}
+
+							{% if speaker.type == 'keynote' %}
+							<span class="speaker-item-type">Keynote</span>
 							{% endif %}
 						</div>
 					</div>
@@ -177,6 +187,13 @@ layout: default
 					{% endfor %}
 
 				</div>
+
+				{% if speaker.type == "keynote" %}
+				<div class="col-8-8 col-top-space">
+					<h4 class="sub-headline sub-headline-yellow">Photo Credit</h4>
+					<span class="alt-title alt-title-small">{{ speaker.photocred }}</span>
+				</div>
+				{% endif %}
 
 				<a href="#!" class="modal-close">Close<span></span></a>
 

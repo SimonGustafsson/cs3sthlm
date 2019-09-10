@@ -83,6 +83,47 @@
 	},
 
 	{
+		"id"		: "36",
+		"type"		: "keynote",
+		"name"		: "Andy Greenberg",
+		"role"		: "Senior Writer",
+		"work"		: "Wired",
+		"country"	: "United States",
+		"shortcode"	: "US",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/andy-greenberg.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"none",
+			"title": 	"",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": "<p>Andy Greenberg is an award-winning senior writer for Wired magazine, where he covers security, privacy, information freedom, and hacker culture. He is the author of the 2012 book This Machine Kills Secrets, and his stories for Wired on Ukraine’s cyberwar (including an excerpt from Sandworm) have won a Gerald Loeb Award for International Reporting and two Deadline Club Awards from the New York Society of Professional Journalists. He lives in Brooklyn with his wife, documentary filmmaker Malika Zouhali-Worrall.</p>"
+	},
+
+	{
 		"id"		: "32",
 		"type"		: "moderator",
 		"name"		: "Anne-Marie Eklund Löwinder",
