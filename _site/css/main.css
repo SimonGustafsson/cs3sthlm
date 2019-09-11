@@ -4576,6 +4576,8 @@ p.content-intro {
       line-height: 32px; } }
   .heading-yellow {
     color: #ef7d00; }
+  .heading-gray {
+    color: #a6a7a9; }
   .heading-small {
     font-size: 11px;
     line-height: 32px; }
@@ -5146,3 +5148,80 @@ p.content-intro {
       color: #ef7d00;
       border-color: #ef7d00;
       cursor: pointer; }
+
+.agenda {
+  display: flex;
+  flex-direction: column;
+  margin-top: 38px; }
+
+.agenda-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%; }
+  .agenda-header-item {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 25%;
+    padding: 12px 24px;
+    box-sizing: border-box;
+    border-top: 1px solid #1a1c20;
+    border-bottom: 1px solid #1a1c20;
+    transition: 0.24s all ease-in-out;
+    -moz-transition: 0.24s all ease-in-out;
+    -webkit-transtiion: 0.24s all ease-in-out;
+    -o-transition: 0.24s all ease-in-out; }
+    .agenda-header-item:first-of-type {
+      border-left: 1px solid #1a1c20;
+      border-right: 1px solid #1a1c20;
+      border-radius: 4px 0 0 0; }
+    .agenda-header-item:nth-child(2) {
+      border-right: 1px solid #1a1c20; }
+    .agenda-header-item:last-of-type {
+      border-left: 1px solid #1a1c20;
+      border-right: 1px solid #1a1c20;
+      border-radius: 0 4px 0 0; }
+    .agenda-header-item:hover {
+      background: #1a1c20;
+      cursor: pointer; }
+  .agenda-header .alt-title {
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+
+.agenda-content {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  border-bottom: 1px solid #1a1c20;
+  border-left: 1px solid #1a1c20;
+  border-right: 1px solid #1a1c20; }
+  .agenda-content-header {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom: 1px solid #1a1c20;
+    border-left: 1px solid #1a1c20;
+    border-right: 1px solid #1a1c20;
+    box-sizing: border-box; }
+    .agenda-content-header-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 33.333333%;
+      padding: 12px 0;
+      box-sizing: border-box; }
+      .agenda-content-header-item:nth-child(2) {
+        border-left: 1px solid #1a1c20;
+        border-right: 1px solid #1a1c20; }
+  .agenda-content-column {
+    display: flex;
+    width: 33.333333%;
+    height: 400px;
+    box-sizing: border-box; }
+    .agenda-content-column:nth-child(2) {
+      border-left: 1px solid #1a1c20;
+      border-right: 1px solid #1a1c20; }
