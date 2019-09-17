@@ -589,6 +589,20 @@
 	display: flex;
 	flex-direction: column;
 	margin-top: 38px;
+
+	@include media-query($mobile) {
+		width: calc(100% + 24px);
+		margin-left: -12px;
+		margin-top: 0;
+	}
+
+	&-day {
+		display: none;
+
+		&-active {
+			display: block;
+		}
+	}
 }
 
 
@@ -612,10 +626,31 @@
 
 		@include transition-ease;
 
+		@include media-query($mobile) {
+			padding: 10px;
+
+			.heading {
+				display: none;
+			}
+			h4 > span {
+				display: none;
+			}
+			.subtitlte {
+				font-size: 18px;
+			}
+			.alt-title {
+				font-size: 12px;
+			}
+		}
+
 		&:first-of-type {
 			border-left: 1px solid $blue-darken;
 			border-right: 1px solid $blue-darken;
 			border-radius: 4px 0 0 0;
+
+			@include media-query($mobile) {
+				border-radius: 0;
+			}
 		}
 		&:nth-child(2) {
 			border-right: 1px solid $blue-darken;
@@ -624,11 +659,20 @@
 			border-left: 1px solid $blue-darken;
 			border-right: 1px solid $blue-darken;
 			border-radius: 0 4px 0 0;
+
+			@include media-query($mobile) {
+				border-radius: 0;
+			}
 		}
 
 		&:hover {
-			background: $blue-darken;
+			background: rgba($blue-darken, .75);
 			cursor: pointer;
+		}
+	
+
+		&-active {
+			background: rgba($blue-darken, .75);
 		}
 	}
 
@@ -642,11 +686,15 @@
 // AGENDA CONTENT
 .agenda-content {
 	display: flex;
-	align-items: flex-start;
+	align-items: stretch;
 	flex-direction: row;
 	border-bottom: 1px solid $blue-darken;
 	border-left: 1px solid $blue-darken;
 	border-right: 1px solid $blue-darken;
+
+	@include media-query($mobile) {
+		flex-direction: column;
+	}
 
 
 	&-header {
@@ -672,18 +720,59 @@
 				border-left: 1px solid $blue-darken;
 				border-right: 1px solid $blue-darken;
 			}
+
+			&-active {
+
+				@include media-query($mobile) {
+					background: rgba($blue-darken, .75);
+				}
+			}
+		}
+
+		&-hidden-spacer {
+		  display: none;
+		  height: 63px;
+		  width: 100%;
+		  background: transparent;
+
+		  &.show-spacer {
+		    display: block;
+		  }
+		}
+
+		&.sticky-block {
+			position: fixed;
+			top: 0;
+			z-index: 999;
+			box-shadow: 0 0 14px rgba($dark, .3);
+			background: $dark;
+			max-width: 1440px;
 		}
 	}
 
 	&-column {
 		display: flex;
+		flex-direction: column;
 		width: 33.333333%;
-		height: 400px;
 		box-sizing: border-box;
+		padding-bottom: 12px;
 
 		&:nth-child(2) {
 			border-left: 1px solid $blue-darken;
 			border-right: 1px solid $blue-darken;
+
+			@include media-query($mobile) {
+				border: none;
+			}
+		}
+
+		@include media-query($mobile) {
+			width: 100%;
+			display: none;
+
+			&-active {
+				display: flex;
+			}
 		}
 	}
 }
@@ -691,5 +780,158 @@
 
 // AGENDA ITEM
 .agenda-item {
+	display: flex;
+	flex-direction: column;
+	margin: 0 20px;
+	padding: 20px 0;
+	box-sizing: border-box;
+	border-top: 1px solid $blue-darken;
+
+	@include transition-ease;
+
+	&:first-of-type {
+		border-top: none;
+	}
+
+	&-break {
+
+		.agenda-item-headline {
+			color: $blue;
+		}
+	}
+
+	&-common {
+
+	}
+
+	&-link {
+		position: relative;
+		
+		> a {
+			text-decoration: none;
+		}
+
+		&:before {
+			display: block;
+			content: '';
+			width: 1px;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: -21px;
+			background: rgba($yellow, .5);
+			opacity: 0;
+
+			@include transition-ease;
+		}
+
+		&:hover {
+			cursor: pointer;
+
+			&:before {
+				opacity: 1;
+			}
+
+			.agenda-item-headline {
+				color: $yellow;
+			}
+			.agenda-item-time {
+				color: $white;
+			}
+		}
+	}
+
+	&-time {
+		color: $gray;
+		font-family: 'latoregular', sans-serif;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 38px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+
+		@include transition-ease;
+
+		@include media-query($mobile){
+			line-height: 21px;
+		}
+	}
+	&-headline {
+		color: $white;
+		font-family: 'latobold', sans-serif;
+		font-weight: normal;
+		font-size: 21px;
+		line-height: 36px;
+
+		@include transition-ease;
+
+		@include media-query($mobile){
+			font-size: 18px;
+			line-height: 32px;
+		}
+	}
+	&-author {
+		color: $yellow;
+		font-family: 'latoregular', sans-serif;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 27px;
+
+		@include media-query($mobile){
+			
+		}
+
+		span {
+
+			&:after {
+				display: inline-block;
+				content: ',';
+				margin-right: 4px;
+			}
+
+			&:nth-child(2){
+				margin-left: -4px;
+
+				&:before {
+					display: inline-block;
+					content: ',';
+					margin-right: 4px;
+				}
+			}
+
+			&:last-of-type {
+				margin-left: 0;
+
+				&:before {
+					display: inline-block;
+					content: '&';
+					margin-right: 4px;
+				}
+				&:after {
+					display: none;
+				}
+			}
+
+			&:first-of-type {
+				margin-right: 4px;
+
+				&:before {
+					display: none;
+				}
+				&:after {
+					display: none;
+				}
+			}
+		}
+	}
+
+	&-special {
+		color: $yellow;
+		margin-left: 5px;
+	}
+
 
 }
+
+
+

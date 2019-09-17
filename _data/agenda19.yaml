@@ -1,0 +1,169 @@
+# DAY ONE - MONDAY
+#----------------#
+## MAIN STAGE
+
+- id: 1
+  day: dayone
+  type: common
+  place: Main Stage
+  time: "09:00"
+  title: CS3STHLM 2019 Opening
+
+- id: 2
+  day: dayone
+  type: presentation
+  place: Main Stage
+  time: "09:15"
+  title: "Sandworm: The Tales of the Unfanthom deep"
+  author:
+    - Andy Greenberg
+  special: Keynote
+
+- id: 3
+  day: dayone
+  type: presentation
+  place: Main Stage
+  time: "10:00"
+  title: Automotive DoIP and forensic analysis for automotive systems
+  author:
+    - Christopher Corbett
+    - Kevin Gomez Buquerin
+  permalink: program/presentations/christopher-kevin/
+
+- id: 4
+  day: dayone
+  type: break
+  place: Main Stage
+  time: "10:45"
+  title: Coffee Break
+
+
+## HARLEM
+
+- id: 5
+  day: dayone
+  type: presentation
+  place: Harlem Stage
+  time: "10:00"
+  title: Layered Blueprints – an ontology and method for (talking about) engineering OT Security
+  author:
+    - Sarah Fluchs
+  permalink: program/presentations/sarah-fluchs/
+
+## STACKEN
+
+- id: 6
+  day: dayone
+  type: common
+  place: Stacken Stage
+  time: "13:00"
+  title: The Ukraine Crisis
+  author:
+    - Matan Dobrushin
+    - Yoav Flint Rosenfeld
+    - Erwin Paternotte
+    - Mattijs van Ommerern
+    - Christian Augustat
+  special: Panel
+
+
+# DAY TWO - TUESDAY
+#-----------------#
+## MAIN STAGE
+
+- id: 4
+  day: daytwo
+  type: break
+  place: Main Stage
+  time: "10:45"
+  title: Coffee Break
+
+
+## HARLEM
+
+- id: 5
+  day: daytwo
+  type: presentation
+  place: Harlem Stage
+  time: "10:00"
+  title: Layered Blueprints – an ontology and method for (talking about) engineering OT Security
+  author:
+    - Sarah Fluchs
+
+
+## STACKEN
+
+- id: 6
+  day: daytwo
+  type: common
+  place: Stacken Stage
+  time: "13:00"
+  title: The Ukraine Crisis
+  author:
+    - Matan Dobrushin
+    - Yoav Flint Rosenfeld
+    - Erwin Paternotte
+    - Mattijs van Ommerern
+    - Christian Augustat
+  special: Panel
+
+
+# DAY THREE - WEDNESDAY
+#---------------------#
+## MAIN STAGE
+
+- id:
+  day: daythree
+  type: common
+  place: Main Stage
+  time: "09:00"
+  title: Placeholder - day 03
+
+## HARLEM
+
+- id:
+  day: daythree
+  type: common
+  place: Harlem Stage
+  time: "11:00"
+  title: Placeholder - day 03
+
+## STACKEN
+
+- id:
+  day: daythree
+  type: common
+  place: Stacken Stage
+  time: "12:00"
+  title: Placeholder - day 03
+
+
+# DAY FOUR - THURSDAY
+#-------------------#
+## MAIN STAGE
+
+- id:
+  day: dayfour
+  type: common
+  place: Main Stage
+  time: "14:00"
+  title: Placeholder - day 04
+
+## HARLEM
+
+- id:
+  day: dayfour
+  type: common
+  place: Harlem Stage
+  time: "15:00"
+  title: Placeholder - day 04
+
+## STACKEN
+
+- id:
+  day: dayfour
+  type: common
+  place: Stacken Stage
+  time: "16:00"
+  title: Placeholder - day 04
+

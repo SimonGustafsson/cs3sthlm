@@ -604,14 +604,6 @@
   
    {
      
-        "title"    : "Welcome",
-        "url"      : "/welcome/",
-        "path"     : "/welcome/"
-     
-   },
-  
-   {
-     
         "title"    : "Call for Participation",
         "url"      : "/call-for-proposals/",
         "path"     : "/call-for-proposals/"

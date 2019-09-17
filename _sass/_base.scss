@@ -904,6 +904,7 @@ a {
   &.sticky-block {
     position: fixed;
     top: 0;
+    left: -1px;
     z-index: 999;
     box-shadow: 0 0 14px rgba($dark, .3);
   }

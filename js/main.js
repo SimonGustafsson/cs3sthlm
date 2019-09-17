@@ -28,6 +28,18 @@ $(window).scroll(function(){
     }
 });
 
+$(window).scroll(function(){
+    if ($(window).scrollTop() >= 670) {
+        $('.agenda-content-header').addClass('sticky-block');
+        $('.agenda-content-header-hidden-spacer').addClass('show-spacer');
+    }
+    else {
+        $('.agenda-content-header').removeClass('sticky-block');
+        $('.agenda-content-header-hidden-spacer').removeClass('show-spacer');
+    }
+});
+
+
 
 $('.menu-item').on('click', function(){
     $('.menu--primary').toggleClass('menu-open');
@@ -54,75 +66,111 @@ $(".modal-close").on('click', function(){
     $('body').toggleClass('overlay-active');
 });
 
-$('#d1-btn').on('click', function(){
-    $('#d2, #d3, #d4').removeClass('agenda--content-open');
-    $('#d1').addClass('agenda--content-open');
-    $('#d1-btn').addClass('active-item');
-    $('#d2-btn, #d3-btn, #d4-btn').removeClass('active-item');
+$('#dayone-button').on('click', function(){
+    $('#dayone-button').addClass('agenda-header-item-active');
+    $('#daytwo-button, #daythree-button, #dayfour-button').removeClass('agenda-header-item-active');
+    $('#dayone').addClass('agenda-day-active');
+    $('#daytwo, #daythree, #dayfour').removeClass('agenda-day-active');
 });
 
-$('#d2-btn').on('click', function(){
-    $('#d1, #d3, #d4').removeClass('agenda--content-open');
-    $('#d2').addClass('agenda--content-open');
-    $('#d2-btn').addClass('active-item');
-    $('#d1-btn, #d3-btn, #d4-btn').removeClass('active-item');
+$('#dayone-mainstage-button').on('click', function(){
+    $('#dayone-mainstage-button').addClass('agenda-content-header-item-active');
+    $('#dayone-harlem-button, #dayone-stacken-button').removeClass('agenda-content-header-item-active');
+    $('#dayone-mainstage').addClass('agenda-content-column-active');
+    $('#dayone-harlem, #dayone-stacken').removeClass('agenda-content-column-active');
+});
+$('#dayone-harlem-button').on('click', function(){
+    $('#dayone-harlem-button').addClass('agenda-content-header-item-active');
+    $('#dayone-mainstage-button, #dayone-stacken-button').removeClass('agenda-content-header-item-active');
+    $('#dayone-harlem').addClass('agenda-content-column-active');
+    $('#dayone-mainstage, #dayone-stacken').removeClass('agenda-content-column-active');
+});
+$('#dayone-stacken-button').on('click', function(){
+    $('#dayone-stacken-button').addClass('agenda-content-header-item-active');
+    $('#dayone-mainstage-button, #dayone-harlem-button').removeClass('agenda-content-header-item-active');
+    $('#dayone-stacken').addClass('agenda-content-column-active');
+    $('#dayone-mainstage, #dayone-harlem').removeClass('agenda-content-column-active');
 });
 
-$('#d3-btn').on('click', function(){
-    $('#d1, #d2, #d4').removeClass('agenda--content-open');
-    $('#d3').addClass('agenda--content-open');
-    $('#d3-btn').addClass('active-item');
-    $('#d1-btn, #d2-btn, #d4-btn').removeClass('active-item');
+$('#daytwo-button').on('click', function(){
+    $('#daytwo-button').addClass('agenda-header-item-active');
+    $('#dayone-button, #daythree-button, #dayfour-button').removeClass('agenda-header-item-active');
+    $('#daytwo').addClass('agenda-day-active');
+    $('#dayone, #daythree, #dayfour').removeClass('agenda-day-active');
 });
 
-$('#d4-btn').on('click', function(){
-    $('#d1, #d2, #d3').removeClass('agenda--content-open');
-    $('#d4').addClass('agenda--content-open');
-    $('#d4-btn').addClass('active-item');
-    $('#d1-btn, #d2-btn, #d3-btn').removeClass('active-item');
+$('#daytwo-mainstage-button').on('click', function(){
+    $('#daytwo-mainstage-button').addClass('agenda-content-header-item-active');
+    $('#daytwo-harlem-button, #daytwo-stacken-button').removeClass('agenda-content-header-item-active');
+    $('#daytwo-mainstage').addClass('agenda-content-column-active');
+    $('#daytwo-harlem, #daytwo-stacken').removeClass('agenda-content-column-active');
+});
+$('#daytwo-harlem-button').on('click', function(){
+    $('#daytwo-harlem-button').addClass('agenda-content-header-item-active');
+    $('#daytwo-mainstage-button, #daytwo-stacken-button').removeClass('agenda-content-header-item-active');
+    $('#daytwo-harlem').addClass('agenda-content-column-active');
+    $('#daytwo-mainstage, #daytwo-stacken').removeClass('agenda-content-column-active');
+});
+$('#daytwo-stacken-button').on('click', function(){
+    $('#daytwo-stacken-button').addClass('agenda-content-header-item-active');
+    $('#daytwo-mainstage-button, #daytwo-harlem-button').removeClass('agenda-content-header-item-active');
+    $('#daytwo-stacken').addClass('agenda-content-column-active');
+    $('#daytwo-mainstage, #daytwo-harlem').removeClass('agenda-content-column-active');
 });
 
-$('#d2-main-btn').on('click', function(){
-    $('#d2-forum-content').removeClass('agenda--content-open');
-    $('#d2-main-content').addClass('agenda--content-open');
-    $('#d2-main-btn').addClass('btn-agenda-active');
-    $('#d2-forum-btn').removeClass('btn-agenda-active');
+$('#daythree-button').on('click', function(){
+    $('#daythree-button').addClass('agenda-header-item-active');
+    $('#dayone-button, #daytwo-button, #dayfour-button').removeClass('agenda-header-item-active');
+    $('#daythree').addClass('agenda-day-active');
+    $('#dayone, #daytwo, #dayfour').removeClass('agenda-day-active');
 });
 
-$('#d2-forum-btn').on('click', function(){
-    $('#d2-main-content').removeClass('agenda--content-open');
-    $('#d2-forum-content').addClass('agenda--content-open');
-    $('#d2-forum-btn').addClass('btn-agenda-active');
-    $('#d2-main-btn').removeClass('btn-agenda-active');
+$('#daythree-mainstage-button').on('click', function(){
+    $('#daythree-mainstage-button').addClass('agenda-content-header-item-active');
+    $('#daythree-harlem-button, #daythree-stacken-button').removeClass('agenda-content-header-item-active');
+    $('#daythree-mainstage').addClass('agenda-content-column-active');
+    $('#daythree-harlem, #daythree-stacken').removeClass('agenda-content-column-active');
+});
+$('#daythree-harlem-button').on('click', function(){
+    $('#daythree-harlem-button').addClass('agenda-content-header-item-active');
+    $('#daythree-mainstage-button, #daythree-stacken-button').removeClass('agenda-content-header-item-active');
+    $('#daythree-harlem').addClass('agenda-content-column-active');
+    $('#daythree-mainstage, #daythree-stacken').removeClass('agenda-content-column-active');
+});
+$('#daythree-stacken-button').on('click', function(){
+    $('#daythree-stacken-button').addClass('agenda-content-header-item-active');
+    $('#daythree-mainstage-button, #daythree-harlem-button').removeClass('agenda-content-header-item-active');
+    $('#daythree-stacken').addClass('agenda-content-column-active');
+    $('#daythree-mainstage, #daythree-harlem').removeClass('agenda-content-column-active');
 });
 
-$('#d3-main-btn').on('click', function(){
-    $('#d3-forum-content').removeClass('agenda--content-open');
-    $('#d3-main-content').addClass('agenda--content-open');
-    $('#d3-main-btn').addClass('btn-agenda-active');
-    $('#d3-forum-btn').removeClass('btn-agenda-active');
+$('#dayfour-button').on('click', function(){
+    $('#dayfour-button').addClass('agenda-header-item-active');
+    $('#dayone-button, #daytwo-button, #daythree-button').removeClass('agenda-header-item-active');
+    $('#dayfour').addClass('agenda-day-active');
+    $('#dayone, #daytwo, #daythree').removeClass('agenda-day-active');
 });
 
-$('#d3-forum-btn').on('click', function(){
-    $('#d3-main-content').removeClass('agenda--content-open');
-    $('#d3-forum-content').addClass('agenda--content-open');
-    $('#d3-forum-btn').addClass('btn-agenda-active');
-    $('#d3-main-btn').removeClass('btn-agenda-active');
+$('#dayfour-mainstage-button').on('click', function(){
+    $('#dayfour-mainstage-button').addClass('agenda-content-header-item-active');
+    $('#dayfour-harlem-button, #dayfour-stacken-button').removeClass('agenda-content-header-item-active');
+    $('#dayfour-mainstage').addClass('agenda-content-column-active');
+    $('#dayfour-harlem, #dayfour-stacken').removeClass('agenda-content-column-active');
+});
+$('#dayfour-harlem-button').on('click', function(){
+    $('#dayfour-harlem-button').addClass('agenda-content-header-item-active');
+    $('#dayfour-mainstage-button, #dayfour-stacken-button').removeClass('agenda-content-header-item-active');
+    $('#dayfour-harlem').addClass('agenda-content-column-active');
+    $('#dayfour-mainstage, #dayfour-stacken').removeClass('agenda-content-column-active');
+});
+$('#dayfour-stacken-button').on('click', function(){
+    $('#dayfour-stacken-button').addClass('agenda-content-header-item-active');
+    $('#dayfour-mainstage-button, #dayfour-harlem-button').removeClass('agenda-content-header-item-active');
+    $('#dayfour-stacken').addClass('agenda-content-column-active');
+    $('#dayfour-mainstage, #dayfour-harlem').removeClass('agenda-content-column-active');
 });
 
-$('#d4-main-btn').on('click', function(){
-    $('#d4-forum-content').removeClass('agenda--content-open');
-    $('#d4-main-content').addClass('agenda--content-open');
-    $('#d4-main-btn').addClass('btn-agenda-active');
-    $('#d4-forum-btn').removeClass('btn-agenda-active');
-});
 
-$('#d4-forum-btn').on('click', function(){
-    $('#d4-main-content').removeClass('agenda--content-open');
-    $('#d4-forum-content').addClass('agenda--content-open');
-    $('#d4-forum-btn').addClass('btn-agenda-active');
-    $('#d4-main-btn').removeClass('btn-agenda-active');
-});
 
 $(document).ready( function(){
 
