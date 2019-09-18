@@ -1580,12 +1580,14 @@ a {
           letter-spacing: 1px; }
           .introduction .intro-mark .button-group-intro .button:first-of-type {
             margin-top: 0;
-            order: 1; }
+            order: 1;
+            width: 40%; }
           .introduction .intro-mark .button-group-intro .button:nth-child(3) {
             margin-top: 24px;
             order: 3; }
           .introduction .intro-mark .button-group-intro .button:nth-child(2) {
             margin-left: 4%;
+            width: 56%;
             order: 2; }
           .introduction .intro-mark .button-group-intro .button:last-of-type {
             width: 100%;

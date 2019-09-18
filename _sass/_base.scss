@@ -1996,6 +1996,7 @@ a {
         &:first-of-type {
           margin-top: 0;
           order: 1;
+          width: 40%;
         }
         &:nth-child(3) {
           margin-top: 24px;
@@ -2003,6 +2004,7 @@ a {
         }
         &:nth-child(2) {
           margin-left: 4%;
+          width: 56%;
           order: 2;
         }
         &:last-of-type {
