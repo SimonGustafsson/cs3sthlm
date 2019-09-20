@@ -42,7 +42,7 @@
 	},
 
 	{
-		"id"		: "2",
+		"id"		: "19",
 		"type"		: "presentation",
 		"name"		: "Andreas Erdich",
 		"role"		: "Hardware Engineer",
@@ -124,7 +124,7 @@
 	},
 
 	{
-		"id"		: "32",
+		"id"		: "34",
 		"type"		: "moderator",
 		"name"		: "Anne-Marie Eklund Löwinder",
 		"role"		: "Chief Information Security Officer",
@@ -165,7 +165,7 @@
 	},
 
 	{
-		"id"		: "3",
+		"id"		: "31",
 		"type"		: "training",
 		"name"		: "Arnaud Soullié",
 		"role"		: "Cybersecurity R&D Manager",
@@ -206,7 +206,48 @@
 	},
 
 	{
-		"id"		: "4",
+		"id"		: "37",
+		"type"		: "presentation",
+		"name"		: "Cdr Michael Widmann",
+		"role"		: "Strategy Branch Chief",
+		"work"		: "CCDCOE",
+		"country"	: "United States",
+		"shortcode"	: "US",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/cdr-michael-widmann.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"none",
+			"title": 	"",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": "<p>Commander Michael Widmann is the Strategy Branch head for the NATO Cooperative Cyber Defence Centre of Excellence (CCDCOE) based in Tallinn, Estonia. He reported to the CCDCOE in August 2016.</p><p>Michael was commissioned in the United States Navy in 2000 as a Surface Warfare Officer. He served forward deployed in Japan as Main Propulsion Division Officer aboard USS JUNEAU (LPD 10) and Auxiliaries Division Officer aboard USS KITTY HAWK (CV 64). In 2005 Michael became an Information Professional Officer specializing in Naval Communications. He continued serving in the following capacities: Information Assurance Officer and Knowledge Manager for Strike Force Training Atlantic in Norfolk, Virginia; Officer in Charge of Afghan National Security Forces Networks and Radios as well as a mentor for the Afghan National Police in Kabul, Afghanistan; Operations Officer at the Naval Computer and Telecommunications Area Master Station Atlantic in Norfolk, Virginia; Service Chief representative at the Defense Advanced Research Projects Agency (DARPA) in Arlington, Virginia; and Staff Officer in the Analysis and Concepts Branch at the NATO Command and Control Centre of Excellence in Utrecht, Netherlands.</p><p>Commander Widmann earned a Bachelor’s of Science in Economics from the United States Naval Academy as well as a Master’s of Science in Space Systems Operations from the United States Naval Postgraduate School.</p>"
+	},
+
+	{
+		"id"		: "12",
 		"type"		: "presentation",
 		"name"		: "Christian Augustat",
 		"role"		: "Principal Engineer",
@@ -247,7 +288,7 @@
 	},
 
 	{
-		"id"		: "5",
+		"id"		: "2",
 		"type"		: "presentation",
 		"name"		: "Christopher Corbett",
 		"role"		: "Junior Incident Responder",
@@ -288,7 +329,7 @@
 	},
 
 	{
-		"id"		: "34",
+		"id"		: "28",
 		"type"		: "presentation",
 		"name"		: "Daniel Stenberg",
 		"role"		: "Software Engineer",
@@ -329,7 +370,7 @@
 	},
 
 	{
-		"id"		: "35",
+		"id"		: "29",
 		"type"		: "presentation",
 		"name"		: "Didrik Ehrenborg",
 		"role"		: "Time & Sync Expert",
@@ -370,7 +411,7 @@
 	},
 
 	{
-		"id"		: "6",
+		"id"		: "28",
 		"type"		: "presentation",
 		"name"		: "Dieter Sarrazyn",
 		"role"		: "Security Expert",
@@ -411,7 +452,7 @@
 	},
 
 	{
-		"id"		: "33",
+		"id"		: "35",
 		"type"		: "moderator",
 		"name"		: "Erik 'Z' Johansson",
 		"role"		: "Independent Security Consultant",
@@ -452,7 +493,7 @@
 	},
 
 	{
-		"id"		: "7",
+		"id"		: "32",
 		"type"		: "training",
 		"name"		: "Erik Hjelmvik",
 		"role"		: "Network Analyst",
@@ -493,7 +534,7 @@
 	},
 
 	{
-		"id"		: "8",
+		"id"		: "4",
 		"type"		: "presentation",
 		"name"		: "Erwin Paternotte",
 		"role"		: "Lead Security Consultant",
@@ -534,7 +575,7 @@
 	},
 
 	{
-		"id"		: "9",
+		"id"		: "30",
 		"type"		: "special",
 		"name"		: "Herman Geijer",
 		"role"		: "Zombie Survival Expert",
@@ -575,7 +616,48 @@
 	},
 
 	{
-		"id"		: "10",
+		"id"		: "40",
+		"type"		: "presentation",
+		"name"		: "Jarkko Huttunen",
+		"role"		: "Head of Solutions",
+		"work"		: "Arctic Security",
+		"country"	: "Finland",
+		"shortcode"	: "FI",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/temp.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"none",
+			"title": 	"",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": "<p>Jarkko is a head of solutions in Arctic Security with over 15 years information security experience. He has been working globally with both public and private sector. His main role has been in customer support and consulting related to AbuseSA threat intel platform. Jarkko has extensive experience in cyber defence exercises. He has been part of the Locked Shields since 2012 and has been one of the leaders of the exercise since 2013. His team’s main tasks in the Locked Shields is the situation awareness and reporting.</p>"
+	},
+
+	{
+		"id"		: "33",
 		"type"		: "training",
 		"name"		: "Jasper Hooft",
 		"role"		: "ICS Security Consultant",
@@ -616,7 +698,7 @@
 	},
 
 	{
-		"id"		: "11",
+		"id"		: "20",
 		"type"		: "presentation",
 		"name"		: "Jens Wiesner",
 		"role"		: "Dipl. Phys.",
@@ -657,7 +739,7 @@
 	},
 
 	{
-		"id"		: "12",
+		"id"		: "16",
 		"type"		: "presentation",
 		"name"		: "Jimmy Wylie",
 		"role"		: "Senior Adversary Hunter",
@@ -698,7 +780,7 @@
 	},
 
 	{
-		"id"		: "13",
+		"id"		: "21",
 		"type"		: "presentation",
 		"name"		: "Jonathan Jogenfors",
 		"role"		: "Research Manager",
@@ -739,7 +821,7 @@
 	},
 
 	{
-		"id"		: "14",
+		"id"		: "3",
 		"type"		: "presentation",
 		"name"		: "Kevin Gomez Buquerin",
 		"role"		: "Junior Incident Responder",
@@ -780,7 +862,7 @@
 	},
 
 	{
-		"id"		: "15",
+		"id"		: "6",
 		"type"		: "presentation",
 		"name"		: "Khalid Ansari",
 		"role"		: "Automation & MES Engineer",
@@ -821,7 +903,7 @@
 	},
 
 	{
-		"id"		: "16",
+		"id"		: "7",
 		"type"		: "presentation",
 		"name"		: "Marina Krotofil",
 		"role"		: "Senior Security Engineer",
@@ -862,7 +944,7 @@
 	},
 
 	{
-		"id"		: "17",
+		"id"		: "8",
 		"type"		: "presentation",
 		"name"		: "Markus Mahrla",
 		"role"		: "Security Consultant",
@@ -903,7 +985,7 @@
 	},
 
 	{
-		"id"		: "18",
+		"id"		: "9",
 		"type"		: "presentation",
 		"name"		: "Matan Dobrushin",
 		"role"		: "Head of OT Research",
@@ -944,7 +1026,7 @@
 	},
 
 	{
-		"id"		: "19",
+		"id"		: "5",
 		"type"		: "presentation",
 		"name"		: "Mattijs van Ommeren",
 		"role"		: "Lead Consultant",
@@ -985,7 +1067,7 @@
 	},
 
 	{
-		"id"		: "20",
+		"id"		: "11",
 		"type"		: "presentation",
 		"name"		: "Mona Lange",
 		"role"		: "Cyber Defense Team Lead",
@@ -1026,7 +1108,7 @@
 	},
 
 	{
-		"id"		: "21",
+		"id"		: "13",
 		"type"		: "presentation",
 		"name"		: "Monta Elkins",
 		"role"		: "Hacker-in-Chief",
@@ -1108,7 +1190,7 @@
 	},
 
 	{
-		"id"		: "23",
+		"id"		: "14",
 		"type"		: "presentation",
 		"name"		: "Prasanna N",
 		"role"		: "R&D Engineer",
@@ -1149,7 +1231,7 @@
 	},
 
 	{
-		"id"		: "31",
+		"id"		: "27",
 		"type"		: "presentation",
 		"name"		: "Ragnar Sundblad",
 		"role"		: "Time Worker",
@@ -1190,7 +1272,7 @@
 	},
 
 	{
-		"id"		: "24",
+		"id"		: "15",
 		"type"		: "presentation",
 		"name"		: "Reid Wightman",
 		"role"		: "Senior Vulnerability Researcher",
@@ -1231,7 +1313,7 @@
 	},
 
 	{
-		"id"		: "25",
+		"id"		: "26",
 		"type"		: "presentation",
 		"name"		: "Richard Widh",
 		"role"		: "Senior Cyber Security Expert & CEO",
@@ -1272,7 +1354,7 @@
 	},
 
 	{
-		"id"		: "26",
+		"id"		: "23",
 		"type"		: "presentation",
 		"name"		: "Rikard Bodforss",
 		"role"		: "CEO & Senior Partner",
@@ -1313,7 +1395,48 @@
 	},
 
 	{
-		"id"		: "27",
+		"id"		: "38",
+		"type"		: "presentation",
+		"name"		: "Sandra Bardon Moral",
+		"role"		: "Technology Researcher",
+		"work"		: "CCDCOE",
+		"country"	: "Spain",
+		"shortcode"	: "ES",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/sandra-bardon-moral.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"none",
+			"title": 	"",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": "<p>With 10 years of experience in the field of Cyber Security, Sandra is currently a technical researcher at CCDCOE and previously she was part of the Joint Spanish Cyber Command at the Spanish Ministry of Defence. Throughout her career, she has led several projects in the field of cybersecurity and pentesting, both nationally and internationally, covering design, development and execution of the project.</p><p>Sandra is a regular participant in various international Cyber Exercises, including as Locked Shields, Crossed Swords, Cyber Coalition and Cyber Europe, and has technically led the first national Cyber Exercise in the Joint Spanish Cyber Command. She is also a speaker at conferences related to Cyber Security and a Professor of Master of Digital Evidence Analysis and Fight against Cybercrime at the ‘Universidad Autónoma de Madrid’. Sandra is also a member of #SomosMujeresTech (WeAreTechWomen) group, which aims to promote the visibility of women in leadership positions within the world of the technology and innovation sectors.</p><p>Sandra is a Telecommunications Engineer with postgraduate Master’s Degrees in both Telecommunications Engineering and Information and Computer Systems Security/Information Assurance, from the European University of Madrid. She also has several technical certifications including OSCP, CEH, CSFI-DCOE, and ITIL.</p>"
+	},
+
+	{
+		"id"		: "24",
 		"type"		: "presentation",
 		"name"		: "Sarah Fluchs",
 		"role"		: "Security Consultant",
@@ -1354,7 +1477,48 @@
 	},
 
 	{
-		"id"		: "28",
+		"id"		: "39",
+		"type"		: "presentation",
+		"name"		: "Silver Saks",
+		"role"		: "Technology Researcher",
+		"work"		: "CCDCOE",
+		"country"	: "Estonia",
+		"shortcode"	: "EE",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/silver-saks.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"none",
+			"title": 	"",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": "<p>Silver Saks has been with the NATO Cooperative Cyber Defence Centre of Excellence since October 2017. His primary role is the development, planning and execution of the technical exercises of the Centre, such as Crossed Swords and Locked Shields.</p><p>Alongside his work on the exercises, Silver is also the instructor for IT Systems Attacks and Defence course and conducts research into the infrastructure of Cyber Operations.</p><p>Prior to joining the centre, Silver worked as a system administrator for about 10 years, focusing mostly on Linux systems.</p><p>He is a graduate of Estonian IT College and has Master’s degree in Cyber Security from TalTech.</p>"
+	},
+
+	{
+		"id"		: "17",
 		"type"		: "presentation",
 		"name"		: "Stephen Hilt",
 		"role"		: "Senior Threat Researcher",
@@ -1395,7 +1559,48 @@
 	},
 
 	{
-		"id"		: "29",
+		"id"		: "41",
+		"type"		: "presentation",
+		"name"		: "Thomas Svensson",
+		"role"		: "Deputy Head of National Security",
+		"work"		: "Telia Company Sweden",
+		"country"	: "Sweden",
+		"shortcode"	: "SE",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/thomas-svensson.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"none",
+			"title": 	"",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": "<p>Thomas is deputy head of national security at Telia Company Sweden. Thomas has more than 30 years at Swedish Armed Forces and 10 years in private sector focusing on IT &amp; Information security. He is acting as the deputy white team leader in Locked Shields and  been part of the exercise since early beginning. He is also the author of Handbook for planning, running and evaluating information technology and cyber security exercises. Thomas was awarded the honorary title NATO CCDCOE Senior Fellow on the 4th of September 2019.</p>"
+	},
+
+	{
+		"id"		: "18",
 		"type"		: "presentation",
 		"name"		: "Ulf Frisk",
 		"role"		: "Pentester & Security Researcher",
@@ -1436,7 +1641,7 @@
 	},
 
 	{
-		"id"		: "30",
+		"id"		: "10",
 		"type"		: "presentation",
 		"name"		: "Yoav Flint Rosenfeld",
 		"role"		: "Head of OT Research",

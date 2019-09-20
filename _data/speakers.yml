@@ -31,7 +31,7 @@
   training:
     - active: none
 
-- id: 2
+- id: 19
   type: presentation
   permalink:
   name: Andreas Erdich
@@ -94,7 +94,7 @@
   training:
     - active: none
 
-- id: 32
+- id: 34
   type: moderator
   permalink:
   name: Anne-Marie Eklund Löwinder
@@ -116,7 +116,7 @@
   training:
     - active: none
 
-- id: 3
+- id: 31
   type: training
   permalink:
   name: Arnaud Soullié
@@ -258,7 +258,38 @@
 
         Please try to run a 64-bit VM prior to the training.
 
-- id: 4
+- id: 37
+  type: presentation
+  permalink:
+  name: Cdr Michael Widmann
+  role: Strategy Branch Chief
+  work: CCDCOE
+  country: United States
+  shortcode: US
+  image: cdr-michael-widmann.png
+  bio: |
+    Commander Michael Widmann is the Strategy Branch head for the NATO Cooperative Cyber Defence Centre of Excellence (CCDCOE) based in Tallinn, Estonia. He reported to the CCDCOE in August 2016.
+    
+    Michael was commissioned in the United States Navy in 2000 as a Surface Warfare Officer. He served forward deployed in Japan as Main Propulsion Division Officer aboard USS JUNEAU (LPD 10) and Auxiliaries Division Officer aboard USS KITTY HAWK (CV 64). In 2005 Michael became an Information Professional Officer specializing in Naval Communications. He continued serving in the following capacities: Information Assurance Officer and Knowledge Manager for Strike Force Training Atlantic in Norfolk, Virginia; Officer in Charge of Afghan National Security Forces Networks and Radios as well as a mentor for the Afghan National Police in Kabul, Afghanistan; Operations Officer at the Naval Computer and Telecommunications Area Master Station Atlantic in Norfolk, Virginia; Service Chief representative at the Defense Advanced Research Projects Agency (DARPA) in Arlington, Virginia; and Staff Officer in the Analysis and Concepts Branch at the NATO Command and Control Centre of Excellence in Utrecht, Netherlands.
+    
+    Commander Widmann earned a Bachelor’s of Science in Economics from the United States Naval Academy as well as a Master’s of Science in Space Systems Operations from the United States Naval Postgraduate School.
+  date:
+  time:
+  place:
+  speaker:
+    - name: Cdr Michael Widmann
+      role: Strategy Branch Chief
+      image: cdr-michael-widmann
+  presentation:
+    - active: none
+      subject:
+      permalink:
+      partner:
+      description:
+  training:
+    - active: none
+
+- id: 12
   type: presentation
   permalink:
   name: Christian Augustat
@@ -296,7 +327,7 @@
   training:
     - active: none
 
-- id: 5
+- id: 2
   type: presentation
   permalink:
   name: Christopher Corbett
@@ -334,7 +365,7 @@
   training:
     - active: none
 
-- id: 34
+- id: 28
   type: presentation
   permalink:
   name: Daniel Stenberg
@@ -362,7 +393,7 @@
     - active: none
 
 
-- id: 35
+- id: 29
   type: presentation
   permalink:
   name: Didrik Ehrenborg
@@ -393,7 +424,7 @@
   training:
     - active: none
 
-- id: 6
+- id: 28
   type: presentation
   permalink:
   name: Dieter Sarrazyn
@@ -423,7 +454,7 @@
    - active: none
 
 
-- id: 33
+- id: 35
   type: moderator
   permalink:
   name: Erik 'Z' Johansson
@@ -446,7 +477,7 @@
     - active: none
 
 
-- id: 7
+- id: 32
   type: training
   permalink:
   name: Erik Hjelmvik
@@ -543,7 +574,7 @@
         Please note that having a 64-bit CPU and a 64-bit OS is not always enough to support 64-bit virtualization. You might need to enable features such as ”AMD-V”, ”VT-x” or ”Hyper-V” in BIOS in order to run virtual machines in 64-bit mode. You might also need to turn off "Intel Trusted Execution" in BIOS. One way to verify that your laptop supports 64-bit virtualization is to download the SecurityOnion ISO and see if it boots up in VirtualBox.
 
 
-- id: 8
+- id: 4
   type: presentation
   permalink:
   name: Erwin Paternotte
@@ -589,7 +620,7 @@
     - active: none
 
 
-- id: 9
+- id: 30
   type: special
   permalink:
   name: Herman Geijer
@@ -616,7 +647,33 @@
   training:
     - active: none
 
-- id: 10
+- id: 40
+  type: presentation
+  permalink:
+  name: Jarkko Huttunen
+  role: Head of Solutions
+  work: Arctic Security
+  country: Finland
+  shortcode: FI
+  image: temp.png
+  bio: Jarkko is a head of solutions in Arctic Security with over 15 years information security experience. He has been working globally with both public and private sector. His main role has been in customer support and consulting related to AbuseSA threat intel platform. Jarkko has extensive experience in cyber defence exercises. He has been part of the Locked Shields since 2012 and has been one of the leaders of the exercise since 2013. His team's main tasks in the Locked Shields is the situation awareness and reporting.
+  date:
+  time:
+  place:
+  speaker:
+    - name: Jarkko Huttunen
+      role: Head of Solutions
+      image: temp
+  presentation:
+    - active: none
+      subject:
+      permalink:
+      partner:
+      description:
+  training:
+    - active: none
+
+- id: 33
   type: training
   permalink:
   name: Jasper Hooft
@@ -748,7 +805,7 @@
 
         *The students should bring their own laptop or tablet to read and use the training handouts and exercise descriptions.*
 
-- id: 11
+- id: 20
   type: presentation
   permalink:
   name: Jens Wiesner
@@ -785,7 +842,7 @@
     - active: none
 
 
-- id: 12
+- id: 16
   type: presentation
   permalink:
   name: Jimmy Wylie
@@ -826,7 +883,7 @@
   training:
     - active: none
 
-- id: 13
+- id: 21
   type: presentation
   permalink:
   name: Jonathan Jogenfors
@@ -868,7 +925,7 @@
   training:
     - active: none
 
-- id: 14
+- id: 3
   type: presentation
   permalink:
   name: Kevin Gomez Buquerin
@@ -906,7 +963,7 @@
   training:
     - active: none
 
-- id: 15
+- id: 6
   type: presentation
   permalink:
   name: Khalid Ansari
@@ -944,7 +1001,7 @@
     - active: none
 
 
-- id: 16
+- id: 7
   type: presentation
   permalink:
   name: Marina Krotofil
@@ -993,7 +1050,7 @@
     - active: none
 
 
-- id: 17
+- id: 8
   type: presentation
   permalink:
   name: Markus Mahrla
@@ -1026,7 +1083,7 @@
   training:
     - active: none
 
-- id: 18 
+- id: 9
   type: presentation
   permalink:
   name: Matan Dobrushin
@@ -1087,7 +1144,7 @@
     - active: none
 
 
-- id: 19
+- id: 5
   type: presentation
   permalink:
   name: Mattijs van Ommeren
@@ -1133,7 +1190,7 @@
     - active: none
 
 
-- id: 20
+- id: 11
   type: presentation
   permalink:
   name: Mona Lange
@@ -1171,7 +1228,7 @@
   training:
     - active: none
 
-- id: 21
+- id: 13
   type: presentation
   permalink:
   name: Monta Elkins
@@ -1264,7 +1321,7 @@
     - active: none
 
 
-- id: 23
+- id: 14
   type: presentation
   permalink:
   name: Prasanna N
@@ -1293,7 +1350,7 @@
   training:
     - active: none
 
-- id: 31
+- id: 27
   type: presentation
   permalink:
   name: Ragnar Sundblad
@@ -1324,7 +1381,7 @@
   training:
     - active: none
 
-- id: 24
+- id: 15
   type: presentation
   permalink:
   name: Reid Wightman
@@ -1365,7 +1422,7 @@
   training:
     - active: none
 
-- id: 25
+- id: 26
   type: presentation
   permalink:
   name: Richard Widh
@@ -1393,7 +1450,7 @@
     - active: none
 
 
-- id: 26
+- id: 23
   type: presentation
   permalink:
   name: Rikard Bodforss
@@ -1432,7 +1489,38 @@
   training:
     - active: none
 
-- id: 27
+- id: 38
+  type: presentation
+  permalink:
+  name: Sandra Bardon Moral
+  role: Technology Researcher
+  work: CCDCOE
+  country: Spain
+  shortcode: ES
+  image: sandra-bardon-moral.png
+  bio: |
+    With 10 years of experience in the field of Cyber Security, Sandra is currently a technical researcher at CCDCOE and previously she was part of the Joint Spanish Cyber Command at the Spanish Ministry of Defence. Throughout her career, she has led several projects in the field of cybersecurity and pentesting, both nationally and internationally, covering design, development and execution of the project.
+
+    Sandra is a regular participant in various international Cyber Exercises, including as Locked Shields, Crossed Swords, Cyber Coalition and Cyber Europe, and has technically led the first national Cyber Exercise in the Joint Spanish Cyber Command. She is also a speaker at conferences related to Cyber Security and a Professor of Master of Digital Evidence Analysis and Fight against Cybercrime at the ‘Universidad Autónoma de Madrid’. Sandra is also a member of #SomosMujeresTech (WeAreTechWomen) group, which aims to promote the visibility of women in leadership positions within the world of the technology and innovation sectors.
+
+    Sandra is a Telecommunications Engineer with postgraduate Master’s Degrees in both Telecommunications Engineering and Information and Computer Systems Security/Information Assurance, from the European University of Madrid. She also has several technical certifications including OSCP, CEH, CSFI-DCOE, and ITIL.
+  date:
+  time:
+  place:
+  speaker:
+    - name: Sandra Bardon Moral
+      role: Technology Researcher
+      image: sandra-bardon-moral
+  presentation:
+    - active: none
+      subject:
+      permalink:
+      partner:
+      description:
+  training:
+    - active: none
+
+- id: 24
   type: presentation
   permalink:
   name: Sarah Fluchs 
@@ -1479,7 +1567,40 @@
   training:
     - active: none
 
-- id: 28
+- id: 39
+  type: presentation
+  permalink:
+  name: Silver Saks
+  role: Technology Researcher
+  work: CCDCOE
+  country: Estonia
+  shortcode: EE
+  image: silver-saks.png
+  bio: |
+    Silver Saks has been with the NATO Cooperative Cyber Defence Centre of Excellence since October 2017. His primary role is the development, planning and execution of the technical exercises of the Centre, such as Crossed Swords and Locked Shields.
+
+    Alongside his work on the exercises, Silver is also the instructor for IT Systems Attacks and Defence course and conducts research into the infrastructure of Cyber Operations.
+
+    Prior to joining the centre, Silver worked as a system administrator for about 10 years, focusing mostly on Linux systems.
+
+    He is a graduate of Estonian IT College and has Master’s degree in Cyber Security from TalTech.
+  date:
+  time:
+  place:
+  speaker:
+    - name: Silver Saks
+      role: Technology Researcher
+      image: silver-saks
+  presentation:
+    - active: none
+      subject:
+      permalink:
+      partner:
+      description:
+  training:
+    - active: none
+
+- id: 17
   type: presentation
   permalink:
   name: Stephen Hilt
@@ -1525,7 +1646,33 @@
   training:
     - active: none
 
-- id: 29
+- id: 41
+  type: presentation
+  permalink:
+  name: Thomas Svensson
+  role: Deputy Head of National Security
+  work: Telia Company Sweden
+  country: Sweden
+  shortcode: SE
+  image: thomas-svensson.png
+  bio: Thomas is deputy head of national security at Telia Company Sweden. Thomas has more than 30 years at Swedish Armed Forces and 10 years in private sector focusing on IT & Information security. He is acting as the deputy white team leader in Locked Shields and  been part of the exercise since early beginning. He is also the author of Handbook for planning, running and evaluating information technology and cyber security exercises. Thomas was awarded the honorary title NATO CCDCOE Senior Fellow on the 4th of September 2019.
+  date:
+  time:
+  place:
+  speaker:
+    - name: Thomas Svensson
+      role: Deputy Head of National Security
+      image: thomas-svensson
+  presentation:
+    - active: none
+      subject:
+      permalink:
+      partner:
+      description:
+  training:
+    - active: none
+
+- id: 18
   type: presentation
   permalink:
   name: Ulf Frisk
@@ -1554,7 +1701,7 @@
   training:
     - active: none
 
-- id: 30
+- id: 10
   type: presentation
   permalink:
   name: Yoav Flint Rosenfeld
