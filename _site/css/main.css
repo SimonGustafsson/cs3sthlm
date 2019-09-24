@@ -3119,7 +3119,7 @@ a {
   .blog-content p {
     font-size: 21px;
     line-height: 1.5;
-    margin-bottom: 24px;
+    margin-bottom: 48px;
     color: rgba(255, 255, 255, 0.75); }
     .blog-content p:first-of-type {
       font-size: 23px;
@@ -3139,10 +3139,11 @@ a {
       color: white;
       text-decoration: none; }
   .blog-content h4 {
+    font-family: 'latobold', sans-serif;
     font-size: 21px;
     line-height: 1.5;
     margin: 24px 0 0;
-    color: rgba(255, 255, 255, 0.8); }
+    color: #e1e1e1; }
   .blog-content ol, .blog-content ul {
     display: block;
     margin-bottom: 24px; }

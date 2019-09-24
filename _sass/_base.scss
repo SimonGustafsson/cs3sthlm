@@ -4110,7 +4110,7 @@ a {
     p {
       font-size: 21px;
       line-height: 1.5;
-      margin-bottom: 24px;
+      margin-bottom: 48px;
       color: rgba($white, .75);
 
       &:first-of-type {
@@ -4138,10 +4138,11 @@ a {
     }
 
     h4 {
+      font-family: 'latobold', sans-serif;
       font-size: 21px;
       line-height: 1.5;
       margin: 24px 0 0;
-      color: rgba($white, .8);
+      color: $light-gray;
     }
 
     ol, ul {
