@@ -256,13 +256,13 @@
   
    {
      
-        "title"    : "It WISN't Me: Attacking Industrial Wireless Mesh Networks (part II)",
-        "url"      : "/program/presentations/erwin-mattijs/",
-        "path"     : "/program/presentations/erwin-mattijs/"
-     
    },
   
    {
+     
+        "title"    : "Dan Demeter",
+        "url"      : "/about/archive/speakers/dan-demeter",
+        "path"     : "/about/archive/speakers/dan-demeter"
      
    },
   
@@ -351,14 +351,6 @@
         "title"    : "Joe Slowik",
         "url"      : "/about/archive/speakers/joe-slowik",
         "path"     : "/about/archive/speakers/joe-slowik"
-     
-   },
-  
-   {
-     
-        "title"    : "Kristina Blomqvist",
-        "url"      : "/about/archive/speakers/kristina-blomqvist",
-        "path"     : "/about/archive/speakers/kristina-blomqvist"
      
    },
   
@@ -652,9 +644,9 @@
   
    {
      
-        "title"    : "Agenda",
-        "url"      : "/agenda/",
-        "path"     : "/agenda/"
+        "title"    : "Kristina Blomqvist",
+        "url"      : "/about/archive/speakers/kristina-blomqvist",
+        "path"     : "/about/archive/speakers/kristina-blomqvist"
      
    },
   
@@ -748,17 +740,17 @@
   
    {
      
-        "title"    : "Dan Demeter",
-        "url"      : "/about/archive/speakers/dan-demeter",
-        "path"     : "/about/archive/speakers/dan-demeter"
+        "title"    : "Program",
+        "url"      : "/program/",
+        "path"     : "/program/"
      
    },
   
    {
      
-        "title"    : "Program",
-        "url"      : "/program/",
-        "path"     : "/program/"
+        "title"    : "Agenda",
+        "url"      : "/agenda/",
+        "path"     : "/agenda/"
      
    },
   

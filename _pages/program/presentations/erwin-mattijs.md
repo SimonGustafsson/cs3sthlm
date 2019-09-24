@@ -12,7 +12,7 @@ speaker:
   work: Nixu
   image: mattijs-van-ommeren
 id: presentation
-published: true
+published: false
 ---
 
 Wireless sensor networks are commonly thought of as IoT devices communicating using familiar short­range wireless protocols like Zigbee, MiWi, Thread and OpenWSN. A lesser known fact is that about a decade ago, two industrial wireless protocols (WirelessHART and ISA100.11a) have been designed for industrial applications, which are based on the common IEEE 802.15.4 RF standard. These Wireless Industrial Sensor Networks (WISN) are used in process field device networks to monitor temperature, pressure, levels, flow or vibrations. The petrochemical industry uses WISN in oil and gas fields and plants around the world.

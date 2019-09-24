@@ -50,18 +50,6 @@
   e-type: large
   postorder: 10
 
-- id: 5
-  level: partner
-  company: Advenica
-  logo: advenica.png
-  url: https://www.advenica.com/en
-  bio: 
-  type: large
-  order: 3
-  expo: "yes"
-  e-order: 4
-  e-type: large
-  postorder: 1
 
 - id: 6
   level: partner
@@ -76,151 +64,17 @@
   e-type: large
   postorder: 11
 
+
 - id: 7
   level: partner
-  company: Recorded Future
-  logo: recorded-future.png
-  url: https://www.recordedfuture.com
+  company: CyberX
+  logo: cyberx.png
+  url: https://cyberx-labs.com
   bio:
-  type: small
-  order: 4
+  type: large
+  order: 3
   expo: "yes"
-  e-order: 6
+  e-order: 3
   e-type: large
   postorder: 12
 
-- id: 8
-  level: partner
-  company: Waterfall Security
-  logo: waterfall-security.png
-  url: https://waterfall-security.com
-  bio:
-  type: small
-  order: 3
-  expo: "yes"
-  e-order: 5
-  e-type: large
-  postorder: 13
-
-- id: 9
-  level: training-partner
-  company: Gai Netconsult
-  logo: gai-netconsult.png
-  url: https://www.gai-netconsult.de/index.php?id=startseite
-  bio:
-  type: large
-  order: 2
-  expo: "no"
-  postorder: 6
-
-- id: 10
-  level: training-partner
-  company: Dragos
-  logo: dragos.png
-  url: https://dragos.com
-  bio:
-  type: large
-  order: 1
-  expo: "yes"
-  e-order: 8
-  e-type: large
-  postorder: 4
-
-
-- id: 11
-  level: training-partner
-  company: EnergiNet
-  logo: energinet.png
-  url: https://en.energinet.dk
-  bio:
-  type: small
-  order: 2
-  expo: "no"
-  e-type: large
-  postorder: 14
-
-- id: 12
-  level: training-partner
-  company: NETRESEC
-  logo: netresec.png
-  url: https://www.netresec.com
-  bio:
-  type: small
-  order: 5
-  expo: "no"
-  postorder: 15
-
-
-- id: 14
-  level: governmental-partner
-  company: MSB
-  logo: msb-english.png
-  url: https://www.msb.se/en/
-  bio:
-  type: large
-  order: 1
-  expo: "yes"
-  e-order: 1
-  e-type: large
-  postorder: 2
-
-- id: 15
-  level: community-partner
-  company: KraftCERT
-  logo: kraftcert.png
-  url: https://www.kraftcert.no/english/index.html
-  bio:
-  type: large
-  order: 2
-  expo: "no"
-  postorder: 5
-
-- id: 16
-  level: community-partner
-  company: FIRST
-  logo: first.png
-  url: https://www.first.org
-  bio:
-  type: large
-  order: 1
-  expo: "no"
-  postorder: 3
-
-- id: 17
-  level: partner
-  company: Netnordic
-  logo: netnordic.png
-  url: https://netnordic.se
-  bio:
-  type: small
-  order: 5
-  expo: "yes"
-  e-order: 9
-  e-type: large
-  postorder: 17
-
-- id: 17
-  level: partner
-  company: SecurityMatters
-  logo: securitymatters.png
-  url: https://www.secmatters.com
-  bio:
-  type: small
-  order: 6
-  expo: "yes"
-  e-order: 7
-  e-type: large
-  postorder: 18
-
-- id: 17
-  level: partner
-  company: Fortinet
-  logo: fortinet.png
-  url: https://www.fortinet.com
-  bio:
-  type: large
-  order: 1
-  expo: "yes"
-  e-order: 2
-  e-type: large
-  postorder: 19

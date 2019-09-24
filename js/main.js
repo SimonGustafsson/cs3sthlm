@@ -66,6 +66,14 @@ $(".modal-close").on('click', function(){
     $('body').toggleClass('overlay-active');
 });
 
+$(".update-open").on('click', function(){
+    $('#update').addClass('update-group-shown');
+});
+
+$(".update-close").on('click', function(){
+    $('#update').removeClass('update-group-shown');
+});
+
 $('#dayone-button').on('click', function(){
     $('#dayone-button').addClass('agenda-header-item-active');
     $('#daytwo-button, #daythree-button, #dayfour-button').removeClass('agenda-header-item-active');

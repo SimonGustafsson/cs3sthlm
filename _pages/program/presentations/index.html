@@ -8,16 +8,26 @@ layout: default
 
   {% include breadcrumbs.html %}
 
-  <div class="content-header">
+  <div class="content-header spacing-bottom">
     <div class="col-4-8">
       <h4 class="sub-headline">Presentations</h4>
       <h2 class="title title-yellow">World Class</h2>
     </div>
 
     <div class="col-4-8">
-      <div class="button-group">
+      <div class="button-group button-group-three">
+        <a href="#!" class="button button-primary button-red update-open">Recent Changes</a>
         <a href="{{ site.baseurl }}/program/speakers/" class="button button-primary"><span>View</span> Speakers</a>
         <a href="{{ site.baseurl }}/program/trainings/" class="button button-primary"><span>View</span> Trainings</a>
+      </div>
+
+      <div class="update-group col-4-8" id="update">
+        <h4 class="alt-title alt-title-red">Recent Changes</h4>
+        <ul class="clean-list">
+          <li><span>23 September 2019</span>Erwin Paternotte & Mattijs van Ommeren will not be presenting their "It WISN't Me: Attacking Industrial Wireless Mesh Networks (part II)" due to other pressing obligations.</li>
+        </ul>
+
+        <a href="#!" class="update-close">Close<span></span></a>
       </div>
     </div>
   </div>
@@ -43,37 +53,6 @@ layout: default
         </div>
       </a>
       {% endfor %}
-      </div>
-  <!--
-  <div class="presentation--list">
-      <ul>
-      {% assign sorted_presentations = site.pages | sort: 'title' %}
-      {% for page in sorted_presentations %}
-      {% if page.id ==  'presentation' or page.id == "expotalk" %}
-        <li><a href="{{ page.url | prepend: site.baseurl }}">
-            {% for item in page.speaker %}
-            <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}.png">
-            {% endfor %}
-            <div class="presentation--list-meta">
-              <h3 class="heading">{{ page.title }}</h3>
-              <h4 class="alt-title alt-title-small alt-title-light">
-              {% for item in page.speaker %}
-                <span>{{ item.name }}</span>
-              {% endfor %}
-              </h4>
-            </div>
-        </a></li>
-      {% endif %}
-      {% endfor %}
-
-        <li><a href="#!">
-          <img src="{{ site.baseurl }}/assets/speakers/temp-more-to-come.png">
-          <div class="presentation--list-meta">
-            <h3 class="heading">More to be announced</h3>
-          </div>
-        </a></li>
-      </ul>
   </div>
-  -->
 
 </section>

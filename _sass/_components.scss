@@ -934,4 +934,41 @@
 }
 
 
+.update-group {
+	display: none;
+	flex-direction: column;
+	flex-wrap: wrap;
+
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 99;
+
+	background: $blue-dark;
+	padding: 24px;
+	box-sizing: border-box;
+	border-radius: 4px;
+
+	&-shown {
+		display: flex;
+	}
+
+	.alt-title {
+		margin-bottom: 12px;
+	}
+
+	.update-close {
+		text-align: center;
+		padding: 12px 0;
+	}
+
+	li span {
+		display: block;
+		text-transform: uppercase;
+		font-size: 14px;
+		letter-spacing: 1px;
+		color: $light-gray;
+	}
+}
+
 

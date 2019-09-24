@@ -2037,8 +2037,10 @@ a {
 .content-header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
+
+  position: relative;
 
   @include media-query($mobile) {
     box-sizing: border-box;
@@ -2064,11 +2066,22 @@ a {
       }
     }
 
-    .button:nth-child(2) {
-      margin-left: 24px;
+    &-three {
 
       @include media-query($mobile) {
-        margin-left: 0;
+        flex-wrap: wrap;
+
+        .button:first-of-type {
+          width: 100%;
+          margin-bottom: 4%;
+        }
+        .button:last-of-type {
+          margin-left: 4%;
+        }
+        .button {
+          width: 48%;
+          margin-left: 0;
+        }
       }
     }
   }
@@ -3313,7 +3326,7 @@ a {
   }
 }
 
-.modal-close {
+.modal-close, .update-close {
   display: block;
   width: 100%;
   padding: 24px;
@@ -3730,8 +3743,12 @@ a {
 .button-group {
   display: flex;
 
-  .button:nth-child(2) {
+  .button {
     margin-left: 24px;
+
+    &:first-of-type {
+      margin-left: 0;
+    }
   }
 }
 
