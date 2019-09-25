@@ -1315,12 +1315,12 @@
 	{
 		"id"		: "38",
 		"type"		: "presentation",
-		"name"		: "Sandra Bardon Moral",
+		"name"		: "Sandra Bardón",
 		"role"		: "Technology Researcher",
 		"work"		: "CCDCOE",
 		"country"	: "Spain",
 		"shortcode"	: "ES",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/sandra-bardon-moral.png",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/sandra-bardon.png",
 		
 		
 		
@@ -1350,7 +1350,7 @@
 		},
 		
 
-		"bio": "<p>With 10 years of experience in the field of Cyber Security, Sandra is currently a technical researcher at CCDCOE and previously she was part of the Joint Spanish Cyber Command at the Spanish Ministry of Defence. Throughout her career, she has led several projects in the field of cybersecurity and pentesting, both nationally and internationally, covering design, development and execution of the project.</p><p>Sandra is a regular participant in various international Cyber Exercises, including as Locked Shields, Crossed Swords, Cyber Coalition and Cyber Europe, and has technically led the first national Cyber Exercise in the Joint Spanish Cyber Command. She is also a speaker at conferences related to Cyber Security and a Professor of Master of Digital Evidence Analysis and Fight against Cybercrime at the ‘Universidad Autónoma de Madrid’. Sandra is also a member of #SomosMujeresTech (WeAreTechWomen) group, which aims to promote the visibility of women in leadership positions within the world of the technology and innovation sectors.</p><p>Sandra is a Telecommunications Engineer with postgraduate Master’s Degrees in both Telecommunications Engineering and Information and Computer Systems Security/Information Assurance, from the European University of Madrid. She also has several technical certifications including OSCP, CEH, CSFI-DCOE, and ITIL.</p>"
+		"bio": "<p>With 11 years of experience in the field of Cyber Security, Sandra is currently a Researcher at the Technology Branch of the NATO Cooperative Cyber Defence Center of Excelence since 2017. Her area of expertise is mainly pentesting and exploitation, but also and previously forensic and incidence response.  Throughout her career, she has led several projects in the field of Cyber Security and pentesting, both nationally and internationally.  Moreover, Sandra is a regular participant and part of the organization as Red Teamer in several international Cyber Exercises, including as Locked Shields, Crossed Swords, CWIX and has technically led the first national Cyber Exercises in the Joint Spanish Cyber Command.  She is also a speaker at conferences related to Cyber Security and a Professor of pentesting to post-graduates.</p><p>Sandra is a Telecommunication Engineer with post-graduate Master’s Degrees in both Telecommunication Engineering and Information and Computer Systems Security/Information Assurance, from the European University of Madrid.  She also has some technical certifications including OSCE, GXPN, OSCP, CEH, CNDA and ITIL.</p><p>Sandra is also a member of #SomosMujeresTech (WeAreTechWomen) group, which aims to promote the visibility of women in leadership positions within the world of the technology and innovation sectors.</p>"
 	},
 
 	{

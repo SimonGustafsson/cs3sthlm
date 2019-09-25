@@ -2066,6 +2066,21 @@ a {
       }
     }
 
+    &-two {
+      @include media-query($mobile) {
+        flex-wrap: wrap;
+
+        .button:first-of-type {
+          margin-bottom: 4%;
+        }
+        
+        .button {
+          margin: 0;
+          width: 100%;
+        }
+      }
+    }
+
     &-three {
 
       @include media-query($mobile) {

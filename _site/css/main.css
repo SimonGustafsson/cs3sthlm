@@ -1625,6 +1625,14 @@ a {
           .content-header .button-group.button-group-long .button:nth-child(2) {
             margin-top: 12px; } }
     @media screen and (max-width: 768px) {
+      .content-header .button-group-two {
+        flex-wrap: wrap; }
+        .content-header .button-group-two .button:first-of-type {
+          margin-bottom: 4%; }
+        .content-header .button-group-two .button {
+          margin: 0;
+          width: 100%; } }
+    @media screen and (max-width: 768px) {
       .content-header .button-group-three {
         flex-wrap: wrap; }
         .content-header .button-group-three .button:first-of-type {
