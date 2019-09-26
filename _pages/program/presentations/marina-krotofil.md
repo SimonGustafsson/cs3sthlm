@@ -7,6 +7,10 @@ speaker:
   role: Senior Security Engineer
   work:
   image: marina-krotofil
+- name: Vyacheslav Kopeytsev
+  role: Security Researcher
+  work: Kaspersky
+  image: vyacheslav-kopeytsev
 id: presentation
 published: true
 ---

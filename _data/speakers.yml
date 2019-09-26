@@ -992,7 +992,10 @@
     - active: live
       subject: "IT vs. OT: We are Much More Similar than We are Different. Comparing Process Control Room and SOC operations"
       permalink: program/presentations/marina-krotofil/
-      partner: 
+      partner: Vyacheslav Kopeytsev
+      partner-role: Security Researcher
+      partner-work: Kaspersky
+      partner-image: vyacheslav-kopeytsev
       description: |
         In industrial applications process control discipline involves monitoring and controlling of machinery, systems and physical processes to make sure that production processes are carried out efficiently, consistently and little variation. Monitoring is an integral part of plant operations and no OT environment is imaginable without local or control room HMIs and human operators. Increasingly, process industries take additional advantage of various optimization application for detection of abnormalities and early indicators of deterioration. In contrast, when it comes to supporting communication infrastructure (networks and end-points), they are frequently expected to be implement and configured in 110% reliable and secure way that no monitoring for deviations or breaches would be necessary. Ugh.
 
@@ -1750,6 +1753,38 @@
   training:
     - active: none
 
+- id: 43
+  type: presentation
+  permalink:
+  name: Vyacheslav Kopeytsev
+  role: Security Researcher
+  work: Kaspersky
+  country: Russia
+  shortcode: RU
+  image: vyacheslav-kopeytsev.png
+  bio: |
+    Vyacheslav Kopeytsev is a researcher with the Kaspersky’s Industrial Control Systems Cyber Emergency Response Team (ICS CERT). He specializes in malware analysis, digital forensics and incident response for various types of systems. At this time, Vyacheslav focuses on investigating attacks on industrial infrastructure. He contributes to threat intelligence articles and reports and presents at malware and ICS conferences. Vyacheslav also conducts live and online training sessions on ICS security.
+
+    Vyacheslav holds a master’s degree in computer science.
+  date:
+  time:
+  place:
+  speaker:
+    - name: Vyacheslav Kopeytsev
+      role: Security Researcher
+      image: vyacheslav-kopeytsev
+  presentation:
+    - active: live
+      subject: "IT vs. OT: We are Much More Similar than We are Different. Comparing Process Control Room and SOC operations"
+      permalink: program/presentations/marina-krotofil/
+      partner: Marina Krotofil
+      partner-role: Senior ICS Security Engineer
+      partner-work: 
+      partner-image: marina-krotofil
+      description:
+  training:
+    - active: none
+
 - id: 10
   type: presentation
   permalink:
@@ -1809,3 +1844,4 @@
         2. Security guidelines for securing the supply chain process
   training:
     - active: none
+
