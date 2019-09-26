@@ -6,7 +6,7 @@ layout:
 	{
 		"id"		: "{{ speaker.id }}",
 		"type"		: "{{ speaker.type }}",
-		"name"		: "{{ speaker.name }}",
+		"name"		: "{% if speaker.prefix.size > 1 %}{{ speaker.prefix }} {% endif %}{{ speaker.name }}",
 		"role"		: "{{ speaker.role }}",
 		"work"		: "{{ speaker.work }}",
 		"country"	: "{{ speaker.country }}",
