@@ -192,7 +192,7 @@ image: /assets/bg-2019.png
             <h4 class="speaker-item-frame-type">E<span>xpo Presentation</span></h4>
             {% endif %}
             
-            <h2 class="speaker-name">{{ speaker.name }}</h2>
+            <h2 class="speaker-name">{% if speaker.prefix.size > 1 %}<span class="prefix">{{ speaker.prefix }}</span>{% endif %}{{ speaker.name }}</h2>
             {% if speaker.type == 'special' %}
             <h4 class="speaker-role">{{ speaker.role }}</h4>
             {% else %}
@@ -206,7 +206,7 @@ image: /assets/bg-2019.png
           <div class="speaker-item-header column-block-bit">
 
             <div class="col-6-8">
-              <h2 class="heading">{{ speaker.name }}</h2>
+              <h2 class="heading">{% if speaker.prefix.size > 1 %}<span class="prefix">{{ speaker.prefix }}</span>{% endif %}{{ speaker.name }}</h2>
               {% if speaker.type == 'special' %}
               <h3 class="speaker-role">{{ speaker.role }}</h3>
               {% else %}

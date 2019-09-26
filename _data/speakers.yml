@@ -261,12 +261,13 @@
 - id: 37
   type: presentation
   permalink:
-  name: Cdr Michael Widmann
+  name: Michael Widmann
   role: Strategy Branch Chief
   work: CCDCOE
   country: United States
   shortcode: US
   image: cdr-michael-widmann.png
+  prefix: Cdr
   bio: |
     Commander Michael Widmann is the Strategy Branch head for the NATO Cooperative Cyber Defence Centre of Excellence (CCDCOE) based in Tallinn, Estonia. He reported to the CCDCOE in August 2016.
     
