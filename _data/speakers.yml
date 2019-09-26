@@ -258,37 +258,6 @@
 
         Please try to run a 64-bit VM prior to the training.
 
-- id: 37
-  type: presentation
-  permalink:
-  name: Michael Widmann
-  role: Strategy Branch Chief
-  work: CCDCOE
-  country: United States
-  shortcode: US
-  image: cdr-michael-widmann.png
-  prefix: Cdr
-  bio: |
-    Commander Michael Widmann is the Strategy Branch head for the NATO Cooperative Cyber Defence Centre of Excellence (CCDCOE) based in Tallinn, Estonia. He reported to the CCDCOE in August 2016.
-    
-    Michael was commissioned in the United States Navy in 2000 as a Surface Warfare Officer. He served forward deployed in Japan as Main Propulsion Division Officer aboard USS JUNEAU (LPD 10) and Auxiliaries Division Officer aboard USS KITTY HAWK (CV 64). In 2005 Michael became an Information Professional Officer specializing in Naval Communications. He continued serving in the following capacities: Information Assurance Officer and Knowledge Manager for Strike Force Training Atlantic in Norfolk, Virginia; Officer in Charge of Afghan National Security Forces Networks and Radios as well as a mentor for the Afghan National Police in Kabul, Afghanistan; Operations Officer at the Naval Computer and Telecommunications Area Master Station Atlantic in Norfolk, Virginia; Service Chief representative at the Defense Advanced Research Projects Agency (DARPA) in Arlington, Virginia; and Staff Officer in the Analysis and Concepts Branch at the NATO Command and Control Centre of Excellence in Utrecht, Netherlands.
-    
-    Commander Widmann earned a Bachelor’s of Science in Economics from the United States Naval Academy as well as a Master’s of Science in Space Systems Operations from the United States Naval Postgraduate School.
-  date:
-  time:
-  place:
-  speaker:
-    - name: Cdr Michael Widmann
-      role: Strategy Branch Chief
-      image: cdr-michael-widmann
-  presentation:
-    - active: none
-      subject:
-      permalink:
-      partner:
-      description:
-  training:
-    - active: none
 
 - id: 12
   type: presentation
@@ -1189,6 +1158,85 @@
 #         Target audience: technical specialists and asset owners of OT environments
 #   training:
 #     - active: none
+
+- id: 37
+  type: presentation
+  permalink:
+  name: Michael Widmann
+  role: Strategy Branch Chief
+  work: CCDCOE
+  country: United States
+  shortcode: US
+  image: cdr-michael-widmann.png
+  prefix: Cdr
+  bio: |
+    Commander Michael Widmann is the Strategy Branch head for the NATO Cooperative Cyber Defence Centre of Excellence (CCDCOE) based in Tallinn, Estonia. He reported to the CCDCOE in August 2016.
+    
+    Michael was commissioned in the United States Navy in 2000 as a Surface Warfare Officer. He served forward deployed in Japan as Main Propulsion Division Officer aboard USS JUNEAU (LPD 10) and Auxiliaries Division Officer aboard USS KITTY HAWK (CV 64). In 2005 Michael became an Information Professional Officer specializing in Naval Communications. He continued serving in the following capacities: Information Assurance Officer and Knowledge Manager for Strike Force Training Atlantic in Norfolk, Virginia; Officer in Charge of Afghan National Security Forces Networks and Radios as well as a mentor for the Afghan National Police in Kabul, Afghanistan; Operations Officer at the Naval Computer and Telecommunications Area Master Station Atlantic in Norfolk, Virginia; Service Chief representative at the Defense Advanced Research Projects Agency (DARPA) in Arlington, Virginia; and Staff Officer in the Analysis and Concepts Branch at the NATO Command and Control Centre of Excellence in Utrecht, Netherlands.
+    
+    Commander Widmann earned a Bachelor’s of Science in Economics from the United States Naval Academy as well as a Master’s of Science in Space Systems Operations from the United States Naval Postgraduate School.
+  date:
+  time:
+  place:
+  speaker:
+    - name: Cdr Michael Widmann
+      role: Strategy Branch Chief
+      image: cdr-michael-widmann
+  presentation:
+    - active: none
+      subject:
+      permalink:
+      partner:
+      description:
+  training:
+    - active: none
+
+- id: 42
+  type: presentation
+  permalink:
+  name: Mike Dodson
+  role: PhD Student
+  work: University of Cambridge
+  country: United Kingdom
+  shortcode: UK
+  image: mike-dodson.png
+  bio: Mike spent many years working in the engine rooms of fairly large ships before being given a desk and an opportunity to develop the propulsion and power generation systems he used to operate.  When asked to stand up a control system security engineering unit, he faked it for a while before deciding he needed to go back to school. He’s currently working on a PhD in Computer Science at the University of Cambridge.
+  date:
+  time:
+  place:
+  speaker:
+    - name: Mike Dodson
+      role: PhD Student
+      image: mike-dodson
+  presentation:
+    - active: live
+      subject: When will my PLC support Mirai? The security economics of large-scale attacks against ICS
+      permalink: program/presentations/mike-dodson/
+      partner:
+      description: |
+        ## [Research in progress]
+        
+        Since 2011, capable and respected researchers have pronounced impending doom after documenting the tens of thousands of Internet-connected Industrial Control Systems (ICS) and automation systems.  Catastrophic failure of physical systems were postulated, along with crippling ransomware epidemics; after Mirai and ASIC-resistant cryptocurrencies hit the street, researchers also predicted Internet-connected ICS would be used to host DDoS botnets and crypto miners.  With tools like Shodan and Censys to find devices at scale, and open-source libraries to support communication with any ICS protocol imaginable, why haven’t we seen a golden age of scaled ICS attacks?
+        
+        This talk explores the security economics arguments for why cybercriminals largely ignore ICS devices, and the coming changes to the industrial landscape that may shift criminal focus from IoT to ICS (or, more accurately, the changes that will blur the distinction between the two domains).  I will also discuss the usable security arguments that undergird users’ decisions to connect their ICS devices directly to the Internet.
+
+        I will start by presenting a longitudinal study of Internet-connected ICS.  We’ve fingerprinted and tracked thousands of individual devices over a four year period to identify user behaviours, track population stability, and infer patch cadence (to nobody’s surprise, there is not a lot of patching going on).  I’ll show that there is a large, stable, unpatched population of devices with open protocol ports, ripe for exploitation; this includes even the newest hardware and software combinations from reputable manufacturers.
+
+        Then, I’ll try to demonstrate that nobody really cares.  I’ll walk through static analysis of hundreds of gigabytes of malware samples, an assessment of hundreds of thousands of stateful honeypot interactions, and a search through 60 million hacker forum posts to show there is neither the interest in nor competence to attack these Internet-connected devices at-scale.  I’ll discuss the security economics argument for why cybercriminals largely ignore this domain, and how expected changes to the Industrial landscape in the immediate future could bring ICS to their attention.
+
+        In anticipation of the correct and inevitable objection that ICS devices should never be directly connected to the Internet, I’ll close with a discussion of usable security, looking at default configurations and user motivations in an effort to explain the current state of Internet-connected affairs and why we should only expect this Internet-connected population to grow.
+        
+        #### Target audience:
+        This is a non-technical talk of interest (hopefully) to those including cybercrime in their threat model; specifically, vendors and security professionals concerned about how small-to-medium sized enterprises (SMEs) are going to handle Industry 4.0.  SMEs aren’t the only problem, but they’re the largest category of identifiable offenders.
+
+        #### Key takeaways:
+        1. There is a large, stable, unpatched population of vulnerable, Internet-connected ICS devices.  This population is growing.  Without intervention, the growth rate is expected to increase based on pressures to make more devices connectable as we digitise manufacturing and industry.
+        2. The existing population size and heterogeneity, the cost to develop and deploy an attack, the difficulty in monetising an attack, and the existence of softer targets currently make Internet-connected ICS devices an unattractive target for large-scale attacks.
+        3. The growing Internet-connected ICS device population, predicted market dominance of a limited number of hardware and software frameworks, and improvements to IoT security blur the distinction between IoT and ICS from an attacker perspective, opening ICS devices to the types of scaled attacks we’ve seen against IoT.
+        4. Your threat model doesn’t need to include Mirai today, but it might tomorrow.
+  training:
+    - active: none
+
 
 
 - id: 11
