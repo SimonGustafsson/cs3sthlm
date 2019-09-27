@@ -1326,18 +1326,21 @@
   type: presentation
   permalink:
   name: Nicklas Keijser
-  role: 
+  role: Incident Handler/CSIRT Officer
   work: CERT-SE/MSB
   country: Sweden
   shortcode: SE
   image: nicklas-keijser.png
-  bio: Coming soon.
+  bio: |
+    Nicklas works at the Swedish National CERT, CERT-SE, as an incident handler/CSIRT officer that special in the field of ICS and SCADA. After education, MSc in Electrial Engineering, Nicklas has worked as automation and system engineers for about 15 years. before joining CERT-SE. Have done work for almost about any industrial sectors imagined, so more or less if you see a crane or a chimney Nicklas has been there.
+    
+    When not tinkering with different tech and/or hacking projects Nicklas enjoys noisy music, drums, craft beer and spending time with the family.
   date:
   time:
   place:
   speaker:
     - name: Nicklas Keijser
-      role: 
+      role: Incident Handler/CSIRT Officer
       image: nicklas-keijser
   presentation:
     - active: live

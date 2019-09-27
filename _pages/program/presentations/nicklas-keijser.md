@@ -4,7 +4,7 @@ permalink: "/program/presentations/nicklas-keijser/"
 layout: presentation
 speaker:
 - name: Nicklas Keijser
-  role: 
+  role: Incident Handler/CSIRT Officer
   work: CERT-SE/MSB
   image: nicklas-keijser
 id: presentation
