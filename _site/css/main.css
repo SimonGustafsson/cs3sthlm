@@ -2669,7 +2669,7 @@ a {
       align-items: flex-start;
       justify-content: space-between;
       flex-wrap: wrap; }
-      .partner--list-block .partner--item:nth-child(3) {
+      .partner--list-block .partner--item:nth-child(4) {
         margin-right: 0; }
     .partner--list-block-two {
       width: 360px; }
@@ -2687,13 +2687,7 @@ a {
     .partner--list h3 {
       display: block;
       width: 100%;
-      margin-bottom: 20px;
-      font-family: 'latoblack', sans-serif;
-      font-size: 14px;
-      font-weight: 800;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      color: #ef7d00; }
+      margin-bottom: 20px; }
     .partner--list-single-group {
       justify-content: flex-start; }
     .partner--list-inpost {
@@ -4776,6 +4770,10 @@ p.content-intro {
     font-family: 'latoblack', sans-serif;
     font-weight: normal;
     margin-bottom: 8px; }
+    @media screen and (min-width: 1920px) {
+      .stroke-list-heading {
+        font-size: 23px;
+        line-height: 36px; } }
   .stroke-list-item {
     display: block;
     padding-left: 24px;

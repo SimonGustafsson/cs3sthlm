@@ -382,6 +382,11 @@ p.content-intro {
 		font-family: 'latoblack', sans-serif;
 		font-weight: normal;
 		margin-bottom: 8px;
+
+		@include media-query-min($giant) {
+			font-size: 23px;
+			line-height: 36px;
+		}
 	}
 
 	&-item {
