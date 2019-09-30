@@ -15,7 +15,8 @@ image: /assets/photos/cs3sthlm-expo.jpg
       <h2 class="title title-yellow">CS3STHLM Expo</h2>
     </div>
     <div class="col-4-8">
-      <div class="button-group button-group-long">
+      <div class="button-group button-group-long button-group-two">
+        <a href="{{ site.baseurl }}/expo/presentations/" class="button button-primary"><span>View</span> Presentations</a>
         <a href="https://cs3-expo-day-2019.eventbrite.com/" target="_blank" class="button button-green">Expo Registration - Free</a>
       </div>
     </div>
@@ -100,12 +101,20 @@ image: /assets/photos/cs3sthlm-expo.jpg
 
 </section>
 
-<!--
+
 <section class="content">
 
   <div class="speaker--block">
-    <div class="speaker--block-header">
-      <h3 class="headline">Speakers of 2019</h3>
+    <div class="content-header spacing-bottom">
+      <div class="col-4-8">
+        <h4 class="alt-title alt-title-yellow">Expo Speakers</h4>
+      </div>
+
+      <div class="col-4-8">
+        <div class="button-group">
+          <a href="{{ site.baseurl }}/expo/presentations/" class="button button-primary"><span>View</span> Presentations</a>
+        </div>
+      </div>
     </div>
 
   <div class="speaker speaker-group col-8-8">
@@ -248,7 +257,7 @@ image: /assets/photos/cs3sthlm-expo.jpg
   <div class="content-header">
     <div class="col-4-8">
       <h4 class="sub-headline">Who's There</h4>
-      <h2 class="title title-yellow">Expo Partners</h2>
+      <h2 class="alt-title alt-title-yellow">Expo Partners</h2>
     </div>
   </div>
 
@@ -258,14 +267,14 @@ image: /assets/photos/cs3sthlm-expo.jpg
     {% for partner in sortedpartners %}
     {% if partner.expo == "yes" %}
     {% if partner.e-type == "large" %}
-      <div class="partner--item col-1-3 partner--item-large">
+      <div class="partner--item col-2-8 partner--item-large">
         <a href="{{ partner.url }}" target="_blank">
           <img src="{{ site.baseurl }}/assets/partners/{{ partner.logo }}" alt="{{ partner.company }}">
         </a>
       </div>
     {% endif %}
     {% if partner.e-type == "small" %}
-      <div class="partner--item col-1-3">
+      <div class="partner--item col-2-8">
         <a href="{{ partner.url }}" target="_blank">
           <img src="{{ site.baseurl }}/assets/partners/{{ partner.logo }}" alt="{{ partner.company }}">
         </a>
@@ -278,4 +287,3 @@ image: /assets/photos/cs3sthlm-expo.jpg
     </div>
 
 </section>
--->

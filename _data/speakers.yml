@@ -1375,6 +1375,31 @@
   training:
     - active: none
 
+- id: 49
+  type: expotalk
+  permalink:
+  name: Pontus Johnson
+  role: Professor
+  work: Royal Institute of Technology (KTH)
+  country: Sweden
+  shortcode: SE
+  image: pontus-johnson.png
+  bio: Pontus Johnson is a professor at the Royal Institute of Technology (KTH) in Stockholm, Sweden. His research interests mainly lie in the area of cyber security and the analysis of architectural models of computer networks. Pontus supervises a number of PhD students and holds courses on Ethical Hacking. He received his MSc from the Lund Institute of Technology in 1997 and his PhD and Docent titles from the Royal Institute of Technology in 2002 and 2007. He was appointed professor in 2009. Since 2013, he is a member of the Swedish Royal Academy of Engineering Sciences (IVA). He has chaired, co-chaired, and participated as steering committee member in many international conferences and workshops and participated in program committees in over fifty such events. He has been associate and guest editor to several journals. He has authored over 100 scientific articles, mainly on the prediction of the cyber security and other non-functional properties in software-intensive system architectures. Pontus has much contact with Swedish corporations and organizations in the form of research projects, master thesis projects, seminars, and consultations. He is a member of the IVA Medal Committee, and from 2020, the chair of IVA Division II. Pontus is also a co-founder of foreseeti, a research spin-off company developing cyber security attack simulation software. Currently, he is heading the planning project for the establishment of a Center for Cyber Defense and Information Security at KTH in collaboration with the Swedish Armed Forces. He is a member of the Software Systems Architecture and Security (SSAS) research group within the Division of Network and Systems Engineering (NSE) in the School of Electrical Engineering and Computer Science (EECS) at KTH.
+  date:
+  time:
+  place:
+  speaker:
+    - name: Pontus Johnson
+      role: Professor
+      image: pontus-johnson
+  presentation:
+    - active: none
+      subject:
+      permalink:
+      partner:
+      description:
+  training:
+    - active: none
 
 - id: 14
   type: presentation
@@ -1541,6 +1566,44 @@
         I will end my presentation with a demo of my tool for testing for this vulnerability. At least I hope to have something that could be called a tool at the time of the presentation, otherwise I’ll demo my POC code which is spectacular enough.
 
         The presentation is not deeply technical but will sometimes drop down on the wire and take a cursory glance at protocols. The main focus is on disclosure, risk management, and how suppliers not should handle vulnerability reports. And, as a serial crowd pleaser, I will throw in a demonstration to boot.
+  training:
+    - active: none
+
+- id: 48
+  type: expotalk
+  permalink:
+  name: Robert Lagerström
+  role: Associate Professor
+  work: Royal Institute of Technology (KTH)
+  country: Sweden
+  shortcode: SE
+  image: robert-lagerstrom.png
+  bio: Associate Professor in Software Systems Architecture & Security at KTH Royal Institute of Technology, founder of foreseeti and securiCAD, member of the Young Academy of Sweden, and Harvard guest researcher.
+  date:
+  time:
+  place:
+  photocred: Erik Thor/Sveriges unga akademi
+  speaker:
+    - name: Robert Lagerström
+      role: Associate Professor
+      image: robert-lagerstrom
+  presentation:
+    - active: live
+      subject: Project EnergyShield - hacking the power grid as a research method
+      permalink: expo/presentations/robert-lagerstrom/
+      partner:
+      description: |
+        EnergyShield is an H2020 project that captures the needs of Electrical Power and Energy System (EPES) operators and combines the latest technologies for vulnerability assessment, supervision and protection to draft a defensive toolkit.
+
+        The project promotes an integrative approach based on the information exchanged by the various tools to predict future attacks and deploy intelligent algorithms. EnergyShield toolkit will combine the latest technologies for vulnerability assessment (automated threat modelling), monitoring & protection (anomaly detection and DDoS mitigation) and learning & sharing (security information and event management).
+        
+        The toolkit will be implemented with the support of end-users representing all parts of the EPES value chain (generator, TSO, DSO, aggregator, consumer) who will contribute to the specification, prototyping and demonstration phases of the project.
+        
+        The project results will be tested in two pilot sites. Bulgaria proposes a city-level online demonstrator that will study the cascading effects of cyber attacks throughout the electric grid value chain, and analyze cyber security risks related to the cyber supply chain. Similarly, Italy promotesasmall scale offline demonstrator focusing on DSO infrastructures that builds a dedicated, offline testing area on one of the network control sub-systems where a cyber attack will be simulated.
+        
+        In order to test if the suggested toolkit works ethical hacking of the systems will be conducted.
+
+        Robert will also describe and demonstrate two previous hacking activities; a car dongle and a robot vacuum cleaner with camera and microphone. 
   training:
     - active: none
 
@@ -1870,3 +1933,30 @@
   training:
     - active: none
 
+
+- id: 47
+  type: keynote
+  permalink:
+  name: Torstein Gimnes Are
+  role: Digital Marshall & CISO
+  work: Norsk Hydro
+  country: Norway
+  shortcode: "NO"
+  image: torstein-gimnes-are.png
+  bio: 20 years of experience within IS/IT and Information Security roles in Norsk Hydro, a global industry leader in aluminum.
+  date:
+  time:
+  place:
+  speaker:
+    - name: Torstein Gimnes Are
+      role: Digital Marshall & CISO
+      image: torstein-gimnes-are
+  presentation:
+    - active: live
+      subject: Presentation of the cyber-attack that hit Hydro earlier this year and the crisis management and recovery of the company following the ransomware attack.
+      permalink: program/presentations/torstein-gimnes-are/
+      partner:
+      description: |
+        Coming soon.
+  training:
+    - active: none

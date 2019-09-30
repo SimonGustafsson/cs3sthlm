@@ -134,7 +134,7 @@ image: /assets/photos/cs3sthlm-erwin-rik.jpg
 
 						{% assign biosize = speaker.bio.size %}
 						{% if biosize < 350 %}
-						<p class="single-row col-5-8">{{ speaker.bio }}</p>
+						<p class="single-row col-6-8">{{ speaker.bio }}</p>
 						{% else %}
 						<p class="duo-columns">{{ speaker.bio }}</p>
 						{% endif %}
@@ -189,7 +189,7 @@ image: /assets/photos/cs3sthlm-erwin-rik.jpg
 
 				</div>
 
-				{% if speaker.type == "keynote" %}
+				{% if speaker.photocred.size > 1 %}
 				<div class="col-8-8 col-top-space">
 					<h4 class="sub-headline sub-headline-yellow">Photo Credit</h4>
 					<span class="alt-title alt-title-small">{{ speaker.photocred }}</span>

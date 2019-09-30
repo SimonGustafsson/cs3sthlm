@@ -2695,9 +2695,7 @@ a {
       text-transform: uppercase;
       color: #ef7d00; }
     .partner--list-single-group {
-      justify-content: space-between; }
-      .partner--list-single-group .partner--item {
-        margin-right: 0; }
+      justify-content: flex-start; }
     .partner--list-inpost {
       justify-content: space-between; }
       @media screen and (max-width: 768px) {
@@ -2775,10 +2773,7 @@ a {
         text-align: center;
         display: block; }
     .partner--item-large a {
-      height: 250px; }
-      @media screen and (min-width: 1680px) {
-        .partner--item-large a {
-          height: 302px; } }
+      height: 210px; }
 
 /**
   BUTTONS */
@@ -4749,11 +4744,19 @@ p.content-intro {
   .faq-list-heading {
     font-family: 'latoblack', sans-serif;
     font-weight: normal; }
+    @media screen and (min-width: 1920px) {
+      .faq-list-heading {
+        font-size: 23px;
+        line-height: 45px; } }
   .faq-list-item {
     display: block;
     padding-left: 24px;
     box-sizing: border-box;
     color: #e1e1e1; }
+    @media screen and (min-width: 1920px) {
+      .faq-list-item {
+        font-size: 23px;
+        line-height: 45px; } }
     .faq-list-item:before {
       display: inline-block;
       content: '';

@@ -3487,11 +3487,7 @@ a {
     }
 
     &-single-group {
-      justify-content: space-between;
-
-      .partner--item {
-        margin-right: 0;
-      }
+      justify-content: flex-start;
     }
 
     &-inpost {
@@ -3606,11 +3602,7 @@ a {
     &-large {
 
       a {
-        height: 250px;
-
-        @include media-query-min($large) {
-          height: 302px;
-        }
+        height: 210px;
       }
     }
   }

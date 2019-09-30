@@ -8,41 +8,40 @@ layout: default
 
   {% include breadcrumbs.html %}
 
-  <div class="content-header">
+  <div class="content-header spacing-bottom">
     <div class="col-4-8">
-      <h4 class="sub-headline">Presentations</h4>
-      <h2 class="title title-yellow">World Class</h2>
+      <h2 class="title title-yellow">Expo Presentations</h2>
     </div>
 
     <div class="col-4-8">
-      <div class="button-group">
-        <a href="{{ site.baseurl }}/program/speakers/" class="button button-primary"><span>View</span> Speakers</a>
-        <a href="{{ site.baseurl }}/program/trainings/" class="button button-primary"><span>View</span> Trainings</a>
+      <div class="button-group button-group-two">
+        <a href="{{ site.baseurl }}/expo/" class="button button-primary"><span>View</span> Expo Details</a>
+        <a href="https://cs3-expo-day-2019.eventbrite.com/" target="_blank" class="button button-green">Expo Registration - Free</a>
       </div>
     </div>
   </div>
 
-  <div class="presentation--list">
-      <ul>
-      {% assign sorted_presentations = site.pages | sort: 'title' %}
-      {% for page in sorted_presentations %}
-      {% if page.id == "expotalk" %}
-        <li><a href="{{ page.url | prepend: site.baseurl }}">
+  <div class="speakers-block">
+      {% assign presentation = site.pages | where_exp:"item", "item.layout contains 'expotalk'" %}
+      {% for page in presentation %}
+      <a href="{{ page.permalink }}" class="speakers-block-item col-4-8">
+        <div class="speakers-block-item-data">
+          <div class="speakers-block-item-data-block speakers-block-item-data-block-image {% if page.speaker.size > 1 %}speakers-block-item-duo{% endif %}">
             {% for item in page.speaker %}
-            <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}.png">
+            <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}-sq.png" class="speakers-block-item-data-image" />
             {% endfor %}
-            <div class="presentation--list-meta">
-              <h3 class="heading">{{ page.title }}</h3>
-              <h4 class="alt-title alt-title-small alt-title-light">
-              {% for item in page.speaker %}
-                <span>{{ item.name }}</span>
-              {% endfor %}
-              </h4>
-            </div>
-        </a></li>
-      {% endif %}
+          </div>
+          <div class="speakers-block-item-data-block">
+            <h3 class="heading">{{ page.title }}</h3>
+            <h4 class="alt-title alt-title-small alt-title-light">
+            {% for item in page.speaker %}
+              <span>{{ item.name }}</span>
+            {% endfor %}
+            </h4>
+          </div>
+        </div>
+      </a>
       {% endfor %}
-      </ul>
   </div>
 
 </section>

@@ -19,7 +19,7 @@
   bio: We are a small consulting firm. This means that we have to work a little harder to be seen in the competition. Our vision is that the world needs a better, safer and more qualitative IT system. Through our passion for technology and IT we make every effort extra to reach, if ever so slightly closer, the vision.
   type: small
   order: 1
-  expo: "yes"
+  expo: "no"
   e-order: 10
   e-type: large
   postorder: 8
@@ -45,7 +45,7 @@
   bio: Management Doctors is an independent Swedish consulting firm that works primarily with critical information and control systems.
   type: small
   order: 2
-  expo: "yes"
+  expo: "no"
   e-order: 11
   e-type: large
   postorder: 10
@@ -54,7 +54,7 @@
 - id: 6
   level: partner
   company: Kaspersky
-  logo: kaspersky.png
+  logo: kaspersky-logo.png
   url: https://www.kaspersky.com
   bio:
   type: large

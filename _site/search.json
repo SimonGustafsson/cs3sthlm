@@ -907,6 +907,14 @@
   
    {
      
+        "title"    : "Project EnergyShield - hacking the power grid as a research method",
+        "url"      : "/expo/presentations/robert-lagerstrom/",
+        "path"     : "/expo/presentations/robert-lagerstrom/"
+     
+   },
+  
+   {
+     
         "title"    : "Layered Blueprints – an ontology and method for (talking about) engineering OT Security",
         "url"      : "/program/presentations/sarah-fluchs/",
         "path"     : "/program/presentations/sarah-fluchs/"
@@ -934,6 +942,14 @@
         "title"    : "How we reverse-engineered multiple industrial radio remote-control systems",
         "url"      : "/program/presentations/stephen-hilt/",
         "path"     : "/program/presentations/stephen-hilt/"
+     
+   },
+  
+   {
+     
+        "title"    : "Presentation of the cyber-attack that hit Hydro earlier this year and the crisis management and recovery of the company following the ransomware attack.",
+        "url"      : "/program/presentations/torstein-gimnes-are/",
+        "path"     : "/program/presentations/torstein-gimnes-are/"
      
    },
   

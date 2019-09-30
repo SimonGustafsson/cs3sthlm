@@ -1149,6 +1149,47 @@
 	},
 
 	{
+		"id"		: "49",
+		"type"		: "expotalk",
+		"name"		: "Pontus Johnson",
+		"role"		: "Professor",
+		"work"		: "Royal Institute of Technology (KTH)",
+		"country"	: "Sweden",
+		"shortcode"	: "SE",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/pontus-johnson.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"none",
+			"title": 	"",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": "<p>Pontus Johnson is a professor at the Royal Institute of Technology (KTH) in Stockholm, Sweden. His research interests mainly lie in the area of cyber security and the analysis of architectural models of computer networks. Pontus supervises a number of PhD students and holds courses on Ethical Hacking. He received his MSc from the Lund Institute of Technology in 1997 and his PhD and Docent titles from the Royal Institute of Technology in 2002 and 2007. He was appointed professor in 2009. Since 2013, he is a member of the Swedish Royal Academy of Engineering Sciences (IVA). He has chaired, co-chaired, and participated as steering committee member in many international conferences and workshops and participated in program committees in over fifty such events. He has been associate and guest editor to several journals. He has authored over 100 scientific articles, mainly on the prediction of the cyber security and other non-functional properties in software-intensive system architectures. Pontus has much contact with Swedish corporations and organizations in the form of research projects, master thesis projects, seminars, and consultations. He is a member of the IVA Medal Committee, and from 2020, the chair of IVA Division II. Pontus is also a co-founder of foreseeti, a research spin-off company developing cyber security attack simulation software. Currently, he is heading the planning project for the establishment of a Center for Cyber Defense and Information Security at KTH in collaboration with the Swedish Armed Forces. He is a member of the Software Systems Architecture and Security (SSAS) research group within the Division of Network and Systems Engineering (NSE) in the School of Electrical Engineering and Computer Science (EECS) at KTH.</p>"
+	},
+
+	{
 		"id"		: "14",
 		"type"		: "presentation",
 		"name"		: "Prasanna N",
@@ -1351,6 +1392,47 @@
 		
 
 		"bio": "<p>Rikard Bodforss works as CEO and Senior Partner at Bodforss Consulting AB in Sweden. He has over 25 years of experience working with IT and information security from both private and public sector. Rikard holds CISSP and CISA certifications and was awarded the Thomas Fitzgerald award by ISACA for the highest score in the world on the CISA exam in 2009. His specialty is securing industrial control systems and public critical infrastructure. His sector experience ranges from automotive, finance and healthcare to energy and water. Before founding Bodforss Consulting he worked as CIO for Gothenburg Sustainable Waste and Water. Rikard is a popular speaker on international conferences, and in his free time he is part of the team behind the Swedish security podcast “Säkerhetspodcasten”. Follow him on Twitter: @rbodforss</p>"
+	},
+
+	{
+		"id"		: "48",
+		"type"		: "expotalk",
+		"name"		: "Robert Lagerström",
+		"role"		: "Associate Professor",
+		"work"		: "Royal Institute of Technology (KTH)",
+		"country"	: "Sweden",
+		"shortcode"	: "SE",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/robert-lagerstrom.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Project EnergyShield - hacking the power grid as a research method",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": "<p>EnergyShield is an H2020 project that captures the needs of Electrical Power and Energy System (EPES) operators and combines the latest technologies for vulnerability assessment, supervision and protection to draft a defensive toolkit.</p><p>The project promotes an integrative approach based on the information exchanged by the various tools to predict future attacks and deploy intelligent algorithms. EnergyShield toolkit will combine the latest technologies for vulnerability assessment (automated threat modelling), monitoring &amp; protection (anomaly detection and DDoS mitigation) and learning &amp; sharing (security information and event management).</p><p>The toolkit will be implemented with the support of end-users representing all parts of the EPES value chain (generator, TSO, DSO, aggregator, consumer) who will contribute to the specification, prototyping and demonstration phases of the project.</p><p>The project results will be tested in two pilot sites. Bulgaria proposes a city-level online demonstrator that will study the cascading effects of cyber attacks throughout the electric grid value chain, and analyze cyber security risks related to the cyber supply chain. Similarly, Italy promotesasmall scale offline demonstrator focusing on DSO infrastructures that builds a dedicated, offline testing area on one of the network control sub-systems where a cyber attack will be simulated.</p><p>In order to test if the suggested toolkit works ethical hacking of the systems will be conducted.</p><p>Robert will also describe and demonstrate two previous hacking activities; a car dongle and a robot vacuum cleaner with camera and microphone.</p>"
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": "<p>Associate Professor in Software Systems Architecture &amp; Security at KTH Royal Institute of Technology, founder of foreseeti and securiCAD, member of the Young Academy of Sweden, and Harvard guest researcher.</p>"
 	},
 
 	{
@@ -1679,6 +1761,47 @@
 		
 
 		"bio": "<p>Over 20 years of experience in cyber security as a pen tester, security consultant, SOC manager and threat intelligence manager.</p>"
+	},
+
+	{
+		"id"		: "47",
+		"type"		: "keynote",
+		"name"		: "Torstein Gimnes Are",
+		"role"		: "Digital Marshall & CISO",
+		"work"		: "Norsk Hydro",
+		"country"	: "Norway",
+		"shortcode"	: "NO",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/torstein-gimnes-are.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Presentation of the cyber-attack that hit Hydro earlier this year and the crisis management and recovery of the company following the ransomware attack.",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": "<p>Coming soon.</p>"
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": "<p>20 years of experience within IS/IT and Information Security roles in Norsk Hydro, a global industry leader in aluminum.</p>"
 	}
 
 ]

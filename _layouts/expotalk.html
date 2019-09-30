@@ -45,10 +45,11 @@ layout: default
 
       {{ content }}
 
+      
       <div class="post-pagination column-block-item col-5-8">
         {% assign prevflag = 1 %}
         {% assign nextflag = 1 %}
-        {% assign pagination = site.pages | where: "id", "presentation" %}
+        {% assign pagination = site.pages | where: "id", "expotalk" %}
 
         {% for c in pagination %}
           {% if c.title == page.title %}
@@ -97,6 +98,7 @@ layout: default
         </div>
         {% endif %}
       <div>
+      
 
     </section>
 

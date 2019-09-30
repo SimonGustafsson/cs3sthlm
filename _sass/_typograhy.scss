@@ -343,12 +343,22 @@ p.content-intro {
 	&-heading {
 		font-family: 'latoblack', sans-serif;
 		font-weight: normal;
+
+		@include media-query-min($giant) {
+			font-size: 23px;
+			line-height: 45px;
+		}
 	}
 	&-item {
 		display: block;
 		padding-left: 24px;
 		box-sizing: border-box;
 		color: $light-gray;
+
+		@include media-query-min($giant) {
+			font-size: 23px;
+			line-height: 45px;
+		}
 
 		&:before {
 			display: inline-block;
