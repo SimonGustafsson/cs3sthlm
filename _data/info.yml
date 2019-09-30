@@ -34,7 +34,7 @@
   title: Elite Hotel Stockholm Plaza
   range: 0,2 km
   description: Historical Elite Hotel Stockholm Plaza is located in central Stockholm near the beautiful Humlegården park and lively Stureplan. Elite Hotel Stockholm Plaza is only a 220m short walk from the venue Nalen.
-  link: https://www.elite.se/en/conference-reservations/stockholm/e1a64817-7910-4517-bff8-d94ea2e28ed5/d3e7bea3-f79f-42fa-86bb-b6b5ee1045e2/
+  link: 
 
 - id: 6
   type: food
@@ -83,17 +83,33 @@
   type: partner
   level: partner
   company: Kaspersky
-  logo: kaspersky.png
+  logo: kaspersky-logo.png
   url: https://www.kaspersky.com
   expo: active
 
-- id: 16
+- id: 14
   type: partner
   level: partner
-  company: Recorded Future
-  logo: recorded-future.png
-  url: https://www.recordedfuture.com
+  company: CyberX
+  logo: cyberx.png
+  url: https://cyberx-labs.com
   expo: active
+
+- id: 15
+  type: partner
+  level: partner
+  company: Otorio
+  logo: otorio.png
+  url: https://www.otorio.com
+  expo: active
+
+# - id: 16
+#   type: partner
+#   level: partner
+#   company: Recorded Future
+#   logo: recorded-future.png
+#   url: https://www.recordedfuture.com
+#   expo: active
 
 - id: 22
   type: partner
@@ -102,14 +118,6 @@
   logo: sysctl.png
   url: https://sysctl.se
   expo: active
-
-- id: 23
-  type: partner
-  level: organizer
-  company: OMNISIENS
-  logo: omnisiens.png
-  url: https://omnisiens.se
-  expo: inactive
 
 
 - id: 26
@@ -120,4 +128,10 @@
   url: https://www.netresec.com
   expo: inactive
 
-
+- id: 23
+  type: partner
+  level: organizer
+  company: OMNISIENS
+  logo: omnisiens.png
+  url: https://omnisiens.se
+  expo: inactive

@@ -174,7 +174,7 @@
       "type":    "partner",
       "level":   "partner",
       "company": "Kaspersky",
-      "logo":    "https://cs3sthlm.se/assets/partners/kaspersky.png",
+      "logo":    "https://cs3sthlm.se/assets/partners/kaspersky-logo.png",
       "url":     "https://www.kaspersky.com",
       "expo":    "active"
     },
@@ -186,12 +186,28 @@
 
     
     { 
-      "id":      "16",
+      "id":      "14",
       "type":    "partner",
       "level":   "partner",
-      "company": "Recorded Future",
-      "logo":    "https://cs3sthlm.se/assets/partners/recorded-future.png",
-      "url":     "https://www.recordedfuture.com",
+      "company": "CyberX",
+      "logo":    "https://cs3sthlm.se/assets/partners/cyberx.png",
+      "url":     "https://cyberx-labs.com",
+      "expo":    "active"
+    },
+
+  
+    
+
+    
+
+    
+    { 
+      "id":      "15",
+      "type":    "partner",
+      "level":   "partner",
+      "company": "Otorio",
+      "logo":    "https://cs3sthlm.se/assets/partners/otorio.png",
+      "url":     "https://www.otorio.com",
       "expo":    "active"
     },
 
@@ -218,12 +234,12 @@
 
     
     { 
-      "id":      "23",
+      "id":      "26",
       "type":    "partner",
-      "level":   "organizer",
-      "company": "OMNISIENS",
-      "logo":    "https://cs3sthlm.se/assets/partners/omnisiens.png",
-      "url":     "https://omnisiens.se",
+      "level":   "training-partner",
+      "company": "NETRESEC",
+      "logo":    "https://cs3sthlm.se/assets/partners/netresec.png",
+      "url":     "https://www.netresec.com",
       "expo":    "inactive"
     },
 
@@ -234,12 +250,12 @@
 
     
     { 
-      "id":      "26",
+      "id":      "23",
       "type":    "partner",
-      "level":   "training-partner",
-      "company": "NETRESEC",
-      "logo":    "https://cs3sthlm.se/assets/partners/netresec.png",
-      "url":     "https://www.netresec.com",
+      "level":   "organizer",
+      "company": "OMNISIENS",
+      "logo":    "https://cs3sthlm.se/assets/partners/omnisiens.png",
+      "url":     "https://omnisiens.se",
       "expo":    "inactive"
     }
 
