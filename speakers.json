@@ -11,6 +11,7 @@ layout:
 		"work"		: "{{ speaker.work }}",
 		"country"	: "{{ speaker.country }}",
 		"shortcode"	: "{{ speaker.shortcode }}",
+		"status"	: "{{ speaker.status }}",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/{{ speaker.image }}",
 		{% if speaker.date != null %}"date" 		: "{{ speaker.date }}",{% endif %}
 		{% if speaker.time != null %}"time" 		: "{{ speaker.time }}",{% endif %}

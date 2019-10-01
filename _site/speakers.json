@@ -8,6 +8,7 @@
 		"work"		: "Kaspersky",
 		"country"	: "Russia",
 		"shortcode"	: "RU",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/alexander-nochvay.png",
 		
 		
@@ -49,6 +50,7 @@
 		"work"		: "BSI",
 		"country"	: "Germany",
 		"shortcode"	: "DE",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/andreas-erdich.png",
 		
 		
@@ -90,6 +92,7 @@
 		"work"		: "Wired",
 		"country"	: "United States",
 		"shortcode"	: "US",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/andy-greenberg.png",
 		
 		
@@ -131,6 +134,7 @@
 		"work"		: "IIS, The Internet Foundation In Sweden",
 		"country"	: "Sweden",
 		"shortcode"	: "SE",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/amel.png",
 		
 		
@@ -172,6 +176,7 @@
 		"work"		: "Wavestone",
 		"country"	: "France",
 		"shortcode"	: "FR",
+		"status"	: "Sold Out",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/arnaud-soullie.png",
 		"date" 		: "21-22 October",
 		"time" 		: "09:00 - 17:00",
@@ -213,6 +218,7 @@
 		"work"		: "Gassco",
 		"country"	: "Norway",
 		"shortcode"	: "NO",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/christian-augustat.png",
 		
 		
@@ -254,6 +260,7 @@
 		"work"		: "Audi",
 		"country"	: "Germany",
 		"shortcode"	: "DE",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/christopher-corbett.png",
 		
 		
@@ -295,6 +302,7 @@
 		"work"		: "wolfSSL",
 		"country"	: "Sweden",
 		"shortcode"	: "SE",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/daniel-stenberg.png",
 		
 		
@@ -336,6 +344,7 @@
 		"work"		: "GNSS",
 		"country"	: "Sweden",
 		"shortcode"	: "SE",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/didrik-ehrenborg.png",
 		
 		
@@ -377,6 +386,7 @@
 		"work"		: "Secudea",
 		"country"	: "Belgium",
 		"shortcode"	: "BE",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/dieter-sarrazyn.png",
 		
 		
@@ -418,6 +428,7 @@
 		"work"		: "Trailing bits AB",
 		"country"	: "Sweden",
 		"shortcode"	: "SE",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/erik-z-johansson.png",
 		
 		
@@ -459,6 +470,7 @@
 		"work"		: "NETRESEC",
 		"country"	: "Sweden",
 		"shortcode"	: "SE",
+		"status"	: "Slots Open",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/erik-hjelmvik.png",
 		"date" 		: "21-22 October",
 		"time" 		: "09:00 - 17:00",
@@ -500,6 +512,7 @@
 		"work"		: "Independent",
 		"country"	: "Sweden",
 		"shortcode"	: "SE",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/herman-geijer.png",
 		
 		
@@ -541,6 +554,7 @@
 		"work"		: "Arctic Security",
 		"country"	: "Finland",
 		"shortcode"	: "FI",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/temp.png",
 		
 		
@@ -582,6 +596,7 @@
 		"work"		: "Toreon",
 		"country"	: "Belgium",
 		"shortcode"	: "BE",
+		"status"	: "Slots Open",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/jasper-hooft.png",
 		"date" 		: "22 October",
 		"time" 		: "09:00 - 17:00",
@@ -623,6 +638,7 @@
 		"work"		: "BSI",
 		"country"	: "Germany",
 		"shortcode"	: "DE",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/jens-wiesner.png",
 		
 		
@@ -664,6 +680,7 @@
 		"work"		: "Dragos Inc.",
 		"country"	: "United States",
 		"shortcode"	: "US",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/jimmy-wylie.png",
 		
 		
@@ -705,6 +722,7 @@
 		"work"		: "Sectra",
 		"country"	: "Sweden",
 		"shortcode"	: "SE",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/jonathan-jogenfors.png",
 		
 		
@@ -746,6 +764,7 @@
 		"work"		: "Audi",
 		"country"	: "Germany",
 		"shortcode"	: "DE",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/kevin-gomez-buquerin.png",
 		
 		
@@ -787,6 +806,7 @@
 		"work"		: "Qatar Aluminium Ltd",
 		"country"	: "Qatar",
 		"shortcode"	: "QA",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/khalid-ansari.png",
 		
 		
@@ -828,6 +848,7 @@
 		"work"		: "",
 		"country"	: "Germany",
 		"shortcode"	: "DE",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/marina-krotofil.png",
 		
 		
@@ -869,6 +890,7 @@
 		"work"		: "GAI NetConsult GmbH",
 		"country"	: "Germany",
 		"shortcode"	: "DE",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/markus-mahrla.png",
 		
 		
@@ -910,6 +932,7 @@
 		"work"		: "Otorio",
 		"country"	: "Israel",
 		"shortcode"	: "IL",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/matan-dobrushin.png",
 		
 		
@@ -951,6 +974,7 @@
 		"work"		: "CCDCOE",
 		"country"	: "United States",
 		"shortcode"	: "US",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/cdr-michael-widmann.png",
 		
 		
@@ -992,6 +1016,7 @@
 		"work"		: "University of Cambridge",
 		"country"	: "United Kingdom",
 		"shortcode"	: "UK",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/mike-dodson.png",
 		
 		
@@ -1033,6 +1058,7 @@
 		"work"		: "Audi",
 		"country"	: "Germany",
 		"shortcode"	: "DE",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/mona-lange.png",
 		
 		
@@ -1074,6 +1100,7 @@
 		"work"		: "FoxGuard Solutions",
 		"country"	: "United States",
 		"shortcode"	: "US",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/monta-elkins.png",
 		
 		
@@ -1115,6 +1142,7 @@
 		"work"		: "CERT-SE/MSB",
 		"country"	: "Sweden",
 		"shortcode"	: "SE",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/nicklas-keijser.png",
 		
 		
@@ -1156,6 +1184,7 @@
 		"work"		: "Royal Institute of Technology (KTH)",
 		"country"	: "Sweden",
 		"shortcode"	: "SE",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/pontus-johnson.png",
 		
 		
@@ -1197,6 +1226,7 @@
 		"work"		: "ABB GISPL",
 		"country"	: "India",
 		"shortcode"	: "IN",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/prasanna-n.png",
 		
 		
@@ -1238,6 +1268,7 @@
 		"work"		: "",
 		"country"	: "Sweden",
 		"shortcode"	: "SE",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/ragnar-sundblad.png",
 		
 		
@@ -1279,6 +1310,7 @@
 		"work"		: "Dragos Inc.",
 		"country"	: "United States",
 		"shortcode"	: "US",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/reid-wightman.png",
 		
 		
@@ -1320,6 +1352,7 @@
 		"work"		: "Ancautus AB",
 		"country"	: "Sweden",
 		"shortcode"	: "SE",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/richard-widh.png",
 		
 		
@@ -1361,6 +1394,7 @@
 		"work"		: "Bodforss Consulting AB",
 		"country"	: "Sweden",
 		"shortcode"	: "SE",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/rikard-bodforss.png",
 		
 		
@@ -1402,6 +1436,7 @@
 		"work"		: "Royal Institute of Technology (KTH)",
 		"country"	: "Sweden",
 		"shortcode"	: "SE",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/robert-lagerstrom.png",
 		
 		
@@ -1443,6 +1478,7 @@
 		"work"		: "CCDCOE",
 		"country"	: "Spain",
 		"shortcode"	: "ES",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/sandra-bardon.png",
 		
 		
@@ -1484,6 +1520,7 @@
 		"work"		: "admeritia GmbH",
 		"country"	: "Germany",
 		"shortcode"	: "DE",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/sarah-fluchs.png",
 		
 		
@@ -1525,6 +1562,7 @@
 		"work"		: "CCDCOE",
 		"country"	: "Estonia",
 		"shortcode"	: "EE",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/silver-saks.png",
 		
 		
@@ -1566,6 +1604,7 @@
 		"work"		: "Trend Micro",
 		"country"	: "United States",
 		"shortcode"	: "US",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/stephen-hilt.png",
 		
 		
@@ -1607,6 +1646,7 @@
 		"work"		: "Telia Company Sweden",
 		"country"	: "Sweden",
 		"shortcode"	: "SE",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/thomas-svensson.png",
 		
 		
@@ -1648,6 +1688,7 @@
 		"work"		: "Independent",
 		"country"	: "Sweden",
 		"shortcode"	: "SE",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/ulf-frisk.png",
 		
 		
@@ -1689,6 +1730,7 @@
 		"work"		: "Kaspersky",
 		"country"	: "Russia",
 		"shortcode"	: "RU",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/vyacheslav-kopeytsev.png",
 		
 		
@@ -1730,6 +1772,7 @@
 		"work"		: "Otorio",
 		"country"	: "Israel",
 		"shortcode"	: "IL",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/yoav-flint-rosenfeld.png",
 		
 		
@@ -1771,6 +1814,7 @@
 		"work"		: "Norsk Hydro",
 		"country"	: "Norway",
 		"shortcode"	: "NO",
+		"status"	: "",
 		"image" 	: "https://cs3sthlm.se/assets/speakers/torstein-gimnes-are.png",
 		
 		

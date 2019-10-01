@@ -463,7 +463,7 @@
     - name: Erik Hjelmvik
       role: Network Analyst
       image: erik-hjelmvik
-  status: Slots Left
+  status: Slots Open
   presentation:
     - active: none
   training:
@@ -664,6 +664,7 @@
     - name: Jasper Hooft
       role: ICS Security Consultant
       image: jasper-hooft
+  status: Slots Open
   presentation:
     - active: none
   training:
