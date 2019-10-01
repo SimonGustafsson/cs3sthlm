@@ -6,7 +6,7 @@ categories:
 layout: post
 author: CS3STHLM Crew
 pdf:
-- english: cs3sthlm-newsletter-sept-2019.pdf
+- english: cs3sthlm-newsletter-september-2019.pdf
 ---
 
 In Sweden it is still September for a couple of hours!
