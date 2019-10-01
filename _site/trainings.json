@@ -2,6 +2,7 @@
 	{
 		"id": 				"1",
 		"type": 			"training",
+		"status":			"Slots Open",
 		"author":[
 		
 		{
@@ -31,6 +32,7 @@
 	{
 		"id": 				"2",
 		"type": 			"training",
+		"status":			"Sold Out",
 		"author":[
 		
 		{
@@ -60,6 +62,7 @@
 	{
 		"id": 				"3",
 		"type": 			"training",
+		"status":			"Slots Open",
 		"author":[
 		
 		{

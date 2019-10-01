@@ -218,6 +218,22 @@
 
     
     { 
+      "id":      "16",
+      "type":    "partner",
+      "level":   "partner",
+      "company": "Recorded Future",
+      "logo":    "https://cs3sthlm.se/assets/partners/recorded-future.png",
+      "url":     "https://www.recordedfuture.com",
+      "expo":    "active"
+    },
+
+  
+    
+
+    
+
+    
+    { 
       "id":      "22",
       "type":    "partner",
       "level":   "partner",

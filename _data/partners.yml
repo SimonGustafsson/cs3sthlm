@@ -67,18 +67,18 @@
   postorder: 3
 
 
-# - id: 6
-#   level: partner
-#   company: Recorded Future
-#   logo: recorded-future.png
-#   url: https://www.recordedfuture.com
-#   bio:
-#   type: small
-#   order: 5
-#   expo: "yes"
-#   e-order: 5
-#   e-type: large
-#   postorder: 5
+- id: 6
+  level: partner
+  company: Recorded Future
+  logo: recorded-future.png
+  url: https://www.recordedfuture.com
+  bio:
+  type: small
+  order: 5
+  expo: "yes"
+  e-order: 5
+  e-type: large
+  postorder: 5
 
 
 - id: 7
@@ -91,3 +91,15 @@
   order: 6
   expo: "no"
   postorder: 6
+
+
+- id: 8
+  level: partner
+  company: Nozomi
+  logo: nozomi.png
+  url: https://www.nozominetworks.com
+  bio:
+  type: small
+  order: 7
+  expo: "no"
+  postorder: 7

@@ -3445,7 +3445,7 @@ a {
     &-block {
       display: flex;
       align-items: flex-start;
-      justify-content: space-between;
+      justify-content: flex-start;
       flex-wrap: wrap;
 
       .partner--item:nth-child(4) {
@@ -3921,6 +3921,12 @@ a {
           color: $yellow;
         }
       }
+    }
+
+    p strong {
+      font-family: 'latobold', sans-serif;
+      font-weight: normal;
+      color: $white;
     }
 
     p:last-of-type {

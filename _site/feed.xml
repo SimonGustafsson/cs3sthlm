@@ -5,9 +5,43 @@
     <description>CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 30 Sep 2019 14:26:47 +0000</pubDate>
-    <lastBuildDate>Mon, 30 Sep 2019 14:26:47 +0000</lastBuildDate>
+    <pubDate>Tue, 01 Oct 2019 09:57:07 +0000</pubDate>
+    <lastBuildDate>Tue, 01 Oct 2019 09:57:07 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>CS3STHLM Newsletter September</title>
+        <description>&lt;p&gt;In Sweden it is still September for a couple of hours!&lt;/p&gt;
+
+&lt;p&gt;This year we will have presentations at multiple stages, so you have to cherry pick your favorites, or bring a colleague if you need to cover things in parallel! And as you can see below, it is really good to go to Stockholm already on Monday, even if the conference as such begins wednesday!&lt;/p&gt;
+
+&lt;h4 id=&quot;news-and-highlights&quot;&gt;News and highlights&lt;/h4&gt;
+&lt;p&gt;Download the &lt;strong&gt;CS3sthlm app&lt;/strong&gt; from Appstore or Google Play to keep up to date with info before and during the CS3sthlm week.&lt;/p&gt;
+
+&lt;p&gt;Torstein Gimnes Are, Digital Marshall &amp;amp; CISO in Norsk Hydro will deliver &lt;strong&gt;Wednesday keynote&lt;/strong&gt; and describe how his team in their international corporation battled a major ransomware attack earlier this year. This presentation will give unique opportunities to listen and learn about global incident and crisis management at an organisation where ICS is the lifeblood of the operation.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thursday keynote&lt;/strong&gt; will be given by Andy Greenberg, award-winning senior writer for Wired magazine, where he covers security, privacy, information freedom, and hacker culture. His presentation is based on his upcoming book SANDWORM, about a mysterious series of cyberattacks and the team behind it. Targeting utility companies, NATO, and electric grids in Eastern Europe, and others, there is a lot to learn from Mr Greenbergs story. All CS3 Summit attendees will get a copy the book, and have possibilities to get it signed, two weeks before the official global release.&lt;/p&gt;
+
+&lt;p&gt;The DHS Cybersecurity and Infrastructure Agency will be hosting a technical &lt;strong&gt;ICS-focused Capture the Flag challenge.&lt;/strong&gt; This CTF is designed to expose analysts to hunting across ICS networks for malicious behavior. With puzzles appropriate for both the beginner and the experienced analyst, all are invited to participate. Challenges include artifacts generated from IT/OT host forensic data, network data (from both bro logs and pcap), and OT equipment actively being exploited by a threat actor. &lt;strong&gt;The ICS CTF will be open daytime Monday and Tuesday.&lt;/strong&gt; Mail us at &lt;a href=&quot;info@cs3sthlm.se&quot;&gt;info@cs3sthlm.se&lt;/a&gt; and announce your participation!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;During Monday evening&lt;/strong&gt;, starting around 4 pm, our &lt;strong&gt;partner Kaspersky will host a KIPS game&lt;/strong&gt; where all our conference attendees can join. Enroll here: &lt;a href=&quot;http://invajo.com/event/thecs3sthlmsummitbyomnisiensab/kipscybersecuritysimulationatcs3sthlm&quot;&gt;KIPS registration&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Daytime Tuesday&lt;/strong&gt; there will be the &lt;strong&gt;CS3sthlm Expo&lt;/strong&gt;, with both exhibition and speakers. Speakers include our partners and academic researchers from KTH and Linköping presenting the latest in their ICS related research. Enroll here: &lt;a href=&quot;https://www.eventbrite.com/e/cs3sthlm-expo-oct-22nd-2019-registration-64817476818&quot;&gt;Expo registration&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There are still a few seats open at 2 o the 3 trainings: 1 day &lt;strong&gt;Hands-on threat modeling for ICS-OT&lt;/strong&gt; and 2 day &lt;strong&gt;Network ForensICS&lt;/strong&gt;. More info here: &lt;a href=&quot;https://www.cs3sthlm.se/program/trainings/&quot;&gt;/program/cs3sthlm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;At CS3 this year we will have multiple content going on at multiple stages. During &lt;strong&gt;Wednesday afternoon&lt;/strong&gt; at one stage we will have a large number of speakers presenting on cyber ranges, cyber exercise and training. A lot of examples will be based on the &lt;strong&gt;worlds largest red/blue team exercise LockedShields&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Best wishes from a busy CS3STHLM crew!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 30 Sep 2019 04:00:00 +0000</pubDate>
+        <link>/news/2019/09/30/cs3sthlm-newsletter-september.html</link>
+        <guid isPermaLink="true">/news/2019/09/30/cs3sthlm-newsletter-september.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
     
       <item>
         <title>Stephen J. Hilt - Trend Micro</title>
@@ -314,51 +348,6 @@ In case, that several contesters gets the same (correct) reply - there will be a
         
         
         <category>press</category>
-        
-      </item>
-    
-      <item>
-        <title>Ola Hermansson - Technical Operations Manager</title>
-        <description>&lt;p&gt;&lt;em&gt;This is a blog post with Ola Hermansson, one of the guys in our great crew.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h1 class=&quot;blog-title&quot; itemprop=&quot;name headline&quot;&gt;Ola Hermansson - Technical Operations Manager&lt;/h1&gt;
-
-&lt;h4 id=&quot;what-is-your-name-where-do-you-work-and-what-is-your-profession&quot;&gt;What is your name, where do you work and what is your profession?&lt;/h4&gt;
-&lt;p&gt;My name is Ola Hermansson. I’m an audio engineer by trade, and work with stage craft and engineering on TV-productions, concerts and corporate events. Where I work? Everywhere…&lt;/p&gt;
-
-&lt;h4 id=&quot;for-how-many-years-have-you-been-involved-in-this-conference&quot;&gt;For how many years have you been involved in this conference?&lt;/h4&gt;
-&lt;p&gt;Hmmm, “As time goes by” (like Sam sung in Casablanca). This years conference is my fourth i believe. My first CS3 (then 4SICS)-experience was in 2015.&lt;/p&gt;
-
-&lt;h4 id=&quot;how-did-you-get-involved-in-this-both-with-your-profession-and-with-this-event&quot;&gt;How did you get involved in this, both with your profession and with this event?&lt;/h4&gt;
-&lt;p&gt;My profession is a life-long love story (the cliché “I started out as a child” comes in handy…). Regarding me getting involved with the good people at CS3, I think it was my colleague Anders Hagström that was given the opportunity to work with the event, and asked me to join the team.&lt;/p&gt;
-
-&lt;h4 id=&quot;what-is-your-role-during-the-conference&quot;&gt;What is your role during the conference?&lt;/h4&gt;
-&lt;p&gt;I manage and run the technical operations when we’re “live” (so to speak). My main target is to keep the show running smooth (out of a technical perspective) and keeping the keynote speakers happy, giving them the best possible platform to perform on stage.&lt;/p&gt;
-
-&lt;h4 id=&quot;you-normaly-travel-the-world-with-rock-stars-and-tv-celebrities-so-this-must-be-the-complete-contrast-or&quot;&gt;You normaly travel the world with rock stars and TV celebrities, so this must be the complete contrast, or?&lt;/h4&gt;
-&lt;p&gt;I would like to think quite the opposite. The tools we use during CS3 is much the same as we use in a TV- or concert-production. Except the rock stars are PhD’s and the TV-cameras are fewer.&lt;/p&gt;
-
-&lt;h4 id=&quot;is-it-a-marathon-race-a-100-meter-race-or-something-else-to-do-this-kind-of-job&quot;&gt;Is it a marathon race, a 100 meter race, or something else to do this kind of job?&lt;/h4&gt;
-&lt;p&gt;That kind of depends of your position in a production. In this particular case, I come into play when much of the “marathon-like” work is done. For me it’s more like a 100 meter race, for one intense week. Of course there’s a lot of pre production on the technical side of things as well, but the intense part of the work takes place the last days just before a production (when we set things up) and during the show. One cool thing about working live production, is that you really only get one chance to get it right.&lt;/p&gt;
-
-&lt;h4 id=&quot;what-is-the-biggest-challenges-that-you-see&quot;&gt;What is the biggest challenges that you see?&lt;/h4&gt;
-&lt;p&gt;Beating people’s expectations year after year, that’s a big challenge.&lt;/p&gt;
-
-&lt;h4 id=&quot;what-is-your-best-memories-from-the-previous-conferences&quot;&gt;What is your best memories from the previous conferences?&lt;/h4&gt;
-&lt;p&gt;Hmmm, Lot’s off goodies - but Jenny Radcliffe’s “Tales of a people Hacker” in 2017 was really intriguing. Also, for a techie like me, the GeekLounge in the basement is a really cool place as well (even though the technical level of the stuff going down there is kind of above my pay-grade :)&lt;/p&gt;
-
-&lt;h4 id=&quot;what-do-you-look-forward-to-with-this-years-event&quot;&gt;What do you look forward to with this years event?&lt;/h4&gt;
-&lt;p&gt;Working at Nalen (the Venue) is always super cosy, I really like that place. This year will also feature an expo (taking place the day before the actual conference starts) - this means some new challenges for us production-wise, that I’m kind of looking forward to dealing with. It’s gonna be exciting.&lt;/p&gt;
-
-&lt;h4 id=&quot;any-last-words-of-advice-to-our-readers-and-the-attendees&quot;&gt;Any last words of advice to our readers and the attendees?&lt;/h4&gt;
-&lt;p&gt;I don’t know. Buy a ticket. Show up. Stay geek?&lt;/p&gt;
-</description>
-        <pubDate>Mon, 15 Oct 2018 04:00:00 +0000</pubDate>
-        <link>/blog/ola-hermansson/</link>
-        <guid isPermaLink="true">/blog/ola-hermansson/</guid>
-        
-        
-        <category>blog</category>
         
       </item>
     

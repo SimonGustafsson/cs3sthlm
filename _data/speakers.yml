@@ -133,7 +133,7 @@
     - name: Arnaud Soullié
       role: Cybersecurity R&D Manager
       image: arnaud-soullie
-  status: Slots Open
+  status: Sold Out
   presentation:
     - active: none
   training:
@@ -175,7 +175,6 @@
         - Lack of hardening - ICS protocols insecurity
 
         *This module is not hands-on*
-
 
         #### Module 2: Pentesting Basics & tools
 

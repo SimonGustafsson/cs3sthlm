@@ -6,6 +6,7 @@ layout:
 	{
 		"id": 				"{{ item.id }}",
 		"type": 			"{{ item.type }}",
+		"status":			"{{ item.status }}",
 		"author":[
 		{% for item in item.author %}
 		{

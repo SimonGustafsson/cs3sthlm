@@ -2667,7 +2667,7 @@ a {
     .partner--list-block {
       display: flex;
       align-items: flex-start;
-      justify-content: space-between;
+      justify-content: flex-start;
       flex-wrap: wrap; }
       .partner--list-block .partner--item:nth-child(4) {
         margin-right: 0; }
@@ -2986,6 +2986,10 @@ a {
       -o-transition: 0.24s all ease-in-out; }
       .post-content ul a:hover, .post-content ol a:hover {
         color: #ef7d00; }
+  .post-content p strong {
+    font-family: 'latobold', sans-serif;
+    font-weight: normal;
+    color: white; }
   .post-content p:last-of-type {
     margin-bottom: 19px; }
   .post-content h2 {
