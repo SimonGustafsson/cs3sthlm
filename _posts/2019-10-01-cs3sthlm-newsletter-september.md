@@ -26,7 +26,7 @@ The DHS Cybersecurity and Infrastructure Agency will be hosting a technical **IC
 
 **Daytime Tuesday** there will be the **CS3sthlm Expo**, with both exhibition and speakers. Speakers include our partners and academic researchers from KTH and Linköping presenting the latest in their ICS related research. Enroll here: [Expo registration](https://www.eventbrite.com/e/cs3sthlm-expo-oct-22nd-2019-registration-64817476818)
 
-There are still a few seats open at 2 o the 3 trainings: 1 day **Hands-on threat modeling for ICS-OT** and 2 day **Network ForensICS**. More info here: [/program/cs3sthlm](https://www.cs3sthlm.se/program/trainings/)
+There are still a few seats open at 2 o the 3 trainings: 1 day **Hands-on threat modeling for ICS-OT** and 2 day **Network ForensICS**. More info here: [/program/trainings/](https://www.cs3sthlm.se/program/trainings/)
 
 At CS3 this year we will have multiple content going on at multiple stages. During **Wednesday afternoon** at one stage we will have a large number of speakers presenting on cyber ranges, cyber exercise and training. A lot of examples will be based on the **worlds largest red/blue team exercise LockedShields**.
 
