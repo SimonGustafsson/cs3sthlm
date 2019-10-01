@@ -234,6 +234,22 @@
 
     
     { 
+      "id":      "27",
+      "type":    "partner",
+      "level":   "partner",
+      "company": "Nozomo",
+      "logo":    "https://cs3sthlm.se/assets/partners/nozomi.png",
+      "url":     "https://www.nozominetworks.com",
+      "expo":    "inactive"
+    },
+
+  
+    
+
+    
+
+    
+    { 
       "id":      "22",
       "type":    "partner",
       "level":   "partner",

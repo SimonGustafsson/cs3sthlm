@@ -111,6 +111,14 @@
   url: https://www.recordedfuture.com
   expo: active
 
+- id: 27
+  type: partner
+  level: partner
+  company: Nozomo
+  logo: nozomi.png
+  url: https://www.nozominetworks.com
+  expo: inactive
+
 - id: 22
   type: partner
   level: partner
