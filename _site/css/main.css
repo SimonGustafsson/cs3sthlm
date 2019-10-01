@@ -4799,6 +4799,9 @@ p.content-intro {
       margin-left: -24px;
       margin-right: 12px; }
 
+.spacing-top {
+  margin-top: 24px; }
+
 .spacing-bottom {
   margin-bottom: 24px; }
 
