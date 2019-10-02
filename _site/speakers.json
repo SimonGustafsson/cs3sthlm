@@ -967,6 +967,48 @@
 	},
 
 	{
+		"id"		: "50",
+		"type"		: "expotalk",
+		"name"		: "Mathias Ekstedt",
+		"role"		: "Professor",
+		"work"		: "KTH Royal Institute of Technology",
+		"country"	: "Sweden",
+		"shortcode"	: "SE",
+		"status"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/mathias-ekstedt.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Applying automated attack modeling to a smart grid use case",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": "<p>This presentation will describe how attack simulations can be generated from IT system architecture models. Attack simulations can be seen as virtual penetration tests performed en masse on large-scale system architectures. The attack simulations identifies the easiest attack vector for an hypothesized antagonist and thus supports an effective approach identifying and evaluating various mitigation strategies before their actual implementation. The presentation illustrates this design approach describing a reference architecture for load-balancing of distributed renewable energy developed as part of a larger research project.</p>"
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": "<p>Mathias’ research interests include information and cyber security based on software and systems architecture modeling and analysis. In particular the research is applied in the power industry and information systems related to physical process monitoring and control, such as SCADA and Industrial Control Systems. Much of the research revolves around developing formalisms for analyzing security vulnerabilities of system-of-systems architectures trough the means of probabilistic attack/defense graphs. Mathias is also the co-founder and chairman of the board of foreseeti, a start-up company developing products for automated and model-based attack simulations.</p>"
+	},
+
+	{
 		"id"		: "37",
 		"type"		: "presentation",
 		"name"		: "Cdr Michael Widmann",
@@ -1181,7 +1223,7 @@
 		"type"		: "expotalk",
 		"name"		: "Pontus Johnson",
 		"role"		: "Professor",
-		"work"		: "Royal Institute of Technology (KTH)",
+		"work"		: "KTH Royal Institute of Technology",
 		"country"	: "Sweden",
 		"shortcode"	: "SE",
 		"status"	: "",
@@ -1433,7 +1475,7 @@
 		"type"		: "expotalk",
 		"name"		: "Robert Lagerström",
 		"role"		: "Associate Professor",
-		"work"		: "Royal Institute of Technology (KTH)",
+		"work"		: "KTH Royal Institute of Technology",
 		"country"	: "Sweden",
 		"shortcode"	: "SE",
 		"status"	: "",
@@ -1597,6 +1639,48 @@
 	},
 
 	{
+		"id"		: "51",
+		"type"		: "expotalk",
+		"name"		: "Simin Nadjm-Tehrani",
+		"role"		: "Professor",
+		"work"		: "Linköping University",
+		"country"	: "Sweden",
+		"shortcode"	: "SE",
+		"status"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/simin-nadjm-tehrani.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"From datasets and testbeds to timing-based anomaly detection",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": "<p>This presentation will describe the latest work done on data collection, emulation and analysis within RICS, and the application of machine learning algorithms for anomaly detection. It will include a demonstration of the virtual SCADA system built at FOI (RICS-el) by FOI engineers. Simin then goes on to describe how anomaly detection using only timing attributes of traffic in SCADA networks can indicate early signs of complex attacks. The methods for anomaly detection have been evaluated both on synthetic data from RICS-el and data collected at a Swedish utility company.</p>"
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": "<p>Simin leads the Real-time Systems Laboratory which spans over multiple research topics within dependable systems and networks. She has been an active researcher in the area of critical infrastructure security since 2001, and currently leads the national research centre RICS on Resilient Information and Control Systems financed by MSB. Her current interests are in the areas of anomaly detection for SCADA systems, Risk analysis methods with interrelationships between safety and security, understanding and correctness of machine learning algorithms, and edge computing.</p>"
+	},
+
+	{
 		"id"		: "17",
 		"type"		: "presentation",
 		"name"		: "Stephen Hilt",
@@ -1678,6 +1762,48 @@
 		
 
 		"bio": "<p>Thomas is deputy head of national security at Telia Company Sweden. Thomas has more than 30 years at Swedish Armed Forces and 10 years in private sector focusing on IT &amp; Information security. He is acting as the deputy white team leader in Locked Shields and  been part of the exercise since early beginning. He is also the author of Handbook for planning, running and evaluating information technology and cyber security exercises. Thomas was awarded the honorary title NATO CCDCOE Senior Fellow on the 4th of September 2019.</p>"
+	},
+
+	{
+		"id"		: "47",
+		"type"		: "keynote",
+		"name"		: "Torstein Gimnes Are",
+		"role"		: "Digital Marshall & CISO",
+		"work"		: "Norsk Hydro",
+		"country"	: "Norway",
+		"shortcode"	: "NO",
+		"status"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/torstein-gimnes-are.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Presentation of the cyber-attack that hit Hydro earlier this year and the crisis management and recovery of the company following the ransomware attack.",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": "<p>20 years of experience within IS/IT and Information Security roles in Norsk Hydro, a global industry leader in aluminum.</p>"
 	},
 
 	{
@@ -1804,48 +1930,6 @@
 		
 
 		"bio": "<p>Over 20 years of experience in cyber security as a pen tester, security consultant, SOC manager and threat intelligence manager.</p>"
-	},
-
-	{
-		"id"		: "47",
-		"type"		: "keynote",
-		"name"		: "Torstein Gimnes Are",
-		"role"		: "Digital Marshall & CISO",
-		"work"		: "Norsk Hydro",
-		"country"	: "Norway",
-		"shortcode"	: "NO",
-		"status"	: "",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/torstein-gimnes-are.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"Presentation of the cyber-attack that hit Hydro earlier this year and the crisis management and recovery of the company following the ransomware attack.",
-			"partner":	"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/.png",
-			"description": ""
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "",
-			"excerpt":	""
-		},
-		
-
-		"bio": "<p>20 years of experience within IS/IT and Information Security roles in Norsk Hydro, a global industry leader in aluminum.</p>"
 	}
 
 ]

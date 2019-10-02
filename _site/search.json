@@ -370,17 +370,17 @@
   
    {
      
-        "title"    : "William Middleton",
-        "url"      : "/about/archive/speakers/william-middleton",
-        "path"     : "/about/archive/speakers/william-middleton"
+        "title"    : "Kristina Blomqvist",
+        "url"      : "/about/archive/speakers/kristina-blomqvist",
+        "path"     : "/about/archive/speakers/kristina-blomqvist"
      
    },
   
    {
      
-        "title"    : "Kevin Jones",
-        "url"      : "/about/archive/speakers/kevin-jones",
-        "path"     : "/about/archive/speakers/kevin-jones"
+        "title"    : "William Middleton",
+        "url"      : "/about/archive/speakers/william-middleton",
+        "path"     : "/about/archive/speakers/william-middleton"
      
    },
   
@@ -658,9 +658,9 @@
   
    {
      
-        "title"    : "Kristina Blomqvist",
-        "url"      : "/about/archive/speakers/kristina-blomqvist",
-        "path"     : "/about/archive/speakers/kristina-blomqvist"
+        "title"    : "Kevin Jones",
+        "url"      : "/about/archive/speakers/kevin-jones",
+        "path"     : "/about/archive/speakers/kevin-jones"
      
    },
   
@@ -842,6 +842,14 @@
   
    {
      
+        "title"    : "Applying automated attack modeling to a smart grid use case",
+        "url"      : "/expo/presentations/mathias-ekstedt/",
+        "path"     : "/expo/presentations/mathias-ekstedt/"
+     
+   },
+  
+   {
+     
         "title"    : "When will my PLC support Mirai?  The security economics of large-scale attacks against ICS",
         "url"      : "/program/presentations/mike-dodson/",
         "path"     : "/program/presentations/mike-dodson/"
@@ -937,6 +945,14 @@
    },
   
    {
+     
+   },
+  
+   {
+     
+        "title"    : "From datasets and testbeds to timing-based anomaly detection",
+        "url"      : "/expo/presentations/simin-nadjm-tehrani/",
+        "path"     : "/expo/presentations/simin-nadjm-tehrani/"
      
    },
   

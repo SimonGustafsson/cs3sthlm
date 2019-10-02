@@ -1162,6 +1162,33 @@
 #   training:
 #     - active: none
 
+- id: 50
+  type: expotalk
+  permalink:
+  name: Mathias Ekstedt
+  role: Professor
+  work: KTH Royal Institute of Technology
+  country: Sweden
+  shortcode: SE
+  image: mathias-ekstedt.png
+  bio: Mathias' research interests include information and cyber security based on software and systems architecture modeling and analysis. In particular the research is applied in the power industry and information systems related to physical process monitoring and control, such as SCADA and Industrial Control Systems. Much of the research revolves around developing formalisms for analyzing security vulnerabilities of system-of-systems architectures trough the means of probabilistic attack/defense graphs. Mathias is also the co-founder and chairman of the board of foreseeti, a start-up company developing products for automated and model-based attack simulations.
+  date:
+  time:
+  place:
+  speaker:
+    - name: Mathias Ekstedt
+      role: Professor
+      image: mathias-ekstedt
+  presentation:
+    - active: live
+      subject: Applying automated attack modeling to a smart grid use case
+      permalink: expo/presentations/mathias-ekstedt/
+      partner:
+      description: |
+        This presentation will describe how attack simulations can be generated from IT system architecture models. Attack simulations can be seen as virtual penetration tests performed en masse on large-scale system architectures. The attack simulations identifies the easiest attack vector for an hypothesized antagonist and thus supports an effective approach identifying and evaluating various mitigation strategies before their actual implementation. The presentation illustrates this design approach describing a reference architecture for load-balancing of distributed renewable energy developed as part of a larger research project.
+  training:
+    - active: none
+
 - id: 37
   type: presentation
   permalink:
@@ -1380,7 +1407,7 @@
   permalink:
   name: Pontus Johnson
   role: Professor
-  work: Royal Institute of Technology (KTH)
+  work: KTH Royal Institute of Technology
   country: Sweden
   shortcode: SE
   image: pontus-johnson.png
@@ -1574,7 +1601,7 @@
   permalink:
   name: Robert Lagerström
   role: Associate Professor
-  work: Royal Institute of Technology (KTH)
+  work: KTH Royal Institute of Technology
   country: Sweden
   shortcode: SE
   image: robert-lagerstrom.png
@@ -1718,6 +1745,33 @@
   training:
     - active: none
 
+- id: 51
+  type: expotalk
+  permalink:
+  name: Simin Nadjm-Tehrani
+  role: Professor
+  work: Linköping University
+  country: Sweden
+  shortcode: SE
+  image: simin-nadjm-tehrani.png
+  bio: Simin leads the Real-time Systems Laboratory which spans over multiple research topics within dependable systems and networks. She has been an active researcher in the area of critical infrastructure security since 2001, and currently leads the national research centre RICS on Resilient Information and Control Systems financed by MSB. Her current interests are in the areas of anomaly detection for SCADA systems, Risk analysis methods with interrelationships between safety and security, understanding and correctness of machine learning algorithms, and edge computing.
+  date:
+  time:
+  place:
+  speaker:
+    - name: Simin Nadjm-Tehrani
+      role: Professor
+      image: simin-nadjm-tehrani
+  presentation:
+    - active: live
+      subject: From datasets and testbeds to timing-based anomaly detection
+      permalink: expo/presentations/simin-nadjm-tehrani/
+      partner:
+      description: |
+        This presentation will describe the latest work done on data collection, emulation and analysis within RICS, and the application of machine learning algorithms for anomaly detection. It will include a demonstration of the virtual SCADA system built at FOI (RICS-el) by FOI engineers. Simin then goes on to describe how anomaly detection using only timing attributes of traffic in SCADA networks can indicate early signs of complex attacks. The methods for anomaly detection have been evaluated both on synthetic data from RICS-el and data collected at a Swedish utility company.
+  training:
+    - active: none
+
 - id: 17
   type: presentation
   permalink:
@@ -1785,6 +1839,32 @@
     - active: none
       subject:
       permalink:
+      partner:
+      description:
+  training:
+    - active: none
+
+- id: 47
+  type: keynote
+  permalink:
+  name: Torstein Gimnes Are
+  role: Digital Marshall & CISO
+  work: Norsk Hydro
+  country: Norway
+  shortcode: "NO"
+  image: torstein-gimnes-are.png
+  bio: 20 years of experience within IS/IT and Information Security roles in Norsk Hydro, a global industry leader in aluminum.
+  date:
+  time:
+  place:
+  speaker:
+    - name: Torstein Gimnes Are
+      role: Digital Marshall & CISO
+      image: torstein-gimnes-are
+  presentation:
+    - active: live
+      subject: Presentation of the cyber-attack that hit Hydro earlier this year and the crisis management and recovery of the company following the ransomware attack.
+      permalink: program/presentations/torstein-gimnes-are/
       partner:
       description:
   training:
@@ -1930,32 +2010,5 @@
         #### Key takeaways –
         1. Security guidelines for protecting critical OT data
         2. Security guidelines for securing the supply chain process
-  training:
-    - active: none
-
-
-- id: 47
-  type: keynote
-  permalink:
-  name: Torstein Gimnes Are
-  role: Digital Marshall & CISO
-  work: Norsk Hydro
-  country: Norway
-  shortcode: "NO"
-  image: torstein-gimnes-are.png
-  bio: 20 years of experience within IS/IT and Information Security roles in Norsk Hydro, a global industry leader in aluminum.
-  date:
-  time:
-  place:
-  speaker:
-    - name: Torstein Gimnes Are
-      role: Digital Marshall & CISO
-      image: torstein-gimnes-are
-  presentation:
-    - active: live
-      subject: Presentation of the cyber-attack that hit Hydro earlier this year and the crisis management and recovery of the company following the ransomware attack.
-      permalink: program/presentations/torstein-gimnes-are/
-      partner:
-      description:
   training:
     - active: none

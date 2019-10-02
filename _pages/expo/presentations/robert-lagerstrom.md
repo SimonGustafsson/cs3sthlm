@@ -5,7 +5,7 @@ layout: expotalk
 speaker:
 - name: Robert Lagerström
   role: Associate Professor
-  work: Royal Institute of Technology (KTH)
+  work: KTH Royal Institute of Technology
   image: robert-lagerstrom
 id: expotalk
 published: true

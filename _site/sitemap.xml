@@ -168,10 +168,10 @@
 <loc>/about/archive/speakers/joe-slowik</loc>
 </url>
 <url>
-<loc>/about/archive/speakers/william-middleton</loc>
+<loc>/about/archive/speakers/kristina-blomqvist</loc>
 </url>
 <url>
-<loc>/about/archive/speakers/kevin-jones</loc>
+<loc>/about/archive/speakers/william-middleton</loc>
 </url>
 <url>
 <loc>/about/archive/speakers/margarita-jaitner</loc>
@@ -276,7 +276,7 @@
 <loc>/program/presentations/</loc>
 </url>
 <url>
-<loc>/about/archive/speakers/kristina-blomqvist</loc>
+<loc>/about/archive/speakers/kevin-jones</loc>
 </url>
 <url>
 <loc>/contact/</loc>
@@ -342,6 +342,9 @@
 <loc>/program/presentations/matan-yoav/</loc>
 </url>
 <url>
+<loc>/expo/presentations/mathias-ekstedt/</loc>
+</url>
+<url>
 <loc>/program/presentations/mike-dodson/</loc>
 </url>
 <url>
@@ -373,6 +376,9 @@
 </url>
 <url>
 <loc>/search/</loc>
+</url>
+<url>
+<loc>/expo/presentations/simin-nadjm-tehrani/</loc>
 </url>
 <url>
 <loc>/program/presentations/stephen-hilt/</loc>
