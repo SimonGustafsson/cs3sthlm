@@ -3447,25 +3447,21 @@ a {
       align-items: flex-start;
       justify-content: flex-start;
       flex-wrap: wrap;
+      width: 100%;
 
       .partner--item:nth-child(4) {
         margin-right: 0;
-      }
-    }
 
-    &-block-two {
-      width: 360px;
-
-      .partner--item {
-        margin-right: 0;
-      }
-
-      @include media-query-min($large) {
-        width: 432px;
+        @include media-query($small) {
+          margin-right: 5%;
+        }
+        @include media-query($mobile) {
+          margin-right: 0;
+        }
       }
 
       @include media-query($mobile) {
-        width: 100%;
+        justify-content: space-between;
       }
     }
 
@@ -3481,6 +3477,10 @@ a {
 
     &-single-group {
       justify-content: flex-start;
+
+      @include media-query($mobile) {
+        justify-content: space-between;
+      }
     }
 
     &-inpost {
@@ -3537,14 +3537,29 @@ a {
       margin-right: 0;
     }
 
-    @include media-query($mobile) {
-      width: 100%;
-      margin-bottom: 14px;
-      margin-right: 0;
+    @include media-query($small) {
+      width: 30%;
+      margin-right: 5%;
 
-      &:nth-child(4) {
+      &:nth-child(3) {
         margin-right: 0;
       }
+      &:nth-child(4) {
+        margin-right: 5%;
+
+        @include media-query($mobile) {
+          margin-right: 0;
+        }
+      }
+      &:nth-child(6) {
+        margin-right: 0;
+      }
+    }
+
+    @include media-query($mobile) {
+      width: 48%;
+      margin-bottom: 12px;
+      margin-right: 0;
     }
 
     &-text {
@@ -3567,6 +3582,11 @@ a {
 
       @include media-query-min($large) {
         height: 140px;
+      }
+
+      @include media-query($mobile) {
+        height: 90px;
+        padding: 0 20px;
       }
       
       &:hover {

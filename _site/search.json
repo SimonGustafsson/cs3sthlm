@@ -214,6 +214,14 @@
   
    {
      
+        "title"    : "SANDWORM: A New Era of Cyberwar and the Hunt for the Kremlin’s Most Dangerous Hackers",
+        "url"      : "/program/presentations/andy-greenberg/",
+        "path"     : "/program/presentations/andy-greenberg/"
+     
+   },
+  
+   {
+     
         "title"    : "Pentesting Industrial Control Systems",
         "url"      : "/program/trainings/arnaud-soullie/",
         "path"     : "/program/trainings/arnaud-soullie/"
@@ -269,14 +277,6 @@
    },
   
    {
-     
-   },
-  
-   {
-     
-        "title"    : "Dan Demeter",
-        "url"      : "/about/archive/speakers/dan-demeter",
-        "path"     : "/about/archive/speakers/dan-demeter"
      
    },
   
@@ -381,6 +381,14 @@
         "title"    : "William Middleton",
         "url"      : "/about/archive/speakers/william-middleton",
         "path"     : "/about/archive/speakers/william-middleton"
+     
+   },
+  
+   {
+     
+        "title"    : "Kevin Jones",
+        "url"      : "/about/archive/speakers/kevin-jones",
+        "path"     : "/about/archive/speakers/kevin-jones"
      
    },
   
@@ -594,6 +602,14 @@
   
    {
      
+        "title"    : "Home",
+        "url"      : "/",
+        "path"     : ""
+     
+   },
+  
+   {
+     
         "title"    : "Expo Agenda",
         "url"      : "/expo/agenda/",
         "path"     : "/expo/agenda/"
@@ -650,17 +666,25 @@
   
    {
      
-        "title"    : "Presentations",
-        "url"      : "/program/presentations/",
-        "path"     : "/program/presentations/"
+        "title"    : "Agenda",
+        "url"      : "/agenda/",
+        "path"     : "/agenda/"
      
    },
   
    {
      
-        "title"    : "Kevin Jones",
-        "url"      : "/about/archive/speakers/kevin-jones",
-        "path"     : "/about/archive/speakers/kevin-jones"
+        "title"    : "Program",
+        "url"      : "/program/",
+        "path"     : "/program/"
+     
+   },
+  
+   {
+     
+        "title"    : "Presentations",
+        "url"      : "/program/presentations/",
+        "path"     : "/program/presentations/"
      
    },
   
@@ -754,25 +778,9 @@
   
    {
      
-        "title"    : "Program",
-        "url"      : "/program/",
-        "path"     : "/program/"
-     
-   },
-  
-   {
-     
-        "title"    : "Agenda",
-        "url"      : "/agenda/",
-        "path"     : "/agenda/"
-     
-   },
-  
-   {
-     
-        "title"    : "Home",
-        "url"      : "/",
-        "path"     : ""
+        "title"    : "Dan Demeter",
+        "url"      : "/about/archive/speakers/dan-demeter",
+        "path"     : "/about/archive/speakers/dan-demeter"
      
    },
   

@@ -9,5 +9,6 @@ speaker:
   image: torstein-gimnes-are
 id: presentation
 published: true
+keynote: Keynote
 ---
 

@@ -86,9 +86,9 @@
       role: Senior Writer
       image: andy-greenberg
   presentation:
-    - active: none
-      subject:
-      permalink:
+    - active: live
+      subject: "SANDWORM: A New Era of Cyberwar and the Hunt for the Kremlin’s Most Dangerous Hackers"
+      permalink: program/presentations/andy-greenberg/
       partner:
       description:
   training:
