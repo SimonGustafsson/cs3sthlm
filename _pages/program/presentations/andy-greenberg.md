@@ -1,5 +1,5 @@
 ---
-title: "SANDWORM: A New Era of Cyberwar and the Hunt for the Kremlin’s Most Dangerous Hackers"
+title: "Sandworm: Lessons From the Ukrainian Cyberwar and Beyond"
 permalink: "/program/presentations/andy-greenberg/"
 layout: presentation
 speaker:
