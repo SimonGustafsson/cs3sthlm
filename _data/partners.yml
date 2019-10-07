@@ -102,4 +102,6 @@
   type: small
   order: 7
   expo: "yes"
+  e-order: 6
+  e-type: small
   postorder: 7
