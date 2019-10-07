@@ -2,28 +2,15 @@
 layout: 
 ---
 
-{"agendaList":[{% for item in site.data.agenda %}
+{"agendaList":[{% for item in site.data.agenda19 %}
 	{
 		"id"		: "{{ item.id }}",
 		"day"		: "{{ item.day }}",
 		"type"		: "{{ item.type }}",
-		"date"		: "{{ item.date }}",
 		"time"		: "{{ item.time }}",
-		"place" 	: "{{ item.place }}",
-		"subject" 	: "{{ item.subject | strip_html }}",
-		{% for item in item.author %}
-		"name" 		: "{{ item.name }}",
-		"role"		: "{{ item.role }}",
-		"work"		: "{{ item.work }}",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/{{ item.image }}",
-		{% endfor %}
-		{% for item in item.partner %}
-		"pname" 		: "{{ item.name }}",
-		"prole"		: "{{ item.role }}",
-		"pwork"		: "{{ item.work }}",
-		"pimage" 	: "https://cs3sthlm.se/assets/speakers/{{ item.image }}",
-		{% endfor %}
-		"description": {{ item.description | markdownify | strip_newlines | jsonify }}
+		"title" 	: "{{ item.title | strip_html }}",
+		"author"	: "{{ item.author }}",
+		"place" 	: "{{ item.place }}"
 	}{% unless forloop.last %},{% endunless %}
 {% endfor %}
 ]}

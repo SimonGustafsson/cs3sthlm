@@ -5,6 +5,7 @@ published: true
 layout: default
 ---
 
+<!--
 <section class="content">
 
   <div class="content-header">
@@ -20,7 +21,7 @@ layout: default
 
 </section>
 
-
+-->
 
 
 <section class="content">
@@ -62,7 +63,7 @@ layout: default
 
 		<span class="agenda-content-header-hidden-spacer"></span>
 
-		<div class="agenda-day agenda-day-active" id="dayone">
+		<div class="agenda-day" id="dayone">
 
 			<div class="agenda-content-header">
 				<div class="agenda-content-header-item agenda-content-header-item-active" id="dayone-mainstage-button">
@@ -72,7 +73,7 @@ layout: default
 					<h4 class="alt-title alt-title-small alt-title-gray">Harlem</h4>
 				</div>
 				<div class="agenda-content-header-item" id="dayone-stacken-button">
-					<h4 class="alt-title alt-title-small alt-title-gray">Stacken</h4>
+					<h4 class="alt-title alt-title-small alt-title-gray">ICS Lab</h4>
 				</div>
 			</div>
 
@@ -129,10 +130,10 @@ layout: default
 				<div class="agenda-content-column" id="dayone-stacken">
 					{% for item in site.data.agenda19 %}
 					{% if item.day == 'dayone' %}
-					{% if item.place == 'Stacken Stage' %}
+					{% if item.place == 'ICS Stage' %}
 					{% if item.permalink.size > 1 %}
 					<div class="agenda-item agenda-item-link">
-						<a href="{{ site.baseurl }}/{{ item.permalink }}">
+						<a href="{% if item.permalink contains 'https' %}{{ item.permalink }}{% else %}{{ site.baseurl }}/{{ item.permalink }}{% endif %}">
 							<span class="agenda-item-time">{{ item.time }}{% if item.special.size > 1 %}<span class="agenda-item-special">- {{ item.special }}</span>{% endif %}</span>
 							<h3 class="agenda-item-headline">{{ item.title }}</h3>
 							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
@@ -164,7 +165,7 @@ layout: default
 					<h4 class="alt-title alt-title-small alt-title-gray">Harlem</h4>
 				</div>
 				<div class="agenda-content-header-item" id="daytwo-stacken-button">
-					<h4 class="alt-title alt-title-small alt-title-gray">Stacken</h4>
+					<h4 class="alt-title alt-title-small alt-title-gray">ICS Lab</h4>
 				</div>
 			</div>
 
@@ -221,7 +222,7 @@ layout: default
 				<div class="agenda-content-column" id="daytwo-stacken">
 					{% for item in site.data.agenda19 %}
 					{% if item.day == 'daytwo' %}
-					{% if item.place == 'Stacken Stage' %}
+					{% if item.place == 'ICS Stage' %}
 					{% if item.permalink.size > 1 %}
 					<div class="agenda-item agenda-item-link">
 						<a href="{{ site.baseurl }}/{{ item.permalink }}">
@@ -256,7 +257,7 @@ layout: default
 					<h4 class="alt-title alt-title-small alt-title-gray">Harlem</h4>
 				</div>
 				<div class="agenda-content-header-item" id="daythree-stacken-button">
-					<h4 class="alt-title alt-title-small alt-title-gray">Stacken</h4>
+					<h4 class="alt-title alt-title-small alt-title-gray">ICS Lab</h4>
 				</div>
 			</div>
 
@@ -313,7 +314,7 @@ layout: default
 				<div class="agenda-content-column" id="daythree-stacken">
 					{% for item in site.data.agenda19 %}
 					{% if item.day == 'daythree' %}
-					{% if item.place == 'Stacken Stage' %}
+					{% if item.place == 'ICS Stage' %}
 					{% if item.permalink.size > 1 %}
 					<div class="agenda-item agenda-item-link">
 						<a href="{{ site.baseurl }}/{{ item.permalink }}">
@@ -338,7 +339,7 @@ layout: default
 
 		</div>
 
-		<div class="agenda-day" id="dayfour">
+		<div class="agenda-day agenda-day-active" id="dayfour">
 
 			<div class="agenda-content-header">
 				<div class="agenda-content-header-item agenda-content-header-item-active" id="dayfour-mainstage-button">
@@ -348,7 +349,7 @@ layout: default
 					<h4 class="alt-title alt-title-small alt-title-gray">Harlem</h4>
 				</div>
 				<div class="agenda-content-header-item" id="dayfour-stacken-button">
-					<h4 class="alt-title alt-title-small alt-title-gray">Stacken</h4>
+					<h4 class="alt-title alt-title-small alt-title-gray">ICS Lab</h4>
 				</div>
 			</div>
 
@@ -405,7 +406,7 @@ layout: default
 				<div class="agenda-content-column" id="dayfour-stacken">
 					{% for item in site.data.agenda19 %}
 					{% if item.day == 'dayfour' %}
-					{% if item.place == 'Stacken Stage' %}
+					{% if item.place == 'ICS Stage' %}
 					{% if item.permalink.size > 1 %}
 					<div class="agenda-item agenda-item-link">
 						<a href="{{ site.baseurl }}/{{ item.permalink }}">

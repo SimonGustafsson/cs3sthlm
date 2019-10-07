@@ -101,5 +101,5 @@
   bio:
   type: small
   order: 7
-  expo: "no"
+  expo: "yes"
   postorder: 7

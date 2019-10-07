@@ -2,110 +2,198 @@
 #----------------#
 ## MAIN STAGE
 
-- id: 1
-  day: dayone
-  type: common
-  place: Main Stage
-  time: "09:00"
-  title: CS3STHLM 2019 Opening
-
-- id: 2
-  day: dayone
-  type: presentation
-  place: Main Stage
-  time: "09:15"
-  title: "Sandworm: The Tales of the Unfanthom deep"
-  author:
-    - Andy Greenberg
-  special: Keynote
-
-- id: 3
-  day: dayone
-  type: presentation
-  place: Main Stage
-  time: "10:00"
-  title: Automotive DoIP and forensic analysis for automotive systems
-  author:
-    - Christopher Corbett
-    - Kevin Gomez Buquerin
-  permalink: program/presentations/christopher-kevin/
-
-- id: 4
+- id: 
   day: dayone
   type: break
   place: Main Stage
-  time: "10:45"
-  title: Coffee Break
-
+  time: All day
+  title: Closed
 
 ## HARLEM
 
-- id: 5
+- id: 
   day: dayone
-  type: presentation
+  type: break
   place: Harlem Stage
-  time: "10:00"
-  title: Layered Blueprints – an ontology and method for (talking about) engineering OT Security
-  author:
-    - Sarah Fluchs
-  permalink: program/presentations/sarah-fluchs/
+  time: All Day
+  title: Closed
 
-## STACKEN
+## ICSLAB
 
-- id: 6
+- id: 
   day: dayone
   type: common
-  place: Stacken Stage
-  time: "13:00"
-  title: The Ukraine Crisis
+  place: ICS Stage
+  time: "10:00 - 20:00"
+  title: ICS Lab Open
+  permalink: ics-lab/
+
+- id: 
+  day: dayone
+  type: common
+  place: ICS Stage
+  time: "10:00 - 20:00"
+  title: Capture the Flag Challenge
   author:
-    - Matan Dobrushin
-    - Yoav Flint Rosenfeld
-    - Erwin Paternotte
-    - Mattijs van Ommerern
-    - Christian Augustat
-  special: Panel
+    - Hosted by The DHS Cybersecurity and Infrastructure Agency
+
+- id: 
+  day: dayone
+  type: common
+  place: ICS Stage
+  time: "16:00 - 20:00"
+  title: KIPS Cybersecurity Simulation
+  author:
+    - Hosted by Kaspersky
+  permalink: "https://sv-se.invajo.com/event/thecs3sthlmsummitbyomnisiensab/kipscybersecuritysimulationatcs3sthlm"
 
 
 # DAY TWO - TUESDAY
 #-----------------#
 ## MAIN STAGE
 
-- id: 4
+- id: 
   day: daytwo
-  type: break
+  type: common
   place: Main Stage
-  time: "10:45"
-  title: Coffee Break
+  time: "10:00 - 22:00"
+  title: CS3STHLM Expo
+  author:
+    - Opening by Erik & Robert
+
+- id: 
+  day: daytwo
+  type: common
+  place: Main Stage
+  time: "18:00 - 22:00"
+  title: CS3STHLM Welcome Reception
+  author:
+    - Hosted by Erik & Robert
 
 
 ## HARLEM
 
-- id: 5
+- id: 
   day: daytwo
   type: presentation
   place: Harlem Stage
-  time: "10:00"
-  title: Layered Blueprints – an ontology and method for (talking about) engineering OT Security
+  time: "11:00"
+  title: From datasets and testbeds to timing-based anomaly detection
   author:
-    - Sarah Fluchs
+    - Simin Nadjm-Tehrani
+  permalink: expo/presentations/simin-nadjm-tehrani/
 
+- id: 
+  day: daytwo
+  type: presentation
+  place: Harlem Stage
+  time: "11:45"
+  title: Applying automated attack modeling to a smart grid use case
+  author:
+    - Mathias Ekstedt
+  permalink: expo/presentations/mathias-ekstedt/
 
-## STACKEN
+- id: 
+  day: daytwo
+  type: presentation
+  place: Harlem Stage
+  time: "12:30"
+  title: TBA
+  author:
+    - F-Secure
+  permalink:
 
-- id: 6
+- id: 
+  day: daytwo
+  type: presentation
+  place: Harlem Stage
+  time: "12:50"
+  title: TBA
+  author:
+    - Recorded Future
+  permalink:
+
+- id: 
+  day: daytwo
+  type: presentation
+  place: Harlem Stage
+  time: "13:30"
+  title: TBA
+  author:
+    - Pontus Johnson
+
+- id: 
+  day: daytwo
+  type: presentation
+  place: Harlem Stage
+  time: "14:00"
+  title: Project EnergyShield - hacking the power grid as a research method
+  author:
+    - Robert Lagerström
+  permalink: expo/presentations/robert-lagerstrom/
+
+- id: 
+  day: daytwo
+  type: presentation
+  place: Harlem Stage
+  time: "14:30"
+  title: TBA
+  author:
+    - Kaspersky
+  permalink:
+
+- id: 
+  day: daytwo
+  type: presentation
+  place: Harlem Stage
+  time: "14:50"
+  title: TBA
+  author:
+    - Nozomi
+  permalink:
+
+- id: 
+  day: daytwo
+  type: presentation
+  place: Harlem Stage
+  time: "15:30"
+  title: TBA
+  author:
+    - Henrik Sandberg
+  permalink:
+
+- id: 
+  day: daytwo
+  type: break
+  place: Harlem Stage
+  time: "18:00"
+  title: Closed
+
+## ICSLAB
+
+- id: 
   day: daytwo
   type: common
-  place: Stacken Stage
-  time: "13:00"
-  title: The Ukraine Crisis
+  place: ICS Stage
+  time: "10:00 - 18:00"
+  title: ICS Lab Open
+
+
+- id: 
+  day: daytwo
+  type: common
+  place: ICS Stage
+  time: "10:00 - 18:00"
+  title: Capture the Flag Challenge
   author:
-    - Matan Dobrushin
-    - Yoav Flint Rosenfeld
-    - Erwin Paternotte
-    - Mattijs van Ommerern
-    - Christian Augustat
-  special: Panel
+    - Hosted by The DHS Cybersecurity and Infrastructure Agency
+
+- id: 
+  day: daytwo
+  type: break
+  place: ICS Stage
+  time: "18:00"
+  title: Closed
 
 
 # DAY THREE - WEDNESDAY
@@ -117,25 +205,355 @@
   type: common
   place: Main Stage
   time: "09:00"
-  title: Placeholder - day 03
+  title: CS3STHLM Introduction
+  author:
+    - Erik Johansson
+    - Robert Malmgren
+
+- id:
+  day: daythree
+  type: common
+  place: Main Stage
+  time: "09:15"
+  title: Presentation of the cyber-attack that hit Hydro earlier this year and the crisis management and recovery of the company following the ransomware attack
+  author:
+    - Torstein Gimnes Are
+  special: Keynote
+  permalink: program/presentations/torstein-gimnes-are/
+
+- id:
+  day: daythree
+  type: break
+  place: Main Stage
+  time: "10:00 - 10:30"
+  title: Coffee Break
+
+- id:
+  day: daythree
+  type: common
+  place: Main Stage
+  time: "10:30"
+  title: The fall of CODESYS
+  author:
+    - Alexander Nochvay
+  permalink: program/presentations/alexander-nochvay/
+
+- id:
+  day: daythree
+  type: common
+  place: Main Stage
+  time: "11:10"
+  title: "Broken Rungs: A look at popular ladder logic runtime privileges"
+  author:
+    - Jimmy Wylie
+    - Reid Wightman
+  permalink: program/presentations/jimmy-reid/
+
+- id:
+  day: daythree
+  type: break
+  place: Main Stage
+  time: "12:00 - 13:00"
+  title: Lunch Break
+
+- id:
+  day: daythree
+  type: common
+  place: Main Stage
+  time: "13:15"
+  title: Tales from Industrial Plants and Responders
+  author:
+    - Christian Augustat
+    - Mona Lange
+  permalink: program/presentations/christian-mona/
+
+- id:
+  day: daythree
+  type: common
+  place: Main Stage
+  time: "14:00"
+  title: Secure your MES the bridge between IT and OT
+  author:
+    - Khalid Ansari
+  permalink: program/presentations/khalid-ansari/
+
+- id:
+  day: daythree
+  type: break
+  place: Main Stage
+  time: "14:45 - 15:30"
+  title: Coffee Break
+
+- id:
+  day: daythree
+  type: common
+  place: Main Stage
+  time: "15:30"
+  title: Security Testing for ICS Owners 2.0
+  author:
+    - Dieter Sarrazyn
+  permalink: program/presentations/deiter-sarrazyn/
+
+- id:
+  day: daythree
+  type: common
+  place: Main Stage
+  time: "16:00"
+  title: How we reverse-engineered multiple industrial radio remote-control systems
+  author:
+    - Stephen Hilt
+  permalink: program/presentations/stephen-hilt/
+
+- id:
+  day: daythree
+  type: common
+  place: Main Stage
+  time: "18:45 - 22:00"
+  title: CS3STHLM Gala Dinner
+
+- id:
+  day: daythree
+  type: common
+  place: Main Stage
+  time: "20:00"
+  title: Zombie Survival
+  author:
+    - Herman Geijer
+  special: Dinner Presentation
+
+- id:
+  day: daythree
+  type: common
+  place: Main Stage
+  time: "22:00"
+  title: End of CS3STHLM Summit Day One
+
 
 ## HARLEM
 
 - id:
   day: daythree
-  type: common
+  type: presentation
+  place: Harlem Stage
+  time: "10:15"
+  title: Applying the Consequence-driven Cyber-informed Engineering method on a Facility for a Successful Attack
+  author:
+    - Andreas Erdich
+    - Jens Wiesner
+  permalink: program/presentations/andreas-jens/
+
+- id:
+  day: daythree
+  type: presentation
   place: Harlem Stage
   time: "11:00"
-  title: Placeholder - day 03
+  title: Layered Blueprints – an ontology and method for (talking about) engineering OT Security
+  author:
+    - Sarah Fluchs
+  permalink: program/presentations/sarah-fluchs/
 
-## STACKEN
+- id:
+  day: daythree
+  type: presentation
+  place: Harlem Stage
+  time: "11:30"
+  title: When will my PLC support Mirai? The security economics of large-scale attacks against ICS
+  author:
+    - Mike Dodson
+  permalink: program/presentations/mike-dodson/
+
+- id:
+  day: daythree
+  type: break
+  place: Harlem Stage
+  time: "11:50 - 12:40"
+  title: Lunch Break
+
+- id:
+  day: daythree
+  type: presentation
+  place: Harlem Stage
+  time: "12:40"
+  title: TBA
+  author:
+    - Thomas Svensson - Moderator
+
+- id:
+  day: daythree
+  type: presentation
+  place: Harlem Stage
+  time: "12:50"
+  title: TBA
+  author:
+    - Cdr Michael Widmann
+
+- id:
+  day: daythree
+  type: presentation
+  place: Harlem Stage
+  time: "13:20"
+  title: TBA
+  author:
+    - Silver Saks
+
+- id:
+  day: daythree
+  type: presentation
+  place: Harlem Stage
+  time: "13:40"
+  title: TBA
+  author:
+    - Sandra Bardón
+
+- id:
+  day: daythree
+  type: presentation
+  place: Harlem Stage
+  time: "14:00"
+  title: TBA
+  author:
+    - Erik Biverot
+    - Johan Nilsson
+
+- id:
+  day: daythree
+  type: presentation
+  place: Harlem Stage
+  time: "14:30"
+  title: TBA
+  author:
+    - Jarkko Huttunen
+
+- id:
+  day: daythree
+  type: break
+  place: Harlem Stage
+  time: "14:50 - 15:20"
+  title: Coffee Break
+
+- id:
+  day: daythree
+  type: presentation
+  place: Harlem Stage
+  time: "15:20"
+  title: TBA
+  author:
+    - Cdr Michael Widmann
 
 - id:
   day: daythree
   type: common
-  place: Stacken Stage
-  time: "12:00"
-  title: Placeholder - day 03
+  place: Harlem Stage
+  time: "15:40"
+  title: Questions and Answers
+  author:
+    - Thomas Svensson
+    - Cdr Michael Widmann
+    - Silver Saks
+    - Sandra Bardón
+    - Erik Biverot
+    - Johan Nilsson
+    - Jarkko Huttunen
+  special: Panel
+
+
+## ICSLAB
+
+- id:
+  day: daythree
+  type: common
+  place: ICS Stage
+  time: "09:00 - 18:00"
+  title: ICS Lab Open
+
+- id:
+  day: daythree
+  type: presentation
+  place: ICS Stage
+  time: "10:30"
+  title: Memory Forensics and DMA Attacks with MemProcFS and PCILeech
+  author:
+    - Ulf Frisk
+  permalink: program/presentations/ulf-frisk/
+
+- id:
+  day: daythree
+  type: presentation
+  place: ICS Stage
+  time: "11:15"
+  title: TBA
+  author:
+    - Erik Hjelmvik
+  permalink: program/presentations/erik-hjelmvik/
+
+- id:
+  day: daythree
+  type: break
+  place: ICS Stage
+  time: "12:00 - 13:00"
+  title: Lunch Break
+
+- id:
+  day: daythree
+  type: presentation
+  place: ICS Stage
+  time: "13:00"
+  title: curl - the world's most used software component?
+  author:
+    - Daniel Stenberg
+  permalink: program/presentations/daniel-stenberg/
+
+- id:
+  day: daythree
+  type: presentation
+  place: ICS Stage
+  time: "13:45"
+  title: TBA
+  author:
+    - Janek Pelzer
+  permalink: program/presentations/janek-pelzer/
+
+- id:
+  day: daythree
+  type: presentation
+  place: ICS Stage
+  time: "14:30"
+  title: Fuzz Testing IEC 61850
+  author:
+    - Markus Mahrla
+  permalink: program/presentations/markus-mahrla/
+
+- id:
+  day: daythree
+  type: break
+  place: ICS Stage
+  time: "15:15"
+  title: Coffee Break
+
+- id:
+  day: daythree
+  type: common
+  place: ICS Stage
+  time: "17:15"
+  title: Capture the Flag Results
+  author:
+    - Hosted by The DHS Cybersecurity and Infrastructure Agency 
+
+- id:
+  day: daythree
+  type: common
+  place: ICS Stage
+  time: "17:45 - 18:45"
+  title: Mingle - Pre Dinner
+  author:
+    - Dinner is served at Main Stage 18:45
+
+- id:
+  day: daythree
+  type: break
+  place: ICS Stage
+  time: "18:45"
+  title: Closed
 
 
 # DAY FOUR - THURSDAY
@@ -146,8 +564,109 @@
   day: dayfour
   type: common
   place: Main Stage
+  time: "09:00"
+  title: CS3STHLM Introduction
+
+- id:
+  day: dayfour
+  type: common
+  place: Main Stage
+  time: "09:05"
+  title: "Sandworm: Lessons From the Ukrainian Cyberwar and Beyond"
+  author:
+    - Andy Greenberg
+  permalink: program/presentations/andy-greenberg/
+
+- id:
+  day: dayfour
+  type: common
+  place: Main Stage
+  time: "09:50"
+  title: CVSS for ICS; Gauging a tennis game with number of goals
+  author:
+    - Prasanna N
+  permalink: program/presentations/prasanna-n/
+
+- id:
+  day: dayfour
+  type: break
+  place: Main Stage
+  time: "10:20 - 10:50"
+  title: Coffee Break
+
+- id:
+  day: dayfour
+  type: common
+  place: Main Stage
+  time: "10:50"
+  title: Nation-State Supply Chain Attacks for Dummies and You Too
+  author:
+    - Monta Elkins
+  permalink: program/presentations/monta-elkins/
+
+- id:
+  day: dayfour
+  type: common
+  place: Main Stage
+  time: "11:35"
+  title: SCADApocalypse Now 4.0?
+  author:
+    - Nicklas Keijser
+  permalink: program/presentations/nicklas-keijser/
+
+- id:
+  day: dayfour
+  type: break
+  place: Main Stage
+  time: "12:15 - 13:15"
+  title: Lunch Break
+
+- id:
+  day: dayfour
+  type: common
+  place: Main Stage
+  time: "13:15"
+  title: Project RunAway
+  author:
+    - Matan Dobrushin
+    - Yoav Flint Rosenfeld
+  permalink: program/presentations/matan-yoav/
+
+- id:
+  day: dayfour
+  type: common
+  place: Main Stage
   time: "14:00"
-  title: Placeholder - day 04
+  title: "IT vs. OT: We are Much More Similar than We are Different. Comparing Process Control Room and SOC operations"
+  author:
+    - Marina Krotofil
+    - Vyacheslav Kopeytsev
+  permalink: program/presentations/marina-krotofil/
+
+- id:
+  day: dayfour
+  type: break
+  place: Main Stage
+  time: "14:45"
+  title: Coffee Break
+
+- id:
+  day: dayfour
+  type: common
+  place: Main Stage
+  time: "15:15"
+  title: Automotive DoIP and forensic analysis for automotive systems
+  author:
+    - Christopher Corbett
+    - Kevin Gomez Buquerin
+  permalink: program/presentations/christopher-kevin/
+
+- id:
+  day: dayfour
+  type: common
+  place: Main Stage
+  time: "16:00"
+  title: Outro - End of CS3STHLM 2019
 
 ## HARLEM
 
@@ -155,15 +674,66 @@
   day: dayfour
   type: common
   place: Harlem Stage
-  time: "15:00"
-  title: Placeholder - day 04
-
-## STACKEN
+  time: "10:30"
+  title: EU STRIKE3 project
+  author:
+    - Didrik Ehrenborg
+  permalink: program/presentations/didrik-ehrenborg/
 
 - id:
   day: dayfour
   type: common
-  place: Stacken Stage
-  time: "16:00"
-  title: Placeholder - day 04
+  place: Harlem Stage
+  time: "11:15"
+  title: Building a distributed and robust time synchronisation service
+  author:
+    - Ragnar Sundblad
+  permalink: program/presentations/ragnar-sundblad/
+
+- id:
+  day: dayfour
+  type: break
+  place: Harlem Stage
+  time: "12:00 - 13:00"
+  title: Lunch Break
+
+- id:
+  day: dayfour
+  type: common
+  place: Harlem Stage
+  time: "13:00"
+  title: "Digital Forensics and ICS: Why and how?"
+  author:
+    - Jonathan Jogenfors
+  permalink: program/presentations/jonathan-jogenfors/
+
+- id:
+  day: dayfour
+  type: common
+  place: Harlem Stage
+  time: "13:30"
+  title: Ultra responsible disclosure – or how to deal with a 0-day in critical infrastructure
+  author:
+    - Rikard Bodforss
+  permalink: program/presentations/rikard-bodforss/
+
+
+## ICSLAB
+
+- id:
+  day: dayfour
+  type: common
+  place: ICS Stage
+  time: "09:00 - 16:00"
+  title: ICS Lab Open
+
+- id:
+  day: dayfour
+  type: common
+  place: ICS Stage
+  time: "Time TBA"
+  title: Demystifying TSCM or how to spot the witch doctor doing the raindance
+  author:
+    - Richard Widh
+  permalink: program/presentations/richard-widh/
 
