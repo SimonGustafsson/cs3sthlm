@@ -23,7 +23,7 @@
 - id: 
   day: dayone
   type: common
-  place: ICS Stage
+  place: ICS Lab
   time: "10:00 - 20:00"
   title: ICS Lab Open
   permalink: ics-lab/
@@ -31,7 +31,7 @@
 - id: 
   day: dayone
   type: common
-  place: ICS Stage
+  place: ICS Lab
   time: "10:00 - 20:00"
   title: Capture the Flag Challenge
   author:
@@ -40,7 +40,7 @@
 - id: 
   day: dayone
   type: common
-  place: ICS Stage
+  place: ICS Lab
   time: "16:00 - 20:00"
   title: KIPS Cybersecurity Simulation
   author:
@@ -174,7 +174,7 @@
 - id: 
   day: daytwo
   type: common
-  place: ICS Stage
+  place: ICS Lab
   time: "10:00 - 18:00"
   title: ICS Lab Open
 
@@ -182,7 +182,7 @@
 - id: 
   day: daytwo
   type: common
-  place: ICS Stage
+  place: ICS Lab
   time: "10:00 - 18:00"
   title: Capture the Flag Challenge
   author:
@@ -191,7 +191,7 @@
 - id: 
   day: daytwo
   type: break
-  place: ICS Stage
+  place: ICS Lab
   time: "18:00"
   title: Closed
 
@@ -202,7 +202,7 @@
 
 - id:
   day: daythree
-  type: presentation
+  type: common
   place: Main Stage
   time: "09:00"
   title: CS3STHLM Introduction
@@ -286,7 +286,7 @@
 
 - id:
   day: daythree
-  type: common
+  type: presentation
   place: Main Stage
   time: "15:30"
   title: Security Testing for ICS Owners 2.0
@@ -471,14 +471,14 @@
 - id:
   day: daythree
   type: common
-  place: ICS Stage
+  place: ICS Lab
   time: "09:00 - 18:00"
   title: ICS Lab Open
 
 - id:
   day: daythree
   type: presentation
-  place: ICS Stage
+  place: ICS Lab
   time: "10:30"
   title: Memory Forensics and DMA Attacks with MemProcFS and PCILeech
   author:
@@ -488,7 +488,7 @@
 - id:
   day: daythree
   type: presentation
-  place: ICS Stage
+  place: ICS Lab
   time: "11:15"
   title: TBA
   author:
@@ -498,14 +498,14 @@
 - id:
   day: daythree
   type: break
-  place: ICS Stage
+  place: ICS Lab
   time: "12:00 - 13:00"
   title: Lunch Break
 
 - id:
   day: daythree
   type: presentation
-  place: ICS Stage
+  place: ICS Lab
   time: "13:00"
   title: curl - the world's most used software component?
   author:
@@ -515,7 +515,7 @@
 - id:
   day: daythree
   type: presentation
-  place: ICS Stage
+  place: ICS Lab
   time: "13:45"
   title: TBA
   author:
@@ -525,7 +525,7 @@
 - id:
   day: daythree
   type: presentation
-  place: ICS Stage
+  place: ICS Lab
   time: "14:30"
   title: Fuzz Testing IEC 61850
   author:
@@ -535,14 +535,14 @@
 - id:
   day: daythree
   type: break
-  place: ICS Stage
+  place: ICS Lab
   time: "15:15"
   title: Coffee Break
 
 - id:
   day: daythree
   type: common
-  place: ICS Stage
+  place: ICS Lab
   time: "17:15"
   title: Capture the Flag Results
   author:
@@ -551,7 +551,7 @@
 - id:
   day: daythree
   type: common
-  place: ICS Stage
+  place: ICS Lab
   time: "17:45 - 18:45"
   title: Mingle - Pre Dinner
   author:
@@ -560,7 +560,7 @@
 - id:
   day: daythree
   type: break
-  place: ICS Stage
+  place: ICS Lab
   time: "18:45"
   title: Closed
 
@@ -578,7 +578,7 @@
 
 - id:
   day: dayfour
-  type: common
+  type: presentation
   place: Main Stage
   time: "09:05"
   title: "Sandworm: Lessons From the Ukrainian Cyberwar and Beyond"
@@ -588,7 +588,7 @@
 
 - id:
   day: dayfour
-  type: common
+  type: presentation
   place: Main Stage
   time: "09:50"
   title: CVSS for ICS; Gauging a tennis game with number of goals
@@ -605,7 +605,7 @@
 
 - id:
   day: dayfour
-  type: common
+  type: presentation
   place: Main Stage
   time: "10:50"
   title: Nation-State Supply Chain Attacks for Dummies and You Too
@@ -615,7 +615,7 @@
 
 - id:
   day: dayfour
-  type: common
+  type: presentation
   place: Main Stage
   time: "11:35"
   title: SCADApocalypse Now 4.0?
@@ -632,7 +632,7 @@
 
 - id:
   day: dayfour
-  type: common
+  type: presentation
   place: Main Stage
   time: "13:15"
   title: Project RunAway
@@ -643,7 +643,7 @@
 
 - id:
   day: dayfour
-  type: common
+  type: presentation
   place: Main Stage
   time: "14:00"
   title: "IT vs. OT: We are Much More Similar than We are Different. Comparing Process Control Room and SOC operations"
@@ -661,7 +661,7 @@
 
 - id:
   day: dayfour
-  type: common
+  type: presentation
   place: Main Stage
   time: "15:15"
   title: Automotive DoIP and forensic analysis for automotive systems
@@ -681,7 +681,7 @@
 
 - id:
   day: dayfour
-  type: common
+  type: presentation
   place: Harlem Stage
   time: "10:30"
   title: EU STRIKE3 project
@@ -691,7 +691,7 @@
 
 - id:
   day: dayfour
-  type: common
+  type: presentation
   place: Harlem Stage
   time: "11:15"
   title: Building a distributed and robust time synchronisation service
@@ -708,7 +708,7 @@
 
 - id:
   day: dayfour
-  type: common
+  type: presentation
   place: Harlem Stage
   time: "13:00"
   title: "Digital Forensics and ICS: Why and how?"
@@ -718,7 +718,7 @@
 
 - id:
   day: dayfour
-  type: common
+  type: presentation
   place: Harlem Stage
   time: "13:30"
   title: Ultra responsible disclosure – or how to deal with a 0-day in critical infrastructure
@@ -732,14 +732,14 @@
 - id:
   day: dayfour
   type: common
-  place: ICS Stage
+  place: ICS Lab
   time: "09:00 - 16:00"
   title: ICS Lab Open
 
 - id:
   day: dayfour
-  type: common
-  place: ICS Stage
+  type: presentation
+  place: ICS Lab
   time: "Time TBA"
   title: Demystifying TSCM or how to spot the witch doctor doing the raindance
   author:

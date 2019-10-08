@@ -26,7 +26,7 @@
 		"time"		: "10:00 - 20:00",
 		"title" 	: "ICS Lab Open",
 		"author"	: "",
-		"place" 	: "ICS Stage"
+		"place" 	: "ICS Lab"
 	},
 
 	{
@@ -36,7 +36,7 @@
 		"time"		: "10:00 - 20:00",
 		"title" 	: "Capture the Flag Challenge",
 		"author"	: "Hosted by The DHS Cybersecurity and Infrastructure Agency",
-		"place" 	: "ICS Stage"
+		"place" 	: "ICS Lab"
 	},
 
 	{
@@ -46,7 +46,7 @@
 		"time"		: "16:00 - 20:00",
 		"title" 	: "KIPS Cybersecurity Simulation",
 		"author"	: "Hosted by Kaspersky",
-		"place" 	: "ICS Stage"
+		"place" 	: "ICS Lab"
 	},
 
 	{
@@ -176,7 +176,7 @@
 		"time"		: "10:00 - 18:00",
 		"title" 	: "ICS Lab Open",
 		"author"	: "",
-		"place" 	: "ICS Stage"
+		"place" 	: "ICS Lab"
 	},
 
 	{
@@ -186,7 +186,7 @@
 		"time"		: "10:00 - 18:00",
 		"title" 	: "Capture the Flag Challenge",
 		"author"	: "Hosted by The DHS Cybersecurity and Infrastructure Agency",
-		"place" 	: "ICS Stage"
+		"place" 	: "ICS Lab"
 	},
 
 	{
@@ -196,13 +196,13 @@
 		"time"		: "18:00",
 		"title" 	: "Closed",
 		"author"	: "",
-		"place" 	: "ICS Stage"
+		"place" 	: "ICS Lab"
 	},
 
 	{
 		"id"		: "",
 		"day"		: "daythree",
-		"type"		: "presentation",
+		"type"		: "common",
 		"time"		: "09:00",
 		"title" 	: "CS3STHLM Introduction",
 		"author"	: "Erik JohanssonRobert Malmgren",
@@ -292,7 +292,7 @@
 	{
 		"id"		: "",
 		"day"		: "daythree",
-		"type"		: "common",
+		"type"		: "presentation",
 		"time"		: "15:30",
 		"title" 	: "Security Testing for ICS Owners 2.0",
 		"author"	: "Dieter Sarrazyn",
@@ -486,7 +486,7 @@
 		"time"		: "09:00 - 18:00",
 		"title" 	: "ICS Lab Open",
 		"author"	: "",
-		"place" 	: "ICS Stage"
+		"place" 	: "ICS Lab"
 	},
 
 	{
@@ -496,7 +496,7 @@
 		"time"		: "10:30",
 		"title" 	: "Memory Forensics and DMA Attacks with MemProcFS and PCILeech",
 		"author"	: "Ulf Frisk",
-		"place" 	: "ICS Stage"
+		"place" 	: "ICS Lab"
 	},
 
 	{
@@ -506,7 +506,7 @@
 		"time"		: "11:15",
 		"title" 	: "TBA",
 		"author"	: "Erik Hjelmvik",
-		"place" 	: "ICS Stage"
+		"place" 	: "ICS Lab"
 	},
 
 	{
@@ -516,7 +516,7 @@
 		"time"		: "12:00 - 13:00",
 		"title" 	: "Lunch Break",
 		"author"	: "",
-		"place" 	: "ICS Stage"
+		"place" 	: "ICS Lab"
 	},
 
 	{
@@ -526,7 +526,7 @@
 		"time"		: "13:00",
 		"title" 	: "curl - the world's most used software component?",
 		"author"	: "Daniel Stenberg",
-		"place" 	: "ICS Stage"
+		"place" 	: "ICS Lab"
 	},
 
 	{
@@ -536,7 +536,7 @@
 		"time"		: "13:45",
 		"title" 	: "TBA",
 		"author"	: "Janek Pelzer",
-		"place" 	: "ICS Stage"
+		"place" 	: "ICS Lab"
 	},
 
 	{
@@ -546,7 +546,7 @@
 		"time"		: "14:30",
 		"title" 	: "Fuzz Testing IEC 61850",
 		"author"	: "Markus Mahrla",
-		"place" 	: "ICS Stage"
+		"place" 	: "ICS Lab"
 	},
 
 	{
@@ -556,7 +556,7 @@
 		"time"		: "15:15",
 		"title" 	: "Coffee Break",
 		"author"	: "",
-		"place" 	: "ICS Stage"
+		"place" 	: "ICS Lab"
 	},
 
 	{
@@ -566,7 +566,7 @@
 		"time"		: "17:15",
 		"title" 	: "Capture the Flag Results",
 		"author"	: "Hosted by The DHS Cybersecurity and Infrastructure Agency",
-		"place" 	: "ICS Stage"
+		"place" 	: "ICS Lab"
 	},
 
 	{
@@ -576,7 +576,7 @@
 		"time"		: "17:45 - 18:45",
 		"title" 	: "Mingle - Pre Dinner",
 		"author"	: "Dinner is served at Main Stage 18:45",
-		"place" 	: "ICS Stage"
+		"place" 	: "ICS Lab"
 	},
 
 	{
@@ -586,7 +586,7 @@
 		"time"		: "18:45",
 		"title" 	: "Closed",
 		"author"	: "",
-		"place" 	: "ICS Stage"
+		"place" 	: "ICS Lab"
 	},
 
 	{
@@ -602,7 +602,7 @@
 	{
 		"id"		: "",
 		"day"		: "dayfour",
-		"type"		: "common",
+		"type"		: "presentation",
 		"time"		: "09:05",
 		"title" 	: "Sandworm: Lessons From the Ukrainian Cyberwar and Beyond",
 		"author"	: "Andy Greenberg",
@@ -612,7 +612,7 @@
 	{
 		"id"		: "",
 		"day"		: "dayfour",
-		"type"		: "common",
+		"type"		: "presentation",
 		"time"		: "09:50",
 		"title" 	: "CVSS for ICS; Gauging a tennis game with number of goals",
 		"author"	: "Prasanna N",
@@ -632,7 +632,7 @@
 	{
 		"id"		: "",
 		"day"		: "dayfour",
-		"type"		: "common",
+		"type"		: "presentation",
 		"time"		: "10:50",
 		"title" 	: "Nation-State Supply Chain Attacks for Dummies and You Too",
 		"author"	: "Monta Elkins",
@@ -642,7 +642,7 @@
 	{
 		"id"		: "",
 		"day"		: "dayfour",
-		"type"		: "common",
+		"type"		: "presentation",
 		"time"		: "11:35",
 		"title" 	: "SCADApocalypse Now 4.0?",
 		"author"	: "Nicklas Keijser",
@@ -662,7 +662,7 @@
 	{
 		"id"		: "",
 		"day"		: "dayfour",
-		"type"		: "common",
+		"type"		: "presentation",
 		"time"		: "13:15",
 		"title" 	: "Project RunAway",
 		"author"	: "Matan DobrushinYoav Flint Rosenfeld",
@@ -672,7 +672,7 @@
 	{
 		"id"		: "",
 		"day"		: "dayfour",
-		"type"		: "common",
+		"type"		: "presentation",
 		"time"		: "14:00",
 		"title" 	: "IT vs. OT: We are Much More Similar than We are Different. Comparing Process Control Room and SOC operations",
 		"author"	: "Marina KrotofilVyacheslav Kopeytsev",
@@ -692,7 +692,7 @@
 	{
 		"id"		: "",
 		"day"		: "dayfour",
-		"type"		: "common",
+		"type"		: "presentation",
 		"time"		: "15:15",
 		"title" 	: "Automotive DoIP and forensic analysis for automotive systems",
 		"author"	: "Christopher CorbettKevin Gomez Buquerin",
@@ -712,7 +712,7 @@
 	{
 		"id"		: "",
 		"day"		: "dayfour",
-		"type"		: "common",
+		"type"		: "presentation",
 		"time"		: "10:30",
 		"title" 	: "EU STRIKE3 project",
 		"author"	: "Didrik Ehrenborg",
@@ -722,7 +722,7 @@
 	{
 		"id"		: "",
 		"day"		: "dayfour",
-		"type"		: "common",
+		"type"		: "presentation",
 		"time"		: "11:15",
 		"title" 	: "Building a distributed and robust time synchronisation service",
 		"author"	: "Ragnar Sundblad",
@@ -742,7 +742,7 @@
 	{
 		"id"		: "",
 		"day"		: "dayfour",
-		"type"		: "common",
+		"type"		: "presentation",
 		"time"		: "13:00",
 		"title" 	: "Digital Forensics and ICS: Why and how?",
 		"author"	: "Jonathan Jogenfors",
@@ -752,7 +752,7 @@
 	{
 		"id"		: "",
 		"day"		: "dayfour",
-		"type"		: "common",
+		"type"		: "presentation",
 		"time"		: "13:30",
 		"title" 	: "Ultra responsible disclosure – or how to deal with a 0-day in critical infrastructure",
 		"author"	: "Rikard Bodforss",
@@ -766,17 +766,17 @@
 		"time"		: "09:00 - 16:00",
 		"title" 	: "ICS Lab Open",
 		"author"	: "",
-		"place" 	: "ICS Stage"
+		"place" 	: "ICS Lab"
 	},
 
 	{
 		"id"		: "",
 		"day"		: "dayfour",
-		"type"		: "common",
+		"type"		: "presentation",
 		"time"		: "Time TBA",
 		"title" 	: "Demystifying TSCM or how to spot the witch doctor doing the raindance",
 		"author"	: "Richard Widh",
-		"place" 	: "ICS Stage"
+		"place" 	: "ICS Lab"
 	}
 
 ]}
