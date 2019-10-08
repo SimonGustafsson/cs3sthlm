@@ -4135,13 +4135,14 @@ a {
 
     p {
       font-size: 21px;
-      line-height: 1.5;
+      line-height: 1.64;
       margin-bottom: 48px;
-      color: rgba($white, .75);
+      color: rgba($white, .85);
 
-      &:first-of-type {
-        font-size: 23px;
-        margin-bottom: 0;
+      em {
+        font-family: 'latoitalic', sans-serif;
+        font-style: normal;
+        letter-spacing: 0.045em;
       }
     }
 
@@ -4163,12 +4164,19 @@ a {
       }
     }
 
+    h2 {
+      font-family: 'latobold', sans-serif;
+      font-size: 26px;
+      line-height: 1.75;
+      color: $yellow;
+    }
+
     h4 {
       font-family: 'latobold', sans-serif;
       font-size: 21px;
       line-height: 1.5;
       margin: 24px 0 0;
-      color: $light-gray;
+      color: rgba($white, 1);
     }
 
     ol, ul {
@@ -4187,6 +4195,13 @@ a {
 
   }
 
+  &-image {
+    display: block;
+    float: right;
+    margin: 24px 0 0 48px;
+    width: 50%;
+  }
+
   &-header {
 
   }
@@ -4194,9 +4209,9 @@ a {
   &-title {
     display: block;
     margin: 76px 0;
-    text-align: center;
+    text-align: left;
     color: $yellow;
-    font-size: 32px;
+    font-size: 52px;
   }
 }
 

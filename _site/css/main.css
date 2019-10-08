@@ -3138,12 +3138,13 @@ a {
       box-sizing: border-box; } }
   .blog-content p {
     font-size: 21px;
-    line-height: 1.5;
+    line-height: 1.64;
     margin-bottom: 48px;
-    color: rgba(255, 255, 255, 0.75); }
-    .blog-content p:first-of-type {
-      font-size: 23px;
-      margin-bottom: 0; }
+    color: rgba(255, 255, 255, 0.85); }
+    .blog-content p em {
+      font-family: 'latoitalic', sans-serif;
+      font-style: normal;
+      letter-spacing: 0.045em; }
   .blog-content img {
     display: block;
     width: 100%;
@@ -3158,12 +3159,17 @@ a {
     .blog-content a:hover {
       color: white;
       text-decoration: none; }
+  .blog-content h2 {
+    font-family: 'latobold', sans-serif;
+    font-size: 26px;
+    line-height: 1.75;
+    color: #ef7d00; }
   .blog-content h4 {
     font-family: 'latobold', sans-serif;
     font-size: 21px;
     line-height: 1.5;
     margin: 24px 0 0;
-    color: #e1e1e1; }
+    color: white; }
   .blog-content ol, .blog-content ul {
     display: block;
     margin-bottom: 24px; }
@@ -3173,12 +3179,17 @@ a {
       color: rgba(255, 255, 255, 0.75);
       margin-bottom: 6px;
       margin-left: 26px; }
+  .blog-image {
+    display: block;
+    float: right;
+    margin: 24px 0 0 48px;
+    width: 50%; }
   .blog-title {
     display: block;
     margin: 76px 0;
-    text-align: center;
+    text-align: left;
     color: #ef7d00;
-    font-size: 32px; }
+    font-size: 52px; }
 
 /**
   FEED NEWS */
