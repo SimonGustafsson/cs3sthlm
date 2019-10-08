@@ -5,13 +5,15 @@
     <description>CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 08 Oct 2019 12:40:05 +0000</pubDate>
-    <lastBuildDate>Tue, 08 Oct 2019 12:40:05 +0000</lastBuildDate>
+    <pubDate>Tue, 08 Oct 2019 13:18:27 +0000</pubDate>
+    <lastBuildDate>Tue, 08 Oct 2019 13:18:27 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>Sandworm: Lessons From the Ukrainian Cyberwar and Beyond</title>
-        <description>&lt;h1 class=&quot;blog-title&quot; itemprop=&quot;name headline&quot;&gt;Sandworm: Lessons From the Ukrainian Cyberwar and Beyond&lt;/h1&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/photos/andy-greenberg-sandworm.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 class=&quot;blog-title&quot; itemprop=&quot;name headline&quot;&gt;Sandworm: Lessons From the Ukrainian Cyberwar and Beyond&lt;/h1&gt;
 
 &lt;p&gt;At the upcoming CS3sthlm Summit (23-24 Oct 2019) in Stockholm, Sweden, attendees can listen to a keynote presentation by Wired senior writer Andy Greenberg. In his not yet released book, Sandworm, that will be distributed to the CS3 attendees, he tells a chilling story about identifying and tracking an elite team of agents bent on digital sabotage.&lt;/p&gt;
 

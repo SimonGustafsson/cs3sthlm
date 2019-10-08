@@ -3183,7 +3183,9 @@ a {
     display: block;
     float: right;
     margin: 24px 0 0 48px;
-    width: 50%; }
+    width: 50%;
+    border-radius: 4px;
+    box-sizing: border-box; }
   .blog-title {
     display: block;
     margin: 76px 0;
