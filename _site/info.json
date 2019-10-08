@@ -234,13 +234,13 @@
 
     
     { 
-      "id":      "27",
+      "id":      "25",
       "type":    "partner",
       "level":   "partner",
-      "company": "Nozomo",
+      "company": "Nozomi",
       "logo":    "https://cs3sthlm.se/assets/partners/nozomi.png",
       "url":     "https://www.nozominetworks.com",
-      "expo":    "inactive"
+      "expo":    "active"
     },
 
   
