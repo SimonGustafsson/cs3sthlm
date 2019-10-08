@@ -202,7 +202,7 @@
 
 - id:
   day: daythree
-  type: common
+  type: presentation
   place: Main Stage
   time: "09:00"
   title: CS3STHLM Introduction
@@ -212,7 +212,7 @@
 
 - id:
   day: daythree
-  type: common
+  type: presentation
   place: Main Stage
   time: "09:15"
   title: Presentation of the cyber-attack that hit Hydro earlier this year and the crisis management and recovery of the company following the ransomware attack
@@ -230,7 +230,7 @@
 
 - id:
   day: daythree
-  type: common
+  type: presentation
   place: Main Stage
   time: "10:30"
   title: The fall of CODESYS
@@ -240,7 +240,7 @@
 
 - id:
   day: daythree
-  type: common
+  type: presentation
   place: Main Stage
   time: "11:10"
   title: "Broken Rungs: A look at popular ladder logic runtime privileges"
@@ -258,7 +258,7 @@
 
 - id:
   day: daythree
-  type: common
+  type: presentation
   place: Main Stage
   time: "13:15"
   title: Tales from Industrial Plants and Responders
@@ -269,7 +269,7 @@
 
 - id:
   day: daythree
-  type: common
+  type: presentation
   place: Main Stage
   time: "14:00"
   title: Secure your MES the bridge between IT and OT
@@ -296,7 +296,7 @@
 
 - id:
   day: daythree
-  type: common
+  type: presentation
   place: Main Stage
   time: "16:00"
   title: How we reverse-engineered multiple industrial radio remote-control systems
@@ -306,14 +306,14 @@
 
 - id:
   day: daythree
-  type: common
+  type: presentation
   place: Main Stage
   time: "18:45 - 22:00"
   title: CS3STHLM Gala Dinner
 
 - id:
   day: daythree
-  type: common
+  type: presentation
   place: Main Stage
   time: "20:00"
   title: Zombie Survival

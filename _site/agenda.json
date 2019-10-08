@@ -202,7 +202,7 @@
 	{
 		"id"		: "",
 		"day"		: "daythree",
-		"type"		: "common",
+		"type"		: "presentation",
 		"time"		: "09:00",
 		"title" 	: "CS3STHLM Introduction",
 		"author"	: "Erik JohanssonRobert Malmgren",
@@ -212,7 +212,7 @@
 	{
 		"id"		: "",
 		"day"		: "daythree",
-		"type"		: "common",
+		"type"		: "presentation",
 		"time"		: "09:15",
 		"title" 	: "Presentation of the cyber-attack that hit Hydro earlier this year and the crisis management and recovery of the company following the ransomware attack",
 		"author"	: "Torstein Gimnes Are",
@@ -232,7 +232,7 @@
 	{
 		"id"		: "",
 		"day"		: "daythree",
-		"type"		: "common",
+		"type"		: "presentation",
 		"time"		: "10:30",
 		"title" 	: "The fall of CODESYS",
 		"author"	: "Alexander Nochvay",
@@ -242,7 +242,7 @@
 	{
 		"id"		: "",
 		"day"		: "daythree",
-		"type"		: "common",
+		"type"		: "presentation",
 		"time"		: "11:10",
 		"title" 	: "Broken Rungs: A look at popular ladder logic runtime privileges",
 		"author"	: "Jimmy WylieReid Wightman",
@@ -262,7 +262,7 @@
 	{
 		"id"		: "",
 		"day"		: "daythree",
-		"type"		: "common",
+		"type"		: "presentation",
 		"time"		: "13:15",
 		"title" 	: "Tales from Industrial Plants and Responders",
 		"author"	: "Christian AugustatMona Lange",
@@ -272,7 +272,7 @@
 	{
 		"id"		: "",
 		"day"		: "daythree",
-		"type"		: "common",
+		"type"		: "presentation",
 		"time"		: "14:00",
 		"title" 	: "Secure your MES the bridge between IT and OT",
 		"author"	: "Khalid Ansari",
@@ -302,7 +302,7 @@
 	{
 		"id"		: "",
 		"day"		: "daythree",
-		"type"		: "common",
+		"type"		: "presentation",
 		"time"		: "16:00",
 		"title" 	: "How we reverse-engineered multiple industrial radio remote-control systems",
 		"author"	: "Stephen Hilt",
@@ -312,7 +312,7 @@
 	{
 		"id"		: "",
 		"day"		: "daythree",
-		"type"		: "common",
+		"type"		: "presentation",
 		"time"		: "18:45 - 22:00",
 		"title" 	: "CS3STHLM Gala Dinner",
 		"author"	: "",
@@ -322,7 +322,7 @@
 	{
 		"id"		: "",
 		"day"		: "daythree",
-		"type"		: "common",
+		"type"		: "presentation",
 		"time"		: "20:00",
 		"title" 	: "Zombie Survival",
 		"author"	: "Herman Geijer",
