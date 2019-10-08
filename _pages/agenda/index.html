@@ -130,7 +130,7 @@ layout: default
 				<div class="agenda-content-column" id="dayone-stacken">
 					{% for item in site.data.agenda19 %}
 					{% if item.day == 'dayone' %}
-					{% if item.place == 'ICS Stage' %}
+					{% if item.place == 'ICS Lab' %}
 					{% if item.permalink.size > 1 %}
 					<div class="agenda-item agenda-item-link">
 						<a href="{% if item.permalink contains 'https' %}{{ item.permalink }}{% else %}{{ site.baseurl }}/{{ item.permalink }}{% endif %}">
@@ -222,7 +222,7 @@ layout: default
 				<div class="agenda-content-column" id="daytwo-stacken">
 					{% for item in site.data.agenda19 %}
 					{% if item.day == 'daytwo' %}
-					{% if item.place == 'ICS Stage' %}
+					{% if item.place == 'ICS Lab' %}
 					{% if item.permalink.size > 1 %}
 					<div class="agenda-item agenda-item-link">
 						<a href="{{ site.baseurl }}/{{ item.permalink }}">
@@ -314,7 +314,7 @@ layout: default
 				<div class="agenda-content-column" id="daythree-stacken">
 					{% for item in site.data.agenda19 %}
 					{% if item.day == 'daythree' %}
-					{% if item.place == 'ICS Stage' %}
+					{% if item.place == 'ICS Lab' %}
 					{% if item.permalink.size > 1 %}
 					<div class="agenda-item agenda-item-link">
 						<a href="{{ site.baseurl }}/{{ item.permalink }}">
@@ -406,7 +406,7 @@ layout: default
 				<div class="agenda-content-column" id="dayfour-stacken">
 					{% for item in site.data.agenda19 %}
 					{% if item.day == 'dayfour' %}
-					{% if item.place == 'ICS Stage' %}
+					{% if item.place == 'ICS Lab' %}
 					{% if item.permalink.size > 1 %}
 					<div class="agenda-item agenda-item-link">
 						<a href="{{ site.baseurl }}/{{ item.permalink }}">
