@@ -282,9 +282,9 @@
   
    {
      
-        "title"    : "Jonathan Homer",
-        "url"      : "/about/archive/speakers/jonathan-homer",
-        "path"     : "/about/archive/speakers/jonathan-homer"
+        "title"    : "Testbed Evaluation of DoS Attacks on Continuously Controlled Processes",
+        "url"      : "/expo/presentations/henrik-sandberg/",
+        "path"     : "/expo/presentations/henrik-sandberg/"
      
    },
   
@@ -381,14 +381,6 @@
         "title"    : "William Middleton",
         "url"      : "/about/archive/speakers/william-middleton",
         "path"     : "/about/archive/speakers/william-middleton"
-     
-   },
-  
-   {
-     
-        "title"    : "Kevin Jones",
-        "url"      : "/about/archive/speakers/kevin-jones",
-        "path"     : "/about/archive/speakers/kevin-jones"
      
    },
   
@@ -602,14 +594,6 @@
   
    {
      
-        "title"    : "Home",
-        "url"      : "/",
-        "path"     : ""
-     
-   },
-  
-   {
-     
         "title"    : "Expo Agenda",
         "url"      : "/expo/agenda/",
         "path"     : "/expo/agenda/"
@@ -666,25 +650,17 @@
   
    {
      
-        "title"    : "Agenda",
-        "url"      : "/agenda/",
-        "path"     : "/agenda/"
-     
-   },
-  
-   {
-     
-        "title"    : "Program",
-        "url"      : "/program/",
-        "path"     : "/program/"
-     
-   },
-  
-   {
-     
         "title"    : "Presentations",
         "url"      : "/program/presentations/",
         "path"     : "/program/presentations/"
+     
+   },
+  
+   {
+     
+        "title"    : "Kevin Jones",
+        "url"      : "/about/archive/speakers/kevin-jones",
+        "path"     : "/about/archive/speakers/kevin-jones"
      
    },
   
@@ -781,6 +757,38 @@
         "title"    : "Dan Demeter",
         "url"      : "/about/archive/speakers/dan-demeter",
         "path"     : "/about/archive/speakers/dan-demeter"
+     
+   },
+  
+   {
+     
+        "title"    : "Jonathan Homer",
+        "url"      : "/about/archive/speakers/jonathan-homer",
+        "path"     : "/about/archive/speakers/jonathan-homer"
+     
+   },
+  
+   {
+     
+        "title"    : "Program",
+        "url"      : "/program/",
+        "path"     : "/program/"
+     
+   },
+  
+   {
+     
+        "title"    : "Agenda",
+        "url"      : "/agenda/",
+        "path"     : "/agenda/"
+     
+   },
+  
+   {
+     
+        "title"    : "Home",
+        "url"      : "/",
+        "path"     : ""
      
    },
   

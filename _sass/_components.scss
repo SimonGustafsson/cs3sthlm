@@ -711,14 +711,20 @@
 		&-item {
 			display: flex;
 			align-items: center;
-			justify-content: center;
+			justify-content: flex-start;
 			width: 33.333333%;
-			padding: 12px 0;
+			padding: 12px 20px;
 			box-sizing: border-box;
 
 			&:nth-child(2) {
 				border-left: 1px solid $blue-darken;
 				border-right: 1px solid $blue-darken;
+			}
+
+			@include media-query($mobile) {
+				.alt-title {
+					font-size: 16px;
+				}
 			}
 
 			&-active {
@@ -747,6 +753,13 @@
 			box-shadow: 0 0 14px rgba($dark, .3);
 			background: $dark;
 			max-width: 1440px;
+
+			@include media-query($medium) {
+				max-width: 1200px;
+			}
+			@include media-query($small) {
+				max-width: 92%;
+			}
 		}
 	}
 

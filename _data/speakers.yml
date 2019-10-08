@@ -588,6 +588,32 @@
 #   training:
 #     - active: none
 
+- id: 52
+  type: expotalk
+  permalink:
+  name: Henrik Sandberg
+  role: Professor
+  work: KTH Royal Institute of Technology
+  country: Sweden
+  shortcode: SE
+  image: henrik-sandberg.png
+  bio: Henrik Sandberg is Professor at the Division of Decision and Control Systems, KTH Royal Institute of Technology, Stockholm, Sweden. He received the M.Sc. degree in engineering physics and the Ph.D. degree in automatic control from Lund University, Lund, Sweden, in 1999 and 2004, respectively. From 2005 to 2007, he was a Post-Doctoral Scholar at the California Institute of Technology, Pasadena, USA. In 2013, he was a visiting scholar at the Laboratory for Information and Decision Systems (LIDS) at MIT, Cambridge, USA. He has also held visiting appointments at the Australian National University and the University of Melbourne, Australia. His current research interests include security of cyber-physical systems, power systems, model reduction, and fundamental limitations in control. Dr. Sandberg was a recipient of the Best Student Paper Award from the IEEE Conference on Decision and Control in 2004, an Ingvar Carlsson Award from the Swedish Foundation for Strategic Research in 2007, and a Consolidator Grant from the Swedish Research Council in 2016. He has served on the editorial board of IEEE Transactions on Automatic Control and is currently Associate Editor of the IFAC Journal Automatica.
+  date:
+  time:
+  place:
+  speaker:
+    - name: Henrik Sandberg
+      role: Professor
+      image: henrik-sandberg
+  presentation:
+    - active: live
+      subject: Testbed Evaluation of DoS Attacks on Continuously Controlled Processes
+      permalink: expo/presentations/henrik-sandberg/
+      partner:
+      description: |
+        In this talk, we first give an overview of the MSB-sponsored project CERCES. The latest activities and results in the CERCES focus areas (embedded systems, wireless systems, communication networks, and resilient control) are reviewed. Second, we present ongoing work in evaluating the performance of PID-controllers under DoS attacks. The experiments are conducted in a recently developed virtual testbed, which is openly available. An important observation is that also benign physical processes may exhibit potentially dangerous oscillations under DoS attacks unless care is taken in the control implementation. An event-based PID-controller with adaptive gain shows promising performance under DoS attack.
+  training:
+    - active: none
 
 - id: 30
   type: special
@@ -2012,3 +2038,5 @@
         2. Security guidelines for securing the supply chain process
   training:
     - active: none
+
+

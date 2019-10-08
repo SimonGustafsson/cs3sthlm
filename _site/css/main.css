@@ -5295,13 +5295,16 @@ p.content-intro {
     .agenda-content-header-item {
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
       width: 33.333333%;
-      padding: 12px 0;
+      padding: 12px 20px;
       box-sizing: border-box; }
       .agenda-content-header-item:nth-child(2) {
         border-left: 1px solid #1a1c20;
         border-right: 1px solid #1a1c20; }
+      @media screen and (max-width: 768px) {
+        .agenda-content-header-item .alt-title {
+          font-size: 16px; } }
       @media screen and (max-width: 768px) {
         .agenda-content-header-item-active {
           background: rgba(26, 28, 32, 0.75); } }
@@ -5319,6 +5322,12 @@ p.content-intro {
       box-shadow: 0 0 14px rgba(3, 1, 0, 0.3);
       background: #030100;
       max-width: 1440px; }
+      @media screen and (max-width: 1440px) {
+        .agenda-content-header.sticky-block {
+          max-width: 1200px; } }
+      @media screen and (max-width: 1170px) {
+        .agenda-content-header.sticky-block {
+          max-width: 92%; } }
   .agenda-content-column {
     display: flex;
     flex-direction: column;

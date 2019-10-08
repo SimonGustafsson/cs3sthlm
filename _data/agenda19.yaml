@@ -139,7 +139,7 @@
   time: "14:30"
   title: TBA
   author:
-    - Kaspersky
+    - Nozomi
   permalink:
 
 - id: 
@@ -149,7 +149,7 @@
   time: "14:50"
   title: TBA
   author:
-    - Nozomi
+    - Kaspersky
   permalink:
 
 - id: 
@@ -157,10 +157,10 @@
   type: presentation
   place: Harlem Stage
   time: "15:30"
-  title: TBA
+  title: Testbed Evaluation of DoS Attacks on Continuously Controlled Processes
   author:
     - Henrik Sandberg
-  permalink:
+  permalink: expo/presentations/henrik-sandberg/
 
 - id: 
   day: daytwo
@@ -371,39 +371,48 @@
 
 - id:
   day: daythree
+  type: common
+  place: Harlem Stage
+  time: "12:40 - 16:00"
+  title: Locked Shields from different perspectives
+  author:
+    - Moderated by Thomas Svensson
+
+- id:
+  day: daythree
   type: presentation
   place: Harlem Stage
   time: "12:40"
-  title: TBA
+  title: Introduction to Locked Shields exercise
   author:
-    - Thomas Svensson - Moderator
+    - Thomas Svensson, Deputy White Team Leader
 
 - id:
   day: daythree
   type: presentation
   place: Harlem Stage
   time: "12:50"
-  title: TBA
+  title: Presenting the organization behind the exercise
   author:
-    - Cdr Michael Widmann
+    - Cdr Michael Widmann, Leading the strategic part of Locked Shields
 
 - id:
   day: daythree
   type: presentation
   place: Harlem Stage
   time: "13:20"
-  title: TBA
+  title: Digging into the technical setup of the exercise
   author:
-    - Silver Saks
+    - Silver Saks, Green Team Leader
 
 - id:
   day: daythree
   type: presentation
   place: Harlem Stage
   time: "13:40"
-  title: TBA
+  title: Red Teams view from the exercise
   author:
-    - Sandra Bardón
+    - Sandra Bardón, Core Member Red Team
 
 - id:
   day: daythree
@@ -420,9 +429,9 @@
   type: presentation
   place: Harlem Stage
   time: "14:30"
-  title: TBA
+  title: Presenting how we know what's happen in the exercise and measuring
   author:
-    - Jarkko Huttunen
+    - Jarkko Huttunen, Team Leader Yellow Team
 
 - id:
   day: daythree
@@ -436,7 +445,7 @@
   type: presentation
   place: Harlem Stage
   time: "15:20"
-  title: TBA
+  title: Presenting the strategic part of the exercise and how it connects to the technical exercise
   author:
     - Cdr Michael Widmann
 
