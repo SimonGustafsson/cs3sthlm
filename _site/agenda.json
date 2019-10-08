@@ -50,7 +50,7 @@
 	},
 
 	{
-		"id"		: "",
+		"id"		: "201",
 		"day"		: "daytwo",
 		"type"		: "common",
 		"time"		: "10:00 - 22:00",
@@ -60,117 +60,7 @@
 	},
 
 	{
-		"id"		: "",
-		"day"		: "daytwo",
-		"type"		: "common",
-		"time"		: "18:00 - 22:00",
-		"title" 	: "CS3STHLM Welcome Reception",
-		"author"	: "Hosted by Erik & Robert",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daytwo",
-		"type"		: "presentation",
-		"time"		: "11:00",
-		"title" 	: "From datasets and testbeds to timing-based anomaly detection",
-		"author"	: "Simin Nadjm-Tehrani",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daytwo",
-		"type"		: "presentation",
-		"time"		: "11:45",
-		"title" 	: "Applying automated attack modeling to a smart grid use case",
-		"author"	: "Mathias Ekstedt",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daytwo",
-		"type"		: "presentation",
-		"time"		: "12:30",
-		"title" 	: "TBA",
-		"author"	: "F-Secure",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daytwo",
-		"type"		: "presentation",
-		"time"		: "12:50",
-		"title" 	: "TBA",
-		"author"	: "Recorded Future",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daytwo",
-		"type"		: "presentation",
-		"time"		: "13:30",
-		"title" 	: "TBA",
-		"author"	: "Pontus Johnson",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daytwo",
-		"type"		: "presentation",
-		"time"		: "14:00",
-		"title" 	: "Project EnergyShield - hacking the power grid as a research method",
-		"author"	: "Robert Lagerström",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daytwo",
-		"type"		: "presentation",
-		"time"		: "14:30",
-		"title" 	: "TBA",
-		"author"	: "Nozomi",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daytwo",
-		"type"		: "presentation",
-		"time"		: "14:50",
-		"title" 	: "TBA",
-		"author"	: "Kaspersky",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daytwo",
-		"type"		: "presentation",
-		"time"		: "15:30",
-		"title" 	: "Testbed Evaluation of DoS Attacks on Continuously Controlled Processes",
-		"author"	: "Henrik Sandberg",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daytwo",
-		"type"		: "break",
-		"time"		: "18:00",
-		"title" 	: "Closed",
-		"author"	: "",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "",
+		"id"		: "202",
 		"day"		: "daytwo",
 		"type"		: "common",
 		"time"		: "10:00 - 18:00",
@@ -180,7 +70,7 @@
 	},
 
 	{
-		"id"		: "",
+		"id"		: "203",
 		"day"		: "daytwo",
 		"type"		: "common",
 		"time"		: "10:00 - 18:00",
@@ -190,13 +80,133 @@
 	},
 
 	{
-		"id"		: "",
+		"id"		: "204",
+		"day"		: "daytwo",
+		"type"		: "presentation",
+		"time"		: "11:00",
+		"title" 	: "From datasets and testbeds to timing-based anomaly detection",
+		"author"	: "Simin Nadjm-Tehrani",
+		"place" 	: "Harlem Stage"
+	},
+
+	{
+		"id"		: "205",
+		"day"		: "daytwo",
+		"type"		: "presentation",
+		"time"		: "11:45",
+		"title" 	: "Applying automated attack modeling to a smart grid use case",
+		"author"	: "Mathias Ekstedt",
+		"place" 	: "Harlem Stage"
+	},
+
+	{
+		"id"		: "206",
+		"day"		: "daytwo",
+		"type"		: "presentation",
+		"time"		: "12:30",
+		"title" 	: "TBA",
+		"author"	: "F-Secure",
+		"place" 	: "Harlem Stage"
+	},
+
+	{
+		"id"		: "207",
+		"day"		: "daytwo",
+		"type"		: "presentation",
+		"time"		: "12:50",
+		"title" 	: "TBA",
+		"author"	: "Recorded Future",
+		"place" 	: "Harlem Stage"
+	},
+
+	{
+		"id"		: "208",
+		"day"		: "daytwo",
+		"type"		: "presentation",
+		"time"		: "13:30",
+		"title" 	: "TBA",
+		"author"	: "Pontus Johnson",
+		"place" 	: "Harlem Stage"
+	},
+
+	{
+		"id"		: "209",
+		"day"		: "daytwo",
+		"type"		: "presentation",
+		"time"		: "14:00",
+		"title" 	: "Project EnergyShield - hacking the power grid as a research method",
+		"author"	: "Robert Lagerström",
+		"place" 	: "Harlem Stage"
+	},
+
+	{
+		"id"		: "210",
+		"day"		: "daytwo",
+		"type"		: "presentation",
+		"time"		: "14:30",
+		"title" 	: "TBA",
+		"author"	: "Nozomi",
+		"place" 	: "Harlem Stage"
+	},
+
+	{
+		"id"		: "211",
+		"day"		: "daytwo",
+		"type"		: "presentation",
+		"time"		: "14:50",
+		"title" 	: "TBA",
+		"author"	: "Kaspersky",
+		"place" 	: "Harlem Stage"
+	},
+
+	{
+		"id"		: "212",
+		"day"		: "daytwo",
+		"type"		: "presentation",
+		"time"		: "15:30",
+		"title" 	: "Testbed Evaluation of DoS Attacks on Continuously Controlled Processes",
+		"author"	: "Henrik Sandberg",
+		"place" 	: "Harlem Stage"
+	},
+
+	{
+		"id"		: "213",
+		"day"		: "daytwo",
+		"type"		: "break",
+		"time"		: "18:00",
+		"title" 	: "Closed",
+		"author"	: "",
+		"place" 	: "Harlem Stage"
+	},
+
+	{
+		"id"		: "214",
 		"day"		: "daytwo",
 		"type"		: "break",
 		"time"		: "18:00",
 		"title" 	: "Closed",
 		"author"	: "",
 		"place" 	: "ICS Lab"
+	},
+
+	{
+		"id"		: "215",
+		"day"		: "daytwo",
+		"type"		: "common",
+		"time"		: "18:00 - 22:00",
+		"title" 	: "CS3STHLM Welcome Reception",
+		"author"	: "Hosted by Erik & Robert",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "216",
+		"day"		: "daytwo",
+		"type"		: "break",
+		"time"		: "22:00",
+		"title" 	: "Closed",
+		"author"	: "",
+		"place" 	: "Main Stage"
 	},
 
 	{

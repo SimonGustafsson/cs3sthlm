@@ -50,8 +50,9 @@
 
 # DAY TWO - TUESDAY
 #-----------------#
+## MAIN STAGE
 
-- id: 201
+- id: 
   day: daytwo
   type: common
   place: Main Stage
@@ -60,23 +61,19 @@
   author:
     - Opening by Erik & Robert
 
-- id: 202
+- id: 
   day: daytwo
   type: common
-  place: ICS Lab
-  time: "10:00 - 18:00"
-  title: ICS Lab Open
-
-- id: 203
-  day: daytwo
-  type: common
-  place: ICS Lab
-  time: "10:00 - 18:00"
-  title: Capture the Flag Challenge
+  place: Main Stage
+  time: "18:00 - 22:00"
+  title: CS3STHLM Welcome Reception
   author:
-    - Hosted by The DHS Cybersecurity and Infrastructure Agency
+    - Hosted by Erik & Robert
 
-- id: 204
+
+## HARLEM
+
+- id: 
   day: daytwo
   type: presentation
   place: Harlem Stage
@@ -86,7 +83,7 @@
     - Simin Nadjm-Tehrani
   permalink: expo/presentations/simin-nadjm-tehrani/
 
-- id: 205
+- id: 
   day: daytwo
   type: presentation
   place: Harlem Stage
@@ -96,7 +93,7 @@
     - Mathias Ekstedt
   permalink: expo/presentations/mathias-ekstedt/
 
-- id: 206
+- id: 
   day: daytwo
   type: presentation
   place: Harlem Stage
@@ -106,7 +103,7 @@
     - F-Secure
   permalink:
 
-- id: 207
+- id: 
   day: daytwo
   type: presentation
   place: Harlem Stage
@@ -116,7 +113,7 @@
     - Recorded Future
   permalink:
 
-- id: 208
+- id: 
   day: daytwo
   type: presentation
   place: Harlem Stage
@@ -125,7 +122,7 @@
   author:
     - Pontus Johnson
 
-- id: 209
+- id: 
   day: daytwo
   type: presentation
   place: Harlem Stage
@@ -135,7 +132,7 @@
     - Robert Lagerström
   permalink: expo/presentations/robert-lagerstrom/
 
-- id: 210
+- id: 
   day: daytwo
   type: presentation
   place: Harlem Stage
@@ -145,7 +142,7 @@
     - Nozomi
   permalink:
 
-- id: 211
+- id: 
   day: daytwo
   type: presentation
   place: Harlem Stage
@@ -155,7 +152,7 @@
     - Kaspersky
   permalink:
 
-- id: 212
+- id: 
   day: daytwo
   type: presentation
   place: Harlem Stage
@@ -165,36 +162,38 @@
     - Henrik Sandberg
   permalink: expo/presentations/henrik-sandberg/
 
-- id: 213
+- id: 
   day: daytwo
   type: break
   place: Harlem Stage
   time: "18:00"
   title: Closed
 
-- id: 214
+## ICSLAB
+
+- id: 
+  day: daytwo
+  type: common
+  place: ICS Lab
+  time: "10:00 - 18:00"
+  title: ICS Lab Open
+
+
+- id: 
+  day: daytwo
+  type: common
+  place: ICS Lab
+  time: "10:00 - 18:00"
+  title: Capture the Flag Challenge
+  author:
+    - Hosted by The DHS Cybersecurity and Infrastructure Agency
+
+- id: 
   day: daytwo
   type: break
   place: ICS Lab
   time: "18:00"
   title: Closed
-
-- id: 215
-  day: daytwo
-  type: common
-  place: Main Stage
-  time: "18:00 - 22:00"
-  title: CS3STHLM Welcome Reception
-  author:
-    - Hosted by Erik & Robert
-
-- id: 216
-  day: daytwo
-  type: break
-  place: Main Stage
-  time: "22:00"
-  title: Closed
-
 
 
 # DAY THREE - WEDNESDAY
