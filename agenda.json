@@ -9,7 +9,19 @@ layout:
 		"type"		: "{{ item.type }}",
 		"time"		: "{{ item.time }}",
 		"title" 	: "{{ item.title | strip_html }}",
-		"author"	: "{{ item.author }}",
+		"description"	: {{ item.description | markdownify | strip_newlines | jsonify }},
+		{% for item in item.author %}
+		"name"		: "{{ item.name }}",
+		"role"		: "{{ item.role }}",
+		"work"		: "{{ item.work }}",
+		"image"		: "https://cs3sthlm.se/assets/speakers/{{ item.image }}",
+		{% endfor %}
+		{% for item in item.partner %}
+		"pname"		: "{{ item.name }}",
+		"prole"		: "{{ item.role }}",
+		"pwork"		: "{{ item.work }}",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/{{ item.image }}",
+		{% endfor %}
 		"label"		: "{{ item.label }}",
 		"place" 	: "{{ item.place }}"
 	}{% unless forloop.last %},{% endunless %}
