@@ -121,7 +121,7 @@ layout: default
 							<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
 							{% endif %}
 							<h3 class="agenda-item-headline">{{ item.title }}</h3>
-							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
+							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item.name }}</span>{% endfor %}</h4>
 						</a>
 					</div>
 					{% else %}
@@ -131,7 +131,7 @@ layout: default
 						<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
 						{% endif %}
 						<h3 class="agenda-item-headline">{{ item.title }}</h3>
-						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
+						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item.name }}</span>{% endfor %}</h4>
 					</div>
 					{% endif %}
 					{% endif %}
@@ -151,7 +151,7 @@ layout: default
 							<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
 							{% endif %}
 							<h3 class="agenda-item-headline">{{ item.title }}</h3>
-							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
+							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item.name }}</span>{% endfor %}</h4>
 						</a>
 					</div>
 					{% else %}
@@ -161,7 +161,7 @@ layout: default
 						<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
 						{% endif %}
 						<h3 class="agenda-item-headline">{{ item.title }}</h3>
-						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
+						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item.name }}</span>{% endfor %}</h4>
 					</div>
 					{% endif %}
 					{% endif %}
@@ -201,7 +201,7 @@ layout: default
 							<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
 							{% endif %}
 							<h3 class="agenda-item-headline">{{ item.title }}</h3>
-							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
+							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item.name }}</span>{% endfor %}{% for item in item.partner %}{% if item.name.size > 1 %}<span>{{ item.name }}</span>{% endif %}{% endfor %}</h4>
 						</a>
 					</div>
 					{% else %}
@@ -211,7 +211,7 @@ layout: default
 						<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
 						{% endif %}
 						<h3 class="agenda-item-headline">{{ item.title }}</h3>
-						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
+						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item.name }}</span>{% endfor %}{% for item in item.partner %}{% if item.name.size > 1 %}<span>{{ item.name }}</span>{% endif %}{% endfor %}</h4>
 					</div>
 					{% endif %}
 					{% endif %}
@@ -231,7 +231,7 @@ layout: default
 							<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
 							{% endif %}
 							<h3 class="agenda-item-headline">{{ item.title }}</h3>
-							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
+							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item.name }}</span>{% endfor %}{% for item in item.partner %}{% if item.name.size > 1 %}<span>{{ item.name }}</span>{% endif %}{% endfor %}</h4>
 						</a>
 					</div>
 					{% else %}
@@ -241,7 +241,7 @@ layout: default
 						<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
 						{% endif %}
 						<h3 class="agenda-item-headline">{{ item.title }}</h3>
-						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
+						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item.name }}</span>{% endfor %}{% for item in item.partner %}{% if item.name.size > 1 %}<span>{{ item.name }}</span>{% endif %}{% endfor %}</h4>
 					</div>
 					{% endif %}
 					{% endif %}
@@ -261,7 +261,7 @@ layout: default
 							<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
 							{% endif %}
 							<h3 class="agenda-item-headline">{{ item.title }}</h3>
-							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
+							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item.name }}</span>{% endfor %}{% for item in item.partner %}{% if item.name.size > 1 %}<span>{{ item.name }}</span>{% endif %}{% endfor %}</h4>
 						</a>
 					</div>
 					{% else %}
@@ -271,7 +271,7 @@ layout: default
 						<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
 						{% endif %}
 						<h3 class="agenda-item-headline">{{ item.title }}</h3>
-						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
+						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item.name }}</span>{% endfor %}{% for item in item.partner %}{% if item.name.size > 1 %}<span>{{ item.name }}</span>{% endif %}{% endfor %}</h4>
 					</div>
 					{% endif %}
 					{% endif %}
@@ -311,7 +311,7 @@ layout: default
 							<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
 							{% endif %}
 							<h3 class="agenda-item-headline">{{ item.title }}</h3>
-							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
+							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item.name }}</span>{% endfor %}{% for item in item.partner %}{% if item.name.size > 1 %}<span>{{ item.name }}</span>{% endif %}{% endfor %}</h4>
 						</a>
 					</div>
 					{% else %}
@@ -321,7 +321,7 @@ layout: default
 						<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
 						{% endif %}
 						<h3 class="agenda-item-headline">{{ item.title }}</h3>
-						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
+						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item.name }}</span>{% endfor %}{% for item in item.partner %}{% if item.name.size > 1 %}<span>{{ item.name }}</span>{% endif %}{% endfor %}</h4>
 					</div>
 					{% endif %}
 					{% endif %}
@@ -341,7 +341,7 @@ layout: default
 							<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
 							{% endif %}
 							<h3 class="agenda-item-headline">{{ item.title }}</h3>
-							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
+							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item.name }}</span>{% endfor %}{% for item in item.partner %}{% if item.name.size > 1 %}<span>{{ item.name }}</span>{% endif %}{% endfor %}</h4>
 						</a>
 					</div>
 					{% else %}
@@ -351,7 +351,7 @@ layout: default
 						<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
 						{% endif %}
 						<h3 class="agenda-item-headline">{{ item.title }}</h3>
-						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
+						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item.name }}</span>{% endfor %}{% for item in item.partner %}{% if item.name.size > 1 %}<span>{{ item.name }}</span>{% endif %}{% endfor %}</h4>
 					</div>
 					{% endif %}
 					{% endif %}
@@ -371,7 +371,7 @@ layout: default
 							<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
 							{% endif %}
 							<h3 class="agenda-item-headline">{{ item.title }}</h3>
-							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
+							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item.name }}</span>{% endfor %}{% for item in item.partner %}{% if item.name.size > 1 %}<span>{{ item.name }}</span>{% endif %}{% endfor %}</h4>
 						</a>
 					</div>
 					{% else %}
@@ -381,7 +381,7 @@ layout: default
 						<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
 						{% endif %}
 						<h3 class="agenda-item-headline">{{ item.title }}</h3>
-						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
+						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item.name }}</span>{% endfor %}{% for item in item.partner %}{% if item.name.size > 1 %}<span>{{ item.name }}</span>{% endif %}{% endfor %}</h4>
 					</div>
 					{% endif %}
 					{% endif %}
@@ -421,7 +421,7 @@ layout: default
 							<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
 							{% endif %}
 							<h3 class="agenda-item-headline">{{ item.title }}</h3>
-							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
+							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item.name }}</span>{% endfor %}{% for item in item.partner %}{% if item.name.size > 1 %}<span>{{ item.name }}</span>{% endif %}{% endfor %}</h4>
 						</a>
 					</div>
 					{% else %}
@@ -431,7 +431,7 @@ layout: default
 						<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
 						{% endif %}
 						<h3 class="agenda-item-headline">{{ item.title }}</h3>
-						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
+						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item.name }}</span>{% endfor %}{% for item in item.partner %}{% if item.name.size > 1 %}<span>{{ item.name }}</span>{% endif %}{% endfor %}</h4>
 					</div>
 					{% endif %}
 					{% endif %}
@@ -451,7 +451,7 @@ layout: default
 							<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
 							{% endif %}
 							<h3 class="agenda-item-headline">{{ item.title }}</h3>
-							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
+							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item.name }}</span>{% endfor %}{% for item in item.partner %}{% if item.name.size > 1 %}<span>{{ item.name }}</span>{% endif %}{% endfor %}</h4>
 						</a>
 					</div>
 					{% else %}
@@ -461,7 +461,7 @@ layout: default
 						<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
 						{% endif %}
 						<h3 class="agenda-item-headline">{{ item.title }}</h3>
-						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
+						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item.name }}</span>{% endfor %}{% for item in item.partner %}{% if item.name.size > 1 %}<span>{{ item.name }}</span>{% endif %}{% endfor %}</h4>
 					</div>
 					{% endif %}
 					{% endif %}
@@ -481,7 +481,7 @@ layout: default
 							<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
 							{% endif %}
 							<h3 class="agenda-item-headline">{{ item.title }}</h3>
-							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
+							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item.name }}</span>{% endfor %}{% for item in item.partner %}{% if item.name.size > 1 %}<span>{{ item.name }}</span>{% endif %}{% endfor %}</h4>
 						</a>
 					</div>
 					{% else %}
@@ -491,7 +491,7 @@ layout: default
 						<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
 						{% endif %}
 						<h3 class="agenda-item-headline">{{ item.title }}</h3>
-						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
+						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item.name }}</span>{% endfor %}{% for item in item.partner %}{% if item.name.size > 1 %}<span>{{ item.name }}</span>{% endif %}{% endfor %}</h4>
 					</div>
 					{% endif %}
 					{% endif %}

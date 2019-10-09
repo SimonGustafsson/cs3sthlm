@@ -89,6 +89,8 @@
       role: Professor
       work: Linköping University
       image: simin-nadjm-tehrani.png
+  partner:
+    - name:
   permalink: expo/presentations/simin-nadjm-tehrani/
 
 - id: 205
@@ -104,6 +106,8 @@
       role: Professor
       work: KTH Royal Institute of Technology
       image: mathias-ekstedt.png
+  partner:
+    - name:
   permalink: expo/presentations/mathias-ekstedt/
 
 - id: 206
@@ -158,6 +162,8 @@
       role: Associate Professor
       work: KTH Royal Institute of Technology
       image: robert-lagerstrom.png
+  partner:
+    - name:
   permalink: expo/presentations/robert-lagerstrom/
 
 - id: 210
@@ -193,6 +199,8 @@
       role: Professor
       work: KTH Royal Institute of Technology
       image: henrik-sandberg.png
+  partner:
+    - name:
   permalink: expo/presentations/henrik-sandberg/
 
 - id: 213
@@ -261,6 +269,8 @@
       role: Digital Marshall & CISO
       work: Norsk Hydro
       image: torstein-gimnes-are.png
+  partner:
+    - name:
   special: Keynote
   permalink: program/presentations/torstein-gimnes-are/
 
@@ -315,6 +325,8 @@
       role: Security Researcher
       work: Kaspersky
       image: alexander-nochvay.png
+  partner:
+    - name:
   permalink: program/presentations/alexander-nochvay/
   label: The Threats
 
@@ -333,6 +345,8 @@
       role: Pentester & Security Researcher
       work: Independent
       image: ulf-frisk.png
+  partner:
+    - name:
   permalink: program/presentations/ulf-frisk/
   label: The Tools
 
@@ -369,6 +383,8 @@
       role: Security Consultant
       work: admeritia GmbH
       image: sarah-fluchs.png
+  partner:
+    - name:
   permalink: program/presentations/sarah-fluchs/
   label: The Methods
 
@@ -416,6 +432,8 @@
       role: Network Analyst
       work: NETRESEC
       image: erik-hjelmvik.png
+  partner:
+    - name:
   permalink: program/presentations/erik-hjelmvik/
   label: The Tools
 
@@ -451,6 +469,8 @@
       role: PhD Student
       work: University of Cambridge
       image: mike-dodson.png
+  partner:
+    - name:
   permalink: program/presentations/mike-dodson/
   label: The Methods
 
@@ -496,6 +516,8 @@
       role: Deputy Head of National Security
       work: Telia Company Sweden
       image: thomas-svensson.png
+  partner:
+    - name:
   label: The Training
 
 - id: 317
@@ -510,6 +532,8 @@
       role: Strategy Branch Chief
       work: CCDCOE
       image: cdr-michael-widmann
+  partner:
+    - name:
   label: The Training
 
 - id: 318
@@ -525,6 +549,8 @@
       role: Software Engineer
       work: wolfSSL
       image: daniel-stenberg.png
+  partner:
+    - name:
   permalink: program/presentations/daniel-stenberg/
   label: The Tools
 
@@ -569,6 +595,8 @@
       role: Technology Researcher
       work: CCDCOE
       image: silver-saks.png
+  partner:
+    - name:
   label: The Training
 
 - id: 321
@@ -583,6 +611,8 @@
       role: Technology Researcher
       work: CCDCOE
       image: sandra-bardon.png
+  partner:
+    - name:
   label: The Training
 
 - id: 322
@@ -597,6 +627,8 @@
       role: TBA
       work: TBA
       image: temp.png
+  partner:
+    - name:
   permalink: program/presentations/janek-pelzer/
   label: The Tools
 
@@ -623,6 +655,8 @@
       role: Automation & MES Engineer
       work: Qatar Aluminium Ltd
       image: khalid-ansari.png
+  partner:
+    - name:
   permalink: program/presentations/khalid-ansari/
   label: The Industrial Plants
 
@@ -657,6 +691,8 @@
       role: Head of Solutions
       work: Arctic Security
       image: jarkko-huttunen.png
+  partner:
+    - name:
   label: The Training
 
 - id: 326
@@ -678,6 +714,8 @@
       role: Security Consultant
       work: GAI NetConsult GmbH
       image: markus-mahrla.png
+  partner:
+    - name:
   permalink: program/presentations/markus-mahrla/
   label: The Tools
 
@@ -714,6 +752,8 @@
       role: Strategy Branch Chief
       work: CCDCOE
       image: cdr-michael-widmann
+  partner:
+    - name:
   label: The Training
 
 - id: 331
@@ -731,6 +771,8 @@
       role: Security Expert
       work: Secudea
       image: dieter-sarrazyn.png
+  partner:
+    - name:
   permalink: program/presentations/dieter-sarrazyn/
   label: The Tools
 
@@ -777,6 +819,8 @@
       role: Senior Threat Researcher
       work: Trend Micro
       image: stephen-hilt.png
+  partner:
+    - name:
   permalink: program/presentations/stephen-hilt/
   label: The Ether
 
@@ -818,8 +862,15 @@
   place: Main Stage
   time: "20:00"
   title: Zombie Survival
+  description: |
+    Late 2017 Herman released “Surviving Disaster - twelve ways to prepare yourself” the book examines what we can do to increase our chances of surviving when a disaster or something completely unexpected happens. “Surviving Disaster” is a popular science book that not only deals with survival techniques and bushcraft but also focuses on how humans work and what we can do to prepare ourselves mentally and increase our chances of coping with a crisis.
   author:
-    - Herman Geijer
+    - name: Herman Geijer
+      role: Zombie Survival Expert
+      work: Independent
+      image: herman-geijer.png
+  partner:
+    - name:
   special: Dinner Presentation
 
 - id: 339
@@ -858,6 +909,8 @@
       role: Senior Writer
       work: Wired
       image: andy-greenberg.png
+  partner:
+    - name:
   permalink: program/presentations/andy-greenberg/
   special: Keynote
 
@@ -876,6 +929,8 @@
       role: R&D Engineer
       work: ABB GISPL
       image: prasanna-n.png
+  partner:
+    - name:
   permalink: program/presentations/prasanna-n/
   label: The Threats
 
@@ -914,6 +969,8 @@
       role: Hacker-in-Chief
       work: FoxGuard Solutions
       image: monta-elkins.png
+  partner:
+    - name:
   permalink: program/presentations/monta-elkins/
   label: The Threats
 
@@ -953,6 +1010,8 @@
       role: Incident Handler/CSIRT Officer
       work: CERT-SE/MSB
       image: nicklas-keijser.png
+  partner:
+    - name:
   permalink: program/presentations/nicklas-keijser/
   label: The Threats
 
@@ -1118,6 +1177,8 @@
       role: Time & Sync Expert
       work: GNSS
       image: didrik-ehrenborg.png
+  partner:
+    - name:
   permalink: program/presentations/didrik-ehrenborg/
   label: The Time
 
@@ -1138,6 +1199,8 @@
       role: Time Worker
       work:
       image: ragnar-sundblad.png
+  partner:
+    - name:
   permalink: program/presentations/ragnar-sundblad/
   label: The Time
 
@@ -1176,6 +1239,8 @@
       role: Research Manager
       work: Sectra
       image: jonathan-jogenfors.png
+  partner:
+    - name:
   permalink: program/presentations/jonathan-jogenfors/
   label: The DFCC
 
@@ -1205,6 +1270,8 @@
       role: CEO & Senior Partner
       work: Bodforss Consulting AB
       image: rikard-bodforss.png
+  partner:
+    - name:
   permalink: program/presentations/rikard-bodforss/
   label: Tale of the 0-day
 
@@ -1231,6 +1298,8 @@
       role: Senior Cyber Security Expert & CEO
       work: Anacautus AB
       image: richard-widh.png
+  partner:
+    - name:
   permalink: program/presentations/richard-widh/
   label: The Wire
 

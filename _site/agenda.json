@@ -137,6 +137,11 @@
 		"image"		: "https://cs3sthlm.se/assets/speakers/simin-nadjm-tehrani.png",
 		
 		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"label"		: "",
 		"place" 	: "Harlem Stage"
 	},
@@ -154,6 +159,11 @@
 		"work"		: "KTH Royal Institute of Technology",
 		"image"		: "https://cs3sthlm.se/assets/speakers/mathias-ekstedt.png",
 		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "",
 		"place" 	: "Harlem Stage"
@@ -227,6 +237,11 @@
 		"image"		: "https://cs3sthlm.se/assets/speakers/robert-lagerstrom.png",
 		
 		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"label"		: "",
 		"place" 	: "Harlem Stage"
 	},
@@ -280,6 +295,11 @@
 		"work"		: "KTH Royal Institute of Technology",
 		"image"		: "https://cs3sthlm.se/assets/speakers/henrik-sandberg.png",
 		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "",
 		"place" 	: "Harlem Stage"
@@ -392,6 +412,11 @@
 		"image"		: "https://cs3sthlm.se/assets/speakers/torstein-gimnes-are.png",
 		
 		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"label"		: "",
 		"place" 	: "Main Stage"
 	},
@@ -446,6 +471,11 @@
 		"image"		: "https://cs3sthlm.se/assets/speakers/alexander-nochvay.png",
 		
 		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"label"		: "The Threats",
 		"place" 	: "Main Stage"
 	},
@@ -464,6 +494,11 @@
 		"image"		: "https://cs3sthlm.se/assets/speakers/ulf-frisk.png",
 		
 		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"label"		: "The Tools",
 		"place" 	: "ICS Lab"
 	},
@@ -481,6 +516,11 @@
 		"work"		: "admeritia GmbH",
 		"image"		: "https://cs3sthlm.se/assets/speakers/sarah-fluchs.png",
 		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "The Methods",
 		"place" 	: "Harlem Stage"
@@ -523,6 +563,11 @@
 		"image"		: "https://cs3sthlm.se/assets/speakers/erik-hjelmvik.png",
 		
 		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"label"		: "The Tools",
 		"place" 	: "ICS Lab"
 	},
@@ -540,6 +585,11 @@
 		"work"		: "University of Cambridge",
 		"image"		: "https://cs3sthlm.se/assets/speakers/mike-dodson.png",
 		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "The Methods",
 		"place" 	: "Harlem Stage"
@@ -616,6 +666,11 @@
 		"image"		: "https://cs3sthlm.se/assets/speakers/thomas-svensson.png",
 		
 		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"label"		: "The Training",
 		"place" 	: "Harlem Stage"
 	},
@@ -634,6 +689,11 @@
 		"image"		: "https://cs3sthlm.se/assets/speakers/cdr-michael-widmann",
 		
 		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"label"		: "The Training",
 		"place" 	: "Harlem Stage"
 	},
@@ -651,6 +711,11 @@
 		"work"		: "wolfSSL",
 		"image"		: "https://cs3sthlm.se/assets/speakers/daniel-stenberg.png",
 		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "The Tools",
 		"place" 	: "ICS Lab"
@@ -693,6 +758,11 @@
 		"image"		: "https://cs3sthlm.se/assets/speakers/silver-saks.png",
 		
 		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"label"		: "The Training",
 		"place" 	: "Harlem Stage"
 	},
@@ -710,6 +780,11 @@
 		"work"		: "CCDCOE",
 		"image"		: "https://cs3sthlm.se/assets/speakers/sandra-bardon.png",
 		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "The Training",
 		"place" 	: "Harlem Stage"
@@ -729,6 +804,11 @@
 		"image"		: "https://cs3sthlm.se/assets/speakers/temp.png",
 		
 		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"label"		: "The Tools",
 		"place" 	: "ICS Lab"
 	},
@@ -746,6 +826,11 @@
 		"work"		: "Qatar Aluminium Ltd",
 		"image"		: "https://cs3sthlm.se/assets/speakers/khalid-ansari.png",
 		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "The Industrial Plants",
 		"place" 	: "Main Stage"
@@ -788,6 +873,11 @@
 		"image"		: "https://cs3sthlm.se/assets/speakers/jarkko-huttunen.png",
 		
 		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"label"		: "The Training",
 		"place" 	: "Harlem Stage"
 	},
@@ -805,6 +895,11 @@
 		"work"		: "GAI NetConsult GmbH",
 		"image"		: "https://cs3sthlm.se/assets/speakers/markus-mahrla.png",
 		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "The Tools",
 		"place" 	: "ICS Lab"
@@ -863,6 +958,11 @@
 		"image"		: "https://cs3sthlm.se/assets/speakers/cdr-michael-widmann",
 		
 		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"label"		: "The Training",
 		"place" 	: "Harlem Stage"
 	},
@@ -880,6 +980,11 @@
 		"work"		: "Secudea",
 		"image"		: "https://cs3sthlm.se/assets/speakers/dieter-sarrazyn.png",
 		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "The Tools",
 		"place" 	: "Main Stage"
@@ -916,6 +1021,11 @@
 		"work"		: "Trend Micro",
 		"image"		: "https://cs3sthlm.se/assets/speakers/stephen-hilt.png",
 		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "The Ether",
 		"place" 	: "Main Stage"
@@ -989,13 +1099,18 @@
 		"type"		: "presentation",
 		"time"		: "20:00",
 		"title" 	: "Zombie Survival",
-		"description"	: "",
+		"description"	: "<p>Late 2017 Herman released “Surviving Disaster - twelve ways to prepare yourself” the book examines what we can do to increase our chances of surviving when a disaster or something completely unexpected happens. “Surviving Disaster” is a popular science book that not only deals with survival techniques and bushcraft but also focuses on how humans work and what we can do to prepare ourselves mentally and increase our chances of coping with a crisis.</p>",
 		
-		"name"		: "",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		"name"		: "Herman Geijer",
+		"role"		: "Zombie Survival Expert",
+		"work"		: "Independent",
+		"image"		: "https://cs3sthlm.se/assets/speakers/herman-geijer.png",
 		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "",
 		"place" 	: "Main Stage"
@@ -1041,6 +1156,11 @@
 		"image"		: "https://cs3sthlm.se/assets/speakers/andy-greenberg.png",
 		
 		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"label"		: "",
 		"place" 	: "Main Stage"
 	},
@@ -1058,6 +1178,11 @@
 		"work"		: "ABB GISPL",
 		"image"		: "https://cs3sthlm.se/assets/speakers/prasanna-n.png",
 		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "The Threats",
 		"place" 	: "Main Stage"
@@ -1090,6 +1215,11 @@
 		"image"		: "https://cs3sthlm.se/assets/speakers/monta-elkins.png",
 		
 		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"label"		: "The Threats",
 		"place" 	: "Main Stage"
 	},
@@ -1107,6 +1237,11 @@
 		"work"		: "CERT-SE/MSB",
 		"image"		: "https://cs3sthlm.se/assets/speakers/nicklas-keijser.png",
 		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "The Threats",
 		"place" 	: "Main Stage"
@@ -1234,6 +1369,11 @@
 		"image"		: "https://cs3sthlm.se/assets/speakers/didrik-ehrenborg.png",
 		
 		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"label"		: "The Time",
 		"place" 	: "Harlem Stage"
 	},
@@ -1251,6 +1391,11 @@
 		"work"		: "",
 		"image"		: "https://cs3sthlm.se/assets/speakers/ragnar-sundblad.png",
 		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "The Time",
 		"place" 	: "Harlem Stage"
@@ -1283,6 +1428,11 @@
 		"image"		: "https://cs3sthlm.se/assets/speakers/jonathan-jogenfors.png",
 		
 		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"label"		: "The DFCC",
 		"place" 	: "Harlem Stage"
 	},
@@ -1300,6 +1450,11 @@
 		"work"		: "Bodforss Consulting AB",
 		"image"		: "https://cs3sthlm.se/assets/speakers/rikard-bodforss.png",
 		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "Tale of the 0-day",
 		"place" 	: "Harlem Stage"
@@ -1331,6 +1486,11 @@
 		"work"		: "Anacautus AB",
 		"image"		: "https://cs3sthlm.se/assets/speakers/richard-widh.png",
 		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "The Wire",
 		"place" 	: "ICS Lab"
