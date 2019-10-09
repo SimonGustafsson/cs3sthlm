@@ -1,6 +1,6 @@
 {"agendaList":[
 	{
-		"id"		: "",
+		"id"		: "101",
 		"day"		: "dayone",
 		"type"		: "break",
 		"time"		: "All day",
@@ -11,7 +11,7 @@
 	},
 
 	{
-		"id"		: "",
+		"id"		: "102",
 		"day"		: "dayone",
 		"type"		: "break",
 		"time"		: "All Day",
@@ -22,7 +22,7 @@
 	},
 
 	{
-		"id"		: "",
+		"id"		: "103",
 		"day"		: "dayone",
 		"type"		: "common",
 		"time"		: "10:00 - 20:00",
@@ -33,7 +33,7 @@
 	},
 
 	{
-		"id"		: "",
+		"id"		: "104",
 		"day"		: "dayone",
 		"type"		: "common",
 		"time"		: "10:00 - 20:00",
@@ -44,7 +44,7 @@
 	},
 
 	{
-		"id"		: "",
+		"id"		: "105",
 		"day"		: "dayone",
 		"type"		: "common",
 		"time"		: "16:00 - 20:00",
@@ -231,7 +231,7 @@
 	},
 
 	{
-		"id"		: "",
+		"id"		: "301",
 		"day"		: "daythree",
 		"type"		: "common",
 		"time"		: "09:00",
@@ -242,304 +242,7 @@
 	},
 
 	{
-		"id"		: "",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "09:15",
-		"title" 	: "Presentation of the cyber-attack that hit Hydro earlier this year and the crisis management and recovery of the company following the ransomware attack",
-		"author"	: "Torstein Gimnes Are",
-		"label"		: "",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daythree",
-		"type"		: "break",
-		"time"		: "10:00 - 10:30",
-		"title" 	: "Coffee Break",
-		"author"	: "",
-		"label"		: "",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "10:30",
-		"title" 	: "The fall of CODESYS",
-		"author"	: "Alexander Nochvay",
-		"label"		: "The Threats",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "11:10",
-		"title" 	: "Broken Rungs: A look at popular ladder logic runtime privileges",
-		"author"	: "Jimmy WylieReid Wightman",
-		"label"		: "The Threats",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daythree",
-		"type"		: "break",
-		"time"		: "12:00 - 13:00",
-		"title" 	: "Lunch Break",
-		"author"	: "",
-		"label"		: "",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "13:15",
-		"title" 	: "Tales from Industrial Plants and Responders",
-		"author"	: "Christian AugustatMona Lange",
-		"label"		: "The Industrial Plants",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "14:00",
-		"title" 	: "Secure your MES the bridge between IT and OT",
-		"author"	: "Khalid Ansari",
-		"label"		: "The Industrial Plants",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daythree",
-		"type"		: "break",
-		"time"		: "14:45 - 15:30",
-		"title" 	: "Coffee Break",
-		"author"	: "",
-		"label"		: "",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "15:30",
-		"title" 	: "Security Testing for ICS Owners 2.0",
-		"author"	: "Dieter Sarrazyn",
-		"label"		: "The Tools",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "16:00",
-		"title" 	: "How we reverse-engineered multiple industrial radio remote-control systems",
-		"author"	: "Stephen Hilt",
-		"label"		: "The Ether",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "18:45 - 22:00",
-		"title" 	: "CS3STHLM Gala Dinner",
-		"author"	: "",
-		"label"		: "",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "20:00",
-		"title" 	: "Zombie Survival",
-		"author"	: "Herman Geijer",
-		"label"		: "",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daythree",
-		"type"		: "common",
-		"time"		: "22:00",
-		"title" 	: "End of CS3STHLM Summit Day One",
-		"author"	: "",
-		"label"		: "",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "10:15",
-		"title" 	: "Applying the Consequence-driven Cyber-informed Engineering method on a Facility for a Successful Attack",
-		"author"	: "Andreas ErdichJens Wiesner",
-		"label"		: "The Methods",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "11:00",
-		"title" 	: "Layered Blueprints – an ontology and method for (talking about) engineering OT Security",
-		"author"	: "Sarah Fluchs",
-		"label"		: "The Methods",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "11:30",
-		"title" 	: "When will my PLC support Mirai? The security economics of large-scale attacks against ICS",
-		"author"	: "Mike Dodson",
-		"label"		: "The Methods",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daythree",
-		"type"		: "break",
-		"time"		: "11:50 - 12:40",
-		"title" 	: "Lunch Break",
-		"author"	: "",
-		"label"		: "",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daythree",
-		"type"		: "common",
-		"time"		: "12:40 - 16:00",
-		"title" 	: "Locked Shields from different perspectives",
-		"author"	: "Moderated by Thomas Svensson",
-		"label"		: "",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "12:40",
-		"title" 	: "Introduction to Locked Shields exercise",
-		"author"	: "Thomas Svensson, Deputy White Team Leader",
-		"label"		: "The Training",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "12:50",
-		"title" 	: "Presenting the organization behind the exercise",
-		"author"	: "Cdr Michael Widmann, Leading the strategic part of Locked Shields",
-		"label"		: "The Training",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "13:20",
-		"title" 	: "Digging into the technical setup of the exercise",
-		"author"	: "Silver Saks, Green Team Leader",
-		"label"		: "The Training",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "13:40",
-		"title" 	: "Red Teams view from the exercise",
-		"author"	: "Sandra Bardón, Core Member Red Team",
-		"label"		: "The Training",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "14:00",
-		"title" 	: "TBA",
-		"author"	: "Erik BiverotJohan Nilsson",
-		"label"		: "The Training",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "14:30",
-		"title" 	: "Presenting how we know what's happen in the exercise and measuring",
-		"author"	: "Jarkko Huttunen, Team Leader Yellow Team",
-		"label"		: "The Training",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daythree",
-		"type"		: "break",
-		"time"		: "14:50 - 15:20",
-		"title" 	: "Coffee Break",
-		"author"	: "",
-		"label"		: "",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "15:20",
-		"title" 	: "Presenting the strategic part of the exercise and how it connects to the technical exercise",
-		"author"	: "Cdr Michael Widmann",
-		"label"		: "The Training",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "daythree",
-		"type"		: "common",
-		"time"		: "15:40",
-		"title" 	: "Questions and Answers",
-		"author"	: "Thomas SvenssonCdr Michael WidmannSilver SaksSandra BardónErik BiverotJohan NilssonJarkko Huttunen",
-		"label"		: "",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "",
+		"id"		: "302",
 		"day"		: "daythree",
 		"type"		: "common",
 		"time"		: "09:00 - 18:00",
@@ -550,7 +253,51 @@
 	},
 
 	{
-		"id"		: "",
+		"id"		: "303",
+		"day"		: "daythree",
+		"type"		: "presentation",
+		"time"		: "09:15",
+		"title" 	: "Presentation of the cyber-attack that hit Hydro earlier this year and the crisis management and recovery of the company following the ransomware attack",
+		"author"	: "Torstein Gimnes Are",
+		"label"		: "",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "304",
+		"day"		: "daythree",
+		"type"		: "break",
+		"time"		: "10:00 - 10:30",
+		"title" 	: "Coffee Break",
+		"author"	: "",
+		"label"		: "",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "305",
+		"day"		: "daythree",
+		"type"		: "presentation",
+		"time"		: "10:15",
+		"title" 	: "Applying the Consequence-driven Cyber-informed Engineering method on a Facility for a Successful Attack",
+		"author"	: "Andreas ErdichJens Wiesner",
+		"label"		: "The Methods",
+		"place" 	: "Harlem Stage"
+	},
+
+	{
+		"id"		: "306",
+		"day"		: "daythree",
+		"type"		: "presentation",
+		"time"		: "10:30",
+		"title" 	: "The fall of CODESYS",
+		"author"	: "Alexander Nochvay",
+		"label"		: "The Threats",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "307",
 		"day"		: "daythree",
 		"type"		: "presentation",
 		"time"		: "10:30",
@@ -561,7 +308,29 @@
 	},
 
 	{
-		"id"		: "",
+		"id"		: "308",
+		"day"		: "daythree",
+		"type"		: "presentation",
+		"time"		: "11:00",
+		"title" 	: "Layered Blueprints – an ontology and method for (talking about) engineering OT Security",
+		"author"	: "Sarah Fluchs",
+		"label"		: "The Methods",
+		"place" 	: "Harlem Stage"
+	},
+
+	{
+		"id"		: "309",
+		"day"		: "daythree",
+		"type"		: "presentation",
+		"time"		: "11:10",
+		"title" 	: "Broken Rungs: A look at popular ladder logic runtime privileges",
+		"author"	: "Jimmy WylieReid Wightman",
+		"label"		: "The Threats",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "310",
 		"day"		: "daythree",
 		"type"		: "presentation",
 		"time"		: "11:15",
@@ -572,7 +341,40 @@
 	},
 
 	{
-		"id"		: "",
+		"id"		: "311",
+		"day"		: "daythree",
+		"type"		: "presentation",
+		"time"		: "11:30",
+		"title" 	: "When will my PLC support Mirai? The security economics of large-scale attacks against ICS",
+		"author"	: "Mike Dodson",
+		"label"		: "The Methods",
+		"place" 	: "Harlem Stage"
+	},
+
+	{
+		"id"		: "312",
+		"day"		: "daythree",
+		"type"		: "break",
+		"time"		: "11:50 - 12:40",
+		"title" 	: "Lunch Break",
+		"author"	: "",
+		"label"		: "",
+		"place" 	: "Harlem Stage"
+	},
+
+	{
+		"id"		: "313",
+		"day"		: "daythree",
+		"type"		: "break",
+		"time"		: "12:00 - 13:00",
+		"title" 	: "Lunch Break",
+		"author"	: "",
+		"label"		: "",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "314",
 		"day"		: "daythree",
 		"type"		: "break",
 		"time"		: "12:00 - 13:00",
@@ -583,7 +385,40 @@
 	},
 
 	{
-		"id"		: "",
+		"id"		: "315",
+		"day"		: "daythree",
+		"type"		: "common",
+		"time"		: "12:40 - 16:00",
+		"title" 	: "Locked Shields from different perspectives",
+		"author"	: "Moderated by Thomas Svensson",
+		"label"		: "",
+		"place" 	: "Harlem Stage"
+	},
+
+	{
+		"id"		: "316",
+		"day"		: "daythree",
+		"type"		: "presentation",
+		"time"		: "12:40",
+		"title" 	: "Introduction to Locked Shields exercise",
+		"author"	: "Thomas Svensson, Deputy White Team Leader",
+		"label"		: "The Training",
+		"place" 	: "Harlem Stage"
+	},
+
+	{
+		"id"		: "317",
+		"day"		: "daythree",
+		"type"		: "presentation",
+		"time"		: "12:50",
+		"title" 	: "Presenting the organization behind the exercise",
+		"author"	: "Cdr Michael Widmann, Leading the strategic part of Locked Shields",
+		"label"		: "The Training",
+		"place" 	: "Harlem Stage"
+	},
+
+	{
+		"id"		: "318",
 		"day"		: "daythree",
 		"type"		: "presentation",
 		"time"		: "13:00",
@@ -594,7 +429,40 @@
 	},
 
 	{
-		"id"		: "",
+		"id"		: "319",
+		"day"		: "daythree",
+		"type"		: "presentation",
+		"time"		: "13:15",
+		"title" 	: "Tales from Industrial Plants and Responders",
+		"author"	: "Christian AugustatMona Lange",
+		"label"		: "The Industrial Plants",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "320",
+		"day"		: "daythree",
+		"type"		: "presentation",
+		"time"		: "13:20",
+		"title" 	: "Digging into the technical setup of the exercise",
+		"author"	: "Silver Saks, Green Team Leader",
+		"label"		: "The Training",
+		"place" 	: "Harlem Stage"
+	},
+
+	{
+		"id"		: "321",
+		"day"		: "daythree",
+		"type"		: "presentation",
+		"time"		: "13:40",
+		"title" 	: "Red Teams view from the exercise",
+		"author"	: "Sandra Bardón, Core Member Red Team",
+		"label"		: "The Training",
+		"place" 	: "Harlem Stage"
+	},
+
+	{
+		"id"		: "322",
 		"day"		: "daythree",
 		"type"		: "presentation",
 		"time"		: "13:45",
@@ -605,7 +473,40 @@
 	},
 
 	{
-		"id"		: "",
+		"id"		: "323",
+		"day"		: "daythree",
+		"type"		: "presentation",
+		"time"		: "14:00",
+		"title" 	: "Secure your MES the bridge between IT and OT",
+		"author"	: "Khalid Ansari",
+		"label"		: "The Industrial Plants",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "324",
+		"day"		: "daythree",
+		"type"		: "presentation",
+		"time"		: "14:00",
+		"title" 	: "TBA",
+		"author"	: "Erik BiverotJohan Nilsson",
+		"label"		: "The Training",
+		"place" 	: "Harlem Stage"
+	},
+
+	{
+		"id"		: "325",
+		"day"		: "daythree",
+		"type"		: "presentation",
+		"time"		: "14:30",
+		"title" 	: "Presenting how we know what's happen in the exercise and measuring",
+		"author"	: "Jarkko Huttunen, Team Leader Yellow Team",
+		"label"		: "The Training",
+		"place" 	: "Harlem Stage"
+	},
+
+	{
+		"id"		: "326",
 		"day"		: "daythree",
 		"type"		: "presentation",
 		"time"		: "14:30",
@@ -616,7 +517,29 @@
 	},
 
 	{
-		"id"		: "",
+		"id"		: "327",
+		"day"		: "daythree",
+		"type"		: "break",
+		"time"		: "14:45 - 15:30",
+		"title" 	: "Coffee Break",
+		"author"	: "",
+		"label"		: "",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "328",
+		"day"		: "daythree",
+		"type"		: "break",
+		"time"		: "14:50 - 15:20",
+		"title" 	: "Coffee Break",
+		"author"	: "",
+		"label"		: "",
+		"place" 	: "Harlem Stage"
+	},
+
+	{
+		"id"		: "329",
 		"day"		: "daythree",
 		"type"		: "break",
 		"time"		: "15:15",
@@ -627,7 +550,51 @@
 	},
 
 	{
-		"id"		: "",
+		"id"		: "330",
+		"day"		: "daythree",
+		"type"		: "presentation",
+		"time"		: "15:20",
+		"title" 	: "Presenting the strategic part of the exercise and how it connects to the technical exercise",
+		"author"	: "Cdr Michael Widmann",
+		"label"		: "The Training",
+		"place" 	: "Harlem Stage"
+	},
+
+	{
+		"id"		: "331",
+		"day"		: "daythree",
+		"type"		: "presentation",
+		"time"		: "15:30",
+		"title" 	: "Security Testing for ICS Owners 2.0",
+		"author"	: "Dieter Sarrazyn",
+		"label"		: "The Tools",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "332",
+		"day"		: "daythree",
+		"type"		: "common",
+		"time"		: "15:40",
+		"title" 	: "Questions and Answers",
+		"author"	: "Thomas SvenssonCdr Michael WidmannSilver SaksSandra BardónErik BiverotJohan NilssonJarkko Huttunen",
+		"label"		: "",
+		"place" 	: "Harlem Stage"
+	},
+
+	{
+		"id"		: "333",
+		"day"		: "daythree",
+		"type"		: "presentation",
+		"time"		: "16:00",
+		"title" 	: "How we reverse-engineered multiple industrial radio remote-control systems",
+		"author"	: "Stephen Hilt",
+		"label"		: "The Ether",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "334",
 		"day"		: "daythree",
 		"type"		: "common",
 		"time"		: "17:15",
@@ -638,7 +605,7 @@
 	},
 
 	{
-		"id"		: "",
+		"id"		: "335",
 		"day"		: "daythree",
 		"type"		: "common",
 		"time"		: "17:45 - 18:45",
@@ -649,7 +616,7 @@
 	},
 
 	{
-		"id"		: "",
+		"id"		: "336",
 		"day"		: "daythree",
 		"type"		: "break",
 		"time"		: "18:45",
@@ -657,6 +624,39 @@
 		"author"	: "",
 		"label"		: "",
 		"place" 	: "ICS Lab"
+	},
+
+	{
+		"id"		: "337",
+		"day"		: "daythree",
+		"type"		: "common",
+		"time"		: "18:45 - 22:00",
+		"title" 	: "CS3STHLM Gala Dinner",
+		"author"	: "",
+		"label"		: "",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "338",
+		"day"		: "daythree",
+		"type"		: "presentation",
+		"time"		: "20:00",
+		"title" 	: "Zombie Survival",
+		"author"	: "Herman Geijer",
+		"label"		: "",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "339",
+		"day"		: "daythree",
+		"type"		: "common",
+		"time"		: "22:00",
+		"title" 	: "End of CS3STHLM Summit Day One",
+		"author"	: "",
+		"label"		: "",
+		"place" 	: "Main Stage"
 	},
 
 	{
