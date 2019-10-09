@@ -237,6 +237,7 @@
   author:
     - Alexander Nochvay
   permalink: program/presentations/alexander-nochvay/
+  label: The Threats
 
 - id:
   day: daythree
@@ -248,6 +249,7 @@
     - Jimmy Wylie
     - Reid Wightman
   permalink: program/presentations/jimmy-reid/
+  label: The Threats
 
 - id:
   day: daythree
@@ -266,6 +268,7 @@
     - Christian Augustat
     - Mona Lange
   permalink: program/presentations/christian-mona/
+  label: The Industrial Plants
 
 - id:
   day: daythree
@@ -276,6 +279,7 @@
   author:
     - Khalid Ansari
   permalink: program/presentations/khalid-ansari/
+  label: The Industrial Plants
 
 - id:
   day: daythree
@@ -293,6 +297,7 @@
   author:
     - Dieter Sarrazyn
   permalink: program/presentations/deiter-sarrazyn/
+  label: The Tools
 
 - id:
   day: daythree
@@ -303,6 +308,7 @@
   author:
     - Stephen Hilt
   permalink: program/presentations/stephen-hilt/
+  label: The Ether
 
 - id:
   day: daythree
@@ -320,6 +326,7 @@
   author:
     - Herman Geijer
   special: Dinner Presentation
+  label: The Zombie
 
 - id:
   day: daythree
@@ -341,6 +348,7 @@
     - Andreas Erdich
     - Jens Wiesner
   permalink: program/presentations/andreas-jens/
+  label: The Methods
 
 - id:
   day: daythree
@@ -351,6 +359,7 @@
   author:
     - Sarah Fluchs
   permalink: program/presentations/sarah-fluchs/
+  label: The Methods
 
 - id:
   day: daythree
@@ -361,6 +370,7 @@
   author:
     - Mike Dodson
   permalink: program/presentations/mike-dodson/
+  label: The Methods
 
 - id:
   day: daythree
@@ -386,6 +396,7 @@
   title: Introduction to Locked Shields exercise
   author:
     - Thomas Svensson, Deputy White Team Leader
+  label: The Training
 
 - id:
   day: daythree
@@ -395,6 +406,7 @@
   title: Presenting the organization behind the exercise
   author:
     - Cdr Michael Widmann, Leading the strategic part of Locked Shields
+  label: The Training
 
 - id:
   day: daythree
@@ -404,6 +416,7 @@
   title: Digging into the technical setup of the exercise
   author:
     - Silver Saks, Green Team Leader
+  label: The Training
 
 - id:
   day: daythree
@@ -413,6 +426,7 @@
   title: Red Teams view from the exercise
   author:
     - Sandra Bardón, Core Member Red Team
+  label: The Training
 
 - id:
   day: daythree
@@ -423,6 +437,7 @@
   author:
     - Erik Biverot
     - Johan Nilsson
+  label: The Training
 
 - id:
   day: daythree
@@ -432,6 +447,7 @@
   title: Presenting how we know what's happen in the exercise and measuring
   author:
     - Jarkko Huttunen, Team Leader Yellow Team
+  label: The Training
 
 - id:
   day: daythree
@@ -448,6 +464,7 @@
   title: Presenting the strategic part of the exercise and how it connects to the technical exercise
   author:
     - Cdr Michael Widmann
+  label: The Training
 
 - id:
   day: daythree
@@ -464,6 +481,7 @@
     - Johan Nilsson
     - Jarkko Huttunen
   special: Panel
+  label: The Training
 
 
 ## ICSLAB
@@ -484,6 +502,7 @@
   author:
     - Ulf Frisk
   permalink: program/presentations/ulf-frisk/
+  label: The Tools
 
 - id:
   day: daythree
@@ -494,6 +513,7 @@
   author:
     - Erik Hjelmvik
   permalink: program/presentations/erik-hjelmvik/
+  label: The Tools
 
 - id:
   day: daythree
@@ -511,6 +531,7 @@
   author:
     - Daniel Stenberg
   permalink: program/presentations/daniel-stenberg/
+  label: The Tools
 
 - id:
   day: daythree
@@ -521,6 +542,7 @@
   author:
     - Janek Pelzer
   permalink: program/presentations/janek-pelzer/
+  label: The Tools
 
 - id:
   day: daythree
@@ -531,6 +553,7 @@
   author:
     - Markus Mahrla
   permalink: program/presentations/markus-mahrla/
+  label: The Tools
 
 - id:
   day: daythree

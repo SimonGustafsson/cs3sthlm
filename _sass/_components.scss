@@ -793,8 +793,7 @@
 
 // AGENDA ITEM
 .agenda-item {
-	display: flex;
-	flex-direction: column;
+	display: block;
 	margin: 0 20px;
 	padding: 20px 0;
 	box-sizing: border-box;
@@ -868,6 +867,10 @@
 		@include media-query($mobile){
 			line-height: 21px;
 		}
+	}
+	&-label {
+		float: right;
+		color: $gray;
 	}
 	&-headline {
 		color: $white;

@@ -5361,8 +5361,7 @@ p.content-intro {
           display: flex; } }
 
 .agenda-item {
-  display: flex;
-  flex-direction: column;
+  display: block;
   margin: 0 20px;
   padding: 20px 0;
   box-sizing: border-box;
@@ -5416,6 +5415,9 @@ p.content-intro {
     @media screen and (max-width: 768px) {
       .agenda-item-time {
         line-height: 21px; } }
+  .agenda-item-label {
+    float: right;
+    color: #a6a7a9; }
   .agenda-item-headline {
     color: white;
     font-family: 'latobold', sans-serif;

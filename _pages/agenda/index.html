@@ -63,7 +63,7 @@ layout: default
 
 		<span class="agenda-content-header-hidden-spacer"></span>
 
-		<div class="agenda-day agenda-day-active" id="dayone">
+		<div class="agenda-day" id="dayone">
 
 			<div class="agenda-content-header">
 				<div class="agenda-content-header-item agenda-content-header-item-active" id="dayone-mainstage-button">
@@ -87,6 +87,9 @@ layout: default
 					<div class="agenda-item agenda-item-link">
 						<a href="{{ site.baseurl }}/{{ item.permalink }}">
 							<span class="agenda-item-time">{{ item.time }}{% if item.special.size > 1 %}<span class="agenda-item-special">- {{ item.special }}</span>{% endif %}</span>
+							{% if item.label.size > 1 %}
+							<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
+							{% endif %}
 							<h3 class="agenda-item-headline">{{ item.title }}</h3>
 							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
 						</a>
@@ -94,6 +97,9 @@ layout: default
 					{% else %}
 					<div class="agenda-item {% if item.type == 'presentation' %}agenda-item-link{% endif %} {% if item.type == 'break' %}agenda-item-break{% endif %}">
 						<span class="agenda-item-time">{{ item.time }}{% if item.special.size > 1 %}<span class="agenda-item-special">- {{ item.special }}</span>{% endif %}</span>
+						{% if item.label.size > 1 %}
+						<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
+						{% endif %}
 						<h3 class="agenda-item-headline">{{ item.title }}</h3>
 						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
 					</div>
@@ -111,6 +117,9 @@ layout: default
 					<div class="agenda-item agenda-item-link">
 						<a href="{{ site.baseurl }}/{{ item.permalink }}">
 							<span class="agenda-item-time">{{ item.time }}{% if item.special.size > 1 %}<span class="agenda-item-special">- {{ item.special }}</span>{% endif %}</span>
+							{% if item.label.size > 1 %}
+							<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
+							{% endif %}
 							<h3 class="agenda-item-headline">{{ item.title }}</h3>
 							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
 						</a>
@@ -118,6 +127,9 @@ layout: default
 					{% else %}
 					<div class="agenda-item {% if item.type == 'presentation' %}agenda-item-link{% endif %} {% if item.type == 'break' %}agenda-item-break{% endif %}">
 						<span class="agenda-item-time">{{ item.time }}{% if item.special.size > 1 %}<span class="agenda-item-special">- {{ item.special }}</span>{% endif %}</span>
+						{% if item.label.size > 1 %}
+						<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
+						{% endif %}
 						<h3 class="agenda-item-headline">{{ item.title }}</h3>
 						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
 					</div>
@@ -135,6 +147,9 @@ layout: default
 					<div class="agenda-item agenda-item-link">
 						<a href="{% if item.permalink contains 'https' %}{{ item.permalink }}{% else %}{{ site.baseurl }}/{{ item.permalink }}{% endif %}">
 							<span class="agenda-item-time">{{ item.time }}{% if item.special.size > 1 %}<span class="agenda-item-special">- {{ item.special }}</span>{% endif %}</span>
+							{% if item.label.size > 1 %}
+							<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
+							{% endif %}
 							<h3 class="agenda-item-headline">{{ item.title }}</h3>
 							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
 						</a>
@@ -142,6 +157,9 @@ layout: default
 					{% else %}
 					<div class="agenda-item {% if item.type == 'presentation' %}agenda-item-link{% endif %} {% if item.type == 'break' %}agenda-item-break{% endif %}">
 						<span class="agenda-item-time">{{ item.time }}{% if item.special.size > 1 %}<span class="agenda-item-special">- {{ item.special }}</span>{% endif %}</span>
+						{% if item.label.size > 1 %}
+						<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
+						{% endif %}
 						<h3 class="agenda-item-headline">{{ item.title }}</h3>
 						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
 					</div>
@@ -179,6 +197,9 @@ layout: default
 					<div class="agenda-item agenda-item-link">
 						<a href="{{ site.baseurl }}/{{ item.permalink }}">
 							<span class="agenda-item-time">{{ item.time }}{% if item.special.size > 1 %}<span class="agenda-item-special">- {{ item.special }}</span>{% endif %}</span>
+							{% if item.label.size > 1 %}
+							<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
+							{% endif %}
 							<h3 class="agenda-item-headline">{{ item.title }}</h3>
 							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
 						</a>
@@ -186,6 +207,9 @@ layout: default
 					{% else %}
 					<div class="agenda-item {% if item.type == 'presentation' %}agenda-item-link{% endif %} {% if item.type == 'break' %}agenda-item-break{% endif %}">
 						<span class="agenda-item-time">{{ item.time }}{% if item.special.size > 1 %}<span class="agenda-item-special">- {{ item.special }}</span>{% endif %}</span>
+						{% if item.label.size > 1 %}
+						<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
+						{% endif %}
 						<h3 class="agenda-item-headline">{{ item.title }}</h3>
 						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
 					</div>
@@ -203,6 +227,9 @@ layout: default
 					<div class="agenda-item agenda-item-link">
 						<a href="{{ site.baseurl }}/{{ item.permalink }}">
 							<span class="agenda-item-time">{{ item.time }}{% if item.special.size > 1 %}<span class="agenda-item-special">- {{ item.special }}</span>{% endif %}</span>
+							{% if item.label.size > 1 %}
+							<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
+							{% endif %}
 							<h3 class="agenda-item-headline">{{ item.title }}</h3>
 							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
 						</a>
@@ -210,6 +237,9 @@ layout: default
 					{% else %}
 					<div class="agenda-item {% if item.type == 'presentation' %}agenda-item-link{% endif %} {% if item.type == 'break' %}agenda-item-break{% endif %}">
 						<span class="agenda-item-time">{{ item.time }}{% if item.special.size > 1 %}<span class="agenda-item-special">- {{ item.special }}</span>{% endif %}</span>
+						{% if item.label.size > 1 %}
+						<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
+						{% endif %}
 						<h3 class="agenda-item-headline">{{ item.title }}</h3>
 						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
 					</div>
@@ -227,6 +257,9 @@ layout: default
 					<div class="agenda-item agenda-item-link">
 						<a href="{{ site.baseurl }}/{{ item.permalink }}">
 							<span class="agenda-item-time">{{ item.time }}{% if item.special.size > 1 %}<span class="agenda-item-special">- {{ item.special }}</span>{% endif %}</span>
+							{% if item.label.size > 1 %}
+							<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
+							{% endif %}
 							<h3 class="agenda-item-headline">{{ item.title }}</h3>
 							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
 						</a>
@@ -234,6 +267,9 @@ layout: default
 					{% else %}
 					<div class="agenda-item {% if item.type == 'presentation' %}agenda-item-link{% endif %} {% if item.type == 'break' %}agenda-item-break{% endif %}">
 						<span class="agenda-item-time">{{ item.time }}{% if item.special.size > 1 %}<span class="agenda-item-special">- {{ item.special }}</span>{% endif %}</span>
+						{% if item.label.size > 1 %}
+						<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
+						{% endif %}
 						<h3 class="agenda-item-headline">{{ item.title }}</h3>
 						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
 					</div>
@@ -247,7 +283,7 @@ layout: default
 
 		</div>
 
-		<div class="agenda-day" id="daythree">
+		<div class="agenda-day agenda-day-active" id="daythree">
 
 			<div class="agenda-content-header">
 				<div class="agenda-content-header-item agenda-content-header-item-active" id="daythree-mainstage-button">
@@ -271,6 +307,9 @@ layout: default
 					<div class="agenda-item agenda-item-link">
 						<a href="{{ site.baseurl }}/{{ item.permalink }}">
 							<span class="agenda-item-time">{{ item.time }}{% if item.special.size > 1 %}<span class="agenda-item-special">- {{ item.special }}</span>{% endif %}</span>
+							{% if item.label.size > 1 %}
+							<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
+							{% endif %}
 							<h3 class="agenda-item-headline">{{ item.title }}</h3>
 							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
 						</a>
@@ -278,6 +317,9 @@ layout: default
 					{% else %}
 					<div class="agenda-item {% if item.type == 'presentation' %}agenda-item-link{% endif %} {% if item.type == 'break' %}agenda-item-break{% endif %}">
 						<span class="agenda-item-time">{{ item.time }}{% if item.special.size > 1 %}<span class="agenda-item-special">- {{ item.special }}</span>{% endif %}</span>
+						{% if item.label.size > 1 %}
+						<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
+						{% endif %}
 						<h3 class="agenda-item-headline">{{ item.title }}</h3>
 						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
 					</div>
@@ -295,6 +337,9 @@ layout: default
 					<div class="agenda-item agenda-item-link">
 						<a href="{{ site.baseurl }}/{{ item.permalink }}">
 							<span class="agenda-item-time">{{ item.time }}{% if item.special.size > 1 %}<span class="agenda-item-special">- {{ item.special }}</span>{% endif %}</span>
+							{% if item.label.size > 1 %}
+							<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
+							{% endif %}
 							<h3 class="agenda-item-headline">{{ item.title }}</h3>
 							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
 						</a>
@@ -302,6 +347,9 @@ layout: default
 					{% else %}
 					<div class="agenda-item {% if item.type == 'presentation' %}agenda-item-link{% endif %} {% if item.type == 'break' %}agenda-item-break{% endif %}">
 						<span class="agenda-item-time">{{ item.time }}{% if item.special.size > 1 %}<span class="agenda-item-special">- {{ item.special }}</span>{% endif %}</span>
+						{% if item.label.size > 1 %}
+						<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
+						{% endif %}
 						<h3 class="agenda-item-headline">{{ item.title }}</h3>
 						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
 					</div>
@@ -319,6 +367,9 @@ layout: default
 					<div class="agenda-item agenda-item-link">
 						<a href="{{ site.baseurl }}/{{ item.permalink }}">
 							<span class="agenda-item-time">{{ item.time }}{% if item.special.size > 1 %}<span class="agenda-item-special">- {{ item.special }}</span>{% endif %}</span>
+							{% if item.label.size > 1 %}
+							<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
+							{% endif %}
 							<h3 class="agenda-item-headline">{{ item.title }}</h3>
 							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
 						</a>
@@ -326,6 +377,9 @@ layout: default
 					{% else %}
 					<div class="agenda-item {% if item.type == 'presentation' %}agenda-item-link{% endif %} {% if item.type == 'break' %}agenda-item-break{% endif %}">
 						<span class="agenda-item-time">{{ item.time }}{% if item.special.size > 1 %}<span class="agenda-item-special">- {{ item.special }}</span>{% endif %}</span>
+						{% if item.label.size > 1 %}
+						<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
+						{% endif %}
 						<h3 class="agenda-item-headline">{{ item.title }}</h3>
 						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
 					</div>
@@ -363,6 +417,9 @@ layout: default
 					<div class="agenda-item agenda-item-link">
 						<a href="{{ site.baseurl }}/{{ item.permalink }}">
 							<span class="agenda-item-time">{{ item.time }}{% if item.special.size > 1 %}<span class="agenda-item-special">- {{ item.special }}</span>{% endif %}</span>
+							{% if item.label.size > 1 %}
+							<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
+							{% endif %}
 							<h3 class="agenda-item-headline">{{ item.title }}</h3>
 							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
 						</a>
@@ -370,6 +427,9 @@ layout: default
 					{% else %}
 					<div class="agenda-item {% if item.type == 'presentation' %}agenda-item-link{% endif %} {% if item.type == 'break' %}agenda-item-break{% endif %}">
 						<span class="agenda-item-time">{{ item.time }}{% if item.special.size > 1 %}<span class="agenda-item-special">- {{ item.special }}</span>{% endif %}</span>
+						{% if item.label.size > 1 %}
+						<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
+						{% endif %}
 						<h3 class="agenda-item-headline">{{ item.title }}</h3>
 						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
 					</div>
@@ -387,6 +447,9 @@ layout: default
 					<div class="agenda-item agenda-item-link">
 						<a href="{{ site.baseurl }}/{{ item.permalink }}">
 							<span class="agenda-item-time">{{ item.time }}{% if item.special.size > 1 %}<span class="agenda-item-special">- {{ item.special }}</span>{% endif %}</span>
+							{% if item.label.size > 1 %}
+							<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
+							{% endif %}
 							<h3 class="agenda-item-headline">{{ item.title }}</h3>
 							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
 						</a>
@@ -394,6 +457,9 @@ layout: default
 					{% else %}
 					<div class="agenda-item {% if item.type == 'presentation' %}agenda-item-link{% endif %} {% if item.type == 'break' %}agenda-item-break{% endif %}">
 						<span class="agenda-item-time">{{ item.time }}{% if item.special.size > 1 %}<span class="agenda-item-special">- {{ item.special }}</span>{% endif %}</span>
+						{% if item.label.size > 1 %}
+						<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
+						{% endif %}
 						<h3 class="agenda-item-headline">{{ item.title }}</h3>
 						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
 					</div>
@@ -411,6 +477,9 @@ layout: default
 					<div class="agenda-item agenda-item-link">
 						<a href="{{ site.baseurl }}/{{ item.permalink }}">
 							<span class="agenda-item-time">{{ item.time }}{% if item.special.size > 1 %}<span class="agenda-item-special">- {{ item.special }}</span>{% endif %}</span>
+							{% if item.label.size > 1 %}
+							<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
+							{% endif %}
 							<h3 class="agenda-item-headline">{{ item.title }}</h3>
 							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
 						</a>
@@ -418,6 +487,9 @@ layout: default
 					{% else %}
 					<div class="agenda-item {% if item.type == 'presentation' %}agenda-item-link{% endif %} {% if item.type == 'break' %}agenda-item-break{% endif %}">
 						<span class="agenda-item-time">{{ item.time }}{% if item.special.size > 1 %}<span class="agenda-item-special">- {{ item.special }}</span>{% endif %}</span>
+						{% if item.label.size > 1 %}
+						<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
+						{% endif %}
 						<h3 class="agenda-item-headline">{{ item.title }}</h3>
 						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item }}</span>{% endfor %}</h4>
 					</div>
