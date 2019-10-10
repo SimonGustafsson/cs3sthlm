@@ -8,6 +8,8 @@
   place: Main Stage
   time: All day
   title: Closed
+  author:
+    - name:
 
 ## HARLEM
 
@@ -17,6 +19,8 @@
   place: Harlem Stage
   time: All Day
   title: Closed
+  author:
+    - name:
 
 ## ICSLAB
 
@@ -27,6 +31,8 @@
   time: "09:00 - 20:00"
   title: ICS Lab Open
   permalink: ics-lab/
+  author:
+    - name:
 
 - id: 104
   day: dayone
@@ -57,6 +63,8 @@
   place: ICS Lab
   time: "09:00 - 18:00"
   title: ICS Lab Open
+  author:
+    - name:
 
 - id: 202
   day: daytwo
@@ -209,6 +217,8 @@
   place: Harlem Stage
   time: "18:00"
   title: Closed
+  author:
+    - name:
 
 - id: 214
   day: daytwo
@@ -216,6 +226,8 @@
   place: ICS Lab
   time: "18:00"
   title: Closed
+  author:
+    - name:
 
 - id: 215
   day: daytwo
@@ -232,6 +244,8 @@
   place: Main Stage
   time: "22:00"
   title: Closed
+  author:
+    - name:
 
 
 
@@ -256,6 +270,8 @@
   place: ICS Lab
   time: "09:00 - 18:45"
   title: ICS Lab Open
+  author:
+    - name:
 
 
 - id: 303
@@ -280,6 +296,8 @@
   place: Main Stage
   time: "10:00 - 10:30"
   title: Coffee Break
+  author:
+    - name:
 
 - id: 305
   day: daythree
@@ -397,6 +415,8 @@
   place: Main Stage
   time: "12:00 - 13:15"
   title: Lunch Break
+  author:
+    - name:
 
 - id: 311
   day: daythree
@@ -404,6 +424,8 @@
   place: Harlem Stage
   time: "12:30 - 13:00"
   title: Lunch Break
+  author:
+    - name:
 
 - id: 312
   day: daythree
@@ -470,7 +492,7 @@
     - name: Cdr Michael Widmann, Leading the strategic part of Locked Shields
       role: Strategy Branch Chief
       work: CCDCOE
-      image: cdr-michael-widmann
+      image: cdr-michael-widmann.png
   partner:
     - name:
   label: The Training
@@ -560,6 +582,8 @@
   place: Main Stage
   time: "14:45 - 15:30"
   title: Coffee Break
+  author:
+    - name:
 
 - id: 320
   day: daythree
@@ -603,6 +627,8 @@
   place: Harlem Stage
   time: "15:40 - 16:10"
   title: Coffee Break
+  author:
+    - name:
 
 - id: 323
   day: daythree
@@ -652,7 +678,7 @@
     - name: Cdr Michael Widmann, Leading the strategic part of Locked Shields
       role: Strategy Branch Chief
       work: CCDCOE
-      image: cdr-michael-widmann
+      image: cdr-michael-widmann.png
   partner:
     - name:
   label: The Training
@@ -692,6 +718,8 @@
   place: ICS Lab
   time: "18:45"
   title: Closed
+  author:
+    - name:
 
 - id: 329
   day: daythree
@@ -699,6 +727,8 @@
   place: Main Stage
   time: "18:45 - 22:00"
   title: CS3STHLM Gala Dinner
+  author:
+    - name:
 
 - id: 330
   day: daythree
@@ -723,6 +753,8 @@
   place: Main Stage
   time: "22:00"
   title: End of CS3STHLM Summit Day One
+  author:
+    - name:
 
 
 ## HARLEM
@@ -751,6 +783,8 @@
   place: ICS Lab
   time: "09:00 - 16:00"
   title: ICS Lab Open
+  author:
+    - name:
 
 - id: 403
   day: dayfour
@@ -795,6 +829,8 @@
   place: Main Stage
   time: "10:20 - 10:50"
   title: Coffee Break
+  author:
+    - name:
 
 - id: 406
   day: dayfour
@@ -918,6 +954,8 @@
   place: Harlem Stage
   time: "12:00 - 12:30"
   title: Lunch Break
+  author:
+    - name:
 
 - id: 411
   day: dayfour
@@ -925,6 +963,8 @@
   place: Main Stage
   time: "12:15 - 13:15"
   title: Lunch Break
+  author:
+    - name:
 
 - id: 412
   day: dayfour
@@ -1187,6 +1227,8 @@
   place: Harlem Stage
   time: "14:20 - 14:35"
   title: Coffee Break
+  author:
+    - name:
 
 - id: 421
   day: dayfour
@@ -1227,6 +1269,8 @@
   place: Main Stage
   time: "14:45"
   title: Coffee Break
+  author:
+    - name:
 
 - id: 423
   day: dayfour
@@ -1293,6 +1337,8 @@
   place: Main Stage
   time: "16:00"
   title: Outro - End of CS3STHLM 2019
+  author:
+    - name:
 
 ## HARLEM
 

@@ -7,6 +7,11 @@
 		"title" 	: "Closed",
 		"description"	: "",
 		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
 		
 		"label"		: "",
 		"place" 	: "Main Stage"
@@ -20,6 +25,11 @@
 		"title" 	: "Closed",
 		"description"	: "",
 		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
 		
 		"label"		: "",
 		"place" 	: "Harlem Stage"
@@ -32,6 +42,11 @@
 		"time"		: "09:00 - 20:00",
 		"title" 	: "ICS Lab Open",
 		"description"	: "",
+		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
 		
 		
 		"label"		: "",
@@ -81,6 +96,11 @@
 		"time"		: "09:00 - 18:00",
 		"title" 	: "ICS Lab Open",
 		"description"	: "",
+		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
 		
 		
 		"label"		: "",
@@ -313,6 +333,11 @@
 		"title" 	: "Closed",
 		"description"	: "",
 		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
 		
 		"label"		: "",
 		"place" 	: "Harlem Stage"
@@ -325,6 +350,11 @@
 		"time"		: "18:00",
 		"title" 	: "Closed",
 		"description"	: "",
+		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
 		
 		
 		"label"		: "",
@@ -356,6 +386,11 @@
 		"time"		: "22:00",
 		"title" 	: "Closed",
 		"description"	: "",
+		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
 		
 		
 		"label"		: "",
@@ -393,6 +428,11 @@
 		"title" 	: "ICS Lab Open",
 		"description"	: "",
 		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
 		
 		"label"		: "",
 		"place" 	: "ICS Lab"
@@ -428,6 +468,11 @@
 		"time"		: "10:00 - 10:30",
 		"title" 	: "Coffee Break",
 		"description"	: "",
+		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
 		
 		
 		"label"		: "",
@@ -557,6 +602,11 @@
 		"title" 	: "Lunch Break",
 		"description"	: "",
 		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
 		
 		"label"		: "",
 		"place" 	: "Main Stage"
@@ -569,6 +619,11 @@
 		"time"		: "12:30 - 13:00",
 		"title" 	: "Lunch Break",
 		"description"	: "",
+		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
 		
 		
 		"label"		: "",
@@ -650,7 +705,7 @@
 		"name"		: "Cdr Michael Widmann, Leading the strategic part of Locked Shields",
 		"role"		: "Strategy Branch Chief",
 		"work"		: "CCDCOE",
-		"image"		: "https://cs3sthlm.se/assets/speakers/cdr-michael-widmann",
+		"image"		: "https://cs3sthlm.se/assets/speakers/cdr-michael-widmann.png",
 		
 		
 		"pname"		: "",
@@ -762,6 +817,11 @@
 		"title" 	: "Coffee Break",
 		"description"	: "",
 		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
 		
 		"label"		: "",
 		"place" 	: "Main Stage"
@@ -821,6 +881,11 @@
 		"title" 	: "Coffee Break",
 		"description"	: "",
 		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
 		
 		"label"		: "",
 		"place" 	: "Harlem Stage"
@@ -860,7 +925,7 @@
 		"name"		: "Cdr Michael Widmann, Leading the strategic part of Locked Shields",
 		"role"		: "Strategy Branch Chief",
 		"work"		: "CCDCOE",
-		"image"		: "https://cs3sthlm.se/assets/speakers/cdr-michael-widmann",
+		"image"		: "https://cs3sthlm.se/assets/speakers/cdr-michael-widmann.png",
 		
 		
 		"pname"		: "",
@@ -934,6 +999,11 @@
 		"title" 	: "Closed",
 		"description"	: "",
 		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
 		
 		"label"		: "",
 		"place" 	: "ICS Lab"
@@ -946,6 +1016,11 @@
 		"time"		: "18:45 - 22:00",
 		"title" 	: "CS3STHLM Gala Dinner",
 		"description"	: "",
+		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
 		
 		
 		"label"		: "",
@@ -983,6 +1058,11 @@
 		"title" 	: "End of CS3STHLM Summit Day One",
 		"description"	: "",
 		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
 		
 		"label"		: "",
 		"place" 	: "Main Stage"
@@ -1018,6 +1098,11 @@
 		"time"		: "09:00 - 16:00",
 		"title" 	: "ICS Lab Open",
 		"description"	: "",
+		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
 		
 		
 		"label"		: "",
@@ -1077,6 +1162,11 @@
 		"time"		: "10:20 - 10:50",
 		"title" 	: "Coffee Break",
 		"description"	: "",
+		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
 		
 		
 		"label"		: "",
@@ -1183,6 +1273,11 @@
 		"title" 	: "Lunch Break",
 		"description"	: "",
 		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
 		
 		"label"		: "",
 		"place" 	: "Harlem Stage"
@@ -1195,6 +1290,11 @@
 		"time"		: "12:15 - 13:15",
 		"title" 	: "Lunch Break",
 		"description"	: "",
+		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
 		
 		
 		"label"		: "",
@@ -1393,6 +1493,11 @@
 		"title" 	: "Coffee Break",
 		"description"	: "",
 		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
 		
 		"label"		: "",
 		"place" 	: "Harlem Stage"
@@ -1428,6 +1533,11 @@
 		"time"		: "14:45",
 		"title" 	: "Coffee Break",
 		"description"	: "",
+		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
 		
 		
 		"label"		: "",
@@ -1487,6 +1597,11 @@
 		"time"		: "16:00",
 		"title" 	: "Outro - End of CS3STHLM 2019",
 		"description"	: "",
+		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
 		
 		
 		"label"		: "",
