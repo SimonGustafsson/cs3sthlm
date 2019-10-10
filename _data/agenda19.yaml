@@ -24,7 +24,7 @@
   day: dayone
   type: common
   place: ICS Lab
-  time: "10:00 - 20:00"
+  time: "09:00 - 20:00"
   title: ICS Lab Open
   permalink: ics-lab/
 
@@ -32,7 +32,7 @@
   day: dayone
   type: common
   place: ICS Lab
-  time: "10:00 - 20:00"
+  time: "09:00 - 16:00"
   title: Capture the Flag Challenge
   author:
     - name: Hosted by The DHS Cybersecurity and Infrastructure Agency
@@ -54,27 +54,27 @@
 - id: 201
   day: daytwo
   type: common
-  place: Main Stage
-  time: "10:00 - 22:00"
-  title: CS3STHLM Expo
-  author:
-    - name: Opening by Erik & Robert
+  place: ICS Lab
+  time: "09:00 - 18:00"
+  title: ICS Lab Open
 
 - id: 202
   day: daytwo
   type: common
   place: ICS Lab
-  time: "10:00 - 18:00"
-  title: ICS Lab Open
+  time: "09:00 - 18:00"
+  title: Capture the Flag Challenge
+  author:
+    - name: Hosted by The DHS Cybersecurity and Infrastructure Agency
 
 - id: 203
   day: daytwo
   type: common
-  place: ICS Lab
-  time: "10:00 - 18:00"
-  title: Capture the Flag Challenge
+  place: Main Stage
+  time: "10:00 - 22:00"
+  title: CS3STHLM Expo
   author:
-    - name: Hosted by The DHS Cybersecurity and Infrastructure Agency
+    - name: Opening by Erik Johansson & Robert Malmgren
 
 - id: 204
   day: daytwo
@@ -254,7 +254,7 @@
   day: daythree
   type: common
   place: ICS Lab
-  time: "09:00 - 18:00"
+  time: "09:00 - 18:45"
   title: ICS Lab Open
 
 
@@ -284,27 +284,22 @@
 - id: 305
   day: daythree
   type: presentation
-  place: Harlem Stage
-  time: "10:15"
-  title: Applying the Consequence-driven Cyber-informed Engineering method on a Facility for a Successful Attack
+  place: ICS Lab
+  time: "10:30"
+  title: Memory Forensics and DMA Attacks with MemProcFS and PCILeech
   description: |
-    Tactics, techniques, and procedures are the sophisticated intelligence information. Threat intelligence agencies using this approach attribute attacks to a specific “group”. This is also a valid approach to defend yourself against these attack groups. However, if you want to defend against an unknown attacker – especially in OT-infrastructures – it seems more suitable starting by the consequences of a cyber attack you want to avoid and the possible paths leading to it. Critical functions can be identified by applying the Consequence-driven Cyber-informed Engineering (CCE) method. Compromising specific devices or applications may provide an easy way to achieve the consequence the attacker is up to. This is demonstrated at a real test facility containing over 60 devices, which regulate a physical process.
+    The PCILeech direct memory access attack toolkit was released three years ago and quickly became popular amongst red teamers, governments and game cheaters alike. We will demonstrate how to take total control of up-to-date still vulnerable systems with PCIe DMA code injection using affordable FPGA hardware and the open source PCILeech direct memory access attack toolkit.
     
-    This presentation illustrates the application of CCE for an attack on a facility. First, the goal of the attack is specified, which would be the sabotage of the facility in this case. After that, possible paths achieving this goal are determined. The easiest path in this case is an attack manipulating the communication between a HMI and PLC using a common but proprietary protocol. Finally, countermeasures from the IT security standards such as “IT-Grundschutz” and ISO/IEC 62443 are applied which hamper a successful attack.
-    
-    Using the CCE method and a security standard, the presentation starts and ends on a high level. This is interesting for middle management, which want to improve their security. Furthermore, the technical illustration executing a possible attack is interesting for the appropriate audience, which is also present at the conference. During the work, a dissector in Wireshark for the protocol was implemented. Consequently, the communication between the devices can be illustrated in more detail explaining the performed attack. As a result of the technical and high level illustration, the contribution of the BSI outline a cyber attack for both groups.
+    MemProcFS - The Memory Process File System is memory forensics made super easy! Analyze memory by clicking on files in a virtual file system or by using the C/C++/Python API. Analyze memory dump files by point and click, analyze and edit live memory acquired using PCILeech PCIe FPGA devices or even live memory acquired in real time from remote hosts over the network. Zero-cost, open source, fast and super-easy to use memory forensics!
   author:
-    - name: Andreas Erdich
-      role: Hardware Engineer
-      work: BSI
-      image: andreas-erdich.png
+    - name: Ulf Frisk
+      role: Pentester & Security Researcher
+      work: Independent
+      image: ulf-frisk.png
   partner:
-    - name: Jens Wiesner
-      role: Dipl. Phys.
-      work: BSI
-      image: jens-wiesner.png
-  permalink: program/presentations/andreas-jens/
-  label: The Methods
+    - name:
+  permalink: program/presentations/ulf-frisk/
+  label: The Tools
 
 - id: 306
   day: daythree
@@ -334,61 +329,20 @@
   day: daythree
   type: presentation
   place: ICS Lab
-  time: "10:30"
-  title: Memory Forensics and DMA Attacks with MemProcFS and PCILeech
-  description: |
-    The PCILeech direct memory access attack toolkit was released three years ago and quickly became popular amongst red teamers, governments and game cheaters alike. We will demonstrate how to take total control of up-to-date still vulnerable systems with PCIe DMA code injection using affordable FPGA hardware and the open source PCILeech direct memory access attack toolkit.
-    
-    MemProcFS - The Memory Process File System is memory forensics made super easy! Analyze memory by clicking on files in a virtual file system or by using the C/C++/Python API. Analyze memory dump files by point and click, analyze and edit live memory acquired using PCILeech PCIe FPGA devices or even live memory acquired in real time from remote hosts over the network. Zero-cost, open source, fast and super-easy to use memory forensics!
+  time: "11:00"
+  title: TBA
+  description:
   author:
-    - name: Ulf Frisk
-      role: Pentester & Security Researcher
-      work: Independent
-      image: ulf-frisk.png
+    - name: Erik Hjelmvik
+      role: Network Analyst
+      work: NETRESEC
+      image: erik-hjelmvik.png
   partner:
     - name:
-  permalink: program/presentations/ulf-frisk/
+  permalink: program/presentations/erik-hjelmvik/
   label: The Tools
 
 - id: 308
-  day: daythree
-  type: presentation
-  place: Harlem Stage
-  time: "11:00"
-  title: Layered Blueprints – an ontology and method for (talking about) engineering OT Security
-  description: |
-    The session will propose an OT security engineering thought model which empowers automation engineers to take responsibility for their own systems’ security in a technically sound, systematic, and pragmatic way.
-
-    The thought model consists of four layers: The function layer includes analyzing and use case-based modelling of functional requirements an OT network and its elements need to fulfill. Proper operation of these use cases is taken as security objective. The risk layer takes the identified use cases and for derivation and evaluation of “abuse cases” forming threat scenarios. The third layer is about identifying security requirements, which are state of the art, compliant with necessary standards, and taking into account the organization’s existing processes. The uppermost layer deals with implementing these systematically derived security requirements.
-
-    Taking into account that in plant engineering and operation security requirements are never in focus, but always need to be wrapped around plant functionality and plant operators’ busy workdays, security engineering desperately needs to be efficient.
-
-    Also, when security by design is to be taken seriously, security engineering must be integrated in the existing plant engineering process, making use of tools and data formats engineers use anyway.
-
-    For these reasons, the presentation does not stop at introducing the thought model but shows how this thought model can be transferred into a machine-readable representation – a data model. The data model is not meant to take decisions away from automation engineers by boasting AI capabilities, but is designed to facilitate a more informed, smoother security engineering process.
-
-    The data model poses two advantages within the security engineering process:
-
-    First, it simplifies creating and visualizing network models and use cases, which serve as input for the outlined security engineering process.
-
-    Second, it sets the basis for (partly) automating the implementation of security solutions, by defining security characteristics of modelled entities which may result from the security engineering process. This also includes the opportunity to make configuration management “security-sensitive” by adding information like security requirements a certain configuration fulfills and risks a certain configuration mitigates.
-
-    The presentation outlines how existing tools may assist during the security engineering process: Asset discovery and inventory tools can provide the basis for network and use case modelling. Configuration management tools may help to roll out and maintain security-relevant configurations.
-
-    Still, many plant operators, integrators, and vendors are understandably reluctant to become dependable on such rather expensive tools.
-
-    Therefore, the presented data model aims at making use of efficiency gains that existing network inventory and configuration management tools promise without becoming too dependable on a certain tool vendor’s product. In order to achieve that, it makes use of well-established, non-proprietary description languages and data formats like AutomationML, OWL, and OPC UA. Thus, the proposed data model may serve as an open interface between existing, proprietary asset inventory and configuration management tools and the security engineering process.
-  author:
-    - name: Sarah Fluchs
-      role: Security Consultant
-      work: admeritia GmbH
-      image: sarah-fluchs.png
-  partner:
-    - name:
-  permalink: program/presentations/sarah-fluchs/
-  label: The Methods
-
-- id: 309
   day: daythree
   type: presentation
   place: Main Stage
@@ -420,95 +374,51 @@
   permalink: program/presentations/jimmy-reid/
   label: The Threats
 
-- id: 310
+- id: 309
   day: daythree
   type: presentation
   place: ICS Lab
-  time: "11:15"
+  time: "13:45"
   title: TBA
   description:
   author:
-    - name: Erik Hjelmvik
-      role: Network Analyst
-      work: NETRESEC
-      image: erik-hjelmvik.png
+    - name: Janek Pelzer
+      role: TBA
+      work: TBA
+      image: temp.png
   partner:
     - name:
-  permalink: program/presentations/erik-hjelmvik/
+  permalink: program/presentations/janek-pelzer/
   label: The Tools
 
-- id: 311
-  day: daythree
-  type: presentation
-  place: Harlem Stage
-  time: "11:30"
-  title: When will my PLC support Mirai? The security economics of large-scale attacks against ICS
-  description: |
-    ## [Research in progress]
-    
-    Since 2011, capable and respected researchers have pronounced impending doom after documenting the tens of thousands of Internet-connected Industrial Control Systems (ICS) and automation systems.  Catastrophic failure of physical systems were postulated, along with crippling ransomware epidemics; after Mirai and ASIC-resistant cryptocurrencies hit the street, researchers also predicted Internet-connected ICS would be used to host DDoS botnets and crypto miners.  With tools like Shodan and Censys to find devices at scale, and open-source libraries to support communication with any ICS protocol imaginable, why haven’t we seen a golden age of scaled ICS attacks?
-    
-    This talk explores the security economics arguments for why cybercriminals largely ignore ICS devices, and the coming changes to the industrial landscape that may shift criminal focus from IoT to ICS (or, more accurately, the changes that will blur the distinction between the two domains).  I will also discuss the usable security arguments that undergird users’ decisions to connect their ICS devices directly to the Internet.
-
-    I will start by presenting a longitudinal study of Internet-connected ICS.  We’ve fingerprinted and tracked thousands of individual devices over a four year period to identify user behaviours, track population stability, and infer patch cadence (to nobody’s surprise, there is not a lot of patching going on).  I’ll show that there is a large, stable, unpatched population of devices with open protocol ports, ripe for exploitation; this includes even the newest hardware and software combinations from reputable manufacturers.
-
-    Then, I’ll try to demonstrate that nobody really cares.  I’ll walk through static analysis of hundreds of gigabytes of malware samples, an assessment of hundreds of thousands of stateful honeypot interactions, and a search through 60 million hacker forum posts to show there is neither the interest in nor competence to attack these Internet-connected devices at-scale.  I’ll discuss the security economics argument for why cybercriminals largely ignore this domain, and how expected changes to the Industrial landscape in the immediate future could bring ICS to their attention.
-
-    In anticipation of the correct and inevitable objection that ICS devices should never be directly connected to the Internet, I’ll close with a discussion of usable security, looking at default configurations and user motivations in an effort to explain the current state of Internet-connected affairs and why we should only expect this Internet-connected population to grow.
-    
-    #### Target audience:
-    This is a non-technical talk of interest (hopefully) to those including cybercrime in their threat model; specifically, vendors and security professionals concerned about how small-to-medium sized enterprises (SMEs) are going to handle Industry 4.0.  SMEs aren’t the only problem, but they’re the largest category of identifiable offenders.
-
-    #### Key takeaways:
-    1. There is a large, stable, unpatched population of vulnerable, Internet-connected ICS devices.  This population is growing.  Without intervention, the growth rate is expected to increase based on pressures to make more devices connectable as we digitise manufacturing and industry.
-    2. The existing population size and heterogeneity, the cost to develop and deploy an attack, the difficulty in monetising an attack, and the existence of softer targets currently make Internet-connected ICS devices an unattractive target for large-scale attacks.
-    3. The growing Internet-connected ICS device population, predicted market dominance of a limited number of hardware and software frameworks, and improvements to IoT security blur the distinction between IoT and ICS from an attacker perspective, opening ICS devices to the types of scaled attacks we’ve seen against IoT.
-    4. Your threat model doesn’t need to include Mirai today, but it might tomorrow.
-  author:
-    - name: Mike Dodson
-      role: PhD Student
-      work: University of Cambridge
-      image: mike-dodson.png
-  partner:
-    - name:
-  permalink: program/presentations/mike-dodson/
-  label: The Methods
-
-- id: 312
-  day: daythree
-  type: break
-  place: Harlem Stage
-  time: "11:50 - 12:40"
-  title: Lunch Break
-
-- id: 313
+- id: 310
   day: daythree
   type: break
   place: Main Stage
-  time: "12:00 - 13:00"
+  time: "12:00 - 13:15"
   title: Lunch Break
 
-- id: 314
+- id: 311
   day: daythree
   type: break
-  place: ICS Lab
-  time: "12:00 - 13:00"
+  place: Harlem Stage
+  time: "12:30 - 13:00"
   title: Lunch Break
 
-- id: 315
+- id: 312
   day: daythree
   type: common
   place: Harlem Stage
-  time: "12:40 - 16:00"
+  time: "13:00 - 16:35"
   title: Locked Shields from different perspectives
   author:
     - name: Moderated by Thomas Svensson
 
-- id: 316
+- id: 313
   day: daythree
   type: presentation
   place: Harlem Stage
-  time: "12:40"
+  time: "13:00"
   title: Introduction to Locked Shields exercise
   description:
   author:
@@ -520,41 +430,7 @@
     - name:
   label: The Training
 
-- id: 317
-  day: daythree
-  type: presentation
-  place: Harlem Stage
-  time: "12:50"
-  title: Presenting the organization behind the exercise
-  description:
-  author:
-    - name: Cdr Michael Widmann, Leading the strategic part of Locked Shields
-      role: Strategy Branch Chief
-      work: CCDCOE
-      image: cdr-michael-widmann
-  partner:
-    - name:
-  label: The Training
-
-- id: 318
-  day: daythree
-  type: presentation
-  place: ICS Lab
-  time: "13:00"
-  title: curl - the world's most used software component?
-  description: |
-    Everyone and everything uses curl. Your car, your game consoles, apps on the phone, it runs in your server, in exists in your laptop, your fridge and printers. curl supports lots of protocols and runs on more operating sytems than most mortals can name. How is the project run? Who makes it? How is it tested? How do we keep it secure and handle the bugs and vulnerabilities that still pop up? curl is over twenty years old, makes a new release every 8 weeks and boasts over 2,000 named contributors so far. Can its estimated seven billion installations make it the world's most used software component?
-  author:
-    - name: Daniel Stenberg
-      role: Software Engineer
-      work: wolfSSL
-      image: daniel-stenberg.png
-  partner:
-    - name:
-  permalink: program/presentations/daniel-stenberg/
-  label: The Tools
-
-- id: 319
+- id: 314
   day: daythree
   type: presentation
   place: Main Stage
@@ -583,11 +459,27 @@
   permalink: program/presentations/christian-mona/
   label: The Industrial Plants
 
-- id: 320
+- id: 314
   day: daythree
   type: presentation
   place: Harlem Stage
-  time: "13:20"
+  time: "13:15"
+  title: Presenting the organization behind the exercise
+  description:
+  author:
+    - name: Cdr Michael Widmann, Leading the strategic part of Locked Shields
+      role: Strategy Branch Chief
+      work: CCDCOE
+      image: cdr-michael-widmann
+  partner:
+    - name:
+  label: The Training
+
+- id: 315
+  day: daythree
+  type: presentation
+  place: Harlem Stage
+  time: "13:50"
   title: Digging into the technical setup of the exercise
   description:
   author:
@@ -599,40 +491,7 @@
     - name:
   label: The Training
 
-- id: 321
-  day: daythree
-  type: presentation
-  place: Harlem Stage
-  time: "13:40"
-  title: Red Teams view from the exercise
-  description:
-  author:
-    - name: Sandra Bardón, Core Member Red Team
-      role: Technology Researcher
-      work: CCDCOE
-      image: sandra-bardon.png
-  partner:
-    - name:
-  label: The Training
-
-- id: 322
-  day: daythree
-  type: presentation
-  place: ICS Lab
-  time: "13:45"
-  title: TBA
-  description:
-  author:
-    - name: Janek Pelzer
-      role: TBA
-      work: TBA
-      image: temp.png
-  partner:
-    - name:
-  permalink: program/presentations/janek-pelzer/
-  label: The Tools
-
-- id: 323
+- id: 316
   day: daythree
   type: presentation
   place: Main Stage
@@ -660,11 +519,27 @@
   permalink: program/presentations/khalid-ansari/
   label: The Industrial Plants
 
-- id: 324
+- id: 317
   day: daythree
   type: presentation
   place: Harlem Stage
-  time: "14:00"
+  time: "14:15"
+  title: Red Teams view from the exercise
+  description:
+  author:
+    - name: Sandra Bardón, Core Member Red Team
+      role: Technology Researcher
+      work: CCDCOE
+      image: sandra-bardon.png
+  partner:
+    - name:
+  label: The Training
+
+- id: 318
+  day: daythree
+  type: presentation
+  place: Harlem Stage
+  time: "14:40"
   title: TBA
   description:
   author:
@@ -679,11 +554,18 @@
       image:
   label: The Training
 
-- id: 325
+- id: 319
+  day: daythree
+  type: break
+  place: Main Stage
+  time: "14:45 - 15:30"
+  title: Coffee Break
+
+- id: 320
   day: daythree
   type: presentation
   place: Harlem Stage
-  time: "14:30"
+  time: "15:15"
   title: Presenting how we know what's happen in the exercise and measuring
   description:
   author:
@@ -695,68 +577,7 @@
     - name:
   label: The Training
 
-- id: 326
-  day: daythree
-  type: presentation
-  place: ICS Lab
-  time: "14:30"
-  title: Fuzz Testing IEC 61850
-  description: |
-    During implementation of protocols in a communication stack usually only positive testing is performed to verify the conformance to the standard, especially for ICS protocols. Negative testing as part of the development process is often not applied. Therefore, it remains unknown how the stack or entire component is reacting on invalid, random or unexpected data. This talk will introduce robustness tests on IEC 61850, an ICS protocol that is used in digital substation communication. IEC 61850 is a modern and highly complex protocol stack and therefore provides a high attack surface.
-
-    The talk contains an introduction on IEC 61850 and describes the fuzzing approach together with details on how these tests are performed using a mutation-based fuzzer utilizing the XML based “Packet Description Markup Language” (PDML). It will also provide insights of difficulties encountered by performing those tests and how they have been circumvented. The audience will also learn what kind of attack vectors arise from those vulnerabilities.
-
-    As part of the talk, anonymized fuzzing results are presented from day-to-day ICS security audits as well as a live demonstration of the fuzzer is given.
-
-    This talk will provide in depth technical details and is primarily meant for security professionals in the area of industrial control systems and substation automation.
-  author:
-    - name: Markus Mahrla
-      role: Security Consultant
-      work: GAI NetConsult GmbH
-      image: markus-mahrla.png
-  partner:
-    - name:
-  permalink: program/presentations/markus-mahrla/
-  label: The Tools
-
-- id: 327
-  day: daythree
-  type: break
-  place: Main Stage
-  time: "14:45 - 15:30"
-  title: Coffee Break
-
-- id: 328
-  day: daythree
-  type: break
-  place: Harlem Stage
-  time: "14:50 - 15:20"
-  title: Coffee Break
-
-- id: 329
-  day: daythree
-  type: break
-  place: ICS Lab
-  time: "15:15"
-  title: Coffee Break
-
-- id: 330
-  day: daythree
-  type: presentation
-  place: Harlem Stage
-  time: "15:20"
-  title: Presenting the strategic part of the exercise and how it connects to the technical exercise
-  description:
-  author:
-    - name: Cdr Michael Widmann, Leading the strategic part of Locked Shields
-      role: Strategy Branch Chief
-      work: CCDCOE
-      image: cdr-michael-widmann
-  partner:
-    - name:
-  label: The Training
-
-- id: 331
+- id: 321
   day: daythree
   type: presentation
   place: Main Stage
@@ -776,18 +597,14 @@
   permalink: program/presentations/dieter-sarrazyn/
   label: The Tools
 
-- id: 332
+- id: 322
   day: daythree
-  type: common
+  type: break
   place: Harlem Stage
-  time: "15:40"
-  title: Questions and Answers
-  description:
-  author:
-    - name: Thomas Svensson, Cdr Michael Widmann, Silver Saks, Sandra Bardón, Erik Biverot, Johan Nilsson, & Jarkko Huttunen
-  special: Panel
+  time: "15:40 - 16:10"
+  title: Coffee Break
 
-- id: 333
+- id: 323
   day: daythree
   type: presentation
   place: Main Stage
@@ -824,7 +641,34 @@
   permalink: program/presentations/stephen-hilt/
   label: The Ether
 
-- id: 334
+- id: 324
+  day: daythree
+  type: presentation
+  place: Harlem Stage
+  time: "16:10"
+  title: Presenting the strategic part of the exercise and how it connects to the technical exercise
+  description:
+  author:
+    - name: Cdr Michael Widmann, Leading the strategic part of Locked Shields
+      role: Strategy Branch Chief
+      work: CCDCOE
+      image: cdr-michael-widmann
+  partner:
+    - name:
+  label: The Training
+
+- id: 325
+  day: daythree
+  type: common
+  place: Harlem Stage
+  time: "16:35"
+  title: Questions and Answers
+  description:
+  author:
+    - name: Thomas Svensson, Cdr Michael Widmann, Silver Saks, Sandra Bardón, Erik Biverot, Johan Nilsson, & Jarkko Huttunen
+  special: Panel
+
+- id: 326
   day: daythree
   type: common
   place: ICS Lab
@@ -833,7 +677,7 @@
   author:
     - name: Hosted by The DHS Cybersecurity and Infrastructure Agency
 
-- id: 335
+- id: 327
   day: daythree
   type: common
   place: ICS Lab
@@ -842,21 +686,21 @@
   author:
     - name: Dinner is served at Main Stage 18:45
 
-- id: 336
+- id: 328
   day: daythree
   type: break
   place: ICS Lab
   time: "18:45"
   title: Closed
 
-- id: 337
+- id: 329
   day: daythree
   type: common
   place: Main Stage
   time: "18:45 - 22:00"
   title: CS3STHLM Gala Dinner
 
-- id: 338
+- id: 330
   day: daythree
   type: presentation
   place: Main Stage
@@ -873,7 +717,7 @@
     - name:
   special: Dinner Presentation
 
-- id: 339
+- id: 331
   day: daythree
   type: common
   place: Main Stage
@@ -890,14 +734,25 @@
 #-------------------#
 ## MAIN STAGE
 
-- id:
+- id: 401
   day: dayfour
   type: common
   place: Main Stage
   time: "09:00"
   title: CS3STHLM Introduction
+  author:
+    - name: Erik Johansson
+  partner: 
+    - name: Robert Malmgren
 
-- id:
+- id: 402
+  day: dayfour
+  type: common
+  place: ICS Lab
+  time: "09:00 - 16:00"
+  title: ICS Lab Open
+
+- id: 403
   day: dayfour
   type: presentation
   place: Main Stage
@@ -914,7 +769,7 @@
   permalink: program/presentations/andy-greenberg/
   special: Keynote
 
-- id:
+- id: 404
   day: dayfour
   type: presentation
   place: Main Stage
@@ -934,14 +789,32 @@
   permalink: program/presentations/prasanna-n/
   label: The Threats
 
-- id:
+- id: 405
   day: dayfour
   type: break
   place: Main Stage
   time: "10:20 - 10:50"
   title: Coffee Break
 
-- id:
+- id: 406
+  day: dayfour
+  type: presentation
+  place: ICS Lab
+  time: "10:30"
+  title: curl - the world's most used software component?
+  description: |
+    Everyone and everything uses curl. Your car, your game consoles, apps on the phone, it runs in your server, in exists in your laptop, your fridge and printers. curl supports lots of protocols and runs on more operating sytems than most mortals can name. How is the project run? Who makes it? How is it tested? How do we keep it secure and handle the bugs and vulnerabilities that still pop up? curl is over twenty years old, makes a new release every 8 weeks and boasts over 2,000 named contributors so far. Can its estimated seven billion installations make it the world's most used software component?
+  author:
+    - name: Daniel Stenberg
+      role: Software Engineer
+      work: wolfSSL
+      image: daniel-stenberg.png
+  partner:
+    - name:
+  permalink: program/presentations/daniel-stenberg/
+  label: The Tools
+
+- id: 407
   day: dayfour
   type: presentation
   place: Main Stage
@@ -974,7 +847,31 @@
   permalink: program/presentations/monta-elkins/
   label: The Threats
 
-- id:
+- id: 408
+  day: dayfour
+  type: presentation
+  place: ICS Lab
+  time: "11:15"
+  title: Fuzz Testing IEC 61850
+  description: |
+    During implementation of protocols in a communication stack usually only positive testing is performed to verify the conformance to the standard, especially for ICS protocols. Negative testing as part of the development process is often not applied. Therefore, it remains unknown how the stack or entire component is reacting on invalid, random or unexpected data. This talk will introduce robustness tests on IEC 61850, an ICS protocol that is used in digital substation communication. IEC 61850 is a modern and highly complex protocol stack and therefore provides a high attack surface.
+
+    The talk contains an introduction on IEC 61850 and describes the fuzzing approach together with details on how these tests are performed using a mutation-based fuzzer utilizing the XML based “Packet Description Markup Language” (PDML). It will also provide insights of difficulties encountered by performing those tests and how they have been circumvented. The audience will also learn what kind of attack vectors arise from those vulnerabilities.
+
+    As part of the talk, anonymized fuzzing results are presented from day-to-day ICS security audits as well as a live demonstration of the fuzzer is given.
+
+    This talk will provide in depth technical details and is primarily meant for security professionals in the area of industrial control systems and substation automation.
+  author:
+    - name: Markus Mahrla
+      role: Security Consultant
+      work: GAI NetConsult GmbH
+      image: markus-mahrla.png
+  partner:
+    - name:
+  permalink: program/presentations/markus-mahrla/
+  label: The Tools
+
+- id: 409
   day: dayfour
   type: presentation
   place: Main Stage
@@ -1015,14 +912,64 @@
   permalink: program/presentations/nicklas-keijser/
   label: The Threats
 
-- id:
+- id: 410
+  day: dayfour
+  type: break
+  place: Harlem Stage
+  time: "12:00 - 12:30"
+  title: Lunch Break
+
+- id: 411
   day: dayfour
   type: break
   place: Main Stage
   time: "12:15 - 13:15"
   title: Lunch Break
 
-- id:
+- id: 412
+  day: dayfour
+  type: presentation
+  place: Harlem Stage
+  time: "12:30"
+  title: Applying the Consequence-driven Cyber-informed Engineering method on a Facility for a Successful Attack
+  description: |
+    Tactics, techniques, and procedures are the sophisticated intelligence information. Threat intelligence agencies using this approach attribute attacks to a specific “group”. This is also a valid approach to defend yourself against these attack groups. However, if you want to defend against an unknown attacker – especially in OT-infrastructures – it seems more suitable starting by the consequences of a cyber attack you want to avoid and the possible paths leading to it. Critical functions can be identified by applying the Consequence-driven Cyber-informed Engineering (CCE) method. Compromising specific devices or applications may provide an easy way to achieve the consequence the attacker is up to. This is demonstrated at a real test facility containing over 60 devices, which regulate a physical process.
+    
+    This presentation illustrates the application of CCE for an attack on a facility. First, the goal of the attack is specified, which would be the sabotage of the facility in this case. After that, possible paths achieving this goal are determined. The easiest path in this case is an attack manipulating the communication between a HMI and PLC using a common but proprietary protocol. Finally, countermeasures from the IT security standards such as “IT-Grundschutz” and ISO/IEC 62443 are applied which hamper a successful attack.
+    
+    Using the CCE method and a security standard, the presentation starts and ends on a high level. This is interesting for middle management, which want to improve their security. Furthermore, the technical illustration executing a possible attack is interesting for the appropriate audience, which is also present at the conference. During the work, a dissector in Wireshark for the protocol was implemented. Consequently, the communication between the devices can be illustrated in more detail explaining the performed attack. As a result of the technical and high level illustration, the contribution of the BSI outline a cyber attack for both groups.
+  author:
+    - name: Andreas Erdich
+      role: Hardware Engineer
+      work: BSI
+      image: andreas-erdich.png
+  partner:
+    - name: Jens Wiesner
+      role: Dipl. Phys.
+      work: BSI
+      image: jens-wiesner.png
+  permalink: program/presentations/andreas-jens/
+  label: The Methods
+
+- id: 413
+  day: dayfour
+  type: presentation
+  place: ICS Lab
+  time: "12:30"
+  title: Demystifying TSCM or how to spot the witch doctor doing the raindance
+  description: |
+    This presentation will cover and explain what TSCM (Technical surveillance Counter Measures) a.k.a. "Bug sweeping" is, how it is performed, the tools, the methodology and how not it shall be performed. The presentation and on stage demo will show how hard and complex the procedure is and to educate persons and organizations to procure and understand the subject. But most importantly to expose those who do it as a secret "voodoo ritual" just to make money.
+  author:
+    - name: Richard Widh
+      role: Senior Cyber Security Expert & CEO
+      work: Anacautus AB
+      image: richard-widh.png
+  partner:
+    - name:
+  permalink: program/presentations/richard-widh/
+  label: The Wire
+
+- id: 414
   day: dayfour
   type: presentation
   place: Main Stage
@@ -1073,7 +1020,67 @@
   permalink: program/presentations/matan-yoav/
   label: The Risks
 
-- id:
+- id: 415
+  day: dayfour
+  type: presentation
+  place: Harlem Stage
+  time: "13:15"
+  title: Layered Blueprints – an ontology and method for (talking about) engineering OT Security
+  description: |
+    The session will propose an OT security engineering thought model which empowers automation engineers to take responsibility for their own systems’ security in a technically sound, systematic, and pragmatic way.
+
+    The thought model consists of four layers: The function layer includes analyzing and use case-based modelling of functional requirements an OT network and its elements need to fulfill. Proper operation of these use cases is taken as security objective. The risk layer takes the identified use cases and for derivation and evaluation of “abuse cases” forming threat scenarios. The third layer is about identifying security requirements, which are state of the art, compliant with necessary standards, and taking into account the organization’s existing processes. The uppermost layer deals with implementing these systematically derived security requirements.
+
+    Taking into account that in plant engineering and operation security requirements are never in focus, but always need to be wrapped around plant functionality and plant operators’ busy workdays, security engineering desperately needs to be efficient.
+
+    Also, when security by design is to be taken seriously, security engineering must be integrated in the existing plant engineering process, making use of tools and data formats engineers use anyway.
+
+    For these reasons, the presentation does not stop at introducing the thought model but shows how this thought model can be transferred into a machine-readable representation – a data model. The data model is not meant to take decisions away from automation engineers by boasting AI capabilities, but is designed to facilitate a more informed, smoother security engineering process.
+
+    The data model poses two advantages within the security engineering process:
+
+    First, it simplifies creating and visualizing network models and use cases, which serve as input for the outlined security engineering process.
+
+    Second, it sets the basis for (partly) automating the implementation of security solutions, by defining security characteristics of modelled entities which may result from the security engineering process. This also includes the opportunity to make configuration management “security-sensitive” by adding information like security requirements a certain configuration fulfills and risks a certain configuration mitigates.
+
+    The presentation outlines how existing tools may assist during the security engineering process: Asset discovery and inventory tools can provide the basis for network and use case modelling. Configuration management tools may help to roll out and maintain security-relevant configurations.
+
+    Still, many plant operators, integrators, and vendors are understandably reluctant to become dependable on such rather expensive tools.
+
+    Therefore, the presented data model aims at making use of efficiency gains that existing network inventory and configuration management tools promise without becoming too dependable on a certain tool vendor’s product. In order to achieve that, it makes use of well-established, non-proprietary description languages and data formats like AutomationML, OWL, and OPC UA. Thus, the proposed data model may serve as an open interface between existing, proprietary asset inventory and configuration management tools and the security engineering process.
+  author:
+    - name: Sarah Fluchs
+      role: Security Consultant
+      work: admeritia GmbH
+      image: sarah-fluchs.png
+  partner:
+    - name:
+  permalink: program/presentations/sarah-fluchs/
+  label: The Methods
+
+- id: 416
+  day: dayfour
+  type: presentation
+  place: Harlem Stage
+  time: "13:30"
+  title: EU STRIKE3 project
+  description: |
+    GPS is used for many applications around the world. But they are vulnerable to attacks from jammers. EU-STRIKE3 measure and look on the risk we have. We will show what we found and give you guideline to increase your protection against jammers.
+
+    We also get more and more laws and regulations that we should use the GPS as a source of time.
+
+    Can we find a safe way forward?
+  author:
+    - name: Didrik Ehrenborg
+      role: Time & Sync Expert
+      work: GNSS
+      image: didrik-ehrenborg.png
+  partner:
+    - name:
+  permalink: program/presentations/didrik-ehrenborg/
+  label: The Time
+
+- id: 417
   day: dayfour
   type: presentation
   place: Main Stage
@@ -1115,78 +1122,48 @@
   permalink: program/presentations/marina-krotofil/
   label: The Culture
 
-- id:
-  day: dayfour
-  type: break
-  place: Main Stage
-  time: "14:45"
-  title: Coffee Break
-
-- id:
-  day: dayfour
-  type: presentation
-  place: Main Stage
-  time: "15:15"
-  title: Automotive DoIP and forensic analysis for automotive systems
-  description: |
-    The automobile industry is changing and new fields such as autonomous driving, battery enhancements and infrastructure or advanced mobility services are under development. As a side effect the interconnection of vehicles increases with numerous new protocols and technologies introduced to enable these scenarios, which also attract the attention of security researchers and hackers. Therefore, more focus on security practices is necessary.
-
-    One of these new technologies is Automotive Ethernet. It not only affects the in-vehicle network with enhanced bandwidth and protocol versatility, but also enables the connection of the vehicle to existing external network infrastructures. This can be accomplished by the Diagnostic over Internet Protocol (DoIP) which is used for diagnostic communication over the Onboard Diagnostic (OBD) interface.
-
-    Therefore potential unsafe or even unknown functionality is exposed to the outside world which, until now, was a private point to point connection between the diagnostic equipment and the vehicle. Moreover the diagnostic interface is commonly used to modify vehicles like enabling/disabling software features or update firmware. With an increasing proportion of software as a product features and at the same time raising attractiveness for malicious activities (e.g. fraud, attacks, manipulation) by attackers. The Original Equipment Manufacturers (OEM) are faced with new challenges in the domain of evidence preservation and reconciliation. Especially with the ISO21434 and UNECE on the horizon.
-
-    We examined possible scenarios that range from information gathering to malicious activities with focus on the vehicle and infrastructure. At the same time we approached the idea of what forensic evidence such activities might leave behind and how state-of-the-art technology helps preserving evidence. We therefore analysed the protocol specification and developed software according to our scenarios for evaluation. Furthermore, we studied existing forensic investigation approaches in the IT and SCADA domains and their feasibility with the DoIP protocol, as being the central point of communication with the in-vehicle network from outside the vehicle.
-
-    In this presentation we present our approach on the analysis of the protocol, the scenarios we derived and the tools we used for evaluation. This also includes the applicability check of the diagnostic interface for forensic investigation as well as discussion to provide these forensic investigations for court relevant incidents.
-  author:
-    - name: Christopher Corbett
-      role: Junior Incident Responder
-      work: Audi
-      image: christopher-corbett.png
-  partner:
-    - name: Kevin Gomez Buquerin
-      role: Junior Incident Responder
-      work: Audi
-      image: kevin-gomez-buquerin.png
-  permalink: program/presentations/christopher-kevin/
-  label: The Cars
-
-- id:
-  day: dayfour
-  type: common
-  place: Main Stage
-  time: "16:00"
-  title: Outro - End of CS3STHLM 2019
-
-## HARLEM
-
-- id:
+- id: 418
   day: dayfour
   type: presentation
   place: Harlem Stage
-  time: "10:30"
-  title: EU STRIKE3 project
+  time: "14:00"
+  title: When will my PLC support Mirai? The security economics of large-scale attacks against ICS
   description: |
-    GPS is used for many applications around the world. But they are vulnerable to attacks from jammers. EU-STRIKE3 measure and look on the risk we have. We will show what we found and give you guideline to increase your protection against jammers.
+    ## [Research in progress]
+    
+    Since 2011, capable and respected researchers have pronounced impending doom after documenting the tens of thousands of Internet-connected Industrial Control Systems (ICS) and automation systems.  Catastrophic failure of physical systems were postulated, along with crippling ransomware epidemics; after Mirai and ASIC-resistant cryptocurrencies hit the street, researchers also predicted Internet-connected ICS would be used to host DDoS botnets and crypto miners.  With tools like Shodan and Censys to find devices at scale, and open-source libraries to support communication with any ICS protocol imaginable, why haven’t we seen a golden age of scaled ICS attacks?
+    
+    This talk explores the security economics arguments for why cybercriminals largely ignore ICS devices, and the coming changes to the industrial landscape that may shift criminal focus from IoT to ICS (or, more accurately, the changes that will blur the distinction between the two domains).  I will also discuss the usable security arguments that undergird users’ decisions to connect their ICS devices directly to the Internet.
 
-    We also get more and more laws and regulations that we should use the GPS as a source of time.
+    I will start by presenting a longitudinal study of Internet-connected ICS.  We’ve fingerprinted and tracked thousands of individual devices over a four year period to identify user behaviours, track population stability, and infer patch cadence (to nobody’s surprise, there is not a lot of patching going on).  I’ll show that there is a large, stable, unpatched population of devices with open protocol ports, ripe for exploitation; this includes even the newest hardware and software combinations from reputable manufacturers.
 
-    Can we find a safe way forward?
+    Then, I’ll try to demonstrate that nobody really cares.  I’ll walk through static analysis of hundreds of gigabytes of malware samples, an assessment of hundreds of thousands of stateful honeypot interactions, and a search through 60 million hacker forum posts to show there is neither the interest in nor competence to attack these Internet-connected devices at-scale.  I’ll discuss the security economics argument for why cybercriminals largely ignore this domain, and how expected changes to the Industrial landscape in the immediate future could bring ICS to their attention.
+
+    In anticipation of the correct and inevitable objection that ICS devices should never be directly connected to the Internet, I’ll close with a discussion of usable security, looking at default configurations and user motivations in an effort to explain the current state of Internet-connected affairs and why we should only expect this Internet-connected population to grow.
+    
+    #### Target audience:
+    This is a non-technical talk of interest (hopefully) to those including cybercrime in their threat model; specifically, vendors and security professionals concerned about how small-to-medium sized enterprises (SMEs) are going to handle Industry 4.0.  SMEs aren’t the only problem, but they’re the largest category of identifiable offenders.
+
+    #### Key takeaways:
+    1. There is a large, stable, unpatched population of vulnerable, Internet-connected ICS devices.  This population is growing.  Without intervention, the growth rate is expected to increase based on pressures to make more devices connectable as we digitise manufacturing and industry.
+    2. The existing population size and heterogeneity, the cost to develop and deploy an attack, the difficulty in monetising an attack, and the existence of softer targets currently make Internet-connected ICS devices an unattractive target for large-scale attacks.
+    3. The growing Internet-connected ICS device population, predicted market dominance of a limited number of hardware and software frameworks, and improvements to IoT security blur the distinction between IoT and ICS from an attacker perspective, opening ICS devices to the types of scaled attacks we’ve seen against IoT.
+    4. Your threat model doesn’t need to include Mirai today, but it might tomorrow.
   author:
-    - name: Didrik Ehrenborg
-      role: Time & Sync Expert
-      work: GNSS
-      image: didrik-ehrenborg.png
+    - name: Mike Dodson
+      role: PhD Student
+      work: University of Cambridge
+      image: mike-dodson.png
   partner:
     - name:
-  permalink: program/presentations/didrik-ehrenborg/
-  label: The Time
+  permalink: program/presentations/mike-dodson/
+  label: The Methods
 
-- id:
+- id: 419
   day: dayfour
   type: presentation
   place: Harlem Stage
-  time: "11:15"
+  time: "14:15"
   title: Building a distributed and robust time synchronisation service
   description: |
     Accurate time and synchronisation is essential for our technical infrastructure such as the telephone networks and the power grid. Getting very good time is easy and cheap using GNSS receivers (Global Navigation Satellite Systems, e.g. GPS and Galileo), but these systems suffer from several weaknesses and threats.
@@ -1204,18 +1181,18 @@
   permalink: program/presentations/ragnar-sundblad/
   label: The Time
 
-- id:
+- id: 420
   day: dayfour
   type: break
   place: Harlem Stage
-  time: "12:00 - 13:00"
-  title: Lunch Break
+  time: "14:20 - 14:35"
+  title: Coffee Break
 
-- id:
+- id: 421
   day: dayfour
   type: presentation
   place: Harlem Stage
-  time: "13:00"
+  time: "14:35"
   title: "Digital Forensics and ICS: Why and how?"
   description: |
     As we respond to attacks on connected industries, control systems, and computer systems we have learned the value of digital forensics. The art of identifying an attack, collecting traces and recovering compromised data is an essential part of the cleanup process and evidence collection. A wellperformed forensic investigation also gives insights into how products can be improved upon, and how similar attacks can be more efficiently detected in the future.
@@ -1244,12 +1221,47 @@
   permalink: program/presentations/jonathan-jogenfors/
   label: The DFCC
 
+- id: 422
+  day: dayfour
+  type: break
+  place: Main Stage
+  time: "14:45"
+  title: Coffee Break
 
-- id:
+- id: 423
+  day: dayfour
+  type: presentation
+  place: Main Stage
+  time: "15:15"
+  title: Automotive DoIP and forensic analysis for automotive systems
+  description: |
+    The automobile industry is changing and new fields such as autonomous driving, battery enhancements and infrastructure or advanced mobility services are under development. As a side effect the interconnection of vehicles increases with numerous new protocols and technologies introduced to enable these scenarios, which also attract the attention of security researchers and hackers. Therefore, more focus on security practices is necessary.
+
+    One of these new technologies is Automotive Ethernet. It not only affects the in-vehicle network with enhanced bandwidth and protocol versatility, but also enables the connection of the vehicle to existing external network infrastructures. This can be accomplished by the Diagnostic over Internet Protocol (DoIP) which is used for diagnostic communication over the Onboard Diagnostic (OBD) interface.
+
+    Therefore potential unsafe or even unknown functionality is exposed to the outside world which, until now, was a private point to point connection between the diagnostic equipment and the vehicle. Moreover the diagnostic interface is commonly used to modify vehicles like enabling/disabling software features or update firmware. With an increasing proportion of software as a product features and at the same time raising attractiveness for malicious activities (e.g. fraud, attacks, manipulation) by attackers. The Original Equipment Manufacturers (OEM) are faced with new challenges in the domain of evidence preservation and reconciliation. Especially with the ISO21434 and UNECE on the horizon.
+
+    We examined possible scenarios that range from information gathering to malicious activities with focus on the vehicle and infrastructure. At the same time we approached the idea of what forensic evidence such activities might leave behind and how state-of-the-art technology helps preserving evidence. We therefore analysed the protocol specification and developed software according to our scenarios for evaluation. Furthermore, we studied existing forensic investigation approaches in the IT and SCADA domains and their feasibility with the DoIP protocol, as being the central point of communication with the in-vehicle network from outside the vehicle.
+
+    In this presentation we present our approach on the analysis of the protocol, the scenarios we derived and the tools we used for evaluation. This also includes the applicability check of the diagnostic interface for forensic investigation as well as discussion to provide these forensic investigations for court relevant incidents.
+  author:
+    - name: Christopher Corbett
+      role: Junior Incident Responder
+      work: Audi
+      image: christopher-corbett.png
+  partner:
+    - name: Kevin Gomez Buquerin
+      role: Junior Incident Responder
+      work: Audi
+      image: kevin-gomez-buquerin.png
+  permalink: program/presentations/christopher-kevin/
+  label: The Cars
+
+- id: 424
   day: dayfour
   type: presentation
   place: Harlem Stage
-  time: "13:30"
+  time: "15:20"
   title: Ultra responsible disclosure – or how to deal with a 0-day in critical infrastructure
   description: |
     My presentation will touch on a few moral dilemmas that you face when you discover a critical vulnerability in ICS/SCADA environments. I will also discuss how my discovery was handled by the system supplier and how things could have played out differently. Another key take-away is how you as an asset owner can act to mitigate, and live with, a known serious vulnerability in your critical infrastructure. A problem that my customer and I had to face for over four years. The presentation will be of interest to suppliers, asset owners, and security researchers alike.
@@ -1275,31 +1287,13 @@
   permalink: program/presentations/rikard-bodforss/
   label: Tale of the 0-day
 
-
-## ICSLAB
-
-- id:
+- id: 425
   day: dayfour
   type: common
-  place: ICS Lab
-  time: "09:00 - 16:00"
-  title: ICS Lab Open
+  place: Main Stage
+  time: "16:00"
+  title: Outro - End of CS3STHLM 2019
 
-- id:
-  day: dayfour
-  type: presentation
-  place: ICS Lab
-  time: "Time TBA"
-  title: Demystifying TSCM or how to spot the witch doctor doing the raindance
-  description: |
-    This presentation will cover and explain what TSCM (Technical surveillance Counter Measures) a.k.a. "Bug sweeping" is, how it is performed, the tools, the methodology and how not it shall be performed. The presentation and on stage demo will show how hard and complex the procedure is and to educate persons and organizations to procure and understand the subject. But most importantly to expose those who do it as a secret "voodoo ritual" just to make money.
-  author:
-    - name: Richard Widh
-      role: Senior Cyber Security Expert & CEO
-      work: Anacautus AB
-      image: richard-widh.png
-  partner:
-    - name:
-  permalink: program/presentations/richard-widh/
-  label: The Wire
+## HARLEM
 
+## ICSLAB
