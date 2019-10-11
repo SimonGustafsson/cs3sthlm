@@ -666,19 +666,28 @@
 		}
 
 		&:hover {
-			background: rgba($blue-darken, .75);
+			background: rgba($blue-darken, 1);
 			cursor: pointer;
 		}
 	
 
 		&-active {
-			background: rgba($blue-darken, .75);
+			background: rgba($blue-darken, 1);
+
+			.heading, .alt-title {
+				color: $white;
+			}
 		}
 	}
 
 	.alt-title {
 		text-transform: uppercase;
 		letter-spacing: 2px;
+
+		@include transition-ease;
+	}
+	.heading {
+		@include transition-ease;
 	}
 }
 

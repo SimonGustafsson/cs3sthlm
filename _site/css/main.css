@@ -5277,13 +5277,24 @@ p.content-intro {
         .agenda-header-item:last-of-type {
           border-radius: 0; } }
     .agenda-header-item:hover {
-      background: rgba(26, 28, 32, 0.75);
+      background: #1a1c20;
       cursor: pointer; }
     .agenda-header-item-active {
-      background: rgba(26, 28, 32, 0.75); }
+      background: #1a1c20; }
+      .agenda-header-item-active .heading, .agenda-header-item-active .alt-title {
+        color: white; }
   .agenda-header .alt-title {
     text-transform: uppercase;
-    letter-spacing: 2px; }
+    letter-spacing: 2px;
+    transition: 0.24s all ease-in-out;
+    -moz-transition: 0.24s all ease-in-out;
+    -webkit-transtiion: 0.24s all ease-in-out;
+    -o-transition: 0.24s all ease-in-out; }
+  .agenda-header .heading {
+    transition: 0.24s all ease-in-out;
+    -moz-transition: 0.24s all ease-in-out;
+    -webkit-transtiion: 0.24s all ease-in-out;
+    -o-transition: 0.24s all ease-in-out; }
 
 .agenda-content {
   display: flex;
