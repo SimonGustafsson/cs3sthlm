@@ -499,7 +499,7 @@
 		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "The Tools",
-		"place" 	: "ICS Lab"
+		"place" 	: "Harlem Stage"
 	},
 
 	{
@@ -545,7 +545,7 @@
 		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "The Tools",
-		"place" 	: "ICS Lab"
+		"place" 	: "Harlem Stage"
 	},
 
 	{
@@ -591,7 +591,7 @@
 		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "The Tools",
-		"place" 	: "ICS Lab"
+		"place" 	: "Harlem Stage"
 	},
 
 	{
@@ -1071,18 +1071,18 @@
 	{
 		"id"		: "401",
 		"day"		: "dayfour",
-		"type"		: "common",
+		"type"		: "presentation",
 		"time"		: "09:00",
-		"title" 	: "CS3STHLM Introduction",
+		"title" 	: "Sandworm: Lessons From the Ukrainian Cyberwar and Beyond",
 		"description"	: "",
 		
-		"name"		: "Erik Johansson",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		"name"		: "Andy Greenberg",
+		"role"		: "Senior Writer",
+		"work"		: "Wired",
+		"image"		: "https://cs3sthlm.se/assets/speakers/andy-greenberg.png",
 		
 		
-		"pname"		: "Robert Malmgren",
+		"pname"		: "",
 		"prole"		: "",
 		"pwork"		: "",
 		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
@@ -1107,29 +1107,6 @@
 		
 		"label"		: "",
 		"place" 	: "ICS Lab"
-	},
-
-	{
-		"id"		: "403",
-		"day"		: "dayfour",
-		"type"		: "presentation",
-		"time"		: "09:05",
-		"title" 	: "Sandworm: Lessons From the Ukrainian Cyberwar and Beyond",
-		"description"	: "",
-		
-		"name"		: "Andy Greenberg",
-		"role"		: "Senior Writer",
-		"work"		: "Wired",
-		"image"		: "https://cs3sthlm.se/assets/speakers/andy-greenberg.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "",
-		"place" 	: "Main Stage"
 	},
 
 	{
@@ -1193,7 +1170,7 @@
 		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "The Tools",
-		"place" 	: "ICS Lab"
+		"place" 	: "Harlem Stage"
 	},
 
 	{
@@ -1239,7 +1216,7 @@
 		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "The Tools",
-		"place" 	: "ICS Lab"
+		"place" 	: "Harlem Stage"
 	},
 
 	{
@@ -1413,7 +1390,7 @@
 		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "The Time",
-		"place" 	: "Harlem Stage"
+		"place" 	: "ICS Lab"
 	},
 
 	{
@@ -1482,7 +1459,7 @@
 		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "The Time",
-		"place" 	: "Harlem Stage"
+		"place" 	: "ICS Lab"
 	},
 
 	{

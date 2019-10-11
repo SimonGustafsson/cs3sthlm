@@ -302,7 +302,7 @@
 - id: 305
   day: daythree
   type: presentation
-  place: ICS Lab
+  place: Harlem Stage
   time: "10:30"
   title: Memory Forensics and DMA Attacks with MemProcFS and PCILeech
   description: |
@@ -346,7 +346,7 @@
 - id: 307
   day: daythree
   type: presentation
-  place: ICS Lab
+  place: Harlem Stage
   time: "11:00"
   title: TBA
   description:
@@ -395,7 +395,7 @@
 - id: 309
   day: daythree
   type: presentation
-  place: ICS Lab
+  place: Harlem Stage
   time: "13:45"
   title: TBA
   description:
@@ -768,29 +768,9 @@
 
 - id: 401
   day: dayfour
-  type: common
-  place: Main Stage
-  time: "09:00"
-  title: CS3STHLM Introduction
-  author:
-    - name: Erik Johansson
-  partner: 
-    - name: Robert Malmgren
-
-- id: 402
-  day: dayfour
-  type: common
-  place: ICS Lab
-  time: "09:00 - 16:00"
-  title: ICS Lab Open
-  author:
-    - name:
-
-- id: 403
-  day: dayfour
   type: presentation
   place: Main Stage
-  time: "09:05"
+  time: "09:00"
   title: "Sandworm: Lessons From the Ukrainian Cyberwar and Beyond"
   description:
   author:
@@ -802,6 +782,15 @@
     - name:
   permalink: program/presentations/andy-greenberg/
   special: Keynote
+
+- id: 402
+  day: dayfour
+  type: common
+  place: ICS Lab
+  time: "09:00 - 16:00"
+  title: ICS Lab Open
+  author:
+    - name:
 
 - id: 404
   day: dayfour
@@ -835,7 +824,7 @@
 - id: 406
   day: dayfour
   type: presentation
-  place: ICS Lab
+  place: Harlem Stage
   time: "10:30"
   title: curl - the world's most used software component?
   description: |
@@ -886,7 +875,7 @@
 - id: 408
   day: dayfour
   type: presentation
-  place: ICS Lab
+  place: Harlem Stage
   time: "11:15"
   title: Fuzz Testing IEC 61850
   description: |
@@ -1101,7 +1090,7 @@
 - id: 416
   day: dayfour
   type: presentation
-  place: Harlem Stage
+  place: ICS Lab
   time: "13:30"
   title: EU STRIKE3 project
   description: |
@@ -1202,7 +1191,7 @@
 - id: 419
   day: dayfour
   type: presentation
-  place: Harlem Stage
+  place: ICS Lab
   time: "14:15"
   title: Building a distributed and robust time synchronisation service
   description: |
