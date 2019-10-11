@@ -465,7 +465,11 @@
       image: erik-hjelmvik
   status: Slots Open
   presentation:
-    - active: none
+    - active: live
+      subject: TLS Interception and Decryption *LIVE DEMO*
+      permalink: program/presentations/erik-hjelmvik/
+      partner:
+      description:
   training:
     - active: live
       subject: Network Forensics Training

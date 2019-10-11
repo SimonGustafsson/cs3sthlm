@@ -478,8 +478,8 @@
 
 		"presentation":{
 		
-			"active": 	"none",
-			"title": 	"",
+			"active": 	"live",
+			"title": 	"TLS Interception and Decryption *LIVE DEMO*",
 			"partner":	"",
 			"role":		"",
 			"work":		"",
