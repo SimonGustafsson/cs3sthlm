@@ -4,7 +4,7 @@
 		"day"		: "dayone",
 		"type"		: "break",
 		"time"		: "All day",
-		"title" 	: "Closed",
+		"title" 	: "CLOSED FOR RIGGING",
 		"description"	: "",
 		
 		"name"		: "",
@@ -22,7 +22,7 @@
 		"day"		: "dayone",
 		"type"		: "break",
 		"time"		: "All Day",
-		"title" 	: "Closed",
+		"title" 	: "CLOSED FOR RIGGING",
 		"description"	: "",
 		
 		"name"		: "",
@@ -58,7 +58,7 @@
 		"day"		: "dayone",
 		"type"		: "common",
 		"time"		: "09:00 - 16:00",
-		"title" 	: "Capture the Flag Challenge",
+		"title" 	: "Capture the Flag Demo",
 		"description"	: "",
 		
 		"name"		: "Hosted by The DHS Cybersecurity and Infrastructure Agency",
@@ -112,7 +112,7 @@
 		"day"		: "daytwo",
 		"type"		: "common",
 		"time"		: "09:00 - 18:00",
-		"title" 	: "Capture the Flag Challenge",
+		"title" 	: "Capture the Flag Demo",
 		"description"	: "",
 		
 		"name"		: "Hosted by The DHS Cybersecurity and Infrastructure Agency",
@@ -429,6 +429,24 @@
 		"description"	: "",
 		
 		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
+		
+		"label"		: "",
+		"place" 	: "ICS Lab"
+	},
+
+	{
+		"id"		: "3021",
+		"day"		: "daythree",
+		"type"		: "common",
+		"time"		: "09:00",
+		"title" 	: "Capture the Flag Demo",
+		"description"	: "",
+		
+		"name"		: "Hosted by The DHS Cybersecurity and Infrastructure Agency",
 		"role"		: "",
 		"work"		: "",
 		"image"		: "https://cs3sthlm.se/assets/speakers/",
@@ -813,7 +831,7 @@
 		"id"		: "319",
 		"day"		: "daythree",
 		"type"		: "break",
-		"time"		: "14:45 - 15:30",
+		"time"		: "14:30 - 15:15",
 		"title" 	: "Coffee Break",
 		"description"	: "",
 		
@@ -854,7 +872,7 @@
 		"id"		: "321",
 		"day"		: "daythree",
 		"type"		: "presentation",
-		"time"		: "15:30",
+		"time"		: "15:15",
 		"title" 	: "Security Testing for ICS Owners 2.0",
 		"description"	: "<p>In most todays ICS networks, security testing is already being performed to know allweaknesses and issues. At least I hope that is the fact…. These tests are either run by the ICS owners themselves or by an trusted external party. However in a lot of occasions, security testing is performed in a too limitative scope and hence security issues often get overlooked because of this or potential drafted scenario’s to abuse the found weaknesses are incomplete and do not give a full picture. Next to that, a lot of talk is still focussed on testing industrial devices such as PLCs and other network components. Which is fine on its own but again the bigger picture is not looked at. In this presentation, a broader view is shown on how thorough security tests can be performed (without performing illegal actions) in an attempt to provide the ICS owners with a complete view on what their risks are. It is explained why you have to combine physical, logical and human elements within the different security tests you run and why it is sometimes better to take a step back instead of just plunging in and perform logical security testing. The different viewpoints on how you can perform testing to know your weakest elements are shown along with the different requirements to run testing from a particular viewpoint. Combinations of discovered weaknesses are then put together within realistic scenario’s. The advantages as well as pitfalls are explained of performing security testing this way using real­world experience examples.</p><p>The things mentioned within this presentation are all actions that can be done by ICS owners themselves, or should they decide in doing so by a third party, yet the ICS owners will then be able to follow along and understand what is going on instead of being left in the FUD zone.</p>",
 		
@@ -895,7 +913,7 @@
 		"id"		: "323",
 		"day"		: "daythree",
 		"type"		: "presentation",
-		"time"		: "16:00",
+		"time"		: "15:45",
 		"title" 	: "How we reverse-engineered multiple industrial radio remote-control systems",
 		"description"	: "<p>In 2018 we disclosed a total of 10 vulnerabilities to 7 independent industrial radio remote-control vendors. Our findings boil down to being able to control any equipment connected via these type of radio remote-control systems. So far, we focused our reports and speaking engagements on reaching out to as many people as possible, to increase awareness about the problem. At this time, we want to share stories about how we were able to perform the research and achieve the results with a globally dispersed team looking at global radio vendors.</p><p>This talk will focus on the “backstage” of this research, that is:</p><ul>  <li>how we started it and why we selected this class of systems</li>  <li>how we selected the vendors out from our extensive market search</li>  <li>how are these systems built, and how we figured this out</li>  <li>for two systems in details, we will describe    <ul>      <li>how to approach them from a reverse-engineering standpoint</li>      <li>how to interpret their RF protocol</li>      <li>what tools are needed for an in-depth reverse engineering</li>      <li>why we needed to come up with our own tools for certain corner cases (e.g., tricky modulation schemes)</li>    </ul>  </li>  <li>how the disclosure process went    <ul>      <li>what challenges we found along the way</li>      <li>what were the vendors’ responses (Vendors will not be called out for bad responses by name)</li>      <li>what is the status of the vulnerabilities now – lookout on future research trends in this space</li>    </ul>  </li></ul><p>While the project was a success the road to get there, was very bumpy due to things that all researchers face. We will also discuss how we overcame some of the obstacles, such as identifying the chips, micro soldering with non-professional equipment, reversing unreliable radio signals caught over the air.</p><h4 id=\"target-audience\">Target audience</h4><p>Technical, with the understanding of embedded systems and sub-GHz radio communication.</p>",
 		
@@ -935,6 +953,24 @@
 		
 		"label"		: "The Training",
 		"place" 	: "Harlem Stage"
+	},
+
+	{
+		"id"		: "319",
+		"day"		: "daythree",
+		"type"		: "break",
+		"time"		: "16:30 - 18:45",
+		"title" 	: "Closed",
+		"description"	: "",
+		
+		"name"		: "Rearranging for the Gala Dinner",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
+		
+		"label"		: "",
+		"place" 	: "Main Stage"
 	},
 
 	{
@@ -1045,24 +1081,6 @@
 		"prole"		: "",
 		"pwork"		: "",
 		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "331",
-		"day"		: "daythree",
-		"type"		: "common",
-		"time"		: "22:00",
-		"title" 	: "End of CS3STHLM Summit Day One",
-		"description"	: "",
-		
-		"name"		: "",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
-		
 		
 		"label"		: "",
 		"place" 	: "Main Stage"
@@ -1572,14 +1590,19 @@
 		"day"		: "dayfour",
 		"type"		: "common",
 		"time"		: "16:00",
-		"title" 	: "Outro - End of CS3STHLM 2019",
+		"title" 	: "Outro - Summary of CS3STHLM 2019",
 		"description"	: "",
 		
-		"name"		: "",
+		"name"		: "Erik Johansson",
 		"role"		: "",
 		"work"		: "",
 		"image"		: "https://cs3sthlm.se/assets/speakers/",
 		
+		
+		"pname"		: "Robert Malmgren",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "",
 		"place" 	: "Main Stage"
