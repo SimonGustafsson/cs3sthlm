@@ -41,23 +41,23 @@ layout: default
 		<div class="agenda-header">
 			<div class="agenda-header-item agenda-header-item-active" id="dayone-button">
 				<span class="heading heading-small heading-capped heading-gray">21st of October</span>
-				<h3 class="subtitle subtitle-yellow">ICS Lab</h3>
-				<h4 class="alt-title alt-title-extra-small alt-title-gray">Mon<span>day</span></h4>
+				<h3 class="subtitle subtitle-yellow">Mon<span>day</span></h3>
+				<h4 class="alt-title alt-title-extra-small alt-title-gray">ICS Lab</h4>
 			</div>
 			<div class="agenda-header-item" id="daytwo-button">
 				<span class="heading heading-small heading-capped heading-gray">22nd of October</span>
-				<h3 class="subtitle subtitle-yellow">Expo</h3>
-				<h4 class="alt-title alt-title-extra-small alt-title-gray">Tues<span>day</span></h4>
+				<h3 class="subtitle subtitle-yellow">Tues<span>day</span></h3>
+				<h4 class="alt-title alt-title-extra-small alt-title-gray">Expo</h4>
 			</div>
 			<div class="agenda-header-item" id="daythree-button">
 				<span class="heading heading-small heading-capped heading-gray">23rd of October</span>
-				<h3 class="subtitle subtitle-yellow">Summit</h3>
-				<h4 class="alt-title alt-title-extra-small alt-title-gray">Wednes<span>day</span></h4>
+				<h3 class="subtitle subtitle-yellow">Wednes<span>day</span></h3>
+				<h4 class="alt-title alt-title-extra-small alt-title-gray">Summit</h4>
 			</div>
 			<div class="agenda-header-item" id="dayfour-button">
 				<span class="heading heading-small heading-capped heading-gray">24th of October</span>
-				<h3 class="subtitle subtitle-yellow">Summit</h3>
-				<h4 class="alt-title alt-title-extra-small alt-title-gray">Thurs<span>day</span></h4>
+				<h3 class="subtitle subtitle-yellow">Thurs<span>day</span></h3>
+				<h4 class="alt-title alt-title-extra-small alt-title-gray">Summit</h4>
 			</div>
 		</div>
 
@@ -151,7 +151,7 @@ layout: default
 							<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
 							{% endif %}
 							<h3 class="agenda-item-headline">{{ item.title }}</h3>
-							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item.name }}</span>{% endfor %}</h4>
+							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item.name }}</span>{% endfor %}{% for item in item.partner %}{% if item.name.size > 1 %}<span>{{ item.name }}</span>{% endif %}{% endfor %}</h4>
 						</a>
 					</div>
 					{% else %}

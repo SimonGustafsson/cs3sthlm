@@ -39,7 +39,7 @@
   type: common
   place: ICS Lab
   time: "09:00 - 16:00"
-  title: Capture the Flag Demo
+  title: Capture the Flag
   author:
     - name: Hosted by The DHS Cybersecurity and Infrastructure Agency
 
@@ -71,7 +71,7 @@
   type: common
   place: ICS Lab
   time: "09:00 - 18:00"
-  title: Capture the Flag Demo
+  title: Capture the Flag
   author:
     - name: Hosted by The DHS Cybersecurity and Infrastructure Agency
 
@@ -312,7 +312,7 @@
   day: daythree
   type: presentation
   place: Harlem Stage
-  time: "10:30"
+  time: "10:15"
   title: Memory Forensics and DMA Attacks with MemProcFS and PCILeech
   description: |
     The PCILeech direct memory access attack toolkit was released three years ago and quickly became popular amongst red teamers, governments and game cheaters alike. We will demonstrate how to take total control of up-to-date still vulnerable systems with PCIe DMA code injection using affordable FPGA hardware and the open source PCILeech direct memory access attack toolkit.
@@ -357,7 +357,7 @@
   type: presentation
   place: Harlem Stage
   time: "11:00"
-  title: TBA
+  title: TLS Interception and Decryption *LIVE DEMO*
   description:
   author:
     - name: Erik Hjelmvik
@@ -405,7 +405,7 @@
   day: daythree
   type: presentation
   place: Harlem Stage
-  time: "13:45"
+  time: "11:45"
   title: TBA
   description:
   author:
@@ -440,7 +440,7 @@
   day: daythree
   type: common
   place: Harlem Stage
-  time: "13:00 - 16:35"
+  time: "13:00 - 16:45"
   title: Locked Shields from different perspectives
   author:
     - name: Moderated by Thomas Svensson
@@ -594,22 +594,6 @@
   author:
     - name:
 
-- id: 320
-  day: daythree
-  type: presentation
-  place: Harlem Stage
-  time: "15:15"
-  title: Presenting how we know what's happen in the exercise and measuring
-  description:
-  author:
-    - name: Jarkko Huttunen, Team Leader Yellow Team
-      role: Head of Solutions
-      work: Arctic Security
-      image: jarkko-huttunen.png
-  partner:
-    - name:
-  label: The Training
-
 - id: 321
   day: daythree
   type: presentation
@@ -634,10 +618,26 @@
   day: daythree
   type: break
   place: Harlem Stage
-  time: "15:40 - 16:10"
+  time: "15:15 - 15:45"
   title: Coffee Break
   author:
     - name:
+
+- id: 320
+  day: daythree
+  type: presentation
+  place: Harlem Stage
+  time: "15:45"
+  title: Presenting how we know what's happen in the exercise and measuring
+  description:
+  author:
+    - name: Jarkko Huttunen, Team Leader Yellow Team
+      role: Head of Solutions
+      work: Arctic Security
+      image: jarkko-huttunen.png
+  partner:
+    - name:
+  label: The Training
 
 - id: 323
   day: daythree
@@ -720,16 +720,16 @@
   time: "17:15"
   title: Capture the Flag Results
   author:
-    - name: Hosted by The DHS Cybersecurity and Infrastructure Agency
+    - name: Presented by The DHS Cybersecurity and Infrastructure Agency
 
 - id: 327
   day: daythree
   type: common
   place: ICS Lab
   time: "17:45 - 18:45"
-  title: Mingle - Pre Dinner
+  title: Pre Dinner Mingle
   author:
-    - name: Dinner is served at Main Stage 18:45
+    - name: Dinner will be served at Main Stage 18:45
 
 - id: 328
   day: daythree
@@ -1224,7 +1224,7 @@
   day: dayfour
   type: break
   place: Harlem Stage
-  time: "14:20 - 14:35"
+  time: "14:30 - 14:45"
   title: Coffee Break
   author:
     - name:
@@ -1233,7 +1233,7 @@
   day: dayfour
   type: presentation
   place: Harlem Stage
-  time: "14:35"
+  time: "14:45"
   title: "Digital Forensics and ICS: Why and how?"
   description: |
     As we respond to attacks on connected industries, control systems, and computer systems we have learned the value of digital forensics. The art of identifying an attack, collecting traces and recovering compromised data is an essential part of the cleanup process and evidence collection. A wellperformed forensic investigation also gives insights into how products can be improved upon, and how similar attacks can be more efficiently detected in the future.
@@ -1304,7 +1304,7 @@
   day: dayfour
   type: presentation
   place: Harlem Stage
-  time: "15:20"
+  time: "15:15"
   title: Ultra responsible disclosure – or how to deal with a 0-day in critical infrastructure
   description: |
     My presentation will touch on a few moral dilemmas that you face when you discover a critical vulnerability in ICS/SCADA environments. I will also discuss how my discovery was handled by the system supplier and how things could have played out differently. Another key take-away is how you as an asset owner can act to mitigate, and live with, a known serious vulnerability in your critical infrastructure. A problem that my customer and I had to face for over four years. The presentation will be of interest to suppliers, asset owners, and security researchers alike.
