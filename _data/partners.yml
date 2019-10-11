@@ -105,3 +105,16 @@
   e-order: 6
   e-type: small
   postorder: 7
+
+- id: 9
+  level: partner
+  company: Accenture Security
+  logo: accenture-security.png
+  url: https://www.accenture.com/se-en
+  bio:
+  type: small
+  order: 8
+  expo: "no"
+  e-order: 6
+  e-type: small
+  postorder: 8

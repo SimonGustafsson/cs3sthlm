@@ -119,6 +119,14 @@
   url: https://www.nozominetworks.com
   expo: active
 
+- id: 27
+  type: partner
+  level: partner
+  company: Accenture Security
+  logo: accenture-security.png
+  url: https://www.accenture.com/se-en
+  expo: inactive
+
 - id: 22
   type: partner
   level: partner
