@@ -4252,6 +4252,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 24px;
 
     @include media-query($mobile) {
       flex-wrap: wrap;
@@ -4260,6 +4261,8 @@ a {
     li {
       width: 25%;
       list-style: none;
+      padding-right: 24px;
+      box-sizing: border-box;
 
       @include media-query($medium) {
         width: 282px;
@@ -5692,4 +5695,12 @@ a {
       }
     }
   }
+}
+
+.footer-agenda-block {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto 72px;
 }

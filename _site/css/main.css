@@ -3219,13 +3219,16 @@ a {
   .feed-news ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; }
+    justify-content: space-between;
+    margin-bottom: 24px; }
     @media screen and (max-width: 768px) {
       .feed-news ul {
         flex-wrap: wrap; } }
     .feed-news ul li {
       width: 25%;
-      list-style: none; }
+      list-style: none;
+      padding-right: 24px;
+      box-sizing: border-box; }
       @media screen and (max-width: 1440px) {
         .feed-news ul li {
           width: 282px;
@@ -4264,6 +4267,13 @@ a {
       @media screen and (min-width: 1680px) {
         .footer-inner .typemark {
           font-size: 13px; } }
+
+.footer-agenda-block {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto 72px; }
 
 /**
 	AGENDA LIST */
