@@ -116,6 +116,47 @@
   training:
     - active: none
 
+- id: 53
+  type: expotalk
+  permalink:
+  name: Anton Shipulin
+  role: Global Presales Manager
+  work: Kaspersky
+  country: Russia
+  shortcode: RU
+  image: anton-shipulin.png
+  bio: |
+    - Global Presales Manager, Kaspersky Industrial CyberSecurity
+    - Industrial Cybersecurity Center (CCI) Coordinator for Russia
+    - Co-founder of  Russian ICS/SCADA Cyber Security community RUSCADASEC.com
+    - Head of Kaspersky Industrial Cyber Security conference program committee
+    - Member of В5.2/D2 Russian National Committee of CIGRE Working Group “Protection and Automation Cyber Security”
+    - Specialist Degrees in Cyber Security and Project Management, IT Management MBA
+    - Information Security Specialist since 2005 with experience in area of:
+    - Cyber Security system architecture, integration and operation 
+    - Cyber Security audit, consulting and project management
+    - ICS Security Global Market and Technologies intelligence and analysis 
+    - Industrial Cyber Security Business Development 
+    - Passionate about industrial cybersecurity and critical infrastructure protection, knowledge and information sharing, traveler, speaker
+    - Certified SCADA Security Architect (CSSA), Certified Information Systems Security Professional (CISSP), Certified Ethical Hacker (CEH), Microsoft Certified System Engineer (MCSE): Security, Linux Professional Institute Certified Level 1 (LPIC-I), CompTIA Project+ Certified Professional
+    - Active sharing on twitter: @shipulin_anton
+  date:
+  time:
+  place:
+  speaker:
+    - name: Anton Shipulin
+      role: Global Presales Manager
+      image: anton-shipulin
+  presentation:
+    - active: live
+      subject: "How to save $1.7 million over three years on industrial cybersecurity: the Results of the Forrester Total Economic (TEI) Impact study"
+      permalink: expo/presentations/anton-shipulin/
+      partner:
+      description: |
+        This presentation will show results from the commissioned Forrester Consulting Total Economic Impact™ study, highlighting the costs and benefits of using a dedicated industrial cybersecurity solution Kaspersky Industrial CyberSecurity (KICS) for Nodes and the improved experience this brings to customers.  Additionally the Study provides readers with a framework to evaluate the potential financial impact of the KICS on their organizations.
+  training:
+    - active: none
+
 - id: 31
   type: training
   permalink:

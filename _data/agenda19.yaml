@@ -189,10 +189,10 @@
   type: presentation
   place: Harlem Stage
   time: "14:50"
-  title: TBA
+  title: "How to save $1.7 million over three years on industrial cybersecurity: the Results of the Forrester Total Economic (TEI) Impact study"
   author:
-    - name: Kaspersky
-  permalink:
+    - name: Anton Shipulin
+  permalink: expo/presentations/anton-shipulin/
 
 - id: 212
   day: daytwo

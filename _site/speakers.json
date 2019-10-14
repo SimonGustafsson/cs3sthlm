@@ -169,6 +169,48 @@
 	},
 
 	{
+		"id"		: "53",
+		"type"		: "expotalk",
+		"name"		: "Anton Shipulin",
+		"role"		: "Global Presales Manager",
+		"work"		: "Kaspersky",
+		"country"	: "Russia",
+		"shortcode"	: "RU",
+		"status"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/anton-shipulin.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"How to save $1.7 million over three years on industrial cybersecurity: the Results of the Forrester Total Economic (TEI) Impact study",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": "<p>This presentation will show results from the commissioned Forrester Consulting Total Economic Impact™ study, highlighting the costs and benefits of using a dedicated industrial cybersecurity solution Kaspersky Industrial CyberSecurity (KICS) for Nodes and the improved experience this brings to customers.  Additionally the Study provides readers with a framework to evaluate the potential financial impact of the KICS on their organizations.</p>"
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": "<ul>  <li>Global Presales Manager, Kaspersky Industrial CyberSecurity</li>  <li>Industrial Cybersecurity Center (CCI) Coordinator for Russia</li>  <li>Co-founder of  Russian ICS/SCADA Cyber Security community RUSCADASEC.com</li>  <li>Head of Kaspersky Industrial Cyber Security conference program committee</li>  <li>Member of В5.2/D2 Russian National Committee of CIGRE Working Group “Protection and Automation Cyber Security”</li>  <li>Specialist Degrees in Cyber Security and Project Management, IT Management MBA</li>  <li>Information Security Specialist since 2005 with experience in area of:</li>  <li>Cyber Security system architecture, integration and operation</li>  <li>Cyber Security audit, consulting and project management</li>  <li>ICS Security Global Market and Technologies intelligence and analysis</li>  <li>Industrial Cyber Security Business Development</li>  <li>Passionate about industrial cybersecurity and critical infrastructure protection, knowledge and information sharing, traveler, speaker</li>  <li>Certified SCADA Security Architect (CSSA), Certified Information Systems Security Professional (CISSP), Certified Ethical Hacker (CEH), Microsoft Certified System Engineer (MCSE): Security, Linux Professional Institute Certified Level 1 (LPIC-I), CompTIA Project+ Certified Professional</li>  <li>Active sharing on twitter: @shipulin_anton</li></ul>"
+	},
+
+	{
 		"id"		: "31",
 		"type"		: "training",
 		"name"		: "Arnaud Soullié",

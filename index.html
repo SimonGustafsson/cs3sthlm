@@ -169,7 +169,7 @@ image: /assets/bg-2019.png
 
   </div>
   
-  <div class="speaker--block">
+  <div class="speaker--block spacing-bottom">
     <div class="speaker--block-header">
       <h3 class="headline">Speakers of 2019</h3>
       <a href="{{ site.baseurl }}/program/speakers/" class="button button-primary speaker-row">View All Speakers</a>
@@ -348,6 +348,27 @@ image: /assets/bg-2019.png
     {% endif %}
     {% endfor %}
     </div>
+  </div>
+
+  <div class="column-block-item col-8-8">
+    <div class="column-block-bit speaker--block-header">
+      <h3 class="headline">Partners for 2019</h3>
+      <a href="{{ site.baseurl }}/partners/" class="button button-primary">View All Partners</a>
+    </div>
+
+    <div class="column-block-bit">
+      <div class="partner--list">
+      {% assign partner = site.data.partners | sample: 4 | sort:'order' %}
+      {% for item in partner %}
+        <div class="partner--item col-2-8">
+          <a href="{{ item.url }}" target="_blank">
+            <img src="{{ site.baseurl }}/assets/partners/{{ item.logo }}" alt="{{ item.company }}">
+          </a>
+        </div>
+      {% endfor %}
+      </div>
+    </div>
+
   </div>
 
 </section>

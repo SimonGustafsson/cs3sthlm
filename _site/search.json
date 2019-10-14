@@ -229,6 +229,14 @@
   
    {
      
+        "title"    : "How to save $1.7 million over three years on industrial cybersecurity: the Results of the Forrester Total Economic (TEI) Impact study",
+        "url"      : "/expo/presentations/anton-shipulin/",
+        "path"     : "/expo/presentations/anton-shipulin/"
+     
+   },
+  
+   {
+     
         "title"    : "Pentesting Industrial Control Systems",
         "url"      : "/program/trainings/arnaud-soullie/",
         "path"     : "/program/trainings/arnaud-soullie/"
@@ -300,14 +308,6 @@
         "title"    : "Testbed Evaluation of DoS Attacks on Continuously Controlled Processes",
         "url"      : "/expo/presentations/henrik-sandberg/",
         "path"     : "/expo/presentations/henrik-sandberg/"
-     
-   },
-  
-   {
-     
-        "title"    : "Anton Shipulin",
-        "url"      : "/about/archive/speakers/anton-shipulin",
-        "path"     : "/about/archive/speakers/anton-shipulin"
      
    },
   
@@ -788,6 +788,14 @@
         "title"    : "Dieter Sarrazyn",
         "url"      : "/about/archive/speakers/dieter-sarrazyn",
         "path"     : "/about/archive/speakers/dieter-sarrazyn"
+     
+   },
+  
+   {
+     
+        "title"    : "Anton Shipulin",
+        "url"      : "/about/archive/speakers/anton-shipulin",
+        "path"     : "/about/archive/speakers/anton-shipulin"
      
    },
   
