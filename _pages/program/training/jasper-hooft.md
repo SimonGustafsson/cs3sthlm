@@ -4,7 +4,7 @@ permalink: "/program/trainings/jasper-hooft/"
 layout: training
 date: 22 October
 id: training
-status: Slots Open
+status: Sold Out
 speaker:
 - name: Jasper Hooft
   role: ICS Security Consultant
