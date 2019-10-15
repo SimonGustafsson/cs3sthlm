@@ -190,8 +190,15 @@
   place: Harlem Stage
   time: "14:50"
   title: "How to save $1.7 million over three years on industrial cybersecurity: the Results of the Forrester Total Economic (TEI) Impact study"
+  description: |
+    This presentation will show results from the commissioned Forrester Consulting Total Economic Impact™ study, highlighting the costs and benefits of using a dedicated industrial cybersecurity solution Kaspersky Industrial CyberSecurity (KICS) for Nodes and the improved experience this brings to customers.  Additionally the Study provides readers with a framework to evaluate the potential financial impact of the KICS on their organizations.
   author:
     - name: Anton Shipulin
+      role: Global Presales Manager
+      work: Kaspersky
+      image: anton-shipulin.png
+  partner:
+    - name:
   permalink: expo/presentations/anton-shipulin/
 
 - id: 212
