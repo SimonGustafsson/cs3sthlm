@@ -1,5 +1,5 @@
 ---
-title: Presentation of the cyber-attack that hit Hydro earlier this year and the crisis management and recovery of the company following the ransomware attack.
+title: The cyber-attack on Hydro
 permalink: "/program/presentations/torstein-gimnes-are/"
 layout: presentation
 speaker:
