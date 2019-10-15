@@ -1903,9 +1903,9 @@
       role: Deputy Head of National Security
       image: thomas-svensson
   presentation:
-    - active: none
-      subject:
-      permalink:
+    - active: live
+      subject: Introduction to Locked Shields exercise
+      permalink: program/presentations/thomas-svensson/
       partner:
       description:
   training:

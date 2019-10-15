@@ -192,7 +192,7 @@
 	{
 		"id"		: "206",
 		"day"		: "daytwo",
-		"type"		: "presentation",
+		"type"		: "common",
 		"time"		: "12:30",
 		"title" 	: "TBA",
 		"description"	: "",
@@ -210,7 +210,7 @@
 	{
 		"id"		: "207",
 		"day"		: "daytwo",
-		"type"		: "presentation",
+		"type"		: "common",
 		"time"		: "12:50",
 		"title" 	: "TBA",
 		"description"	: "",
@@ -228,7 +228,7 @@
 	{
 		"id"		: "208",
 		"day"		: "daytwo",
-		"type"		: "presentation",
+		"type"		: "common",
 		"time"		: "13:30",
 		"title" 	: "TBA",
 		"description"	: "",
@@ -269,7 +269,7 @@
 	{
 		"id"		: "210",
 		"day"		: "daytwo",
-		"type"		: "presentation",
+		"type"		: "common",
 		"time"		: "14:30",
 		"title" 	: "TBA",
 		"description"	: "",

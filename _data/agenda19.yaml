@@ -120,7 +120,7 @@
 
 - id: 206
   day: daytwo
-  type: presentation
+  type: common
   place: Harlem Stage
   time: "12:30"
   title: TBA
@@ -130,7 +130,7 @@
 
 - id: 207
   day: daytwo
-  type: presentation
+  type: common
   place: Harlem Stage
   time: "12:50"
   title: TBA
@@ -140,7 +140,7 @@
 
 - id: 208
   day: daytwo
-  type: presentation
+  type: common
   place: Harlem Stage
   time: "13:30"
   title: TBA
@@ -176,7 +176,7 @@
 
 - id: 210
   day: daytwo
-  type: presentation
+  type: common
   place: Harlem Stage
   time: "14:30"
   title: TBA
@@ -469,6 +469,7 @@
       image: thomas-svensson.png
   partner:
     - name:
+  permalink: program/presentations/thomas-svensson/
   label: The Training
 
 - id: 314
