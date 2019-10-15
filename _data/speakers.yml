@@ -701,9 +701,9 @@
       role: Head of Solutions
       image: temp
   presentation:
-    - active: none
-      subject:
-      permalink:
+    - active: live
+      subject: Presenting how we know what's happen in the exercise and measuring
+      permalink: program/presentations/jarkoo-huttunen/
       partner:
       description:
   training:
@@ -1280,9 +1280,9 @@
       role: Strategy Branch Chief
       image: cdr-michael-widmann
   presentation:
-    - active: none
-      subject:
-      permalink:
+    - active: live
+      subject: Presenting the organization behind the exercise
+      permalink: program/presentations/cdr-michael-widmann/
       partner:
       description:
   training:
@@ -1724,9 +1724,9 @@
       role: Technology Researcher
       image: sandra-bardon
   presentation:
-    - active: none
-      subject:
-      permalink:
+    - active: live
+      subject: Red Teams view from the exercise
+      permalink: program/presentations/sandra-bardon/
       partner:
       description:
   training:
@@ -1804,9 +1804,9 @@
       role: Technology Researcher
       image: silver-saks
   presentation:
-    - active: none
-      subject:
-      permalink:
+    - active: live
+      subject: Digging into the technical setup of the exercise
+      permalink: program/presentations/silver-saks/
       partner:
       description:
   training:

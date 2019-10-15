@@ -6,9 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>CS3STHLM | How we reverse-engineered multiple industrial radio remote-control systems</title>
+  <title>CS3STHLM | Digging into the technical setup of the exercise</title>
   <meta name="description" content="CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.">
-  <meta property="og:title" content="CS3STHLM | How we reverse-engineered multiple industrial radio remote-control systems" />
+  <meta property="og:title" content="CS3STHLM | Digging into the technical setup of the exercise" />
   <meta property="og:description" content="CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo." />
   <meta property="og:type" content="website" />
 
@@ -16,11 +16,11 @@
   <meta property="og:image" content="https://www.cs3sthlm.se/assets/photos/cs3sthlm-nalen.jpg" />
   
 
-  <meta property="og:url" content="https://www.cs3sthlm.se/program/presentations/stephen-hilt/" />
+  <meta property="og:url" content="https://www.cs3sthlm.se/program/presentations/silver-saks/" />
   <meta property="fb:app_id" content="966242223397117" />
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="/program/presentations/stephen-hilt/">
+  <link rel="canonical" href="/program/presentations/silver-saks/">
   <link rel="alternate" type="application/rss+xml" title="CS3STHLM" href="/feed.xml">
   <link rel="icon" type="image/png" href="/assets/favicon-32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="/assets/favicon-16x16.png" sizes="16x16" />
@@ -96,7 +96,7 @@
   	
 	
 	
-  		<li>Stephen hilt</li>
+  		<li>Silver saks</li>
   	
 	
 </ul>
@@ -109,23 +109,23 @@
       <div class="post-meta">
         <div class="post-meta-item">
           <h4 class="sub-headline sub-headline-gray">Author</h4>
-          <span class="alt-title alt-title-small">Stephen Hilt</span>
+          <span class="alt-title alt-title-small">Silver Saks</span>
         </div>
 
         <div class="post-meta-item">
           <h4 class="sub-headline sub-headline-gray">Role</h4>
-          <span class="alt-title alt-title-small">Senior Threat Researcher</span>
+          <span class="alt-title alt-title-small">Technology Researcher</span>
         </div>
 
         
         <div class="post-meta-item">
           <h4 class="sub-headline sub-headline-gray">Work</h4>
-          <span class="alt-title alt-title-small">Trend Micro</span>
+          <span class="alt-title alt-title-small">CCDCOE</span>
         </div>
         
 
         <div class="post-meta-item">
-          <img src="/assets/speakers/stephen-hilt.png" class="post-meta-item-image">
+          <img src="/assets/speakers/silver-saks.png" class="post-meta-item-image">
         </div>
       </div>
       
@@ -135,37 +135,10 @@
     <section class="post-content column-block-item col-5-8 spacing-left" itemprop="articleBody">
 
       <header class="post-header">
-        <h1 class="title title-yellow" itemprop="name headline">How we reverse-engineered multiple industrial radio remote-control systems</h1>
+        <h1 class="title title-yellow" itemprop="name headline">Digging into the technical setup of the exercise</h1>
       </header>
 
-      <p>In 2018 we disclosed a total of 10 vulnerabilities to 7 independent industrial radio remote-control vendors. Our findings boil down to being able to control any equipment connected via these type of radio remote-control systems. So far, we focused our reports and speaking engagements on reaching out to as many people as possible, to increase awareness about the problem. At this time, we want to share stories about how we were able to perform the research and achieve the results with a globally dispersed team looking at global radio vendors.</p>
-
-<p>This talk will focus on the “backstage” of this research, that is:</p>
-<ul>
-  <li>how we started it and why we selected this class of systems</li>
-  <li>how we selected the vendors out from our extensive market search</li>
-  <li>how are these systems built, and how we figured this out</li>
-  <li>for two systems in details, we will describe
-    <ul>
-      <li>how to approach them from a reverse-engineering standpoint</li>
-      <li>how to interpret their RF protocol</li>
-      <li>what tools are needed for an in-depth reverse engineering</li>
-      <li>why we needed to come up with our own tools for certain corner cases (e.g., tricky modulation schemes)</li>
-    </ul>
-  </li>
-  <li>how the disclosure process went
-    <ul>
-      <li>what challenges we found along the way</li>
-      <li>what were the vendors’ responses (Vendors will not be called out for bad responses by name)</li>
-      <li>what is the status of the vulnerabilities now – lookout on future research trends in this space</li>
-    </ul>
-  </li>
-</ul>
-
-<p>While the project was a success the road to get there, was very bumpy due to things that all researchers face. We will also discuss how we overcame some of the obstacles, such as identifying the chips, micro soldering with non-professional equipment, reversing unreliable radio signals caught over the air.</p>
-
-<h4 id="target-audience">Target audience</h4>
-<p>Technical, with the understanding of embedded systems and sub-GHz radio communication.</p>
+      
 
 
 
@@ -183,10 +156,10 @@
         
         <div class="post-pagination-item col-2-8">
           <h4 class="sub-headline sub-headline-gray">Previous Presentation</h4>
-          <a class="alt-title alt-title-small alt-title-light" rel="prev" href="/program/presentations/silver-saks/">Digging into the technical setup of the exercise</a>
+          <a class="alt-title alt-title-small alt-title-light" rel="prev" href="/program/presentations/sarah-fluchs/">Layered Blueprints – an ontology and method for (talking about) engineering OT Security</a>
           <h5 class="alt-title alt-title-small alt-title-gray">
             
-            <span>Silver Saks</span>
+            <span>Sarah Fluchs</span>
             
           </h5>
         </div>
@@ -195,10 +168,10 @@
         
         <div class="post-pagination-item col-2-8 col-left-space">
           <h4 class="sub-headline sub-headline-gray">Next Presentation</h4>
-          <a class="alt-title alt-title-small alt-title-light" rel="next" href="/program/presentations/torstein-gimnes-are/">The cyber-attack on Hydro</a>
+          <a class="alt-title alt-title-small alt-title-light" rel="next" href="/program/presentations/stephen-hilt/">How we reverse-engineered multiple industrial radio remote-control systems</a>
           <h5 class="alt-title alt-title-small alt-title-gray">
             
-            <span>Torstein Gimnes Are</span>
+            <span>Stephen Hilt</span>
             
           </h5>
         </div>

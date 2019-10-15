@@ -28,6 +28,12 @@
 
 
 {
+	"description": ""
+},
+
+
+
+{
 	"description": "<h4 id=\"network--security--and-vulnerability-monitoring-for-ics-a-demystification-from-an-asset-owners-perspective\">Network-, Security- and Vulnerability Monitoring for ICS: a demystification from an asset owner’s perspective.</h4><p>In this session Dr. Mona Lange (Audi) and Christian Augustat (Gassco) will take you on a conceptual tour through Industrial Control System (ICS) Security, both have a solid background in securing industrial plants in the manufacturing and Oil- and Gas industry. The session will provide you with insights into areas of Governance, Network Security Monitoring, Vulnerability Management and Continuous Security Monitoring, all from the perspective of an Asset-Owner.</p><p>In the area of Governance management we will dissect the pros and cons of IEC62443, ISO27001 and CIS as a foundation for an ICS security strategy, demonstrate how to prioritize security measures and render existing security risks transparent to management for security risk acceptance. Based on this security strategy, we will motivate the importance of asset management as a foundation for network security monitoring, describe how to build an MAC Address based Asset Inventory based on existing network components and integrate it into a Security Information and Event Management System (SIEM). Effective network security monitoring requires asset owners to understand what sources of infection or attack on ICS exist, how threat groups exploit them and how they can be monitored.</p><p>Generally, it is not feasible to defend against all threats everywhere, however we will demonstrate how baselining can be used to make an existing attack surface transparent and prioritize network security monitoring efforts in a threat aware manner. We will show how baselining can be used as a foundation for hardening Firewalls andderiving monitoring scenarios and integrating them into a SIEM. In addition, we will point out the difference between shopping security in comparison to building security. Vulnerability management means identifying vulnerabilities present in the environment, understanding their impact for an attack surface and finding possible mitigations as alternatives to patching.</p><p>We will show how the concept of ICS in a Virtual Machine can be used for live vulnerability scanning and provide some practical examples on how to rank the criticality of vulnerabilities. Main focus is to point out common problems from an asset owner’s perspective and point towards easy solutions based on our experience “from the trenches”.</p>"
 },
 
@@ -54,8 +60,6 @@
 {
 	"description": "<p>In most todays ICS networks, security testing is already being performed to know allweaknesses and issues. At least I hope that is the fact…. These tests are either run by the ICS owners themselves or by an trusted external party. However in a lot of occasions, security testing is performed in a too limitative scope and hence security issues often get overlooked because of this or potential drafted scenario’s to abuse the found weaknesses are incomplete and do not give a full picture. Next to that, a lot of talk is still focussed on testing industrial devices such as PLCs and other network components. Which is fine on its own but again the bigger picture is not looked at. In this presentation, a broader view is shown on how thorough security tests can be performed (without performing illegal actions) in an attempt to provide the ICS owners with a complete view on what their risks are. It is explained why you have to combine physical, logical and human elements within the different security tests you run and why it is sometimes better to take a step back instead of just plunging in and perform logical security testing. The different viewpoints on how you can perform testing to know your weakest elements are shown along with the different requirements to run testing from a particular viewpoint. Combinations of discovered weaknesses are then put together within realistic scenario’s. The advantages as well as pitfalls are explained of performing security testing this way using real­world experience examples.</p><p>The things mentioned within this presentation are all actions that can be done by ICS owners themselves, or should they decide in doing so by a third party, yet the ICS owners will then be able to follow along and understand what is going on instead of being left in the FUD zone.</p>"
 },
-
-
 
 
 
@@ -202,6 +206,14 @@
 
 
 {
+	"description": ""
+},
+
+
+
+
+
+{
 	"description": "<p>The TRISIS/TRITON/HatMan malware represents the first time that a rootkit was used against a programmable logic controller. In this talk, we will dive deep into several major PLC brands and ask the questions: Could TRISIS happen here? And if so, how easy or difficult would it be for an attacker to have the same effect?</p><p>The talk will detail the ladder logic programming and compilation systems from several vendors, and provide results of testing for ladder logic privileges and privilege escalation issues. This will include, where possible, reviewing the CPU used in each PLC, showing what security features the CPU has, and finally showing results of loading weaponized ladder logic into the PLC for execution. This will also cover in some limited depth the ladder logic transfer protocol used by each controller.</p><h4 id=\"target-audience-\">Target audience ­</h4><p>Technical researchers, low­level engineers for vendors, and low­level protocol analysis</p><h4 id=\"key-takeaways\">Key takeaways</h4><ul>  <li>For end users, they should walk away with questions to ask their vendors. For PLCs vendors, they should ask, ‘Is this type of attack in your threat model, and how are you dealing with it?’. For their security vendors, they should ask, ‘Are you able to carve logic updates and perform any level of analysis on them in your security system?’</li>  <li>For vendors, they key takeaway should be: This type of attack should be in your threat model.</li>  <li>For security researchers and vendors, the key takeaway should be: We should research tools to monitor and prevent malicious logic updates. This might require more research into static code analysis, and will likely require some cooperation from the vendors.</li></ul>"
 },
 
@@ -292,12 +304,24 @@
 
 
 {
+	"description": ""
+},
+
+
+
+{
 	"description": "The session will propose an OT security engineering thought model which empowers automation engineers to take responsibility for their own systems’ security in a technically sound, systematic, and pragmatic way.The thought model consists of four layers: The function layer includes analyzing and use case-based modelling of functional requirements an OT network and its elements need to fulfill. Proper operation of these use cases is taken as security objective. The risk layer takes the identified use cases and for derivation and evaluation of “abuse cases” forming threat scenarios. The third layer is about identifying security requirements, which are state of the art, compliant with necessary standards, and taking into account the organization’s existing processes. The uppermost layer deals with implementing these systematically derived security requirements.Taking into account that in plant engineering and operation security requirements are never in focus, but always need to be wrapped around plant functionality and plant operators’ busy workdays, security engineering desperately needs to be efficient.Also, when security by design is to be taken seriously, security engineering must be integrated in the existing plant engineering process, making use of tools and data formats engineers use anyway.For these reasons, the presentation does not stop at introducing the thought model but shows how this thought model can be transferred into a machine-readable representation – a data model. The data model is not meant to take decisions away from automation engineers by boasting AI capabilities, but is designed to facilitate a more informed, smoother security engineering process.The data model poses two advantages within the security engineering process:First, it simplifies creating and visualizing network models and use cases, which serve as input for the outlined security engineering process.Second, it sets the basis for (partly) automating the implementation of security solutions, by defining security characteristics of modelled entities which may result from the security engineering process. This also includes the opportunity to make configuration management “security-sensitive” by adding information like security requirements a certain configuration fulfills and risks a certain configuration mitigates.The presentation outlines how existing tools may assist during the security engineering process: Asset discovery and inventory tools can provide the basis for network and use case modelling. Configuration management tools may help to roll out and maintain security-relevant configurations.Still, many plant operators, integrators, and vendors are understandably reluctant to become dependable on such rather expensive tools.Therefore, the presented data model aims at making use of efficiency gains that existing network inventory and configuration management tools promise without becoming too dependable on a certain tool vendor’s product. In order to achieve that, it makes use of well-established, non-proprietary description languages and data formats like AutomationML, OWL, and OPC UA. Thus, the proposed data model may serve as an open interface between existing, proprietary asset inventory and configuration management tools and the security engineering process."
 },
 
 
 
 
+
+
+
+{
+	"description": ""
+},
 
 
 

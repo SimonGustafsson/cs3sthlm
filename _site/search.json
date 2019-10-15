@@ -245,6 +245,14 @@
   
    {
      
+        "title"    : "Presenting the organization behind the exercise",
+        "url"      : "/program/presentations/cdr-michael-widmann/",
+        "path"     : "/program/presentations/cdr-michael-widmann/"
+     
+   },
+  
+   {
+     
         "title"    : "Tales from Industrial Plants and Responders.",
         "url"      : "/program/presentations/christian-mona/",
         "path"     : "/program/presentations/christian-mona/"
@@ -285,17 +293,17 @@
   
    {
      
-        "title"    : "Network ForensICS Training",
-        "url"      : "/program/trainings/erik-hjelmvik/",
-        "path"     : "/program/trainings/erik-hjelmvik/"
+        "title"    : "TLS Interception and Decryption *LIVE DEMO*",
+        "url"      : "/program/presentations/erik-hjelmvik/",
+        "path"     : "/program/presentations/erik-hjelmvik/"
      
    },
   
    {
      
-        "title"    : "TLS Interception and Decryption *LIVE DEMO*",
-        "url"      : "/program/presentations/erik-hjelmvik/",
-        "path"     : "/program/presentations/erik-hjelmvik/"
+        "title"    : "Network ForensICS Training",
+        "url"      : "/program/trainings/erik-hjelmvik/",
+        "path"     : "/program/trainings/erik-hjelmvik/"
      
    },
   
@@ -308,14 +316,6 @@
         "title"    : "Testbed Evaluation of DoS Attacks on Continuously Controlled Processes",
         "url"      : "/expo/presentations/henrik-sandberg/",
         "path"     : "/expo/presentations/henrik-sandberg/"
-     
-   },
-  
-   {
-     
-        "title"    : "Lars Westerdahl",
-        "url"      : "/about/archive/speakers/lars-westerdahl",
-        "path"     : "/about/archive/speakers/lars-westerdahl"
      
    },
   
@@ -393,17 +393,17 @@
   
    {
      
-        "title"    : "Margarita Jaitner",
-        "url"      : "/about/archive/speakers/margarita-jaitner",
-        "path"     : "/about/archive/speakers/margarita-jaitner"
+        "title"    : "Kevin Jones",
+        "url"      : "/about/archive/speakers/kevin-jones",
+        "path"     : "/about/archive/speakers/kevin-jones"
      
    },
   
    {
      
-        "title"    : "Omer Zohar",
-        "url"      : "/about/archive/speakers/omer-zohar",
-        "path"     : "/about/archive/speakers/omer-zohar"
+        "title"    : "Margarita Jaitner",
+        "url"      : "/about/archive/speakers/margarita-jaitner",
+        "path"     : "/about/archive/speakers/margarita-jaitner"
      
    },
   
@@ -673,9 +673,9 @@
   
    {
      
-        "title"    : "Kevin Jones",
-        "url"      : "/about/archive/speakers/kevin-jones",
-        "path"     : "/about/archive/speakers/kevin-jones"
+        "title"    : "Omer Zohar",
+        "url"      : "/about/archive/speakers/omer-zohar",
+        "path"     : "/about/archive/speakers/omer-zohar"
      
    },
   
@@ -801,6 +801,14 @@
   
    {
      
+        "title"    : "Lars Westerdahl",
+        "url"      : "/about/archive/speakers/lars-westerdahl",
+        "path"     : "/about/archive/speakers/lars-westerdahl"
+     
+   },
+  
+   {
+     
         "title"    : "Program",
         "url"      : "/program/",
         "path"     : "/program/"
@@ -824,6 +832,14 @@
    },
   
    {
+     
+   },
+  
+   {
+     
+        "title"    : "Presenting how we know what's happen in the exercise and measuring",
+        "url"      : "/program/presentations/jarkko-huttunen/",
+        "path"     : "/program/presentations/jarkko-huttunen/"
      
    },
   
@@ -977,6 +993,14 @@
   
    {
      
+        "title"    : "Red Teams view from the exercise",
+        "url"      : "/program/presentations/sandra-bardon/",
+        "path"     : "/program/presentations/sandra-bardon/"
+     
+   },
+  
+   {
+     
         "title"    : "Layered Blueprints – an ontology and method for (talking about) engineering OT Security",
         "url"      : "/program/presentations/sarah-fluchs/",
         "path"     : "/program/presentations/sarah-fluchs/"
@@ -992,6 +1016,14 @@
    },
   
    {
+     
+   },
+  
+   {
+     
+        "title"    : "Digging into the technical setup of the exercise",
+        "url"      : "/program/presentations/silver-saks/",
+        "path"     : "/program/presentations/silver-saks/"
      
    },
   

@@ -514,6 +514,7 @@
       image: cdr-michael-widmann.png
   partner:
     - name:
+  permalink: program/presentations/cdr-michael-widmann/
   label: The Training
 
 - id: 315
@@ -530,6 +531,7 @@
       image: silver-saks.png
   partner:
     - name:
+  permalink: program/presentations/silver-saks/
   label: The Training
 
 - id: 316
@@ -574,6 +576,7 @@
       image: sandra-bardon.png
   partner:
     - name:
+  permalink: program/presentations/sandra-bardon/
   label: The Training
 
 - id: 318
@@ -647,6 +650,7 @@
       image: jarkko-huttunen.png
   partner:
     - name:
+  permalink: program/presentations/jarkko-huttunen/
   label: The Training
 
 - id: 323
