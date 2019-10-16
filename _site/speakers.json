@@ -647,12 +647,12 @@
 		"presentation":{
 		
 			"active": 	"live",
-			"title": 	"Presenting how we know what's happen in the exercise and measuring",
+			"title": 	"Presenting how we know what’s happening in the exercise and measuring",
 			"partner":	"",
 			"role":		"",
 			"work":		"",
 			"image":	"https://cs3sthlm.se/assets/speakers/.png",
-			"description": ""
+			"description": "<p>Who knows what is happening and how do we measure it? Exercise leader controls the overall exercise and he needs to make decisions during the exercise. Situation awareness Team’s main role is to provide meaningful information to support his decision making. At the same time, other participants need meaningful feedback, so that they know, how are they doing in the different areas of the exercise.</p>"
 		
 		},
 		
@@ -942,10 +942,10 @@
 		
 			"active": 	"live",
 			"title": 	"IT vs. OT: We are Much More Similar than We are Different. Comparing Process Control Room and SOC operations",
-			"partner":	"Vyacheslav Kopeytsev",
-			"role":		"Security Researcher",
-			"work":		"Kaspersky",
-			"image":	"https://cs3sthlm.se/assets/speakers/vyacheslav-kopeytsev.png",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
 			"description": "<p>In industrial applications process control discipline involves monitoring and controlling of machinery, systems and physical processes to make sure that production processes are carried out efficiently, consistently and little variation. Monitoring is an integral part of plant operations and no OT environment is imaginable without local or control room HMIs and human operators. Increasingly, process industries take additional advantage of various optimization application for detection of abnormalities and early indicators of deterioration. In contrast, when it comes to supporting communication infrastructure (networks and end-points), they are frequently expected to be implement and configured in 110% reliable and secure way that no monitoring for deviations or breaches would be necessary. Ugh.</p><p>However, the purpose of this talk is not to discuss the terrible and unfair negligence of OT communication infrastructure when it comes to monitoring. Instead, we will use the case of “monitoring” function to help professionals from two distinct worlds, IT and OT, to realize their similarities beyond sharing hate for filling in timesheets. On the example of two distant jobs such as SOC analyst and Control Room operator, we will show how their jobs are fundamentally the same. Throughout the talk we will cover similarities and differences in key areas such as:</p><ul>  <li>Vocabulary,</li>  <li>SIEM vs. HMI applications,</li>  <li>Alarm configuration and response; alarm management,</li>  <li>Logging and log correlation; historian functions,</li>  <li>Types of anomalies/events/threats,</li>  <li>Event/incident root-cause analysis,</li>  <li>Incident response,</li>  <li>SOPs, etc.</li></ul><p>It is hopeful that by the end of the presentation, IT and OT professionals will develop a solid respect for each other the job functions and feel encouraged to discuss common matters. It is also hoped, that OT experts become conscious about value of log collection and network monitoring in their environments and will be more collaborative when asked to configure a mirror port on an industrial switch.</p><h4 id=\"target-audience\">Target audience</h4><p>IT and OT professionals who would like to know more about each other worlds</p><h4 id=\"key-takeaway\">Key takeaway</h4><ul>  <li>Monitoring is the process of providing a feedback loop into the state of object under observation. The process of monitoring physical processes and communication infrastructure are fundamentally similar.</li>  <li>OT domain has more mature body of knowledge and better-established processes when it comes to alarm management, work place and GUI ergonomics and cognitive performance. Experience exchange could be beneficial for a “younger” SOC function.</li>  <li>Short-term job rotations could help IT and OT professionals to better understand and appreciate specifics of each other jobs, enable cross-learning and for-real effective IT-OT conversion.</li></ul>"
 		
 		},
@@ -1109,12 +1109,12 @@
 		"presentation":{
 		
 			"active": 	"live",
-			"title": 	"Presenting the organization behind the exercise",
+			"title": 	"What is the NATO Cooperative Cyber Defence Centre of Excellence (CCDCOE)?",
 			"partner":	"",
 			"role":		"",
 			"work":		"",
 			"image":	"https://cs3sthlm.se/assets/speakers/.png",
-			"description": ""
+			"description": "<p>The CCDCOE is an essential part of NATO’s wider framework that develops and delivers real capabilities while being a hub for cyber subject matter expertise. The CCDCOE provides cyber research, training and exercise in the four core areas of technology, strategy operation and law.</p>"
 		
 		},
 		
@@ -1300,48 +1300,6 @@
 		
 
 		"bio": "<p>Nicklas works at the Swedish National CERT, CERT-SE, as an incident handler/CSIRT officer that special in the field of ICS and SCADA. After education, MSc in Electrial Engineering, Nicklas has worked as automation and system engineers for about 15 years. before joining CERT-SE. Have done work for almost about any industrial sectors imagined, so more or less if you see a crane or a chimney Nicklas has been there.</p><p>When not tinkering with different tech and/or hacking projects Nicklas enjoys noisy music, drums, craft beer and spending time with the family.</p>"
-	},
-
-	{
-		"id"		: "49",
-		"type"		: "expotalk",
-		"name"		: "Pontus Johnson",
-		"role"		: "Professor",
-		"work"		: "KTH Royal Institute of Technology",
-		"country"	: "Sweden",
-		"shortcode"	: "SE",
-		"status"	: "",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/pontus-johnson.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"none",
-			"title": 	"",
-			"partner":	"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/.png",
-			"description": ""
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "",
-			"excerpt":	""
-		},
-		
-
-		"bio": "<p>Pontus Johnson is a professor at the Royal Institute of Technology (KTH) in Stockholm, Sweden. His research interests mainly lie in the area of cyber security and the analysis of architectural models of computer networks. Pontus supervises a number of PhD students and holds courses on Ethical Hacking. He received his MSc from the Lund Institute of Technology in 1997 and his PhD and Docent titles from the Royal Institute of Technology in 2002 and 2007. He was appointed professor in 2009. Since 2013, he is a member of the Swedish Royal Academy of Engineering Sciences (IVA). He has chaired, co-chaired, and participated as steering committee member in many international conferences and workshops and participated in program committees in over fifty such events. He has been associate and guest editor to several journals. He has authored over 100 scientific articles, mainly on the prediction of the cyber security and other non-functional properties in software-intensive system architectures. Pontus has much contact with Swedish corporations and organizations in the form of research projects, master thesis projects, seminars, and consultations. He is a member of the IVA Medal Committee, and from 2020, the chair of IVA Division II. Pontus is also a co-founder of foreseeti, a research spin-off company developing cyber security attack simulation software. Currently, he is heading the planning project for the establishment of a Center for Cyber Defense and Information Security at KTH in collaboration with the Swedish Armed Forces. He is a member of the Software Systems Architecture and Security (SSAS) research group within the Division of Network and Systems Engineering (NSE) in the School of Electrical Engineering and Computer Science (EECS) at KTH.</p>"
 	},
 
 	{
@@ -1618,7 +1576,7 @@
 			"role":		"",
 			"work":		"",
 			"image":	"https://cs3sthlm.se/assets/speakers/.png",
-			"description": ""
+			"description": "<p>The focus of Locked Shields exercises is to train the Blue Teams. Therefore, Red Team members are mainly considered as the ‘work-force’ to challenge the Blue Teams. In principle, the RT uses a white-box approach at first, but the situation changes quickly after the exercise starts.</p><p>The main challenge for RT in Locked Shields context is to compile a large proficient team to “entertain” all Blue Teams as equally as possible, yet to be able to handle the collaboration overhead and handover procedures. To ensure equal distribution of applied skills, the RT collaborates as one, however, it is divided into sub-teams and competence groups. Collaboration is crucial to overcome problems with fluidity and continuity of attack campaigns (e.g. in-depth penetration objectives and persistence within compromised networks instead of opportunistic jabs)</p><p>Sandra will explain the keys of the Red Team Campaign in order to make the life complicated to Blue Teamers.</p>"
 		
 		},
 		
@@ -1702,7 +1660,7 @@
 			"role":		"",
 			"work":		"",
 			"image":	"https://cs3sthlm.se/assets/speakers/.png",
-			"description": ""
+			"description": "<p>The Locked Shields exercise network is set up every year to incorporate new threats that have been observed in the real world and new technologies that provide a challenge for the Blue Teams. The entire network for LS2019 comprised of more than 4500 virtual machines and 1100 networks. The playground included complex systems which branched out into the physical world, such as power distribution, 4G communications and marine traffic control.</p><p>Silver will talk about what the development process for the exercise looks like, who are the people involved and what kind of effort it takes. Using Locked Shields 2019 network as an example, Silver will go into details about what systems were in the Blue Team network and how they were set up to provide a challenge for the defending teams.</p>"
 		
 		},
 		
@@ -1933,48 +1891,6 @@
 	},
 
 	{
-		"id"		: "43",
-		"type"		: "presentation",
-		"name"		: "Vyacheslav Kopeytsev",
-		"role"		: "Security Researcher",
-		"work"		: "Kaspersky",
-		"country"	: "Russia",
-		"shortcode"	: "RU",
-		"status"	: "",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/vyacheslav-kopeytsev.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"IT vs. OT: We are Much More Similar than We are Different. Comparing Process Control Room and SOC operations",
-			"partner":	"Marina Krotofil",
-			"role":		"Senior ICS Security Engineer",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/marina-krotofil.png",
-			"description": "<p>In industrial applications process control discipline involves monitoring and controlling of machinery, systems and physical processes to make sure that production processes are carried out efficiently, consistently and little variation. Monitoring is an integral part of plant operations and no OT environment is imaginable without local or control room HMIs and human operators. Increasingly, process industries take additional advantage of various optimization application for detection of abnormalities and early indicators of deterioration. In contrast, when it comes to supporting communication infrastructure (networks and end-points), they are frequently expected to be implement and configured in 110% reliable and secure way that no monitoring for deviations or breaches would be necessary. Ugh.</p><p>However, the purpose of this talk is not to discuss the terrible and unfair negligence of OT communication infrastructure when it comes to monitoring. Instead, we will use the case of “monitoring” function to help professionals from two distinct worlds, IT and OT, to realize their similarities beyond sharing hate for filling in timesheets. On the example of two distant jobs such as SOC analyst and Control Room operator, we will show how their jobs are fundamentally the same. Throughout the talk we will cover similarities and differences in key areas such as:</p><ul>  <li>Vocabulary,</li>  <li>SIEM vs. HMI applications,</li>  <li>Alarm configuration and response; alarm management,</li>  <li>Logging and log correlation; historian functions,</li>  <li>Types of anomalies/events/threats,</li>  <li>Event/incident root-cause analysis,</li>  <li>Incident response,</li>  <li>SOPs, etc.</li></ul><p>It is hopeful that by the end of the presentation, IT and OT professionals will develop a solid respect for each other the job functions and feel encouraged to discuss common matters. It is also hoped, that OT experts become conscious about value of log collection and network monitoring in their environments and will be more collaborative when asked to configure a mirror port on an industrial switch.</p><h4 id=\"target-audience\">Target audience</h4><p>IT and OT professionals who would like to know more about each other worlds</p><h4 id=\"key-takeaway\">Key takeaway</h4><ul>  <li>Monitoring is the process of providing a feedback loop into the state of object under observation. The process of monitoring physical processes and communication infrastructure are fundamentally similar.</li>  <li>OT domain has more mature body of knowledge and better-established processes when it comes to alarm management, work place and GUI ergonomics and cognitive performance. Experience exchange could be beneficial for a “younger” SOC function.</li>  <li>Short-term job rotations could help IT and OT professionals to better understand and appreciate specifics of each other jobs, enable cross-learning and for-real effective IT-OT conversion.</li></ul>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "",
-			"excerpt":	""
-		},
-		
-
-		"bio": "<p>Vyacheslav Kopeytsev is a researcher with the Kaspersky’s Industrial Control Systems Cyber Emergency Response Team (ICS CERT). He specializes in malware analysis, digital forensics and incident response for various types of systems. At this time, Vyacheslav focuses on investigating attacks on industrial infrastructure. He contributes to threat intelligence articles and reports and presents at malware and ICS conferences. Vyacheslav also conducts live and online training sessions on ICS security.</p><p>Vyacheslav holds a master’s degree in computer science.</p>"
-	},
-
-	{
 		"id"		: "10",
 		"type"		: "presentation",
 		"name"		: "Yoav Flint Rosenfeld",
@@ -2014,6 +1930,132 @@
 		
 
 		"bio": "<p>Over 20 years of experience in cyber security as a pen tester, security consultant, SOC manager and threat intelligence manager.</p>"
+	},
+
+	{
+		"id"		: "44",
+		"type"		: "presentation",
+		"name"		: "Erik Biverot",
+		"role"		: "",
+		"work"		: "FHS",
+		"country"	: "Sweden",
+		"shortcode"	: "SE",
+		"status"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/temp.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"A view from the Blue side of Locked Shields",
+			"partner":	"Johan Nilsson",
+			"role":		"",
+			"work":		"Polisen",
+			"image":	"https://cs3sthlm.se/assets/speakers/temp.png",
+			"description": "<p>What happened when the STARTEX of Locked shield was announced and how did the team handle the turmoil during the exercise? What strategy, tools and setup did the team use to defend the network? The team lead of SWE Blue Team 17 will present the key factors for success and give some hints on how a quickly assembled team can handle a large scale cyber-attack.</p>"
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": ""
+	},
+
+	{
+		"id"		: "45",
+		"type"		: "presentation",
+		"name"		: "Johan Nilsson",
+		"role"		: "",
+		"work"		: "Polisen",
+		"country"	: "Sweden",
+		"shortcode"	: "SE",
+		"status"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/temp.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"A view from the Blue side of Locked Shields",
+			"partner":	"Erik Biverot",
+			"role":		"",
+			"work":		"FHS",
+			"image":	"https://cs3sthlm.se/assets/speakers/temp.png",
+			"description": "<p>What happened when the STARTEX of Locked shield was announced and how did the team handle the turmoil during the exercise? What strategy, tools and setup did the team use to defend the network? The team lead of SWE Blue Team 17 will present the key factors for success and give some hints on how a quickly assembled team can handle a large scale cyber-attack.</p>"
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": ""
+	},
+
+	{
+		"id"		: "46",
+		"type"		: "presentation",
+		"name"		: "Janek Pelzer",
+		"role"		: "TBA",
+		"work"		: "TBA",
+		"country"	: "",
+		"shortcode"	: "",
+		"status"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/temp.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"TBA",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": ""
 	}
 
 ]

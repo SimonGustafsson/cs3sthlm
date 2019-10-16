@@ -702,10 +702,11 @@
       image: temp
   presentation:
     - active: live
-      subject: Presenting how we know what's happen in the exercise and measuring
-      permalink: program/presentations/jarkoo-huttunen/
+      subject: Presenting how we know what’s happening in the exercise and measuring
+      permalink: program/presentations/jarkko-huttunen/
       partner:
-      description:
+      description: |
+        Who knows what is happening and how do we measure it? Exercise leader controls the overall exercise and he needs to make decisions during the exercise. Situation awareness Team's main role is to provide meaningful information to support his decision making. At the same time, other participants need meaningful feedback, so that they know, how are they doing in the different areas of the exercise.
   training:
     - active: none
 
@@ -1059,10 +1060,7 @@
     - active: live
       subject: "IT vs. OT: We are Much More Similar than We are Different. Comparing Process Control Room and SOC operations"
       permalink: program/presentations/marina-krotofil/
-      partner: Vyacheslav Kopeytsev
-      partner-role: Security Researcher
-      partner-work: Kaspersky
-      partner-image: vyacheslav-kopeytsev
+      partner: 
       description: |
         In industrial applications process control discipline involves monitoring and controlling of machinery, systems and physical processes to make sure that production processes are carried out efficiently, consistently and little variation. Monitoring is an integral part of plant operations and no OT environment is imaginable without local or control room HMIs and human operators. Increasingly, process industries take additional advantage of various optimization application for detection of abnormalities and early indicators of deterioration. In contrast, when it comes to supporting communication infrastructure (networks and end-points), they are frequently expected to be implement and configured in 110% reliable and secure way that no monitoring for deviations or breaches would be necessary. Ugh.
 
@@ -1281,10 +1279,11 @@
       image: cdr-michael-widmann
   presentation:
     - active: live
-      subject: Presenting the organization behind the exercise
+      subject: What is the NATO Cooperative Cyber Defence Centre of Excellence (CCDCOE)?
       permalink: program/presentations/cdr-michael-widmann/
       partner:
-      description:
+      description: |
+        The CCDCOE is an essential part of NATO’s wider framework that develops and delivers real capabilities while being a hub for cyber subject matter expertise. The CCDCOE provides cyber research, training and exercise in the four core areas of technology, strategy operation and law.
   training:
     - active: none
 
@@ -1469,31 +1468,6 @@
   training:
     - active: none
 
-- id: 49
-  type: expotalk
-  permalink:
-  name: Pontus Johnson
-  role: Professor
-  work: KTH Royal Institute of Technology
-  country: Sweden
-  shortcode: SE
-  image: pontus-johnson.png
-  bio: Pontus Johnson is a professor at the Royal Institute of Technology (KTH) in Stockholm, Sweden. His research interests mainly lie in the area of cyber security and the analysis of architectural models of computer networks. Pontus supervises a number of PhD students and holds courses on Ethical Hacking. He received his MSc from the Lund Institute of Technology in 1997 and his PhD and Docent titles from the Royal Institute of Technology in 2002 and 2007. He was appointed professor in 2009. Since 2013, he is a member of the Swedish Royal Academy of Engineering Sciences (IVA). He has chaired, co-chaired, and participated as steering committee member in many international conferences and workshops and participated in program committees in over fifty such events. He has been associate and guest editor to several journals. He has authored over 100 scientific articles, mainly on the prediction of the cyber security and other non-functional properties in software-intensive system architectures. Pontus has much contact with Swedish corporations and organizations in the form of research projects, master thesis projects, seminars, and consultations. He is a member of the IVA Medal Committee, and from 2020, the chair of IVA Division II. Pontus is also a co-founder of foreseeti, a research spin-off company developing cyber security attack simulation software. Currently, he is heading the planning project for the establishment of a Center for Cyber Defense and Information Security at KTH in collaboration with the Swedish Armed Forces. He is a member of the Software Systems Architecture and Security (SSAS) research group within the Division of Network and Systems Engineering (NSE) in the School of Electrical Engineering and Computer Science (EECS) at KTH.
-  date:
-  time:
-  place:
-  speaker:
-    - name: Pontus Johnson
-      role: Professor
-      image: pontus-johnson
-  presentation:
-    - active: none
-      subject:
-      permalink:
-      partner:
-      description:
-  training:
-    - active: none
 
 - id: 14
   type: presentation
@@ -1728,7 +1702,12 @@
       subject: Red Teams view from the exercise
       permalink: program/presentations/sandra-bardon/
       partner:
-      description:
+      description: |
+        The focus of Locked Shields exercises is to train the Blue Teams. Therefore, Red Team members are mainly considered as the ‘work-force’ to challenge the Blue Teams. In principle, the RT uses a white-box approach at first, but the situation changes quickly after the exercise starts.
+        
+        The main challenge for RT in Locked Shields context is to compile a large proficient team to "entertain" all Blue Teams as equally as possible, yet to be able to handle the collaboration overhead and handover procedures. To ensure equal distribution of applied skills, the RT collaborates as one, however, it is divided into sub-teams and competence groups. Collaboration is crucial to overcome problems with fluidity and continuity of attack campaigns (e.g. in-depth penetration objectives and persistence within compromised networks instead of opportunistic jabs)
+        
+        Sandra will explain the keys of the Red Team Campaign in order to make the life complicated to Blue Teamers.
   training:
     - active: none
 
@@ -1808,7 +1787,10 @@
       subject: Digging into the technical setup of the exercise
       permalink: program/presentations/silver-saks/
       partner:
-      description:
+      description: |
+        The Locked Shields exercise network is set up every year to incorporate new threats that have been observed in the real world and new technologies that provide a challenge for the Blue Teams. The entire network for LS2019 comprised of more than 4500 virtual machines and 1100 networks. The playground included complex systems which branched out into the physical world, such as power distribution, 4G communications and marine traffic control.
+        
+        Silver will talk about what the development process for the exercise looks like, who are the people involved and what kind of effort it takes. Using Locked Shields 2019 network as an example, Silver will go into details about what systems were in the Blue Team network and how they were set up to provide a challenge for the defending teams.
   training:
     - active: none
 
@@ -1966,60 +1948,6 @@
   training:
     - active: none
 
-- id: 43
-  type: presentation
-  permalink:
-  name: Vyacheslav Kopeytsev
-  role: Security Researcher
-  work: Kaspersky
-  country: Russia
-  shortcode: RU
-  image: vyacheslav-kopeytsev.png
-  bio: |
-    Vyacheslav Kopeytsev is a researcher with the Kaspersky’s Industrial Control Systems Cyber Emergency Response Team (ICS CERT). He specializes in malware analysis, digital forensics and incident response for various types of systems. At this time, Vyacheslav focuses on investigating attacks on industrial infrastructure. He contributes to threat intelligence articles and reports and presents at malware and ICS conferences. Vyacheslav also conducts live and online training sessions on ICS security.
-
-    Vyacheslav holds a master’s degree in computer science.
-  date:
-  time:
-  place:
-  speaker:
-    - name: Vyacheslav Kopeytsev
-      role: Security Researcher
-      image: vyacheslav-kopeytsev
-  presentation:
-    - active: live
-      subject: "IT vs. OT: We are Much More Similar than We are Different. Comparing Process Control Room and SOC operations"
-      permalink: program/presentations/marina-krotofil/
-      partner: Marina Krotofil
-      partner-role: Senior ICS Security Engineer
-      partner-work: 
-      partner-image: marina-krotofil
-      description: |
-        In industrial applications process control discipline involves monitoring and controlling of machinery, systems and physical processes to make sure that production processes are carried out efficiently, consistently and little variation. Monitoring is an integral part of plant operations and no OT environment is imaginable without local or control room HMIs and human operators. Increasingly, process industries take additional advantage of various optimization application for detection of abnormalities and early indicators of deterioration. In contrast, when it comes to supporting communication infrastructure (networks and end-points), they are frequently expected to be implement and configured in 110% reliable and secure way that no monitoring for deviations or breaches would be necessary. Ugh.
-
-        However, the purpose of this talk is not to discuss the terrible and unfair negligence of OT communication infrastructure when it comes to monitoring. Instead, we will use the case of “monitoring” function to help professionals from two distinct worlds, IT and OT, to realize their similarities beyond sharing hate for filling in timesheets. On the example of two distant jobs such as SOC analyst and Control Room operator, we will show how their jobs are fundamentally the same. Throughout the talk we will cover similarities and differences in key areas such as:
-
-        * Vocabulary,
-        * SIEM vs. HMI applications,
-        * Alarm configuration and response; alarm management,
-        * Logging and log correlation; historian functions,
-        * Types of anomalies/events/threats,
-        * Event/incident root-cause analysis,
-        * Incident response,
-        * SOPs, etc.
-
-        It is hopeful that by the end of the presentation, IT and OT professionals will develop a solid respect for each other the job functions and feel encouraged to discuss common matters. It is also hoped, that OT experts become conscious about value of log collection and network monitoring in their environments and will be more collaborative when asked to configure a mirror port on an industrial switch.
-
-        #### Target audience
-        IT and OT professionals who would like to know more about each other worlds
-
-        #### Key takeaway
-        * Monitoring is the process of providing a feedback loop into the state of object under observation. The process of monitoring physical processes and communication infrastructure are fundamentally similar.
-        * OT domain has more mature body of knowledge and better-established processes when it comes to alarm management, work place and GUI ergonomics and cognitive performance. Experience exchange could be beneficial for a “younger” SOC function.
-        * Short-term job rotations could help IT and OT professionals to better understand and appreciate specifics of each other jobs, enable cross-learning and for-real effective IT-OT conversion.
-  training:
-    - active: none
-
 - id: 10
   type: presentation
   permalink:
@@ -2080,4 +2008,90 @@
   training:
     - active: none
 
+- id: 44
+  type: presentation
+  permalink:
+  name: Erik Biverot
+  role: 
+  work: FHS
+  country: Sweden
+  shortcode: SE
+  image: temp.png
+  bio: 
+  date:
+  time:
+  place:
+  speaker:
+    - name: Erik Biverot
+      role: 
+      image: temp
+  presentation:
+    - active: live
+      subject: A view from the Blue side of Locked Shields
+      permalink: program/presentations/erik-johan/
+      partner: Johan Nilsson
+      partner-role:
+      partner-work: Polisen
+      partner-image: temp
+      description: |
+        What happened when the STARTEX of Locked shield was announced and how did the team handle the turmoil during the exercise? What strategy, tools and setup did the team use to defend the network? The team lead of SWE Blue Team 17 will present the key factors for success and give some hints on how a quickly assembled team can handle a large scale cyber-attack.
+  training:
+    - active: none
 
+
+- id: 45
+  type: presentation
+  permalink:
+  name: Johan Nilsson
+  role: 
+  work: Polisen
+  country: Sweden
+  shortcode: SE
+  image: temp.png
+  bio: 
+  date:
+  time:
+  place:
+  speaker:
+    - name: Johan Nilsson
+      role: 
+      image: temp
+  presentation:
+    - active: live
+      subject: A view from the Blue side of Locked Shields
+      permalink: program/presentations/erik-johan/
+      partner: Erik Biverot
+      partner-role:
+      partner-work: FHS
+      partner-image: temp
+      description: |
+        What happened when the STARTEX of Locked shield was announced and how did the team handle the turmoil during the exercise? What strategy, tools and setup did the team use to defend the network? The team lead of SWE Blue Team 17 will present the key factors for success and give some hints on how a quickly assembled team can handle a large scale cyber-attack.
+  training:
+    - active: none
+
+
+- id: 46
+  type: presentation
+  permalink:
+  name: Janek Pelzer
+  role: TBA
+  work: TBA
+  country: 
+  shortcode: 
+  image: temp.png
+  bio: 
+  date:
+  time:
+  place:
+  speaker:
+    - name: Janek Pelzer 
+      role: TBA
+      image: temp
+  presentation:
+    - active: live
+      subject: TBA
+      permalink: program/presentations/janek-pelzer/
+      partner:
+      description:
+  training:
+    - active: none

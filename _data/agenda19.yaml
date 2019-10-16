@@ -122,7 +122,7 @@
   day: daytwo
   type: common
   place: Harlem Stage
-  time: "12:30"
+  time: "13:00"
   title: TBA
   author:
     - name: F-Secure
@@ -132,20 +132,12 @@
   day: daytwo
   type: common
   place: Harlem Stage
-  time: "12:50"
+  time: "13:30"
   title: TBA
   author:
     - name: Recorded Future
   permalink:
 
-- id: 208
-  day: daytwo
-  type: common
-  place: Harlem Stage
-  time: "13:30"
-  title: TBA
-  author:
-    - name: Pontus Johnson
 
 - id: 209
   day: daytwo
@@ -506,8 +498,9 @@
   type: presentation
   place: Harlem Stage
   time: "13:15"
-  title: Presenting the organization behind the exercise
-  description:
+  title: What is the NATO Cooperative Cyber Defence Centre of Excellence (CCDCOE)?
+  description: |
+    The CCDCOE is an essential part of NATO’s wider framework that develops and delivers real capabilities while being a hub for cyber subject matter expertise. The CCDCOE provides cyber research, training and exercise in the four core areas of technology, strategy operation and law.
   author:
     - name: Cdr Michael Widmann, Leading the strategic part of Locked Shields
       role: Strategy Branch Chief
@@ -524,7 +517,10 @@
   place: Harlem Stage
   time: "13:50"
   title: Digging into the technical setup of the exercise
-  description:
+  description: |
+    The Locked Shields exercise network is set up every year to incorporate new threats that have been observed in the real world and new technologies that provide a challenge for the Blue Teams. The entire network for LS2019 comprised of more than 4500 virtual machines and 1100 networks. The playground included complex systems which branched out into the physical world, such as power distribution, 4G communications and marine traffic control.
+    
+    Silver will talk about what the development process for the exercise looks like, who are the people involved and what kind of effort it takes. Using Locked Shields 2019 network as an example, Silver will go into details about what systems were in the Blue Team network and how they were set up to provide a challenge for the defending teams.
   author:
     - name: Silver Saks, Green Team Leader
       role: Technology Researcher
@@ -569,7 +565,12 @@
   place: Harlem Stage
   time: "14:15"
   title: Red Teams view from the exercise
-  description:
+  description: |
+    The focus of Locked Shields exercises is to train the Blue Teams. Therefore, Red Team members are mainly considered as the ‘work-force’ to challenge the Blue Teams. In principle, the RT uses a white-box approach at first, but the situation changes quickly after the exercise starts.
+    
+    The main challenge for RT in Locked Shields context is to compile a large proficient team to "entertain" all Blue Teams as equally as possible, yet to be able to handle the collaboration overhead and handover procedures. To ensure equal distribution of applied skills, the RT collaborates as one, however, it is divided into sub-teams and competence groups. Collaboration is crucial to overcome problems with fluidity and continuity of attack campaigns (e.g. in-depth penetration objectives and persistence within compromised networks instead of opportunistic jabs)
+    
+    Sandra will explain the keys of the Red Team Campaign in order to make the life complicated to Blue Teamers.
   author:
     - name: Sandra Bardón, Core Member Red Team
       role: Technology Researcher
@@ -585,18 +586,19 @@
   type: presentation
   place: Harlem Stage
   time: "14:40"
-  title: TBA
-  description:
+  title: A view from the Blue side of Locked Shields
+  description: |
+    What happened when the STARTEX of Locked shield was announced and how did the team handle the turmoil during the exercise? What strategy, tools and setup did the team use to defend the network? The team lead of SWE Blue Team 17 will present the key factors for success and give some hints on how a quickly assembled team can handle a large scale cyber-attack.
   author:
     - name: Erik Biverot
       role:
-      work:
-      image:
+      work: FHS
+      image: temp.png
   partner:
     - name: Johan Nilsson
       role:
-      work:
-      image:
+      work: Polisen
+      image: temp.png
   label: The Training
 
 - id: 319
@@ -642,8 +644,9 @@
   type: presentation
   place: Harlem Stage
   time: "15:45"
-  title: Presenting how we know what's happen in the exercise and measuring
-  description:
+  title: Presenting how we know what’s happening in the exercise and measuring
+  description: |
+    Who knows what is happening and how do we measure it? Exercise leader controls the overall exercise and he needs to make decisions during the exercise. Situation awareness Team's main role is to provide meaningful information to support his decision making. At the same time, other participants need meaningful feedback, so that they know, how are they doing in the different areas of the exercise.
   author:
     - name: Jarkko Huttunen, Team Leader Yellow Team
       role: Head of Solutions
@@ -696,8 +699,9 @@
   type: presentation
   place: Harlem Stage
   time: "16:10"
-  title: Presenting the strategic part of the exercise and how it connects to the technical exercise
-  description:
+  title: The importance of cyber strategic decision making exercises
+  description: |
+    The cyber domain has become integral part of our daily lives. The Locked Shields strategic decision making exercise studies the impact that exploited vulnerabilities can have at a geopolitical level. Locked Shields examines the following questions: How do nations respond to cyber attacks both domestically and internationally? What is the role of international law? Are our leaders prepared to effectively communicate how they will respond to cyber attacks with the population they lead?
   author:
     - name: Cdr Michael Widmann, Leading the strategic part of Locked Shields
       role: Strategy Branch Chief
@@ -1169,10 +1173,7 @@
       work:
       image: marina-krotofil.png
   partner:
-    - name: Vyacheslav Kopeytsev
-      role: Security Researcher
-      work: Kaspersky
-      image: vyacheslav-kopeytsev.png
+    - name:
   permalink: program/presentations/marina-krotofil/
   label: The Culture
 

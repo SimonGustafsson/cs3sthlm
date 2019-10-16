@@ -17,10 +17,12 @@ layout: default
           <span class="alt-title alt-title-small">{{ item.name }}</span>
         </div>
 
+        {% if item.role != null %}
         <div class="post-meta-item">
           <h4 class="sub-headline sub-headline-gray">Role</h4>
           <span class="alt-title alt-title-small">{{ item.role }}</span>
         </div>
+        {% endif %}
 
         {% if item.work != null %}
         <div class="post-meta-item">

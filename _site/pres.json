@@ -28,7 +28,7 @@
 
 
 {
-	"description": ""
+	"description": "<p>The CCDCOE is an essential part of NATO’s wider framework that develops and delivers real capabilities while being a hub for cyber subject matter expertise. The CCDCOE provides cyber research, training and exercise in the four core areas of technology, strategy operation and law.</p>"
 },
 
 
@@ -63,11 +63,17 @@
 
 
 
+
+
 {
 	"description": "<p>The use of TLS encryption has greatly improved our privacy on the Internet. Unfortunately malware has also benefited from the “HTTPS is the new TCP” trend we’ve been seeing for the past few years. Botnets, trojans and APT groups now leverage TLS encryption in order to avoid network based detection. In this talk Erik will perform live TLS interception and decryption in order to show how defenders can analyze otherwise encrypted communications in real-time.</p><p>Tools used: PolarProxy, Wireshark and NetworkMiner</p>"
 },
 
 
+
+{
+	"description": "<p>What happened when the STARTEX of Locked shield was announced and how did the team handle the turmoil during the exercise? What strategy, tools and setup did the team use to defend the network? The team lead of SWE Blue Team 17 will present the key factors for success and give some hints on how a quickly assembled team can handle a large scale cyber-attack.</p>"
+},
 
 
 
@@ -207,6 +213,12 @@
 
 {
 	"description": ""
+},
+
+
+
+{
+	"description": "<p>Who knows what is happening and how do we measure it? Exercise leader controls the overall exercise and he needs to make decisions during the exercise. Situation awareness Team’s main role is to provide meaningful information to support his decision making. At the same time, other participants need meaningful feedback, so that they know, how are they doing in the different areas of the exercise.</p>"
 },
 
 
@@ -304,7 +316,7 @@
 
 
 {
-	"description": ""
+	"description": "The focus of Locked Shields exercises is to train the Blue Teams. Therefore, Red Team members are mainly considered as the ‘work-force’ to challenge the Blue Teams. In principle, the RT uses a white-box approach at first, but the situation changes quickly after the exercise starts.The main challenge for RT in Locked Shields context is to compile a large proficient team to \"entertain\" all Blue Teams as equally as possible, yet to be able to handle the collaboration overhead and handover procedures. To ensure equal distribution of applied skills, the RT collaborates as one, however, it is divided into sub-teams and competence groups. Collaboration is crucial to overcome problems with fluidity and continuity of attack campaigns (e.g. in-depth penetration objectives and persistence within compromised networks instead of opportunistic jabs)Sandra will explain the keys of the Red Team Campaign in order to make the life complicated to Blue Teamers."
 },
 
 
@@ -320,7 +332,7 @@
 
 
 {
-	"description": ""
+	"description": "The Locked Shields exercise network is set up every year to incorporate new threats that have been observed in the real world and new technologies that provide a challenge for the Blue Teams. The entire network for LS2019 comprised of more than 4500 virtual machines and 1100 networks. The playground included complex systems which branched out into the physical world, such as power distribution, 4G communications and marine traffic control.Silver will talk about what the development process for the exercise looks like, who are the people involved and what kind of effort it takes. Using Locked Shields 2019 network as an example, Silver will go into details about what systems were in the Blue Team network and how they were set up to provide a challenge for the defending teams."
 },
 
 

@@ -245,7 +245,7 @@
   
    {
      
-        "title"    : "Presenting the organization behind the exercise",
+        "title"    : "What is the NATO Cooperative Cyber Defence Centre of Excellence (CCDCOE)?",
         "url"      : "/program/presentations/cdr-michael-widmann/",
         "path"     : "/program/presentations/cdr-michael-widmann/"
      
@@ -293,6 +293,14 @@
   
    {
      
+        "title"    : "Network ForensICS Training",
+        "url"      : "/program/trainings/erik-hjelmvik/",
+        "path"     : "/program/trainings/erik-hjelmvik/"
+     
+   },
+  
+   {
+     
         "title"    : "TLS Interception and Decryption *LIVE DEMO*",
         "url"      : "/program/presentations/erik-hjelmvik/",
         "path"     : "/program/presentations/erik-hjelmvik/"
@@ -301,9 +309,9 @@
   
    {
      
-        "title"    : "Network ForensICS Training",
-        "url"      : "/program/trainings/erik-hjelmvik/",
-        "path"     : "/program/trainings/erik-hjelmvik/"
+        "title"    : "A view from the Blue side of Locked Shields",
+        "url"      : "/program/presentations/erik-johan/",
+        "path"     : "/program/presentations/erik-johan/"
      
    },
   
@@ -316,14 +324,6 @@
         "title"    : "Testbed Evaluation of DoS Attacks on Continuously Controlled Processes",
         "url"      : "/expo/presentations/henrik-sandberg/",
         "path"     : "/expo/presentations/henrik-sandberg/"
-     
-   },
-  
-   {
-     
-        "title"    : "Marcin Dudek",
-        "url"      : "/about/archive/speakers/marcin-dudek",
-        "path"     : "/about/archive/speakers/marcin-dudek"
      
    },
   
@@ -809,6 +809,14 @@
   
    {
      
+        "title"    : "Marcin Dudek",
+        "url"      : "/about/archive/speakers/marcin-dudek",
+        "path"     : "/about/archive/speakers/marcin-dudek"
+     
+   },
+  
+   {
+     
         "title"    : "Program",
         "url"      : "/program/",
         "path"     : "/program/"
@@ -837,7 +845,15 @@
   
    {
      
-        "title"    : "Presenting how we know what's happen in the exercise and measuring",
+        "title"    : "TBA",
+        "url"      : "/program/presentations/janek-pelzer/",
+        "path"     : "/program/presentations/janek-pelzer/"
+     
+   },
+  
+   {
+     
+        "title"    : "Presenting how we know what’s happening in the exercise and measuring",
         "url"      : "/program/presentations/jarkko-huttunen/",
         "path"     : "/program/presentations/jarkko-huttunen/"
      
