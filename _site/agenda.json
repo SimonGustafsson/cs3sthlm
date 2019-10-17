@@ -210,15 +210,15 @@
 	{
 		"id"		: "207",
 		"day"		: "daytwo",
-		"type"		: "common",
+		"type"		: "presentation",
 		"time"		: "13:30",
-		"title" 	: "Partner Presentation",
-		"description"	: "",
+		"title" 	: "We are all vulnerable",
+		"description"	: "<p>A tale of two databases, a panda and someone who was listening.</p><p>Recorded Future correlated information from the Chinese (CNNVD) and the American (NVD) vulnerability databases and found some interesting results.</p><p>Just by looking at these data sources - are you able to understand what vulnerabilities are being used by the most advanced Chinese APT groups?</p>",
 		
-		"name"		: "Recorded Future",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		"name"		: "Magnus Lundgren",
+		"role"		: "Sales Director",
+		"work"		: "Recorded Future",
+		"image"		: "https://cs3sthlm.se/assets/speakers/magnus-lundgren.png",
 		
 		
 		"label"		: "",
