@@ -188,7 +188,13 @@ image: /assets/photos/cs3sthlm-expo.jpg
           <div class="col-8-8 column-block-bit">
 
             <h4 class="sub-headline sub-headline-yellow">Biography</h4>
+
+            {% assign biosize = speaker.bio.size %}
+            {% if biosize < 350 %}
+            <p class="single-row col-6-8">{{ speaker.bio }}</p>
+            {% else %}
             <p class="duo-columns">{{ speaker.bio }}</p>
+            {% endif %}
 
           </div>
           {% endif %}

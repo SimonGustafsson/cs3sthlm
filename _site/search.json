@@ -293,17 +293,17 @@
   
    {
      
-        "title"    : "Network ForensICS Training",
-        "url"      : "/program/trainings/erik-hjelmvik/",
-        "path"     : "/program/trainings/erik-hjelmvik/"
+        "title"    : "TLS Interception and Decryption *LIVE DEMO*",
+        "url"      : "/program/presentations/erik-hjelmvik/",
+        "path"     : "/program/presentations/erik-hjelmvik/"
      
    },
   
    {
      
-        "title"    : "TLS Interception and Decryption *LIVE DEMO*",
-        "url"      : "/program/presentations/erik-hjelmvik/",
-        "path"     : "/program/presentations/erik-hjelmvik/"
+        "title"    : "Network ForensICS Training",
+        "url"      : "/program/trainings/erik-hjelmvik/",
+        "path"     : "/program/trainings/erik-hjelmvik/"
      
    },
   
@@ -888,6 +888,14 @@
         "title"    : "Secure your MES - the bridge between IT and OT",
         "url"      : "/program/presentations/khalid-ansari/",
         "path"     : "/program/presentations/khalid-ansari/"
+     
+   },
+  
+   {
+     
+        "title"    : "We are all vulnerable",
+        "url"      : "/expo/presentations/magnus-lundgren/",
+        "path"     : "/expo/presentations/magnus-lundgren/"
      
    },
   

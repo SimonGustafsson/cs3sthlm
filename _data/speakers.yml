@@ -1038,6 +1038,36 @@
   training:
     - active: none
 
+- id: 54
+  type: expotalk
+  permalink:
+  name: Magnus Lundgren
+  role: Sales Director
+  work: Recorded Future
+  country: Sweden
+  shortcode: SE
+  image: magnus-lundgren.png
+  bio: Magnus Lundgren has 20 years experience from the fields of Telecom, IoT and Security. He holds a MSc in Electrical Engineering from Chalmers University of Technology and works for Recorded Future.
+  date:
+  time:
+  place:
+  speaker:
+    - name: Magnus Lundgren
+      role: Sales Director
+      image: magnus-lundgren
+  presentation:
+    - active: live
+      subject: We are all vulnerable
+      permalink: expo/presentations/magnus-lundgren/
+      partner:
+      description: |
+        A tale of two databases, a panda and someone who was listening.
+
+        Recorded Future correlated information from the Chinese (CNNVD) and the American (NVD) vulnerability databases and found some interesting results.
+        
+        Just by looking at these data sources - are you able to understand what vulnerabilities are being used by the most advanced Chinese APT groups? 
+  training:
+    - active: none
 
 - id: 7
   type: presentation
@@ -2095,3 +2125,7 @@
       description:
   training:
     - active: none
+
+
+
+

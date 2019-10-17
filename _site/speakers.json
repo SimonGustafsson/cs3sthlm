@@ -925,6 +925,48 @@
 	},
 
 	{
+		"id"		: "54",
+		"type"		: "expotalk",
+		"name"		: "Magnus Lundgren",
+		"role"		: "Sales Director",
+		"work"		: "Recorded Future",
+		"country"	: "Sweden",
+		"shortcode"	: "SE",
+		"status"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/magnus-lundgren.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"We are all vulnerable",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": "<p>A tale of two databases, a panda and someone who was listening.</p><p>Recorded Future correlated information from the Chinese (CNNVD) and the American (NVD) vulnerability databases and found some interesting results.</p><p>Just by looking at these data sources - are you able to understand what vulnerabilities are being used by the most advanced Chinese APT groups?</p>"
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": "<p>Magnus Lundgren has 20 years experience from the fields of Telecom, IoT and Security. He holds a MSc in Electrical Engineering from Chalmers University of Technology and works for Recorded Future.</p>"
+	},
+
+	{
 		"id"		: "7",
 		"type"		: "presentation",
 		"name"		: "Marina Krotofil",

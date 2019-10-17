@@ -63,11 +63,11 @@
 
 
 
-
-
 {
 	"description": "<p>The use of TLS encryption has greatly improved our privacy on the Internet. Unfortunately malware has also benefited from the “HTTPS is the new TCP” trend we’ve been seeing for the past few years. Botnets, trojans and APT groups now leverage TLS encryption in order to avoid network based detection. In this talk Erik will perform live TLS interception and decryption in order to show how defenders can analyze otherwise encrypted communications in real-time.</p><p>Tools used: PolarProxy, Wireshark and NetworkMiner</p>"
 },
+
+
 
 
 
@@ -240,6 +240,8 @@
 {
 	"description": "<p>The presentation will be geared towards asset-owners, primarily fromthe manufacturing sector. However, other industries may also benefit.I intend to present how we, as an asset-owner, are approaching thechallenge of securing our Manufacturing Execution Systems (MES).  Iwill briefly discuss what an MES system is and why do mostmanufacturing industries need it.</p><p>An MES system bridges IT and OT networks – it interfaces with ERP onthe IT side and Automation layer (PLCs, etc.) on the OT side.  Andalso interfaces with Laboratory and other systems at the same level. Iwill briefly go into the reasons why the MES needs to talk to both ITand OT.  And how it is the air-gap myth-buster!</p><p>As an MES is exposed to the IT side, and hence indirectly to theInternet, it is critical we secure it.  I will discuss how carefulnetwork segmentation will help in this cause.</p><p>OPC is a common protocol used by most MES systems for interfacing withvarious Automation systems. I will discuss our attempts at securingour legacy OPC-DA communication interfaces, and how we migrated to andare securing our current OPC-UA interfaces.  Will go into securityfeatures afforded by the OPC-UA specification and how just moving toOPC-UA does not guarantee security.</p><p>In addition, I will present other security controls that may bedeployed to increase security posture of a MES system.</p><p>Finally, I will end the presentation with the argument for absoluteneed for developing strong and verifiable disaster recovery plans (DR)and business continuity plans (BCP) for when MES goes down.  And whatwould such a BCP typically comprise of.</p>"
 },
+
+
 
 
 
