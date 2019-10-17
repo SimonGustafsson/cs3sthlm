@@ -221,6 +221,11 @@
 		"image"		: "https://cs3sthlm.se/assets/speakers/magnus-lundgren.png",
 		
 		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
 		"label"		: "",
 		"place" 	: "Harlem Stage"
 	},
