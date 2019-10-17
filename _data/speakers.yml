@@ -691,7 +691,7 @@
   work: Arctic Security
   country: Finland
   shortcode: FI
-  image: temp.png
+  image: jarkko-huttunen.png
   bio: Jarkko is a head of solutions in Arctic Security with over 15 years information security experience. He has been working globally with both public and private sector. His main role has been in customer support and consulting related to AbuseSA threat intel platform. Jarkko has extensive experience in cyber defence exercises. He has been part of the Locked Shields since 2012 and has been one of the leaders of the exercise since 2013. His team's main tasks in the Locked Shields is the situation awareness and reporting.
   date:
   time:
@@ -699,7 +699,7 @@
   speaker:
     - name: Jarkko Huttunen
       role: Head of Solutions
-      image: temp
+      image: jarkko-huttunen
   presentation:
     - active: live
       subject: Presenting how we know what’s happening in the exercise and measuring
@@ -2089,7 +2089,7 @@
       image: temp
   presentation:
     - active: live
-      subject: TBA
+      subject: Introduction to Malcolm
       permalink: program/presentations/janek-pelzer/
       partner:
       description:

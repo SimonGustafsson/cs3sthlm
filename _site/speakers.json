@@ -639,7 +639,7 @@
 		"country"	: "Finland",
 		"shortcode"	: "FI",
 		"status"	: "",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/temp.png",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/jarkko-huttunen.png",
 		
 		
 		
@@ -2033,7 +2033,7 @@
 		"presentation":{
 		
 			"active": 	"live",
-			"title": 	"TBA",
+			"title": 	"Introduction to Malcolm",
 			"partner":	"",
 			"role":		"",
 			"work":		"",

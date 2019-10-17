@@ -1,5 +1,5 @@
 ---
-title: TBA
+title: Introduction to Malcolm
 permalink: "/program/presentations/janek-pelzer/"
 layout: presentation
 speaker:

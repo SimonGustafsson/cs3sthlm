@@ -6,7 +6,7 @@ speaker:
 - name: Jarkko Huttunen
   role: Head of Solutions
   work: Arctic Security
-  image: temp
+  image: jarkko-huttunen
 id: presentation
 published: true
 ---
