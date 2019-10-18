@@ -973,14 +973,6 @@
   
    {
      
-        "title"    : "CVSS for ICS; Gauging a tennis game with number of goals",
-        "url"      : "/program/presentations/prasanna-n/",
-        "path"     : "/program/presentations/prasanna-n/"
-     
-   },
-  
-   {
-     
    },
   
    {
@@ -1012,6 +1004,14 @@
         "title"    : "Ultra responsible disclosure – or how to deal with a 0-day in critical infrastructure",
         "url"      : "/program/presentations/rikard-bodforss/",
         "path"     : "/program/presentations/rikard-bodforss/"
+     
+   },
+  
+   {
+     
+        "title"    : "TBA",
+        "url"      : "/expo/presentations/robert-bearsby/",
+        "path"     : "/expo/presentations/robert-bearsby/"
      
    },
   

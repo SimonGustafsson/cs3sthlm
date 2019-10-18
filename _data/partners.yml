@@ -118,3 +118,42 @@
   e-order: 6
   e-type: small
   postorder: 8
+
+- id: 10
+  level: partner
+  company: Romab
+  logo: romab.png
+  url: https://romab.com
+  bio:
+  type: small
+  order: 8
+  expo: "no"
+  e-order: 6
+  e-type: small
+  postorder: 8
+
+- id: 11
+  level: partner
+  company: Management Doctors
+  logo: management-doctors.png
+  url: https://managementdoctors.se
+  bio:
+  type: small
+  order: 8
+  expo: "no"
+  e-order: 6
+  e-type: small
+  postorder: 8
+
+- id: 12
+  level: partner
+  company: Bedriftsystemer
+  logo: bedriftsystemer.png
+  url: https://insec.no
+  bio:
+  type: small
+  order: 8
+  expo: "no"
+  e-order: 6
+  e-type: small
+  postorder: 8

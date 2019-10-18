@@ -120,13 +120,19 @@
 
 - id: 206
   day: daytwo
-  type: common
+  type: presentation
   place: Harlem Stage
   time: "13:00"
   title: Partner Presentation
+  description:
   author:
-    - name: F-Secure
-  permalink:
+    - name: Robert Bearsby
+      role: Security Consultant
+      work: F-Secure Consulting
+      image: robert-bearsby.png
+  partner:
+    - name:
+  permalink: expo/presentations/robert-bearsby/
 
 - id: 207
   day: daytwo
@@ -179,13 +185,19 @@
 
 - id: 210
   day: daytwo
-  type: common
+  type: presentation
   place: Harlem Stage
   time: "14:30"
-  title: Partner Presentation
+  title: Cyber Security for OT/IIoT/ICS – what we have learned 1000 installations later
+  description:
   author:
-    - name: Nozomi
-  permalink:
+    - name: Michael Weng
+      role: Sales Engineer
+      work: Nozomi Networks
+      image: michael-weng.png
+  partner:
+    - name:
+  permalink: expo/presentations/michael-weng/
 
 - id: 211
   day: daytwo
@@ -602,14 +614,15 @@
     What happened when the STARTEX of Locked shield was announced and how did the team handle the turmoil during the exercise? What strategy, tools and setup did the team use to defend the network? The team lead of SWE Blue Team 17 will present the key factors for success and give some hints on how a quickly assembled team can handle a large scale cyber-attack.
   author:
     - name: Erik Biverot
-      role:
-      work: FHS
-      image: temp.png
+      role: Senior Course coordinator
+      work: Swedish Defence University
+      image: erik-biverot.png
   partner:
     - name: Johan Nilsson
       role:
       work: Polisen
       image: temp.png
+  permalink: program/presentations/erik-johan/
   label: The Training
 
 - id: 319
@@ -747,7 +760,7 @@
   day: daythree
   type: common
   place: ICS Lab
-  time: "17:15"
+  time: "17:45"
   title: Capture the Flag Results
   author:
     - name: Presented by The DHS Cybersecurity and Infrastructure Agency
@@ -834,23 +847,20 @@
 
 - id: 404
   day: dayfour
-  type: presentation
+  type: common
   place: Main Stage
   time: "09:50"
-  title: CVSS for ICS; Gauging a tennis game with number of goals
-  description: |
-    Patching known security vulnerabilities is one of the most essential task in any OT security program. Utilities having large number of patches to be applied in various cyber assets, use CVSS (Common Vulnerability Scoring System) metrics of the vulnerabilities to prioritize in applying patches. This prioritization however doesn’t serve well the purpose of patching at all times, particularly in OT industry; the reason being that CVSS has not been designed with OT security in mind. A low scored vulnerability that left unpatched can bring in high-risk to the OT environment. Environmental metrics have also similar challenges. Moreover, finding a single scoring system that fits every utility doesn’t seems to be realistic; at least in near future. Hence, there is clearly a need for a better approach to prioritize among various patches, that should take the cyber-physical impact on OT also into account.
-    
-    This presentation illustrates a few examples of vulnerabilities and their respective CVSS score, in order to understand why these may fail to reveal the real impact to the ICS environment. Also, exhibits a possible better approach for prioritizing patch irrespective of the vendor provided score. For each asset in an OT ecosystem that has a specified functionality, the top priority would be to secure the functionality. For example, the functionality could be that a controller sending critical command to the field device or a HMI which displays the actual field data. This approach serves the purpose of securing the functionality of the OT system rather than focusing on confidentiality, integrity and availability.
+  title: TBA
+  description:
   author:
-    - name: Prasanna N
-      role: R&D Engineer
-      work: ABB GISPL
-      image: prasanna-n.png
+    - name:
+      role:
+      work:
+      image:
   partner:
     - name:
-  permalink: program/presentations/prasanna-n/
-  label: The Threats
+  permalink:
+  label:
 
 - id: 405
   day: dayfour

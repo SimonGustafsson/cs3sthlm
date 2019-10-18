@@ -508,12 +508,12 @@
 		"id"		: "44",
 		"type"		: "presentation",
 		"name"		: "Erik Biverot",
-		"role"		: "",
-		"work"		: "FHS",
+		"role"		: "Senior Course coordinator",
+		"work"		: "Swedish Defence University",
 		"country"	: "Sweden",
 		"shortcode"	: "SE",
 		"status"	: "",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/temp.png",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/erik-biverot.png",
 		
 		
 		
@@ -543,7 +543,7 @@
 		},
 		
 
-		"bio": ""
+		"bio": "<p>Erik is a Senior Course coordinator at the Centre for Societal Security at the Swedish Defence University.</p><p>Erik has almost 30 years of service at the Swedish armed Forces (Army Lt Col), Swedish Civil Contingencies Agency (CERT-SE) and Swedish Defence University focusing on Electronic Warfare, IT &amp; Information security.</p><p>Erik was the Team Leader for the Swedish Blue Team during Locked Shields 2019.</p>"
 	},
 
 	{
@@ -1555,48 +1555,6 @@
 	},
 
 	{
-		"id"		: "14",
-		"type"		: "presentation",
-		"name"		: "Prasanna N",
-		"role"		: "R&D Engineer",
-		"work"		: "ABB GISPL",
-		"country"	: "India",
-		"shortcode"	: "IN",
-		"status"	: "",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/prasanna-n.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"CVSS for ICS; Gauging a tennis game with number of goals",
-			"partner":	"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/.png",
-			"description": "<p>Patching known security vulnerabilities is one of the most essential task in any OT security program. Utilities having large number of patches to be applied in various cyber assets, use CVSS (Common Vulnerability Scoring System) metrics of the vulnerabilities to prioritize in applying patches. This prioritization however doesn’t serve well the purpose of patching at all times, particularly in OT industry; the reason being that CVSS has not been designed with OT security in mind. A low scored vulnerability that left unpatched can bring in high-risk to the OT environment. Environmental metrics have also similar challenges. Moreover, finding a single scoring system that fits every utility doesn’t seems to be realistic; at least in near future. Hence, there is clearly a need for a better approach to prioritize among various patches, that should take the cyber-physical impact on OT also into account.</p><p>This presentation illustrates a few examples of vulnerabilities and their respective CVSS score, in order to understand why these may fail to reveal the real impact to the ICS environment. Also, exhibits a possible better approach for prioritizing patch irrespective of the vendor provided score. For each asset in an OT ecosystem that has a specified functionality, the top priority would be to secure the functionality. For example, the functionality could be that a controller sending critical command to the field device or a HMI which displays the actual field data. This approach serves the purpose of securing the functionality of the OT system rather than focusing on confidentiality, integrity and availability.</p>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "",
-			"excerpt":	""
-		},
-		
-
-		"bio": "<p>Prasanna is currently an R&amp;D Engineer in ABB India. In this role he facilitates the realization of cyber security controls and management functions for Grid Integration products and services by participating in the R&amp;D process. Prior to joining ABB, he has been working with Symantec as a Threat Analyst, holds a Bachelor of Information Technology and Master of Information Security and Cyber Forensics. In his seven years of experience with both IT and OT security, he had experience in Vulnerability Management, Vulnerability Assessment, Security Event Monitoring, Patch Management, Security Policy Analysis and Cyber Security Training.</p>"
-	},
-
-	{
 		"id"		: "27",
 		"type"		: "presentation",
 		"name"		: "Ragnar Sundblad",
@@ -1762,6 +1720,48 @@
 		
 
 		"bio": "<p>Rikard Bodforss works as CEO and Senior Partner at Bodforss Consulting AB in Sweden. He has over 25 years of experience working with IT and information security from both private and public sector. Rikard holds CISSP and CISA certifications and was awarded the Thomas Fitzgerald award by ISACA for the highest score in the world on the CISA exam in 2009. His specialty is securing industrial control systems and public critical infrastructure. His sector experience ranges from automotive, finance and healthcare to energy and water. Before founding Bodforss Consulting he worked as CIO for Gothenburg Sustainable Waste and Water. Rikard is a popular speaker on international conferences, and in his free time he is part of the team behind the Swedish security podcast “Säkerhetspodcasten”. Follow him on Twitter: @rbodforss</p>"
+	},
+
+	{
+		"id"		: "57",
+		"type"		: "expotalk",
+		"name"		: "Robert Bearsby",
+		"role"		: "Security Consultant",
+		"work"		: "F-Secure Consulting",
+		"country"	: "United Kingdom",
+		"shortcode"	: "UK",
+		"status"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/temp.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"TBA",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": "<p>Attack Path Mapping (APM) is an approach to performing attack simulations against sensitive and/or critical infrastructure. In this talk Robert, will introduce the APM approach and provide examples of host it has been effective in past engagements.</p>"
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": ""
 	},
 
 	{

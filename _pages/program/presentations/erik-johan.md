@@ -4,9 +4,9 @@ permalink: "/program/presentations/erik-johan/"
 layout: presentation
 speaker:
 - name: Erik Biverot
-  role: 
-  work: FHS
-  image: temp
+  role: Senior Course coordinator
+  work: Swedish Defence University
+  image: erik-biverot
 - name: Johan Nilsson
   role: 
   work: Polisen

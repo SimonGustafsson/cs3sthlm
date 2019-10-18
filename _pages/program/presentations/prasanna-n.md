@@ -8,7 +8,7 @@ speaker:
   work: ABB GISPL
   image: prasanna-n
 id: presentation
-published: true
+published: false
 ---
 
 Patching known security vulnerabilities is one of the most essential task in any OT security program. Utilities having large number of patches to be applied in various cyber assets, use CVSS (Common Vulnerability Scoring System) metrics of the vulnerabilities to prioritize in applying patches. This prioritization however doesn’t serve well the purpose of patching at all times, particularly in OT industry; the reason being that CVSS has not been designed with OT security in mind. A low scored vulnerability that left unpatched can bring in high-risk to the OT environment. Environmental metrics have also similar challenges. Moreover, finding a single scoring system that fits every utility doesn’t seems to be realistic; at least in near future. Hence, there is clearly a need for a better approach to prioritize among various patches, that should take the cyber-physical impact on OT also into account.

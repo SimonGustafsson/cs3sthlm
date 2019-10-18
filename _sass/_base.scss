@@ -3422,7 +3422,7 @@ a {
 }
 
 /**
-  PARTNER LIST */
+   LIST */
 
 .partner- {
   display: block;
@@ -3533,7 +3533,7 @@ a {
     margin-bottom: 24px;
     margin-right: 24px;
 
-    &:nth-child(4) {
+    &:nth-child(4), &:nth-child(8) {
       margin-right: 0;
     }
 

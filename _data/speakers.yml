@@ -483,19 +483,24 @@
   type: presentation
   permalink:
   name: Erik Biverot
-  role: 
-  work: FHS
+  role: Senior Course coordinator
+  work: Swedish Defence University
   country: Sweden
   shortcode: SE
-  image: temp.png
-  bio: 
+  image: erik-biverot.png
+  bio: |
+    Erik is a Senior Course coordinator at the Centre for Societal Security at the Swedish Defence University.
+    
+    Erik has almost 30 years of service at the Swedish armed Forces (Army Lt Col), Swedish Civil Contingencies Agency (CERT-SE) and Swedish Defence University focusing on Electronic Warfare, IT & Information security.
+    
+    Erik was the Team Leader for the Swedish Blue Team during Locked Shields 2019.
   date:
   time:
   place:
   speaker:
     - name: Erik Biverot
-      role: 
-      image: temp
+      role: Senior Course coordinator
+      image: erik-biverot
   presentation:
     - active: live
       subject: A view from the Blue side of Locked Shields
@@ -1636,34 +1641,34 @@
     - active: none
 
 
-- id: 14
-  type: presentation
-  permalink:
-  name: Prasanna N
-  role: R&D Engineer
-  work: ABB GISPL
-  country: India
-  shortcode: IN
-  image: prasanna-n.png
-  bio: Prasanna is currently an R&D Engineer in ABB India. In this role he facilitates the realization of cyber security controls and management functions for Grid Integration products and services by participating in the R&D process. Prior to joining ABB, he has been working with Symantec as a Threat Analyst, holds a Bachelor of Information Technology and Master of Information Security and Cyber Forensics. In his seven years of experience with both IT and OT security, he had experience in Vulnerability Management, Vulnerability Assessment, Security Event Monitoring, Patch Management, Security Policy Analysis and Cyber Security Training.
-  date:
-  time:
-  place:
-  speaker:
-    - name: Prasanna N
-      role: R&D Engineer
-      image: prasanna-n
-  presentation:
-    - active: live
-      subject: CVSS for ICS; Gauging a tennis game with number of goals
-      permalink: program/presentations/prasanna-n/
-      partner:
-      description: |
-        Patching known security vulnerabilities is one of the most essential task in any OT security program. Utilities having large number of patches to be applied in various cyber assets, use CVSS (Common Vulnerability Scoring System) metrics of the vulnerabilities to prioritize in applying patches. This prioritization however doesn’t serve well the purpose of patching at all times, particularly in OT industry; the reason being that CVSS has not been designed with OT security in mind. A low scored vulnerability that left unpatched can bring in high-risk to the OT environment. Environmental metrics have also similar challenges. Moreover, finding a single scoring system that fits every utility doesn’t seems to be realistic; at least in near future. Hence, there is clearly a need for a better approach to prioritize among various patches, that should take the cyber-physical impact on OT also into account.
+# - id: 14
+#   type: presentation
+#   permalink:
+#   name: Prasanna N
+#   role: R&D Engineer
+#   work: ABB GISPL
+#   country: India
+#   shortcode: IN
+#   image: prasanna-n.png
+#   bio: Prasanna is currently an R&D Engineer in ABB India. In this role he facilitates the realization of cyber security controls and management functions for Grid Integration products and services by participating in the R&D process. Prior to joining ABB, he has been working with Symantec as a Threat Analyst, holds a Bachelor of Information Technology and Master of Information Security and Cyber Forensics. In his seven years of experience with both IT and OT security, he had experience in Vulnerability Management, Vulnerability Assessment, Security Event Monitoring, Patch Management, Security Policy Analysis and Cyber Security Training.
+#   date:
+#   time:
+#   place:
+#   speaker:
+#     - name: Prasanna N
+#       role: R&D Engineer
+#       image: prasanna-n
+#   presentation:
+#     - active: live
+#       subject: CVSS for ICS; Gauging a tennis game with number of goals
+#       permalink: program/presentations/prasanna-n/
+#       partner:
+#       description: |
+#         Patching known security vulnerabilities is one of the most essential task in any OT security program. Utilities having large number of patches to be applied in various cyber assets, use CVSS (Common Vulnerability Scoring System) metrics of the vulnerabilities to prioritize in applying patches. This prioritization however doesn’t serve well the purpose of patching at all times, particularly in OT industry; the reason being that CVSS has not been designed with OT security in mind. A low scored vulnerability that left unpatched can bring in high-risk to the OT environment. Environmental metrics have also similar challenges. Moreover, finding a single scoring system that fits every utility doesn’t seems to be realistic; at least in near future. Hence, there is clearly a need for a better approach to prioritize among various patches, that should take the cyber-physical impact on OT also into account.
         
-        This presentation illustrates a few examples of vulnerabilities and their respective CVSS score, in order to understand why these may fail to reveal the real impact to the ICS environment. Also, exhibits a possible better approach for prioritizing patch irrespective of the vendor provided score. For each asset in an OT ecosystem that has a specified functionality, the top priority would be to secure the functionality. For example, the functionality could be that a controller sending critical command to the field device or a HMI which displays the actual field data. This approach serves the purpose of securing the functionality of the OT system rather than focusing on confidentiality, integrity and availability.
-  training:
-    - active: none
+#         This presentation illustrates a few examples of vulnerabilities and their respective CVSS score, in order to understand why these may fail to reveal the real impact to the ICS environment. Also, exhibits a possible better approach for prioritizing patch irrespective of the vendor provided score. For each asset in an OT ecosystem that has a specified functionality, the top priority would be to secure the functionality. For example, the functionality could be that a controller sending critical command to the field device or a HMI which displays the actual field data. This approach serves the purpose of securing the functionality of the OT system rather than focusing on confidentiality, integrity and availability.
+#   training:
+#     - active: none
 
 - id: 27
   type: presentation
@@ -1801,6 +1806,33 @@
         I will end my presentation with a demo of my tool for testing for this vulnerability. At least I hope to have something that could be called a tool at the time of the presentation, otherwise I’ll demo my POC code which is spectacular enough.
 
         The presentation is not deeply technical but will sometimes drop down on the wire and take a cursory glance at protocols. The main focus is on disclosure, risk management, and how suppliers not should handle vulnerability reports. And, as a serial crowd pleaser, I will throw in a demonstration to boot.
+  training:
+    - active: none
+
+- id: 57
+  type: expotalk
+  permalink:
+  name: Robert Bearsby
+  role: Security Consultant
+  work: F-Secure Consulting
+  country: United Kingdom
+  shortcode: UK
+  image: temp.png
+  bio: 
+  date:
+  time:
+  place:
+  speaker:
+    - name: Robert Bearsby
+      role: Security Consultant
+      image: temp
+  presentation:
+    - active: live
+      subject: TBA
+      permalink: expo/presentations/robert-bearsby/
+      partner:
+      description: |
+        Attack Path Mapping (APM) is an approach to performing attack simulations against sensitive and/or critical infrastructure. In this talk Robert, will introduce the APM approach and provide examples of host it has been effective in past engagements.
   training:
     - active: none
 
@@ -2174,7 +2206,6 @@
         2. Security guidelines for securing the supply chain process
   training:
     - active: none
-
 
 
 
