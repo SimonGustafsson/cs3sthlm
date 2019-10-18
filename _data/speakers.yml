@@ -479,6 +479,36 @@
   training:
     - active: none
 
+- id: 44
+  type: presentation
+  permalink:
+  name: Erik Biverot
+  role: 
+  work: FHS
+  country: Sweden
+  shortcode: SE
+  image: temp.png
+  bio: 
+  date:
+  time:
+  place:
+  speaker:
+    - name: Erik Biverot
+      role: 
+      image: temp
+  presentation:
+    - active: live
+      subject: A view from the Blue side of Locked Shields
+      permalink: program/presentations/erik-johan/
+      partner: Johan Nilsson
+      partner-role:
+      partner-work: Polisen
+      partner-image: temp
+      description: |
+        What happened when the STARTEX of Locked shield was announced and how did the team handle the turmoil during the exercise? What strategy, tools and setup did the team use to defend the network? The team lead of SWE Blue Team 17 will present the key factors for success and give some hints on how a quickly assembled team can handle a large scale cyber-attack.
+  training:
+    - active: none
+
 
 - id: 32
   type: training
@@ -947,6 +977,36 @@
   training:
     - active: none
 
+- id: 45
+  type: presentation
+  permalink:
+  name: Johan Nilsson
+  role: 
+  work: Polisen
+  country: Sweden
+  shortcode: SE
+  image: temp.png
+  bio: 
+  date:
+  time:
+  place:
+  speaker:
+    - name: Johan Nilsson
+      role: 
+      image: temp
+  presentation:
+    - active: live
+      subject: A view from the Blue side of Locked Shields
+      permalink: program/presentations/erik-johan/
+      partner: Erik Biverot
+      partner-role:
+      partner-work: FHS
+      partner-image: temp
+      description: |
+        What happened when the STARTEX of Locked shield was announced and how did the team handle the turmoil during the exercise? What strategy, tools and setup did the team use to defend the network? The team lead of SWE Blue Team 17 will present the key factors for success and give some hints on how a quickly assembled team can handle a large scale cyber-attack.
+  training:
+    - active: none
+
 - id: 21
   type: presentation
   permalink:
@@ -1332,6 +1392,32 @@
       partner:
       description: |
         This presentation will describe how attack simulations can be generated from IT system architecture models. Attack simulations can be seen as virtual penetration tests performed en masse on large-scale system architectures. The attack simulations identifies the easiest attack vector for an hypothesized antagonist and thus supports an effective approach identifying and evaluating various mitigation strategies before their actual implementation. The presentation illustrates this design approach describing a reference architecture for load-balancing of distributed renewable energy developed as part of a larger research project.
+  training:
+    - active: none
+
+- id: 55
+  type: expotalk
+  permalink:
+  name: Michael Weng
+  role: Sales Engineer
+  work: Nozomi Networks
+  country: Denmark
+  shortcode: DK
+  image: michael-weng.png
+  bio: Experienced OT and ICS Threat Hunter and OT Systems Engineer with more than 20 years from the OT Industry. Michael has been involved in planning and building OT / ICS plants all over the world. He has credentials CISSP, GICSP, GRID. Besides that Michael has been teaching, writing blogs and worked as independent OT threat hunting consultant for the last 4 years. Since January 2019 Michael has joined Nozomi Networks as Systems Engineer for the Nordics.
+  date:
+  time:
+  place:
+  speaker:
+    - name: Michael Weng
+      role: Sales Engineer
+      image: michael-weng
+  presentation:
+    - active: live
+      subject: Cyber Security for OT/IIoT/ICS – what we have learned 1000 installations later
+      permalink: expo/presentations/michael-weng/
+      partner:
+      description:
   training:
     - active: none
 
@@ -2089,66 +2175,7 @@
   training:
     - active: none
 
-- id: 44
-  type: presentation
-  permalink:
-  name: Erik Biverot
-  role: 
-  work: FHS
-  country: Sweden
-  shortcode: SE
-  image: temp.png
-  bio: 
-  date:
-  time:
-  place:
-  speaker:
-    - name: Erik Biverot
-      role: 
-      image: temp
-  presentation:
-    - active: live
-      subject: A view from the Blue side of Locked Shields
-      permalink: program/presentations/erik-johan/
-      partner: Johan Nilsson
-      partner-role:
-      partner-work: Polisen
-      partner-image: temp
-      description: |
-        What happened when the STARTEX of Locked shield was announced and how did the team handle the turmoil during the exercise? What strategy, tools and setup did the team use to defend the network? The team lead of SWE Blue Team 17 will present the key factors for success and give some hints on how a quickly assembled team can handle a large scale cyber-attack.
-  training:
-    - active: none
 
-
-- id: 45
-  type: presentation
-  permalink:
-  name: Johan Nilsson
-  role: 
-  work: Polisen
-  country: Sweden
-  shortcode: SE
-  image: temp.png
-  bio: 
-  date:
-  time:
-  place:
-  speaker:
-    - name: Johan Nilsson
-      role: 
-      image: temp
-  presentation:
-    - active: live
-      subject: A view from the Blue side of Locked Shields
-      permalink: program/presentations/erik-johan/
-      partner: Erik Biverot
-      partner-role:
-      partner-work: FHS
-      partner-image: temp
-      description: |
-        What happened when the STARTEX of Locked shield was announced and how did the team handle the turmoil during the exercise? What strategy, tools and setup did the team use to defend the network? The team lead of SWE Blue Team 17 will present the key factors for success and give some hints on how a quickly assembled team can handle a large scale cyber-attack.
-  training:
-    - active: none
 
 
 

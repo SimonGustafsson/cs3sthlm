@@ -937,6 +937,14 @@
   
    {
      
+        "title"    : "Nozomi networks - Cyber Security for OT/IIoT/ICS – what we have learned 1000 installations later",
+        "url"      : "/expo/presentations/michael-weng/",
+        "path"     : "/expo/presentations/michael-weng/"
+     
+   },
+  
+   {
+     
         "title"    : "When will my PLC support Mirai?  The security economics of large-scale attacks against ICS",
         "url"      : "/program/presentations/mike-dodson/",
         "path"     : "/program/presentations/mike-dodson/"

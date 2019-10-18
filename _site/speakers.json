@@ -505,6 +505,48 @@
 	},
 
 	{
+		"id"		: "44",
+		"type"		: "presentation",
+		"name"		: "Erik Biverot",
+		"role"		: "",
+		"work"		: "FHS",
+		"country"	: "Sweden",
+		"shortcode"	: "SE",
+		"status"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/temp.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"A view from the Blue side of Locked Shields",
+			"partner":	"Johan Nilsson",
+			"role":		"",
+			"work":		"Polisen",
+			"image":	"https://cs3sthlm.se/assets/speakers/temp.png",
+			"description": "<p>What happened when the STARTEX of Locked shield was announced and how did the team handle the turmoil during the exercise? What strategy, tools and setup did the team use to defend the network? The team lead of SWE Blue Team 17 will present the key factors for success and give some hints on how a quickly assembled team can handle a large scale cyber-attack.</p>"
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": ""
+	},
+
+	{
 		"id"		: "32",
 		"type"		: "training",
 		"name"		: "Erik Hjelmvik",
@@ -838,6 +880,48 @@
 		
 
 		"bio": "<p>Jimmy Wylie is a Senior Adversary Hunter at Dragos who spends his days (and nights) searching for and analyzing threats to critical infrastructure. Born and raised in New Orleans, he studied Computer Science at the University of New Orleans, where he received his Bachelor’s in 2009 and his Master’s in 2012. During that time, he was introduced to reverse engineering in a university-level malware analysis class. The class went well, and he continued to tinker with it as a hobby. However, the thought of doing reverse engineering for a living only slightly surpassed his desire to sleep on a bed of nails.</p>"
+	},
+
+	{
+		"id"		: "45",
+		"type"		: "presentation",
+		"name"		: "Johan Nilsson",
+		"role"		: "",
+		"work"		: "Polisen",
+		"country"	: "Sweden",
+		"shortcode"	: "SE",
+		"status"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/temp.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"A view from the Blue side of Locked Shields",
+			"partner":	"Erik Biverot",
+			"role":		"",
+			"work":		"FHS",
+			"image":	"https://cs3sthlm.se/assets/speakers/temp.png",
+			"description": "<p>What happened when the STARTEX of Locked shield was announced and how did the team handle the turmoil during the exercise? What strategy, tools and setup did the team use to defend the network? The team lead of SWE Blue Team 17 will present the key factors for success and give some hints on how a quickly assembled team can handle a large scale cyber-attack.</p>"
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": ""
 	},
 
 	{
@@ -1216,6 +1300,48 @@
 		
 
 		"bio": "<p>Mathias’ research interests include information and cyber security based on software and systems architecture modeling and analysis. In particular the research is applied in the power industry and information systems related to physical process monitoring and control, such as SCADA and Industrial Control Systems. Much of the research revolves around developing formalisms for analyzing security vulnerabilities of system-of-systems architectures trough the means of probabilistic attack/defense graphs. Mathias is also the co-founder and chairman of the board of foreseeti, a start-up company developing products for automated and model-based attack simulations.</p>"
+	},
+
+	{
+		"id"		: "55",
+		"type"		: "expotalk",
+		"name"		: "Michael Weng",
+		"role"		: "Sales Engineer",
+		"work"		: "Nozomi Networks",
+		"country"	: "Denmark",
+		"shortcode"	: "DK",
+		"status"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/michael-weng.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Cyber Security for OT/IIoT/ICS – what we have learned 1000 installations later",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": "<p>Experienced OT and ICS Threat Hunter and OT Systems Engineer with more than 20 years from the OT Industry. Michael has been involved in planning and building OT / ICS plants all over the world. He has credentials CISSP, GICSP, GRID. Besides that Michael has been teaching, writing blogs and worked as independent OT threat hunting consultant for the last 4 years. Since January 2019 Michael has joined Nozomi Networks as Systems Engineer for the Nordics.</p>"
 	},
 
 	{
@@ -2056,90 +2182,6 @@
 		
 
 		"bio": "<p>Over 20 years of experience in cyber security as a pen tester, security consultant, SOC manager and threat intelligence manager.</p>"
-	},
-
-	{
-		"id"		: "44",
-		"type"		: "presentation",
-		"name"		: "Erik Biverot",
-		"role"		: "",
-		"work"		: "FHS",
-		"country"	: "Sweden",
-		"shortcode"	: "SE",
-		"status"	: "",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/temp.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"A view from the Blue side of Locked Shields",
-			"partner":	"Johan Nilsson",
-			"role":		"",
-			"work":		"Polisen",
-			"image":	"https://cs3sthlm.se/assets/speakers/temp.png",
-			"description": "<p>What happened when the STARTEX of Locked shield was announced and how did the team handle the turmoil during the exercise? What strategy, tools and setup did the team use to defend the network? The team lead of SWE Blue Team 17 will present the key factors for success and give some hints on how a quickly assembled team can handle a large scale cyber-attack.</p>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "",
-			"excerpt":	""
-		},
-		
-
-		"bio": ""
-	},
-
-	{
-		"id"		: "45",
-		"type"		: "presentation",
-		"name"		: "Johan Nilsson",
-		"role"		: "",
-		"work"		: "Polisen",
-		"country"	: "Sweden",
-		"shortcode"	: "SE",
-		"status"	: "",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/temp.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"A view from the Blue side of Locked Shields",
-			"partner":	"Erik Biverot",
-			"role":		"",
-			"work":		"FHS",
-			"image":	"https://cs3sthlm.se/assets/speakers/temp.png",
-			"description": "<p>What happened when the STARTEX of Locked shield was announced and how did the team handle the turmoil during the exercise? What strategy, tools and setup did the team use to defend the network? The team lead of SWE Blue Team 17 will present the key factors for success and give some hints on how a quickly assembled team can handle a large scale cyber-attack.</p>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "",
-			"excerpt":	""
-		},
-		
-
-		"bio": ""
 	}
 
 ]
