@@ -150,3 +150,27 @@
   logo: omnisiens.png
   url: https://omnisiens.se
   expo: inactive
+
+- id: 24
+  type: partner
+  level: partner
+  company: Romab
+  logo: romab.png
+  url: https://romab.com
+  expo: inactive
+
+- id: 28
+  type: partner
+  level: partner
+  company: Management Doctors
+  logo: management-doctors.png
+  url: https://managementdoctors.se
+  expo: inactive
+
+- id: 29
+  type: partner
+  level: partner
+  company: Bedriftsystemer
+  logo: bedriftsystemer.png
+  url: https://insec.no
+  expo: inactive

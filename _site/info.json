@@ -305,6 +305,54 @@
       "logo":    "https://cs3sthlm.se/assets/partners/omnisiens.png",
       "url":     "https://omnisiens.se",
       "expo":    "inactive"
+    },
+
+  
+    
+
+    
+
+    
+    { 
+      "id":      "24",
+      "type":    "partner",
+      "level":   "partner",
+      "company": "Romab",
+      "logo":    "https://cs3sthlm.se/assets/partners/romab.png",
+      "url":     "https://romab.com",
+      "expo":    "inactive"
+    },
+
+  
+    
+
+    
+
+    
+    { 
+      "id":      "28",
+      "type":    "partner",
+      "level":   "partner",
+      "company": "Management Doctors",
+      "logo":    "https://cs3sthlm.se/assets/partners/management-doctors.png",
+      "url":     "https://managementdoctors.se",
+      "expo":    "inactive"
+    },
+
+  
+    
+
+    
+
+    
+    { 
+      "id":      "29",
+      "type":    "partner",
+      "level":   "partner",
+      "company": "Bedriftsystemer",
+      "logo":    "https://cs3sthlm.se/assets/partners/bedriftsystemer.png",
+      "url":     "https://insec.no",
+      "expo":    "inactive"
     }
 
   
