@@ -683,6 +683,32 @@
   training:
     - active: none
 
+- id: 46
+  type: presentation
+  permalink:
+  name: Janek Pelzer
+  role: TBA
+  work: TBA
+  country: 
+  shortcode: 
+  image: temp.png
+  bio: 
+  date:
+  time:
+  place:
+  speaker:
+    - name: Janek Pelzer 
+      role: TBA
+      image: temp
+  presentation:
+    - active: live
+      subject: Introduction to Malcolm
+      permalink: program/presentations/janek-pelzer/
+      partner:
+      description:
+  training:
+    - active: none
+
 - id: 40
   type: presentation
   permalink:
@@ -1066,6 +1092,31 @@
         Recorded Future correlated information from the Chinese (CNNVD) and the American (NVD) vulnerability databases and found some interesting results.
         
         Just by looking at these data sources - are you able to understand what vulnerabilities are being used by the most advanced Chinese APT groups? 
+  training:
+    - active: none
+
+- id: 56
+  type: moderator
+  permalink:
+  name: Margrete Raaum
+  role: CEO
+  work: KraftCERT
+  country: Norway
+  shortcode: "NO"
+  image: margrete-raaum.png
+  bio: |
+    Margrete Raaum is CEO for KraftCERT, the Norwegian CERT (cyber security response team) for energy (oil&gas&electric), water&waste water and Industrial control system industry.
+    
+    She has a background from IC design, computer networking, and information security. She has worked on information security since 1998: for the ISP community, in academia for a number of years, as well the Norwegian Security Authority/National CERT (NSM/NorCERT) and at the grid- and transmission system operator. She was on the board of directors of FIRST (The Forum for Incident Response and Security Teams) for 8 years, serving as chairman for 2 years.
+  date:
+  time:
+  place:
+  speaker:
+    - name: Margrete Raaum
+      role: CEO
+      image: margrete-raaum
+  presentation:
+    - active: none
   training:
     - active: none
 
@@ -2098,34 +2149,6 @@
         What happened when the STARTEX of Locked shield was announced and how did the team handle the turmoil during the exercise? What strategy, tools and setup did the team use to defend the network? The team lead of SWE Blue Team 17 will present the key factors for success and give some hints on how a quickly assembled team can handle a large scale cyber-attack.
   training:
     - active: none
-
-
-- id: 46
-  type: presentation
-  permalink:
-  name: Janek Pelzer
-  role: TBA
-  work: TBA
-  country: 
-  shortcode: 
-  image: temp.png
-  bio: 
-  date:
-  time:
-  place:
-  speaker:
-    - name: Janek Pelzer 
-      role: TBA
-      image: temp
-  presentation:
-    - active: live
-      subject: Introduction to Malcolm
-      permalink: program/presentations/janek-pelzer/
-      partner:
-      description:
-  training:
-    - active: none
-
 
 
 

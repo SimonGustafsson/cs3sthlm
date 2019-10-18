@@ -631,6 +631,48 @@
 	},
 
 	{
+		"id"		: "46",
+		"type"		: "presentation",
+		"name"		: "Janek Pelzer",
+		"role"		: "TBA",
+		"work"		: "TBA",
+		"country"	: "",
+		"shortcode"	: "",
+		"status"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/temp.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Introduction to Malcolm",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": ""
+	},
+
+	{
 		"id"		: "40",
 		"type"		: "presentation",
 		"name"		: "Jarkko Huttunen",
@@ -964,6 +1006,48 @@
 		
 
 		"bio": "<p>Magnus Lundgren has 20 years experience from the fields of Telecom, IoT and Security. He holds a MSc in Electrical Engineering from Chalmers University of Technology and works for Recorded Future.</p>"
+	},
+
+	{
+		"id"		: "56",
+		"type"		: "moderator",
+		"name"		: "Margrete Raaum",
+		"role"		: "CEO",
+		"work"		: "KraftCERT",
+		"country"	: "Norway",
+		"shortcode"	: "NO",
+		"status"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/margrete-raaum.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"none",
+			"title": 	"",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": "<p>Margrete Raaum is CEO for KraftCERT, the Norwegian CERT (cyber security response team) for energy (oil&amp;gas&amp;electric), water&amp;waste water and Industrial control system industry.</p><p>She has a background from IC design, computer networking, and information security. She has worked on information security since 1998: for the ISP community, in academia for a number of years, as well the Norwegian Security Authority/National CERT (NSM/NorCERT) and at the grid- and transmission system operator. She was on the board of directors of FIRST (The Forum for Incident Response and Security Teams) for 8 years, serving as chairman for 2 years.</p>"
 	},
 
 	{
@@ -2039,48 +2123,6 @@
 			"work":		"FHS",
 			"image":	"https://cs3sthlm.se/assets/speakers/temp.png",
 			"description": "<p>What happened when the STARTEX of Locked shield was announced and how did the team handle the turmoil during the exercise? What strategy, tools and setup did the team use to defend the network? The team lead of SWE Blue Team 17 will present the key factors for success and give some hints on how a quickly assembled team can handle a large scale cyber-attack.</p>"
-		
-		},
-		
-		"training": {
-			"active": "none",
-			"title": "",
-			"partner": "",
-			"name":		"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/",
-			"description": "",
-			"excerpt":	""
-		},
-		
-
-		"bio": ""
-	},
-
-	{
-		"id"		: "46",
-		"type"		: "presentation",
-		"name"		: "Janek Pelzer",
-		"role"		: "TBA",
-		"work"		: "TBA",
-		"country"	: "",
-		"shortcode"	: "",
-		"status"	: "",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/temp.png",
-		
-		
-		
-
-		"presentation":{
-		
-			"active": 	"live",
-			"title": 	"Introduction to Malcolm",
-			"partner":	"",
-			"role":		"",
-			"work":		"",
-			"image":	"https://cs3sthlm.se/assets/speakers/.png",
-			"description": ""
 		
 		},
 		

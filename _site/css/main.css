@@ -5513,6 +5513,8 @@ p.content-intro {
   .update-group .update-close {
     text-align: center;
     padding: 12px 0; }
+  .update-group li {
+    margin-bottom: 20px; }
   .update-group li span {
     display: block;
     text-transform: uppercase;
