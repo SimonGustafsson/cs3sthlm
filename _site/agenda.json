@@ -1130,29 +1130,6 @@
 	},
 
 	{
-		"id"		: "404",
-		"day"		: "dayfour",
-		"type"		: "common",
-		"time"		: "09:50",
-		"title" 	: "TBA",
-		"description"	: "",
-		
-		"name"		: "",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "",
-		"place" 	: "Main Stage"
-	},
-
-	{
 		"id"		: "405",
 		"day"		: "dayfour",
 		"type"		: "break",

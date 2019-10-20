@@ -845,23 +845,6 @@
   author:
     - name:
 
-- id: 404
-  day: dayfour
-  type: common
-  place: Main Stage
-  time: "09:50"
-  title: TBA
-  description:
-  author:
-    - name:
-      role:
-      work:
-      image:
-  partner:
-    - name:
-  permalink:
-  label:
-
 - id: 405
   day: dayfour
   type: break
