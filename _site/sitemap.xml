@@ -142,10 +142,10 @@
 <loc>/program/presentations/dieter-sarrazyn/</loc>
 </url>
 <url>
-<loc>/program/presentations/erik-hjelmvik/</loc>
+<loc>/program/trainings/erik-hjelmvik/</loc>
 </url>
 <url>
-<loc>/program/trainings/erik-hjelmvik/</loc>
+<loc>/program/presentations/erik-hjelmvik/</loc>
 </url>
 <url>
 <loc>/program/presentations/erik-johan/</loc>
@@ -172,9 +172,6 @@
 <loc>/about/archive/speakers/joe-slowik</loc>
 </url>
 <url>
-<loc>/about/archive/speakers/kristina-blomqvist</loc>
-</url>
-<url>
 <loc>/about/archive/speakers/william-middleton</loc>
 </url>
 <url>
@@ -182,6 +179,9 @@
 </url>
 <url>
 <loc>/about/archive/speakers/margarita-jaitner</loc>
+</url>
+<url>
+<loc>/about/archive/speakers/omer-zohar</loc>
 </url>
 <url>
 <loc>/about/archive/speakers/erik-hjelmvik</loc>
@@ -256,6 +256,9 @@
 <loc>/expo/presentations/</loc>
 </url>
 <url>
+<loc>/</loc>
+</url>
+<url>
 <loc>/expo/agenda/</loc>
 </url>
 <url>
@@ -283,7 +286,7 @@
 <loc>/program/presentations/</loc>
 </url>
 <url>
-<loc>/about/archive/speakers/omer-zohar</loc>
+<loc>/about/archive/speakers/kristina-blomqvist</loc>
 </url>
 <url>
 <loc>/contact/</loc>
@@ -337,13 +340,13 @@
 <loc>/about/archive/speakers/marcin-dudek</loc>
 </url>
 <url>
-<loc>/program/</loc>
+<loc>/thanks/</loc>
 </url>
 <url>
 <loc>/agenda/</loc>
 </url>
 <url>
-<loc>/</loc>
+<loc>/program/</loc>
 </url>
 <url>
 <loc>/program/presentations/janek-pelzer/</loc>

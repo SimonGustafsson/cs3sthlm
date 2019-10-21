@@ -63,17 +63,19 @@
 
 
 
+
+
 {
 	"description": "<p>The use of TLS encryption has greatly improved our privacy on the Internet. Unfortunately malware has also benefited from the “HTTPS is the new TCP” trend we’ve been seeing for the past few years. Botnets, trojans and APT groups now leverage TLS encryption in order to avoid network based detection. In this talk Erik will perform live TLS interception and decryption in order to show how defenders can analyze otherwise encrypted communications in real-time.</p><p>Tools used: PolarProxy, Wireshark and NetworkMiner</p>"
 },
 
 
 
-
-
 {
 	"description": "<p>What happened when the STARTEX of Locked shield was announced and how did the team handle the turmoil during the exercise? What strategy, tools and setup did the team use to defend the network? The team lead of SWE Blue Team 17 will present the key factors for success and give some hints on how a quickly assembled team can handle a large scale cyber-attack.</p>"
 },
+
+
 
 
 

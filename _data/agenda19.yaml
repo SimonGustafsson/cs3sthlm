@@ -123,8 +123,9 @@
   type: presentation
   place: Harlem Stage
   time: "13:00"
-  title: Partner Presentation
-  description:
+  title: Attack Path Mapping
+  description: |
+    Attack Path Mapping (APM) is an approach to performing attack simulations against sensitive and/or critical infrastructure. In this talk Robert, will introduce the APM approach and provide examples of host it has been effective in past engagements.
   author:
     - name: Robert Bearsby
       role: Security Consultant
@@ -844,6 +845,22 @@
   title: ICS Lab Open
   author:
     - name:
+
+- id: 403
+  day: dayfour
+  type: common
+  place: Main Stage
+  time: "09:50"
+  title: Q&A about Sandworm
+  description:
+  author:
+      - name: Andy Greenberg
+        role: Senior Writer
+        work: Wired
+        image: andy-greenberg.png
+  partner:
+    - name:
+  permalink:
 
 - id: 405
   day: dayfour

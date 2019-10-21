@@ -1,5 +1,5 @@
 ---
-title: TBA
+title: Attack Path Mapping
 permalink: "/expo/presentations/robert-bearsby/"
 layout: expotalk
 speaker:

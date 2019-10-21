@@ -293,17 +293,17 @@
   
    {
      
-        "title"    : "TLS Interception and Decryption *LIVE DEMO*",
-        "url"      : "/program/presentations/erik-hjelmvik/",
-        "path"     : "/program/presentations/erik-hjelmvik/"
+        "title"    : "Network ForensICS Training",
+        "url"      : "/program/trainings/erik-hjelmvik/",
+        "path"     : "/program/trainings/erik-hjelmvik/"
      
    },
   
    {
      
-        "title"    : "Network ForensICS Training",
-        "url"      : "/program/trainings/erik-hjelmvik/",
-        "path"     : "/program/trainings/erik-hjelmvik/"
+        "title"    : "TLS Interception and Decryption *LIVE DEMO*",
+        "url"      : "/program/presentations/erik-hjelmvik/",
+        "path"     : "/program/presentations/erik-hjelmvik/"
      
    },
   
@@ -377,14 +377,6 @@
   
    {
      
-        "title"    : "Kristina Blomqvist",
-        "url"      : "/about/archive/speakers/kristina-blomqvist",
-        "path"     : "/about/archive/speakers/kristina-blomqvist"
-     
-   },
-  
-   {
-     
         "title"    : "William Middleton",
         "url"      : "/about/archive/speakers/william-middleton",
         "path"     : "/about/archive/speakers/william-middleton"
@@ -404,6 +396,14 @@
         "title"    : "Margarita Jaitner",
         "url"      : "/about/archive/speakers/margarita-jaitner",
         "path"     : "/about/archive/speakers/margarita-jaitner"
+     
+   },
+  
+   {
+     
+        "title"    : "Omer Zohar",
+        "url"      : "/about/archive/speakers/omer-zohar",
+        "path"     : "/about/archive/speakers/omer-zohar"
      
    },
   
@@ -601,6 +601,14 @@
   
    {
      
+        "title"    : "Home",
+        "url"      : "/",
+        "path"     : ""
+     
+   },
+  
+   {
+     
         "title"    : "Expo Agenda",
         "url"      : "/expo/agenda/",
         "path"     : "/expo/agenda/"
@@ -673,9 +681,9 @@
   
    {
      
-        "title"    : "Omer Zohar",
-        "url"      : "/about/archive/speakers/omer-zohar",
-        "path"     : "/about/archive/speakers/omer-zohar"
+        "title"    : "Kristina Blomqvist",
+        "url"      : "/about/archive/speakers/kristina-blomqvist",
+        "path"     : "/about/archive/speakers/kristina-blomqvist"
      
    },
   
@@ -817,9 +825,9 @@
   
    {
      
-        "title"    : "Program",
-        "url"      : "/program/",
-        "path"     : "/program/"
+        "title"    : "Thanks",
+        "url"      : "/thanks/",
+        "path"     : "/thanks/"
      
    },
   
@@ -833,9 +841,9 @@
   
    {
      
-        "title"    : "Home",
-        "url"      : "/",
-        "path"     : ""
+        "title"    : "Program",
+        "url"      : "/program/",
+        "path"     : "/program/"
      
    },
   
@@ -1009,7 +1017,7 @@
   
    {
      
-        "title"    : "TBA",
+        "title"    : "Attack Path Mapping",
         "url"      : "/expo/presentations/robert-bearsby/",
         "path"     : "/expo/presentations/robert-bearsby/"
      

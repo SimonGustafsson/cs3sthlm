@@ -194,8 +194,8 @@
 		"day"		: "daytwo",
 		"type"		: "presentation",
 		"time"		: "13:00",
-		"title" 	: "Partner Presentation",
-		"description"	: "",
+		"title" 	: "Attack Path Mapping",
+		"description"	: "<p>Attack Path Mapping (APM) is an approach to performing attack simulations against sensitive and/or critical infrastructure. In this talk Robert, will introduce the APM approach and provide examples of host it has been effective in past engagements.</p>",
 		
 		"name"		: "Robert Bearsby",
 		"role"		: "Security Consultant",
@@ -1127,6 +1127,29 @@
 		
 		"label"		: "",
 		"place" 	: "ICS Lab"
+	},
+
+	{
+		"id"		: "403",
+		"day"		: "dayfour",
+		"type"		: "common",
+		"time"		: "09:50",
+		"title" 	: "Q&A about Sandworm",
+		"description"	: "",
+		
+		"name"		: "Andy Greenberg",
+		"role"		: "Senior Writer",
+		"work"		: "Wired",
+		"image"		: "https://cs3sthlm.se/assets/speakers/andy-greenberg.png",
+		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
+		"label"		: "",
+		"place" 	: "Main Stage"
 	},
 
 	{
