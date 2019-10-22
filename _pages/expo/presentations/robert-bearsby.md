@@ -1,5 +1,5 @@
 ---
-title: Attack Path Mapping
+title: "Attack Path Mapping: Protecting your Company’s “Crown Jewels” from Hackers"
 permalink: "/expo/presentations/robert-bearsby/"
 layout: expotalk
 speaker:

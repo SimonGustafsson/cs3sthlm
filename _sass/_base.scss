@@ -73,6 +73,13 @@ a {
   }
 }
 
+.thanks {
+  background: $dark url('../assets/backgrounds/bg-2019-placeholder.png') no-repeat;
+  background-size: 100% auto;
+  background-position: top center;
+  background-image: -webkit-image-set(url('../assets/backgrounds/bg-2019-placeholder.png')1x,url('../assets/backgrounds/bg-2019-placeholder@2x.png')2x);
+}
+
 
 /**
   NOTICE */
