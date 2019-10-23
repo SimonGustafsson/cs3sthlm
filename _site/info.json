@@ -78,86 +78,14 @@
 
     
     {
-      "id":     "6",
-      "group":  "lunch",
-      "cat":    "Training",
-      "day":    "Monday",
-      "date":   "22 Oct",
-      "starter": "",
-      "main":   "",
-      "dessert": "",
-      "menu":   "Baked rainbow fillet with white wine sauce and dill potatoes" 
-    }
-
-    ,
-
-  
-    
-
-    
-    {
-      "id":     "7",
-      "group":  "lunch",
-      "cat":    "Training",
-      "day":    "Tuesday",
-      "date":   "23 Oct",
-      "starter": "",
-      "main":   "",
-      "dessert": "",
-      "menu":   "Game meatballs with lingonberry sauce and pickled cucumbers" 
-    }
-
-    ,
-
-  
-    
-
-    
-    {
-      "id":     "8",
-      "group":  "lunch",
-      "cat":    "Summit",
-      "day":    "Wednesday",
-      "date":   "24 Oct",
-      "starter": "",
-      "main":   "",
-      "dessert": "",
-      "menu":   "Lightly baked tuna with pepper cream and potato salad" 
-    }
-
-    ,
-
-  
-    
-
-    
-    {
-      "id":     "9",
-      "group":  "lunch",
-      "cat":    "Summit",
-      "day":    "Thursday",
-      "date":   "25 Oct",
-      "starter": "",
-      "main":   "",
-      "dessert": "",
-      "menu":   "Roasted veal with Västerbotten sauce and honey roasted root vegetables" 
-    }
-
-    ,
-
-  
-    
-
-    
-    {
       "id":     "10",
       "group":  "dinner",
       "cat":    "Network Dinner",
       "day":    "Wednesday",
-      "date":   "24 Oct",
-      "starter": "Chantarelle soup with pirogues",
-      "main":   "Flank steak Café de Paris with semi-dried tomato and potato wedges",
-      "dessert": "Apple Cheesecake with raspberry vanila sauce",
+      "date":   "23 Oct",
+      "starter": "Dead goat",
+      "main":   "More dead goat",
+      "dessert": "Alive goat with honey",
       "menu":   "" 
     }
 

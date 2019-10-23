@@ -36,47 +36,15 @@
   description: Historical Elite Hotel Stockholm Plaza is located in central Stockholm near the beautiful Humlegården park and lively Stureplan. Elite Hotel Stockholm Plaza is only a 220m short walk from the venue Nalen.
   link: 
 
-- id: 6
-  type: food
-  group: lunch
-  cat: Training
-  day: Monday
-  date: 22 Oct
-  menu: Baked rainbow fillet with white wine sauce and dill potatoes
-
-- id: 7
-  type: food
-  group: lunch
-  cat: Training
-  day: Tuesday
-  date: 23 Oct
-  menu: Game meatballs with lingonberry sauce and pickled cucumbers
-
-- id: 8
-  type: food
-  group: lunch
-  cat: Summit
-  day: Wednesday
-  date: 24 Oct
-  menu: Lightly baked tuna with pepper cream and potato salad
-
-- id: 9
-  type: food
-  group: lunch
-  cat: Summit
-  day: Thursday
-  date: 25 Oct
-  menu: Roasted veal with Västerbotten sauce and honey roasted root vegetables
-
 - id: 10
   type: food
   group: dinner
   cat: Network Dinner
   day: Wednesday
-  date: 24 Oct
-  starter: Chantarelle soup with pirogues
-  main: Flank steak Café de Paris with semi-dried tomato and potato wedges
-  dessert: Apple Cheesecake with raspberry vanila sauce
+  date: 23 Oct
+  starter: Dead goat
+  main: More dead goat
+  dessert: Alive goat with honey
 
 
 - id: 13
