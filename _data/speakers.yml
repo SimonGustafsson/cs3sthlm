@@ -1817,7 +1817,7 @@
   work: F-Secure Consulting
   country: United Kingdom
   shortcode: UK
-  image: temp.png
+  image: robert-bearsby.png
   bio: 
   date:
   time:
@@ -1825,10 +1825,10 @@
   speaker:
     - name: Robert Bearsby
       role: Security Consultant
-      image: temp
+      image: robert-bearsby
   presentation:
     - active: live
-      subject: "Attack Path Mapping: Protecting your Company’s “Crown Jewels” from Hackers"
+      subject: Attack Path Mapping
       permalink: expo/presentations/robert-bearsby/
       partner:
       description: |

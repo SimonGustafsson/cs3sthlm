@@ -1,12 +1,12 @@
 ---
-title: "Attack Path Mapping: Protecting your Company’s “Crown Jewels” from Hackers"
+title: Attack Path Mapping
 permalink: "/expo/presentations/robert-bearsby/"
 layout: expotalk
 speaker:
 - name: Robert Bearsby
   role: Security Consultant
   work: F-Secure Consulting
-  image: temp
+  image: robert-bearsby
 id: expotalk
 published: true
 ---

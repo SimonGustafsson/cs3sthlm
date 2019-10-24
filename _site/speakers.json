@@ -1731,7 +1731,7 @@
 		"country"	: "United Kingdom",
 		"shortcode"	: "UK",
 		"status"	: "",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/temp.png",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/robert-bearsby.png",
 		
 		
 		
@@ -1739,7 +1739,7 @@
 		"presentation":{
 		
 			"active": 	"live",
-			"title": 	"Attack Path Mapping: Protecting your Company’s “Crown Jewels” from Hackers",
+			"title": 	"Attack Path Mapping",
 			"partner":	"",
 			"role":		"",
 			"work":		"",
