@@ -8,9 +8,9 @@ speaker:
   work: Swedish Defence University
   image: erik-biverot
 - name: Johan Nilsson
-  role: 
-  work: Polisen
-  image: temp
+  role: Teamlead of PM-CERT
+  work: Swedish Police
+  image: johan-nilsson
 id: presentation
 published: true
 ---

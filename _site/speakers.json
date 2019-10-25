@@ -523,9 +523,9 @@
 			"active": 	"live",
 			"title": 	"A view from the Blue side of Locked Shields",
 			"partner":	"Johan Nilsson",
-			"role":		"",
-			"work":		"Polisen",
-			"image":	"https://cs3sthlm.se/assets/speakers/temp.png",
+			"role":		"Teamlead of PM-CERT",
+			"work":		"Swedish Police",
+			"image":	"https://cs3sthlm.se/assets/speakers/johan-nilsson.png",
 			"description": "<p>What happened when the STARTEX of Locked shield was announced and how did the team handle the turmoil during the exercise? What strategy, tools and setup did the team use to defend the network? The team lead of SWE Blue Team 17 will present the key factors for success and give some hints on how a quickly assembled team can handle a large scale cyber-attack.</p>"
 		
 		},
@@ -886,12 +886,12 @@
 		"id"		: "45",
 		"type"		: "presentation",
 		"name"		: "Johan Nilsson",
-		"role"		: "",
-		"work"		: "Polisen",
+		"role"		: "Teamlead of PM-CERT",
+		"work"		: "Swedish Police",
 		"country"	: "Sweden",
 		"shortcode"	: "SE",
 		"status"	: "",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/temp.png",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/johan-nilsson.png",
 		
 		
 		
@@ -901,9 +901,9 @@
 			"active": 	"live",
 			"title": 	"A view from the Blue side of Locked Shields",
 			"partner":	"Erik Biverot",
-			"role":		"",
-			"work":		"FHS",
-			"image":	"https://cs3sthlm.se/assets/speakers/temp.png",
+			"role":		"Senior Course coordinator",
+			"work":		"Swedish Defence University",
+			"image":	"https://cs3sthlm.se/assets/speakers/erik-biverot.png",
 			"description": "<p>What happened when the STARTEX of Locked shield was announced and how did the team handle the turmoil during the exercise? What strategy, tools and setup did the team use to defend the network? The team lead of SWE Blue Team 17 will present the key factors for success and give some hints on how a quickly assembled team can handle a large scale cyber-attack.</p>"
 		
 		},
@@ -921,7 +921,7 @@
 		},
 		
 
-		"bio": ""
+		"bio": "<p>Johan is currently employed as Teamlead of PM-CERT at the Swedish Police. There his responsibilities covers things such as managing the daily activities related to investigating computer security incidents and feeding knowledge from these incidents back into the cyber security defense posture of the Swedish Police. His experience comes from working in both the private and public sector. He holds a MSc in Information and Communications security, and have been in the industry for almost two decades.</p>"
 	},
 
 	{

@@ -506,9 +506,9 @@
       subject: A view from the Blue side of Locked Shields
       permalink: program/presentations/erik-johan/
       partner: Johan Nilsson
-      partner-role:
-      partner-work: Polisen
-      partner-image: temp
+      partner-role: Teamlead of PM-CERT
+      partner-work: Swedish Police
+      partner-image: johan-nilsson
       description: |
         What happened when the STARTEX of Locked shield was announced and how did the team handle the turmoil during the exercise? What strategy, tools and setup did the team use to defend the network? The team lead of SWE Blue Team 17 will present the key factors for success and give some hints on how a quickly assembled team can handle a large scale cyber-attack.
   training:
@@ -986,27 +986,27 @@
   type: presentation
   permalink:
   name: Johan Nilsson
-  role: 
-  work: Polisen
+  role: Teamlead of PM-CERT
+  work: Swedish Police
   country: Sweden
   shortcode: SE
-  image: temp.png
-  bio: 
+  image: johan-nilsson.png
+  bio: Johan is currently employed as Teamlead of PM-CERT at the Swedish Police. There his responsibilities covers things such as managing the daily activities related to investigating computer security incidents and feeding knowledge from these incidents back into the cyber security defense posture of the Swedish Police. His experience comes from working in both the private and public sector. He holds a MSc in Information and Communications security, and have been in the industry for almost two decades.
   date:
   time:
   place:
   speaker:
     - name: Johan Nilsson
-      role: 
-      image: temp
+      role: Teamlead of PM-CERT
+      image: johan-nilsson
   presentation:
     - active: live
       subject: A view from the Blue side of Locked Shields
       permalink: program/presentations/erik-johan/
       partner: Erik Biverot
-      partner-role:
-      partner-work: FHS
-      partner-image: temp
+      partner-role: Senior Course coordinator
+      partner-work: Swedish Defence University
+      partner-image: erik-biverot
       description: |
         What happened when the STARTEX of Locked shield was announced and how did the team handle the turmoil during the exercise? What strategy, tools and setup did the team use to defend the network? The team lead of SWE Blue Team 17 will present the key factors for success and give some hints on how a quickly assembled team can handle a large scale cyber-attack.
   training:
