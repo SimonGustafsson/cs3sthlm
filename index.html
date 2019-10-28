@@ -7,8 +7,8 @@ image: /assets/bg-2019.png
 
 <section class="introduction content col-8-8">
 
-   <div class="intro-mark">
-  
+  <!--
+  <div class="intro-mark">
     <div class="subject-row">
       <div class="intro-mark-block">
         <h4 class="intro-mark-date"><span class="icon icon-calender">{% include calender.html %}</span>21-24 October 2019</h4>
@@ -22,38 +22,31 @@ image: /assets/bg-2019.png
 
     <div class="button-group button-group-intro">
       <a href="mailto:info@cs3sthlm.se?subject=Interested to become part of CS3STHLM&body=GDPR Notice: By sending this mail I acknowledge that the company Omnisiens AB, running the conference CS3sthlm, have the right to store and use my personal identifiable information for information related to CS3sthlm, conferences, training and courses, etc." class="button button-blue">Keep Me Posted!</a>
-      <!--<a href="{{ site.baseurl }}/thank-you" class="button button-primary button-red">CS3STHLM 2018<span> - YouTube</span></a>-->
-      <a href="{{ site.baseurl }}/agenda/" class="button button-primary button-yellow">View Agenda</a>
+      <a href="{{ site.baseurl }}/thank-you" class="button button-primary button-red">CS3STHLM 2018<span> - YouTube</span></a>
       <a href="https://tickets.cs3sthlm.se/" class="button button-primary button-yellow" target="_blank">Buy Tickets</a>
+    </div>
+  </div>-->
+
+  <div class="intro-mark">
+    <div class="subject-row">
+      <div class="intro-mark-block">
+        <h4 class="intro-mark-date"><span class="icon icon-calender">{% include calender.html %}</span>19-22 October 2020</h4>
+        <h4 class="intro-mark-date"><span class="icon icon-map-pin">{% include map-pin.html %}</span>Nalen in Stockholm, Sweden</h4>
+      </div>
+
+      <h2 class="intro-mark-title">The Premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure</h2>
+
+      <h3 class="intro-mark-subtitle">Organized by <a href="https://omnisiens.se" target="_blank">Omnisiens</a></h3>
+    </div>
+
+    <div class="button-group button-group-intro button-group-intro-three">
+      <a href="mailto:info@cs3sthlm.se?subject=Interested to become part of CS3STHLM&body=GDPR Notice: By sending this mail I acknowledge that the company Omnisiens AB, running the conference CS3sthlm, have the right to store and use my personal identifiable information for information related to CS3sthlm, conferences, training and courses, etc." class="button button-blue">Keep Me Posted!</a>
+      <a href="mailto:cfp@cs3sthlm.se" class="button button-primary button-green">Call for Proposal 2020</a>
+      <a href="https://tickets.cs3sthlm.se/" class="button button-primary button-yellow" target="_blank">Buy First Bird Ticket</a>
     </div>
   </div>
 
   <div class="feed-news">
-
-    <!--
-    <div class="column-block column-block-bit">
-      <div class="column-block-item col-4-8">
-        <h4 class="sub-headline">KIPS and Networking Bar - Monday</h4>
-        <h2 class="title title-yellow">KIPS Cybersecurity Simulation</h2>
-        <p>In collaboration with Kaspersky, CS3sthlm invites attendees to participate in the premier interactive cyber security exercise known as KIPS. Don't miss this exciting and engaging 2 hours crash course in handling a cyber incident in this wargame simulation.</p>
-
-        <p>KIPS is a gamification platform that places teams in a simulated business environment that faces a series of realistic but unexpected cyber threats, while trying to maximize profits and maintain goodwill. The idea is to build a cyber defence strategy by choosing among the best proactive and reactive controls available.</p>
-
-        <div class="button-group spacing-top column-block-bit">
-          <a href="https://sv-se.invajo.com/event/thecs3sthlmsummitbyomnisiensab/kipscybersecuritysimulationatcs3sthlm" target="_blank" class="button button-primary button-green">KIPS Registration</a>
-        </div>
-      </div>
-
-      <div class="column-block-item col-4-8">
-        <h4 class="sub-headline">During Daytime - Monday & Tuesday</h4>
-        <h2 class="title title-yellow">Capture the Flag Challenge</h2>
-        <p>The DHS Cybersecurity and Infrastructure Agency will be hosting a technical ICS-focused Capture the Flag challenge. This CTF is designed to expose analysts to hunting across ICS networks for malicious behavior. With puzzles appropriate for both the beginner and the experienced analyst, all are invited to participate. Challenges include artifacts generated from IT/OT host forensic data, network data (from both bro logs and pcap), and OT equipment actively being exploited by a threat actor. The ICS CTF will be open daytime Monday and Tuesday.</p>
-
-        <p>Mail us at <a href="mailto:info@cs3sthlm.se?subject=CTF Participation">info(at)cs3sthlm.se</a> and announce your participation!</p>
-      </div>
-    </div>
-    -->
-
     <h3>Recent News</h3>
     <ul>
       {% for post in site.posts limit:4 %}
@@ -86,7 +79,7 @@ image: /assets/bg-2019.png
             <h4 class="sub-headline">Previous Summit</h4>
             {% assign sorthistory = site.data.history | sort:'year' | reverse %}
             {% for card in sorthistory %}
-            {% if card.type contains "summit" and card.year contains "2018" %}
+            {% if card.type contains "summit" and card.year contains "2019" %}
             <h2 class="title title-yellow">{{ card.year }}</h2>
             <h3 class="heading">{{ card.location }}</h3>
             <p>{{ card.date }}</p>
@@ -103,7 +96,7 @@ image: /assets/bg-2019.png
             <h4 class="sub-headline">History</h4>
             {% assign sorthistory = site.data.history | sort:'year' | reverse %}
             {% for card in sorthistory %}
-            {% unless card.year contains "2018" %}
+            {% unless card.year contains "2019" or card.type contains "expo" %}
             <div class="card-details-block">
               <h2 class="subtitle subtitle-yellow">{{ card.year }}</h2>
               <h3 class="heading">{{ card.location }}</h3>
@@ -116,13 +109,13 @@ image: /assets/bg-2019.png
 
         <div class="column-block-item col-2-3">
           <div class="card-item card-item-filled spacing-bottom">
-            <h4 class="sub-headline">Summit 2018 Keynote Speaker</h4>
+            <h4 class="sub-headline">Summit 2019 Keynote Speakers</h4>
             {% assign keynote = site.data.archive %}
             {% for item in keynote %}
-            {% if item.type contains "keynote" and item.when contains "2018" %}
-            <div class="card-item-details">
+            {% if item.type contains "keynote" and item.when contains "2019" %}
+            <div class="card-item-details spacing-bottom">
               {% for item in item.presentation %}
-              {% for item in item.yearfive %}
+              {% for item in item.yearsix %}
               <h2 class="speaker-title">{{ item.subject }}</h2>
               {% endfor %}
               {% endfor %}
@@ -137,9 +130,9 @@ image: /assets/bg-2019.png
           </div>
           <div class="card-item card-item-filled card-item-image-top">
             <figure class="card-item-image">
-              <img src="{{ site.baseurl }}/assets/photos/cs3sthlm-dinner-jack.jpg" srcset="{{ site.baseurl }}/assets/photos/cs3sthlm-dinner-jack@2x.jpg 2x">
+              <img src="{{ site.baseurl }}/assets/photos/herman-dinner.jpg" srcset="{{ site.baseurl }}/assets/photos/herman-dinner@2x.jpg 2x">
             </figure>
-            <h4 class="sub-headline headline-spacing-bottom">Summit 2018 Gala Dinner</h4>
+            <h4 class="sub-headline headline-spacing-bottom">Summit 2019 Gala Dinner</h4>
             <h3 class="headline">Summit Dinner</h3>
             <p>CS3STHLM Expo enables companies and organisations to network, demonstrate valuable experiences products and services, via workshops and presentations.</p>
           </div>
@@ -172,7 +165,7 @@ image: /assets/bg-2019.png
   
   <div class="speaker--block spacing-bottom">
     <div class="speaker--block-header">
-      <h3 class="headline">Speakers of 2019</h3>
+      <h3 class="headline">Speakers | 2019</h3>
       <a href="{{ site.baseurl }}/program/speakers/" class="button button-primary speaker-row">View All Speakers</a>
     </div>
 
@@ -353,7 +346,7 @@ image: /assets/bg-2019.png
 
   <div class="column-block-item col-8-8">
     <div class="column-block-bit speaker--block-header">
-      <h3 class="headline">Partners for 2019</h3>
+      <h3 class="headline">Partners | 2019</h3>
       <a href="{{ site.baseurl }}/partners/" class="button button-primary">View All Partners</a>
     </div>
 
@@ -390,8 +383,8 @@ image: /assets/bg-2019.png
           <div class="card-item card-item-filled">
             <h4 class="sub-headline">Previous Expo</h4>
             {% assign sorthistory = site.data.history | sort:'year' | reverse %}
-            {% for card in sorthistory limit: 1 %}
-            {% if card.type contains "expo" and card.year contains "2018" %}
+            {% for card in sorthistory %}
+            {% if card.type contains "expo" and card.year contains "2019" %}
             <h2 class="title title-yellow">{{ card.year }}</h2>
             <h3 class="heading">{{ card.location }}</h3>
             <p>{{ card.date }}</p>
@@ -408,13 +401,13 @@ image: /assets/bg-2019.png
 
         <div class="column-block-item col-2-3">
           <div class="card-item card-item-filled">
-            <h4 class="sub-headline">Expo 2018 Presentations</h4>
+            <h4 class="sub-headline">Expo 2019 Presentations</h4>
             {% assign presentation = site.data.archive %}
             {% for item in presentation %}
-            {% if item.type contains "presentation" and item.type contains "expo" %}
-            <div class="card-item-details">
+            {% if item.type contains "presentation" and item.type contains "expo" and item.when contains "2019" %}
+            <div class="card-item-details spacing-bottom">
               {% for item in item.presentation %}
-              {% for item in item.yearfive %}
+              {% for item in item.yearsix %}
               <h2 class="speaker-title">{{ item.subject }}</h2>
               {% endfor %}
               {% endfor %}

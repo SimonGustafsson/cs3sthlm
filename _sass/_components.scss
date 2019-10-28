@@ -1012,4 +1012,46 @@
 	}
 }
 
+// BAR NOTICE - OLD CONTENT
+
+.bar-notice {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	border-radius: 4px;
+	box-sizing: border-box;
+	padding: 8px;
+
+	background: $blue-dark;
+	margin-bottom: 48px;
+
+	&-year {
+		display: block;
+		background: $yellow;
+		line-height: 1.5;
+		border-radius: 4px;
+		box-sizing: border-box;
+		padding: 4px 12px;
+
+		font-family: 'latoblack', sans-serif;
+		font-weight: normal;
+		font-size: 14px;
+		letter-spacing: 2px;
+		color: $dark;
+		text-transform: uppercase;
+		margin-right: 12px;
+	}
+
+	p {
+		text-transform: uppercase;
+		line-height: 1.5;
+		font-family: 'latobold', sans-serif;
+		font-size: 14px;
+		letter-spacing: 2px;
+	}
+}
+
+
+
 

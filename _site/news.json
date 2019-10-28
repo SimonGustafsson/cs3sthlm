@@ -1,5 +1,13 @@
 {"newsList":[
     {
+      "title": "CS3STHLM Newsletter October",
+      "author": "CS3STHLM Crew",
+      "category": "news",
+      "date": "28 Oct 2019",
+      "content_html": "<p><img src=\"/assets/cs3sthlm-logo-heart.png\" alt=\"CS3STHLM Thank You\" class=\"post-image-full-width col-3-8\" /></p><h2 id=\"thank-you\">Thank you!</h2><p>From the organizing side of CS3sthlm, we would like to express our warmest gratitude to everyone involved in making this years Summit, Expo, lab, trainings, and last but certainly not least the CTF such a success! We would like to give a big shoutout to all content providers, speakers, trainers - without you the event would not have been possible, and it was a honour to work with you! Special thanks goes out to our partners: Accenture Security, Bedriftsystemer AS, CyberX, Kaspersky, Nozomi Networks, Otorio, Recorded Future and sysctl, and also to the crews at Dynamic Duo, WeAreBryssel, Hell Production, Nikka systems, and all staff at Nalen.</p><p>We have already started the long and winding road towards CS3sthlm 2020. The dates are <strong>October 19-22</strong> - mark that in your calendars. As alumni attendees, we hope that you know that it will be a high quality conference and that you already can already book tickets for maximum discount until Dec 31. You can find the ticket here: <a href=\"https://tickets.cs3sthlm.se/default.php\">tickets.cs3sthlm.se/</a></p><p>As a content provider - we have already <strong>opened the <a href=\"mailto:CFP@cs3sthlm.se\">CFP@cs3sthlm.se</a></strong> for submissions. And if you have critics, comments or ideas for enhancements we would like to hear from you. Everything that can make CS3sthlm even better, we would like to know! Mail us at <a href=\"mailto:info@cs3sthlm.se\">info@cs3sthlm.se</a></p><p>If you have ideas for topics, presenters, content, areas of special interest, things that earns a deep dive, please reach out to us at <a href=\"mailto:info@cs3sthlm.se\">info@cs3sthlm.se</a>. Your input is important to us.</p><p>And once again – thank you!</p>"
+    } ,
+  
+    {
       "title": "Sandworm: Lessons From the Ukrainian Cyberwar and Beyond",
       "author": "CS3STHLM Crew",
       "category": "blog",

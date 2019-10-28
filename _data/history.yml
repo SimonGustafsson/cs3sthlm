@@ -48,6 +48,16 @@
   nr-attendees: '250+'
   youtube: https://www.youtube.com/playlist?list=PLK9u2M6_KckTrwNok5JubicYBu8GUSRKW
 
+- year: "2019"
+  type: summit
+  location: Nalen, Stockholm
+  date: 21-24 October 2019
+  nr-topics: 20
+  nr-speakers: 47
+  nr-workshops: 3
+  nr-attendees: '250+'
+  youtube: Coming soon
+
 - year: "2018"
   type: expo
   location: Nalen, Stockholm
@@ -55,3 +65,11 @@
   nr-speakers: 9
   nr-partners: 12
   nr-attendees: '100+'
+
+- year: "2019"
+  type: expo
+  location: Nalen, Stockholm
+  date: 22 October 2019
+  nr-speakers: 8
+  nr-partners: 9
+  nr-attendees: '150+'

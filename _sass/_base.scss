@@ -49,10 +49,10 @@ a {
   HOME */
 
 .home, .thanks {
-  background: $dark url('../assets/bg-2019.png') no-repeat;
+  background: $dark url('../assets/backgrounds/bg-2019-placeholder.png') no-repeat;
   background-size: 100% auto;
   background-position: top center;
-  background-image: -webkit-image-set(url('../assets/bg-2019.png')1x,url('../assets/bg-2019@2x.png')2x);
+  background-image: -webkit-image-set(url('../assets/backgrounds/bg-2019-placeholder.png')1x,url('../assets/backgrounds/bg-2019-placeholder@2x.png')2x);
 
   @include media-query($mobile) {
     background-image: none;
@@ -1993,6 +1993,10 @@ a {
       }
     }
 
+    &-three {
+
+    }
+
     @include media-query($mobile) {
       .button {
         width: 47.5%;
@@ -2032,7 +2036,6 @@ a {
       .button-green {
         order: 3;
         width: 100%;
-        margin-top: 20px;
       }
     }
   }
@@ -2569,7 +2572,7 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin-top: 76px;
 
   .card-item:nth-child(2) {
@@ -2577,6 +2580,11 @@ a {
   }
   .card-item {
     margin-bottom: 24px;
+    margin-right: 24px;
+    
+    &:nth-child(4n+4) {
+      margin-right: 0;
+    }
   }
 
   @include media-query($mobile) {

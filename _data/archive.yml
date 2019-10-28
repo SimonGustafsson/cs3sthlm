@@ -1188,3 +1188,130 @@
   training:
     - none
 
+
+
+- id:
+  type:
+    - keynote
+    - presentation
+  when:
+    - "2019"
+  keynoteYear: 2019
+  permalink: andy-greenberg
+  background: andy-greenberg
+  speaker:
+    - name: Andy Greenberg
+      role: Senior Writer
+      work: Wired
+      country: United States
+      shortcode: US
+      image: andy-greenberg
+      bio: Andy Greenberg is an award-winning senior writer for Wired magazine, where he covers security, privacy, information freedom, and hacker culture. He is the author of the 2012 book This Machine Kills Secrets, and his stories for Wired on Ukraine's cyberwar (including an excerpt from Sandworm) have won a Gerald Loeb Award for International Reporting and two Deadline Club Awards from the New York Society of Professional Journalists. He lives in Brooklyn with his wife, documentary filmmaker Malika Zouhali-Worrall.
+  keynote:
+    - date: "2019"
+    - subject: "Sandworm: Lessons From the Ukrainian Cyberwar and Beyond"
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+        - date: 2019
+          subject: "Sandworm: Lessons From the Ukrainian Cyberwar and Beyond"
+          permalink: program/presentations/andy-greenberg/
+          keynote: true
+          description:
+  training:
+    - none
+
+
+- id:
+  type:
+    - keynote
+    - presentation
+  when:
+    - "2019"
+  keynoteYear: 2019
+  permalink: torstein-gimnes-are
+  background: torstein-gimnes-are
+  speaker:
+    - name: Torstein Gimnes Are
+      role: Digital Marshall & CISO
+      work: Norsk Hydro
+      country: Norway
+      shortcode: "NO"
+      image: torstein-gimnes-are
+      bio: 20 years of experience within IS/IT and Information Security roles in Norsk Hydro, a global industry leader in aluminum.
+  keynote:
+    - date: "2019"
+    - subject: The cyber-attack on Hydro
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+        - date: 2019
+          subject: The cyber-attack on Hydro
+          permalink: program/presentations/torstein-gimnes-are/
+          keynote: true
+          description:
+  training:
+    - none
+
+
+- id:
+  type:
+    - expo
+    - presentation
+  when:
+    - "2019"
+  permalink: 
+  background: 
+  speaker:
+    - name: Anton Shipulin
+      role: Global Presales Manager
+      work: Kaspersky
+      country: Russia
+      shortcode: RU
+      image: anton-shipulin
+      bio: |
+        Specialist in cyber security since 2005 with experience in the areas of architecture, integration and operation of the cybersecurity system, cybersecurity audit, consulting and project management, global industrial cybersecurity market and technologies intelligence and analysis, and business development. Currently Anton it a Global Presales Manager of Kaspersky Industrial Cybersecurity (KICS) business development team, a head of Kaspersky Industrial Cybersecurity conference (KICS con) program committee, a co-founder and leader of the Russian industrial cybersecurity community RUSCADASEC.com, and Coordinator for Russia at Industrial Cybersecurity Center (CCI) Passionate about industrial cybersecurity and critical infrastructure protection, knowledge and information exchange with certifications such as SCADA Security Architect Certification (CSSA), Information Systems Security Professional Certification (CISSP), Ethical Hacker Certification (CEH), Microsoft System Engineer Certification (MCSE): Security Certification, Linux Professional Institute Level 1 (LPIC-I), CompTIA Project + Professional. Actively sharing juicy ICS security stuff on Twitter: @shipulin_anton and LinkedIn
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+        - date: 2019
+          subject: "How to save $1.7 million over three years on industrial cybersecurity: the Results of the Forrester Total Economic (TEI) Impact study"
+          permalink: expo/presentations/anton-shipulin/
+          description: |
+            This presentation will show results from the commissioned Forrester Consulting Total Economic Impact™ study, highlighting the costs and benefits of using a dedicated industrial cybersecurity solution Kaspersky Industrial CyberSecurity (KICS) for Nodes and the improved experience this brings to customers. Additionally the Study provides readers with a framework to evaluate the potential financial impact of the KICS on their organizations.
+  training:
+    - none
+
+
+- id:
+  type:
+    - expo
+    - presentation
+  when:
+    - "2019"
+  permalink: 
+  background: 
+  speaker:
+    - name: Robert Bearsby
+      role: Security Consultant
+      work: F-Secure Consulting
+      country: United Kingdom
+      shortcode: UK
+      image: robert-bearsby
+      bio: 
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+        - date: 2019
+          subject: Attack Path Mapping
+          permalink: expo/presentations/robert-bearsby/
+          description: |
+            Attack Path Mapping (APM) is an approach to performing attack simulations against sensitive and/or critical infrastructure. In this talk Robert, will introduce the APM approach and provide examples of host it has been effective in past engagements.
+  training:
+    - none
+
+
