@@ -1,5 +1,5 @@
 ---
-title: CS3STHLM Newsletter October
+title: CS3STHLM Newsletter October - Thank You
 date: 2019-10-28 04:00:00
 categories:
 - news
