@@ -1023,12 +1023,12 @@
 	box-sizing: border-box;
 	padding: 8px;
 
-	background: $blue-dark;
+	background: $yellow;
 	margin-bottom: 48px;
 
 	&-year {
 		display: block;
-		background: $yellow;
+		background: $dark;
 		line-height: 1.5;
 		border-radius: 4px;
 		box-sizing: border-box;
@@ -1038,7 +1038,7 @@
 		font-weight: normal;
 		font-size: 14px;
 		letter-spacing: 2px;
-		color: $dark;
+		color: $white;
 		text-transform: uppercase;
 		margin-right: 12px;
 	}
@@ -1049,6 +1049,7 @@
 		font-family: 'latobold', sans-serif;
 		font-size: 14px;
 		letter-spacing: 2px;
+		color: $white;
 	}
 }
 

@@ -5538,11 +5538,11 @@ p.content-intro {
   border-radius: 4px;
   box-sizing: border-box;
   padding: 8px;
-  background: #2b2f36;
+  background: #ef7d00;
   margin-bottom: 48px; }
   .bar-notice-year {
     display: block;
-    background: #ef7d00;
+    background: #030100;
     line-height: 1.5;
     border-radius: 4px;
     box-sizing: border-box;
@@ -5551,7 +5551,7 @@ p.content-intro {
     font-weight: normal;
     font-size: 14px;
     letter-spacing: 2px;
-    color: #030100;
+    color: white;
     text-transform: uppercase;
     margin-right: 12px; }
   .bar-notice p {
@@ -5559,4 +5559,5 @@ p.content-intro {
     line-height: 1.5;
     font-family: 'latobold', sans-serif;
     font-size: 14px;
-    letter-spacing: 2px; }
+    letter-spacing: 2px;
+    color: white; }
