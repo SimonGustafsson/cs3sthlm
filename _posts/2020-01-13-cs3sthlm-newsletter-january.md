@@ -9,6 +9,7 @@ pdf:
 - english: cs3sthlm-newsletter-january-2020.pdf
 ---
 
+![CS3STHLM Thank You]({{ site.baseurl }}/assets/cs3-winter.png){:class="post-image-full-width col-2-8"}
 
 Some of the CS3STHLM crew went to 36C3 in Leipzig at the end of December, and we learned the German phrase ”Guten Rutsch!”, to wish everyone a good start of the New Year! That event was also a good start-up for the work with the upcoming CS3STHLM of 2020; lots of interesting talks and new ideas.
 
