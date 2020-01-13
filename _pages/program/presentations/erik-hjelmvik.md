@@ -7,6 +7,7 @@ speaker:
   role: Network Analyst
   work: NETRESEC
   image: erik-hjelmvik
+  youtube: https://www.youtube.com/watch?v=_V6tT4eP1SI
 id: presentation
 published: true
 ---
