@@ -1,5 +1,13 @@
 {"newsList":[
     {
+      "title": "CS3STHLM Newsletter January",
+      "author": "CS3STHLM Crew",
+      "category": "news",
+      "date": "13 Jan 2020",
+      "content_html": "<p>Some of the CS3STHLM crew went to 36C3 in Leipzig at the end of December, and we learned the German phrase ”Guten Rutsch!”, to wish everyone a good start of the New Year! That event was also a good start-up for the work with the upcoming CS3STHLM of 2020; lots of interesting talks and new ideas.</p><p>We are now starting to publish all captured presentations from CS3STHLM 2019 on our YouTube channel: <a href=\"https://www.youtube.com/cs3sthlm\">youtube.com/cs3sthlm</a></p><p>Please subscribe!</p><p>First video out is <strong>Erik Hjelmvik</strong> of NETRESEC, <a href=\"https://cs3sthlm.se/program/presentations/erik-hjelmvik/\">/presentations/erik-hjelmvik/</a>, who gave a technical talk, including demonstrations, of Polarproxy and TLS stripping at the Harlem stage. Erik have synchronized the release of his presentation with a blog article describing in details the techniques and his tool for stripping away TLS encryption shown in the recorded presentation. <a href=\"https://www.netresec.com/?page=Blog\">https://www.netresec.com/?page=Blog</a></p><p>We are also releasing a recording of <strong>Monta Elkins</strong> of FoxGuard Solutions <a href=\"https://cs3sthlm.se/program/presentations/monta-elkins/\">/presentations/monta-elkins</a>, presentation entitled “Nation-State Supply Chain Attacks for Dummies and You Too”. This presentation really made an impression both with the audience and with media, since it was the most noticed talk in press.</p><p><strong>Do not forget - Early Bird discount 20% for summit tickets until end of March 2020!</strong>These Summit-only tickets can later be combined with tickets for trainings and workshops.</p><p>Within a month we will start the official CFP for CS3STHLM 2020, but you are most welcome to submit your abstracts or ideas already on cfp@cs3sthlm.se!</p><p>Best wishes from the CS3STHLM crew </p>"
+    } ,
+  
+    {
       "title": "CS3STHLM Newsletter October - Thank You",
       "author": "CS3STHLM Crew",
       "category": "news",

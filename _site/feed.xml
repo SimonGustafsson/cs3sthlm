@@ -5,9 +5,37 @@
     <description>CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 13 Jan 2020 13:09:11 +0000</pubDate>
-    <lastBuildDate>Mon, 13 Jan 2020 13:09:11 +0000</lastBuildDate>
+    <pubDate>Mon, 13 Jan 2020 14:01:02 +0000</pubDate>
+    <lastBuildDate>Mon, 13 Jan 2020 14:01:02 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>CS3STHLM Newsletter January</title>
+        <description>&lt;p&gt;Some of the CS3STHLM crew went to 36C3 in Leipzig at the end of December, and we learned the German phrase ”Guten Rutsch!”, to wish everyone a good start of the New Year! That event was also a good start-up for the work with the upcoming CS3STHLM of 2020; lots of interesting talks and new ideas.&lt;/p&gt;
+
+&lt;p&gt;We are now starting to publish all captured presentations from CS3STHLM 2019 on our YouTube channel: &lt;a href=&quot;https://www.youtube.com/cs3sthlm&quot;&gt;youtube.com/cs3sthlm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Please subscribe!&lt;/p&gt;
+
+&lt;p&gt;First video out is &lt;strong&gt;Erik Hjelmvik&lt;/strong&gt; of NETRESEC, &lt;a href=&quot;https://cs3sthlm.se/program/presentations/erik-hjelmvik/&quot;&gt;/presentations/erik-hjelmvik/&lt;/a&gt;, who gave a technical talk, including demonstrations, of Polarproxy and TLS stripping at the Harlem stage. Erik have synchronized the release of his presentation with a blog article describing in details the techniques and his tool for stripping away TLS encryption shown in the recorded presentation. &lt;a href=&quot;https://www.netresec.com/?page=Blog&quot;&gt;https://www.netresec.com/?page=Blog&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We are also releasing a recording of &lt;strong&gt;Monta Elkins&lt;/strong&gt; of FoxGuard Solutions &lt;a href=&quot;https://cs3sthlm.se/program/presentations/monta-elkins/&quot;&gt;/presentations/monta-elkins&lt;/a&gt;, presentation entitled “Nation-State Supply Chain Attacks for Dummies and You Too”. This presentation really made an impression both with the audience and with media, since it was the most noticed talk in press.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Do not forget - Early Bird discount 20% for summit tickets until end of March 2020!&lt;/strong&gt;
+These Summit-only tickets can later be combined with tickets for trainings and workshops.&lt;/p&gt;
+
+&lt;p&gt;Within a month we will start the official CFP for CS3STHLM 2020, but you are most welcome to submit your abstracts or ideas already on cfp@cs3sthlm.se!&lt;/p&gt;
+
+&lt;p&gt;Best wishes from the CS3STHLM crew &lt;/p&gt;
+</description>
+        <pubDate>Mon, 13 Jan 2020 04:00:00 +0000</pubDate>
+        <link>/news/2020/01/13/cs3sthlm-newsletter-january.html</link>
+        <guid isPermaLink="true">/news/2020/01/13/cs3sthlm-newsletter-january.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
     
       <item>
         <title>CS3STHLM Newsletter October - Thank You</title>
@@ -305,27 +333,6 @@ Please subscribe!&lt;/p&gt;
         <pubDate>Thu, 25 Oct 2018 04:00:00 +0000</pubDate>
         <link>/news/2018/10/25/cs3sthlm-summary-of-2018-event.html</link>
         <guid isPermaLink="true">/news/2018/10/25/cs3sthlm-summary-of-2018-event.html</guid>
-        
-        
-        <category>news</category>
-        
-      </item>
-    
-      <item>
-        <title>CS3STHLM Record Attendance</title>
-        <description>&lt;h3 id=&quot;fifth-edition-of-acclaimed-cyber-security-summit-sees-record-attendance&quot;&gt;FIFTH EDITION OF ACCLAIMED CYBER SECURITY SUMMIT SEES RECORD ATTENDANCE&lt;/h3&gt;
-
-&lt;p&gt;After the first conference day founders Robert Malmgren and Erik Johansson are pleased to state that the years conference is the most successful so far, both in attendance and format. The new expo day added a welcome meeting arena for businesses, legislators and other stakeholders.&lt;/p&gt;
-
-&lt;p&gt;The second day of the summit will open with Key Note Patrick Miller (US) and his presentation&lt;/p&gt;
-
-&lt;h4 id=&quot;industrial-technology-trajectory-running-with-scissors&quot;&gt;Industrial Technology Trajectory: Running With Scissors&lt;/h4&gt;
-
-&lt;p&gt;Innovative and disruptive technologies are enhancing and invading our traditional industrial business model. Future infrastructure organizations will need more data to operate efficiently and succeed in the brave new interconnected world. The diversity of new technologies and data will fuel more diversity in business opportunity. Everyone expects more OT, more IOT, and more IT - and all of it is supposed to be highly reliable and secure. These factors (and more) lead to a landscape shift for the industrial cybersecurity risk profile. In this session, hear ways to recognize the problems and gain some clarity on possible solutions through historic lessons, made up words, and practical front-line experience.a&lt;/p&gt;
-</description>
-        <pubDate>Wed, 24 Oct 2018 04:00:00 +0000</pubDate>
-        <link>/news/2018/10/24/cs3sthlm-record-attendence.html</link>
-        <guid isPermaLink="true">/news/2018/10/24/cs3sthlm-record-attendence.html</guid>
         
         
         <category>news</category>
