@@ -533,6 +533,7 @@
       role: Network Analyst
       image: erik-hjelmvik
   status: Slots Open
+  youtube: https://www.youtube.com/watch?v=_V6tT4eP1SI
   presentation:
     - active: live
       subject: TLS Interception and Decryption *LIVE DEMO*
@@ -1558,6 +1559,7 @@
   date:
   time:
   place:
+  youtube: https://www.youtube.com/watch?v=WTncGSYSbNY
   speaker:
     - name: Monta Elkins
       role: Hacker-in-Chief

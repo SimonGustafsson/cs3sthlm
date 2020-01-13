@@ -7,6 +7,7 @@ speaker:
   role: Hacker-in-Chief
   work: FoxGuard Solutions
   image: monta-elkins
+  youtube: https://www.youtube.com/watch?v=WTncGSYSbNY
 id: presentation
 published: true
 ---

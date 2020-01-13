@@ -37,6 +37,14 @@ layout: default
           <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}.png" class="post-meta-item-image">
         </div>
       </div>
+
+      {% if item.youtube != null %}
+        <div class="post-meta-item">
+          <h4 class="sub-headline sub-headline-gray">YouTube</h4>
+          <a href="{{ item.youtube }}" target="_blank" class="alt-title alt-title-small">View the presentation</a>
+        </div>
+      {% endif %}
+      
       {% endfor %}
 
     </aside>

@@ -198,6 +198,13 @@ image: /assets/photos/cs3sthlm-erwin-rik.jpg
 				</div>
 				{% endif %}
 
+				{% if speaker.youtube.size > 1 %}
+				<div class="col-8-8 col-top-space">
+					<h4 class="sub-headline sub-headline-yellow">YouTube</h4>
+					<a href="{{ speaker.youtube }}" target="_blank" class="speaker-item-link">View the presentation</a>
+				</div>
+				{% endif %}
+
 				<a href="#!" class="modal-close">Close<span></span></a>
 
 			</div>
