@@ -343,22 +343,6 @@
   
    {
      
-        "title"    : "Dan Gunter",
-        "url"      : "/about/archive/speakers/dan-gunter",
-        "path"     : "/about/archive/speakers/dan-gunter"
-     
-   },
-  
-   {
-     
-        "title"    : "Kai Thomsen",
-        "url"      : "/about/archive/speakers/kai-thomsen",
-        "path"     : "/about/archive/speakers/kai-thomsen"
-     
-   },
-  
-   {
-     
         "title"    : "Mark Stacey",
         "url"      : "/about/archive/speakers/mark-stacey",
         "path"     : "/about/archive/speakers/mark-stacey"
@@ -386,6 +370,14 @@
         "title"    : "Joe Slowik",
         "url"      : "/about/archive/speakers/joe-slowik",
         "path"     : "/about/archive/speakers/joe-slowik"
+     
+   },
+  
+   {
+     
+        "title"    : "Kristina Blomqvist",
+        "url"      : "/about/archive/speakers/kristina-blomqvist",
+        "path"     : "/about/archive/speakers/kristina-blomqvist"
      
    },
   
@@ -424,8 +416,8 @@
    {
      
         "title"    : "Erik Hjelmvik",
-        "url"      : "/about/archive/speakers/erik-hjelmvik",
-        "path"     : "/about/archive/speakers/erik-hjelmvik"
+        "url"      : "/archive/speakers/erik-hjelmvik",
+        "path"     : "/archive/speakers/erik-hjelmvik"
      
    },
   
@@ -447,14 +439,6 @@
   
    {
      
-        "title"    : "Mads Dam",
-        "url"      : "/about/archive/speakers/mads-dam",
-        "path"     : "/about/archive/speakers/mads-dam"
-     
-   },
-  
-   {
-     
         "title"    : "Jonas Almroth",
         "url"      : "/about/archive/speakers/jonas-almroth",
         "path"     : "/about/archive/speakers/jonas-almroth"
@@ -464,24 +448,24 @@
    {
      
         "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/about/archive/speakers/anne-marie-eklund-löwinder",
-        "path"     : "/about/archive/speakers/anne-marie-eklund-löwinder"
+        "url"      : "/archive/speakers/anne-marie-eklund-lowinder",
+        "path"     : "archive/speakers/anne-marie-eklund-lowinder"
      
    },
   
    {
      
         "title"    : "Patrick Miller",
-        "url"      : "/about/archive/speakers/patrick-miller",
-        "path"     : "/about/archive/speakers/patrick-miller"
+        "url"      : "/archive/speakers/patrick-miller",
+        "path"     : "archive/speakers/patrick-miller"
      
    },
   
    {
      
         "title"    : "Robert M. Lee",
-        "url"      : "/about/archive/speakers/robert-m-lee",
-        "path"     : "/about/archive/speakers/robert-m-lee"
+        "url"      : "/archive/speakers/robert-m-lee",
+        "path"     : "archive/speakers/robert-m-lee"
      
    },
   
@@ -568,16 +552,40 @@
    {
      
         "title"    : "Speakers",
-        "url"      : "/about/archive/speakers/",
-        "path"     : "/about/archive/speakers/"
+        "url"      : "/archive/speakers/",
+        "path"     : "/archive/speakers/"
+     
+   },
+  
+   {
+     
+        "title"    : "Presentations",
+        "url"      : "/archive/presentations/",
+        "path"     : "/archive/presentations/"
      
    },
   
    {
      
         "title"    : "Archive",
-        "url"      : "/about/archive/",
-        "path"     : "/about/archive/"
+        "url"      : "/archive/",
+        "path"     : "/archive/"
+     
+   },
+  
+   {
+     
+        "title"    : "Press",
+        "url"      : "/press/",
+        "path"     : "/press/"
+     
+   },
+  
+   {
+     
+        "title"    : "ICS Lab",
+        "url"      : "/ics-lab/",
+        "path"     : "/ics-lab/"
      
    },
   
@@ -610,14 +618,6 @@
         "title"    : "Expo Presentations",
         "url"      : "/expo/presentations/",
         "path"     : "/expo/presentations/"
-     
-   },
-  
-   {
-     
-        "title"    : "Home",
-        "url"      : "/",
-        "path"     : ""
      
    },
   
@@ -695,9 +695,9 @@
   
    {
      
-        "title"    : "Kristina Blomqvist",
-        "url"      : "/about/archive/speakers/kristina-blomqvist",
-        "path"     : "/about/archive/speakers/kristina-blomqvist"
+        "title"    : "Mads Dam",
+        "url"      : "/about/archive/speakers/mads-dam",
+        "path"     : "/about/archive/speakers/mads-dam"
      
    },
   
@@ -730,22 +730,6 @@
         "title"    : "Thank You",
         "url"      : "/thank-you/",
         "path"     : "/thank-you/"
-     
-   },
-  
-   {
-     
-        "title"    : "Press",
-        "url"      : "/press/",
-        "path"     : "/press/"
-     
-   },
-  
-   {
-     
-        "title"    : "ICS Lab",
-        "url"      : "/ics-lab/",
-        "path"     : "/ics-lab/"
      
    },
   
@@ -839,9 +823,25 @@
   
    {
      
-        "title"    : "Thanks",
-        "url"      : "/thanks/",
-        "path"     : "/thanks/"
+        "title"    : "Dan Gunter",
+        "url"      : "/about/archive/speakers/dan-gunter",
+        "path"     : "/about/archive/speakers/dan-gunter"
+     
+   },
+  
+   {
+     
+        "title"    : "Kai Thomsen",
+        "url"      : "/about/archive/speakers/kai-thomsen",
+        "path"     : "/about/archive/speakers/kai-thomsen"
+     
+   },
+  
+   {
+     
+        "title"    : "Program",
+        "url"      : "/program/",
+        "path"     : "/program/"
      
    },
   
@@ -855,9 +855,17 @@
   
    {
      
-        "title"    : "Program",
-        "url"      : "/program/",
-        "path"     : "/program/"
+        "title"    : "Thanks",
+        "url"      : "/thanks/",
+        "path"     : "/thanks/"
+     
+   },
+  
+   {
+     
+        "title"    : "Home",
+        "url"      : "/",
+        "path"     : ""
      
    },
   
@@ -910,6 +918,14 @@
         "title"    : "Secure your MES - the bridge between IT and OT",
         "url"      : "/program/presentations/khalid-ansari/",
         "path"     : "/program/presentations/khalid-ansari/"
+     
+   },
+  
+   {
+     
+        "title"    : "Archive List",
+        "url"      : "/archive/list",
+        "path"     : "/archive/list"
      
    },
   

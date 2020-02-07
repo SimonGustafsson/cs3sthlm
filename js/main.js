@@ -74,6 +74,55 @@ $(".update-close").on('click', function(){
     $('#update').removeClass('update-group-shown');
 });
 
+
+// ARCHIVE
+
+$(".archive-button-hexa").on('click', function(){
+    $('#archive-speakers').addClass('speakers-block-list-hexas');
+    $('#archive-speakers').removeClass('speakers-block-list-rows');
+    $('.archive-button-hexa').addClass('archive-filter-list-item-active');
+    $('.archive-button-rows').removeClass('archive-filter-list-item-active');
+});
+$(".archive-button-rows").on('click', function(){
+    $('#archive-speakers').addClass('speakers-block-list-rows');
+    $('#archive-speakers').removeClass('speakers-block-list-hexas');
+    $('.archive-button-hexa').removeClass('archive-filter-list-item-active');
+    $('.archive-button-rows').addClass('archive-filter-list-item-active');
+});
+
+// ARCHIVE FILTER _ NOT ACTIVE
+
+$(".archive-button-keynote").on('click', function(){
+    $('.archive-button-keynote').addClass('archive-filter-list-item-active');
+    $('.archive-button-presentation').removeClass('archive-filter-list-item-active');
+    $('.archive-button-training').removeClass('archive-filter-list-item-active');
+    $('.archive-button-all').removeClass('archive-filter-list-item-active');
+});
+
+$(".archive-button-presentation").on('click', function(){
+    $('.archive-button-presentation').addClass('archive-filter-list-item-active');
+    $('.archive-button-keynote').removeClass('archive-filter-list-item-active');
+    $('.archive-button-training').removeClass('archive-filter-list-item-active');
+    $('.archive-button-all').removeClass('archive-filter-list-item-active');
+});
+
+$(".archive-button-training").on('click', function(){
+    $('.archive-button-training').addClass('archive-filter-list-item-active');
+    $('.archive-button-presentation').removeClass('archive-filter-list-item-active');
+    $('.archive-button-keynote').removeClass('archive-filter-list-item-active');
+    $('.archive-button-all').removeClass('archive-filter-list-item-active');
+});
+
+$(".archive-button-all").on('click', function(){
+    $('.archive-button-all').addClass('archive-filter-list-item-active');
+    $('.archive-button-presentation').removeClass('archive-filter-list-item-active');
+    $('.archive-button-keynote').removeClass('archive-filter-list-item-active');
+    $('.archive-button-training').removeClass('archive-filter-list-item-active');
+});
+
+// END ARCHIVE FILTER
+
+
 $('#dayone-button').on('click', function(){
     $('#dayone-button').addClass('agenda-header-item-active');
     $('#daytwo-button, #daythree-button, #dayfour-button').removeClass('agenda-header-item-active');

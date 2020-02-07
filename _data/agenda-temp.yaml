@@ -1,0 +1,85 @@
+#DAY ONE
+
+- id:
+  day: dayone
+  type: ics-lab
+  time: 09-20
+  title: ICS Lab
+
+
+- id:
+  day: dayone
+  type: training
+  time: 09-17
+  title: Training
+
+#DAY TWO
+
+- id:
+  day: daytwo
+  type: ics-lab
+  time: 09-20
+  title: ICS Lab
+
+- id:
+  day: daytwo
+  type: training
+  time: 09-17
+  title: Training
+
+
+- id:
+  day: daytwo
+  type: expo
+  time: 10-22
+  title: Expo
+
+- id:
+  day: daytwo
+  type: summit
+  time: 18-22
+  title: Welcome Reception
+
+
+#DAY THREE
+
+- id:
+  day: daythree
+  type: ics-lab
+  time: 09-20
+  title: ICS Lab
+
+
+- id:
+  day: daythree
+  type: summit
+  time: 09-17
+  title: Summit
+
+- id:
+  day: daythree
+  type: summit
+  time: 17-19
+  title: Hallway Mingle
+
+- id:
+  day: daythree
+  type: summit
+  time: 19-22
+  title: Gala Dinner
+
+
+#DAY FOUR
+
+- id:
+  day: dayfour
+  type: ics-lab
+  time: 09-17
+  title: ICS Lab
+
+
+- id:
+  day: dayfour
+  type: summit
+  time: 09-17
+  title: Summit

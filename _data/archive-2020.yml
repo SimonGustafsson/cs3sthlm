@@ -1,0 +1,4331 @@
+- id:
+  type: 
+    - presentation
+    - training
+  when:
+    - "2014"
+  permalink: anders-rodrick
+  speaker:
+    - name: Anders Rodrick
+      role: Founder and Principal Consultant
+      work: ARICT AB
+      country: Sweden
+      shortcode: SE
+      image: temp
+      bio: Anders started his career in the academic world as a IT-system manager for all unix systems at thecomputer science department at the university of Karlstad. In the late 90´s Anders moved to the private sector as a IT security consultant and has now 15+ years of experience both in the IT security field and ICS security area. During his time in the private sector he has been the founder of several security companies. Anders is one of the true pioneers within the Swedish ICS security community. He have gathered enourmous hard-to-aquire real-world experiences from having had the IT security role in large SCADA projects. Anders know both policy side as well as the technical side as he have worked with both requirement capturing as well as implementing practical security measures at SCADA sites and ICS environments. Anders will hold a presentation about practical security work and implementations in critical scada systems. As he is a man of action and solving problems, Anders will give an example from a major ICS environment - the Nationwide Electrical Grid/Dispatch centers and the Train management systems for The Swedish Transport Administration.
+  presentation:
+    - active
+    - "2014"
+    - yearone:
+      - date: 2014
+        subject: Experiences from introducing security network monitoring at a major ICS enviroment
+        permalink: program/presentations/
+        partner:
+        description: |
+          Coming soon
+  training:
+    - active
+    - "2014"
+    - yearone:
+      - date: 2014
+        subject: Intrusions Detection System for Industrial Control Systems
+        permalink: program/trainings/
+        partner:
+        description: |
+          Coming soon
+
+- id: 
+  type: 
+    - training
+  when:
+    - "2014"
+  permalink: fredrik-hesse
+  speaker:
+    - name: Fredrik Hesse
+      role: Software Security Architect
+      work: Svenska Spel AB
+      country: Sweden
+      shortcode: SE
+      image: temp
+      bio: Fredrik Hesse has over 20 years of experience as both systems architect as well as security consultant, giving him a unique combined set of skills for software security. He has toured with Microsoft and appeared at OWASP as a public speaker and had numerous mentoring and review assignments.
+  presentation:
+    - none          
+  training:
+    - active
+    - "2014"
+    - yearone:
+      - date: 2014
+        subject: Developing, procuring and running secure and reliable systems
+
+- id:
+  type: 
+    - presentation
+    - training
+  when:
+    - "2014"
+  permalink: joel-langill
+  speaker:
+    - name: Joel Langill
+      role: Industrial Cyber Security Expert
+      work: Indepedant
+      country: United States
+      shortcode: US
+      image: temp
+      bio: Joel brings a unique perspective to industrial security with over three decades field experience deploying ICS solutions covering most major industry sectors in more than 35 countries encompassing all generations of automated control from pneumatic to cloud-based services. He has been directly involved in the specification and design of automation solutions spanning front-end engineering design, detailed design, system integration, commissioning, support and legacy system migration. Joel currently provides a range of services to ICS end-users, system integrators, and governmental agencies worldwide. He works closely with suppliers in both consulting and R&D roles, and has developed a specialized training curriculum focused on applied ICS security. He served as co-author and technical editor for several books on industrial security, and is the founder of the globally recognized website SCADAhacker.com. Joel was an active contributor to the research conducted relating to several ICS cyber campaigns including Stuxnet and Heartbleed, and was credited with several coordinated disclosures on the subject.
+  presentation:
+    - active
+    - "2014"
+    - yearone:
+      - date: 2014
+        subject: "What aren't we doing right? ... or is that 'What are we doing wrong?'"
+        permalink: program/presentations/
+        partner:
+        description: |
+          Coming soon.
+  training:
+    - active
+    - "2014"
+    - yearone:
+      - date: 2014
+        subject: Applied Cyber Defenses for Industrial Control Systems
+        permalink:
+        partner: none
+        description: |
+         Coming soon
+
+- id:
+  type: 
+    - presentation
+  when:
+    - "2014"
+    - "2016"
+  permalink: john-matherly
+  speaker:
+    - name: John Matherly
+      role: Internet Cartographer
+      work: Shodan
+      country: United States
+      shortcode: US
+      image: john-matherly
+      bio: John is the author of SHODAN also known as "World's most Dangerous Search Engine", which have huge relevance for SCADA and ICS security. John has been described as an Internet cartographer. He his famous as the founder of Shodan, the world’s first search engine for the Internet-connected devices (read more here). For the past years, he has been featured in the news on BBC News, CNBC, CNN Money, Bloomberg, Washington Post, Forbes, Wired and many others. It was in 2009, his hobby project "the Shodan search engine" was unveiled on Twitter and within hours the website received a lot of attention due to the unexpected discoveries that people made. Printers, webcams, power plants and more, many of them unprotected or minimally protected, were found over time and the revelations have changed the way security and privacy on the Internet is perceived. Shodan is already seeing TVs, cell phones, traffic lights, industrial controls, infrastructure plants and various home appliances pop-up in the search results. And more of these “Internet of Things” are added each day as the world is becoming more connected.
+  presentation:
+    - active
+    - "2014"
+    - "2016"
+    - yearone:
+      - date: 2014
+        subject: Conversations with your Control System
+        permalink: program/presentations/
+        partner:
+        description: |
+          Coming soon.
+    - yearthree:
+      - date: 2016
+        subject: How to maximize your usage of the Shodan platform
+        permalink: program/presentations/
+        partner:
+        description: |
+         Coming soon.          
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2014"
+  permalink: justin-lowe
+  speaker:
+    - name: Justin Lowe
+      role: Security Consultant
+      work: PA's Management Group
+      country: United Kingdom
+      shortcode: UK
+      image: temp
+      bio: Justin Lowe is a member of PA's Management Group in our Global Energy Practice and specialises in energy sector cyber security issues. Justin is a security consultant with over 15 years experience in industrial control system and SCADA security, and the challenges of addressing security issues across the energy sector. He led the industry leading work at BP where he developed the industrial control system security standards and drove the global risk assessment and compliance programme. Justin also led the development of Security Best Practices for SCADA and control systems for the UK Government's Centre for Protection of National Infrastructure. Justin is a regular speaker on security issues facing the energy and utilities sector.
+  presentation:
+    - active
+    - "2014"
+    - yearone:
+      - date: 2014
+        subject: A best practice framework for managing ICS risks
+        permalink: program/presentations/
+        partner:
+        description: |
+          asd
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2014"
+    - "2016"
+  permalink: margrete-raaum
+  speaker:
+    - name: Margrete Raaum
+      role: CEO of the Norwegian Energy Sector CERT
+      work: President of Forum of Incident Response and Security Teams (FIRST)
+      country: Norway
+      shortcode: "NO"
+      image: margrete-raaum
+      bio: Margrete Raaum has worked on information security since 1998. Having that many years of experience, she has a broad technical understanding and good understanding of the contemporary threat picture. She has worked for the ISP community as well the Norwegian Security Authority and National CERT, NSM/NorCERT. Margrete Raaum built and was for a number of years leader of the UiO-CERT. She now works for Statnett, the Norwegian Transmission System Operator, on risk assessment and incident response. She is elected member of the board of directors of FIRST (Forum of Incident Response and Security Teams), leading the work on sector specific efforts and the energy sector working group. She has been a TRANSITS trainer for a number of years, and has a background from Informatics at the University of Oslo.
+  presentation:
+    - active
+    - "2014"
+    - "2016"
+    - yearone:
+      - date: 2014
+        subject: Information Security Incident Response in the Energy Sector
+        permalink: program/presentations/
+        partner: none
+        description: |
+          Coming soon.
+    - yearthree:
+      - date: 2016
+        subject:  Road to Cyber Threat Intelligence in the Energy Sector
+        permalink: program/presentations/
+        partner: Thomas Schreck
+        description: |
+          Coming soon.
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2014"
+  permalink: ruben-santamarta
+  speaker:
+    - name: Ruben Santamarta
+      role: Principal Security Consultant
+      work: IOActive
+      country: Spain
+      shortcode: ES
+      image: temp
+      bio: Ruben has over 10 years experience working for the security industry in different roles such as malware analysis or exploit development. Ruben has found dozens of vulnerabilities in products from leading IT and ICS vendors. He become well known for a broader SCADA/ICS audience in year 2012 when he participated in the Digitalbond's project basecamp where a couple of security researcher tested the security of ICS equipment. Ruben had said that the underlying problem is that some of these 'attacks' are actually features documented in the their protocol, so again "any legit functionality supported by the controller could also be used by a malicious user". During the last couple of months Ruben have been in the media after exposing vulnerabilities in Satellite Communications (SATCOM) systems, who plays a vital role in the global telecommunications system, read more about this in his article A Wake-up Call for SATCOM Security.
+  presentation:
+    - active
+    - "2014"
+    - yearone:
+      - date: 2014
+        subject: "SATCOM Terminals: Hacking by Air, Sea and Land"
+        permalink: program/presentations/
+        partner:
+        description: |
+          asd
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2014"
+  permalink: samuel-linares
+  speaker:
+    - name: Samuel Linares
+      role: Director
+      work: Industrial Cybersecurity Center
+      country: Spain
+      shortcode: ES
+      image: temp
+      bio: Samuel Linares is Director at Industrial Cybersecurity Center, European Commission Independent Evaluator, ENISA (European Network and Information Security Agency) CIIP Expert and member of ISACA Cybersecurity Task Force. With 2 decades of security, system integration and multinational and multicultural projects management experience, he has been the main promoter of the “Industrial Cybersecurity” concept in Spanish, being recognized as one of the key Spanish and Latin-american experts in the area and participating as speaker, chairman and teacher in different events all over the world (including Spain, UK, USA, Belgium, Qatar, United Arab Emirates, Mexico, Cuba or Argentina, among others). He holds various cybersecurity certifications including GICSP (Global Industrial Cyber Security Professional), CRISC (Certified in Risk and Information Systems Control), CGEIT (Certified in Governance of Enterprise IT), CISM (Certified Information Security Manager), CISA (Certified Information Security Auditor), CISSP (Certified Information Systems Security Professional), GIAC Assessing Wireless Networks (GAWN), Systems and Network Auditor (GSNA), and Google Hacking & Defense (SSP-GHD), BSI BS 25999 & BS 7799 Lead Auditor (since 2002), and several additional vendor specific technical certifications. He holds a B.S. in Computer Science from the Univ. de Oviedo and is University Specialist in Data Protection by the Colegio Universitario Escorial Maria Cristina.
+  presentation:
+    - active
+    - "2014"
+    - yearone:
+      - date: 2014
+        subject: "Beyond Public Private Partnerships: Collaboration, Coordination and Commitment as key aspects of Industrial Cybersecurity"
+        permalink: program/presentations/
+        partner:
+        description: |
+          asd
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2014"
+  permalink: sergey-gordychic
+  speaker:
+    - name: Sergey Gordeychic
+      role: Director and Scriptwriter
+      work: SCADA StrangeLove ICS Security Research Team
+      country: Russia
+      shortcode: RU
+      image: temp
+      bio: Sergey Gordeychik is the Director and Scriptwriter of the Positive Hack Days forum, captain of SCADAStrangeLove.org team and Web Application Security Consortium (WASC) contributor. SCADA industrial disasters researcher and speaker at S4, CCC, POC, Kaspersky SAS, etc. The main areas of his work are the development of the Enterprise Secuity products in vulnerability and compliance management and application security niches (MaxPatrol vulnerability and compliance management suite, Application Inspector source code analyzer, PT Application Firewall), and guidance of the largest Europe team of professional security researches. Sergey Gordeychik has developed a number of training courses, including "Wireless Networks Security" and "Analysis and Security Assessment of Web Applications," published several dozens of articles in various titles and a book called "Wireless Networks Security".
+  presentation:
+    - active
+    - "2014"
+    - yearone:
+      - date: 2014
+        subject: "SCADA StrangeLove: The Great Train Cyber Robbery"
+        permalink: program/presentations/
+        partner:
+        description: |
+          asd
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2014"
+  permalink: staffan-persson
+  speaker:
+    - name: Staffan Persson
+      role: Director of Information Security
+      work: Atsec Information Security
+      country: Sweden
+      shortcode: SE
+      image: temp
+      bio: Staffan Persson if one of the founders of atsec information security and despite being a director of information security he would still consider himself to be a security engineer and security evaluator. He has been active in the field of IT security since the late eighties. Most of the time as IT security auditor or evaluator, with exception of a short period of time when he was lead engineer in the development of a secure operating system. He is native Swedish, but lives in Germany for more that twenty years. As a Common Criteria evaluator and ISO 27001 lead auditor he has been helping customers to achieve security certifications of security product and management systems. He has trained security certifiers and evaluators in Europe and Asia and contributed to the creation of several national certification schemes. He is an engineer from Chalmers University of Technology with a background in Unix, operating systems and formal languages. He will give a presentation on the topic “Security requirements and their implications. An interpretation of the German security requirements for smart meters for manufacturers and operators”.
+  presentation:
+    - active
+    - "2014"
+    - yearone:
+      - date: 2014
+        subject: Security requirements and their implications. An interpretation of the german security requirements for smart meters for manufacturers and operators
+        permalink: program/presentations/
+        partner:
+        description: |
+          asd
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+    - keynote
+  when:
+    - "2014"
+  permalink: stefan-lueders
+  speaker:
+    - name: Stefan Lueders
+      role: Head of IT Security
+      work: CERN
+      country: Switzerland
+      shortcode: CH
+      image: temp
+      bio: Stefan Lüders have graduated from the Swiss Federal Institute of Technology in Zurich and joined CERN in 2002. Being initially developer of a common safety system used in all four experiments at the Large Hadron Collider, he gathered expertise in cyber-security issues of control systems. Consequently in 2004, he took over responsibilities in securing CERN's accelerator and infrastructure control systems against cyber-threats. Subsequently, he joined the CERN Computer Security Incident Response Team and is today heading this team as CERN’s Computer Security Officer with the mandate to coordinate all aspects of CERN’s computer security office computing security, computer centre security, GRID computing security and control system security whilst maintaining CERN’s academic environment and taking into account CERN’s operational needs. Dr. Lueders has presented on these topics at many different occasions to international bodies, governments, and companies, and published several articles.
+  keynote:
+    - date: 2014
+    - subject: Why Control System Cyber Security Sucks
+  presentation:
+    - active
+    - "2014"
+    - yearone:
+      - date: 2014
+        subject: Why Control System Cyber Security Sucks
+        permalink: program/presentations/
+        keynote: true
+        partner:
+        description: |
+          asd
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2014"
+  permalink: vyacheslav-borilin
+  speaker:
+    - name: Vyacheslav Borilin
+      role: Business Development Manager
+      work: Kaspersky Labs
+      country: Russia
+      shortcode: RU
+      image: temp
+      bio: Slava Borilin is in charge of Critical Infrastructure Protection in Kaspersky Lab. With degrees in both Applied Math and Management, his 25 years carrier is tied with the information technologies. Prior to Kaspersky Lab, Slava has contributed to the international success of IT companies, including Mail.ru, SPIRIT-DSP, VideoMost, in North America, Europe and APAC, partnerships with Apple, Adobe, AT&T, ARM, British Telecom, Korea Telecom, KDDI, Skype, Microsoft, Oracle, Texas Instruments, and served in the roles of Director/VP in R&D, Product Management and CEO. Slava is a member of IETF and ISA, and a contributor in CIP initiatives, including CyberSecurity Framework
+  presentation:
+    - active
+    - "2014"
+    - yearone:
+      - date: 2014
+        subject: Cyber Security, or Cyber Safety Culture? How to convert the weakest link into the force
+        permalink: program/presentations/
+        partner:
+        description: |
+          asd
+  training:
+    - none
+
+- id: 
+  type: 
+    - moderator
+  when:
+    - "2014"
+    - "2015"
+    - "2016"
+    - "2017"
+    - "2019"
+  permalink: anne-marie-eklund-lowinder
+  speaker:
+    - name: Anne-Marie Eklund Löwinder
+      role: Chief Information Security Officer
+      work: IIS, The Internet Foundation In Sweden
+      country: Sweden
+      shortcode: SE
+      image: amel
+      bio: She is the Chief Information Security Officer at IIS, The Internet Foundation In Sweden. She also serves on the boards of internet-related organisations including the Council of European National Top Level Domain Registries (CENTR) and the Swedish Law and Informatics Research Institute. Eklund Löwinder has been appointed Trusted Community Representative by the Internet Corporation for Assigned Names and Numbers (ICANN). She is one of seven people who control the DNSSEC key generation for the internet root zone.
+  presentation:
+    - none
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+    - training
+  when:
+    - "2014"
+    - "2015"
+    - "2016"
+    - "2017"
+    - "2018"
+    - "2019"
+  permalink: erik-hjelmvik
+  speaker:
+    - name: Erik Hjelmvik
+      role: Network Analyst
+      work: Netresec
+      country: Sweden
+      shortcode: SE
+      image: erik-hjelmvik
+      bio: Erik is the creator of NetworkMiner and an experienced incident handler who has specialized in the field of network forensic
+  presentation:
+    - active
+    - "2014"
+    - "2019"
+    - yearone:
+      - date: 2014
+        subject: SCADA Network Forensics
+        permalink: program/presentations/
+        partner:
+        description: |
+         Coming soon.
+    - yearsix:
+      - date: 2019
+        subject: TLS Interception and Decryption *LIVE DEMO*
+        permalink: program/presentations/
+        partner:
+        description: |
+         Coming soon.
+  training:
+    - active
+    - "2015"
+    - "2016"
+    - "2017"
+    - "2018"
+    - "2019"
+    - yeartwo:
+      - date: 2015
+        days: 24
+        subject: Network Forensics Training
+        permalink:
+        partner: none
+        description: |
+         Coming soon
+    - yearthree:
+      - date: 2016
+        days: 23
+        subject: Network Forensics Training
+        permalink:
+        partner: none
+        description: |
+         Coming soon
+    - yearfour:
+      - date: 2017
+        days: 23-24
+        subject: Network Forensics Training
+        permalink:
+        partner: none
+        description: |
+         Coming soon
+    - yearfive:
+      - date: 2018
+        days: 22-23
+        subject: Network Forensics Training
+        permalink:
+        partner: none
+        description: |
+         Coming soon
+    - yearsix:
+      - date: 2019
+        days: 21-22
+        subject: Network Forensics Training
+        permalink:
+        partner: none
+        description: |
+         Coming soon
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2015"
+  permalink: ahmed-sherif-eldemrdash
+  speaker:
+    - name: Ahmed Sherif Eldemrdash
+      role: 
+      work: CERT-EG
+      country: Egypt
+      shortcode: EG
+      image: ahmed-sherif-eldemrdash
+      bio: 
+  presentation:
+    - active
+    - "2015"
+    - yeartwo:
+      - date: 2015
+        subject: Simulating Attacks on infrastructure systems in Egypt
+        permalink: program/presentations/
+        partner:
+        description: |
+          asd
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+    - training
+  when:
+    - "2015"
+    - "2016"
+  permalink: arjan-meijer
+  speaker:
+    - name: Arjan Meijer
+      role: Security Consultant
+      work: Hudson Cybertec
+      country: Netherlands
+      shortcode: NL
+      image: arjan-meijer
+      bio: Arjan is a seasoned consultant, specialized in Cyber Security for the Operational Technology (OT) domain. For Solution Provider Hudson Cybertec, he is actively engaged in Industrial Automation and Control Systems (IACS) security projects worldwide within various industrial sectors, amongst Critical Infrastructure sectors like Food, Water, Oil & Gas as well as others. Throughout his career, he has had a strong focus on Network Security and Cyber Security Management for the OT domain. Arjan is Subject Matter Expert and an experienced trainer for IEC 62443. As an accomplished speaker at international security events, he participated as a speaker, lecturer and panelist at numerous global conferences and seminars. Also, he has been a regular guest lecturer at The Hague University. Arjan has undertaken international training, including advanced ICS security training at the National Department of Homeland Security in the USA and is also involved in several EU Cyber Security initiatives.
+  presentation:
+    - active
+    - "2015"
+    - yeartwo:
+      - date: 2015
+        subject: Is Your Plant "Ready to Crash"?
+        permalink: program/presentations/
+        partner:
+        description: |
+         Coming soon
+  training:
+    - active
+    - "2015"
+    - "2016"
+    - yeartwo:
+      - date: 2015
+        subject: Introduction to ISA99/IEC 62443
+        permalink: program/presentations/
+        partner:
+        description: |
+         Coming soon
+    - yearthree:
+      - date: 2016
+        subject: Introduction to the IEC 62443 Standard
+        permalink: program/presentations/
+        partner:
+        description: |
+          Coming soon
+
+- id: 
+  type: 
+    - presentation
+    - training
+  when:
+    - "2015"
+  permalink: chris-sistrunk
+  speaker:
+    - name: Chris Sistrunk
+      role: 
+      work: Fireeye
+      country: United States
+      shortcode: US
+      image: chris-sistrunk
+      bio: 
+  presentation:
+    - active
+    - "2015"
+    - yeartwo:
+      - date: 2015
+        subject: "Missing the Obvious: Network Security Monitoring for ICS"
+        permalink: program/presentations/
+        partner: Robert Caldwell
+        description: |
+          Coming soon
+  training:
+    - active
+    - "2015"
+    - yeartwo:
+      - date: 2015
+        subject: Network Security Monitoring in ICS environments
+        permalink: program/trainings/
+        partner:
+        description: |
+          Coming soon
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2015"
+  permalink: dewan-chowdhury
+  speaker:
+    - name: Dewan Chowdhury
+      role: 
+      work: MalCrawler
+      country: United States
+      shortcode: US
+      image: dewan-chowdhury
+      bio: 
+  presentation:
+    - active
+    - "2015"
+    - yeartwo:
+      - date: 2015
+        subject: "Hacking the Power Grid: Analyzing what Hackers do when they have access to the 'Power Grid Honeypot'"
+        permalink: program/presentations/
+        partner:
+        description: |
+          asd
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2015"
+    - "2016"
+  permalink: eireann-leverett
+  speaker:
+    - name: Eireann Leverett
+      role: Researcher
+      work: Cambridge University
+      country: United Kingdom
+      shortcode: UK
+      image: eireann-leverett
+      bio: |
+        Founder and CEO of Concinnity Risks. Éireann Leverett once found 10,000 vulnerable industrial systems on the internet. He then worked with Computer Emergency Response Teams around the world for cyber risk reduction. He likes teaching the basics, and learning the obscure. He continues to be fascinated by computer science, cryptography, networks, information theory, economics, and magic history. He studies zero knowledge proofs, firmware and malware reverse engineering, and complicated network effects such as Braess' and Jevon's Paradoxes. He has worked in quality assurance on software that runs the electric grid, penetration testing, and academia. He likes long binwalks by the hexdumps with his friends. Éireann Leverett is a regular speaker at computer security conferences such as FIRST, BlackHat, Defcon, Brucon, Hack.lu, RSA, and CCC; and also a regular speaker at insurance and risk conferences such as Society of Information Risk Analysts, Onshore Energy Conference, International Association of Engineering Insurers, International Risk Governance Council, and the Reinsurance Association of America. He has been featured by the BBC, The Washington Post, The Chicago Tribune, The Register, The Christian Science Monitor, Popular Mechanics, and Wired magazine. He also serves in an advisory role to ENISA: on the industrial control systems and smart grid security experts group. He was part of a multidisciplinary team that built the first cyber risk models for insurance with Cambridge University Centre for Risk Studies and RMS.
+  presentation:
+    - active
+    - "2015"
+    - "2016"
+    - yeartwo:
+      - date: 2015
+        subject: "Caststonomics: North"
+        permalink: program/presentations/
+        partner:
+        description: |
+          Coming soon
+    - yearthree:
+      - date: 2016
+        subject: Embodied Vulnerabilities - How to find, fix, and think about them
+        permalink: program/presentations/
+        partner: Marie Moe
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2015"
+  permalink: jan-seidl
+  speaker:
+    - name: Jan Seidl
+      role: Independant Security Researcher
+      work: Independant
+      country: Brazil
+      shortcode: BR
+      image: jan-seidl
+      bio: 
+  presentation:
+    - active
+    - "2015"
+    - yeartwo:
+      - date: 2015
+        subject: PhysICS - Using physics simulation engine to demonstrate impacts on industrial control attacks
+        permalink: program/presentations/
+        partner:
+        description: |
+          Coming soon
+      - date: 2015
+        subject: Reducing attack surface on ICS with Windows native solutions
+        permalink: program/presentations/
+        partner:
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+    - training
+  when:
+    - "2015"
+  permalink: joe-fitzpatrick
+  speaker:
+    - name: Joe Fitzpatrick
+      role: 
+      work: 
+      country: United States
+      shortcode: US
+      image: joe-fitzpatrick
+      bio: 
+  presentation:
+    - active
+    - "2015"
+    - yeartwo:
+      - date: 2015
+        subject: The dirty secrets your hardware can keep, and how we can clean up its act
+        permalink: program/presentations/
+        partner:
+        description: |
+          Coming soon
+  training:
+    - active
+    - "2015"
+    - yeartwo:
+      - date: 2015
+        subject: Hacking hardware in 3 easy steps
+        permalink: program/presentations/
+        partner:
+        description: |
+          Coming soon
+
+- id: 
+  type: 
+    - presentation
+    - keynote
+  when:
+    - "2015"
+  permalink: kim-zetter
+  speaker:
+    - name: Kim Zetter
+      role: Investigating Journalist
+      work: Wired
+      country: United States
+      shortcode: US
+      image: kim-zetter
+      bio: 
+  keynote:
+    - date: 2015
+    - subject: "Stuxnet and Beyond: The Age of Digital Warfare"
+  presentation:
+    - active
+    - "2015"
+    - yeartwo:
+      - date: 2015
+        subject: "Stuxnet and Beyond: The Age of Digital Warfare"
+        permalink: program/presentations/
+        keynote: true
+        partner:
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2015"
+  permalink: leif-nixon
+  speaker:
+    - name: Leif Nixon
+      role: 
+      work: 
+      country: Sweden
+      shortcode: SE
+      image: leif-nixon
+      bio: 
+  presentation:
+    - active
+    - "2015"
+    - yeartwo:
+      - date: 2015
+        subject: Responsible Disclosure may be Irresponisble
+        permalink: program/presentations/
+        partner:
+        description: |
+          asd
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2015"
+  permalink: mark-fabro
+  speaker:
+    - name: Mark Fabro
+      role: 
+      work: Lofty Perch
+      country: Canada
+      shortcode: CA
+      image: mark-fabro
+      bio: 
+  presentation:
+    - active
+    - "2015"
+    - yeartwo:
+      - date: 2015
+        subject: Case Studies in Real World ICS/SCADA Incident Response and Forensics
+        permalink: program/presentations/
+        partner:
+        description: |
+          asd
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2015"
+  permalink: michael-toecker
+  speaker:
+    - name: Michael Toecker
+      role: 
+      work: Context Industrial Security
+      country: United States
+      shortcode: US
+      image: michael-toecker
+      bio: 
+  presentation:
+    - active
+    - "2015"
+    - yeartwo:
+      - date: 2015
+        subject: Digital Maintenance and Test Equipment and Impact on Control System Security
+        permalink: program/presentations/
+        partner:
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+    - training
+  when:
+    - "2015"
+  permalink: monnappa-k-a
+  speaker:
+    - name: Monnappa K A
+      role: 
+      work: 
+      country: India
+      shortcode: IN
+      image: monnappa-k-a
+      bio: 
+  presentation:
+    - active
+    - "2015"
+    - yeartwo:
+      - date: 2015
+        subject: Reversing and Deciphering the Cyber Espionage Malware Communications
+        permalink: program/presentations/
+        partner:
+        description: |
+          Coming soon
+  training:
+    - active
+    - "2015"
+    - yeartwo:
+      - date: 2015
+        subject: Memory Forensics for Incident Responders
+        permalink: program/trainings/
+        partner:
+        description: |
+          Coming soon
+
+- id: 
+  type: 
+    - presentation
+    - dinner
+  when:
+    - "2015"
+  permalink: peter-zinn
+  speaker:
+    - name: Peter Zinn
+      role: 
+      work: Cyber Agent
+      country: Netherlands
+      shortcode: NL
+      image: peter-zinn
+      bio: 
+  presentation:
+    - active
+    - "2015"
+    - yeartwo:
+      - date: 2015
+        subject: Cyber Security through the ages
+        permalink: program/presentations/
+        partner:
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2015"
+  permalink: robert-caldwell
+  speaker:
+    - name: Robert Caldwell
+      role: 
+      work: Mandiant
+      country: United States
+      shortcode: US
+      image: robert-caldwell
+      bio: 
+  presentation:
+    - active
+    - "2015"
+    - yeartwo:
+      - date: 2015
+        subject: "Missing the Obvious: Network Security Monitoring for ICS"
+        permalink: program/presentations/
+        partner: Chris Sistrunk
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+    - keynote
+    - training
+  when:
+    - "2015"
+    - "2016"
+  permalink: robert-m-lee
+  speaker:
+    - name: Robert M. Lee
+      role: Security Researcher
+      work: Dragos Inc.
+      country: United States
+      shortcode: US
+      image: robert-m-lee
+      bio: |
+        Mr Lee, who on his ordinary dayjob manage Dragos Inc, a cyber security solutions provider for Industrial Control System Networks, will also be given the pre-summit training class called "ICS Active defense" as well as participating with his unique knowledge on the Ukraine cyber attacks in the "Lessons Learned" session on day #2. Robert M. Lee started in the cyber security field by serving as a Cyber Warfare Operations Officer in the U.S. Air Force. Mr Lee has performed defense, intelligence, and attack missions in various government organizations, including establishment of a SCADA/ICS cyber threat and intrusion analysis mission that was unique at the time of establishment. Mr Lee is a renowned media figure, known from many interviews on national media on the topic of cybersecurity and critical infrastructure security. Robert is also an author of many articles and books on the topic, including the fantastic book "SCADA and Me" and the connected weekly web-comic Little Bobby.  presentation:
+  keynote:
+    - date: 2016
+    - subject: Exploring the Unknown ICS Threat Landscape
+  presentation:
+    - active
+    - "2015"
+    - "2016"
+    - yeartwo:
+      - date: 2015
+        subject: Asset Identification and Network Security Monitoring in ICS Network
+        permalink: program/presentations/
+        partner:
+        description: |
+          Coming soon
+    - yearthree:
+      - date: 2016
+        subject: Exploring the Unknown ICS Threat Landscape
+        permalink: program/presentations/
+        keynote: true
+        partner:
+        description: |
+          Coming soon          
+  training:
+    - active
+    - "2016"
+    - yearthree:
+      - date: 2016
+        subject: ICS Active Defence
+        permalink: program/trainings/
+        partner:
+        description: |
+          Coming soon   
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2015"
+    - "2019"
+  permalink: stephen-hilt
+  speaker:
+    - name: Stephen Hilt
+      role: Senior Threat Researcher
+      work: Trend Micro
+      country: United States
+      shortcode: US
+      image: stephen-hilt
+      bio: |
+        Stephen Hilt is a Sr. Threat Researcher at Trend Micro. Stephen focuses on General Security Research, Threat Actors, Malware behind attacks, and Industrial Control System Security. Stephen enjoys breaking things and putting them back together with a few extra parts to spare. Stephen is a world-renowned researcher, having spoken at Blackhat US, and RSA, HITB and many more. His research has gained him Dark Reading top hacks of the year twice. Working at Digital Bond Stephen became a Nmap Contributor where he wrote Nmap scripts for ICS and other mainstream protocols. This work took him into becoming an expert on ICS protocols and co-authored the book Hacking Exposed Industrial Control Systems: ICS and SCADA Security Secrets & Solutions.
+  presentation:
+    - active
+    - "2015"
+    - "2019"
+    - yeartwo:
+      - date: 2015
+        subject: "The Little Pump Gauge That Could: Attacks Against Gas Pump Monitoring Systems"
+        permalink: program/presentations/
+        partner:
+        description: |
+          Coming soon
+    - yearsix:
+      - date: 2019
+        subject: How we reverse-engineered multiple industrial radio remote-control systems
+        permalink: program/presentations/
+        partner:
+        description: |
+          Coming soon          
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2015"
+  permalink: freddy-dezeure
+  speaker:
+    - name: Freddy DeZeure
+      role: 
+      work: CERT-EU/European Commision
+      country: Belgium
+      shortcode: BL
+      image: freddy-dezeure
+      bio: 
+  presentation:
+    - active
+    - "2015"
+    - yeartwo:
+      - date: 2015
+        subject: What can the ICS sector learn from APT attack?
+        permalink: program/presentations/
+        partner:
+        description: |
+          asd
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+    - training
+  when:
+    - "2015"
+    - "2017"
+    - "2018"
+  permalink: mikael-vingaard
+  speaker:
+    - name: Mikael Vingaard
+      role: IT Security Consultant
+      work: EnergiNet
+      country: Denmark
+      shortcode: DK
+      image: mikael-vingaard
+      bio: Mikael Vingaard leverages his 15+ years of IT-security experience to build practicalinformation security with a real-life perspective. Mikael works as IT-Security Consultant at EnergiNet.dk, the Danish national transmission system operator. In his spare time, Mikael runs several research projects, build on Open Source softwareto make a positive difference to secure critical infrastructure environments.
+  presentation:
+    - active
+    - "2015"
+    - yeartwo:
+      - date: 2015
+        subject: Who controls your industrial control systems?
+        permalink: program/presentations/
+        partner:
+        description: |
+         Coming soon.          
+  training:
+    - active
+    - "2017"
+    - "2018"
+    - yearfour:
+      - date: 2017
+        days: 24
+        subject: Practical SCADA/ICS Honeypots
+        permalink: program/presentations/
+        partner:
+        description: |
+         Coming soon.  
+    - yearfive:
+      - date: 2018
+        days: 22-23
+        subject: ICS Scada Honeypot Technical Training
+        permalink: program/presentations/
+        partner:
+        description: |
+         Coming soon.  
+
+
+#END OF 2015
+
+#START OF 2016
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2016"
+    - "2017"
+  permalink: anton-cherepanov
+  speaker:
+    - name: Anton Cherepanov
+      role: Senior Malware Researcher
+      work: ESET
+      country: Slovakia
+      shortcode: SK
+      image: anton-cherepanov
+      bio: Anton Cherepanov currently working at ESET as a malware researcher, his responsibilities include the analysis of complex threats. His research was presented on numerous conferences, including Virus Bulletin, CARO Workshop, PHDays, and ZeroNights. His interests focus on IT security, reverse engineering and malware analysis automation.
+  presentation:
+    - active
+    - "2016"
+    - "2017"
+    - yearthree:
+      - date: 2016
+        subject: BlackEnergy – What We Really Know About the Notorious Cyber-Attacks
+        permalink: program/presentations/
+        partner: Robert Lipovský
+        description: |
+          Coming soon
+    - yearfour:
+      - date: 2017
+        subject: "Industroyer: biggest threat to industrial control systems since Stuxnet"
+        permalink: program/presentations/
+        partner: Robert Lipovský
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2016"
+  permalink: ary-kokos
+  speaker:
+    - name: Ary Kokos
+      role: Senior Consultant
+      work: Wavestone
+      country: France
+      shortcode: FR
+      image: ary-kokos
+      bio: Ary Kokos is a senior consultant in IT security at Wavestone, he mostly performs technical audits and penetration tests. He also teaches security at engineering schools and writes in MISC (French technical security magazine), and is a member of OSSIR (french IT security association). He previously worked as an auditor at Secure Network in Milan, with a specific interest in Malware spreading via Bluetooth. Nowadays, apart from pentest techniques, he's also interested in psychological aspects of information security.
+  presentation:
+    - active
+    - "2016"
+    - yearthree:
+      - date: 2016
+        days:
+        subject: "DYODE: Do Your Own DiodE"
+        permalink: program/presentations/
+        partner: Arnaud Soullié
+        description: |
+          Coming soon
+  training:
+    - none
+
+
+
+- id: 
+  type: 
+    - presentation
+    - dinner
+  when:
+    - "2016"
+  permalink: christer-fuglesang
+  speaker:
+    - name: Christer Fuglesang
+      role: Astronaut
+      work: Space
+      country: Sweden
+      shortcode: SE
+      image: christer-fuglesang
+      bio: Mr Fuglesang is a Swedish physicist and an ESA astronaut. He was first launched aboard the STS-116 Space Shuttle mission on December 10, 2006, at 01:47 GMT, making him the first Swedish citizen in space. Christer has participated in two Space Shuttle missions and five spacewalks, and is the first person outside of the United States or Russian space programs to participate in more than three spacewalks. His total EVA time for his 5 EVAs is 31 hours 54 minutes. Mr. Fuglesang graduated from the Bromma Gymnasium, Stockholm in 1975, earned a Master of Science degree in engineering physics from the Royal Institute of Technology (KTH), in Stockholm in 1981, and received a doctorate in experimental particle physics from Stockholm University in 1987. He became an associate professor (docent) of particle physics at Stockholm University in 1991. Mr Fuglesang has received multiple awards and honors, including the H. M. The King's Medal (Stockholm, 2007), NASA Exceptional Service Medal, 2010. In 2012 Mr. Fuglesang received the Royal Institute of Technology 2012 Alumni of the Year award. Christer is married with three children, he was a Fellow at the European Organization for Nuclear Research, CERN, and taught mathematics at the Royal Institute of Technology before being selected to join the European Astronaut Corps in 1992.
+  presentation:
+    - active
+    - "2016"
+    - yearthree:
+      - date: 2016
+        subject: Voyage to Space
+        permalink: program/presentations/
+        partner:
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2016"
+  permalink: erik-westring
+  speaker:
+    - name: Erik Westring
+      role: Security Researcher
+      work: Swedish Defense Research Agency
+      country: Sweden
+      shortcode: SE
+      image: erik-westring
+      bio: 
+  presentation:
+    - active
+    - "2016"
+    - yearthree:
+      - date: 2016
+        subject: Crate City
+        permalink: program/presentations/
+        partner: Peter Andersson
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2016"
+  permalink: frode-hommedal
+  speaker:
+    - name: Frode Hommedal
+      role: Senior Incident Responder & Threat Analyst
+      work: Head of Incident Response and Security Analysis at Telenor CERT
+      country: Norway
+      shortcode: "NO"
+      image: frode-hommedal
+      bio: Frode Hommedal is a senior incident responder and threat analyst. He is currently head of incident response and security analysis at Telenor CERT, where he's part of the team that is establishing the global CERT/SOC capability of Telenor, Norway's biggest telco. He has previously worked seven years for the Norwegian national CSIRT, NorCERT. One of Frode's main interests is to model CSIRTs to improve efficacy and performance.
+  presentation:
+    - active
+    - "2016"
+    - yearthree:
+      - date: 2016
+        subject: "The Cyber Threat Intelligence Matrix: A simple incident response decision model"
+        permalink: program/presentations/
+        partner:
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2016"
+  permalink: isabel-skierka
+  speaker:
+    - name: Isabel Skierka
+      role: Researcher
+      work: Digital Society Institute, European School for Management and Technology
+      country: Germany
+      shortcode: DE
+      image: isabel-skierka
+      bio: ​Isabel Skierka is a researcher with the Digital Society Institute (DSI) at the European School for Management and Technology in Berlin. In her work, she focuses on industrial cyber security and digital policy. She is also a non-resident fellow with the Global Public Policy Institute (GPPi) and a co-chair in the steering committee of the Internet Governance Forum Germany (IGF-D). Prior to joining DSI, Isabel worked as a researcher at GPPi, worked as a fellow at NATO, at the European Commission’s DG Connect and as a visiting researcher at the Institute of Computer Science of the Free University of Berlin. Isabel holds a master’s degree in international conflict studies from the War Studies Department of King’s College London and a bachelor’s degree in European studies from Maastricht University.
+  presentation:
+    - active
+    - "2016"
+    - yearthree:
+      - date: 2016
+        subject: Too many cooks spoil the broth?
+        permalink: program/presentations/
+        partner: Jan-Peter Kleinhans
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2016"
+  permalink: jan-peter-kleinhans
+  speaker:
+    - name: Jan-Peter Kleinhans
+      role: Project Manager IoT
+      work: Stiftung Neu Verantwortung
+      country: Germany
+      shortcode: DE
+      image: jan-peter-kleinhans
+      bio: Jan-Peter is leading the IoT-Security Project at Stiftung Neu Verantwortung, an independent, charitable think tank in Berlin. He furthermore works on different policy issues in the fields of IT-security, digital infrastructure and law enforcement surveillance. Before joining SNV he was an intern at Netzpolitik.org. He is a Transatlantic Digital Debates (TDD) Fellow, holds a master’s degree in communication theory from Uppsala University and a bachelor’s degree in information systems from Darmstadt University of Technology.
+  presentation:
+    - active
+    - "2016"
+    - yearthree:
+      - date: 2016
+        subject: Too many cooks spoil the broth?
+        permalink: program/presentations/
+        partner: Isabel Skierka
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2016"
+  permalink: jens-zerbst
+  speaker:
+    - name: Jens Zerbst
+      role: CIO
+      work: Vattenfall
+      country: Sweden
+      shortcode: SE
+      image: jens-zerbst
+      bio: Jens-Tobias Zerbst graduated in computer science. He worked in different disciplines and positions related to IT Security, Architecture and Governance He is currently convener of a Cyber security working group in CIGRE. Since February 2016 he is CIO of Vattenfall.
+  presentation:
+    - active
+    - "2016"
+    - yearthree:
+      - date: 2016
+        subject: Defense-in-Depth' in a time of advanced persistent threats
+        permalink: program/presentations/
+        partner:
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2016"
+  permalink: ken-van-wyk
+  speaker:
+    - name: Ken van Wyk
+      role: Incident Response Specialist
+      work: 
+      country: United States
+      shortcode: US
+      image: ken-van-wyk
+      bio: 
+  presentation:
+    - active
+    - "2016"
+    - yearthree:
+      - date: 2016
+        subject: Building Robust Tabletop Exercises to Strengthen Your CSIRT
+        permalink: program/presentations/
+        partner:
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2016"
+  permalink: lucas-lundgren
+  speaker:
+    - name: Lucas Lundgren
+      role: Security Expert
+      work: FortConsult
+      country: Sweden
+      shortcode: SE
+      image: lucas-lundgren
+      bio: 
+  presentation:
+    - active
+    - "2016"
+    - yearthree:
+      - date: 2016
+        subject: LIGHTWEIGHT PROTOCOL! SERIOUS EQUIPMENT! CRITICAL IMPLICATIONS!
+        permalink: program/presentations/
+        partner:
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2016"
+  permalink: maik-bruggemann
+  speaker:
+    - name: Maik Brüggemann
+      role: Security Specialist
+      work: OpenSource Training
+      country: Germany
+      shortcode: DE
+      image: maik-bruggemann
+      bio: 
+  presentation:
+    - active
+    - "2016"
+    - yearthree:
+      - date: 2016
+        subject: PLC-Blaster - A Worm Living in Your PLC
+        permalink: program/presentations/
+        partner:
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2016"
+  permalink: marie-moe
+  speaker:
+    - name: Marie Moe 
+      role: Researcher
+      work: SINTEF
+      country: Norway
+      shortcode: "NO"
+      image: marie-moe
+      bio: 
+  presentation:
+    - active
+    - "2016"
+    - yearthree:
+      - date: 2016
+        subject: Embodied Vulnerabilities - How to find, fix, and think about them
+        permalink: program/presentations/
+        partner: Eireann Leverett
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2016"
+    - "2017"
+  permalink: paraskevi-kasse
+  speaker:
+    - name: Paraskevi Kasse
+      role: Network and Information Security Officer
+      work: ENISA
+      country: Europa
+      shortcode: EU
+      image: paraskevi-kasse
+      bio: Her work in ENISA focuses on enhancing the cybersecurity posture of utilities in Energy sector (Electricity, Oil and Gas). Furthermore, she is dealing with security aspects of ICS/SCADA systems and cybersecurity aspects related to energy sector in the European NIS Directive. Paraskevi has been awarded a diploma in computer engineering and informatics, she holds a Msc in Information Science and Technology. Prior to joining ENISA, she worked as a security expert for 7 years at the Hellenic National CERT.
+  presentation:
+    - active
+    - "2016"
+    - "2017"
+    - yearthree:
+      - date: 2016
+        subject: Cybersecurity in Europe - the NIS Directive and the role of Operators of essential services
+        permalink: program/presentations/
+        partner: Rossella Mattioli
+        description: |
+          Coming soon
+    - yearfour:
+      - date: 2017
+        subject: "Network and Information Security Directive: the road ahead"
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+      - date: 2017
+        subject: Threat modelling and security measures for ICS/SCADA systems in critical infrastructure
+        permalink: program/presentations/
+        partner:
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2016"
+  permalink: peter-andersson
+  speaker:
+    - name: Peter Andersson
+      role: Security Researcher
+      work: Swedish Defense Research Agency
+      country: Sweden
+      shortcode: SE
+      image: peter-andersson
+      bio: 
+  presentation:
+    - active
+    - "2016"
+    - yearthree:
+      - date: 2016
+        subject: Crate City
+        permalink: program/presentations/
+        partner: Erik Westring
+        description: |
+          Coming soon
+  training:
+    - none
+
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2016"
+  permalink: robert-guanciale
+  speaker:
+    - name: Robert Guanciale
+      role: Assistant Professor
+      work: Royal Institute of Technology (KTH)
+      country: Sweden
+      shortcode: SE
+      image: robert-guanciale
+      bio: 
+  presentation:
+    - active
+    - "2016"
+    - yearthree:
+      - date: 2016
+        subject: Breaking isolation using cache attributes
+        permalink: program/presentations/
+        partner:
+        description: |
+          Coming soon
+  training:
+    - none
+
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2016"
+    - "2017"
+  permalink: robert-lipovsky
+  speaker:
+    - name: Robert Lipovský
+      role: Senior Malware Researcher
+      work: ESET
+      country: Slovakia
+      shortcode: SK
+      image: robert-lipovsky
+      bio: Robert Lipovsky is Senior Malware Researcher in ESET’s Security Research Laboratory, working for ESET since 2007. He is responsible for malware intelligence and research and leads the Malware Research team in Bratislava. He is a regular speaker at security conferences, including Virus Bulletin, EICAR, and CARO. He runs a reverse engineering course at the Slovak University of Technology, his alma mater and the Comenius University. When not bound to a keyboard, he enjoys sports, playing guitar and flying an airplane.
+  presentation:
+    - active
+    - "2016"
+    - "2017"
+    - yearthree:
+      - date: 2016
+        subject: BlackEnergy – What We Really Know About the Notorious Cyber-Attacks
+        permalink: program/presentations/
+        partner: Anton Cherepanov
+        description: |
+          Coming soon
+    - yearfour:
+      - date: 2017
+        subject: "Industroyer: biggest threat to industrial control systems since Stuxnet"
+        permalink: program/presentations/
+        partner: Anton Cherepanov
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2016"
+    - "2017"
+  permalink: rossella-mattioli
+  speaker:
+    - name: Rossella Mattioli
+      role: Officer in Network and Information Security
+      work: ENISA
+      country: Europa
+      shortcode: EU
+      image: rossella-mattioli
+      bio: Rossella Mattioli joined ENISA, the European Union Agency for Network and Information Security, in 2013 and has over 10 years of experience in the IT industry. Her work focuses on promoting cyber security for Critical Infrastructures, IoT and transport infrastructures in Europe. Along the thematic reports and community engagement, she coordinates also ENISA’s expert groups related to Internet infrastructure, IoT, ICS/SCADA, Intelligent public transport and smart car cybersecurity. She holds a MSc in Engineering with main specialization in Cybersecurity at Tallinn University of Technology and she is a Certified Information Systems Security Professional.
+  presentation:
+    - active
+    - "2016"
+    - "2017"
+    - yearthree:
+      - date: 2016
+        subject: Cybersecurity in Europe - the NIS Directive and the role of Operators of essential services
+        permalink: program/presentations/
+        partner: Paraskevi Kasse
+        description: |
+          Coming soon
+    - yearfour:
+      - date: 2017
+        subject: "Protecting European transport infrastructures: threat models"
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+      - date: 2017
+        subject: "IoT in Europe: what could possibly go wrong and how you can fix"
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+      - date: 2017
+        subject: ENISA Trainings for Cyber Security Specialists
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2016"
+    - "2019"
+  permalink: simin-nadjm-tehrani
+  speaker:
+    - name: Simin Nadjm-Tehrani
+      role: Professor
+      work: Linköping University
+      country: Sweden
+      shortcode: SE
+      image: simin-nadjm-tehrani
+      bio: Ms. Simin Nadjm-Tehrani is a Professor at Linköping University and leader of the RICS Research Centre. Professor Nadjm-Tehrani is the Director of Real-time Systems Laboratory (RTSLAB) at Linköping university since January 2000. She obtained her PhD in Computer Science from Linköping University in 1994.
+  presentation:
+    - active
+    - "2016"
+    - yearthree:
+      - date: 2016
+        subject: The role of anomaly detection in industrial control systems
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+    - yearsix:
+      - date: 2019
+        subject: From datasets and testbeds to timing-based anomaly detection
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2016"
+  permalink: thomas-schreck
+  speaker:
+    - name: Thomas Schreck
+      role: Principal Engineer
+      work: Siemens CERT
+      country: Germany
+      shortcode: DE
+      image: thomas-schreck
+      bio: 
+  presentation:
+    - active
+    - "2016"
+    - yearthree:
+      - date: 2016
+        subject: Road to Cyber Threat Intelligence in the Energy Sector
+        permalink: program/presentations/
+        partner: Marie Moe
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2016"
+  permalink: vidar-hedtjarn-swaling
+  speaker:
+    - name: Vidar Hedtjärn Swaling
+      role: Analyst
+      work: Swedish Defense Research Agency
+      country: Sweden
+      shortcode: SE
+      image: vidar-hedtjarn-swaling
+      bio: 
+  presentation:
+    - active
+    - "2016"
+    - yearthree:
+      - date: 2016
+        subject: Ageing of ICS - What's the deal?
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+    - training
+  when:
+    - "2016"
+    - "2018"
+    - "2019"
+  permalink: arnaud-soullie
+  speaker:
+    - name: Arnaud Soullié
+      role: Cybersecurity R&D Manager
+      work: Wavestone
+      country: France
+      shortcode: FR
+      image: arnaud-soullie
+      bio: |
+        Arnaud Soullié (@arnaudsoullie) is the cybersecurity R&D manager at Wavestone. For 8 years, he has been performing security audits and pentest on all type of targets. He specializes in Industrial Control Systems and Active Directory security. He has spoken at numerous security conferences on ICS topics : BlackHat Europe, BruCon, 4SICS, BSides Las Vegas, DEFCON…He also has an interest in hardware security, and is the designer of DYODE (Do Your Own Diode): an open-source, low-cost, ICS oriented data diode.
+  presentation:
+    - active
+    - "2016"
+    - yearthree:
+      - date: 2016
+        subject: "DYODE: Do Your Own DiodE"
+        permalink: program/presentations/
+        partner: Ary Kokos
+        description: |
+          Coming soon
+  training:
+    - active
+    - "2018"
+    - "2019"
+    - yearfive:
+      - date: 2018
+        days: 22-23
+        subject: Pentesting Industrial Control Systems
+        permalink: program/trainings/
+        partner: 
+        description: |
+          Coming soon
+    - yearsix:
+      - date: 2019
+        days: 21-22
+        subject: Pentesting Industrial Control Systems
+        permalink: program/trainings/
+        partner: 
+        description: |
+          Coming soon
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2016"
+    - "2018"
+  permalink: erwin-kooi
+  speaker:
+    - name: Erwin Kooi
+      role: ICS/SCADA Architect
+      work: Alliander
+      country: Netherlands
+      shortcode: NL
+      image: erwin-kooi 
+      bio: |
+        Erwin has been working in information security for fifteen years and in IT for twenty-one years. He recently switched positions and is now working on designing SCADA / ICS systems for smart grids with a strong focus on cyber security, especially when integrating ICS and IT systems. He has a solid knowledge of healthcare IT and grid operator IT, both on the office side as on the operations side, both on the strategic level as on the implementation side. He holds a BSc Electrical Engineering and Master Security in Information Technology. In his rare spare time he likes to pick locks, program microcontrollers, participate in a local political party and care for his horses and hedgehogs.
+  presentation:
+    - active
+    - "2016"
+    - "2018"
+    - yearthree:
+      - date: 2016
+        subject: In a grid operator's security trenches
+        permalink: program/presentations/
+        partner:
+        description: |
+          Coming soon
+    - yearfive:
+      - date: 2018
+        subject: The good, the bad and the segmented
+        permalink: program/presentations/
+        partner: Rik van Hees
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2016"
+    - "2018"
+    - "2019"
+  permalink: henrik-sandberg
+  speaker:
+    - name: Henrik Sandberg
+      role: Professor in Large-Scale Control Systems
+      work: School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology
+      country: Sweden
+      shortcode: SE
+      image: henrik-sandberg
+      bio: |
+        Henrik Sandberg is Professor at the Division of Decision and Control Systems, KTH Royal Institute of Technology, Stockholm, Sweden. He received the M.Sc. degree in engineering physics and the Ph.D. degree in automatic control from Lund University, Lund, Sweden, in 1999 and 2004, respectively. From 2005 to 2007, he was a Post-Doctoral Scholar at the California Institute of Technology, Pasadena, USA. In 2013, he was a visiting scholar at the Laboratory for Information and Decision Systems (LIDS) at MIT, Cambridge, USA. He has also held visiting appointments at the Australian National University and the University of Melbourne, Australia. His current research interests include security of cyber-physical systems, power systems, model reduction, and fundamental limitations in control. Dr. Sandberg was a recipient of the Best Student Paper Award from the IEEE Conference on Decision and Control in 2004, an Ingvar Carlsson Award from the Swedish Foundation for Strategic Research in 2007, and a Consolidator Grant from the Swedish Research Council in 2016. He has served on the editorial board of IEEE Transactions on Automatic Control and is currently Associate Editor of the IFAC Journal Automatica.
+  presentation:
+    - active
+    - "2016"
+    - "2018"
+    - "2019"
+    - yearthree:
+      - date: 2016
+        subject: Physics-based attack detection and countermeasures in control systems
+        permalink: program/presentations/
+        partner:
+        description: |
+          Coming soon
+    - yearfive:
+      - date: 2018
+        subject: Control Theory for Practical Cyber-Physical Security
+        permalink: program/presentations/
+        partner:
+        description: |
+          Coming soon
+    - yearsix:
+      - date: 2019
+        subject: Testbed Evaluation of DoS Attacks on Continuously Controlled Processes
+        permalink: program/presentations/
+        partner:
+        description: |
+          Coming soon
+  training:
+    - none
+
+#END OF 2016
+
+#START OF 2017
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2017"
+  permalink: adam-crain
+  speaker:
+    - name: Adam Crain
+      role: Software Engineer
+      work: Automatak
+      country: United States
+      shortcode: US
+      image: adam-crain
+      bio: Adam is a software engineer, security researcher, and open source advocate. In 2012, he started his own venture, Automatak, to improve the adoption of robust open source software (OSS) in the utility space. He is the principal author of opendnp3, an implementation of IEEE 1815 (DNP3). Since April 2013, vulnerabilities have been identified in products sold by more than twenty vendors. Adam works with vendors, utilities, government agencies, standards bodies, and industry organizations to identify and solve systemic issues.
+  presentation:
+    - active
+    - "2017"
+    - yearfour:
+      - date: 2017
+        subject: Secure SCADA Protocol for the 21st Century (SSP21)
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2017"
+  permalink: akriti-srivastava
+  speaker:
+    - name: Akriti Srivastava
+      role: Security Researcher
+      work: Adobe Systems
+      country: India
+      shortcode: IN
+      image: akriti-srivastava
+      bio: Akriti is a security researcher working with Adobe Systems, blogger, web application security, APIs security, IOT security and Network security enthusiast. Involved in multiple responsible disclosure of critical vulnerabilities and listed in various hall of fame including Google, developed various CTFs on Web Services and IOT for multiple conferences.
+  presentation:
+    - active
+    - "2017"
+    - yearfour:
+      - date: 2017
+        subject: S in IoT is for Security
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2017"
+  permalink: ali-abbasi
+  speaker:
+    - name: Ali Abbasi
+      role: Ph.D. Candidate
+      work: University of Twente, Netherlands
+      country: Iran
+      shortcode: IR
+      image: ali-abbasi
+      bio: Ali Abbasi is a Ph.D. candidate in Distributed and Embedded System Security group at the University of Twente, The Netherlands and visiting Ph.D. researcher at the Chair of Systems Security of Ruhr-University Bochum, Germany. His research interest involves embedded systems security mostly related to Industrial Control Systems, Critical Infrastructure Security, and Real-Time Operating Systems security. He received his master degree in Computer Science from Tsinghua University, Beijing, China in 2013. He was working there on Programmable Logic Controller (PLC) security in Network Security Lab, Microprocessor and SoC Technology R&D Center with the National 863 High-tech Program grant from Ministry of Industry and Information Technology of China. He is currently doing his research at the Chair of Systems Security of Ruhr-University Bochum regarding designing binary-level protection mechanisms to battle against the sophisticated memory corruption and code-reuse attacks against PLCs and other critical real-time embedded systems.
+  presentation:
+    - active
+    - "2017"
+    - yearfour:
+      - date: 2017
+        subject: Configurable Code-Reuse Attacks Mitigation for COTS Programmable Logic Controller Binaries
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2017"
+  permalink: dan-demeter
+  speaker:
+    - name: Dan Demeter
+      role: Security Researcher
+      work: Kaspersky Lab
+      country: Romania
+      shortcode: RO
+      image: dan-demeter
+      bio: Dan graduated from Imperial College London and holds a Master of Engineering in Software Engineering. He joined Kaspersky Lab in 2014 where his work focuses on developing threat intelligence systems, processing big data and creating new technologies to fight advanced persistent threats.
+  presentation:
+    - active
+    - "2017"
+    - yearfour:
+      - date: 2017
+        subject: Back to the IoT Future
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+    - dinner
+  when:
+    - "2017"
+  permalink: jenny-radcliffe
+  speaker:
+    - name: Jenny Radcliffe
+      role: Social Engineering Expert
+      work: Independant
+      country: United Kingdom
+      shortcode: UK
+      image: jenny-radcliffe
+      bio: Jenny Radcliffe – aka “The People Hacker” – is an expert in Social Engineering (the human element of security), negotiations, non-verbal communication and deception, using her skills to help clients from corporations and law enforcement, to poker players, politicians and the security industry protect themselves from malicious social engineering attacks.
+  presentation:
+    - active
+    - "2017"
+    - yearfour:
+      - date: 2017
+        subject: Adventures in social engineering - tales of a "people hack"
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2017"
+    - "2019"
+  permalink: jens-wiesner
+  speaker:
+    - name: Jens Wiesner
+      role: Dipl. Phys.
+      work: German Federal Office for Information Security (BSI)
+      country: Germany
+      shortcode: DE
+      image: jens-wiesner
+      bio: Jens Wiesner heads the section “Cyber Security in Industrial Control Systems” in the German Federal Office for Information Security (BSI). He and his team focus on non-standard IT-systems known as OT/ICS/SCADA as well as life-critical systems used in safety or medical domain. They advise other sections of BSI as well as external working groups, manufacturers, integrators and operators of OT especially in critical infrastructures.
+  presentation:
+    - active
+    - "2017"
+    - "2019"
+    - yearfour:
+      - date: 2017
+        subject: "Security for Safety: Fortifying the last line of defense"
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+    - yearsix:
+      - date: 2019
+        subject: Applying the Consequence-driven Cyber-informed Engineering method on a Facility for a Successful Attack
+        permalink: program/presentations/
+        partner: Andreas Erdich
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2017"
+  permalink: jessikka-aro
+  speaker:
+    - name: Jessikka Aro
+      role: Investigative Reporter
+      work: Yle - Finnish Broadcasting Company
+      country: Finland
+      shortcode: FI
+      image: jessikka-aro
+      bio: Jessikka Aro is an awarded investigative reporter with Finnish Broadcasting Company's social media project Yle Kioski. Aro specializes in Russia, extremism and information warfare. In 2014 she became the target of serious and still ongoing international propaganda and hate speech campaign after reporting about pro-Kremlin social media trolls. Currently Aro writes an investigative book about Kremlin's information warfare and trains reporters and general public to recognize and counter online disinformation. Aro is also lobbying for better legislation to counter hybrid threats and protect citizens from state-sponsored online security threats.
+  presentation:
+    - active
+    - "2017"
+    - yearfour:
+      - date: 2017
+        subject: Pro-Kremlin trolls, fake news and propagandists as opinion influencers - and how to counter them
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2017"
+  permalink: jon-rogeberg
+  speaker:
+    - name: Jon Rogeberg
+      role: Manager
+      work: mnemonic IRT
+      country: Norway
+      shortcode: "NO"
+      image: jon-rogeberg
+      bio: Jon Røgeberg works as the Manager for mnemonic’s Threat Intelligence group. He is also the Operational Manager of mnemonic IRT and responsible for Forensics in mnemonic. He has 10 years’ experience with Incident Response ranging from virus outbreaks, opportunistic crime, targeted crime and advanced targeted attacks.
+  presentation:
+    - active
+    - "2017"
+    - yearfour:
+      - date: 2017
+        subject: APT Case Study
+        permalink: program/presentations/
+        partner: Martin Eian
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2017"
+  permalink: martin-eian
+  speaker:
+    - name: Martin Eian
+      role: Senior Security Analyst
+      work: mnemonic IRT
+      country: Norway
+      shortcode: "NO"
+      image: martin-eian
+      bio: Dr. Martin Eian works as a Senior Security Analyst in mnemonic's Threat Intelligence group, and he is the Project Manager for the research project Semi-Automated Cyber Threat Intelligence. He has more than 15 years of work experience in IT security, IT operations, and information security research roles. He is also a member of the Europol EC3 Advisory Group on Internet Security. He holds a PhD in Telematics/Information Security from the Norwegian University of Science and Technology (NTNU).
+  presentation:
+    - active
+    - "2017"
+    - yearfour:
+      - date: 2017
+        subject: APT Case Study
+        permalink: program/presentations/
+        partner: Jon Rogeberg
+        description: |
+          Coming soon
+  training:
+    - none
+
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2017"
+  permalink: melissa-crawford
+  speaker:
+    - name: Melissa Crawford
+      role: Global Consultant
+      work: Siemens
+      country: United States
+      shortcode: US
+      image: melissa-crawford
+      bio: After earning the B.S. in Nuclear Engineering from the University of Florida, Melissa started 8 years ago working with Siemens on the design and security of Instrumentation & Control projects for nuclear power plants around the world. She has since taken this detailed knowledge of the I&C systems into her role as Global Consultant for cybersecurity of the industrial control systems at the headquarters for Siemens Plant Security Services, specializing in development of cybersecurity strategies for multinational corporations and remote incident handling.
+  presentation:
+    - active
+    - "2017"
+    - yearfour:
+      - date: 2017
+        subject: ICS Program Development for Multi-national Corporations
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - training
+  when:
+    - "2017"
+  permalink: michael-theuerzeit 
+  speaker:
+    - name: Michael Theuerzeit
+      role: Cyber Security
+      work: Hudson Cybertec
+      country: Netherlands
+      shortcode: NL
+      image: michael-theuerzeit
+      bio: Michael is a seasoned consultant, specialized in Cyber Security for the Operational Technology (OT). For Cyber Security Solution Provider Hudson Cybertec, he is actively engaged in Industrial Automation and Control Systems (IACS) security projects worldwide. His focus is on cyber security for critical Infrastructure sectors like Nuclear, Oil & Gas, Water and Food. He worked with some of the largest companies operating in critical infrastructure sectors, as well as with government and government agencies, enterprises and EPC contractors. He is also an experienced lecturer and Subject Matter Expert for IEC 62443 and an accomplished speaker at international security events, conferences and seminars.
+  presentation:
+    - none
+  training:
+    - active
+    - "2017"
+    - yearfour:
+      - date: 2017
+        days: 24
+        subject: "Cyber Security for Industrial Automation and Control Systems: An introduction of the IEC 62443 standard"
+        permalink: program/trainings/
+        partner: 
+        description: |
+          Coming soon
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2017"
+  permalink: oleksii-yasynskyi
+  speaker:
+    - name: Oleksii Yasynskyi
+      role: Cybersecurity Expert
+      work: ISSP Labs
+      country: Ukraine
+      shortcode: UA
+      image: oleksii-yasynskyi
+      bio: Oleksii is Cybersecurity expert with more than 20 years hands-on experience in the field. Oleksii participated in many complex technological projects, headed Security Operations Centre and acted as CISO in Enterprise-scale companies. Within a team of ISSP Labs experts, he made a deep research of cyber-attacks against critical infrastructure of Ukraine. Due to his hard work and high level of competence, it was possible to study each step of the attacks in detail, determine the specifics of the attack and develop a range of behavioral patterns to identify targeted attacks, similar to the ones that occurred in Ukrainian cyberspace in the past few years. Regarding this topic, Oleksii published a number of articles and case studies.
+  presentation:
+    - active
+    - "2017"
+    - yearfour:
+      - date: 2017
+        subject: "Cyberattacks Against Critical Infrastructure in Ukraine: Taxonomy, Consequences, Lessons Learned"
+        permalink: program/presentations/
+        partner: Roman Sologub
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2017"
+  permalink: patrick-desantis
+  speaker:
+    - name: Patrick DeSantis
+      role: Senior Security Research Engineer
+      work: Cisco Talos
+      country: United States
+      shortcode: US
+      image: patrick-desantis
+      bio: Patrick DeSantis is a security researcher with Cisco Talos and focuses his efforts on discovery and exploitation of vulnerabilities in technologies that have an impact on the physical world, such as Industrial Control Systems (ICS), Supervisory Control and Data Acquisition (SCADA), Internet of Things (IoT), and anything else that looks like it's asking to be hacked. Patrick's background includes work in both the public and private sectors, as well as a pile of information security certifications and a few college degrees.
+  presentation:
+    - active
+    - "2017"
+    - yearfour:
+      - date: 2017
+        subject: "From Box to Backdoor: Using Old School Tools and Techniques to Discover Backdoors in Modern Devices"
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2017"
+  permalink: roman-sologub
+  speaker:
+    - name: Roman Sologub
+      role: General Manager & CEO
+      work: ISSP Group
+      country: Ukraine
+      shortcode: UA
+      image: roman-sologub
+      bio: Roman has MS degree in Cybersecurity and more than 12 years of experience in managing complex cybersecurity projects, in countries of Eastern Europe and Asia. Roman built his career from IT Security Professional, Program & Product Manager, and Business Development Manager to CEO in Multinational Company – ISSP. Through the entire career, he kept the Cybersecurity Industry, leveraging from advantages to gain more experience from all his positions. Now Roman is General Manager and CEO at ISSP Group – a Group of companies, specialized in cybersecurity, managed security services, state of the art professional training, and innovative research in the area of information systems security. In total, under Roman`s management, ISSP Group has already successfully implemented more than 300 complex projects, signed more than 150 service contracts and trained around 1000+ cybersecurity experts on the territories of Eastern Europe and Asia.
+  presentation:
+    - active
+    - "2017"
+    - yearfour:
+      - date: 2017
+        subject: "Cyberattacks Against Critical Infrastructure in Ukraine: Taxonomy, Consequences, Lessons Learned"
+        permalink: program/presentations/
+        partner: Oleksii Yasynskyi
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2017"
+    - "2018"
+    - "2019"
+  permalink: dieter-sarrazyn
+  speaker:
+    - name: Dieter Sarrazyn
+      role: Security Expert
+      work: Secudea bvba
+      country: Belgium
+      shortcode: BE
+      image: dieter-sarrazyn
+      bio: Dieter is a freelance OT security expert who working extensively on industrial control system security including more than 10 years in a large electricity generation company. He performs SCADA security assessments, provides assistance in securing SCADA environments and helps customers to manage their suppliersâ€™ security through doing security requirements management and security FAT and SAT tests. These activities are always part of a larger program, aimed at reducing business risks.
+  presentation:
+    - active
+    - "2017"
+    - "2018"
+    - "2019"
+    - yearfour:
+      - date: 2017
+        subject: DIY insider threat detection/prevention within ICS enviroments
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+    - yearfive:
+      - date: 2018
+        subject: Operator Jail breakout
+        permalink: program/presentations/
+        partner: Frank Lycops
+        description: |
+          Coming soon
+    - yearsix:
+      - date: 2019
+        subject: Security Testing for ICS Owners 2.0
+        permalink: program/presentations/
+        partner:
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+    - training
+  when:
+    - "2017"
+    - "2018"
+  permalink: joe-slowik
+  speaker:
+    - name: Joe Slowik
+      role: Adversary Hunter
+      work: Dragos Inc
+      country: United States
+      shortcode: US
+      image: joe-slowik
+      bio: Joe Slowik currently hunts ICS adversaries for Dragos, pursuing threat activity groups through their malware, their communications, and any other observables available. Prior to his time at Dragos, Joe ran the Incident Response team at Los Alamos National Laboratory, and served as an Information Warfare Officer in the US Navy. Throughout his career in network defense, Joe has consistently worked to ‘take the fight to the adversary’ by applying forward-looking, active defense measures to constantly keep threat actors off balance. When not hunting adversaries or playing with open source security projects, Joe loves playing ice hockey and building Legos.
+  presentation:
+    - active
+    - "2017"
+    - "2018"
+    - yearfour:
+      - date: 2017
+        subject: Strategic Network Defense in ICS Environments
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+    - yearfive:
+      - date: 2018
+        subject: "Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense"
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        days: 22-23
+        subject: ICS Strategic Planning and War Gaming
+        permalink: program/trainings/
+        partner: 
+        description: |
+          Coming soon
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2017"
+    - "2018"
+  permalink: lars-erik-smevold
+  speaker:
+    - name: Lars Erik Smevold
+      role: Senior Security Analyst
+      work: KRAFT-CERT
+      country: Norway
+      shortcode: "NO"
+      image: lars-erik-smevold
+      bio: Lars Erik Smevold is a senior security analyst in KraftCERT. KraftCERT is the Norwegian energy sector and ICS CERT - a non profit incident response team. The focus for KraftCERT is to together with the companies, protect, detect and recover from incidents that may harm production or distribution of power or water. Lars Erik has many years of experience in the industry from the automation, telco business, and later from security in the energy sector - including the building of security operations center (SOC). In his spare time he enjoys experimenting in his lab.
+  presentation:
+    - active
+    - "2017"
+    - "2018"
+    - yearfour:
+      - date: 2017
+        subject: Pandora´s box
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+    - yearfive:
+      - date: 2018
+        subject: Introduction to KRAFT-CERT and some words about Nordic co-op
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+
+#END OF 2017
+
+#START OF 2018
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2018"
+    - "2019"
+  permalink: anton-shipulin
+  speaker:
+    - name: Anton Shipulin
+      role: Global Presales Manager
+      work: Kaspersky Lab
+      country: Russia
+      shortcode: RU
+      image: anton-shipulin
+      bio: |
+        Specialist in cyber security since 2005 with experience in the areas of architecture, integration and operation of the cybersecurity system, cybersecurity audit, consulting and project management, global industrial cybersecurity market and technologies intelligence and analysis, and business development. Currently Anton it a Global Presales Manager of Kaspersky Industrial Cybersecurity (KICS) business development team, a head of Kaspersky Industrial Cybersecurity conference (KICS con) program committee, a co-founder and leader of the Russian industrial cybersecurity community RUSCADASEC.com, and Coordinator for Russia at Industrial Cybersecurity Center (CCI) Passionate about industrial cybersecurity and critical infrastructure protection, knowledge and information exchange with certifications such as SCADA Security Architect Certification (CSSA), Information Systems Security Professional Certification (CISSP), Ethical Hacker Certification (CEH), Microsoft System Engineer Certification (MCSE): Security Certification, Linux Professional Institute Level 1 (LPIC-I), CompTIA Project + Professional. Actively sharing juicy ICS security stuff on Twitter: @shipulin_anton and LinkedInSpecialist in cyber security since 2005 with experience in the areas of architecture, integration and operation of the cybersecurity system, cybersecurity audit, consulting and project management, global industrial cybersecurity market and technologies intelligence and analysis, and business development. Currently Anton it a Global Presales Manager of Kaspersky Industrial Cybersecurity (KICS) business development team, a head of Kaspersky Industrial Cybersecurity conference (KICS con) program committee, a co-founder and leader of the Russian industrial cybersecurity community RUSCADASEC.com, and Coordinator for Russia at Industrial Cybersecurity Center (CCI) Passionate about industrial cybersecurity and critical infrastructure protection, knowledge and information exchange with certifications such as SCADA Security Architect Certification (CSSA), Information Systems Security Professional Certification (CISSP), Ethical Hacker Certification (CEH), Microsoft System Engineer Certification (MCSE): Security Certification, Linux Professional Institute Level 1 (LPIC-I), CompTIA Project + Professional. Actively sharing juicy ICS security stuff on Twitter: @shipulin_anton and LinkedIn
+  presentation:
+    - active
+    - "2018"
+    - "2019"
+    - yearfive:
+      - date: 2018
+        subject: Kaspersky Industrial Cybersecurity approach
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+    - yearsix:
+      - date: 2019
+        subject: "How to save $1.7 million over three years on industrial cybersecurity: the Results of the Forrester Total Economic (TEI) Impact study"
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+    - training
+  when:
+    - "2018"
+  permalink: ben-miller
+  speaker:
+    - name: Ben Miller
+      role: Director of Threat Operations
+      work: Dragos Inc
+      country: United States
+      shortcode: US
+      image: ben-miller
+      bio: Ben Miller is Director, Threat Operations Center at the industrial cyber security company Dragos, Inc. where he leads a team of analysts in performing active defense inside of ICS/SCADA networks. In this capacity, he is responsible for performing a threat hunting, incident response, and malware analysis mission for the industrial community. Previous to his role at Dragos, Inc. Ben was the Associate Director, Electricity Information Sharing & Analysis Center (Electricity ISAC) and led cyber analysis for the sector.
+  presentation:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        subject: Hunting and Responding in ICS
+        permalink: program/presentations/
+        partner: Mark Stacey
+        description: |
+          Coming soon
+  training:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        days: 23
+        subject: Introduction to Threat Hunting in ICS
+        permalink: program/trainings/
+        partner: Daniel Michaud-Soucy
+        description: |
+          Coming soon
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2018"
+  permalink: cheng-lei
+  speaker:
+    - name: Cheng Lei
+      role: ICS Security Researcher
+      work: NSFOCUS
+      country: China
+      shortcode: CH
+      image: cheng-lei
+      bio: Cheng Lei is an Industrial Control System Security researcher at NSFOCUS. His interest is mainly about PLC and DCS vulnerability exploitation and security enhancement. Over the years, he has released three Siemens CVE vulnerabilities.
+  presentation:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        subject: Attacking PLCs by PLC in deep
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2018"
+  permalink: dan-gunter
+  speaker:
+    - name: Dan Gunter
+      role: Principal Threat Analyst
+      work: Dragos Inc
+      country: United States
+      shortcode: US
+      image: dan-gunter
+      bio: Dan Gunter currently works as a Principal Threat Analyst at the industrial control system cyber security company Dragos. Before Dragos, he served in the US Air Force in a variety of role ranging from working in the Air Force's Computer Emergency Response Team to developing information security applications. Dan previously presented at Blackhat, Schmoocon, and s4x18.
+  presentation:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        subject: Stateful Protocol Hunting
+        permalink: program/presentations/
+        partner: Daniel Michaud-Soucy
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+    - training
+  when:
+    - "2018"
+  permalink: daniel-michaud-soucy
+  speaker:
+    - name: Daniel Michaud-Soucy
+      role: Principal Threat Analyst
+      work: Dragos Inc
+      country: United States
+      shortcode: US
+      image: daniel-michaud-soucy
+      bio: Daniel Michaud-Soucy is a Principal Threat Analyst, Threat Operations Center at the industrial cyber security company Dragos, Inc.. Daniel is focusing on threat hunting and incident response services within a variety of industrial environments. Daniel previously worked for Sempra Energy on RD&D tasks revolving around machine to machine automated threat response, data aggregation, advanced threat detection and secure system interfaces for ICS/SCADA. Daniel also worked with Red Tiger Security performing cyber vulnerability assessments and penetration tests on oil & gas, electrical power, water treatment and pharmaceutical ICS/SCADA environments.
+  presentation:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        subject: Stateful Protocol Hunting
+        permalink: program/presentations/
+        partner: Dan Gunter
+        description: |
+          Coming soon
+  training:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        days: 23
+        subject: Introduction to Threat Hunting in ICS
+        permalink: program/trainings/
+        partner: Ben Miller
+        description: |
+          Coming soon
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2018"
+  permalink: dr-kevin-jones
+  speaker:
+    - name: Dr Kevin Jones
+      role: Head of Cyber Security Architecture, Innovation and Scouting
+      work: Airbus Group
+      country: United Kingdom
+      shortcode: UK
+      image: dr-kevin-jones
+      bio: |
+        Dr Kevin Jones is Head of Cyber Security Architecture, Innovation and Scouting at Airbus, leading a global network of; teams, projects and collaborations including; research & innovation, state of the art solutions development, and technology scouting for cyber security across; IT, ICS and Product security domains. He holds a BSc in Computer Science and MSc in Distributed Systems Integration from De Montfort University, Leicester where he also obtained his PhD: A Trust Based Approach to Mobile Multi-Agent System Security in 2010. He is active in the cyber security research community, has published numerous papers and holds a number of patents within the domain. He is well known as an innovator, thought leader, and is responsible for multiple cyber security demonstrator platforms and laboratories. Kevin has many years of experience in consultancy to aid organisations in achieving accreditation to ISO27001 standard on Information Security Management. Kevin is a recognised expert in Critical National Infrastructure security, SCADA security, and the protection of critical systems. He currently acts as an executive consultant to Airbus on matters of cyber security across multiple domains and platforms and works closely with Government agencies on cyber security topics in addition to European programmes such as the "European Control System Security Incident Analysis Network“ and the EU Cyber Security Public Private Partnership.
+  presentation:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        subject: ICS cyber security in the face of digital transformation
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - moderator
+  when:
+    - "2018"
+  permalink: erik-z-johansson
+  speaker:
+    - name: Erik 'Z' Johansson
+      role: Independent Security Consultant
+      work: Trailing bits AB
+      country: Sweden
+      shortcode: SE
+      image: erik-z-johansson
+      bio: Independent security consultant that have experienced the challenges, frustration and satisfaction involved when implementing sustainable IACS cyber protection throughout the whole system lifecycle and across the globe. May offer controversial opinions on what it takes to reach a sustainable security posture. NOTE! The 'Z' is a legacy from ABB and not actually part of his name. It is however useful to distinguish this Erik from the Erik Johansson organizing this awesome event.
+  presentation:
+    - none
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2018"
+  permalink: erik-zouave
+  speaker:
+    - name: Erik Zouave
+      role: Analyst
+      work: FOI
+      country: Sweden
+      shortcode: SE
+      image: erik-zouave
+      bio: 
+  presentation:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        subject: Supply Chain Cyber Security throughout the ICS Lifecycle
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2018"
+  permalink: frank-lycops
+  speaker:
+    - name: Frank Lycops
+      role: Security Consultant & Researcher
+      work: Freelance
+      country: Belgium
+      shortcode: BE
+      image: frank-lycops
+      bio: Frank a freelance security consultant and researcher.  He has 8 years of experience in both the IT and OT environments.  During his work, he performed numerous penetration tests on OT environments, helped improving the overall security of various environments and discovered several vulnerabilities in widely sold devices.
+  presentation:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        subject: Operator Jail breakout
+        permalink: program/presentations/
+        partner: Dieter Sarrazyn
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2018"
+  permalink: gyorgy-dan
+  speaker:
+    - name: György Dán
+      role: Professor in Teletraffic Systems
+      work: School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology
+      country: Sweden
+      shortcode: SE
+      image: gyorgy-dan
+      bio: 
+  presentation:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        subject: Resilient Computing and Communication for Critical Infrastructures
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+    - dinner
+  when:
+    - "2018"
+  permalink: jack-werner
+  speaker:
+    - name: Jack Werner
+      role: Journalist
+      work: Freelance
+      country: Sweden
+      shortcode: SE
+      image: jack-werner
+      bio: Jack Werner is a freelance journalist and writer. In 2014 at the free daily Metro, he co-founded the prize-winning fact-checking effort Viralgranskaren. He is a popular lecturer on critial thinking on social media, and the author of two books, on creepypasta, ghost stories on the internet, (2014) and fake news and urban legends on social media (2018). Since 2015, he runs the podcast Creepypodden, a bi-weekly podcast about ghost stories with over 130 000 listeners.
+  presentation:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        subject: Fake new or folklore?
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2018"
+  permalink: jannis-utz
+  speaker:
+    - name: Jannis Utz
+      role: Sales engineer
+      work: Recorded Future
+      country: Germany
+      shortcode: DE
+      image: jannis-utz
+      bio: Jannis Utz has a successful 15+ year career in networking and security. Jannis has a strong background specifically in vulnerability management having worked the last years for Tenable and Qualys.
+  presentation:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        subject: Recorded Future - The Dark Web’s deep threat intelligence secrets
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2018"
+  permalink: jonas-almroth
+  speaker:
+    - name: Jonas Almroth
+      role: System Architect
+      work: FOI - Swedish Defense Research Agency
+      country: Sweden
+      shortcode: SE
+      image: jonas-almroth
+      bio: 
+  presentation:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        subject: Designing a second generation cyber range
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2018"
+  permalink: jonas-dellenvall
+  speaker:
+    - name: Jonas Dellenvall
+      role: CTO
+      work: Advenica
+      country: Sweden
+      shortcode: SE
+      image: jonas-dellenvall
+      bio: |
+        Jonas Dellenvall is the CTO of Advenica AB, cyber security experts since 1993. Advenica is specialised in information security solutions for government, critical infrastructure and industry. Jonas previously held positions as Software Architect, product manager and VP of Marketing at Advenica. Jonas has a deep interest for both technology and it’s consequences for humanity and society: “It is equally important to do the right things as well as doing things right. Technical decisions of today are forming our future for many years to come. The impact on society is much more profound than most people realize.” On his spare time, he enjoys being outdoors for sailing, skiing or just enjoying nature. Jonas Dellenvall holds a M.Sc. in Engineering Physics and has more than 20 years of experience with System Development, including 13 years in the High Security Sector for Governments, Defense and Critical Infrastructure.
+  presentation:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        subject: Security when failure is not an option
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2018"
+  permalink: jonathan-homer
+  speaker:
+    - name: Jonathan Homer
+      role: Chief of the Industrial Control System Group
+      work: NCCIC Hunt and Incident Response Team (HIRT)
+      country: United States
+      shortcode: US
+      image: jonathan-homer
+      bio: Jonathan Homer is the Chief of the Industrial Control Systems Group within the Hunt & Incident Response Team at the U.S. Department of Homeland Security National Cybersecurity and Communications Integration Center. He has over 15 years of experience within the IT industry, specializing in incident response, industrial control systems, digital telecommunications architecture, and security awareness. Jon has a Master’s Degree in Technology Management, and earned his Chief Information Officer Certificate from the International Academy of CIO in 2016. Jon maintains a number of certifications including ISC2 CISSP and ProSci Advanced Change Management Practitioner.
+  presentation:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        subject: Recent APT Campaign targeting Energy Sector Assets
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2018"
+  permalink: kai-thomsen
+  speaker:
+    - name: Kai Thomsen
+      role: Lead Incident Responder
+      work: AUDI AG
+      country: Germany
+      shortcode: DE
+      image: kai-thomsen
+      bio: Kai is the Incident Response team lead at AUDI AG and currently working on creating a modern Cyber Defence organisation at Audi. Before that he established an IT Service Continuity organization at Audi and developed and executed crisis management training exercises for top management. Prior to Audi, he worked at SMS group, an engineering company for steel manufacturing plants. There he was responsible for network security architecture, NSM, and forensics. Kai holds an M.A. in computer science and English and American Literature from the University of Siegen. He is also a SANS Instructor for Industrial Control Systems Active Defense and Incident Response (ICS515) and chairing the SANS Automotive Summit and SANS ICS Europe Summit in 2018.
+  presentation:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        subject: "Attacking Cars Revisited: On the Road Towards a More Resilient Connected Vehicle Infrastructure"
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2018"
+  permalink: kristina-blomqvist
+  speaker:
+    - name: Kristina Blomqvist
+      role: Program Manager - Program for Security in ICS
+      work: MSB - Swedish Civil Contingencies Agency
+      country: Sweden
+      shortcode: 
+      image: kristina-blomqvist
+      bio: 
+  presentation:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        subject: Introduction to MSB-session
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2018"
+  permalink: lars-westerdahl
+  speaker:
+    - name: Lars Westerdahl
+      role: Scientist
+      work: FOI
+      country: Sweden
+      shortcode: SE
+      image: lars-westerdahl
+      bio: 
+  presentation:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        subject: Uncertain conflict – When critical infrastructure is affected by national conflicts.
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2018"
+  permalink: mads-dam 
+  speaker:
+    - name: Mads Dam
+      role: Professor in Teleinformatics
+      work: School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology
+      country: Sweden
+      shortcode: SE
+      image: mads-dam
+      bio: 
+  presentation:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        subject: Securing Low Level Software Using Formal Methods
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2018"
+  permalink: marcin-dudek
+  speaker:
+    - name: Marcin Dudek
+      role: IT Security Expert
+      work: ComCERT.PL
+      country: Poland
+      shortcode: PL
+      image: marcin-dudek
+      bio: IT security expert, member of ComCERT.PL Team, the team that delivers IT incident response related services. He specializes in the security of industrial control systems. A graduate of the University of Warwick in the Great Britain. Founder of the scientist circle at the Military University of Technology, dealing with cyber security. He has been awarded twice for finding vulnerabilities in Microsoft products. Together with the team, he won the award for the best decision-making document in case of cyber conflict in the Cyber 9/12 Europe Competition, organized by the Atlantic Council. Actively tweeting on @dudekmar
+  presentation:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        subject: Using fake BTS as a part of pentest of devices using SIM cards for data transmission
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2018"
+  permalink: margarita-jaitner
+  speaker:
+    - name: Margarita Jaitner
+      role: Analyst
+      work: FOI
+      country: Norway
+      shortcode: "NO"
+      image: margarita-jaitner
+      bio: 
+  presentation:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        subject: IoT-related risks
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2018"
+  permalink: mark-bristow
+  speaker:
+    - name: Mark Bristow
+      role: Director
+      work: NCCIC Hunt and Incident Response Team (HIRT)
+      country: United States
+      shortcode: US
+      image: mark-bristow
+      bio: Mark Bristow is the Director for the Hunt and Incident Response Team (HIRT) at the National Cybersecurity and Communications Integration Center (NCCIC) within the Department of Homeland Security (DHS). He oversees DHS’s efforts for assisting asset owners to respond to, remediate and recover from cyber incidents across government, critical infrastructure and private sector systems—most recently including securing the election infrastructure and addressing Russian attempts to gain access to the U.S. power grid.
+  presentation:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        subject: "ICS Incident Response: Lessions and mitigations from the field"
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2018"
+  permalink: mark-stacey
+  speaker:
+    - name: Mark Stacey
+      role: Principal Threat Analyst
+      work: Dragos Inc
+      country: United States
+      shortcode: US
+      image: mark-stacey
+      bio: Mark Stacey is currently a Principle Threat Analyst with Dragos Inc. In this role, Mark delivers holistic incident response, threat hunting, and adversary research for Industrial Control Systems worldwide. Prior to joining Dragos, Mark was a member of RSA's Incident Response team for 5 years where he provided incident response, discovery, and forensic services globally for private industry, financial institutions, law firms, foreign and domestic governments. Mark spent 7 years with the Department of Energy (DOE) performing cyber and intelligence analysis for various government clients. He has functioned in both cybersecurity operations and research within the intelligence community and frequently provides community education through outreach programs with federal agencies.
+  presentation:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        subject: Hunting and Responding in ICS
+        permalink: program/presentations/
+        partner: Ben Miller
+        description: |
+          Coming soon
+      - date: 2018
+        subject: "Incident Response: Learning as you go is Expensive"
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2018"
+    - "2019"
+  permalink: monta-elkins
+  speaker:
+    - name: Monta Elkins
+      role: Hacker-in-Chief
+      work: FoxGuard Solutions
+      country: United States
+      shortcode: US
+      image: monta-elkins
+      bio: Monta Elkins is currently "Hacker-in-Chief" for FoxGuard Solutions, an ICS patch provider. A security researcher and consultant; he was formerly Security Architect for Rackspace, and the first ISO for Radford University. He has been a speaker at DEFCON , Homeland Security’s ICSJWG (Industrial Control Systems Joint Working Group), EnergySec's Security Summit, GE Digital Energy's Annual Software Summit, Toshiba's Industrial Control Systems Conference, NERC's GridSecCon and Emerging Technology Roundtable, ICS CyberSecurity by Security Week, UTC Telecom, and other security conferences. Monta is the author and instructor of the “Defense against the Dark Arts” hands-on, hacker tools and techniques classes, guest lecturer for local colleges and universities teaching rapid prototyping techniques and information security and teaches Arduino and other classes with Let's Code Blacksburg.
+  presentation:
+    - active
+    - "2018"
+    - "2019"
+    - yearfive:
+      - date: 2018
+        subject: Jumping Air Gaps
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+    - yearsix:
+      - date: 2019
+        subject: Nation-State Supply Chain Attacks for Dummies and You Too
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2018"
+  permalink: omer-zohar
+  speaker:
+    - name: Omer Zohar
+      role: Independant Researcher
+      work: Independant
+      country: Israel
+      shortcode: IL
+      image: omer-zohar
+      bio: |
+        A security researcher for over a decade, Omer is currently exploring the opportunities emerging technologies such as blockchain and AI might create for the bad guys to improve their infrastructure and how to mitigate them. Omer has been conducting multidisciplinary research on malware behavior and detection methods, including on his last position as Head of Research for 'TopSpin Security', where he investigated malware C&C infrastructure and protocols to create a behavior based detection engine that correlates over a time series network and reputation data along with a deception overlay. He authored 'Deceive and Succeed: Using Deception for Post-Breach Detection' (Defcon 2016) where he investigated how malicious actors interact with various deception mechanisms to measure their effectiveness.
+  presentation:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        subject: Unblockable Chains - Is Blockchain the ultimate malicious infrastructure?
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+    - keynote
+  when:
+    - "2018"
+  permalink: patrick-miller
+  speaker:
+    - name: Patrick Miller
+      role: Managing Partner
+      work: Archer
+      country: United States
+      shortcode: US
+      image: patrick-miller
+      bio: Patrick Miller has dedicated his career to the protection and defense of critical infrastructures. As Managing Partner at Archer Security Group, he is a trusted independent security and regulatory advisor for industrial control systems worldwide. Mr. Miller is also the founder, director and president emeritus of EnergySec and US. Coordinator for the Industrial Cybersecurity Center. Patrick's diverse background spans the Energy, Telecommunications, Water and Financial Services verticals including key positions with regulatory agencies, private consulting firms, utility asset owners and commercial organizations.
+  keynote:
+    - date: 2018
+    - subject: "Industrial Technology Trajectory: Running With Scissors"
+  presentation:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        subject: "Industrial Technology Trajectory: Running With Scissors"
+        permalink: program/presentations/
+        keynote: true
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2018"
+  permalink: ragnar-thobaben
+  speaker:
+    - name: Ragnar Thobaben
+      role: Associate Professor in Communication Theory
+      work: School of Electrical Engineering and Computer Science at KTH Royal Institute of Technology
+      country: Germany
+      shortcode: DE
+      image: ragnar-thobaben
+      bio: 
+  presentation:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        subject: Securing Wireless Transmissions at the Air Interface
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2018"
+  permalink: rick-k-peters
+  speaker:
+    - name: Rick K. Peters
+      role: Director, Operational Technology Global Enablement
+      work: Fortinet
+      country: United States
+      shortcode: US
+      image: rick-k-peters
+      bio: Rick affords the Fortinet OT-CI team more than 37 years of cybersecurity and global partnering experience working across foreign, domestic, and commercial industry sectors at the National Security Agency (NSA).  As Fortinet’s Operational Technology Global Enablement Director, working for Phil Quade (CISO), he delivers cybersecurity defense solutions and insights for the OT/ICS/SCADA critical infrastructure environments.  Prior to Fortinet, Rick led development of cyber capability across Endpoint, Infrastructure, and Industrial Control System technologies.  Previously, Rick also served as an executive leader supporting the Information Assurance Directorate at the NSA.  Earlier in his career, he served in a broad range of leadership and Engineering roles including Chief of Staff for the NSA Cyber Task Force and a 5-year forward liaison charged with directing integration of cyber and cryptologic solutions for U.S. Air Force Europe, Ramstein AFB, Germany.
+  presentation:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        subject: Addressing Physical to Digital Convergence in an Evolving World
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2018"
+  permalink: rik-van-hees
+  speaker:
+    - name: Rik van Hees
+      role: OT Security Officer
+      work: Alliander
+      country: Netherlands
+      shortcode: NL
+      image: rik-van-hees
+      bio: Rik has been working in an ICS / SCADA environment for 10 years as an engineer, security architect and currently as a security officer for grid operator Liander. He has strong knowledge in designing and securing ICS systems on both the strategical as operational side and risk management. He holds a BSc of Electrical Engineering with a specialization in electronics. In his spare time he likes to play guitar, produce music, hike with his dogs and travel the world.
+  presentation:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        subject: The good, the bad and the segmented
+        permalink: program/presentations/
+        partner: Erwin Kooi
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2018"
+  permalink: stephan-beirer
+  speaker:
+    - name: Stephan Beirer
+      role: Senior Consultant
+      work: GAI NetConsult GmbH
+      country: Germany
+      shortcode: DE
+      image: stephan-beirer
+      bio: Stephan Beirer studied and received his PhD in physics. Since 2006 Mr. Beirer has been employed with GAI NetConsult GmbH as a senior consultant and is the Head of Industrial Control Systems Security since 2012. He advises clients on the development and implementation of organizational and technical security policies and controls, on implementing an information security management system (ISMS) according to IEC 62443, ISO/IEC 27001 and ISO/IEC 27019 and on business continuity planning. His professional focus is on securing process control and automation technology, especially in the field of energy supply. He gained his experience in more than 200 ICS security projects in the field of energy, transportation and industrial manufacturing. He is an active member of several national and international standardization committees at DIN, DKE, IEC and ISO and the editor of ISO/IEC 27019.
+  presentation:
+    - none
+  training:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        days: 23
+        subject: Cyber security for the energy sector – an introduction to ISO/IEC 27019 and the BDEW/OE Whitepaper
+        permalink: program/trainings/
+        partner: 
+        description: |
+          Coming soon
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2018"
+  permalink: william-middleton
+  speaker:
+    - name: William Middleton
+      role: Senior Engineer
+      work: Siemens PD Solutions
+      country: Norway
+      shortcode: "NO"
+      image: william-middleton
+      bio: William works with Siemens PD Solutions in western Norway providing networking and security advice and configuration for ICS projects and LM customers.  He has an MLS degree in Computer Networking and Telecommunications, and holds professional-level certifications from Cisco Systems.  William has more than 25 years of experience in IT and has worked for Motorola, Adobe Systems, and Telenor in Norway before starting with Siemens in 2013.  He enjoys fishing, hiking and Bikram yoga.
+  presentation:
+    - active
+    - "2018"
+    - yearfive:
+      - date: 2018
+        subject: Securing the ICS lab network
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+#END OF 2018
+
+#START OF 2019
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: alexander-nochvay 
+  speaker:
+    - name: Alexander Nochvay
+      role: Security Researcher
+      work: Kaspersky
+      country: Russia
+      shortcode: RU
+      image: alexander-nochvay
+      bio: Alexander Nochvay is a security researcher of the Kaspersky Lab ICS CERT. His passion is studying network protocols without source code available and he definitely likes to communicate with such protocols in any possible and impossible manners. His favorite vulnerabilities are logical and architectural ones. One day he found that software uses the string “TESTKEY” as a encryption key. He prefers to write reports about discovered vulnerabilities instead of advisories for developers.
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: The fall of CODESYS
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: andreas-erdich
+  speaker:
+    - name: Andreas Erdich
+      role: Hardware Engineer
+      work: BSI
+      country: Germany
+      shortcode: DE
+      image: andreas-erdich
+      bio: Andreas started as a hardware engineer in the automation industry, later programming of fitness watch in a startup and has lot of low level hardware expertise. After working in other security related Offices in Germany he started working in the Federal Office for Information Security (BSI) in ICS team in Nov 2017. Master thesis about presenting topic. This includes writing a dissector for Wireshark for the proprietary protocol used during the attack.
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: Applying the Consequence-driven Cyber-informed Engineering method on a Facility for a Successful Attack
+        permalink: program/presentations/
+        partner: Jens Wiesner
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+    - keynote
+  when:
+    - "2019"
+  permalink: andy-greenberg
+  speaker:
+    - name: Andy Greenberg
+      role: Senior Writer
+      work: Wired
+      country: United States
+      shortcode: US
+      image: andy-greenberg
+      bio: Andy Greenberg is an award-winning senior writer for Wired magazine, where he covers security, privacy, information freedom, and hacker culture. He is the author of the 2012 book This Machine Kills Secrets, and his stories for Wired on Ukraine's cyberwar (including an excerpt from Sandworm) have won a Gerald Loeb Award for International Reporting and two Deadline Club Awards from the New York Society of Professional Journalists. He lives in Brooklyn with his wife, documentary filmmaker Malika Zouhali-Worrall.
+  keynote:
+    - date: 2019
+    - subject: "Sandworm: Lessons From the Ukrainian Cyberwar and Beyond"
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: "Sandworm: Lessons From the Ukrainian Cyberwar and Beyond"
+        permalink: program/presentations/
+        keynote: true
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: christian-augustat
+  speaker:
+    - name: Christian Augustat
+      role: Principal Engineer
+      work: Gassco
+      country: Norway
+      shortcode: "NO"
+      image: christian-augustat
+      bio: "Christian M. Augustat is a Principal Engineer within the Oil-&Gas Industry in Norway with a Diploma in “Communication Informatics” awarded by the University of Applied Sciences in Emden, Germany. Since joining his company in 2007 he has been involved in industrial control systems, application development, systems administration, network administration, governance and information security. Christian is currently architecting ICS Security Projects in Europe and is leading a Security Team. Besides various certifications, he is currently holding the following SANS Certifications: GRID, GCCC, GNFA, GPEN."
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: Tales from Industrial Plants and Responders
+        permalink: program/presentations/
+        partner: Mona Lange
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: christopher-corbett
+  speaker:
+    - name: Christopher Corbett
+      role: Junior Incident Responder
+      work: Audi
+      country: Germany
+      shortcode: DE
+      image: christopher-corbett
+      bio: Christopher Corbett is a PhD student of modern vehicle network security at Ulm University. His work focuses specifically on the examination of modern in-vehicle networks to derive security mechanisms for manipulation prevention and detection. He is a junior incident responder at Audi AG with a focus on network security monitoring and active defence techniques.
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: Automotive DoIP and forensic analysis for automotive systems
+        permalink: program/presentations/
+        partner: Kevin Gomez Buquerin
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: daniel-stenberg
+  speaker:
+    - name: Daniel Stenberg
+      role: Software Engineer
+      work: wolfSSL
+      country: Sweden
+      shortcode: SE
+      image: daniel-stenberg
+      bio: Daniel Stenberg is the founder and lead developer of curl. He's a Swedish software engineer and open source developer since the early 1990s. Winner of the Polhem Prize in 2017. @bagder on twitter. Employed by wolfSSL.
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: curl - the world's most used software component?
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: didrik-ehrenborg
+  speaker:
+    - name: Didrik Ehrenborg
+      role: Time & Sync Expert
+      work: GNSS
+      country: Sweden
+      shortcode: SE
+      image: didrik-ehrenborg
+      bio: Didrik has been working the last 20 years with time-sensitive system in Nordic. Like Telecom-, DTTV-, Tetra-, AIS-, Financial-, Radar/Air-, Power-, Smart Grid-, 3D- and Military-system. From IT world NTP to the latest PTP sync networks for 5G- PMU-. Consultant to government at GPS questions and timing regulation.
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: EU STRIKE3 project
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: erik-biverot
+  speaker:
+    - name: Erik Biverot
+      role: Senior Course coordinator
+      work: Swedish Defence University
+      country: Sweden
+      shortcode: SE
+      image: erik-biverot
+      bio: Erik is a Senior Course coordinator at the Centre for Societal Security at the Swedish Defence University. Erik has almost 30 years of service at the Swedish armed Forces (Army Lt Col), Swedish Civil Contingencies Agency (CERT-SE) and Swedish Defence University focusing on Electronic Warfare, IT & Information security. Erik was the Team Leader for the Swedish Blue Team during Locked Shields 2019.
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: A view from the Blue side of Locked Shields
+        permalink: program/presentations/
+        partner: Johan Nilsson
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+    - dinner
+  when:
+    - "2019"
+  permalink: herman-geijer
+  speaker:
+    - name: Herman Geijer
+      role: Zombie Survival Expert
+      work: Independent
+      country: Sweden
+      shortcode: SE
+      image: herman-geijer
+      bio: Herman Geijer is Sweden's leading zombie survival expert and since 2011 he has lectured and written about zombies, disasters, crisis behaviors and survival. In 2014, he wrote the book “Zombie survival - your guide to the apocalypse”.
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: Zombie Survival
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: janek-pelzer
+  speaker:
+    - name: Janek Pelzer
+      role: 
+      work: 
+      country: Germany
+      shortcode: DE
+      image: temp
+      bio: 
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: Introduction to Malcolm
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: jarkko-huttunen
+  speaker:
+    - name: Jarkko Huttunen
+      role: Head of Solutions
+      work: Arctic Security
+      country: Finland
+      shortcode: FI
+      image: jarkko-huttunen
+      bio: Jarkko is a head of solutions in Arctic Security with over 15 years information security experience. He has been working globally with both public and private sector. His main role has been in customer support and consulting related to AbuseSA threat intel platform. Jarkko has extensive experience in cyber defence exercises. He has been part of the Locked Shields since 2012 and has been one of the leaders of the exercise since 2013. His team's main tasks in the Locked Shields is the situation awareness and reporting.
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: Presenting how we know what’s happening in the exercise and measuring
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - training
+  when:
+    - "2019"
+  permalink: jasper-hooft
+  speaker:
+    - name: Jasper Hooft
+      role: ICS Security Consultant
+      work: Toreon
+      country: Belgium
+      shortcode: BE
+      image: jasper-hooft
+      bio: For more than 8 years, I worked around the world as automation programmer and maintenance/commissioning engineer. During this period, I obtained in-depth experience in various ICS environments (PLC and DCS) in different sectors (petrochemical, food and feed and many others). Now as a Toreon ICS Security Consultant I leverage this knowledge to provide advice on security architecture for clients in the utilities sector in Europe. At those clients, I help to improve the security maturity level of their organisations. I achieve this by organising Threat Modeling sessions with our customers to identify the vulnerabilities in their ICS environment. I consider Threat Modeling to be the most fitting risk assessment methodology for Industrial environments. Its scenario-based approach makes it easy for people of different profiles to add value to the process.
+  presentation:
+    - none
+  training:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        days: 22
+        subject: Hands-on Threat Modeling for ICS-OT
+        permalink: program/trainings/
+        partner: 
+        description: |
+          Coming soon
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: jimmy-wylie
+  speaker:
+    - name: Jimmy Wylie
+      role: Senior Adversary Hunter
+      work: Dragos Inc
+      country: United States
+      shortcode: US
+      image: jimmy-wylie
+      bio: Jimmy Wylie is a Senior Adversary Hunter at Dragos who spends his days (and nights) searching for and analyzing threats to critical infrastructure. Born and raised in New Orleans, he studied Computer Science at the University of New Orleans, where he received his Bachelor’s in 2009 and his Master’s in 2012. During that time, he was introduced to reverse engineering in a university-level malware analysis class. The class went well, and he continued to tinker with it as a hobby. However, the thought of doing reverse engineering for a living only slightly surpassed his desire to sleep on a bed of nails.
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: "Broken Rungs: A look at popular ladder logic runtime privileges"
+        permalink: program/presentations/
+        partner: Reid Wightman
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: johan-nilsson
+  speaker:
+    - name: Johan Nilsson
+      role: Teamlead of PM-CERT
+      work: Swedish Police
+      country: Sweden
+      shortcode: SE
+      image: johan-nilsson
+      bio: Johan is currently employed as Teamlead of PM-CERT at the Swedish Police. There his responsibilities covers things such as managing the daily activities related to investigating computer security incidents and feeding knowledge from these incidents back into the cyber security defense posture of the Swedish Police. His experience comes from working in both the private and public sector. He holds a MSc in Information and Communications security, and have been in the industry for almost two decades.
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: A view from the Blue side of Locked Shields
+        permalink: program/presentations/
+        partner: Erik Biverot
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: jonathan-jogenfors 
+  speaker:
+    - name: Jonathan Jogenfors
+      role: Research Manager
+      work: Sectra
+      country: Sweden
+      shortcode: SE
+      image: jonathan-jogenfors
+      bio: Research Manager Jonathan Jogenfors is Research Manager at Sectra Communications since 2017 and postdoctoral researcher in information security at Linköping University since 2018. At Sectra, his responsibilities include improving secure communications by post-quantum cryptography and developing new methods for defending our critical infrastructure. Jonathan is an expert in hacking quantum cryptography and blockchain technology, having defended his PhD thesis on the subject in 2017. Jonathan has many years of documented experience in teaching information security and cryptography to master-level students at Linköping University, as well as teaching digital forensics at a PhD-level course. He has assisted a number of law enforcement agencies on cryptocurrencies and advised them on forensic methodology, and spoken on Bitcoin forensics at several Swedish law enforcement conferences. Jonathan has been active as a public speaker and given many talks on the above subjects and has taken part in popular science documentaries in Swedish public service TV and radio.
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: "Digital Forensics and ICS: Why and how?"
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: kevin-gomez-buquerin
+  speaker:
+    - name: Kevin Gomez Buquerin
+      role: Junior Incident Responder
+      work: Audi
+      country: Germany
+      shortcode: DE
+      image: kevin-gomez-buquerin
+      bio: Kevin Gomez Buquerin is a master student for computer science at the technical University in Ingolstadt. Additionally to his studies and academic career, he is a junior incident responder at AUDI AG with a focus on malware analysis and general active defence techniques. Furthermore, he is in close cooperation with the vehicle security team at AUDI AG to establish robust security techniques for state-of-the-art and future vehicles.
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: Automotive DoIP and forensic analysis for automotive systems
+        permalink: program/presentations/
+        partner: Christopher Corbett
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: khalid-ansari
+  speaker:
+    - name: Khalid Ansari
+      role: Automation & MES Engineer
+      work: Qatar Aluminium Ltd
+      country: Qatar
+      shortcode: QA
+      image: khalid-ansari
+      bio: I am an Automation and MES engineer with 20+ years' of experience. I am fairly new to ICS Security, but it's now my newfound passion. I have obtained GICSP certification and am working towards my CISSP.
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: Secure your MES - the bridge between IT and OT
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: magnus-lundgren
+  speaker:
+    - name: Magnus Lundgren
+      role: Sales Director
+      work: Recorded Future
+      country: Sweden
+      shortcode: SE
+      image: magnus-lundgren
+      bio: Magnus Lundgren has 20 years experience from the fields of Telecom, IoT and Security. He holds a MSc in Electrical Engineering from Chalmers University of Technology and works for Recorded Future.
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: We are all vulnerable
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: marina-krotofil
+  speaker:
+    - name: Marina Krotofil
+      role: Senior Security Engineer
+      work: 
+      country: Germany
+      shortcode: DE
+      image: marina-krotofil
+      bio: Marina Krotofil is an Industrial Control Systems (ICS) Senior Security Engineer at a large chemical company. The last decade she spent specializing on offensive side of cyber-physical security such as discovering and weaponizing unique attack vectors, engineering damage scenarios, developing exploits and understanding attacker techniques when exploiting ICS. Offensive security skills serve Marina well during  incident responses and forensic investigations, ICS malware analysis and when engineering defenses. She previously worked as a Principal Analyst and Subject Matter Expert (SME) in Cyber-Physical group at FireEye (USA), Lead Cyber Security Researcher at Honeywell (USA) and as a Senior Security Consultant at the European Network for Cyber Security (Netherlands). She authored more than 25 academic papers and book chapters on ICS security and is a frequent speaker at the leading security events around the world. She holds MBA in Technology Management, MSc in Telecommunication and MSc in Information and Communication Systems.
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: "IT vs. OT: We are Much More Similar than We are Different. Comparing Process Control Room and SOC operations"
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: markus-mahrla
+  speaker:
+    - name: Markus Mahrla
+      role: Security Consultant
+      work: GAI NetConsult GmbH
+      country: Germany
+      shortcode: DE
+      image: markus-mahrla
+      bio: More than 10 years of work experience in the IT security field with more than 7 years experience in performing ICS security audits mainly in the area of industrial automation and energy supply. Graduation at Humbold-University („German Diplom“) in Computer Sci- ence
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: Fuzz Testing IEC 61850
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: matan-dobrushin
+  speaker:
+    - name: Matan Dobrushin
+      role: Head of OT Research
+      work: Otorio
+      country: Israel
+      shortcode: IL
+      image: matan-dobrushin
+      bio: Cyber security researcher with military leadership experience in cyber security unit.
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: Project RunAway
+        permalink: program/presentations/
+        partner: Yoav Flint Rosenfeld
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: mathias-ekstedt
+  speaker:
+    - name: Mathias Ekstedt
+      role: Professor
+      work: KTH Royal Institute of Technology
+      country: Sweden
+      shortcode: SE
+      image: mathias-ekstedt
+      bio: Mathias' research interests include information and cyber security based on software and systems architecture modeling and analysis. In particular the research is applied in the power industry and information systems related to physical process monitoring and control, such as SCADA and Industrial Control Systems. Much of the research revolves around developing formalisms for analyzing security vulnerabilities of system-of-systems architectures trough the means of probabilistic attack/defense graphs. Mathias is also the co-founder and chairman of the board of foreseeti, a start-up company developing products for automated and model-based attack simulations.
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: Applying automated attack modeling to a smart grid use case
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: michael-weng
+  speaker:
+    - name: Michael Weng
+      role: Sales Engineer
+      work: Nozmi Networks
+      country: Denmark
+      shortcode: DK
+      image: michael-weng
+      bio: Experienced OT and ICS Threat Hunter and OT Systems Engineer with more than 20 years from the OT Industry. Michael has been involved in planning and building OT / ICS plants all over the world. He has credentials CISSP, GICSP, GRID. Besides that Michael has been teaching, writing blogs and worked as independent OT threat hunting consultant for the last 4 years. Since January 2019 Michael has joined Nozomi Networks as Systems Engineer for the Nordics.
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: Cyber Security for OT/IIoT/ICS – what we have learned 1000 installations later
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: cdr-michael-widmann
+  speaker:
+    - name: Cdr Michael Widmann
+      role: Strategy Branch Chief
+      work: CCDCOE
+      country: United States
+      shortcode: US
+      image: cdr-michael-widmann
+      bio: |
+        Commander Michael Widmann is the Strategy Branch head for the NATO Cooperative Cyber Defence Centre of Excellence (CCDCOE) based in Tallinn, Estonia. He reported to the CCDCOE in August 2016. Michael was commissioned in the United States Navy in 2000 as a Surface Warfare Officer. He served forward deployed in Japan as Main Propulsion Division Officer aboard USS JUNEAU (LPD 10) and Auxiliaries Division Officer aboard USS KITTY HAWK (CV 64). In 2005 Michael became an Information Professional Officer specializing in Naval Communications. He continued serving in the following capacities: Information Assurance Officer and Knowledge Manager for Strike Force Training Atlantic in Norfolk, Virginia; Officer in Charge of Afghan National Security Forces Networks and Radios as well as a mentor for the Afghan National Police in Kabul, Afghanistan; Operations Officer at the Naval Computer and Telecommunications Area Master Station Atlantic in Norfolk, Virginia; Service Chief representative at the Defense Advanced Research Projects Agency (DARPA) in Arlington, Virginia; and Staff Officer in the Analysis and Concepts Branch at the NATO Command and Control Centre of Excellence in Utrecht, Netherlands. Commander Widmann earned a Bachelor’s of Science in Economics from the United States Naval Academy as well as a Master’s of Science in Space Systems Operations from the United States Naval Postgraduate School.
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: What is the NATO Cooperative Cyber Defence Centre of Excellence (CCDCOE)?
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: mike-dodson
+  speaker:
+    - name: Mike Dodson
+      role: PhD Student
+      work: University of Cambridge
+      country: United Kingdom
+      shortcode: UK
+      image: mike-dodson
+      bio: Mike spent many years working in the engine rooms of fairly large ships before being given a desk and an opportunity to develop the propulsion and power generation systems he used to operate.  When asked to stand up a control system security engineering unit, he faked it for a while before deciding he needed to go back to school. He’s currently working on a PhD in Computer Science at the University of Cambridge.
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: When will my PLC support Mirai? The security economics of large-scale attacks against ICS
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: mona-lange
+  speaker:
+    - name: Mona Lange
+      role: Cyber Defense Team Lead
+      work: Audi
+      country: Germany
+      shortcode: DE
+      image: mona-lange
+      bio: Mona is the Cyber Defense Team Lead at AUDI AG. Currently, she is working as peer group lead on creating a modern Cyber Defense team encompassing enterprise, ICS, and the connected car infrastructure. Prior to Audi she worked on a European research project developing decision support systems for detecting and managing attacks in critical infrastructures and organized a NATO Exploratory Team on the topic of Model-Driven Paradigms for Integrated Approaches to Cyber Defense. Mona holds a PhD in computer science and artificial intelligence from the University of Lübeck and a diploma with honors in computer science from Friedrich-Alexander University of Erlangen-Nürnberg.
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: Tales from Industrial Plants and Responders
+        permalink: program/presentations/
+        partner: Christian Augustat
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: nicklas-keijser
+  speaker:
+    - name: Nicklas Keijser
+      role: Incident Handler/CSIRT Officer
+      work: CERT-SE/MSB
+      country: Sweden 
+      shortcode: SE
+      image: nicklas-keijser
+      bio: Nicklas works at the Swedish National CERT, CERT-SE, as an incident handler/CSIRT officer that special in the field of ICS and SCADA. After education, MSc in Electrial Engineering, Nicklas has worked as automation and system engineers for about 15 years. before joining CERT-SE. Have done work for almost about any industrial sectors imagined, so more or less if you see a crane or a chimney Nicklas has been there. When not tinkering with different tech and/or hacking projects Nicklas enjoys noisy music, drums, craft beer and spending time with the family.
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: SCADApocalypse Now 4.0?
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: ragnar-sundblad
+  speaker:
+    - name: Ragnar Sundblad
+      role: Time Worker
+      work: 
+      country: Sweden
+      shortcode: SE
+      image: ragnar-sundblad
+      bio: Ragnar has built a system for distributed and robust time dissemination, sponsored by the Swedish Post and Telecom Authority, PTS, in a cooperation between Netnod in Stockholm and RISE/SP in Borås.
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: Building a distributed and robust time synchronisation service
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: richard-widh
+  speaker:
+    - name: Richard Widh
+      role: Senior Cyber Security Expert & CEO
+      work: Ancautus AB
+      country: Sweden
+      shortcode: SE
+      image: richard-widh
+      bio: Richard Widh, B Sc Computer Engineering & Electronics,CISSP, GISP, TSCM Btec lvl 3 & Senior Cyber security G33k, Founder, Owner & CEO, Ancautus AB. Richard have worked as a specialist within the Cyber security area for more than 15 years and within IT as a professional since the early 1990s, including but not limited to the Swedish Armed forces (Försvarsmakten), Swedish Defence Materiel Administration (FMV), the Swedish Radiation Safety Authority (SSM) and The Swedish Civil Contingencies Agency (MSB).
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: Demystifying TSCM or how to spot the witch doctor doing the raindance
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: reid-wightman
+  speaker:
+    - name: Reid Wightman
+      role: Senior Vulnerability Researcher
+      work: Dragos Inc
+      country: United States
+      shortcode: US
+      image: reid-wightman
+      bio: Reid is a Senior Vulnerability Researcher with Dragos’ Intel team. Reid analyzes publicly disclosed vulnerabilities and determines whether the public reporting is accurate, as well as uncovers just what the true industrial impact of a vulnerability can be. He also performs in-house research and vulnerability assessments on both industrial hardware and software. Reid assists with malware analysis, especially if it involves ICS exploitation. Prior to joining Dragos, Reid was a security consultant for the well-known security firms Digital Bond and IOActive. In both roles, he regularly researched and discovered novel vulnerabilities in hardware and software. He truly began his career in industrial security working for Schweitzer Engineering Labs, where he tested security of the company’s flagship digital protective relays and other grid-related products. For fun, Reid enjoys randonneuring, a form of self-supported long-distance cycling. He often rides 200 or more miles in a day. In the winter months, he can be found cross-country skiing.
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: "Broken Rungs: A look at popular ladder logic runtime privileges"
+        permalink: program/presentations/
+        partner: Jimmy Wylie
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: rikard-bodforss
+  speaker:
+    - name: Rikard Bodforss
+      role: CEO & Senior Partner
+      work: Bodforss Consulting AB
+      country: Sweden
+      shortcode: SE
+      image: rikard-bodforss
+      bio: "Rikard Bodforss works as CEO and Senior Partner at Bodforss Consulting AB in Sweden. He has over 25 years of experience working with IT and information security from both private and public sector. Rikard holds CISSP and CISA certifications and was awarded the Thomas Fitzgerald award by ISACA for the highest score in the world on the CISA exam in 2009. His specialty is securing industrial control systems and public critical infrastructure. His sector experience ranges from automotive, finance and healthcare to energy and water. Before founding Bodforss Consulting he worked as CIO for Gothenburg Sustainable Waste and Water. Rikard is a popular speaker on international conferences, and in his free time he is part of the team behind the Swedish security podcast “Säkerhetspodcasten”. Follow him on Twitter: @rbodforss"
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: Ultra responsible disclosure – or how to deal with a 0-day in critical infrastructure
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: robert-bearsby
+  speaker:
+    - name: Robert Bearsby
+      role: Security Consultant
+      work: F-Secure Consulting
+      country: United Kingdom
+      shortcode: UK
+      image: robert-bearsby
+      bio: 
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: Attack Path Mapping
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: robert-lagerstrom
+  speaker:
+    - name: Robert Lagerström
+      role: Associate Professor
+      work: KTH Royal Institute of Technology
+      country: Sweden
+      shortcode: SE
+      image: robert-lagerstrom
+      bio: Associate Professor in Software Systems Architecture & Security at KTH Royal Institute of Technology, founder of foreseeti and securiCAD, member of the Young Academy of Sweden, and Harvard guest researcher.
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: Project EnergyShield - hacking the power grid as a research method
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: sandra-bardon
+  speaker:
+    - name: Sandra Bardón
+      role: Technology Researcher
+      work: CCDCOE
+      country: Spain
+      shortcode: ES
+      image: sandra-bardon
+      bio: |
+        With 11 years of experience in the field of Cyber Security, Sandra is currently a Researcher at the Technology Branch of the NATO Cooperative Cyber Defence Center of Excelence since 2017. Her area of expertise is mainly pentesting and exploitation, but also and previously forensic and incidence response.  Throughout her career, she has led several projects in the field of Cyber Security and pentesting, both nationally and internationally.  Moreover, Sandra is a regular participant and part of the organization as Red Teamer in several international Cyber Exercises, including as Locked Shields, Crossed Swords, CWIX and has technically led the first national Cyber Exercises in the Joint Spanish Cyber Command.  She is also a speaker at conferences related to Cyber Security and a Professor of pentesting to post-graduates. Sandra is a Telecommunication Engineer with post-graduate Master's Degrees in both Telecommunication Engineering and Information and Computer Systems Security/Information Assurance, from the European University of Madrid.  She also has some technical certifications including OSCE, GXPN, OSCP, CEH, CNDA and ITIL. Sandra is also a member of #SomosMujeresTech (WeAreTechWomen) group, which aims to promote the visibility of women in leadership positions within the world of the technology and innovation sectors.
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: Red Teams view from the exercise
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: sarah-fluchs
+  speaker:
+    - name: Sarah Fluchs
+      role: Security Consultant
+      work: admeritia GmbH
+      country: Germany
+      shortcode: DE
+      image: sarah-fluchs
+      bio: Sarah Fluchs is a Security Consultant at admeritia GmbH, which specializes in OT Security. As admeritia’s Head of Security Engineering, she is driven by making OT Security doable. An engineer herself, Sarah is convinced that creating solid engineering methods speaking the language of automation engineers is the key for OT Security. Sarah has a bachelor’s degree in mechanical and process engineering and a master’s degree in automation engineering. As a scholar of the German Academic Scholarship Foundation and ThyssenKrupp throughout her studies, she’s gained process industries experience at ThyssenKrupp Industrial Solutions USA. Completing her master’s degree at the German Federal Office for Information Security, she helped develop the water utilities’ industry standard for IT Security. After joining admeritia, Sarah continues her engagement for standardization at ISA99 / IEC TC65 and its German mirror committees, focusing on OT security engineering for smart manufacturing and security for safety. She perseveres in her effort to keep standards viable, throwing in her experience in implementing IEC 62443 and German critical infrastructure security standards with asset owners, integrators, and vendors.
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: Layered Blueprints – an ontology and method for (talking about) engineering OT Security
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: silver-saks
+  speaker:
+    - name: Silver Saks
+      role: Technology Researcher
+      work: CCDCOE
+      country: Estonia
+      shortcode: EE
+      image: silver-saks
+      bio: Silver Saks has been with the NATO Cooperative Cyber Defence Centre of Excellence since October 2017. His primary role is the development, planning and execution of the technical exercises of the Centre, such as Crossed Swords and Locked Shields. Alongside his work on the exercises, Silver is also the instructor for IT Systems Attacks and Defence course and conducts research into the infrastructure of Cyber Operations. Prior to joining the centre, Silver worked as a system administrator for about 10 years, focusing mostly on Linux systems. He is a graduate of Estonian IT College and has Master’s degree in Cyber Security from TalTech.
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: Digging into the technical setup of the exercise
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: thomas-svensson
+  speaker:
+    - name: Thomas Svensson
+      role: Deputy Head of National Security
+      work: Telia Company Sweden
+      country: Sweden
+      shortcode: SE
+      image: thomas-svensson
+      bio: Thomas is deputy head of national security at Telia Company Sweden. Thomas has more than 30 years at Swedish Armed Forces and 10 years in private sector focusing on IT & Information security. He is acting as the deputy white team leader in Locked Shields and  been part of the exercise since early beginning. He is also the author of Handbook for planning, running and evaluating information technology and cyber security exercises. Thomas was awarded the honorary title NATO CCDCOE Senior Fellow on the 4th of September 2019.
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: Introduction to Locked Shields exercise
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+    - keynote
+  when:
+    - "2019"
+  permalink: torstein-gimnes-are
+  speaker:
+    - name: Torstein Gimnes Are
+      role: Digital Marshall & CISO
+      work: Norsk Hydro
+      country: Norway
+      shortcode: "NO"
+      image: torstein-gimnes-are
+      bio: 20 years of experience within IS/IT and Information Security roles in Norsk Hydro, a global industry leader in aluminum.
+  keynote:
+    - date: 2019
+    - subject: The cyber-attack on Hydro
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: The cyber-attack on Hydro
+        permalink: program/presentations/
+        keynote: true
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: ulf-frisk
+  speaker:
+    - name: Ulf Frisk
+      role: Pentester & Security Researcher
+      work: Independent
+      country: Sweden
+      shortcode: SE
+      image: ulf-frisk
+      bio: Ulf is a pentester by day, and a Security Researcher by night. Ulf is the author of the PCILeech direct memory access attack toolkit and the Memory Process File System. Ulf has previously presented his work at DEF CON, the Chaos Communication Congress and BlueHatIL. Ulf is interested in things low-level and primarily focuses on Memory Analysis and Direct Memory Access.
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: Memory Forensics and DMA Attacks with MemProcFS and PCILeech
+        permalink: program/presentations/
+        partner: 
+        description: |
+          Coming soon
+  training:
+    - none
+
+- id: 
+  type: 
+    - presentation
+  when:
+    - "2019"
+  permalink: yoav-flint-rosenfeld
+  speaker:
+    - name: Yoav Flint Rosenfeld
+      role: Head of OT Research
+      work: Otorio
+      country: Israel
+      shortcode: IL
+      image: yoav-flint-rosenfeld
+      bio: Over 20 years of experience in cyber security as a pen tester, security consultant, SOC manager and threat intelligence manager.
+  presentation:
+    - active
+    - "2019"
+    - yearsix:
+      - date: 2019
+        subject: Project RunAway
+        permalink: program/presentations/
+        partner: Matan Dobrushin
+        description: |
+          Coming soon
+  training:
+    - none

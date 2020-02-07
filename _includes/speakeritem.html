@@ -1,0 +1,201 @@
+<div class="speaker--block spacing-bottom">
+    <div class="speaker--block-header">
+      <h3 class="headline">Speakers | 2019</h3>
+      <a href="{{ site.baseurl }}/program/speakers/" class="button button-primary speaker-row">View All Speakers</a>
+    </div>
+
+    <div class="speaker speaker-group col-8-8">
+
+    {% assign sorted_speakers = site.data.speakers | sample: 6 | sort:'name' %}
+    {% for speaker in sorted_speakers %}
+    {% if speaker.type == "presentation" or speaker.type == "training" or speaker.type == "moderator" or speaker.type == "expotalk" or speaker.type == "special" or speaker.type == "keynote" %}
+      <div class="speaker-item">
+
+        <div class="speaker-item-frame">
+          <img src="{{ site.baseurl }}/assets/speakers/{{ speaker.image }}" class="speaker-item-frame-image">
+          
+          {% if speaker.type == 'special' %}
+          <div class="speaker-item-frame-special">
+            <h4 class="speaker-item-frame-special-heading">Dinner Presentation</h4>
+          </div>
+          {% endif %}
+
+          {% if speaker.type == 'moderator' %}
+          <div class="speaker-item-frame-special">
+            <h4 class="speaker-item-frame-special-heading">Moderator</h4>
+          </div>
+          {% endif %}
+
+          {% if speaker.type == 'keynote' %}
+          <div class="speaker-item-frame-special">
+            <h4 class="speaker-item-frame-special-heading">Keynote</h4>
+          </div>
+          {% endif %}
+
+          <div class="speaker-item-frame-data">
+            {% if speaker.type == 'presentation' %}
+            <h4 class="speaker-item-frame-type">P<span>resentation</span></h4>
+            {% endif %}
+
+            {% if speaker.type == 'training' %}
+            <h4 class="speaker-item-frame-type">T<span>raining</span></h4>
+            {% endif %}
+
+            {% if speaker.type == 'expotalk' %}
+            <h4 class="speaker-item-frame-type">E<span>xpo Presentation</span></h4>
+            {% endif %}
+            
+            <h2 class="speaker-name">{% if speaker.prefix.size > 1 %}<span class="prefix">{{ speaker.prefix }}</span>{% endif %}{{ speaker.name }}</h2>
+            {% if speaker.type == 'special' %}
+            <h4 class="speaker-role">{{ speaker.role }}</h4>
+            {% else %}
+            <h4 class="speaker-role">{{ speaker.role | truncate: 25 }}{% if speaker.work.size > 1 %} at {{ speaker.work | truncate: 30 }}{% endif %}</h4>
+            {% endif %}
+          </div>
+        </div>
+
+        <div class="speaker-item-details">
+
+          <div class="speaker-item-header column-block-bit">
+
+            <div class="col-6-8">
+              <h2 class="heading">{% if speaker.prefix.size > 1 %}<span class="prefix">{{ speaker.prefix }}</span>{% endif %}{{ speaker.name }}</h2>
+              {% if speaker.type == 'special' %}
+              <h3 class="speaker-role">{{ speaker.role }}</h3>
+              {% else %}
+              <h3 class="speaker-role">{{ speaker.role }}{% if speaker.work.size > 1 %} at {{ speaker.work }}{% endif %}</h3>
+              {% endif %}
+              <h5 class="speaker-role speaker-item-country">{{ speaker.country }}</h5>
+            </div>
+
+            <div class="col-2-8">
+              <div class="speaker-item-type-group">
+                {% if speaker.type == 'moderator' %}
+                <span class="speaker-item-type">{{ speaker.type }}</span>
+                {% endif %}
+
+                {% if speaker.type == 'presentation' %}
+                <span class="speaker-item-type">Presentation</span>
+                {% endif %}
+
+                {% if speaker.type == 'expotalk' %}
+                <span class="speaker-item-type">Expo Presentation</span>
+                {% endif %}
+
+                {% if speaker.type == 'training' %}
+                <span class="speaker-item-type">Training</span>
+                {% endif %}
+
+                {% if speaker.type == 'special' %}
+                <span class="speaker-item-type">Dinner Presentation</span>
+                {% endif %}
+
+                {% if speaker.type == 'keynote' %}
+                <span class="speaker-item-type">Keynote</span>
+                {% endif %}
+              </div>
+            </div>
+
+          </div>
+
+          <div class="speaker-item-content">
+
+            {% if speaker.bio != null %}
+            <div class="col-8-8 column-block-bit">
+
+              <h4 class="sub-headline sub-headline-yellow">Biography</h4>
+              {% assign biosize = speaker.bio.size %}
+              {% if biosize < 250 %}
+              <p class="single-row">{{ speaker.bio }}</p>
+              {% else %}
+              <p class="duo-columns">{{ speaker.bio }}</p>
+              {% endif %}
+
+            </div>
+            {% endif %}
+
+            {% for item in speaker.presentation %}
+            {% if item.active == "live" %}
+            <div class="col-4-8">
+              {% if speaker.type == 'special' %}
+              <h4 class="sub-headline sub-headline-yellow">Dinner Presentation</h4>
+              {% else %}
+              <h4 class="sub-headline sub-headline-yellow">Presentation</h4>
+              {% endif %}
+              {% if speaker.type == 'special' %}
+              <h3 class="alt-title alt-title-light">{{ item.subject }}</h3>
+              <p class="col-5-8">{{ item.description }}</p>
+              {% else %}
+              <a href="{{ site.baseurl }}/{{ item.permalink }}" class="speaker-item-link">{{ item.subject }}</a>
+              {% if item.partner != null %}
+              <span class="sub-headline sub-headline-small sub-headline-light">with {{ item.partner }}</span>
+              {% endif %}
+              {% endif %}
+            </div>          
+            {% endif %}
+            {% endfor %}
+
+            {% for item in speaker.presentation-second %}
+            {% if item.active == "live" %}
+            <div class="col-4-8">
+              <a href="{{ site.baseurl }}/{{ item.permalink }}" class="speaker-item-link">{{ item.subject }}</a>
+              {% if item.partner != null %}
+              <span class="sub-headline sub-headline-small sub-headline-light">with {{ item.name }}</span>
+              {% endif %}
+            </div>          
+            {% endif %}
+            {% endfor %}
+
+
+            {% for item in speaker.training %}
+            {% if item.active == "live" %}
+            <div class="col-4-8">
+              <h4 class="sub-headline sub-headline-yellow">Training</h4>
+              <a href="{{ site.baseurl }}/{{ item.permalink }}" class="speaker-item-link">{{ item.subject }}</a>
+              {% if item.partner != null %}
+              <span class="sub-headline sub-headline-small sub-headline-light">with {{ item.name }}</span>
+              {% endif %}
+            </div>        
+            {% endif %}
+            {% endfor %}
+
+          </div>
+
+          {% if speaker.type == "keynote" %}
+          <div class="col-8-8 col-top-space">
+            <h4 class="sub-headline sub-headline-yellow">Photo Credit</h4>
+            <span class="alt-title alt-title-small">{{ speaker.photocred }}</span>
+          </div>
+          {% endif %}
+
+          <a href="#!" class="modal-close">Close<span></span></a>
+
+        </div>
+
+      </div>
+
+    {% endif %}
+    {% endfor %}
+    </div>
+  </div>
+
+  <div class="column-block-item col-8-8">
+    <div class="column-block-bit speaker--block-header">
+      <h3 class="headline">Partners | 2019</h3>
+      <a href="{{ site.baseurl }}/partners/" class="button button-primary">View All Partners</a>
+    </div>
+
+    <div class="column-block-bit">
+      <div class="partner--list">
+      {% assign partner = site.data.partners | sample: 4 | sort:'order' %}
+      {% for item in partner %}
+        <div class="partner--item col-2-8">
+          <a href="{{ item.url }}" target="_blank">
+            <img src="{{ site.baseurl }}/assets/partners/{{ item.logo }}" alt="{{ item.company }}">
+          </a>
+        </div>
+      {% endfor %}
+      </div>
+    </div>
+
+  </div>
