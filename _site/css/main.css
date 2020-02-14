@@ -3440,8 +3440,12 @@ a {
       letter-spacing: 0.045em; }
   .blog-content img {
     display: block;
-    width: 100%;
+    margin: 0 auto;
     margin-bottom: 24px; }
+  .blog-content-image-half {
+    width: 50%; }
+  .blog-content-image-full {
+    width: 100%; }
   .blog-content a {
     color: #ef7d00;
     text-decoration: underline;

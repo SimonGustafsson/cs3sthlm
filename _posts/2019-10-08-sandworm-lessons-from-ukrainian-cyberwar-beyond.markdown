@@ -12,7 +12,7 @@ permalink: /blog/sandworm-lessons-from-ukrainian-cyberwar-beyond/
 image: /assets/speakers/andy-greenberg.png
 ---
 
-<img src="{{ site.baseurl }}/assets/photos/andy-greenberg-sandworm.jpg" />
+<img src="{{ site.baseurl }}/assets/photos/andy-greenberg-sandworm.jpg" class="blog-content-image-full" />
 
 <h1 class="blog-title" itemprop="name headline">{{ page.title }}</h1>
 
