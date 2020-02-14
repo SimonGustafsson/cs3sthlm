@@ -1,6 +1,13 @@
 [
   
     {
+      "title"    : "2019 Releases of Recordings",
+      "url"      : "/blog/2019-releases-of-recordings/",
+      "date"     : "2020-02-14 04:00:00 +0000",
+      "path"     : "/blog/2019-releases-of-recordings/"
+    },
+  
+    {
       "title"    : "CS3STHLM Newsletter January",
       "url"      : "/news/2020/01/13/cs3sthlm-newsletter-january.html",
       "date"     : "2020-01-13 04:00:00 +0000",
@@ -554,6 +561,14 @@
         "title"    : "Speakers",
         "url"      : "/archive/speakers/",
         "path"     : "/archive/speakers/"
+     
+   },
+  
+   {
+     
+        "title"    : "Trainings",
+        "url"      : "/archive/trainings/",
+        "path"     : "/archive/trainings/"
      
    },
   

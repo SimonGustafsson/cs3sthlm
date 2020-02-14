@@ -123,6 +123,14 @@ $(".archive-button-all").on('click', function(){
 // END ARCHIVE FILTER
 
 
+// ARCHIVE - PRESENTATION EXTENDED
+
+$(".presentation-row-button").on('click', function(){
+    $(this).parent().toggleClass('presentation-row-extended');
+    $(this).toggleClass('presentation-row-button-active');
+});
+
+
 $('#dayone-button').on('click', function(){
     $('#dayone-button').addClass('agenda-header-item-active');
     $('#daytwo-button, #daythree-button, #dayfour-button').removeClass('agenda-header-item-active');

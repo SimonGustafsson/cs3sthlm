@@ -18,6 +18,7 @@
     - "2014"
     - yearone:
       - date: 2014
+        type: summit
         subject: Experiences from introducing security network monitoring at a major ICS enviroment
         permalink: program/presentations/
         partner:
@@ -77,6 +78,7 @@
     - "2014"
     - yearone:
       - date: 2014
+        type: keynote
         subject: "What aren't we doing right? ... or is that 'What are we doing wrong?'"
         permalink: program/presentations/
         partner:
@@ -114,6 +116,7 @@
     - "2016"
     - yearone:
       - date: 2014
+        type: summit
         subject: Conversations with your Control System
         permalink: program/presentations/
         partner:
@@ -121,6 +124,7 @@
           Coming soon.
     - yearthree:
       - date: 2016
+        type: summit
         subject: How to maximize your usage of the Shodan platform
         permalink: program/presentations/
         partner:
@@ -148,6 +152,7 @@
     - "2014"
     - yearone:
       - date: 2014
+        type: summit
         subject: A best practice framework for managing ICS risks
         permalink: program/presentations/
         partner:
@@ -177,6 +182,7 @@
     - "2016"
     - yearone:
       - date: 2014
+        type: summit
         subject: Information Security Incident Response in the Energy Sector
         permalink: program/presentations/
         partner: none
@@ -184,6 +190,7 @@
           Coming soon.
     - yearthree:
       - date: 2016
+        type: summit
         subject:  Road to Cyber Threat Intelligence in the Energy Sector
         permalink: program/presentations/
         partner: Thomas Schreck
@@ -211,6 +218,7 @@
     - "2014"
     - yearone:
       - date: 2014
+        type: summit
         subject: "SATCOM Terminals: Hacking by Air, Sea and Land"
         permalink: program/presentations/
         partner:
@@ -238,6 +246,7 @@
     - "2014"
     - yearone:
       - date: 2014
+        type: summit
         subject: "Beyond Public Private Partnerships: Collaboration, Coordination and Commitment as key aspects of Industrial Cybersecurity"
         permalink: program/presentations/
         partner:
@@ -265,6 +274,7 @@
     - "2014"
     - yearone:
       - date: 2014
+        type: summit
         subject: "SCADA StrangeLove: The Great Train Cyber Robbery"
         permalink: program/presentations/
         partner:
@@ -292,6 +302,7 @@
     - "2014"
     - yearone:
       - date: 2014
+        type: summit
         subject: Security requirements and their implications. An interpretation of the german security requirements for smart meters for manufacturers and operators
         permalink: program/presentations/
         partner:
@@ -323,6 +334,7 @@
     - "2014"
     - yearone:
       - date: 2014
+        type: keynote
         subject: Why Control System Cyber Security Sucks
         permalink: program/presentations/
         keynote: true
@@ -351,6 +363,7 @@
     - "2014"
     - yearone:
       - date: 2014
+        type: summit
         subject: Cyber Security, or Cyber Safety Culture? How to convert the weakest link into the force
         permalink: program/presentations/
         partner:
@@ -408,6 +421,7 @@
     - "2019"
     - yearone:
       - date: 2014
+        type: summit
         subject: SCADA Network Forensics
         permalink: program/presentations/
         partner:
@@ -415,6 +429,7 @@
          Coming soon.
     - yearsix:
       - date: 2019
+        type: summit
         subject: TLS Interception and Decryption *LIVE DEMO*
         permalink: program/presentations/
         partner:
@@ -487,6 +502,7 @@
     - "2015"
     - yeartwo:
       - date: 2015
+        type: summit
         subject: Simulating Attacks on infrastructure systems in Egypt
         permalink: program/presentations/
         partner:
@@ -516,6 +532,7 @@
     - "2015"
     - yeartwo:
       - date: 2015
+        type: summit
         subject: Is Your Plant "Ready to Crash"?
         permalink: program/presentations/
         partner:
@@ -560,6 +577,7 @@
     - "2015"
     - yeartwo:
       - date: 2015
+        type: summit
         subject: "Missing the Obvious: Network Security Monitoring for ICS"
         permalink: program/presentations/
         partner: Robert Caldwell
@@ -595,6 +613,7 @@
     - "2015"
     - yeartwo:
       - date: 2015
+        type: summit
         subject: "Hacking the Power Grid: Analyzing what Hackers do when they have access to the 'Power Grid Honeypot'"
         permalink: program/presentations/
         partner:
@@ -625,6 +644,7 @@
     - "2016"
     - yeartwo:
       - date: 2015
+        type: summit
         subject: "Caststonomics: North"
         permalink: program/presentations/
         partner:
@@ -632,6 +652,7 @@
           Coming soon
     - yearthree:
       - date: 2016
+        type: summit
         subject: Embodied Vulnerabilities - How to find, fix, and think about them
         permalink: program/presentations/
         partner: Marie Moe
@@ -659,12 +680,14 @@
     - "2015"
     - yeartwo:
       - date: 2015
+        type: summit
         subject: PhysICS - Using physics simulation engine to demonstrate impacts on industrial control attacks
         permalink: program/presentations/
         partner:
         description: |
           Coming soon
       - date: 2015
+        type: summit
         subject: Reducing attack surface on ICS with Windows native solutions
         permalink: program/presentations/
         partner:
@@ -693,6 +716,7 @@
     - "2015"
     - yeartwo:
       - date: 2015
+        type: summit
         subject: The dirty secrets your hardware can keep, and how we can clean up its act
         permalink: program/presentations/
         partner:
@@ -732,6 +756,7 @@
     - "2015"
     - yeartwo:
       - date: 2015
+        type: keynote
         subject: "Stuxnet and Beyond: The Age of Digital Warfare"
         permalink: program/presentations/
         keynote: true
@@ -760,6 +785,7 @@
     - "2015"
     - yeartwo:
       - date: 2015
+        type: summit
         subject: Responsible Disclosure may be Irresponisble
         permalink: program/presentations/
         partner:
@@ -787,6 +813,7 @@
     - "2015"
     - yeartwo:
       - date: 2015
+        type: summit
         subject: Case Studies in Real World ICS/SCADA Incident Response and Forensics
         permalink: program/presentations/
         partner:
@@ -814,6 +841,7 @@
     - "2015"
     - yeartwo:
       - date: 2015
+        type: summit
         subject: Digital Maintenance and Test Equipment and Impact on Control System Security
         permalink: program/presentations/
         partner:
@@ -842,6 +870,7 @@
     - "2015"
     - yeartwo:
       - date: 2015
+        type: summit
         subject: Reversing and Deciphering the Cyber Espionage Malware Communications
         permalink: program/presentations/
         partner:
@@ -878,6 +907,7 @@
     - "2015"
     - yeartwo:
       - date: 2015
+        type: dinner
         subject: Cyber Security through the ages
         permalink: program/presentations/
         partner:
@@ -905,6 +935,7 @@
     - "2015"
     - yeartwo:
       - date: 2015
+        type: summit
         subject: "Missing the Obvious: Network Security Monitoring for ICS"
         permalink: program/presentations/
         partner: Chris Sistrunk
@@ -940,6 +971,7 @@
     - "2016"
     - yeartwo:
       - date: 2015
+        type: summit
         subject: Asset Identification and Network Security Monitoring in ICS Network
         permalink: program/presentations/
         partner:
@@ -947,6 +979,7 @@
           Coming soon
     - yearthree:
       - date: 2016
+        type: keynote
         subject: Exploring the Unknown ICS Threat Landscape
         permalink: program/presentations/
         keynote: true
@@ -986,6 +1019,7 @@
     - "2019"
     - yeartwo:
       - date: 2015
+        type: summit
         subject: "The Little Pump Gauge That Could: Attacks Against Gas Pump Monitoring Systems"
         permalink: program/presentations/
         partner:
@@ -993,6 +1027,7 @@
           Coming soon
     - yearsix:
       - date: 2019
+        type: summit
         subject: How we reverse-engineered multiple industrial radio remote-control systems
         permalink: program/presentations/
         partner:
@@ -1020,6 +1055,7 @@
     - "2015"
     - yeartwo:
       - date: 2015
+        type: summit
         subject: What can the ICS sector learn from APT attack?
         permalink: program/presentations/
         partner:
@@ -1050,6 +1086,7 @@
     - "2015"
     - yeartwo:
       - date: 2015
+        type: summit
         subject: Who controls your industrial control systems?
         permalink: program/presentations/
         partner:
@@ -1102,6 +1139,7 @@
     - "2017"
     - yearthree:
       - date: 2016
+        type: summit
         subject: BlackEnergy – What We Really Know About the Notorious Cyber-Attacks
         permalink: program/presentations/
         partner: Robert Lipovský
@@ -1109,6 +1147,7 @@
           Coming soon
     - yearfour:
       - date: 2017
+        type: summit
         subject: "Industroyer: biggest threat to industrial control systems since Stuxnet"
         permalink: program/presentations/
         partner: Robert Lipovský
@@ -1136,7 +1175,7 @@
     - "2016"
     - yearthree:
       - date: 2016
-        days:
+        type: summit
         subject: "DYODE: Do Your Own DiodE"
         permalink: program/presentations/
         partner: Arnaud Soullié
@@ -1167,6 +1206,7 @@
     - "2016"
     - yearthree:
       - date: 2016
+        type: dinner
         subject: Voyage to Space
         permalink: program/presentations/
         partner:
@@ -1194,6 +1234,7 @@
     - "2016"
     - yearthree:
       - date: 2016
+        type: summit
         subject: Crate City
         permalink: program/presentations/
         partner: Peter Andersson
@@ -1221,6 +1262,7 @@
     - "2016"
     - yearthree:
       - date: 2016
+        type: summit
         subject: "The Cyber Threat Intelligence Matrix: A simple incident response decision model"
         permalink: program/presentations/
         partner:
@@ -1248,6 +1290,7 @@
     - "2016"
     - yearthree:
       - date: 2016
+        type: summit
         subject: Too many cooks spoil the broth?
         permalink: program/presentations/
         partner: Jan-Peter Kleinhans
@@ -1275,6 +1318,7 @@
     - "2016"
     - yearthree:
       - date: 2016
+        type: summit
         subject: Too many cooks spoil the broth?
         permalink: program/presentations/
         partner: Isabel Skierka
@@ -1302,6 +1346,7 @@
     - "2016"
     - yearthree:
       - date: 2016
+        type: summit
         subject: Defense-in-Depth' in a time of advanced persistent threats
         permalink: program/presentations/
         partner:
@@ -1329,6 +1374,7 @@
     - "2016"
     - yearthree:
       - date: 2016
+        type: summit
         subject: Building Robust Tabletop Exercises to Strengthen Your CSIRT
         permalink: program/presentations/
         partner:
@@ -1356,6 +1402,7 @@
     - "2016"
     - yearthree:
       - date: 2016
+        type: summit
         subject: LIGHTWEIGHT PROTOCOL! SERIOUS EQUIPMENT! CRITICAL IMPLICATIONS!
         permalink: program/presentations/
         partner:
@@ -1383,6 +1430,7 @@
     - "2016"
     - yearthree:
       - date: 2016
+        type: summit
         subject: PLC-Blaster - A Worm Living in Your PLC
         permalink: program/presentations/
         partner:
@@ -1410,6 +1458,7 @@
     - "2016"
     - yearthree:
       - date: 2016
+        type: summit
         subject: Embodied Vulnerabilities - How to find, fix, and think about them
         permalink: program/presentations/
         partner: Eireann Leverett
@@ -1439,6 +1488,7 @@
     - "2017"
     - yearthree:
       - date: 2016
+        type: summit
         subject: Cybersecurity in Europe - the NIS Directive and the role of Operators of essential services
         permalink: program/presentations/
         partner: Rossella Mattioli
@@ -1446,12 +1496,14 @@
           Coming soon
     - yearfour:
       - date: 2017
+        type: summit
         subject: "Network and Information Security Directive: the road ahead"
         permalink: program/presentations/
         partner: 
         description: |
           Coming soon
       - date: 2017
+        type: summit
         subject: Threat modelling and security measures for ICS/SCADA systems in critical infrastructure
         permalink: program/presentations/
         partner:
@@ -1479,6 +1531,7 @@
     - "2016"
     - yearthree:
       - date: 2016
+        type: summit
         subject: Crate City
         permalink: program/presentations/
         partner: Erik Westring
@@ -1507,6 +1560,7 @@
     - "2016"
     - yearthree:
       - date: 2016
+        type: summit
         subject: Breaking isolation using cache attributes
         permalink: program/presentations/
         partner:
@@ -1537,6 +1591,7 @@
     - "2017"
     - yearthree:
       - date: 2016
+        type: summit
         subject: BlackEnergy – What We Really Know About the Notorious Cyber-Attacks
         permalink: program/presentations/
         partner: Anton Cherepanov
@@ -1544,6 +1599,7 @@
           Coming soon
     - yearfour:
       - date: 2017
+        type: summit
         subject: "Industroyer: biggest threat to industrial control systems since Stuxnet"
         permalink: program/presentations/
         partner: Anton Cherepanov
@@ -1573,6 +1629,7 @@
     - "2017"
     - yearthree:
       - date: 2016
+        type: summit
         subject: Cybersecurity in Europe - the NIS Directive and the role of Operators of essential services
         permalink: program/presentations/
         partner: Paraskevi Kasse
@@ -1580,18 +1637,21 @@
           Coming soon
     - yearfour:
       - date: 2017
+        type: summit
         subject: "Protecting European transport infrastructures: threat models"
         permalink: program/presentations/
         partner: 
         description: |
           Coming soon
       - date: 2017
+        type: summit
         subject: "IoT in Europe: what could possibly go wrong and how you can fix"
         permalink: program/presentations/
         partner: 
         description: |
           Coming soon
       - date: 2017
+        type: summit
         subject: ENISA Trainings for Cyber Security Specialists
         permalink: program/presentations/
         partner: 
@@ -1620,6 +1680,7 @@
     - "2016"
     - yearthree:
       - date: 2016
+        type: summit
         subject: The role of anomaly detection in industrial control systems
         permalink: program/presentations/
         partner: 
@@ -1627,6 +1688,7 @@
           Coming soon
     - yearsix:
       - date: 2019
+        type: expo
         subject: From datasets and testbeds to timing-based anomaly detection
         permalink: program/presentations/
         partner: 
@@ -1654,6 +1716,7 @@
     - "2016"
     - yearthree:
       - date: 2016
+        type: summit
         subject: Road to Cyber Threat Intelligence in the Energy Sector
         permalink: program/presentations/
         partner: Marie Moe
@@ -1681,6 +1744,7 @@
     - "2016"
     - yearthree:
       - date: 2016
+        type: summit
         subject: Ageing of ICS - What's the deal?
         permalink: program/presentations/
         partner: 
@@ -1712,6 +1776,7 @@
     - "2016"
     - yearthree:
       - date: 2016
+        type: summit
         subject: "DYODE: Do Your Own DiodE"
         permalink: program/presentations/
         partner: Ary Kokos
@@ -1760,6 +1825,7 @@
     - "2018"
     - yearthree:
       - date: 2016
+        type: summit
         subject: In a grid operator's security trenches
         permalink: program/presentations/
         partner:
@@ -1767,6 +1833,7 @@
           Coming soon
     - yearfive:
       - date: 2018
+        type: summit
         subject: The good, the bad and the segmented
         permalink: program/presentations/
         partner: Rik van Hees
@@ -1799,6 +1866,7 @@
     - "2019"
     - yearthree:
       - date: 2016
+        type: summit
         subject: Physics-based attack detection and countermeasures in control systems
         permalink: program/presentations/
         partner:
@@ -1806,6 +1874,7 @@
           Coming soon
     - yearfive:
       - date: 2018
+        type: expo
         subject: Control Theory for Practical Cyber-Physical Security
         permalink: program/presentations/
         partner:
@@ -1813,6 +1882,7 @@
           Coming soon
     - yearsix:
       - date: 2019
+        type: expo
         subject: Testbed Evaluation of DoS Attacks on Continuously Controlled Processes
         permalink: program/presentations/
         partner:
@@ -1844,6 +1914,7 @@
     - "2017"
     - yearfour:
       - date: 2017
+        type: summit
         subject: Secure SCADA Protocol for the 21st Century (SSP21)
         permalink: program/presentations/
         partner: 
@@ -1871,6 +1942,7 @@
     - "2017"
     - yearfour:
       - date: 2017
+        type: summit
         subject: S in IoT is for Security
         permalink: program/presentations/
         partner: 
@@ -1898,6 +1970,7 @@
     - "2017"
     - yearfour:
       - date: 2017
+        type: summit
         subject: Configurable Code-Reuse Attacks Mitigation for COTS Programmable Logic Controller Binaries
         permalink: program/presentations/
         partner: 
@@ -1925,6 +1998,7 @@
     - "2017"
     - yearfour:
       - date: 2017
+        type: summit
         subject: Back to the IoT Future
         permalink: program/presentations/
         partner: 
@@ -1953,6 +2027,7 @@
     - "2017"
     - yearfour:
       - date: 2017
+        type: dinner
         subject: Adventures in social engineering - tales of a "people hack"
         permalink: program/presentations/
         partner: 
@@ -1982,6 +2057,7 @@
     - "2019"
     - yearfour:
       - date: 2017
+        type: summit
         subject: "Security for Safety: Fortifying the last line of defense"
         permalink: program/presentations/
         partner: 
@@ -1989,6 +2065,7 @@
           Coming soon
     - yearsix:
       - date: 2019
+        type: summit
         subject: Applying the Consequence-driven Cyber-informed Engineering method on a Facility for a Successful Attack
         permalink: program/presentations/
         partner: Andreas Erdich
@@ -2016,6 +2093,7 @@
     - "2017"
     - yearfour:
       - date: 2017
+        type: summit
         subject: Pro-Kremlin trolls, fake news and propagandists as opinion influencers - and how to counter them
         permalink: program/presentations/
         partner: 
@@ -2043,6 +2121,7 @@
     - "2017"
     - yearfour:
       - date: 2017
+        type: summit
         subject: APT Case Study
         permalink: program/presentations/
         partner: Martin Eian
@@ -2070,6 +2149,7 @@
     - "2017"
     - yearfour:
       - date: 2017
+        type: summit
         subject: APT Case Study
         permalink: program/presentations/
         partner: Jon Rogeberg
@@ -2098,6 +2178,7 @@
     - "2017"
     - yearfour:
       - date: 2017
+        type: summit
         subject: ICS Program Development for Multi-national Corporations
         permalink: program/presentations/
         partner: 
@@ -2153,6 +2234,7 @@
     - "2017"
     - yearfour:
       - date: 2017
+        type: summit
         subject: "Cyberattacks Against Critical Infrastructure in Ukraine: Taxonomy, Consequences, Lessons Learned"
         permalink: program/presentations/
         partner: Roman Sologub
@@ -2180,6 +2262,7 @@
     - "2017"
     - yearfour:
       - date: 2017
+        type: summit
         subject: "From Box to Backdoor: Using Old School Tools and Techniques to Discover Backdoors in Modern Devices"
         permalink: program/presentations/
         partner: 
@@ -2207,6 +2290,7 @@
     - "2017"
     - yearfour:
       - date: 2017
+        type: summit
         subject: "Cyberattacks Against Critical Infrastructure in Ukraine: Taxonomy, Consequences, Lessons Learned"
         permalink: program/presentations/
         partner: Oleksii Yasynskyi
@@ -2238,6 +2322,7 @@
     - "2019"
     - yearfour:
       - date: 2017
+        type: summit
         subject: DIY insider threat detection/prevention within ICS enviroments
         permalink: program/presentations/
         partner: 
@@ -2245,6 +2330,7 @@
           Coming soon
     - yearfive:
       - date: 2018
+        type: summit
         subject: Operator Jail breakout
         permalink: program/presentations/
         partner: Frank Lycops
@@ -2252,6 +2338,7 @@
           Coming soon
     - yearsix:
       - date: 2019
+        type: summit
         subject: Security Testing for ICS Owners 2.0
         permalink: program/presentations/
         partner:
@@ -2282,6 +2369,7 @@
     - "2018"
     - yearfour:
       - date: 2017
+        type: summit
         subject: Strategic Network Defense in ICS Environments
         permalink: program/presentations/
         partner: 
@@ -2289,6 +2377,7 @@
           Coming soon
     - yearfive:
       - date: 2018
+        type: summit
         subject: "Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense"
         permalink: program/presentations/
         partner: 
@@ -2327,6 +2416,7 @@
     - "2018"
     - yearfour:
       - date: 2017
+        type: summit
         subject: Pandora´s box
         permalink: program/presentations/
         partner: 
@@ -2334,6 +2424,7 @@
           Coming soon
     - yearfive:
       - date: 2018
+        type: summit
         subject: Introduction to KRAFT-CERT and some words about Nordic co-op
         permalink: program/presentations/
         partner: 
@@ -2369,6 +2460,7 @@
     - "2019"
     - yearfive:
       - date: 2018
+        type: expo
         subject: Kaspersky Industrial Cybersecurity approach
         permalink: program/presentations/
         partner: 
@@ -2376,6 +2468,7 @@
           Coming soon
     - yearsix:
       - date: 2019
+        type: expo
         subject: "How to save $1.7 million over three years on industrial cybersecurity: the Results of the Forrester Total Economic (TEI) Impact study"
         permalink: program/presentations/
         partner: 
@@ -2404,6 +2497,7 @@
     - "2018"
     - yearfive:
       - date: 2018
+        type: summit
         subject: Hunting and Responding in ICS
         permalink: program/presentations/
         partner: Mark Stacey
@@ -2440,6 +2534,7 @@
     - "2018"
     - yearfive:
       - date: 2018
+        type: summit
         subject: Attacking PLCs by PLC in deep
         permalink: program/presentations/
         partner: 
@@ -2467,6 +2562,7 @@
     - "2018"
     - yearfive:
       - date: 2018
+        type: summit
         subject: Stateful Protocol Hunting
         permalink: program/presentations/
         partner: Daniel Michaud-Soucy
@@ -2495,6 +2591,7 @@
     - "2018"
     - yearfive:
       - date: 2018
+        type: summit
         subject: Stateful Protocol Hunting
         permalink: program/presentations/
         partner: Dan Gunter
@@ -2532,6 +2629,7 @@
     - "2018"
     - yearfive:
       - date: 2018
+        type: expo
         subject: ICS cyber security in the face of digital transformation
         permalink: program/presentations/
         partner: 
@@ -2578,6 +2676,7 @@
     - "2018"
     - yearfive:
       - date: 2018
+        type: summit
         subject: Supply Chain Cyber Security throughout the ICS Lifecycle
         permalink: program/presentations/
         partner: 
@@ -2605,6 +2704,7 @@
     - "2018"
     - yearfive:
       - date: 2018
+        type: summit
         subject: Operator Jail breakout
         permalink: program/presentations/
         partner: Dieter Sarrazyn
@@ -2632,6 +2732,7 @@
     - "2018"
     - yearfive:
       - date: 2018
+        type: expo
         subject: Resilient Computing and Communication for Critical Infrastructures
         permalink: program/presentations/
         partner: 
@@ -2660,6 +2761,7 @@
     - "2018"
     - yearfive:
       - date: 2018
+        type: dinner
         subject: Fake new or folklore?
         permalink: program/presentations/
         partner: 
@@ -2687,6 +2789,7 @@
     - "2018"
     - yearfive:
       - date: 2018
+        type: expo
         subject: Recorded Future - The Dark Web’s deep threat intelligence secrets
         permalink: program/presentations/
         partner: 
@@ -2714,8 +2817,9 @@
     - "2018"
     - yearfive:
       - date: 2018
+        type: expo
         subject: Designing a second generation cyber range
-        permalink: program/presentations/
+        permalink: expo/presentations/
         partner: 
         description: |
           Coming soon
@@ -2742,8 +2846,9 @@
     - "2018"
     - yearfive:
       - date: 2018
+        type: expo
         subject: Security when failure is not an option
-        permalink: program/presentations/
+        permalink: expo/presentations/
         partner: 
         description: |
           Coming soon
@@ -2769,6 +2874,7 @@
     - "2018"
     - yearfive:
       - date: 2018
+        type: summit
         subject: Recent APT Campaign targeting Energy Sector Assets
         permalink: program/presentations/
         partner: 
@@ -2796,6 +2902,7 @@
     - "2018"
     - yearfive:
       - date: 2018
+        type: summit
         subject: "Attacking Cars Revisited: On the Road Towards a More Resilient Connected Vehicle Infrastructure"
         permalink: program/presentations/
         partner: 
@@ -2823,6 +2930,7 @@
     - "2018"
     - yearfive:
       - date: 2018
+        type: summit
         subject: Introduction to MSB-session
         permalink: program/presentations/
         partner: 
@@ -2850,6 +2958,7 @@
     - "2018"
     - yearfive:
       - date: 2018
+        type: summit
         subject: Uncertain conflict – When critical infrastructure is affected by national conflicts.
         permalink: program/presentations/
         partner: 
@@ -2877,8 +2986,9 @@
     - "2018"
     - yearfive:
       - date: 2018
+        type: expo
         subject: Securing Low Level Software Using Formal Methods
-        permalink: program/presentations/
+        permalink: expo/presentations/
         partner: 
         description: |
           Coming soon
@@ -2904,6 +3014,7 @@
     - "2018"
     - yearfive:
       - date: 2018
+        type: summit
         subject: Using fake BTS as a part of pentest of devices using SIM cards for data transmission
         permalink: program/presentations/
         partner: 
@@ -2931,6 +3042,7 @@
     - "2018"
     - yearfive:
       - date: 2018
+        type: summit
         subject: IoT-related risks
         permalink: program/presentations/
         partner: 
@@ -2958,6 +3070,7 @@
     - "2018"
     - yearfive:
       - date: 2018
+        type: summit
         subject: "ICS Incident Response: Lessions and mitigations from the field"
         permalink: program/presentations/
         partner: 
@@ -2985,12 +3098,14 @@
     - "2018"
     - yearfive:
       - date: 2018
+        type: summit
         subject: Hunting and Responding in ICS
         permalink: program/presentations/
         partner: Ben Miller
         description: |
           Coming soon
       - date: 2018
+        type: summit
         subject: "Incident Response: Learning as you go is Expensive"
         permalink: program/presentations/
         partner: 
@@ -3020,6 +3135,7 @@
     - "2019"
     - yearfive:
       - date: 2018
+        type: summit
         subject: Jumping Air Gaps
         permalink: program/presentations/
         partner: 
@@ -3027,6 +3143,7 @@
           Coming soon
     - yearsix:
       - date: 2019
+        type: summit
         subject: Nation-State Supply Chain Attacks for Dummies and You Too
         permalink: program/presentations/
         partner: 
@@ -3055,6 +3172,7 @@
     - "2018"
     - yearfive:
       - date: 2018
+        type: summit
         subject: Unblockable Chains - Is Blockchain the ultimate malicious infrastructure?
         permalink: program/presentations/
         partner: 
@@ -3086,6 +3204,7 @@
     - "2018"
     - yearfive:
       - date: 2018
+        type: keynote
         subject: "Industrial Technology Trajectory: Running With Scissors"
         permalink: program/presentations/
         keynote: true
@@ -3114,8 +3233,9 @@
     - "2018"
     - yearfive:
       - date: 2018
+        type: expo
         subject: Securing Wireless Transmissions at the Air Interface
-        permalink: program/presentations/
+        permalink: expo/presentations/
         partner: 
         description: |
           Coming soon
@@ -3141,8 +3261,9 @@
     - "2018"
     - yearfive:
       - date: 2018
+        type: expo
         subject: Addressing Physical to Digital Convergence in an Evolving World
-        permalink: program/presentations/
+        permalink: expo/presentations/
         partner: 
         description: |
           Coming soon
@@ -3169,6 +3290,7 @@
     - "2018"
     - yearfive:
       - date: 2018
+        type: summit
         subject: The good, the bad and the segmented
         permalink: program/presentations/
         partner: Erwin Kooi
@@ -3224,6 +3346,7 @@
     - "2018"
     - yearfive:
       - date: 2018
+        type: summit
         subject: Securing the ICS lab network
         permalink: program/presentations/
         partner: 
@@ -3255,6 +3378,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: summit
         subject: The fall of CODESYS
         permalink: program/presentations/
         partner: 
@@ -3282,6 +3406,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: summit
         subject: Applying the Consequence-driven Cyber-informed Engineering method on a Facility for a Successful Attack
         permalink: program/presentations/
         partner: Jens Wiesner
@@ -3313,6 +3438,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: keynote
         subject: "Sandworm: Lessons From the Ukrainian Cyberwar and Beyond"
         permalink: program/presentations/
         keynote: true
@@ -3341,6 +3467,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: summit
         subject: Tales from Industrial Plants and Responders
         permalink: program/presentations/
         partner: Mona Lange
@@ -3368,6 +3495,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: summit
         subject: Automotive DoIP and forensic analysis for automotive systems
         permalink: program/presentations/
         partner: Kevin Gomez Buquerin
@@ -3395,6 +3523,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: summit
         subject: curl - the world's most used software component?
         permalink: program/presentations/
         partner: 
@@ -3422,6 +3551,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: summit
         subject: EU STRIKE3 project
         permalink: program/presentations/
         partner: 
@@ -3449,6 +3579,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: summit
         subject: A view from the Blue side of Locked Shields
         permalink: program/presentations/
         partner: Johan Nilsson
@@ -3477,6 +3608,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: dinner
         subject: Zombie Survival
         permalink: program/presentations/
         partner: 
@@ -3504,6 +3636,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: summit
         subject: Introduction to Malcolm
         permalink: program/presentations/
         partner: 
@@ -3531,6 +3664,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: summit
         subject: Presenting how we know what’s happening in the exercise and measuring
         permalink: program/presentations/
         partner: 
@@ -3586,6 +3720,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: summit
         subject: "Broken Rungs: A look at popular ladder logic runtime privileges"
         permalink: program/presentations/
         partner: Reid Wightman
@@ -3613,6 +3748,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: summit
         subject: A view from the Blue side of Locked Shields
         permalink: program/presentations/
         partner: Erik Biverot
@@ -3640,6 +3776,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: summit
         subject: "Digital Forensics and ICS: Why and how?"
         permalink: program/presentations/
         partner: 
@@ -3667,6 +3804,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: summit
         subject: Automotive DoIP and forensic analysis for automotive systems
         permalink: program/presentations/
         partner: Christopher Corbett
@@ -3694,6 +3832,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: summit
         subject: Secure your MES - the bridge between IT and OT
         permalink: program/presentations/
         partner: 
@@ -3721,6 +3860,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: expo
         subject: We are all vulnerable
         permalink: program/presentations/
         partner: 
@@ -3748,6 +3888,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: summit
         subject: "IT vs. OT: We are Much More Similar than We are Different. Comparing Process Control Room and SOC operations"
         permalink: program/presentations/
         partner: 
@@ -3775,6 +3916,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: summit
         subject: Fuzz Testing IEC 61850
         permalink: program/presentations/
         partner: 
@@ -3802,6 +3944,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: summit
         subject: Project RunAway
         permalink: program/presentations/
         partner: Yoav Flint Rosenfeld
@@ -3829,6 +3972,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: expo
         subject: Applying automated attack modeling to a smart grid use case
         permalink: program/presentations/
         partner: 
@@ -3856,6 +4000,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: expo
         subject: Cyber Security for OT/IIoT/ICS – what we have learned 1000 installations later
         permalink: program/presentations/
         partner: 
@@ -3884,6 +4029,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: summit
         subject: What is the NATO Cooperative Cyber Defence Centre of Excellence (CCDCOE)?
         permalink: program/presentations/
         partner: 
@@ -3911,6 +4057,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: summit
         subject: When will my PLC support Mirai? The security economics of large-scale attacks against ICS
         permalink: program/presentations/
         partner: 
@@ -3938,6 +4085,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: summit
         subject: Tales from Industrial Plants and Responders
         permalink: program/presentations/
         partner: Christian Augustat
@@ -3965,6 +4113,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: summit
         subject: SCADApocalypse Now 4.0?
         permalink: program/presentations/
         partner: 
@@ -3992,6 +4141,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: summit
         subject: Building a distributed and robust time synchronisation service
         permalink: program/presentations/
         partner: 
@@ -4019,6 +4169,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: summit
         subject: Demystifying TSCM or how to spot the witch doctor doing the raindance
         permalink: program/presentations/
         partner: 
@@ -4046,6 +4197,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: summit
         subject: "Broken Rungs: A look at popular ladder logic runtime privileges"
         permalink: program/presentations/
         partner: Jimmy Wylie
@@ -4073,6 +4225,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: summit
         subject: Ultra responsible disclosure – or how to deal with a 0-day in critical infrastructure
         permalink: program/presentations/
         partner: 
@@ -4100,6 +4253,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: expo
         subject: Attack Path Mapping
         permalink: program/presentations/
         partner: 
@@ -4127,6 +4281,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: expo
         subject: Project EnergyShield - hacking the power grid as a research method
         permalink: program/presentations/
         partner: 
@@ -4155,6 +4310,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: summit
         subject: Red Teams view from the exercise
         permalink: program/presentations/
         partner: 
@@ -4182,6 +4338,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: summit
         subject: Layered Blueprints – an ontology and method for (talking about) engineering OT Security
         permalink: program/presentations/
         partner: 
@@ -4209,6 +4366,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: summit
         subject: Digging into the technical setup of the exercise
         permalink: program/presentations/
         partner: 
@@ -4236,6 +4394,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: summit
         subject: Introduction to Locked Shields exercise
         permalink: program/presentations/
         partner: 
@@ -4267,6 +4426,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: keynote
         subject: The cyber-attack on Hydro
         permalink: program/presentations/
         keynote: true
@@ -4295,6 +4455,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: summit
         subject: Memory Forensics and DMA Attacks with MemProcFS and PCILeech
         permalink: program/presentations/
         partner: 
@@ -4322,6 +4483,7 @@
     - "2019"
     - yearsix:
       - date: 2019
+        type: summit
         subject: Project RunAway
         permalink: program/presentations/
         partner: Matan Dobrushin

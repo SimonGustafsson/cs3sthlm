@@ -5,9 +5,39 @@
     <description>CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 07 Feb 2020 15:03:56 +0000</pubDate>
-    <lastBuildDate>Fri, 07 Feb 2020 15:03:56 +0000</lastBuildDate>
+    <pubDate>Fri, 14 Feb 2020 13:57:28 +0000</pubDate>
+    <lastBuildDate>Fri, 14 Feb 2020 13:57:28 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>2019 Releases of Recordings</title>
+        <description>&lt;h1 class=&quot;blog-title&quot; itemprop=&quot;name headline&quot;&gt;2019 Releases of Recordings&lt;/h1&gt;
+
+&lt;p&gt;We are working with releasing recordings from the 2019 conference. They
+are added to the youtube channel as they gets finished (edited, mixed),
+and after we receive the OK from the presenter. Videos are available at 
+the following URL &lt;a href=&quot;https://www.youtube.com/cs3sthlm&quot;&gt;https://www.youtube.com/cs3sthlm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We have gotten some questions about the keynotes: Andy Greenberg and
+Norsk Hydro Ransomware attack. The Hydro Ransomware attack was presented
+with the condition that it would not be recorded and published. So if
+you attended the conference you got an exclusive brefing which others
+will miss. We agreed with Andy Greenberg to delay his Sandworm keynote,
+since he is currently on a book tour. The recording of the Sandworm
+keynote will be released later this year.&lt;/p&gt;
+
+&lt;p&gt;We will also add a movie archive at the cs3sthlm home page, from where
+one can reach all recordings from previous cs3sthlm conferences. We will
+announce it via another blog post when that work is finished!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 14 Feb 2020 04:00:00 +0000</pubDate>
+        <link>/blog/2019-releases-of-recordings/</link>
+        <guid isPermaLink="true">/blog/2019-releases-of-recordings/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>CS3STHLM Newsletter January</title>
@@ -311,30 +341,6 @@ Please subscribe!&lt;/p&gt;
         <pubDate>Wed, 19 Dec 2018 04:00:00 +0000</pubDate>
         <link>/news/2018/12/19/cs3sthlm-newsletter-december.html</link>
         <guid isPermaLink="true">/news/2018/12/19/cs3sthlm-newsletter-december.html</guid>
-        
-        
-        <category>news</category>
-        
-      </item>
-    
-      <item>
-        <title>CS3STHLM Summary of 2018 Event</title>
-        <description>&lt;h3 id=&quot;appreciated-expansion-of-acclaimed-cyber-security-conference&quot;&gt;APPRECIATED EXPANSION OF ACCLAIMED CYBER SECURITY CONFERENCE&lt;/h3&gt;
-
-&lt;p&gt;This years edition of CS3STHLM presented an Expo Day as well as an extended interaction between participants and panelists. 10 students from Norway and Sweden were invited to take part of a challenge which resulted in two students from Norway and Sweden winning a reward.&lt;/p&gt;
-
-&lt;p&gt;Spot The Honey Pot was a challenge initiated by Mikael Vingaard (DK) for participants to find Honey Pots within the ICS networks, won by Matan Dobrushin from Otorio.&lt;/p&gt;
-
-&lt;p&gt;Key Note Speaker on Thursday, Patrick Miller (US), praised the summit for not just high quality content, but also great production, great atmosphere and great venue.&lt;/p&gt;
-
-&lt;p&gt;The founders of CS3STHLM, Robert Malmgren and Erik Johansson, thanked the 200 some participants, speakers, panelists and crew and rounded up the 2018 summit with a poll for Speaker of The Year, and this years winners are Erwin Kooi and Rick van Hees with their presentation The good, the bad and the segmented.&lt;/p&gt;
-
-&lt;p&gt;CS3STLHM 2019 will take place at Nalen in Stockholm October 21-24&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 25 Oct 2018 04:00:00 +0000</pubDate>
-        <link>/news/2018/10/25/cs3sthlm-summary-of-2018-event.html</link>
-        <guid isPermaLink="true">/news/2018/10/25/cs3sthlm-summary-of-2018-event.html</guid>
         
         
         <category>news</category>

@@ -3,3 +3,306 @@ title: Presentations
 permalink: "/archive/presentations/"
 layout: archive
 ---
+
+<section class="content">
+
+	<div class="column-block">
+		<div class="col-2-8">
+			<span class="archive-header-title archive-header-title-gray">2014</span>
+			<span class="archive-header-title-divider"></span>
+			<span class="archive-header-title archive-header-title-yellow">2019</span>
+		</div>
+
+		<div class="col-6-8">
+			<h2 class="title title-yellow">Presentations</h2>
+			<p class="col-4-8">Here you can view all the best international speakers and traineers attending CS3STHLM during the years. We also host a dinner entertainment slot during the Gala Dinner.</p>
+			
+			<div class="col-4-8 archive-filter spacing-top">
+				<h4 class="heading heading-small heading-capped">Filter</h4>
+
+				<ul class="archive-filter-list">
+				  <li class="archive-filter-list-item archive-button-all archive-filter-list-item-active" id="filter-none">All</li>
+				  <li class="archive-filter-list-item archive-button-expo" id="filter-expo" value="expo">Expo</li>
+				  <li class="archive-filter-list-item archive-button-keynote" id="filter-keynote" value="keynote">Keynote</li>
+				  <li class="archive-filter-list-item archive-button-summit" id="filter-summit" value="summit">Summit</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+<section class="content">
+
+  <div class="presentation-block col-8-8">
+
+    <div class="presentation-block-item col-8-8">
+      	<h3 class="alt-title col-8-8 spacing-bottom alt-title-yellow alt-title-large">2019</h3>
+    	
+    	<div class="presentation-row col-8-8">
+		{% assign speakers = site.data.archive-2020 | where_exp: "item", "item.type contains 'presentation'" %}
+		{% assign item = speakers | where_exp: "item", "item.when contains '2019'" %}
+		{% assign items = item | where_exp: "item", "item.presentation contains '2019'" %}
+
+			{% for item in items %}
+
+			<div class="archive-row-item col-8-8">
+			{% for item in item.speaker %}
+				<h3 class="alt-title alt-title-small alt-title-gray">{{ item.name }}</h3>
+			{% endfor %}
+			{% for item in item.presentation %}
+			{% for item in item.yearsix %}
+			{% if item.type contains "expo" %}
+				<h4 class="sub-headline sub-headline-small sub-headline-blue">Expo</h4>
+			{% elsif item.type contains "summit" %}
+				<h4 class="sub-headline sub-headline-small sub-headline-light">Summit</h4>
+			{% elsif item.type contains "keynote" %}
+				<h4 class="sub-headline sub-headline-small sub-headline-yellow">Keynote</h4>
+			{% elsif item.type contains "dinner" %}
+				<h4 class="sub-headline sub-headline-small sub-headline-red">Dinner</h4>
+			{% endif %}
+				<h2 class="alt-title alt-title-light ">{{ item.subject }}</h2>
+			{% endfor %}
+			{% endfor %}
+			</div>
+
+			{% endfor %}
+			<span class="presentation-row-button"></span>
+		</div>
+    </div>
+
+    <div class="presentation-block-item col-8-8">
+    	<h3 class="alt-title col-8-8 spacing-bottom alt-title-yellow alt-title-large">2018</h3>
+
+    	<div class="presentation-row col-8-8">
+			{% assign speakers = site.data.archive-2020 | where_exp: "item", "item.type contains 'presentation'" %}
+			{% assign item = speakers | where_exp: "item", "item.when contains '2018'" %}
+			{% assign items = item | where_exp: "item", "item.presentation contains '2018'" %}
+
+			{% for item in items %}
+
+			<div class="archive-row-item col-8-8">
+			{% for item in item.speaker %}
+				<h3 class="alt-title alt-title-small alt-title-gray">{{ item.name }}</h3>
+			{% endfor %}
+			{% for item in item.presentation %}
+			{% if item.yearfive.size > 1 %}
+				<div class="archive-row-item-double">
+					{% for item in item.yearfive %}
+					<span>
+					{% if item.type contains "expo" %}
+						<h4 class="sub-headline sub-headline-small sub-headline-blue">Expo</h4>
+					{% elsif item.type contains "summit" %}
+						<h4 class="sub-headline sub-headline-small sub-headline-light">Summit</h4>
+					{% elsif item.type contains "keynote" %}
+						<h4 class="sub-headline sub-headline-small sub-headline-yellow">Keynote</h4>
+					{% elsif item.type contains "dinner" %}
+						<h4 class="sub-headline sub-headline-small sub-headline-red">Dinner</h4>
+					{% endif %}
+						<h2 class="alt-title alt-title-light ">{{ item.subject }}</h2>
+					</span>
+					{% endfor %}
+				</div>
+			{% else %}
+			{% for item in item.yearfive %}
+			{% if item.type contains "expo" %}
+				<h4 class="sub-headline sub-headline-small sub-headline-blue">Expo</h4>
+			{% elsif item.type contains "summit" %}
+				<h4 class="sub-headline sub-headline-small sub-headline-light">Summit</h4>
+			{% elsif item.type contains "keynote" %}
+				<h4 class="sub-headline sub-headline-small sub-headline-yellow">Keynote</h4>
+			{% elsif item.type contains "dinner" %}
+				<h4 class="sub-headline sub-headline-small sub-headline-red">Dinner</h4>
+			{% endif %}
+				<h2 class="alt-title alt-title-light ">{{ item.subject }}</h2>
+			{% endfor %}
+			{% endif %}
+			{% endfor %}
+			</div>
+
+			{% endfor %}
+			<span class="presentation-row-button"></span>
+		</div>
+    </div>
+
+    <div class="presentation-block-item col-8-8">
+    	<h3 class="alt-title col-8-8 spacing-bottom alt-title-yellow alt-title-large">2017</h3>
+
+    	<div class="presentation-row col-8-8">
+			{% assign speakers = site.data.archive-2020 | where_exp: "item", "item.type contains 'presentation'" %}
+			{% assign item = speakers | where_exp: "item", "item.when contains '2017'" %}
+			{% assign items = item | where_exp: "item", "item.presentation contains '2017'" %}
+
+			{% for item in items %}
+
+			<div class="archive-row-item col-8-8">
+			{% for item in item.speaker %}
+				<h3 class="alt-title alt-title-small alt-title-gray">{{ item.name }}</h3>
+			{% endfor %}
+			{% for item in item.presentation %}
+			{% if item.yearfour.size > 1 %}
+				<div class="archive-row-item-double">
+					{% for item in item.yearfour %}
+					<span>
+					{% if item.type contains "expo" %}
+						<h4 class="sub-headline sub-headline-small sub-headline-blue">Expo</h4>
+					{% elsif item.type contains "summit" %}
+						<h4 class="sub-headline sub-headline-small sub-headline-light">Summit</h4>
+					{% elsif item.type contains "keynote" %}
+						<h4 class="sub-headline sub-headline-small sub-headline-yellow">Keynote</h4>
+					{% elsif item.type contains "dinner" %}
+						<h4 class="sub-headline sub-headline-small sub-headline-red">Dinner</h4>
+					{% endif %}
+						<h2 class="alt-title alt-title-light ">{{ item.subject }}</h2>
+					</span>
+					{% endfor %}
+				</div>
+			{% else %}
+			{% for item in item.yearfour %}
+			{% if item.type contains "expo" %}
+				<h4 class="sub-headline sub-headline-small sub-headline-blue">Expo</h4>
+			{% elsif item.type contains "summit" %}
+				<h4 class="sub-headline sub-headline-small sub-headline-light">Summit</h4>
+			{% elsif item.type contains "keynote" %}
+				<h4 class="sub-headline sub-headline-small sub-headline-yellow">Keynote</h4>
+			{% elsif item.type contains "dinner" %}
+				<h4 class="sub-headline sub-headline-small sub-headline-red">Dinner</h4>
+			{% endif %}
+				<h2 class="alt-title alt-title-light ">{{ item.subject }}</h2>
+			{% endfor %}
+			{% endif %}
+			{% endfor %}
+			</div>
+
+			{% endfor %}
+			<span class="presentation-row-button"></span>
+		</div>
+    </div>
+
+    <div class="presentation-block-item col-8-8">
+    	<h3 class="alt-title col-8-8 spacing-bottom alt-title-yellow alt-title-large">2016</h3>
+
+    	<div class="presentation-row col-8-8">
+			{% assign speakers = site.data.archive-2020 | where_exp: "item", "item.type contains 'presentation'" %}
+			{% assign item = speakers | where_exp: "item", "item.when contains '2016'" %}
+			{% assign items = item | where_exp: "item", "item.presentation contains '2016'" %}
+
+			{% for item in items %}
+
+			<div class="archive-row-item col-8-8">
+			{% for item in item.speaker %}
+				<h3 class="alt-title alt-title-small alt-title-gray">{{ item.name }}</h3>
+			{% endfor %}
+			{% for item in item.presentation %}
+			{% for item in item.yearthree %}
+			{% if item.type contains "expo" %}
+				<h4 class="sub-headline sub-headline-small sub-headline-blue">Expo</h4>
+			{% elsif item.type contains "summit" %}
+				<h4 class="sub-headline sub-headline-small sub-headline-light">Summit</h4>
+			{% elsif item.type contains "keynote" %}
+				<h4 class="sub-headline sub-headline-small sub-headline-yellow">Keynote</h4>
+			{% elsif item.type contains "dinner" %}
+				<h4 class="sub-headline sub-headline-small sub-headline-red">Dinner</h4>
+			{% endif %}
+				<h2 class="alt-title alt-title-light ">{{ item.subject }}</h2>
+			{% endfor %}
+			{% endfor %}
+			</div>
+
+			{% endfor %}
+			<span class="presentation-row-button"></span>
+		</div>
+    </div>
+
+
+    <div class="presentation-block-item col-8-8">
+    	<h3 class="alt-title col-8-8 spacing-bottom alt-title-yellow alt-title-large">2015</h3>
+
+    	<div class="presentation-row col-8-8">
+			{% assign speakers = site.data.archive-2020 | where_exp: "item", "item.type contains 'presentation'" %}
+			{% assign item = speakers | where_exp: "item", "item.when contains '2015'" %}
+			{% assign items = item | where_exp: "item", "item.presentation contains '2015'" %}
+
+			{% for item in items %}
+
+			<div class="archive-row-item col-8-8">
+			{% for item in item.speaker %}
+				<h3 class="alt-title alt-title-small alt-title-gray">{{ item.name }}</h3>
+			{% endfor %}
+			{% for item in item.presentation %}
+			{% if item.yeartwo.size > 1 %}
+				<div class="archive-row-item-double">
+					{% for item in item.yeartwo %}
+					<span>
+					{% if item.type contains "expo" %}
+						<h4 class="sub-headline sub-headline-small sub-headline-blue">Expo</h4>
+					{% elsif item.type contains "summit" %}
+						<h4 class="sub-headline sub-headline-small sub-headline-light">Summit</h4>
+					{% elsif item.type contains "keynote" %}
+						<h4 class="sub-headline sub-headline-small sub-headline-yellow">Keynote</h4>
+					{% elsif item.type contains "dinner" %}
+						<h4 class="sub-headline sub-headline-small sub-headline-red">Dinner</h4>
+					{% endif %}
+						<h2 class="alt-title alt-title-light ">{{ item.subject }}</h2>
+					</span>
+					{% endfor %}
+				</div>
+			{% else %}
+			{% for item in item.yeartwo %}
+			{% if item.type contains "expo" %}
+				<h4 class="sub-headline sub-headline-small sub-headline-blue">Expo</h4>
+			{% elsif item.type contains "summit" %}
+				<h4 class="sub-headline sub-headline-small sub-headline-light">Summit</h4>
+			{% elsif item.type contains "keynote" %}
+				<h4 class="sub-headline sub-headline-small sub-headline-yellow">Keynote</h4>
+			{% elsif item.type contains "dinner" %}
+				<h4 class="sub-headline sub-headline-small sub-headline-red">Dinner</h4>
+			{% endif %}
+				<h2 class="alt-title alt-title-light ">{{ item.subject }}</h2>
+			{% endfor %}
+			{% endif %}
+			{% endfor %}
+			</div>
+
+			{% endfor %}
+			<span class="presentation-row-button"></span>
+		</div>
+    </div>
+
+    <div class="presentation-block-item col-8-8">
+    	<h3 class="alt-title col-8-8 spacing-bottom alt-title-yellow alt-title-large">2014</h3>
+
+    	<div class="presentation-row col-8-8">
+			{% assign speakers = site.data.archive-2020 | where_exp: "item", "item.type contains 'presentation'" %}
+			{% assign item = speakers | where_exp: "item", "item.when contains '2014'" %}
+			{% assign items = item | where_exp: "item", "item.presentation contains '2014'" %}
+
+			{% for item in items %}
+
+			<div class="archive-row-item col-8-8">
+			{% for item in item.speaker %}
+				<h3 class="alt-title alt-title-small alt-title-gray">{{ item.name }}</h3>
+			{% endfor %}
+			{% for item in item.presentation %}
+			{% for item in item.yearone %}
+			{% if item.type contains "expo" %}
+				<h4 class="sub-headline sub-headline-small sub-headline-blue">Expo</h4>
+			{% elsif item.type contains "summit" %}
+				<h4 class="sub-headline sub-headline-small sub-headline-light">Summit</h4>
+			{% elsif item.type contains "keynote" %}
+				<h4 class="sub-headline sub-headline-small sub-headline-yellow">Keynote</h4>
+			{% elsif item.type contains "dinner" %}
+				<h4 class="sub-headline sub-headline-small sub-headline-red">Dinner</h4>
+			{% endif %}
+				<h2 class="alt-title alt-title-light ">{{ item.subject }}</h2>
+			{% endfor %}
+			{% endfor %}
+			</div>
+
+			{% endfor %}
+			<span class="presentation-row-button"></span>
+		</div>
+    </div>
+    
+  </div>
+</section>

@@ -98,6 +98,11 @@ p.content-intro {
 	line-height: 45px;
 	color: $white;
 
+	&-large {
+		font-size: 29px;
+		line-height: 53px;
+	}
+
 	&-small {
 		font-size: 18px;
 		line-height: 38px;
@@ -218,6 +223,12 @@ p.content-intro {
 	}
 	&-gray {
 		color: $gray;
+	}
+	&-light {
+		color: $light-gray;
+	}
+	&-blue {
+		color: $blue;
 	}
 	&-small {
 		font-size: 12px;

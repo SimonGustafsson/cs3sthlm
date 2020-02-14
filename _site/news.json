@@ -1,5 +1,13 @@
 {"newsList":[
     {
+      "title": "2019 Releases of Recordings",
+      "author": "CS3STHLM Crew",
+      "category": "blog",
+      "date": "14 Feb 2020",
+      "content_html": "<h1 class=\"blog-title\" itemprop=\"name headline\">2019 Releases of Recordings</h1><p>We are working with releasing recordings from the 2019 conference. Theyare added to the youtube channel as they gets finished (edited, mixed),and after we receive the OK from the presenter. Videos are available at the following URL <a href=\"https://www.youtube.com/cs3sthlm\">https://www.youtube.com/cs3sthlm</a></p><p>We have gotten some questions about the keynotes: Andy Greenberg andNorsk Hydro Ransomware attack. The Hydro Ransomware attack was presentedwith the condition that it would not be recorded and published. So ifyou attended the conference you got an exclusive brefing which otherswill miss. We agreed with Andy Greenberg to delay his Sandworm keynote,since he is currently on a book tour. The recording of the Sandwormkeynote will be released later this year.</p><p>We will also add a movie archive at the cs3sthlm home page, from whereone can reach all recordings from previous cs3sthlm conferences. We willannounce it via another blog post when that work is finished!</p>"
+    } ,
+  
+    {
       "title": "CS3STHLM Newsletter January",
       "author": "CS3STHLM Crew",
       "category": "news",

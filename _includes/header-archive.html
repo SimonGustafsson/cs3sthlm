@@ -9,7 +9,11 @@
 			Back to Archive
 		</a>
 
+		{% if page.title contains "Archive" %}
+		<span class="topbar-meta">The Archive</span>
+		{% else %}
 		<span class="topbar-meta">The Archive - {{ page.title }}</span>
+		{% endif %}
 
 		<a href="#" class="topbar-link">Contact us</a>
 	</div>
@@ -24,16 +28,16 @@
 
 		<nav class="menu--primary">
 			<ul>
-				<li><a href="{{ site.baseurl }}/">Keynotes</a></li>
-				<li><a href="{{ site.baseurl }}/">Trainings</a></li>
-				<li><a href="{{ site.baseurl }}/">Speakers</a></li>
-				<li><a href="{{ site.baseurl }}/">Presentations</a></li>
-				<li><a href="{{ site.baseurl }}/">Gala Dinner</a></li>
-				<li><a href="{{ site.baseurl }}/">ICS Lab</a></li>
-				<li><a href="{{ site.baseurl }}/">EXPO</a></li>
-				<li><a href="{{ site.baseurl }}/">Gallery</a></li>
-				<li><a href="{{ site.baseurl }}/">Partners</a></li>
-				<li><a href="{{ site.baseurl }}/">Videos</a></li>
+				<li><a href="{{ site.baseurl }}/archive/keynotes">Keynotes</a></li>
+				<li><a href="{{ site.baseurl }}/archive/trainings">Trainings</a></li>
+				<li><a href="{{ site.baseurl }}/archive/speakers">Speakers</a></li>
+				<li><a href="{{ site.baseurl }}/archive/presentations">Presentations</a></li>
+				<li><a href="{{ site.baseurl }}/archive/gala-dinner">Gala Dinner</a></li>
+				<li><a href="{{ site.baseurl }}/archive/ics-lab">ICS Lab</a></li>
+				<li><a href="{{ site.baseurl }}/archive/expo">EXPO</a></li>
+				<li><a href="{{ site.baseurl }}/archive/gallery">Gallery</a></li>
+				<li><a href="{{ site.baseurl }}/archive/partners">Partners</a></li>
+				<li><a href="{{ site.baseurl }}/archive/videos">Videos</a></li>
 			</ul>
 		</nav>
 	</div>
