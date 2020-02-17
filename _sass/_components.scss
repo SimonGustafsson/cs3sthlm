@@ -683,6 +683,22 @@
 		&-active {
 			display: block;
 		}
+
+
+		&-large {
+			display: block;
+
+			@include media-query($mobile) {
+				display: none;
+			}	
+		}
+		&-mobile {
+			display: none;
+
+			@include media-query($mobile) {
+				display: block;
+			}
+		}
 	}
 
 	&-temp {

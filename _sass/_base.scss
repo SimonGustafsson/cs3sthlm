@@ -1384,7 +1384,7 @@ a {
     margin-bottom: 38px;
     text-decoration: none;
 
-    @include transition-ease;
+    //@include transition-ease;
 
     &:hover {
 
@@ -1497,6 +1497,8 @@ a {
 
       margin-right: 24px;
       margin-bottom: 0;
+
+      transition: transform .24s ease-in-out;
 
       &:hover {
         transform: scale(1.2);
