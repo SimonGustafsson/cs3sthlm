@@ -581,6 +581,14 @@
   
    {
      
+        "title"    : "Keynotes",
+        "url"      : "/archive/keynotes/",
+        "path"     : "/archive/keynotes/"
+     
+   },
+  
+   {
+     
         "title"    : "Presentations",
         "url"      : "/archive/presentations/",
         "path"     : "/archive/presentations/"

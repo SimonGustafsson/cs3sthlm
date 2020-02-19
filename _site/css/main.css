@@ -411,17 +411,6 @@ a {
             font-size: 12px; } }
         .menu--primary ul li a:hover {
           color: #ef7d00; }
-          .menu--primary ul li a:hover #arrow-down, .menu--primary ul li a:hover #search-light {
-            fill: #ef7d00; }
-        .menu--primary ul li a #arrow-down, .menu--primary ul li a #search-light {
-          fill: white;
-          transition: 0.24s all ease-in-out;
-          -moz-transition: 0.24s all ease-in-out;
-          -webkit-transtiion: 0.24s all ease-in-out;
-          -o-transition: 0.24s all ease-in-out; }
-          @media screen and (max-width: 768px) {
-            .menu--primary ul li a #arrow-down, .menu--primary ul li a #search-light {
-              fill: #e1e1e1; } }
         @media screen and (max-width: 768px) {
           .menu--primary ul li a {
             display: block;
@@ -991,6 +980,24 @@ a {
   .training-row-item h2 {
     order: 3;
     width: 75%; }
+
+.archive-keynote-divider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .archive-keynote-divider:before, .archive-keynote-divider:after {
+    display: block;
+    content: '';
+    width: calc(50% - 48px);
+    height: 1px;
+    box-sizing: border-box;
+    border-radius: 2px; }
+  .archive-keynote-divider:before {
+    background: linear-gradient(90deg, rgba(239, 125, 0, 0) 0%, #ef7d00 100%); }
+  .archive-keynote-divider:after {
+    background: linear-gradient(270deg, rgba(239, 125, 0, 0) 0%, #ef7d00 100%); }
+  .archive-keynote-divider-data {
+    text-align: center; }
 
 /**
   ARCHIVE - BLOCK - ITEM */
@@ -3151,8 +3158,6 @@ a {
     .button-intro-more {
       display: inline-block; } }
 
-.button-icon.button-yellow:hover #external-link, .button-icon.button-yellow:hover #download {
-  fill: white; }
 .button-icon.button-green:hover #external-link, .button-icon.button-green:hover #download {
   fill: #030100; }
 .button-icon .external-icon, .button-icon .download-icon {
@@ -3160,7 +3165,7 @@ a {
   width: 11px;
   height: 11px;
   margin-left: 10px; }
-.button-icon #external-link, .button-icon #download {
+.button-icon #external-link {
   fill: #030100;
   transition: 0.24s all ease-in-out;
   -moz-transition: 0.24s all ease-in-out;

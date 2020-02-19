@@ -380,20 +380,6 @@ a {
 
         &:hover {
           color: $yellow;
-
-          #arrow-down, #search-light {
-            fill: $yellow;
-          }
-        }
-
-        #arrow-down, #search-light {
-          fill: $white;
-
-          @include transition-ease;
-
-          @include media-query($mobile) {
-            fill: $light-gray;
-          }
         }
 
         @include media-query($mobile) {
@@ -1186,6 +1172,47 @@ a {
   }
 }
 
+
+
+// ARCHIVE KEYNOTE BLOCK
+
+.archive-keynote {
+
+  &-block {
+
+
+    &-item {
+
+    }
+  }
+
+  &-divider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &:before, &:after {
+      display: block;
+      content: '';
+      width: calc(50% - 48px);
+      height: 1px;
+      box-sizing: border-box;
+      border-radius: 2px;
+    }
+
+    &:before {
+      background: linear-gradient(90deg, rgba(239,125,0,0) 0%, rgba(239,125,0,1) 100%);
+    }
+
+    &:after {
+      background: linear-gradient(270deg, rgba(239,125,0,0) 0%, rgba(239,125,0,1) 100%);
+    }
+
+    &-data {
+      text-align: center;
+    }
+  }
+}
 
 
 
@@ -4211,13 +4238,6 @@ a {
 
 .button-icon {
 
-  &.button-yellow {
-    &:hover {
-      #external-link, #download {
-        fill: $white;
-      }
-    }
-  }
 
   &.button-green {
     &:hover {
@@ -4234,7 +4254,7 @@ a {
     margin-left: 10px;
   }
 
-  #external-link, #download {
+  #external-link {
     fill: $dark;
     @include transition-ease;
   }
