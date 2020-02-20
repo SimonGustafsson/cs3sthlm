@@ -1182,7 +1182,30 @@ a {
 
 
     &-item {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      align-items: center;
 
+      &:nth-child(3) {
+        margin-top: 160px;
+      }
+
+      .title {
+        margin-bottom: 24px;
+      }
+
+      &-image {
+        display: block;
+        width: 100%;
+        border-radius: 4px;
+        overflow: hidden;
+
+        img {
+          display: block;
+          width: 100%;
+        }
+      }
     }
   }
 
@@ -1190,6 +1213,12 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 48px;
+    margin-top: 160px;
+
+    &:first-of-type {
+      margin-top: 0;
+    }
 
     &:before, &:after {
       display: block;
@@ -1210,6 +1239,11 @@ a {
 
     &-data {
       text-align: center;
+      font-family: 'latoregular', sans-serif;
+      font-size: 23px;
+      font-weight: normal;
+      line-height: 45px;
+      color: $white;
     }
   }
 }

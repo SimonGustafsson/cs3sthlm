@@ -751,6 +751,16 @@
   keynote:
     - date: 2015
     - subject: "Stuxnet and Beyond: The Age of Digital Warfare"
+      description: |
+        Kim Zetter is an award-winning investigative journalist and author who covers cybersecurity, cybercrime, cyber warfare, and civil liberties. She has been covering computer security and the hacking underground since 1999, first for PC World magazine, and now for Wired, where she has been reporting since 2003 and is currently a senior staff writer. She has broken numerous stories over the years about hacking, WikiLeaks, and NSA surveillance and has three times been voted one of the top 10 security reporters in the nation by her journalism peers and security industry professionals.
+
+        In 2006 she broke a story for Salon.com about a secret NSA room at an AT&T facility in Missouri that was believed to be siphoning internet data from the telecom’s network operations center.
+
+        In 2007 she wrote a groundbreaking three-part story for Wired on the cybercriminal underground, which exposed the world of online carding markets and the players behind them.
+
+        In 2010, she and a Wired colleague broke the story about the arrest of Bradley Manning, the former Army intelligence analyst accused of leaking millions of classified U.S. government documents to WikiLeaks.
+
+        In 2011, she wrote an extensive feature about Stuxnet, a sophisticated digital weapon that was launched by the U.S. and Israel to sabotage Iran’s uranium enrichment program. She recently completed a book on the topic titled Countdown to Zero Day: Stuxnet and the Launch of the World&#8217;s First Digital Weapon published by Crown/Random House in November 2014.
   presentation:
     - active
     - "2015"
@@ -965,6 +975,8 @@
   keynote:
     - date: 2016
     - subject: Exploring the Unknown ICS Threat Landscape
+      description: |
+        The ICS threat landscape is mostly unknown. We have a lot of stories of attacks but most are hyped up. And from trusted sources we have metrics on incidents but they tell a very different story than intended sometimes. In this presentation, the current ICS threat landscape will be explored, deficiencies in it will be explained, and recommendations for the community will be given to help ensure we shine a light on a dark corner in the community.
   presentation:
     - active
     - "2015"
@@ -3198,7 +3210,14 @@
       bio: Patrick Miller has dedicated his career to the protection and defense of critical infrastructures. As Managing Partner at Archer Security Group, he is a trusted independent security and regulatory advisor for industrial control systems worldwide. Mr. Miller is also the founder, director and president emeritus of EnergySec and US. Coordinator for the Industrial Cybersecurity Center. Patrick's diverse background spans the Energy, Telecommunications, Water and Financial Services verticals including key positions with regulatory agencies, private consulting firms, utility asset owners and commercial organizations.
   keynote:
     - date: 2018
-    - subject: "Industrial Technology Trajectory: Running With Scissors"
+      image: patrick-miller
+      subject: "Industrial Technology Trajectory: Running With Scissors"
+      description: |
+        Innovative and disruptive technologies are enhancing and invading our traditional industrial business model. Future infrastructure organizations will need more data to operate efficiently and succeed in the brave new interconnected world.
+        
+        The diversity of new technologies and data will fuel more diversity in business opportunity. Everyone expects more OT, more IOT, and more IT - and all of it is supposed to be highly reliable and secure. 
+        
+        These factors (and more) lead to a landscape shift for the industrial cybersecurity risk profile. In this session, hear ways to recognize the problems and gain some clarity on possible solutions through historic lessons, made up words, and practical front-line experience.
   presentation:
     - active
     - "2018"
@@ -3432,7 +3451,12 @@
       bio: Andy Greenberg is an award-winning senior writer for Wired magazine, where he covers security, privacy, information freedom, and hacker culture. He is the author of the 2012 book This Machine Kills Secrets, and his stories for Wired on Ukraine's cyberwar (including an excerpt from Sandworm) have won a Gerald Loeb Award for International Reporting and two Deadline Club Awards from the New York Society of Professional Journalists. He lives in Brooklyn with his wife, documentary filmmaker Malika Zouhali-Worrall.
   keynote:
     - date: 2019
-    - subject: "Sandworm: Lessons From the Ukrainian Cyberwar and Beyond"
+      image: andy-greenberg
+      subject: "Sandworm: Lessons From the Ukrainian Cyberwar and Beyond"
+      description: |
+        Back in 2014, the world witnessed the start of a mysterious series of cyberattacks. Targeting American utility companies, NATO, and electric grids in Eastern Europe, the strikes grew ever more brazen. They culminated in the summer of 2017, when the malware known as NotPetya was unleashed, penetrating, disrupting, and paralyzing some of the world’s largest businesses – from drug manufacturers to software developers to shipping companies.
+
+        At the attack’s epicenter in Ukraine, ATMs froze. The railway and postal systems shut down. Hospitals went dark. NotPetya spread around the world, inflicting an unprecedented ten billion dollars in damage – the largest, most devastating cyberattack the world had ever seen.
   presentation:
     - active
     - "2019"
@@ -4420,7 +4444,12 @@
       bio: 20 years of experience within IS/IT and Information Security roles in Norsk Hydro, a global industry leader in aluminum.
   keynote:
     - date: 2019
-    - subject: The cyber-attack on Hydro
+      image: torstein-gimnes-are
+      subject: The cyber-attack on Hydro
+      description: |
+        Back in 2014, the world witnessed the start of a mysterious series of cyberattacks. Targeting American utility companies, NATO, and electric grids in Eastern Europe, the strikes grew ever more brazen. They culminated in the summer of 2017, when the malware known as NotPetya was unleashed, penetrating, disrupting, and paralyzing some of the world’s largest businesses – from drug manufacturers to software developers to shipping companies.
+        
+        At the attack’s epicenter in Ukraine, ATMs froze. The railway and postal systems shut down. Hospitals went dark. NotPetya spread around the world, inflicting an unprecedented ten billion dollars in damage – the largest, most devastating cyberattack the world had ever seen.
   presentation:
     - active
     - "2019"
