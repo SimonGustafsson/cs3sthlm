@@ -3152,6 +3152,13 @@ a {
   .button-green:hover {
     color: white; }
 
+.button-white {
+  background: white;
+  color: #030100; }
+  .button-white:hover {
+    background: #ef7d00;
+    color: white; }
+
 .button-intro-more {
   display: none; }
   @media screen and (max-width: 768px) {

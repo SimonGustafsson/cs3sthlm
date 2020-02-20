@@ -4228,6 +4228,16 @@ a {
   }
 }
 
+.button-white {
+  background: $white;
+  color: $dark;
+
+  &:hover {
+    background: $yellow;
+    color: $white;
+  }
+}
+
 .button-intro-more {
   display: none;
 
