@@ -20,7 +20,8 @@ layout: default
   </div>
 
   <div class="advisory--block">
-  	{% for card in site.data.advisory %}
+    {% assign advisory = site.data.advisory | sort: 'name' %}
+  	{% for card in advisory %}
     <div class="advisory--block-item col-1-3">
       <figure class="speakers-image"><img src="{{ site.baseurl }}/assets/advisory/{{ card.image }}.jpg"></figure>
       <div class="advisory--block-item-meta">
