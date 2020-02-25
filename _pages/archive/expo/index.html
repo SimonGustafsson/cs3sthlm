@@ -1,0 +1,172 @@
+---
+title: Expo
+permalink: "/archive/expo/"
+layout: archive
+---
+
+<section class="content">
+
+	<div class="column-block">
+		<div class="col-2-8">
+			<span class="archive-header-title archive-header-title-gray">2018</span>
+			<span class="archive-header-title-divider"></span>
+			<span class="archive-header-title archive-header-title-yellow">2019</span>
+		</div>
+
+		<div class="col-6-8">
+			<h2 class="title title-yellow">Expo</h2>
+			<p class="col-4-8">Text goes here.</p>
+		</div>
+	</div>
+
+</section>
+
+
+<section class="content">
+
+	<div class="archive-keynote-block">
+
+		<div class="archive-keynote-divider"><span class="archive-keynote-divider-data">2019</span></div>
+
+		<div class="column-block col-8-8 spacing-bottom">
+
+			<div class="column-block-item col-3-8 spacing-bottom">
+				<h2 class="title title-yellow">Expo</h2>
+				
+				<h4 class="alt-title alt-title-large alt-title-light spacing-top">22 October</h4>
+
+				<p>At the CS3STHLM Expo 2019, an ICS Cyber Security Expo in Stockholm, you will get an overview of threats and different protection that's available on the market. Here you will meet both researchers, vendors and experts who share their experiences of best practice and trends in IT security for critical parts of society.</p>
+
+				<p>CS3STHLM Expo enables companies and organisations to network, demonstrate valuable experiences products and services, via workshops and presentations. The Expo offer a place for valuable discussions and to experience success-stories from around the globe. Moreover it's an excellent opportunity for networking among peers in the industry, meet security experts as well as representatives from governmental agencies and organisations.</p>
+			</div>
+
+			<div class="column-block-item col-5-8">
+				<figure class="archive-keynote-block-item-image">
+		        	<img src="{{ site.baseurl }}/assets/photos/expo-2019.jpg">
+		        </figure>
+			</div>
+
+		</div>
+
+
+		<div class="presentation-block-item col-8-8 spacing-top">
+	      	<h3 class="alt-title col-8-8 spacing-bottom alt-title-yellow alt-title-large">Presentations</h3>
+	    	
+	    	<div class="presentation-row col-8-8">
+			{% assign speakers = site.data.archive-2020 | where_exp: "item", "item.type contains 'expo'" | sort: 'permalink' %}
+			{% assign item = speakers | where_exp: "item", "item.when contains '2019'" %}
+			{% assign items = item | where_exp: "item", "item.presentation contains '2019'" %}
+
+				{% for item in items %}
+
+				<div class="archive-row-item col-8-8">
+				{% for item in item.speaker %}
+					<h3 class="alt-title alt-title-small alt-title-gray">{{ item.name }}</h3>
+					{% if item.work contains "KTH" %}
+					<h4 class="sub-headline sub-headline-small sub-headline-blue">KTH Royal Institute</h4>
+					{% else %}
+					<h4 class="sub-headline sub-headline-small sub-headline-blue">{{ item.work }}</h4>
+					{% endif %}
+				{% endfor %}
+				{% for item in item.presentation %}
+				{% for item in item.yearsix %}
+					<h2 class="alt-title alt-title-light ">{{ item.subject }}</h2>
+				{% endfor %}
+				{% endfor %}
+				</div>
+
+				{% endfor %}
+			</div>
+	    </div>
+
+	    <div class="presentation-block-item col-8-8 spacing-top">
+	      	<h3 class="alt-title col-8-8 spacing-bottom alt-title-yellow alt-title-large">Partners</h3>
+	    	
+	    	<div class="partner--list col-8-8">
+			{% assign partners = site.data.archive-2020 | where_exp: "item", "item.type contains 'partners'" | sort: 'permalink' %}
+			{% assign item = partners | where_exp: "item", "item.when contains '2019'" %}
+
+			{% for item in item %}
+				<div class="partner--item col-2-8 partner--item-large">
+					<a href="{{ item.permalink }}" target="_blank">
+						<img src="{{ site.baseurl }}/assets/partners/{{ item.image }}.png" alt="{{ item.name }}">
+					</a>
+				</div>
+			{% endfor %}
+			</div>
+	    </div>
+
+
+
+	    <div class="archive-keynote-divider"><span class="archive-keynote-divider-data">2018</span></div>
+
+	    <div class="column-block col-8-8 spacing-bottom">
+
+			<div class="column-block-item col-3-8 spacing-bottom">
+				<h2 class="title title-yellow">Expo</h2>
+				
+				<h4 class="alt-title alt-title-large alt-title-light spacing-top">23 October</h4>
+
+				<p>At the CS3STHLM Expo 2018, an ICS Cyber Security Expo in Stockholm, you will get an overview of threats and different protection that's available on the market. Here you will meet both researchers, vendors and experts who share their experiences of best practice and trends in IT security for critical parts of society.</p>
+
+				<p>CS3STHLM Expo enables companies and organisations to network, demonstrate valuable experiences products and services, via workshops and presentations. The Expo offer a place for valuable discussions and to experience success-stories from around the globe. Moreover it's an excellent opportunity for networking among peers in the industry, meet security experts as well as representatives from governmental agencies and organisations.</p>
+			</div>
+
+			<div class="column-block-item col-5-8">
+				<figure class="archive-keynote-block-item-image">
+		        	<img src="{{ site.baseurl }}/assets/photos/expo-2018.jpg">
+		        </figure>
+			</div>
+
+		</div>
+
+		<div class="presentation-block-item col-8-8">
+	      	<h3 class="alt-title col-8-8 spacing-bottom alt-title-yellow alt-title-large">Presentations</h3>
+	    	
+	    	<div class="presentation-row col-8-8">
+			{% assign speakers = site.data.archive-2020 | where_exp: "item", "item.type contains 'expo'" | sort: 'permalink' %}
+			{% assign item = speakers | where_exp: "item", "item.when contains '2018'" %}
+			{% assign items = item | where_exp: "item", "item.presentation contains '2018'" %}
+
+				{% for item in items %}
+
+				<div class="archive-row-item col-8-8">
+				{% for item in item.speaker %}
+					<h3 class="alt-title alt-title-small alt-title-gray">{{ item.name }}</h3>
+					{% if item.work contains "KTH" %}
+					<h4 class="sub-headline sub-headline-small sub-headline-blue">KTH Royal Institute</h4>
+					{% else %}
+					<h4 class="sub-headline sub-headline-small sub-headline-blue">{{ item.work }}</h4>
+					{% endif %}
+				{% endfor %}
+				{% for item in item.presentation %}
+				{% for item in item.yearfive %}
+					<h2 class="alt-title alt-title-light ">{{ item.subject }}</h2>
+				{% endfor %}
+				{% endfor %}
+				</div>
+
+				{% endfor %}
+			</div>
+	    </div>
+
+	    <div class="presentation-block-item col-8-8 spacing-top">
+	      	<h3 class="alt-title col-8-8 spacing-bottom alt-title-yellow alt-title-large">Partners</h3>
+	    	
+	    	<div class="partner--list col-8-8">
+			{% assign partners = site.data.archive-2020 | where_exp: "item", "item.type contains 'partners'" | sort: 'permalink' %}
+			{% assign item = partners | where_exp: "item", "item.when contains '2018'" %}
+
+			{% for item in item %}
+				<div class="partner--item col-2-8 partner--item-large">
+					<a href="{{ item.permalink }}" target="_blank">
+						<img src="{{ site.baseurl }}/assets/partners/{{ item.image }}.png" alt="{{ item.name }}">
+					</a>
+				</div>
+			{% endfor %}
+			</div>
+	    </div>
+
+	</div>
+
+</section>

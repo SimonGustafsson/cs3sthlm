@@ -2,10 +2,16 @@
   from: Sweden
   role: Chief Information Security Officer
   work: IIS, The Internet Foundation In Sweden
-  image: amel.jpg
+  image: amel
 
 - name: Margrete Raaum
   from: Norway
   role: CEO of the Norwegian Energy Sector CERT
   work: Board Member of Forum of Incident Response and Security Teams (FIRST)
-  image: margo.jpg
+  image: margo
+
+- name: Kristina Blomqvist
+  from: Sweden
+  role: Group Operational Technology Security Officer
+  work: Vattenfall AB
+  image: kristina

@@ -98,6 +98,7 @@
 - id:
   type: 
     - presentation
+    - training
   when:
     - "2014"
     - "2016"
@@ -113,7 +114,6 @@
   presentation:
     - active
     - "2014"
-    - "2016"
     - yearone:
       - date: 2014
         type: summit
@@ -121,7 +121,10 @@
         permalink: program/presentations/
         partner:
         description: |
-          Coming soon.
+          Coming soon.         
+  training:
+    - active
+    - "2016"
     - yearthree:
       - date: 2016
         type: summit
@@ -129,9 +132,7 @@
         permalink: program/presentations/
         partner:
         description: |
-         Coming soon.          
-  training:
-    - none
+         Coming soon. 
 
 - id: 
   type: 
@@ -402,7 +403,6 @@
   when:
     - "2014"
     - "2015"
-    - "2016"
     - "2017"
     - "2018"
     - "2019"
@@ -438,21 +438,12 @@
   training:
     - active
     - "2015"
-    - "2016"
     - "2017"
     - "2018"
     - "2019"
     - yeartwo:
       - date: 2015
         days: 24
-        subject: Network Forensics Training
-        permalink:
-        partner: none
-        description: |
-         Coming soon
-    - yearthree:
-      - date: 2016
-        days: 23
         subject: Network Forensics Training
         permalink:
         partner: none
@@ -906,12 +897,18 @@
   permalink: peter-zinn
   speaker:
     - name: Peter Zinn
-      role: 
+      role:
       work: Cyber Agent
       country: Netherlands
       shortcode: NL
       image: peter-zinn
-      bio: 
+      bio:
+  keynote:
+    - date: 2015
+      image:
+      subject: Cyber Security through the ages
+      description: |
+        Coming soon
   presentation:
     - active
     - "2015"
@@ -1213,6 +1210,12 @@
       shortcode: SE
       image: christer-fuglesang
       bio: Mr Fuglesang is a Swedish physicist and an ESA astronaut. He was first launched aboard the STS-116 Space Shuttle mission on December 10, 2006, at 01:47 GMT, making him the first Swedish citizen in space. Christer has participated in two Space Shuttle missions and five spacewalks, and is the first person outside of the United States or Russian space programs to participate in more than three spacewalks. His total EVA time for his 5 EVAs is 31 hours 54 minutes. Mr. Fuglesang graduated from the Bromma Gymnasium, Stockholm in 1975, earned a Master of Science degree in engineering physics from the Royal Institute of Technology (KTH), in Stockholm in 1981, and received a doctorate in experimental particle physics from Stockholm University in 1987. He became an associate professor (docent) of particle physics at Stockholm University in 1991. Mr Fuglesang has received multiple awards and honors, including the H. M. The King's Medal (Stockholm, 2007), NASA Exceptional Service Medal, 2010. In 2012 Mr. Fuglesang received the Royal Institute of Technology 2012 Alumni of the Year award. Christer is married with three children, he was a Fellow at the European Organization for Nuclear Research, CERN, and taught mathematics at the Royal Institute of Technology before being selected to join the European Astronaut Corps in 1992.
+  keynote:
+    - date: 2016
+      image:
+      subject: Voyage to Space
+      description: |
+        Coming soon
   presentation:
     - active
     - "2016"
@@ -1675,6 +1678,7 @@
 - id: 
   type: 
     - presentation
+    - expo
   when:
     - "2016"
     - "2019"
@@ -1857,6 +1861,7 @@
 - id: 
   type: 
     - presentation
+    - expo
   when:
     - "2016"
     - "2018"
@@ -2034,6 +2039,12 @@
       shortcode: UK
       image: jenny-radcliffe
       bio: Jenny Radcliffe – aka “The People Hacker” – is an expert in Social Engineering (the human element of security), negotiations, non-verbal communication and deception, using her skills to help clients from corporations and law enforcement, to poker players, politicians and the security industry protect themselves from malicious social engineering attacks.
+  keynote:
+    - date: 2017
+      image: jenny-radcliffe
+      subject: Adventures in social engineering - tales of a "people hack"
+      description: |
+        Jenny Radcliffe – aka “The People Hacker” – is an expert in Social Engineering (the human element of security), negotiations, non-verbal communication and deception, using her skills to help clients from corporations and law enforcement, to poker players, politicians and the security industry protect themselves from malicious social engineering attacks.
   presentation:
     - active
     - "2017"
@@ -2453,6 +2464,7 @@
 - id: 
   type: 
     - presentation
+    - expo
   when:
     - "2018"
     - "2019"
@@ -2624,6 +2636,7 @@
 - id: 
   type: 
     - presentation
+    - expo
   when:
     - "2018"
   permalink: dr-kevin-jones
@@ -2728,6 +2741,7 @@
 - id: 
   type: 
     - presentation
+    - expo
   when:
     - "2018"
   permalink: gyorgy-dan
@@ -2768,13 +2782,19 @@
       shortcode: SE
       image: jack-werner
       bio: Jack Werner is a freelance journalist and writer. In 2014 at the free daily Metro, he co-founded the prize-winning fact-checking effort Viralgranskaren. He is a popular lecturer on critial thinking on social media, and the author of two books, on creepypasta, ghost stories on the internet, (2014) and fake news and urban legends on social media (2018). Since 2015, he runs the podcast Creepypodden, a bi-weekly podcast about ghost stories with over 130 000 listeners.
+  keynote:
+    - date: 2018
+      image: jack-werner
+      subject: Fake news or folklore?
+      description: |
+        At the age of 22, I wrote a series of blog entries on the topic of ”The greatest mysteries of the internet” (which you can read in Swedish here), and thanks to the massive response I promptly discovered that there wasn’t a lot of people in Sweden who wrote about the internet in quite the same way. I jumped between work places, including Swedish public service radio, for a couple of years before I ended up on Metro.
   presentation:
     - active
     - "2018"
     - yearfive:
       - date: 2018
         type: dinner
-        subject: Fake new or folklore?
+        subject: Fake news or folklore?
         permalink: program/presentations/
         partner: 
         description: |
@@ -2785,6 +2805,7 @@
 - id: 
   type: 
     - presentation
+    - expo
   when:
     - "2018"
   permalink: jannis-utz
@@ -2841,6 +2862,7 @@
 - id: 
   type: 
     - presentation
+    - expo
   when:
     - "2018"
   permalink: jonas-dellenvall
@@ -2982,6 +3004,7 @@
 - id: 
   type: 
     - presentation
+    - expo
   when:
     - "2018"
   permalink: mads-dam 
@@ -3236,6 +3259,7 @@
 - id: 
   type: 
     - presentation
+    - expo
   when:
     - "2018"
   permalink: ragnar-thobaben
@@ -3264,6 +3288,7 @@
 - id: 
   type: 
     - presentation
+    - expo
   when:
     - "2018"
   permalink: rick-k-peters
@@ -3627,6 +3652,12 @@
       shortcode: SE
       image: herman-geijer
       bio: Herman Geijer is Sweden's leading zombie survival expert and since 2011 he has lectured and written about zombies, disasters, crisis behaviors and survival. In 2014, he wrote the book “Zombie survival - your guide to the apocalypse”.
+  keynote:
+    - date: 2019
+      image: herman-geijer
+      subject: Zombie Survival
+      description: |
+        Late 2017 Herman released “Surviving Disaster - twelve ways to prepare yourself” the book examines what we can do to increase our chances of surviving when a disaster or something completely unexpected happens. “Surviving Disaster” is a popular science book that not only deals with survival techniques and bushcraft but also focuses on how humans work and what we can do to prepare ourselves mentally and increase our chances of coping with a crisis.
   presentation:
     - active
     - "2019"
@@ -3868,6 +3899,7 @@
 - id: 
   type: 
     - presentation
+    - expo
   when:
     - "2019"
   permalink: magnus-lundgren
@@ -3980,6 +4012,7 @@
 - id: 
   type: 
     - presentation
+    - expo
   when:
     - "2019"
   permalink: mathias-ekstedt
@@ -4008,6 +4041,7 @@
 - id: 
   type: 
     - presentation
+    - expo
   when:
     - "2019"
   permalink: michael-weng
@@ -4261,6 +4295,7 @@
 - id: 
   type: 
     - presentation
+    - expo
   when:
     - "2019"
   permalink: robert-bearsby
@@ -4289,6 +4324,7 @@
 - id: 
   type: 
     - presentation
+    - expo
   when:
     - "2019"
   permalink: robert-lagerstrom
@@ -4520,3 +4556,152 @@
           Coming soon
   training:
     - none
+
+
+## PARTNERS 2019
+
+- id:
+  type:
+    - partners
+  when:
+    - "2018"
+    - "2019"
+  permalink: https://www.kaspersky.se
+  name: Kaspersky
+  image: kaspersky-logo
+
+- id:
+  type:
+    - partners
+  when:
+    - "2019"
+  permalink: https://cyberx-labs.com
+  name: CyberX
+  image: cyberx
+
+- id:
+  type:
+    - partners
+  when:
+    - "2019"
+  permalink: https://www.otorio.com
+  name: Otorio
+  image: otorio
+
+- id:
+  type:
+    - partners
+  when:
+    - "2018"
+    - "2019"
+  permalink: https://www.sysctl.se
+  name: Sysctl
+  image: sysctl
+
+- id:
+  type:
+    - partners
+  when:
+    - "2018"
+    - "2019"
+  permalink: https://www.recordedfuture.com
+  name: Recorded Future
+  image: recorded-future
+
+- id:
+  type:
+    - partners
+  when:
+    - "2019"
+  permalink: https://www.nozominetworks.com
+  name: Nozomi Networks
+  image: nozomi
+
+
+## PARTNERS 2018
+
+- id:
+  type:
+    - partners
+  when:
+    - "2018"
+  permalink: https://www.msb.se/en/
+  name: MSB
+  image: msb-english
+
+- id:
+  type:
+    - partners
+  when:
+    - "2018"
+  permalink: https://www.fortinet.com
+  name: Fortinet
+  image: fortinet
+
+- id:
+  type:
+    - partners
+  when:
+    - "2018"
+  permalink: https://www.advenica.com/en
+  name: Advenica
+  image: advenica
+
+- id:
+  type:
+    - partners
+  when:
+    - "2018"
+  permalink: https://waterfall-security.com
+  name: Waterfall
+  image: waterfall-security
+
+- id:
+  type:
+    - partners
+  when:
+    - "2018"
+  permalink: https://www.forescout.com/platform/operational-technology/
+  name: Security Matters
+  image: securitymatters
+
+- id:
+  type:
+    - partners
+  when:
+    - "2018"
+  permalink: https://dragos.com
+  name: Dragos
+  image: dragos
+
+- id:
+  type:
+    - partners
+  when:
+    - "2018"
+  permalink: https://netnordic.se
+  name: Net Nordic
+  image: netnordic
+
+- id:
+  type:
+    - partners
+  when:
+    - "2018"
+  permalink: https://romab.com
+  name: Romab
+  image: romab
+
+- id:
+  type:
+    - partners
+  when:
+    - "2018"
+  permalink: https://managementdoctors.se
+  name: Management Doctors
+  image: md
+
+
+
+
+

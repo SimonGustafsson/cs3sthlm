@@ -588,6 +588,14 @@
   
    {
      
+        "title"    : "Gallery",
+        "url"      : "/archive/gallery/",
+        "path"     : "/archive/gallery/"
+     
+   },
+  
+   {
+     
         "title"    : "Keynotes",
         "url"      : "/archive/keynotes/",
         "path"     : "/archive/keynotes/"
@@ -596,9 +604,25 @@
   
    {
      
+        "title"    : "Expo",
+        "url"      : "/archive/expo/",
+        "path"     : "/archive/expo/"
+     
+   },
+  
+   {
+     
         "title"    : "Presentations",
         "url"      : "/archive/presentations/",
         "path"     : "/archive/presentations/"
+     
+   },
+  
+   {
+     
+        "title"    : "Gala Dinner",
+        "url"      : "/archive/gala-dinner/",
+        "path"     : "/archive/gala-dinner/"
      
    },
   

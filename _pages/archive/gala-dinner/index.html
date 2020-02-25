@@ -1,0 +1,267 @@
+---
+title: Gala Dinner
+permalink: "/archive/gala-dinner/"
+layout: archive
+---
+
+<section class="content">
+
+	<div class="column-block">
+		<div class="col-2-8">
+			<span class="archive-header-title archive-header-title-gray">2015</span>
+			<span class="archive-header-title-divider"></span>
+			<span class="archive-header-title archive-header-title-yellow">2019</span>
+		</div>
+
+		<div class="col-6-8">
+			<h2 class="title title-yellow">Gala Dinner</h2>
+			<p class="col-4-8">Here you can view all the best international speakers and traineers attending CS3STHLM during the years. We also host a dinner entertainment slot during the Gala Dinner.</p>
+		</div>
+	</div>
+
+</section>
+
+
+<section class="content">
+
+	<div class="archive-keynote-block">
+
+		<div class="archive-keynote-divider"><span class="archive-keynote-divider-data">2019</span></div>
+
+		{% assign sorted_speakers = site.data.archive-2020 | sort: 'permalink' %}
+		{% for speaker in sorted_speakers %}
+
+		{% if speaker.type contains "dinner" and speaker.when contains "2019" %}
+		<div class="archive-keynote-block-item">
+
+			<div class="col-4-8">
+
+				<h2 class="title title-yellow">{% for item in speaker.keynote %}{{ item.subject }}{% endfor %}</h2>
+
+				<div class="speakers-block-item">
+					{% for item in speaker.speaker %}
+					<img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}-sq.png" class="speakers-block-item-image" />
+					<span class="archive-filter-hide name">{{ item.name }}</span>
+					{% endfor %}
+
+					<div class="speakers-block-item-data">
+					{% for item in speaker.speaker %}
+						<h3 class="alt-title alt-title-large">{{ item.name }}</h3>
+						<h4 class="speaker-role">{{ item.role }} at {{ item.work }}</h4>
+					{% endfor %}
+					</div>
+				</div>
+
+				<p>{% for item in speaker.keynote %}{{ item.description | markdownify }}{% endfor %}</p>
+
+			</div>
+
+			<div class="col-4-8">
+
+				{% for item in speaker.keynote %}
+				{% if item.image.size > 1 %}
+				<figure class="archive-keynote-block-item-image">
+		        	<img src="{{ site.baseurl }}/assets/photos/{{ item.image }}.jpg">
+		        </figure>
+		        {% endif %}
+		        {% endfor %}
+
+			</div>
+
+		</div>
+		{% endif %}
+		{% endfor %}
+
+		<div class="archive-keynote-divider"><span class="archive-keynote-divider-data">2018</span></div>
+
+		{% assign sorted_speakers = site.data.archive-2020 | sort: 'permalink' %}
+		{% for speaker in sorted_speakers %}
+
+		{% if speaker.type contains "dinner" and speaker.when contains "2018" %}
+		<div class="archive-keynote-block-item">
+
+			<div class="col-4-8">
+
+				<h2 class="title title-yellow">{% for item in speaker.keynote %}{{ item.subject }}{% endfor %}</h2>
+
+				<div class="speakers-block-item">
+					{% for item in speaker.speaker %}
+					<img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}-sq.png" class="speakers-block-item-image" />
+					<span class="archive-filter-hide name">{{ item.name }}</span>
+					{% endfor %}
+
+					<div class="speakers-block-item-data">
+					{% for item in speaker.speaker %}
+						<h3 class="alt-title alt-title-large">{{ item.name }}</h3>
+						<h4 class="speaker-role">{{ item.role }} at {{ item.work }}</h4>
+					{% endfor %}
+					</div>
+				</div>
+
+				<p>{% for item in speaker.keynote %}{{ item.description | markdownify }}{% endfor %}</p>
+
+			</div>
+
+			<div class="col-4-8">
+
+				{% for item in speaker.keynote %}
+				{% if item.image.size > 1 %}
+				<figure class="archive-keynote-block-item-image">
+		        	<img src="{{ site.baseurl }}/assets/photos/{{ item.image }}.jpg">
+		        </figure>
+		        {% endif %}
+		        {% endfor %}
+
+			</div>
+
+		</div>
+		{% endif %}
+		{% endfor %}
+
+
+		<div class="archive-keynote-divider"><span class="archive-keynote-divider-data">2017</span></div>
+
+		{% assign sorted_speakers = site.data.archive-2020 | sort: 'permalink' %}
+		{% for speaker in sorted_speakers %}
+
+		{% if speaker.type contains "dinner" and speaker.when contains "2017" %}
+		<div class="archive-keynote-block-item">
+
+			<div class="col-4-8">
+
+				<h2 class="title title-yellow">{% for item in speaker.keynote %}{{ item.subject }}{% endfor %}</h2>
+
+				<div class="speakers-block-item">
+					{% for item in speaker.speaker %}
+					<img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}-sq.png" class="speakers-block-item-image" />
+					<span class="archive-filter-hide name">{{ item.name }}</span>
+					{% endfor %}
+
+					<div class="speakers-block-item-data">
+					{% for item in speaker.speaker %}
+						<h3 class="alt-title alt-title-large">{{ item.name }}</h3>
+						<h4 class="speaker-role">{{ item.role }} at {{ item.work }}</h4>
+					{% endfor %}
+					</div>
+				</div>
+
+				<p>{% for item in speaker.keynote %}{{ item.description | markdownify }}{% endfor %}</p>
+
+			</div>
+
+			<div class="col-4-8">
+
+				{% for item in speaker.keynote %}
+				{% if item.image.size > 1 %}
+				<figure class="archive-keynote-block-item-image">
+		        	<img src="{{ site.baseurl }}/assets/photos/{{ item.image }}.jpg">
+		        </figure>
+		        {% endif %}
+		        {% endfor %}
+
+			</div>
+
+		</div>
+		{% endif %}
+		{% endfor %}
+
+		<div class="archive-keynote-divider"><span class="archive-keynote-divider-data">2016</span></div>
+
+		{% assign sorted_speakers = site.data.archive-2020 | sort: 'permalink' %}
+		{% for speaker in sorted_speakers %}
+
+		{% if speaker.type contains "dinner" and speaker.when contains "2016" %}
+		<div class="archive-keynote-block-item">
+
+			<div class="col-4-8">
+
+				<h2 class="title title-yellow">{% for item in speaker.keynote %}{{ item.subject }}{% endfor %}</h2>
+
+				<div class="speakers-block-item">
+					{% for item in speaker.speaker %}
+					<img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}-sq.png" class="speakers-block-item-image" />
+					<span class="archive-filter-hide name">{{ item.name }}</span>
+					{% endfor %}
+
+					<div class="speakers-block-item-data">
+					{% for item in speaker.speaker %}
+						<h3 class="alt-title alt-title-large">{{ item.name }}</h3>
+						{% if item.name contains "Fuglesang" %}
+						<h4 class="speaker-role">{{ item.role }} in {{ item.work }}</h4>
+						{% else %}
+						<h4 class="speaker-role">{{ item.role }} at {{ item.work }}</h4>
+						{% endif %}
+					{% endfor %}
+					</div>
+				</div>
+
+				<p>{% for item in speaker.keynote %}{{ item.description | markdownify }}{% endfor %}</p>
+
+			</div>
+
+			<div class="col-4-8">
+
+				{% for item in speaker.keynote %}
+				{% if item.image.size > 1 %}
+				<figure class="archive-keynote-block-item-image">
+		        	<img src="{{ site.baseurl }}/assets/photos/{{ item.image }}.jpg">
+		        </figure>
+		        {% endif %}
+		        {% endfor %}
+
+			</div>
+
+		</div>
+		{% endif %}
+		{% endfor %}
+
+		<div class="archive-keynote-divider"><span class="archive-keynote-divider-data">2015</span></div>
+
+		{% assign sorted_speakers = site.data.archive-2020 | sort: 'permalink' %}
+		{% for speaker in sorted_speakers %}
+
+		{% if speaker.type contains "dinner" and speaker.when contains "2015" %}
+		<div class="archive-keynote-block-item">
+
+			<div class="col-4-8">
+
+				<h2 class="title title-yellow">{% for item in speaker.keynote %}{{ item.subject }}{% endfor %}</h2>
+
+				<div class="speakers-block-item">
+					{% for item in speaker.speaker %}
+					<img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}-sq.png" class="speakers-block-item-image" />
+					<span class="archive-filter-hide name">{{ item.name }}</span>
+					{% endfor %}
+
+					<div class="speakers-block-item-data">
+					{% for item in speaker.speaker %}
+						<h3 class="alt-title alt-title-large">{{ item.name }}</h3>
+						<h4 class="speaker-role">{{ item.work }}</h4>
+					{% endfor %}
+					</div>
+				</div>
+
+				<p>{% for item in speaker.keynote %}{{ item.description | markdownify }}{% endfor %}</p>
+
+			</div>
+
+			<div class="col-4-8">
+
+				{% for item in speaker.keynote %}
+				{% if item.image.size > 1 %}
+				<figure class="archive-keynote-block-item-image">
+		        	<img src="{{ site.baseurl }}/assets/photos/{{ item.image }}.jpg">
+		        </figure>
+		        {% endif %}
+		        {% endfor %}
+
+			</div>
+
+		</div>
+		{% endif %}
+		{% endfor %}
+
+
+	</div>
+
+</section>

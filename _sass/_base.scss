@@ -1418,10 +1418,12 @@ a {
   }
 
   &-list {
+    justify-content: flex-start;
 
     .speakers-block-item {
       color: $white;
       text-decoration: none;
+      margin-right: 24px;
       
 
       &:hover {
@@ -4054,7 +4056,7 @@ a {
     margin-bottom: 24px;
     margin-right: 24px;
 
-    &:nth-child(4), &:nth-child(8) {
+    &:nth-child(4), &:nth-child(8), &:nth-child(12) {
       margin-right: 0;
     }
 

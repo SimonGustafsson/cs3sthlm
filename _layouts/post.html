@@ -25,7 +25,7 @@ layout: default
         {% if page.download != null %}
         <div class="post-meta-item">
           <h4 class="sub-headline sub-headline-gray">Post Attachments</h4>
-          <a href="{{ site.baseurl }}/assets/pdf/{{ page.download }}" target="_blank" class="alt-title alt-title-small alt-title-light">{% if page.categories contains "news" %}Download PDF{% endif %}</a>
+          <a href="{{ site.baseurl }}/assets/pdf/{{ page.download }}" download="{{ site.baseurl }}/assets/pdf/{{ page.download }}" target="_blank" class="alt-title alt-title-small alt-title-light">{% if page.categories contains "news" %}Download PDF{% endif %}</a>
         </div>
         {% endif %}
 
