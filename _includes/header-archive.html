@@ -28,16 +28,10 @@
 
 		<nav class="menu--primary">
 			<ul>
-				<li><a href="{{ site.baseurl }}/archive/keynotes">Keynotes</a></li>
-				<li><a href="{{ site.baseurl }}/archive/trainings">Trainings</a></li>
-				<li><a href="{{ site.baseurl }}/archive/speakers">Speakers</a></li>
-				<li><a href="{{ site.baseurl }}/archive/presentations">Presentations</a></li>
-				<li><a href="{{ site.baseurl }}/archive/gala-dinner">Gala Dinner</a></li>
-				<!--<li><a href="{{ site.baseurl }}/archive/ics-lab">ICS Lab</a></li>-->
-				<li><a href="{{ site.baseurl }}/archive/expo">EXPO</a></li>
-				<li><a href="{{ site.baseurl }}/archive/gallery">Gallery</a></li>
-				<!--<li><a href="{{ site.baseurl }}/archive/partners">Partners</a></li>-->
-				<!--<li><a href="{{ site.baseurl }}/archive/videos">Videos</a></li>-->
+			{% assign nav = site.pages | where_exp: "item", "item.layout == 'archive-sub'" | sort: 'title' %}
+			{% for item in nav %}
+				<li><a href="{{ site.baseurl }}{{ item.permalink | downcase }}">{{ item.title }}</a></li>
+			{% endfor %}
 			</ul>
 		</nav>
 	</div>

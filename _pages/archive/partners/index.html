@@ -1,0 +1,144 @@
+---
+title: Partners
+permalink: "/archive/partners/"
+layout: archive-sub
+---
+
+<section class="content">
+
+	<div class="column-block">
+		<div class="col-2-8">
+			<span class="archive-header-title archive-header-title-gray">2014</span>
+			<span class="archive-header-title-divider"></span>
+			<span class="archive-header-title archive-header-title-yellow">2019</span>
+		</div>
+
+		<div class="col-6-8">
+			<h2 class="title title-yellow">Partners</h2>
+			<p class="col-4-8">Here you can view all the best international speakers and traineers attending CS3STHLM during the years. We also host a dinner entertainment slot during the Gala Dinner.</p>
+		</div>
+	</div>
+
+</section>
+
+<section class="content">
+
+	<div class="presentation-block col-8-8">
+
+		<div class="archive-keynote-divider"><span class="archive-keynote-divider-data">2019</span></div>
+
+	    <div class="partner--list col-8-8 spacing-top">
+	          	
+	    	<div class="partner--list-block col-8-8">
+			{% assign partners = site.data.archive-2020 | where_exp: "item", "item.type contains 'partners'" | sort: 'name' %}
+			{% assign item = partners | where_exp: "item", "item.when contains '2019'" %}
+
+			{% for item in item %}
+				<div class="partner--item col-2-8 partner--item-large">
+					<a href="{{ item.permalink }}" target="_blank">
+						<img src="{{ site.baseurl }}/assets/archive/partners/{{ item.image }}.png" alt="{{ item.name }}">
+					</a>
+				</div>
+			{% endfor %}
+			</div>
+
+	    </div>
+
+	    <div class="archive-keynote-divider"><span class="archive-keynote-divider-data">2018</span></div>
+
+	    <div class="partner--list col-8-8 spacing-top">
+
+	    	<div class="partner--list-block col-8-8">
+			{% assign partners = site.data.archive-2020 | where_exp: "item", "item.type contains 'partners'" | sort: 'name' %}
+			{% assign item = partners | where_exp: "item", "item.when contains '2018'" %}
+
+			{% for item in item %}
+				<div class="partner--item col-2-8 partner--item-large">
+					<a href="{{ item.permalink }}" target="_blank">
+						<img src="{{ site.baseurl }}/assets/archive/partners/{{ item.image }}.png" alt="{{ item.name }}">
+					</a>
+				</div>
+			{% endfor %}
+			</div>
+
+	    </div>
+
+	    <div class="archive-keynote-divider"><span class="archive-keynote-divider-data">2017</span></div>
+
+	    <div class="partner--list col-8-8 spacing-top">
+	      	
+	    	<div class="partner--list-block col-8-8">
+			{% assign partners = site.data.archive-2020 | where_exp: "item", "item.type contains 'partners'" | sort: 'name' %}
+			{% assign item = partners | where_exp: "item", "item.when contains '2017'" %}
+
+			{% for item in item %}
+				<div class="partner--item col-2-8 partner--item-large">
+					<a href="{{ item.permalink }}" target="_blank">
+						<img src="{{ site.baseurl }}/assets/archive/partners/{{ item.image }}.png" alt="{{ item.name }}">
+					</a>
+				</div>
+			{% endfor %}
+			</div>
+
+	    </div>
+
+	    <div class="archive-keynote-divider"><span class="archive-keynote-divider-data">2016</span></div>
+
+	    <div class="partner--list col-8-8 spacing-top">
+	      	
+	    	<div class="partner--list-block col-8-8">
+			{% assign partners = site.data.archive-2020 | where_exp: "item", "item.type contains 'partners'" | sort: 'name' %}
+			{% assign item = partners | where_exp: "item", "item.when contains '2016'" %}
+
+			{% for item in item %}
+				<div class="partner--item col-2-8 partner--item-large">
+					<a href="{{ item.permalink }}" target="_blank">
+						<img src="{{ site.baseurl }}/assets/archive/partners/{{ item.image }}.png" alt="{{ item.name }}">
+					</a>
+				</div>
+			{% endfor %}
+			</div>
+
+	    </div>
+
+	    <div class="archive-keynote-divider"><span class="archive-keynote-divider-data">2015</span></div>
+
+
+	    <div class="partner--list col-8-8 spacing-top">
+
+	    	<div class="partner--list-block col-8-8">
+			{% assign partners = site.data.archive-2020 | where_exp: "item", "item.type contains 'partners'" | sort: 'name' %}
+			{% assign item = partners | where_exp: "item", "item.when contains '2015'" %}
+
+			{% for item in item %}
+				<div class="partner--item col-2-8 partner--item-large">
+					<a href="{{ item.permalink }}" target="_blank">
+						<img src="{{ site.baseurl }}/assets/archive/partners/{{ item.image }}.png" alt="{{ item.name }}">
+					</a>
+				</div>
+			{% endfor %}
+			</div>
+
+	    </div>
+
+	    <div class="archive-keynote-divider"><span class="archive-keynote-divider-data">2014</span></div>
+
+	    <div class="partner--list col-8-8 spacing-top">
+	      	
+	    	<div class="partner--list-block col-8-8">
+			{% assign partners = site.data.archive-2020 | where_exp: "item", "item.type contains 'partners'" | sort: 'name' %}
+			{% assign item = partners | where_exp: "item", "item.when contains '2014'" %}
+
+			{% for item in item %}
+				<div class="partner--item col-2-8 partner--item-large">
+					<a href="{{ item.permalink }}" target="_blank">
+						<img src="{{ site.baseurl }}/assets/archive/partners/{{ item.image }}.png" alt="{{ item.name }}">
+					</a>
+				</div>
+			{% endfor %}
+			</div>
+
+	    </div>
+	
+	</div>
+</section>

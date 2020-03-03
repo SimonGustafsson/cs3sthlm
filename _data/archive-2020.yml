@@ -101,6 +101,7 @@
     - training
   when:
     - "2014"
+    - "2015"
     - "2016"
   permalink: john-matherly
   speaker:
@@ -124,12 +125,19 @@
           Coming soon.         
   training:
     - active
+    - "2015"
     - "2016"
+    - yeartwo:
+      - date: 2015
+        subject: SHODAN hacking
+        permalink: program/trainings/
+        partner:
+        description: |
+          Coming soon.
     - yearthree:
       - date: 2016
-        type: summit
         subject: How to maximize your usage of the Shodan platform
-        permalink: program/presentations/
+        permalink: program/trainings/
         partner:
         description: |
          Coming soon. 
@@ -444,7 +452,7 @@
     - yeartwo:
       - date: 2015
         days: 24
-        subject: Network Forensics Training
+        subject: PCAP Analysis and ICS Network Forensics
         permalink:
         partner: none
         description: |
@@ -4558,22 +4566,57 @@
     - none
 
 
-## PARTNERS 2019
+## PARTNERS 2014-2019
 
 - id:
   type:
     - partners
   when:
+    - "2014"
+    - "2015"
+    - "2016"
+    - "2017"
+    - "2018"
+    - "2019"
+  summit:
+    - "2014"
+    - "2015"
+    - "2016"
+    - "2017"
+    - "2018"
+    - "2019"
+  permalink: https://omnisiens.se
+  name: Omnisiens
+  image: omnisiens
+
+- id:
+  type:
+    - partners
+  when:
+    - "2014"
+    - "2016"
+    - "2017"
+    - "2018"
+    - "2019"
+  expo:
+    - "2018"
+    - "2019"
+  summit:
+    - "2014"
+    - "2016"
+    - "2017"
     - "2018"
     - "2019"
   permalink: https://www.kaspersky.se
   name: Kaspersky
-  image: kaspersky-logo
+  image: kaspersky
 
 - id:
   type:
     - partners
   when:
+    - "2019"
+  expo:
     - "2019"
   permalink: https://cyberx-labs.com
   name: CyberX
@@ -4584,6 +4627,20 @@
     - partners
   when:
     - "2019"
+  summit:
+    - "2019"
+  permalink: https://www.accenture.com/us-en/service-industrial-control-system-cybersecurity
+  name: Accenture Security
+  image: accenture-security
+
+
+- id:
+  type:
+    - partners
+  when:
+    - "2019"
+  expo:
+    - "2019"
   permalink: https://www.otorio.com
   name: Otorio
   image: otorio
@@ -4592,6 +4649,20 @@
   type:
     - partners
   when:
+    - "2014"
+    - "2015"
+    - "2016"
+    - "2017"
+    - "2018"
+    - "2019"
+  expo:
+    - "2018"
+    - "2019"
+  summit:
+    - "2014"
+    - "2015"
+    - "2016"
+    - "2017"
     - "2018"
     - "2019"
   permalink: https://www.sysctl.se
@@ -4604,6 +4675,9 @@
   when:
     - "2018"
     - "2019"
+  expo:
+    - "2018"
+    - "2019"
   permalink: https://www.recordedfuture.com
   name: Recorded Future
   image: recorded-future
@@ -4613,17 +4687,39 @@
     - partners
   when:
     - "2019"
+  expo:
+    - "2019"
   permalink: https://www.nozominetworks.com
   name: Nozomi Networks
   image: nozomi
-
-
-## PARTNERS 2018
 
 - id:
   type:
     - partners
   when:
+    - "2018"
+    - "2019"
+  permalink: https://www.netresec.com
+  name: Netresec
+  image: netresec
+
+- id:
+  type:
+    - partners
+  when:
+    - "2019"
+  permalink: https://insec.no
+  name: Bedriftsystemer AS
+  image: bedriftsystemer
+
+
+- id:
+  type:
+    - partners
+  when:
+    - "2016"
+    - "2018"
+  expo:
     - "2018"
   permalink: https://www.msb.se/en/
   name: MSB
@@ -4633,6 +4729,31 @@
   type:
     - partners
   when:
+    - "2015"
+    - "2016"
+    - "2017"
+    - "2018"
+  summit:
+    - "2015"
+    - "2016"
+    - "2017"
+    - "2018"
+  permalink: https://www.first.org
+  name: FIRST
+  image: first
+
+- id:
+  type:
+    - partners
+  when:
+    - "2016"
+    - "2017"
+    - "2018"
+  expo:
+    - "2018"
+  summit:
+    - "2016"
+    - "2017"
     - "2018"
   permalink: https://www.fortinet.com
   name: Fortinet
@@ -4642,6 +4763,14 @@
   type:
     - partners
   when:
+    - "2015"
+    - "2017"
+    - "2018"
+  expo:
+    - "2018"
+  summit:
+    - "2015"
+    - "2017"
     - "2018"
   permalink: https://www.advenica.com/en
   name: Advenica
@@ -4652,6 +4781,8 @@
     - partners
   when:
     - "2018"
+  expo:
+    - "2018"
   permalink: https://waterfall-security.com
   name: Waterfall
   image: waterfall-security
@@ -4660,6 +4791,8 @@
   type:
     - partners
   when:
+    - "2018"
+  expo:
     - "2018"
   permalink: https://www.forescout.com/platform/operational-technology/
   name: Security Matters
@@ -4670,6 +4803,8 @@
     - partners
   when:
     - "2018"
+  expo:
+    - "2018"
   permalink: https://dragos.com
   name: Dragos
   image: dragos
@@ -4678,9 +4813,24 @@
   type:
     - partners
   when:
+    - "2017"
+    - "2018"
+  summit:
+    - "2017"
+    - "2018"
+  permalink: https://www.kraftcert.no/english/index.html
+  name: KraftCERT
+  image: kraftcert
+
+- id:
+  type:
+    - partners
+  when:
+    - "2018"
+  expo:
     - "2018"
   permalink: https://netnordic.se
-  name: Net Nordic
+  name: Netnordic
   image: netnordic
 
 - id:
@@ -4688,6 +4838,290 @@
     - partners
   when:
     - "2018"
+  summit:
+    - "2018"
+  permalink: https://www.gai-netconsult.de/index.php?id=startseite
+  name: GaiNetConsult
+  image: gai-netconsult
+
+- id:
+  type:
+    - partners
+  when:
+    - "2018"
+  summit:
+    - "2018"
+  permalink: https://en.energinet.dk
+  name: Energinet
+  image: energinet
+
+- id:
+  type:
+    - partners
+  when:
+    - "2016"
+    - "2017"
+  summit:
+    - "2016"
+    - "2017"
+  permalink: https://www.honeywell.com
+  name: Honeywell
+  image: honeywell
+
+- id:
+  type:
+    - partners
+  when:
+    - "2015"
+    - "2016"
+    - "2017"
+  summit:
+    - "2015"
+    - "2016"
+    - "2017"
+  permalink: https://sectra.com
+  name: Sectra
+  image: sectra
+
+- id:
+  type:
+    - partners
+  when:
+    - "2014"
+    - "2016"
+    - "2017"
+  summit:
+    - "2014"
+    - "2016"
+    - "2017"
+  permalink: https://www.foreseeti.com
+  name: Foreseeti
+  image: foreseeti
+
+- id:
+  type:
+    - partners
+  when:
+    - "2016"
+    - "2017"
+  summit:
+    - "2016"
+    - "2017"
+  permalink: https://hudsoncybertec.com/en/
+  name: Hudson Cybertec
+  image: hudson-cybertec
+
+- id:
+  type:
+    - partners
+  when:
+    - "2015"
+    - "2016"
+    - "2017"
+  summit:
+    - "2015"
+    - "2016"
+    - "2017"
+  permalink: https://new.abb.com/se
+  name: ABB
+  image: abb
+
+- id:
+  type:
+    - partners
+  when:
+    - "2016"
+    - "2017"
+  summit:
+    - "2016"
+    - "2017"
+  permalink: https://www.westermo.se
+  name: Westermo
+  image: westermo
+
+- id:
+  type:
+    - partners
+  when:
+    - "2015"
+    - "2016"
+    - "2017"
+  summit:
+    - "2015"
+    - "2016"
+    - "2017"
+  permalink: https://new.siemens.com/global/en.html
+  name: Siemens
+  image: siemens
+
+- id:
+  type:
+    - partners
+  when:
+    - "2017"
+  summit:
+    - "2017"
+  permalink: https://www.atea.se
+  name: Atea
+  image: atea
+
+- id:
+  type:
+    - partners
+  when:
+    - "2016"
+  summit:
+    - "2016"
+  permalink: https://www.svenskautomation.se
+  name: Svensk Automation
+  image: svensk-automation
+
+- id:
+  type:
+    - partners
+  when:
+    - "2015"
+    - "2017"
+  summit:
+    - "2015"
+    - "2017"
+  permalink: https://www.checkpoint.com
+  name: Check Point
+  image: checkpoint
+
+- id:
+  type:
+    - partners
+  when:
+    - "2014"
+    - "2017"
+  summit:
+    - "2014"
+    - "2017"
+  permalink: https://savecore.se
+  name: Savecore
+  image: savecore
+
+- id:
+  type:
+    - partners
+  when:
+    - "2015"
+  summit:
+    - "2015"
+  permalink: https://svk.se
+  name: Svenska Kraftnät
+  image: svenska-kraftnat
+
+- id:
+  type:
+    - partners
+  when:
+    - "2014"
+    - "2015" 
+  summit:
+    - "2014"
+    - "2015"
+  permalink: https://www.innominate.com/
+  name: Innominate
+  image: innominate
+
+- id:
+  type:
+    - partners
+  when:
+    - "2015"
+  summit:
+    - "2015"
+  permalink: https://www.garlandtechnology.com
+  name: Garland Techonology
+  image: garland-technology
+
+- id:
+  type:
+    - partners
+  when:
+    - "2015"
+  summit:
+    - "2015"
+  permalink: https://www.cactus.se
+  name: Cactus
+  image: cactus
+
+- id:
+  type:
+    - partners
+  when:
+    - "2014"
+  summit:
+    - "2014"
+  permalink: https://storedsafe.com
+  name: StoredSafe
+  image: storedsafe
+
+- id:
+  type:
+    - partners
+  when:
+    - "2014"
+  summit:
+    - "2014"
+  permalink: https://www.certasec.se
+  name: Certasec
+  image: certasec
+
+- id:
+  type:
+    - partners
+  when:
+    - "2014"
+  summit:
+    - "2014"
+  permalink: http://www.meinbergglobal.com
+  name: Meinberg
+  image: meinberg
+
+- id:
+  type:
+    - partners
+  when:
+    - "2014"
+  summit:
+    - "2014"
+  permalink: https://www.foi.se
+  name: FOI
+  image: foi
+
+- id:
+  type:
+    - partners
+  when:
+    - "2014"
+  summit:
+    - "2014"
+  permalink: https://www.enigio.com
+  name: EnigioTime
+  image: enigiotime
+
+- id:
+  type:
+    - partners
+  when:
+    - "2014"
+    - "2015"
+    - "2016"
+    - "2017"
+    - "2018"
+    - "2019"
+  expo:
+    - "2018"
+  summit:
+    - "2014"
+    - "2015"
+    - "2016"
+    - "2017"
+    - "2018"
+    - "2019"
   permalink: https://romab.com
   name: Romab
   image: romab
@@ -4696,12 +5130,687 @@
   type:
     - partners
   when:
+    - "2014"
+    - "2015"
+    - "2016"
+    - "2017"
     - "2018"
+    - "2019"
+  expo:
+    - "2018"
+  summit:
+    - "2014"
+    - "2015"
+    - "2016"
+    - "2017"
+    - "2018"
+    - "2019"
   permalink: https://managementdoctors.se
   name: Management Doctors
   image: md
 
 
+## VIDEOS
+
+#2019
+- id:
+  type:
+    - videos
+  when:
+    - "2019"
+  permalink: https://www.youtube.com/watch?v=M8xjylA9rtI
+  name: Dieter Sarrazyn
+  subject: Security Testing for ICS Owners 2.0
+
+- id:
+  type:
+    - videos
+  when:
+    - "2019"
+  permalink: https://www.youtube.com/watch?v=5l_cWD5ZR-M
+  name: Stephen Hilt
+  subject: How we reverse-engineered multiple industrial radio remote-control systems
+
+- id:
+  type:
+    - videos
+  when:
+    - "2019"
+  permalink: https://www.youtube.com/watch?v=TcQzqIUaahw
+  name: Jimmy Wylie & Reid Wightman
+  subject: "Broken Rungs: A look at popular ladder logic runtime privileges"
+
+- id:
+  type:
+    - videos
+  when:
+    - "2019"
+  permalink: https://www.youtube.com/watch?v=_V6tT4eP1SI
+  name: Erik Hjelmvik
+  subject: TLS Interception and Decryption
+
+- id:
+  type:
+    - videos
+  when:
+    - "2019"
+  permalink: https://www.youtube.com/watch?v=WTncGSYSbNY
+  name: Monta Elkins
+  subject: Nation-State Supply Chain Attacks for Dummies and You Too
+
+- id:
+  type:
+    - videos
+  when:
+    - "2019"
+  permalink: https://www.youtube.com/watch?v=CISXXFfhU08
+  name: Alexander Nochvay
+  subject: The fall of CODESYS
+
+- id:
+  type:
+    - videos
+  when:
+    - "2019"
+  permalink: https://www.youtube.com/watch?v=5DbQr3Zo-XY
+  name: Ulf Frisk
+  subject: Memory Forensics and DMA Attacks with MemProcFS and PCILeech
+
+- id:
+  type:
+    - videos
+  when:
+    - "2019"
+  permalink: https://www.youtube.com/watch?v=zOvEQpt_oFI
+  name: Nicklas Keijser
+  subject: SCADApocalypse Now 4.0
+
+
+# 2018
+
+- id:
+  type:
+    - videos
+  when:
+    - "2018"
+  permalink: https://www.youtube.com/watch?v=UYj4wl_IqYw
+  name: Patrick Miller
+  subject: "Industrial Technology Trajectory: Running With Scissors"
+
+- id:
+  type:
+    - videos
+  when:
+    - "2018"
+  permalink: https://www.youtube.com/watch?v=UdZppFeVdEU
+  name: Erwin Kooi & Rik van Hees
+  subject: The good, the bad and the segmented
+
+- id:
+  type:
+    - videos
+  when:
+    - "2018"
+  permalink: https://www.youtube.com/watch?v=wn0X_dr_t5Y
+  name: Cheng Lei
+  subject: Attack Cars Revisited
+
+- id:
+  type:
+    - videos
+  when:
+    - "2018"
+  permalink: https://www.youtube.com/watch?v=ByK7GJrWq_M
+  name: Monta Elkis
+  subject: Jumping Air Gaps
+
+- id:
+  type:
+    - videos
+  when:
+    - "2018"
+  permalink: https://www.youtube.com/watch?v=PDxyscCHU3I
+  name: Mark Stacey
+  subject: Learning as you go is Expensive
+
+- id:
+  type:
+    - videos
+  when:
+    - "2018"
+  permalink: https://www.youtube.com/watch?v=1WozcJ6-Ci8
+  name: Ben Miller & Mark Stacey
+  subject: Hunting and Responding in ICS
+
+- id:
+  type:
+    - videos
+  when:
+    - "2018"
+  permalink: https://www.youtube.com/watch?v=B-zTRY8VuH0
+  name: Mark Bristow
+  subject: ICS Incident Response
+
+- id:
+  type:
+    - videos
+  when:
+    - "2018"
+  permalink: https://www.youtube.com/watch?v=vSwEA2Y3BHI
+  name: William Middleton
+  subject: Securing the ICS lab network
+
+- id:
+  type:
+    - videos
+  when:
+    - "2018"
+  permalink: https://www.youtube.com/watch?v=I-lEn-fKFs4
+  name: Omer Zohar
+  subject: Unblockable Chains - Is Blockchain the ultimate malicious infrastructure
+
+- id:
+  type:
+    - videos
+  when:
+    - "2018"
+  permalink: https://www.youtube.com/watch?v=1s44ODvUMmk
+  name: Marcin Dudek
+  subject: Using fake BTS as a part of pentest
+
+- id:
+  type:
+    - videos
+  when:
+    - "2018"
+  permalink: https://www.youtube.com/watch?v=KTczBtb2ReU
+  name: Dan Gunter & Daniel Michaud-Soucy
+  subject: Stateful Protocol Hunting
+
+- id:
+  type:
+    - videos
+  when:
+    - "2018"
+  permalink: https://www.youtube.com/watch?v=ewsFY3jmBCU
+  name: Joe Slowik
+  subject: "Indicators vs. Anomalies vs. Behaviors: A Critical Examination for ICS Defense"
+
+- id:
+  type:
+    - videos
+  when:
+    - "2018"
+  permalink: https://www.youtube.com/watch?v=GUTKok5sWqg
+  name: Jonathan Homer
+  subject: Recent APT Campaign targeting Energy Sector Assets
+
+
+
+# 2017
+- id:
+  type:
+    - videos
+  when:
+    - "2017"
+  permalink: https://www.youtube.com/watch?v=wtirmgb9Ggc
+  name: Dan Demeter
+  subject: Back to the IoT Future
+
+- id:
+  type:
+    - videos
+  when:
+    - "2017"
+  permalink: https://www.youtube.com/watch?v=dHWjqfxS2OA
+  name: Rossella Mattioli
+  subject: ENISA Trainings for Cyber Security Specialists
+
+- id:
+  type:
+    - videos
+  when:
+    - "2017"
+  permalink: https://www.youtube.com/watch?v=Jv6Rr_z2euw
+  name: Akriti Srivastava
+  subject: S in IoT is for Security
+
+- id:
+  type:
+    - videos
+  when:
+    - "2017"
+  permalink: https://www.youtube.com/watch?v=EPbdhRPY-t0
+  name: Lars-Erik Smevold
+  subject: Pandora's Box
+
+- id:
+  type:
+    - videos
+  when:
+    - "2017"
+  permalink: https://www.youtube.com/watch?v=UbmvEsVHG-8
+  name: Melissa Crawford
+  subject: ICS Program Development for Multi-national Corporations
+
+- id:
+  type:
+    - videos
+  when:
+    - "2017"
+  permalink: https://www.youtube.com/watch?v=H7zbY_DGflc
+  name: Rossella Mattioli
+  subject: Protecting European transport infrastructures
+
+- id:
+  type:
+    - videos
+  when:
+    - "2017"
+  permalink: https://www.youtube.com/watch?v=4nd5Lqo1dpE
+  name: Anton Cherepanov & Robert Lipovský
+  subject: "Industroyer: Biggest threat to industrial control systems since Stuxnet"
+
+- id:
+  type:
+    - videos
+  when:
+    - "2017"
+  permalink: https://www.youtube.com/watch?v=vLSrEopo3WA
+  name: Ali Abbasi
+  subject: Configurable Code-Reuse Attacks Mitigation
+
+- id:
+  type:
+    - videos
+  when:
+    - "2017"
+  permalink: https://www.youtube.com/watch?v=ksxvXFHAVe0
+  name: Patrick DeSantis
+  subject: From Box to Backdoor
+
+- id:
+  type:
+    - videos
+  when:
+    - "2017"
+  permalink: https://www.youtube.com/watch?v=fwXSyQWkl8Q
+  name: Jens Wiesner
+  subject: "Security for Safety: Fortifying the last line of defense"
+
+- id:
+  type:
+    - videos
+  when:
+    - "2017"
+  permalink: https://www.youtube.com/watch?v=velWps18Fh4
+  name: Joe Slowik
+  subject: Strategict Network Defense in ICS Environments
+
+- id:
+  type:
+    - videos
+  when:
+    - "2017"
+  permalink: https://www.youtube.com/watch?v=lugPpbZOkSQ
+  name: Dieter Sarrazyn
+  subject: DYI insider threat detection/prevention within ICS environments
+
+- id:
+  type:
+    - videos
+  when:
+    - "2017"
+  permalink: https://www.youtube.com/watch?v=8WJSyWkmmKc
+  name: Adam Crain
+  subject: Secure SCADA Protocol for the 21st Century (SSP21)
+
+- id:
+  type:
+    - videos
+  when:
+    - "2017"
+  permalink: https://www.youtube.com/watch?v=TOZ_q7l6VGk
+  name: Harlem Session
+  subject: With Akriti Srivastava, Dan Demeter, & Rossella Mattioli - Moderated by Robert Malmgren
+
+- id:
+  type:
+    - videos
+  when:
+    - "2017"
+  permalink: https://www.youtube.com/watch?v=Faru1VSwFJ0
+  name: Harlem Session
+  subject: With Martin Eian - Moderated by Robert Malmgren
+
+
+
+# 2016
+- id:
+  type:
+    - videos
+  when:
+    - "2016"
+  permalink: https://www.youtube.com/watch?v=OetwMsjiAmY
+  name: Robert M. Lee
+  subject: Exploring the unknown ICS Threat Landscape
+
+- id:
+  type:
+    - videos
+  when:
+    - "2016"
+  permalink: https://www.youtube.com/watch?v=qkiLhCExP2A
+  name: Erwin Kooi
+  subject: In a grid operator's security trenches
+
+- id:
+  type:
+    - videos
+  when:
+    - "2016"
+  permalink: https://www.youtube.com/watch?v=Zb3HQ6XUabA
+  name: Maik Brüggemann
+  subject: PLC-Blaster - a worm living in your PLC
+
+- id:
+  type:
+    - videos
+  when:
+    - "2016"
+  permalink: https://www.youtube.com/watch?v=d3P6fvKWLiE
+  name: Marie Moe & Eireann Leverett
+  subject: Embodied Vulnerabilities - How to find, fix and think about them
+
+- id:
+  type:
+    - videos
+  when:
+    - "2016"
+  permalink: https://www.youtube.com/watch?v=JBz1LqzR0LQ
+  name: John Matherly
+  subject: The Rise of the Machines
+
+- id:
+  type:
+    - videos
+  when:
+    - "2016"
+  permalink: https://www.youtube.com/watch?v=hA9ioa6m-HI&list=PLK9u2M6_KckQpC1iABet3hEY57yuv02Kw&index=7&t=0s
+  name: Lucas Lundgren
+  subject: Lightweight protocol! Serious equipment! Critical implications!
+
+- id:
+  type:
+    - videos
+  when:
+    - "2016"
+  permalink: https://www.youtube.com/watch?v=uKDMQIWvvNc
+  name: Ary Kokos & Arnaud Soullié
+  subject: "DYODE: Do Your Own DiodE"
+
+- id:
+  type:
+    - videos
+  when:
+    - "2016"
+  permalink: https://www.youtube.com/watch?v=fltgBZcXAbI
+  name: Henrik Sandberg
+  subject: Physics-based attack detection and countermeasures in control systems
+
+- id:
+  type:
+    - videos
+  when:
+    - "2016"
+  permalink: https://www.youtube.com/watch?v=Wlgoly3n4DM
+  name: Vidar Hedtjärn Swaling
+  subject: Ageing of ICS - What's the deal?
+
+- id:
+  type:
+    - videos
+  when:
+    - "2016"
+  permalink: https://www.youtube.com/watch?v=U72Gp9ZbL7s
+  name: Simin Nadjm-Tehrani
+  subject: The role of anomaly detection in industrial control systems
+
+- id:
+  type:
+    - videos
+  when:
+    - "2016"
+  permalink: https://www.youtube.com/watch?v=Gdpob_C-8f4
+  name: Research Session - Q & A
+  subject: With Simin Nadjm-Tehrani, Henrik Sandberg, & Vidar Hedtjärn Swaling
+
+- id:
+  type:
+    - videos
+  when:
+    - "2016"
+  permalink: https://www.youtube.com/watch?v=y12BGW7snSc
+  name: Peter Andersson & Erik Westring
+  subject: CRATE City...consequences of a simulated cyber attack
+
+- id:
+  type:
+    - videos
+  when:
+    - "2016"
+  permalink: https://www.youtube.com/watch?v=MTO971adz3Y
+  name: Roberto Guanciale
+  subject: Breaking isolation using cache attributes
+
+- id:
+  type:
+    - videos
+  when:
+    - "2016"
+  permalink: https://www.youtube.com/watch?v=j6S2nje1MFk
+  name: Robert M. Lee
+  subject: "The Ukraine Cyber Attack: One Year Later"
+
+- id:
+  type:
+    - videos
+  when:
+    - "2016"
+  permalink: https://www.youtube.com/watch?v=MzhmRyA_71Q
+  name: Anton Cherepanov & Robert Lipovský
+  subject: BE, What We Really Know About the Notorious Cyber-Attacks
+
+- id:
+  type:
+    - videos
+  when:
+    - "2016"
+  permalink: https://www.youtube.com/watch?v=yG3MIEbDt_E
+  name: Panel Discussion
+  subject: With Anton Cherepanov, Robert Lipovský, & Robert M. Lee
+
+- id:
+  type:
+    - videos
+  when:
+    - "2016"
+  permalink: https://www.youtube.com/watch?v=MW7kzErl6gM
+  name: Rossella Mattioli & Paraskevi Kasse
+  subject: Cybersecurity in Europe - the NIS Directive & the role of Operators of essential services
+
+- id:
+  type:
+    - videos
+  when:
+    - "2016"
+  permalink: https://www.youtube.com/watch?v=uRQ5uAF9ZyY
+  name: Isabel Skierka & Jan-Peter Kleinhans
+  subject: Too many cooks spoil the broth?
+
+
+# 2015
+- id:
+  type:
+    - videos
+  when:
+    - "2015"
+  permalink: https://www.youtube.com/watch?v=3kK6E1OyTX0
+  name: Robert M. Lee
+  subject: Asset Identification and Network Security Monitoring in ICS Networks
+
+- id:
+  type:
+    - videos
+  when:
+    - "2015"
+  permalink: https://www.youtube.com/watch?v=85mg5q03-b0
+  name: Eireann Leverett
+  subject: "Catastronomics: North"
+
+- id:
+  type:
+    - videos
+  when:
+    - "2015"
+  permalink: https://www.youtube.com/watch?v=Nc2IkkRJ5Dg
+  name: Chris Sistrunk & Rob Caldwell
+  subject: "Missing the Obvious: Network Security Monitoring"
+
+- id:
+  type:
+    - videos
+  when:
+    - "2015"
+  permalink: https://www.youtube.com/watch?v=MuV2hJikvCY
+  name: Michael Toecker
+  subject: Digital Maintenance and Test Equipment and Impact on Control System Security
+
+- id:
+  type:
+    - videos
+  when:
+    - "2015"
+  permalink: https://www.youtube.com/watch?v=3CO03taMy74
+  name: Mark Fabro
+  subject: Case Studies in Real World ICS/SCADA Incident Response and Forensics
+
+- id:
+  type:
+    - videos
+  when:
+    - "2015"
+  permalink: https://www.youtube.com/watch?v=m3utW3cj5ls
+  name: Stephen Hilt
+  subject: "The Little Pump Gauge That Could: Attacks Against Gas Pump Monitoring Systems"
+
+- id:
+  type:
+    - videos
+  when:
+    - "2015"
+  permalink: https://www.youtube.com/watch?v=J8zsTY6r8FY
+  name: Arjan Meijer
+  subject: Is Your Plant "Ready to Crash"?
+
+- id:
+  type:
+    - videos
+  when:
+    - "2015"
+  permalink: https://www.youtube.com/watch?v=_aW-MXdRII0
+  name: Ahmed Sherif Eldemrdash
+  subject: Simulating Attacks on infrastructure systems in Egypt
+
+- id:
+  type:
+    - videos
+  when:
+    - "2015"
+  permalink: https://www.youtube.com/watch?v=bkNaj1KnLA8
+  name: Dewan Chowdhury
+  subject: "Hacking the Power Grid: Analyzing what Hackers do when they have access to the 'Power Grid Honeypot'"
+
+- id:
+  type:
+    - videos
+  when:
+    - "2015"
+  permalink: https://www.youtube.com/watch?v=5k26iy_SUEg
+  name: Mikael Vingaard
+  subject: Who controls your industrial control systems?
+
+- id:
+  type:
+    - videos
+  when:
+    - "2015"
+  permalink: https://www.youtube.com/watch?v=D75jh9_42as
+  name: Joe Fitzpatrick
+  subject: The dirty secrets your hardware can keep, and how we can clean up its act
+
+- id:
+  type:
+    - videos
+  when:
+    - "2015"
+  permalink: https://www.youtube.com/watch?v=2EUTDcajPh4
+  name: Monnappa K A
+  subject: Reversing and Deciphering the Cyber Espionage Malware Communications
+
+- id:
+  type:
+    - videos
+  when:
+    - "2015"
+  permalink: https://www.youtube.com/watch?v=PFhGlJ3fDg4
+  name: Leif Nixon
+  subject: Responsible Disclosure may be Irresponisble
+
+- id:
+  type:
+    - videos
+  when:
+    - "2015"
+  permalink: https://www.youtube.com/watch?v=b5b3AFtWbV4
+  name: Anders Östgaard
+  subject: Building Automation Security
+
+- id:
+  type:
+    - videos
+  when:
+    - "2015"
+  permalink: https://www.youtube.com/watch?v=-IBlLu_ZGk0
+  name: Kristoffer Sjökvist
+  subject: IT and Cyber security at Svenska kraftnät
+
+- id:
+  type:
+    - videos
+  when:
+    - "2015"
+  permalink: https://www.youtube.com/watch?v=bYJZEkdtAB0
+  name: Jan Seidl
+  subject: Reducing attack surface on ICS with Windows native solutions
+
+- id:
+  type:
+    - videos
+  when:
+    - "2015"
+  permalink: https://www.youtube.com/watch?v=hkFC4qJZ9yc
+  name: Jan Seidl
+  subject: PhysICS - Using physics simulation engine to demonstrate impacts on industrial control attacks
+
+- id:
+  type:
+    - videos
+  when:
+    - "2015"
+  permalink: https://www.youtube.com/watch?v=actMKbIHQrU
+  name: Panel Discussion
+  subject: With Kim Zetter, Erieann Leverett, Leif Nixon, & John Matherly - Moderated by Robert M. Lee
 
 
 

@@ -1,0 +1,130 @@
+---
+title: Videos
+permalink: "/archive/videos/"
+layout: archive-sub
+---
+
+<section class="content">
+
+	<div class="column-block">
+		<div class="col-2-8">
+			<span class="archive-header-title archive-header-title-gray">2015</span>
+			<span class="archive-header-title-divider"></span>
+			<span class="archive-header-title archive-header-title-yellow">2019</span>
+		</div>
+
+		<div class="col-6-8">
+			<h2 class="title title-yellow">Videos</h2>
+			<p class="col-4-8">Here you can view all the best international speakers and traineers attending CS3STHLM during the years. We also host a dinner entertainment slot during the Gala Dinner.</p>
+		</div>
+	</div>
+
+</section>
+
+<section class="content">
+
+	<div class="presentation-block col-8-8">
+
+
+	    <div class="presentation-block-item col-8-8 spacing-top">
+	    	<div class="videos-row-header col-8-8">
+	      		<h3 class="alt-title col-5-8 alt-title-yellow alt-title-large">2019</h3>
+	      		<a href="https://www.youtube.com/playlist?list=PLK9u2M6_KckS-xoCb8g2qxaD3vxYN29-S" target="_blank" class="sub-headline sub-headline-red col-3-8">View playlist at YouTube</a>
+	      	</div>
+	    	
+	    	<div class="presentation-row videos-row col-8-8">
+			{% assign videos = site.data.archive-2020 | where_exp: "item", "item.type contains 'videos'" | sort: 'name' %}
+			{% assign item = videos | where_exp: "item", "item.when contains '2019'" %}
+
+				{% for item in item %}
+				<a href="{{ item.permalink }}" target="_blank" class="archive-row-item col-8-8">
+					<h3 class="alt-title alt-title-small alt-title-gray">{{ item.name }}</h3>
+					<h2 class="alt-title alt-title-light ">{{ item.subject }}</h2>
+				</a>
+				{% endfor %}
+
+			</div>
+	    </div>
+
+	    <div class="presentation-block-item col-8-8 spacing-top">
+	    	<div class="videos-row-header col-8-8">
+	      		<h3 class="alt-title col-5-8 alt-title-yellow alt-title-large">2018</h3>
+	      		<a href="https://www.youtube.com/playlist?list=PLK9u2M6_KckTrwNok5JubicYBu8GUSRKW" target="_blank" class="sub-headline sub-headline-red col-3-8">View playlist at YouTube</a>
+	      	</div>
+	    	
+	    	<div class="presentation-row videos-row col-8-8">
+			{% assign videos = site.data.archive-2020 | where_exp: "item", "item.type contains 'videos'" | sort: 'name' %}
+			{% assign item = videos | where_exp: "item", "item.when contains '2018'" %}
+
+				{% for item in item %}
+				<a href="{{ item.permalink }}" target="_blank" class="archive-row-item col-8-8">
+					<h3 class="alt-title alt-title-small alt-title-gray">{{ item.name }}</h3>
+					<h2 class="alt-title alt-title-light ">{{ item.subject }}</h2>
+				</a>
+				{% endfor %}
+
+			</div>
+	    </div>
+
+	    <div class="presentation-block-item col-8-8 spacing-top">
+	    	<div class="videos-row-header col-8-8">
+	      		<h3 class="alt-title col-5-8 alt-title-yellow alt-title-large">2017</h3>
+	      		<a href="https://www.youtube.com/playlist?list=PLK9u2M6_KckRA4YlcGtmEgIVHKYkok0UV" target="_blank" class="sub-headline sub-headline-red col-3-8">View playlist at YouTube</a>
+	      	</div>
+	    	
+	    	<div class="presentation-row videos-row col-8-8">
+			{% assign videos = site.data.archive-2020 | where_exp: "item", "item.type contains 'videos'" | sort: 'name' %}
+			{% assign item = videos | where_exp: "item", "item.when contains '2017'" %}
+
+				{% for item in item %}
+				<a href="{{ item.permalink }}" target="_blank" class="archive-row-item col-8-8">
+					<h3 class="alt-title alt-title-small alt-title-gray">{{ item.name }}</h3>
+					<h2 class="alt-title alt-title-light ">{{ item.subject }}</h2>
+				</a>
+				{% endfor %}
+
+			</div>
+	    </div>
+
+	    <div class="presentation-block-item col-8-8 spacing-top">
+	    	<div class="videos-row-header col-8-8">
+	      		<h3 class="alt-title col-5-8 alt-title-yellow alt-title-large">2016</h3>
+	      		<a href="https://www.youtube.com/playlist?list=PLK9u2M6_KckQpC1iABet3hEY57yuv02Kw" target="_blank" class="sub-headline sub-headline-red col-3-8">View playlist at YouTube</a>
+	      	</div>
+	    	
+	    	<div class="presentation-row videos-row col-8-8">
+			{% assign videos = site.data.archive-2020 | where_exp: "item", "item.type contains 'videos'" | sort: 'name' %}
+			{% assign item = videos | where_exp: "item", "item.when contains '2016'" %}
+
+				{% for item in item %}
+				<a href="{{ item.permalink }}" target="_blank" class="archive-row-item col-8-8">
+					<h3 class="alt-title alt-title-small alt-title-gray">{{ item.name }}</h3>
+					<h2 class="alt-title alt-title-light ">{{ item.subject }}</h2>
+				</a>
+				{% endfor %}
+
+			</div>
+	    </div>
+
+	    <div class="presentation-block-item col-8-8 spacing-top">
+	    	<div class="videos-row-header col-8-8">
+	      		<h3 class="alt-title col-5-8 alt-title-yellow alt-title-large">2015</h3>
+	      		<a href="https://www.youtube.com/playlist?list=PLK9u2M6_KckQYRg2nKSvoNivx-DWDCmYS" target="_blank" class="sub-headline sub-headline-red col-3-8">View playlist at YouTube</a>
+	      	</div>
+	    	
+	    	<div class="presentation-row videos-row col-8-8">
+			{% assign videos = site.data.archive-2020 | where_exp: "item", "item.type contains 'videos'" | sort: 'name' %}
+			{% assign item = videos | where_exp: "item", "item.when contains '2015'" %}
+
+				{% for item in item %}
+				<a href="{{ item.permalink }}" target="_blank" class="archive-row-item col-8-8">
+					<h3 class="alt-title alt-title-small alt-title-gray">{{ item.name }}</h3>
+					<h2 class="alt-title alt-title-light ">{{ item.subject }}</h2>
+				</a>
+				{% endfor %}
+
+			</div>
+	    </div>
+	
+	</div>
+</section>

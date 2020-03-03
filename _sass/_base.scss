@@ -995,8 +995,23 @@ a {
   flex-direction: column;
   flex-wrap: wrap;
 
+  &.videos-row {
+
+    .archive-row-item {
+    
+      &:nth-child(n+10) {
+        display: flex;
+      }
+
+      h3 {
+        width: 25%;
+      }
+    }
+  }
+
   .archive-row-item {
     position: relative;
+    text-decoration: none;
 
     @include transition-ease;
 
@@ -1215,6 +1230,7 @@ a {
     align-items: center;
     margin-bottom: 48px;
     margin-top: 160px;
+    width: 100%;
 
     &:first-of-type {
       margin-top: 0;
@@ -1265,6 +1281,12 @@ a {
     border: 2px solid rgba($yellow, .5);
     margin-bottom: 24px;
 
+    @include transition-ease;
+
+    &:hover {
+      border-color: $yellow;
+    }
+
     &-tall {
 
       img {
@@ -1283,6 +1305,28 @@ a {
       width: 100%;
       height: auto;
       vertical-align: middle;
+    }
+  }
+}
+
+// ARCHIVE VIDEOS
+
+.videos-row-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid $blue-darken;
+  padding-bottom: 12px;
+  box-sizing: border-box;
+
+  .sub-headline {
+    text-align: right;
+    text-decoration: none;
+
+    @include transition-ease;
+
+    &:hover {
+      color: $yellow;
     }
   }
 }
@@ -1320,10 +1364,10 @@ body.lb-disable-scrolling {
   height: auto;
   max-width: inherit;
   max-height: none;
-  border-radius: 3px;
+  border-radius: 4px;
 
   /* Image border */
-  border: 4px solid white;
+  border: 4px solid rgba($yellow, .5);
 }
 
 .lightbox a img {
@@ -1340,7 +1384,7 @@ body.lb-disable-scrolling {
 
   /* Background color behind image.
      This is visible during transitions. */
-  background-color: white;
+  background-color: $dark;
 }
 
 .lb-outerContainer:after {
@@ -4302,7 +4346,7 @@ body.lb-disable-scrolling {
     margin-bottom: 24px;
     margin-right: 24px;
 
-    &:nth-child(4), &:nth-child(8), &:nth-child(12) {
+    &:nth-child(4), &:nth-child(8), &:nth-child(12), &:nth-child(16) {
       margin-right: 0;
     }
 

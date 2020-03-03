@@ -1,7 +1,7 @@
 ---
 title: Expo
 permalink: "/archive/expo/"
-layout: archive
+layout: archive-sub
 ---
 
 <section class="content">
@@ -85,11 +85,12 @@ layout: archive
 	    	<div class="partner--list col-8-8">
 			{% assign partners = site.data.archive-2020 | where_exp: "item", "item.type contains 'partners'" | sort: 'permalink' %}
 			{% assign item = partners | where_exp: "item", "item.when contains '2019'" %}
+			{% assign items = item | where_exp: "item", "item.expo contains '2019'" %}
 
-			{% for item in item %}
+			{% for item in items %}
 				<div class="partner--item col-2-8 partner--item-large">
 					<a href="{{ item.permalink }}" target="_blank">
-						<img src="{{ site.baseurl }}/assets/partners/{{ item.image }}.png" alt="{{ item.name }}">
+						<img src="{{ site.baseurl }}/assets/archive/partners/{{ item.image }}.png" alt="{{ item.name }}">
 					</a>
 				</div>
 			{% endfor %}
@@ -156,11 +157,12 @@ layout: archive
 	    	<div class="partner--list col-8-8">
 			{% assign partners = site.data.archive-2020 | where_exp: "item", "item.type contains 'partners'" | sort: 'permalink' %}
 			{% assign item = partners | where_exp: "item", "item.when contains '2018'" %}
+			{% assign items = item | where_exp: "item", "item.expo contains '2018'" %}
 
-			{% for item in item %}
+			{% for item in items %}
 				<div class="partner--item col-2-8 partner--item-large">
 					<a href="{{ item.permalink }}" target="_blank">
-						<img src="{{ site.baseurl }}/assets/partners/{{ item.image }}.png" alt="{{ item.name }}">
+						<img src="{{ site.baseurl }}/assets/archive/partners/{{ item.image }}.png" alt="{{ item.name }}">
 					</a>
 				</div>
 			{% endfor %}

@@ -270,7 +270,7 @@ layout: archive
 
   <div class="col-8-8">
     <div class="speakers-hexa-block">
-      {% assign sorted_speakers = site.data.archive-2020 | sample: 38 %}
+      {% assign sorted_speakers = site.data.archive-2020 | where_exp: "item", "item.type contains 'presentation'" | sample: 38 %}
       {% for speaker in sorted_speakers %}
       {% if speaker.type contains "presentation" or speaker.type contains "training" or speaker.type contains "moderator" %}
       <div class="speakers-hexa-block-item col-1-8">

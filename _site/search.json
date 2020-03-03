@@ -460,17 +460,17 @@
   
    {
      
-        "title"    : "Jonas Almroth",
-        "url"      : "/about/archive/speakers/jonas-almroth",
-        "path"     : "/about/archive/speakers/jonas-almroth"
+        "title"    : "Mads Dam",
+        "url"      : "/about/archive/speakers/mads-dam",
+        "path"     : "/about/archive/speakers/mads-dam"
      
    },
   
    {
      
-        "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/archive/speakers/anne-marie-eklund-lowinder",
-        "path"     : "archive/speakers/anne-marie-eklund-lowinder"
+        "title"    : "Jonas Almroth",
+        "url"      : "/about/archive/speakers/jonas-almroth",
+        "path"     : "/about/archive/speakers/jonas-almroth"
      
    },
   
@@ -612,9 +612,25 @@
   
    {
      
+        "title"    : "Videos",
+        "url"      : "/archive/videos/",
+        "path"     : "/archive/videos/"
+     
+   },
+  
+   {
+     
         "title"    : "Presentations",
         "url"      : "/archive/presentations/",
         "path"     : "/archive/presentations/"
+     
+   },
+  
+   {
+     
+        "title"    : "Partners",
+        "url"      : "/archive/partners/",
+        "path"     : "/archive/partners/"
      
    },
   
@@ -756,9 +772,9 @@
   
    {
      
-        "title"    : "Mads Dam",
-        "url"      : "/about/archive/speakers/mads-dam",
-        "path"     : "/about/archive/speakers/mads-dam"
+        "title"    : "Anne-Marie Eklund Löwinder",
+        "url"      : "/archive/speakers/anne-marie-eklund-lowinder",
+        "path"     : "archive/speakers/anne-marie-eklund-lowinder"
      
    },
   
