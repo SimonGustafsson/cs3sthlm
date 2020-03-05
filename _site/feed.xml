@@ -5,9 +5,36 @@
     <description>CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 03 Mar 2020 12:57:07 +0000</pubDate>
-    <lastBuildDate>Tue, 03 Mar 2020 12:57:07 +0000</lastBuildDate>
+    <pubDate>Thu, 05 Mar 2020 11:04:43 +0000</pubDate>
+    <lastBuildDate>Thu, 05 Mar 2020 11:04:43 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Submissions to the 2020 CFP</title>
+        <description>&lt;h1 class=&quot;blog-title&quot; itemprop=&quot;name headline&quot;&gt;Submissions to the 2020 CFP&lt;/h1&gt;
+
+&lt;p&gt;With the deadline of the 2020 CFP submission getting closer we have started to get some great submissions, but we are always looking for more content to get a good mix. We welcome presenters from the whole globe, and so far we have had people presenting from most continents, except Australia and the both poles!&lt;/p&gt;
+
+&lt;p&gt;We want to have a good balance of policy and technical presentations since we want to have a mixed audience that needs to be exposed to all parts of the protection of critical infrastructure.&lt;/p&gt;
+
+&lt;p&gt;We can always see some interesting examples of IIoT, incident response, successful deployment of new technology, new security research, low-level attacks, new models and methods to discover attacks. A full list of various areas and special topics of interest is included in the info PDF (see  below)&lt;/p&gt;
+
+&lt;p&gt;For several years we have had authors presenting - such as Kim Zetter, Andy Greenberg, Rob M Lee etc - and have had their books distributed to participants as part of their talks. If you are an author in this field, please consider contacting us to present and we will discuss possibilities for book signing, book distributions, etc.&lt;/p&gt;
+
+&lt;p&gt;You can find the general information page on CFP here: &lt;a href=&quot;https://cs3sthlm.se/call-for-participation/&quot;&gt;/call-for-participation/&lt;/a&gt; and you find the PDF describing the CPF here: &lt;a href=&quot;https://cs3sthlm.se/assets/pdf/cs3sthlm-cfp-2020.pdf&quot;&gt;/cs3sthlm-cfp-2020.pdf&lt;/a&gt; and the submission page here: &lt;a href=&quot;https://cs3sthlm.se/assets/pdf/cs3sthlm-cfp-submission-form-2020.pdf&quot;&gt;/cs3sthlm-cfp-submission-form-2020.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Remember that the deadline is the 15th of March, and the e-mail address for submissions is cfp@cs3sthlm.se&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;- CS3STHLM Crew&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 05 Mar 2020 04:00:00 +0000</pubDate>
+        <link>/blog/submissions-to-the-2020-cfp/</link>
+        <guid isPermaLink="true">/blog/submissions-to-the-2020-cfp/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>CS3STHLM Newsletter February</title>
@@ -302,32 +329,6 @@ venue, Nalen, and the fixed prices that they are offering are valid until Sept 2
         <pubDate>Fri, 30 Aug 2019 04:00:00 +0000</pubDate>
         <link>/news/2019/08/30/cs3sthlm-newsletter-august.html</link>
         <guid isPermaLink="true">/news/2019/08/30/cs3sthlm-newsletter-august.html</guid>
-        
-        
-        <category>news</category>
-        
-      </item>
-    
-      <item>
-        <title>CS3STHLM Newsletter June</title>
-        <description>&lt;p&gt;Finally some news about the 6th CS3STHLM summit!&lt;/p&gt;
-
-&lt;p&gt;Our website is starting to be updated with information on the upcoming conference. A lot of new information has been published, and a lot more will be posted in the near future. Please check it out at this link.&lt;/p&gt;
-
-&lt;p&gt;For the Call For Participation, we got more than 65+ very good submissions from all over the planet. We have selected some submissions to start with in this year’s program. Please check out the first batch of topics and presenters listed here &lt;a href=&quot;https://cs3sthlm.se/program/speakers/&quot;&gt;speakers&lt;/a&gt; and here &lt;a href=&quot;https://cs3sthlm.se/program/presentations/&quot;&gt;presentations&lt;/a&gt; We will add presenters to the lists over time, as we also have a few slots reserved for invited speakers.&lt;/p&gt;
-
-&lt;p&gt;At this moment we have two trainings to chose from, but we hope to have even more very soon. The trainings that are set by today are &lt;strong&gt;ICS/SCADA Penetration Testing&lt;/strong&gt; with Arnauld Souille and &lt;strong&gt;ICS Network ForensICS&lt;/strong&gt; with Erik Hjelmvik. Information on available trainings at &lt;a href=&quot;https://cs3sthlm.se/program/trainings/&quot;&gt;/program/trainings&lt;/a&gt;. If you already have bought a ticket to the CS3STHLM Summit, or if you just wish to participate in the training part, please contact us at &lt;a href=&quot;info@cs3sthlm.se&quot;&gt;info@cs3sthlm.se&lt;/a&gt; if you would like to add any training. &lt;strong&gt;Discount 10% for COMBO tickets training + summit until end of July!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Last year we had a success with our CS3STHLM Expo day held the day before the actual summit. The Expo day is free of charge and gave the attendees a chance to get useful knowledge through our partners and to participate in different activities. For the persons that like the hands-on approach to Cyber Security this is a good day to try out our ICS lab that will be filled with old and new ICS gadgets, many of them otherwise unavailable for testing.&lt;/p&gt;
-
-&lt;p&gt;Also – all video filmed presentations from CS3STHLM 2018 and earlier are now available on our YouTube channel:  &lt;a href=&quot;https://www.youtube.com/channel/UCkD15o_9eJxUc9eeHtWSQ6Q&quot;&gt;YouTube/cs3sthlm&lt;/a&gt;
-Please subscribe!&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Best wishes from the CS3STHLM crew &lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 28 Jun 2019 04:00:00 +0000</pubDate>
-        <link>/news/2019/06/28/cs3sthlm-newsletter-june.html</link>
-        <guid isPermaLink="true">/news/2019/06/28/cs3sthlm-newsletter-june.html</guid>
         
         
         <category>news</category>

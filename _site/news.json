@@ -1,5 +1,13 @@
 {"newsList":[
     {
+      "title": "Submissions to the 2020 CFP",
+      "author": "CS3STHLM Crew",
+      "category": "blog",
+      "date": "05 Mar 2020",
+      "content_html": "<h1 class=\"blog-title\" itemprop=\"name headline\">Submissions to the 2020 CFP</h1><p>With the deadline of the 2020 CFP submission getting closer we have started to get some great submissions, but we are always looking for more content to get a good mix. We welcome presenters from the whole globe, and so far we have had people presenting from most continents, except Australia and the both poles!</p><p>We want to have a good balance of policy and technical presentations since we want to have a mixed audience that needs to be exposed to all parts of the protection of critical infrastructure.</p><p>We can always see some interesting examples of IIoT, incident response, successful deployment of new technology, new security research, low-level attacks, new models and methods to discover attacks. A full list of various areas and special topics of interest is included in the info PDF (see  below)</p><p>For several years we have had authors presenting - such as Kim Zetter, Andy Greenberg, Rob M Lee etc - and have had their books distributed to participants as part of their talks. If you are an author in this field, please consider contacting us to present and we will discuss possibilities for book signing, book distributions, etc.</p><p>You can find the general information page on CFP here: <a href=\"https://cs3sthlm.se/call-for-participation/\">/call-for-participation/</a> and you find the PDF describing the CPF here: <a href=\"https://cs3sthlm.se/assets/pdf/cs3sthlm-cfp-2020.pdf\">/cs3sthlm-cfp-2020.pdf</a> and the submission page here: <a href=\"https://cs3sthlm.se/assets/pdf/cs3sthlm-cfp-submission-form-2020.pdf\">/cs3sthlm-cfp-submission-form-2020.pdf</a></p><p>Remember that the deadline is the 15th of March, and the e-mail address for submissions is cfp@cs3sthlm.se</p><p><em>- CS3STHLM Crew</em></p>"
+    } ,
+  
+    {
       "title": "CS3STHLM Newsletter February",
       "author": "CS3STHLM Crew",
       "category": "news",
