@@ -1,5 +1,13 @@
 {"newsList":[
     {
+      "title": "The Locked Shields Sessions",
+      "author": "CS3STHLM Crew",
+      "category": "blog",
+      "date": "23 Mar 2020",
+      "content_html": "<h1 class=\"blog-title\" itemprop=\"name headline\">The Locked Shields Sessions</h1><p>LockedShields is the largest global cyber exercise. It is hosted by the NATO CCDCOE center in Tallinn, Estonia and runned once a year and involves 1000’s of people from many contries around the world. It is very technical, where a number of blue teams need to defend the society from highly sofisticated cyber attacks from a very large and advanced red team. The red team attacks telecom infrastructure, power utilities, water treatment plants, advanced cloud and virtualisation solutions, and the rest of the information infrastructure that make up a modern society.</p><p>Earlier this month, people around the world received word that the the worlds largest red/blue team cybersecurity exercise, Locked Shields, will be cancled 2020 due to the current situation with Covid-19 all over the world.</p><p>This is a very unfortunate situation for all involved - the people who have spent 1000’s of hours preparing the exercise, all the teams eager awaiting startex, and people wanting to evaluate the exercise.</p><p>In this situation there are at least some nuggets to be found - we are releasing 7 videos on Locked Shields that was recorded at CS3 2019 at our special coverage of cyber exercise &amp; Lock Shield. At that session  all different aspects of running a global, multi-team, highly technical cyber exercise were covered:</p><ul>  <li>Introduction and overview of the whole exercise</li>  <li>What is the The NATO CCDCOE</li>  <li>How the green team build the large infrastructure that host all teams and all activities.</li>  <li>How red teams plan and perform their attacks,</li>  <li>How blue teams work when they are under large scale attacks from competent adversaries,</li>  <li>How the yellow team, how some experts can be the magic glue and isolation between the blue and the white teams for factual and critical information.</li>  <li>How the white team is keeping track what is happening and keeping the scores</li>  <li>How the strategic decision making track was created and handled</li></ul><p>More detailed information on these presentations and videos can be found at the archived CS3sthlm site for 2019, please check out the wednesday track <a href=\"https://cs3sthlm.se/2019/agenda/\">/2019/agenda/</a></p>"
+    } ,
+  
+    {
       "title": "Submissions to the 2020 CFP",
       "author": "CS3STHLM Crew",
       "category": "blog",

@@ -5,9 +5,43 @@
     <description>CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 Mar 2020 11:04:43 +0000</pubDate>
-    <lastBuildDate>Thu, 05 Mar 2020 11:04:43 +0000</lastBuildDate>
+    <pubDate>Mon, 23 Mar 2020 16:05:19 +0000</pubDate>
+    <lastBuildDate>Mon, 23 Mar 2020 16:05:19 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>The Locked Shields Sessions</title>
+        <description>&lt;h1 class=&quot;blog-title&quot; itemprop=&quot;name headline&quot;&gt;The Locked Shields Sessions&lt;/h1&gt;
+
+&lt;p&gt;LockedShields is the largest global cyber exercise. It is hosted by the NATO CCDCOE center in Tallinn, Estonia and runned once a year and involves 1000’s of people from many contries around the world. It is very technical, where a number of blue teams need to defend the society from highly sofisticated cyber attacks from a very large and advanced red team. The red team attacks telecom infrastructure, power utilities, water treatment plants, advanced cloud and virtualisation solutions, and the rest of the information infrastructure that make up a modern society.&lt;/p&gt;
+
+&lt;p&gt;Earlier this month, people around the world received word that the the worlds largest red/blue team cybersecurity exercise, Locked Shields, will be cancled 2020 due to the current situation with Covid-19 all over the world.&lt;/p&gt;
+
+&lt;p&gt;This is a very unfortunate situation for all involved - the people who have spent 1000’s of hours preparing the exercise, all the teams eager awaiting startex, and people wanting to evaluate the exercise.&lt;/p&gt;
+
+&lt;p&gt;In this situation there are at least some nuggets to be found - we are releasing 7 videos on Locked Shields that was recorded at CS3 2019 at our special coverage of cyber exercise &amp;amp; Lock Shield. At that session  all different aspects of running a global, multi-team, highly technical cyber exercise were covered:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Introduction and overview of the whole exercise&lt;/li&gt;
+  &lt;li&gt;What is the The NATO CCDCOE&lt;/li&gt;
+  &lt;li&gt;How the green team build the large infrastructure that host all teams and all activities.&lt;/li&gt;
+  &lt;li&gt;How red teams plan and perform their attacks,&lt;/li&gt;
+  &lt;li&gt;How blue teams work when they are under large scale attacks from competent adversaries,&lt;/li&gt;
+  &lt;li&gt;How the yellow team, how some experts can be the magic glue and isolation between the blue and the white teams for factual and critical information.&lt;/li&gt;
+  &lt;li&gt;How the white team is keeping track what is happening and keeping the scores&lt;/li&gt;
+  &lt;li&gt;How the strategic decision making track was created and handled&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;More detailed information on these presentations and videos can be found at the archived CS3sthlm site for 2019, please check out the wednesday track &lt;a href=&quot;https://cs3sthlm.se/2019/agenda/&quot;&gt;/2019/agenda/&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Mar 2020 04:00:00 +0000</pubDate>
+        <link>/blog/the-locked-shields-sessions/</link>
+        <guid isPermaLink="true">/blog/the-locked-shields-sessions/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Submissions to the 2020 CFP</title>
@@ -283,55 +317,6 @@ These Summit-only tickets can later be combined with tickets for trainings and w
         
         
         <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>CS3STHLM Newsletter August</title>
-        <description>&lt;h2 id=&quot;lots-of-interesting-news-on-our-upcoming-event&quot;&gt;Lots of interesting news on our upcoming event!&lt;/h2&gt;
-
-&lt;h3 id=&quot;cs3sthlm-expo-on-22nd-october&quot;&gt;CS3sthlm Expo on 22nd October!&lt;/h3&gt;
-&lt;p&gt;On Tuesday Oct 22, on the day before the CS3sthlm Summit starts, we will have a free of
-charge (but registration required) Expo day at our venue Nalen where our partners will display
-the latest cyber security solutions and services. We will have a full lineup of speakers during the
-Expo day. Free registration here: &lt;a href=&quot;https://cs3-expo-day-2019.eventbrite.com/&quot;&gt;https://cs3-expo-day-2019.eventbrite.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;zombie-survival&quot;&gt;Zombie Survival!&lt;/h3&gt;
-&lt;p&gt;This will be the subject on Wednesday Oct 23rd when our annual CS3sthlm Gala Dinner
-speaker enters the stage! We are very proud to announce Herman Geijer, author and zombie
-survival expert, who will talk about surviving catastrophes using a zombie scenario!&lt;/p&gt;
-
-&lt;h3 id=&quot;training-time&quot;&gt;Training time&lt;/h3&gt;
-&lt;p&gt;There are only limited amounts of seats left on our three different trainings that will take place
- before the CS3sthlm Summit, so are you thinking about attending them do reserve your spot
- soon: &lt;a href=&quot;https://www.cs3sthlm.se/program/trainings/&quot;&gt;cs3sthlm.se/program/trainings/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;summit-agenda&quot;&gt;Summit agenda?&lt;/h3&gt;
-&lt;p&gt;Sorry, not yet. We have an impressive line-up of speakers already but we are still waiting for a
-couple more answers, and that logistics are set. You can see our line-up of speakers here -
-&lt;a href=&quot;https://www.cs3sthlm.se/program/speakers/&quot;&gt;cs3sthlm.se/program/speakers/&lt;/a&gt;
-and presentations here - &lt;a href=&quot;https://www.cs3sthlm.se/program/presentations/&quot;&gt;cs3sthlm.se/program/presentations/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;ics-lab-news&quot;&gt;ICS lab news&lt;/h3&gt;
-&lt;p&gt;Even bigger and better this year! And a completely new feature is that the CS3sthlm ICS lab will
-be open already on Monday Oct 21st! From 9AM to 8PM you are welcome to try out all new
-and old gadgets, many of them otherwise unavailable for testing. You will also be able to try out
-our challenges and meet other ICS security pros!&lt;/p&gt;
-
-&lt;h3 id=&quot;hotel-discount&quot;&gt;Hotel discount&lt;/h3&gt;
-&lt;p&gt;If you have not yet booked your stay in Stockholm, please check the portal that hotel Elite
-Stockholm Plaza have made for out attendees. The hotel is situated only 200 meters from our
-venue, Nalen, and the fixed prices that they are offering are valid until Sept 23rd.
-&lt;a href=&quot;https://www.elite.se/en/conference-reservations/stockholm/e1a64817-7910-4517-bff8-d94ea2e28ed5/d3e7bea3-f79f-42fa-86bb-b6b5ee1045e2/&quot;&gt;https://www.elite.se/en/conference-reservations/stockholm/e1a64817-7910-4517-bff8-d94ea2e28ed5/d3e7bea3-f79f-42fa-86bb-b6b5ee1045e2/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Best wishes from the CS3STHLM crew&lt;/p&gt;
-</description>
-        <pubDate>Fri, 30 Aug 2019 04:00:00 +0000</pubDate>
-        <link>/news/2019/08/30/cs3sthlm-newsletter-august.html</link>
-        <guid isPermaLink="true">/news/2019/08/30/cs3sthlm-newsletter-august.html</guid>
-        
-        
-        <category>news</category>
         
       </item>
     
