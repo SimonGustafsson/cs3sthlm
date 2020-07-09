@@ -62,7 +62,7 @@ $small:        1170px;
 $default:      1280px;
 $medium:       1440px;
 $large:        1680px;
-$giant:        1920px;
+$giant:        1900px;
 
 @mixin media-query($device) {
     @media screen and (max-width: $device) {

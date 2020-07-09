@@ -38,12 +38,16 @@ layout: archive-sub
   <div class="presentation-block col-8-8">
 
     <div class="presentation-block-item col-8-8">
-      	<h3 class="alt-title col-8-8 spacing-bottom alt-title-yellow alt-title-large">2019</h3>
-    	
+      	    	
     	<div class="presentation-row col-8-8">
 		{% assign speakers = site.data.archive-2020 | where_exp: "item", "item.type contains 'presentation'" | sort: 'permalink' %}
 		{% assign item = speakers | where_exp: "item", "item.when contains '2019'" %}
 		{% assign items = item | where_exp: "item", "item.presentation contains '2019'" %}
+
+			<div class="presentation-row-header col-8-8 spacing-bottom">
+				<h3 class="alt-title alt-title-yellow alt-title-large">2019</h3>
+				<h4 class="alt-title alt-title-small alt-title-light">{{ items.size }} Presentations</h4>
+			</div>
 
 			{% for item in items %}
 
@@ -73,12 +77,16 @@ layout: archive-sub
     </div>
 
     <div class="presentation-block-item col-8-8">
-    	<h3 class="alt-title col-8-8 spacing-bottom alt-title-yellow alt-title-large">2018</h3>
 
     	<div class="presentation-row col-8-8">
 			{% assign speakers = site.data.archive-2020 | where_exp: "item", "item.type contains 'presentation'" | sort: 'permalink' %}
 			{% assign item = speakers | where_exp: "item", "item.when contains '2018'" %}
 			{% assign items = item | where_exp: "item", "item.presentation contains '2018'" %}
+
+			<div class="presentation-row-header col-8-8 spacing-bottom">
+				<h3 class="alt-title alt-title-yellow alt-title-large">2018</h3>
+				<h4 class="alt-title alt-title-small alt-title-light">{{ items.size }} Presentations</h4>
+			</div>
 
 			{% for item in items %}
 
@@ -127,12 +135,15 @@ layout: archive-sub
     </div>
 
     <div class="presentation-block-item col-8-8">
-    	<h3 class="alt-title col-8-8 spacing-bottom alt-title-yellow alt-title-large">2017</h3>
-
     	<div class="presentation-row col-8-8">
 			{% assign speakers = site.data.archive-2020 | where_exp: "item", "item.type contains 'presentation'" | sort: 'permalink' %}
 			{% assign item = speakers | where_exp: "item", "item.when contains '2017'" %}
 			{% assign items = item | where_exp: "item", "item.presentation contains '2017'" %}
+
+			<div class="presentation-row-header col-8-8 spacing-bottom">
+				<h3 class="alt-title alt-title-yellow alt-title-large">2017</h3>
+				<h4 class="alt-title alt-title-small alt-title-light">{{ items.size }} Presentations</h4>
+			</div>
 
 			{% for item in items %}
 
@@ -181,12 +192,15 @@ layout: archive-sub
     </div>
 
     <div class="presentation-block-item col-8-8">
-    	<h3 class="alt-title col-8-8 spacing-bottom alt-title-yellow alt-title-large">2016</h3>
-
     	<div class="presentation-row col-8-8">
 			{% assign speakers = site.data.archive-2020 | where_exp: "item", "item.type contains 'presentation'" | sort: 'permalink' %}
 			{% assign item = speakers | where_exp: "item", "item.when contains '2016'" %}
 			{% assign items = item | where_exp: "item", "item.presentation contains '2016'" %}
+			
+			<div class="presentation-row-header col-8-8 spacing-bottom">
+				<h3 class="alt-title alt-title-yellow alt-title-large">2016</h3>
+				<h4 class="alt-title alt-title-small alt-title-light">{{ items.size }} Presentations</h4>
+			</div>
 
 			{% for item in items %}
 
@@ -217,12 +231,15 @@ layout: archive-sub
 
 
     <div class="presentation-block-item col-8-8">
-    	<h3 class="alt-title col-8-8 spacing-bottom alt-title-yellow alt-title-large">2015</h3>
-
     	<div class="presentation-row col-8-8">
 			{% assign speakers = site.data.archive-2020 | where_exp: "item", "item.type contains 'presentation'" | sort: 'permalink' %}
 			{% assign item = speakers | where_exp: "item", "item.when contains '2015'" %}
 			{% assign items = item | where_exp: "item", "item.presentation contains '2015'" %}
+			
+			<div class="presentation-row-header col-8-8 spacing-bottom">
+				<h3 class="alt-title alt-title-yellow alt-title-large">2015</h3>
+				<h4 class="alt-title alt-title-small alt-title-light">{{ items.size }} Presentations</h4>
+			</div>
 
 			{% for item in items %}
 
@@ -271,12 +288,15 @@ layout: archive-sub
     </div>
 
     <div class="presentation-block-item col-8-8">
-    	<h3 class="alt-title col-8-8 spacing-bottom alt-title-yellow alt-title-large">2014</h3>
-
     	<div class="presentation-row col-8-8">
 			{% assign speakers = site.data.archive-2020 | where_exp: "item", "item.type contains 'presentation'" | sort: 'permalink' %}
 			{% assign item = speakers | where_exp: "item", "item.when contains '2014'" %}
 			{% assign items = item | where_exp: "item", "item.presentation contains '2014'" %}
+			
+			<div class="presentation-row-header col-8-8 spacing-bottom">
+				<h3 class="alt-title alt-title-yellow alt-title-large">2014</h3>
+				<h4 class="alt-title alt-title-small alt-title-light">{{ items.size }} Presentations</h4>
+			</div>
 
 			{% for item in items %}
 

@@ -36,37 +36,32 @@ layout: archive-sub
 		        </figure>
 
 		        <div class="archive-gallery-block spacing-top">
-		        	<figure class="archive-gallery-block-item col-1-8 archive-gallery-block-item-tall">
-		        		<a href="{{ site.baseurl }}/assets/photos/gallery-2019/DSC01740.jpg" data-lightbox="cs3sthlm-2019"><img src="{{ site.baseurl }}/assets/photos/gallery-2019/DSC01740.jpg"></a>
+		        	{% for item in site.data.gallery2019 %}
+		        	<figure class="archive-gallery-block-item col-1-8 {% if item.type contains 'tall' %}archive-gallery-block-item-tall{% endif %}">
+		        		<a href="{{ site.baseurl }}/assets/photos/gallery-2019/{{ item.name }}" data-lightbox="cs3sthlm-2019"><img src="{{ site.baseurl }}/assets/photos/gallery-2019/{{ item.name }}"></a>
 		        	</figure>
+		        	{% endfor %}
+		        </div>
+			</div>
 
-		        	<figure class="archive-gallery-block-item col-1-8 archive-gallery-block-item-tall">
-		        		<a href="{{ site.baseurl }}/assets/photos/gallery-2019/DSC01910.jpg" data-lightbox="cs3sthlm-2019"><img src="{{ site.baseurl }}/assets/photos/gallery-2019/DSC01910.jpg"></a>
-		        	</figure>
+		</div>
 
-		        	<figure class="archive-gallery-block-item col-1-8 archive-gallery-block-item-tall">
-		        		<a href="{{ site.baseurl }}/assets/photos/gallery-2019/dinner-2019.jpg" data-lightbox="cs3sthlm-2019"><img src="{{ site.baseurl }}/assets/photos/gallery-2019/dinner-2019.jpg"></a>
-		        	</figure>
 
-		        	<figure class="archive-gallery-block-item col-1-8">
-		        		<a href="{{ site.baseurl }}/assets/photos/gallery-2019/group-photo-2019.jpg" data-lightbox="cs3sthlm-2019"><img src="{{ site.baseurl }}/assets/photos/gallery-2019/group-photo-2019.jpg"></a>
-		        	</figure>
+		<div class="archive-keynote-divider"><span class="archive-keynote-divider-data">2018</span></div>
 
-		        	<figure class="archive-gallery-block-item col-1-8">
-		        		<a href="{{ site.baseurl }}/assets/photos/gallery-2019/DSC01833.jpg" data-lightbox="cs3sthlm-2019"><img src="{{ site.baseurl }}/assets/photos/gallery-2019/DSC01833.jpg"></a>
-		        	</figure>
+		<div class="column-block col-8-8 spacing-bottom">
 
-		        	<figure class="archive-gallery-block-item col-1-8">
-		        		<a href="{{ site.baseurl }}/assets/photos/gallery-2019/DSC01733.jpg" data-lightbox="cs3sthlm-2019"><img src="{{ site.baseurl }}/assets/photos/gallery-2019/DSC01733.jpg"></a>
-		        	</figure>
+			<div class="column-block-item col-8-8">
+				<figure class="archive-gallery-block-item archive-gallery-block-item-full col-8-8">
+		        	<a href="{{ site.baseurl }}/assets/photos/expo-2019.jpg" data-lightbox="cs3sthlm-2018"><img src="{{ site.baseurl }}/assets/photos/expo-2019.jpg"></a>
+		        </figure>
 
-		        	<figure class="archive-gallery-block-item col-1-8">
-		        		<a href="{{ site.baseurl }}/assets/photos/gallery-2019/DSC01688.jpg" data-lightbox="cs3sthlm-2019"><img src="{{ site.baseurl }}/assets/photos/gallery-2019/DSC01688.jpg"></a>
+		        <div class="archive-gallery-block spacing-top">
+		        	{% for item in site.data.gallery2019 %}
+		        	<figure class="archive-gallery-block-item col-1-8 {% if item.type contains 'tall' %}archive-gallery-block-item-tall{% endif %}">
+		        		<a href="{{ site.baseurl }}/assets/photos/gallery-2019/{{ item.name }}" data-lightbox="cs3sthlm-2018"><img src="{{ site.baseurl }}/assets/photos/gallery-2019/{{ item.name }}"></a>
 		        	</figure>
-
-		        	<figure class="archive-gallery-block-item col-1-8">
-		        		<a href="{{ site.baseurl }}/assets/photos/gallery-2019/DSC01031.jpg" data-lightbox="cs3sthlm-2019"><img src="{{ site.baseurl }}/assets/photos/gallery-2019/DSC01031.jpg"></a>
-		        	</figure>
+		        	{% endfor %}
 		        </div>
 			</div>
 

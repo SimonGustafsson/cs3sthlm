@@ -454,3 +454,29 @@ p.content-intro {
 		column-count: 1;
 	}
 }
+
+
+.underline {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.tickets-awesome {
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.45px;
+
+	display: none;
+	position: absolute;
+	top: -44px;
+	right: -50%;
+	width: 200%;
+	text-align: center;
+
+	background: $yellow;
+	color: $white;
+	border-radius: 20px;
+	padding: 8px 10px;
+	box-sizing: border-box;
+}

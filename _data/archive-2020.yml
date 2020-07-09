@@ -5225,6 +5225,148 @@
   name: Nicklas Keijser
   subject: SCADApocalypse Now 4.0
 
+- id:
+  type:
+    - videos
+  when:
+    - "2019"
+  permalink: https://youtu.be/Q6vp_orsAK0
+  name: Matan Dobrushin & Yoav Flint Rosenfeld
+  subject: Project RunAway
+
+
+- id:
+  type:
+    - videos
+  when:
+    - "2019"
+  permalink: https://youtu.be/srdtDaErtXo
+  name: Janek Pelzer
+  subject: Introduction to Malcolm
+
+
+- id:
+  type:
+    - videos
+  when:
+    - "2019"
+  permalink: https://youtu.be/rfLMDNvAlTk
+  name: Daniel Stenberg
+  subject: curl - the world's most used software component?
+
+
+- id:
+  type:
+    - videos
+  when:
+    - "2019"
+  permalink: https://youtu.be/I1Uk5nEoKvk
+  name: Christopher Corbett & Kevin Gomez Buquerin
+  subject: Automotive DoIP and forensic analysis for automotive systems
+
+
+- id:
+  type:
+    - videos
+  when:
+    - "2019"
+  permalink: https://youtu.be/AzR1eohGbd4
+  name: Mike Dodson
+  subject: When will my PLC support Mirai?
+
+
+- id:
+  type:
+    - videos
+  when:
+    - "2019"
+  permalink: https://youtu.be/QehBHZyy4W4
+  name: Markus Mahrla
+  subject: Fuzz Testing IEC 61850
+
+
+- id:
+  type:
+    - videos
+  when:
+    - "2019"
+  permalink: https://youtu.be/JgXmYftbp_A
+  name: Thomas Svensson
+  subject: Introduction to Locked Shields exercise
+
+
+- id:
+  type:
+    - videos
+  when:
+    - "2019"
+  permalink: https://youtu.be/QXQN6QV-Sp0
+  name: Michael Widmann
+  subject: What is the NATO Cooperative Cyber Defence Centre of Excellence (CCDCOE)?
+
+- id:
+  type:
+    - videos
+  when:
+    - "2019"
+  permalink: https://youtu.be/NMW7KyYsXaE
+  name: Silver Saks
+  subject: Technical setup of the Locked Shields Exercise
+
+- id:
+  type:
+    - videos
+  when:
+    - "2019"
+  permalink: https://youtu.be/MVl1sABm_Ko
+  name: Sandra Bardón
+  subject: The Red Team's view from the exercise
+
+- id:
+  type:
+    - videos
+  when:
+    - "2019"
+  permalink: https://youtu.be/TJ41cetOaLs
+  name: Erik Biverot & Johan Nilsson
+  subject: The Blue side of Locked Shields
+
+- id:
+  type:
+    - videos
+  when:
+    - "2019"
+  permalink: https://youtu.be/Lyr02CuTovI
+  name: Jarkko Huttunen
+  subject: Know what's happening in the exercise
+
+- id:
+  type:
+    - videos
+  when:
+    - "2019"
+  permalink: https://youtu.be/-BFrsczf3B0
+  name: Michael Widmann
+  subject: Cyber strategic decision-making exercises
+
+- id:
+  type:
+    - videos
+  when:
+    - "2019"
+  permalink: https://youtu.be/Yv0LVcKzkXM
+  name: Jonathan Jogenfors
+  subject: "Digital Forensics and ICS: Why and how?"
+
+- id:
+  type:
+    - videos
+  when:
+    - "2019"
+  permalink: Ultra responsible disclosure
+  name: Rikard Bodforss
+  subject: Ultra responsible disclosure
+
 
 # 2018
 

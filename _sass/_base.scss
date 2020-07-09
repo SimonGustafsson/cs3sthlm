@@ -198,6 +198,10 @@ a {
     margin-right: -12px;
   }
 
+  &-linethrough {
+    position: relative;
+  }
+
   .menu-icon {
     display: inline-block;
     position: relative;
@@ -380,6 +384,19 @@ a {
 
         &:hover {
           color: $yellow;
+        }
+
+        &.menu-item-linethrough {
+
+          span {
+            text-decoration: line-through;
+          }
+
+          .menu-item-tickets-addon {
+            text-decoration: none;
+            margin-left: 3px;
+            color: $blue;
+          }
         }
 
         @include media-query($mobile) {
@@ -995,6 +1012,14 @@ a {
   flex-direction: column;
   flex-wrap: wrap;
 
+
+  &-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
   &.videos-row {
 
     .archive-row-item {
@@ -1268,7 +1293,7 @@ a {
 
 .archive-gallery-block {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
 
@@ -1280,6 +1305,12 @@ a {
     border-radius: 4px;
     border: 2px solid rgba($yellow, .5);
     margin-bottom: 24px;
+    margin-right: 24px;
+    box-sizing: border-box;
+
+    &:nth-child(8n+8) {
+      margin-right: 0;
+    }
 
     @include transition-ease;
 
@@ -1955,8 +1986,10 @@ body.lb-disable-scrolling {
   &-item {
     display: flex;
     justify-content: center;
-
     margin-right: 24px;
+
+    -webkit-filter: drop-shadow(1px 1px 20px rgba($white, .2));
+
 
     &.col-2-8 {
       width: 189px;
@@ -2684,6 +2717,11 @@ body.lb-disable-scrolling {
 
     @include media-query($mobile) {
       width: 100%;
+    }
+
+
+    &-linethrough {
+      text-decoration: line-through;
     }
 
     &-block {
