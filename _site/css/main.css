@@ -2775,4 +2775,14 @@ p.content-intro { font-size: 23px; line-height: 38px; margin-bottom: 38px; }
 
 .bar-notice p { text-transform: uppercase; line-height: 1.5; font-family: 'latobold', sans-serif; font-size: 14px; letter-spacing: 2px; color: white; }
 
+.intro-important-update { display: block; background: #1a1c20; padding: 4px 12px; box-sizing: border-box; border-radius: 20px; margin-bottom: 24px; }
+
+.intro-important-update:hover { background: white; transition: 0.24s all ease-in-out; -moz-transition: 0.24s all ease-in-out; -webkit-transtiion: 0.24s all ease-in-out; -o-transition: 0.24s all ease-in-out; }
+
+.intro-important-update:hover a { color: #030100; }
+
+.intro-important-update-notice { display: inline-block; background: #ef7d00; border-radius: 20px; padding: 2px 12px; text-transform: uppercase; font-size: 14px; font-weight: bold; letter-spacing: 0.45px; color: white; margin-right: 12px; margin-left: -4px; }
+
+.intro-important-update a { display: block; text-decoration: none; color: white; font-weight: bold; }
+
 /*# sourceMappingURL=main.css.map */

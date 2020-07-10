@@ -5,9 +5,28 @@
     <description>CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 09 Jul 2020 11:54:52 +0000</pubDate>
-    <lastBuildDate>Thu, 09 Jul 2020 11:54:52 +0000</lastBuildDate>
+    <pubDate>Fri, 10 Jul 2020 14:44:54 +0000</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2020 14:44:54 +0000</lastBuildDate>
     <generator>Jekyll v4.1.0</generator>
+    
+      <item>
+        <title>CS3STHLM Goes Virtual</title>
+        <description>&lt;p&gt;The COVID situation is problematic for all. For a long time we waited to see if it would be possible to run CS3 in Nalen as we have done for the last 5 years. We have now, after many meetings and discussions, decided to go fully virtual for 2020.&lt;/p&gt;
+
+&lt;p&gt;The traditional courses, presentations and social events will exist, but go online. We will add new formats and ideas, such as meetups, to the 2020 edition.&lt;/p&gt;
+
+&lt;p&gt;More details will be posted in the near future.&lt;/p&gt;
+
+&lt;p&gt;The CS3sthlm team&lt;/p&gt;
+</description>
+        <pubDate>Fri, 10 Jul 2020 04:00:00 +0000</pubDate>
+        <link>/news/2020/07/10/cs3sthlm-goes-virtual.html</link>
+        <guid isPermaLink="true">/news/2020/07/10/cs3sthlm-goes-virtual.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
     
       <item>
         <title>The Locked Shields Sessions</title>
@@ -278,45 +297,6 @@ These Summit-only tickets can later be combined with tickets for trainings and w
         
         
         <category>news</category>
-        
-      </item>
-    
-      <item>
-        <title>Stephen J. Hilt - Trend Micro</title>
-        <description>&lt;p&gt;&lt;em&gt;This is a blog post with Stephen J. Hilt, a senior threat researcher at Trend Micro.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h1 class=&quot;blog-title&quot; itemprop=&quot;name headline&quot;&gt;Stephen J. Hilt - Trend Micro&lt;/h1&gt;
-
-&lt;h4 id=&quot;what-is-your-name-where-do-you-work-and-what-is-your-profession&quot;&gt;What is your name, where do you work and what is your profession?&lt;/h4&gt;
-&lt;p&gt;Stephen Hilt, Trend Micro. I work as a Sr. Threat Researcher.&lt;/p&gt;
-
-&lt;h4 id=&quot;since-you-have-been-to-cs3sthlm-4sics-before-whats-your-impression&quot;&gt;Since you have been to CS3sthlm (4SICS) before, whats your impression?&lt;/h4&gt;
-&lt;p&gt;2015 was my first 4SICS and I’ve attended one more in 2016 before the name change. Great conference put on on by great people.&lt;/p&gt;
-
-&lt;h4 id=&quot;what-makes-this-area-protection-of-critical-infrastructure-so-interesting&quot;&gt;What makes this area, protection of critical infrastructure, so interesting?&lt;/h4&gt;
-&lt;p&gt;Its something that everyone depends on, every day to work. With out critical infrastructure working lots of things go wrong and its fun to work on something that every one depends on, and try to help secure it so that its there for them all the time.&lt;/p&gt;
-
-&lt;h4 id=&quot;what-can-you-highlight-from-your-upcoming-presentationdemo-at-cs3sthlm-2019&quot;&gt;What can you highlight from your upcoming presentation/demo at CS3sthlm 2019?&lt;/h4&gt;
-&lt;p&gt;My presentation will be about industrial radio insecurities with a major focus on the crane research that we released earlier in the year. No live demos this time, but more stories about what we did, how we did the research and how working with the vendors to solve a unique problem.&lt;/p&gt;
-
-&lt;h4 id=&quot;what-is-the-current-state-of-cybersecurity-in-the-markets-where-your-operating-are-the-customers-well-aware-of-the-threats-do-they-have-good-protection-in-place&quot;&gt;What is the current state of cybersecurity in the markets where your operating? Are the customers well aware of the threats? Do they have good protection in place?&lt;/h4&gt;
-&lt;p&gt;As a vendor I don’t think I should answer this question as it may sound salesy&lt;/p&gt;
-
-&lt;h4 id=&quot;what-are-the-biggest-challenges-that-you-see-in-the-ics-security-area--now-and-in-5-years&quot;&gt;What are the biggest challenges that you see in the ICS security area,- now and in 5 years?&lt;/h4&gt;
-&lt;p&gt;With malware evolving and more and more systems coming online you’ll see more cross over from Internet markets coming onto ICS networks. Case in point is who would of thought ransomware would be bringing down factories?&lt;/p&gt;
-
-&lt;h4 id=&quot;what-are-you-looking-forward-to-with-this-years-cs3sthlm&quot;&gt;What are you looking forward to with this year’s CS3sthlm?&lt;/h4&gt;
-&lt;p&gt;Discussions with like minded individuals that also want to help solve some of the problems the world is facing in the age of internet security.&lt;/p&gt;
-
-&lt;h4 id=&quot;what-would-be-your-advice-to-our-readers-and-attendees&quot;&gt;What would be your advice to our readers and attendees?&lt;/h4&gt;
-&lt;p&gt;Engage with the speakers, ask questions, get the most out of your time by making sure you have a true gasp of what they are presenting.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 24 Sep 2019 04:00:00 +0000</pubDate>
-        <link>/blog/stephen-j-hilt/</link>
-        <guid isPermaLink="true">/blog/stephen-j-hilt/</guid>
-        
-        
-        <category>blog</category>
         
       </item>
     
