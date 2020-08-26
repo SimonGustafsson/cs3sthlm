@@ -71,7 +71,9 @@
 <script src="{{ site.baseurl }}/js/searchtag.js"></script>
 {% endif %}
 <script src="{{ site.baseurl }}/js/main.js"></script>
+{% if page.id == "archive-speakers" %}
 <script src="{{ site.baseurl }}/js/archive.js"></script>
+{% endif %}
 {% if page.title == "Gallery" %}
 <script src="{{ site.baseurl }}/js/lightbox.min.js"></script>
 {% endif %}

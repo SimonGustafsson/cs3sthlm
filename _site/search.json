@@ -497,6 +497,14 @@
   
    {
      
+        "title"    : "Anne-Marie Eklund Löwinder",
+        "url"      : "/archive/speakers/anne-marie-eklund-lowinder",
+        "path"     : "archive/speakers/anne-marie-eklund-lowinder"
+     
+   },
+  
+   {
+     
         "title"    : "Patrick Miller",
         "url"      : "/archive/speakers/patrick-miller",
         "path"     : "archive/speakers/patrick-miller"
@@ -713,9 +721,17 @@
   
    {
      
-        "title"    : "Expo Presentations",
-        "url"      : "/expo/presentations/",
-        "path"     : "/expo/presentations/"
+        "title"    : "Home",
+        "url"      : "/",
+        "path"     : ""
+     
+   },
+  
+   {
+     
+        "title"    : "Thanks",
+        "url"      : "/thanks/",
+        "path"     : "/thanks/"
      
    },
   
@@ -785,6 +801,22 @@
   
    {
      
+        "title"    : "Agenda",
+        "url"      : "/agenda/",
+        "path"     : "/agenda/"
+     
+   },
+  
+   {
+     
+        "title"    : "Program",
+        "url"      : "/program/",
+        "path"     : "/program/"
+     
+   },
+  
+   {
+     
         "title"    : "Presentations",
         "url"      : "/program/presentations/",
         "path"     : "/program/presentations/"
@@ -793,9 +825,9 @@
   
    {
      
-        "title"    : "Anne-Marie Eklund Löwinder",
-        "url"      : "/archive/speakers/anne-marie-eklund-lowinder",
-        "path"     : "archive/speakers/anne-marie-eklund-lowinder"
+        "title"    : "Expo Presentations",
+        "url"      : "/expo/presentations/",
+        "path"     : "/expo/presentations/"
      
    },
   
@@ -937,38 +969,6 @@
   
    {
      
-        "title"    : "Program",
-        "url"      : "/program/",
-        "path"     : "/program/"
-     
-   },
-  
-   {
-     
-        "title"    : "Agenda",
-        "url"      : "/agenda/",
-        "path"     : "/agenda/"
-     
-   },
-  
-   {
-     
-        "title"    : "Thanks",
-        "url"      : "/thanks/",
-        "path"     : "/thanks/"
-     
-   },
-  
-   {
-     
-        "title"    : "Home",
-        "url"      : "/",
-        "path"     : ""
-     
-   },
-  
-   {
-     
    },
   
    {
@@ -1016,14 +1016,6 @@
         "title"    : "Secure your MES - the bridge between IT and OT",
         "url"      : "/program/presentations/khalid-ansari/",
         "path"     : "/program/presentations/khalid-ansari/"
-     
-   },
-  
-   {
-     
-        "title"    : "Archive List",
-        "url"      : "/archive/list",
-        "path"     : "/archive/list"
      
    },
   
