@@ -1789,6 +1789,10 @@ body.lb-disable-scrolling {
       flex-direction: column;
       width: 100%;
 
+      &-row {
+        flex-direction: row;
+      }
+
       &-block {
         display: block;
 
@@ -2184,6 +2188,7 @@ body.lb-disable-scrolling {
   width: 100%;
   box-sizing: border-box;
   flex: 1 0 auto;
+  overflow: hidden;
 
   @include media-query($small) {
     padding-top: 100px;
@@ -5230,6 +5235,151 @@ body.lb-disable-scrolling {
     @include media-query($mobile) {
       font-size: 14px;
       line-height: 32px;
+    }
+  }
+}
+
+.spacing-top-large {
+  margin-top: 192px;
+}
+
+// 2020 NEWS FEED
+
+.news-feed {
+
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-content {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+    &:before {
+      display: block;
+      content: '';
+      width: 300%;
+      height: 2px;
+      background: rgba($white, .05);
+      position: absolute;
+      top: 0;
+      left: -100%;
+    }
+    &:after {
+      display: block;
+      content: '';
+      width: 300%;
+      height: 2px;
+      background: rgba($white, .05);
+      position: absolute;
+      bottom: 0;
+      left: -100%;
+    }
+  }
+
+  &-block {
+
+  }
+
+  &-link {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 25%;
+    font-family: 'latobold', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 0.45px;
+    color: $white;
+    text-decoration: none;
+
+    border-right: 1px solid rgba($white, .05);
+
+    margin-right: 24px;
+    padding: 24px 0;
+    box-sizing: border-box;
+
+    @include transition-ease;
+
+    &:last-of-type {
+      border-right: none;
+    }
+
+    &:hover {
+      color: $yellow;
+
+      .news-feed-meta {
+        color: $yellow;
+      }
+
+      .news-feed-title:after {
+        opacity: 0;
+      }
+    }
+  }
+
+   &-meta {
+    font-family: 'latoregular', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $light-gray;
+
+    @include transition-ease;
+    
+  }
+  &-title {
+    display: block;
+    width: auto;
+    line-height: 38px;
+
+    &:after {
+      display: block;
+      content: '';
+      width: 100%;
+      height: 2px;
+      background: $yellow;
+      border-radius: 2px;
+
+      @include transition-ease;
+    }
+  }
+
+  &-date {
+    margin-right: 12px;
+  }
+
+  &-category {
+    margin-right: 48px;
+
+    &-blog {
+      color: $yellow;
+    }
+
+    &-press {
+      color: $red;
+    }
+
+    &-news {
+      color: $blue;
+    }
+  }
+  &-button {
+    font-family: 'latobold', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $light-gray;
+
+    @include transition-ease;
+
+    &:hover {
+      color: $yellow;
     }
   }
 }

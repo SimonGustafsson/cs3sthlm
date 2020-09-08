@@ -9,8 +9,11 @@ image: /assets/bg-2019.png
 
   <div class="intro-mark">
     <div class="subject-row">
-      <div class="intro-important-update">
-        <a href="{{ site.baseurl }}/news/2020/07/10/cs3sthlm-goes-virtual.html"><span class="intro-important-update-notice">Important</span>CS3STHLM Goes Virtual ></a>
+      <div class="important-tag-block spacing-bottom">
+        <a href="{{ site.baseurl }}/news/2020/07/10/cs3sthlm-goes-virtual.html" class="important-tag-link">
+          <span class="important-tag">Important -</span>
+          <span class="important-tag-highlight">CS3STHLM Goes Virtual</span>
+      </a>
       </div>
       <div class="intro-mark-block">
         <h4 class="intro-mark-date"><span class="icon icon-calender">{% include calender.html %}</span>19-22 October 2020</h4>
@@ -29,17 +32,21 @@ image: /assets/bg-2019.png
     </div>
   </div>
 
-  <div class="feed-news">
-    <h3>Recent News</h3>
-    <ul>
+  <div class="news-feed spacing-top-large">
+
+    <div class="news-feed-header">
+      <h3 class="alt-title alt-title-yellow">Recent News</h3>
+      <a href="{{ site.baseurl }}/news" class="news-feed-button">All news</a>
+    </div>
+
+    <div class="news-feed-content">
       {% for post in site.posts limit:4 %}
-      <li>
-        <a href="{{ site.baseurl }}{{ post.url }}"><span class="feed-date">{{ post.date | date: "%-d %B %-Y" }}</span><span class="feed-category category-{{ post.categories | join: ' ' }}">{{ post.categories }}</span><span class="feed-title">{{ post.title }}</span></a>
-      </li>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="news-feed-link">
+          <span class="news-feed-meta news-feed-date">{{ post.date | date: "%-d %B %-Y" }}</span>
+          <span class="news-feed-meta news-feed-category news-feed-category-{{ post.categories | join: ' ' }}">{{ post.categories }}</span>
+          <span class="news-feed-title">{{ post.title }}</span>
+      </a>
       {% endfor %}
-    </ul>
-    <div class="button-group">
-      <a href="{{ site.baseurl }}/news" class="button button-primary">View all news</a>
     </div>
   </div>
 
@@ -58,43 +65,29 @@ image: /assets/bg-2019.png
     </div>
 
     <div class="column-block col-8-8 spacing-bottom">
-      <div class="column-block col-3-8">
+      
+      <div class="column-block col-1-3">
         <div class="column-block-item column-block-bit">
-        <h3 class="headline">Who Should Attend?</h3>
-        <p>The participants at CS3STHLM are interested in securing control systems, critical infrastructure, automation and smart-grid. The summit gathers ICS/SCADA stakeholders across many different types of critical infrastructures.</p>
-        <p>CS3STHLM invites an international SCADA/ICS community, and all official communication and presentations will be in English.</p>
-        </div>
-        <div class="column-block-item column-block-bit">
-        <h3 class="headline">What Will You Learn?</h3>
-        <p>CS3STHLM offers three days full of opportunities for increased knowledge - one day of practical tutorials followed by two days of presentations by top speakers from the ICS field.</p>
-        <p>CS3STHLM is a summit that offers generous time for lectures, networking and exchange of experiences on todays challenges in regard to ICS/SCADA security, together with practical advises on how to go about to manage them. The summit is built up by a mix of presentations from two stages, practical demonstrations in the ICS lab, lightning talks and the Hallway Track for networking.</p>
+          <h3 class="headline">Who Should Attend?</h3>
+          <p>The participants at CS3STHLM are interested in securing control systems, critical infrastructure, automation and smart-grid. The summit gathers ICS/SCADA stakeholders across many different types of critical infrastructures.</p>
+          <p>CS3STHLM invites an international SCADA/ICS community, and all official communication and presentations will be in English.</p>
         </div>
       </div>
 
-      <div class="column-block col-5-8 column-block-start">
-        <div class="column-block-item column-block-bit col-3-8">
-        <h3 class="headline">Why Attend?</h3>
-        <p>The CS3STHLM summit gives you a great opportunity to experience international top-speakers and meet the most experienced experts in the field.</p>
-        <p>Robert Malmgren and Erik Johansson, two leading Swedish industrial security specialists, are the organizers of CS3STHLM. Their practical experiences are fundamental for the success of this summit.</p>
-        </div>
-        <div class="card-item card-item-filled spacing-bottom">
-        <h4 class="sub-headline">Previous Summit</h4>
-        {% assign sorthistory = site.data.history | sort:'year' | reverse %}
-        {% for card in sorthistory %}
-        {% if card.type contains "summit" and card.year contains "2019" %}
-        <h2 class="title title-yellow">{{ card.year }}</h2>
-        <h3 class="heading">{{ card.location }}</h3>
-        <p>{{ card.date }}</p>
-        <ul class="card-item-list">
-          <li><span>{{ card.nr-topics }}</span>Topics</li>
-          <li><span>{{ card.nr-speakers }}</span>Speakers</li>
-          <li><span>{{ card.nr-workshops }}</span>Workshops</li>
-          <li><span>{{ card.nr-attendees }}</span>Attendees</li>
-        </ul>
-        {% endif %}
-        {% endfor %}
+      <div class="column-block col-1-3">
+        <div class="column-block-item column-block-bit">
+          <h3 class="headline">What Will You Learn?</h3>
+          <p>CS3STHLM offers three days full of opportunities for increased knowledge - one day of practical tutorials followed by two days of presentations by top speakers from the ICS field.</p>
+          <p>CS3STHLM is a summit that offers generous time for lectures, networking and exchange of experiences on todays challenges in regard to ICS/SCADA security, together with practical advises on how to go about to manage them. The summit is built up by a mix of presentations from two stages, practical demonstrations in the ICS lab, lightning talks and the Hallway Track for networking.</p>
         </div>
       </div>
+
+      <div class="column-block-item col-1-3">
+          <h3 class="headline">Why Attend?</h3>
+          <p>The CS3STHLM summit gives you a great opportunity to experience international top-speakers and meet the most experienced experts in the field.</p>
+          <p>Robert Malmgren and Erik Johansson, two leading Swedish industrial security specialists, are the organizers of CS3STHLM. Their practical experiences are fundamental for the success of this summit.</p>
+      </div>
+    
     </div>
 
     <div class="column-block">
@@ -103,7 +96,7 @@ image: /assets/bg-2019.png
     <h4 class="sub-headline col-8-8">History</h4>
     {% assign sorthistory = site.data.history | sort:'year' | reverse %}
     {% for card in sorthistory %}
-    {% unless card.year contains "2019" or card.type contains "expo" %}
+    {% unless card.type contains "expo" %}
     <div class="card-details-block">
       <h2 class="subtitle subtitle-yellow">{{ card.year }}</h2>
       <h3 class="heading">{{ card.location }}</h3>

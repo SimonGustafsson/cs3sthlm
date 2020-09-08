@@ -8,8 +8,6 @@ layout: default
 
   {% include breadcrumbs.html %}
 
-  {% include oldcontent.html %}
-
   <div class="content-header spacing-bottom">
     <div class="col-3-8">
       <h4 class="sub-headline">Summit Presentations</h4>
@@ -18,9 +16,9 @@ layout: default
 
     <div class="col-5-8">
       <div class="button-group button-group-three">
-        <a href="#!" class="button button-primary button-red update-open">Recent Changes</a>
+        <!--<a href="#!" class="button button-primary button-red update-open">Recent Changes</a>-->
         <a href="{{ site.baseurl }}/program/speakers/" class="button button-primary"><span>View</span> Speakers</a>
-        <a href="{{ site.baseurl }}/program/trainings/" class="button button-primary"><span>View</span> Trainings</a>
+        <!--<a href="{{ site.baseurl }}/program/trainings/" class="button button-primary"><span>View</span> Trainings</a>-->
       </div>
 
       <div class="update-group col-4-8" id="update">
@@ -39,7 +37,7 @@ layout: default
       {% assign presentation = site.pages | where_exp:"item", "item.layout contains 'presentation'" %}
       {% for page in presentation %}
       <a href="{{ page.permalink }}" class="speakers-block-item col-4-8">
-        <div class="speakers-block-item-data">
+        <div class="speakers-block-item-data speakers-block-item-data-row">
           <div class="speakers-block-item-data-block speakers-block-item-data-block-image {% if page.speaker.size > 1 %}speakers-block-item-duo{% endif %}">
             {% for item in page.speaker %}
             <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}-sq.png" class="speakers-block-item-data-image" />

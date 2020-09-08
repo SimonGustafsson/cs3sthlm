@@ -261,25 +261,9 @@
   
    {
      
-        "title"    : "The fall of CODESYS",
-        "url"      : "/program/presentations/alexander-nochvay/",
-        "path"     : "/program/presentations/alexander-nochvay/"
-     
-   },
-  
-   {
-     
-        "title"    : "Applying the Consequence-driven Cyber-informed Engineering method on a Facility for a Successful Attack",
-        "url"      : "/program/presentations/andreas-jens/",
-        "path"     : "/program/presentations/andreas-jens/"
-     
-   },
-  
-   {
-     
-        "title"    : "Sandworm: Lessons From the Ukrainian Cyberwar and Beyond",
-        "url"      : "/program/presentations/andy-greenberg/",
-        "path"     : "/program/presentations/andy-greenberg/"
+        "title"    : "Reverse Engineering Siemens PLCs: Lessons Learned for Today and Tomorrow",
+        "url"      : "/program/presentations/ali-abbasi/",
+        "path"     : "/program/presentations/ali-abbasi/"
      
    },
   
@@ -301,49 +285,9 @@
   
    {
      
-        "title"    : "What is the NATO Cooperative Cyber Defence Centre of Excellence (CCDCOE)?",
-        "url"      : "/program/presentations/cdr-michael-widmann/",
-        "path"     : "/program/presentations/cdr-michael-widmann/"
-     
-   },
-  
-   {
-     
-        "title"    : "Tales from Industrial Plants and Responders.",
-        "url"      : "/program/presentations/christian-mona/",
-        "path"     : "/program/presentations/christian-mona/"
-     
-   },
-  
-   {
-     
-        "title"    : "Automotive DoIP and forensic analysis for automotive systems",
-        "url"      : "/program/presentations/christopher-kevin/",
-        "path"     : "/program/presentations/christopher-kevin/"
-     
-   },
-  
-   {
-     
-        "title"    : "curl - the world's most used software component?",
-        "url"      : "/program/presentations/daniel-stenberg/",
-        "path"     : "/program/presentations/daniel-stenberg/"
-     
-   },
-  
-   {
-     
-        "title"    : "EU STRIKE3 project",
-        "url"      : "/program/presentations/didrik-ehrenborg/",
-        "path"     : "/program/presentations/didrik-ehrenborg/"
-     
-   },
-  
-   {
-     
-        "title"    : "Security Testing for ICS Owners 2.0",
-        "url"      : "/program/presentations/dieter-sarrazyn/",
-        "path"     : "/program/presentations/dieter-sarrazyn/"
+        "title"    : "Ransomware? Please Hold for The Next Available Agent",
+        "url"      : "/program/presentations/daniel-kapellmann-zafra/",
+        "path"     : "/program/presentations/daniel-kapellmann-zafra/"
      
    },
   
@@ -357,21 +301,13 @@
   
    {
      
-        "title"    : "TLS Interception and Decryption *LIVE DEMO*",
-        "url"      : "/program/presentations/erik-hjelmvik/",
-        "path"     : "/program/presentations/erik-hjelmvik/"
-     
    },
   
    {
      
-        "title"    : "A view from the Blue side of Locked Shields",
-        "url"      : "/program/presentations/erik-johan/",
-        "path"     : "/program/presentations/erik-johan/"
-     
-   },
-  
-   {
+        "title"    : "Hidden Attack Surfaces of Modern Industrial Automation Systems",
+        "url"      : "/program/presentations/fredrico-maggi/",
+        "path"     : "/program/presentations/fredrico-maggi/"
      
    },
   
@@ -380,6 +316,70 @@
         "title"    : "Testbed Evaluation of DoS Attacks on Continuously Controlled Processes",
         "url"      : "/expo/presentations/henrik-sandberg/",
         "path"     : "/expo/presentations/henrik-sandberg/"
+     
+   },
+  
+   {
+     
+        "title"    : "Dan Demeter",
+        "url"      : "/about/archive/speakers/dan-demeter",
+        "path"     : "/about/archive/speakers/dan-demeter"
+     
+   },
+  
+   {
+     
+        "title"    : "Jonathan Homer",
+        "url"      : "/about/archive/speakers/jonathan-homer",
+        "path"     : "/about/archive/speakers/jonathan-homer"
+     
+   },
+  
+   {
+     
+        "title"    : "Dieter Sarrazyn",
+        "url"      : "/about/archive/speakers/dieter-sarrazyn",
+        "path"     : "/about/archive/speakers/dieter-sarrazyn"
+     
+   },
+  
+   {
+     
+        "title"    : "Anton Shipulin",
+        "url"      : "/about/archive/speakers/anton-shipulin",
+        "path"     : "/about/archive/speakers/anton-shipulin"
+     
+   },
+  
+   {
+     
+        "title"    : "Lars Westerdahl",
+        "url"      : "/about/archive/speakers/lars-westerdahl",
+        "path"     : "/about/archive/speakers/lars-westerdahl"
+     
+   },
+  
+   {
+     
+        "title"    : "Marcin Dudek",
+        "url"      : "/about/archive/speakers/marcin-dudek",
+        "path"     : "/about/archive/speakers/marcin-dudek"
+     
+   },
+  
+   {
+     
+        "title"    : "Dan Gunter",
+        "url"      : "/about/archive/speakers/dan-gunter",
+        "path"     : "/about/archive/speakers/dan-gunter"
+     
+   },
+  
+   {
+     
+        "title"    : "Kai Thomsen",
+        "url"      : "/about/archive/speakers/kai-thomsen",
+        "path"     : "/about/archive/speakers/kai-thomsen"
      
    },
   
@@ -721,17 +721,9 @@
   
    {
      
-        "title"    : "Home",
-        "url"      : "/",
-        "path"     : ""
-     
-   },
-  
-   {
-     
-        "title"    : "Thanks",
-        "url"      : "/thanks/",
-        "path"     : "/thanks/"
+        "title"    : "Expo Presentations",
+        "url"      : "/expo/presentations/",
+        "path"     : "/expo/presentations/"
      
    },
   
@@ -801,33 +793,9 @@
   
    {
      
-        "title"    : "Agenda",
-        "url"      : "/agenda/",
-        "path"     : "/agenda/"
-     
-   },
-  
-   {
-     
-        "title"    : "Program",
-        "url"      : "/program/",
-        "path"     : "/program/"
-     
-   },
-  
-   {
-     
-        "title"    : "Presentations",
-        "url"      : "/program/presentations/",
-        "path"     : "/program/presentations/"
-     
-   },
-  
-   {
-     
-        "title"    : "Expo Presentations",
-        "url"      : "/expo/presentations/",
-        "path"     : "/expo/presentations/"
+        "title"    : "Thanks",
+        "url"      : "/thanks/",
+        "path"     : "/thanks/"
      
    },
   
@@ -905,85 +873,37 @@
   
    {
      
-        "title"    : "Dan Demeter",
-        "url"      : "/about/archive/speakers/dan-demeter",
-        "path"     : "/about/archive/speakers/dan-demeter"
+        "title"    : "Presentations",
+        "url"      : "/program/presentations/",
+        "path"     : "/program/presentations/"
      
    },
   
    {
      
-        "title"    : "Jonathan Homer",
-        "url"      : "/about/archive/speakers/jonathan-homer",
-        "path"     : "/about/archive/speakers/jonathan-homer"
+        "title"    : "Program",
+        "url"      : "/program/",
+        "path"     : "/program/"
      
    },
   
    {
      
-        "title"    : "Dieter Sarrazyn",
-        "url"      : "/about/archive/speakers/dieter-sarrazyn",
-        "path"     : "/about/archive/speakers/dieter-sarrazyn"
+        "title"    : "Agenda",
+        "url"      : "/agenda/",
+        "path"     : "/agenda/"
      
    },
   
    {
      
-        "title"    : "Anton Shipulin",
-        "url"      : "/about/archive/speakers/anton-shipulin",
-        "path"     : "/about/archive/speakers/anton-shipulin"
+        "title"    : "Home",
+        "url"      : "/",
+        "path"     : ""
      
    },
   
    {
-     
-        "title"    : "Lars Westerdahl",
-        "url"      : "/about/archive/speakers/lars-westerdahl",
-        "path"     : "/about/archive/speakers/lars-westerdahl"
-     
-   },
-  
-   {
-     
-        "title"    : "Marcin Dudek",
-        "url"      : "/about/archive/speakers/marcin-dudek",
-        "path"     : "/about/archive/speakers/marcin-dudek"
-     
-   },
-  
-   {
-     
-        "title"    : "Dan Gunter",
-        "url"      : "/about/archive/speakers/dan-gunter",
-        "path"     : "/about/archive/speakers/dan-gunter"
-     
-   },
-  
-   {
-     
-        "title"    : "Kai Thomsen",
-        "url"      : "/about/archive/speakers/kai-thomsen",
-        "path"     : "/about/archive/speakers/kai-thomsen"
-     
-   },
-  
-   {
-     
-   },
-  
-   {
-     
-        "title"    : "Introduction to Malcolm",
-        "url"      : "/program/presentations/janek-pelzer/",
-        "path"     : "/program/presentations/janek-pelzer/"
-     
-   },
-  
-   {
-     
-        "title"    : "Presenting how we know what’s happening in the exercise and measuring",
-        "url"      : "/program/presentations/jarkko-huttunen/",
-        "path"     : "/program/presentations/jarkko-huttunen/"
      
    },
   
@@ -997,25 +917,25 @@
   
    {
      
-        "title"    : "Broken Rungs: A look at popular ladder logic runtime privileges",
-        "url"      : "/program/presentations/jimmy-reid/",
-        "path"     : "/program/presentations/jimmy-reid/"
+        "title"    : "So You Want to Take Down the Electric Grid - or You Want to Defend It",
+        "url"      : "/program/presentations/joe-slowik/",
+        "path"     : "/program/presentations/joe-slowik/"
      
    },
   
    {
      
-        "title"    : "Digital Forensics and ICS: Why and how?",
-        "url"      : "/program/presentations/jonathan-jogenfors/",
-        "path"     : "/program/presentations/jonathan-jogenfors/"
+        "title"    : "Bug hunting in cloud connected ICS devices: Getting root from the cloud",
+        "url"      : "/program/presentations/kelly-leuschner/",
+        "path"     : "/program/presentations/kelly-leuschner/"
      
    },
   
    {
      
-        "title"    : "Secure your MES - the bridge between IT and OT",
-        "url"      : "/program/presentations/khalid-ansari/",
-        "path"     : "/program/presentations/khalid-ansari/"
+        "title"    : "Hacking Advanced Metering Infrastructure (AMI) – an attacker’s perspective on Distribution System Operator (in)security",
+        "url"      : "/program/presentations/krzysztof-swaczynski/",
+        "path"     : "/program/presentations/krzysztof-swaczynski/"
      
    },
   
@@ -1028,30 +948,6 @@
    },
   
    {
-     
-   },
-  
-   {
-     
-        "title"    : "IT vs. OT: We are Much More Similar than We are Different. Comparing Process Control Room and SOC operations",
-        "url"      : "/program/presentations/marina-krotofil/",
-        "path"     : "/program/presentations/marina-krotofil/"
-     
-   },
-  
-   {
-     
-        "title"    : "Fuzz Testing IEC 61850",
-        "url"      : "/program/presentations/markus-mahrla/",
-        "path"     : "/program/presentations/markus-mahrla/"
-     
-   },
-  
-   {
-     
-        "title"    : "Project RunAway",
-        "url"      : "/program/presentations/matan-yoav/",
-        "path"     : "/program/presentations/matan-yoav/"
      
    },
   
@@ -1073,30 +969,6 @@
   
    {
      
-        "title"    : "When will my PLC support Mirai?  The security economics of large-scale attacks against ICS",
-        "url"      : "/program/presentations/mike-dodson/",
-        "path"     : "/program/presentations/mike-dodson/"
-     
-   },
-  
-   {
-     
-        "title"    : "Nation-State Supply Chain Attacks for Dummies and You Too",
-        "url"      : "/program/presentations/monta-elkins/",
-        "path"     : "/program/presentations/monta-elkins/"
-     
-   },
-  
-   {
-     
-   },
-  
-   {
-     
-        "title"    : "SCADApocalypse Now 4.0?",
-        "url"      : "/program/presentations/nicklas-keijser/",
-        "path"     : "/program/presentations/nicklas-keijser/"
-     
    },
   
    {
@@ -1108,30 +980,6 @@
         "title"    : "Privacy Policy",
         "url"      : "/privacy-policy/",
         "path"     : "/privacy-policy/"
-     
-   },
-  
-   {
-     
-        "title"    : "Building a distributed and robust time synchronisation service",
-        "url"      : "/program/presentations/ragnar-sundblad/",
-        "path"     : "/program/presentations/ragnar-sundblad/"
-     
-   },
-  
-   {
-     
-        "title"    : "Demystifying TSCM or how to spot the witch doctor doing the raindance",
-        "url"      : "/program/presentations/richard-widh/",
-        "path"     : "/program/presentations/richard-widh/"
-     
-   },
-  
-   {
-     
-        "title"    : "Ultra responsible disclosure – or how to deal with a 0-day in critical infrastructure",
-        "url"      : "/program/presentations/rikard-bodforss/",
-        "path"     : "/program/presentations/rikard-bodforss/"
      
    },
   
@@ -1153,22 +1001,6 @@
   
    {
      
-        "title"    : "Red Teams view from the exercise",
-        "url"      : "/program/presentations/sandra-bardon/",
-        "path"     : "/program/presentations/sandra-bardon/"
-     
-   },
-  
-   {
-     
-        "title"    : "Layered Blueprints – an ontology and method for (talking about) engineering OT Security",
-        "url"      : "/program/presentations/sarah-fluchs/",
-        "path"     : "/program/presentations/sarah-fluchs/"
-     
-   },
-  
-   {
-     
         "title"    : "Search",
         "url"      : "/search/",
         "path"     : "/search/"
@@ -1176,14 +1008,6 @@
    },
   
    {
-     
-   },
-  
-   {
-     
-        "title"    : "Digging into the technical setup of the exercise",
-        "url"      : "/program/presentations/silver-saks/",
-        "path"     : "/program/presentations/silver-saks/"
      
    },
   
@@ -1201,37 +1025,13 @@
   
    {
      
-        "title"    : "How we reverse-engineered multiple industrial radio remote-control systems",
+        "title"    : "Fake Company, Fake Factory but Real Attacks: Stories of a Realistic, High Interaction ICS Honeypot.",
         "url"      : "/program/presentations/stephen-hilt/",
         "path"     : "/program/presentations/stephen-hilt/"
      
    },
   
    {
-     
-        "title"    : "Introduction to Locked Shields exercise",
-        "url"      : "/program/presentations/thomas-svensson/",
-        "path"     : "/program/presentations/thomas-svensson/"
-     
-   },
-  
-   {
-     
-        "title"    : "The cyber-attack on Hydro",
-        "url"      : "/program/presentations/torstein-gimnes-are/",
-        "path"     : "/program/presentations/torstein-gimnes-are/"
-     
-   },
-  
-   {
-     
-   },
-  
-   {
-     
-        "title"    : "Memory Forensics and DMA Attacks with MemProcFS and PCILeech",
-        "url"      : "/program/presentations/ulf-frisk/",
-        "path"     : "/program/presentations/ulf-frisk/"
      
    },
   

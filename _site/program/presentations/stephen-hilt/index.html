@@ -6,9 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>CS3STHLM | How we reverse-engineered multiple industrial radio remote-control systems</title>
+  <title>CS3STHLM | Fake Company, Fake Factory but Real Attacks: Stories of a Realistic, High Interaction ICS Honeypot.</title>
   <meta name="description" content="CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.">
-  <meta property="og:title" content="CS3STHLM | How we reverse-engineered multiple industrial radio remote-control systems" />
+  <meta property="og:title" content="CS3STHLM | Fake Company, Fake Factory but Real Attacks: Stories of a Realistic, High Interaction ICS Honeypot." />
   <meta property="og:description" content="CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo." />
   <meta property="og:type" content="website" />
 
@@ -55,14 +55,14 @@
 				<!--<li><a href="/ics-lab">ICS Lab</a></li>-->
 				<li><a href="/partners">Partners</a></li>
 				<!--<li><a href="/practical-details">Practical Details</a></li>-->
-				<!--<li class="submenu-prim"><a href="/program">Program<span class="icon icon-arrow-down"><svg width="8px" height="5px" viewBox="0 0 8 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4.1257678,4.26678784 C3.8663986,4.57803081 3.445389,4.57744383 3.186509,4.26678784 L0.1004818,0.56355525 C-0.1588873,0.25231228 0.1014356,0 0.6791943,0 L6.6330824,0 C7.2120656,0 7.4706749,0.25289927 7.2117949,0.56355525 L4.1257678,4.26678784 Z" id="arrow-down" fill="currentColor"></path></svg></span></a>
+				<li class="submenu-prim"><a href="/program">Program<span class="icon icon-arrow-down"><svg width="8px" height="5px" viewBox="0 0 8 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4.1257678,4.26678784 C3.8663986,4.57803081 3.445389,4.57744383 3.186509,4.26678784 L0.1004818,0.56355525 C-0.1588873,0.25231228 0.1014356,0 0.6791943,0 L6.6330824,0 C7.2120656,0 7.4706749,0.25289927 7.2117949,0.56355525 L4.1257678,4.26678784 Z" id="arrow-down" fill="currentColor"></path></svg></span></a>
 					<ul class="submenu">
 						<li><a href="/program/presentations">Presentations</a></li>
 						<li><a href="/program/speakers">Speakers</a></li>
-						<li><a href="/program/trainings">Trainings</a></li>
+						<!--<li><a href="/program/trainings">Trainings</a></li>-->
 					</ul>
 				</li>
-				-->
+				
 				<!--<li><a href="/search">Search</a></li>-->
 				<li><a href="#!" class="menu-item-linethrough"><span>Tickets</span><span class="menu-item-tickets-addon">- Coming soon</span></a></li>
 			</ul>
@@ -101,11 +101,6 @@
   	
 	
 </ul>
-
-  <div class="bar-notice old-content col-8-8">
-	<span class="bar-notice-year">2019 Archive</span>
-	<p>How we reverse-engineered multiple industrial radio remote-control systems</p>
-</div>
   
   <article class="post col-8-8 column-block" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -146,38 +141,14 @@
     <section class="post-content column-block-item col-5-8 spacing-left" itemprop="articleBody">
 
       <header class="post-header">
-        <h1 class="title title-yellow" itemprop="name headline">How we reverse-engineered multiple industrial radio remote-control systems</h1>
+        <h1 class="title title-yellow" itemprop="name headline">Fake Company, Fake Factory but Real Attacks: Stories of a Realistic, High Interaction ICS Honeypot.</h1>
       </header>
 
-      <p>In 2018 we disclosed a total of 10 vulnerabilities to 7 independent industrial radio remote-control vendors. Our findings boil down to being able to control any equipment connected via these type of radio remote-control systems. So far, we focused our reports and speaking engagements on reaching out to as many people as possible, to increase awareness about the problem. At this time, we want to share stories about how we were able to perform the research and achieve the results with a globally dispersed team looking at global radio vendors.</p>
+      <p>Deploying honeypots or other deception technology to attract attackers is the to-go approach to discover unknown threats or simply to assess the threat level against a specific target. Over the years, however, attackers have grown accustomed to the presence of honeypots and learned how to get around them. We decided to make one of the most realistic ones created to date, it was so real – it was mistakenly identified as a real production environment by other security researchers!</p>
 
-<p>This talk will focus on the “backstage” of this research, that is:</p>
-<ul>
-  <li>how we started it and why we selected this class of systems</li>
-  <li>how we selected the vendors out from our extensive market search</li>
-  <li>how are these systems built, and how we figured this out</li>
-  <li>for two systems in details, we will describe
-    <ul>
-      <li>how to approach them from a reverse-engineering standpoint</li>
-      <li>how to interpret their RF protocol</li>
-      <li>what tools are needed for an in-depth reverse engineering</li>
-      <li>why we needed to come up with our own tools for certain corner cases (e.g., tricky modulation schemes)</li>
-    </ul>
-  </li>
-  <li>how the disclosure process went
-    <ul>
-      <li>what challenges we found along the way</li>
-      <li>what were the vendors’ responses (Vendors will not be called out for bad responses by name)</li>
-      <li>what is the status of the vulnerabilities now – lookout on future research trends in this space</li>
-    </ul>
-  </li>
-</ul>
+<p>In this talk we will see how, over the course of a few months, we designed, setup, and built a factory honeypot that was so real that we could have started making products with it. We went as far as creating a fake company including online presence, with a website featuring employee profiles and pictures, phone numbers with auto-responding prompts with extension numbers, postal addresses, etc. Also, we went beyond recording network and host attack traces: We wanted to be able to see the attacker actions as they were happening on the screen, so we created a system to record screencast on demand, when activity is detected on the host.</p>
 
-<p>While the project was a success the road to get there, was very bumpy due to things that all researchers face. We will also discuss how we overcame some of the obstacles, such as identifying the chips, micro soldering with non-professional equipment, reversing unreliable radio signals caught over the air.</p>
-
-<h4 id="target-audience">Target audience</h4>
-<p>Technical, with the understanding of embedded systems and sub-GHz radio communication.</p>
-
+<p>By attending this talk, you will learn what kind of attacks we’ve recorded, ranging from the initial reconnaissance scans, interactions, frauds, and ransomware infection. Finally, the session will wrap up with some recommendations based on the findings from building and running this honeypot.</p>
 
 
       <div class="post-pagination column-block-item col-5-8">
@@ -194,25 +165,15 @@
         
         <div class="post-pagination-item col-2-8">
           <h4 class="sub-headline sub-headline-gray">Previous Presentation</h4>
-          <a class="alt-title alt-title-small alt-title-light" rel="prev" href="/program/presentations/silver-saks/">Digging into the technical setup of the exercise</a>
+          <a class="alt-title alt-title-small alt-title-light" rel="prev" href="/program/presentations/krzysztof-swaczynski/">Hacking Advanced Metering Infrastructure (AMI) – an attacker’s perspective on Distribution System Operator (in)security</a>
           <h5 class="alt-title alt-title-small alt-title-gray">
             
-            <span>Silver Saks</span>
+            <span>Krzysztof Swaczyński</span>
             
           </h5>
         </div>
         
 
-        
-        <div class="post-pagination-item col-2-8 col-left-space">
-          <h4 class="sub-headline sub-headline-gray">Next Presentation</h4>
-          <a class="alt-title alt-title-small alt-title-light" rel="next" href="/program/presentations/thomas-svensson/">Introduction to Locked Shields exercise</a>
-          <h5 class="alt-title alt-title-small alt-title-gray">
-            
-            <span>Thomas Svensson</span>
-            
-          </h5>
-        </div>
         
       <div>
 
@@ -279,7 +240,7 @@
     	<li><a href="https://www.youtube.com/cs3sthlm" target="_blank">YouTube</a></li>
     </ul>
 
-    <p class="typemark">&copy; 2014 - 2019 CS3STHLM - Organized by Omnisiens AB</p>
+    <p class="typemark">&copy; 2014 - 2020 CS3STHLM - Organized by Omnisiens AB</p>
 
     </div>
 

@@ -1,5 +1,5 @@
 ---
-title: How we reverse-engineered multiple industrial radio remote-control systems
+title: "Fake Company, Fake Factory but Real Attacks: Stories of a Realistic, High Interaction ICS Honeypot."
 permalink: "/program/presentations/stephen-hilt/"
 layout: presentation
 speaker:
@@ -11,23 +11,8 @@ id: presentation
 published: true
 ---
 
-In 2018 we disclosed a total of 10 vulnerabilities to 7 independent industrial radio remote-control vendors. Our findings boil down to being able to control any equipment connected via these type of radio remote-control systems. So far, we focused our reports and speaking engagements on reaching out to as many people as possible, to increase awareness about the problem. At this time, we want to share stories about how we were able to perform the research and achieve the results with a globally dispersed team looking at global radio vendors.
+Deploying honeypots or other deception technology to attract attackers is the to-go approach to discover unknown threats or simply to assess the threat level against a specific target. Over the years, however, attackers have grown accustomed to the presence of honeypots and learned how to get around them. We decided to make one of the most realistic ones created to date, it was so real – it was mistakenly identified as a real production environment by other security researchers!
 
-This talk will focus on the "backstage" of this research, that is:
-* how we started it and why we selected this class of systems
-* how we selected the vendors out from our extensive market search
-* how are these systems built, and how we figured this out
-* for two systems in details, we will describe
-	* how to approach them from a reverse-engineering standpoint
-	* how to interpret their RF protocol
-	* what tools are needed for an in-depth reverse engineering
-	* why we needed to come up with our own tools for certain corner cases (e.g., tricky modulation schemes)
-* how the disclosure process went
-	* what challenges we found along the way
-	* what were the vendors' responses (Vendors will not be called out for bad responses by name)
-	* what is the status of the vulnerabilities now – lookout on future research trends in this space
+In this talk we will see how, over the course of a few months, we designed, setup, and built a factory honeypot that was so real that we could have started making products with it. We went as far as creating a fake company including online presence, with a website featuring employee profiles and pictures, phone numbers with auto-responding prompts with extension numbers, postal addresses, etc. Also, we went beyond recording network and host attack traces: We wanted to be able to see the attacker actions as they were happening on the screen, so we created a system to record screencast on demand, when activity is detected on the host.
 
-While the project was a success the road to get there, was very bumpy due to things that all researchers face. We will also discuss how we overcame some of the obstacles, such as identifying the chips, micro soldering with non-professional equipment, reversing unreliable radio signals caught over the air.
-
-#### Target audience
-Technical, with the understanding of embedded systems and sub-GHz radio communication.
+By attending this talk, you will learn what kind of attacks we’ve recorded, ranging from the initial reconnaissance scans, interactions, frauds, and ransomware infection. Finally, the session will wrap up with some recommendations based on the findings from building and running this honeypot.

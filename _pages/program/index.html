@@ -9,8 +9,6 @@ image: /assets/photos/cs3sthlm-erwin-rik.jpg
 
   {% include breadcrumbs.html %}
 
-  {% include oldcontent.html %}
-
   <div class="content-header">
     <div class="col-4-8">
       <h4 class="sub-headline">Summit Program</h4>
@@ -66,6 +64,7 @@ image: /assets/photos/cs3sthlm-erwin-rik.jpg
 
 </section>
 
+<!--
 <section class="content">
 
   <div class="column-block column-block-bit program-training">
@@ -106,7 +105,7 @@ image: /assets/photos/cs3sthlm-erwin-rik.jpg
   </div>
 
 </section>
-
+-->
 <section class="content">
 
   <div class="column-block column-block-bit">
@@ -119,7 +118,7 @@ image: /assets/photos/cs3sthlm-erwin-rik.jpg
       {% assign presentation = site.pages | where_exp:"item", "item.layout contains 'presentation'" | sample: 4 %}
       {% for page in presentation limit: 8 %}
       <a href="{{ page.permalink }}" class="speakers-block-item col-4-8">
-        <div class="speakers-block-item-data">
+        <div class="speakers-block-item-data speakers-block-item-data-row">
           <div class="speakers-block-item-data-block speakers-block-item-data-block-image {% if page.speaker.size > 1 %}speakers-block-item-duo{% endif %}">
             {% for item in page.speaker %}
             <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}-sq.png" class="speakers-block-item-data-image" />
