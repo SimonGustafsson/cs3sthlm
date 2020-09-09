@@ -25,7 +25,7 @@ We'll share cases of vulnerable and malicious task programs, and how to discover
 
 We conclude by discussing the remediation steps that can be adopted by developers and vendors to mitigate our findings in the medium and long term.
 
-Takeaways:
+### Takeaways:
 - Learn that programming environments for industrial automation are extensible with plug-in systems (like many other software applications), which could be the weak entry point that can be exploited by using plug-ins as an attack vector.
 - Learn that the proliferation of customizable IIoT is creating the demand for faster (and more accessible) firmware development, which in turns makes 3rd-party development libraries an attractive target.
 - Learn that the languages used to program industrial robots, and possibly other machines, include features that can allow writing and hiding malicious or vulnerable code.

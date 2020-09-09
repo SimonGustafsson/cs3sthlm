@@ -146,110 +146,150 @@
 
       <p>As more and more devices are becoming cloud connected it is important to understand how this attack surface is different from traditional socket based server applications. There is no open port listening with a cloud connected application so there is additional work required in order to just get the application to accept attacker controlled data. This talk will walk through the initial steps necessary to even begin vulnerability research of the application. Cloud based control of physical devices has some security benefits compared to traditional socket programming but, at the end of the day there is an application running on a device that acts on messages from the cloud. This means that there is opportunity for bugs and vulnerabilities in the software responsible for handling cloud messages. This talk will describe changes in research methodology that are necessary for performing vulnerability research on a cloud connected application. Zero-day vulnerabilities found in a cloud connected application on a popular industrial controller will be covered in depth. These vulnerabilities will be demonstrated live by impersonating the industrial vendor cloud application, resulting in getting root from the cloud.</p>
 
-<p>Outline:</p>
+<h2 id="outline">Outline</h2>
+<ul>
+  <li>Introduction</li>
+</ul>
+
+<h3 id="moving-to-the-cloud">Moving to the cloud</h3>
 <ol>
-  <li>Introduction (2 minutes)</li>
-  <li>Moving to the cloud (8 minutes)
-2.1 Software stack, traditional vs. cloud connected
-2.2 Additional security benefits of cloud applications
+  <li>Software stack, traditional vs. cloud connected</li>
+  <li>Additional security benefits of cloud applications
     <ul>
       <li>Libraries provided which include:</li>
       <li>Authentication enabled by default (most times)</li>
-      <li>Encryption enabled by default (most times)
-2.3 Where are vulnerabilities most likely to be found?</li>
-      <li>In the actual handling of the message data, and the actions
-taken as a result</li>
-      <li>Vendor code
-2.4 Challenges for Vulnerability research</li>
-      <li>Researcher doesn’t have access to application running in the
-cloud</li>
-      <li>at least not source access</li>
-      <li>Authentication and encryption makes it difficult to MITM to
-observe traffic for research</li>
-      <li>Pre-work is necessary to even begin learning about the data
-format</li>
+      <li>Encryption enabled by default (most times)</li>
+    </ul>
+  </li>
+  <li>Where are vulnerabilities most likely to be found?
+    <ul>
+      <li>In the actual handling of the message data, and the actions taken as a result Vendor code</li>
+    </ul>
+  </li>
+  <li>Challenges for Vulnerability research
+    <ul>
+      <li>Researcher doesn’t have access to application running in the cloud at least not source access</li>
+      <li>Authentication and encryption makes it difficult to MITM to observe traffic for research</li>
+      <li>Pre-work is necessary to even begin learning about the data format</li>
       <li>Which is what we will go into next</li>
     </ul>
   </li>
-  <li>Intro to the industrial controller (5 minutes)
-3.1 Azure IoT Hub client</li>
 </ol>
 
-<ul>
-  <li>MQTT based protocol</li>
-  <li>JSON data format</li>
-  <li>We will need to learn the exact format through research
-3.2 Azure IoT Hub</li>
-  <li>Running the industrial vendor cloud application
-    <ol>
-      <li>Protocol Overview (5 minutes)
-4.1 MQTT Overview</li>
-    </ol>
+<h3 id="intro-to-the-industrial-controller">Intro to the industrial controller</h3>
+<ol>
+  <li>Azure IoT Hub client
+    <ul>
+      <li>MQTT based protocol</li>
+      <li>JSON data format</li>
+      <li>We will need to learn the exact format through research</li>
+    </ul>
   </li>
-  <li>Publish / Subscribe protocol</li>
-  <li>Client</li>
-  <li>Broker</li>
-  <li>Cloud Application
-4.2 MQTT Topics</li>
-  <li>Format</li>
-  <li>Examples</li>
-  <li>Wildcards
-    <ol>
-      <li>Research Methodology (8 minutes)
-5.1 Changes to Research Approach</li>
-    </ol>
+  <li>Azure IoT Hub
+    <ul>
+      <li>Running the industrial vendor cloud application</li>
+    </ul>
   </li>
-  <li>Can’t connect to a port and start sending data</li>
-  <li>If you’re lucky you might have access to both applications and
-could capture data between them</li>
-  <li>Options</li>
-  <li>Configure the device to connect to a real cloud instance
-that you control</li>
-  <li>Stand up a “local” server pretending to be the cloud
-5.2 Test Setup - Real cloud instance</li>
-  <li>In this scenario the researcher must have access to configure
-connection properties with the cloud
-5.3 Test Setup - Local MQTT broker</li>
-  <li>In this scenario the researcher must have the ability to add a
-root certificate to the device. (will probably require root)
-    <ol>
-      <li>Industrial controller vulnerabilities (10 minutes)
-7.1 Supported messages</li>
-    </ol>
-  </li>
-  <li>Discuss device specific messages
-7.2 Discuss vulnerable message structure
-7.3 Outline of vulnerable process</li>
-  <li>Discuss steps involved
-7.4 Vulnerability explanations</li>
-  <li>Discuss specific vulnerabilities
-7.5 DEMO (live - will have pre-recorded video as a backup)</li>
-  <li>Code Execution from the cloud
-    <ol>
-      <li>Conclusion (2 minutes)
-7.1 Mitigations / Lessons Learned</li>
-    </ol>
-  </li>
-  <li>Discuss mistakes to avoid when developing a cloud application</li>
-  <li>Discuss ways to mitigate with existing industrial control
-devices
-7.2 Review - Research Pre-work</li>
-  <li>Impersonating the cloud application</li>
-  <li>Local vs. Real Cloud instance</li>
-  <li>Learning the topic format</li>
-  <li>For both publish and subscribe</li>
-  <li>Learning the data format</li>
-  <li>Finding the data parsing code</li>
-  <li>From there it’s business as usual for vulnerability research</li>
-</ul>
+</ol>
 
-<p>Target audience: Familiarity with programming and common bug classes</p>
+<h3 id="protocol-overview">Protocol Overview</h3>
+<ol>
+  <li>MQTT Overview
+    <ul>
+      <li>Publish / Subscribe protocol</li>
+      <li>Client</li>
+      <li>Broker</li>
+      <li>Cloud Application</li>
+    </ul>
+  </li>
+  <li>MQTT Topics
+    <ul>
+      <li>Format</li>
+      <li>Examples</li>
+      <li>Wildcards</li>
+    </ul>
+  </li>
+</ol>
 
-<p>Audience expectations: Detailed description of vulnerability research methodology relating to cloud connected ICS devices.</p>
+<h3 id="research-methodology">Research Methodology</h3>
+<ol>
+  <li>Changes to Research Approach
+    <ul>
+      <li>Can’t connect to a port and start sending data</li>
+      <li>If you’re lucky you might have access to both applications and could capture data between them</li>
+      <li>Options</li>
+      <li>Configure the device to connect to a real cloud instance that you control</li>
+      <li>Stand up a “local” server pretending to be the cloud</li>
+    </ul>
+  </li>
+  <li>Test Setup - Real cloud instance
+    <ul>
+      <li>In this scenario the researcher must have access to configure connection properties with the cloud</li>
+    </ul>
+  </li>
+  <li>Test Setup - Local MQTT broker
+    <ul>
+      <li>In this scenario the researcher must have the ability to add a root certificate to the device. (will probably require root)</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="industrial-controller-vulnerabilities">Industrial controller vulnerabilities</h3>
+<ol>
+  <li>Supported messages
+    <ul>
+      <li>Discuss device specific messages</li>
+    </ul>
+  </li>
+  <li>Discuss vulnerable message structure</li>
+  <li>Outline of vulnerable process
+    <ul>
+      <li>Discuss steps involved</li>
+    </ul>
+  </li>
+  <li>Vulnerability explanations
+    <ul>
+      <li>Discuss specific vulnerabilities</li>
+    </ul>
+  </li>
+  <li>DEMO (live)
+    <ul>
+      <li>Code Execution from the cloud</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="conclusion">Conclusion</h3>
+<ol>
+  <li>Mitigations / Lessons Learned
+    <ul>
+      <li>Discuss mistakes to avoid when developing a cloud application</li>
+      <li>Discuss ways to mitigate with existing industrial control devices</li>
+    </ul>
+  </li>
+  <li>Review - Research Pre-work
+    <ul>
+      <li>Impersonating the cloud application</li>
+      <li>Local vs. Real Cloud instance</li>
+      <li>Learning the topic format</li>
+      <li>For both publish and subscribe</li>
+      <li>Learning the data format</li>
+      <li>Finding the data parsing code</li>
+      <li>From there it’s business as usual for vulnerability research</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="target-audience">Target audience</h3>
+<p>Familiarity with programming and common bug classes</p>
+
+<h3 id="audience-expectations">Audience expectations</h3>
+<p>Detailed description of vulnerability research methodology relating to cloud connected ICS devices.</p>
 
 <p>Description of an attack chain combining multiple zero day vulnerabilities to gain root access to a cloud connected controller.</p>
 
-<p>Audience takeaway: Cloud connectivity provides many benefits to Industrial automation, but it also provides additional attack surface. Vendors should be mindful of untrusted data even if it comes from a cloud application.</p>
+<h3 id="audience-takeaway">Audience takeaway</h3>
+<p>Cloud connectivity provides many benefits to Industrial automation, but it also provides additional attack surface. Vendors should be mindful of untrusted data even if it comes from a cloud application.</p>
 
 
       <div class="post-pagination column-block-item col-5-8">

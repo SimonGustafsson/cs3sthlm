@@ -23,17 +23,18 @@ Despite this scenario, it is not uncommon for ICS/OT security professionals to c
         
 In this talk, we highlight why ransomware is a relevant challenge for ICS/OT security practitioners, describe some of the main TTPs used by attackers for post-compromise ransomware, and share ideas for actionable ways to address this problem. We invite the audience to learn how to collaborate across the organization so the next time they need to talk about ransomware, they are not forced to delegate the task to the next available agent.
 
-b. Type or target audience:
-i. no pre-requisites, should be interesting for the general audience as we have seen a variety of customers inquiring about this topic. We believe this topic would work well both for experienced security professionals looking for a deep dive, but also for other positions that seek to understand what the challenge is and what to do about it from an organizational level.
+### Type or target audience
 
-c. What audience should expect from the presentation:
+No pre-requisites, should be interesting for the general audience as we have seen a variety of customers inquiring about this topic. We believe this topic would work well both for experienced security professionals looking for a deep dive, but also for other positions that seek to understand what the challenge is and what to do about it from an organizational level.
 
-i. The audience should expect to learn about the impacts of ransomware in industrial/critical infrastructure organizations, learn about past relevant cases, and take a deep dive into the TTPs that we have observed actors leveraging for post-compromise incidents.
+### What audience should expect from the presentation
 
-ii. One of the main strengths of the talk is that it will leverage knowledge from our organization responding to and understanding ransomware incidents, but it will also place the information in the context of ICS/OT.
+The audience should expect to learn about the impacts of ransomware in industrial/critical infrastructure organizations, learn about past relevant cases, and take a deep dive into the TTPs that we have observed actors leveraging for post-compromise incidents.
 
-iii. It will also challenge some of the conceptions we currently have about the degree of collaboration between IT and ICS.OT security teams. Highlighting what can ICS/OT security teams do to address this challenge, mainly when it happens at different levels of the organization. 
+One of the main strengths of the talk is that it will leverage knowledge from our organization responding to and understanding ransomware incidents, but it will also place the information in the context of ICS/OT.
 
-d. Key takeaway:
+It will also challenge some of the conceptions we currently have about the degree of collaboration between IT and ICS.OT security teams. Highlighting what can ICS/OT security teams do to address this challenge, mainly when it happens at different levels of the organization. 
 
-i. Addressing the challenge of ransomware in industrial/critical infrastructure organization must be a shared responsibility. Even though there is no impact in the controllers, ransomware infections oftentimes result in direct or indirect delays and disruptions to production.
+### Key takeaway
+
+Addressing the challenge of ransomware in industrial/critical infrastructure organization must be a shared responsibility. Even though there is no impact in the controllers, ransomware infections oftentimes result in direct or indirect delays and disruptions to production.
