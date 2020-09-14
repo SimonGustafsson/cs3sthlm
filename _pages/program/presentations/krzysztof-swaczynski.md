@@ -4,7 +4,7 @@ permalink: "/program/presentations/krzysztof-swaczynski/"
 layout: presentation
 speaker:
 - name: Krzysztof Swaczyński
-  role: 
+  role: Strategic Advisor & Founder
   work: Seqred
   image: krzysztof-swaczynski
 id: presentation

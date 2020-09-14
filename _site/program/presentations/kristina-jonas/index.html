@@ -6,9 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>CS3STHLM | Bug hunting in cloud connected ICS devices: Getting root from the cloud</title>
+  <title>CS3STHLM | How to create a risk-based future-proof zone model</title>
   <meta name="description" content="CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.">
-  <meta property="og:title" content="CS3STHLM | Bug hunting in cloud connected ICS devices: Getting root from the cloud" />
+  <meta property="og:title" content="CS3STHLM | How to create a risk-based future-proof zone model" />
   <meta property="og:description" content="CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo." />
   <meta property="og:type" content="website" />
 
@@ -16,11 +16,11 @@
   <meta property="og:image" content="https://www.cs3sthlm.se/assets/photos/cs3sthlm-nalen.jpg" />
   
 
-  <meta property="og:url" content="https://www.cs3sthlm.se/program/presentations/kelly-leuschner/" />
+  <meta property="og:url" content="https://www.cs3sthlm.se/program/presentations/kristina-jonas/" />
   <meta property="fb:app_id" content="966242223397117" />
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="/program/presentations/kelly-leuschner/">
+  <link rel="canonical" href="/program/presentations/kristina-jonas/">
   <link rel="alternate" type="application/rss+xml" title="CS3STHLM" href="/feed.xml">
   <link rel="icon" type="image/png" href="/assets/favicon-32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="/assets/favicon-16x16.png" sizes="16x16" />
@@ -97,7 +97,7 @@
   	
 	
 	
-  		<li>Kelly leuschner</li>
+  		<li>Kristina jonas</li>
   	
 	
 </ul>
@@ -110,25 +110,43 @@
       <div class="post-meta">
         <div class="post-meta-item">
           <h4 class="sub-headline sub-headline-gray">Author</h4>
-          <span class="alt-title alt-title-small">Kelly Leaschner</span>
+          <span class="alt-title alt-title-small">Kristina Blomqvist</span>
         </div>
 
-        
-        <div class="post-meta-item">
-          <h4 class="sub-headline sub-headline-gray">Role</h4>
-          <span class="alt-title alt-title-small">Security Researcher</span>
-        </div>
         
 
         
         <div class="post-meta-item">
           <h4 class="sub-headline sub-headline-gray">Work</h4>
-          <span class="alt-title alt-title-small">Cisco Talos</span>
+          <span class="alt-title alt-title-small">Vattenfall</span>
         </div>
         
 
         <div class="post-meta-item">
-          <img src="/assets/speakers/kelly-leuschner.png" class="post-meta-item-image">
+          <img src="/assets/speakers/kristina-blomqvist.png" class="post-meta-item-image">
+        </div>
+      </div>
+
+      
+      
+      
+      <div class="post-meta">
+        <div class="post-meta-item">
+          <h4 class="sub-headline sub-headline-gray">Author</h4>
+          <span class="alt-title alt-title-small">Jonas Edberg</span>
+        </div>
+
+        
+
+        
+        <div class="post-meta-item">
+          <h4 class="sub-headline sub-headline-gray">Work</h4>
+          <span class="alt-title alt-title-small">Contrast Advisory</span>
+        </div>
+        
+
+        <div class="post-meta-item">
+          <img src="/assets/speakers/temp.png" class="post-meta-item-image">
         </div>
       </div>
 
@@ -141,155 +159,10 @@
     <section class="post-content column-block-item col-5-8 spacing-left" itemprop="articleBody">
 
       <header class="post-header">
-        <h1 class="title title-yellow" itemprop="name headline">Bug hunting in cloud connected ICS devices: Getting root from the cloud</h1>
+        <h1 class="title title-yellow" itemprop="name headline">How to create a risk-based future-proof zone model</h1>
       </header>
 
-      <p>As more and more devices are becoming cloud connected it is important to understand how this attack surface is different from traditional socket based server applications. There is no open port listening with a cloud connected application so there is additional work required in order to just get the application to accept attacker controlled data. This talk will walk through the initial steps necessary to even begin vulnerability research of the application. Cloud based control of physical devices has some security benefits compared to traditional socket programming but, at the end of the day there is an application running on a device that acts on messages from the cloud. This means that there is opportunity for bugs and vulnerabilities in the software responsible for handling cloud messages. This talk will describe changes in research methodology that are necessary for performing vulnerability research on a cloud connected application. Zero-day vulnerabilities found in a cloud connected application on a popular industrial controller will be covered in depth. These vulnerabilities will be demonstrated live by impersonating the industrial vendor cloud application, resulting in getting root from the cloud.</p>
-
-<h2 id="outline">Outline</h2>
-<ul>
-  <li>Introduction</li>
-</ul>
-
-<h3 id="moving-to-the-cloud">Moving to the cloud</h3>
-<ol>
-  <li>Software stack, traditional vs. cloud connected</li>
-  <li>Additional security benefits of cloud applications
-    <ul>
-      <li>Libraries provided which include:</li>
-      <li>Authentication enabled by default (most times)</li>
-      <li>Encryption enabled by default (most times)</li>
-    </ul>
-  </li>
-  <li>Where are vulnerabilities most likely to be found?
-    <ul>
-      <li>In the actual handling of the message data, and the actions taken as a result Vendor code</li>
-    </ul>
-  </li>
-  <li>Challenges for Vulnerability research
-    <ul>
-      <li>Researcher doesn’t have access to application running in the cloud at least not source access</li>
-      <li>Authentication and encryption makes it difficult to MITM to observe traffic for research</li>
-      <li>Pre-work is necessary to even begin learning about the data format</li>
-      <li>Which is what we will go into next</li>
-    </ul>
-  </li>
-</ol>
-
-<h3 id="intro-to-the-industrial-controller">Intro to the industrial controller</h3>
-<ol>
-  <li>Azure IoT Hub client
-    <ul>
-      <li>MQTT based protocol</li>
-      <li>JSON data format</li>
-      <li>We will need to learn the exact format through research</li>
-    </ul>
-  </li>
-  <li>Azure IoT Hub
-    <ul>
-      <li>Running the industrial vendor cloud application</li>
-    </ul>
-  </li>
-</ol>
-
-<h3 id="protocol-overview">Protocol Overview</h3>
-<ol>
-  <li>MQTT Overview
-    <ul>
-      <li>Publish / Subscribe protocol</li>
-      <li>Client</li>
-      <li>Broker</li>
-      <li>Cloud Application</li>
-    </ul>
-  </li>
-  <li>MQTT Topics
-    <ul>
-      <li>Format</li>
-      <li>Examples</li>
-      <li>Wildcards</li>
-    </ul>
-  </li>
-</ol>
-
-<h3 id="research-methodology">Research Methodology</h3>
-<ol>
-  <li>Changes to Research Approach
-    <ul>
-      <li>Can’t connect to a port and start sending data</li>
-      <li>If you’re lucky you might have access to both applications and could capture data between them</li>
-      <li>Options</li>
-      <li>Configure the device to connect to a real cloud instance that you control</li>
-      <li>Stand up a “local” server pretending to be the cloud</li>
-    </ul>
-  </li>
-  <li>Test Setup - Real cloud instance
-    <ul>
-      <li>In this scenario the researcher must have access to configure connection properties with the cloud</li>
-    </ul>
-  </li>
-  <li>Test Setup - Local MQTT broker
-    <ul>
-      <li>In this scenario the researcher must have the ability to add a root certificate to the device. (will probably require root)</li>
-    </ul>
-  </li>
-</ol>
-
-<h3 id="industrial-controller-vulnerabilities">Industrial controller vulnerabilities</h3>
-<ol>
-  <li>Supported messages
-    <ul>
-      <li>Discuss device specific messages</li>
-    </ul>
-  </li>
-  <li>Discuss vulnerable message structure</li>
-  <li>Outline of vulnerable process
-    <ul>
-      <li>Discuss steps involved</li>
-    </ul>
-  </li>
-  <li>Vulnerability explanations
-    <ul>
-      <li>Discuss specific vulnerabilities</li>
-    </ul>
-  </li>
-  <li>DEMO (live)
-    <ul>
-      <li>Code Execution from the cloud</li>
-    </ul>
-  </li>
-</ol>
-
-<h3 id="conclusion">Conclusion</h3>
-<ol>
-  <li>Mitigations / Lessons Learned
-    <ul>
-      <li>Discuss mistakes to avoid when developing a cloud application</li>
-      <li>Discuss ways to mitigate with existing industrial control devices</li>
-    </ul>
-  </li>
-  <li>Review - Research Pre-work
-    <ul>
-      <li>Impersonating the cloud application</li>
-      <li>Local vs. Real Cloud instance</li>
-      <li>Learning the topic format</li>
-      <li>For both publish and subscribe</li>
-      <li>Learning the data format</li>
-      <li>Finding the data parsing code</li>
-      <li>From there it’s business as usual for vulnerability research</li>
-    </ul>
-  </li>
-</ol>
-
-<h3 id="target-audience">Target audience</h3>
-<p>Familiarity with programming and common bug classes</p>
-
-<h3 id="audience-expectations">Audience expectations</h3>
-<p>Detailed description of vulnerability research methodology relating to cloud connected ICS devices.</p>
-
-<p>Description of an attack chain combining multiple zero day vulnerabilities to gain root access to a cloud connected controller.</p>
-
-<h3 id="audience-takeaway">Audience takeaway</h3>
-<p>Cloud connectivity provides many benefits to Industrial automation, but it also provides additional attack surface. Vendors should be mindful of untrusted data even if it comes from a cloud application.</p>
+      <p>The presentation will cover a walk through on how we have combined best practices for securing OT and IT environments, general and sector specific standards and guidance as well as the much debated Purdue model into a future-oriented flexible and scalable zone model for a multinational and multisite company.</p>
 
 
       <div class="post-pagination column-block-item col-5-8">
@@ -306,10 +179,10 @@
         
         <div class="post-pagination-item col-2-8">
           <h4 class="sub-headline sub-headline-gray">Previous Presentation</h4>
-          <a class="alt-title alt-title-small alt-title-light" rel="prev" href="/program/presentations/joe-slowik/">So You Want to Take Down the Electric Grid - or You Want to Defend It</a>
+          <a class="alt-title alt-title-small alt-title-light" rel="prev" href="/program/presentations/ken-munro/">Smarter Shipping. Hacking floating ICS for fun and profit</a>
           <h5 class="alt-title alt-title-small alt-title-gray">
             
-            <span>Joe Slowik</span>
+            <span>Ken Munro</span>
             
           </h5>
         </div>
@@ -318,10 +191,10 @@
         
         <div class="post-pagination-item col-2-8 col-left-space">
           <h4 class="sub-headline sub-headline-gray">Next Presentation</h4>
-          <a class="alt-title alt-title-small alt-title-light" rel="next" href="/program/presentations/ken-munro/">Smarter Shipping. Hacking floating ICS for fun and profit</a>
+          <a class="alt-title alt-title-small alt-title-light" rel="next" href="/program/presentations/krzysztof-swaczynski/">Hacking Advanced Metering Infrastructure (AMI) – an attacker’s perspective on Distribution System Operator (in)security</a>
           <h5 class="alt-title alt-title-small alt-title-gray">
             
-            <span>Ken Munro</span>
+            <span>Krzysztof Swaczyński</span>
             
           </h5>
         </div>

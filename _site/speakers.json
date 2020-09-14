@@ -256,7 +256,7 @@
 		"id"		: "",
 		"type"		: "presentation",
 		"name"		: "Krzysztof Swaczyński",
-		"role"		: "",
+		"role"		: "Strategic Advisor & Founder",
 		"work"		: "Seqred",
 		"country"	: "Poland",
 		"shortcode"	: "PL",
@@ -292,6 +292,342 @@
 		
 
 		"bio": "<p>Krzysztof is strategic advisor in the field of OT and IT security. He is a founder and board member of Seqred - cyber security shop focused on testing and improving security in ICS field. He gained his experience while working for strategic consultancy companies – EY and BCG. He advised global organizations in government, power &amp; utilities, manufacturing, air transportation and building automation sectors, on the planning and safe implementation of IT and OT solutions as well as company-wide technology driven transformation programs. He worked with the management boards, CIOs, CISOs, whom he advised on fulfilling their potential and eliminating the risks stemming from new technologies. He expanded his managerial qualifications while participating in the Executive Education program at the MIT Sloan School of Management. In his current professional capacity Krzysztof leads team of OT security researches specialized in vulnerabilities assessments, i.e. reverse engineering, fuzzing and penetration testing. He is a holder of GIAC: Global Industrial Cyber Security Professional (GICSP) Certificate – globally recognized industrial cybersecurity certification.</p>"
+	},
+
+	{
+		"id"		: "",
+		"type"		: "presentation",
+		"name"		: "Ken Munro",
+		"role"		: "",
+		"work"		: "Pen Test Partner",
+		"country"	: "United Kingdom",
+		"shortcode"	: "UK",
+		"status"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/ken-munro.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Smarter Shipping. Hacking floating ICS for fun and profit",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": ""
+	},
+
+	{
+		"id"		: "",
+		"type"		: "presentation",
+		"name"		: "Kristina Blomqvist",
+		"role"		: "",
+		"work"		: "Vattenfall",
+		"country"	: "Sweden",
+		"shortcode"	: "SE",
+		"status"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/kristina-blomqvist.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"How to create a risk-based future-proof zone model",
+			"partner":	"Jonas Edberg",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": "<p>The presentation will cover a walk through on how we have combined best practices for securing OT and IT environments, general and sector specific standards and guidance as well as the much debated Purdue model into a future-oriented flexible and scalable zone model for a multinational and multisite company.</p>"
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": ""
+	},
+
+	{
+		"id"		: "",
+		"type"		: "presentation",
+		"name"		: "Jonas Edberg",
+		"role"		: "",
+		"work"		: "Contrast Advisory",
+		"country"	: "Sweden",
+		"shortcode"	: "SE",
+		"status"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/temp.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"How to create a risk-based future-proof zone model",
+			"partner":	"Kristina Blomqvist",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": "<p>The presentation will cover a walk through on how we have combined best practices for securing OT and IT environments, general and sector specific standards and guidance as well as the much debated Purdue model into a future-oriented flexible and scalable zone model for a multinational and multisite company.</p>"
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": ""
+	},
+
+	{
+		"id"		: "",
+		"type"		: "presentation",
+		"name"		: "Marie Moe",
+		"role"		: "Senior Security Consultant",
+		"work"		: "mnemonic",
+		"country"	: "Norway",
+		"shortcode"	: "NO",
+		"status"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/marie-moe.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Pressing the big red button – on Incident Response Readiness in the Oil and Gas Sector",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": ""
+	},
+
+	{
+		"id"		: "",
+		"type"		: "presentation",
+		"name"		: "Jan Tore Sørensen",
+		"role"		: "",
+		"work"		: "mnemonic",
+		"country"	: "Norway",
+		"shortcode"	: "NO",
+		"status"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/jan-tore-sorensen.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Pressing the big red button – on Incident Response Readiness in the Oil and Gas Sector",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": ""
+	},
+
+	{
+		"id"		: "",
+		"type"		: "presentation",
+		"name"		: "Matan Dobrushin",
+		"role"		: "Head of OT Research",
+		"work"		: "Otorio",
+		"country"	: "Israel",
+		"shortcode"	: "IL",
+		"status"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/matan-dobrushin.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"A Practical Way to Test OT Security Mechanisms in Real-life Scenarios",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": "<p>IT/OT Convergence is a major challenge for industrial organizations on the path to digitalization.</p><p>The volume and variety of security products as well as the standards for OT networks is growing at a fast pace. As a result, the need for deep expertise, required to sort through and select the right systems for specific industry needs, grows even faster.</p><p>In our session we will present a promising new initiative designed to simplify digitalization processes and test the efficiency and relevance of OT security tools before they are placed in the network.</p><p>We’ll present the results of our latest research which studied the unique Tactics Techniques and Procedures (TTPs) of OT attacks and devised a method to test them in a simulated lab environment.</p><p>The research included the implementation of tens of new techniques and OT use cases over a MITRE’s Caldera platform, an open-source advisory emulation platform. The research was further expanded by implementing the recently published “ATT&amp;CK for ICS” model, and also will point some improvements for the existing model.</p>"
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": "<p>Cyber security researcher with military leadership experience in cyber security unit.</p>"
+	},
+
+	{
+		"id"		: "",
+		"type"		: "presentation",
+		"name"		: "Wenjun Xiong",
+		"role"		: "PhD Student",
+		"work"		: "KTH",
+		"country"	: "Sweden",
+		"shortcode"	: "SE",
+		"status"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/wenjun-xiong.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Threat modeling and attack simulations for enterprise and ICS",
+			"partner":	"Simon hacks",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": "<p>This work concentrates on the cyber security of enterprise and Industrial Control Systems (ICS).</p><p>Enterprise systems are growing in complexity, and the adoption of cloud and mobile services has greatly increased attack surfaces. This all has led to fragmentation on the security front. To improve the security of enterprise systems, threat modeling can be applied to proactively deal with security issues from a holistic point of view, and can also be combined with attack simulations to provide quantitative security measurements, which has not been commonly used while shown efficient in some disciplines.</p><p>Hitherto, we have proposed the use of attack simulations based on system architecture models. Our approaches facilitate a model of the system and simulate cyber-attacks in order to identify the greatest weaknesses. This can be imagined as the execution of a great number of parallel virtual penetration tests. Such an attack simulation tool enables the security assessor to focus on the collection of the information about the system required for the simulations.</p><p>As the previous approaches rely on a static implementation, we propose the use of the Meta Attack Language (MAL). This framework is built for creating domain-specific languages (DSLs) that define which information about a system is required and specifies the generic attack logic. Since MAL is a meta language (i.e. the set of rules that should be used to create a new DSL), no particular domain of interest is represented, but it can be used to create languages targeting certain domains like enterprise system and ICS.</p><p>This work first introduces enterpriseLang - a threat modeling language for enterprise security based on the MITRE ATT&amp;CK Matrix, which can assess the cyber security of enterprise systems from a holistic point of view. This compilable language can automatically visualize possible attack paths an adversary may choose, show the most vulnerable asset, and provide possible mitigations for each attack step intended to counter cyber-attacks. The attack steps representing adversary techniques are captured within the ATT&amp;CK Matrix based on real-world observations. These adversary techniques are categorized by tactics, and are organized with security metrics e.g. platform, permissions required, and mitigations that provide information for threat modeling.</p><p>Moreover, this core IT related threat modeling language is complemented by our IcsLang that allows to create and simulate OT specific environments. Similar to enterpriseLang, this language is based on the ICS MITRE ATT&amp;CK Matrix and enriched by real-world observations collected from industry partners in an EU project (EnergyShield). Based on the characteristics of MAL, we will motivate why certain types of attacks are included in our artifact and others not. Mainly, this is based on assumptions, made in the design of MAL and creating a trade-off between level of detail and usability.</p><p>To demonstrate the applicability and the integration between the two languages, we present energy domain architecture and simulate well-known attacks e.g. the Ukraine power grid attack scenario to test the languages. These languages can also be re-used by people with less security expertise to automatically assess the security of their specific-enterprise or ICS.</p>"
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": "<p>Wenjun is a PhD student in Software Systems Architecture and Security group, at the Division of Network and Systems Engineering, KTH Royal Institute of Technology. Her research interests include Threat Modeling, Attack Simulations, and Cyber Security. She is currently working on designing a threat modeling language - enterpriseLang, based on MITRE ATT&amp;CK Matrix.</p><p>She received her MSc degree in Communication and Information Systems in 2017, from the State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University, China, with special focus on Information Privacy.</p>"
+	},
+
+	{
+		"id"		: "",
+		"type"		: "presentation",
+		"name"		: "Simon Hacks",
+		"role"		: "Postdoc",
+		"work"		: "KTH",
+		"country"	: "Sweden",
+		"shortcode"	: "SE",
+		"status"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/simon-hacks.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Threat modeling and attack simulations for enterprise and ICS",
+			"partner":	"Wenjun Xiong",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": "<p>This work concentrates on the cyber security of enterprise and Industrial Control Systems (ICS).</p><p>Enterprise systems are growing in complexity, and the adoption of cloud and mobile services has greatly increased attack surfaces. This all has led to fragmentation on the security front. To improve the security of enterprise systems, threat modeling can be applied to proactively deal with security issues from a holistic point of view, and can also be combined with attack simulations to provide quantitative security measurements, which has not been commonly used while shown efficient in some disciplines.</p><p>Hitherto, we have proposed the use of attack simulations based on system architecture models. Our approaches facilitate a model of the system and simulate cyber-attacks in order to identify the greatest weaknesses. This can be imagined as the execution of a great number of parallel virtual penetration tests. Such an attack simulation tool enables the security assessor to focus on the collection of the information about the system required for the simulations.</p><p>As the previous approaches rely on a static implementation, we propose the use of the Meta Attack Language (MAL). This framework is built for creating domain-specific languages (DSLs) that define which information about a system is required and specifies the generic attack logic. Since MAL is a meta language (i.e. the set of rules that should be used to create a new DSL), no particular domain of interest is represented, but it can be used to create languages targeting certain domains like enterprise system and ICS.</p><p>This work first introduces enterpriseLang - a threat modeling language for enterprise security based on the MITRE ATT&amp;CK Matrix, which can assess the cyber security of enterprise systems from a holistic point of view. This compilable language can automatically visualize possible attack paths an adversary may choose, show the most vulnerable asset, and provide possible mitigations for each attack step intended to counter cyber-attacks. The attack steps representing adversary techniques are captured within the ATT&amp;CK Matrix based on real-world observations. These adversary techniques are categorized by tactics, and are organized with security metrics e.g. platform, permissions required, and mitigations that provide information for threat modeling.</p><p>Moreover, this core IT related threat modeling language is complemented by our IcsLang that allows to create and simulate OT specific environments. Similar to enterpriseLang, this language is based on the ICS MITRE ATT&amp;CK Matrix and enriched by real-world observations collected from industry partners in an EU project (EnergyShield). Based on the characteristics of MAL, we will motivate why certain types of attacks are included in our artifact and others not. Mainly, this is based on assumptions, made in the design of MAL and creating a trade-off between level of detail and usability.</p><p>To demonstrate the applicability and the integration between the two languages, we present energy domain architecture and simulate well-known attacks e.g. the Ukraine power grid attack scenario to test the languages. These languages can also be re-used by people with less security expertise to automatically assess the security of their specific-enterprise or ICS.</p>"
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": "<p>Simon is a postdoc in the Software Systems Architecture and Security group, Computer Science at KTH Royal Institute of Technology. He did his Ph.D. at the RWTH Aachen University, Germany in the field of Enterprise Architecture Models. He supervised several theses related to Enterprise Architecture and supported the teaching of lectures in Software Engineering, Software Quality Assurance, Object Oriented Software Construction, and Software Project Management. He is Co-Chair of the VEnMo workshop, PC member at the TEAR workshop, and reviewer for the EMISA Journal.</p><p>He received his master degree in applied computer science from the Technical University Dortmund and his bachelor degree in business informatics from the FOM University of Applied Sciences Essen. Additionally, he did an apprenticeship as IT specialist at E.ON IT in Essen and worked as a privacy consultant during his master studies at ISDSG.</p>"
 	}
 
 ]

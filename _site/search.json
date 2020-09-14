@@ -449,14 +449,6 @@
   
    {
      
-        "title"    : "Omer Zohar",
-        "url"      : "/about/archive/speakers/omer-zohar",
-        "path"     : "/about/archive/speakers/omer-zohar"
-     
-   },
-  
-   {
-     
         "title"    : "Erik Hjelmvik",
         "url"      : "/archive/speakers/erik-hjelmvik",
         "path"     : "/archive/speakers/erik-hjelmvik"
@@ -793,9 +785,9 @@
   
    {
      
-        "title"    : "Thanks",
-        "url"      : "/thanks/",
-        "path"     : "/thanks/"
+        "title"    : "Omer Zohar",
+        "url"      : "/about/archive/speakers/omer-zohar",
+        "path"     : "/about/archive/speakers/omer-zohar"
      
    },
   
@@ -897,6 +889,14 @@
   
    {
      
+        "title"    : "Thanks",
+        "url"      : "/thanks/",
+        "path"     : "/thanks/"
+     
+   },
+  
+   {
+     
         "title"    : "Home",
         "url"      : "/",
         "path"     : ""
@@ -933,6 +933,22 @@
   
    {
      
+        "title"    : "Smarter Shipping. Hacking floating ICS for fun and profit",
+        "url"      : "/program/presentations/ken-munro/",
+        "path"     : "/program/presentations/ken-munro/"
+     
+   },
+  
+   {
+     
+        "title"    : "How to create a risk-based future-proof zone model",
+        "url"      : "/program/presentations/kristina-jonas/",
+        "path"     : "/program/presentations/kristina-jonas/"
+     
+   },
+  
+   {
+     
         "title"    : "Hacking Advanced Metering Infrastructure (AMI) – an attacker’s perspective on Distribution System Operator (in)security",
         "url"      : "/program/presentations/krzysztof-swaczynski/",
         "path"     : "/program/presentations/krzysztof-swaczynski/"
@@ -948,6 +964,22 @@
    },
   
    {
+     
+   },
+  
+   {
+     
+        "title"    : "Pressing the big red button – on Incident Response Readiness in the Oil and Gas Sector",
+        "url"      : "/program/presentations/marie-jan/",
+        "path"     : "/program/presentations/marie-jan/"
+     
+   },
+  
+   {
+     
+        "title"    : "A Practical Way to Test OT Security Mechanisms in Real-life Scenarios",
+        "url"      : "/program/presentations/matan-dobrushin/",
+        "path"     : "/program/presentations/matan-dobrushin/"
      
    },
   
@@ -1016,6 +1048,14 @@
         "title"    : "From datasets and testbeds to timing-based anomaly detection",
         "url"      : "/expo/presentations/simin-nadjm-tehrani/",
         "path"     : "/expo/presentations/simin-nadjm-tehrani/"
+     
+   },
+  
+   {
+     
+        "title"    : "Threat modeling and attack simulations for enterprise and ICS",
+        "url"      : "/program/presentations/simon-wenjun/",
+        "path"     : "/program/presentations/simon-wenjun/"
      
    },
   
