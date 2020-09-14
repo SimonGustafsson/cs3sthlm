@@ -21,16 +21,6 @@ layout: default
 	<div class="agenda col-8-8">
 
 		<div class="agenda-header">
-			<div class="agenda-header-item" id="dayone-button">
-				<span class="heading heading-small heading-capped heading-gray">19th of October</span>
-				<h3 class="subtitle subtitle-yellow">Mon<span>day</span></h3>
-				<h4 class="alt-title alt-title-extra-small alt-title-gray">ICS Lab</h4>
-			</div>
-			<div class="agenda-header-item" id="daytwo-button">
-				<span class="heading heading-small heading-capped heading-gray">20th of October</span>
-				<h3 class="subtitle subtitle-yellow">Tues<span>day</span></h3>
-				<h4 class="alt-title alt-title-extra-small alt-title-gray">Expo</h4>
-			</div>
 			<div class="agenda-header-item" id="daythree-button">
 				<span class="heading heading-small heading-capped heading-gray">21st of October</span>
 				<h3 class="subtitle subtitle-yellow">Wednes<span>day</span></h3>
@@ -43,130 +33,13 @@ layout: default
 			</div>
 		</div>
 
-		<span class="agenda-content-header-hidden-spacer"></span>
-
-
-		<div class="agenda-day-large">
-			<div class="agenda-content">
-				<div class="agenda-content-column">
-					{% for item in site.data.agenda-temp %}
-					{% if item.day == 'dayone' %}
-					<div class="agenda-temp-item agenda-temp-item-{{ item.type }}">
-						<h4>{{ item.time }}</h4>
-						<h3>{{ item.title }}</h3>
-					</div>
-					{% endif %}
-					{% endfor %}
-				</div>
-
-				<div class="agenda-content-column">
-					{% for item in site.data.agenda-temp %}
-					{% if item.day == 'daytwo' %}
-					<div class="agenda-temp-item agenda-temp-item-{{ item.type }}">
-						<h4>{{ item.time }}</h4>
-						<h3>{{ item.title }}</h3>
-					</div>
-					{% endif %}
-					{% endfor %}
-				</div>
-
-				<div class="agenda-content-column">
-					{% for item in site.data.agenda-temp %}
-					{% if item.day == 'daythree' %}
-					<div class="agenda-temp-item agenda-temp-item-{{ item.type }}">
-						<h4>{{ item.time }}</h4>
-						<h3>{{ item.title }}</h3>
-					</div>
-					{% endif %}
-					{% endfor %}
-				</div>
-
-				<div class="agenda-content-column">
-					{% for item in site.data.agenda-temp %}
-					{% if item.day == 'dayfour' %}
-					<div class="agenda-temp-item agenda-temp-item-{{ item.type }}">
-						<h4>{{ item.time }}</h4>
-						<h3>{{ item.title }}</h3>
-					</div>
-					{% endif %}
-					{% endfor %}
-				</div>
-			</div>
-		</div>
-
-		<div class="agenda-day-mobile">
-
-			<div class="agenda-day agenda-day-active" id="dayone">
-				<div class="agenda-content">
-					<div class="agenda-content-column agenda-content-column-active" id="dayone-mainstage">
-						{% for item in site.data.agenda-temp %}
-						{% if item.day == 'dayone' %}
-						<div class="agenda-temp-item agenda-temp-item-{{ item.type }}">
-							<h4>{{ item.time }}</h4>
-							<h3>{{ item.title }}</h3>
-						</div>
-						{% endif %}
-						{% endfor %}
-					</div>
-				</div>
-			</div>
-
-			<div class="agenda-day" id="daytwo">
-				<div class="agenda-content">
-					<div class="agenda-content-column agenda-content-column-active" id="daytwo-mainstage">
-						{% for item in site.data.agenda-temp %}
-						{% if item.day == 'daytwo' %}
-						<div class="agenda-temp-item agenda-temp-item-{{ item.type }}">
-							<h4>{{ item.time }}</h4>
-							<h3>{{ item.title }}</h3>
-						</div>
-						{% endif %}
-						{% endfor %}
-					</div>
-				</div>
-			</div>
-
-			<div class="agenda-day" id="daythree">
-				<div class="agenda-content">
-					<div class="agenda-content-column agenda-content-column-active" id="daythree-mainstage">
-						{% for item in site.data.agenda-temp %}
-						{% if item.day == 'daythree' %}
-						<div class="agenda-temp-item agenda-temp-item-{{ item.type }}">
-							<h4>{{ item.time }}</h4>
-							<h3>{{ item.title }}</h3>
-						</div>
-						{% endif %}
-						{% endfor %}
-					</div>
-				</div>
-			</div>
-
-			<div class="agenda-day" id="dayfour">
-				<div class="agenda-content">
-					<div class="agenda-content-column agenda-content-column-active" id="dayfour-mainstage">
-						{% for item in site.data.agenda-temp %}
-						{% if item.day == 'dayfour' %}
-						<div class="agenda-temp-item agenda-temp-item-{{ item.type }}">
-							<h4>{{ item.time }}</h4>
-							<h3>{{ item.title }}</h3>
-						</div>
-						{% endif %}
-						{% endfor %}
-					</div>
-				</div>
-			</div>
-
-		</div>
-
-		<!--
-
-		<div class="agenda-day" id="dayone">
+		<div class="agenda-day agenda-day-active" id="daythree">
 
 			<div class="agenda-content">
 
 				<div class="agenda-content-column agenda-content-column-active" id="dayone-mainstage">
 					{% for item in site.data.agenda-temp %}
-					{% if item.day == 'dayone' %}
+					{% if item.day == 'daythree' %}
 					{% if item.place == 'Main Stage' %}
 					{% if item.permalink.size > 1 %}
 					<div class="agenda-item agenda-item-link">
@@ -194,10 +67,10 @@ layout: default
 					{% endfor %}
 				</div>
 
-				<div class="agenda-content-column" id="dayone-harlem">
+				<div class="agenda-content-column agenda-content-column-active" id="dayone-mainstage">
 					{% for item in site.data.agenda-temp %}
-					{% if item.day == 'dayone' %}
-					{% if item.place == 'Harlem Stage' %}
+					{% if item.day == 'dayfour' %}
+					{% if item.place == 'Main Stage' %}
 					{% if item.permalink.size > 1 %}
 					<div class="agenda-item agenda-item-link">
 						<a href="{{ site.baseurl }}/{{ item.permalink }}">
@@ -223,42 +96,11 @@ layout: default
 					{% endif %}
 					{% endfor %}
 				</div>
-
-				<div class="agenda-content-column" id="dayone-stacken">
-					{% for item in site.data.agenda-temp %}
-					{% if item.day == 'dayone' %}
-					{% if item.place == 'ICS Lab' %}
-					{% if item.permalink.size > 1 %}
-					<div class="agenda-item agenda-item-link">
-						<a href="{% if item.permalink contains 'https' %}{{ item.permalink }}{% else %}{{ site.baseurl }}/{{ item.permalink }}{% endif %}">
-							<span class="agenda-item-time">{{ item.time }}{% if item.special.size > 1 %}<span class="agenda-item-special">- {{ item.special }}</span>{% endif %}</span>
-							{% if item.label.size > 1 %}
-							<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
-							{% endif %}
-							<h3 class="agenda-item-headline">{{ item.title }}</h3>
-							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item.name }}</span>{% endfor %}{% for item in item.partner %}{% if item.name.size > 1 %}<span>{{ item.name }}</span>{% endif %}{% endfor %}</h4>
-						</a>
-					</div>
-					{% else %}
-					<div class="agenda-item {% if item.type == 'presentation' %}agenda-item-link{% endif %} {% if item.type == 'break' %}agenda-item-break{% endif %}">
-						<span class="agenda-item-time">{{ item.time }}{% if item.special.size > 1 %}<span class="agenda-item-special">- {{ item.special }}</span>{% endif %}</span>
-						{% if item.label.size > 1 %}
-						<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
-						{% endif %}
-						<h3 class="agenda-item-headline">{{ item.title }}</h3>
-						<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item.name }}</span>{% endfor %}{% for item in item.partner %}{% if item.name.size > 1 %}<span>{{ item.name }}</span>{% endif %}{% endfor %}</h4>
-					</div>
-					{% endif %}
-					{% endif %}
-					{% endif %}
-					{% endfor %}
-				</div>
-
 			</div>
 
 		</div>
 
-		-->
+		
 
 	</div>
 

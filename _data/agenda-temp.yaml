@@ -1,52 +1,191 @@
-#DAY ONE
-
-- id:
-  day: dayone
-  type: training
-  time: To be determined
-  title: Training
-
-#DAY TWO
-
-- id:
-  day: daytwo
-  type: training
-  time: To be determined
-  title: Training
-
-
-- id:
-  day: daytwo
-  type: expo
-  time: To be determined
-  title: Expo
-
-- id:
-  day: daytwo
-  type: summit
-  time: To be determined
-  title: Welcome Reception
-
-
 #DAY THREE
 
 - id:
   day: daythree
-  type: summit
-  time: To be determined
-  title: Summit
+  type: break
+  place: Main Stage
+  time: 
+  title: Introduction
 
 - id:
   day: daythree
-  type: summit
-  time: To be determined
-  title: Hallway Mingle
+  type: presentation
+  place: Main Stage
+  time: 
+  title: Keynote
+
+- id:
+  day: daythree
+  type: presentation
+  place: Main Stage
+  time: 
+  title: How to create a risk-based future-proof zone model
+  author:
+    - name: Kristina Blomqvist & Jonas Edberg
+  permalink: program/presentations/kristina-jonas/
+
+- id:
+  day: daythree
+  type: presentation
+  place: Main Stage
+  time: 
+  title: Ransomware? Please Hold for The Next Available Agent
+  author:
+    - name: Daniel Kapellmann Zafra
+  permalink: program/presentations/daniel-kapellmann-zafra/
+
+- id:
+  day: daythree
+  type: break
+  place: Main Stage
+  time: 
+  title: Lunch
+
+- id:
+  day: daythree
+  type: presentation
+  place: Main Stage
+  time: 
+  title: "Reverse Engineering Siemens PLCs: Lessons Learned for Today and Tomorrow"
+  author:
+    - name: Ali Abbasi
+  permalink: program/presentations/ali-abbasi/
+
+- id:
+  day: daythree
+  type: presentation
+  place: Main Stage
+  time: 
+  title: Hacking Advanced Metering Infrastructure (AMI) – an attacker’s perspective on Distribution System Operator (in)security
+  author:
+    - name: Krzysztof Swaczyński
+  permalink: program/presentations/krzysztof-swaczynski/
+
+- id:
+  day: daythree
+  type: break
+  place: Main Stage
+  time: 
+  title: Coffee Break
+
+- id:
+  day: daythree
+  type: presentation
+  place: Main Stage
+  time: 
+  title: So You Want to Take Down the Electric Grid - or You Want to Defend It
+  author:
+    - name: Joe Slowik
+  permalink: program/presentations/joe-slowik/
+
+- id:
+  day: daythree
+  type: presentation
+  place: Main Stage
+  time: 
+  title: Panel
 
 
 #DAY FOUR
 
 - id:
   day: dayfour
-  type: summit
-  time: To be determined
-  title: Summit
+  type: presentation
+  place: Main Stage
+  time: 
+  title: Pressing the big red button – on Incident Response Readiness in the Oil and Gas Sector
+  author:
+    - name: Marie Moe & Jan Tore Sørensen
+  permalink: program/presentations/marie-jan/
+
+- id:
+  day: dayfour
+  type: presentation
+  place: Main Stage
+  time: 
+  title: Hidden Attack Surfaces of Modern Industrial Automation Systems
+  author:
+    - name: Fredrico Maggi
+  permalink: program/presentations/fredrico-maggi/
+
+- id:
+  day: dayfour
+  type: break
+  place: Main Stage
+  time: 
+  title: Coffee Break
+
+- id:
+  day: dayfour
+  type: presentation
+  place: Main Stage
+  time: 
+  title: "Bug hunting in cloud connected ICS devices: Getting root from the cloud"
+  author:
+    - name: Kelly Leuschner
+  permalink: program/presentations/kelly-leuschner/
+
+- id:
+  day: dayfour
+  type: presentation
+  place: Main Stage
+  time: 
+  title: Smarter Shipping. Hacking floating ICS for fun and profit
+  author:
+    - name: Ken Munro
+  permalink: program/presentations/ken-munro/
+
+- id:
+  day: dayfour
+  type: break
+  place: Main Stage
+  time: 
+  title: Lunch
+
+- id:
+  day: dayfour
+  type: presentation
+  place: Main Stage
+  time: 
+  title: Threat modeling and attack simulations for enterprise and ICS
+  author:
+    - name: Wenjun Xiong & Simon Hacks
+  permalink: program/presentations/simon-wenjun/
+
+- id:
+  day: dayfour
+  type: presentation
+  place: Main Stage
+  time: 
+  title: A Practical Way to Test OT Security Mechanisms in Real-life Scenarios
+  author:
+    - name: Matan Dobrushin
+  permalink: program/presentations/matan-dobrushin/
+
+- id:
+  day: dayfour
+  type: break
+  place: Main Stage
+  time: 
+  title: Coffee Break
+
+- id:
+  day: dayfour
+  type: presentation
+  place: Main Stage
+  time: 
+  title: "Fake Company, Fake Factory but Real Attacks: Stories of a Realistic, High Interaction ICS Honeypot."
+  author:
+    - name: Stephen J. Hilt
+  permalink: program/presentations/stephen-hilt/
+
+- id:
+  day: dayfour
+  type: presentation
+  place: Main Stage
+  time: 
+  title: Panel
+
+
+
+
