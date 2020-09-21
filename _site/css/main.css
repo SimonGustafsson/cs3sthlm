@@ -945,7 +945,7 @@ body.lb-disable-scrolling { overflow: hidden; }
 
 .introduction .intro-mark .button-group-intro .button:first-of-type { margin-left: 0; }
 
-@media screen and (max-width: 768px) { .introduction .intro-mark .button-group-intro .button { width: 47.5%; margin-left: 0; padding: 10px 14px; letter-spacing: 1px; } .introduction .intro-mark .button-group-intro .button:first-of-type { margin-top: 0; order: 1; width: 40%; } .introduction .intro-mark .button-group-intro .button:nth-child(3) { margin-top: 24px; order: 3; } .introduction .intro-mark .button-group-intro .button:nth-child(2) { margin-left: 4%; width: 56%; order: 2; } .introduction .intro-mark .button-group-intro .button:last-of-type { width: 100%; order: 4; margin-top: 24px; } .introduction .intro-mark .button-group-intro .button-thank-you { width: 47.5%; margin-bottom: 0; } .introduction .intro-mark .button-group-intro .button-red { order: 2; } .introduction .intro-mark .button-group-intro .button-green { order: 3; width: 100%; } }
+@media screen and (max-width: 768px) { .introduction .intro-mark .button-group-intro .button { width: 47.5%; margin-left: 0; padding: 10px 14px; letter-spacing: 1px; } .introduction .intro-mark .button-group-intro .button:first-of-type { margin-top: 0; order: 1; width: 48%; } .introduction .intro-mark .button-group-intro .button:nth-child(3) { margin-top: 24px; order: 3; } .introduction .intro-mark .button-group-intro .button:nth-child(2) { margin-left: 4%; width: 56%; order: 2; } .introduction .intro-mark .button-group-intro .button:last-of-type { width: 48%; order: 4; } .introduction .intro-mark .button-group-intro .button-thank-you { width: 47.5%; margin-bottom: 0; } .introduction .intro-mark .button-group-intro .button-red { order: 2; } .introduction .intro-mark .button-group-intro .button-green { order: 3; width: 100%; } }
 
 .content-header { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; position: relative; }
 
@@ -1542,6 +1542,12 @@ body.lb-disable-scrolling { overflow: hidden; }
 
 @media screen and (max-width: 768px) { .post-meta-more-news { display: none; } }
 
+.post-meta-coauthor { padding-left: 0; }
+
+@media screen and (max-width: 768px) { .post-meta-coauthor { flex-direction: row; padding-left: 0; } .post-meta-coauthor .post-meta-item { width: 50%; } .post-meta-coauthor .alt-title-extra-small { font-size: 13px; } }
+
+.post-meta-coauthor .sub-headline { width: 100%; }
+
 .post-image-full-width { display: block; margin: 0 auto; }
 
 .post-content ul, .post-content ol { margin-left: 20px; margin-bottom: 24px; }
@@ -1688,6 +1694,8 @@ body.lb-disable-scrolling { overflow: hidden; }
 
 .news-feed-content:after { display: block; content: ''; width: 300%; height: 2px; background: rgba(255, 255, 255, 0.05); position: absolute; bottom: 0; left: -100%; }
 
+@media screen and (max-width: 768px) { .news-feed-content { flex-direction: column; } }
+
 .news-feed-link { display: flex; justify-content: flex-start; flex-wrap: wrap; width: 25%; font-family: 'latobold', sans-serif; font-size: 18px; font-weight: normal; letter-spacing: 0.45px; color: white; text-decoration: none; border-right: 1px solid rgba(255, 255, 255, 0.05); margin-right: 24px; padding: 24px 0; box-sizing: border-box; transition: 0.24s all ease-in-out; -moz-transition: 0.24s all ease-in-out; -webkit-transtiion: 0.24s all ease-in-out; -o-transition: 0.24s all ease-in-out; }
 
 .news-feed-link:last-of-type { border-right: none; }
@@ -1697,6 +1705,8 @@ body.lb-disable-scrolling { overflow: hidden; }
 .news-feed-link:hover .news-feed-meta { color: #ef7d00; }
 
 .news-feed-link:hover .news-feed-title:after { opacity: 0; }
+
+@media screen and (max-width: 768px) { .news-feed-link { width: 100%; border-right: none; } }
 
 .news-feed-meta { font-family: 'latoregular', sans-serif; font-size: 14px; font-weight: normal; letter-spacing: 1px; text-transform: uppercase; color: #e1e1e1; transition: 0.24s all ease-in-out; -moz-transition: 0.24s all ease-in-out; -webkit-transtiion: 0.24s all ease-in-out; -o-transition: 0.24s all ease-in-out; }
 
