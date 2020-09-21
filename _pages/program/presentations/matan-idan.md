@@ -1,12 +1,16 @@
 ---
 title: A Practical Way to Test OT Security Mechanisms in Real-life Scenarios
-permalink: "/program/presentations/matan-dobrushin/"
+permalink: "/program/presentations/matan-idan/"
 layout: presentation
 speaker:
 - name: Matan Dobrushin
   role: Head of OT Research
   work: Otorio
   image: matan-dobrushin
+- name: Idan Helzer
+  role: Analyst
+  work: Otorio
+  image: idan-helzer
 id: presentation
 published: true
 ---

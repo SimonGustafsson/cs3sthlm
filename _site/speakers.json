@@ -628,6 +628,48 @@
 		
 
 		"bio": "<p>Simon is a postdoc in the Software Systems Architecture and Security group, Computer Science at KTH Royal Institute of Technology. He did his Ph.D. at the RWTH Aachen University, Germany in the field of Enterprise Architecture Models. He supervised several theses related to Enterprise Architecture and supported the teaching of lectures in Software Engineering, Software Quality Assurance, Object Oriented Software Construction, and Software Project Management. He is Co-Chair of the VEnMo workshop, PC member at the TEAR workshop, and reviewer for the EMISA Journal.</p><p>He received his master degree in applied computer science from the Technical University Dortmund and his bachelor degree in business informatics from the FOM University of Applied Sciences Essen. Additionally, he did an apprenticeship as IT specialist at E.ON IT in Essen and worked as a privacy consultant during his master studies at ISDSG.</p>"
+	},
+
+	{
+		"id"		: "",
+		"type"		: "presentation",
+		"name"		: "Idan Helzer",
+		"role"		: "Analyst",
+		"work"		: "Otorio",
+		"country"	: "Israel",
+		"shortcode"	: "IL",
+		"status"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/idan-helzer.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"A Practical Way to Test OT Security Mechanisms in Real-life Scenarios",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": "<p>IT/OT Convergence is a major challenge for industrial organizations on the path to digitalization.</p><p>The volume and variety of security products as well as the standards for OT networks is growing at a fast pace. As a result, the need for deep expertise, required to sort through and select the right systems for specific industry needs, grows even faster.</p><p>In our session we will present a promising new initiative designed to simplify digitalization processes and test the efficiency and relevance of OT security tools before they are placed in the network.</p><p>We’ll present the results of our latest research which studied the unique Tactics Techniques and Procedures (TTPs) of OT attacks and devised a method to test them in a simulated lab environment.</p><p>The research included the implementation of tens of new techniques and OT use cases over a MITRE’s Caldera platform, an open-source advisory emulation platform. The research was further expanded by implementing the recently published “ATT&amp;CK for ICS” model, and also will point some improvements for the existing model.</p>"
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": ""
 	}
 
 ]

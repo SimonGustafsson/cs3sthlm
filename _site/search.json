@@ -456,6 +456,14 @@
   
    {
      
+        "title"    : "Omer Zohar",
+        "url"      : "/about/archive/speakers/omer-zohar",
+        "path"     : "/about/archive/speakers/omer-zohar"
+     
+   },
+  
+   {
+     
         "title"    : "Erik Hjelmvik",
         "url"      : "/archive/speakers/erik-hjelmvik",
         "path"     : "/archive/speakers/erik-hjelmvik"
@@ -792,9 +800,9 @@
   
    {
      
-        "title"    : "Omer Zohar",
-        "url"      : "/about/archive/speakers/omer-zohar",
-        "path"     : "/about/archive/speakers/omer-zohar"
+        "title"    : "Presentations",
+        "url"      : "/program/presentations/",
+        "path"     : "/program/presentations/"
      
    },
   
@@ -867,14 +875,6 @@
         "title"    : "Henrik Sandberg",
         "url"      : "/about/archive/speakers/henrik-sandberg",
         "path"     : "/about/archive/speakers/henrik-sandberg"
-     
-   },
-  
-   {
-     
-        "title"    : "Presentations",
-        "url"      : "/program/presentations/",
-        "path"     : "/program/presentations/"
      
    },
   
@@ -985,8 +985,8 @@
    {
      
         "title"    : "A Practical Way to Test OT Security Mechanisms in Real-life Scenarios",
-        "url"      : "/program/presentations/matan-dobrushin/",
-        "path"     : "/program/presentations/matan-dobrushin/"
+        "url"      : "/program/presentations/matan-idan/",
+        "path"     : "/program/presentations/matan-idan/"
      
    },
   
