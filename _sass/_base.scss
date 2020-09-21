@@ -4852,6 +4852,16 @@ body.lb-disable-scrolling {
       color: $yellow;
       margin-bottom: 24px;
     }
+    h3 {
+      font-size: 25px;
+      color: $white;
+      margin-bottom: 12px;
+
+      @include media-query($mobile) {
+        font-size: 21px;
+      }
+    }
+
     > h4 {
       font-family: 'latobold', sans-serif;
       font-size: 21px;

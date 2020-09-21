@@ -16,11 +16,11 @@
   <meta property="og:image" content="https://www.cs3sthlm.se/assets/photos/cs3sthlm-nalen.jpg" />
   
 
-  <meta property="og:url" content="https://www.cs3sthlm.se/program/presentations/fredrico-maggi/" />
+  <meta property="og:url" content="https://www.cs3sthlm.se/program/presentations/federico-maggi/" />
   <meta property="fb:app_id" content="966242223397117" />
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="/program/presentations/fredrico-maggi/">
+  <link rel="canonical" href="/program/presentations/federico-maggi/">
   <link rel="alternate" type="application/rss+xml" title="CS3STHLM" href="/feed.xml">
   <link rel="icon" type="image/png" href="/assets/favicon-32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="/assets/favicon-16x16.png" sizes="16x16" />
@@ -98,7 +98,7 @@
   	
 	
 	
-  		<li>Fredrico maggi</li>
+  		<li>Federico maggi</li>
   	
 	
 </ul>
@@ -111,7 +111,7 @@
       <div class="post-meta">
         <div class="post-meta-item">
           <h4 class="sub-headline sub-headline-gray">Author</h4>
-          <span class="alt-title alt-title-small">Fredrico Maggi</span>
+          <span class="alt-title alt-title-small">Federico Maggi</span>
         </div>
 
         
@@ -129,12 +129,43 @@
         
 
         <div class="post-meta-item">
-          <img src="/assets/speakers/fredrico-maggi.png" class="post-meta-item-image">
+          <img src="/assets/speakers/federico-maggi.png" class="post-meta-item-image">
         </div>
       </div>
 
       
       
+      
+
+      
+      <div class="post-meta">
+        <h4 class="sub-headline sub-headline-yellow">Co-authors</h4>
+        
+        <div class="post-meta-item">
+          <span class="alt-title alt-title-small alt-title-light">Marcello Pogliani</span>
+          <span class="alt-title alt-title-extra-small alt-title-gray">Security Engineer</span>
+          <span class="alt-title alt-title-extra-small alt-title-gray">Secure Network Srl</span>
+        </div>
+        
+        <div class="post-meta-item">
+          <span class="alt-title alt-title-small alt-title-light">Davide Quarta</span>
+          <span class="alt-title alt-title-extra-small alt-title-gray">Postdoc Researcher</span>
+          <span class="alt-title alt-title-extra-small alt-title-gray">EURECOM</span>
+        </div>
+        
+        <div class="post-meta-item">
+          <span class="alt-title alt-title-small alt-title-light">Stefano Zanero</span>
+          <span class="alt-title alt-title-extra-small alt-title-gray">Associate Professor</span>
+          <span class="alt-title alt-title-extra-small alt-title-gray">Politecnico di Milano</span>
+        </div>
+        
+        <div class="post-meta-item">
+          <span class="alt-title alt-title-small alt-title-light">Marco Balduzzi</span>
+          <span class="alt-title alt-title-extra-small alt-title-gray">Senior Researcher Scientist</span>
+          <span class="alt-title alt-title-extra-small alt-title-gray">Trend Micro Research</span>
+        </div>
+        
+      </div>
       
 
     </aside>
@@ -145,13 +176,13 @@
         <h1 class="title title-yellow" itemprop="name headline">Hidden Attack Surfaces of Modern Industrial Automation Systems</h1>
       </header>
 
-      <p>Last year we performed a security analysis on a testbed smart manufacturing system using a variety of ““unconventional”” attack vectors. Striving to think very much outside the box, we wanted to understand which overlooked conditions and attacker capabilities make certain attacks possible, and their consequences.</p>
+      <p>Last year we performed a security analysis on a testbed smart manufacturing system using a variety of “unconventional” attack vectors. Striving to think very much outside the box, we wanted to understand which overlooked conditions and attacker capabilities make certain attacks possible, and their consequences.</p>
 
 <p>Through concrete PoCs, we’ll describe what unconventional attack vectors and very creative attackers can achieve, as well as how they can be stopped by current security solutions.</p>
 
 <p>We’ll first show how a remote attacker can indirectly compromise an engineering workstation to backdoor the automation logic of an industrial robot. Then, we’ll reveal how the attack has been carried out via a malicious software extension that targets the simulation and offline programming (OLP) platform. The attendees will learn that such malicious extensions have full capabilities on the target system, but we’ll explain what they are and how they can be stopped.</p>
 
-<p>Our second entry point is an industry-grade embedded device. These devices, often dubbed as ““IIoT devices”” offer great programming flexibility—compared to, say, PLCs—at the price of more responsibility for the programmers. The proliferation of customizable IIoT devices along with the many 3rd-party development libraries are the perfect target for software supply-chain attacks. We’ll show how we trojanized a simple temperature-measurement library to implement an ARP-based DoS attack, along with inaccurate temperature data-points, which can cause cascade effects down the data-processing pipeline. We’ll argue that detecting violations in the software supply-chain is hard in large, distributed enterprises, but their effects can be mitigated with proper network partitioning.</p>
+<p>Our second entry point is an industry-grade embedded device. These devices, often dubbed as “IIoT devices” offer great programming flexibility—compared to, say, PLCs—at the price of more responsibility for the programmers. The proliferation of customizable IIoT devices along with the many 3rd-party development libraries are the perfect target for software supply-chain attacks. We’ll show how we trojanized a simple temperature-measurement library to implement an ARP-based DoS attack, along with inaccurate temperature data-points, which can cause cascade effects down the data-processing pipeline. We’ll argue that detecting violations in the software supply-chain is hard in large, distributed enterprises, but their effects can be mitigated with proper network partitioning.</p>
 
 <p>The last step of our security analysis focused on lateral movements to complex, programmable machines such as industrial robots. We observe that, movement-instructions aside, industrial robot programming languages have statements, loops, conditions, network sockets, serial communication, etc. With access to low-level system resources like files, network, memory, and peripherals, task programs are a powerful, overlooked payload. Not only we show that task programs are susceptible to input-validation vulnerabilities, we also show that they’re rich enough to implement malware-like functionalities, given that the runtime environment provides no resource isolation. As a result, task programs have unmediated access to the entire system.</p>
 
@@ -164,7 +195,7 @@
   <li>Learn that programming environments for industrial automation are extensible with plug-in systems (like many other software applications), which could be the weak entry point that can be exploited by using plug-ins as an attack vector.</li>
   <li>Learn that the proliferation of customizable IIoT is creating the demand for faster (and more accessible) firmware development, which in turns makes 3rd-party development libraries an attractive target.</li>
   <li>Learn that the languages used to program industrial robots, and possibly other machines, include features that can allow writing and hiding malicious or vulnerable code.</li>
-  <li>Understand why it’s essential to always contextualize attack vectors and vulnerabilities within the entire system: there are so many protection layers and humans in the loop, that could easily prevent a concrete attack from happening, without the need of complex defense solutions.”</li>
+  <li>Understand why it’s essential to always contextualize attack vectors and vulnerabilities within the entire system: there are so many protection layers and humans in the loop, that could easily prevent a concrete attack from happening, without the need of complex defense solutions.</li>
 </ul>
 
 

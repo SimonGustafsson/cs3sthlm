@@ -1560,6 +1560,10 @@ body.lb-disable-scrolling { overflow: hidden; }
 
 .post-content h2 { font-size: 29px; color: #ef7d00; margin-bottom: 24px; }
 
+.post-content h3 { font-size: 25px; color: white; margin-bottom: 12px; }
+
+@media screen and (max-width: 768px) { .post-content h3 { font-size: 21px; } }
+
 .post-content > h4 { font-family: 'latobold', sans-serif; font-size: 21px; font-weight: normal; line-height: 1.5; }
 
 @media screen and (min-width: 1680px) { .post-content > h4 { font-size: 27px; } }

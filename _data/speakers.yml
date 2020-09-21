@@ -72,12 +72,12 @@
 - id:
   type: presentation
   permalink:
-  name: Fredrico Maggi
+  name: Federico Maggi
   role: Senior Researcher
   work: Trend Micro
   country: Italy
   shortcode: IT
-  image: fredrico-maggi.png
+  image: federico-maggi.png
   bio: |
     With more than a decade of research experience in the cybersecurity field, Federico Maggi is specialized in doing threat and security analysis on virtually any system. Federico has analyzed web applications, network protocols and devices, embedded systems, radio-frequency control systems, industrial robots, cars, and mobile devices.
     
@@ -90,22 +90,22 @@
   time:
   place:
   speaker:
-    - name: Fredrico Maggi
+    - name: Federico Maggi
       role: Senior Researcher
-      image: fredrico-maggi
+      image: federico-maggi
   presentation:
     - active: live
       subject: Hidden Attack Surfaces of Modern Industrial Automation Systems
-      permalink: program/presentations/fredrico-maggi/
+      permalink: program/presentations/federico-maggi/
       partner: 
       description: |
-        Last year we performed a security analysis on a testbed smart manufacturing system using a variety of ""unconventional"" attack vectors. Striving to think very much outside the box, we wanted to understand which overlooked conditions and attacker capabilities make certain attacks possible, and their consequences.
+        Last year we performed a security analysis on a testbed smart manufacturing system using a variety of "unconventional" attack vectors. Striving to think very much outside the box, we wanted to understand which overlooked conditions and attacker capabilities make certain attacks possible, and their consequences.
 
         Through concrete PoCs, we'll describe what unconventional attack vectors and very creative attackers can achieve, as well as how they can be stopped by current security solutions.
 
         We'll first show how a remote attacker can indirectly compromise an engineering workstation to backdoor the automation logic of an industrial robot. Then, we'll reveal how the attack has been carried out via a malicious software extension that targets the simulation and offline programming (OLP) platform. The attendees will learn that such malicious extensions have full capabilities on the target system, but we'll explain what they are and how they can be stopped.
 
-        Our second entry point is an industry-grade embedded device. These devices, often dubbed as ""IIoT devices"" offer great programming flexibility—compared to, say, PLCs—at the price of more responsibility for the programmers. The proliferation of customizable IIoT devices along with the many 3rd-party development libraries are the perfect target for software supply-chain attacks. We'll show how we trojanized a simple temperature-measurement library to implement an ARP-based DoS attack, along with inaccurate temperature data-points, which can cause cascade effects down the data-processing pipeline. We'll argue that detecting violations in the software supply-chain is hard in large, distributed enterprises, but their effects can be mitigated with proper network partitioning.
+        Our second entry point is an industry-grade embedded device. These devices, often dubbed as "IIoT devices" offer great programming flexibility—compared to, say, PLCs—at the price of more responsibility for the programmers. The proliferation of customizable IIoT devices along with the many 3rd-party development libraries are the perfect target for software supply-chain attacks. We'll show how we trojanized a simple temperature-measurement library to implement an ARP-based DoS attack, along with inaccurate temperature data-points, which can cause cascade effects down the data-processing pipeline. We'll argue that detecting violations in the software supply-chain is hard in large, distributed enterprises, but their effects can be mitigated with proper network partitioning.
 
         The last step of our security analysis focused on lateral movements to complex, programmable machines such as industrial robots. We observe that, movement-instructions aside, industrial robot programming languages have statements, loops, conditions, network sockets, serial communication, etc. With access to low-level system resources like files, network, memory, and peripherals, task programs are a powerful, overlooked payload. Not only we show that task programs are susceptible to input-validation vulnerabilities, we also show that they're rich enough to implement malware-like functionalities, given that the runtime environment provides no resource isolation. As a result, task programs have unmediated access to the entire system.
 
@@ -705,7 +705,7 @@
   country: Israel 
   shortcode: IL
   image: idan-helzer.png
-  bio: 
+  bio: Cyber-security researcher with military experience in a cyber security unit.
   date:
   time:
   place:

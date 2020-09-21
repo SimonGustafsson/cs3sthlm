@@ -105,8 +105,8 @@
   time: 
   title: Hidden Attack Surfaces of Modern Industrial Automation Systems
   author:
-    - name: Fredrico Maggi
-  permalink: program/presentations/fredrico-maggi/
+    - name: Federico Maggi
+  permalink: program/presentations/federico-maggi/
 
 - id:
   day: dayfour
@@ -174,7 +174,7 @@
   type: presentation
   place: Main Stage
   time: 
-  title: "Fake Company, Fake Factory but Real Attacks: Stories of a Realistic, High Interaction ICS Honeypot."
+  title: "Fake Company, Fake Factory but Real Attacks: Stories of a Realistic, High Interaction ICS Honeypot"
   author:
     - name: Stephen J. Hilt
   permalink: program/presentations/stephen-hilt/
