@@ -700,7 +700,7 @@
   type: presentation
   permalink:
   name: Idan Helzer
-  role: Analyst
+  role: Cyber Analyst
   work: Otorio
   country: Israel 
   shortcode: IL
@@ -711,7 +711,7 @@
   place:
   speaker:
     - name: Idan Helzer
-      role: Analyst
+      role: Cyber Analyst
       image: idan-helzer
   presentation:
     - active: live

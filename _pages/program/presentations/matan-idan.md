@@ -8,7 +8,7 @@ speaker:
   work: Otorio
   image: matan-dobrushin
 - name: Idan Helzer
-  role: Analyst
+  role: Cyber Analyst
   work: Otorio
   image: idan-helzer
 id: presentation
