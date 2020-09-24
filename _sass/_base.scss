@@ -5376,6 +5376,8 @@ body.lb-disable-scrolling {
     width: auto;
     line-height: 38px;
 
+    white-space: nowrap;
+
     &:after {
       display: block;
       content: '';
