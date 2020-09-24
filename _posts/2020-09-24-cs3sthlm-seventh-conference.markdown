@@ -22,4 +22,4 @@ A new feature for CS3STHLM is that all material later will be available as VoD, 
 The CS3STHLM Partner Expo, usually arranged the day before the CS3STHLM Summit, is now integrated into the two days of the Summit, and the conference participants can visit exhibitors in the platforms Expo section, or take part in partner sessions.
 
 
->The CS3STHLM Expo is not only a great opportunity to network and discuss the market field for interested parties, but will also consist of exciting demonstrations and presentations from researchers and vendors says Erik Johansson from Omnisiens.   
+> The CS3STHLM Expo is not only a great opportunity to network and discuss the market field for interested parties, but will also consist of exciting demonstrations and presentations from researchers and vendors says Erik Johansson from Omnisiens.   
