@@ -1269,3 +1269,27 @@
 	}
 }
 
+
+
+// BLOCKQUOTES
+
+blockquote {
+	border-left: 4px solid $yellow;
+	padding-left: 24px;
+	box-sizing: border-box;
+}
+
+// PRESS POST EXTRA
+
+.post-press-extra {
+	display: block;
+	margin-top: 96px;
+	padding: 24px;
+	box-sizing: border-box;
+	border: 2px solid rgba($yellow, .4);
+
+	p {
+		font-size: 16px;
+		line-height: 1.5;
+	}
+}

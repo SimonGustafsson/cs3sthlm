@@ -2853,4 +2853,10 @@ p.content-intro { font-size: 23px; line-height: 38px; margin-bottom: 38px; }
 
 .important-tag-highlight:after { display: block; content: ''; width: 100%; height: 2px; background: #ef7d00; border-radius: 2px; transition: 0.24s all ease-in-out; -moz-transition: 0.24s all ease-in-out; -webkit-transtiion: 0.24s all ease-in-out; -o-transition: 0.24s all ease-in-out; }
 
+blockquote { border-left: 4px solid #ef7d00; padding-left: 24px; box-sizing: border-box; }
+
+.post-press-extra { display: block; margin-top: 96px; padding: 24px; box-sizing: border-box; border: 2px solid rgba(239, 125, 0, 0.4); }
+
+.post-press-extra p { font-size: 16px; line-height: 1.5; }
+
 /*# sourceMappingURL=main.css.map */
