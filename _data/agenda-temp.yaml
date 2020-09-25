@@ -11,14 +11,14 @@
   day: daythree
   type: presentation
   place: Main Stage
-  time: "09:14"
+  time: "09:15"
   title: Keynote
 
 - id:
   day: daythree
   type: presentation
   place: Main Stage
-  time: "10:22"
+  time: "10:20"
   title: How to create a risk-based future-proof zone model
   author:
     - name: Kristina Blomqvist & Jonas Edberg
@@ -28,7 +28,7 @@
   day: daythree
   type: presentation
   place: Main Stage
-  time: "11:14"
+  time: "11:15"
   title: Ransomware? Please Hold for The Next Available Agent
   author:
     - name: Daniel Kapellmann Zafra
@@ -45,7 +45,7 @@
   day: daythree
   type: presentation
   place: Main Stage
-  time: "12:47"
+  time: "12:50"
   title: "Reverse Engineering Siemens PLCs: Lessons Learned for Today and Tomorrow"
   author:
     - name: Ali Abbasi
@@ -55,7 +55,7 @@
   day: daythree
   type: presentation
   place: Main Stage
-  time: "13:39"
+  time: "13:40"
   title: Hacking Advanced Metering Infrastructure (AMI) – an attacker’s perspective on Distribution System Operator (in)security
   author:
     - name: Krzysztof Swaczyński
@@ -72,7 +72,7 @@
   day: daythree
   type: presentation
   place: Main Stage
-  time: "14:22"
+  time: "14:20"
   title: So You Want to Take Down the Electric Grid - or You Want to Defend It
   author:
     - name: Joe Slowik
@@ -82,7 +82,7 @@
   day: daythree
   type: presentation
   place: Main Stage
-  time: "15:02"
+  time: "15:00"
   title: Panel
 
 
@@ -92,7 +92,7 @@
   day: dayfour
   type: presentation
   place: Main Stage
-  time: "09:09"
+  time: "09:10"
   title: Pressing the big red button – on Incident Response Readiness in the Oil and Gas Sector
   author:
     - name: Marie Moe & Jan Tore Sørensen
@@ -102,7 +102,7 @@
   day: dayfour
   type: presentation
   place: Main Stage
-  time: "10:01"
+  time: "10:00"
   title: Hidden Attack Surfaces of Modern Industrial Automation Systems
   author:
     - name: Federico Maggi
@@ -112,14 +112,14 @@
   day: dayfour
   type: break
   place: Main Stage
-  time: "10:52"
+  time: "10:50"
   title: Coffee Break
 
 - id:
   day: dayfour
   type: presentation
   place: Main Stage
-  time: "11:14"
+  time: "11:15"
   title: "Bug hunting in cloud connected ICS devices: Getting root from the cloud"
   author:
     - name: Kelly Leuschner
@@ -129,7 +129,7 @@
   day: dayfour
   type: presentation
   place: Main Stage
-  time: "11:57"
+  time: "11:55"
   title: Smarter Shipping. Hacking floating ICS for fun and profit
   author:
     - name: Ken Munro
@@ -139,7 +139,7 @@
   day: dayfour
   type: break
   place: Main Stage
-  time: "12:23"
+  time: "12:25"
   title: Lunch
 
 - id:
@@ -156,7 +156,7 @@
   day: dayfour
   type: presentation
   place: Main Stage
-  time: "13:52"
+  time: "13:50"
   title: A Practical Way to Test OT Security Mechanisms in Real-life Scenarios
   author:
     - name: Matan Dobrushin & Idan Helzer
@@ -166,7 +166,7 @@
   day: dayfour
   type: break
   place: Main Stage
-  time: "14:33"
+  time: "14:35"
   title: Coffee Break
 
 - id:
