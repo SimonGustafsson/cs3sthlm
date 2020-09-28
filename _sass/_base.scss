@@ -5333,7 +5333,7 @@ body.lb-disable-scrolling {
     border-right: 1px solid rgba($white, .05);
 
     margin-right: 24px;
-    padding: 24px 0;
+    padding: 24px 24px 24px 0;
     box-sizing: border-box;
 
     @include transition-ease;
@@ -5377,7 +5377,8 @@ body.lb-disable-scrolling {
     line-height: 38px;
 
     white-space: nowrap;
-
+    overflow: hidden;
+    
     &:after {
       display: block;
       content: '';
