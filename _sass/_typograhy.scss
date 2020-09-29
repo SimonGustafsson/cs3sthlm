@@ -48,6 +48,10 @@ p.content-intro {
 	line-height: 38px;
 	margin-bottom: 38px;
 
+	@include media-query($small) {
+		width: 100%;
+	}
+
 	@include media-query($mobile) {
 		font-size: 18px;
 		line-height: 32px;
@@ -131,17 +135,22 @@ p.content-intro {
 }
 
 /* HEADING */
+
 .heading {
-	font-family: 'latoblack', sans-serif;
+	font-family: 'latobold', sans-serif;
 	font-size: 18px;
 	font-weight: normal;
 	line-height: 27px;
-	//letter-spacing: 0.045em;
+	letter-spacing: 0.045em;
 	color: $white;
 
 	@include media-query-min($giant) {
 		font-size: 21px;
 		line-height: 32px;
+	}
+
+	@include media-query($small) {
+		font-size: 16px;
 	}
 
 	&-yellow {

@@ -1781,6 +1781,16 @@ body.lb-disable-scrolling {
       margin-right: 0;
     }
 
+    @include media-query($small) {
+
+      &.col-2-8 {
+        width: 50%;
+      }
+      &.col-4-8 {
+        width: 100%;
+      }
+    }
+
     @include media-query($mobile) {
       flex-wrap: wrap;
     }
@@ -1791,6 +1801,10 @@ body.lb-disable-scrolling {
 
       &-row {
         flex-direction: row;
+
+        @include media-query($small) {
+          align-items: center;
+        }
       }
 
       &-block {
@@ -1855,6 +1869,10 @@ body.lb-disable-scrolling {
     &-duo {
       position: relative;
       margin-right: 24px;
+
+      @include media-query($small) {
+        margin-top: -24px;
+      }
 
       img {
         display: block;
@@ -2246,11 +2264,19 @@ body.lb-disable-scrolling {
   }
 }
 
+
 .column-block {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-content: flex-start;
+
+  @include media-query($small) {
+
+    &.col-1-3 {
+      width: 100%;
+    }
+  }
 
   &-item {
     display: block;
@@ -2431,7 +2457,7 @@ body.lb-disable-scrolling {
     width: 588px;
   }
   @include media-query($small) {
-    width: 50%;
+    width: 48%;
   }
   @include media-query($mobile) {
     width: 100%;
@@ -2575,6 +2601,10 @@ body.lb-disable-scrolling {
 
   text-decoration: none;
 
+  @include media-query($small) {
+    padding: 24px;
+  }
+
   @include media-query($mobile) {
     padding: 24px;
     margin-bottom: 24px;
@@ -2590,6 +2620,10 @@ body.lb-disable-scrolling {
 
   .card-details-block {
     margin-bottom: 12px;
+
+    @include media-query($small) {
+      width: 30%;
+    }
 
     &:last-of-type {
       margin-bottom: 0;
@@ -2638,6 +2672,12 @@ body.lb-disable-scrolling {
     margin-top: -38px;
     border-radius: 2px 2px 0 0;
     overflow: hidden;
+
+    @include media-query($small) {
+      width: calc(100% + 48px);
+      margin-left: -24px;
+      margin-top: -24px;
+    }
 
     @include media-query($mobile) {
       width: calc(100% + 48px);
@@ -4673,6 +4713,10 @@ body.lb-disable-scrolling {
 
   &.col-2-8 {
 
+    @include media-query($small) {
+      width: 25%;
+    }
+
     @include media-query($mobile) {
       width: 100%;
     }
@@ -4903,6 +4947,10 @@ body.lb-disable-scrolling {
     justify-content: flex-start;
     margin-top: 76px;
 
+    @include media-query($small) {
+      width: 100%;
+    }
+
     @include media-query($mobile) {
       flex-wrap: wrap;
     }
@@ -4911,6 +4959,10 @@ body.lb-disable-scrolling {
     &-item {
 
       &.col-2-8 {
+
+        @include media-query($small) {
+          width: 48%;
+        }
 
         @include media-query($mobile) {
           width: 100%;
@@ -5292,21 +5344,25 @@ body.lb-disable-scrolling {
       display: block;
       content: '';
       width: 300%;
-      height: 2px;
+      height: 1px;
       background: rgba($white, .05);
       position: absolute;
-      top: 0;
+      top: -1px;
       left: -100%;
     }
     &:after {
       display: block;
       content: '';
       width: 300%;
-      height: 2px;
+      height: 1px;
       background: rgba($white, .05);
       position: absolute;
-      bottom: 0;
+      bottom: -1px;
       left: -100%;
+    }
+
+    @include media-query($small) {
+      flex-wrap: wrap;
     }
 
     @include media-query($mobile) {
@@ -5354,9 +5410,33 @@ body.lb-disable-scrolling {
       }
     }
 
+    @include media-query($small) {
+      width: 50%;
+      margin: 0;
+      padding: 24px;
+
+      &:nth-child(3) {
+        padding-left: 0;
+      }
+
+      &:nth-child(2) {
+        border-right: none;
+        border-bottom: 1px solid rgba($white, .05);
+      }
+      &:nth-child(1) {
+        border-bottom: 1px solid rgba($white, .05);
+        padding-left: 0;
+      }
+    }
+
     @include media-query($mobile) {
       width: 100%;
       border-right: none;
+      padding: 24px 0;
+
+       &:nth-child(3) {
+        border-bottom: 1px solid rgba($white, .05);
+       }
     }
   } 
 
@@ -5369,6 +5449,11 @@ body.lb-disable-scrolling {
     color: $light-gray;
 
     @include transition-ease;
+
+
+    &-block {
+      width: 100%;
+    }
     
   }
   &-title {
@@ -6661,6 +6746,7 @@ body.lb-disable-scrolling {
   align-items: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
 
   width: 100%;
   max-width: 1440px;

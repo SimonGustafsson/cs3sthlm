@@ -42,9 +42,11 @@ image: /assets/bg-2019.png
     <div class="news-feed-content">
       {% for post in site.posts limit:4 %}
       <a href="{{ site.baseurl }}{{ post.url }}" class="news-feed-link">
+        <div class="news-feed-meta-block">
           <span class="news-feed-meta news-feed-date">{{ post.date | date: "%-d %B %-Y" }}</span>
           <span class="news-feed-meta news-feed-category news-feed-category-{{ post.categories | join: ' ' }}">{{ post.categories }}</span>
-          <span class="news-feed-title">{{ post.title }}</span>
+        </div> 
+        <span class="news-feed-title">{{ post.title }}</span>
       </a>
       {% endfor %}
     </div>
@@ -82,10 +84,12 @@ image: /assets/bg-2019.png
         </div>
       </div>
 
-      <div class="column-block-item col-1-3">
-          <h3 class="headline">Why Attend?</h3>
-          <p>The CS3STHLM summit gives you a great opportunity to experience international top-speakers and meet the most experienced experts in the field.</p>
-          <p>Robert Malmgren and Erik Johansson, two leading Swedish industrial security specialists, are the organizers of CS3STHLM. Their practical experiences are fundamental for the success of this summit.</p>
+      <div class="column-block col-1-3">
+        <div class="column-block-item">
+            <h3 class="headline">Why Attend?</h3>
+            <p>The CS3STHLM summit gives you a great opportunity to experience international top-speakers and meet the most experienced experts in the field.</p>
+            <p>Robert Malmgren and Erik Johansson, two leading Swedish industrial security specialists, are the organizers of CS3STHLM. Their practical experiences are fundamental for the success of this summit.</p>
+        </div>
       </div>
     
     </div>
