@@ -2,7 +2,7 @@
 layout: 
 ---
 
-{"agendaList":[{% for item in site.data.agenda19 %}
+{"agendaList":[{% for item in site.data.agenda-temp %}
 	{
 		"id"		: "{{ item.id }}",
 		"day"		: "{{ item.day }}",

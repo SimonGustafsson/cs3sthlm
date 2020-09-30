@@ -1,495 +1,88 @@
 {"agendaList":[
 	{
-		"id"		: "101",
-		"day"		: "dayone",
-		"type"		: "break",
-		"time"		: "All day",
-		"title" 	: "CLOSED FOR RIGGING",
-		"description"	: "",
-		
-		"name"		: "",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
-		
-		
-		"label"		: "",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "102",
-		"day"		: "dayone",
-		"type"		: "break",
-		"time"		: "All Day",
-		"title" 	: "CLOSED FOR RIGGING",
-		"description"	: "",
-		
-		"name"		: "",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
-		
-		
-		"label"		: "",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "103",
-		"day"		: "dayone",
-		"type"		: "common",
-		"time"		: "09:00 - 20:00",
-		"title" 	: "ICS Lab Open",
-		"description"	: "",
-		
-		"name"		: "",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
-		
-		
-		"label"		: "",
-		"place" 	: "ICS Lab"
-	},
-
-	{
-		"id"		: "104",
-		"day"		: "dayone",
-		"type"		: "common",
-		"time"		: "09:00 - 16:00",
-		"title" 	: "Capture the Flag",
-		"description"	: "",
-		
-		"name"		: "Hosted by The DHS Cybersecurity and Infrastructure Agency",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
-		
-		
-		"label"		: "",
-		"place" 	: "ICS Lab"
-	},
-
-	{
-		"id"		: "105",
-		"day"		: "dayone",
-		"type"		: "common",
-		"time"		: "16:30 - 20:00",
-		"title" 	: "KIPS Cybersecurity Simulation",
-		"description"	: "",
-		
-		"name"		: "Hosted by Kaspersky",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
-		
-		
-		"label"		: "",
-		"place" 	: "ICS Lab"
-	},
-
-	{
-		"id"		: "201",
-		"day"		: "daytwo",
-		"type"		: "common",
-		"time"		: "09:00 - 18:00",
-		"title" 	: "ICS Lab Open",
-		"description"	: "",
-		
-		"name"		: "",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
-		
-		
-		"label"		: "",
-		"place" 	: "ICS Lab"
-	},
-
-	{
-		"id"		: "202",
-		"day"		: "daytwo",
-		"type"		: "common",
-		"time"		: "09:00 - 18:00",
-		"title" 	: "Capture the Flag",
-		"description"	: "",
-		
-		"name"		: "Hosted by The DHS Cybersecurity and Infrastructure Agency",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
-		
-		
-		"label"		: "",
-		"place" 	: "ICS Lab"
-	},
-
-	{
-		"id"		: "203",
-		"day"		: "daytwo",
-		"type"		: "common",
-		"time"		: "10:00 - 22:00",
-		"title" 	: "CS3STHLM Expo",
-		"description"	: "",
-		
-		"name"		: "Opening by Erik Johansson & Robert Malmgren",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
-		
-		
-		"label"		: "",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "204",
-		"day"		: "daytwo",
-		"type"		: "presentation",
-		"time"		: "11:00",
-		"title" 	: "From datasets and testbeds to timing-based anomaly detection",
-		"description"	: "<p>This presentation will describe the latest work done on data collection, emulation and analysis within RICS, and the application of machine learning algorithms for anomaly detection. It will include a demonstration of the virtual SCADA system built at FOI (RICS-el) by FOI engineers. Simin then goes on to describe how anomaly detection using only timing attributes of traffic in SCADA networks can indicate early signs of complex attacks. The methods for anomaly detection have been evaluated both on synthetic data from RICS-el and data collected at a Swedish utility company.</p>",
-		
-		"name"		: "Simin Nadjm-Tehrani",
-		"role"		: "Professor",
-		"work"		: "Linköping University",
-		"image"		: "https://cs3sthlm.se/assets/speakers/simin-nadjm-tehrani.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "205",
-		"day"		: "daytwo",
-		"type"		: "presentation",
-		"time"		: "11:45",
-		"title" 	: "Applying automated attack modeling to a smart grid use case",
-		"description"	: "<p>This presentation will describe how attack simulations can be generated from IT system architecture models. Attack simulations can be seen as virtual penetration tests performed en masse on large-scale system architectures. The attack simulations identifies the easiest attack vector for an hypothesized antagonist and thus supports an effective approach identifying and evaluating various mitigation strategies before their actual implementation. The presentation illustrates this design approach describing a reference architecture for load-balancing of distributed renewable energy developed as part of a larger research project.</p>",
-		
-		"name"		: "Mathias Ekstedt",
-		"role"		: "Professor",
-		"work"		: "KTH Royal Institute of Technology",
-		"image"		: "https://cs3sthlm.se/assets/speakers/mathias-ekstedt.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "206",
-		"day"		: "daytwo",
-		"type"		: "presentation",
-		"time"		: "13:00",
-		"title" 	: "Attack Path Mapping",
-		"description"	: "<p>Attack Path Mapping (APM) is an approach to performing attack simulations against sensitive and/or critical infrastructure. In this talk Robert, will introduce the APM approach and provide examples of host it has been effective in past engagements.</p>",
-		
-		"name"		: "Robert Bearsby",
-		"role"		: "Security Consultant",
-		"work"		: "F-Secure Consulting",
-		"image"		: "https://cs3sthlm.se/assets/speakers/robert-bearsby.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "207",
-		"day"		: "daytwo",
-		"type"		: "presentation",
-		"time"		: "13:30",
-		"title" 	: "We are all vulnerable",
-		"description"	: "<p>A tale of two databases, a panda and someone who was listening.</p><p>Recorded Future correlated information from the Chinese (CNNVD) and the American (NVD) vulnerability databases and found some interesting results.</p><p>Just by looking at these data sources - are you able to understand what vulnerabilities are being used by the most advanced Chinese APT groups?</p>",
-		
-		"name"		: "Magnus Lundgren",
-		"role"		: "Sales Director",
-		"work"		: "Recorded Future",
-		"image"		: "https://cs3sthlm.se/assets/speakers/magnus-lundgren.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "209",
-		"day"		: "daytwo",
-		"type"		: "presentation",
-		"time"		: "14:00",
-		"title" 	: "Project EnergyShield - hacking the power grid as a research method",
-		"description"	: "<p>EnergyShield is an H2020 project that captures the needs of Electrical Power and Energy System (EPES) operators and combines the latest technologies for vulnerability assessment, supervision and protection to draft a defensive toolkit.</p><p>The project promotes an integrative approach based on the information exchanged by the various tools to predict future attacks and deploy intelligent algorithms. EnergyShield toolkit will combine the latest technologies for vulnerability assessment (automated threat modelling), monitoring &amp; protection (anomaly detection and DDoS mitigation) and learning &amp; sharing (security information and event management).</p><p>The toolkit will be implemented with the support of end-users representing all parts of the EPES value chain (generator, TSO, DSO, aggregator, consumer) who will contribute to the specification, prototyping and demonstration phases of the project.</p><p>The project results will be tested in two pilot sites. Bulgaria proposes a city-level online demonstrator that will study the cascading effects of cyber attacks throughout the electric grid value chain, and analyze cyber security risks related to the cyber supply chain. Similarly, Italy promotesasmall scale offline demonstrator focusing on DSO infrastructures that builds a dedicated, offline testing area on one of the network control sub-systems where a cyber attack will be simulated.</p><p>In order to test if the suggested toolkit works ethical hacking of the systems will be conducted.</p><p>Robert will also describe and demonstrate two previous hacking activities; a car dongle and a robot vacuum cleaner with camera and microphone.</p>",
-		
-		"name"		: "Robert Lagerström",
-		"role"		: "Associate Professor",
-		"work"		: "KTH Royal Institute of Technology",
-		"image"		: "https://cs3sthlm.se/assets/speakers/robert-lagerstrom.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "210",
-		"day"		: "daytwo",
-		"type"		: "presentation",
-		"time"		: "14:30",
-		"title" 	: "Cyber Security for OT/IIoT/ICS – what we have learned 1000 installations later",
-		"description"	: "",
-		
-		"name"		: "Michael Weng",
-		"role"		: "Sales Engineer",
-		"work"		: "Nozomi Networks",
-		"image"		: "https://cs3sthlm.se/assets/speakers/michael-weng.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "211",
-		"day"		: "daytwo",
-		"type"		: "presentation",
-		"time"		: "14:50",
-		"title" 	: "How to save $1.7 million over three years on industrial cybersecurity: the Results of the Forrester Total Economic (TEI) Impact study",
-		"description"	: "<p>This presentation will show results from the commissioned Forrester Consulting Total Economic Impact™ study, highlighting the costs and benefits of using a dedicated industrial cybersecurity solution Kaspersky Industrial CyberSecurity (KICS) for Nodes and the improved experience this brings to customers.  Additionally the Study provides readers with a framework to evaluate the potential financial impact of the KICS on their organizations.</p>",
-		
-		"name"		: "Anton Shipulin",
-		"role"		: "Global Presales Manager",
-		"work"		: "Kaspersky",
-		"image"		: "https://cs3sthlm.se/assets/speakers/anton-shipulin.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "212",
-		"day"		: "daytwo",
-		"type"		: "presentation",
-		"time"		: "15:30",
-		"title" 	: "Testbed Evaluation of DoS Attacks on Continuously Controlled Processes",
-		"description"	: "<p>In this talk, we first give an overview of the MSB-sponsored project CERCES. The latest activities and results in the CERCES focus areas (embedded systems, wireless systems, communication networks, and resilient control) are reviewed. Second, we present ongoing work in evaluating the performance of PID-controllers under DoS attacks. The experiments are conducted in a recently developed virtual testbed, which is openly available. An important observation is that also benign physical processes may exhibit potentially dangerous oscillations under DoS attacks unless care is taken in the control implementation. An event-based PID-controller with adaptive gain shows promising performance under DoS attack.</p>",
-		
-		"name"		: "Henrik Sandberg",
-		"role"		: "Professor",
-		"work"		: "KTH Royal Institute of Technology",
-		"image"		: "https://cs3sthlm.se/assets/speakers/henrik-sandberg.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "213",
-		"day"		: "daytwo",
-		"type"		: "break",
-		"time"		: "18:00",
-		"title" 	: "Closed",
-		"description"	: "",
-		
-		"name"		: "",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
-		
-		
-		"label"		: "",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "214",
-		"day"		: "daytwo",
-		"type"		: "break",
-		"time"		: "18:00",
-		"title" 	: "Closed",
-		"description"	: "",
-		
-		"name"		: "",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
-		
-		
-		"label"		: "",
-		"place" 	: "ICS Lab"
-	},
-
-	{
-		"id"		: "215",
-		"day"		: "daytwo",
-		"type"		: "common",
-		"time"		: "18:00 - 22:00",
-		"title" 	: "CS3STHLM Welcome Reception",
-		"description"	: "",
-		
-		"name"		: "Hosted by Erik Johansson & Robert Malmgren",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
-		
-		
-		"label"		: "",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "216",
-		"day"		: "daytwo",
-		"type"		: "break",
-		"time"		: "22:00",
-		"title" 	: "Closed",
-		"description"	: "",
-		
-		"name"		: "",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
-		
-		
-		"label"		: "",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "301",
+		"id"		: "",
 		"day"		: "daythree",
-		"type"		: "common",
-		"time"		: "09:00",
-		"title" 	: "CS3STHLM Introduction",
+		"type"		: "break",
+		"time"		: "",
+		"title" 	: "Introduction",
 		"description"	: "",
 		
-		"name"		: "Erik Johansson",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
-		
-		
-		"pname"		: "Robert Malmgren",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "",
 		"place" 	: "Main Stage"
 	},
 
 	{
-		"id"		: "302",
-		"day"		: "daythree",
-		"type"		: "common",
-		"time"		: "09:00 - 18:45",
-		"title" 	: "ICS Lab Open",
-		"description"	: "",
-		
-		"name"		: "",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
-		
-		
-		"label"		: "",
-		"place" 	: "ICS Lab"
-	},
-
-	{
-		"id"		: "3021",
-		"day"		: "daythree",
-		"type"		: "common",
-		"time"		: "09:00",
-		"title" 	: "Capture the Flag Demo",
-		"description"	: "",
-		
-		"name"		: "Hosted by The DHS Cybersecurity and Infrastructure Agency",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
-		
-		
-		"label"		: "",
-		"place" 	: "ICS Lab"
-	},
-
-	{
-		"id"		: "303",
+		"id"		: "",
 		"day"		: "daythree",
 		"type"		: "presentation",
 		"time"		: "09:15",
-		"title" 	: "The cyber-attack on Hydro",
+		"title" 	: "Keynote",
 		"description"	: "",
 		
-		"name"		: "Torstein Gimnes Are",
-		"role"		: "Digital Marshall & CISO",
-		"work"		: "Norsk Hydro",
-		"image"		: "https://cs3sthlm.se/assets/speakers/torstein-gimnes-are.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "",
 		"place" 	: "Main Stage"
 	},
 
 	{
-		"id"		: "304",
+		"id"		: "",
+		"day"		: "daythree",
+		"type"		: "presentation",
+		"time"		: "10:20",
+		"title" 	: "How to create a risk-based future-proof zone model",
+		"description"	: "",
+		
+		"name"		: "Kristina Blomqvist & Jonas Edberg",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
+		
+		"label"		: "",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "",
+		"day"		: "daythree",
+		"type"		: "presentation",
+		"time"		: "11:15",
+		"title" 	: "Ransomware? Please Hold for The Next Available Agent",
+		"description"	: "",
+		
+		"name"		: "Daniel Kapellmann Zafra",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
+		
+		"label"		: "",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "",
 		"day"		: "daythree",
 		"type"		: "break",
-		"time"		: "10:00 - 10:30",
-		"title" 	: "Coffee Break",
+		"time"		: "11:55",
+		"title" 	: "Lunch",
 		"description"	: "",
 		
-		"name"		: "",
+		
+		"label"		: "",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "",
+		"day"		: "daythree",
+		"type"		: "presentation",
+		"time"		: "12:50",
+		"title" 	: "Reverse Engineering Siemens PLCs: Lessons Learned for Today and Tomorrow",
+		"description"	: "",
+		
+		"name"		: "Ali Abbasi",
 		"role"		: "",
 		"work"		: "",
 		"image"		: "https://cs3sthlm.se/assets/speakers/",
@@ -500,475 +93,61 @@
 	},
 
 	{
-		"id"		: "305",
+		"id"		: "",
 		"day"		: "daythree",
 		"type"		: "presentation",
-		"time"		: "10:15",
-		"title" 	: "Memory Forensics and DMA Attacks with MemProcFS and PCILeech",
-		"description"	: "<p>The PCILeech direct memory access attack toolkit was released three years ago and quickly became popular amongst red teamers, governments and game cheaters alike. We will demonstrate how to take total control of up-to-date still vulnerable systems with PCIe DMA code injection using affordable FPGA hardware and the open source PCILeech direct memory access attack toolkit.</p><p>MemProcFS - The Memory Process File System is memory forensics made super easy! Analyze memory by clicking on files in a virtual file system or by using the C/C++/Python API. Analyze memory dump files by point and click, analyze and edit live memory acquired using PCILeech PCIe FPGA devices or even live memory acquired in real time from remote hosts over the network. Zero-cost, open source, fast and super-easy to use memory forensics!</p>",
-		
-		"name"		: "Ulf Frisk",
-		"role"		: "Pentester & Security Researcher",
-		"work"		: "Independent",
-		"image"		: "https://cs3sthlm.se/assets/speakers/ulf-frisk.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "The Tools",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "306",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "10:30",
-		"title" 	: "The fall of CODESYS",
-		"description"	: "<p>In the talk, we will discuss our research on the network communication of industrial devices that have Codesys Runtime installed on them. Codesys Runtime is an example of software designed to resolve the issue of industrial device unification and interaction.</p><p>Codesys Runtime installation has already been adapted for over 350 devices designed for all types of industrial applications. CoDeSys developers have made it easy for vendors to build Codesys Runtime into their devices to enable users of these devices to program them using the CoDeSys programming environment. As a result of this, the number of adapted devices is set to grow further.</p><p>A flaw or vulnerability identified in a core networking component on a device is highly likely to be reproduced on other devices, even though these devices may be based on completely different hardware. It should also be kept in mind that, since the software is designed for industrial applications, devices running it will be united into an integrated network infrastructure. And since no documentation on the protocol is available, monitoring network activity between devices is not an option. Putting these three factors together, we can see that the exploitation of a vulnerability in Codesys Runtime could lead to an attack on an integrated network of devices running Codesys Runtime, a situation not unlike a “Die Hard” scenario.</p><p>In the talk, we will analyze the proprietary network protocol, look at the fields used, describe the protocol’s functionality and how the packets received are handled on the client side. We will also discuss the difficulties that we faced in our research and demonstrate both the architecture­related vulnerabilities in the protocol itself and the vulnerabilities in the request handlers used by it.</p>",
-		
-		"name"		: "Alexander Nochvay",
-		"role"		: "Security Researcher",
-		"work"		: "Kaspersky",
-		"image"		: "https://cs3sthlm.se/assets/speakers/alexander-nochvay.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "The Threats",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "307",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "11:00",
-		"title" 	: "TLS Interception and Decryption *LIVE DEMO*",
-		"description"	: "<p>The use of TLS encryption has greatly improved our privacy on the Internet. Unfortunately malware has also benefited from the “HTTPS is the new TCP” trend we’ve been seeing for the past few years. Botnets, trojans and APT groups now leverage TLS encryption in order to avoid network based detection. In this talk Erik will perform live TLS interception and decryption in order to show how defenders can analyze otherwise encrypted communications in real-time.</p><p>Tools used: PolarProxy, Wireshark and NetworkMiner</p>",
-		
-		"name"		: "Erik Hjelmvik",
-		"role"		: "Network Analyst",
-		"work"		: "NETRESEC",
-		"image"		: "https://cs3sthlm.se/assets/speakers/erik-hjelmvik.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "The Tools",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "308",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "11:10",
-		"title" 	: "Broken Rungs: A look at popular ladder logic runtime privileges",
-		"description"	: "<p>The TRISIS/TRITON/HatMan malware represents the first time that a rootkit was used against a programmable logic controller. In this talk, we will dive deep into several major PLC brands and ask the questions: Could TRISIS happen here? And if so, how easy or difficult would it be for an attacker to have the same effect?</p><p>The talk will detail the ladder logic programming and compilation systems from several vendors, and provide results of testing for ladder logic privileges and privilege escalation issues. This will include, where possible, reviewing the CPU used in each PLC, showing what security features the CPU has, and finally showing results of loading weaponized ladder logic into the PLC for execution. This will also cover in some limited depth the ladder logic transfer protocol used by each controller.</p><h4 id=\"target-audience-\">Target audience ­</h4><p>Technical researchers, low­level engineers for vendors, and low­level protocol analysis</p><h4 id=\"key-takeaways\">Key takeaways</h4><ul>  <li>For end users, they should walk away with questions to ask their vendors. For PLCs vendors, they should ask, ‘Is this type of attack in your threat model, and how are you dealing with it?’. For their security vendors, they should ask, ‘Are you able to carve logic updates and perform any level of analysis on them in your security system?’</li>  <li>For vendors, they key takeaway should be: This type of attack should be in your threat model.</li>  <li>For security researchers and vendors, the key takeaway should be: We should research tools to monitor and prevent malicious logic updates. This might require more research into static code analysis, and will likely require some cooperation from the vendors.</li></ul>",
-		
-		"name"		: "Jimmy Wylie",
-		"role"		: "Senior Adversary Hunter",
-		"work"		: "Dragos Inc.",
-		"image"		: "https://cs3sthlm.se/assets/speakers/jimmy-wylie.png",
-		
-		
-		"pname"		: "Reid Wightman",
-		"prole"		: "Senior vulnerability Researcher",
-		"pwork"		: "Dragos Inc.",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/reid-wightman.png",
-		
-		"label"		: "The Threats",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "309",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "11:45",
-		"title" 	: "Introduction to Malcolm",
+		"time"		: "13:40",
+		"title" 	: "Hacking Advanced Metering Infrastructure (AMI) – an attacker’s perspective on Distribution System Operator (in)security",
 		"description"	: "",
 		
-		"name"		: "Janek Pelzer",
-		"role"		: "TBA",
-		"work"		: "TBA",
-		"image"		: "https://cs3sthlm.se/assets/speakers/temp.png",
+		"name"		: "Krzysztof Swaczyński",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
 		
 		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "The Tools",
-		"place" 	: "Harlem Stage"
+		"label"		: "",
+		"place" 	: "Main Stage"
 	},
 
 	{
-		"id"		: "310",
+		"id"		: "",
 		"day"		: "daythree",
 		"type"		: "break",
-		"time"		: "12:00 - 13:15",
-		"title" 	: "Lunch Break",
-		"description"	: "",
-		
-		"name"		: "",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
-		
-		
-		"label"		: "",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "311",
-		"day"		: "daythree",
-		"type"		: "break",
-		"time"		: "12:30 - 13:00",
-		"title" 	: "Lunch Break",
-		"description"	: "",
-		
-		"name"		: "",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
-		
-		
-		"label"		: "",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "312",
-		"day"		: "daythree",
-		"type"		: "common",
-		"time"		: "13:00 - 16:45",
-		"title" 	: "Locked Shields from different perspectives",
-		"description"	: "",
-		
-		"name"		: "Moderated by Thomas Svensson",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
-		
-		
-		"label"		: "",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "313",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "13:00",
-		"title" 	: "Introduction to Locked Shields exercise",
-		"description"	: "",
-		
-		"name"		: "Thomas Svensson, Deputy White Team Leader",
-		"role"		: "Deputy Head of National Security",
-		"work"		: "Telia Company Sweden",
-		"image"		: "https://cs3sthlm.se/assets/speakers/thomas-svensson.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "The Training",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "314",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "13:15",
-		"title" 	: "Tales from Industrial Plants and Responders",
-		"description"	: "<h4 id=\"network--security--and-vulnerability-monitoring-for-ics-a-demystification-from-an-asset-owners-perspective\">Network-, Security- and Vulnerability Monitoring for ICS: a demystification from an asset owner’s perspective.</h4><p>In this session Dr. Mona Lange (Audi) and Christian Augustat (Gassco) will take you on a conceptual tour through Industrial Control System (ICS) Security, both have a solid background in securing industrial plants in the manufacturing and Oil- and Gas industry. The session will provide you with insights into areas of Governance, Network Security Monitoring, Vulnerability Management and Continuous Security Monitoring, all from the perspective of an Asset-Owner.</p><p>In the area of Governance management we will dissect the pros and cons of IEC62443, ISO27001 and CIS as a foundation for an ICS security strategy, demonstrate how to prioritize security measures and render existing security risks transparent to management for security risk acceptance. Based on this security strategy, we will motivate the importance of asset management as a foundation for network security monitoring, describe how to build an MAC Address based Asset Inventory based on existing network components and integrate it into a Security Information and Event Management System (SIEM). Effective network security monitoring requires asset owners to understand what sources of infection or attack on ICS exist, how threat groups exploit them and how they can be monitored.</p><p>Generally, it is not feasible to defend against all threats everywhere, however we will demonstrate how baselining can be used to make an existing attack surface transparent and prioritize network security monitoring efforts in a threat aware manner. We will show how baselining can be used as a foundation for hardening Firewalls and deriving monitoring scenarios and integrating them into a SIEM. In addition, we will point out the difference between shopping security in comparison to building security. Vulnerability management means identifying vulnerabilities present in the environment, understanding their impact for an attack surface and finding possible mitigations as alternatives to patching.</p><p>We will show how the concept of ICS in a Virtual Machine can be used for live vulnerability scanning and provide some practical examples on how to rank the criticality of vulnerabilities. Main focus is to point out common problems from an asset owner’s perspective and point towards easy solutions based on our experience “from the trenches”.</p>",
-		
-		"name"		: "Christian Augustat",
-		"role"		: "Principal Engineer",
-		"work"		: "Gassco",
-		"image"		: "https://cs3sthlm.se/assets/speakers/christian-augustat.png",
-		
-		
-		"pname"		: "Mona Lange",
-		"prole"		: "Cyber Defense Team Lead",
-		"pwork"		: "Audi",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/mona-lange.png",
-		
-		"label"		: "The Industrial Plants",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "314",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "13:15",
-		"title" 	: "What is the NATO Cooperative Cyber Defence Centre of Excellence (CCDCOE)?",
-		"description"	: "<p>The CCDCOE is an essential part of NATO’s wider framework that develops and delivers real capabilities while being a hub for cyber subject matter expertise. The CCDCOE provides cyber research, training and exercise in the four core areas of technology, strategy operation and law.</p>",
-		
-		"name"		: "Cdr Michael Widmann, Leading the strategic part of Locked Shields",
-		"role"		: "Strategy Branch Chief",
-		"work"		: "CCDCOE",
-		"image"		: "https://cs3sthlm.se/assets/speakers/cdr-michael-widmann.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "The Training",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "315",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "13:50",
-		"title" 	: "Digging into the technical setup of the exercise",
-		"description"	: "<p>The Locked Shields exercise network is set up every year to incorporate new threats that have been observed in the real world and new technologies that provide a challenge for the Blue Teams. The entire network for LS2019 comprised of more than 4500 virtual machines and 1100 networks. The playground included complex systems which branched out into the physical world, such as power distribution, 4G communications and marine traffic control.</p><p>Silver will talk about what the development process for the exercise looks like, who are the people involved and what kind of effort it takes. Using Locked Shields 2019 network as an example, Silver will go into details about what systems were in the Blue Team network and how they were set up to provide a challenge for the defending teams.</p>",
-		
-		"name"		: "Silver Saks, Green Team Leader",
-		"role"		: "Technology Researcher",
-		"work"		: "CCDCOE",
-		"image"		: "https://cs3sthlm.se/assets/speakers/silver-saks.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "The Training",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "316",
-		"day"		: "daythree",
-		"type"		: "presentation",
 		"time"		: "14:00",
-		"title" 	: "Secure your MES - the bridge between IT and OT",
-		"description"	: "<p>The presentation will be geared towards asset-owners, primarily from the manufacturing sector. However, other industries may also benefit. I intend to present how we, as an asset-owner, are approaching the challenge of securing our Manufacturing Execution Systems (MES). I will briefly discuss what an MES system is and why do most manufacturing industries need it.</p><p>An MES system bridges IT and OT networks – it interfaces with ERP on the IT side and Automation layer (PLCs, etc.) on the OT side. And also interfaces with Laboratory and other systems at the same level. I will briefly go into the reasons why the MES needs to talk to both IT and OT.  And how it is the air-gap myth-buster!</p><p>As an MES is exposed to the IT side, and hence indirectly to the Internet, it is critical we secure it. I will discuss how careful network segmentation will help in this cause.</p><p>OPC is a common protocol used by most MES systems for interfacing with various Automation systems. I will discuss our attempts at securing our legacy OPC-DA communication interfaces, and how we migrated to and are securing our current OPC-UA interfaces. Will go into security features afforded by the OPC-UA specification and how just moving to OPC-UA does not guarantee security.</p><p>In addition, I will present other security controls that may be deployed to increase security posture of a MES system.</p><p>Finally, I will end the presentation with the argument for absolute need for developing strong and verifiable disaster recovery plans (DR) and business continuity plans (BCP) for when MES goes down. And what would such a BCP typically comprise of.</p>",
-		
-		"name"		: "Khalid Ansari",
-		"role"		: "Automation & MES Engineer",
-		"work"		: "Qatar Aluminium Ltd",
-		"image"		: "https://cs3sthlm.se/assets/speakers/khalid-ansari.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "The Industrial Plants",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "317",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "14:15",
-		"title" 	: "Red Teams view from the exercise",
-		"description"	: "<p>The focus of Locked Shields exercises is to train the Blue Teams. Therefore, Red Team members are mainly considered as the ‘work-force’ to challenge the Blue Teams. In principle, the RT uses a white-box approach at first, but the situation changes quickly after the exercise starts.</p><p>The main challenge for RT in Locked Shields context is to compile a large proficient team to “entertain” all Blue Teams as equally as possible, yet to be able to handle the collaboration overhead and handover procedures. To ensure equal distribution of applied skills, the RT collaborates as one, however, it is divided into sub-teams and competence groups. Collaboration is crucial to overcome problems with fluidity and continuity of attack campaigns (e.g. in-depth penetration objectives and persistence within compromised networks instead of opportunistic jabs)</p><p>Sandra will explain the keys of the Red Team Campaign in order to make the life complicated to Blue Teamers.</p>",
-		
-		"name"		: "Sandra Bardón, Core Member Red Team",
-		"role"		: "Technology Researcher",
-		"work"		: "CCDCOE",
-		"image"		: "https://cs3sthlm.se/assets/speakers/sandra-bardon.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "The Training",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "318",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "14:40",
-		"title" 	: "A view from the Blue side of Locked Shields",
-		"description"	: "<p>What happened when the STARTEX of Locked shield was announced and how did the team handle the turmoil during the exercise? What strategy, tools and setup did the team use to defend the network? The team lead of SWE Blue Team 17 will present the key factors for success and give some hints on how a quickly assembled team can handle a large scale cyber-attack.</p>",
-		
-		"name"		: "Erik Biverot",
-		"role"		: "Senior Course coordinator",
-		"work"		: "Swedish Defence University",
-		"image"		: "https://cs3sthlm.se/assets/speakers/erik-biverot.png",
-		
-		
-		"pname"		: "Johan Nilsson",
-		"prole"		: "",
-		"pwork"		: "Polisen",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/temp.png",
-		
-		"label"		: "The Training",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "319",
-		"day"		: "daythree",
-		"type"		: "break",
-		"time"		: "14:30 - 15:15",
 		"title" 	: "Coffee Break",
 		"description"	: "",
 		
-		"name"		: "",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
-		
 		
 		"label"		: "",
 		"place" 	: "Main Stage"
 	},
 
 	{
-		"id"		: "321",
+		"id"		: "",
 		"day"		: "daythree",
 		"type"		: "presentation",
-		"time"		: "15:15",
-		"title" 	: "Security Testing for ICS Owners 2.0",
-		"description"	: "<p>In most todays ICS networks, security testing is already being performed to know allweaknesses and issues. At least I hope that is the fact…. These tests are either run by the ICS owners themselves or by an trusted external party. However in a lot of occasions, security testing is performed in a too limitative scope and hence security issues often get overlooked because of this or potential drafted scenario’s to abuse the found weaknesses are incomplete and do not give a full picture. Next to that, a lot of talk is still focussed on testing industrial devices such as PLCs and other network components. Which is fine on its own but again the bigger picture is not looked at. In this presentation, a broader view is shown on how thorough security tests can be performed (without performing illegal actions) in an attempt to provide the ICS owners with a complete view on what their risks are. It is explained why you have to combine physical, logical and human elements within the different security tests you run and why it is sometimes better to take a step back instead of just plunging in and perform logical security testing. The different viewpoints on how you can perform testing to know your weakest elements are shown along with the different requirements to run testing from a particular viewpoint. Combinations of discovered weaknesses are then put together within realistic scenario’s. The advantages as well as pitfalls are explained of performing security testing this way using real­world experience examples.</p><p>The things mentioned within this presentation are all actions that can be done by ICS owners themselves, or should they decide in doing so by a third party, yet the ICS owners will then be able to follow along and understand what is going on instead of being left in the FUD zone.</p>",
-		
-		"name"		: "Dieter Sarrazyn",
-		"role"		: "Security Expert",
-		"work"		: "Secudea",
-		"image"		: "https://cs3sthlm.se/assets/speakers/dieter-sarrazyn.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "The Tools",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "322",
-		"day"		: "daythree",
-		"type"		: "break",
-		"time"		: "15:15 - 15:45",
-		"title" 	: "Coffee Break",
+		"time"		: "14:20",
+		"title" 	: "So You Want to Take Down the Electric Grid - or You Want to Defend It",
 		"description"	: "",
 		
-		"name"		: "",
+		"name"		: "Joe Slowik",
 		"role"		: "",
 		"work"		: "",
 		"image"		: "https://cs3sthlm.se/assets/speakers/",
 		
 		
 		"label"		: "",
-		"place" 	: "Harlem Stage"
+		"place" 	: "Main Stage"
 	},
 
 	{
-		"id"		: "320",
+		"id"		: "",
 		"day"		: "daythree",
 		"type"		: "presentation",
-		"time"		: "15:45",
-		"title" 	: "Presenting how we know what’s happening in the exercise and measuring",
-		"description"	: "<p>Who knows what is happening and how do we measure it? Exercise leader controls the overall exercise and he needs to make decisions during the exercise. Situation awareness Team’s main role is to provide meaningful information to support his decision making. At the same time, other participants need meaningful feedback, so that they know, how are they doing in the different areas of the exercise.</p>",
-		
-		"name"		: "Jarkko Huttunen, Team Leader Yellow Team",
-		"role"		: "Head of Solutions",
-		"work"		: "Arctic Security",
-		"image"		: "https://cs3sthlm.se/assets/speakers/jarkko-huttunen.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "The Training",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "323",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "15:45",
-		"title" 	: "How we reverse-engineered multiple industrial radio remote-control systems",
-		"description"	: "<p>In 2018 we disclosed a total of 10 vulnerabilities to 7 independent industrial radio remote-control vendors. Our findings boil down to being able to control any equipment connected via these type of radio remote-control systems. So far, we focused our reports and speaking engagements on reaching out to as many people as possible, to increase awareness about the problem. At this time, we want to share stories about how we were able to perform the research and achieve the results with a globally dispersed team looking at global radio vendors.</p><p>This talk will focus on the “backstage” of this research, that is:</p><ul>  <li>how we started it and why we selected this class of systems</li>  <li>how we selected the vendors out from our extensive market search</li>  <li>how are these systems built, and how we figured this out</li>  <li>for two systems in details, we will describe    <ul>      <li>how to approach them from a reverse-engineering standpoint</li>      <li>how to interpret their RF protocol</li>      <li>what tools are needed for an in-depth reverse engineering</li>      <li>why we needed to come up with our own tools for certain corner cases (e.g., tricky modulation schemes)</li>    </ul>  </li>  <li>how the disclosure process went    <ul>      <li>what challenges we found along the way</li>      <li>what were the vendors’ responses (Vendors will not be called out for bad responses by name)</li>      <li>what is the status of the vulnerabilities now – lookout on future research trends in this space</li>    </ul>  </li></ul><p>While the project was a success the road to get there, was very bumpy due to things that all researchers face. We will also discuss how we overcame some of the obstacles, such as identifying the chips, micro soldering with non-professional equipment, reversing unreliable radio signals caught over the air.</p><h4 id=\"target-audience\">Target audience</h4><p>Technical, with the understanding of embedded systems and sub-GHz radio communication.</p>",
-		
-		"name"		: "Stephen Hilt",
-		"role"		: "Senior Threat Researcher",
-		"work"		: "Trend Micro",
-		"image"		: "https://cs3sthlm.se/assets/speakers/stephen-hilt.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "The Ether",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "324",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "16:10",
-		"title" 	: "The importance of cyber strategic decision making exercises",
-		"description"	: "<p>The cyber domain has become integral part of our daily lives. The Locked Shields strategic decision making exercise studies the impact that exploited vulnerabilities can have at a geopolitical level. Locked Shields examines the following questions: How do nations respond to cyber attacks both domestically and internationally? What is the role of international law? Are our leaders prepared to effectively communicate how they will respond to cyber attacks with the population they lead?</p>",
-		
-		"name"		: "Cdr Michael Widmann, Leading the strategic part of Locked Shields",
-		"role"		: "Strategy Branch Chief",
-		"work"		: "CCDCOE",
-		"image"		: "https://cs3sthlm.se/assets/speakers/cdr-michael-widmann.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "The Training",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "319",
-		"day"		: "daythree",
-		"type"		: "break",
-		"time"		: "16:30 - 18:45",
-		"title" 	: "Closed",
+		"time"		: "15:00",
+		"title" 	: "Panel",
 		"description"	: "",
-		
-		"name"		: "Rearranging for the Gala Dinner",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
 		
 		
 		"label"		: "",
@@ -976,319 +155,63 @@
 	},
 
 	{
-		"id"		: "325",
-		"day"		: "daythree",
-		"type"		: "common",
-		"time"		: "16:35",
-		"title" 	: "Questions and Answers",
-		"description"	: "",
-		
-		"name"		: "Thomas Svensson, Cdr Michael Widmann, Silver Saks, Sandra Bardón, Erik Biverot, Johan Nilsson, & Jarkko Huttunen",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
-		
-		
-		"label"		: "",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "326",
-		"day"		: "daythree",
-		"type"		: "common",
-		"time"		: "17:45",
-		"title" 	: "Capture the Flag Results",
-		"description"	: "",
-		
-		"name"		: "Presented by The DHS Cybersecurity and Infrastructure Agency",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
-		
-		
-		"label"		: "",
-		"place" 	: "ICS Lab"
-	},
-
-	{
-		"id"		: "327",
-		"day"		: "daythree",
-		"type"		: "common",
-		"time"		: "17:45 - 18:45",
-		"title" 	: "Pre Dinner Mingle",
-		"description"	: "",
-		
-		"name"		: "Dinner will be served at Main Stage 18:45",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
-		
-		
-		"label"		: "",
-		"place" 	: "ICS Lab"
-	},
-
-	{
-		"id"		: "328",
-		"day"		: "daythree",
-		"type"		: "break",
-		"time"		: "18:45",
-		"title" 	: "Closed",
-		"description"	: "",
-		
-		"name"		: "",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
-		
-		
-		"label"		: "",
-		"place" 	: "ICS Lab"
-	},
-
-	{
-		"id"		: "329",
-		"day"		: "daythree",
-		"type"		: "common",
-		"time"		: "18:45 - 22:00",
-		"title" 	: "CS3STHLM Gala Dinner",
-		"description"	: "",
-		
-		"name"		: "",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
-		
-		
-		"label"		: "",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "330",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "20:00",
-		"title" 	: "Zombie Survival",
-		"description"	: "<p>Late 2017 Herman released “Surviving Disaster - twelve ways to prepare yourself” the book examines what we can do to increase our chances of surviving when a disaster or something completely unexpected happens. “Surviving Disaster” is a popular science book that not only deals with survival techniques and bushcraft but also focuses on how humans work and what we can do to prepare ourselves mentally and increase our chances of coping with a crisis.</p>",
-		
-		"name"		: "Herman Geijer",
-		"role"		: "Zombie Survival Expert",
-		"work"		: "Independent",
-		"image"		: "https://cs3sthlm.se/assets/speakers/herman-geijer.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "401",
+		"id"		: "",
 		"day"		: "dayfour",
 		"type"		: "presentation",
-		"time"		: "09:00",
-		"title" 	: "Sandworm: Lessons From the Ukrainian Cyberwar and Beyond",
+		"time"		: "09:10",
+		"title" 	: "Pressing the big red button – on Incident Response Readiness in the Oil and Gas Sector",
 		"description"	: "",
 		
-		"name"		: "Andy Greenberg",
-		"role"		: "Senior Writer",
-		"work"		: "Wired",
-		"image"		: "https://cs3sthlm.se/assets/speakers/andy-greenberg.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "402",
-		"day"		: "dayfour",
-		"type"		: "common",
-		"time"		: "09:00 - 16:00",
-		"title" 	: "ICS Lab Open",
-		"description"	: "",
-		
-		"name"		: "",
+		"name"		: "Marie Moe & Jan Tore Sørensen",
 		"role"		: "",
 		"work"		: "",
 		"image"		: "https://cs3sthlm.se/assets/speakers/",
 		
 		
 		"label"		: "",
-		"place" 	: "ICS Lab"
+		"place" 	: "Main Stage"
 	},
 
 	{
-		"id"		: "403",
+		"id"		: "",
 		"day"		: "dayfour",
-		"type"		: "common",
-		"time"		: "09:50",
-		"title" 	: "Q&A about Sandworm",
+		"type"		: "presentation",
+		"time"		: "10:00",
+		"title" 	: "Hidden Attack Surfaces of Modern Industrial Automation Systems",
 		"description"	: "",
 		
-		"name"		: "Andy Greenberg",
-		"role"		: "Senior Writer",
-		"work"		: "Wired",
-		"image"		: "https://cs3sthlm.se/assets/speakers/andy-greenberg.png",
+		"name"		: "Federico Maggi",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
 		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "",
 		"place" 	: "Main Stage"
 	},
 
 	{
-		"id"		: "405",
+		"id"		: "",
 		"day"		: "dayfour",
 		"type"		: "break",
-		"time"		: "10:20 - 10:50",
-		"title" 	: "Coffee Break",
-		"description"	: "",
-		
-		"name"		: "",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
-		
-		
-		"label"		: "",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "406",
-		"day"		: "dayfour",
-		"type"		: "presentation",
-		"time"		: "10:30",
-		"title" 	: "curl - the world's most used software component?",
-		"description"	: "<p>Everyone and everything uses curl. Your car, your game consoles, apps on the phone, it runs in your server, in exists in your laptop, your fridge and printers. curl supports lots of protocols and runs on more operating sytems than most mortals can name. How is the project run? Who makes it? How is it tested? How do we keep it secure and handle the bugs and vulnerabilities that still pop up? curl is over twenty years old, makes a new release every 8 weeks and boasts over 2,000 named contributors so far. Can its estimated seven billion installations make it the world’s most used software component?</p>",
-		
-		"name"		: "Daniel Stenberg",
-		"role"		: "Software Engineer",
-		"work"		: "wolfSSL",
-		"image"		: "https://cs3sthlm.se/assets/speakers/daniel-stenberg.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "The Tools",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "407",
-		"day"		: "dayfour",
-		"type"		: "presentation",
 		"time"		: "10:50",
-		"title" 	: "Nation-State Supply Chain Attacks for Dummies and You Too",
-		"description"	: "<p>Back in October 2018, “Bloomberg” recounted a Chinese supply-chain attack on Supermicro motherboards used in servers for Amazon, Apple, and more than 20 other companies. <a href=\"https://www.bloomberg.com/news/features/2018-10-04/the-big-hack-how-china-used-a-tiny-chip-to-infiltrate-america-s-top-companies\">the-big-hack-how-china-used-a-tiny-chip-to-infiltrate-america-s-top-companies</a></p><p>Here is how I replicated it, on a Cisco firewall, with a shoestring budget, and how you can too.</p><p>This presentation will explain how I built and installed an implant chip on an industry-standard firewall, allowing the creation of privileged accounts, network access, and covert notification of successful compromise.</p><p>We’ll also discuss possible defenses and how to decide if you should be concerned about this class attack in your environment.</p><p>This talk will lead the audience through the chip selection process, the tools required to develop the attack (both hardware and software), and their use.</p><p>The techniques explained can be used on a variety of I.T. and O.T. equipment as well.</p><h4 id=\"target-audience-expectations-and-key-takeaway\">Target Audience, Expectations, and Key Takeaway:</h4><p>Audience: Security professional interested in supply chain “chipping” attacks of equipment</p><p>Audience takeaway will include the ease of creating “chipping” attacks on a small budget, the developmental steps, defences against such attacks, and understanding of why you likely don’t have to worry about them yet.</p>",
-		
-		"name"		: "Monta Elkins",
-		"role"		: "Hacker-in-Chief",
-		"work"		: "FoxGuard Solutions",
-		"image"		: "https://cs3sthlm.se/assets/speakers/monta-elkins.png",
+		"title" 	: "Coffee Break",
+		"description"	: "",
 		
 		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "The Threats",
+		"label"		: "",
 		"place" 	: "Main Stage"
 	},
 
 	{
-		"id"		: "408",
+		"id"		: "",
 		"day"		: "dayfour",
 		"type"		: "presentation",
 		"time"		: "11:15",
-		"title" 	: "Fuzz Testing IEC 61850",
-		"description"	: "<p>During implementation of protocols in a communication stack usually only positive testing is performed to verify the conformance to the standard, especially for ICS protocols. Negative testing as part of the development process is often not applied. Therefore, it remains unknown how the stack or entire component is reacting on invalid, random or unexpected data. This talk will introduce robustness tests on IEC 61850, an ICS protocol that is used in digital substation communication. IEC 61850 is a modern and highly complex protocol stack and therefore provides a high attack surface.</p><p>The talk contains an introduction on IEC 61850 and describes the fuzzing approach together with details on how these tests are performed using a mutation-based fuzzer utilizing the XML based “Packet Description Markup Language” (PDML). It will also provide insights of difficulties encountered by performing those tests and how they have been circumvented. The audience will also learn what kind of attack vectors arise from those vulnerabilities.</p><p>As part of the talk, anonymized fuzzing results are presented from day-to-day ICS security audits as well as a live demonstration of the fuzzer is given.</p><p>This talk will provide in depth technical details and is primarily meant for security professionals in the area of industrial control systems and substation automation.</p>",
-		
-		"name"		: "Markus Mahrla",
-		"role"		: "Security Consultant",
-		"work"		: "GAI NetConsult GmbH",
-		"image"		: "https://cs3sthlm.se/assets/speakers/markus-mahrla.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "The Tools",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "409",
-		"day"		: "dayfour",
-		"type"		: "presentation",
-		"time"		: "11:35",
-		"title" 	: "SCADApocalypse Now 4.0?",
-		"description"	: "<p>This presentation will discuss the different issues relating to the fact that systems for critical infrastructure and industry are in the midst of a revolution with many technologies that require connectivity, such as Industry 4.0. The presentation will go through a scenario with an industry that has implemented many, if not almost all of the features, of an Industry 4.0 implementation; in which nothing is impossible and there is not a tin foil hat in sight. When the stage is set we will have a more adversarial point of view and go through the new different attack vectors that are introduced as well as how they can be exploited. Finally advice will be provided on how some of the new threats can be mitigated and what to do.</p><p>I define Industry 4.0 in three categories, how to connect data, how to process data and how to store data, all in big amounts. My perspective comes from starting my carrier as an system and automation engineer who worked extensively with optimization, building plant simulators and analyzing big amounts of data with neural networks before big data and machine learning were buzzwords, to later move to work with IT security at the Swedish CERT. This gives an unique view of how the industry has evolved and will evolve. This is combined with current work in IT security incidents, related to both ICS and administrative systems, giving a broad perspective of the attacks that are going on today. I will also look at statistical data today, and to what kind of systems and versions, are installed in each layer of the Purdue model.</p><p>Below are some of the different subjects that will be discussed during the presentation divided into the three main pillars om Industry 4.0</p><p>How to connect data</p><ul>  <li>How are ICS doing compared to OWASP IoT 2018?</li>  <li>Can unsigned live on internet?</li>  <li>Life cycle management with embedded system and what is hidden in there?</li>  <li>Web servers</li>  <li>Firmware</li>  <li>We are halfway between Y2K and Y2K38, whats next?</li></ul><p>How to process data</p><ul>  <li>Outdated operating systems, and the increase of that number with Windows 7 and Windows Server 2008</li>  <li>DevOps in the world of ICS</li>  <li>The challenge of aggregation</li></ul><p>How to store data</p><ul>  <li>Can ICS move towards MongoDB, Hadoop and so forth?</li>  <li>HMI and store process data in the cloud</li>  <li>The unnoticed dependencies</li>  <li>New attack vectors such as speculative execution attacks and container break out</li></ul>",
-		
-		"name"		: "Nicklas Keijser",
-		"role"		: "Incident Handler/CSIRT Officer",
-		"work"		: "CERT-SE/MSB",
-		"image"		: "https://cs3sthlm.se/assets/speakers/nicklas-keijser.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "The Threats",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "410",
-		"day"		: "dayfour",
-		"type"		: "break",
-		"time"		: "12:00 - 12:30",
-		"title" 	: "Lunch Break",
+		"title" 	: "Bug hunting in cloud connected ICS devices: Getting root from the cloud",
 		"description"	: "",
 		
-		"name"		: "",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
-		
-		
-		"label"		: "",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "411",
-		"day"		: "dayfour",
-		"type"		: "break",
-		"time"		: "12:15 - 13:15",
-		"title" 	: "Lunch Break",
-		"description"	: "",
-		
-		"name"		: "",
+		"name"		: "Kelly Leuschner",
 		"role"		: "",
 		"work"		: "",
 		"image"		: "https://cs3sthlm.se/assets/speakers/",
@@ -1299,239 +222,45 @@
 	},
 
 	{
-		"id"		: "412",
+		"id"		: "",
 		"day"		: "dayfour",
 		"type"		: "presentation",
-		"time"		: "12:30",
-		"title" 	: "Applying the Consequence-driven Cyber-informed Engineering method on a Facility for a Successful Attack",
-		"description"	: "<p>Tactics, techniques, and procedures are the sophisticated intelligence information. Threat intelligence agencies using this approach attribute attacks to a specific “group”. This is also a valid approach to defend yourself against these attack groups. However, if you want to defend against an unknown attacker – especially in OT-infrastructures – it seems more suitable starting by the consequences of a cyber attack you want to avoid and the possible paths leading to it. Critical functions can be identified by applying the Consequence-driven Cyber-informed Engineering (CCE) method. Compromising specific devices or applications may provide an easy way to achieve the consequence the attacker is up to. This is demonstrated at a real test facility containing over 60 devices, which regulate a physical process.</p><p>This presentation illustrates the application of CCE for an attack on a facility. First, the goal of the attack is specified, which would be the sabotage of the facility in this case. After that, possible paths achieving this goal are determined. The easiest path in this case is an attack manipulating the communication between a HMI and PLC using a common but proprietary protocol. Finally, countermeasures from the IT security standards such as “IT-Grundschutz” and ISO/IEC 62443 are applied which hamper a successful attack.</p><p>Using the CCE method and a security standard, the presentation starts and ends on a high level. This is interesting for middle management, which want to improve their security. Furthermore, the technical illustration executing a possible attack is interesting for the appropriate audience, which is also present at the conference. During the work, a dissector in Wireshark for the protocol was implemented. Consequently, the communication between the devices can be illustrated in more detail explaining the performed attack. As a result of the technical and high level illustration, the contribution of the BSI outline a cyber attack for both groups.</p>",
+		"time"		: "11:55",
+		"title" 	: "Smarter Shipping. Hacking floating ICS for fun and profit",
+		"description"	: "",
 		
-		"name"		: "Andreas Erdich",
-		"role"		: "Hardware Engineer",
-		"work"		: "BSI",
-		"image"		: "https://cs3sthlm.se/assets/speakers/andreas-erdich.png",
+		"name"		: "Ken Munro",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
 		
 		
-		"pname"		: "Jens Wiesner",
-		"prole"		: "Dipl. Phys.",
-		"pwork"		: "BSI",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/jens-wiesner.png",
-		
-		"label"		: "The Methods",
-		"place" 	: "Harlem Stage"
+		"label"		: "",
+		"place" 	: "Main Stage"
 	},
 
 	{
-		"id"		: "413",
+		"id"		: "",
 		"day"		: "dayfour",
-		"type"		: "presentation",
-		"time"		: "12:30",
-		"title" 	: "Demystifying TSCM or how to spot the witch doctor doing the raindance",
-		"description"	: "<p>This presentation will cover and explain what TSCM (Technical surveillance Counter Measures) a.k.a. “Bug sweeping” is, how it is performed, the tools, the methodology and how not it shall be performed. The presentation and on stage demo will show how hard and complex the procedure is and to educate persons and organizations to procure and understand the subject. But most importantly to expose those who do it as a secret “voodoo ritual” just to make money.</p>",
-		
-		"name"		: "Richard Widh",
-		"role"		: "Senior Cyber Security Expert & CEO",
-		"work"		: "Anacautus AB",
-		"image"		: "https://cs3sthlm.se/assets/speakers/richard-widh.png",
+		"type"		: "break",
+		"time"		: "12:25",
+		"title" 	: "Lunch",
+		"description"	: "",
 		
 		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "The Wire",
-		"place" 	: "ICS Lab"
+		"label"		: "",
+		"place" 	: "Main Stage"
 	},
 
 	{
-		"id"		: "414",
+		"id"		: "",
 		"day"		: "dayfour",
 		"type"		: "presentation",
 		"time"		: "13:15",
-		"title" 	: "Project RunAway",
-		"description"	: "<p>Project files are the blueprints of the industrial process, these files can contain network configuration, screen definitions, hardware and software configurations and the actual automation logic of the controllers.</p><p>Access to the project file means access to knowledge on the most important and secret elements of the production floor.</p><p>Because of their sensitivity, these files should be kept in a well-secured manner like an internal vault, but due to the growing need to share and collaborate with suppliers it’s hard to keep track and the data might end up in the wrong hands.</p><p>In our research we have discovered a large amount of highly confidential industrial data located on the internet.</p><p>The data contains multiple manufactures, suppliers and orchestrators from different sectors and geographical locations. The amount and spread of the data and companies leads us to believe that this is not a one time event or incident but a systematic issue.</p><p>In the presentation we will:</p><ul>  <li>Explain the basic components and structures of some project files</li>  <li>We will explain how the research was performed.</li>  <li>Explain about the threat landscape connected to this data and explain about the inherent insecurity of the supply chain</li>  <li>We will showcase how an attacker might use this data to target a company and use the data from the files to successfully affect the operation of the process</li>  <li>We will showcase what can be derived out of the automation logic, both by noting past research works that have been done on this topic and by proposing new possibilities</li>  <li>We will share statistics about the amount of companies, sectors and geo locations of the affected companies</li>  <li>We will propose a few options for the potential sources of the leaks</li>  <li>We will discuss the different security methods a victim should apply</li></ul><h4 id=\"type-of-target-audience-\">Type of target audience –</h4><ul>  <li>Knowledge in automation &amp; risk management – advantage</li></ul><h4 id=\"audience-should-expect-\">Audience should expect –</h4><ul>  <li>Understanding a threat intelligence research process</li>  <li>Understanding of the threat involved with this kind of leakage</li>  <li>A clear rundown of potential attacks on OT environment</li></ul><h4 id=\"key-takeaways-\">Key takeaways –</h4><ol>  <li>Security guidelines for protecting critical OT data</li>  <li>Security guidelines for securing the supply chain process</li></ol>",
-		
-		"name"		: "Matan Dobrushin",
-		"role"		: "Head of OT Research",
-		"work"		: "Otorio",
-		"image"		: "https://cs3sthlm.se/assets/speakers/matan-dobrushin.png",
-		
-		
-		"pname"		: "Yoav Flint Rosenfeld",
-		"prole"		: "Head of Research",
-		"pwork"		: "Otorio",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/yoav-flint-rosenfeld.png",
-		
-		"label"		: "The Risks",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "415",
-		"day"		: "dayfour",
-		"type"		: "presentation",
-		"time"		: "13:15",
-		"title" 	: "Layered Blueprints – an ontology and method for (talking about) engineering OT Security",
-		"description"	: "<p>The session will propose an OT security engineering thought model which empowers automation engineers to take responsibility for their own systems’ security in a technically sound, systematic, and pragmatic way.</p><p>The thought model consists of four layers: The function layer includes analyzing and use case-based modelling of functional requirements an OT network and its elements need to fulfill. Proper operation of these use cases is taken as security objective. The risk layer takes the identified use cases and for derivation and evaluation of “abuse cases” forming threat scenarios. The third layer is about identifying security requirements, which are state of the art, compliant with necessary standards, and taking into account the organization’s existing processes. The uppermost layer deals with implementing these systematically derived security requirements.</p><p>Taking into account that in plant engineering and operation security requirements are never in focus, but always need to be wrapped around plant functionality and plant operators’ busy workdays, security engineering desperately needs to be efficient.</p><p>Also, when security by design is to be taken seriously, security engineering must be integrated in the existing plant engineering process, making use of tools and data formats engineers use anyway.</p><p>For these reasons, the presentation does not stop at introducing the thought model but shows how this thought model can be transferred into a machine-readable representation – a data model. The data model is not meant to take decisions away from automation engineers by boasting AI capabilities, but is designed to facilitate a more informed, smoother security engineering process.</p><p>The data model poses two advantages within the security engineering process:</p><p>First, it simplifies creating and visualizing network models and use cases, which serve as input for the outlined security engineering process.</p><p>Second, it sets the basis for (partly) automating the implementation of security solutions, by defining security characteristics of modelled entities which may result from the security engineering process. This also includes the opportunity to make configuration management “security-sensitive” by adding information like security requirements a certain configuration fulfills and risks a certain configuration mitigates.</p><p>The presentation outlines how existing tools may assist during the security engineering process: Asset discovery and inventory tools can provide the basis for network and use case modelling. Configuration management tools may help to roll out and maintain security-relevant configurations.</p><p>Still, many plant operators, integrators, and vendors are understandably reluctant to become dependable on such rather expensive tools.</p><p>Therefore, the presented data model aims at making use of efficiency gains that existing network inventory and configuration management tools promise without becoming too dependable on a certain tool vendor’s product. In order to achieve that, it makes use of well-established, non-proprietary description languages and data formats like AutomationML, OWL, and OPC UA. Thus, the proposed data model may serve as an open interface between existing, proprietary asset inventory and configuration management tools and the security engineering process.</p>",
-		
-		"name"		: "Sarah Fluchs",
-		"role"		: "Security Consultant",
-		"work"		: "admeritia GmbH",
-		"image"		: "https://cs3sthlm.se/assets/speakers/sarah-fluchs.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "The Methods",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "416",
-		"day"		: "dayfour",
-		"type"		: "presentation",
-		"time"		: "13:30",
-		"title" 	: "EU STRIKE3 project",
-		"description"	: "<p>GPS is used for many applications around the world. But they are vulnerable to attacks from jammers. EU-STRIKE3 measure and look on the risk we have. We will show what we found and give you guideline to increase your protection against jammers.</p><p>We also get more and more laws and regulations that we should use the GPS as a source of time.</p><p>Can we find a safe way forward?</p>",
-		
-		"name"		: "Didrik Ehrenborg",
-		"role"		: "Time & Sync Expert",
-		"work"		: "GNSS",
-		"image"		: "https://cs3sthlm.se/assets/speakers/didrik-ehrenborg.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "The Time",
-		"place" 	: "ICS Lab"
-	},
-
-	{
-		"id"		: "417",
-		"day"		: "dayfour",
-		"type"		: "presentation",
-		"time"		: "14:00",
-		"title" 	: "IT vs. OT: We are Much More Similar than We are Different. Comparing Process Control Room and SOC operations",
-		"description"	: "<p>In industrial applications process control discipline involves monitoring and controlling of machinery, systems and physical processes to make sure that production processes are carried out efficiently, consistently and little variation. Monitoring is an integral part of plant operations and no OT environment is imaginable without local or control room HMIs and human operators. Increasingly, process industries take additional advantage of various optimization application for detection of abnormalities and early indicators of deterioration. In contrast, when it comes to supporting communication infrastructure (networks and end-points), they are frequently expected to be implement and configured in 110% reliable and secure way that no monitoring for deviations or breaches would be necessary. Ugh.</p><p>However, the purpose of this talk is not to discuss the terrible and unfair negligence of OT communication infrastructure when it comes to monitoring. Instead, we will use the case of “monitoring” function to help professionals from two distinct worlds, IT and OT, to realize their similarities beyond sharing hate for filling in timesheets. On the example of two distant jobs such as SOC analyst and Control Room operator, we will show how their jobs are fundamentally the same. Throughout the talk we will cover similarities and differences in key areas such as:</p><ul>  <li>Vocabulary,</li>  <li>SIEM vs. HMI applications,</li>  <li>Alarm configuration and response; alarm management,</li>  <li>Logging and log correlation; historian functions,</li>  <li>Types of anomalies/events/threats,</li>  <li>Event/incident root-cause analysis,</li>  <li>Incident response,</li>  <li>SOPs, etc.</li></ul><p>It is hopeful that by the end of the presentation, IT and OT professionals will develop a solid respect for each other the job functions and feel encouraged to discuss common matters. It is also hoped, that OT experts become conscious about value of log collection and network monitoring in their environments and will be more collaborative when asked to configure a mirror port on an industrial switch.</p><h4 id=\"target-audience\">Target audience</h4><p>IT and OT professionals who would like to know more about each other worlds</p><h4 id=\"key-takeaway\">Key takeaway</h4><ul>  <li>Monitoring is the process of providing a feedback loop into the state of object under observation. The process of monitoring physical processes and communication infrastructure are fundamentally similar.</li>  <li>OT domain has more mature body of knowledge and better-established processes when it comes to alarm management, work place and GUI ergonomics and cognitive performance. Experience exchange could be beneficial for a “younger” SOC function.</li>  <li>Short-term job rotations could help IT and OT professionals to better understand and appreciate specifics of each other jobs, enable cross-learning and for-real effective IT-OT conversion.</li></ul>",
-		
-		"name"		: "Marina Krotofil",
-		"role"		: "Senior Security Engineer",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/marina-krotofil.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "The Culture",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "418",
-		"day"		: "dayfour",
-		"type"		: "presentation",
-		"time"		: "14:00",
-		"title" 	: "When will my PLC support Mirai? The security economics of large-scale attacks against ICS",
-		"description"	: "<h2 id=\"research-in-progress\">[Research in progress]</h2><p>Since 2011, capable and respected researchers have pronounced impending doom after documenting the tens of thousands of Internet-connected Industrial Control Systems (ICS) and automation systems.  Catastrophic failure of physical systems were postulated, along with crippling ransomware epidemics; after Mirai and ASIC-resistant cryptocurrencies hit the street, researchers also predicted Internet-connected ICS would be used to host DDoS botnets and crypto miners.  With tools like Shodan and Censys to find devices at scale, and open-source libraries to support communication with any ICS protocol imaginable, why haven’t we seen a golden age of scaled ICS attacks?</p><p>This talk explores the security economics arguments for why cybercriminals largely ignore ICS devices, and the coming changes to the industrial landscape that may shift criminal focus from IoT to ICS (or, more accurately, the changes that will blur the distinction between the two domains).  I will also discuss the usable security arguments that undergird users’ decisions to connect their ICS devices directly to the Internet.</p><p>I will start by presenting a longitudinal study of Internet-connected ICS.  We’ve fingerprinted and tracked thousands of individual devices over a four year period to identify user behaviours, track population stability, and infer patch cadence (to nobody’s surprise, there is not a lot of patching going on).  I’ll show that there is a large, stable, unpatched population of devices with open protocol ports, ripe for exploitation; this includes even the newest hardware and software combinations from reputable manufacturers.</p><p>Then, I’ll try to demonstrate that nobody really cares.  I’ll walk through static analysis of hundreds of gigabytes of malware samples, an assessment of hundreds of thousands of stateful honeypot interactions, and a search through 60 million hacker forum posts to show there is neither the interest in nor competence to attack these Internet-connected devices at-scale.  I’ll discuss the security economics argument for why cybercriminals largely ignore this domain, and how expected changes to the Industrial landscape in the immediate future could bring ICS to their attention.</p><p>In anticipation of the correct and inevitable objection that ICS devices should never be directly connected to the Internet, I’ll close with a discussion of usable security, looking at default configurations and user motivations in an effort to explain the current state of Internet-connected affairs and why we should only expect this Internet-connected population to grow.</p><h4 id=\"target-audience\">Target audience:</h4><p>This is a non-technical talk of interest (hopefully) to those including cybercrime in their threat model; specifically, vendors and security professionals concerned about how small-to-medium sized enterprises (SMEs) are going to handle Industry 4.0.  SMEs aren’t the only problem, but they’re the largest category of identifiable offenders.</p><h4 id=\"key-takeaways\">Key takeaways:</h4><ol>  <li>There is a large, stable, unpatched population of vulnerable, Internet-connected ICS devices.  This population is growing.  Without intervention, the growth rate is expected to increase based on pressures to make more devices connectable as we digitise manufacturing and industry.</li>  <li>The existing population size and heterogeneity, the cost to develop and deploy an attack, the difficulty in monetising an attack, and the existence of softer targets currently make Internet-connected ICS devices an unattractive target for large-scale attacks.</li>  <li>The growing Internet-connected ICS device population, predicted market dominance of a limited number of hardware and software frameworks, and improvements to IoT security blur the distinction between IoT and ICS from an attacker perspective, opening ICS devices to the types of scaled attacks we’ve seen against IoT.</li>  <li>Your threat model doesn’t need to include Mirai today, but it might tomorrow.</li></ol>",
-		
-		"name"		: "Mike Dodson",
-		"role"		: "PhD Student",
-		"work"		: "University of Cambridge",
-		"image"		: "https://cs3sthlm.se/assets/speakers/mike-dodson.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "The Methods",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "419",
-		"day"		: "dayfour",
-		"type"		: "presentation",
-		"time"		: "14:15",
-		"title" 	: "Building a distributed and robust time synchronisation service",
-		"description"	: "<p>Accurate time and synchronisation is essential for our technical infrastructure such as the telephone networks and the power grid. Getting very good time is easy and cheap using GNSS receivers (Global Navigation Satellite Systems, e.g. GPS and Galileo), but these systems suffer from several weaknesses and threats.</p><p>Described in this session is a system for distributed time dissemination, with the dual purposes of making time more accessible in a resilient way to increase availability of critical infrastructure when things are not fully normal and operational, and also to be a reliable source of time over the Internet for anyone anywhere.</p><p>The system has caesium based atomic clocks to be able to work autonomously within normal specifications for a long time, PTP based distribution on dedicated lines for high accuracy needs, and hardware based NTP servers connected to the public Internet, implemented in FPGA, to be able to handle overload attacks as transparent as possible.</p>",
-		
-		"name"		: "Ragnar Sundblad",
-		"role"		: "Time Worker",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/ragnar-sundblad.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "The Time",
-		"place" 	: "ICS Lab"
-	},
-
-	{
-		"id"		: "420",
-		"day"		: "dayfour",
-		"type"		: "break",
-		"time"		: "14:30 - 14:45",
-		"title" 	: "Coffee Break",
+		"title" 	: "Threat modeling and attack simulations for enterprise and ICS",
 		"description"	: "",
 		
-		"name"		: "",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
-		
-		
-		"label"		: "",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "421",
-		"day"		: "dayfour",
-		"type"		: "presentation",
-		"time"		: "14:45",
-		"title" 	: "Digital Forensics and ICS: Why and how?",
-		"description"	: "<p>As we respond to attacks on connected industries, control systems, and computer systems we have learned the value of digital forensics. The art of identifying an attack, collecting traces and recovering compromised data is an essential part of the cleanup process and evidence collection. A wellperformed forensic investigation also gives insights into how products can be improved upon, and how similar attacks can be more efficiently detected in the future.</p><p>The increased complexity of attacks, more creative obfuscation of malware, and highly motivated threat actors puts increasing demands on security researchers, and requires us to refine our forensic methods. We want to enable the potential of digitalization of our society while remaining robust with respect to cyber threats. According to the Swedish National Council for Crime Prevention, IT-related crimes grew almost tenfold in Sweden between 2006 and 2015, and the UK National Crime Agency and Strategic Cyber Industry Group reported in 2016 that cybercrime accounts for 53% of all reported crime in the UK. Ransomware attacks, for instance, can lead to costly outages or disrupt critical functions in society.</p><p>Digital forensics is a key area in which we have to be in the forefront. As a consequence of this, a newly formed initiative based in Linköping, Sweden has been formed in order to facilitate new developments in this area. Called the Digital Forensics Competence Center (DFCC), the aim is to focus efforts across industry, academia and governmental agencies toward better and more robust digital forensics. In addition to Sectra Communications, partners that make up the DFCC include two departments at Linköping University, the Swedish National Forensic Centre (NFC), the Research Institutes of Sweden (RISE), Halmstad University, Ericsson, Saab, plus many others.</p><p>In my talk I will discuss why cooperation between the public, academic, and private sectors is key in building a connected society that is resilient against attacks on connected infrastructure. I will discuss the role of the DFCC and how it will benefit the ICS community. Next, what current trends in digital forensics can we identify? Specifically, how can improved forensic techniques be used to prevent and detect attacks on connected industries?</p><h4 id=\"target-audience\">Target audience</h4><p>Industry professionals who want to learn more about forensics.</p><p>The audience should expect to learn about new methods that can be applied in forensics. No specialprerequisites should be needed.</p><h4 id=\"key-takeaway\">Key takeaway</h4><p>Cooperation between public, private and academic sectors! Digital forensics is beneficial for the ICS community.</p>",
-		
-		"name"		: "Jonathan Jogenfors",
-		"role"		: "Research Manager",
-		"work"		: "Sectra",
-		"image"		: "https://cs3sthlm.se/assets/speakers/jonathan-jogenfors.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "The DFCC",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "422",
-		"day"		: "dayfour",
-		"type"		: "break",
-		"time"		: "14:45",
-		"title" 	: "Coffee Break",
-		"description"	: "",
-		
-		"name"		: "",
+		"name"		: "Wenjun Xiong & Simon Hacks",
 		"role"		: "",
 		"work"		: "",
 		"image"		: "https://cs3sthlm.se/assets/speakers/",
@@ -1542,69 +271,62 @@
 	},
 
 	{
-		"id"		: "423",
+		"id"		: "",
 		"day"		: "dayfour",
 		"type"		: "presentation",
-		"time"		: "15:15",
-		"title" 	: "Automotive DoIP and forensic analysis for automotive systems",
-		"description"	: "<p>The automobile industry is changing and new fields such as autonomous driving, battery enhancements and infrastructure or advanced mobility services are under development. As a side effect the interconnection of vehicles increases with numerous new protocols and technologies introduced to enable these scenarios, which also attract the attention of security researchers and hackers. Therefore, more focus on security practices is necessary.</p><p>One of these new technologies is Automotive Ethernet. It not only affects the in-vehicle network with enhanced bandwidth and protocol versatility, but also enables the connection of the vehicle to existing external network infrastructures. This can be accomplished by the Diagnostic over Internet Protocol (DoIP) which is used for diagnostic communication over the Onboard Diagnostic (OBD) interface.</p><p>Therefore potential unsafe or even unknown functionality is exposed to the outside world which, until now, was a private point to point connection between the diagnostic equipment and the vehicle. Moreover the diagnostic interface is commonly used to modify vehicles like enabling/disabling software features or update firmware. With an increasing proportion of software as a product features and at the same time raising attractiveness for malicious activities (e.g. fraud, attacks, manipulation) by attackers. The Original Equipment Manufacturers (OEM) are faced with new challenges in the domain of evidence preservation and reconciliation. Especially with the ISO21434 and UNECE on the horizon.</p><p>We examined possible scenarios that range from information gathering to malicious activities with focus on the vehicle and infrastructure. At the same time we approached the idea of what forensic evidence such activities might leave behind and how state-of-the-art technology helps preserving evidence. We therefore analysed the protocol specification and developed software according to our scenarios for evaluation. Furthermore, we studied existing forensic investigation approaches in the IT and SCADA domains and their feasibility with the DoIP protocol, as being the central point of communication with the in-vehicle network from outside the vehicle.</p><p>In this presentation we present our approach on the analysis of the protocol, the scenarios we derived and the tools we used for evaluation. This also includes the applicability check of the diagnostic interface for forensic investigation as well as discussion to provide these forensic investigations for court relevant incidents.</p>",
-		
-		"name"		: "Christopher Corbett",
-		"role"		: "Junior Incident Responder",
-		"work"		: "Audi",
-		"image"		: "https://cs3sthlm.se/assets/speakers/christopher-corbett.png",
-		
-		
-		"pname"		: "Kevin Gomez Buquerin",
-		"prole"		: "Junior Incident Responder",
-		"pwork"		: "Audi",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/kevin-gomez-buquerin.png",
-		
-		"label"		: "The Cars",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "424",
-		"day"		: "dayfour",
-		"type"		: "presentation",
-		"time"		: "15:15",
-		"title" 	: "Ultra responsible disclosure – or how to deal with a 0-day in critical infrastructure",
-		"description"	: "<p>My presentation will touch on a few moral dilemmas that you face when you discover a critical vulnerability in ICS/SCADA environments. I will also discuss how my discovery was handled by the system supplier and how things could have played out differently. Another key take-away is how you as an asset owner can act to mitigate, and live with, a known serious vulnerability in your critical infrastructure. A problem that my customer and I had to face for over four years. The presentation will be of interest to suppliers, asset owners, and security researchers alike.</p><p>The story begins several years ago when I stumbled upon what I suspected was a remote authentication bypass in a component in a SCADA system. I came in very late in the project and was hired as a consultant to replace the IT representative of my customer at a system SAT, since he was going on parental leave. We did a few crude tests and verified that we could bypass authentication and asked the supplier to fix the problem. A few months later they came back with a new version that allegedly was flawless. I was asked to verify the fix and was handed the system on virtual machines.</p><p>Using passive methods (mainly Wireshark) I discovered that the problem was far worse than we initially suspected. The security architecture was something from the 80’s and I was able to reverse engineer the protocol and make the system hand over the keys to the kingdom… We went back with this information to the supplier and they tried to downplay the problem. It was hard to exploit and required deep technical skills etc… I got upset and wrote a 30 line POC in python that owned the system and sent them a screenshot.</p><p>My customer wanted to tell their colleagues within Swedish national critical infrastructure, and I was on my way to Stockholm to inform Svenska kraftnät’s security manager. That’s when the lawyers came. We discussed the handling of the information intensely over a few weeks, but finally my customer decided that the information was classified, and I had to cancel my trip.</p><p>Now my customer (where I also was employed a few years during this debacle) finally has received a new product to replace the broken system (not really a new product, just more lipstick on the same pig, but with a new fancy name). The problem seems like it is handled, and I think it is time to tell the story.</p><p>I will end my presentation with a demo of my tool for testing for this vulnerability. At least I hope to have something that could be called a tool at the time of the presentation, otherwise I’ll demo my POC code which is spectacular enough.</p><p>The presentation is not deeply technical but will sometimes drop down on the wire and take a cursory glance at protocols. The main focus is on disclosure, risk management, and how suppliers not should handle vulnerability reports. And, as a serial crowd pleaser, I will throw in a demonstration to boot.</p>",
-		
-		"name"		: "Rikard Bodforss",
-		"role"		: "CEO & Senior Partner",
-		"work"		: "Bodforss Consulting AB",
-		"image"		: "https://cs3sthlm.se/assets/speakers/rikard-bodforss.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "Tale of the 0-day",
-		"place" 	: "Harlem Stage"
-	},
-
-	{
-		"id"		: "425",
-		"day"		: "dayfour",
-		"type"		: "common",
-		"time"		: "16:00",
-		"title" 	: "Outro - Summary of CS3STHLM 2019",
+		"time"		: "13:50",
+		"title" 	: "A Practical Way to Test OT Security Mechanisms in Real-life Scenarios",
 		"description"	: "",
 		
-		"name"		: "Erik Johansson",
+		"name"		: "Matan Dobrushin & Idan Helzer",
 		"role"		: "",
 		"work"		: "",
 		"image"		: "https://cs3sthlm.se/assets/speakers/",
 		
 		
-		"pname"		: "Robert Malmgren",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		"label"		: "",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "",
+		"day"		: "dayfour",
+		"type"		: "break",
+		"time"		: "14:35",
+		"title" 	: "Coffee Break",
+		"description"	: "",
+		
+		
+		"label"		: "",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "",
+		"day"		: "dayfour",
+		"type"		: "presentation",
+		"time"		: "14:55",
+		"title" 	: "Fake Company, Fake Factory but Real Attacks: Stories of a Realistic, High Interaction ICS Honeypot",
+		"description"	: "",
+		
+		"name"		: "Stephen J. Hilt",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
+		
+		"label"		: "",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "",
+		"day"		: "dayfour",
+		"type"		: "presentation",
+		"time"		: "15:35",
+		"title" 	: "Panel",
+		"description"	: "",
+		
 		
 		"label"		: "",
 		"place" 	: "Main Stage"
