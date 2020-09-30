@@ -483,6 +483,10 @@
 				flex-direction: column;
 				flex-wrap: wrap;
 
+				@include media-query($small) {
+					width: 100%;
+				}
+
 				@include media-query($mobile) {
 					width: 100%;
 				}

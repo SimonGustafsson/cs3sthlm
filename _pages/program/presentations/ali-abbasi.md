@@ -4,7 +4,7 @@ permalink: "/program/presentations/ali-abbasi/"
 layout: presentation
 speaker:
 - name: Ali Abbasi
-  role: PhD Researcher
+  role: Post-Doctoral Researcher
   work: Ruhr-University Bochum
   image: ali-abbasi
 id: presentation

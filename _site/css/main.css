@@ -159,7 +159,7 @@ a { cursor: pointer; }
 
 @media screen and (min-width: 1680px) { .menu--primary ul li { margin-left: 30px; } }
 
-@media screen and (max-width: 1170px) { .menu--primary ul li { margin-left: 12px; } }
+@media screen and (max-width: 1170px) { .menu--primary ul li { margin-left: 24px; } }
 
 @media screen and (max-width: 768px) { .menu--primary ul li { margin-left: 0; display: block; width: 100%; } }
 
@@ -1076,15 +1076,17 @@ body.lb-disable-scrolling { overflow: hidden; }
 
 .advisory--block-item { display: flex; flex-direction: column; border-radius: 2px; background: #2b2f36; }
 
+@media screen and (max-width: 1170px) { .advisory--block-item.col-1-3 { width: 32%; } }
+
 @media screen and (max-width: 768px) { .advisory--block-item { margin-bottom: 24px; } }
 
 .advisory--block-item .speakers-image { display: block; overflow: hidden; border-radius: 2px 2px 0 0; }
 
 .advisory--block-item .speakers-image img { display: block; width: 100%; }
 
-.advisory--block-item-meta { display: flex; flex-direction: column; padding: 24px; box-sizing: border-box; }
+.advisory--block-item-meta { display: flex; flex-direction: column; flex-grow: 2; padding: 24px; box-sizing: border-box; }
 
-.advisory--block-item-meta .sub-headline { align-items: flex-end; }
+.advisory--block-item-meta .sub-headline { margin-top: auto; }
 
 .advisory--block-item .alt-title { color: #e1e1e1; }
 
@@ -1589,6 +1591,8 @@ body.lb-disable-scrolling { overflow: hidden; }
 .post-content > h4 { font-family: 'latobold', sans-serif; font-size: 21px; font-weight: normal; line-height: 1.5; }
 
 @media screen and (min-width: 1680px) { .post-content > h4 { font-size: 27px; } }
+
+@media screen and (max-width: 1170px) { .post .title { font-size: 29px; line-height: 1.75; } }
 
 .post-header { margin-bottom: 36px; }
 
@@ -2652,6 +2656,8 @@ p.content-intro { font-size: 23px; line-height: 38px; margin-bottom: 38px; }
 .speaker-item-content { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; }
 
 .speaker-item-content .col-4-8 { width: calc(50% - 12px); display: flex; flex-direction: column; flex-wrap: wrap; }
+
+@media screen and (max-width: 1170px) { .speaker-item-content .col-4-8 { width: 100%; } }
 
 @media screen and (max-width: 768px) { .speaker-item-content .col-4-8 { width: 100%; } }
 
