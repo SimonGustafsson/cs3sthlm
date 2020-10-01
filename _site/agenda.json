@@ -20,6 +20,16 @@
 		"title" 	: "Keynote",
 		"description"	: "",
 		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "",
 		"place" 	: "Main Stage"
@@ -33,9 +43,9 @@
 		"title" 	: "How to create a risk-based future-proof zone model",
 		"description"	: "<p>The presentation will cover a walk through on how we have combined best practices for securing OT and IT environments, general and sector specific standards and guidance as well as the much debated Purdue model into a future-oriented flexible and scalable zone model for a multinational and multisite company.</p>",
 		
-		"name"		: "Kristina Blomqvist & Jonas Edberg",
+		"name"		: "Kristina Blomqvist",
 		"role"		: "",
-		"work"		: "",
+		"work"		: "Vattenfall",
 		"image"		: "https://cs3sthlm.se/assets/speakers/kristina-blomqvist.png",
 		
 		
@@ -174,6 +184,16 @@
 		"title" 	: "Panel",
 		"description"	: "",
 		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "",
 		"place" 	: "Main Stage"
@@ -387,6 +407,16 @@
 		"title" 	: "Panel",
 		"description"	: "",
 		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "",
 		"place" 	: "Main Stage"

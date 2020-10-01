@@ -13,6 +13,10 @@
   place: Main Stage
   time: "09:15"
   title: Keynote
+  author:
+    - name:
+  partner:
+    - name:
 
 - id:
   day: daythree
@@ -23,9 +27,9 @@
   description: |
     The presentation will cover a walk through on how we have combined best practices for securing OT and IT environments, general and sector specific standards and guidance as well as the much debated Purdue model into a future-oriented flexible and scalable zone model for a multinational and multisite company.
   author:
-    - name: Kristina Blomqvist & Jonas Edberg
+    - name: Kristina Blomqvist
       role:
-      work:
+      work: Vattenfall
       image: kristina-blomqvist.png
   partner:
     - name: Jonas Edberg
@@ -253,6 +257,10 @@
   place: Main Stage
   time: "15:00"
   title: Panel
+  author:
+    - name:
+  partner:
+    - name:
 
 
 #DAY FOUR
@@ -552,6 +560,10 @@
   place: Main Stage
   time: "15:35"
   title: Panel
+  author:
+    - name:
+  partner:
+    - name:
 
 
 
