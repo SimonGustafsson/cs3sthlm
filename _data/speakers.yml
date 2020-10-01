@@ -734,6 +734,37 @@
   training:
     - active: none
 
+- id:
+  type: presentation
+  permalink:
+  name: Jenny Radcliffe
+  role: Social Engineer
+  work:
+  country: Great Britain 
+  shortcode: GB
+  image: jenny-radcliffe.png
+  bio: |
+    Jenny Radcliffe is a  world renowned Social Engineer, hired to bypass security systems through a mixture of psychology, con-artistry, cunning and guile.  A "burglar" for hire and entertaining educator,  she has spent a lifetime talking her way into secure locations, protecting clients from scammers, and leading simulated criminal attacks on organisations of all  sizes in order to help secure money, data and information from malicious attacks.
+    
+    Jenny is a sought after keynote speaker at major conferences and corporate events and is a multiple TEDx contributor. A go-to guest expert on the human element of security, scams, cons and hacks,  she has appeared on numerous television and radio shows, as well as online media and traditional press outlets. 
+
+    She is also the host of the award winning podcast “The Human Factor” interviewing industry leaders, bloggers, experts, fellow social engineers and con-artists about all elements of security and preventing people from becoming victims of malicious social engineering.
+  date:
+  time:
+  place:
+  speaker:
+    - name: Jenny Radcliffe
+      role: Social Engineer
+      image: jenny-radcliffe
+  presentation:
+    - active: live
+      subject: 
+      permalink: program/presentations/
+      partner: 
+      description:
+  training:
+    - active: none
+
 
 # - id:
 #   type: presentation
