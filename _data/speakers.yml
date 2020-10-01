@@ -803,7 +803,7 @@
       role: Social Engineer
       image: jenny-radcliffe
   presentation:
-    - active: live
+    - active: inactive
       subject: 
       permalink: program/presentations/
       partner: 
