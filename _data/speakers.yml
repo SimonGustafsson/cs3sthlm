@@ -491,6 +491,9 @@
       subject: How to create a risk-based future-proof zone model
       permalink: program/presentations/kristina-jonas/
       partner: Jonas Edberg
+      partner-role:
+      partner-work: Contrast Advisory
+      partner-image: temp
       description: |
         The presentation will cover a walk through on how we have combined best practices for securing OT and IT environments, general and sector specific standards and guidance as well as the much debated Purdue model into a future-oriented flexible and scalable zone model for a multinational and multisite company.
   training:
@@ -519,6 +522,9 @@
       subject: How to create a risk-based future-proof zone model
       permalink: program/presentations/kristina-jonas/
       partner: Kristina Blomqvist
+      partner-role: 
+      partner-work: Vattenfall
+      partner-image: kristina-blomqvist
       description: |
         The presentation will cover a walk through on how we have combined best practices for securing OT and IT environments, general and sector specific standards and guidance as well as the much debated Purdue model into a future-oriented flexible and scalable zone model for a multinational and multisite company.
   training:
@@ -547,6 +553,9 @@
       subject: Pressing the big red button – on Incident Response Readiness in the Oil and Gas Sector
       permalink: program/presentations/marie-jan/
       partner: Jan Tore Sørensen
+      partner-role: Security Expert
+      partner-work: mnemonic
+      partner-image: jan-tore-sorensen
       description: |
         Digitalisation and the interconnectivity of operational technology (OT) drastically increases cybersecurity risk in the oil and gas industry. The security challenges, requirements and potential consequences in industrial environments significantly differ from those in a traditional office IT environment. While the impact of a security breach in office environments is often limited to financial losses, attacks on industrial systems have the potential to stop production, cause physical damage, harm the environment and even put peoples’ lives at risk.
 
@@ -585,6 +594,9 @@
       subject: Pressing the big red button – on Incident Response Readiness in the Oil and Gas Sector
       permalink: program/presentations/marie-jan/
       partner: Marie Moe
+      partner-role: Senior Security Consultant
+      partner-work: mnemonic
+      partner-image: marie-moe
       description: |
         Digitalisation and the interconnectivity of operational technology (OT) drastically increases cybersecurity risk in the oil and gas industry. The security challenges, requirements and potential consequences in industrial environments significantly differ from those in a traditional office IT environment. While the impact of a security breach in office environments is often limited to financial losses, attacks on industrial systems have the potential to stop production, cause physical damage, harm the environment and even put peoples’ lives at risk.
 
@@ -623,6 +635,9 @@
       subject: A Practical Way to Test OT Security Mechanisms in Real-life Scenarios
       permalink: program/presentations/matan-idan/
       partner: Idan Helzer
+      partner-role: Cyber Analyst
+      partner-work: Otorio
+      partner-image: idan-helzer
       description: |
         IT/OT Convergence is a major challenge for industrial organizations on the path to digitalization.
 
@@ -662,6 +677,9 @@
       subject: Threat modeling and attack simulations for enterprise and ICS
       permalink: program/presentations/simon-wenjun/
       partner: Simon hacks
+      partner-role: Postdoc
+      partner-work: KTH
+      partner-image: simon-hacks
       description: |
         This work concentrates on the cyber security of enterprise and Industrial Control Systems (ICS).
 
@@ -704,6 +722,9 @@
       subject: Threat modeling and attack simulations for enterprise and ICS
       permalink: program/presentations/simon-wenjun/
       partner: Wenjun Xiong
+      partner-role: PhD Student
+      partner-work: KTH
+      partner-image: wenjun-xiong
       description: |
         This work concentrates on the cyber security of enterprise and Industrial Control Systems (ICS).
 
@@ -743,6 +764,9 @@
       subject: A Practical Way to Test OT Security Mechanisms in Real-life Scenarios
       permalink: program/presentations/matan-idan/
       partner: Matan Dobrushin
+      partner-role: Head of OT Research
+      partner-work: Otorio
+      partner-image: matan-dobrushin
       description: |
         IT/OT Convergence is a major challenge for industrial organizations on the path to digitalization.
 
