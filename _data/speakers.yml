@@ -513,7 +513,7 @@
   speaker:
     - name: Jonas Edberg
       role: 
-      image: jonas-edberg
+      image: temp
   presentation:
     - active: live
       subject: How to create a risk-based future-proof zone model
