@@ -3,7 +3,7 @@ title: "Bug hunting in cloud connected ICS devices: Getting root from the cloud"
 permalink: "/program/presentations/kelly-leuschner/"
 layout: presentation
 speaker:
-- name: Kelly Leaschner
+- name: Kelly Leuschner
   role: Security Researcher
   work: Cisco Talos
   image: kelly-leuschner
