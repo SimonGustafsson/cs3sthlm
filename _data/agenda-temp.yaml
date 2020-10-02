@@ -4,7 +4,7 @@
   day: daythree
   type: break
   place: Main Stage
-  time: 
+  time: 09:00
   title: Introduction
 
 - id:
@@ -14,7 +14,10 @@
   time: "09:15"
   title: Keynote
   author:
-    - name:
+    - name: Coming soon
+      role:
+      work:
+      image:
   partner:
     - name:
 
