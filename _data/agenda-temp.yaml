@@ -6,6 +6,10 @@
   place: Main Stage
   time: "09:00"
   title: Introduction
+  author:
+    - name:
+  partner:
+    - name:
 
 - id:
   day: daythree
@@ -80,6 +84,10 @@
   place: Main Stage
   time: "11:55"
   title: Lunch
+  author:
+    - name:
+  partner:
+    - name:
 
 - id:
   day: daythree
@@ -140,6 +148,10 @@
   place: Main Stage
   time: "14:00"
   title: Coffee Break
+  author:
+    - name:
+  partner:
+    - name:
 
 - id:
   day: daythree
@@ -339,6 +351,10 @@
   place: Main Stage
   time: "10:50"
   title: Coffee Break
+  author:
+    - name:
+  partner:
+    - name:
 
 - id:
   day: dayfour
@@ -468,6 +484,10 @@
   place: Main Stage
   time: "12:25"
   title: Lunch
+  author:
+    - name:
+  partner:
+    - name:
 
 - id:
   day: dayfour
@@ -535,6 +555,10 @@
   place: Main Stage
   time: "14:35"
   title: Coffee Break
+  author:
+    - name:
+  partner:
+    - name:
 
 - id:
   day: dayfour

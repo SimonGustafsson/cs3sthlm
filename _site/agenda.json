@@ -7,6 +7,16 @@
 		"title" 	: "Introduction",
 		"description"	: "",
 		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "",
 		"place" 	: "Main Stage"
@@ -89,6 +99,16 @@
 		"title" 	: "Lunch",
 		"description"	: "",
 		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "",
 		"place" 	: "Main Stage"
@@ -148,6 +168,16 @@
 		"title" 	: "Coffee Break",
 		"description"	: "",
 		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "",
 		"place" 	: "Main Stage"
@@ -253,6 +283,16 @@
 		"title" 	: "Coffee Break",
 		"description"	: "",
 		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "",
 		"place" 	: "Main Stage"
@@ -312,6 +352,16 @@
 		"title" 	: "Lunch",
 		"description"	: "",
 		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "",
 		"place" 	: "Main Stage"
@@ -371,6 +421,16 @@
 		"title" 	: "Coffee Break",
 		"description"	: "",
 		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
 		
 		"label"		: "",
 		"place" 	: "Main Stage"
