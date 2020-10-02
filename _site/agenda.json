@@ -2,8 +2,8 @@
 	{
 		"id"		: "",
 		"day"		: "daythree",
-		"type"		: "break",
-		"time"		: "540.0",
+		"type"		: "common",
+		"time"		: "09:00",
 		"title" 	: "Introduction",
 		"description"	: "",
 		

@@ -2,9 +2,9 @@
 
 - id:
   day: daythree
-  type: break
+  type: common
   place: Main Stage
-  time: 09:00
+  time: "09:00"
   title: Introduction
 
 - id:
