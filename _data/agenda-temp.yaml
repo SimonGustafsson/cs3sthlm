@@ -1,3 +1,61 @@
+#DAY TWO
+
+- id:
+  day: daytwo
+  type: common
+  place: Main Stage
+  time: "19:00"
+  title: Introduction
+  author:
+    - name: Erik Johansson & Robert Malmgren
+  partner:
+    - name:
+
+- id:
+  day: daytwo
+  type: common
+  place: Main Stage
+  time: "19:10"
+  title: Walk-through of the conference platform Hopin
+  author:
+    - name: Karl Emil Nikka
+  partner:
+    - name:
+
+- id:
+  day: daytwo
+  type: common
+  place: Main Stage
+  time: "19:25"
+  title: Q&A
+  author:
+    - name: Erik 'Z' Johansson
+  partner:
+    - name:
+
+- id:
+  day: daytwo
+  type: common
+  place: Main Stage
+  time: "19:35"
+  title: CS3 Quiz
+  author:
+    - name: Erik Johansson & Robert Malmgren
+  partner:
+    - name:
+
+- id:
+  day:
+  type:
+  place:
+  time:
+  title:
+  author:
+    - name:
+  partner:
+    - name:
+
+
 #DAY THREE
 
 - id:

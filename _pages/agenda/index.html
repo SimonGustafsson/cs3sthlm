@@ -21,21 +21,62 @@ layout: default
 	<div class="agenda col-8-8">
 
 		<div class="agenda-header">
+			<div class="agenda-header-item" id="daytwo-button">
+				<span class="heading heading-small heading-capped heading-gray">20th of October</span>
+				<h3 class="subtitle subtitle-yellow">Tues<span>day</span></h3>
+				<h4 class="alt-title alt-title-extra-small alt-title-gray">Welcome Reception <span>- 19-20</span></h4>
+			</div>
 			<div class="agenda-header-item" id="daythree-button">
 				<span class="heading heading-small heading-capped heading-gray">21st of October</span>
 				<h3 class="subtitle subtitle-yellow">Wednes<span>day</span></h3>
-				<h4 class="alt-title alt-title-extra-small alt-title-gray">Summit</h4>
+				<h4 class="alt-title alt-title-extra-small alt-title-gray">Summit <span>- 09-16</span></h4>
 			</div>
 			<div class="agenda-header-item" id="dayfour-button">
 				<span class="heading heading-small heading-capped heading-gray">22nd of October</span>
 				<h3 class="subtitle subtitle-yellow">Thurs<span>day</span></h3>
-				<h4 class="alt-title alt-title-extra-small alt-title-gray">Summit</h4>
+				<h4 class="alt-title alt-title-extra-small alt-title-gray">Summit <span>- 09-16:30</span></h4>
 			</div>
 		</div>
 
 		<div class="agenda-day-content">
 
-			<div class="agenda-day agenda-day-active" id="daythree">
+			<div class="agenda-day agenda-day-active" id="daytwo">
+
+				<div class="agenda-content">
+
+					<div class="agenda-content-column agenda-content-column-active" id="daythree-mainstage">
+						{% for item in site.data.agenda-temp %}
+						{% if item.day == 'daytwo' %}
+						{% if item.place == 'Main Stage' %}
+						{% if item.permalink.size > 1 %}
+						<div class="agenda-item agenda-item-link">
+							<a href="{{ site.baseurl }}/{{ item.permalink }}">
+								<span class="agenda-item-time">{{ item.time }}{% if item.special.size > 1 %}<span class="agenda-item-special">- {{ item.special }}</span>{% endif %}</span>
+								{% if item.label.size > 1 %}
+								<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
+								{% endif %}
+								<h3 class="agenda-item-headline">{{ item.title }}</h3>
+								<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item.name }}</span>{% endfor %}{% for item in item.partner %}{% if item.name.size > 1 %}<span>{{ item.name }}</span>{% endif %}{% endfor %}</h4>
+							</a>
+						</div>
+						{% else %}
+						<div class="agenda-item {% if item.type == 'presentation' %}agenda-item-link{% endif %} {% if item.type == 'break' %}agenda-item-break{% endif %}">
+							<span class="agenda-item-time">{{ item.time }}{% if item.special.size > 1 %}<span class="agenda-item-special">- {{ item.special }}</span>{% endif %}</span>
+							{% if item.label.size > 1 %}
+							<span class="agenda-item-time agenda-item-label">{{ item.label }}</span>
+							{% endif %}
+							<h3 class="agenda-item-headline">{{ item.title }}</h3>
+							<h4 class="agenda-item-author">{% for item in item.author %}<span>{{ item.name }}</span>{% endfor %}{% for item in item.partner %}{% if item.name.size > 1 %}<span>{{ item.name }}</span>{% endif %}{% endfor %}</h4>
+						</div>
+						{% endif %}
+						{% endif %}
+						{% endif %}
+						{% endfor %}
+					</div>
+				</div>
+			</div>
+
+			<div class="agenda-day" id="daythree">
 
 				<div class="agenda-content">
 

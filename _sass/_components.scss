@@ -688,6 +688,11 @@
 
 		&:nth-child(2) {
 			border-left: 1px solid $blue-darken;
+			border-right: 1px solid $blue-darken;
+
+			@include media-query($mobile) {
+				border: none;
+			}
 		}
 
 		
@@ -768,6 +773,10 @@
 	justify-content: space-between;
 	width: 100%;
 
+	@include media-query($mobile) {
+		align-items: stretch;
+	}
+
 	&-item {
 		display: flex;
 		align-items: flex-start;
@@ -810,6 +819,7 @@
 			}
 		}
 		&:nth-child(2) {
+			border-left: 1px solid $dark;
 			border-right: 1px solid $dark;
 		}
 		&:last-of-type {
@@ -852,6 +862,13 @@
 		letter-spacing: 2px;
 
 		@include transition-ease;
+
+		span {
+
+			@include media-query($mobile) {
+				display: block;
+			}
+		}
 	}
 	.heading, .subtitle {
 		@include transition-ease;

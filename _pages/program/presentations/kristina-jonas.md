@@ -4,7 +4,7 @@ permalink: "/program/presentations/kristina-jonas/"
 layout: presentation
 speaker:
 - name: Kristina Blomqvist
-  role: 
+  role: Group Operational Technology Security Officer
   work: Vattenfall
   image: kristina-blomqvist
 - name: Jonas Edberg

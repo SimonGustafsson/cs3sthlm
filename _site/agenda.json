@@ -1,6 +1,121 @@
 {"agendaList":[
 	{
 		"id"		: "",
+		"day"		: "daytwo",
+		"type"		: "common",
+		"time"		: "19:00",
+		"title" 	: "Introduction",
+		"description"	: "",
+		
+		"name"		: "Erik Johansson & Robert Malmgren",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
+		"label"		: "",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "",
+		"day"		: "daytwo",
+		"type"		: "common",
+		"time"		: "19:10",
+		"title" 	: "Walk-through of the conference platform Hopin",
+		"description"	: "",
+		
+		"name"		: "Karl Emil Nikka",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
+		"label"		: "",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "",
+		"day"		: "daytwo",
+		"type"		: "common",
+		"time"		: "19:25",
+		"title" 	: "Q&A",
+		"description"	: "",
+		
+		"name"		: "Erik 'Z' Johansson",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
+		"label"		: "",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "",
+		"day"		: "daytwo",
+		"type"		: "common",
+		"time"		: "19:35",
+		"title" 	: "CS3 Quiz",
+		"description"	: "",
+		
+		"name"		: "Erik Johansson & Robert Malmgren",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
+		"label"		: "",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "",
+		"day"		: "",
+		"type"		: "",
+		"time"		: "",
+		"title" 	: "",
+		"description"	: "",
+		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
+		"label"		: "",
+		"place" 	: ""
+	},
+
+	{
+		"id"		: "",
 		"day"		: "daythree",
 		"type"		: "common",
 		"time"		: "09:00",
