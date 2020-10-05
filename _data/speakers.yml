@@ -478,7 +478,7 @@
   country: Sweden
   shortcode: SE
   image: kristina-blomqvist.png
-  bio: 
+  bio: Kristina Blomqvist is group operational technology security officer at Vattenfall AB. She is responsible for creating, establishing and maintaining the OT Security area and for ensuring that all aspects of OT-security are aligned with relevant stakeholders within the Vattenfall group. Moreover, she drives and coordinates OT security initiatives and monitors regulatory development. Kristina previous engagements includes being program manager for the Swedish National Program for ICS Security at MSB, the civil contingencies agency, working as an analyst and market director at FOI, the Swedish Defence Research Agency, and as an I&C subject area representative and specialist at the Swedish Nuclear Power Inspectorate, SKI.  Kristina holds a master in Engineering Physics from KTH, the Royal Institute of Technology. Kristina is also a long-term advisory board member for CS3Sthlm.
   date:
   time:
   place:
@@ -786,8 +786,8 @@
   name: Jenny Radcliffe
   role: Social Engineer
   work:
-  country: Great Britain 
-  shortcode: GB
+  country: United Kingdom
+  shortcode: UK
   image: jenny-radcliffe.png
   bio: |
     Jenny Radcliffe is a  world renowned Social Engineer, hired to bypass security systems through a mixture of psychology, con-artistry, cunning and guile.  A "burglar" for hire and entertaining educator,  she has spent a lifetime talking her way into secure locations, protecting clients from scammers, and leading simulated criminal attacks on organisations of all  sizes in order to help secure money, data and information from malicious attacks.
@@ -810,6 +810,68 @@
       description:
   training:
     - active: none
+
+- id:
+  type: presentation
+  permalink:
+  name: Colin Cassidy
+  role: Senior Security Consultant
+  work: IOActive
+  country: United Kingdom
+  shortcode: UK
+  image: temp.png
+  bio: |
+    I have been a Senior Security Consultant at IOActive for 5 years and have performed many  security audits of ICS/SCADA systems including: several assessments at two of the UKs largest  Distribution Network Operators, Energy Management Systems in Asia, Smart Meter  infrastructure, shipping terminals, HVAC and baggage handling systems at one of Europe’s  busiest airports, and several windfarms in Europe. 
+
+    I have presented and Blackhat and Defcon on Industrial Ethernet Switches, like those deployed  in windfarms and other ICS environments.
+
+    Prior to this I was the Security Technical Lead and core product development lead within GE for  the PowerOn Fusion product a leading Outage Management System/Distribution Management  System (OMS/DMS) used throughout the world. I led the secure testing project of our product that took place at INL (Idaho National Laboratories) in 2010.  I produced the secure coding  guidelines now used throughout GE as the benchmark for secure coding guidelines within the  business.  Finally, I worked with a corporate security team to develop the processes and  procedures for a GE wide PSIRT to handle reported vulnerabilities and security  concerns/questions with any of GE’s product range. 
+
+    Graduated from the University of Glasgow with a B.Sc. in Computing Science where I worked on  the Nemesis Operating System (https://en.wikipedia.org/wiki/Nemesis_(operating_system)) 
+  date:
+  time:
+  place:
+  speaker:
+    - name: Colin Cassidy
+      role: Senior Security Consultant
+      image: temp
+  presentation:
+    - active: live
+      subject: ACME Windpharms – It can’t be ‘smart’ if you lack simple security
+      permalink: program/presentations/
+      partner: 
+      description: |
+        The talk will cover the basics of windfarms and their operations, I’ll briefly discuss prior research  in this area, noting that those findings are still valid today.  Then the core of this talk will focus  on identified security threats and their mitigations based on real life assessments.  The impact  these threats can have both in terms of windfarm operation and the physical damage that can  be caused.  I will show how physical and remote access to the windfarm can be gained, and by  investigating the vulnerabilities found, I will show that there is an over-reliance on security boxes  and buzzword solutions that has left general, basic, security hygiene lacking.  So much so that  that in some cases, not only have systems not been patched, but they were installed insecurely  in the first place.  I will then discuss the recent 2019 UK outage and the part played by  windfarms in that, from the initial outage to their impact on restoration as a result of how micro generation is modelled within control systems. 
+
+        There will be two key takeaways from this talk. Firstly, I will be busting the myth that ‘cutting off  the supply’ is the most interesting attack that can be performed.  It is the most likely, and one of  the simplest attacks, but it is not the most interesting.  Secondly, I will cover a point often  glossed over in other talks.  When an attacker ‘takes control’ it is often simply left at that, as if  taking control was the ‘win condition’. This talk will cover some of the more interesting cyber physical attacks that can be performed on a wind farm and look at some of the ways that actual  physical damage could be caused.
+  training:
+    - active: none
+
+# - id:
+#   type: presentation
+#   permalink:
+#   name: 
+#   role: 
+#   work: 
+#   country: 
+#   shortcode: 
+#   image: .png
+#   bio: 
+#   date:
+#   time:
+#   place:
+#   speaker:
+#     - name: 
+#       role: 
+#       image: 
+#   presentation:
+#     - active: live
+#       subject: 
+#       permalink: program/presentations/
+#       partner: 
+#       description:
+#   training:
+#     - active: none
 
 
 # - id:
