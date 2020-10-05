@@ -3474,6 +3474,22 @@ body.lb-disable-scrolling {
     }
   }
 
+  @include media-query($medium) {
+    justify-content: space-between;
+
+    .card-item {
+      width: calc(33.3333% - 16px);
+      margin-right: 0;
+    }
+  }
+
+  @include media-query($small) {
+
+    .card-item {
+      width: calc(50% - 12px);
+    }
+  }
+
   @include media-query($mobile) {
     .col-2-8 {
       width: 100%;

@@ -1099,6 +1099,10 @@ body.lb-disable-scrolling { overflow: hidden; }
 
 .history--block .card-item:nth-child(4n+4) { margin-right: 0; }
 
+@media screen and (max-width: 1440px) { .history--block { justify-content: space-between; } .history--block .card-item { width: calc(33.3333% - 16px); margin-right: 0; } }
+
+@media screen and (max-width: 1170px) { .history--block .card-item { width: calc(50% - 12px); } }
+
 @media screen and (max-width: 768px) { .history--block .col-2-8 { width: 100%; } }
 
 /** WORKSHOP - LIST */
