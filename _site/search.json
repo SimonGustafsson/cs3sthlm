@@ -327,9 +327,9 @@
   
    {
      
-        "title"    : "Testbed Evaluation of DoS Attacks on Continuously Controlled Processes",
-        "url"      : "/expo/presentations/henrik-sandberg/",
-        "path"     : "/expo/presentations/henrik-sandberg/"
+        "title"    : "Henrik Sandberg",
+        "url"      : "/about/archive/speakers/henrik-sandberg",
+        "path"     : "/about/archive/speakers/henrik-sandberg"
      
    },
   
@@ -442,14 +442,6 @@
         "title"    : "William Middleton",
         "url"      : "/about/archive/speakers/william-middleton",
         "path"     : "/about/archive/speakers/william-middleton"
-     
-   },
-  
-   {
-     
-        "title"    : "Kevin Jones",
-        "url"      : "/about/archive/speakers/kevin-jones",
-        "path"     : "/about/archive/speakers/kevin-jones"
      
    },
   
@@ -815,6 +807,14 @@
   
    {
      
+        "title"    : "Kevin Jones",
+        "url"      : "/about/archive/speakers/kevin-jones",
+        "path"     : "/about/archive/speakers/kevin-jones"
+     
+   },
+  
+   {
+     
         "title"    : "Contact",
         "url"      : "/contact/",
         "path"     : "/contact/"
@@ -874,14 +874,6 @@
         "title"    : "Gyorgy Dan",
         "url"      : "/about/archive/speakers/gyorgy-dan",
         "path"     : "/about/archive/speakers/gyorgy-dan"
-     
-   },
-  
-   {
-     
-        "title"    : "Henrik Sandberg",
-        "url"      : "/about/archive/speakers/henrik-sandberg",
-        "path"     : "/about/archive/speakers/henrik-sandberg"
      
    },
   
@@ -971,14 +963,6 @@
   
    {
      
-        "title"    : "We are all vulnerable",
-        "url"      : "/expo/presentations/magnus-lundgren/",
-        "path"     : "/expo/presentations/magnus-lundgren/"
-     
-   },
-  
-   {
-     
    },
   
    {
@@ -994,22 +978,6 @@
         "title"    : "A Practical Way to Test OT Security Mechanisms in Real-life Scenarios",
         "url"      : "/program/presentations/matan-idan/",
         "path"     : "/program/presentations/matan-idan/"
-     
-   },
-  
-   {
-     
-        "title"    : "Applying automated attack modeling to a smart grid use case",
-        "url"      : "/expo/presentations/mathias-ekstedt/",
-        "path"     : "/expo/presentations/mathias-ekstedt/"
-     
-   },
-  
-   {
-     
-        "title"    : "Nozomi networks - Cyber Security for OT/IIoT/ICS – what we have learned 1000 installations later",
-        "url"      : "/expo/presentations/michael-weng/",
-        "path"     : "/expo/presentations/michael-weng/"
      
    },
   
@@ -1031,22 +999,6 @@
   
    {
      
-        "title"    : "Attack Path Mapping",
-        "url"      : "/expo/presentations/robert-bearsby/",
-        "path"     : "/expo/presentations/robert-bearsby/"
-     
-   },
-  
-   {
-     
-        "title"    : "Project EnergyShield - hacking the power grid as a research method",
-        "url"      : "/expo/presentations/robert-lagerstrom/",
-        "path"     : "/expo/presentations/robert-lagerstrom/"
-     
-   },
-  
-   {
-     
         "title"    : "Search",
         "url"      : "/search/",
         "path"     : "/search/"
@@ -1054,14 +1006,6 @@
    },
   
    {
-     
-   },
-  
-   {
-     
-        "title"    : "From datasets and testbeds to timing-based anomaly detection",
-        "url"      : "/expo/presentations/simin-nadjm-tehrani/",
-        "path"     : "/expo/presentations/simin-nadjm-tehrani/"
      
    },
   

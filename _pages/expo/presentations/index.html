@@ -16,7 +16,7 @@ layout: default
     <div class="col-4-8">
       <div class="button-group button-group-two">
         <a href="{{ site.baseurl }}/expo/" class="button button-primary"><span>View</span> Expo Details</a>
-        <a href="https://cs3-expo-day-2019.eventbrite.com/" target="_blank" class="button button-green">Expo Registration - Free</a>
+        <a href="https://hopin.to/events/cs3sthlm-2020" target="_blank" class="button button-yellow">Get tickets here</a>
       </div>
     </div>
   </div>
@@ -25,13 +25,16 @@ layout: default
       {% assign presentation = site.pages | where_exp:"item", "item.layout contains 'expotalk'" %}
       {% for page in presentation %}
       <a href="{{ page.permalink }}" class="speakers-block-item col-4-8">
-        <div class="speakers-block-item-data">
+        <div class="speakers-block-item-data speakers-block-item-data-row">
           <div class="speakers-block-item-data-block speakers-block-item-data-block-image {% if page.speaker.size > 1 %}speakers-block-item-duo{% endif %}">
             {% for item in page.speaker %}
             <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}-sq.png" class="speakers-block-item-data-image" />
             {% endfor %}
           </div>
           <div class="speakers-block-item-data-block">
+            {% if page.keynote.size > 1 %}
+            <h4 class="sub-headline sub-headline-yellow">Keynote</h4>
+            {% endif %}
             <h3 class="heading">{{ page.title }}</h3>
             <h4 class="alt-title alt-title-small alt-title-light">
             {% for item in page.speaker %}
