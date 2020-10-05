@@ -819,7 +819,7 @@
   work: IOActive
   country: United Kingdom
   shortcode: UK
-  image: temp.png
+  image: colin-cassidy.png
   bio: |
     I have been a Senior Security Consultant at IOActive for 5 years and have performed many  security audits of ICS/SCADA systems including: several assessments at two of the UKs largest  Distribution Network Operators, Energy Management Systems in Asia, Smart Meter  infrastructure, shipping terminals, HVAC and baggage handling systems at one of Europe’s  busiest airports, and several windfarms in Europe. 
 
@@ -834,7 +834,7 @@
   speaker:
     - name: Colin Cassidy
       role: Senior Security Consultant
-      image: temp
+      image: colin-cassidy
   presentation:
     - active: live
       subject: ACME Windpharms – It can’t be ‘smart’ if you lack simple security

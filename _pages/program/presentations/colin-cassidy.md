@@ -6,7 +6,7 @@ speaker:
 - name: Colin Cassidy
   role: Senior Security Consultant
   work: IOActive
-  image: temp
+  image: colin-cassidy
 id: presentation
 published: true
 ---

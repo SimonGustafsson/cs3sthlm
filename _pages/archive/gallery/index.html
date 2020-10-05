@@ -15,7 +15,7 @@ layout: archive-sub
 
 		<div class="col-6-8">
 			<h2 class="title title-yellow">Gallery</h2>
-			<p class="col-4-8">Text coming soon.</p>
+			<p class="col-4-8"></p>
 		</div>
 	</div>
 
@@ -39,27 +39,6 @@ layout: archive-sub
 		        	{% for item in site.data.gallery2019 %}
 		        	<figure class="archive-gallery-block-item col-1-8 {% if item.type contains 'tall' %}archive-gallery-block-item-tall{% endif %}">
 		        		<a href="{{ site.baseurl }}/assets/photos/gallery-2019/{{ item.name }}" data-lightbox="cs3sthlm-2019"><img src="{{ site.baseurl }}/assets/photos/gallery-2019/{{ item.name }}"></a>
-		        	</figure>
-		        	{% endfor %}
-		        </div>
-			</div>
-
-		</div>
-
-
-		<div class="archive-keynote-divider"><span class="archive-keynote-divider-data">2018</span></div>
-
-		<div class="column-block col-8-8 spacing-bottom">
-
-			<div class="column-block-item col-8-8">
-				<figure class="archive-gallery-block-item archive-gallery-block-item-full col-8-8">
-		        	<a href="{{ site.baseurl }}/assets/photos/expo-2019.jpg" data-lightbox="cs3sthlm-2018"><img src="{{ site.baseurl }}/assets/photos/expo-2019.jpg"></a>
-		        </figure>
-
-		        <div class="archive-gallery-block spacing-top">
-		        	{% for item in site.data.gallery2019 %}
-		        	<figure class="archive-gallery-block-item col-1-8 {% if item.type contains 'tall' %}archive-gallery-block-item-tall{% endif %}">
-		        		<a href="{{ site.baseurl }}/assets/photos/gallery-2019/{{ item.name }}" data-lightbox="cs3sthlm-2018"><img src="{{ site.baseurl }}/assets/photos/gallery-2019/{{ item.name }}"></a>
 		        	</figure>
 		        	{% endfor %}
 		        </div>
