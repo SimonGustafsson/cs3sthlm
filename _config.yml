@@ -16,3 +16,7 @@ markdown: kramdown
 theme: 
 include:
 - _pages
+
+sass:
+  sourcemap: never
+  style: compressed
