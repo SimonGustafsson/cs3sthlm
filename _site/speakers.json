@@ -355,9 +355,9 @@
 			"active": 	"live",
 			"title": 	"How to create a risk-based future-proof zone model",
 			"partner":	"Jonas Edberg",
-			"role":		"",
+			"role":		"Cyber Security Consultant",
 			"work":		"Contrast Advisory",
-			"image":	"https://cs3sthlm.se/assets/speakers/temp.png",
+			"image":	"https://cs3sthlm.se/assets/speakers/jonas-edberg.png",
 			"description": "<p>The presentation will cover a walk through on how we have combined best practices for securing OT and IT environments, general and sector specific standards and guidance as well as the much debated Purdue model into a future-oriented flexible and scalable zone model for a multinational and multisite company.</p>"
 		
 		},
@@ -382,12 +382,12 @@
 		"id"		: "",
 		"type"		: "presentation",
 		"name"		: "Jonas Edberg",
-		"role"		: "",
+		"role"		: "Cyber Security Consultant",
 		"work"		: "Contrast Advisory",
 		"country"	: "Sweden",
 		"shortcode"	: "SE",
 		"status"	: "",
-		"image" 	: "https://cs3sthlm.se/assets/speakers/temp.png",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/jonas-edberg.png",
 		
 		
 		
@@ -397,7 +397,7 @@
 			"active": 	"live",
 			"title": 	"How to create a risk-based future-proof zone model",
 			"partner":	"Kristina Blomqvist",
-			"role":		"",
+			"role":		"Group Operational Technology Security Officer",
 			"work":		"Vattenfall",
 			"image":	"https://cs3sthlm.se/assets/speakers/kristina-blomqvist.png",
 			"description": "<p>The presentation will cover a walk through on how we have combined best practices for securing OT and IT environments, general and sector specific standards and guidance as well as the much debated Purdue model into a future-oriented flexible and scalable zone model for a multinational and multisite company.</p>"
@@ -417,7 +417,7 @@
 		},
 		
 
-		"bio": ""
+		"bio": "<p>Jonas is a cyber security consultant at Contrast Advisory, which he co-founded in 2017, with experience from a wide set of industries and companies. During the last few years Jonas has been focusing on cyber security within the energy industry.</p><p>He has prior experience within GRC (Governance, Risk and Compliance), information security, external and internal audit, privacy, risk management and internal control from Transcendent Group and EY Advisory Services.</p><p>Jonas holds a master’s degree in Industrial Engineering and Management from Chalmers University of Technology and is CISA, CISM, CRISC and CIPP/E certified.</p>"
 	},
 
 	{

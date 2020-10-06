@@ -8,9 +8,9 @@ speaker:
   work: Vattenfall
   image: kristina-blomqvist
 - name: Jonas Edberg
-  role:
+  role: Cyber Security Consultant
   work: Contrast Advisory
-  image: temp
+  image: jonas-edberg
 id: presentation
 published: true
 ---

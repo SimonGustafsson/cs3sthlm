@@ -93,14 +93,14 @@
     The presentation will cover a walk through on how we have combined best practices for securing OT and IT environments, general and sector specific standards and guidance as well as the much debated Purdue model into a future-oriented flexible and scalable zone model for a multinational and multisite company.
   author:
     - name: Kristina Blomqvist
-      role:
+      role: Group Operational Technology Security Officer
       work: Vattenfall
       image: kristina-blomqvist.png
   partner:
     - name: Jonas Edberg
-      role:
+      role: Cyber Security Consultant
       work: Contrast Advisory
-      image: temp.png
+      image: jonas-edberg.png
   permalink: program/presentations/kristina-jonas/
 
 - id:

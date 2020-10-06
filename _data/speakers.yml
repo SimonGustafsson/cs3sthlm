@@ -491,9 +491,9 @@
       subject: How to create a risk-based future-proof zone model
       permalink: program/presentations/kristina-jonas/
       partner: Jonas Edberg
-      partner-role:
+      partner-role: Cyber Security Consultant
       partner-work: Contrast Advisory
-      partner-image: temp
+      partner-image: jonas-edberg
       description: |
         The presentation will cover a walk through on how we have combined best practices for securing OT and IT environments, general and sector specific standards and guidance as well as the much debated Purdue model into a future-oriented flexible and scalable zone model for a multinational and multisite company.
   training:
@@ -504,25 +504,30 @@
   type: presentation
   permalink:
   name: Jonas Edberg
-  role: 
+  role: Cyber Security Consultant
   work: Contrast Advisory
   country: Sweden
   shortcode: SE
-  image: temp.png
-  bio: 
+  image: jonas-edberg.png
+  bio: |
+    Jonas is a cyber security consultant at Contrast Advisory, which he co-founded in 2017, with experience from a wide set of industries and companies. During the last few years Jonas has been focusing on cyber security within the energy industry.
+
+    He has prior experience within GRC (Governance, Risk and Compliance), information security, external and internal audit, privacy, risk management and internal control from Transcendent Group and EY Advisory Services. 
+    
+    Jonas holds a master’s degree in Industrial Engineering and Management from Chalmers University of Technology and is CISA, CISM, CRISC and CIPP/E certified. 
   date:
   time:
   place:
   speaker:
     - name: Jonas Edberg
-      role: 
-      image: temp
+      role: Cyber Security Consultant
+      image: jonas-edberg
   presentation:
     - active: live
       subject: How to create a risk-based future-proof zone model
       permalink: program/presentations/kristina-jonas/
       partner: Kristina Blomqvist
-      partner-role: 
+      partner-role: Group Operational Technology Security Officer
       partner-work: Vattenfall
       partner-image: kristina-blomqvist
       description: |
