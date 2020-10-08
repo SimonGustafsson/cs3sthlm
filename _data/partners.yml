@@ -26,7 +26,7 @@
 
 
 - id: 3
-  level: premium
+  level: partner
   company: Kaspersky
   logo: kaspersky.png
   url: https://www.kaspersky.com
@@ -78,7 +78,7 @@
   postorder: 3
 
 - id: 7
-  level: partner
+  level: premium
   company: Accenture
   logo: accenture.png
   url: https://www.accenture.com/se-en
