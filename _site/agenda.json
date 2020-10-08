@@ -145,10 +145,10 @@
 		"title" 	: "Keynote",
 		"description"	: "",
 		
-		"name"		: "Coming soon",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		"name"		: "Ross Anderson",
+		"role"		: "Professor of Security Engineering",
+		"work"		: "University of Cambridge Computer Laboratory",
+		"image"		: "https://cs3sthlm.se/assets/speakers/temp.png",
 		
 		
 		"pname"		: "",
@@ -233,7 +233,7 @@
 		"id"		: "",
 		"day"		: "daythree",
 		"type"		: "presentation",
-		"time"		: "12:50",
+		"time"		: "13:00",
 		"title" 	: "Reverse Engineering Siemens PLCs: Lessons Learned for Today and Tomorrow",
 		"description"	: "<p>Reverse Engineering is the process of identifying a software or hardware logic by investigating the software binary code or hardware behavior. Programmable Logic Controllers are one of the most (if not the most) critical embedded devices in the industry. PLCs can control almost all the crucial elements of an industrial process and are considered the ’brain of modern industrial control systems’. With recent advances in Industry 4.0, the concept of PLCs operating in an air gapped network became a myth. Thus, with growing accessability of these devices, vendors which historically did not have to worry about their product security, try to find shortcuts while working on improving the security of their product. In this talk, we will take a look into how some of these shortcuts might affect the vendors product security. We finally talk about few other PLC vendors which have similar functionality but are less critical. We end by taking a look at overall roadblocks on reverse engineering the PLCs to identify security issues or similar special access functionalities.</p>",
 		
@@ -256,7 +256,7 @@
 		"id"		: "",
 		"day"		: "daythree",
 		"type"		: "presentation",
-		"time"		: "13:40",
+		"time"		: "13:55",
 		"title" 	: "Hacking Advanced Metering Infrastructure (AMI) – an attacker’s perspective on Distribution System Operator (in)security",
 		"description"	: "<p>Overview:</p><p>The presentation will guide audience through a complete ICS attack vector aimed at compromising smart meters and advanced metering infrastructure. It will show how in a recent case study team of security researchers identified zero days in smart devices and vulnerabilities in other components of AMI architecture and leveraged those to simulate comprehensive attack scenario. The talk will show an overview of challenges of smart metering solutions cybersecurity in Europe.</p><p>Agenda:</p><ul>  <li>Smart meters design, architecture and role of firmware</li>  <li>Approach to reverse engineering smart meters firmware</li>  <li>Results of DLMS/COSEM protocol implementation reversing – examples of identified key vulnerabilities</li>  <li>Examples of common misconfigurations of 3G modems, PLC concentrators and serial port gateways</li>  <li>Exploitation of identified vulnerabilities in simulated attack on DSO (Energy Distribution System Operator) and end customer</li></ul><p>Target audience:</p><p>Critical Infrastructure managing organizations, i.e. Power &amp; utilities representatives, especially: executive managers (CISOs, CSOs, CIOs and CTOs), OT/ICS engineers and cybersecurity experts and managers responsible for/ or involved in smart grid and smart metering initiatives. No specific prerequisites are needed.</p><p>Audience should expect comprehensive analysis covering general concepts as well as more technical details that will be supported and illustrated by specific and practical examples.</p><p>Key takeaways for the audience</p><p>Target audience will build awareness of cybersecurity challenges and typical vulnerabilities found in smart metering solutions.</p>",
 		
@@ -279,7 +279,7 @@
 		"id"		: "",
 		"day"		: "daythree",
 		"type"		: "break",
-		"time"		: "14:00",
+		"time"		: "14:25",
 		"title" 	: "Coffee Break",
 		"description"	: "",
 		
@@ -302,7 +302,30 @@
 		"id"		: "",
 		"day"		: "daythree",
 		"type"		: "presentation",
-		"time"		: "14:20",
+		"time"		: "14:55",
+		"title" 	: "ACME Windpharms – It can’t be ‘smart’ if you lack simple security",
+		"description"	: "<p>The talk will cover the basics of windfarms and their operations, I’ll briefly discuss prior research in this area, noting that those findings are still valid today. Then the core of this talk will focus on identified security threats and their mitigations based on real life assessments. The impact these threats can have both in terms of windfarm operation and the physical damage that can be caused. I will show how physical and remote access to the windfarm can be gained, and by investigating the vulnerabilities found, I will show that there is an over-reliance on security boxes and buzzword solutions that has left general, basic, security hygiene lacking. So much so that that in some cases, not only have systems not been patched, but they were installed insecurely in the first place. I will then discuss the recent 2019 UK outage and the part played by windfarms in that, from the initial outage to their impact on restoration as a result of how micro generation is modelled within control systems.</p><p>There will be two key takeaways from this talk. Firstly, I will be busting the myth that ‘cutting off the supply’ is the most interesting attack that can be performed. It is the most likely, and one of the simplest attacks, but it is not the most interesting. Secondly, I will cover a point often glossed over in other talks. When an attacker ‘takes control’ it is often simply left at that, as if taking control was the ‘win condition’. This talk will cover some of the more interesting cyber physical attacks that can be performed on a wind farm and look at some of the ways that actual physical damage could be caused.</p>",
+		
+		"name"		: "Colin Cassidy",
+		"role"		: "Senior Security Consultant",
+		"work"		: "IOActive",
+		"image"		: "https://cs3sthlm.se/assets/speakers/colin-cassidy.png",
+		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
+		"label"		: "",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "",
+		"day"		: "daythree",
+		"type"		: "presentation",
+		"time"		: "15:45",
 		"title" 	: "So You Want to Take Down the Electric Grid - or You Want to Defend It",
 		"description"	: "<p>Media hype concerning attacks on ““the grid”” abound - but just what would be necessary to achieve an at-scale disruption of electric utility operations in Europe or North America? This presentation will explore this issue focusing first on events that actually brought grid operations to their knees: the 2003 Italian/Swiss, US/Canada, and Denmark/Sweden blackouts; and the 2006 European blackout event. Based on these events (which were not cyber in origin), we will explore grid resiliency and how interconnections, inter-dependencies, and N-1 (sometimes also phrased as N+1) resiliency come into play for maintaining power operations.</p><p>Based on this discussion, we will then explore how a sufficiently patient, motivated, and resourceful attacker could either produce or take advantage of conditions to actually create large-scale outage events. The focus here is not on relatively short, geographically limited disruptions in service (such as 2015 and 2016 Ukraine), but rather potentially long-term or physically disruptive (or destructive events) across large regions. To explore this, we will discuss chaining cyber impacts with environmental or operational variability, and how potential attackers could utilize manufactured grid-level disturbances to produce negative outcomes. Specifically, this discussion will look at two frequency deviation events (one in Europe, one in the United States) in 2019 as actual examples of conditions that could be leveraged to achieve wider disruption.</p><p>Finally, this presentation will conclude with what actions asset owners, operators, and defenders can take to either detect or mitigate such events. First and foremost - greater visibility into operations and communications is necessary to both identify potential attackers as they move toward their objectives and what operational changes or alterations might take place when attackers initiate effects. However, this comes with an important caveat: in systems such as electric utility operations, no provider - from the municipal distribution authority through the multinational utility operator - is isolated and alone. Thus, truly identifying grid-scale attack attempts requires greater, faster communication and coordination among all stakeholders involved in an operational area. While truly grid-scale events induced via cyber remain theoretical at this time, adversaries are investing in the capabilities necessary to make such effects possible. Defenders will only be able to counter such moves through a combination of enhanced visibility, improved reaction time, and sharing information as quickly as possible with partner organizations.</p><p>Outline:</p><p>What constitutes an “electric grid attack” via cyber?</p><p>Deny, degrade, disrupt, destroy.</p><p>Noticeable, tangible impact on the generation, transmission, or distribution of electric power.</p><p>Only known examples to date: 2015 and 2016 Ukraine events.</p><p>Media reporting and popular conception over-inflates idea of “attack”:</p><p>Russian-linked intrusions into European and US electric utilities.</p><p>DPRK-linked intrusions in the US and India.</p><p>Lookback phishing campaign in the US.</p><p>All are concerning, all may lead to a future attack - but none are at this level yet.</p><p>What does it take to actually “take down” an electric grid?</p><p>Note: impacting a single site is easy - system-wide effects are not.</p><p>Induce stress or identify periods where N+1 reliability is eliminated.</p><p>Time attacks/disturbances to coincide with stress or lost reliability/resiliency.</p><p>Overall grid stress enables impact to propagate across assets leading to greater impacts.</p><p>This type of effect has been seen, but in the form of natural/accidental disturbances:</p><p>2003 US Northeast Blackout</p><p>2003 Italian/Swiss Blackout</p><p>2003 Denmark/Sweden Blackout</p><p>2006 EU Power Event</p><p>What we observe in all of these events:</p><p>Stressed grid position to start (maintenance, high demand, adverse weather).</p><p>Single event introduces additional stress beyond grid resiliency.</p><p>Equipment and sites work to “self-protect” resulting in cascading effects across wide regions.</p><p>So - how do you deliberately take down the electric grid?</p><p>If you are patient and flexible in timing, wait for bad things to happen and take advantage of them.</p><p>Storms, high demand, unexpected downtime/maintenance all can significantly reduce N-1 reliability.</p><p>Once exogenous conditions remove resiliency, attackers can strike to create potential cascading effects.</p><p>A denial of service or removal from service now has significant consequences, such that past events that resiliency could compensate for are now quite serious:</p><p>Metcalf substation physical attack.</p><p>2015/2016 Ukraine events.</p><p>If on a deadline or need to act at a specific time, things get more complex.</p><p>Pre-positioning and capability development in advance are necessary.</p><p>However, opportunities exist for inducing grid-wide instability with interesting consequences.</p><p>Example: 2019 frequency disturbances in EU and US (neither of which has been explained as of this writing)</p><p>Inducing frequency swings at even a single generating site within an interconnect introduces instability the ‘grid’ needs to react to - if capabilities are already implanted at protective relays or similar systems at other locations, this instability can propagate to begin causing grid-wide disturbances.</p><p>How does one defend ‘the grid’ in these situations?</p><p>First: no site is an ‘island’, or we’re all in this together.</p><p>Recognizing interdependencies is critical to understanding the potential problem set.</p><p>Interdependencies are both lateral (other utilities) and upstream/downstream (e.g., increasing use of gas in North America means pipeline disruptions could cause significant generation outages quite quickly).</p><p>Second, after recognizing interdependencies and the resulting potential attack paths, begin to formulate potential plans for communication and coordination.</p><p>The small municipal power plant may be irrelevant in the “big picture”, but by virtue of being hooked up to the wider grid can still serve as an injection point for instability or disruption.</p><p>Identify mechanisms to share relevant operational and security information quickly and between the proper parties.</p><p>Third, such relationships and communication paths must be formalized and potentially built into dedicated systems for monitoring, defense, and alerting.</p><p>ISACs and similar entities provide a very early stage for this sort of development.</p><p>More mature is the US example of the joint government/utility/security vendor Neighborhood Keeper project.”</p>",
 		
