@@ -346,29 +346,6 @@
 
 	{
 		"id"		: "",
-		"day"		: "daythree",
-		"type"		: "presentation",
-		"time"		: "15:00",
-		"title" 	: "Panel",
-		"description"	: "",
-		
-		"name"		: "",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "",
 		"day"		: "dayfour",
 		"type"		: "presentation",
 		"time"		: "09:10",
