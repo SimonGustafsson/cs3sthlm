@@ -26,9 +26,9 @@
 
 
 - id: 3
-  level: partner
+  level: premium
   company: Kaspersky
-  logo: kaspersky-logo.png
+  logo: kaspersky.png
   url: https://www.kaspersky.com
   bio:
   type: small
@@ -38,12 +38,11 @@
   e-type: small
   postorder: 1
 
-
 - id: 4
-  level: partner
-  company: CyberX
-  logo: cyberx.png
-  url: https://cyberx-labs.com
+  level: premium
+  company: Darktrace
+  logo: darktrace.png
+  url: https://www.darktrace.com/en/
   bio:
   type: small
   order: 2
@@ -52,12 +51,11 @@
   e-type: small
   postorder: 2
 
-
 - id: 5
   level: partner
-  company: Otorio
-  logo: otorio.png
-  url: https://www.otorio.com
+  company: Sectra
+  logo: sectra.png
+  url: https://sectra.com
   bio:
   type: small
   order: 3
@@ -66,94 +64,41 @@
   e-type: small
   postorder: 3
 
-
 - id: 6
-  level: partner
+  level: premium
   company: Recorded Future
-  logo: recorded-future.png
+  logo: recordedfuture.png
   url: https://www.recordedfuture.com
   bio:
   type: small
-  order: 5
+  order: 3
   expo: "yes"
-  e-order: 5
+  e-order: 3
   e-type: small
-  postorder: 5
-
+  postorder: 3
 
 - id: 7
-  level: training-partner
-  company: Netresec
-  logo: netresec.png
-  url: https://www.netresec.com
+  level: partner
+  company: Accenture
+  logo: accenture.png
+  url: https://www.accenture.com/se-en
   bio:
   type: small
-  order: 6
+  order: 1
   expo: "no"
-  postorder: 6
-
+  e-order: 1
+  e-type: small
+  postorder: 1
 
 - id: 8
   level: partner
-  company: Nozomi
-  logo: nozomi.png
-  url: https://www.nozominetworks.com
+  company: TrendMicro
+  logo: trendmicro.png
+  url: https://www.trendmicro.com/en_se/
   bio:
   type: small
-  order: 7
-  expo: "yes"
-  e-order: 6
-  e-type: small
-  postorder: 7
-
-- id: 9
-  level: partner
-  company: Accenture Security
-  logo: accenture-security.png
-  url: https://www.accenture.com/us-en/service-industrial-control-system-cybersecurity
-  bio:
-  type: small
-  order: 8
+  order: 2
   expo: "no"
-  e-order: 6
+  e-order: 2
   e-type: small
-  postorder: 8
-
-- id: 10
-  level: partner
-  company: Romab
-  logo: romab.png
-  url: https://romab.com
-  bio:
-  type: small
-  order: 8
-  expo: "no"
-  e-order: 6
-  e-type: small
-  postorder: 8
-
-- id: 11
-  level: partner
-  company: Management Doctors
-  logo: management-doctors.png
-  url: https://managementdoctors.se
-  bio:
-  type: small
-  order: 8
-  expo: "no"
-  e-order: 6
-  e-type: small
-  postorder: 8
-
-- id: 12
-  level: partner
-  company: Bedriftsystemer
-  logo: bedriftsystemer.png
-  url: https://insec.no
-  bio:
-  type: small
-  order: 8
-  expo: "no"
-  e-order: 6
-  e-type: small
-  postorder: 8
+  postorder: 2

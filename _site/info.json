@@ -77,24 +77,6 @@
     
 
     
-    {
-      "id":     "10",
-      "group":  "dinner",
-      "cat":    "Network Dinner",
-      "day":    "Wednesday",
-      "date":   "23 Oct",
-      "starter": "Dead goat",
-      "main":   "More dead goat",
-      "dessert": "Alive goat with honey",
-      "menu":   "" 
-    }
-
-    ,
-
-  
-    
-
-    
 
     
     { 
@@ -102,9 +84,9 @@
       "type":    "partner",
       "level":   "partner",
       "company": "Kaspersky",
-      "logo":    "https://cs3sthlm.se/assets/partners/kaspersky-logo.png",
+      "logo":    "https://cs3sthlm.se/assets/partners/kaspersky.png",
       "url":     "https://www.kaspersky.com",
-      "expo":    "active"
+      "expo":    "inactive"
     },
 
   
@@ -114,13 +96,93 @@
 
     
     { 
-      "id":      "22",
+      "id":      "14",
+      "type":    "partner",
+      "level":   "partner",
+      "company": "Darktrace",
+      "logo":    "https://cs3sthlm.se/assets/partners/darktrace.png",
+      "url":     "https://www.darktrace.com/en/",
+      "expo":    "inactive"
+    },
+
+  
+    
+
+    
+
+    
+    { 
+      "id":      "15",
+      "type":    "partner",
+      "level":   "partner",
+      "company": "Recorded Future",
+      "logo":    "https://cs3sthlm.se/assets/partners/recordedfuture.png",
+      "url":     "https://www.recordedfuture.com",
+      "expo":    "inactive"
+    },
+
+  
+    
+
+    
+
+    
+    { 
+      "id":      "16",
+      "type":    "partner",
+      "level":   "partner",
+      "company": "Sectra",
+      "logo":    "https://cs3sthlm.se/assets/partners/sectra.png",
+      "url":     "https://sectra.com",
+      "expo":    "inactive"
+    },
+
+  
+    
+
+    
+
+    
+    { 
+      "id":      "17",
+      "type":    "partner",
+      "level":   "partner",
+      "company": "Trend Micro",
+      "logo":    "https://cs3sthlm.se/assets/partners/trendmicro.png",
+      "url":     "https://www.trendmicro.com/en_se/",
+      "expo":    "inactive"
+    },
+
+  
+    
+
+    
+
+    
+    { 
+      "id":      "18",
+      "type":    "partner",
+      "level":   "partner",
+      "company": "Accenture",
+      "logo":    "https://cs3sthlm.se/assets/partners/accenture.png",
+      "url":     "https://www.accenture.com/se-en",
+      "expo":    "inactive"
+    },
+
+  
+    
+
+    
+
+    
+    { 
+      "id":      "19",
       "type":    "partner",
       "level":   "partner",
       "company": "sysctl",
       "logo":    "https://cs3sthlm.se/assets/partners/sysctl.png",
       "url":     "https://sysctl.se",
-      "expo":    "active"
+      "expo":    "inactive"
     },
 
   
@@ -130,44 +192,12 @@
 
     
     { 
-      "id":      "23",
+      "id":      "20",
       "type":    "partner",
       "level":   "organizer",
       "company": "OMNISIENS",
       "logo":    "https://cs3sthlm.se/assets/partners/omnisiens.png",
       "url":     "https://omnisiens.se",
-      "expo":    "inactive"
-    },
-
-  
-    
-
-    
-
-    
-    { 
-      "id":      "24",
-      "type":    "partner",
-      "level":   "partner",
-      "company": "Romab",
-      "logo":    "https://cs3sthlm.se/assets/partners/romab.png",
-      "url":     "https://romab.com",
-      "expo":    "inactive"
-    },
-
-  
-    
-
-    
-
-    
-    { 
-      "id":      "28",
-      "type":    "partner",
-      "level":   "partner",
-      "company": "Management Doctors",
-      "logo":    "https://cs3sthlm.se/assets/partners/management-doctors.png",
-      "url":     "https://managementdoctors.se",
       "expo":    "inactive"
     }
 

@@ -36,54 +36,67 @@
   description: Historical Elite Hotel Stockholm Plaza is located in central Stockholm near the beautiful Humlegården park and lively Stureplan. Elite Hotel Stockholm Plaza is only a 220m short walk from the venue Nalen.
   link: 
 
-- id: 10
-  type: food
-  group: dinner
-  cat: Network Dinner
-  day: Wednesday
-  date: 23 Oct
-  starter: Dead goat
-  main: More dead goat
-  dessert: Alive goat with honey
-
-
 - id: 13
   type: partner
   level: partner
   company: Kaspersky
-  logo: kaspersky-logo.png
+  logo: kaspersky.png
   url: https://www.kaspersky.com
-  expo: active
+  expo: inactive
 
-- id: 22
+- id: 14
+  type: partner
+  level: partner
+  company: Darktrace
+  logo: darktrace.png
+  url: https://www.darktrace.com/en/
+  expo: inactive
+
+- id: 15
+  type: partner
+  level: partner
+  company: Recorded Future
+  logo: recordedfuture.png
+  url: https://www.recordedfuture.com
+  expo: inactive
+
+- id: 16
+  type: partner
+  level: partner
+  company: Sectra
+  logo: sectra.png
+  url: https://sectra.com
+  expo: inactive
+
+- id: 17
+  type: partner
+  level: partner
+  company: Trend Micro
+  logo: trendmicro.png
+  url: https://www.trendmicro.com/en_se/
+  expo: inactive
+
+- id: 18
+  type: partner
+  level: partner
+  company: Accenture
+  logo: accenture.png
+  url: https://www.accenture.com/se-en
+  expo: inactive
+
+- id: 19
   type: partner
   level: partner
   company: sysctl
   logo: sysctl.png
   url: https://sysctl.se
-  expo: active
+  expo: inactive
 
-- id: 23
+- id: 20
   type: partner
   level: organizer
   company: OMNISIENS
   logo: omnisiens.png
   url: https://omnisiens.se
-  expo: inactive
-
-- id: 24
-  type: partner
-  level: partner
-  company: Romab
-  logo: romab.png
-  url: https://romab.com
-  expo: inactive
-
-- id: 28
-  type: partner
-  level: partner
-  company: Management Doctors
-  logo: management-doctors.png
-  url: https://managementdoctors.se
   expo: inactive
 

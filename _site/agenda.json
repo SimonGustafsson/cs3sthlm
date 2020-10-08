@@ -71,15 +71,15 @@
 	{
 		"id"		: "",
 		"day"		: "daytwo",
-		"type"		: "common",
-		"time"		: "19:35",
-		"title" 	: "CS3 Quiz",
+		"type"		: "presentation",
+		"time"		: "19:30",
+		"title" 	: "Conning Corona- on deception, scams and social engineering in a pandemic",
 		"description"	: "",
 		
-		"name"		: "Erik Johansson & Robert Malmgren",
-		"role"		: "",
+		"name"		: "Jenny Radcliffe",
+		"role"		: "Social Engineer",
 		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		"image"		: "https://cs3sthlm.se/assets/speakers/jenny-radcliffe.png",
 		
 		
 		"pname"		: "",

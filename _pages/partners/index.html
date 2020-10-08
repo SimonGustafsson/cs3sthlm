@@ -40,7 +40,77 @@ layout: default
 
 </section>
 
+<section class="content">
 
+	<div class="content-header">
+		<h2 class="title title-yellow">Partners of 2020</h2>
+  	</div>
+
+	<div class="col-8-8">
+
+		<div class="partner--list">
+			<h3 class="alt-title alt-title-yellow">Premium</h3>
+			{% assign sortedpartners = site.data.partners | sort:"order" %}
+			{% for partner in sortedpartners %}
+			{% if partner.level == "premium" %}
+			{% if partner.type == "large" %}
+				<div class="partner--item col-2-8 partner--item-large">
+					<a href="{{ partner.url }}" target="_blank">
+						<img src="{{ site.baseurl }}/assets/partners/{{ partner.logo }}" alt="{{ partner.company }}">
+					</a>
+				</div>
+			{% endif %}
+			{% endif %}
+			{% endfor %}
+			<div class="partner--list-block">
+			{% for partner in sortedpartners %}
+			{% if partner.level == "premium" %}
+			{% if partner.type == "small" %}
+				<div class="partner--item col-2-8">
+					<a href="{{ partner.url }}" target="_blank">
+						<img src="{{ site.baseurl }}/assets/partners/{{ partner.logo }}" alt="{{ partner.company }}">
+					</a>
+				</div>
+			{% endif %}
+			{% endif %}
+			{% endfor %}
+			</div>
+		</div>
+
+		<div class="partner--list">
+			<h3 class="alt-title alt-title-yellow">Sponsor</h3>
+			{% assign sortedpartners = site.data.partners | sort:"order" %}
+			{% for partner in sortedpartners %}
+			{% if partner.level == "partner" %}
+			{% if partner.type == "large" %}
+				<div class="partner--item col-2-8 partner--item-large">
+					<a href="{{ partner.url }}" target="_blank">
+						<img src="{{ site.baseurl }}/assets/partners/{{ partner.logo }}" alt="{{ partner.company }}">
+					</a>
+				</div>
+			{% endif %}
+			{% endif %}
+			{% endfor %}
+			<div class="partner--list-block">
+			{% for partner in sortedpartners %}
+			{% if partner.level == "partner" %}
+			{% if partner.type == "small" %}
+				<div class="partner--item col-2-8">
+					<a href="{{ partner.url }}" target="_blank">
+						<img src="{{ site.baseurl }}/assets/partners/{{ partner.logo }}" alt="{{ partner.company }}">
+					</a>
+				</div>
+			{% endif %}
+			{% endif %}
+			{% endfor %}
+			</div>
+		</div>
+		
+	</div>
+
+</section>
+
+<!--
 <section class="content">
 
 	{% include oldcontent.html %}
@@ -126,3 +196,4 @@ layout: default
 	</div>
 
 </section>
+-->

@@ -35,12 +35,15 @@
 
 - id:
   day: daytwo
-  type: common
+  type: presentation
   place: Main Stage
-  time: "19:35"
-  title: CS3 Quiz
+  time: "19:30"
+  title: Conning Corona- on deception, scams and social engineering in a pandemic
   author:
-    - name: Erik Johansson & Robert Malmgren
+    - name: Jenny Radcliffe
+      role: Social Engineer
+      work:
+      image: jenny-radcliffe.png
   partner:
     - name:
 

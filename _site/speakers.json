@@ -688,13 +688,13 @@
 
 		"presentation":{
 		
-			"active": 	"inactive",
-			"title": 	"",
+			"active": 	"live",
+			"title": 	"Conning Corona- on deception, scams and social engineering in a pandemic",
 			"partner":	"",
 			"role":		"",
 			"work":		"",
 			"image":	"https://cs3sthlm.se/assets/speakers/.png",
-			"description": ""
+			"description": "<p>Don’t miss it.</p>"
 		
 		},
 		
@@ -754,6 +754,48 @@
 		
 
 		"bio": "<p>I have been a Senior Security Consultant at IOActive for 5 years and have performed many  security audits of ICS/SCADA systems including: several assessments at two of the UKs largest  Distribution Network Operators, Energy Management Systems in Asia, Smart Meter  infrastructure, shipping terminals, HVAC and baggage handling systems at one of Europe’s  busiest airports, and several windfarms in Europe.</p><p>I have presented and Blackhat and Defcon on Industrial Ethernet Switches, like those deployed  in windfarms and other ICS environments.</p><p>Prior to this I was the Security Technical Lead and core product development lead within GE for  the PowerOn Fusion product a leading Outage Management System/Distribution Management  System (OMS/DMS) used throughout the world. I led the secure testing project of our product that took place at INL (Idaho National Laboratories) in 2010.  I produced the secure coding  guidelines now used throughout GE as the benchmark for secure coding guidelines within the  business.  Finally, I worked with a corporate security team to develop the processes and  procedures for a GE wide PSIRT to handle reported vulnerabilities and security  concerns/questions with any of GE’s product range.</p><p>Graduated from the University of Glasgow with a B.Sc. in Computing Science where I worked on  the Nemesis Operating System (https://en.wikipedia.org/wiki/Nemesis_(operating_system))</p>"
+	},
+
+	{
+		"id"		: "",
+		"type"		: "keynote",
+		"name"		: "Ross Anderson",
+		"role"		: "Professor of Security Engineering",
+		"work"		: "University of Cambridge Computer Laboratory",
+		"country"	: "United Kingdom",
+		"shortcode"	: "UK",
+		"status"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/temp.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"inactive",
+			"title": 	"",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": ""
 	}
 
 ]
