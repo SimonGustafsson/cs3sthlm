@@ -860,7 +860,7 @@
   work: University of Cambridge Computer Laboratory
   country: United Kingdom
   shortcode: UK
-  image: temp.png
+  image: ross-anderson.png
   bio: 
   date:
   time:
@@ -868,7 +868,7 @@
   speaker:
     - name: Ross Anderson
       role: Professor of Security Engineering
-      image: temp
+      image: ross-anderson
   presentation:
     - active: inactive
       subject: 
