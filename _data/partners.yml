@@ -102,3 +102,16 @@
   e-order: 2
   e-type: small
   postorder: 2
+
+- id: 8
+  level: premium
+  company: Waterfall Security Solutions
+  logo: waterfall.png
+  url: https://waterfall-security.com
+  bio:
+  type: small
+  order: 4
+  expo: "no"
+  e-order: 4
+  e-type: small
+  postorder: 4

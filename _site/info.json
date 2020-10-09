@@ -199,6 +199,22 @@
       "logo":    "https://cs3sthlm.se/assets/partners/omnisiens.png",
       "url":     "https://omnisiens.se",
       "expo":    "inactive"
+    },
+
+  
+    
+
+    
+
+    
+    { 
+      "id":      "21",
+      "type":    "partner",
+      "level":   "partner",
+      "company": "Waterfall Security Solutions",
+      "logo":    "https://cs3sthlm.se/assets/partners/waterfall.png",
+      "url":     "https://waterfall-security.com",
+      "expo":    "inactive"
     }
 
   
