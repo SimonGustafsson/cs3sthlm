@@ -461,17 +461,17 @@
   
    {
      
-        "title"    : "Margarita Jaitner",
-        "url"      : "/about/archive/speakers/margarita-jaitner",
-        "path"     : "/about/archive/speakers/margarita-jaitner"
+        "title"    : "Kevin Jones",
+        "url"      : "/about/archive/speakers/kevin-jones",
+        "path"     : "/about/archive/speakers/kevin-jones"
      
    },
   
    {
      
-        "title"    : "Omer Zohar",
-        "url"      : "/about/archive/speakers/omer-zohar",
-        "path"     : "/about/archive/speakers/omer-zohar"
+        "title"    : "Margarita Jaitner",
+        "url"      : "/about/archive/speakers/margarita-jaitner",
+        "path"     : "/about/archive/speakers/margarita-jaitner"
      
    },
   
@@ -789,6 +789,14 @@
   
    {
      
+        "title"    : "Support",
+        "url"      : "/support/",
+        "path"     : "/support/"
+     
+   },
+  
+   {
+     
         "title"    : "Partners",
         "url"      : "/partners/",
         "path"     : "/partners/"
@@ -821,9 +829,9 @@
   
    {
      
-        "title"    : "Kevin Jones",
-        "url"      : "/about/archive/speakers/kevin-jones",
-        "path"     : "/about/archive/speakers/kevin-jones"
+        "title"    : "Omer Zohar",
+        "url"      : "/about/archive/speakers/omer-zohar",
+        "path"     : "/about/archive/speakers/omer-zohar"
      
    },
   
