@@ -105,6 +105,36 @@ layout: default
 			{% endfor %}
 			</div>
 		</div>
+
+
+		<div class="partner--list">
+			<h3 class="alt-title alt-title-yellow">Organizer</h3>
+			{% assign sortedpartners = site.data.partners | sort:"order" %}
+			{% for partner in sortedpartners %}
+			{% if partner.level == "organizer" %}
+			{% if partner.type == "large" %}
+				<div class="partner--item col-2-8 partner--item-large">
+					<a href="{{ partner.url }}" target="_blank">
+						<img src="{{ site.baseurl }}/assets/partners/{{ partner.logo }}" alt="{{ partner.company }}">
+					</a>
+				</div>
+			{% endif %}
+			{% endif %}
+			{% endfor %}
+			<div class="partner--list-block">
+			{% for partner in sortedpartners %}
+			{% if partner.level == "organizer" %}
+			{% if partner.type == "small" %}
+				<div class="partner--item col-2-8">
+					<a href="{{ partner.url }}" target="_blank">
+						<img src="{{ site.baseurl }}/assets/partners/{{ partner.logo }}" alt="{{ partner.company }}">
+					</a>
+				</div>
+			{% endif %}
+			{% endif %}
+			{% endfor %}
+			</div>
+		</div>
 		
 	</div>
 

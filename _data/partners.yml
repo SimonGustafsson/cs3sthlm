@@ -115,3 +115,29 @@
   e-order: 4
   e-type: small
   postorder: 4
+
+- id: 10
+  level: organizer
+  company: Romab
+  logo: romab.png
+  url: https://romab.com
+  bio:
+  type: small
+  order: 8
+  expo: "no"
+  e-order: 6
+  e-type: small
+  postorder: 8
+
+- id: 11
+  level: organizer
+  company: Management Doctors
+  logo: management-doctors.png
+  url: https://managementdoctors.se
+  bio:
+  type: small
+  order: 8
+  expo: "no"
+  e-order: 6
+  e-type: small
+  postorder: 8
