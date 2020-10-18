@@ -36,20 +36,28 @@
   description: Historical Elite Hotel Stockholm Plaza is located in central Stockholm near the beautiful Humlegården park and lively Stureplan. Elite Hotel Stockholm Plaza is only a 220m short walk from the venue Nalen.
   link: 
 
-- id: 13
-  type: partner
-  level: partner
-  company: Kaspersky
-  logo: kaspersky.png
-  url: https://www.kaspersky.com
-  expo: inactive
-
 - id: 14
   type: partner
   level: partner
   company: Darktrace
   logo: darktrace.png
   url: https://www.darktrace.com/en/
+  expo: inactive
+
+- id: 18
+  type: partner
+  level: partner
+  company: Accenture
+  logo: accenture.png
+  url: https://www.accenture.com/se-en
+  expo: inactive
+
+- id: 21
+  type: partner
+  level: partner
+  company: Waterfall Security Solutions
+  logo: waterfall.png
+  url: https://waterfall-security.com
   expo: inactive
 
 - id: 15
@@ -60,12 +68,12 @@
   url: https://www.recordedfuture.com
   expo: inactive
 
-- id: 16
+- id: 13
   type: partner
   level: partner
-  company: Sectra
-  logo: sectra.png
-  url: https://sectra.com
+  company: Kaspersky
+  logo: kaspersky.png
+  url: https://www.kaspersky.com
   expo: inactive
 
 - id: 17
@@ -76,12 +84,12 @@
   url: https://www.trendmicro.com/en_se/
   expo: inactive
 
-- id: 18
+- id: 16
   type: partner
   level: partner
-  company: Accenture
-  logo: accenture.png
-  url: https://www.accenture.com/se-en
+  company: Sectra
+  logo: sectra.png
+  url: https://sectra.com
   expo: inactive
 
 - id: 19
@@ -100,11 +108,18 @@
   url: https://omnisiens.se
   expo: inactive
 
-- id: 21
+- id: 10
   type: partner
-  level: partner
-  company: Waterfall Security Solutions
-  logo: waterfall.png
-  url: https://waterfall-security.com
+  level: organizer
+  company: Romab
+  logo: romab.png
+  url: https://romab.com
   expo: inactive
 
+- id: 11
+  type: partner
+  level: organizer
+  company: Management Doctors
+  logo: management-doctors.png
+  url: https://managementdoctors.se
+  expo: inactive
