@@ -211,7 +211,7 @@
 		"day"		: "daythree",
 		"type"		: "break",
 		"time"		: "11:55",
-		"title" 	: "Lunch",
+		"title" 	: "Break for sessions",
 		"description"	: "",
 		
 		"name"		: "",
@@ -280,7 +280,7 @@
 		"day"		: "daythree",
 		"type"		: "break",
 		"time"		: "14:25",
-		"title" 	: "Coffee Break",
+		"title" 	: "Break for sessions",
 		"description"	: "",
 		
 		"name"		: "",
@@ -395,7 +395,7 @@
 		"day"		: "dayfour",
 		"type"		: "break",
 		"time"		: "10:50",
-		"title" 	: "Coffee Break",
+		"title" 	: "Break for sessions",
 		"description"	: "",
 		
 		"name"		: "",
@@ -464,7 +464,7 @@
 		"day"		: "dayfour",
 		"type"		: "break",
 		"time"		: "12:25",
-		"title" 	: "Lunch",
+		"title" 	: "Break for sessions",
 		"description"	: "",
 		
 		"name"		: "",
@@ -533,7 +533,7 @@
 		"day"		: "dayfour",
 		"type"		: "break",
 		"time"		: "14:35",
-		"title" 	: "Coffee Break",
+		"title" 	: "Break for sessions",
 		"description"	: "",
 		
 		"name"		: "",

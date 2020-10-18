@@ -145,7 +145,7 @@
   type: break
   place: Main Stage
   time: "11:55"
-  title: Lunch
+  title: Break for sessions
   author:
     - name:
   partner:
@@ -209,7 +209,7 @@
   type: break
   place: Main Stage
   time: "14:25"
-  title: Coffee Break
+  title: Break for sessions
   author:
     - name:
   partner:
@@ -420,7 +420,7 @@
   type: break
   place: Main Stage
   time: "10:50"
-  title: Coffee Break
+  title: Break for sessions
   author:
     - name:
   partner:
@@ -553,7 +553,7 @@
   type: break
   place: Main Stage
   time: "12:25"
-  title: Lunch
+  title: Break for sessions
   author:
     - name:
   partner:
@@ -624,7 +624,7 @@
   type: break
   place: Main Stage
   time: "14:35"
-  title: Coffee Break
+  title: Break for sessions
   author:
     - name:
   partner:
