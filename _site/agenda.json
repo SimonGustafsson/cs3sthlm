@@ -3,6 +3,29 @@
 		"id"		: "",
 		"day"		: "daytwo",
 		"type"		: "common",
+		"time"		: "19:00-20:30",
+		"title" 	: "Expo open",
+		"description"	: "",
+		
+		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
+		"label"		: "",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "",
+		"day"		: "daytwo",
+		"type"		: "common",
 		"time"		: "19:00",
 		"title" 	: "Introduction",
 		"description"	: "",
@@ -93,33 +116,10 @@
 
 	{
 		"id"		: "",
-		"day"		: "",
-		"type"		: "",
-		"time"		: "",
-		"title" 	: "",
-		"description"	: "",
-		
-		"name"		: "",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "",
-		"place" 	: ""
-	},
-
-	{
-		"id"		: "",
 		"day"		: "daythree",
 		"type"		: "common",
-		"time"		: "09:00",
-		"title" 	: "Introduction",
+		"time"		: "10:00-10:45",
+		"title" 	: "Expo open",
 		"description"	: "",
 		
 		"name"		: "",
@@ -141,7 +141,7 @@
 		"id"		: "",
 		"day"		: "daythree",
 		"type"		: "presentation",
-		"time"		: "09:15",
+		"time"		: "09:00",
 		"title" 	: "Keynote",
 		"description"	: "",
 		
@@ -163,8 +163,31 @@
 	{
 		"id"		: "",
 		"day"		: "daythree",
+		"type"		: "break",
+		"time"		: "10:10",
+		"title" 	: "Break for sessions",
+		"description"	: "",
+		
+		"name"		: "Accenture Session",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
+		"label"		: "",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "",
+		"day"		: "daythree",
 		"type"		: "presentation",
-		"time"		: "10:20",
+		"time"		: "10:35",
 		"title" 	: "How to create a risk-based future-proof zone model",
 		"description"	: "<p>The presentation will cover a walk through on how we have combined best practices for securing OT and IT environments, general and sector specific standards and guidance as well as the much debated Purdue model into a future-oriented flexible and scalable zone model for a multinational and multisite company.</p>",
 		
@@ -187,7 +210,7 @@
 		"id"		: "",
 		"day"		: "daythree",
 		"type"		: "presentation",
-		"time"		: "11:15",
+		"time"		: "11:20",
 		"title" 	: "Ransomware? Please Hold for The Next Available Agent",
 		"description"	: "<p>Since at least 2017, we have observed an increase in public disclosures of ransomware incidents impacting industrial production and critical infrastructure organizations. This trend results from increasingly skilled threat actors moving from indiscriminate ransomware propagation to deliberate deployment of post-compromise malware. This increases the likelihood of substantial financial rewards, especially when targeted organizations have high-availability requirements and/or lack backup processes.</p><p>Despite this scenario, it is not uncommon for ICS/OT security professionals to consider ransomware as an out-of-scope threat. Although it is true that this type of malware typically only propagates across IT systems, OT asset owners are often the most affected by its impacts. We find three main reasons to share responsibility to address this threat:</p><ol>  <li>The main objective of ICS/OT is to facilitate and scale the production of specific goods or services to satisfy a certain demand. Ransomware at different levels of the enterprise architecture may directly or indirectly result in delayed, disrupted, or stopped production.</li>  <li>The growth of post-compromise approaches to ransomware situate the attacker at a privileged position where they can explore target networks and identify critical systems before deploying the payload.</li>  <li>The techniques, tactics, and procedures (TTPs) used for post-compromise ransomware resemble those employed by high-skilled actors across the lifecycle of past OT security incidents. Identification at earlier stages is only possible with collaboration between OT and IT security teams.</li></ol><p>In this talk, we highlight why ransomware is a relevant challenge for ICS/OT security practitioners, describe some of the main TTPs used by attackers for post-compromise ransomware, and share ideas for actionable ways to address this problem. We invite the audience to learn how to collaborate across the organization so the next time they need to talk about ransomware, they are not forced to delegate the task to the next available agent.</p><p>b. Type or target audience:i. no pre-requisites, should be interesting for the general audience as we have seen a variety of customers inquiring about this topic. We believe this topic would work well both for experienced security professionals looking for a deep dive, but also for other positions that seek to understand what the challenge is and what to do about it from an organizational level.c. What audience should expect from the presentation:i. The audience should expect to learn about the impacts of ransomware in industrial/critical infrastructure organizations, learn about past relevant cases, and take a deep dive into the TTPs that we have observed actors leveraging for post-compromise incidents.ii. One of the main strengths of the talk is that it will leverage knowledge from our organization responding to and understanding ransomware incidents, but it will also place the information in the context of ICS/OT.iii. It will also challenge some of the conceptions we currently have about the degree of collaboration between IT and ICS.OT security teams. Highlighting what can ICS/OT security teams do to address this challenge, mainly when it happens at different levels of the organization. d. Key takeaway:i. Addressing the challenge of ransomware in industrial/critical infrastructure organization must be a shared responsibility. Even though there is no impact in the controllers, ransomware infections oftentimes result in direct or indirect delays and disruptions to production.</p>",
 		
@@ -209,12 +232,58 @@
 	{
 		"id"		: "",
 		"day"		: "daythree",
-		"type"		: "break",
-		"time"		: "11:55",
-		"title" 	: "Break for sessions",
+		"type"		: "common",
+		"time"		: "12:00-13:15",
+		"title" 	: "Expo open",
 		"description"	: "",
 		
 		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
+		"label"		: "",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "",
+		"day"		: "daythree",
+		"type"		: "break",
+		"time"		: "12:10",
+		"title" 	: "Break for sessions",
+		"description"	: "",
+		
+		"name"		: "Recorded Future Session",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
+		"label"		: "",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "",
+		"day"		: "daythree",
+		"type"		: "break",
+		"time"		: "12:35",
+		"title" 	: "Break for sessions",
+		"description"	: "",
+		
+		"name"		: "Darktrace Session",
 		"role"		: "",
 		"work"		: "",
 		"image"		: "https://cs3sthlm.se/assets/speakers/",
@@ -256,7 +325,7 @@
 		"id"		: "",
 		"day"		: "daythree",
 		"type"		: "presentation",
-		"time"		: "13:55",
+		"time"		: "13:50",
 		"title" 	: "Hacking Advanced Metering Infrastructure (AMI) – an attacker’s perspective on Distribution System Operator (in)security",
 		"description"	: "<p>Overview:</p><p>The presentation will guide audience through a complete ICS attack vector aimed at compromising smart meters and advanced metering infrastructure. It will show how in a recent case study team of security researchers identified zero days in smart devices and vulnerabilities in other components of AMI architecture and leveraged those to simulate comprehensive attack scenario. The talk will show an overview of challenges of smart metering solutions cybersecurity in Europe.</p><p>Agenda:</p><ul>  <li>Smart meters design, architecture and role of firmware</li>  <li>Approach to reverse engineering smart meters firmware</li>  <li>Results of DLMS/COSEM protocol implementation reversing – examples of identified key vulnerabilities</li>  <li>Examples of common misconfigurations of 3G modems, PLC concentrators and serial port gateways</li>  <li>Exploitation of identified vulnerabilities in simulated attack on DSO (Energy Distribution System Operator) and end customer</li></ul><p>Target audience:</p><p>Critical Infrastructure managing organizations, i.e. Power &amp; utilities representatives, especially: executive managers (CISOs, CSOs, CIOs and CTOs), OT/ICS engineers and cybersecurity experts and managers responsible for/ or involved in smart grid and smart metering initiatives. No specific prerequisites are needed.</p><p>Audience should expect comprehensive analysis covering general concepts as well as more technical details that will be supported and illustrated by specific and practical examples.</p><p>Key takeaways for the audience</p><p>Target audience will build awareness of cybersecurity challenges and typical vulnerabilities found in smart metering solutions.</p>",
 		
@@ -278,12 +347,35 @@
 	{
 		"id"		: "",
 		"day"		: "daythree",
-		"type"		: "break",
-		"time"		: "14:25",
-		"title" 	: "Break for sessions",
+		"type"		: "common",
+		"time"		: "14:25-15:15",
+		"title" 	: "Expo open",
 		"description"	: "",
 		
 		"name"		: "",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
+		"label"		: "",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "",
+		"day"		: "daythree",
+		"type"		: "break",
+		"time"		: "14:30",
+		"title" 	: "Break for sessions",
+		"description"	: "",
+		
+		"name"		: "Waterfall Session",
 		"role"		: "",
 		"work"		: "",
 		"image"		: "https://cs3sthlm.se/assets/speakers/",
@@ -325,7 +417,7 @@
 		"id"		: "",
 		"day"		: "daythree",
 		"type"		: "presentation",
-		"time"		: "15:45",
+		"time"		: "15:40",
 		"title" 	: "So You Want to Take Down the Electric Grid - or You Want to Defend It",
 		"description"	: "<p>Media hype concerning attacks on ““the grid”” abound - but just what would be necessary to achieve an at-scale disruption of electric utility operations in Europe or North America? This presentation will explore this issue focusing first on events that actually brought grid operations to their knees: the 2003 Italian/Swiss, US/Canada, and Denmark/Sweden blackouts; and the 2006 European blackout event. Based on these events (which were not cyber in origin), we will explore grid resiliency and how interconnections, inter-dependencies, and N-1 (sometimes also phrased as N+1) resiliency come into play for maintaining power operations.</p><p>Based on this discussion, we will then explore how a sufficiently patient, motivated, and resourceful attacker could either produce or take advantage of conditions to actually create large-scale outage events. The focus here is not on relatively short, geographically limited disruptions in service (such as 2015 and 2016 Ukraine), but rather potentially long-term or physically disruptive (or destructive events) across large regions. To explore this, we will discuss chaining cyber impacts with environmental or operational variability, and how potential attackers could utilize manufactured grid-level disturbances to produce negative outcomes. Specifically, this discussion will look at two frequency deviation events (one in Europe, one in the United States) in 2019 as actual examples of conditions that could be leveraged to achieve wider disruption.</p><p>Finally, this presentation will conclude with what actions asset owners, operators, and defenders can take to either detect or mitigate such events. First and foremost - greater visibility into operations and communications is necessary to both identify potential attackers as they move toward their objectives and what operational changes or alterations might take place when attackers initiate effects. However, this comes with an important caveat: in systems such as electric utility operations, no provider - from the municipal distribution authority through the multinational utility operator - is isolated and alone. Thus, truly identifying grid-scale attack attempts requires greater, faster communication and coordination among all stakeholders involved in an operational area. While truly grid-scale events induced via cyber remain theoretical at this time, adversaries are investing in the capabilities necessary to make such effects possible. Defenders will only be able to counter such moves through a combination of enhanced visibility, improved reaction time, and sharing information as quickly as possible with partner organizations.</p><p>Outline:</p><p>What constitutes an “electric grid attack” via cyber?</p><p>Deny, degrade, disrupt, destroy.</p><p>Noticeable, tangible impact on the generation, transmission, or distribution of electric power.</p><p>Only known examples to date: 2015 and 2016 Ukraine events.</p><p>Media reporting and popular conception over-inflates idea of “attack”:</p><p>Russian-linked intrusions into European and US electric utilities.</p><p>DPRK-linked intrusions in the US and India.</p><p>Lookback phishing campaign in the US.</p><p>All are concerning, all may lead to a future attack - but none are at this level yet.</p><p>What does it take to actually “take down” an electric grid?</p><p>Note: impacting a single site is easy - system-wide effects are not.</p><p>Induce stress or identify periods where N+1 reliability is eliminated.</p><p>Time attacks/disturbances to coincide with stress or lost reliability/resiliency.</p><p>Overall grid stress enables impact to propagate across assets leading to greater impacts.</p><p>This type of effect has been seen, but in the form of natural/accidental disturbances:</p><p>2003 US Northeast Blackout</p><p>2003 Italian/Swiss Blackout</p><p>2003 Denmark/Sweden Blackout</p><p>2006 EU Power Event</p><p>What we observe in all of these events:</p><p>Stressed grid position to start (maintenance, high demand, adverse weather).</p><p>Single event introduces additional stress beyond grid resiliency.</p><p>Equipment and sites work to “self-protect” resulting in cascading effects across wide regions.</p><p>So - how do you deliberately take down the electric grid?</p><p>If you are patient and flexible in timing, wait for bad things to happen and take advantage of them.</p><p>Storms, high demand, unexpected downtime/maintenance all can significantly reduce N-1 reliability.</p><p>Once exogenous conditions remove resiliency, attackers can strike to create potential cascading effects.</p><p>A denial of service or removal from service now has significant consequences, such that past events that resiliency could compensate for are now quite serious:</p><p>Metcalf substation physical attack.</p><p>2015/2016 Ukraine events.</p><p>If on a deadline or need to act at a specific time, things get more complex.</p><p>Pre-positioning and capability development in advance are necessary.</p><p>However, opportunities exist for inducing grid-wide instability with interesting consequences.</p><p>Example: 2019 frequency disturbances in EU and US (neither of which has been explained as of this writing)</p><p>Inducing frequency swings at even a single generating site within an interconnect introduces instability the ‘grid’ needs to react to - if capabilities are already implanted at protective relays or similar systems at other locations, this instability can propagate to begin causing grid-wide disturbances.</p><p>How does one defend ‘the grid’ in these situations?</p><p>First: no site is an ‘island’, or we’re all in this together.</p><p>Recognizing interdependencies is critical to understanding the potential problem set.</p><p>Interdependencies are both lateral (other utilities) and upstream/downstream (e.g., increasing use of gas in North America means pipeline disruptions could cause significant generation outages quite quickly).</p><p>Second, after recognizing interdependencies and the resulting potential attack paths, begin to formulate potential plans for communication and coordination.</p><p>The small municipal power plant may be irrelevant in the “big picture”, but by virtue of being hooked up to the wider grid can still serve as an injection point for instability or disruption.</p><p>Identify mechanisms to share relevant operational and security information quickly and between the proper parties.</p><p>Third, such relationships and communication paths must be formalized and potentially built into dedicated systems for monitoring, defense, and alerting.</p><p>ISACs and similar entities provide a very early stage for this sort of development.</p><p>More mature is the US example of the joint government/utility/security vendor Neighborhood Keeper project.”</p>",
 		
@@ -348,7 +440,7 @@
 		"id"		: "",
 		"day"		: "dayfour",
 		"type"		: "presentation",
-		"time"		: "09:10",
+		"time"		: "09:00",
 		"title" 	: "Pressing the big red button – on Incident Response Readiness in the Oil and Gas Sector",
 		"description"	: "<p>Digitalisation and the interconnectivity of operational technology (OT) drastically increases cybersecurity risk in the oil and gas industry. The security challenges, requirements and potential consequences in industrial environments significantly differ from those in a traditional office IT environment. While the impact of a security breach in office environments is often limited to financial losses, attacks on industrial systems have the potential to stop production, cause physical damage, harm the environment and even put peoples’ lives at risk.</p><p>The oil and gas industry is increasingly reliant on digital systems, and companies have ambitious plans for increased use of digital technology. Established operational patterns are changing, allowing more onshore operation on offshore installations. This trend provides great benefits in areas of efficiency, cost savings and competitiveness, however it also leads to new challenges related to cybersecurity. The industry must therefore actively follow-up changes in the risk landscape, and their increased exposure to continuously evolving cyber threats. A key component in this is incident response readiness planning.</p><p>The first part of this talk presents the results of an empirical study of cyber incident response readiness in the Norwegian oil and gas industry, performed by SINTEF on behalf of the Norwegian Petroleum Safety Authority. The study addresses the CERT capacity among various actors in the industry and their ability to handle critical cybersecurity incidents in industrial control and safety systems. The study focuses on OT systems, information sharing, and the operationalisation of CERT alerts and warnings.</p><p>The study shows that informants are relatively satisfied with their own cyber incident preparedness today, but they acknowledge that it can be improved in the areas of visibility and real-time monitoring of cybersecurity in OT systems. Furthermore, the study shows that not all oil and gas companies or drilling rig operators distinguish between cybersecurity incidents in IT and OT systems, and views vary widely concerning who is responsible for security in and between IT and OT systems.</p><p>mnemonic has, for several years, delivered security monitoring services to different customers within these industrial verticals and helped them build cybersecurity mechanism for protecting their industrial automation and control systems. In the second part of this talk, we will present a recent use-case where mnemonic designed a solution for securing remote access into SAAS and protecting IACS subsystems offshore from cyber threats. Here we implemented a system allowing the control room offshore to dynamically grant access and isolate critical subsystems offshore by pressing a “big red button”. If there is an incident, the “big red button” can be used without impacting the protected production process.</p><p>The key takeaways from this talk will be an insight into the unique challenges of the petroleum industry when it comes to incident response readiness, including a real-world example of how to design secure remote access with a built in practical emergency network segmentation solution.</p>",
 		
@@ -371,7 +463,7 @@
 		"id"		: "",
 		"day"		: "dayfour",
 		"type"		: "presentation",
-		"time"		: "10:00",
+		"time"		: "09:50",
 		"title" 	: "Hidden Attack Surfaces of Modern Industrial Automation Systems",
 		"description"	: "<p>Last year we performed a security analysis on a testbed smart manufacturing system using a variety of “unconventional” attack vectors. Striving to think very much outside the box, we wanted to understand which overlooked conditions and attacker capabilities make certain attacks possible, and their consequences.</p><p>Through concrete PoCs, we’ll describe what unconventional attack vectors and very creative attackers can achieve, as well as how they can be stopped by current security solutions.</p><p>We’ll first show how a remote attacker can indirectly compromise an engineering workstation to backdoor the automation logic of an industrial robot. Then, we’ll reveal how the attack has been carried out via a malicious software extension that targets the simulation and offline programming (OLP) platform. The attendees will learn that such malicious extensions have full capabilities on the target system, but we’ll explain what they are and how they can be stopped.</p><p>Our second entry point is an industry-grade embedded device. These devices, often dubbed as “IIoT devices” offer great programming flexibility—compared to, say, PLCs—at the price of more responsibility for the programmers. The proliferation of customizable IIoT devices along with the many 3rd-party development libraries are the perfect target for software supply-chain attacks. We’ll show how we trojanized a simple temperature-measurement library to implement an ARP-based DoS attack, along with inaccurate temperature data-points, which can cause cascade effects down the data-processing pipeline. We’ll argue that detecting violations in the software supply-chain is hard in large, distributed enterprises, but their effects can be mitigated with proper network partitioning.</p><p>The last step of our security analysis focused on lateral movements to complex, programmable machines such as industrial robots. We observe that, movement-instructions aside, industrial robot programming languages have statements, loops, conditions, network sockets, serial communication, etc. With access to low-level system resources like files, network, memory, and peripherals, task programs are a powerful, overlooked payload. Not only we show that task programs are susceptible to input-validation vulnerabilities, we also show that they’re rich enough to implement malware-like functionalities, given that the runtime environment provides no resource isolation. As a result, task programs have unmediated access to the entire system.</p><p>We’ll share cases of vulnerable and malicious task programs, and how to discover such patterns, including some vulnerabilities we found in real-world code.</p><p>We conclude by discussing the remediation steps that can be adopted by developers and vendors to mitigate our findings in the medium and long term.</p><p>Takeaways:</p><ul>  <li>Learn that programming environments for industrial automation are extensible with plug-in systems (like many other software applications), which could be the weak entry point that can be exploited by using plug-ins as an attack vector.</li>  <li>Learn that the proliferation of customizable IIoT is creating the demand for faster (and more accessible) firmware development, which in turns makes 3rd-party development libraries an attractive target.</li>  <li>Learn that the languages used to program industrial robots, and possibly other machines, include features that can allow writing and hiding malicious or vulnerable code.</li>  <li>Understand why it’s essential to always contextualize attack vectors and vulnerabilities within the entire system: there are so many protection layers and humans in the loop, that could easily prevent a concrete attack from happening, without the need of complex defense solutions.”</li></ul>",
 		
@@ -393,9 +485,9 @@
 	{
 		"id"		: "",
 		"day"		: "dayfour",
-		"type"		: "break",
-		"time"		: "10:50",
-		"title" 	: "Break for sessions",
+		"type"		: "common",
+		"time"		: "10:40-11:25",
+		"title" 	: "Expo open",
 		"description"	: "",
 		
 		"name"		: "",
@@ -416,8 +508,31 @@
 	{
 		"id"		: "",
 		"day"		: "dayfour",
+		"type"		: "break",
+		"time"		: "10:50",
+		"title" 	: "Break for sessions",
+		"description"	: "",
+		
+		"name"		: "Accenture Session",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
+		"label"		: "",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "",
+		"day"		: "dayfour",
 		"type"		: "presentation",
-		"time"		: "11:15",
+		"time"		: "11:10",
 		"title" 	: "Bug hunting in cloud connected ICS devices: Getting root from the cloud",
 		"description"	: "<p>As more and more devices are becoming cloud connected it is important to understand how this attack surface is different from traditional socket based server applications. There is no open port listening with a cloud connected application so there is additional work required in order to just get the application to accept attacker controlled data. This talk will walk through the initial steps necessary to even begin vulnerability research of the application. Cloud based control of physical devices has some security benefits compared to traditional socket programming but, at the end of the day there is an application running on a device that acts on messages from the cloud. This means that there is opportunity for bugs and vulnerabilities in the software responsible for handling cloud messages. This talk will describe changes in research methodology that are necessary for performing vulnerability research on a cloud connected application. Zero-day vulnerabilities found in a cloud connected application on a popular industrial controller will be covered in depth. These vulnerabilities will be demonstrated live by impersonating the industrial vendor cloud application, resulting in getting root from the cloud.</p><p>Outline:</p><ol>  <li>Introduction (2 minutes)</li>  <li>Moving to the cloud (8 minutes)2.1 Software stack, traditional vs. cloud connected2.2 Additional security benefits of cloud applications    <ul>      <li>Libraries provided which include:</li>      <li>Authentication enabled by default (most times)</li>      <li>Encryption enabled by default (most times)2.3 Where are vulnerabilities most likely to be found?</li>      <li>In the actual handling of the message data, and the actionstaken as a result</li>      <li>Vendor code2.4 Challenges for Vulnerability research</li>      <li>Researcher doesn’t have access to application running in thecloud</li>      <li>at least not source access</li>      <li>Authentication and encryption makes it difficult to MITM toobserve traffic for research</li>      <li>Pre-work is necessary to even begin learning about the dataformat</li>      <li>Which is what we will go into next</li>    </ul>  </li>  <li>Intro to the industrial controller (5 minutes)3.1 Azure IoT Hub client</li></ol><ul>  <li>MQTT based protocol</li>  <li>JSON data format</li>  <li>We will need to learn the exact format through research3.2 Azure IoT Hub</li>  <li>Running the industrial vendor cloud application    <ol>      <li>Protocol Overview (5 minutes)4.1 MQTT Overview</li>    </ol>  </li>  <li>Publish / Subscribe protocol</li>  <li>Client</li>  <li>Broker</li>  <li>Cloud Application4.2 MQTT Topics</li>  <li>Format</li>  <li>Examples</li>  <li>Wildcards    <ol>      <li>Research Methodology (8 minutes)5.1 Changes to Research Approach</li>    </ol>  </li>  <li>Can’t connect to a port and start sending data</li>  <li>If you’re lucky you might have access to both applications andcould capture data between them</li>  <li>Options</li>  <li>Configure the device to connect to a real cloud instancethat you control</li>  <li>Stand up a “local” server pretending to be the cloud5.2 Test Setup - Real cloud instance</li>  <li>In this scenario the researcher must have access to configureconnection properties with the cloud5.3 Test Setup - Local MQTT broker</li>  <li>In this scenario the researcher must have the ability to add aroot certificate to the device. (will probably require root)    <ol>      <li>Industrial controller vulnerabilities (10 minutes)7.1 Supported messages</li>    </ol>  </li>  <li>Discuss device specific messages7.2 Discuss vulnerable message structure7.3 Outline of vulnerable process</li>  <li>Discuss steps involved7.4 Vulnerability explanations</li>  <li>Discuss specific vulnerabilities7.5 DEMO (live - will have pre-recorded video as a backup)</li>  <li>Code Execution from the cloud    <ol>      <li>Conclusion (2 minutes)7.1 Mitigations / Lessons Learned</li>    </ol>  </li>  <li>Discuss mistakes to avoid when developing a cloud application</li>  <li>Discuss ways to mitigate with existing industrial controldevices7.2 Review - Research Pre-work</li>  <li>Impersonating the cloud application</li>  <li>Local vs. Real Cloud instance</li>  <li>Learning the topic format</li>  <li>For both publish and subscribe</li>  <li>Learning the data format</li>  <li>Finding the data parsing code</li>  <li>From there it’s business as usual for vulnerability research</li></ul><p>Target audience: Familiarity with programming and common bug classes</p><p>Audience expectations: Detailed description of vulnerability research methodology relating to cloud connected ICS devices.</p><p>Description of an attack chain combining multiple zero day vulnerabilities to gain root access to a cloud connected controller.</p><p>Audience takeaway: Cloud connectivity provides many benefits to Industrial automation, but it also provides additional attack surface. Vendors should be mindful of untrusted data even if it comes from a cloud application.</p>",
 		
@@ -462,9 +577,9 @@
 	{
 		"id"		: "",
 		"day"		: "dayfour",
-		"type"		: "break",
-		"time"		: "12:25",
-		"title" 	: "Break for sessions",
+		"type"		: "common",
+		"time"		: "12:30-13:45",
+		"title" 	: "Expo open",
 		"description"	: "",
 		
 		"name"		: "",
@@ -485,8 +600,54 @@
 	{
 		"id"		: "",
 		"day"		: "dayfour",
+		"type"		: "break",
+		"time"		: "12:35",
+		"title" 	: "Break for sessions",
+		"description"	: "",
+		
+		"name"		: "Recorded Future Session",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
+		"label"		: "",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "",
+		"day"		: "dayfour",
+		"type"		: "break",
+		"time"		: "13:00",
+		"title" 	: "Break for sessions",
+		"description"	: "",
+		
+		"name"		: "Darktrace Session",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
+		"label"		: "",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "",
+		"day"		: "dayfour",
 		"type"		: "presentation",
-		"time"		: "13:15",
+		"time"		: "13:30",
 		"title" 	: "Threat modeling and attack simulations for enterprise and ICS",
 		"description"	: "<p>This work concentrates on the cyber security of enterprise and Industrial Control Systems (ICS).</p><p>Enterprise systems are growing in complexity, and the adoption of cloud and mobile services has greatly increased attack surfaces. This all has led to fragmentation on the security front. To improve the security of enterprise systems, threat modeling can be applied to proactively deal with security issues from a holistic point of view, and can also be combined with attack simulations to provide quantitative security measurements, which has not been commonly used while shown efficient in some disciplines.</p><p>Hitherto, we have proposed the use of attack simulations based on system architecture models. Our approaches facilitate a model of the system and simulate cyber-attacks in order to identify the greatest weaknesses. This can be imagined as the execution of a great number of parallel virtual penetration tests. Such an attack simulation tool enables the security assessor to focus on the collection of the information about the system required for the simulations.</p><p>As the previous approaches rely on a static implementation, we propose the use of the Meta Attack Language (MAL). This framework is built for creating domain-specific languages (DSLs) that define which information about a system is required and specifies the generic attack logic. Since MAL is a meta language (i.e. the set of rules that should be used to create a new DSL), no particular domain of interest is represented, but it can be used to create languages targeting certain domains like enterprise system and ICS.</p><p>This work first introduces enterpriseLang - a threat modeling language for enterprise security based on the MITRE ATT&amp;CK Matrix, which can assess the cyber security of enterprise systems from a holistic point of view. This compilable language can automatically visualize possible attack paths an adversary may choose, show the most vulnerable asset, and provide possible mitigations for each attack step intended to counter cyber-attacks. The attack steps representing adversary techniques are captured within the ATT&amp;CK Matrix based on real-world observations. These adversary techniques are categorized by tactics, and are organized with security metrics e.g. platform, permissions required, and mitigations that provide information for threat modeling.</p><p>Moreover, this core IT related threat modeling language is complemented by our IcsLang that allows to create and simulate OT specific environments. Similar to enterpriseLang, this language is based on the ICS MITRE ATT&amp;CK Matrix and enriched by real-world observations collected from industry partners in an EU project (EnergyShield). Based on the characteristics of MAL, we will motivate why certain types of attacks are included in our artifact and others not. Mainly, this is based on assumptions, made in the design of MAL and creating a trade-off between level of detail and usability.</p><p>To demonstrate the applicability and the integration between the two languages, we present energy domain architecture and simulate well-known attacks e.g. the Ukraine power grid attack scenario to test the languages. These languages can also be re-used by people with less security expertise to automatically assess the security of their specific-enterprise or ICS.</p>",
 		
@@ -509,7 +670,7 @@
 		"id"		: "",
 		"day"		: "dayfour",
 		"type"		: "presentation",
-		"time"		: "13:50",
+		"time"		: "14:00",
 		"title" 	: "A Practical Way to Test OT Security Mechanisms in Real-life Scenarios",
 		"description"	: "<p>IT/OT Convergence is a major challenge for industrial organizations on the path to digitalization.</p><p>The volume and variety of security products as well as the standards for OT networks is growing at a fast pace. As a result, the need for deep expertise, required to sort through and select the right systems for specific industry needs, grows even faster.</p><p>In our session we will present a promising new initiative designed to simplify digitalization processes and test the efficiency and relevance of OT security tools before they are placed in the network.</p><p>We’ll present the results of our latest research which studied the unique Tactics Techniques and Procedures (TTPs) of OT attacks and devised a method to test them in a simulated lab environment.</p><p>The research included the implementation of tens of new techniques and OT use cases over a MITRE’s Caldera platform, an open-source advisory emulation platform. The research was further expanded by implementing the recently published “ATT&amp;CK for ICS” model, and also will point some improvements for the existing model.</p>",
 		
@@ -531,9 +692,9 @@
 	{
 		"id"		: "",
 		"day"		: "dayfour",
-		"type"		: "break",
-		"time"		: "14:35",
-		"title" 	: "Break for sessions",
+		"type"		: "common",
+		"time"		: "14:45-15:30",
+		"title" 	: "Expo open",
 		"description"	: "",
 		
 		"name"		: "",
@@ -554,8 +715,31 @@
 	{
 		"id"		: "",
 		"day"		: "dayfour",
+		"type"		: "break",
+		"time"		: "14:35",
+		"title" 	: "Break for sessions",
+		"description"	: "",
+		
+		"name"		: "Waterfall Session",
+		"role"		: "",
+		"work"		: "",
+		"image"		: "https://cs3sthlm.se/assets/speakers/",
+		
+		
+		"pname"		: "",
+		"prole"		: "",
+		"pwork"		: "",
+		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
+		
+		"label"		: "",
+		"place" 	: "Main Stage"
+	},
+
+	{
+		"id"		: "",
+		"day"		: "dayfour",
 		"type"		: "presentation",
-		"time"		: "14:55",
+		"time"		: "15:15",
 		"title" 	: "Fake Company, Fake Factory but Real Attacks: Stories of a Realistic, High Interaction ICS Honeypot",
 		"description"	: "<p>Deploying honeypots or other deception technology to attract attackers is the to-go approach to discover unknown threats or simply to assess the threat level against a specific target. Over the years, however, attackers have grown accustomed to the presence of honeypots and learned how to get around them. We decided to make one of the most realistic ones created to date, it was so real – it was mistakenly identified as a real production environment by other security researchers!</p><p>In this talk we will see how, over the course of a few months, we designed, setup, and built a factory honeypot that was so real that we could have started making products with it. We went as far as creating a fake company including online presence, with a website featuring employee profiles and pictures, phone numbers with auto-responding prompts with extension numbers, postal addresses, etc. Also, we went beyond recording network and host attack traces: We wanted to be able to see the attacker actions as they were happening on the screen, so we created a system to record screencast on demand, when activity is detected on the host.</p><p>By attending this talk, you will learn what kind of attacks we’ve recorded, ranging from the initial reconnaissance scans, interactions, frauds, and ransomware infection. Finally, the session will wrap up with some recommendations based on the findings from building and running this honeypot.</p>",
 		
@@ -563,29 +747,6 @@
 		"role"		: "Senior Threat Researcher",
 		"work"		: "Trend Micro",
 		"image"		: "https://cs3sthlm.se/assets/speakers/stephen-hilt.png",
-		
-		
-		"pname"		: "",
-		"prole"		: "",
-		"pwork"		: "",
-		"pimage"	: "https://cs3sthlm.se/assets/speakers/",
-		
-		"label"		: "",
-		"place" 	: "Main Stage"
-	},
-
-	{
-		"id"		: "",
-		"day"		: "dayfour",
-		"type"		: "presentation",
-		"time"		: "15:35",
-		"title" 	: "Panel",
-		"description"	: "",
-		
-		"name"		: "",
-		"role"		: "",
-		"work"		: "",
-		"image"		: "https://cs3sthlm.se/assets/speakers/",
 		
 		
 		"pname"		: "",

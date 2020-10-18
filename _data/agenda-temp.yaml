@@ -4,6 +4,17 @@
   day: daytwo
   type: common
   place: Main Stage
+  time: "19:00-20:30"
+  title: Expo open
+  author:
+    - name:
+  partner:
+    - name:
+
+- id:
+  day: daytwo
+  type: common
+  place: Main Stage
   time: "19:00"
   title: Introduction
   author:
@@ -47,17 +58,6 @@
   partner:
     - name:
 
-- id:
-  day:
-  type:
-  place:
-  time:
-  title:
-  author:
-    - name:
-  partner:
-    - name:
-
 
 #DAY THREE
 
@@ -65,8 +65,8 @@
   day: daythree
   type: common
   place: Main Stage
-  time: "09:00"
-  title: Introduction
+  time: "10:00-10:45"
+  title: Expo open
   author:
     - name:
   partner:
@@ -76,7 +76,7 @@
   day: daythree
   type: presentation
   place: Main Stage
-  time: "09:15"
+  time: "09:00"
   special: keynote
   title: Keynote
   author:
@@ -89,9 +89,20 @@
 
 - id:
   day: daythree
+  type: break
+  place: Main Stage
+  time: "10:10"
+  title: Break for sessions
+  author:
+    - name: Accenture Session
+  partner:
+    - name:
+
+- id:
+  day: daythree
   type: presentation
   place: Main Stage
-  time: "10:20"
+  time: "10:35"
   title: How to create a risk-based future-proof zone model
   description: |
     The presentation will cover a walk through on how we have combined best practices for securing OT and IT environments, general and sector specific standards and guidance as well as the much debated Purdue model into a future-oriented flexible and scalable zone model for a multinational and multisite company.
@@ -111,7 +122,7 @@
   day: daythree
   type: presentation
   place: Main Stage
-  time: "11:15"
+  time: "11:20"
   title: Ransomware? Please Hold for The Next Available Agent
   description: |
     Since at least 2017, we have observed an increase in public disclosures of ransomware incidents impacting industrial production and critical infrastructure organizations. This trend results from increasingly skilled threat actors moving from indiscriminate ransomware propagation to deliberate deployment of post-compromise malware. This increases the likelihood of substantial financial rewards, especially when targeted organizations have high-availability requirements and/or lack backup processes.
@@ -142,12 +153,34 @@
 
 - id:
   day: daythree
-  type: break
+  type: common
   place: Main Stage
-  time: "11:55"
-  title: Break for sessions
+  time: "12:00-13:15"
+  title: Expo open
   author:
     - name:
+  partner:
+    - name:
+
+- id:
+  day: daythree
+  type: break
+  place: Main Stage
+  time: "12:10"
+  title: Break for sessions
+  author:
+    - name: Recorded Future Session
+  partner:
+    - name:
+
+- id:
+  day: daythree
+  type: break
+  place: Main Stage
+  time: "12:35"
+  title: Break for sessions
+  author:
+    - name: Darktrace Session
   partner:
     - name:
 
@@ -172,7 +205,7 @@
   day: daythree
   type: presentation
   place: Main Stage
-  time: "13:55"
+  time: "13:50"
   title: Hacking Advanced Metering Infrastructure (AMI) – an attacker’s perspective on Distribution System Operator (in)security
   description: |
     Overview:
@@ -206,12 +239,23 @@
 
 - id:
   day: daythree
-  type: break
+  type: common
   place: Main Stage
-  time: "14:25"
-  title: Break for sessions
+  time: "14:25-15:15"
+  title: Expo open
   author:
     - name:
+  partner:
+    - name:
+
+- id:
+  day: daythree
+  type: break
+  place: Main Stage
+  time: "14:30"
+  title: Break for sessions
+  author:
+    - name: Waterfall Session
   partner:
     - name:
 
@@ -238,7 +282,7 @@
   day: daythree
   type: presentation
   place: Main Stage
-  time: "15:45"
+  time: "15:40"
   title: So You Want to Take Down the Electric Grid - or You Want to Defend It
   description: |
     Media hype concerning attacks on ""the grid"" abound - but just what would be necessary to achieve an at-scale disruption of electric utility operations in Europe or North America? This presentation will explore this issue focusing first on events that actually brought grid operations to their knees: the 2003 Italian/Swiss, US/Canada, and Denmark/Sweden blackouts; and the 2006 European blackout event. Based on these events (which were not cyber in origin), we will explore grid resiliency and how interconnections, inter-dependencies, and N-1 (sometimes also phrased as N+1) resiliency come into play for maintaining power operations.
@@ -347,14 +391,13 @@
     - name:
   permalink: program/presentations/joe-slowik/
 
-
 #DAY FOUR
 
 - id:
   day: dayfour
   type: presentation
   place: Main Stage
-  time: "09:10"
+  time: "09:00"
   title: Pressing the big red button – on Incident Response Readiness in the Oil and Gas Sector
   description: |
     Digitalisation and the interconnectivity of operational technology (OT) drastically increases cybersecurity risk in the oil and gas industry. The security challenges, requirements and potential consequences in industrial environments significantly differ from those in a traditional office IT environment. While the impact of a security breach in office environments is often limited to financial losses, attacks on industrial systems have the potential to stop production, cause physical damage, harm the environment and even put peoples’ lives at risk.
@@ -384,7 +427,7 @@
   day: dayfour
   type: presentation
   place: Main Stage
-  time: "10:00"
+  time: "09:50"
   title: Hidden Attack Surfaces of Modern Industrial Automation Systems
   description: |
     Last year we performed a security analysis on a testbed smart manufacturing system using a variety of "unconventional" attack vectors. Striving to think very much outside the box, we wanted to understand which overlooked conditions and attacker capabilities make certain attacks possible, and their consequences.
@@ -417,10 +460,10 @@
 
 - id:
   day: dayfour
-  type: break
+  type: common
   place: Main Stage
-  time: "10:50"
-  title: Break for sessions
+  time: "10:40-11:25"
+  title: Expo open
   author:
     - name:
   partner:
@@ -428,9 +471,20 @@
 
 - id:
   day: dayfour
+  type: break
+  place: Main Stage
+  time: "10:50"
+  title: Break for sessions
+  author:
+    - name: Accenture Session
+  partner:
+    - name:
+
+- id:
+  day: dayfour
   type: presentation
   place: Main Stage
-  time: "11:15"
+  time: "11:10"
   title: "Bug hunting in cloud connected ICS devices: Getting root from the cloud"
   description: |
     As more and more devices are becoming cloud connected it is important to understand how this attack surface is different from traditional socket based server applications. There is no open port listening with a cloud connected application so there is additional work required in order to just get the application to accept attacker controlled data. This talk will walk through the initial steps necessary to even begin vulnerability research of the application. Cloud based control of physical devices has some security benefits compared to traditional socket programming but, at the end of the day there is an application running on a device that acts on messages from the cloud. This means that there is opportunity for bugs and vulnerabilities in the software responsible for handling cloud messages. This talk will describe changes in research methodology that are necessary for performing vulnerability research on a cloud connected application. Zero-day vulnerabilities found in a cloud connected application on a popular industrial controller will be covered in depth. These vulnerabilities will be demonstrated live by impersonating the industrial vendor cloud application, resulting in getting root from the cloud.
@@ -550,10 +604,10 @@
 
 - id:
   day: dayfour
-  type: break
+  type: common
   place: Main Stage
-  time: "12:25"
-  title: Break for sessions
+  time: "12:30-13:45"
+  title: Expo open
   author:
     - name:
   partner:
@@ -561,9 +615,31 @@
 
 - id:
   day: dayfour
+  type: break
+  place: Main Stage
+  time: "12:35"
+  title: Break for sessions
+  author:
+    - name: Recorded Future Session
+  partner:
+    - name:
+
+- id:
+  day: dayfour
+  type: break
+  place: Main Stage
+  time: "13:00"
+  title: Break for sessions
+  author:
+    - name: Darktrace Session
+  partner:
+    - name:
+
+- id:
+  day: dayfour
   type: presentation
   place: Main Stage
-  time: "13:15"
+  time: "13:30"
   title: Threat modeling and attack simulations for enterprise and ICS
   description: |
     This work concentrates on the cyber security of enterprise and Industrial Control Systems (ICS).
@@ -595,7 +671,7 @@
   day: dayfour
   type: presentation
   place: Main Stage
-  time: "13:50"
+  time: "14:00"
   title: A Practical Way to Test OT Security Mechanisms in Real-life Scenarios
   description: |
     IT/OT Convergence is a major challenge for industrial organizations on the path to digitalization.
@@ -621,10 +697,10 @@
 
 - id:
   day: dayfour
-  type: break
+  type: common
   place: Main Stage
-  time: "14:35"
-  title: Break for sessions
+  time: "14:45-15:30"
+  title: Expo open
   author:
     - name:
   partner:
@@ -632,9 +708,20 @@
 
 - id:
   day: dayfour
+  type: break
+  place: Main Stage
+  time: "14:35"
+  title: Break for sessions
+  author:
+    - name: Waterfall Session
+  partner:
+    - name:
+
+- id:
+  day: dayfour
   type: presentation
   place: Main Stage
-  time: "14:55"
+  time: "15:15"
   title: "Fake Company, Fake Factory but Real Attacks: Stories of a Realistic, High Interaction ICS Honeypot"
   description: |
     Deploying honeypots or other deception technology to attract attackers is the to-go approach to discover unknown threats or simply to assess the threat level against a specific target. Over the years, however, attackers have grown accustomed to the presence of honeypots and learned how to get around them. We decided to make one of the most realistic ones created to date, it was so real – it was mistakenly identified as a real production environment by other security researchers!
@@ -650,18 +737,3 @@
   partner:
     - name:
   permalink: program/presentations/stephen-hilt/
-
-- id:
-  day: dayfour
-  type: presentation
-  place: Main Stage
-  time: "15:35"
-  title: Panel
-  author:
-    - name:
-  partner:
-    - name:
-
-
-
-
