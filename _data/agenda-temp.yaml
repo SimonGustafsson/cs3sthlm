@@ -78,7 +78,7 @@
   place: Main Stage
   time: "09:00"
   special: keynote
-  title: Keynote
+  title: The sustainability of safety and security
   author:
     - name: Ross Anderson
       role: Professor of Security Engineering
@@ -86,6 +86,7 @@
       image: ross-anderson.png
   partner:
     - name:
+  permalink: program/presentations/ross-anderson/
 
 - id:
   day: daythree

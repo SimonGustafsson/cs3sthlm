@@ -904,8 +904,8 @@
       role: Professor of Security Engineering
       image: ross-anderson
   presentation:
-    - active: inactive
-      subject: 
+    - active: live
+      subject: The sustainability of safety and security
       permalink: program/presentations/ross-anderson/
       partner: 
       description:
