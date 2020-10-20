@@ -912,6 +912,187 @@
   training:
     - active: none
 
+- id:
+  type: session
+  permalink:
+  name: Andrew Ginter
+  role: VP Industrial Security
+  work: Waterfall Security
+  country:
+  shortcode: 
+  image: andrew-ginter.png
+  bio: 
+  date:
+  time:
+  place:
+  speaker:
+    - name: Andrew Ginter
+      role: VP Industrial Security
+      image: andrew-ginter
+  presentation:
+    - active: live
+      subject: Stop Protecting Information
+      permalink: program/presentations/andrew-ginter/
+      partner: 
+      description:
+  training:
+    - active: none
+
+- id:
+  type: session
+  permalink:
+  name: Michael Firstenberg
+  role: Director, Industrial Security
+  work: Waterfall Security 
+  country: 
+  shortcode: 
+  image: temp.png
+  bio: 
+  date:
+  time:
+  place:
+  speaker:
+    - name: Michael Firstenberg
+      role: Director, Industrial Security
+      image: temp
+  presentation:
+    - active: live
+      subject: Future of Ransomware
+      permalink: program/presentations/michael-firstenberg/
+      partner: 
+      description:
+  training:
+    - active: none
+
+- id:
+  type: session
+  permalink:
+  name: Michal Paulski
+  role: OT Security Architect
+  work: Accenture
+  country: 
+  shortcode: 
+  image: michal-paulski.png
+  bio: 
+  date:
+  time:
+  place:
+  speaker:
+    - name: Michal Paulski
+      role: OT Security Architect
+      image: michal-paulski
+  presentation:
+    - active: live
+      subject: DevSecOps in ICS over data diode
+      permalink: program/presentations/michal-paulski/
+      partner: 
+      description:
+  training:
+    - active: none
+
+- id:
+  type: session
+  permalink:
+  name: Wissam Al-Nasairi
+  role: X.0 and OT Security Lead
+  work: Accenture
+  country: 
+  shortcode: 
+  image: wissam-al-nasairi.png
+  bio: 
+  date:
+  time:
+  place:
+  speaker:
+    - name: Wissam Al-Nasairi
+      role: X.0 and OT Security Lead
+      image: wissam-al-nasairi
+  presentation:
+    - active: live
+      subject: Application of RAMS methodologies in OT Security
+      permalink: program/presentations/wissam-al-nasairi/
+      partner: 
+      description:
+  training:
+    - active: none
+
+- id:
+  type: session
+  permalink:
+  name: Ignacio Moreno Canadas
+  role: OT Security Consultant
+  work: Accenture
+  country: 
+  shortcode: 
+  image: ignacio-moreno-canadas.png
+  bio: 
+  date:
+  time:
+  place:
+  speaker:
+    - name: Ignacio Moreno Canadas
+      role: OT Security Consultant
+      image: ignacio-moreno-canadas
+  presentation:
+    - active: live
+      subject: Application of RAMS methodologies in OT Security
+      permalink: program/presentations/ignacio-moreno-canadas/
+      partner: 
+      description:
+  training:
+    - active: none
+
+- id:
+  type: session
+  permalink:
+  name: Nour Fateen
+  role: Threat Expert
+  work: Recorded Future
+  country: 
+  shortcode: 
+  image: nour-fateen.png
+  bio: 
+  date:
+  time:
+  place:
+  speaker:
+    - name: Nour Fateen
+      role: Threat Expert
+      image: nour-fateen
+  presentation:
+    - active: live
+      subject: Detecting and Tracking RATs in the Energy Sector
+      permalink: program/presentations/nour-fateen/
+      partner: 
+      description:
+  training:
+    - active: none
+
+- id:
+  type: session
+  permalink:
+  name: Andrew Tsonchev
+  role: Director of Technology
+  work: Darktrace
+  country: 
+  shortcode: 
+  image: andrew-tsonchev.png
+  bio: 
+  date:
+  time:
+  place:
+  speaker:
+    - name: Andrew Tsonchev
+      role: Director of Technology
+      image: andrew-tsonchev
+  presentation:
+    - active: live
+      subject: "Operational Integrity: Safeguarding Your OT Systems With Cyber AI"
+      permalink: program/presentations/andrew-tsonchev/
+      partner: 
+      description:
+  training:
+    - active: none
 
 # - id:
 #   type: presentation

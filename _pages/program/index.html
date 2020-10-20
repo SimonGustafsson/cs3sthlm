@@ -41,7 +41,7 @@ image: /assets/photos/cs3sthlm-erwin-rik.jpg
       <div class="speakers-block">
       {% assign sorted_speakers = site.data.speakers | sample: 4 %}
       {% for speaker in sorted_speakers %}
-      {% if speaker.type contains "presentation" or speaker.type contains "training" or speaker.type contains "moderator" %}
+      {% if speaker.type contains "presentation" or speaker.type contains "training" or speaker.type contains "moderator" or speaker.type contains "session" or speaker.type contains "keynote" %}
       <div class="speakers-block-item col-2-8">
         {% for item in speaker.speaker %}
         <img src="{{ site.baseurl }}/assets/speakers/{{ item.image }}-sq.png" class="speakers-block-item-image" />

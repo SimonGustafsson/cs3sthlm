@@ -34,7 +34,7 @@ image: /assets/photos/cs3sthlm-erwin-rik.jpg
 
 	{% assign sorted_speakers = site.data.speakers | sort:'name' %}
 	{% for speaker in sorted_speakers %}
-	{% if speaker.type == "presentation" or speaker.type == "training" or speaker.type == "moderator" or speaker.type == "expotalk" or speaker.type == "special" or speaker.type == "keynote" %}
+	{% if speaker.type == "presentation" or speaker.type == "training" or speaker.type == "moderator" or speaker.type == "expotalk" or speaker.type == "special" or speaker.type == "keynote" or speaker.type == "session" %}
 		<div class="speaker-item">
 
 			<div class="speaker-item-frame">
@@ -55,6 +55,12 @@ image: /assets/photos/cs3sthlm-erwin-rik.jpg
 				{% if speaker.type == 'keynote' %}
 				<div class="speaker-item-frame-special">
 					<h4 class="speaker-item-frame-special-heading">Keynote</h4>
+				</div>
+				{% endif %}
+
+				{% if speaker.type == 'session' %}
+				<div class="speaker-item-frame-special">
+					<h4 class="speaker-item-frame-special-heading">Partner Session</h4>
 				</div>
 				{% endif %}
 

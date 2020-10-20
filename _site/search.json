@@ -297,6 +297,22 @@
   
    {
      
+        "title"    : "Stop Protecting Information",
+        "url"      : "/program/presentations/andrew-ginter/",
+        "path"     : "/program/presentations/andrew-ginter/"
+     
+   },
+  
+   {
+     
+        "title"    : "Operational Integrity: Safeguarding Your OT Systems With Cyber AI",
+        "url"      : "/program/presentations/andrew-tsonchev/",
+        "path"     : "/program/presentations/andrew-tsonchev/"
+     
+   },
+  
+   {
+     
         "title"    : "How to save $1.7 million over three years on industrial cybersecurity: the Results of the Forrester Total Economic (TEI) Impact study",
         "url"      : "/expo/presentations/anton-shipulin/",
         "path"     : "/expo/presentations/anton-shipulin/"
@@ -349,25 +365,9 @@
   
    {
      
-        "title"    : "Dan Demeter",
-        "url"      : "/about/archive/speakers/dan-demeter",
-        "path"     : "/about/archive/speakers/dan-demeter"
-     
-   },
-  
-   {
-     
-        "title"    : "Jonathan Homer",
-        "url"      : "/about/archive/speakers/jonathan-homer",
-        "path"     : "/about/archive/speakers/jonathan-homer"
-     
-   },
-  
-   {
-     
-        "title"    : "Dieter Sarrazyn",
-        "url"      : "/about/archive/speakers/dieter-sarrazyn",
-        "path"     : "/about/archive/speakers/dieter-sarrazyn"
+        "title"    : "Application of RAMS methodologies in OT Security",
+        "url"      : "/program/presentations/ignacio-moreno-canadas/",
+        "path"     : "/program/presentations/ignacio-moreno-canadas/"
      
    },
   
@@ -477,17 +477,17 @@
   
    {
      
-        "title"    : "Erik Hjelmvik",
-        "url"      : "/archive/speakers/erik-hjelmvik",
-        "path"     : "/archive/speakers/erik-hjelmvik"
+        "title"    : "Omer Zohar",
+        "url"      : "/about/archive/speakers/omer-zohar",
+        "path"     : "/about/archive/speakers/omer-zohar"
      
    },
   
    {
      
-        "title"    : "Erik Z Johansson",
-        "url"      : "/about/archive/speakers/erik-z-johansson",
-        "path"     : "/about/archive/speakers/erik-z-johansson"
+        "title"    : "Erik Hjelmvik",
+        "url"      : "/archive/speakers/erik-hjelmvik",
+        "path"     : "/archive/speakers/erik-hjelmvik"
      
    },
   
@@ -829,9 +829,9 @@
   
    {
      
-        "title"    : "Omer Zohar",
-        "url"      : "/about/archive/speakers/omer-zohar",
-        "path"     : "/about/archive/speakers/omer-zohar"
+        "title"    : "Erik Z Johansson",
+        "url"      : "/about/archive/speakers/erik-z-johansson",
+        "path"     : "/about/archive/speakers/erik-z-johansson"
      
    },
   
@@ -904,6 +904,30 @@
         "title"    : "Henrik Sandberg",
         "url"      : "/about/archive/speakers/henrik-sandberg",
         "path"     : "/about/archive/speakers/henrik-sandberg"
+     
+   },
+  
+   {
+     
+        "title"    : "Dan Demeter",
+        "url"      : "/about/archive/speakers/dan-demeter",
+        "path"     : "/about/archive/speakers/dan-demeter"
+     
+   },
+  
+   {
+     
+        "title"    : "Jonathan Homer",
+        "url"      : "/about/archive/speakers/jonathan-homer",
+        "path"     : "/about/archive/speakers/jonathan-homer"
+     
+   },
+  
+   {
+     
+        "title"    : "Dieter Sarrazyn",
+        "url"      : "/about/archive/speakers/dieter-sarrazyn",
+        "path"     : "/about/archive/speakers/dieter-sarrazyn"
      
    },
   
@@ -1021,6 +1045,30 @@
   
    {
      
+        "title"    : "Future of Ransomware",
+        "url"      : "/program/presentations/michael-firstenberg/",
+        "path"     : "/program/presentations/michael-firstenberg/"
+     
+   },
+  
+   {
+     
+        "title"    : "DevSecOps in ICS over data diode",
+        "url"      : "/program/presentations/michal-paulski/",
+        "path"     : "/program/presentations/michal-paulski/"
+     
+   },
+  
+   {
+     
+   },
+  
+   {
+     
+        "title"    : "Detecting and Tracking RATs in the Energy Sector",
+        "url"      : "/program/presentations/nour-fateen/",
+        "path"     : "/program/presentations/nour-fateen/"
+     
    },
   
    {
@@ -1076,6 +1124,14 @@
    },
   
    {
+     
+   },
+  
+   {
+     
+        "title"    : "Application of RAMS methodologies in OT Security",
+        "url"      : "/program/presentations/wissam-al-nasairi/",
+        "path"     : "/program/presentations/wissam-al-nasairi/"
      
    }
   

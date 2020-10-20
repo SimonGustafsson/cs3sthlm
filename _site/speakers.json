@@ -796,6 +796,300 @@
 		
 
 		"bio": "<p>Ross Anderson is Professor of Security Engineering at Cambridge University. He was one of the founders of the discipline of security economics, and is PI of the Cambridge Cybercrime Centre, which collects and analyses data about online wickedness. He has worked on key management for electricity substations; he was also a pioneer of powerline communications, prepayment metering, peer-to-peer systems, hardware tamper-resistance and API security. He is a Fellow of the Royal Society, the Royal Academy of Engineering, and the Institute of Physics, and a winner of the Lovelace Medal. He has just written the third edition of his textbook “Security Engineering – A Guide to Building Dependable Distributed Systems”.</p>"
+	},
+
+	{
+		"id"		: "",
+		"type"		: "session",
+		"name"		: "Andrew Ginter",
+		"role"		: "VP Industrial Security",
+		"work"		: "Waterfall Security",
+		"country"	: "",
+		"shortcode"	: "",
+		"status"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/andrew-ginter.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Stop Protecting Information",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": ""
+	},
+
+	{
+		"id"		: "",
+		"type"		: "session",
+		"name"		: "Michael Firstenberg",
+		"role"		: "Director, Industrial Security",
+		"work"		: "Waterfall Security",
+		"country"	: "",
+		"shortcode"	: "",
+		"status"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/temp.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Future of Ransomware",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": ""
+	},
+
+	{
+		"id"		: "",
+		"type"		: "session",
+		"name"		: "Michal Paulski",
+		"role"		: "OT Security Architect",
+		"work"		: "Accenture",
+		"country"	: "",
+		"shortcode"	: "",
+		"status"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/michal-paulski.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"DevSecOps in ICS over data diode",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": ""
+	},
+
+	{
+		"id"		: "",
+		"type"		: "session",
+		"name"		: "Wissam Al-Nasairi",
+		"role"		: "X.0 and OT Security Lead",
+		"work"		: "Accenture",
+		"country"	: "",
+		"shortcode"	: "",
+		"status"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/wissam-al-nasairi.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Application of RAMS methodologies in OT Security",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": ""
+	},
+
+	{
+		"id"		: "",
+		"type"		: "session",
+		"name"		: "Ignacio Moreno Canadas",
+		"role"		: "OT Security Consultant",
+		"work"		: "Accenture",
+		"country"	: "",
+		"shortcode"	: "",
+		"status"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/ignacio-moreno-canadas.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Application of RAMS methodologies in OT Security",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": ""
+	},
+
+	{
+		"id"		: "",
+		"type"		: "session",
+		"name"		: "Nour Fateen",
+		"role"		: "Threat Expert",
+		"work"		: "Recorded Future",
+		"country"	: "",
+		"shortcode"	: "",
+		"status"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/nour-fateen.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Detecting and Tracking RATs in the Energy Sector",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": ""
+	},
+
+	{
+		"id"		: "",
+		"type"		: "session",
+		"name"		: "Andrew Tsonchev",
+		"role"		: "Director of Technology",
+		"work"		: "Darktrace",
+		"country"	: "",
+		"shortcode"	: "",
+		"status"	: "",
+		"image" 	: "https://cs3sthlm.se/assets/speakers/andrew-tsonchev.png",
+		
+		
+		
+
+		"presentation":{
+		
+			"active": 	"live",
+			"title": 	"Operational Integrity: Safeguarding Your OT Systems With Cyber AI",
+			"partner":	"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/.png",
+			"description": ""
+		
+		},
+		
+		"training": {
+			"active": "none",
+			"title": "",
+			"partner": "",
+			"name":		"",
+			"role":		"",
+			"work":		"",
+			"image":	"https://cs3sthlm.se/assets/speakers/",
+			"description": "",
+			"excerpt":	""
+		},
+		
+
+		"bio": ""
 	}
 
 ]
