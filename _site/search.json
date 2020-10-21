@@ -477,17 +477,17 @@
   
    {
      
-        "title"    : "Omer Zohar",
-        "url"      : "/about/archive/speakers/omer-zohar",
-        "path"     : "/about/archive/speakers/omer-zohar"
+        "title"    : "Erik Hjelmvik",
+        "url"      : "/archive/speakers/erik-hjelmvik",
+        "path"     : "/archive/speakers/erik-hjelmvik"
      
    },
   
    {
      
-        "title"    : "Erik Hjelmvik",
-        "url"      : "/archive/speakers/erik-hjelmvik",
-        "path"     : "/archive/speakers/erik-hjelmvik"
+        "title"    : "Erik Z Johansson",
+        "url"      : "/about/archive/speakers/erik-z-johansson",
+        "path"     : "/about/archive/speakers/erik-z-johansson"
      
    },
   
@@ -829,9 +829,9 @@
   
    {
      
-        "title"    : "Erik Z Johansson",
-        "url"      : "/about/archive/speakers/erik-z-johansson",
-        "path"     : "/about/archive/speakers/erik-z-johansson"
+        "title"    : "Omer Zohar",
+        "url"      : "/about/archive/speakers/omer-zohar",
+        "path"     : "/about/archive/speakers/omer-zohar"
      
    },
   
@@ -996,14 +996,6 @@
         "title"    : "Bug hunting in cloud connected ICS devices: Getting root from the cloud",
         "url"      : "/program/presentations/kelly-leuschner/",
         "path"     : "/program/presentations/kelly-leuschner/"
-     
-   },
-  
-   {
-     
-        "title"    : "Smarter Shipping. Hacking floating ICS for fun and profit",
-        "url"      : "/program/presentations/ken-munro/",
-        "path"     : "/program/presentations/ken-munro/"
      
    },
   
