@@ -305,6 +305,14 @@
   
    {
      
+        "title"    : "Smarter Shipping. Hacking floating ICS for fun and profit",
+        "url"      : "/program/presentations/andrew-tierney/",
+        "path"     : "/program/presentations/andrew-tierney/"
+     
+   },
+  
+   {
+     
         "title"    : "Operational Integrity: Safeguarding Your OT Systems With Cyber AI",
         "url"      : "/program/presentations/andrew-tsonchev/",
         "path"     : "/program/presentations/andrew-tsonchev/"
@@ -368,14 +376,6 @@
         "title"    : "Application of RAMS methodologies in OT Security",
         "url"      : "/program/presentations/ignacio-moreno-canadas/",
         "path"     : "/program/presentations/ignacio-moreno-canadas/"
-     
-   },
-  
-   {
-     
-        "title"    : "Anton Shipulin",
-        "url"      : "/about/archive/speakers/anton-shipulin",
-        "path"     : "/about/archive/speakers/anton-shipulin"
      
    },
   
@@ -477,17 +477,17 @@
   
    {
      
-        "title"    : "Erik Hjelmvik",
-        "url"      : "/archive/speakers/erik-hjelmvik",
-        "path"     : "/archive/speakers/erik-hjelmvik"
+        "title"    : "Omer Zohar",
+        "url"      : "/about/archive/speakers/omer-zohar",
+        "path"     : "/about/archive/speakers/omer-zohar"
      
    },
   
    {
      
-        "title"    : "Erik Z Johansson",
-        "url"      : "/about/archive/speakers/erik-z-johansson",
-        "path"     : "/about/archive/speakers/erik-z-johansson"
+        "title"    : "Erik Hjelmvik",
+        "url"      : "/archive/speakers/erik-hjelmvik",
+        "path"     : "/archive/speakers/erik-hjelmvik"
      
    },
   
@@ -829,9 +829,9 @@
   
    {
      
-        "title"    : "Omer Zohar",
-        "url"      : "/about/archive/speakers/omer-zohar",
-        "path"     : "/about/archive/speakers/omer-zohar"
+        "title"    : "Erik Z Johansson",
+        "url"      : "/about/archive/speakers/erik-z-johansson",
+        "path"     : "/about/archive/speakers/erik-z-johansson"
      
    },
   
@@ -928,6 +928,14 @@
         "title"    : "Dieter Sarrazyn",
         "url"      : "/about/archive/speakers/dieter-sarrazyn",
         "path"     : "/about/archive/speakers/dieter-sarrazyn"
+     
+   },
+  
+   {
+     
+        "title"    : "Anton Shipulin",
+        "url"      : "/about/archive/speakers/anton-shipulin",
+        "path"     : "/about/archive/speakers/anton-shipulin"
      
    },
   

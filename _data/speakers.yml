@@ -439,34 +439,39 @@
   training:
     - active: none
 
-# - id:
-#   type: presentation
-#   permalink:
-#   name: Ken Munro
-#   role: Partner & Founder
-#   work: Pen Test Partner
-#   country: United Kingdom
-#   shortcode: UK
-#   image: ken-munro.png
-#   bio: Ken Munro is Partner and Founder of Pen Test Partners, a firm of ethical hackers. He regularly blogs  on everything from ICS issues in maritime security to hacking cars and the Internet of Things. This  has led to regular appearances on BBC TV and BBC News online as well as the broadsheet press. He  also writes for various newspapers and industry magazines in an effort to get beyond the unhelpful  scaremongering put about by many security vendors. Ken has become a voice for reform and  legislative change, briefing UK and US government departments as well as being involved with various EU consumer councils. He has also spoken about ICS and SCADA security issues at various  maritime events such as Digital Ship Rotterdam/Oslo/Limassol, GibCyber, Maritime Cyber Security  Summit, and CMA Shipping.
-#   date:
-#   time:
-#   place:
-#   speaker:
-#     - name: Ken Munro
-#       role: Partner & Founder
-#       image: ken-munro
-#   presentation:
-#     - active: inactive
-#       subject: Smarter Shipping. Hacking floating ICS for fun and profit
-#       permalink: program/presentations/ken-munro/
-#       partner: 
-#       description: |
-#         Regardless of the type and scale of the vessels that we test in our security assessments there are a  set of common security issues that always seem to be present. Whether it’s a Moss Maritime CS55  deep water exploration drilling rig, a Neo-Panamax container ship, a re-supply vessel, a seabed  survey vessel, or a brand-new cruise ship on its shakedown voyage, some things just keep cropping  up. 
+- id:
+  type: presentation
+  permalink:
+  name: Andrew Tierney
+  role: Security Consultant
+  work: Pen Test Partners
+  country: United Kingdom
+  shortcode: UK
+  image: andrew-tierney.png
+  bio: |
+    Andrew leads the hardware team at Pen Test Partners. He covers all systems that aren't general purpose computers: IoT, phones, cars, ships, planes and industrial control. On the offensive side, he has spent many years reverse engineering, researching and finding vulnerabilities in these systems.
 
-#         We’ll talk about the distinct lack of understanding and interaction between IT and OT  installers/engineers on board and in the yard. The issue here is that OT systems are often accessible  from the IT systems and vice versa, often through deliberate bypass of security features by those on  board, or through poor design / poor password management / weak patch management. 
-#   training:
-#     - active: none
+    On the defensive side, he takes the knowledge gained from research and advises companies on how to build secure products. This ranges from the nitty-gritty of securing devices against physical attack, through to developing complete connected platforms that make use of defence-in-depth so that they can stay secure through the entire lifecycle of the product.
+
+    He trains people how to attack and defend hardware, with customers ranging from medical device manufacturers through to police forensics teams.
+  date:
+  time:
+  place:
+  speaker:
+    - name: Andrew Tierney
+      role: Security Consultant
+      image: andrew-tierney
+  presentation:
+    - active: live
+      subject: Smarter Shipping. Hacking floating ICS for fun and profit
+      permalink: program/presentations/andrew-tierney/
+      partner: 
+      description: |
+        Regardless of the type and scale of the vessels that we test in our security assessments there are a  set of common security issues that always seem to be present. Whether it’s a Moss Maritime CS55  deep water exploration drilling rig, a Neo-Panamax container ship, a re-supply vessel, a seabed  survey vessel, or a brand-new cruise ship on its shakedown voyage, some things just keep cropping  up. 
+
+        We’ll talk about the distinct lack of understanding and interaction between IT and OT  installers/engineers on board and in the yard. The issue here is that OT systems are often accessible  from the IT systems and vice versa, often through deliberate bypass of security features by those on  board, or through poor design / poor password management / weak patch management. 
+  training:
+    - active: none
 
 
 - id:
