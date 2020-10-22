@@ -5,9 +5,31 @@
     <description>CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 22 Oct 2020 07:15:56 +0000</pubDate>
-    <lastBuildDate>Thu, 22 Oct 2020 07:15:56 +0000</lastBuildDate>
+    <pubDate>Thu, 22 Oct 2020 13:33:39 +0000</pubDate>
+    <lastBuildDate>Thu, 22 Oct 2020 13:33:39 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>EXTRA PRESS RELEASE FROM CS3STHLM</title>
+        <description>&lt;p&gt;NORTHERN EUROPE’S LEADING CONFERENCE ON CYBER SECURITY AND ICS/SCADA, CS3STHLM, ANNOUNCES,:&lt;/p&gt;
+
+&lt;p&gt;Andy Greenberg, author of ”Sandworm: A New Era of Cyberwar and the Hunt for the Kremlin’s Most Dangerous Hackers”  will appear live on link to comment the fact that Sandworm is yet again making headlines thanks to the unsealing of Department of Justice/FBI indictment.&lt;/p&gt;
+
+&lt;p&gt;In the aftermath of the dramatic events this week Andy Greenberg has agreed to partake live on link in CS3STHLM on this specific subject.&lt;/p&gt;
+
+&lt;p&gt;Robert Malmgren, co founder of&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;”-We are so grateful that Andy has made time for us in his extremely busy schedule, it’s invaluable to get a direct comment from a world leading authority!”&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Thu, 22 Oct 2020 04:00:00 +0000</pubDate>
+        <link>/press/2020/10/22/cs3sthlm-press-extra.html</link>
+        <guid isPermaLink="true">/press/2020/10/22/cs3sthlm-press-extra.html</guid>
+        
+        
+        <category>press</category>
+        
+      </item>
     
       <item>
         <title>CS3STHLM seventh conference on Cyber Security</title>
@@ -257,36 +279,6 @@ Please subscribe!&lt;/p&gt;
         <pubDate>Fri, 14 Feb 2020 05:00:00 +0000</pubDate>
         <link>/blog/cs3sthlm-2020-theme-smarter/</link>
         <guid isPermaLink="true">/blog/cs3sthlm-2020-theme-smarter/</guid>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>2019 Releases of Recordings</title>
-        <description>&lt;h1 class=&quot;blog-title&quot; itemprop=&quot;name headline&quot;&gt;2019 Releases of Recordings&lt;/h1&gt;
-
-&lt;p&gt;We are working with releasing recordings from the 2019 conference. They
-are added to the youtube channel as they gets finished (edited, mixed),
-and after we receive the OK from the presenter. Videos are available at 
-the following URL &lt;a href=&quot;https://www.youtube.com/cs3sthlm&quot;&gt;https://www.youtube.com/cs3sthlm&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;We have gotten some questions about the keynotes: Andy Greenberg and
-Norsk Hydro Ransomware attack. The Hydro Ransomware attack was presented
-with the condition that it would not be recorded and published. So if
-you attended the conference you got an exclusive brefing which others
-will miss. We agreed with Andy Greenberg to delay his Sandworm keynote,
-since he is currently on a book tour. The recording of the Sandworm
-keynote will be released later this year.&lt;/p&gt;
-
-&lt;p&gt;We will also add a movie archive at the cs3sthlm home page, from where
-one can reach all recordings from previous cs3sthlm conferences. We will
-announce it via another blog post when that work is finished!&lt;/p&gt;
-</description>
-        <pubDate>Fri, 14 Feb 2020 04:00:00 +0000</pubDate>
-        <link>/blog/2019-releases-of-recordings/</link>
-        <guid isPermaLink="true">/blog/2019-releases-of-recordings/</guid>
         
         
         <category>blog</category>
