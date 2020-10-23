@@ -5,9 +5,38 @@
     <description>CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 22 Oct 2020 13:33:39 +0000</pubDate>
-    <lastBuildDate>Thu, 22 Oct 2020 13:33:39 +0000</lastBuildDate>
+    <pubDate>Fri, 23 Oct 2020 15:56:38 +0000</pubDate>
+    <lastBuildDate>Fri, 23 Oct 2020 15:56:38 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>CS3STHLM 2020 - Thank You!</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/cs3sthlm-logo-heart.png&quot; alt=&quot;CS3STHLM Thank You&quot; class=&quot;post-image-full-width col-3-8&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;thank-you&quot;&gt;Thank You!&lt;/h2&gt;
+
+&lt;p&gt;The CS3STHLM of 2020 is over, and a reflection is that the virtual event went even better than we could hope for. The basis of CS3STHLM is the content, and we are familliar with that part – but everything else in the event production was new to us!&lt;/p&gt;
+
+&lt;p&gt;From the organizing side of CS3STHLM, we would like to express our warmest gratitude to everyone involved in making this years Summit, Expo and Sessions such a success! We would like to give a big shoutout to all content providers and speakers, trainers - without you the event would not have been possible, and it was a honour to work with you! Special thanks goes out to our partners: Accenture Security, Darktrace, Kaspersky, Recorded Future, Sectra, sysctl, Trend Micro, Waterfall Security Solutions and also to the crews at Dynamic Duo, WeareBryssel, Scenteknik, Nikka systems, and all staff at Nalen.&lt;/p&gt;
+
+&lt;p&gt;As a content provider - we have already opened the &lt;a href=&quot;mailto:cfp@cs3sthlm.se&quot;&gt;cfp@cs3sthlm.se&lt;/a&gt; for submissions to the 2021 event!&lt;/p&gt;
+
+&lt;p&gt;If you have critics, comments or ideas for enhancements we would like to hear from you. Everything that can make CS3STHLM even better we would like to know! Mail us at &lt;a href=&quot;mailto:info@cs3sthlm.se&quot;&gt;info@cs3sthlm.se&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you have ideas for topics, presenters, content, areas of special interest, things that earns a deep dive, please reach out to us at &lt;a href=&quot;mailto:info@cs3sthlm.se&quot;&gt;info@cs3sthlm.se&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Your input is important to us.&lt;/p&gt;
+
+&lt;p&gt;And once again – thank you!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 23 Oct 2020 04:00:00 +0000</pubDate>
+        <link>/news/2020/10/23/cs3sthlm-thank-you.html</link>
+        <guid isPermaLink="true">/news/2020/10/23/cs3sthlm-thank-you.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
     
       <item>
         <title>EXTRA PRESS RELEASE FROM CS3STHLM</title>
@@ -261,27 +290,6 @@ Please subscribe!&lt;/p&gt;
         
         
         <category>news</category>
-        
-      </item>
-    
-      <item>
-        <title>CS3STHLM 2020 Theme Smarter!</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/cs3sthlm-heart.png&quot; class=&quot;blog-content-image-half&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 class=&quot;blog-title&quot; itemprop=&quot;name headline&quot;&gt;CS3STHLM 2020 Theme Smarter!&lt;/h1&gt;
-
-&lt;h2 id=&quot;we-have-chosen-smarter-as-the-theme-for-the-2020-conference&quot;&gt;We have chosen &lt;strong&gt;&lt;em&gt;Smarter!&lt;/em&gt;&lt;/strong&gt; as the theme for the 2020 conference.&lt;/h2&gt;
-
-&lt;p&gt;There are many reasons for this selection: “Smart” is used to describe many current things in the cyber industry – such as “SmartGrid”, “Smart Meters”, “Smart Cities” and “smart vehicles”. Smarter is also what the adversaries have become, finding more exotic vulnerabilities, and launching attacks built with increasing domain knowledge and sophistication. We, as people working in this profession, must be smarter, and we must design and implement smarter methods, tactics and solutions to be able to detect and protect against these attacks.   At the same time, we cannot forget that we live in a complicated world where “stupid” still is a highly viable option: “Admin/admin” is still used as login combinations! End-of-life firewalls are still in use! Old bugs are forever days as updates are not done! And separation of sensitive infrastructure from the rest of the business is still not done!&lt;/p&gt;
-
-&lt;p&gt;We anticipate submissions from speaker candidates that will be describing new and smart solutions. We also expect presentations that analyses, or describes different attacks, on the stupid, on the broken, or even the smart.   No matter the mix of “smarter” or ”stupid” in presentations, trainings and hallway tracks, we know that all participants will be leaving CS3STHLM 2020 Smarter!&lt;/p&gt;
-</description>
-        <pubDate>Fri, 14 Feb 2020 05:00:00 +0000</pubDate>
-        <link>/blog/cs3sthlm-2020-theme-smarter/</link>
-        <guid isPermaLink="true">/blog/cs3sthlm-2020-theme-smarter/</guid>
-        
-        
-        <category>blog</category>
         
       </item>
     

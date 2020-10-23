@@ -1226,6 +1226,10 @@
 		letter-spacing: 2px;
 		color: $white;
 	}
+
+	&-not-active {
+		background: $red;
+	}
 }
 
 

@@ -1,6 +1,13 @@
 [
   
     {
+      "title"    : "CS3STHLM 2020 - Thank You!",
+      "url"      : "/news/2020/10/23/cs3sthlm-thank-you.html",
+      "date"     : "2020-10-23 04:00:00 +0000",
+      "path"     : "/news/2020/10/23/cs3sthlm-thank-you.html"
+    },
+  
+    {
       "title"    : "EXTRA PRESS RELEASE FROM CS3STHLM",
       "url"      : "/press/2020/10/22/cs3sthlm-press-extra.html",
       "date"     : "2020-10-22 04:00:00 +0000",
@@ -484,17 +491,17 @@
   
    {
      
-        "title"    : "Omer Zohar",
-        "url"      : "/about/archive/speakers/omer-zohar",
-        "path"     : "/about/archive/speakers/omer-zohar"
+        "title"    : "Erik Hjelmvik",
+        "url"      : "/archive/speakers/erik-hjelmvik",
+        "path"     : "/archive/speakers/erik-hjelmvik"
      
    },
   
    {
      
-        "title"    : "Erik Hjelmvik",
-        "url"      : "/archive/speakers/erik-hjelmvik",
-        "path"     : "/archive/speakers/erik-hjelmvik"
+        "title"    : "Erik Z Johansson",
+        "url"      : "/about/archive/speakers/erik-z-johansson",
+        "path"     : "/about/archive/speakers/erik-z-johansson"
      
    },
   
@@ -796,14 +803,6 @@
   
    {
      
-        "title"    : "Support",
-        "url"      : "/support/",
-        "path"     : "/support/"
-     
-   },
-  
-   {
-     
         "title"    : "Partners",
         "url"      : "/partners/",
         "path"     : "/partners/"
@@ -836,9 +835,9 @@
   
    {
      
-        "title"    : "Erik Z Johansson",
-        "url"      : "/about/archive/speakers/erik-z-johansson",
-        "path"     : "/about/archive/speakers/erik-z-johansson"
+        "title"    : "Omer Zohar",
+        "url"      : "/about/archive/speakers/omer-zohar",
+        "path"     : "/about/archive/speakers/omer-zohar"
      
    },
   
