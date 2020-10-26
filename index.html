@@ -27,8 +27,7 @@ image: /assets/bg-2019.png
 
     <div class="button-group button-group-intro button-group-intro-three">
       <a href="mailto:info@cs3sthlm.se?subject=Interested to become part of CS3STHLM&body=GDPR Notice: By sending this mail I acknowledge that the company Omnisiens AB, running the conference CS3sthlm, have the right to store and use my personal identifiable information for information related to CS3sthlm, conferences, training and courses, etc." class="button button-blue">Keep Me Posted!</a>
-      <!--<a href="{{ site.baseurl }}/call-for-participation" class="button button-primary button-green">Call for Participation</a>-->
-      <a href="https://hopin.to/events/cs3sthlm-2020" class="button button-primary button-yellow" target="_blank">Buy A Ticket</a>
+      <a href="{{ site.baseurl }}/call-for-participation" class="button button-primary button-green">Call for Participation</a>
     </div>
   </div>
 
@@ -91,23 +90,25 @@ image: /assets/bg-2019.png
             <p>Robert Malmgren and Erik Johansson, two leading Swedish industrial security specialists, are the organizers of CS3STHLM. Their practical experiences are fundamental for the success of this summit.</p>
         </div>
       </div>
-    
     </div>
 
     <div class="column-block">
       <div class="column-block-item col-8-8">
         <div class="card-item card-item-filled card-item-row">
-    <h4 class="sub-headline col-8-8">History</h4>
-    {% assign sorthistory = site.data.history | sort:'year' | reverse %}
-    {% for card in sorthistory %}
-    {% unless card.type contains "expo" %}
-    <div class="card-details-block">
-      <h2 class="subtitle subtitle-yellow">{{ card.year }}</h2>
-      <h3 class="heading">{{ card.location }}</h3>
-      <p>{{ card.date }}</p>
-    </div>
-    {% endunless %}
-    {% endfor %}
+          <div class="card-item-header col-8-8">
+            <h4 class="sub-headline col-6-8">History</h4>
+            <a href="{{ site.baseurl }}/about/history/" class="sub-headline">View all history</a>
+          </div>
+          {% assign sorthistory = site.data.history | sort:'year' | reverse %}
+          {% for card in sorthistory limit: 8 %}
+          {% unless card.type contains "expo" %}
+          <div class="card-details-block">
+            <h2 class="subtitle subtitle-yellow">{{ card.year }}</h2>
+            <h3 class="heading">{{ card.location }}</h3>
+            <p>{{ card.date }}</p>
+          </div>
+          {% endunless %}
+          {% endfor %}
         </div>
       </div>
     </div>

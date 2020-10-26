@@ -245,6 +245,14 @@ p.content-intro {
 	}
 }
 
+a.sub-headline {
+	@include transition-ease;
+
+	&:hover {
+		color: $yellow;
+	}
+}
+
 /* MISC */
 .card-item-list {
 	font-family: 'latoregular', sans-serif;
@@ -254,6 +262,7 @@ p.content-intro {
 	color: $white;
 
 	list-style: none;
+	flex-grow: 1;
 
 	@include media-query-min($giant) {
 		font-size: 21px;
@@ -271,6 +280,14 @@ p.content-intro {
 		span {
 			display: inline-block;
 			margin-right: 6px;
+		}
+	}
+
+	&-special {
+		margin-top: 24px;
+
+		&:before {
+			display: none;
 		}
 	}
 }

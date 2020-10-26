@@ -10,7 +10,7 @@ layout: default
 
 	<div class="content-header">
 		<div class="col-8-8">
-  			<h4 class="sub-headline">2014 - 2019</h4>
+  			<h4 class="sub-headline">2014 - 2020</h4>
     		<h2 class="title title-yellow">Our Past Events</h2>
     	</div>
     </div>
@@ -27,12 +27,17 @@ layout: default
 		<ul class="card-item-list">
 			<li><span>{{ card.nr-topics }}</span>Topics</li>
 			<li><span>{{ card.nr-speakers }}</span>Speakers</li>
+			{% if card.nr-workshops.size > 0 %}
 			<li><span>{{ card.nr-workshops }}</span>Workshops</li>
+			{% endif %}
 			<li><span>{{ card.nr-attendees }}</span>Attendees</li>
+			{% if card.special.size > 0 %}
+			<li class="card-item-list-special"><span>{{ card.special }}</span></li>
+			{% endif %}
 		</ul>
 
 		{% if card.youtube contains "Coming soon" %}
-		<a href="#!" target="_blank" class="button button-primary button-yellow-inactive">Coming soon</a>
+		<span class="button button-primary button-yellow-inactive">Coming soon</span>
 		{% else %}
 		<a href="{{ card.youtube }}" target="_blank" class="button button-primary button-yellow">View at YouTube</a>
 		{% endif %}
