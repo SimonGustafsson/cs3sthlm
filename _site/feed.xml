@@ -5,9 +5,37 @@
     <description>CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 27 Oct 2020 09:56:11 +0000</pubDate>
-    <lastBuildDate>Tue, 27 Oct 2020 09:56:11 +0000</lastBuildDate>
+    <pubDate>Mon, 30 Nov 2020 09:49:28 +0000</pubDate>
+    <lastBuildDate>Mon, 30 Nov 2020 09:49:28 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>CS3STHLM Newsletter November 2020</title>
+        <description>&lt;p&gt;Greetings from a Stockholm that this time of year can easily be summarized with the color grey. We bring you good news on how to handle early winter and Corona restrictions!&lt;/p&gt;
+
+&lt;h3 id=&quot;cs3sthlm-2020-video-on-demand-tickets-are-for-sale&quot;&gt;CS3STHLM 2020 Video on Demand tickets are for sale!&lt;/h3&gt;
+
+&lt;p&gt;The ticket price is &lt;strong&gt;EUR 299&lt;/strong&gt; (including Swedish VAT 25%) and it gives you access to all presentations from the October event to watch whenever it suits you the best.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, when buying the CS3STHLM 2020 VoD service you will be granted the purchase amount as a discount on next year’s Summit, be it physical or digital – or both!&lt;/p&gt;
+
+&lt;p&gt;The CS3STHLM 2020 presentations will &lt;strong&gt;not&lt;/strong&gt; be available on YouTube as they usually are.&lt;/p&gt;
+
+&lt;h3 id=&quot;training&quot;&gt;Training!&lt;/h3&gt;
+
+&lt;p&gt;Sadly, during the CS3STHLM event this year we did not manage to arrange any trainings or workshops. Now we have been discussing to start an “ICS Gym” activity already the coming spring, and we would love to have some input from you on that issue. What type of training would you need to expand your knowledge? Are you experienced in something that others might need to learn? Every type of subject within the Cyber Security range, and in length from 20 minutes to 2 days are of interest for us. Please give us your thoughts on the whats and hows of knowledge sharing to &lt;a href=&quot;mailto:info@cs3sthlm.se&quot;&gt;info@cs3sthlm&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Best wishes from the CS3STHLM crew&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 26 Nov 2020 04:00:00 +0000</pubDate>
+        <link>/news/2020/11/26/cs3sthlm-newsletter-novemeber.html</link>
+        <guid isPermaLink="true">/news/2020/11/26/cs3sthlm-newsletter-novemeber.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
     
       <item>
         <title>CS3STHLM 2020 - Thank You!</title>
@@ -262,34 +290,6 @@ and you can find the presentations here - &lt;a href=&quot;https://www.cs3sthlm.
         
         
         <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>CS3STHLM Newsletter February</title>
-        <description>&lt;p&gt;We are announcing the CS3STHLM 2020 Call For Presentations, which of course also includes suggestions for Trainings and Workshops! Submission deadline is set on March 15, and notifications will start a month later. See the submission details at &lt;a href=&quot;https://www.cs3sthlm.se/call-for-participation/&quot;&gt;cs3sthlm.se/call-for-participation/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Please do take a moment to read our all-embracing Code of Conduct, it is formed as a vision test for reasons! You can find it on our web page under Practical Details.&lt;/p&gt;
-
-&lt;p&gt;We are closely watching the outbreak of the Coronavirus (COVID-19) but it is at this point too soon to see how this will affect the situation in October. More news to come on this issue, but we have started to form a plan B. And a plan C.&lt;/p&gt;
-
-&lt;p&gt;The CS3STHLM 2020 Theme is Smarter! because our aim is that we all get smarter as a result of the event! &lt;a href=&quot;https://www.cs3sthlm.se/blog/cs3sthlm-2020-theme-smarter/&quot;&gt;cs3sthlm.se/blog/cs3sthlm-2020-theme-smarter/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Have you found our YouTube channel: &lt;a href=&quot;https://www.youtube.com/cs3sthlm&quot;&gt;youtube.com/cs3sthlm&lt;/a&gt; yet? All videos from CS3STHLM 2019 will be published there, apart from the opt-out ones, of course. 
-Please subscribe!&lt;/p&gt;
-
-&lt;p&gt;Do not forget - Early Bird discount 20% for summit tickets until end of March 2020!&lt;/p&gt;
-
-&lt;p&gt;These Summit-only tickets can later be combined with tickets for trainings and workshops.&lt;/p&gt;
-
-&lt;p&gt;Best wishes from the CS3STHLM crew&lt;/p&gt;
-</description>
-        <pubDate>Thu, 20 Feb 2020 04:00:00 +0000</pubDate>
-        <link>/news/2020/02/20/cs3sthlm-newsletter-february.html</link>
-        <guid isPermaLink="true">/news/2020/02/20/cs3sthlm-newsletter-february.html</guid>
-        
-        
-        <category>news</category>
         
       </item>
     
