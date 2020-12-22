@@ -5,9 +5,60 @@
     <description>CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 30 Nov 2020 11:02:04 +0000</pubDate>
-    <lastBuildDate>Mon, 30 Nov 2020 11:02:04 +0000</lastBuildDate>
+    <pubDate>Tue, 22 Dec 2020 12:51:18 +0000</pubDate>
+    <lastBuildDate>Tue, 22 Dec 2020 12:51:18 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>CS3STHLM Newsletter December 2020</title>
+        <description>&lt;p&gt;Hohoho!&lt;/p&gt;
+
+&lt;p&gt;When you read this Stockholm has passed the winter solstice (Mo 21 Dec 11.02 local time) and is finally going in the right direction! At least regarding daylight time, which with Sweden’s zero hours of visible sun should not be too hard to achieve. We are also near the holidays, which we would like to celebrate by giving you all a gift!&lt;/p&gt;
+
+&lt;h4 id=&quot;ross-andersonss-presentation-on-the-cs3sthlm-youtube-channel&quot;&gt;Ross Andersons’s presentation on the CS3STHLM YouTube channel!&lt;/h4&gt;
+&lt;p&gt;The keynote presentation from CS3STHLM 2020 has been uploaded to our YouTube channel. The keynote was given by the inspirational Ross J Anderson, Professor of Security Engineering at the Department of Computer Science and Technology, at the University of Cambridge. So we wish you all a Happy Hogmanay with this link to the presentation:
+https://www.youtube.com/watch?v=jX2CoZkz8J4&lt;/p&gt;
+
+&lt;p&gt;Many of you might have heard of the ongoing &lt;strong&gt;SUNBURST/SOLORIGATE&lt;/strong&gt; incident. This is a major incident and the impact grows while the investigations uncover more and more TTP’s, victims and other info. Many of CS3sthlm alumni has been active in covering this, done in-depth analysis or helpt creating tools to do post mortem analysis. Here are some of them:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Joe Slowik has a great text at the Domaintools blog -
+&lt;a href=&quot;https://www.domaintools.com/resources/blog/continuous-eruption-further-analysis-of-the-solarwinds-supply-incident&quot;&gt;https://www.domaintools.com/resources/blog/continuous-eruption-further-analysis-of-the-solarwinds-supply-incident&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Kim Zetter has covered several things including early signs -
+&lt;a href=&quot;https://news.yahoo.com/hackers-last-year-conducted-a-dry-run-of-solar-winds-breach-215232815.html&quot;&gt;https://news.yahoo.com/hackers-last-year-conducted-a-dry-run-of-solar-winds-breach-215232815.html&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Erik Hjelmvik has a tool to reassemble victim data -
+&lt;a href=&quot;https://www.netresec.com/?page=Blog&amp;amp;month=2020-12&amp;amp;post=Reassembling-Victim-Domain-Fragments-from-SUNBURST-DNS&quot;&gt;https://www.netresec.com/?page=Blog&amp;amp;month=2020-12&amp;amp;post=Reassembling-Victim-Domain-Fragments-from-SUNBURST-DNS&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Rob M. Lee of Dragos has  been interviewed multiple times, for example
+for CBS new - &lt;a href=&quot;https://twitter.com/i/status/1339720071946625033&quot;&gt;https://twitter.com/i/status/1339720071946625033&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;cs3sthlm-2020-video-on-demand-tickets-are-for-sale&quot;&gt;CS3STHLM 2020 Video on Demand tickets are for sale!&lt;/h3&gt;
+&lt;p&gt;The ticket price is EUR 299 (including Swedish VAT 25%) and it gives you access to all presentations from the October event to watch whenever it suits you the best.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, when buying the CS3STHLM 2020 VoD service you will be granted the purchase amount as a discount on next year’s Summit, be it physical or digital – or both!&lt;/p&gt;
+
+&lt;p&gt;This link will get you to the registration page: &lt;a href=&quot;https://vod.cs3sthlm.com/&quot;&gt;https://vod.cs3sthlm.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The CS3STHLM 2020 presentations will not be available on YouTube as they usually are. Except for Ross Anderson, as said above!&lt;/p&gt;
+
+&lt;p&gt;Best wishes from the CS3STHLM crew&lt;/p&gt;
+</description>
+        <pubDate>Mon, 21 Dec 2020 04:00:00 +0000</pubDate>
+        <link>/news/2020/12/21/cs3sthlm-newsletter-december.html</link>
+        <guid isPermaLink="true">/news/2020/12/21/cs3sthlm-newsletter-december.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
     
       <item>
         <title>CS3STHLM Newsletter November 2020</title>
@@ -260,33 +311,6 @@ and you can find the presentations here - &lt;a href=&quot;https://www.cs3sthlm.
         <pubDate>Mon, 23 Mar 2020 04:00:00 +0000</pubDate>
         <link>/blog/the-locked-shields-sessions/</link>
         <guid isPermaLink="true">/blog/the-locked-shields-sessions/</guid>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Submissions to the 2020 CFP</title>
-        <description>&lt;h1 class=&quot;blog-title&quot; itemprop=&quot;name headline&quot;&gt;Submissions to the 2020 CFP&lt;/h1&gt;
-
-&lt;p&gt;With the deadline of the 2020 CFP submission getting closer we have started to get some great submissions, but we are always looking for more content to get a good mix. We welcome presenters from the whole globe, and so far we have had people presenting from most continents, except Australia and the both poles!&lt;/p&gt;
-
-&lt;p&gt;We want to have a good balance of policy and technical presentations since we want to have a mixed audience that needs to be exposed to all parts of the protection of critical infrastructure.&lt;/p&gt;
-
-&lt;p&gt;We can always see some interesting examples of IIoT, incident response, successful deployment of new technology, new security research, low-level attacks, new models and methods to discover attacks. A full list of various areas and special topics of interest is included in the info PDF (see  below)&lt;/p&gt;
-
-&lt;p&gt;For several years we have had authors presenting - such as Kim Zetter, Andy Greenberg, Rob M Lee etc - and have had their books distributed to participants as part of their talks. If you are an author in this field, please consider contacting us to present and we will discuss possibilities for book signing, book distributions, etc.&lt;/p&gt;
-
-&lt;p&gt;You can find the general information page on CFP here: &lt;a href=&quot;https://cs3sthlm.se/call-for-participation/&quot;&gt;/call-for-participation/&lt;/a&gt; and you find the PDF describing the CPF here: &lt;a href=&quot;https://cs3sthlm.se/assets/pdf/cs3sthlm-cfp-2020.pdf&quot;&gt;/cs3sthlm-cfp-2020.pdf&lt;/a&gt; and the submission page here: &lt;a href=&quot;https://cs3sthlm.se/assets/pdf/cs3sthlm-cfp-submission-form-2020.pdf&quot;&gt;/cs3sthlm-cfp-submission-form-2020.pdf&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Remember that the deadline is the 15th of March, and the e-mail address for submissions is cfp@cs3sthlm.se&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;- CS3STHLM Crew&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 05 Mar 2020 04:00:00 +0000</pubDate>
-        <link>/blog/submissions-to-the-2020-cfp/</link>
-        <guid isPermaLink="true">/blog/submissions-to-the-2020-cfp/</guid>
         
         
         <category>blog</category>
