@@ -5,9 +5,32 @@
     <description>CS3sthlm, the premier Cyber Security Conference for ICS/SCADA and Critical Infrastructure, annually in October with pre-summit Trainings and Expo.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 22 Dec 2020 12:51:18 +0000</pubDate>
-    <lastBuildDate>Tue, 22 Dec 2020 12:51:18 +0000</lastBuildDate>
+    <pubDate>Mon, 10 May 2021 13:58:04 +0000</pubDate>
+    <lastBuildDate>Mon, 10 May 2021 13:58:04 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>CS3STHLM Newsletter May 2021</title>
+        <description>&lt;p&gt;To all friends of CS3STHLM&lt;/p&gt;
+
+&lt;p&gt;It is with great sadness we communicate the cancellation of the 2021 CS3STHLM.&lt;/p&gt;
+
+&lt;p&gt;Like many others worldwide, we are going through a challenging period during this period of pandemic and that affects business as well as private issues. Due to the challenges of arranging a global conference in a time of a global pandemic, we have decided that there is missing basis for what we aim to do.&lt;/p&gt;
+
+&lt;p&gt;For those of you who want to support our mission of keeping up the knowledge-sharing, we recommend digging into our video-on-demand material available here: &lt;a href=&quot;https://vod.cs3sthlm.com/product/cs3sthlm-2020-video-on-demand/&quot;&gt;https://vod.cs3sthlm.com/product/cs3sthlm-2020-video-on-demand/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;To all alumni and friends - take care in the pandemic and continue to protect all control systems!&lt;/p&gt;
+
+&lt;p&gt;The whole CS3Sthlm crew&lt;/p&gt;
+</description>
+        <pubDate>Mon, 10 May 2021 04:00:00 +0000</pubDate>
+        <link>/news/2021/05/10/cs3sthlm-newsletter-may.html</link>
+        <guid isPermaLink="true">/news/2021/05/10/cs3sthlm-newsletter-may.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
     
       <item>
         <title>CS3STHLM Newsletter December 2020</title>
@@ -280,40 +303,6 @@ and you can find the presentations here - &lt;a href=&quot;https://www.cs3sthlm.
         
         
         <category>news</category>
-        
-      </item>
-    
-      <item>
-        <title>The Locked Shields Sessions</title>
-        <description>&lt;h1 class=&quot;blog-title&quot; itemprop=&quot;name headline&quot;&gt;The Locked Shields Sessions&lt;/h1&gt;
-
-&lt;p&gt;LockedShields is the largest global cyber exercise. It is hosted by the NATO CCDCOE center in Tallinn, Estonia and runned once a year and involves 1000’s of people from many contries around the world. It is very technical, where a number of blue teams need to defend the society from highly sofisticated cyber attacks from a very large and advanced red team. The red team attacks telecom infrastructure, power utilities, water treatment plants, advanced cloud and virtualisation solutions, and the rest of the information infrastructure that make up a modern society.&lt;/p&gt;
-
-&lt;p&gt;Earlier this month, people around the world received word that the the worlds largest red/blue team cybersecurity exercise, Locked Shields, will be cancled 2020 due to the current situation with Covid-19 all over the world.&lt;/p&gt;
-
-&lt;p&gt;This is a very unfortunate situation for all involved - the people who have spent 1000’s of hours preparing the exercise, all the teams eager awaiting startex, and people wanting to evaluate the exercise.&lt;/p&gt;
-
-&lt;p&gt;In this situation there are at least some nuggets to be found - we are releasing 7 videos on Locked Shields that was recorded at CS3 2019 at our special coverage of cyber exercise &amp;amp; Lock Shield. At that session  all different aspects of running a global, multi-team, highly technical cyber exercise were covered:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Introduction and overview of the whole exercise&lt;/li&gt;
-  &lt;li&gt;What is the The NATO CCDCOE&lt;/li&gt;
-  &lt;li&gt;How the green team build the large infrastructure that host all teams and all activities.&lt;/li&gt;
-  &lt;li&gt;How red teams plan and perform their attacks,&lt;/li&gt;
-  &lt;li&gt;How blue teams work when they are under large scale attacks from competent adversaries,&lt;/li&gt;
-  &lt;li&gt;How the yellow team, how some experts can be the magic glue and isolation between the blue and the white teams for factual and critical information.&lt;/li&gt;
-  &lt;li&gt;How the white team is keeping track what is happening and keeping the scores&lt;/li&gt;
-  &lt;li&gt;How the strategic decision making track was created and handled&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;More detailed information on these presentations and videos can be found at the archived CS3sthlm site for 2019, please check out the wednesday track &lt;a href=&quot;https://cs3sthlm.se/2019/agenda/&quot;&gt;/2019/agenda/&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 23 Mar 2020 04:00:00 +0000</pubDate>
-        <link>/blog/the-locked-shields-sessions/</link>
-        <guid isPermaLink="true">/blog/the-locked-shields-sessions/</guid>
-        
-        
-        <category>blog</category>
         
       </item>
     
